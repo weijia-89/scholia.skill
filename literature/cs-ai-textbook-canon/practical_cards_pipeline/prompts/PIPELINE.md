@@ -77,7 +77,7 @@ bash /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practica
 bash /Users/dubs/Projects/scholia.skill/scripts/verify_practical_cards_pipeline.sh
 ```
 
-**Output harness:** `refresh_pipeline.sh` ends with `verify_pipeline.sh` (PC-P01..P14). After each ChatPRD batch: `--batch <id> --require-returns`. Contract: `/Users/dubs/Projects/scholia.skill/references/output-harness-contract.md`
+**Output verify gate:** `refresh_pipeline.sh` ends with `verify_pipeline.sh` (PC-P01..P14). After each ChatPRD batch: `--batch <id> --require-returns`. Contract: `/Users/dubs/Projects/scholia.skill/references/output-gate-contract.md`
 
 ## Orchestrator
 

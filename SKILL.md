@@ -7,8 +7,8 @@ description: |
   literature skill builder, turn papers into a Cursor skill, build reference library from PDFs.
   Explicit-invoke only — trainer routes in; manual /scholia until disable-model-invocation bug fixed [RECENCY RISK].
 type: project-skill
-version: 0.2.1
-status: v0.2.1 CANON-SHIPPED — W10+S4e+S4 base merged; output modes + C-DG004 + PS-01–PS-12
+version: 0.3.0
+status: v0.3.0 — output harnesses, practical-cards pipeline verify, bounded review loops; W10+S4e+S4 base merged
 authors: Operator + ChatPRD W10/S4e merge
 license: MIT
 disable-model-invocation: true
@@ -250,7 +250,7 @@ See `references/kill-register.md` (K-01–K-07). Platform enforces K-01/K-03 in 
 | `references/practical-usage-consumer-bridge.md` | Consumer wire contract (scholia → downstream) |
 | `scripts/verify_practical_cards.sh` | Implementation card mechanical gate (manifest-driven) |
 | `scripts/verify_practical_cards_pipeline.sh` | Phase-2 pipeline artifact harness (PC-P01..P14) |
-| `references/output-harness-contract.md` | Generator + harness pattern for skill outputs |
+| `references/output-gate-contract.md` | Generator + verify gate pattern for skill outputs |
 | `scripts/lib/review_loop_guard.sh` | Bounded loop circuit breaker (max iters · wall clock · stuck signature) |
 | `scripts/sync_banter_r02_practical_cards_mirror.sh` | Aletheia SSOT → scholia mirror card sync |
 | `references/sub-skills-index.md` | Platform sub-skill map |
