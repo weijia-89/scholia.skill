@@ -1,0 +1,21 @@
+topic_slug: genai-chart-summarization-efficacy
+claim_ids: []
+wire_status: pending
+generated: 2026-06-26
+source_ingests:
+  - ingests/nam_gen_ai_health_2025_sec02_ingest.md
+cards:
+  - exercise_name: GenAI Chart Summarization (evidence row)
+    steps: []
+    cognitive_frame: Consensus report cites outcomes and comparative studies — operational bedside protocol not specified in this corpus slice.
+    observables:
+      - Citations to Van Veen et al. 2024 and Schoonbeek et al. 2024 appear in synthesis
+      - Human oversight and validation caveats preserved from NAM section 2
+    contraindications:
+      - inventing clinical deployment steps not present in NAM text
+      - DEFER to institutional clinical workflow when procedure absent
+    source_anchor: "[read:body] nam_gen_ai_health_2025_sec02_ingest.md §Chart summarization"
+    consumer_wire: null
+    context_tags: [clinical, consensus-report]
+    procedure_gap: true
+    quality_level: procedure_gap

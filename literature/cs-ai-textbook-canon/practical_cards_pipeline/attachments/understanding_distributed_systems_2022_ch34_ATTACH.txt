@@ -1,0 +1,290 @@
+understanding_distributed_systems_2022_ch34_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 34
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch34_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch34_ingest.md)
+========================================================================
+
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 34
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch34_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 34 |
+| **chapter_title** | Final words |
+| **page_range** | 327–328; lines 10372–10445 |
+
+---
+
+## scope
+
+**Epilogue** — learning path beyond the book: build/maintain systems, read industry papers (Azure Storage SOSP'11, Azure Data Explorer), Keshav three-pass paper reading, further books (Kleppmann DDIA, Alex Xu system design interview), author contact and review request.
+
+---
+
+## key_findings
+
+### Continuing learning `[verified]`
+
+1. **Best:** design, build, maintain large-scale systems in industry (10380–10383).
+2. **Second-best:** read papers that stood test of time; book makes them accessible (10384–10386).
+
+### Recommended papers
+
+- **Windows Azure Storage** (Calder et al. SOSP'11) — strong consistency, HA; synthesizes many book concepts (10387–10394).
+- **Azure Data Explorer** white paper — event store on Azure Storage; composition of large systems (10402–10408).
+
+### Reading method
+
+- Keshav **"How to Read a Paper"** three-pass approach for unclear concepts (10409–10412).
+- Book footnotes = "side quests" of papers (10411–10412).
+
+### Book recommendations
+
+- **Martin Kleppmann — Designing Data-Intensive Applications** (must-read) (10413–10416).
+- **Alex Xu — System Design Interview** — case studies even outside interview prep (10416–10418).
+
+### Meta
+
+- Feedback welcome: roberto@understandingdistributed.systems (10419–10422).
+- Goodreads/Amazon review request (10423–10425).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 10372–10445 (full epilogue + colophon footnotes) |
+| **Wrong-file flag** | `false` |
+| **Sections** | Final words only — no subsections |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Prioritize production experience over pattern catalog consumption.
+2. Identify two anchor papers for deeper Azure/distributed storage study.
+3. Route further reading to DDIA and paper side-quests.
+
+### worked_examples_present
+
+**N** — bibliographic epilogue.
+
+### exercise_hooks
+
+- Three-pass read of Azure Storage paper with book chapter cross-links.
+- Map one footnote paper to a UDS chapter ingest.
+
+---
+
+## Operator hooks
+
+**w2_systems_llm closeout:** UDS ch34 → **DDIA 2e** as named sequel (corpus_manifest rank 3). Pair Azure Storage paper with **UDS ch17** (Azure Storage) and **ch32** (ADX event store cite).
+
+**Scholia fit:** Thin chapter; value is canon routing, not procedural depth.
+
+---
+
+## TEXTBOOK-Q1
+
+**PASS** — epilogue; no contested technical claims.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C34-001 | Build/maintain as best learning | 10380–10383 |
+| UDS-C34-002 | Azure Storage paper recommendation | 10387–10394 |
+| UDS-C34-003 | DDIA must-read | 10413–10416 |
+
+---
+
+## Recap bullets
+
+- Book end; journey continues in production and papers.
+- Azure Storage + ADX papers as structured next reads.
+- DDIA and Alex Xu for expanded canon.
+
+---
+
+*Ingest · scholia · ≤4500w · epilogue slice*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch34_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch34_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 34
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 34
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch34_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 34 |
+| **chapter_title** | Final words |
+| **page_range** | 327–328; lines 10372–10445 |
+
+---
+
+## scope
+
+**Epilogue** — learning path beyond the book: build/maintain systems, read industry papers (Azure Storage SOSP'11, Azure Data Explorer), Keshav three-pass paper reading, further books (Kleppmann DDIA, Alex Xu system design interview), author contact and review request.
+
+---
+
+## key_findings
+
+### Continuing learning `[verified]`
+
+1. **Best:** design, build, maintain large-scale systems in industry (10380–10383).
+2. **Second-best:** read papers that stood test of time; book makes them accessible (10384–10386).
+
+### Recommended papers
+
+- **Windows Azure Storage** (Calder et al. SOSP'11) — strong consistency, HA; synthesizes many book concepts (10387–10394).
+- **Azure Data Explorer** white paper — event store on Azure Storage; composition of large systems (10402–10408).
+
+### Reading method
+
+- Keshav **"How to Read a Paper"** three-pass approach for unclear concepts (10409–10412).
+- Book footnotes = "side quests" of papers (10411–10412).
+
+### Book recommendations
+
+- **Martin Kleppmann — Designing Data-Intensive Applications** (must-read) (10413–10416).
+- **Alex Xu — System Design Interview** — case studies even outside interview prep (10416–10418).
+
+### Meta
+
+- Feedback welcome: roberto@understandingdistributed.systems (10419–10422).
+- Goodreads/Amazon review request (10423–10425).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 10372–10445 (full epilogue + colophon footnotes) |
+| **Wrong-file flag** | `false` |
+| **Sections** | Final words only — no subsections |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Prioritize production experience over pattern catalog consumption.
+2. Identify two anchor papers for deeper Azure/distributed storage study.
+3. Route further reading to DDIA and paper side-quests.
+
+### worked_examples_present
+
+**N** — bibliographic epilogue.
+
+### exercise_hooks
+
+- Three-pass read of Azure Storage paper with book chapter cross-links.
+- Map one footnote paper to a UDS chapter ingest.
+
+---
+
+## Operator hooks
+
+**w2_systems_llm closeout:** UDS ch34 → **DDIA 2e** as named sequel (corpus_manifest rank 3). Pair Azure Storage paper with **UDS ch17** (Azure Storage) and **ch32** (ADX event store cite).
+
+**Scholia fit:** Thin chapter; value is canon routing, not procedural depth.
+
+---
+
+## TEXTBOOK-Q1
+
+**PASS** — epilogue; no contested technical claims.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C34-001 | Build/maintain as best learning | 10380–10383 |
+| UDS-C34-002 | Azure Storage paper recommendation | 10387–10394 |
+| UDS-C34-003 | DDIA must-read | 10413–10416 |
+
+---
+
+## Recap bullets
+
+- Book end; journey continues in production and papers.
+- Azure Storage + ADX papers as structured next reads.
+- DDIA and Alex Xu for expanded canon.
+
+---
+
+*Ingest · scholia · ≤4500w · epilogue slice*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

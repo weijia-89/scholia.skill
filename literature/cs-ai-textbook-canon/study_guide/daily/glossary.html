@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glossary</title>
+<link rel="stylesheet" href="style.css">
+<script src="notes.js" defer></script>
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <div class="hero__category">CS + AI Foundation corpus</div>
+  <h1 class="hero__title">Glossary</h1>
+  <p class="hero__subtitle">Algorithms, design, and AI engineering terms.</p>
+</header>
+<nav class="daynav" style="margin-top:0;border-top:none;padding-top:0;">
+  <a href="index.html">&larr; Daily index</a>
+  <span class="daynav__meta">glossary.md</span>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Top</a>
+</nav>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+<th>Source anchor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AI engineering</strong></td>
+<td>Building applications on top of readily available foundation models (model-as-a-service).</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>Agent</strong></td>
+<td>System that perceives an environment and acts via tools; RAG and SQL pipelines count.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>AI-as-judge</strong></td>
+<td>Using an LLM to score another model's outputs; watch position/verbosity/self-preference bias.</td>
+<td>AIE ch3</td>
+</tr>
+<tr>
+<td><strong>Autoregressive LM</strong></td>
+<td>Predicts next token given prior tokens; default &quot;language model&quot; in AIE.</td>
+<td>AIE ch1-2</td>
+</tr>
+<tr>
+<td><strong>BFS</strong></td>
+<td>Breadth-first search; fewest <strong>hops</strong> on unweighted graphs.</td>
+<td>Grokking ch6</td>
+</tr>
+<tr>
+<td><strong>Big O</strong></td>
+<td>Worst-case growth rate as input size increases; not wall-clock speed.</td>
+<td>Grokking ch1</td>
+</tr>
+<tr>
+<td><strong>BM25</strong></td>
+<td>Length-normalized term-frequency IDF variant for lexical retrieval.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>Bradley-Terry</strong></td>
+<td>Pairwise comparison model underlying Elo-style rankings.</td>
+<td>AIE ch3</td>
+</tr>
+<tr>
+<td><strong>Change amplification</strong></td>
+<td>Small change forces edits in many places.</td>
+<td>Ousterhout ch2</td>
+</tr>
+<tr>
+<td><strong>Chinchilla</strong></td>
+<td>Compute-optimal scaling: model size and data should scale together.</td>
+<td>AIE ch2</td>
+</tr>
+<tr>
+<td><strong>Cognitive load</strong></td>
+<td>How much a reader must hold in mind to follow code.</td>
+<td>Ousterhout ch2</td>
+</tr>
+<tr>
+<td><strong>Compound accuracy</strong></td>
+<td>Multi-step pipelines multiply per-step error rates.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>Context (LLM)</strong></td>
+<td>Tokens visible to the model for one request; &quot;per-query feature engineering.&quot;</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>Crawl-Walk-Run</strong></td>
+<td>Human-in-loop automation ramp (Microsoft framing in AIE).</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>Deep module</strong></td>
+<td>Large functionality behind a simple interface.</td>
+<td>Ousterhout ch4</td>
+</tr>
+<tr>
+<td><strong>Dijkstra</strong></td>
+<td>Shortest <strong>weighted</strong> path with non-negative edges.</td>
+<td>Grokking ch9</td>
+</tr>
+<tr>
+<td><strong>EDD</strong></td>
+<td>Evaluation-driven development.</td>
+<td>AIE ch4</td>
+</tr>
+<tr>
+<td><strong>Embedding</strong></td>
+<td>Dense vector representation of text for semantic similarity.</td>
+<td>AIE ch3, ch6</td>
+</tr>
+<tr>
+<td><strong>Foundation model</strong></td>
+<td>Large pretrained model others build upon (prompt/RAG/finetune).</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>Functional correctness</strong></td>
+<td>pass@k style: does generated code pass tests?</td>
+<td>AIE ch3</td>
+</tr>
+<tr>
+<td><strong>Generation effect</strong></td>
+<td>Self-generated answers remembered better than read-only.</td>
+<td>Pedagogy D</td>
+</tr>
+<tr>
+<td><strong>Greedy algorithm</strong></td>
+<td>Locally optimal choice each step; not always globally optimal.</td>
+<td>Grokking ch10</td>
+</tr>
+<tr>
+<td><strong>Hallucination</strong></td>
+<td>Plausible but false model output.</td>
+<td>AIE ch2</td>
+</tr>
+<tr>
+<td><strong>Hash table</strong></td>
+<td>Key→bucket mapping; O(1) average, O(n) worst with collisions.</td>
+<td>Grokking ch5</td>
+</tr>
+<tr>
+<td><strong>Hybrid search</strong></td>
+<td>Combine lexical (BM25) + vector retrieval; often RRF fusion.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>ICL</strong></td>
+<td>In-context learning; few-shot examples in the prompt.</td>
+<td>AIE ch5</td>
+</tr>
+<tr>
+<td><strong>Information hiding</strong></td>
+<td>Design decisions in implementation, not interface (Parnas).</td>
+<td>Ousterhout ch5</td>
+</tr>
+<tr>
+<td><strong>Information leakage</strong></td>
+<td>Interface exposes internals callers shouldn't need.</td>
+<td>Ousterhout ch5</td>
+</tr>
+<tr>
+<td><strong>KV cache</strong></td>
+<td>Stored attention keys/values to speed autoregressive decode.</td>
+<td>AIE ch9</td>
+</tr>
+<tr>
+<td><strong>k-NN</strong></td>
+<td>k-nearest neighbors; classify/regress by nearby training points.</td>
+<td>Grokking ch12</td>
+</tr>
+<tr>
+<td><strong>LLM</strong></td>
+<td>Large language model; scale tracked by parameters + data.</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>LoRA</strong></td>
+<td>Low-rank adaptation; PEFT method for finetuning.</td>
+<td>AIE ch7</td>
+</tr>
+<tr>
+<td><strong>Method of loci</strong></td>
+<td>Memory palace; spatial anchors for ordered recall.</td>
+<td>Pedagogy D</td>
+</tr>
+<tr>
+<td><strong>NP-complete</strong></td>
+<td>Problems with no known fast exact solution; approximation OK.</td>
+<td>Grokking ch10</td>
+</tr>
+<tr>
+<td><strong>Pass-through method</strong></td>
+<td>Method that only delegates; shallow layer smell.</td>
+<td>Ousterhout ch7</td>
+</tr>
+<tr>
+<td><strong>Perplexity</strong></td>
+<td>LM metric; lower is better on training distribution; weak post-SFT proxy.</td>
+<td>AIE ch3</td>
+</tr>
+<tr>
+<td><strong>Prompt injection</strong></td>
+<td>Adversarial instructions embedded in untrusted content.</td>
+<td>AIE ch5</td>
+</tr>
+<tr>
+<td><strong>QLoRA</strong></td>
+<td>Quantized LoRA; finetune with reduced memory.</td>
+<td>AIE ch7</td>
+</tr>
+<tr>
+<td><strong>RAG</strong></td>
+<td>Retrieval-augmented generation; retrieve then generate.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>ReAct</strong></td>
+<td>Reasoning + acting interleaved in agent loops.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>Recursion</strong></td>
+<td>Base case + smaller subproblem that calls itself.</td>
+<td>Grokking ch3</td>
+</tr>
+<tr>
+<td><strong>Retrieval practice</strong></td>
+<td>Testing yourself beats re-reading for retention.</td>
+<td>Pedagogy D</td>
+</tr>
+<tr>
+<td><strong>RLHF</strong></td>
+<td>Reinforcement learning from human feedback; preference tuning.</td>
+<td>AIE ch2</td>
+</tr>
+<tr>
+<td><strong>RRF</strong></td>
+<td>Reciprocal rank fusion for merging ranked lists.</td>
+<td>AIE ch6</td>
+</tr>
+<tr>
+<td><strong>Self-supervision</strong></td>
+<td>Labels inferred from raw text (next-token prediction).</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>Shallow module</strong></td>
+<td>Small benefit, complex interface; classitis symptom.</td>
+<td>Ousterhout ch4</td>
+</tr>
+<tr>
+<td><strong>Spaced repetition</strong></td>
+<td>Review on expanding intervals; Anki implements this.</td>
+<td>Pedagogy D</td>
+</tr>
+<tr>
+<td><strong>Strategic programming</strong></td>
+<td>Invest continuously in design vs tactical patch-and-ship.</td>
+<td>Ousterhout ch3</td>
+</tr>
+<tr>
+<td><strong>Token</strong></td>
+<td>Subword unit models read/write; not always whole words.</td>
+<td>AIE ch1</td>
+</tr>
+<tr>
+<td><strong>Transfer-appropriate processing</strong></td>
+<td>Practice in the form you'll be tested in.</td>
+<td>Pedagogy D</td>
+</tr>
+<tr>
+<td><strong>TTFT</strong></td>
+<td>Time to first token; latency metric for streaming APIs.</td>
+<td>AIE ch9</td>
+</tr>
+<tr>
+<td><strong>TPOT</strong></td>
+<td>Time per output token during decode.</td>
+<td>AIE ch9</td>
+</tr>
+<tr>
+<td><strong>Unknown unknowns</strong></td>
+<td>Surprises you didn't know to look for; worst complexity symptom.</td>
+<td>Ousterhout ch2</td>
+</tr>
+</tbody>
+</table>
+
+</main>
+</body>
+</html>

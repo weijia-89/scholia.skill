@@ -1,0 +1,183 @@
+# Text slice — ddia_2e_2026_ch06_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ddia_2e_2026 · chapter: 06
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 6
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch06_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 |
+| ISBN_electronic | 9781098119065 |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 6 |
+| chapter_title | Replication |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 6 treats **database replication** for datasets fitting on one machine (lines 9168–11678). Replication purposes: geo-latency, availability, read scaling. Three algorithm families:
+
+1. **Single-leader** — All writes to leader; followers replicate log; sync vs async/semi-sync; follower setup; leader failover; split-brain; fencing.
+
+2. **Replication lag problems** — Eventual consistency; read-your-writes; monotonic reads; consistent prefix; causal consistency preview.
+
+3. **Multi-leader** — Multi-datacenter; conflict resolution; last-write-wins risks.
+
+4. **Leaderless** — Dynamo-style; quorums; read repair; anti-entropy; sloppy quorums; performance comparison.
+
+Assumes full-dataset-per-node until Ch. 7 sharding. Backups distinguished from replication. [verified, lines 9168–11678]
+
+## key_findings
+
+1. **Replication goals** — Geo proximity, HA, read throughput; difficulty is handling changes. [verified, 9191–9215]
+
+2. **Three families** — Single-leader, multi-leader, leaderless; all widely deployed. [verified, 9216–9219]
+
+3. **Backups ≠ replication** — Replication propagates live changes; backups are point-in-time restore for deletes/errors. [verified, 9236–9247]
+
+4. **Single-leader model** — Leader writes; followers tail log; reads any replica (may be stale). [verified, 9259–9307]
+
+5. **Sync vs async** — Sync waits follower ack (blocks on failure); semi-sync one sync follower; async fast but data loss risk on leader death. [verified, 9315–9387]
+
+6. **Quorum preview** — Majority sync replicas in consensus systems; forward ref Ch. 10 **[unavailable]**. [verified, 9369–9374]
+
+7. **New follower setup** — Snapshot + log tail; consistency challenges. [verified, 9389+]
+
+8. **Replication lag** — Followers behind; user-visible anomalies. [verified, 9757+]
+
+9. **Consistency guarantees** — Read-your-writes, monotonic reads, consistent prefix, linearizability forward refs. [verified, 9757–10056]
+
+10. **Multi-leader** — Per-region leaders; write conflicts; LWW dangerous; custom merge. [verified, 10057+]
+
+11. **Leaderless/Dynamo** — W/R quorum overlap; version vectors; read repair; hinted handoff. [verified, 10686+]
+
+12. **Quorums** — n replicas, w write acks, r read nodes; w+r>n for overlap; sloppy quorum trade-offs. [verified, 10795+]
+
+13. **Performance** — Leaderless can be faster writes; coordination costs vary. [verified, 10962+]
+
+14. **Eventual consistency confusion** — Author urges precision about guarantees. [verified, 9228–9234]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Opener + backups note | read | 9168–9258 |
+| Single-Leader Replication | read | 9259–9756 |
+| Problems with Replication Lag | read | 9757–10056 |
+| Multi-Leader Replication | read | 10057–10685 |
+| Leaderless Replication | read | 10686–10794 |
+| Quorums for reading and writing | read | 10795–10961 |
+| Single-Leader vs Leaderless Performance | read | 10962–11311 |
+| Summary + references | read | 11312–11678 |
+| Chapter 7 opener | **deferred** | 11679+ |
+| Ch. 8–10 consensus/detail | **unavailable** | `[Link to Come]` refs in text |
+| Chapters 8–13 | **unavailable** | early release TOC |
+
+- **Lines read:** 9168–11678
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Compare single-leader, multi-leader, leaderless replication
+- Explain sync/async trade-offs and failover data-loss modes
+- Define read-your-writes and monotonic reads under lag
+- Compute quorum overlap conditions
+- Distinguish replication from backups
+
+### worked_examples_present
+
+**Y** — Figures 6-1/6-2 leader replication timing; profile-update sync/async; quorum math; multi-leader conflict scenarios.
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 6.REP-1 | Failover data loss | Leader dies async; count uncommitted writes | 9376–9387 |
+| 6.REP-2 | Quorum calculator | Given n,w,r verify overlap; test sloppy quorum | 10795+ |
+| 6.REP-3 | Read-your-writes | Route user reads to leader post-write | 9757+ |
+| 6.REP-4 | Vector DB replicas | Map DDIA guarantees to read replica lag in RAG | 9757–10056 |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 6 is **distributed read-path canon** for scaled RAG and LLM serving:
+
+- **Read replicas** — vector DB / OLTP replica lag affects retrieval freshness
+- **Quorum thinking** — preview for strongly consistent metadata stores
+- **Multi-region** — embedding index replication for geo RAG
+
+Pair with **DDIA Ch. 7** (sharding) and **AIE Ch. 6** (application-layer consistency expectations).
+
+### 2. MDCalc alignment
+
+**[none]** — Pattern-portable: HA for clinical read paths; stale-read risk documentation.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS replication/replication lag; DDIA exhaustive algorithm comparison |
+| `ai_engineering_2025` Ch. 6 | AIE assumes managed vector DB; DDIA explains replica consistency |
+| `hands_on_llms_2024` | HOTL does not cover DB replication |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong timing diagrams |
+| Child-skill potential | `scholia.replication-lag-rag-staleness`, `scholia.quorum-wr-math` |
+
+## TEXTBOOK-Q1 quality gate
+
+**PASS** — foundational distributed data text; flags LWW dangers and eventual consistency imprecision.
+
+### Contested claims
+
+| Claim | Flag |
+|-------|------|
+| Last-write-wins conflict resolution | Author warns data loss [multi-leader section] |
+| Leaderless always faster | Workload-dependent [10962+] |
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Leader | Node accepting writes in single-leader replication |
+| Follower | Replica applying leader's log |
+| Semi-synchronous | One sync follower, others async |
+| Read-your-writes | User sees own writes |
+| Quorum | Minimum replicas for read/write ack |
+| Eventual consistency | Replicas converge if no new writes |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 2 reliability, Ch. 1 distribution drivers
+- Forward: Ch. 7 sharding + replication combo (11679+); Ch. 8–10 transactions/consensus **[unavailable]**
+- Pair: `ai_engineering_2025_ch06_ingest.md` for RAG read consistency expectations
+
+## TEXTBOOK-Q1 verdict
+
+**PASS**
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

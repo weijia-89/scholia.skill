@@ -1,0 +1,1833 @@
+05_baker_2020_prof_writing_speaking_ch07_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: baker_2020_prof_writing_speaking
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/05_baker_2020_prof_writing_speaking_ch07_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/05_baker_2020_prof_writing_speaking_ch07.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/05_baker_2020_prof_writing_speaking_ch07.txt).
+========================================================================
+
+Chapter 7 • Communicating for Employment                                   Professlonal Wtttln OS oak.in • 203
+
+
+          smiling, und nodding your hci!d, Give vertul encoumgcmenl 11s well. Mich a!i snying ..Y~i'°
+          "I undtr11tond; ' or ..Tell me more 11bou1. , ... Second. use reflective lislcning ns needed 10
+          make sure )'<>ll undcrsland the pcrson·s nnswc11. Third. observe the pcrson·s nonverbul
+          incs:mgcs g.lvcn through litciol cxprcsslon.11. tone of voice. gc!lturcs, and olhcr body Ian•
+          go.age {sec 1-'igure 7.12).
+
+
+
+
+          Figura 7.12 Observe all flonvotbal messagos dwing thfl intervfow.
+
+
+          Uso Closod and Open Questions Effectively.                     Closed qucs1ions cnn be un!iw«cd
+          wi1h IIJ-'t'S or 111, or other short nnswer. Open c1uc111ions rcc1mrc more cxplunonon. imd lhC)'
+          oOcn Inquire ubout feelings. opinions. nnd valuc11,.
+
+          Closed questions. Could you begfh employme111by next Monday? Do you speak Span.
+          I.sh? How many years did you live in Denmark?
+
+
+          Open questions. How much experffJnc6 havu you had with projfJCt management? How
+          would you rscommond that we improve salos of product X? Whot did you lil<o best about
+          your provlous job?
+
+
+          Use Probing Questions Appropriately. A common 1,roblcm with cm~lloymcnl
+          intcrv1cws is thal intcrvlcwccs o t\c-n g1\ c shallow ans.wcrs. l'robmg questions enable you
+                                                    1
+
+
+
+          10 ob1uin more in-clcpth informatu:m. 1'hcy dig bcncnlh 1hc i.urfocc of general answers ond
+          obLnin 11n1iwers llmt arc nchcr in mc,ming.
+
+          EJtampJe. Could you g,\18 m& more detoJJs about tho p,oduct.tostlng technology you havo
+          worl<od oo?
+
+
+          Use Behavioral Questions Appropriately. A bchaviorul qucs-1iun is 1111 open
+          ques1icm 1hnt asks 1he rcspondcn1 how he or she 11ctcd in ti specific situntion, 'fhe idcnl
+Chapter 1 • Communicating for Employment                                   Professlonal Wtttln OS oak.in • 204
+
+
+          iinswer for behnviornl quci.tions will be given in {I problcnH1ctfon-~su1ts (PAR) fom1nt,
+          hu1often 1hc in1crl'icwer will ha\'c 10 kctp probing until u dclnilcd answer is given.
+             Note the difference in the quality of information given by 1\lkn. the interviewct, ror
+          coch of the following questions miked by Holly, 1hc intcr\'icwer.
+
+
+          •   Closed question that yields almost no useful information:
+              -   Holly: Aro you good at handling irato customers?
+                  Alten: Y&~ I haw, had to do that a/(),[,
+          •   OPfJn behavioral question that generates, 1h11llow 1.n swtr.
+                  Hoity: Toll ma about n l1'1fl6 you had to ho11dl6 on (rate customor.
+                  Aller\.' Well, I WOtked al a car-te11tal pince lot a yoor. and I had to htmdle a IOI of
+                  up.$81 customers in that business. They WOUid have problems with the cM, like
+                  mechanical troubles, or stuff like that. And I'd Mve to deal with it.
+          •   Open behavioral question, followed by probing quesOons to generate specific
+              lnfonnation;
+                  Hoity: T911 mo abOIJt o b'mo you hod to hondkJ on 1'rata customor.
+                  Allen: Well. I workod 91 a car rontal place for a yonr. and J had lo handle a lot of
+                  up.$61 customers in that bushws.s. Thay would have probhJms with lhe car; lil<.e
+                  mechank:a/ troubles, or stuff like that. And I'd have lo deal with it.
+                  Holly: T6ft me in detail how you handled one of thoso casos.
+                  Allen: Well, this one guy came in and the car ht hltd rented had overheated on the
+                  highway, and he mfssod an imporlant appointmont or somolhfng Nko that. Thoy·ro
+                  suppOS6d to calf us If they have problems. bul I guess ha called s towing company
+                  and had it towod to a ropak shop. Ho had to spond two 0t lhteo hours waiting /0t it
+                  to be fixed, and then he htJd to pay over two hundred bucks oul of hJs awn pocket.
+                  So he was pretty angry by the time he {JOI back to us.
+                  Hoity: So, specifically. how di<I you handle the situation?
+                  Allen: Woll, ho was yo/ling ond conying on, ond so I just calfod my numugor and
+                  tumod it over lo ltlm. I didn1 want to got lnvo/Vod. Ha was so mad.
+
+
+              In this lh1rd case, the interviewer linall)• has something lo work with. Allen's first an-
+          swer was shallow, so Holly kept probins until Allen gu\'C the specifics she wuntcd. Because
+          of her cffccuve questioning, :,;he now kno~ thn1 Allen doc11n·1 listen cnrcfutly (he didn·1
+          nn11wcr the c1ucstions d1m:1ly). ho doesn't know how 10 sell himself. tmd he docsn·c know
+          how 10 handle 11n 1rulc cuslOmor h)' him.sell': All of this infornu11ion wns mmcd 111 the lirst
+          ease mvol\'ing the closed qucslion, "Arc you gt'lod al handling irutc custt'lmersr·
+
+
+          Practice     Sample Interview        Questions. 'J'able 7J pm\'ides you with t1 wricty
+          of intervie\o,· question"• both to heir )'OIi prep.ire when )'OU arc being inierviewcd and to
+          provide )'OUwith question" when you nrc eondue1ing in1e:1vicw1i,
+Chapter? • Communicating for Employment                                   Professlonal Wtttln OS oak.in • 205
+
+
+          Table 7.3 Sampfq Interview Ott0slions
+          Personal Characteri1tic1
+           •Tell me about yourself.
+           •What rue your two greatest strengths? Ten me tJbout an instance that c.alled for you
+            to apply those strengths.
+           •Whal porcentaoe oC your university expenses did you oam?
+           •Why ahou1d wo hire you ovor somoone otso?
+           •Define succon. and explain how SUOCHsful you have been in your life.
+           •Whal has been your great&St challenge in life? Your greatest 9000mpli:shmenl?
+
+          Experience
+           •Whot dkl you li.ke bost and least obout your proviou1 job?
+           •Why did you leave yow previous job(s)?
+            • Tell me about your greatest success in your pcevious job,
+            •What is your grealesl achievement?
+            •What motiv.1tes you to succeed on th8 job?
+
+          Relation1hip1
+           •What kinds of people are most frustrating to you?
+           •If I we.re to call two or ttvee of your friends/previous employers/fellow employees,
+            whal would lh&y tell me abOut you?
+           •What leadGtship positions did you have as a student'?
+
+          Education
+           •Why did you choose your par1icular m ajor? If you coukl start university over .1gafn,
+            would you choose a different major? Why Of why not?
+           •Were you an active participant In d ass discuss.ens? Why ot why not'?
+           •Whot was your GPA? Is Ito fair os.sessment of your abilltle1?
+           •Whot wera yoUf toughest and easiest univarsity cleiSUs? Why?
+           •Whal were your most-va1ueb1e and leasl-va1ueble univess;ity classes? Why?
+
+          Career Plan,
+           •Whoco do you see yourself 10 yews r,om now?
+           •0&1cribo your ldoo1 caroor poth.
+           •How does this pOSition help you achieve your career goat,?
+           •What is your dream job?
+
+          Knowledge About the Company
+           •Why do you wont to w0t1<. for our o,g.nnizotion?
+           •Whal do you know about our OC'ganization?
+           •Who are OUf biggest competitors. and how can we increase our share ol the market-
+            place?
+
+          Problem,.olvlng AbUlty
+           •You have been out of town for a woek. You retum to find your in-basket full. How
+            would you handle this situation?
+           •You have an irate customer standing in front of you complaining about the poor
+             service he has been given. How would you handle this pets-on'?
+           • You are now In d'large of marketing a new type oC running shoe. How wUI you
+             proceed with this lask?
+
+          Behavioral Oues-tion&
+           •iell me about your boot and worst team experiences and 0)8 role you played in eaeh.
+           •Tell me about an ethical d~emma you have faced.
+           •Toll me about a tlmo whon you had to meel a doodllno undor difflcufl circumslancos.
+           •Toll mo about one of your groatost cholleog05 you have had to dual with in life and
+            how you deaJt with it.
+Chapter 1 • Communicating for Employment                                              Professlonal Wtttln OS oak.in • 206
+
+
+           Preparing Follow-Up Letters and
+           Recommendation Documents
+
+          1\,•o additional dotumc:nts nrc Involved with many c111ploy111cnH,cckmg ~ltuallOn!i~hank-
+          you letters or cmmls and m:ommcndutton letters. 'l'hc t'ollowmg scc~ions give guidchnes to
+          help with these unportant documents.
+
+
+          Thank-You Letters or Emails
+          Aller eoch em11loymc1u mtcrvicw. send o letter or emuil thanking the pcrliOn who uucr•
+          vicweJ you, prcfcrobl)• wnhin 24 houl'll. An cff«tivc thank-you me~sagc Ill II great wuy to
+          ddfcrcntiatc yourself rrom your competidon. 'fo ensure duat you have t.'Ont.uct Information
+          (or those you interview wilh, ask for a business card nt Lhc c-nd of each of your interviews.
+          When you write your thnnk-ynu message, include (I} a smccre 1hunks1 (2) something
+          about 1hc inlm'icw 1h11t you upprcciatcd, fC1und inlen'\<lting. or partic-ulnrly enjoyed. nnd
+          (3) o 51ulcmt:nt or two rc11flinningyour interest in working for the organization. Kcq, the
+          mcs11ngr shon. Somrthing 1111 simJ)IC us the typcwrincn ttutnlc.you lcuer shown in Figure 7.
+          13 wdl ,iuflioc,aJ will the email in Figure 7.14.
+
+
+                                                    Karen L. Walker
+
+
+
+              rcbru11ry 2R. 20XX
+
+              Mr. Jaum Colucci
+              BiJ!, Four M:ulr:e1ing
+              ~.!'2 Washin\:ll'.111 A,x:nut
+              Wes< Cny, US J\~XX
+              Dear Mr. ('olncci:
+
+              TI1aul.. you tor 1Jic OJlPOl'ltuilt)' 10 1ooct whl1 )'OU )'l.'SICH.la)' here .i1 Wcs1ou U11Jw!nhy. I
+              found the intcr\•irw to be \Cf)' enlighten Ing. n11d I ap1>nxi:itc tbc time )'OIi took 10 \'isit
+              with me.
+              I bdh~\'C ruy <1ut1llrl(111ions aud proltu,01\.~l t:oals woukl 111db well" id1Olg four's
+              mission :ind cullllfc As I mcrnioocd In die mtcr\-icw, I mn wlllil13 10 rctoc:irc wlic,c,cr
+              my services can be be11 used, Because ofmy familiarit)' with the Gcnnnn lan,u11~c :ind
+              cutlurc. I coo Id also be considered IOJ fawo1>ean a.sslg.nmc:111s.
+
+              lllanks n~m lor d11~ 01mor1um1y to 111111: wilJ1 )'OU, I looJ.: forwnrd 10 hcarin.J! liom you
+              soon.
+
+
+
+
+              Km-:n L. W11lkcr
+
+
+          Figure 7. 13 Thanh-you letters should b6 considerate and should 1&-emphasize your qutll-
+          Incatlon& for the position.
+Chapter 1 • Communicating for Employment                                    Professional Wntln OS oak.in • 207
+
+
+
+        To:              cranc1o,sen@emai.com
+
+        From:             lmevcr@email.com
+        8cc:
+
+        Subject:        IThank, for i'lterview
+                                                                                                               I
+        Attachments: 11n1emo~onalS1•11dards.doCJ< [48kl
+                                                                                                               I
+         Dear Mf, Andersen.
+
+         Thank you for the opportunity to visit with you 1odoy el>ool employmenl el XVZ Co,pornlion. I
+         •P1>reda1od your discussion about the compony·s flvo-year plan ond the PM I might play in 11.
+         I do betieve that my sll'ong WOt'k Ellhic, my academic preparation, and my experience make
+         me a good candidate for lhe staff accountant posilion you are trying to fill.
+
+         As you requested, I am attaching the paper I wrote on inlernational accounting &l andards, I
+         hope yoo enjoy read"'IJ ii.
+         Tl\onks again for a vo,y enJoyablo lntorvlow.1 lool< forward to heating ~om you.
+         Talia Meyer
+
+
+
+          Figure 7.14 A short but csrofully worded thonl<-you massago sho11ld be sent soon site,
+          your int&rviow,
+
+
+          Recommendation Letters
+          When job seeking, you wHI oncn be asked to pmYtde the names of indi\'iduals willing lo
+          serve as refcrenees.-;,oople who will vouch for your qunlifications and competence. As
+          )'OU select these people. choose 1hosc who know you well t1nd wi1h whom )'OU h11,•c hDd
+          successfu l mtcmction, ,mch IL~ formcremploycr11, tcachcni und profes..~on. ond prof"cs11ionul
+          eollc.aguC!t.
+               Ask 1>en11ission fn:1111 e.uch of your references before giving their nnmcs to prospective
+          cm1llO)'Cfli. furcx11111ple. you m1ghl SIi)' somclhing llke. " I am appl)·tng (or employment al
+          Al:3C Company, and they are uskmg for letters of rccommcnd.11ion from people who know
+          me well, hi 1hut some1hmg you would fee l cQmfonable doing. and if liO, would you have
+          limo to do that wi1hm the ncx1couple ofwccki!'" If they cim·1,mswcr positively to both
+          questions. chminnte them from your refere~ 11111 and osk someone cl11c. Whenever you
+          nsk someone u, write a rccwnmcnda1ion for you. pm\+lde limn with u ddc:ription of the
+          job you arc seeking and a list of your quuhiicalions that make you a good tit for th.ntjob.
+          (.iivc 1hem II cop)' of your rL-..c;ume and highlight lhe areas thot have rclcvunec to the job you
+          arc seeking.
+               When you are asked 10 wrilc II rerommcnd1uion lcncr for someone else, ask for this
+          same mfonna11on- 11 description of the job being sought nnd u list of 1hc person's specif-
+          ic: qw1liAcauon~ for th:11 j ob. When planmng 1hc reco1nml~ndMion leucr, use bo111.un-up
+Chapter 7 • Communicating for Employment                                                  Professional Wntln OS oak.in          • 208
+
+
+
+          ou1lining (sec Chnr tcr 2). F'ir:.i, develop a list or cveryihing you c-•in 1hink or 10 include,
+          Next. select lhc most relevant i1cms and place 1hcm in10 cmcgorfos and sequences. F'inally.
+          compose 1hc letter. using on OA0C p11uc111 and cnhuncing 1hc documcm wich ILA1'S (sec
+          Figure 7. IS).
+
+
+
+
+  r
+                                                   Department. of Bwlness
+                                                           AIK lkllvtrtlty
+                                                          a&ooCJmp,,,1- O.Ne
+                                                        Sol!<ltl'ti\elt,US ~
+                                                     lQX.ll)OUW ♦ ;bcun~,td11
+
+
+        18 Fcbni:iry 20XX
+
+
+        (\Ir. At'llh,on)' L. (i,llucd
+        OirCCl0J of Hunun R~0UJCCS
+        Succcs.sfill lnctusmcs. Inc.
+        2K'J73 Cominl.i'Ct Ori,·c
+        Any,~hcrc, US l94XX
+
+        RECO~IMENDATION FOR JAMI£ L-EWIS
+
+        1ampleased to r«ommcnd J:i1m(' LC'\,iS for a nurkc1inJ p()$,1tion m )'Olll <:om1><lny. Two )'Cm's ti¥() she
+        w:is :i stuckn1 in my bt1smcs.<, communicn1ion cl:iss :ind camcd nn ..A- grade. Su--."C ll\."11 time I ha\c \'isit•
+        ed v. 11.h IK"r on SC\'crnl accas:ions.. :md she says she h:is done cqunlly \\CU m bcr od.:-r bm,iness clllsscs..
+        Three mllJ« 1mrlbt11cs bccMx- uppnrtrll Ill I ol)jen'td bcr pc,for,mincc dwing dM: scml'!itcr she wns my
+        Mudeol.
+
+        ll j'Jlfllf.: AbiltlJ'. First, Jamie is :m cxccllau wnicr. As 1hc d3Ujh lcr or a high-school English ,cacher, she
+        sccn"G to ha\'e lkltural nbUity wl!h the 1:nglish L:mguage. Her ,,1ittcn 11ssignmcnts.ilw.:1ys rcOcctcd good
+        co1uc1u o.n<l good wri1111g.. llcr .i~u1ttct1t1> ,,trc nlwtyi well supported. .ind llC'J condu.1lo11c1 l\ttc sowid.
+        Sbc tnnml the 101>score inn <:nsc-a,13.lysisac1i\ il)' \~C held i1, class. 11.:I s.bc wAS ooo of duce siu!k111s
+                                                             1
+
+
+
+
+        sckct~d 1os.h.vc her wri1i1~ in I 1>:irngraphof\."dc;ign nelh ity lk:ld on a1KMhcr day
+
+        /'rt'-st·111,1rw11 !)I.ilk Jamie is also an c:\tcllcnl pn-.scnter. Her tc.1m .inalylcd oolinc compLimts fik-d
+        ngnuuc a major ai,1111,c, Md 1bim 1bC)' de\<Ck)p:d rceonwi~1~.1uo1tt fc, ,csoh mg tJ1osc COtt,plainis. J3tltic
+        hcll),.'Cl l)tCs<!nl lhc linal ornl rtl)O(I, whkh cnml.'(III high grndc, 11nd she hcl1,ed dc\·cklp I superb Powc1'•
+        Pouu slide , how and h311dou11h:it 11c<'Omp.1nicd 1hc jJ'tscntnnon She nlso e.1mcd nn Av,Mk 011 her indi•
+        ,·idm11ornl pmmu11ion 11\t1 rcu1urcd her librury rc~urch.
+
+        lmtrJX'Nf»ml Skll/1. Finally. J:imic i$ Qt11$1:mdlng in mtc:rpcr.iQtl:il shu:itions. Throustiom 1hc .scmcstc1
+        i,hc wo1kcd 11111 team scu.mg.. :tnd she \\M.1h,'3)141111Cti\C p.1rtkip11nt Site w11s nol n(rn.id to sp.".tlk her
+        n111wl. but she wns also .sc1n111,t 10 dM: u1tcf))('1son11I needs o( 01bers. She h11s 11 sc,~ (or l:no\, ing wbe11
+        lO lc:id nnd when to nllow °'1.:-rs to 1.,,ke lhe k:nd. Jo,nie wns v.,:11 li•cd and "~II rtSfX.~li.'<I by 1,e-r tcom,
+        nnd there was :in ob,io1.1S spiri1 of comr.i.dcry in h~ 1cam 1hl'Ol.1i hom the semester
+
+        I amoonfident )'00 would be plcnf.00 whh Jnmic's pcrfonrutncc m your organJmlloo. W1Lh her r.troog
+        comnrumca11-0«1nnd in1e1pel'S01"1Islalb tutd her oblhl)' to sohe J)t'Obkn1:.1111)d 1enso11 w<'II. I belle,« sbe
+        wollld be 0i i fC31 is.set 10 you, ("01np:iny,
+
+
+
+
+        RUSSELi, A WHITE- PROFESSOROF OCSINF.SS COIIMUNICATION
+
+          F!g_ure 7.15 The OABC .e.attem worl<s 'h'911 lor wrltir>fl recommendation J.ulters., __ __
+Chapter 1 • Communicating for Employment                                    Professional Wntln OS oak.in       • 209
+
+
+
+           Negotiating and Accepting Employment Offers
+
+          When )'OU 11~ gh•cn a job offer. your work i11 slill not linished. Udorc octw1lly occcp1ing
+          Lhe offct, toke lime to consider several fuc:1ors. ftrst, make llUl'C lhc job offer is in wrhing
+          .ind Lhat the document explains your job rc:sponsib1hties. iirutnc1al .ispects. st.art date, und
+          deadline ror .ieccpling or rcjecuns the job offer. If you plan to take a week or more to
+          decide, scncl an m11ncdio1e lhank-)•Qu response for the offer. and md1cate ttu11 you will
+          rclipcmd by II ccr111in dntc.
+               'l'h.ink nbout your Job responsibilities and consider whether they will give you the type
+                                                            tr
+          orc:xperlmce ttull will he best i'o r your career. your long-term goal ii1 10 be nn invei11mcn1
+          .idvisor and 1hc job bcini:i oOCrcd doeit nol move your l".t1'Ccr in ttwl d1r«1lon, consider
+          wailini; until a better fit l"-Omcs ,11long. If you would Uke to sec some modil1cation m the re•
+          sronsibili1ie!i explained in the offer le11er, talk w11h the employer about such nn adjus-imenl.
+              Exnminc lhe complc1e finnncialp11ckage. including the bcncfils package, nn)' rt:locn1ion
+          or signing bonuses. and s;:ilnr)'. 8cndi111 arc usually s1ondard for nll cmployccs within u giv-
+          en company. bu1 )'ou'II lind significant d ill'crc-nccs bc1wccn oompanics. Jr you have more
+          than cine job olrcr, carefully exammc docwr, hos~lllill, and ph..umnc:y i:-0-p:1y11; 1neitcription
+          co\'erui;es; dental and eye~..irc plans; health-club plans: and so forth. Retirement plans,
+          vacation lime, and tlcxtimeaptmns cnn also vary g.rea1ly.
+               fa,1mine the snlury in light oflhc cost oflivlni; in lhe 11re11 nnd in compari,;on wuh wha1
+          is being pnid ror liimllar work in other companic, in the nrea. If the s11h11y seems too low.
+          consider ncgotmting for an mc:rcusc. Some ,,co11lc fl."('I uneasy about tJ1king this acuon. bul
+          such II rcqu~t is cwmuon in business. Al.so, 1-cmcmbcr Um you'll ne\·cr gc:1 what you don'1
+          ru.k 1hr.
+               As you appmnc:h the employer about" hig,hcr salary. frame your rt"qucst in a log1cally
+          jus1itiable w-ay. such ii$ , .. I've noticed that the mcdinn salary for this type afwon: in your
+          11rc11 is nbout $5,000 high«. Mnking at least the 11\'ernge $11lory would hdp my family belier
+          meet our needs." If you have a higher pending offer from another company. you might sny,
+          " I h11vo been of!'cttd SXX,XXX rrom XY2. Company. bul long lcrin I sec a bcucr fi1 wilh
+          your c:0111pany. 1r an ndJusum:nl could be made to nmtch Lhc olhc.r offer more d cl!lcly, ttwt
+          would make. l! easier for me to turn down the oth« offer."
+               Consider the deadline for accepting or r<:Jccting the Jab offer. Jr you are wailing for .i
+         Job offer from another company nnd the deadline for 1hc current offer romcs before ynu
+          expccc the other olTcr. tulk with the employ(.-r and sco if1h0 dclldlinc can be cx1cndcd. If i1
+          con·1. talk wuh 1hc othct employer and 11cc if thlll offcrcun be extended sooner.
+               'Ihe stmting dole ror new employmcnl Is often flex ible :ind ithould 111110 he carerully
+          <:onside-red. IJ' you need lo Anishsc:houl bclOrc starting or have any other upcoming events
+          (md uding a vacation) thal might conflic.1wilh the starting date, decide what would be your
+          prdcrrcd date, and ncgo1intc with the cmploycr to modify lhc- dntc.
+              When you decide 10 11ccep1a job offer, cull the employer and give your decision nrnlly.
+          Mention thJII you will be following up your phone c~1II with an ~1cccp1onco in writing.
+          Include iiomcthing like the fo llowing in the occcptanec lcucr:
+Chapter 1 • Communicating for Employment                                    Professional Wntln OS oak.in • 210
+
+
+          Dear Mr. Sanders:
+              ft was exciting rtews to rocoivo youroffor of employment as assistant purchasing agent
+          for ABC C<Jrp. I am plonsed lo occep,t your offor st an annual salary of SXX.XXX. plus
+          standard banefits. As ws sgf96d, my stllfllng dato wlll bo June 1. which wJIJ sNow me to
+          complete my busim,ss managfHnBnt d9gres and llnd an apartment In your araa.
+              IM'th this position, I understand that I w.W complete an eight-week training program in
+          Chicago and that my status wifl be probatkJnary during my first six months on the job.
+               Tl1ank you sr1ain 1 Mr. SandfNS. for offering me the opportun;ty to work w,1h your
+          company. I plodg9 my best offorts to halp ABC achieve its goo.ts of providing oxceptkmnl
+          fJnanclal soNices to cJionts throughout tho cou,11,y.
+              Pleass let me know If you ne9d addldona/ Information In advance of the starting dat&
+          to fa.CJ'litate requi,ed papelWOrlt..
+
+
+              Once )'Ou accc1>I a joh offer. rcnwmbcr 1h111 )'Ou arc h:gnlly obligated to keep your
+          c:ommi1n1<:nt. Only under c:<1n:mc circ:umstimccs-such ll.~ n life-altering illncss- 11hould
+          )'OU clmnge your mind and back out. Ge11ing u belier olY'er rrom 110mconc cl11c i11 no1 ti
+                                 or
+          reason to bac:k out a oonm1<:L 0t'ling so would be unclh1cal and would dJ1magc your
+          rcputatmn, as well us lhe rcputalton of lhe school you i;raduatcd lrom. 11terct'ore, be true
+          to )'OUrcommnmcnt.
+
+
+           Chapter Su mmary
+
+          Work i11 11n ncitmg and important aspoct      or lire. Consider what you like to do und wtui1
+          you un: naturally good at. and then flnd II carL•c-r th.al is a ~ood match. Once you settle on a
+          career and quahfy yourselr for cmploymc-nt m that carccr, you will begin scdang specific
+          ffllplo)'mcm. A good first step is to visit your i.chool's c-ilrccr services oft-ice. Online sites
+          nnd prorcs..~ion11I orgnni1.111ion~me other sourc~ of cmploymcnl opJ)flriunitics.
+              Also lake advnmagc        or impromptu opportunitic11 10 11elr-promo1e with new people
+          you 1nc:ct. 1>rcpiu'C a 30-i1econd ~pcl'c:h th.nt b1·idly tlcsct1bc$ your desired employment 11nll
+          h1ghlightll your pn:p1uudon. Also create II rc.sume. or CV, 10 help you obt.11in job i111ctvicws.
+           You can i011ow one or lwo b11S1c resume pattcrn.s-c:hronoloi;ical or func tional. Mosl job
+          .ipplicnnts use a trud1uonal chmnolog1c11I resume ro1ma1. With this fonn nl, most al' thc-
+          c:on1cn1 1s li.,tccl in ri;wersc-chronolog.icnl order (tn(ISI r«Cnl ccluc.ntion and m()sl recent
+          cm11lo)'mcn1lirst). Most cmploycl'li prcrcr 1h111 formn1.
+               Some upplicnntll c:hoosc II funct ional-resume fomull. The func:1ionol•ttsumc form111
+          emphasizes a person's skillsand co111pctcnc1c!I and de-cmpha)i.zcr. Lhe mict rcvc1':k-chrono-
+          logical carccr p.ath. 'J'hc functtonal-rcsumc i'omiat is most appropriate for indt\'idunls who
+          wish to m11kc a carccr shift. who want to de-emphasize their 11,gc, or who don't have an
+          imp~s:.i\'e c11rccr path.
+               Alt er your n:i;umc i11 complc1cd, prepare opplic.11ion lcuerli (ols~1 known 8!i oovcr
+          le1tc:n). Applicn1ion lc11c:~ 111'<: one of 1wo 1ypc11- le11ers 1hu1 respond 10 n spc0ilic job
+Chapter 1 • Communicating for Employment                                     Professional Wrltln OS eakm • 211
+
+
+          posting nod l~1«s 1h111inqoire nbout possible job opening.-.. Letters rc:;pnnding 10 llp«ii-ic
+          job postings 11rc more suocessful.
+              Employmcn1 inccrvicwli ore o i:riticnl 1,an of 1hc job-finding proc:cs.'i, 'l\1<l11y's cm-
+          ploymenl interview:; arc e.onduetcd in o voriel)' Of$Cenarioll. Mich os fncc-lo-focc. phone
+          (with or without video) mtcrvicws. and c:omputc:r inlcrvicwmg systems that ask prc.-si::ribcd
+          questions.
+              For all 1ypcs ofin1erviews. lc11rn nll you can nboul lhe organizatfon. listen carcfolly nnd
+          be sensi1ivc to every communicntion cue you hear. d~s 11ppror na1ely, ond he prepared
+          for vnrious types of quc,nions, Prepare 11cveml PAR stoncK (problem. 11c1iun. l't)llltK) for
+          ,,u mtciviews. Link all your am.wen to the knowledge, i:killll, ond 11bili1ies r'-'quirc:d fhr the
+          job. Afier mtcrv1ews. wrhc uppropriutc thank-you letters. and don·, hcsili11c' to nt.·gotlolc:
+          cm1lloyment oOCrs.
+                When you are a manager und nl"Cd to conduct an employment interview, first assemble
+          i1II relevant inform111ion 11bou1 the job, \Vrilc a detnilcd joh-rcquirc:mc:111:; lis1 forcvahmting
+          11II applican11. Ren1<:111bcr thm 1111 qucs1ions must comply with civil righlK employment luw
+          J1nd must pcru1in 10 bona fulc oc:cupatiun:11 qlmlificutionJI (Ul•OQs). Ask \'ariouJI l)'J)C'S of
+          qucs1lonll. such ns open, closed. probing, and bchavlornl.
+
+
+           Chapter Questions
+
+          I. L1s11hm: imponnnt focml'li toconstdcr in choosing.i career.
+          2. Whnl 111 the: Occupatiullld 01,l/onk Jlandh°',k?
+          3. WhJI 1J1 the most well-known onlinc bu,incsi: uc:1wo1·kmg 1'Csourcc'?
+          4. Whal Ill an clevulor speech'? How long should it be?
+          5. Why should you be cardul with what you post on the mtcmct?
+          6. Whn1 is a CV?
+          7. For chronological rcsum~. in wh:u sequence should )'Ollr job his101y he 1trnmgcd?
+          8. Lisi 1wo guidclinC"S 10 follow for resumes lh □t 111't gomg 10 be rend by ATS sollwu1't.
+          9. WhJI i11 the m.nin d1trcrencc bc1wccn o chronologicJ1I resume nnll a f\mcuon.11 resume'!
+          LO. Should your resume be hmhctl lo one p.1ge'? Why or why nol't
+          l L Whnl ts the purpose of an apphcalton lctlc:r'!
+          12. Whnl type ofinfomu1tion should be Included m the first paragraph ofan applicn1ion
+              lcu«? In 1he body parngruph-.? In 1he concluding pi1ragmph'!
+          l3, Whnt i11 approprio1e: inlcrvie:w din -.. for mosi interviews (for men imd women)'?
+          l4, Why is honciily imponanl m ~in interview·?
+          LS. Wlu,1 Ill a PAR story? Why nrc PAJl storicll clTcctivc in mtervil•ws?
+          L6, List thrc:c gmddines tohdp you w11h.i vi11ual interview.
+          17, Whnl 1s a l:JFOQ'!
+          LS. Whn1 trres of questions arc: lcgnl to ask in ii Joh mlcrview? Which ones nrc illegal'!
+          l9, Give nn example: ofu dosed c1ue:s1ion. nn open c1ue:s1ion. nnd n behaviornl qucs-1ion.
+          20. When should you wri1c a thnnk•you leucr or cmnil?
+Chapter 1 • Communicating for Employment                                        Professional Wntln OS oak.in • 212
+
+
+          21. Whnl fnc.1ors should he ccmsidercd in nccep1ing n job offer'?
+          22. Who1 part does ncgotintion pluy in occcpting II job offer?
+
+           Chapter Activities
+
+          l . Prcpm-e im nttrnetive letterhead to use with )'Our resume and cover leue.r. Include your
+             name, nddrcss, telephone number.., and email address.
+          2 PrcpJJrc on cmploymen1resume for1hc job you would like toob111in when you gradu111c.
+             Consuh 1hc internet und cxnm11lcs in this chaplcr for idc:us. but cu111omi1..c )'<>ur resume
+             10 fit your unique employment situ:uion. First. create n brairutorm li!-il of evcryLhing in
+
+             your bnd:.!tfOund thot mlgh1n:hate to employment, such a11 cdue111lon nnd traimng, cm•
+             ploymcnt, languages spoken, computer skills, servkc, leadership, teamwork, spcdnl
+             .iehie,·ements, nw11rds. 1i1lents, nnd ottnbutes. 'rhen lind a Job lhnt mntchcs your quuli•
+             fications. Next, using the job descrip1ion as: a guide. cre111e n polished resume s.u11ablc
+             for ATS software, and prepare II oovcr leuc:r to uocompany your rc11umc.
+          3. Write lhrcc !lhon l'AR s1orics. Label the problem. 11c1ion. and rn11lls !lccuon of each
+             ~IOl')'. Al.ow. Identify the knowledge, sktll$., abillllC'$., ot aunbu1e,i lll~lrutc:d in eoch lil<)·
+
+             ry. Orgumze them ma spreadsheet formal hke that shown m 1-i.gurc 7. 10.
+          4. lnlervtcw two or more of your pocrs and huvc: lhcm inter,fow you. After each mlct·
+             view, discuss wha1 wcn1well and ,,.,.hat oould he improved.
+          S. Write o thank-you mcssogc to one of1hc people: who m1avicwed you m Ch11p1cr Ac11v-
+             i1y 4. Write nn offer letter to one or the people )'OUinlc-rvicwc:d. Wrile o rcjccuon lcucr
+             10 one of the people you Interviewed.
+
+          6 On the mtcmeL, browse the OL-c.u~"Wlional Outlook l·landbook on the U.S. Govcm-
+             mcnl's wcl>sitc: (hnp://www.bts.gov/ooh/~ kcad about the outlook j()r the type of pm•
+             fcssiun you are iniercsted in. Also, visit five of the employment wc:bsilcs hsted ut the
+             beg.innins of this chApler. Write a mc:mo 10 your instructor ahoiu wh111 you find.
+          7. Conl11c1someone who work11 in n corcer you ore intel'\!111cd in 1md 11cc iryou cnn 11m1ngc:
+             ttn infor1muion:il intcr\tic:w to team oboul the pcrson'11 job. l'rior 10 nit-cling with the
+             person, research the pcrson·s company and ere.ate a list of questions you would hkc
+             nnswcrcd. Keep the interview lmcr. After the mtcrvicw, send a thunk-you note to the.
+             person.
+          8, Crc:i1c: n lis1 of yflur top three cduca11on11I, work-rclu1c:d, or litC achicvemen1s. De•
+             scribe 1hc nchicvc:ments co a fomily member or friend. and togelhc:r bmininorm 111 lcasl
+             Cave personal ounbutcs lh.11 were required lo accomplish e~1ch 11chievc:mcnt. An::ilyzc
+             those personnl anributcs. Do you notice any p:mcrnt that could be: in1erprctcll a~ your
+              strengths'?
+       Solving Problems and
+        Writing Proposals
+B)'     now, you·ve learned lh111 problems are n normal p:irt of life. Not surprit,ingly.
+     problems ore a nomuil 1wirt of prof~icmal life. 100. 1-'nrt oryoor con11ibu1ion 10 an
+organi101ion includes your 11bili1y lO iml\'c problcnu. Whclher rehucd 10 mo1iv1111ng an
+underpcrfoin1ing team. ,m1isJying disgruntfod customers, or boostmg salci in u country.
+problem solving c'1n J)l'CS(llt you whh opportunhles to create vnluc for you and your or•
+ganization. View problems as opportunillcs, and you will find )·ourself more mom•.ilcd to
+t11ckle challenges that can bendil your professional hfe.
+     Much uf your communic111ion at work wtll include problem liOl\!ing, ot1cn n.-quiring
+you to roc1ucs1 help from oth<:r.i in solving problems you urc worting on. f'or mnjor prob•
+lans. you request help by crcutmg u proposal. Charier k contain..; 1wo major pans: KOl\'ing
+problem, and writm.g rro110,i11b1. Ai\C'r lc.irning lhe nu1tm11I in thii c:ha111cr. you should be
+able: to do the followi ng:
+
+
+•   Apply six lileps in annly1.ing problem -. nnd implementing i;oluli<>n~.
+•   Write II persu.1i;ive propos.nl.
+Chapter 8 • Solvlng Probtems and Writing Proposals                         Professlonal Wtttln OS oak.in • 214
+
+
+           Solving Problems
+
+          1-iow will you lcnm ubou1 problcin11 m )'Our job'? Problems may come to your nt1cn11on in
+          11 variety   or wnys- bmh infor1110J 11nd rc,nnal. Informal wa~ might include co111pl11int11
+          p~ tcd on social 111cd111 by customer.., grapcYmc commumcation, personal observation, or
+          unexpected cmcrgcndes. l-'omu1I wa)'S might mcludc roulinc 1'1."porls, conunuous-m1pravc-
+          mcn1oommittecs, annual pcrfbrmancc: review$, or employee sugge$tion boxes. You should
+          welcome people bringing problems 10 your nncn11on ~ 1ha1 you motivate them to rcpon
+          fii1ure problcm11 bcfort they woncn.
+              lfowcvc:r. kocp in mind dmt not all problcm11 need your attention. A!i Fi.gurt 8.1 ~ug-
+          gcsts. urgent problems will demand your aucntlon alt 11 profc.ssmnal, but make sure also
+          to spend time on prnblems thut arc important, but not urgent. What about problems th.al
+          are not important und no! urgent'! Sci those usidc. £fti.,tti\!e manugcrs spend their time: on
+          impor111nt pmblcm-., which arc loc,11cd on 1hc right side of the mntrix.
+
+
+
+
+                                                           tmpertont,
+                                                           but not wgent
+
+          Figure 8.1 Effective managurs focus on impar1ant problems.
+
+
+              Six gcnernl 11tcps can help you solve problems:
+
+
+          ■   lJdinc the problem.
+          ■   Annly7.c the c1111se.
+          ■   Develop .ahc11U11ive snlutioni;.
+          ■   X lc:cl II solution,
+          ■   Implement the 11olu1ion.
+          ■   !::valuate lhc oult.ome.
+
+
+              1'hc followlng sections ex11mmc <'flch step in order, but know that problem solving
+          i-. typically not SQ orderly. For exnmplc, you might define II problem, hut afler unaly-1.:ing
+          ils causo, )'<>u upda1c your definilion of the problem. Or you might im11lcmcn1 a 11oh11ion
+          only 10 llnd Ibo solution doe11n'1work. so you mu11111clco1 unolhcr 11olu1ion. In summary. be
+          Ocxible in your opproJC:h to problem 11olving ond r«og.nlzc that it is u tl!'turitivc procesit.
+
+
+          Define the Problem
+          Ho\v cnn you define a problem'? A problem is the difference hctwtc:n wlmt ,'i/1or,/d be nnd
+          wh111 i,v. Similurly. 1111 opponunity is the differtnce between who1 rouli/ 1w and what i,'i (sec
+          Figure X.2).
+Chapter 8 • Solvlng Probtems and Writing Proposals                              Professlonal Wtttln OS oak.in • 215
+
+
+
+
+                          -
+                                   Problem
+
+
+                                 llJh_
+                          §@bid& I.ill_ YM:PPitiD ,...
+                                                                _ ...   Opportunity
+
+
+
+
+           Figure 8.2 Denno probfoms and opporl11nitios by the gap betweoo wtial is and wtiat should
+           or could be,
+
+
+               for example. con!lider the !itartup eompany who,c SJ1lc1t urc dcc:linang. It ,\'htmld l><t
+          ha,1ing, sales incrca.-:cs, but h is not. The problem is LhaLit 1i1 losing money. Anolhcr eo111p11•
+          ny is producing all gasolinc•powcrcd cars. II could he prnducmg dee-Irie cars to meet new
+          market demand, but it is not. 1'hc opportumty then is l o switch to clcctnc c.ars and capture
+          ii sh11rc of an em«ging m111te1.
+
+
+
+          Identify the Cause
+          Similar lo lhe way you 111igh1dc1cct n forc;.t fire by itll smoke, you may mitiully lc:•1rn aboul
+          a problem b)• ils cOC'<:t.-:,ors)•m1ltom.s (sc:,c- 1-'igurc M.3). However. if you sol\'c the cOC<:isu.nd
+          not Lhd r undcrly-lns catL<:e, you mny temporarily rc:d1ret:I the smoke, but Lhe fire will keep
+          on burning. for example. nn employee fo ils 10 perform duues properly. 'l'he cmpfO)'Ce's
+          mnnnger 1mnina1c:s 1he employee nnd hires .ino1her. only to lind 1h111the problem rc11c:ats
+          iL-,elf. Tht rcnl problem i~not with 1hc employees but with lhc munriger's failurt 10 train
+          propctly. 1ryou hcl1) lhc: mannger to tmm pto1>crly (tht c.au!lc:). 1hce1nploycci' performance
+          prublc:1m (lhc effects) will lar_gd )• dis.appear.
+
+
+
+
+          Figure 8.3 You can learn about a prob/Gm b__y its eff9Cls. Photo by Sandid on p;xabay.com
+
+
+
+              How du you identify the cause of n problem'! You m:ed infornmt1on. 1'his s«tion
+          provides five techniques to incre-nse your understanding o f n problem and thercb)• idcntif)'
+          the enuse: the five M':. ofmnna,gcment, the 5W2H queslions, personnel-problem nnnlysi:.,
+          11nd cnusc-effect nnnlyi;i~.
+Chapter 8 • Solvlng Probtems and Writing Proposals                           Professlonal Wtttln OS oak.in • 216
+
+
+          Five M's of Management. Profci;sinnnl~rtly on vuriour. m.ourcci, 1011~-complish orga•
+          nm1lional work. 11nd problems can occur with nn)• oftho11c rcsource11, If you su11poc11h11111
+          problem is being cau.srtt by resourtt'S. )'OU cnn unalyzc 1hc problem using the live M's of
+          111anagcmcn1. l lcrc nro wrue examples    orqW1lil.11tl\'c in1(1mu11lon you might uncover:
+          ■   Man1mwcr/human rc~,urcl's: Negative employee attitudes, declining morale, inef-
+              foclive trninini; methods
+          •   Money; Funds spent on questionable purchosc5. lock of financial O\'ersiglu, lack of
+              budgt1 plunning
+          ■   Miacb!Ju~s: Outd:ncd computcn, uncontrolled purchasing of new technology. ina1>pro-
+              prl111c use of new t«:hnolttgy
+          •   Ml'thodll: Job duphcatton,job overlap, or lack of needed cross traming among difrcr-
+              m t tnsks
+          ■   Materials; Outd111cd packuging. cnvironmcntully unfriendly proclucls, innppropriulc
+              manogemcnl ofwn111c produc1s
+
+              As you 1111:,lyie the qualitative dutn, took for ~ 111cm.-: or dlscrcpuncic!I th.nl eould Indi-
+          cate one or more ctmses of the problem:
+
+          ■   Common th(.mci; or c,ucgorics
+          ■   Recurring key words, s10rics. or grnpcvine communic111ion
+          ■   Whn111111nid vll. wlmt 111 done
+          •   Company policy vs. employee bt'huvior
+          ■   Joh dci;crip1jons vli. m:tual work completed
+          ■   Customer compliments Vli. cui;tome-r oom1llainti;
+          ■   Company·i; written valuei; ~- compimy reputation
+
+              You 01111 al110 use the li\'c M's of n111nagcmcn1to guthcr quuntitativc informntion:
+
+          ■   Man1,owuJt1111nu11 tt.'Sourcu: lncrc-tasmg cmplo)'L'f' lurnlwer, increasing eu.stomcr
+              comphuntr.. r.low responliC ume-to cui;lomer rcquci;ts
+          ■   Money: Worsening financiul rnttoi;, doclimng i;alci; revenue, cscul:tting cost of produc-
+              1ion
+          •   !\111chincs; lncn:usmg equipment breakdown..,;, inm:n~ing etiuiprncn1c-osts, decrcnsing
+              cffieicmy of equipment
+          •   Mrlhod~: Slow m:mufuc1uring proL"CS!lc!I, increasing numbers            or product dcf«:ts,
+              Oawcd i;ocurhy mc-.isurcs
+          ■   /\talcriali,: Poor reliability of 1uoduct line. increnslng numberofflnwsm rnw materials,
+              shon shelf-life of prnducti;, i;horrngc of production puni,
+Chapter 8 • Solvlng Probtems and Writing Propos als                                         Professlonal Wtttln OS oak.in • 217
+
+
+                   A i;prcndshcct cnn help you compnrc qunn1i11t1ivc d111a ~ween groops or during ii
+               period of timo. Your unalysis moy rcvcul p111tcms or discrq,11nc:ic11 th1u could indicate 11
+               problem's cause:
+
+               ■   Cmnparul!vc.avcrui;cs (e.g.• avemge monthly sales lust year vs. Lhli yc.ar)
+               ■   Rankings (e.g.• runkfog of customer satlsfacuon among various store:;)
+               •   Trends over vnrioui; lime periods (e.g., employees· pcrfonn11nce during the last three
+                   ye11rs:)
+               ■   Forecasts"'· nctual {e.g.. production rorccast of200 units followrd by 1tCtu:1I prodoo~
+                   lion of 143 uniL<)
+               ■   Budi;ctcd v:t. actual expcnd!1urcs (e.g.. oopicr budget of S 125.000 vs. .iclual expcndi•
+                   turc ofS 136,000)
+               ■   Year•to-date performance (e.g., 23 1. 207. and 254 new leads for January, F'ebruary.
+                   and 1\<larch}
+               ■   Company vs. industry performance {e.g .. company profil margin orJ.6 percent com•
+                   p11rtd to industry uvcrnge of 4.5 ptteclll)
+
+                   1'0 v1stu1lly analy,..c your data, you c.an dc\'clop bar charts, llne charts. and othl·-r .graph-
+               ic.s. Wilh the aid of graphics, such us those m Figure X.4, you can more easily sec the trends
+               and rclu1ion,;hips m your dnlu.
+
+                                                 Em toyee Producltv1ty Re ort
+
+                                              "How m,iny        "How nri1titd ift you whh
+                                          tralnmQ HHions          your job?"' (1 ◄xtremely
+     E.mp&oy,e
+      •
+                      '"At• tr•ln.nil
+                   HlliOfll tffKttYt?'°
+                                          have you 41tt@lldtd
+                                              thltvNr?"
+                                                  2
+                                                                     deuati•fit'd,
+                                                                  a-ut1m,1v 110ll'itdl
+                                                                                                       Tin
+                                                                                                           ..
+                                                                                                           75
+                                                                                                                        .....•
+                                                                                                                    Nl.lf'1btrol
+
+    I
+          '•                  No
+                              No                  1
+                                                                                   3
+                                                                                   2                       ~              •3
+        C
+          D
+                              No
+                              Yo1                 •
+                                                  I
+                                                                                   3
+                                                                                   4
+                                                                                                           78
+                                                                                                           a,             8
+          E
+          F
+                              Yo,
+                              Yo,
+                                                  2
+                                                  2
+                                                                                   ••                      as
+                                                                                                           ea
+                                                                                                                          1
+                                                                                                                          5
+        G                     No                  •                                3                       1•             5
+
+
+
+
+                                                                            A
+                                                                                        •              •                       0
+
+
+
+     i'
+
+     r
+     r'
+     1•
+     •••
+                               •
+
+                               '
+                                    --    •
+                                   • • ---•
+                                   • • •
+                              Numbtf of 111"
+                                             •
+                                               •
+                                                                     si 1''".,,-
+                                                                     .
+                                                                     ! ""M
+                                                                           "0                 2
+                                                                                                   • •• t • •
+
+                                                                                                   )       "    S
+                                                                                                  Nuinbtf of Hits
+                                                                                                                    I              t
+
+
+
+               Figure 8.4 Grop/lics can holf!..you S06 trends and rtlotlonshies jn your dota.
+Chapter 8 • Solvlng Probtems and Writing Proposals                        Professlonal Wtttln OS oak.in • 218
+
+
+           The 5W2H Questions. t\i;king nnd an:.wering 5W2H que1,1ions m1Jy prompt other
+          in11igh1inlo the cause of your problem:
+
+          ■   Who'? Who is affl'ctcd by lhc 1>toblcm? Who might hiivc (ouscd 1he prohle111'! Who ill
+              c:onccrncd about the problem'! Who has de.ult with 1>roblcms of Llus nu lure in the past!/
+              Who d11>co\'crOO the problem'!
+          •   Wh:1t'! What is causing the probkm'! Wh111 components of the system failed? Whal
+              ch11ngcd m:en1ly th111 might hove con1nbutcd 10 the problem? Whal nrt the ~·mptoms
+              of the problem'/ Wlml 1Lrc 1he causes of the symptom.~? Wh11t would h11vc prevented the
+              problem from twp11ening?
+          ■   Wht.>n-'? Where did the problem occur (one location or multiple locat10ni)'? Where did
+              h begm'J Where can we learn more about the problem'!
+          •   Wht.>n? When did 1he problem oocur'! When did changes OL'>Cur thal mighl have c.on•
+              lnbuled to the problem? When mulil the problem he i;oh·ed"!
+          ■   Why'? Why did the 11roblcm occur'? Why doell the problem moner? Why did the prob•
+              lctn not occur earlier'? Why docs it trnppcn at some times nnd not at others·? Why did
+              we. not pre\'enl lhc ptoblc111'?
+          ■   How'! How was the problem disoove-n:d'! How do the \'anoui; partli of the system
+              intcrnci with euch other'1 How dot'S the S)'litem or pmccsi; work'! How serious 1s thc-
+              pl'Qblcm? How urgent i-. the problem?
+          ■   How num)' and how mm·h? Mow many people or thmgll nrc involved'? Mow mony
+              people arc olTcctcd by the problem? Ilow much qurm1hy. volume. d1smncc. or lime i11
+              involvcd1 How many lime-. has the problem occurred?
+
+
+              for each of the preceding quc1>tions. you can ali;o combmc whnt•is .and whnt•i:vnot
+          ques1ioni;, for example, for the qu~tfon. '"Who i-. affected by 1he problem'?" ali;o ask,
+          ..Who ii; nol off'cc1cd hy lhc problemr
+
+          Porsonnol-Problom           Analysis. When you M1~-pcc1that people m11y be the cuullc ofn
+          problem. c111pa1.b1:i-.m.g can pl'Ovidc uuponont c:nuse.rdatcd inforn1.11tlon. You c.mpMhize tu
+          belier understand the unmet needs of a pcri;on connected lo a problem.
+              To empathi7..c, first consider how you would thmk. fee l. or acl if you were in the per•
+          son's i;i1u11tion, f!'or example, if you were a new employee nnd wcro asked to immediately
+          work wnh clu.m1s, how would )'<>u fed? Scc-ond, gulhcr and consider uny rclcvunl 11nd
+          prttxis1ing fnc1s you can 11bou1the pct!lon 11nd the si1uauon. For ex11mplc. whnt experience
+          did lhc employee. twvc before beginning 10 work for your company'? ·rtiird. nsk the pc non
+          (Cir infor111a1jun, possibly through an intcr\'tcw or (whh thdr pcrmts..lun) by obsen •ins
+          their work. Fm.ally. al\cr anal>•z.ing the data you g_alhcn:d, dctcnninc any unmet needs Lhc
+          pc11,on hai;.
+             1lic<-c unmcl nc«is moy rclalc. to one of'five pcrsC1nncl problem types: nbility, training,
+          awironmcmal, motivu1ion11I. und morale. 'lbblc 8.1 providc11 cxumplcs of each lypc all well
+          us possible solutions.
+Chapter 8 • Solvlng Probtems and Writing Propos als                          Professional Wntln OS oak.in • 219
+
+           Table 8.1 Personnuf Probfem Anafysis Chari
+            Problem Typa          Problem Ooacn phon                             Solution
+           Ability            Person cannot physically or        Transfer or tormlnate the por500;
+                              mentally perform as desired.       assign -someone who can perform
+                                                                 propMy.
+           Training           Person doesn't know how lo         Give appropriate lratning and practice.
+                              perfo1m propa,ty.
+           Enviroomenlal Circumstances are p<event-              Change the environment eliminate
+                         Ing person from performing              that which Is preventing performance.
+                              proporly.
+           Motivational       Person Is not rewarded to,         Give appropriate motivation to ad'lleve
+                              propor performanco.                p1oper porfOfmonce.
+           Morale             Porson does not want to            Counsol with ond torml.nate If perfor-
+                              pertorm prcperly.                  mance doesn't improve.
+
+           Gause-and-Effect Amtlysls. What if you'\!c gallu~rcd infonnation aboul your prob-
+           lem, imd you're s1ill not 1,ure o f its cuwte? C11111>c-and-cffcc1 nnnlysis is n problem-solving
+          1cchniquc for idcn1ifying cnusc-.nnd-cll'ccc rchuionships.
+                Cuu11c-ctrccl 11n11l)'sis cru1blc11 you IO on:.,lyze complex problems wilh multiple c,iusc:11
+           ttnd tll'ccl,. As dlw.lro1ed in Figures 8.5 and 8.6, one problem m.uy h.nvc mulliplc cauSd.
+          .ind each of those c.iuscs could be lhc effect of other c.uuscs. 1-'or example. we muy have
+          .i problem whh our mimufucturing assembly line- stopping too frequently. Our analysis
+          indicates 1ha1 the frequent stopping is being caused by n faulty filling nmchinc,. Funhcr
+          on11l)'liis $uggcst.-. that lhc fnulty machine is being cnu-.ed by im:ideqm11c: mnin1c:nnncc.
+          Furlhc:r. lhc: umdcqumc: mnintcnom.-c i11 being cnuscd by 1m;ufficicnt m:un1cnancc stall':
+          1ltrough cuuJc•cO'bcl 1tnaly-si11. you create o cham of cffecL.; and causes until you dctcmunc
+           the mam cause.
+
+
+                                    Cause-and-Effect Diagram
+
+
+
+                     •
+
+
+
+
+           -
+           Figure 8.5 A causa-and-eHect diagram can help you understand the causes of a problem.
+Chapter 8 • Solvlng Probtems and Writing Propos als                          Professional Wntln OS oak.in • 220
+
+
+                                                                                         Ju,t••n•tlm.e
+                                                                                       (J Il) •chcdul1ng
+
+
+
+
+                                                                            btffk"ty liffing
+                                                                              krovy poru
+
+
+
+                                                               ,,..,sclc,ttan
+                                                                      "'""'"'cl
+
+              ~lmlttd'                Limned
+                                                              J
+                                                         Poor hiring
+                                                         declik11u
+                                                                          \ ...,  recrutt!ng
+           l>Ydg(f to buy           moinftNll'Cfl
+           f'ICI¥ equlpfllent          .-toff                                        '-._.Limited HR ,,off
+                                                        1'£,cruning
+
+           Figure 8.6 Caus&-and---elleel analy&s can be efttJCb'vety vlsuallzed in a mlnd•mtJp formal.
+
+
+                'lb perform lhis 1malysi11, oslc wtm1 caused lhc problem. l~or c.ich cau11e. 011k "whm
+          caused lhis" tlt"why did this happen" for every cJfcct unul you nrrl\'e ot l1111:'lin eau.k of nll
+           Lhc ctTects. 1'hcn focus your probh:·nH oh·mg dfons on the mam cause or calL<;cs.
+
+
+           Develop Alternative                  Solutions
+           Once you have mmly1.ed the problem, pro1.ffl 10 work on the i,olu1ion, Someumc-s u
+          soh.1L1on will be rel111ivcly simple: other 1imes, i1 will be complicotcd. •'t(fuinng multiple
+          solulions to solve various pieces of o large problem. Each problem is unique. und each
+           problem requires at le..ist some crca11vily to C'lL\lomlze i1n uppmpriutc solulion.
+               l:Jrainstom1ing 1.·m1 hctp whh this creatt,,e problem•solving process. Hruinstorming
+          i<; the process of thinking of as many rliffcrcnl ideas as possible, ·rhe idea behind brain•
+          st11rming is thut quan1i1y will yield quality- in other words, if you c11me ur wi1h enough
+          creative idem,, hopefully one or two will be useful.1<, mcourngo orig1m1I. unconventionul,
+          innovntivc. and even visionary ideas, don't wor1y inilially 11bou1the icusibility of1he idc•1s,
+          1l uit wilt come Inter. .'-\1this point. encourage crentivity so you eun llunk ouL,;ulc 1he nomml
+           way of doing thmgs .
+              ..~or problem.<; th.at afte<.:1 only you. you can brninstonn on your own. Hui for all other
+           problems, coni;idcr involving olhers m the bminstonnmg process. 'Inc fo llowing sections
+          gwc 11ddit1onal guidnncc ib r penmnnl und group bramslorming.
+
+
+           Personal Brainstorming. Bminstonn solutiom: nlone when (o) your knowledge of
+           the problem Is greater than that of Lhe group. {h) time pres.sure prolubils getting group
+           input, (e) group members arc unafl'ectcd by or don't c.are. about the problem or outcome,
+          (d) you prefer to have 101111 oonlml over the outoume, or (c) the group doe.$ not wnr11; wtll
+          logcthcr, In tht<-c cases, the 11ld snying ttu11"two hends nrc hc11er lhan one.. doo. no1 apply.
+Chapter 8 • Solvlng Probtems and Writing Proposals                          Professlonal Wtttln OS oak.in • 221
+
+
+              Crc{llive hruimoorming is often bc:;1 ncoomplished when you ponder II prnbkm over o
+          longer time period und engage in divergent 1hinking- lhinking 1h111gencni1cs multiple ere•
+          n1ive solulions. Ali illm;lr111cd in figure 8. 7. 1h1s creuli\'C problcm•sol\•ing process includes
+          four basic steps :
+
+           I. Understand. Undcri;lnnd the problem nnd its rdated 1:;suel>.
+          '2, lm:ubatc. Engage m divergen1lhinking. $eekmg for and pondering numerQU'> po~ible
+              solulions,
+           J Oc,·clo1>. Afier pondering many possible solullons. settle on one or two.
+          4 . Rdi11t. Polish and cu111omize the ide1L'l lOIii the problem .ind it! rclahxl is.\ucs.
+
+
+
+
+          Eigure 8.7 Creative problem soMng consists of four steps.
+
+
+              Creative soluuons cannot be foroed or rushed. Creativity c.1111, howe,•er. be fostered in
+          a variety of wuys. 1'hc following sugge..stioni; work for many people who rely heavily on
+          cnmti\lily in their profcsi;ion11I work;
+
+
+          ■   E11rich your knowledge base. Re.id widely. Uccomc exposed 10 ns much oflhc world
+              os pt>S.~1ble-d1fl'crcnt companies, indu.,lrles, lidck c.ulturcs, and mclhodolog.lcs. 1 h1~
+              knowledge increases lhc dnla m your menial dawhusc so you can 111cre11se lhc number
+              ofpatcntiul menlill interconnections.
+          ■   Eliminate di~traction.li, Go 10 a pince where you can shut 1m1distrnc1iiJnS,
+          ■   Set nsidc l11r1,1c chunkli of tim0 to ponder. Cn:auvily usuullydoes not h111:,pen quickly.
+          ■   Arise urly. The mommg is usuully 1hc 1ime when your mind i11 most 11ler111nd unclul•
+                    ·n,
+              tercd. 11ecpare f'hl' waking up early. go 10 bed early.
+          ■   Utilize lbc Alpha 11lccp stale. Load your mmd wilh del11ils of the problem the nigh!
+              before-, and let your mind work on the problem dunng the Alpha sLUte-, the time between
+              deep sleep (Dehn sleep) nnd wide awnke (Het11 lill1te),'the Alphn i;1n1e e<1n be de,;cribed
+              mi a rcluxed-nwnke state with your c)•c:, closed.
+          ■   Kc~p Ille 1m1hkm consl1111lly on y11ur mind. Mony people have t'buml solution11 to
+              problem~simply by constanlly 1hmking about them O\'er ume. As you go tltroughoul
+Chapter 8 • Solvlng Probtems and Writing Propos als                         Professional Wntln OS oak.in       • 222
+
+
+
+               )•our dny1 you mighl get new insight-. n1 unpredictable times. f'or cxnmple, George de
+               Mcs1ml's in11piru1ion (()r his Vele~ bmnd come from hum thnl stuck 10 him nnd his
+               dog during a hun1ing lri1, in lhc Swiil Alps. Yoo might even 111umblc upon a ,mlution
+               thJI nocdll a problem to llolve. Sometime- oil er lcJrnin1> about n lc,w.strc:ngth 11dhcs1vc
+               developed by ii collc-nguc at 3MOO, Arthur h y was singing in his church choir. 'l'hc
+               bookmarks in his music wouldn't s1ay in place. He- remembered lhc low-strength
+               11dhes1ve nnd applied it 10 his bookmnrt.:.s. 1·h1s soluti<)ll toArthur·s bookmark problem
+               cven1untly became tllduy·s Post-it® No1es,
+
+
+           Group Brainstorming. When )'OU condUl1 group braim1orming. you must have an
+           open mind. C.imup mc-mbc~ cxpc-cl you to consider their opinions.. and 1f you :sc:ck 1hdr
+           input but ulrcady have your mind made up. you'll come nc-ross as n leader who doesn't
+           listen. If that happens., the brninstorming session may catL<;e more 1uobtems than ii solves.
+           ~rherefore. keep 1111 llpcn mind nnd ai;c;ume 1hi11 m(lfC lhnn one or two poi;siblc solutions
+           exi"1 (sco figure 8.8). Your group will likely even develop o varie1y of solutions. 11nd
+           combining muluplc imlu1ion..~ may prove to he best.
+               You tnn UllC· either oml llr wr11tcn mclhllCb to bruins1orm wlth II group. 0ml bmm•
+           sto1mmg uwolvcs four steps.
+
+
+
+
+           flg ure 8.B fn group brainstorming, k96p an open mind and consider group members'
+           opinions. (Photo by FIJuJC91S on pex6ls.com.)
+
+
+
+           Sl•lcct the Grou1), Sclc:c1 11 group of6 10 12 people. Groups smuller 1h11n 6 mU)' luck the
+           nece11st1ry d1versi1y 10 1noduce the desired rc!luhs. und groups larger thnn 12 some1imcs
+           break into ,.ubgrou1>ll or inumidutc lc1111 nsscnlvc 111cmbcr11. l!n11urc duit group mc:mbc:111
+           have a );!,Ood koowlc:dgc of 1hc problem and Its oontcxt
+
+
+           Sded :1 t=':1cilil111or. Choose a fucilitntor or serve ar. fnc iliu11ur yourself. If you seivc as
+           foci litolor, you :.hould be able Ill conduct 1he sesi,ion. coordinate the generation tmd record-
+           ing of ideas. nnd probe for bcucr 11nd deeper thinking.
+Chapter 8 • Solvlng Probtems and Writing Proposals                        Professional Wntln OS oak.in • 223
+
+
+          ~·lt:c:1 Rccetrdrn. Designate one nr 1wo record(;r, who con write 1hc group's ideas on ii
+          whiteboard. s1icky no1c:s. or cards. Since time is of the essence when ideus urc flowing.
+          reoordtt11 muse be abk 10 c-.11,turc the essence of the idcus quickly. ncutly, nnd clearly.
+
+          Ccmducl the Hr:iin~letrmin:,: ~cs~itm. At the start of the session, welcome group members
+          und help e'ie1yone foci welcome to suggest crcnhvc ideas without concern ror orgumza-
+          1ionnl po lilies:, fem;ibility, or oihcr group pressures.
+              Ne,c1, clarify the goal of 1he bm111s-1om1ing ffliSton, which is 10 gcncnuc possible solu-
+          tion..; for 1hc problem.
+              Ancr goal clariflco1ion, explain the meeting 1mi,ccdurc!I. You wuld recommend thm
+          group members begin coming up with hlcas 11nd building off others' idc11s in 11n unstruc-
+          tured w1ty. ln thls c.a.<;c. you could say, "How c.ould we solve this prnblem'!" Altcmalivd)',
+          you could rcc.ommcnd .i structured go-around in whic.h each person voices an ide..i in an
+          orderly wny (e.g.. from lefl 10 rig.ht around the room). To s111n this process, you oould
+          sny, ·•J"d like )'OU nll 10 think ofa wuy to solve 1hi11 pmblern, We'll 1hcn cake 1ums sharing
+          our 1dc•1s." This 1,rocc11s cnoourugcs cnch person 10 f)l1tlicipn1c, ruthcr than allowing some
+          people 10 remain !lih:nt while others do nll the tolldng.
+              When idc1t generation starts lo slow down, encourage group mcmbc:ts to thank deeper,
+          shnre lcss-obv10us 1dct1s, or propose soluuons from a different nngle. 'lb sln:ss quantity,
+          you might suy, "Let'$ 1ry to ge1 50 new ideus in lhe next 15 minutes.." 1'o cncoumgc the
+          group 10 look n1solutions from different points of view, you can promp11hc group co u:ie
+          lhc ideas m Table 8,2.
+
+           Tobit 8.2 Group Brainstorming Prompts,
+                   Prompt                                         Ooacrlption
+            Think ol people.       Fot all typos of problems. lhlnk of moving pe()ple around or
+                                   utili zing their talents in differont waya.
+            Think of location.     Think of moving an operoUon too difforent locotion.
+            Think of timing.       Think of moving a task or proceduro to an eor1I91' or late, "me.
+           Think 0pp0sil8S.          Whan ona idea is given, think of its exact 0pp0site. For
+                                     oxamplG. If you're trying to solve a rtnancial problem. create
+                                     solutions that would save monoy es woNas ideas that would
+                                     generate more money.
+           Think of other profes-    Fo, a human resouroes problem, think of the way the problem
+           sions Of occupations.     might be solved by the fast-food industry. by a farmer, by a
+                                     clothlng manufoeturGf, ot by an airhne.
+           Add more o4 the same. If one person suggests an incentive in a markebng problem,
+                                  lhlnk 01 add1ng mote lncontlves.
+           Delete an element.     Fot a marketing problem, think of dropping. ralh8' than
+                                 Jdding, a product.
+           Think of oxtemo1       Fo, humun PfOblems. think of wnya to chw,go the environmonl
+           factors.               as well as the people.
+           Thfnk 1pecificalty,       F0< general iOfutions, lhink of how the iOk.ltion might be
+           -                         applied lo a specific situation.
+                                                                                                    -
+Chapter 8 • Solvlng Probtems and Writing Proposals                         Professlonal Wtttln OS oak.in • 224
+
+
+             You oould nlM> rrompl the groor l'O lhink ofwny,.10 impm\1C: the live M·i; of manngc-
+          mcn1;
+
+          ■    Man1>owttJl1111uu11 rtroUl'C'~ll: Reassign, train, lix lhc envlromncnt, 111otlvntc, rcplncc
+          ■    Money: Add or expand. c:limuullc:. reduce, nmintain, conlml, mod11}· a procedure
+          •    Machim.-s: Repair, rq,lan\ upgrade, add, climmatc:
+          •    Materials: lmrrove, reel~, rcplaoc1 combine, sepnrntc
+          ■    Mrthoch; 1:timina1e. mcx:hani1..c, nu1oma1e. combine, scpar111e, s1nndordi1e. t'hnnnhze,
+               reline:. modify. ccnlrolizc. dcccnlnahzc
+
+               Finally, when h sccmi; Lhat new Ideas ha\1c stopped completely, dose the scss:ion by
+          explaining lhat other tdc:as might occur to group members during the next few hours or
+          days. l'mvide group members wilh a way to s ivc you additional ideas they think of after
+          the sei;i;ion.
+               Oral brnin:,1orming with II group has m 1in)' bcndiis. but it ulso h11s weaknesses. For
+          in,inncc, only one pcri1on can ~rtid()Jilc nt a 1ime, t1nd socml incquiticll within II group
+          may keep wmc members from par11dpa1ing. 'l'o ovcn::(1111e 1hcsc wc:.aknc:sseK. you l'm1 try
+          wnttcn bnunstormlng.. ~•or written bnun.,;torming as a group, consider gallcry wrltlng and
+          pool writing.
+              Gnllcry \\."Tiling (~cc Figure ~.9) genenttcs ui;c:ful idcni; and liQlvcs most of the i;ociol
+          shoncomings of ornl brninstom1ing, Hero is how to fncilitntc g.illcry writing:
+
+
+           I. Tope 11cvcml lnrgc ,ihceL;; of papl'r on the wallll ofthe m1Xling roo1n. 'J'hc ~pc-rs ~ould
+               be spaced se...-crnl fed apart.
+          2. Alter wckonuns gmup members and clarifying the i;.oal of the brainstorming liC:liSion,
+             invilc group member.. to wrile their idea.-. on the lurgc i;heclli.
+          3. Once group membm finish \\'riling. invi1c them 10 \\'Under nround the room reading
+              other people's ideRs 11nd writing llddi1ion11I idcus sparked by Lhc 1de11K they rend.
+
+
+
+
+          Figure 8.9 Gallery writing is a proCflss lhal asks group members to write ideas on sheets
+          of paper placed a.round a mooting room.
+Chapter 8 • Solvlng Probtems and Writing Propos als                             Professional Wntln OS oak.in        • 225
+
+
+
+               An 11hc:mntivc wriuc:n nppronch ts poCII writing, l-lc:re is the process of pool writing:
+
+
+           I. Give coch grou1> member II pen and paper,
+           2. After wckonung g,uup members i1nd clarifying the goal of the bruln11torming se!ISion,
+               d1r«t group members lo siletHly nnd anonymousl)' wnte down thdr ideas on .i sheet
+               o f paper.
+          3. When lhe group mcmbefs finis.h writing, .ic;k them to pool their sheets into a pile,
+          4 Then invite each group mc:mhcr 10 randomly sclcc1111ihee1 from lhe pile, read i1. write
+               down any new ide1L~ thnl come 10 nund, und return the sheet 10 the pik. Gmup mem-
+               bers )hould repeat 1.hii1 pr(K'es.~ un1il you llcfl.;e that the procc.sll is no longer productive.
+
+               One of the downsides of pool writing is that all ideas al't'n't a., ealiily visible-as lhey arc
+           in gullery writing, but the anonymotLc; aspocl ofpool writing mny hd p your group members
+           foci le-.s g.rc,up prcs..,;urc when brninM01ming idcali.
+
+           Select a Solution
+           When deddlng whkh solution to hnplemenl, you neLxl to shill rrnm ba<:kwnrd tlunkmg tu
+           forward thinking. As )'OU miltull)• analyzL-d the problem, you looked backward, movins
+           from the problem cO«:CLc; to lhc problem cause. When choosmg a snlution. you need to
+           look forwurd1 i;elec1ing II soh,111011 who~ effect will solve the probfcm, Also in the i111ple-
+           mcn1n1ion phase, yC1u shill from d iv«gcnt think mg 10 con\'crgcnl lhinking, In 01her word$,
+          dunng bmms1onn111g, you needed idcll'i to d1vC'l'gc fi'()m cuch other so you could gencrutc,
+          ut many ercJU\'Csolutions as pc)!l)ible. In the deds1on-making ph:m:, you now nocd idcOll
+           10 c.onvcr.gc toward one- solulinn (sec Hgurc 8.10).
+
+
+
+
+           Figure 8.10 Problem solving moves from diva,gon!._!o convorgon!_!_hinking.
+
+
+               As wnh brninstonnmg, decision making cun be achieved individually or as .i gmup.
+           You m.ny invnlvc the entire group, Qr ynu cnn us.sign n small group when it may nnl be
+           11dvan1n.gcouli to hnvc- the cnlirc group involved,
+Chapter 8 • Solvlng Probtems and Writing Propos als                           Professlonal Wtttln OS oak.in • 226
+
+
+                ln\'olving ci1hcr n i;mnll groop or lhc cn1irc group nchicvcs two ndvan1ugcs ewer indi-
+           vidual decision making. Finil. u group can help you milkc u bcucr decision bcc~1usc 1hcy
+           lm 1c more perspectives to share. Scoond. pcopk will gencmlly suppon dccision.11 bcner
+           when thc.y hnve paniclpatctl 111 1he dc-ds1on-11mklng process.
+                Whether you docidc ulonc or w11h a group. you ean (hllow this four-step pmccs..<:.
+
+
+           I. Ori,:11ni1.r and rt'fim• the lis-i. Group relmed idc-as from the bn11ns-1orming hst, Com-
+              bine ovcrtnppms, relntcd idc11s. Refine the h:.t w cJ1ch 1dcu 1s ns clc-.nr and d11ninc1 ns
+                possible nnd until you have u 1mmogeablc number of 1mlu1ions Ill choose f"rom. 1\1 lhlll
+                point. you miglu be oblc 10 i<tmove some ilem,i with these c:harncteri,1ic1:
+                ■ Ooesn·1 sat1sfycritical needs
+
+                ■   l'oscs too much rii;k
+                ■   Ii; d lcg.il or uncthic-.il
+                ■   Ii; ccm1rnry 10 the orgnnini1ion·s philosophy or culture
+                ■   hi not financiully feasible
+                ■   Docsn'I meet lime rcquircmcncs
+                ■   b technically ineompat1blc whh cx,sdng $)'!Items
+                ■   Is unacceptable to affected personnel
+                ■   Is too dinicult to implcmcnl
+          2. t:st:abli,;h c, •11l1111tiun crilcria. A crilmcm ij II principle or slnndurd b)' which a dcd•
+             sion may be judged. such us tmn·, money. or quulny, for ex"mplc, .i :syincm cnhnncc•
+                111cn1muJil be 1echnic.ally compatible wi1h other company systems. must not cost more
+                than $30.000, and must be caJ1y Lu leam. Ai Tobie M.3 ,-hows. cntcria cnn be quanttla•
+                Ii Ye {how much) or qualilnti\tc (how well).
+
+           Table 8.3 Typas of Evaluation Crlterl/J.
+                     Quantitative (How Much)                            Ouahtat,ve (How Well)
+             •Financial result&                               • Acceptance by personnel
+            4
+              Production speed                                • Ease of imp5ementation
+             •Number of produclk>n units                      •Technical compatibilily
+             •Percentage of market share                      • Legal ot ethical compliance
+             •Numbor of errors                                •Compatibility with corporate culturo
+             •Number or sale1                                 • Compatibility with the Ol'ganiZation'1
+             •Customer relention                                mission or values
+             • Average cost per unit                          •Risk (financial, technological, environ-
+                                                   m'="'~'=•'~•'=
+             •Click~throug,~h-'ra=t=•-------...J--"-            e~---------'
+                    When gc:nc1\11ing evalu:uinn en1cri11 with II group, wri1c every pcnmn·s 11usges1ion11
+                in a list 'J'hc:n nsk why each criterion ill importanL Work with lhc ~oup until you
+                produce II lii;t 1hat C\'cryonc can live with. Agr~dng on c:rhcria c:.nn be u d,mcuh tai;k,
+                so plan for considl~rnble lime und negotiation during this step.
+           3. Wrii:h1 the crilcrill. Nol nll crilcrin nrc equally imponanl. Develop a sc.ilc (e.g., from
+              10 to I) to indicu1e the rcl.11ive impor11mcc of each criterion. F'or example. legal rom-
+                pliancc might be u 10, ea11c ofimplemcmauon might be nn 8. nnd timclinc!IS might be-
+                ti 5. fk ,iu1-c to diffcn:nuatc helwun enlical need.,, and nic1>10-havc waJ/1.\'.
+Chapter 8 • Solvlng Probtems and Writing Propos als                             Professional Wntln OS oak.in • 227
+
+
+          4. Sch.'tt the hfst 1mlution fro m the bntin111orm li!il, Ev11hm1c each soluthm according
+               10 the wcigh1c:d cri1crin. ond cluX1sc 1he solulion 1hm btst nleeis the critcri11. Decision
+               malriccs cun be useful m u group or individual scuing m sec how well sotu1ions mc:ci
+               c:vuluation cntcr111.1bble 8.4 111 nn cxumple of o decision matl'i.:t compurlng duce plcecll
+               of cqu1p111cnL It illustrates how you con convert quahtativc: c:rhc:.rb into more ca.-.dy
+               compamble qwm1ttat1ve cl..11.a.
+
+           Table 8. ◄. Decision Matrix.
+                                                                                Alternatives
+                       Crit&ria                 Weight          SMX 6600          PFL 462          FM 280G
+            Equipment ratings                      10                9                9                8
+            Price                                  9                 8                6                7
+            Compalibilily with current
+            line                                   9                 9                8                7
+
+            Reputalion of vend°'                   8                 8                8                7
+            Training required                      8                 8                8                7
+            Installation time                      6                 5                6                6
+             Tolal                                50                47               45               42
+           Noto: Tho cn'tarlo aro listed In dascanding order. top to bOltom. according lo weight (lmpo,.
+           tance) and that the altemativos aro fistf.Ki in doscending ordur. !ult to right. according to lhe
+           total scores. This logkal sequoocing 811hanc9s readability and comp19hension.
+
+
+                     II' 11 decision malriit's numeric 101nls don'I rctlec1 wha1)'Ou hoped for. one or two
+                thmg_,1 has hnppcncd. First )'Our bias mny be oliecung the pl'Ol-css. In this cnse. step
+                back, coke a hr<mh:r view of the situation, ond do wh:il is best for the bitu:uion-nol
+               jusl what 1s prcfefl'c:d for personal rc:asoa<. Sct.-ond, the wdgh1111g of the crherb may
+                be inat'>Curute. hnsure thut each criterion's weight uocurutcly rcllccL-. the 1mpo11unc::.e of
+              lhc criterion to the decision,
+              Although decision motriccs c-•111 be very useful in group decision m.nking. ,mother
+          option is \'Oting. To fuci li1111c the voting process. [U'O\•idc each member o ccnain number of
+          vOICj to c,1st. For in111nncc, if 50 idc1L1> have boc:n gcnc:rutcd, give cnch member 5 \'Oles ( I0
+           percent oflhc tolnl). If the \'llllng needs lo be lllll111Yl110us, provide each group member with
+          n hnk to an online ••uting form or with o with u piece of'paper to Indicate their choices. 1'hc:-
+          most frequently chosen solution reOects the group's ovcrall preference. If the voung docs
+           110 1 need Ill be anon)'mous. write the hlil o f solution.-. on a wh11cboard. chnlkboard. or po.-.lr r
+           pnpcr. Group mcmbcni then indic.itc 1hcir Vllles by placing a tally mark or 111id:y dol nex1
+           10 their preferred solutmns. ' l'hc group's prcfcrrnccll become vi~ually Ob\ t0us llll mdica1cd
+                                                                                             1
+
+
+
+           by the k1rgc:i.l clll\lC'1'$ or \'Ole~.
+                Aller sdoc:1ins n wlution. you may need to communicate the problem and solution
+           to others so you can receive uppro,,al to implement your solu1ion. 1'o mfonn them of the
+           problem 1111d energize them to lnkc nc1ion, fmme your communic111ion wilh -wha1," "so
+           wh111,·· 11nd '"now whnf' s11ucmcn1s. l'hc .. whnr · sta1cnlCfllli describe lhc problem, the "so
+Chapter 8 • Solvlng Probtems and Writing Proposals                              Professlonal Wtttln OS oak.in • 228
+
+
+          wh111" lilnlcmrntli illu~1ru1e what lhe problem menni; 10 the orgµniw tion, und the "now
+          wh111!' srntemcnt11 describe your solution and how i1 sol\'eli lhe problem, I lere is an example.
+
+
+          ■   Whul. One employee is h:iving d1fficuhy keeping up wilh the as§cmbly line p.icc.
+          ■   Whal. '!'he assembly line has hi:cn complctdy shut down throe times m the last month.
+          •   Whal. l'roblcms with one outdated machine arc causmg the entire assembly line to
+              :.top.
+          ■   So wh111, 1'hc lilhng-mnchinc station is costing 1hc corpomt1on •1pproxim111cly $12,000
+              c.-ich month.
+          ■   Su wlu1t. f requent as~cmbly-linc s.hu1down~ ,,re cou§ing rru§tmuon throughout the
+              entire orgunlzatmn.
+          ■   Nnw wbal. We need to sol\1c the problem of nssemhl>••hne shut downs.
+          •   Nnw what. We nttd to replace the outdated tillingmaehine.
+
+
+              Al1cr you cxperin1tnt with vuriou11 combin111ions offo1mings1atemenls, choose lhe one
+          that will best inform and gencrntc positive nnd active involvement from 1hc people who
+          will participate in the approval process.
+
+
+          Implement the Solution
+          When you hnve aulhorizatton lo prnceed. plan ho,.,. 10 implc:mem 1hc solutton, £vcn a great
+          idcn can fui l if you implcmcn1 i1poorly, so plan not only wlw, you will chnngc but nlS<l
+          whet¥!, when. imd lww you will introduce the chungc. four 1m11lcmcn111tion pion.~ con hcl11:
+          pilot, pha,c~in, parallel. 01· cold turkey.
+
+
+          ■   l'ilut With a pilot plan. you LI)' oul the new 1nogram in one segment o f your organiza-
+              tion, prdCrubly wilh a group lhat hkes the program nnd wnnts i110 succeed. After the
+              initial pilol pmgrnm. you implcmenl throughout the orsnni1ation. u,;ing the knowledge
+              nncl experience you gained from the pilot.
+          ■   l'l111se-in, 1'hc ph:isc·-in plun involves implementing d1frcrcn1phases or the new pro•
+              grain 111dilrcrc:11t time periods, such ns on January I, March I, and May I.
+          •   VaralM. With the parallel pion, you ope-rate both the old and the new i,ystcms simulta-
+              neously, such as wath a new :mtomatcd system that will rq,lace a manual system. This
+              glvt'$ the 11u1omn1ion tcnm II d1ancc 10 idcn1iry and fix nny problems before c;ompfctcly
+              phasing ou1tho old and implementing the new.
+          •   Cc1ld lurkty. The c:old turkey plan i11 JU~I wh11t the nomc implic$-On II chosen day.
+              you disconlinue the old program or procedure, nnd you begin Lhc new one.
+
+
+              In )'Our plan, he sure to consider fore.cs that could influence a succes.~ful unptemcnln•
+          ti()n. Forces 1ha1may be work tog for or ag11ins1implemenmfon may indudc lhc following:
+
+
+          ■   Available resour<:cs
+          ■   'l'radilion.t, culture. 11crsonal intcr~st,, attitudes, vnlue~~. dc§irc-s
+Chapter 8 • Solvlng Probtems and Writing Propos als                          Professlonal Wtttln OS oak.in • 229
+
+
+           •   Org.unb:111ionul Slructures and relationi;hi1l~
+           ■   Current policies, procedures. nnd 1m,ctices
+           ■   Finanei:11oosls and bcnclits
+
+               After ldeat1fymg Lhe IOrces. analyze them using Lewi n's forc-e-licld analysis (SkyMork
+           2(>12). 'ro conduc-l this unal)'sis, draw a large Ton a page. Across the top or 1he 7', wd te
+          describe 1hc sohnion you will implement. On the leA side of the T 1 li.,t 1he positive forces;
+          on the rig.ht side. list the nci;ntivc forces. 1:3-tlscd on yoor own judgment or on other data
+           you have gn1hercd, weight caeh force on•• 1- 5 scolc, whh I rq,rescnting a weak IOrcc und
+           S rcprcscntlni; u strong force. 'Ihen Iola! the \1/Ciglus on the lcn sidt (posi1ive forte$) und
+           rig.ht side (neg.itivc forccs) of the 7' (sec figure 8.11 ). If the ncg. i1lve forccs outweigh the
+           positive forces, plan wa)'s to mcrcase the positive forces and decrease the ncgauvc ones.
+
+
+                                       Goal: New Delivery Process
+                                     +                .. ◄
+                                     Missed              4 4 tnc;reased
+                                     deodlin,s                   cost
+
+                                     Customer           5 2 Compe1ing
+                                     complaints             time pressures
+
+                                     Management         5 -3 Personn~f
+                                     de.monds                resis tance
+                                                       14 9
+          Figure B-..11 A fo,c9.fiakJ ctmrl holps ld6ntify the forces worlt.ing for and agoinsl lmplomo11-
+          1ation plans.
+
+               In your impkmcn1111ion pion. be sure to uls~1 consider lhc people who will be 11ffcc1cd
+          by 1hc change. People oflen resist change. 110 lhe bcucr you umici11:11c 1hc negmi\'c cO'cc1s
+          of your planned i:h:1ngl!ll. the smoother the implcnicntation llh1L~e will be. Anolyzc your
+           tmdicnc.c, considering their needs and ennc-cms, nnd then modify your implcmentatmn plan
+          as nccdcd. Jrposslblc, don't force your plan on peoplc. l::arn 1hdr trust and cooperntlon so
+           the)' will hdp you mukc the c-hangc successful.
+
+
+           Evaluate the Outcome
+           As part of your impkmcn1J11ion pion. come up with wuy11 10 ev111tm1c whcthtt your 11olu1ion
+          solved the problem. Fir!II, dctNntinc whnt infornu11ion you need. 1'hi!1 in(hrmat1on llhould
+           measure Lhc intended outcomes of your solution. for example. suppose th..11 you dlsc-ov-
+          «cd a problem ot"dechning customct satisraetion th.i t you traced to new employees. You,
+           lhercforc, implemented a new training progrnm uucndcd 10 (I) inc:rcnsc new cmplo)'ecs·
+           knowledge ahou1your produc1s and 1hcrcby (2) incnm-.e the employees· hclpfulnc$S to cu-.-
+           lomcn. ·10 cvalume these outcomes. )'OUwill need 10 gmhcr informr11ion nbout whm your
+          employees know nnd how )'Our eu111omer11 perceive the hd1,fulnes11 or your employees.
+Chapter 8 • Solvlng Probtems and Writing Propos als                         Professlonal Wtttln OS oak.in • 230
+
+
+               Second, dc1enninc huw you'll ga1h« lhc infonn11tian, Use approprintc m<:1hnds thn1
+          galhcr d11111 in on unbioscd way. In the example. )'Ou could administer n short exam to
+          emplo)•ccs to !IS!ltS!I their knowledge !ind u shon 11oti)racuon ) Ur\1cy to customcr!I who
+           intc1-.1ct with new employees.
+                ·1hird, dcicrminc when )'OU will g111her the mfom,ullon. Gather data he(orc imple-
+           mcntalion and al\er 1111plemcnta1ion to comp.ire the impact of the solution. for example,
+           you could ndminii;ter the exnm 10 employees before the lmining and a few dnys nfter the
+           1mining, In 11ddi1ion, you should gn1hcr sa11sli1c11on surveyi, from cus.1on~l'1' before nnd
+          ~11,cr 1hc lmming,
+               Pinal!)', determine how you will am'lly1..c the infomutlion. Compare the dnlll you g,ath•
+          c:red before ond after implementing the solution. For example. the: exom dnLO ind1catL-d n
+          large increase:-in employee knowledge aboul your pmducL<i, but the L':IJSlomer satisfoction
+          data declined. If the dumge is positive, continue implementation. If you sec no change
+          or ncg11tivc cbungc. you mny need 10 h.nll fur1her implcmen1a1ion nnd rcrform i1ddi1ionnl
+          nnal)'si.s, Implemented 50fu1ions c:an cnusc both intended and unintended outcomes, so
+          cnrcfully nnulyzc t1II 1ypcs of ch.nngcs when c-voluating your soluLion,
+
+
+            Writing Proposals
+
+           Ar; you work through the problcm-r;Qlving rmccsr;j mu dci.cnbcd, you might need tom1ucst
+           rcimurocs, m11hori1ation, nssistoM"C. or 11c1ion from 01hcrs, /\ fom1ul proposnl will help you
+           make 11uch rcqucst.11,
+             Proposals serve lwo mujor purposc:c. Pina, with 11 propo,i:al, you express a need f'hl'
+          something from others. Second, with a proposal. you commil to pmdut.-c the proposed re•
+           suits. By ucccptmg your proposal, others .anlldpnte oerLOin bcnefils in rc:turn for providing
+           needed rcsourocs.
+              10 inert.is<: the likelihood of ptTsuudingothers 1·0 provide needed resource$, remember
+           10 oompfctc the PAC$ planning process nnd then compose your proposal's content
+
+
+           Plan with PACS
+           Pmpo..'ials play \1llaJ roles in business, go\1ernmcnt, and nonprofit orgnmzatlons. Proposals
+           110 1 only fnd litale problem solving in these organiza1ionr; but also generate s1gnlli~nt
+
+           revenue in the 1Qm1 nf grant money. nwnrd~ cnntnic1,, nnd accepted hidi.. Consequcmly.
+          cnrcfully .iru1lyzi, the purpose. audience, nnd context or)'<>ur propos.111. fol low 11n 11p1nopn•
+          me patlctn. and strcnglhcn 1hc content.
+
+           Purpose. Proposals c11n he required at any step in the pruble111-sol\tini:; process, from
+           rcsearchmg problems lo providmg solutions to problems (see Table 8.S). for example,
+          con!>idcr lhese i,cenarios:
+
+           ■   Rcscuch 11roJJC>H I, Suzy. 11 clic:nt•scrv1ccs manager. noliL'CS an incrcnse or ClLiltorncr
+               complaints regarding 1he coinpiiny web:dte. She !lenses II problem but doesn't know the
+Chapter 8 • Solvlng Probtems and Writing Propos als                            Professlonal Wtttln OS oak.in • 231
+
+
+                criuse or the problem, Therd bre. Su1y pmpo-.~ a plnn requinng r~ourccr; In identffy
+                    1hcct1use,
+           ■        llcsc11rch pro1Hu:i1I.Aficr gainingupproval. Suzy ,:le lines and anal)"lcSlhc llroblcm und
+                    ultmu11ely de1enn111cs lhal 1he problem's cnusc- lies in the coinp.iny'$ onlinc-paymcnl
+                    opplicali<ln➔ Suzy 1hcn pm1mscs another plan requiring additional rc:-suurces lo invcsh•
+                    gate possible sotu1ions und to sdeLi the most feasible soluhon.
+           •    Solulion prop1u nl. With ii snluuon selec1cd, Suzy requests ndditionnl resnurcc:. to
+                resolve the problem wilh the applicatton,
+
+           Table 8.5 Problem-Solving Steps and Proposal Typ9S ,
+                          Problem.Solving Stop,                             Proposal Typo ■
+               1'        oenoo the problem                                 Research Pfop01a1
+               2.        Identify the cause
+               3.        Oevek>p alternative solutions
+               4,        Select a solution
+               s.        Implement the solution                             Sol ution Proposal
+               6.        Evaluate the ou1come                              Researdl Proposal
+
+
+                    Most pmbtcm.t; ciln Ix researched or solved 111 multiple ways, so )'Our purpose us ii
+           proposal writer ls to persuade your audience lhat your proposed wa)' is best. Spedfically,
+          you must persunde )'Our nudicncc lhat you oorrcctly unders1;:ind lhe prohlem1 lhat your
+          1,olu11on will 11ctuully solve che problem, Ihat you can and will implcmen1 lhc solution you
+           propose. and 1ha1 the soluuon will bring ubou1the desired outL•ome.s,
+
+          Audlonco. Proposals can foClL'- on etcher intc:mul or cx1errual problc:ms. f'or instance, you
+          might ..,, rite proposals to solve llroblem.t; wilhm your own oryanizution {internal propO\S•
+          ,1ls), or you muy work for organiiations (such us consulting, manufacturing. auditing. or
+          cons1mction compimics) thnl solve problems for other orgnniw1ion,;, 1;mploy«'1i in these
+          companies wri1c proposals to clients or potcn1iul clients (external pmposals). propo~ing
+          10 pnwidc fec•bascd goods or !lerviccs 1lm iiOl\'c problc:m!l for the clients. for 1he.se com-
+           panies. proposals play a vital role 111 revenue generndon. for examples of proposals, 5«
+           figure 8.12 (internal p-roposnl) and l-'1gures 8. 13 und M.14 (external proposals) al the end
+          of 1he chapter.
+                    When writing proposals within your own organization. take time to m cc1 wilh or in•
+           tctvicw members of your primary audience. find ou1 lhcir 11ui1udeli nnd ncccl~ m relncion
+           10 1he probtcm )'<>Uore pmposmg 10 KOl\'e, and 1he-n milor >•<>ur t1olu1ion 11nd pro1,os11l ac•
+          cording!)•. Don't for~c1 to oorL-.ickr Lhc ncedi    or secondJry audience!l llt: well. For cx1unplc,
+           if you will be prupm>ins a durnge that affect! u team within your company. lalk \\'1th the
+           !cam's mannger, !he individual learn members, and anyone d.t;c in the comp11ny who might
+           be inter~led in or affected by lhe change,
+               You mny huvc n more ditlicull lime nnnly,ing the nudicncc in an extcmul orgnnizution.
+           hut do ult you can 10 knm nboul your nud icncc. When possible, cull nnd talk with your
+Chapter 8 • Solvlng Probtems and Writing Propos als                            Professional Wntln OS oak.in • 232
+
+
+           primnry audience, vii;it the si1c where propor.cd work will be rcrfonned, t'tfnlik ques1ion-.
+           vio emnil. Toke time 10 review the oudience·s website. prcs.s rclenses. or ony 01her media
+           published 11bout 1hc uudic:ni:c·s oornp.iny.
+                 'l'hrougjl Lhis procesll. you will better underst.nnd your nud1ence'i1 ncccl11, valuell, and
+           11tlltudci; about your proposal. and whether other forcc:s c:\'.ist thnt might mOue-nee your
+           11udic:-nce's ac.-«ptanee of your proposal. llascd on the mfonnallon you d1sco\ er, tnilor1
+
+
+
+           your proposal in a way lhat shows you hn\'e done your rcsc-.irch and hnve the nudiencc'i;
+           ~ 1 intert$1 in mind.
+                Proposals m.11y be l1oltd1od {rcquestod by the orgnnl1.,111ion thm hall II problem to be
+           llOl\'ed) or unsolicited (not rcquc:-.!>ted b)' the organizauon that h::ill the problem). l:!vc:n if
+           you a.re writing an unsolicited proposal. you !ihould lL.;unlly twve a prchminnry co,wer•
+           sauon lo lll'e~mre your prinury audience lo rccdvc the proposal. forc:-xamplc. talk with a
+           potcnliul clicnl to find out currc:-nt needs and problems, and then mention th.11 you would
+           hke to submit a propoiw,I 10 help acldrtlis 1hosc needs, A r ropo1ml dcli\'ercd lci II prepared
+           audience will usually hi1vc n grca1cr chance of being 1mxp1cd.
+
+
+            Contoxt. In add1t10ll to nnalytJng the audience. take time to unckr.nnnd the context l'I I'
+           the:- problem you are soc-kmg to sol\'c. Sohc1tcd proposals arc:--usually wnucn in response
+           to im exlemul organi.7.lllion's request l'o r proposal ( Ri!P). 'l'he Rfl' rc:-prc:-sc-nts an invlla•
+           tfon to 1.ubmit a proposul, nnd tt can include con1cxtunl information such as bllckg.mund
+           mfonn1111on ahou11he org11nin 1t1on or program 1li/i.uing 1he RfP, 1nsks or objectives lhat
+           theorgnnizalion or pmgram would like i:omplctcd. dcta1lll obout who is eligible 10 submit
+           a propo:iol, l'c strictions ohout how fonds cau be used j f they arc owardcd, contenl and
+            formal cntcrin for submitted propos.ils., 11nd dc:-Jdlincs and submission mstructions. and
+           other vulunblc:- informauon (see Figun: 8. JS).
+                After litlldying 1hc RfP, rC$cnrch the external and intcmul fuctors rclntc:-d to your
+           1tudicnce nnd the RFP's i pon~ring organir.ilion. Extemnl faclors such ns compcliton; or
+           industry dynumios can help you bc:11« unckniu1nd why the orguni:rntion ill experiencing
+           a problem 1u\d how )'OUmight llolvc:- the pnlblcm, 1:-or example, if )'<>Ud1l1cover thal the
+           organization h.as been losmg money due 10 competition, you mlglu assume that co.,t
+           will be .in important e\ alu111ton factor (or your audience. lntcmnl factors such as lhe
+                                      1
+
+
+
+           organiza1ion's missmn, structun:, and history can nlso hc:-lp you n.-cugnizc thc:-mcs and
+           vc,cuhulnry 1hat will resonutc and nlign wi1h your nuclicncc's need-... culture, and vnlocs.
+                  Dy mcorpomting the comcx1ual inform.it ion you lcnrn from 1hc Rfl 1 and othcrsourc-
+           cll. )'<>II inol'Cusc: the likelihood of' 11 pollilive proposal cvolua1ion. Proposal cvolu11t1on
+           occurs In two phase,:
+
+
+            1. Jthasc I. 'fhe requesting orgumzutton e\'alW1lc:-s the proposals to d1squahf)• illl)' that
+                don 't meet RF'P critcriu, For cxnmple. busin~s proposnli; whc:tsc pricing is 100 high
+                or 11101don·1 follow 1hc exact guideline-.. or structure of't he RfP will likely be climi•
+                miced during the first phase.
+Chapter 8 • Solvlng Probtems and Writing Proposals                                               Professional Wntln OS oak.in • 233
+
+
+          2. Phase l . The organizotion evnloatcs all remaining proposuls to see which one hcs1
+                mcels lhe RF'P criterin und the organizulion·s needs. For inst11nce, nn uudit propoSl1I
+                from a CM li1m will be evuluotcd on Lhc rcasonnblenes11 of lhc pridng 11chcdule, ex•
+                1>crtise of lhe.audi1lcam, Li111ellncs11 of the proposed work, 111tcngth of 1he flrm's n•1>u•
+                w1ion, pmresstonuhsm and rc:-Jidubility ol'Lhe proposal, and so forth.
+
+
+                                        Description
+                                        "'fls!l511~)' Re,qi/hl lo, Sol,l1(Ulnl01f!ltlllo11(flf<1t~V,S,$ho,1 11,111 '41111.1.5,temefll A.ellt
+                                        011t1111lo•.. on~ Pf11!)11'1M'(f WI... W1111tOllt'jMl'l)n111tiul (t"'lte!, Qlil,w;,mt (II)',
+                                        OVlll!olN
+
+                                        I 1111 II t fll,1!\t1 tlll\'fy IOI l)tf'kltll'<nJl~IS 01 U.S. ~ t !MIii M11ltt-!,tem,nt     ,.,,,t
+                                        Optmlonton Pee li'frtofll'IIICit,
+        (0111rnct()pportulwty
+                                        l!!tkd«111,l,o1t1lonAd1n!11l11utk111(rAA;, Wila Won1on,,,Mm11,111.,dc.tlCfffl" 1uw.c1 Ill
+                                        O~VI\Olt\t Chy, OIC, {Ml A,fl'Oljll(• M.-dlt" 1M11Mt. !U.~lj H~ rJ<tOI\ ~,~ (Iii l)lylliOf'I
+                                        IA,\.',! :m: Q1~inci11t,:~~oond(,c,,N,:~,;c.«d>0111tt1w!IO""' 1'.1•&.klro
+                                        Prooo,td Stuo,- ~lien, &hibit'td Ul)Menc:ie ,od (apaW.ity to-.tl' • ,tucly of tt,., 11111:u,-e-,
+                                        l'to,etffll M ~ ~tdule, -,nd ,1 llo11a:ri Ordt'I' Wapude (itOW; lo, the Hun11n
+                                        l,1ao~,P\lot l'titorm,1nc, Study on      ,.,w
+                                                                                   l'tlfOf'm.tnet fOf 5'1oll H.tul M.ildplt llmt [O(lf ,11,111
+                                        Of)♦f;)flOn&.
+
+
+                                        Tilt tfl\"lt'I.,~ HAI" W<N .t(lplkOOlt ~ lhltl lfl'lll•f~ 11 ~ t T14 ·11~t(h ••'W) ftt'Mo!OC,
+                                        In 8li_<ltkhntllOc~ or.,.. In~ fltt,i'.,tfll •IICI Otwlflplll(f\l ill llll' l'lly)kll (nc!flt"-rlnc •!'Id I.If~
+                                        Scie11<nl, Ottwo will be oomicltrtd n wppo11td t,J tile VMC1o1
+
+                                        lH{ fOll~111(j ,.fOIIIN.IIONSHAU 6( PIIO\IIO(Oft' lt.TtRfSUOVCN~·
+
+                                            l, G•OM:liliiy~ • n.dO(vl'll'l'lfl~klid'tl\l~
+                                                  • T)1)C<il~~idecl~f.tm,
+                                                  • Sltund tyr,eof tNVkn l)f"Owld~ DY0 1 , ~ toro11ot1s ·_pr<wieko detluled
+                                                    !nlormMn 11"4 ~si orttorm•nct!,
+                                                        N11fflfMtt0()'Un,11~s
+
+
+                                            J.. P,Ol)OSN 5~ Ott""
+                                            3, PiOjtClted W,!f,tont klif'<lllil!
+                                            ,. llouPOAHfoll,tJCnil\JClt
+
+
+
+
+                                        All t~n"''       '° 11li, mtrh-1 ,umy mu~ be rett'ffd by l ueMllr)', M11t l,, 2010, l:()) p m, CT NJ
+                                        51l~lsV'.Ql.ldbf Sl.oCl!IIIU:td ll)'ffll#l lo: -.tepl'l-.~.f,O",
+
+
+          Figure 8.15 An RFP provides valuable contoxtual information lhat can lnlluenc& your
+          proposal strotogy.
+
+           Stratogy. Aller un11tyz.ing your proposal'i pur1msc, audtcncc. and context dclrmunc
+          "" "J)l)fOpriule strategy. Aru1lyzc your nudtcncc'!I psyehologkJ1I !ltalc-4heir po!!ilivc nnd
+          neg.alive l'rdlngs aboul you. thdr positive ond ncgati\'e fee lings: llbout Lhc topic of your
+           proposal, and their openness to c-hunge. ~uild on Lheirposili\'Cemotions (the driving forces
+           to nccept your propos.nl). nnd nddrc:.s nnd resolve negnli\'e emcuion._s (the reslrnining forces
+           10 reject your proposnl), llmins1orm w11yi; lei build your credibility. incrcni.c lhc logic of
+Chapter 8 • Solvlng Probtems and Writing Propos als                            Professional Wntln OS oak.in • 234
+
+
+           the proposal, nnd prep..ire )'mir m1dicnoc 10 be more rcccpti\!e 10 1hc solution )'OU wilt
+           propose.
+               Consider also which channel would be moJil 11p1uoJ)riutc for dcli\!cring your 1,ro.
+           posol. ln1cmal proposab and 5Jiles pitches t1U1)' be presented rn':llly as rotr11.11I stond-up
+           pn:scntutions or as o lcss-fomw l d1scu.-;sion in meeting..-. or web conferences. Responses
+           to Rfl's arc frcqucntl)' presented through a wnucn channel, such as a memo (SC'C 1-igurc
+           M. 12 n11hc end of1he chap1cr), report ( i.cie 1-'igurc ltl3 n1 the end of the chapter). or letter
+           (sec Figure ~.14 1111hc end of the chnpter and Appendix U), The in1emc1 ulso ennblc-s
+           you to prcselll proposals ustng u medley of online 1cx.1. imogcs. ond ,•idco (for cxampll-s
+           ofonlinc 1,rupos:115. explore popular crowdfunding idtes ~uch as ....ww.k1chtttrtcr.com,
+           www.indlcgo~o.com, and www.gofundmc.com). As you decide whic:h channel to use,
+           consider cath channel's richness, conYcnicrn.:.c. speOO. pcrmnncnee, and cost.
+
+            Follow an Appropriate Pattern
+            In your profcs...;1onal liic you'll sc:c muny types of pro1)()salli. bu1 mosl bu11in1m proposals
+            follow o similar pattern (frcctl & Roberts 1989), U11ing this six-pan pauern, you eun
+           compose a pcr.i.uasivc propos:,L
+
+
+           Background. Clearly communic~1te the problem or opportunity that your audience is
+           fa cing. Onl)' nfter your audience 11nders1ands that 1he problem exist1- wtll the)' undcrs1and
+           the need for your solulion,
+                One way to clearly l'mmc n problem i 11: 10 dc11cribc 1u1 causc-s ond i1s cffcct11
+           (Joluuwn-Shceh:m 200&). 1-'or i1\J1U1nce, once you clarify the Cllll'-CS urthe problem, you
+           can later show how your solution res0l\·cs Lhosc causes. In add11ion, you can moltvatc Lhc
+           audience to 1i1kc uc.tion by dcscnbing the pcoblcm's nq;a11\ c ctfec-ts. Poople-t1re mouvntc:d
+                                                                           1
+
+
+
+           both by a desire to nvoid ncgauve c.onsequcnces und by a desire to ob111in positive n:sulls.
+           Thus. you oould d~nbc II recent probkmntic: sinui1ion and then show how lhnt neg.i1h·e
+           llitu111ion would have been 1nc\•en1cd if your 11roposed solution had been in 11lricc. To
+           visu:ilizc this process, consider your imlution us II missing puzzle 1,iocc (sec Figure 8. 16).
+
+           1, Describe a negallve slluaboo        2 Desalbe your           3, Describe how your solullon
+               caused by the problem.            proposed solution           wouk:I have prevented the
+                                                                                negative s1tualton.
+
+
+
+
+           F;g ure 8. 16 In lhe background ssclion, describe how your proposal resolves a nagatlve
+           &tuation CBUS6d by a problem.
+Chapter 8 • Solvlng Probtems and Writing Proposals                           Professional Wntln OS oak.in • 235
+
+
+               for ccunple:t problems, the b.1ckgrnund sec1ion shoold 1tli;o define the scope of your
+          propo:ml. If your proposed solution will nddrc11s only one a11pcc1 of .1 problem or the
+          problem-solving proce!IS, the background scc1ion should make 1hat clear. For example.
+          Ir un org.uniwtlon's RPP culls l'hr prOJ)lbllls to help 1he organization belier undc1~tand us
+          problem (a research proposal). then you i;hould nu! propose to implement .i slllultlln (u
+          snlutmn propns.11). In lhis case., the problem you frame m your background section i;hould
+          focui; more c,n the need to heller undcrs1and the problem 1han 10 implement itr; solution.
+
+          Solution. Once you have dCS(nbL-d the problem or opr1onu111ty. present your 11olu1ion
+          tind the gonl:t or objcecive!I your ll<>lulion will 11chicve. Remember that if your oudicnc.c
+          ncccpL<: your proposal, you will need 10 implement your solutilln. so t.-onsid« wrhing your
+          objectivei; ui;in:; the SMA l-t'I' ucronym-!ipedfie, measurable. ai;signabte, n:alii;lic. und
+          time rdu1ed (Uornn 198 I }. I f your proposal ii; accepted, SMART objecuves will help you
+          more ensily impltmllnt, evalu111e, nnd report your objcctivel\ (sec Tnble 8.6).
+
+          Table 8.6 SMART and Nor SMART Objectives.
+                                       Not SMART                                   SMART
+           Specific      Implement new f111ancial opplica•        Implement new loan origination and
+                         lions                                    loan servicing .lppl'icalions
+           Meas.urable Implement new loan origination             Implement new loan origination and
+                       end k>an servicing applications            loan servicing applications in all 247
+                                                                  branches
+           Assignable Implement new k>an origination               Homa-office staff implament na-.v
+                      and loan servicing appllcatlons In           loan origination and loan servicing
+                         all 247 branchos                          oppticotions on corPorato mainframe
+                                                                   and train computer suppor1 represen-
+                                                                   lative:s to implement apphcations in
+                                                                   al.I 247 blanches
+           Realistic     Home-offico staff implemQnt new           Homa-office staff impl&ment new
+                         loan origtnalion and loan servicing       loan origination and loan aervk::ing
+                         applicalions on corporale main•           applications on corpotate mainframe
+                         frame and ll'ain computer support         and train computer su_ppor1 reprnsen-
+                         representatives to implement              t.ativ&s to implement applbcations in
+                         applications In all 24 7 branch••         25-branch pilot program
+           Time          Home-office staff implem<tnt new          Home-office staff impl<Hnent new
+           related       loon origlnaUon and loan servici"9        loan originotion aod loan sorvldng
+                         applicallOn& on corporate main•           appticalions on corPorate mainframe
+                         frame and train computer support          by July 25 and train compute.r sup-
+                         representatives to l:mpfernent            port representab'ves by August 25 to
+                         applications In 25-branch l)llot         Implement applications In 25-branch
+                         ~ogram                                   pilot progr•m by Octobor 25
+
+
+          Plttn. Ne.xl provide Lhc spec1f1e pion, procedures, or mclhod:1 )'Ou will l'hllow to lmple•
+          men! Lhc solu1jun. As you present your plan lo implement )'Our proposed solutilln. review
+          the IU· I' and make i;un: the plan meets all the critena listed there--. Ali;o think <1bou1 what you
+          have lcnmcd while oommunicnting with )'Our audience. mukmg sure yQu hnve addrei.i;ed
+          11II their n«ds nnd concerns.
+              Aller solidifying your plun. consider in1cgru1ing .1 urne line or Gantt chuR (sec figure
+          8.17) that shows when you will work on 11nd occi.unpli.sh cueh aspttt or the pbn. 1'i1ning
+Chapter 8 • Solvlng Probtems and Writing Proposals                         Professional Wntln OS oak.in • 236
+
+
+          ma)' pin)' an importAnl role for ~me m1diem.-cs. so r.chcdule sunidcnt 1ime 10 acccunpli'ih
+          11II ncces..~tlry 111sks. If you oren't sure you c:on meet the deadlines you propose. incrt.1sc
+          )'OUr lime estim::nc:11. Remember lh::it it is bcller 10 promise 10 do something l111er (e.g.,
+          October 15) and llchvc.r curly (e.g., October 7) dmn it is to promise to do ii cJrly (e.g.,
+          October I) and deliver 1111c (e.g., October 7}.
+
+
+            0n-6ilt ••Ul1
+            Loan & O!\. u!~ctt n1a in
+            LO*" J Git. rec«c.b ttMiien ing
+
+            Dala COflvtflion
+            Qn.site su
+
+            0110ill11 1upport
+
+          Figure 8.17 lnlflf}rate a Gantt chart into propasals to show whon you wifl work on and
+          tJCCOmpliSh Bach 8$peCt of lhe plan.
+
+
+               If your plan involves delivering goods or servim m your t1uditnce, provi,:lc detailed
+          spcc11ications and when Ibey will be dd i\'cred. Somc.'limcll Rfl1$ will include sil>fllfieMt
+          detail ubout the- required ddivcruhles, so pay auention to those details. l-'.'ien ti' you arc
+          writins a research proposal (c.s .• to idcnufy the cuusc of a problem), your nudiencc will
+          most likely wnn1 you to deliver n onp)' of your datn or n repon of your research fi ndings,
+
+
+          Quallflcotlons. Once you have explriint:d how you plan 10 11chieve the proposed
+          solulion. )'<>Ur audience ncc<b to know whether you can i111plcmc11l your plan. l>r(w1de
+          qualilieaLmns in the- form of resumei., customer tcslimonials, cmployoe hiogruphlcs,
+          company mission .stntc:mcnL'i, dcscripllons of pn:viotL'i projccL'i, and so fonh. 1iulor these
+          qu;1lifications 10 your nudicnce. cnniring 1hat lhey itlustrnle your ability to achic'ie your
+          solution. By providing 1his infhnnation, you increl1se your credibility nnd )'Our oompimy·s
+          credibility nnd persuade )'Our audience I hut )'Ou con do wh::it you propose to do.
+
+
+          Bonofits. Once your audience knows that you can achieve lhc proposed i1olutlon, d1iw:uss
+          the hcnclits the nudienec wtll receive when you implement the solution. 'lo detcnnmc
+          these benefits, persuasi,..cly tum the fel1lur<S of your proposal into benefits. Feature!; might
+          include an mnovative solution, u ngorous tame line. your qualiflcalions, or low costs.. You
+          turn ~ch of1hc:11c into bcndils us you con~idcr whol they m~n 1<> your audience (sec Tub le
+          8.7). Note thal u benefit of any propos11I should be n bc:1tcMmdcrstood or 1101\'cd probk m.
+
+           Table 8. 7 Proposal Feutures and Benefits
+                  Propoul Foa1uro1                               Propoaal Benofit1
+           On-silo visit                      Enables customizaUon of soltwaro lo tho clienr, noods
+           Quick tecord mapping               Completes conversion berore busy loan season begins
+           Experienced conversion team        O&cnu.tses mistakes in the tr'dllsfer ol rinandal reco11:Js
+           On-site empiOyee training          R&duoes employee stress over new software
+Chapter 8 • Solvlng Probtems and Writing Proposals                          Professlonal Wtttln OS oak.in • 237
+
+
+          Costs. f in.nlly, detail 1hc re-.ourccs (e,g., funding, n:,:;i~,:incc, au1horh:aticm. acthm) thn1
+          you need from your nudicncc to nchie\'c the lx:ndi1s.
+              In pruclicc, you might rcordtt. rtnmnc, oombinc. or brcok up 1hcsc Kix 5rtlions to
+          mccl lhc needs or your sl1uallon and your audienL'C. ~•or example. you could rrnund your
+          uudicrn:e about the proposal's bc-ndiL,; "i'tcr presenting Its costs. In addition, you could
+          lilke n direct approach (solulion and plan, fo llowed by the background of the llmblcm) or
+          an indirect 11ppmm:h (the background of lhc problem, followed by the solution and plnn).
+          The more fumihar your m1dicnce is w1th lhc problem and your nb1li1y 10 i;olve it, lhe more
+          d1r«t you can he. and vice versa. Thc1'C f'o rt, consiller bcmg mort indircc1 with unsolicited
+          proposols, bccau~ the nudlencc mny be IC'S!I aware of your llUulifieatlons ond will not be
+          c:xpcetm~ the pmposnL
+               You wdl ali;o discover that not ull sthmlions., k~Pi;, or audienoes will automallcally
+          rt"quire some parti; of this pmlcm. However, your pmposul will be more persu.asi\!e if you
+          can $0mehow ani;wer lhe q\1cs1ion!i included in the p.il1em;
+
+          ■   Docs the pnlposal wri1cr understand our problem?
+          •   Docs the proposal writer's solution re,iol"c our problem?
+          ■   Ooei; the proposul writer's phm lead to the solutmn?
+          ■   Cnn the-pmpoi;al "Tiler 1111pl-e111cnt the plan•~
+          ■   Does the plan lc-11d to our de:;ired benefit-.'!
+          ■   l1i the cost rcasonnble for the bcncfils',>
+
+
+             By a1uwering cneh or these qucs1io11J M>mc:whc1'C m your 1>ropoS11I, you will ,uuidpate
+          your audience's needs. present a more cc11wincing solu1ion, and increase lhc likehhood of
+          your audience accept in:; your pmposul.
+
+          Strengthen the Content
+          1ltc p1'Cvious liix..-pan paucm ror proposnls will help you logical!)' ond pcrsu1L~ivcly fmmc
+          Lhc problem or opportunity, propose the soluuon, nnd support )'Our solution. Allereompos•
+          ing your proposal usln1> that propos11I. review hs eonlcnt lo resolve any rc111ninlng eonecn\!1
+          fram your audience- and provide opportumues for the uud1encc to ac.t.x~pt your 1noposal.
+
+          Resolve Concerns. £n,;urc 1ha1 you hove an1k ipated and rei;ol\'cd nny remaining
+          concerns 1h111your audience 11111y ha\'e 11bou1you. your com puny. or your $Olu1ion. In mos1
+          cxlrmal proposal situ:itions. you will be com1,c1mg ugainsl other individuuls or companies.
+          Thererorr. Identi fy aretts where you nuglu be vutn«able, considering how your compc-ti•
+          to ri' pmpoi;al!I migh1uppcJ1rstronger than yours. l:tnphas,ze your strcngthi; Lo compcn...ute,
+          and rc<:xaminc your eoi;ti;, pticing. time lme., procedures, personnel qualiticationi;, and
+          promii;cd benefil,;, Mnkc nppropriute 11dJ11s1mc:n1i; toward benefiling the audience.
+             1'ry 10 11nticip,n1c all lhc questions nnd conccrn11 your 11udicnoe mny hove aboul your
+          proposal. especially "why" qucstion.s-. For example. why 1his solution'? D«ausc it 1mh•c11
+Chapter 8 • Solvlng Probtems and Writing Propos als                           Professlonal Wtttln OS oak.in • 238
+
+
+           1he rroblem for these rca~cmi;: A. B. ilncl C. Why 1hii; plnn? l)ecaui;c it helps u~ iachievc the
+          solulion for these re1L.~on1i: I). IZ. 11nd F. Wh)' lhcse c1ualifk mions? f.kcousc they show thm
+          we can uclucve the plan for these rcnsons: G. I I. nnd I. Providing rc11son..11 (()r 11ll ll~pccis of
+           your prop!)iml will r«uh mo more coherent and logically perswi.s1ve pro1msal.
+
+
+           Inv/to Acceptance. Ensure th.at you have- mcluded mvnauons for your audience to
+          neccp1 )'Our propoi;al. T)'J)ic•1lly1 )'OU include invi1n1ion-. in 11 trnn~nuttnl le11er .ind in a
+          concluding i;ccuon or your rrnrosnl,
+                1\ tr11nsmlttul lcttcr uccompanic11 your propcm,I(11cc Figure 8.13 at the end oflho ch::iptcr
+          tind Appendix ll) in Lhc !lame Wit)' a rnvcr lcuer ncoom~inies a resume. •rram,1mt1nl lcucni
+          can be brief and should i11cludc this content:
+
+           ■    l.kscnbc whnl is motivilting the proposal. In un unsolicited proposal. dei;cnbc the
+                11udiencc'i; prohlem or 11ppo11tmi1y 1hat your proposal nddrttilics (e.g.. ··Over the pni;1
+                few monlh!i, 1hc number of ser.,.er foihm:s in our d.11111 center has incrcnscd by 56%"'),
+                In o 1101idtcd propc>$ul. men1ion the RFP thlll your pro1>0sal responcl~ to (e.g., "This
+                propo,ol i, ,.,.ponding to RPI' 4K6n'').
+           ■    St.ute the nnme-of lhc send« , which w1ll typlc11II)• be Lhc name or your orgumzalton.
+                and bnellyrcvlew whnl the sender is proposing to do (e.g.. ··ru cle<:rcasc server down•
+                lime, the nc1work operations cent« iti pmpoi;ing to mvcst in i;Qf\wnrc 1ha1 will muoagc
+                server pcTfom111 ncc..).
+           •    1lu1nk the 11udicncc imd mvne them 10 carefully consider the proposul and to conuict
+                Lhc sender with quc11tion..~ (e.g., "We hope you will carefully consider our enclosed
+                proposal; ple.asc contact us at cxtc:-nsion 4876 with questions").
+
+
+                As )'OU close ynur propos.nl, invite lhe audience uguin lo careful!)' consider the propos.nl
+           11nd 011ncludc with n forward·looking s1111cmen1 such IL~, '"We look forward to henring from
+          you regurding your decision." f.n1mrc thtll you include your c-ontuct information so your
+          uudicn,.,'t can let you know whether your 1,roposnl hll~ been aocc1,tcd,
+              As you ,1pply the pnndplcs m this clmpter to lmpro\'e your 11b1litles to solvc problen\!1
+          .and create proposuls, you will Increase your power to posmvely influence )'Our orgamza•
+           lion and to gain greater satisfaction from your profcs.s1onnl work.
+
+
+               Chapter Summary
+
+          Solving pl'oblen1..,; involve!! s,x 1>eneml .1ole1,s: dclinc the: probk m, onal)'ZC the problem,
+          develop alternutive solutions, select II solulion, implement Lhc solution. and evaluate the
+          oulrnmc. Whro defi ning problems, oonside-r the diOCrcm"-C between whnt is and wtwl
+          ,\'li,wld or coultl lw. A$ you nn.il)'ZC lhe pmhlcm, remember the diftCrence bclwccn C.llUlicS
+           11nd effects, The cause is the origin: the effect is lhe: oulcome:. Too mnny people uy t'O fix the
+          d'fcc1,1 only to lind 1hu1the)' rcuppcnr bccau11c the cause i~still 11rcscn1.
+Chapter 8 • Solvlng Probtems and Writing Propos als                              Professional Wntln OS oak.in         • 239
+
+
+
+               Brainstorming cnn l"bsler c,cauvity and dc\'dop po1en1iol solutions 10 a problem.
+          Bminstrnming nssumcs 1h111quun1ily will yield c1uali1y; in olher words. if you come up with
+          enough idci1s 1 at le;;u11 one or two will likely be good one11, Ununstom1ing con be performed
+          11lunc or with o group. WhcretLi; 1hc inatial phase of brnimtorinin~ roMcri dlve.rgcnt 1h111k-
+          ing, the decision•makins phase brings about oonvcrsent thinking. A dcc1smn 111a11lx can
+          be uscfi.11 in doc-tdins on the best dcds1on. S:oe-k for a solutfon that everyone can lh·c with.
+               When you have good huy-in fmm nll 1,1nkeholders. decide how to implement 1he 1dt'fls.
+          M.-ike surt nll 11tfec1cd pcoplc arc rcpr~ ntcd m the 1mplcmenu11illn plnn, and modify
+          the plan IL~ needed 10 11ddrcss their concerns. In the plnn. be 11urc 10 melude methods for
+          cvulu:iting outcomes so )'OU cnn 1111:asurc whether the solution ciiuscs the intcndL-d effects.
+               Proposals arc o vlt.ol pan of business, govc:mmcttl. and nonprofit (11'gtuuzations, and
+           lhC)' play an imporlanl role in lhe llfoblcnMolving process, Proposals arc written lo obtain
+           rcsouroes, authorizalion, n.-.si1,tance, or aclion rrom others that enables you to proceed \.,.·ith
+           plans explained in 1he propo:ml. In addition. proposals arc wriucn 10 pemmde audiences
+          of lhe bcnclils of a solution. Pcmmsi\'Cproposals typical!)• include six parts: background,
+          solution. 111.in. qu11liflcr11io11s, benefits. nnd costj,, 1>cuu11sivc 11roposi1ls cll'cct

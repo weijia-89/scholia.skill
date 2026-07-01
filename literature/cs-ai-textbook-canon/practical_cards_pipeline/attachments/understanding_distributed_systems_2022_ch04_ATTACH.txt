@@ -1,0 +1,284 @@
+understanding_distributed_systems_2022_ch04_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 04
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch04_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch04_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 4
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch04_ingest.md |
+| text_lines_read | 1154–1280 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 4 |
+| chapter_title | Discovery |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 4 covers **DNS** as the internet's name-to-IP discovery layer: a **distributed, hierarchical, eventually consistent key-value store**. Walks through browser resolution of `www.example.com` (local cache → resolver → root NS → TLD NS → authoritative NS; Figure 4.1). Discusses DNS-over-TLS, **TTL** tradeoffs, cache misbehavior, DNS as **single point of failure** (Dyn 2016 DDoS), and **static stability** idea (serve stale on NS failure vs. treating TTL as hard expiry). Forward reference to resiliency part.
+
+---
+
+## Key findings
+
+1. **DNS purpose** (lines 1159–1173): Before TLS connect, client must discover IP. DNS = phone book; hierarchical distributed eventually consistent KV store.
+
+2. **Resolution steps** (lines 1175–1216): (1) Browser cache hit or ISP resolver; (2) resolver cache or iterative query; (3) root NS maps TLD; (4) TLD NS maps domain; (5) authoritative NS returns hostname IP. Subdomains may require extra hop.
+
+3. **Security evolution** (lines 1218–1221): Original DNS plain-text over UDP; industry moved to **DNS over TLS** (DoT) to prevent snooping.
+
+4. **Caching and TTL** (lines 1223–1255): Worst-case multi-hop slow; caching at browser/OS/resolver essential. **TTL** defines record validity; clients may ignore TTL. **Tradeoff:** long TTL → slow propagation of changes; short TTL → higher NS load and latency. Small TTL + NS outage → more clients impacted.
+
+5. **Failure and static stability** (lines 1257–1273): DNS outage prevents clients reaching application (massive outages possible). **Static stability** proposal: serve **stale** entries when NS unreachable rather than failing—entries rarely change; more robust than strict TTL expiry. Forward to resiliency part.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Recite iterative DNS resolution from browser to authoritative NS.
+2. Explain TTL tradeoffs for operators changing records.
+3. Describe why DNS is an availability bottleneck.
+4. Define static stability in DNS context.
+
+### worked_examples_present
+
+**Y** — Full `www.example.com` walkthrough (Figure 4.1).
+
+### exercise_hooks
+
+1. Plan a zero-downtime DNS migration with TTL strategy.
+2. Incident postmortem template for authoritative NS failure.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.4 Discovery (full) | Read | lines 1154–1280 |
+| Ch.5+ | Deferred | line 1281 onward |
+
+---
+
+## Operator hooks
+
+First **eventual consistency** taste in UDS (line 1164); foreshadows Ch.10–11 consistency models. Pair **DDIA** service discovery chapters. Critical for any multi-service/LLM gateway deployment.
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS**
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.10 | Consistency models |
+| Part IV | Resiliency / static stability |
+| Ch.5 | HTTP after DNS+TLS |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| DNS | Domain Name System |
+| TTL | Time to live for cached DNS records |
+| Authoritative NS | Server holding canonical records for zone |
+| Static stability | Continue serving stale data when dependency impaired |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch04_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch04_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 04
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+TCP is supposed to guarantee its integrity. While TCP does use a
+checksum to protect against data corruption, it’s not 100% reliable6 :
+    5
+      “RFC 2104: HMAC: Keyed-Hashing for Message Authentication,” https://da
+tatracker.ietf.org/doc/html/rfc2104
+    6
+      “When the CRC and TCP checksum disagree,” https://dl.acm.org/doi/10.11
+45/347057.347561
+
+CHAPTER 3. SECURE LINKS                                               29
+
+
+it fails to detect errors for roughly 1 in 16 million to 10 billion pack-
+ets. With packets of 1 KB, this is expected to happen once per 16
+GB to 10 TB transmitted.
+
+
+3.4     Handshake
+When a new TLS connection is established, a handshake between
+the client and server occurs during which:
+   1. The parties agree on the cipher suite to use. A cipher suite
+      speciﬁes the different algorithms that the client and the
+      server intend to use to create a secure channel, like the:
+         • key exchange algorithm used to generate shared
+            secrets;
+         • signature algorithm used to sign certiﬁcates;
+         • symmetric encryption algorithm used to encrypt the ap-
+            plication data;
+         • HMAC algorithm used to guarantee the integrity and
+            authenticity of the application data.
+   2. The parties use the key exchange algorithm to create a shared
+      secret. The symmetric encryption algorithm uses the shared
+      secret to encrypt communication on the secure channel going
+      forward.
+   3. The client veriﬁes the certiﬁcate provided by the server. The
+      veriﬁcation process conﬁrms that the server is who it says it
+      is. If the veriﬁcation is successful, the client can start send-
+      ing encrypted application data to the server. The server can
+      optionally also verify the client certiﬁcate if one is available.
+These operations don’t necessarily happen in this order, as modern
+implementations use several optimizations to reduce round trips.
+For example, the handshake typically requires 2 round trips with
+TLS 1.2 and just one with TLS 1.3. The bottom line is that creating a
+new connection is not free: yet another reason to put your servers
+geographically closer to the clients and reuse connections when
+possible.
+
+
+Chapter 4
+
+
+Discovery
+
+So far, we have explored how to create a reliable and secure chan-
+nel between two processes running on different machines. How-
+ever, to create a new connection with a remote process, we must
+ﬁrst discover its IP address somehow. The most common way of
+doing that is via the phone book of the internet: the Domain Name
+System1 (DNS) — a distributed, hierarchical, and eventually con-
+sistent key-value store.
+
+In this chapter, we will look at how DNS resolution2 works in a
+browser, but the process is similar for other types of clients. When
+you enter a URL in your browser, the ﬁrst step is to resolve the
+hostname’s IP address, which is then used to open a new TLS con-
+nection. For example, let’s take a look at how the DNS resolution
+works when you type www.example.com into your browser (see Fig-
+ure 4.1).
+
+   1. The browser checks its local cache to see whether it has re-
+      solved the hostname before. If so, it returns the cached IP
+      address; otherwise, it routes the request to a DNS resolver,
+
+    1
+      “RFC 1035: Domain Names - Implementation and Speciﬁcation,” https://da
+tatracker.ietf.org/doc/html/rfc1035
+    2
+      “A deep dive into DNS,” https://www.youtube.com/watch?v=drWd9HIhJ
+dU
+
+CHAPTER 4. DISCOVERY                                                          32
+
+
+       a server typically hosted by your Internet Service Provider
+       (ISP).
+
+   2. The resolver is responsible for iteratively resolving the host-
+      name for its clients. The reason why it’s iterative will become
+      obvious in a moment. The resolver ﬁrst checks its local cache
+      for a cached entry, and if one is found, it’s returned to the
+      client. If not, the query is sent to a root name server (root
+      NS).
+
+   3. The root name server maps the top-level domain (TLD) of the
+      request, i.e., .com, to the address of the name server responsi-
+      ble for it.
+
+   4. The resolver sends a resolution request for example.com to the
+      TLD name server.
+
+   5. The TLD name server maps the example.com domain name to
+      the address of the authoritative name server responsible for the
+      domain.
+
+   6. Finally, the resolver queries the authoritative name server for
+      www.example.com, which returns the IP address of the www
+      hostname.
+
+If the query included a subdomain of example.com, like
+news.example.com, the authoritative name server would have
+returned the address of the name server responsible for the
+subdomain, and an additional request would be required.
+
+The original DNS protocol sent plain-text messages primarily over
+UDP for efﬁciency reasons. However, because this allows any-
+one monitoring the transmission to snoop, the industry has mostly
+moved to secure alternatives, such as DNS on top of TLS3 .
+
+The resolution process involves several round trips in the worst
+case, but its beauty is that the address of a root name server is
+all that’s needed to resolve a hostname. That said, the resolution
+would be slow if every request had to go through several name
+   3
+     “RFC 7858: Speciﬁcation for DNS over Transport Layer Security (TLS),” https:
+//en.wikipedia.org/wiki/DNS_over_TLS
+
+CHAPTER 4. DISCOVERY                                               33
+

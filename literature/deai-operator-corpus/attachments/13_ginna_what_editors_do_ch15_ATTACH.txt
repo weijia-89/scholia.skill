@@ -1,0 +1,629 @@
+13_ginna_what_editors_do_ch15_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: ginna_what_editors_do
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/13_ginna_what_editors_do_ch15_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/13_ginna_what_editors_do_ch15.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/13_ginna_what_editors_do_ch15.txt).
+========================================================================
+
+15
+
+
+DUKES, DEATHS, AND DRAGONS
+
+
+EDITING GENRE FICTION
+
+
+DIANA GILL*
+
+What is genre? Merriam-Webster defines it as “a category of artistic, musical, or literary composition characterized by a particular style, form, or content.” Genres of fiction include mystery, science fiction, romance, fantasy, westerns, erotica, and horror. Genre fiction can be commercial, it can be literary—and it can be both.
+
+The one thing a genre novel must do? Entertain. It can provoke, amuse, terrify, delight, intrigue, and enchant all in in turn, but it cannot be boring. As entertainment, genre fiction competes against TV, movies, music, naps, games, cat videos, and the entire internet, anything and everything humanity can conceive to procrastinate or relax, and so above all, it must be compelling. It can illuminate, provoke thought, or call for action, but must do so while still keeping the reader engaged—for genre fiction, boredom is the true deadly sin.
+
+What do the Harry Potter, Twilight, and Fifty Shades of Grey series have in common besides being gigantic, genre-changing blockbusters in both print and film? First, very strong storytelling (which is very difficult to teach and is not the same as writing ability) that pulled millions and millions of readers into these works and made them empathize and identify with the main characters. Second, through that character identification all three series fulfill, for their respective audiences, the universal human desire to feel special: Harry’s letter to Hogwarts makes him not only not a Muggle but actually a very special wizard; Bella Swann is chosen by the most intriguing boy in school; and only Anastasia can redeem the tortured hero Christian . . . The audience’s strong ability to identify with the main character in all three of these series drove millions and millions in sales.
+
+Thanks to its potency as entertainment, genre fiction is a large and extremely profitable part of the marketplace, comprising more than half the publishing industry’s sales in digital form and a large percentage of print books as well. For example, romance sales in 2015 were more than 29 percent of the fiction market, according to Nielsen Bookscan. Combined with mystery/thriller and science fiction and fantasy, they made up more than a third of the entire market and more than half of the adult fiction marketplace sales for the year. Beyond that, most of the big media properties in film, TV, and computer games of the last decade-plus are derived from genre fiction, as shown by the immense successes of the Lord of the Rings movies, Sherlock, Game of Thrones, True Blood, Gone Girl, The Hunger Games, the many retellings of Jane Austen, and more.
+
+Despite the rapidly changing marketplace, genre fiction remains an extremely profitable sector of the industry, and if you can establish yourself as a first-rate genre editor, you’re likely to have a successful career.
+
+
+
+
+
+ACQUIRING GENRE FICTION
+
+
+You cannot acquire projects in a genre if you do not know, and love, that genre.
+
+I have loved genre fiction since I was very little and would be frankly abysmal as a mainstream literary editor. Every genre editor has a specialty, and preferences within the genre (psychological suspense à la Gillian Flynn versus action thrillers like Lee Child, historical versus contemporary romance, fantasy versus science fiction, etc.), but you will edit all types of subgenres within your genre, so expanding your tastes by reading widely throughout the genres, not just your favorite, will make you stronger and better at both acquisitions and editing. Reading romances will show you character tension and dialogue, whereas mysteries and thrillers demonstrate foreshadowing and how to create spine-tingling suspense. Science fiction and fantasy will help you recognize great world building. At times the genres can merge and create new categories, such as when romance and fantasy spawned urban fantasy and paranormal romance. The more you know about every genre, the better you’ll become at editing any one.
+
+When acquiring genre fiction, just as when reading it, you want the stories you absolutely cannot put down—the ones you read until midnight on your cell phone (guilty as charged), the ones you can’t stop thinking about. You want to fall in love with the story and not clamber back out until the very bitter end, blinking muzzily at the time / date / missed train stop / burnt toast / patient family.
+
+After all, if you as an editor are being paid to read a submission and do not love it (or cannot point to a viable market for it, given the nature of commercial publishing as a business), how can you convince the rest of the house to love it, much less persuade a reader to spend his money to buy it? Editors are the constant in-house champions for their titles and authors, and if you do not adore a story at the start of the process, you will certainly not love it after a year to two years of working with and on it.
+
+Knowing the market and honing an acquiring eye take years of practice, like the old saw about Carnegie Hall, but to get started, here is a useful exercise: take five to ten bestselling commercial fiction novels across genres and read the first paragraph, then the first page of each one. You’ll see that regardless of genre—mystery/thriller, romance, or epic fantasy—every single one of these bestsellers hooks your interest. There’s something there that makes you want to keep reading, and that’s what you look for in submissions as well. On a more detailed, craft level, look at the first couple of lines of ten or so genre classics, and you’ll see the same thing, even more concisely.
+
+Keep an open mind as well: often submissions might sound preposterous, but you truly never know . . . One submission I received sounded so small and “niche” (editor jargon for a book with a narrowly defined audience), with a seemingly preposterous title—The Nymphos of Rocky Flats—that I was certain it couldn’t work. But I picked up the manuscript and laughed out loud at the first sentence, and then throughout the entire story, and ended up publishing five books with the author. Every editor has found a submission she thought she would hate and ended up falling in love with it, so it pays to be willing to read a submission, just in case.
+
+So you love a book—what’s next? The first task is to use the genre and subgenre of the book to determine the market and potential audience for the book. Things to consider: How crowded or mature is the market for this genre (i.e., is there room for a new breakout book)? Where does it look like it will be next year? The year after? Is it selling like crazy right now, meaning it might be overcrowded when this title comes out a year or two from now? What about three years down the line, for the sequel? Or is it an area that is starting to bubble—perhaps with self-published titles—but has room for great new voices?
+
+Similarly, consider the competition, both in and out of house: Does the imprint or house have other books already signed that might be too similar? Would this compete with an existing project? Does another house have one that is very similar, or has someone else published a big “buzz book” along the same lines the last year or so, and how did it do? If analogous books—“comp titles” in industry jargon—did not publish to expectations, or if an imprint has published several similar stories over several years without success, it may be hard to launch this project. Every editor has had to pass on projects he or she loves because the market was too difficult, or because it was a niche or small enough project that it would be extremely tricky to publish successfully, or because the readers were simply no longer interested.
+
+More considerations: Will readers follow these characters—are they engaging? Where does this story fit within the genre? A commercial genre story should be familiar enough that genre readers can recognize and find it, while still fresh and innovative enough that it does not feel tired. Also, this submission should ideally offer the possibility for more novels, whether a classic fantasy trilogy, a long-running detective series, or a linked band of heroes for romance. Stand-alone novels can and do work well in genre fiction—particularly if they are more literary, though that can carry its own set of challenges for publicity and sales—but the overall market and audience are very strongly weighted toward series or linked novels.1
+
+To take one example, Kim Harrison’s Dead Witch Walking, which began the number-one New York Times bestselling Hollows series, caught my eye because for more than a year I had been looking for a supernatural series with humor. Harrison’s character, tone, and setting all were a great fit for the just-starting-to-boom urban fantasy market while her work stood out for the unique world building and voice.
+
+
+
+
+
+EDITING: NOT JUST PRETTY PROSE
+
+
+The basic mechanics and goals of editing are the same across the genres and disciplines: the end goal is to make the text as clear, engaging, and correct as possible. That said, there are some key considerations in editing genre fiction that do not apply when editing nonfiction, academic works, or literary fiction—most notably genre conventions, the importance of world building, and the primacy of series.
+
+Each genre has its own general “rules,” or at least expectations that certain conventions will be kept within the genre novel. Horror novels, by definition, should unsettle and scare the reader, whether through psychological suspense or the “buckets of blood’” spilled in splatterpunk novels back in the 1980s. Cozy mysteries shouldn’t have serial killers and gruesomely graphic dismemberments (but baked goods, libraries, and pets often appeal), while if a dragon appears in a science fiction novel, the explanation must be rooted in science. And so forth. Genre editors must know these conventions—which ones must be kept and which can be broken—and keep in mind how this particular story should be new and fresh without violating the implicit trust of the genre readership. If you’re editing a mystery and the murder is not solved by the end of the book, the audience will not be satisfied, while romance readers expect a HEA (Happy Ever After) where the couple end up together, even if they no longer actually ride off into the sunset.
+
+These conventions inform the shape but not the sole function of the story, so to be a good genre editor you must be widely read within the field, both to recognize Star Trek episodes with the serial numbers filed off, as it were, and to see how the story you’re reading takes a familiar trope or beloved classic and uses that inspiration in an innovative new story. John Scalzi’s Old Man’s War reinvigorated the science fiction field when it was published in 2005, in part because it harked back to the classic military science fiction of Robert E. Heinlein’s Starship Troopers, but also because it was a new, fun, and extremely accessible take on military science fiction and more, appealing both to existing fans who loved Heinlein and to new readers who had not read the classics. Old Man’s War is still immensely popular, one of the best gateway science fiction novels to introduce new readers to the genre.
+
+World building—creating place and atmosphere—is another key factor in genre fiction. Whether a London gambling hell in Regency England like that in Sarah McLean’s superb Scoundrels historical romance series, a small town perfect for cozy mysteries, the back streets of a city rife with the supernatural, a world that becomes a character in its own right like George R. R. Martin’s Westeros, or a far-flung planet, world building is an integral part of most genres, setting the stage for the reader to enter an exciting new world. It’s not surprising that there’s a strong correlation between readers who love historical fiction and those who read genre fiction—in both, a vivid sense of place and time is key to establishing the story.
+
+The writer’s world must feel real to the readers, and thus the author must do a lot of research and a lot of thinking about that world to make it credible and evocative. World building must serve the story: you never want the readers to get bored with pages and pages of details, or encounter a setting that requires so much suspension of disbelief that it becomes laughable. Genre editors work with their authors to avoid showing the dreaded “iceberg”—while the author needs to know huge amounts of detail about her setting for it to be credible, readers only need to see the very tip of the iceberg. Of course every genre takes license—there are enough dukes in historical romances to populate an entire metropolis, versus the very small number that exist in real life and history; in reality every inhabitant of Cabot Cove would have left the minute Jessica Fletcher appeared, and (unfortunately) there isn’t a secret Platform 9¾ at King’s Cross—but when the author uses details convincingly, the reader will accept, and savor, the story-world.
+
+Ultimately, an editor is first and foremost a reader: an informed one with an extra set of tools, but still a reader. First reactions are important. Does the world building ground and support the story or overwhelm it? Does the story move at the right pace, neither too fast nor too slow? The setting and conceit should be intriguing or evocative but not distract from the heroine and hero and their difficulties. For example, Ann Leckie’s Ancillary Justice won the Hugo, Nebula, and Arthur C. Clarke Awards all in the same year. Using only female pronouns for all the characters regardless of gender was novel for the genre and sparked discussion across the field, but the story also worked extremely well in its own right.
+
+Once the world building and setting are solid, a strong voice, characters, and story are all extremely important in genre fiction. Unlike literary fiction, where novels usually stand alone, genre fiction is typically published in series, some of which go on for decades—consider Sue Grafton’s Kinsey Millhone series, which started with A Is for Alibi in 1982 and is now nearing the end of the alphabet twenty-plus books later. Even romance novels, which traditionally featured one single hero and heroine, have evolved into linked series featuring families, Special Forces squads, vampire clans, or motorcycle clubs (just to name a few), so that the books are connected and favorite characters can reappear later on. This means the characters must be engaging—you can hate them or you can love them, but the minute you get bored and don’t care, the story is over.
+
+Some long-running genre series are basically stand-alone stories with a recurring central character, but even there the character needs to slowly evolve or progress to keep the reader entertained. For example, in Lee Child’s excellent Jack Reacher series the basic elements of Reacher’s personality and general story elements remain constant for each adventure, but the reader slowly learns more about Reacher’s mysterious past as the series progresses. That combination of always-exceptional thriller action and an intriguing, enigmatic character has made Child one of the most successful genre authors, perhaps even “the strongest brand in publishing.”2 In other series where the novels are direct sequels, the editor must watch for the continuity of both story and world, along with how the characters (and again, sometimes the setting) evolve and grow throughout the novels.
+
+The one true constant in publishing is change, and editors must be extremely flexible: both watching the larger picture of the field/market, thinking years in advance given publication schedules, and at the same time keeping close watch on the small details like the letterspacing on a cover, clues to the murder, or key points about a character or world. The editor must know where a given story fits both within the history of the genre and within the changing marketplace. This is especially true in romance, where the trends move extremely quickly and what might have worked a year ago may be extremely difficult to publish now (witness the shift from historical romance to paranormal romance, and from urban fantasy to contemporary erotica after Fifty Shades). Genre editors must keep abreast of what’s hot now versus “so last year,” but given the twelve-month-or-more timeline of traditional publishing must also try and gauge whether a trend is peaking. (Alas, we cannot predict the next trend, though are always asked and wish we could—if only to play the market and retire happily in some idyllic locale). Similarly, genre editors must pay keen attention movies and TV, video games, YouTube sensations and other elements of pop culture, as any of these can spark new areas for fiction and be a barometer for genre popularity.
+
+Acquiring and editing a genre novel follows much the same process in-house as acquiring a mainstream novel or a nonfiction work, with a few key differences. One of the most important things with genre novels is a strong voice and story: you need and want to be swept away and fall in love with some part of the book (character, voice, story, or ideally all three). I remember reading a submission and being so caught up in the story and characters that I didn’t realize until halfway through the entire manuscript that it was in present tense, which I absolutely hate. That manuscript, Richard Kadrey’s Sandman Slim, became both a bestselling and a critically acclaimed series for me.
+
+
+
+
+
+CASE STUDY: SORCERER TO THE CROWN, ZEN CHO
+
+
+Zen Cho’s novel Sorcerer to the Crown came in with everything to check off on an editor’s wish list: a fabulous query letter, a debut author with some great short-story credentials and award nominations, and a great premise about English magicians facing all sorts of challenges, including prejudiced colleagues, plus an absolutely enchanting story with room and ideas for two potential sequels.
+
+In terms of the market, the story appealed to the fans of Naomi Novik’s bestselling Temeraire series, which is an alternate history set in the Napoleonic era, with dragons, and to the many readers who made Susannah Clarke’s Jonathan Strange and Mr. Norrell a bestseller. The Regency London setting and hint of romance also offered crossover appeal to romance readers. And the book explores racial and feminist issues, which I knew would attract support in the indie bookstore community.
+
+Here I had a fabulous story I loved, and the setting and themes of the book gave us a clear audience to target, in a genre that was popular but not overcrowded: All this made it a very strong candidate for us to pursue, even within an auction.
+
+Once I bought the trilogy for Ace Books, our science fiction / fantasy imprint, the next step was the editing. Overall the manuscript was in very good shape, as the author and agent had already revised it, further revisions were still needed. I worked with the author on sharpening the opening chapters so that the story started more quickly, showing the hero’s predicament rather than telling it in numerous conversations, as well as tightening the story and pacing throughout the manuscript. We also cut the heroine’s introductory chapter, which was more preamble and in the past, so that her actual introduction in the present/main storyline had more impact. Then we worked on her goals and motivations throughout the story, to more fully develop her character and ground her plot. The narrative space we gained was used to more fully develop the main relationship. The hero’s motives and issues were more fully developed within the story arc as well. And of course there were detailed story and character notes and queries throughout. Some genre books require detailed line editing, some do not—this edit was more on the level of story/concept/characters/pacing than line-by-line revision, as the writing was very strong to start.
+
+We announced the acquisition, as usual, with a press release to the industry and genre community. As soon as the release went out, it was clear we had something special, as authors of all types offered to read the manuscript for prepublication blurbs (this is, shall we say, not usually the case, as most high-profile authors are deluged with requests constantly). From there we began the reader outreach online and at conventions—a cover reveal at a key account, galley giveaways at conventions, talking to key booksellers while publicity pitched for reviews, and so forth. We ended up with nine blurbs from a wide range of authors, along with great reviews, including a starred review in Publishers Weekly. Sorcerer was one of PW’s Top Picks for Fall 2015, with a lot of reader/author buzz surrounding the debut. Since then the book has been shortlisted for awards and won Best Newcomer in the British Fantasy Awards.
+
+
+
+
+
+BEYOND THE RED PENCIL
+
+
+Once the manuscript is acquired and edited, genre editors have another role that nongenre editors generally don’t: engaging with the genre audiences both in person and online.
+
+Genre audiences are incredibly involved, vocal, and voracious, forming online and offline communities and holding genre-specific conventions across the country. The closest analogue for literary fiction or nonfiction authors is location-specific book festivals, but there the speakers and topics range widely, versus “cons” where one genre—and sometimes one author, like Leakycon for Harry Potter—are the focus. The myriad genre-specific conventions include RT (Romantic Times) and RWA (Romance Writers of America) for romance; Bouchercon and Malice Domestic for mysteries (Malice Domestic is specifically for the subgenre “cozies,” like those exemplified by Agatha Christie’s Miss Marple); Thrillercon for thrillers; Worldcon, Dragon Con, & comic-cons for science fiction/fantasy; and more for horror and sf/f in general. The con behemoths like San Diego Comic Con International and New York Comic Con draw over 160,000 attendees—not including professionals and exhibitors—by focusing on comics, movies, and pop culture for the “geek” crowd. Genre editors, marketers, and publicists frequent one or more of these conventions each year for industry awards, promoting and meeting authors and agents, hand-selling titles and authors at publisher booths, and interacting with the many fans who attend. These attendees are some of the most devoted genre readers, and early buzz for a novel at conventions can do a lot to start building an author’s career. Conventions also are a place to meet authors—those you are already working with, authors at other houses, and the genre fans who might very well become your next authors.
+
+Fan conversations go on far beyond convention halls, of course, all year round. Online and social media are also vital to genre publishing—science fiction fans were online before any other genre buffs; romance readers are now some of the largest fan/genre communities on the internet; and mystery fans love Facebook and Goodreads. This means that genre editors, more than editors in other disciplines, must increasingly be online, whether interacting with authors and readers; networking with agents and bloggers; promoting books and authors on Twitter, Facebook, Instagram, Tumblr, and beyond; participating in Goodreads or “street teams,” where fans of a particular genre or genre author spread the word about new books and authors; or simply keeping up with the industry news. Bloggers are another key constituency for genre publishers—where literary fiction and nonfiction depend on print reviews, genre fiction finds stronger currency in online reviews, and there are a number of extremely influential bloggers who can sway genre readers.
+
+The importance of making connections with devoted readers is one more reason why the best genre editors are themselves genre fans. Whether it’s knowing the canon of science fiction authors or knowing whom to schmooze at RWA, your passion for the field can be one of your biggest assets. Read and love your genre (whatever that may be), and then don’t limit yourself to reading only what you work on—read genres outside your own as well. Genre is about possibilities—explore them and have fun!
+
+
+
+
+
+16
+
+
+MARGINALIA
+
+
+ON EDITING GENERAL NONFICTION
+
+
+MATT WEILAND*
+
+What a lousy name “general nonfiction” has! “Nonfiction”—as if it were a negative thing, a thing defined only by what it’s not. And “general”—so shapeless, so undistinguished; it sounds suspiciously like scrap metal or bulk mail. For so glorious a thing, “general nonfiction” may sound dull and uninspiring, but I take it as a mantra and rallying cry, and have come to feel that—generally speaking, of course—readers of general nonfiction are everywhere, if only we would recognize them. To my mind it’s simple, really: a reader of general nonfiction is just one who is not necessarily already interested in the subject at hand. It’s up to the writer to entice that reader to take an interest in the people and places the writer describes, to understand and care about the ideas or issues the writer tackles, to share some measure of the writer’s fire for his or her subject.
+
+Helping a writer form this connection with the reader—that is, to edit a manuscript—means telling the writer as candidly and directly as I can where those bonds are forming and where they are not. To this end, I’ve long been a heavy commenter in the margins of draft manuscripts. My focus is usually on structure and form: the trajectory of a book, its shape, the way it develops and progresses and resolves and (one hopes) satisfies. I must sound like the wide-eyed reader I suppose I am, forever scrawling NO WAY! or HOT DAMN or YEE-HAW, FLYING HERE in the margins. Or, given how common a problem repetition can be in a book-length manuscript, I sometimes jot a comment that a waiter at an Italian sub shop in south Brooklyn, on hearing me repeat my order, once growled at me: Yeah—you said dat already.
+
+But all my marginal comments are aimed at helping the writer achieve the qualities of a good and lasting work of general nonfiction I value most—drive, richness, economy, clarity, and an especially elusive quality I’ve come to call curve, meaning good shape.
+
+
+I might as well admit that the marginal comment I make most frequently is this: I’m bored here. Sorry! But as John Berryman wrote, life, friends, is boring—and capturing it on the page, in any form, risks being more so. Even the finest writer may find it difficult to know precisely where a manuscript sags and where a reader’s interest flags. My task, as I see it, is to help the writer identify and fix such issues.
+
+Now, one reader’s dew-dappled-hyacinth-lolling-in-the-breeze may be another reader’s helicopter-getting-blown-up; who can say definitively what subject matter is most intrinsically interesting? So I’m not speaking of the content, exactly. In telling a writer where in a manuscript my mind wanders, I mean that the way he or she is telling the story or making the case leaves a reader feeling stuck and wanting to say, as Madam Oretta says to the knight who mangles his storytelling in Boccaccio’s Decameron, “Sir, this horse of yours has too hard a trot; please be so good as to set me down.”
+
+Great prose has drive; it sweeps the reader along. I can still remember the exasperation in the voice of my tough but beloved high school English teacher as she looked over a broken jalopy of a piece I’d written and said just about the most exciting thing a revered teacher could say to a sixteen-year-old student: “But I want you to take me with you!” For prose to do that, it must be persuasive. Anyone who has told a story, true or otherwise, at a bar or a dinner table knows that giving your audience a sense of narrative progression is crucial. In conversation we get a wide range of feedback to indicate whether the story we’re telling or the argument we’re making is connecting—a listener may shrug or lift a brow in doubt or look around in boredom. Seeing these things, we may shift how we tell the story, fill in details, adjust the texture of our storytelling to reengage the listener’s attention. My job as an editor is to make that shrug on the page.
+
+
+For many readers general nonfiction is a kind of advanced education, a way of learning about a new subject, idea, or group of people in a manageable dose with a companionable guide and without the expense or commitment or lousy food required of formal schooling. Often the writers best suited to creating such works are exceptionally knowledgeable about the subject at hand or just winningly and inspiringly obsessed. I revere that kind of passion and expertise, and relish the books that come out of it. Yet such writers sometimes only sketch details that they’ve long since absorbed but that are new or unfamiliar to the reader.
+
+To address this problem, I often make enthusiastic checkmarks in the margins of manuscripts but add: TOO FAST! I am trying to implore writers to be as generous as possible to their readers, to assume the best of their capacity for learning, and therefore to slow down and explain or describe more. I work with a lot of journalists, whom I admire for their devotion to the craft of reporting. In newspapers, magazines, radio, television, or online, they are masters of describing what they see and hear. And yet I often find myself reminding them that they can stretch out and describe everything at much greater length and in more detail in a book.
+
+An irony of “general” nonfiction is that it often works best when it is most specific. The New York Times reporter John Branch’s first book, Boy on Ice, was based on his front-page series of pieces about the heartbreaking early death of the hockey player Derek Boogaard. The book told the very human story of a life lived and lost in the glare of sporting fame. Branch is a dynamite reporter and writer—he is a winner of the Pulitzer Prize for feature writing, after all. But I think the book really found its shape as Branch added more descriptive passages about the prairies of Saskatchewan and the hockey towns in which Boogaard had grown up. These background details gave the book depth and texture and gave the reader enough knowledge to appreciate the full tragedy of Boogaard’s demise.
+
+Another example is The Death and Life of the Great Lakes, a debut book by the Milwaukee Journal-Sentinel reporter Dan Egan, a two-time Pulitzer Prize finalist, on the ecological catastrophe looming over the Great Lakes. In the course of editing successive drafts of the book, a powerful blend of character-driven reportage and explanatory science writing, I often found myself fascinated by some fact that Egan mentioned only in passing. Take phosphates, a key but complex source of pollution in the Great Lakes before the Clean Water Act a generation ago, and again a huge source of pollution today. I asked Egan to explain more, and—typically—he disappeared into a well of deep reporting for a few weeks and came back with an extraordinary account of the discovery of phosphorus and the ways humans have interacted with it over the centuries, which made the whole book richer.
+
+Great works of general nonfiction get into the details—they use all that glorious space to explore beyond what author and reader may already know. I doubt I’d have said that the history of phosphorus was what general nonfiction readers were clamoring for. But in the hands of writers like Branch and Egan, such details allow books to reverberate and to live on in a way even the best newspaper and magazine articles may not. Think of such exemplary contemporary books as Eric Schlosser’s Fast Food Nation, Adrian Nicole LeBlanc’s Random Family, or Sheri Fink’s Five Days at Memorial: all of them characterized by (among other things) an extraordinary level of reported detail. With models like these in mind, the questions I ask are: Does it satisfy a reader’s full curiosity? Is it generous to the best reader you can imagine, and yet appealing to those who might not otherwise consider themselves interested in the subject? Does it treat the subject with the richness it deserves?
+
+
+One of the hardest things for even the best writers to see in their own writing is the difference between the pretty good and the great. Inevitably, draft manuscripts include material that just doesn’t feel essential, that—however interesting—drags the narrative to a halt. So I frequently put a squiggly line in the margins and write those dread words TOO SLOW.
+
+I know, I know—I just made the case for slowing down. But it’s vital to clear away extraneous good stuff to allow the great to stand tall and thrive. What I’ve long taken as the best advice for writing a book comes from Miles Davis, and it may be apocryphal. But the story goes that someone asked him, in the period when he was writing extraordinarily spare and powerful compositions, how he did it. Davis said this: “It’s easy. I always listen for what I can best leave out.” As I read a manuscript, I’m often looking for ways it can move faster, that it can be tighter. Sometimes this can mean cutting a line or a passage that was the kernel for the whole book. As playwright Sarah Ruhl put it in 100 Essays I Don’t Have Time to Write, “What seems like the most necessary thing in your play might be the least necessary thing.” And sometimes it can mean cutting an excess of examples or vignettes, which writers often pile on to prove a point. As vivid as these may be, the point is usually stronger when just one of them is used. Pick your best punch, I tell the writer, in order to avoid having your fists crowd each other out.
+
+Of course, suggestions for cuts can be perilous. A couple of years ago an agent called me and said, “I’ve got a great proposal for a book—I’m not sure what it is, but it roars.” It was a memoir of life on the road by a long-haul truck driver named Finn Murphy, and reading the sample material that night, I thought two things: First, he’s totally right—Murphy has a sound on the page that rings in my ears; and second, I know exactly what it is: it’s the book Anthony Bourdain might have written had he become a trucker instead of a cook. We duly signed it up, and I had a ball working with Murphy. But somewhere in the editing it I told him I felt the extensive material about his middle years, when his life took a wrong turn and he took a long break from trucking, should be cut. Much as I enjoyed his account, it seemed to me to break the spell of the book. He cheerfully said he saw my point, and out it went.
+
+We published Murphy’s book, The Long Haul, to strong sales and rapturous reviews. Oh, the thrill of seeing it greeted by a rave from the daily book critic Jennifer Senior of the New York Times! She hailed his knack for telling astonishing stories and called the book “almost shamefully enjoyable.” But she also said this: “Midway through The Long Haul, he does something disconcerting and entirely unexpected: He gives up driving. . . . And he never says why. Now, I’m not saying this omission is on par with the 18½ missing minutes of conversation between Richard Nixon and H. R. Haldeman. But it does seem like a literary crime of some sort.”
+
+Reader, that criminal was me.
+
+
+As long as I’m confessing how rude and coldhearted I am on the page, I might as well reveal that in editing a book I also aim to be as ignorant as possible. In an effort to help the writer know precisely where her point is not coming through clearly and convincingly, I write LOST ME HERE in the margin.
+
+I try to help the writer resist the temptation to prove his or her mastery of the subject and to embrace the fact that there are always other writers (and readers) who know more about it. A book is not an exam; the writer’s task is not to demonstrate that he is the one and only expert in whatever he’s writing about.
+
+I also remind the writer that clarity is king. “There is nothing that requires more precision, and purity of expression, than to write in a familiar style,” as the great English essayist William Hazlitt put it nearly two hundred years ago. “To write as anyone would speak in common conversation who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity . . .” To me these are the cardinal virtues of strong, convincing English prose. (Hazlitt’s last term, meaning “clarity,” is now, alas, an antique word.)
+
+Sometimes I scrawl HUH? in the margins to indicate that I’m not sure the writer is being fair to those who might disagree with her or is not representing other views fairly or fully enough. In such cases I encourage her to do this thought exercise: What would a reader (or reviewer) who doesn’t sympathize with your position say? The point is to give the writer a chance to inoculate herself against obvious criticism—and thereby make the book stronger.
+
+I also encourage the writer to reveal her own ignorance, even about the subject she is writing about. I think of two classic works of general nonfiction that left a deep mark on me, both—as it happens—about building a house: Tracy Kidder’s House and Michael Pollan’s A Place of My Own. Each imparts an enormous amount of information about carpentry, house building, and architecture generally—but in each, the author allows the reader to learn along with him by presenting himself as on a kind of quest to understand his subject.
+
+In 2015 I published a debut work of general nonfiction in this distinguished line: Hammer Head: The Making of a Carpenter by Nina MacLaughlin, in which she told of leaving her job at a newspaper to become a professional carpenter. The book was hailed by one perceptive reviewer as being “like if Annie Dillard had her own show on HGTV.” MacLaughlin excelled at capturing the details of her experience, explaining her work and the ways in which becoming a tradesperson changed how she looked at the world (and how the world looked back at her). But the book really took flight in revision, when she winningly adjusted the early chapters to reflect the degree to which she didn’t yet know what she was doing.
+
+
+A great work of general nonfiction is a living, breathing thing. Like anything alive, it may have gangly bits, knots, asymmetries. But to keep a reader’s attention and have maximum effect, it’s got to have good shape, curve, and my most profound task is helping the writer find it. Curve often depends, I find, on the shape and sequence of the chapters themselves, the degree to which they contribute to the arc of the book and yield a sense of narrative progression. On early drafts I may ask about a chapter: What is its point? What problem does it pose and how does it address it? Where does it take us?
+
+Achieving this sense of curve is hard and can prove frustrating to author and editor. It often requires not marginal comments but deep conversations on the nature of the book itself. I relish these, and if I’ve been of any use to the writers I work with, it’s often because I’ve tried to wander just as deep into a dark wood as they have. In these conversations an editor, I believe, has to be willing to be wrong—to suggest the wrong thing, to ask the wrong question—in the service of finding the right solution.
+
+Assuming the raw material (of story, character, scene, and style) is good, the questions I may raise about structure are often borrowed from other art forms: Is the bass too heavy in this part? Why is there so much yellow in the corner of the painting? I often find it useful to switch metaphors—postpunk to kitchen-sink drama; soccer to impressionism—to find whatever helps the writer understand what the experience of reading the manuscript is like for someone else, and adjust it as necessary to achieve maximum force. There is no cynicism in acknowledging that great works of general nonfiction manipulate the reader this way. As in chess, a particular move—the shape of a chapter—is often made to set up the next one or the subsequent ones.
+
+My best lesson on achieving curve came in the 1990s, when I had a small hand in working on several of Studs Terkel’s timeless works of oral history, some of the finest works of general nonfiction I know. A little later I started working with Craig Taylor, who I believe is the nearest thing to an heir to Terkel. Taylor’s bestselling book Londoners, which he spent six years reporting, was based on his in-depth interviews with more than two hundred people. But his draft manuscript was some 1.1 million words—at least five or six ordinary books of ordinary length—and unsequenced. As we sought together to carve out the one great book within it, to find its best shape, we spent months arranging and rearranging index cards listing each piece. Ultimately we relied on Terkel’s model in thinking of the book as collage, or better still as bebop, with scenes and characters riffing off each other and building to various climaxes even as the book as a whole developed. That intense back-and-forth conversation about the book’s shape (and cutting almost 90 percent of the material) yielded what the New York Times Book Review hailed as “a rich and exuberant kaleidoscopic portrait” of the city and “a master-class in self-effacing journalism.”
+
+To take another example: In 2015 I published Mary Norris’s Between You & Me, a bestselling book about language filled with colorful details from Norris’s nearly thirty-five years in the celebrated copy department of the New Yorker. As I read the draft material, I’d buttonhole my colleagues in the hallways to say, You have GOT to read this. But while there were many laugh-out-loud moments and loads of useful language tips, the book lacked curve. At one point in the editing process, Norris wrote me to apologize (unnecessarily!) for falling behind schedule, and added this: “Also wondering if it should be this hard.” Of course I tried to reassure her, but I also tried to prod her into writing in a slightly different mode:
+
+It should be this hard, yes—it often is. That’s nothing to be afraid of or worried about! But a lot depends on your ability to think like a chapter—i.e., to craft chapters that have narrative propulsion; that carry a reader through a series of questions or things the narrator wants to explore. . . . There has to be story, has to be a reason we’re following you, and reading of your experiences.
+
+
+
+Typically, Norris took my small, vague effort to prod her to reach new heights and soared with it. (“Gotcha,” she wrote back. “Feeling edited! There should be an emoticon for that.”) She began to send remarkable accounts of her family and life both within and beyond the corridors of the New Yorker, including her contemporary travels to such places as a pencil-sharpener museum and Noah Webster’s birthplace—and to seamlessly weave these in with her sterling advice regarding grammar and usage. As she did so, the book really took shape. Her celebrated chapter “The Problem of Heesh,” for example, about the thorny problem of using he or she or they without implying a particular gender, came together when she told the moving story of having a transgender sibling and its effect on her own view of personal pronouns. She nailed it! And I was thrilled to tell her so, dipping into the Italian which we’d both studied haphazardly over the years. To which Norris, in her inimitable style, replied:
+
+So glad to have hit the mark.
+
+P.S. Ermafrodito is masculine, by the way.
+
+
+
+
+Ultimately, like a toolmaker or a tailor, I aim to be useful to the author but invisible to the reader. The marginal comments I make are best forgotten. Whether the writers I work with follow my editorial suggestions or not, what I hope they remember is the spirit in which they’re made—an enduring commitment to a writer’s ideas and style, a passion for making them public, and a diehard belief that there are plenty of good readers for great general nonfiction on any subject.
+
+
+
+
+
+17
+
+
+ONCE UPON A TIME LASTS FOREVER
+
+
+EDITING BOOKS FOR CHILDREN
+
+
+NANCY SISCOE*
+
+
+
+
+
+THE WHY
+
+
+When I tell people that I edit children’s books for a living, their first response is usually “That sounds like fun.” And often it is.
+
+It can also be heartbreaking—when a book I adore doesn’t find an audience. And heart-swelling—when a child tells me a book I’ve edited has made her love reading.
+
+From a creative standpoint, it is immensely satisfying. It is my job to help authors craft the best possible expressions of their stories. It’s also my job to find the right words to explain to the rest of the world how brilliant those stories are. The days when I feel I’ve done those things well are truly rewarding.
+
+But, as with any job, being an editor is also frustrating (when I lose out on a book I desperately wanted), boring (meetings, paperwork, more meetings), and relentless (there is always something more I could do, should have done, need to do to help the books succeed).
+
+Really, fun doesn’t even scratch the surface of it.
+
+I edit children’s books because I love them. I loved them as a child and never stopped loving them. I edit children’s books because I think kids deserve the best we have to offer. Because the books I read as a child thrilled me and expanded my world and live on inside me. Because I want to help create the books that will delight and inspire the next generation of readers.
+
+The books we read as children have an indelible impact. Most people can remember their first favorites in great detail. They are like cherished friends—first loves. But try to recall the plot of a book you read two or three years ago . . . Children’s books last. Who wouldn’t want to be part of that?
+
+In my first week on the job as an associate editor, my new boss gave me a copy of Isaac Bashevis Singer’s comments upon being awarded the National Book Award for Children’s Literature. I’ve kept it in my “inspiration” file ever since, as it never fails to reorient me if I’m in danger of losing sight of the audience.
+
+There are five hundred reasons why I began to write for children, but to save time I will mention only ten of them. Number 1: Children read books, not reviews. They don’t give a hoot about the critics. Number 2: They don’t read to find their identity. Number 3: They don’t read to free themselves of guilt, to quench their thirst for rebellion, or to get rid of alienation. Number 4: They have no use for psychology. Number 5: They detest sociology. 6: They don’t try to understand Kafka or Finnegans Wake. 7: They still believe in God, the family, angels, devils, witches, goblins, logic, clarity, punctuation, and other such obsolete stuff. 8: They love interesting stories, not commentary, guides, or footnotes. 9: When a book is boring, they yawn openly, without any shame or fear of authority. 10: They don’t expect their beloved writer to redeem humanity. Young as they are, they know that it is not in his power. Only the adults have such childish illusions.
+
+
+
+
+
+THE WHAT
+
+
+It’s the audience, of course, that distinguishes children’s books from adult books. And so editing them requires that you keep in mind the intended readers and what they want in a story. What a toddler wants is obviously not the same as what a ten-year-old wants, so there are different formats and categories of books to suit different audiences. In broad strokes, they are as follows:
+
+• Board books. Sturdy books for babies and toddlers. They are designed for small hands (and emerging teeth). The simplest are about early concepts—colors, numbers, object identification, new words. The more complex tell short stories or are reprinted versions of young picture books. Classic examples: I Am a Bunny by Ole Risom, illustrated by Richard Scarry; Moo Baa La La La by Sandra Boynton; Black & White by Tana Hoban.
+
+• Picture books. Larger-format, fully illustrated books, usually thirty-two pages long, for toddlers through school-aged kids. At the younger end, there is little text and the pictures do the lion’s share of the storytelling. At the older end, the stories can be quite complex and the interaction between the text and artwork gets more nuanced. Picture books are deceptively simple, compact treasures. Classic examples: Where the Wild Things Are by Maurice Sendak; Don’t Let the Pigeon Drive the Bus by Mo Willems; The Snowy Day by Ezra Jack Keats.
+
+• Leveled readers. Specifically designed for kids just learning to read. The word choices and sentence structures are simple, and the artwork offers clues to help readers decode the text. Classic examples: The Cat in the Hat by Dr. Seuss; Frog and Toad Are Friends by Arnold Lobel; Fox on Wheels by Edward Marshall, illustrated by James Marshall.
+
+• Chapter books. For newly independent readers, generally seven to ten years old. These short novels (say 75 to 125 pages) with illustrations bridge the gap between picture books, readers, and longer novels. Series are extremely popular with this age group. Classic examples: the Magic Tree House books by Mary Pope Osborne, the Ivy & Bean books by Annie Barrows, The Stories Julian Tells by Ann Cameron.
+
+• Middle grade. For independent readers, generally ages eight to fourteen. There’s a huge range within this category, from simple to mind-blowingly complex, with an explosion of genres—fantasy, historical fiction, adventure. Classic examples: Charlotte’s Web by E. B. White; The Golden Compass by Philip Pullman; Bud, Not Buddy by Christopher Paul Curtis.
+
+• Young adult. For older, more sophisticated readers, generally ages fourteen and up. There’s overlap with adult books in this category, and many books can (and do) sit comfortably in both worlds. YA books tend to have teen protagonists, coming-of-age themes, and an expanding view of the world. Classic examples: The Absolutely True Diary of a Part-Time Indian by Sherman Alexie, Speak by Laurie Halse Anderson, The Hunger Games by Suzanne Collins.
+
+
+
+
+
+THE HOW
+
+
+The books are created for children, but an editor must also be mindful that they are usually purchased by adults. Parents, grandparents, teachers, and librarians choose most of the books that younger children read. These gatekeepers are so influential that it’s not uncommon for books to be created specifically for them. Most gatekeepers play a benevolent and beneficial role. On the dark side are would-be censors who want to ban certain children’s titles from schools or libraries.
+
+Of course editors are gatekeepers too, of a sort. I say no to more than 90 percent of the manuscripts that cross my desk. The most emphatic nos: No moralizing, no finger-wagging, no thinly veiled adult agendas. Kids can spot a good-for-you book in a heartbeat. Eye-rolling starts young.
+
+Philip Pullman says it best: “We don’t need lists of rights and wrongs, tables of dos and don’ts, we need books, time, and silence. Thou shalt not is soon forgotten, but Once upon a time lasts forever.”
+
+Another piece I keep in my inspiration file is an article by the renowned editor Richard Jackson. Jackson describes the essential questions an editor learns to ask when reading any new piece of writing for young readers: “Does this story convince me? Do I care what happens to these people? Is the voice authentic? Has a young person’s nature somehow caused the action? Have I read this before?” I try to keep all of those considerations and questions in mind when I’m deciding whether to take on a new book.
+
+And beyond that, I’m thinking about what the author’s next book might be, and the next. I always hope a long-term relationship will grow. Every editor has her own approach, and every author needs something a little bit different, so I try to gauge whether the author and I will make a good team. An agent acts as a matchmaker in that sense—sending the right writer to the right editor.
+
+The vast majority of manuscripts do come to me through agents. Sometimes a project will come from a friend of a writer I already work with, or I’ll find a new talent at a conference or suggest that someone not currently writing for children might want to try it. But mostly I’m reading submissions from agents and hoping for that spark of joy that comes with finding something new.
+
+Of course the competition for that new voice is intense. Heated auctions are common. And so after weeks of convincing yourself a book is wonderful, and persuading the rest of your team to be excited about it too, and running profit-and-loss estimates, and getting approvals to make an offer, and putting your best offer together, after all that, you can still lose out to someone else. So deflating.
+
+On the flip side, winning a book at auction is exhilarating!
+
+
+It’s not the acquiring I love most, though; it’s the editing. The time the author and I spend working together, trying to make the story sing. Here’s a look at how that process works for some different types of books.
+
+
+
+
+
+Picture Books
+
+
+I’ve heard it said that there are two types of readers—those who read to understand their world and those who read to escape. As I’m a largely escapist reader myself, this resonates. But for the youngest readers, pretty much all books are about understanding their world.
+
+To a baby everything is new, and so the youngest books are all about recognition. This is you, these are the things around you—your family, your room, your house, your yard, your neighborhood. Understanding ripples outward, with the child always at the center.
+
+For me things start to get really interesting when a child is old enough to add emotion into the mix. That’s when you can start telling stories. The stories are still focused on understanding the world and the people in it—but oh, the great variety that encompasses. This is the realm of most picture books.
+
+The perfect picture book is often defined as one where neither the text nor the art would make sense on its own. There are notable exceptions, of course—wordless picture books can be wonderful, and some texts can easily double as poetry. But it’s most often true: a picture book consists of words and pictures working together to tell a story.
+
+A picture book is also largely defined by the format. Just thirty-two pages. Those pages can be bigger or smaller. Crammed with art and text or left open and airy. But the length is pretty standard—determined by the way the books are printed, in sixteen-page signatures. You can add sixteen more for a forty-eight page book, but that often feels too long and is expensive to boot.
+
+With a set number of pages, the pacing of a picture book becomes crucial. You want roughly the same amount of text on each spread so that the pages get turned at a consistent rate. And anyone who’s sat with a child on her lap knows kids like the pages to turn fairly quickly.
+
+First drafts are often too long. There’s too much story and not enough space. And so the author and I begin the process of winnowing down. We’re forced to decide what’s truly essential to the story and what’s taking up unwarranted space.
+
+I often begin by making a map—a view of the book in miniature, all on one page. You block out the pages needed for a title page and a copyright page. How the story begins and ends is often clear, so you rough those in, and then you have a view of the space remaining to get from here to there.
+
+Here’s an example: Dan Yaccarino and I were working on a picture book called Billy and Goat at the State Fair. Billy and his pet goat are best friends, even though they have different temperaments—Billy likes to smell the flowers, and Goat likes to eat them. When the state fair rolls around, Goat is dying to go. Billy doesn’t like the crowds and noise, but he does think Goat deserves to be in the best goat competition, so off they go. First thing, Goat takes off to explore the fair, and Billy chases after him. When he catches him at last, Billy realizes the fair is pretty exciting—as long as he’s with his pal. They end up missing the best goat competition completely, but neither minds, for they’ve spent a great day together.
+
+Dan is both an author and an illustrator, so the first draft I saw included sketches of the art he had in mind. There were brilliantly funny pictures of Billy and Goat at the fair riding roller coasters and log plumes. Dashing through displays of flowers and pies. Playing games of chance and eating corn dogs. They were all fabulous! And lots of them got cut. After reading the first draft again and again, we realized that the attractions of the fair were overpowering the story. We had oodles of middle and not so much beginning and end.
+
+So we allowed more space at the beginning to get to know our two friends. (Even picture books need character development.) We needed space to show Goat’s excitement for the fair and Billy’s apprehension. We knew we needed space at the end for the rush back (too late!) to the goat competition, and a final page for the resolution. With all that blocked in, we saw what space remained for the fair. In roughly the middle of that section we needed to focus on the place where Billy catches up with Goat, finally takes a look around him, and decides the fair is more exciting than scary. This emotional pivot is crucial to the story and needed some time to feel genuine. We added another page there.
+
+Bit by bit the space available for showing the rides and displays got smaller, but the story got clearer and stronger. It sounds easy in retrospect, but the process is painful, with lots of false steps and erasures before things finally feel right. Once we had the map of the story set, Dan could go back and revise the text and refine the pictures.
+
+Key to the pacing and rhythm of a picture book are the page turns. Eric Rohmann is a master of the page turn (among many other things!) and taught me much about their potential while we were working on A Kitten Tale. Each turn of the page is this little moment of suspense. The pregnant pause between cause . . . and effect. Between action and reaction. Using these pauses well can add lots of drama to a story. The trajectory of a book is often determined by feeling it is absolutely crucial to turn the page . . . there.
+
+In the case where the author and illustrator are not the same person, it’s the editor, along with the art director, who has the delight of choosing what kind of illustrations will best suit the story. Pairing a text with an artist is a bit like matchmaking—ideally the two together will add up to more than the sum of their parts.
+
+Usually a picture book begins with the text. Occasionally I’ve done books where the art exists and I’m trying to craft a story that holds it together—tricky. It’s more often the case that I’ll be searching for a text that will be a good vehicle for an illustrator I’ve been hoping to work with.
+
+Spotting a text that tells enough of a story to spark the imagination but also leaves room for an artist to add to and complete the story is a skill acquired over many years. Usually you begin with too much text.
+
+One book where the text was, I thought, admirably brief was An Annoying ABC by Barbara Bottner and illustrated by Michael Emberley. It began: “Adelaide annoyed Bailey. Bailey blamed Clyde. Clyde cried.” On it went—a tale of woe through an alphabet of kids. Barbara and I imagined all the kids together in a preschool classroom with events escalating to an all-out disaster by the time we get to Zelda, who turns her wrath back on Adelaide, who eventually . . . apologizes. It was funny and clever—and left a huge job for the illustrator.
+
+It fell to Michael Emberley to figure out just what Adelaide did to annoy Bailey, and why Bailey then blamed Clyde. Each annoying action had to lead logically to the next. It was a twenty-six-link chain of events that all had to unfold Rube Goldberg–like to the desired end. All hail Michael, who made just brilliant choices and pictures.
+
+In books for the younger end of the picture book audience, the art and text work together to tell the same story. But as the audience gets older and more sophisticated, text and art can sometimes contradict each other to great comic effect. Julia Sarcone-Roach’s The Bear Ate Your Sandwich is a good example. An unseen narrator tells the story of a bear who falls asleep in the back of a truck and wakes to find himself in a “new kind of forest.” But the pictures show the bear in the heart of a city. The text describes good trees for scratching (telephone poles), squishy mud underfoot (wet cement), and a cool pool for bathing (a fountain in a park). While in the park, the bear, understandably hungry, spots “your beautiful and delicious sandwich, all alone.” After his snack the bear hightails it back to the forest, but the story has a final surprise. The unseen narrator is revealed to be a dog—spinning the whole shaggy-dog tale for a skeptical girl.
+
+Do six-year-olds understand the concept of an unreliable narrator? Yes, they do! And their parents appreciate the joke as well. It is kind to remember that picture books are frequently read to a child by a tired adult at bedtime and to try to make the experience fun for that parent as well.
+
+The best way to ensure a happy reading experience is to read the book aloud yourself. Note the places you stumble, where a sentence goes on too long, where the words don’t quite flow. I’ll read sections aloud as the book gets revised, and then one last time before it goes to the printer.
+
+At their best, picture books are a point of connection between adult and child—offering a shared love, an inside joke, or the origin of a family saying. As I edit, I imagine these things happening and plant a few seeds. “Let the wild rumpus start!”
+
+
+
+
+
+Novels
+
+
+Once children can read, the possibilities open up exponentially. They can decide for themselves what kind of stories they want. They understand enough about the world to escape it if they choose, and so in addition to realistic fiction you start to see fantasy, mystery, historical fiction, adventure, horror, and more.
+
+I imagine the editing process for a novel for children is much the same as for a novel for adults. But everyone has their own variations on the theme, so here’s what I normally do.
+
+I read the book from start to finish. Just read, with no pencil in hand. Ideally in one long gulp. Then I start taking notes. What did I love? What didn’t make sense? Where did things lag? Where did they move too quickly? What themes are emerging? Are they clear enough? Too overt?
+
+After I’ve jotted down all my first impressions, I put the book away and give myself some time to think about what’s on the page now and about the story I sense the author wants to tell. I think about what needs to happen to move from one to the other.
+
+Then I read the book again more slowly, outlining each chapter as I go. I’ll start writing notes to the author in the margins—asking questions, pointing out inconsistencies, noting wonderful turns of phrase and all the places that make me laugh or cry. If it’s a book where timing matters, I’ll keep a running timeline of events as well. From there I usually make a more concise map, one that shows where the major events of the story fall so I can see if they are well spaced or all bunched together. I can also see if there are long stretches where nothing essential is happening. With those insights, I go back through the pages again, adding more notes in the margins, suggesting where things might be condensed, offering alternate wordings.
+
+Before I begin an editorial letter to the author, I return to my first impressions. Have they held up after repeated readings? Have new questions arisen? New ideas for where to go from here? I try to articulate in the letter all those big-picture thoughts about the story—what’s working well, what might be emphasized more, and what could perhaps go.
+
+
+So what specific considerations go into a novel for middle graders?
+
+Carl Hiaasen asked me this before he began his first kids’ book, Hoot, and what I told him cuts to the heart of it: never talk down to your reader.
+
+Kids may lack information, but they don’t lack intelligence. Yes, you may need to offer some context that an adult reader would be expected to know already. But never for a minute assume that you are smarter than your reader. Kids can smell condescension and they’ll stop listening. They get enough lectures—you’re telling a story. Put a kid at the center of the action, view the world through their eyes, and let the story flow from there.
+
+That’s another point that’s worth stressing—a kid should be at the center of the action.
+
+This came up in the first book I worked on with sports writer John Feinstein. John had written a terrific story about two kid reporters who get a chance to cover the Final Four basketball tournament and discover that someone is trying blackmail a player into throwing the final game. The book was exciting and offered a rare behind the scenes glimpse of a major sporting event. But the first draft veered off course a bit at the end.
+
+In the big denouement, the kids figured out what was going on, but then adult characters swooped in and saved the day. Realistic? Maybe. Satisfying to a kid reader? Not so much. The kid characters need to be the prime actors. They need to solve the puzzle and get themselves out of trouble and save the day. John came up with a brilliant alternate scenario that let the kids be the heroes.
+
+I spend a lot of time thinking about the pace of a novel. Kids tend to be impatient readers, so I’m always looking for ways to move things along faster. (Of course it could also be that I am an impatient reader. But mostly I blame it on the kids.)
+
+Here again Philip Pullman says it so well: “In a book for children you can’t put the plot on hold while you cut artistic capers for the amusement of your sophisticated readers, because, thank God, your readers are not sophisticated. They’ve got more important things in mind than your dazzling skill with wordplay. They want to know what happens next.”
+
+This was my major concern in Wendelin Van Draanen’s first novel, How I Survived Being a Girl. I remember reading the book as an unsolicited submission and falling in love with the main character’s voice. The daring exploits of Carolyn and her brothers as they spied on the neighbors and dug up someone’s yard made me laugh out loud. I also remember grumbling quite a lot at the long and rambling sidetracks Carolyn went off on as she told her story. I found myself skimming and skipping ahead—yeah, yeah, but what happens next?
+
+And so I wrote to Wendelin and said I liked her story but would she please cut it in half. If she was willing to try, then I’d read it again. I may have been nicer about it than that, a smidge more encouraging, but not much.
+
+I stand by the advice. Cutting a story down to what’s essential is as important in a novel as it is in a picture book. But I cringe now at how glibly I delivered my suggestion for such major surgery. How brutal I must have sounded. How easily she might have tossed my letter aside.
+
+The story ends well. Wendelin did revise the book and it was the first novel I acquired on my own—a huge milestone for any young editor. Wendelin and I have now worked on thirty-four (and counting) books together. We are an awesome team. So when I think back on the terseness of my first letter to her, I feel the weight of all I would have missed out on had she responded differently.
+
+I remind myself to be clear and kind and encouraging. Always.
+
+
+For middle-grade novels I do consider the gatekeepers. I do think about what’s appropriate for a young reader. Can we convey strong emotion without cursing? Usually. Do we need that graphic violence and gore? Usually not. I also think about the kind of world we’re portraying. Do we need to pretend the world is sunshiny all the time? No. But do we need to depict it as unrelentingly bleak either? I don’t think so.
+
+This is not to say I think middle-grade books should shy away from tough subjects. On the contrary, I think a book can be the best place for a kid to first encounter some of the evils of the world. Better in the safe confines of a book than in real life. But I also think the author and editor have a responsibility to know when something might be shocking and to treat it with care.
+
+Hope is essential.
+
+Here again, I am guided by the wise editor Richard Jackson: “A [middle-grade] novel ends not with happily ever after, but with a new beginning, with the sense of a lot of life left to be lived.”
+
+For young adult novels, I let all those thoughts of gatekeepers go. What’s appropriate is based solely on what feels right for the story. Teens can and often do read adult books. They watch the news. They survived junior high! They are well aware that the world is a flawed place. So why not give them stories about how characters respond to the worst that life throws at them? The censors disagree, of course, but they’re fighting a losing battle. What could be more enticing to a teen than a book some adult thinks they shouldn’t be allowed to read?
+
+In the end, it turns out my advice for all children’s authors is essentially the same: put a kid at the center of the action, look at the world through their eyes, and let the story flow.
+
+
+
+
+
+18
+
+
+LIVES THAT MATTER
+
+
+EDITING BIOGRAPHY, AUTOBIOGRAPHY, AND MEMOIR
+
+
+WENDY WOLF*
+
+What could be simpler?
+
+Writing a biography—the story of a life—means conforming to a preexisting chronology, as life naturally lays down its own patterns and rhythms. An author just has to assemble the parts in the right order, make sure of his facts, and then get out of the way. If he is writing an autobiography—the story of his own life—he’s won half the battle already (he knows how the story goes). The editor’s job must be equivalently easy, pruning out a few errant details here and there, right?
+
+In fact, after forty years of editing biography and autobiography—political, historical, academic, comic, literary, athletic, wistful memoir and hard-hitting investigative biography—I can assure you that nothing is more complicated than getting a life down on paper, making it real, and getting it right.
+
+But regardless of whose life an author has chosen to document and which approach she has chosen to follow, I always begin with two simple, crucial questions: Why does it matter? And to whom? Without thinking through those questions, a writer is lost in the wilderness before she starts, so my counsel is to take some time and be honest. The answers will dictate everything from the author’s vocabulary and voice, the sources she trusts, the notes she publishes, and the details she includes and leaves out, to the conclusions she draws and the editor she works with. And if she can’t at least take a well-placed jab at the answers at the beginning, it will be impossible for any editor to help her find her way home from that wilderness.
+
+Of course there’s a third question: What’s new here? Scholars in particular presume that’s the first question, and certainly new sources or new interpretations are crucial to a biography, particularly in dealing with an already well-scrutinized life. To me, though, novelty is a necessary but not sufficient premise.
+
+As an editor at a major trade publishing house, I weigh projects with the same concerns as all my colleagues in other genres—who’s going to care, or, to put it more bluntly, who’s going to care enough to spend thirty (or fifty) dollars just because there’s a previously undiscovered cache of letters, or an eyewitness produced after thirty years of silence? How much does this new information change what we know? Does this life have reverberations beyond its own confines? The answers to these questions help me determine whether this is a trade book, with the possibility of a broad readership beyond the university or the family (for memoir or family biography), or whether it’s a valuable contribution in its field but probably for a limited set of readers.
+
+Over and over, authors tell me that we should care about this person’s contributions to neurobiology, or her experiences during the French Revolution, but frankly, few readers really do. With Wikipedia providing what most people want to know about most of the facts of most lives with enough accuracy to satisfy most casual inquiries, why bother?
+
+Every time I see in a proposal the phrase “There’s never been a biography of _____,” I shudder. Usually there’s a good reason why. The fact that there hasn’t been a book on Y since 1954 may not be enough either, just on the face of it. And let’s be honest, very few people who aren’t professionally paid to do so are actually going to buy and read a book about an unknown horsemaster’s daughter’s life in fifteenth-century Morocco, even if there is a really good diary. Unless the author can bring her to life the way Laurel Ulrich did with an eighteenth-century midwife in A Midwife’s Tale.
+
+So yes, I do want to know what’s new—but that’s not enough. The books that I most love to publish offer new information and new interpretations but also, more urgently, something more than just documenting the life under scrutiny. I listen for passion in the writer’s voice; I want to hear that the story of this life casts light on more than itself—if it reaches through history to explain something about my world to me, or is about a world that it’s important, or entertaining, to know more about. To know why the author cares—and how he will make me care.
+
+Remember, I’m a kind of gatekeeper, but only to one particular pasture. There are many others out there, and that’s why an author must begin with his own passion and commitment; it’s what will see him through. He may be writing for an audience of two—himself and his grandson—and there is no more legitimate motivation. Or because he simply loves researching and writing about the political lives in Ethelred the Unready’s court. That’s not a reason to stop. But it’s a reason to gauge one’s expectations.
+
+
+The art of great biography is found as much in what the writer leaves out as in what she includes. There is nothing I dread more than reading (or worse, having to edit) what I call the “He went here, he went there” kind of life that simply records a litany of dates and events without interpretation or without emphasis. Not every day of my life is interesting, and neither was every day of FDR’s, trust me. That litany, however, may be where one has to start. One of my great privileges was working with Manning Marable on his monumental biography Malcolm X: A Life of Reinvention. I came into the project after Manning had already devoted ten years to the documentation phase; when he decided it was time to get a publisher, he had written pages and pages, and he and a retinue of devoted students had assembled something known, in reverential terms, as “the Chronology”—a day-by-day, sometimes hour-by-hour, account of Malcolm’s every known move, deed, appearance, conversation. It took up literally reams of yellow legal pads, scrawled in pencil and pen, taped together, stacked up, pinned across endless walls. On these pieces of paper, Manning was physically assembling a life.
+
+But most nonfiction books generally begin with proposals, and this one was no different. Manning’s was missing certain things we often expect now: ideas for marketing, or demonstration of media savvy, and if someone in 2001 had used the phrase “author platform,” I would have expected plywood. But the proposal made clear, and my preliminary meeting in my office with Manning confirmed, that this was a once-in-a-lifetime chance to acquire the defining account of a towering figure of the twentieth century, and that there was no other writer who could bring together the background, the context, the insights—and the pigheadedness—it would take to write it. We signed a contract and expected to have a book to show the world in about four or five years, not an unusually long delivery date for such an ambitious project, with archives still to plunder and plot lines to wrangle into shape.
+
+Of course, nothing works out quite as you plan—and over the next decade, we worked as a team to bring the book home. One of the first things we agreed on was that simply printing up Malcolm’s life in real time was not the goal. We had to make what I would call the case for Malcolm as a uniquely American figure. We needed to understand the worlds through which Malcolm moved, the America that blacks lived in and the ones that whites lived in, in the forties, fifties, sixties. We needed to understand what Malcolm’s options were so we could probe the choices he would make. We needed to get to know his family, his role models, his disciples, his enemies. We needed to know—and this was crucial given the looming shadow of his autobiography—when he was lying about himself, and why. What Manning knew from his years of immersion, and what he proved in his book, was that Malcolm was not just a foot soldier or a fire breather (though he was both at times), he was an agent of change. The record of the facts of Malcolm’s life was necessary but not sufficient; the “why it matters” was delivered by Manning’s explanation of what Malcolm changed and how he changed himself. A self-educated man with a thirsty brain and a huge heart, Malcolm embraced a faith and then had the courage to sever himself from its leader when its principles no longer made sense to him, pragmatically or spiritually. He began his political life counseling withdrawal from white society and at the end spent every day urging action and engagement. In the end, he proved to be a profoundly American figure in his utter belief that we could in fact remake our society.
+
+The other great challenge, or opportunity, in a book like this, which occupies a pivotal era in history, is to re-create the context around the subject. Once again, how an author chooses to accomplish this will depend largely on what reader he’s writing for. In the case of Malcolm X, we wanted to make sure that young readers and students in the twenty-first century really understood Malcolm’s world, and we had to make choices about what we could assume or not. A typical younger white reader probably knows who Martin Luther King Jr. was but might not understand who Marcus Garvey was, or Frantz Fanon, or what the Los Angeles riots were, or why zoot suits were important. All this history fed into Malcolm’s life, and would feed into the narrative of the book. In that way, my interests as someone who edits history as much as biography slide into each other.
+
+Biography almost always means rebuilding an era, in both its light and dark sides, as with a biography of the great newspaper columnist Mary McGrory that I published in 2015. McGrory came of age in the early 1950s, when women in newspaper offices were expected to carry the coffee, not cover the president. I was surprised by how many of my younger colleagues found this eye opening. But I knew not to take for granted that the reader would know who Adlai Stevenson was. We had the blessing of a vivid writer to quote and hoped to demonstrate not just what a pathbreaker McGrory was for women but how she affected the way news was covered and commented on through her career, and how far we’ve fallen from so many of her high standards.
+
+I often look at biographies also as a chance to teach—and not necessarily the expected inspirational lesson. With Malcolm X, I wanted to remind people of the physical courage men and women in the civil rights movement displayed. It’s always alarming to me how ephemeral the experience within history is, how the drama of a life is quickly reduced to dates and facts; the human anguish and other emotions are boiled out of it. A lot of my focus, and that of my associate editor, Kevin Doughten, who worked intensely on the manuscript with Manning and me for over a year, was to make sure that the human Malcolm could be seen behind the icon.
+
+All of this leads, of course, to one of the thornier patches a biographer must cross: what do you know, what can you impute, what must you imagine? Here my rules are clear and immutable. The author’s evidence is going to assemble into several distinct piles: the facts she can document, the assumptions she can rationally make or presume, the inferences she can create from context, and the vast tower of everything else, including unrecorded events, emotions, thoughts, motives—all crucial building blocks to a biography, but not all to be used with equal abandon. She is free to draw from all piles but must let the reader know why she knows or thinks what she claims. Sometimes this can be gracefully accomplished in the text itself (“no one knows what was said behind that door, but Napoleon emerged smiling from the room”; “her boots would have been gleaming in the light of the full moon that night”); in other cases a source can be cited in the back matter. We may quote a conversation where there’s a reliable witness, but we ought to resist the urge to put words, and thoughts, in mouths where the record is silent.
+
+Sources are the biographer’s salvation, but they can be treacherous. In Fallen Founder, the biography of Aaron Burr I published in 2007, Nancy Isenberg faced the double hazard that a lot of Burr’s personal papers were lost at sea and that the most voluminous documentation of his life was by his contemporary enemies. I likened it to the task of a biographer trying to write the life of Bill Clinton if the only record of his deeds were the Congressional Record from the time of his impeachment hearings.
+
+Manning Marable’s book in fact began with a question about a source—Malcolm’s famous Autobiography, largely written by journalist Alex Haley, which Manning taught as a key text in a course on the history of African American political thought. But the more he examined it, and the more he tried to match it up to the facts and contours of what he was learning about Malcolm’s life, the more questions he had about the integrity of that remarkable book as a reliable record of a life. Thus he had embarked on two decades of research, compelled by his fundamental belief that this life, this man, held the key to understanding some fundamental, if dark, truths about America.
+
+This was a case where the primary memoir source had been relied upon for decades, but turned out not to be a good map for the real life. The Autobiography of Malcolm X remains one of the most extraordinary documents in American political literature, but now we can read it for what it reveals and disguises.
+
+There is no magic rule for relying on memoirs or diaries any more than there is for any primary source, other than the author’s own expertise and common sense—sometimes supplemented by the editor’s. Given the controversies over the “artful” construction of memoir today, it is surprising to me how long it has taken so many biographers to question the veracity of their subject’s own memoirs, when clung to as a source. I tell biographers, “Believe—but if you can, get a second source. If something smells like it’s been cooked, it probably has been. You are the one who knows the material best, and yours is the opinion I’ll rely on.” The commotion these days over fictionalized memoirs reminds me of a blunt phrase my family applied to a clever uncle of mine: “He never let the truth stand in the way of a good story.” I look for a biographer to parse fact from fiction and to signal when we’re on dodgy territory or at the mercy of an unreliable witness.
+
+The solution, of course, cannot be to litter a book with “might have” and “we could speculate.” The author’s research is the scaffolding, and the task in editing a well-researched, thoroughly documented life is to know what should remain in sight and what should get moved into the back or banished completely. That applies to both details and events, to the author’s background research, and to her observations and conclusions. She should be confident in writing what she knows to be true, but be ready to explain to a skeptic (though not necessarily in the text itself) why she knows it. I encourage authors not to break the frame of their subject’s time period, if possible—in other words, not to make direct reference to sources or to secondary accounts or modern books, if possible, in the text itself. She should present her narrative, her interpretation, and argue with her rivals in the back of the book.
+
+The temptation for authors to load a book down with everything they know is huge. I urge them, Resist! Resist at all costs. There are long periods in any life which can be summed up as, essentially, “more of the same.” The editor must stiffen the author’s spine: more is not better, and showing off that you know what color dress the general’s wife wore to the victory celebration is probably unnecessary. The vogue these days is certainly to go long, but I have to ask if we really needed—as we got in a recent writer’s biography—752 pages recounting the life of a someone whose own work was always scrupulously spare and whose books rarely exceeded 300 pages. Scrutinize every detail, every anecdote, and ask, Does this contribute to the interpretation of this life? Does it matter, really?
+
+Too many biographies in recent years have ballooned into bloated, soggy messes of undifferentiated facts stuffed into a narrative. I suspect it’s the product of a number of factors—the depth of research that can be done from one’s own desk, the ease of access to documentation and primary sources that the internet allows (if writers were transcribing all those quotes by hand instead of just cutting and pasting, there’d be a lot fewer of them), and even the quickness of typing on a computer and seeing a manuscript unfold only one screen at a time, instead of pounding away and watching it pile up page by page. Back in the typewriter age, physical labor kept books shorter.
+
+I have over my desk a little typed quote given to me by one of my authors (I’ve never tracked its source, though he claimed it was Leslie Stephen): “Consider your reader’s brevity of life.” Over the years there have been any number of famous (and famously long) multivolume biographies, and almost all of them began as one-volume lives that billowed out of control. A biography should not become like Borges’s map, the same size as the empire it depicted, and a biographer shouldn’t let his subject’s life take over his own.
+
+
+My guiding principle for documentation inside the book is this: I want to know where the author got his stuff. In general, I don’t actually care if he tags each quote with an archive box number; I’m content with a detailed essay on sourcing at the back that tells me that the letters of Andrew Jackson are in this library, that everything he tells us about how they built a redoubt in eighteenth-century Boston came from that book, that all those quotes about the Watergate hearings are from the author’s interviews unless otherwise noted. Many authors now post their more detailed sources online, but as a reader, I’d still like the summary in the back of the book itself. More scholarly books demand, and many of my authors who are academics still prefer, the detailed quote-by-quote numbered endnotes. I weigh what kind of book it is, what we think the reader will most benefit from (a hundred extra pages of notes will drive up the book’s cover price), and come to some mutual understanding.
+
+In books that take on controversial subjects, and especially books about people who are still alive (and therefore can sue for libel), there is also the important distinction between what the author knows and what he can prove. If there are issues of libel or invasion of privacy—the great specters of publishing law (along with plagiarism)—my authors and I work closely with attorneys in our company whose expertise is navigating these gray zones. My experience has been that publishing lawyers are in the business not of forcing authors to say as little as possible but of allowing them to say as much as possible. I have actually heard an attorney say, when I explained that we simply could not get written permission for a quote from a particularly essential letter, “Let ’em sue.” At the same time, no publishing firm or author should be cavalier about the accuracy or ethics of what they publish, and a good editor flags potential problems before legal counsel is required.
+
+Not all biographies rescue lost or forgotten heroes, even when that was the original intent. Authors may have to make hard choices when they find out things that are unpleasant or unappetizing, or if they challenge the shining image of icons, or reveal unsavory facts about deeds or misdeeds. Maybe the biographer finds out her subject was a coward, or an addict, or a plagiarist. She must be prepared and be honest. If the problematic facts are material to the story, she has to be scrupulous. Maybe the families that gave access to their beloved ancestor’s papers will be horrified to discover marital infidelity or substance abuse in the book. The biographer has to decide if it’s crucial to her argument to include such facts or if it’s just lurid detail. There are no hard-and-fast rules here other than the author’s own moral compass and common sense. That said, it helps to have a clear arrangement for the use of any archive, public or private, before diving into it.
+
+There will always be readers (and critics) who will howl if you tear down their long-held images. In the case of Malcolm X, what I call “the Malcolm Faithful” went nuts over a few lines about events in a difficult time in his younger days and about Marable’s interpretation of Malcolm’s political trajectory. I firmly believe we actually presented a Malcolm who was more heroic than the myth, because he was more human.
+
+Also, I don’t want to find out in the last stages of editing a manuscript that a widow has the right of review for her husband’s biography or that an archive won’t permit letters to be quoted in part, only as a whole. An author should be honest and take advice from his editor early on about legal guidelines and permissions and talk through any squirmy issues that arise in the process.
+
+Because of the obvious risks, I’ve always been wary of publishing biographies of living subjects, especially ones in which the subject offers “cooperation.” (Also, I like to know how the story ends . . .) Obviously, many editors are less cowardly. Sometimes it works out fine—the subject opens doors for the writer, participates in interviews, offers access to papers, has no right of review, and agrees to go on NPR with the author. Too many times, however, especially with a celebrity subject, you get miles down the road when suddenly a lawyer, manager, or publicist gets wind of what’s going on and there’s hell to pay. If a writer is basing his book on cooperation, it’s critical he get the deal spelled out in writing up front or, at worst, fully disclose to his editor the project is a gamble.
+
+Clearly the legal hazards of writing about the living are greater, and therefore one’s sensitivities must be greater too—the dead can’t sue for libel (though their families can for invasion of privacy, and copyright to unpublished documents survives their writer’s death). Again, forewarned about the law is forearmed; it’s a tricky area, and no one wants ugly surprises.
+
+
+So what about memoir, a noble genre which has lately come under such fire? There the issue of what is truth can be murkier. Memory can be highly unreliable. The more scrupulous memoirists actually fact-check themselves, consulting other sources to make sure their memories are accurate (and sometimes finding useful details to supplement their recollections).
+
+Beside the matter of factual accuracy, there is the matter of emotional honesty. What sets some memoirs apart is that the author turns a really unsparing gaze on him- or herself, connecting with readers by exposing feelings we might all have shared even if they are ugly or shameful. I’ve sometimes found even very thoughtful and articulate writers resist this, or don’t push themselves to dig beneath their own surface that way. Again, not every memoir has to be a searing self-exposé, but many writers need to be pushed to take their introspection beyond the level where they’re first inclined to settle.
+
+And there are inevitably conflicting memories, as I find every time I try to reconstruct some simple event from my own family history. Each memoirist has choices about what to believe and what to present, and must set her own tone and her own rules. I ask only that she be honest with the reader about the choices she has made.
+
+Also in memoir, the author may well be close to squeamish about exposing or offending other people and may elide events or pull punches because “old so-and-so is still alive.” That problem exists in biography too but is obviously more acute when the writer is also at the center of the story.
+
+In my mind, though, in the end, it’s pretty simple. The author knows what’s a fact and what’s made up, or improved, or embroidered; she knows when characters are real and when they’ve morphed into something more convenient. She knows when things happened and in what order. If she wants to rearrange the facts to get to the “truth,” okay. But she has to tell her reader that’s what she’s doing. If this is how she remembers it and we know others disagree, fine. She can say so up front, in an author’s note. I’m uncompromising on this subject. If she’s not comfortable with that, if she think it’s too restraining to her art, fine. She can write a novel.
+
+
+Any author–editor relationship is based on trust. I trust that an author is representing the facts, knows what he’s talking about, and has done his job. He is the author, his name is on the book, and it’s his expertise that I’ve relied on, his knowledge of the subject, his honesty in approach, his doggedness in the endeavor. For his part, the author trusts me to read, counsel, advise, offer a smart opinion, help sort out the important from the detritus, highlight the foreground and push the rest into the background. He may have come to know his subject too well, and I’m here to bring him back into the real world.
+
+A close colleague and accomplished editor, Tom Engelhardt, was once asked in an interview, “Publishing is a business, but editing is a profession, one might also say an art. What does an editor do?” He answered, “All fine writers lay down a path for you, the editor. All you have to do is find it in the verbal undergrowth, set foot upon it, and then it’s all remarkably simple. You’re doing your best to slip inside another mind and help unknot the words and thoughts that stood between a writer and the book he or she imagined.”
+
+The task of the biographer is related. A life unfolds before her, but she has to find the most graceful footing through it. She has a responsibility to the life she is observing, to present it accurately but appropriately, but she has an obligation to the reader as well. There is a broad spectrum from satisfying to inclusive to comprehensive to exhaustive to exhausting. Wherever the author chooses to land, and for whatever audience she’s writing, the most important thing is that she knows why that life mattered. The task of the editor is to make sure her readers know that, too.
+
+
+
+
+
+19
+
+
+OF MONOGRAPHS AND MAGNUM OPUSES
+
+
+EDITING WORKS OF SCHOLARSHIP
+
+
+SUSAN FERBER*
+
+First, do no harm.
+
+While it may seem strange to apply a well-known motto of medicine to the realm of publishing, it seems to me the first and foremost responsibility of an editor is to not inflict damage while improving the health of a body of scholarly writing. The scholarly book editor is akin to a medical subspecialist: she focuses on acquiring titles within a discipline that is a niche within the larger scholarly community—not simply fiction or nonfiction but typically an area of scholarship mastered by a relatively small portion of the global population. Authors she meets are therefore highly trained professionals who have spent decades in preparation for a given book, often delving so deeply into their particular subjects that they have become less and less able to speak to others about it. The editor thus must think about how to best present this material to a broader yet still primarily academic audience and to respect the specialized nature of advanced scholarship. Overly simplifying, or “dumbing down,” the author’s text may ultimately result in alienating its core audience without realistically replacing it with a wider one. And so not harming that piece of work, esoteric as it may be, must be the first goal.
+
+
+Very few people enter the world of publishing with the goal of working on scholarly books. The job perks of academic editors do not include swanky book parties filled with well-known writers whose work appears in mainstream literary magazines. The books they edit are not the ones found in airport bookstores or on best-seller lists. The lists they manage can be quite large—several dozen to a hundred a year, perhaps. Relatively few editors are primarily educated in the disciplines in which they publish—there are simply not enough literature lists for every English major in scholarly publishing. More common is for a scholarly acquisitions editor to learn to acquire in a discipline, with its own jargon, its own trending issues, and its own celebrity authors who are known only in these niche communities; there is often minimal crossover to scholars in other fields, let alone readers outside of the academy.
+
+So why do scholarly editors do what they do? At least for me, the chief satisfaction comes in the editing process itself. I believe that each project adds unique knowledge to the world, and intellectually engaging with that work is what helps me to translate an author’s scholarly contribution to a wider audience, consisting of at least his peer group. Most authors tend not to think about their manuscripts first and foremost as stylish, engaging, accessible pieces of prose. Helping them to step back from their research, to prevent scholarly detail and the findings of other academics from overwhelming their voice, and to produce a work of a reasonable length for the intended audience occupies my evenings and weekends. The ability to diagnose what a manuscript needs comes with experience, but each project has its own unique challenges, and it is impossible to apply a one-size-fits-all approach.
+
+For many academic editors, manuscript development is a secondary, or even unwritten, part of the job description. We are typically assessed on quantitative goals, such as signings and sales; “quality” is a difficult output to measure. Critical acclaim or book prizes may serve as a proxy metric, and most of us believe a well-crafted book will outsell a mediocre one. But how much better can a book be made by editing, and what percentage increase in sales will result? These effects are unquantifiable. And in each discipline, even for different types of books, the answers may significantly differ. If a book on, say, criminology has a lyrical voice, will that alter its eventual sales or reception? Some topics simply do not have a large audience. There is more opportunity for American history titles to find a crossover audience than, for example, those on literary theory or linguistics or biochemistry. The broader public buys more books on Lincoln and Kennedy than on molecules or modalities. And frankly there is not time in a scholarly editor’s schedule, given the sizes of lists and all the other tasks involved in publishing, to engage in detailed developmental work for every book equally, or even all books on her list. So the editor must decide what kind of editorial intervention is necessary—or possible—within the constraints of her own list and workflow. Giving broad-based advice to authors about introductions may be all that is feasible; in some cases, author and editor may be mainly relying on the feedback from the peer readers’ reports or advice from a series editor.
+
+It helps to parse types of scholarly works in terms of what kind of editing might be most beneficial for them. There are traditional monographs, by which I mean very narrow, highly detailed, and thoroughly researched studies intended only for a specialist audience. The aforementioned “crossover” books are not necessarily any less thoroughly researched, but their topics are part of a more public conversation outside of academe, be that in the professional world, a niche audience (such as yogis or birders or Civil War buffs), or a general-interest audience, perhaps because of current events (such as al Qaeda after 9/11, Ukraine after the Orange Revolution, or Gulf Coast flooding after Hurricane Katrina). A book may also be classified as crossover because of the author’s platform, particularly if she is a known figure in the media or has written other works that have given her name recognition beyond a discrete scholarly circle. As these books seek to reach a wider and less expert audience, they may repay (and demand) a greater investment of editorial time to make them accessible to those readers.
+
+Assessing the role of a given book in an author’s career also helps determine the type of editing that is appropriate for the text. If the author has, by choice or by circumstance, decided to leave academe or is not aiming for tenure-track employment, then he may be open to editorial suggestions that a tenure-track assistant professor in a conservative, heavyweight research university may not be. This can manifest itself in numerous ways, starting with the title. One author insisted to me that a book with a “How” or “Why” phrase in its subtitle would never be acceptable to colleagues in his elite department, while others have felt that titles suggested by the publisher might sell the book but raise the eyebrows of academic readers for being too broad and overhyping the contents.
+
+First-time authors with a strong dissertation in hand who are staying on an academic path may wisely deem their key audience to be peers in their specialist field, the very individuals who will likely be asked to write letters about their corpus of work for their tenure files. They may be thinking primarily about establishing their scholarly credentials in the eyes of their department. Their books may have a core audience of scores or a couple of hundred readers, in which case an editor might be less likely to invest the publisher’s resources or her own finite hours in significant editing of their manuscripts.
+
+At the opposite end of the spectrum, I have worked with authors who think of themselves as writers first. They care most about the narrative quality of their work and only secondarily about engaging explicitly with the scholarly literature. Often it is tenure that gives such authors more freedom to speak expansively and permits them to pursue a desire to reach a wider audience. So an accurate sense of where a project fits into an author’s career arc, how the manuscript fits into an author’s self-identity as a writer, and what her goals are for the work is critical before I engage with the text. This is not to say that any work can be turned into one for a larger audience; there are topics that are necessarily far more limited in reach, no matter how accessible the writing is. Nonetheless, that a book is scholarly is no reason for it to be badly written, unreadable, or beyond improvement.
+
+At a bare minimum, most scholarly manuscripts I encounter benefit tremendously from a fairly substantial revision of their introduction. It is in these opening pages that the author is most obviously working out how to position the project amidst the mountains of surrounding literature, often coming to the point of the book toward the end rather than beginning with a statement of its argument. My recommendation is most often to simply excise the existing introduction and begin writing from scratch. The quotes and citations can be added in, but writing free form, rather than getting distracted by tracked changes and the ways that the project has long been framed, can liberate an author to express compellingly what the work is meant to do and what its contribution is.
+
+Like Goldilocks, writers need to find the introduction voice and length that feel just right. Many introductions present perfunctory information and demonstrate all too clearly that an author has hurriedly written up something to put at the beginning of a manuscript after devoting virtually all his energy to the rest of the chapters. Other introductions—and not only by first-time authors—are extremely long and wind tediously through the dreaded “literature review” before finally discussing the contribution of the present work (often in the form of an equally excessive road map to the contents of each chapter). In these and other cases, authors can often forget that readers need to be captivated and guided into a subject that they, unlike the authors, have not spent years working on. The best way to start may be a case history of a key figure in the work, or a telling anecdote, or an ethnographic description, or a big question that the author has set out to answer.
+
+
+Rather than generalize about the other parts of scholarly manuscripts that most frequently need editorial attention—such as transitions, the webbing between chapters, and overlong notes—I will illustrate the diagnostic challenges and treatments of a few types of projects using examples from my own discipline, history. Once a book has been published with extensive revisions, there is no way to quantify how it would have performed if left largely unedited. But I have selected these projects to discuss because on publication they achieved recognition for the quality of their writing.
+
+Microhistory is a particular genre whose popularity has ebbed and flowed, but that has attracted many a scholar who has discovered a story in an archive while working on a broad study and found that following an individual or small subject has been more fascinating. Oftentimes microhistories can revolve around a compelling event, such as a courtroom trial, an urban crisis, or another revealing episode, and their organization can appear to flow naturally from the research. I have edited several such works: they are tremendous reconstructions of what happened, and figuring out where the stories begin and end is one of the key challenges the authors faced. So too is piecing together the lives of the people who intersected in these events, which is especially difficult if they never became household names and appear in the historical record only fleetingly.
+
+While the scholarly excavation involved in the research for such books is no less deep and intense than for many a monograph, these works may have a more limited time frame and scope. Editorial intervention can be valuable in helping the author figure out where the chapter breaks should fall, whose perspective(s) should come to the fore in different parts of the story, and how to connect the narrative with larger interpretive questions. What larger understandings of the period and the field these microhistories can speak to is central to what audiences the book can reach.
+
+A story that is intriguing to the author, even one in which she has invested years of wide-ranging research, does not in itself make the book worthwhile, readable, or, frankly, necessary. When scholars undertake these works, the results may be quite different from what happens when writers or journalists with a nose for a good story dive into them. Nonscholarly writers often spend a good deal of time thinking about plot, pacing, setting, character description, and other elements of narrative for which a scholar may have less-developed writing muscles. Academic historians, if they wish to be praised for their scholarly contributions, must convey longer-term meanings and larger relevance for their narratives, while highlighting what makes their interpretation orginal. But this imperative can be in tension with the effort to attract nonspecialist readers or students.
+
+There’s a second type of book I’ll simply dub the magnum opus, the work whose scope and ambition make it a capstone to a scholarly career. The magnum opus is a species familiar to editors in every discipline, and it comes with its own challenges. First, there is the issue of length. When an author who has signed a contract on proposal delivers years—or decades—later a manuscript four to five times the contracted length, it usually signals that my job as an editor is going to be of a different order. Not only is the actual editing work much more time consuming, but so too is convincing publishing colleagues that the sales and market expectations and publishing plans for the book deserve to change. It becomes even more incumbent on editor and author to ensure that the depth and scope of the study live up to the promise of the work and that there is no unnecessary fat in the manuscript.
+
+Frequently in these long-gestating tomes, the introduction sets out an ambitious argument but the chapters themselves have become overgrown with examples and the chronological or thematic scope of the work overall has expanded well beyond what was initially planned. The narrative threads may be strong at the granular level but not connected to the interpretive argument driving the overall work. Finding narrative momentum both within and between individual chapters and adding signposts through the work are essential to making the “big book” work. Editing this type of manuscript cannot involve a slash-and-burn approach but requires very close line-to-line microsurgery. Recognizing that each archival detail has been hard won means making careful choices about which are most colorful, which best support the author’s point, and which are not essential, no matter how intriguing.
+
+One of my authors referred to this editing as putting his manuscript on a Jenny Craig diet. It is often much easier for an editor to see that a manuscript needs this reduction in order to become a stronger, healthier version of itself than for the author who has invested so many years of work and writing in it. The magnum opus often requires a particularly challenging editorial letter: praising the author’s mastery of the topic and respecting the enormous amount of work that the research and writing have entailed, while at the same time insisting on surgical intervention before a work can be published.
+
+It is somewhat unpredictable how long a work the market can bear. A definitive work is often by necessity long—but how long is too long for its intended readership? Given that manuscript length directly correlates to production and manufacturing costs, does cutting by 20 percent suffice to attain a feasible length, or is more pruning needed? Will the core audience of scholars feel that some of the muscle of the project has been damaged by this editing? The answer, again, must be determined case by case, factoring in the publisher’s best guess as to the size of the market, the editor’s stamina, and the author’s willingness to “kill her darlings.” The latter is unpredictable, because for each author this is her lifetime of work. She may argue that her eminent colleagues say that the book cannot be cut. Or that it can be published in two volumes. Or that some other editor knows better.
+
+
+The editing process can take months or sometimes longer, depending on the degree of revision and the author’s workload of teaching and other responsibilities. It may also be prolonged by peer review, which is discussed elsewhere in this collection, though procedures for this vary so widely from one press or even one project to another that it’s hard to generalize. Some projects are reviewed as early drafts or even proposals, and the feedback may help guide the editing; in other presses or other situations (perhaps when the original manuscript has been heavily revised), peer review may occur after editing.
+
+Once the one-on-one work of manuscript revision is complete, the collaborative process between author and editor shifts to focus on other elements of the book and expands to include others in-house as the manuscript enters the publishing pipeline. It may, for example, entail walking an author through how to acquire art or prepare tables and graphs that the production department can work with, an area that may not be his forte. Scholarly publishers do not have staffs to prepare and handle these details for authors, nor are they (generally) able to pay permission costs. Scholarly book budgets are close to the bone and cannot cover what may be routine expenses for a college textbook publisher, such as specialized cartography or outside developmental editing.
+
+Working with the author and with marketing to plan for publication also begins long before the book goes to production—in fact, at the moment of acquisition. Indeed, the author’s input and active involvement are essential to tapping into the networks of specialists she is a part of. Thinking about general audiences and mainstream review publications is of much less use than identifying how to reach niche audiences. Indeed, it is perhaps a golden age for promoting books to niche academic audiences, given the print publications, blogs, specialized societies, Twitter feeds, social media outlets, and other networks that exist to bring together far-flung individuals with esoteric interests.
+
+Unless this groundwork is laid, the moment of publication can often seem like a letdown for a scholarly author who has often spent many years of a career preparing to write this work. It can take a few years for a print review to appear in the flagship academic journal in the field; it may be fiscally impossible for the publisher to advertise as widely as an author would like—say, via a solo ad in the New York Review of Books. The sales numbers may take considerable time to build, given the buying patterns of libraries and wholesalers, let alone individual buyers. These are not books bought in large quantity on spec by bookstores—but neither do they have the subsequent mass returns that commercial titles often suffer. They are also not books that are only “for the moment.” Often the product of many years of research, they can have a long tail, finding interested readers years after initial publication.
+
+How scholarly manuscripts are selected and become finished books is a process one of my authors has compared to the mysteries of the Ouija board. In my experience, it is not hidden spirits guiding the hand of the editor but a number of specialists all coming together—the author as scholarly expert, the editor, other academics as peer reviewers, and numerous publishing professionals with different areas of expertise—to make accessible and lasting, in print and in pixels, a body of specialized knowledge that others can in turn build on to create new scholarship. But between the initial selection of a work for the list and the book’s debut in the world, the editor’s diagnosis and treatment of the text’s weaknesses represent a quiet, even intimate way in which she helps create a fitter and more enduring version of the book.
+
+
+
+
+
+20
+
+
+RELIABLE SOURCES
+
+
+REFERENCE EDITING AND PUBLISHING
+
+
+ANNE SAVARESE*
+
+In the early decades of the twenty-first century the notion of editing or even using reference books might sound quaint, if not anachronistic. Do people still need those things anymore? Doesn’t everyone just look everything up online?
+
+Reference is an elastic term in publishing. In its most generic sense it refers to books and digital products (databases, apps, e-books), often multiauthored, that have a practical purpose—dictionaries, encyclopedias, companions, atlases, guidebooks, and other sources in which you can look up useful information. Students might consult a reference work as a first stop in a research project; instructors or scholars might consult one to learn about a subject outside their specialty or for a quick refresher on a topic they are teaching. Broadly defined, reference includes books like the one you’re reading now.
+
+Reference publishing started moving into digital formats in the 1990s, much earlier than most other publishing categories, and with good reason. Reference works are particularly well suited to digital platforms. The information they provide is what people in the field call “granular”: part of a well-designed whole but organized in stand-alone units, such as encyclopedia entries or dictionary definitions. Content is a word that reference publishers use more frequently than book, because the product is not format specific. Content is the material, the information, the knowledge that readers want. The editor’s job is to make sure that content—whether in print or digital form—is as authoritative and useful as possible.
+
+In digital form, reference works can be updated and expanded quickly compared to the time it takes to produce a printed book, though significant revisions and additions generally need to go through an editorial process similar to that of existing content. A collection of reference works can be cross-indexed, allowing users to search across sources. The content is not static: it can develop over time, as with such crowd-sourced projects as Wikipedia or such scholarly works as the Stanford Encyclopedia of Philosophy. The digital format allows for greater flexibility in length and number of illustrations, and can include links to primary sources, video clips, and related material. Electronic resources also don’t take up shelf space as multivolume print encyclopedias do, and they allow remote access: the user does not have to be in the library to use them. Some well-known reference works that began as books now have print and digital versions, such as The Chicago Manual of Style; some have become primarily digital resources, such as the Oxford Classical Dictionary. But while digital publishing has many advantages, cost is not necessarily one of them, particularly when the original creation of a digital version is accounted for. Most publishers do need to charge subscription or other fees for such works to recoup the costs of developing and maintaining them.
+
+In bookstores, the trade reference category doesn’t exist in the way it did twenty years ago: the reference section of stores and online vendors usually includes an assortment of language dictionaries, study guides for standardized tests, quotation books, and collections of unusual words or fun facts.
+
+That said, a variety of print reference is still out there and still can sell successfully, but not in the general, catch-all “reference” section. A historical atlas, for example, will be shelved with other books on history. The Princeton Companion to Mathematics is shelved with other books on math.
+
+Something similar has happened to print reference 

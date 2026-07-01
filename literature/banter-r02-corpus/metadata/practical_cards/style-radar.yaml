@@ -1,0 +1,52 @@
+# R-02 practical cards — style-radar (P-X)
+pillar_moniker: style-radar
+pillar_ids: [P-X]
+lane: L8
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#style-radar
+
+source_ingests:
+  - research/claims/papers/P05-hall-flirting.yaml
+
+cards:
+  - exercise_name: Five Flirting Styles Behavioral Checklist
+    steps:
+      - Note your primary style from FSI — physical, traditional, sincere, polite, or playful — labels not destiny (C-004-Hall).
+      - Observe partner's style-linked behaviors in context — lab stranger setting may not generalize to bars/apps (P05 limitations).
+      - Physical style — watch conversational fluency, touch/proximity, palming, orientation shifts when attracted (P05 physical profile).
+      - Sincere style — deep conversation, eye contact, smiling/laughing clusters; less teasing late interaction (P05 sincere profile).
+      - Playful style — teasing, humor, ambiguous banter; match or complement — mismatch is calibration data not rejection proof (pillar P-X).
+    cognitive_frame: There is more than one way to flirt — style-aware routing beats generic signal scripts (Q-P05-004).
+    observables:
+      - Operator tracks behavior units not single magic signals
+      - Adjusts warmth/directness when style mismatch noted
+      - Separates affiliation displays from dominance-only performance
+    contraindications:
+      - treating lab-coded behaviors as universal bar-game script
+      - physical-style fluency without warmth (P10 σ− NONVERBAL-DOMINANCE)
+      - scripted mimicry of partner posture (NONVERBAL-MIMICRY WARN)
+    source_anchor: C-004-Hall · P05-hall-flirting.yaml (26 analysis behavior units)
+    aletheia_wire: references/model/person-model.md#style-radar
+    operator_fit_tags: [dating-IRL, partner-read]
+    quality_level: full
+
+  - exercise_name: Style-to-Observable Behavior Map
+    steps:
+      - Traditional — note gender-moderated structured courtship cues; lean, pitch, palming patterns (P05 traditional profile).
+      - Polite — reserved/distancing when attracted; lower pitch, fewer early questions; cautious contact (P05 polite profile).
+      - Pool attraction main effects separately — compliments, flirtatious glances, reduced late teasing may co-occur across styles (P05 Table 7).
+      - Log which observable clusters appeared — compare to your style defaults before changing approach.
+    cognitive_frame: Behaviors associated with attraction vary by style — assume variety between individuals (Q-P05-001).
+    observables:
+      - Checklist completed after interaction with minute-window notes where possible
+      - Operator avoids over-weighting one cue (e.g., teasing alone)
+    contraindications:
+      - inferring consent from flirt style behaviors
+      - treating covert warmth as override for explicit refusal (C-021)
+    source_anchor: C-004-Hall · P05-hall-flirting.yaml effects block
+    aletheia_wire: references/model/operator-self-module.md#style-radar
+    operator_fit_tags: [dating-IRL]
+    quality_level: full

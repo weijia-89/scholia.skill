@@ -1,0 +1,459 @@
+understanding_distributed_systems_2022_ch22_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 22
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch22_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch22_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 22
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch22_ingest.md |
+| text_lines_read | 6772–7010 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 22 |
+| chapter_title | Control planes and data planes |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Split data plane (critical path, HA) from control plane (metadata, consistency); hard dependency availability; static stability; scale imbalance; S3 buffer + push deltas; control theory closed loop.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Definitions** (6808–6816): Data plane per-request; control plane metadata; consistency vs availability trade.
+2. **Hard dependency** (6829–6846): Availability ≤ product; 0.9999×0.99=0.9899 example.
+3. **Static stability** (6851–6854): Data plane runs stale config if control down.
+4. **Scale imbalance** (6857–6944): Restart storm; S3 snapshot buffer; push deltas; startup snapshot+delta (CQRS instance).
+5. **Control theory** (6955–7003): Monitor-compare-act closed loop; chain replication verify config applied; CI/CD incremental rollout.
+
+---
+
+## Section digest (anchored)
+
+### Control vs data plane (6772–6854)
+
+Gateway split motivation.
+
+### §22.1 Scale imbalance (6857–6944)
+
+Figures 22.1–22.2.
+
+### §22.2 Control theory (6955–7003)
+
+CI/CD as control loop.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Split data vs control planes.
+2. Compute dependency-chain availability.
+3. Design config propagation.
+4. Close the loop on rollouts.
+
+### worked_examples_present
+
+**Y** — Quantitative availability; AWS re:Invent ARC337.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Dependency chain:** Mark hard vs soft deps.
+2. **Snapshot frequency:** Staleness vs control load.
+3. **Rollout loop:** Monitor + auto-rollback.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.22 opener–static stability | Read | 6772–6854 |
+| §22.1 | Read | 6857–6944 |
+| §22.2 | Read | 6955–7003 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 6772–7010 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+Explains Azure/ch10 control planes; Part IV static stability theme.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **UDS ch17** | High — Azure managers |
+| **Philosophy SD ch7** | Medium — config threading |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (availability math + architecture).
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Primary papers and vendor docs in footnotes |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Patterns + control theory |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Part IV | Resiliency |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 6772–7010 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Static stability | Serve with stale config during control outage |
+| Closed loop | Monitor-compare-act cycle |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch22_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch22_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 22
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+    “MicroservicePremium,” https://martinfowler.com/bliki/MicroservicePre
+mium.html
+
+CHAPTER 21. MICROSERVICES                                         202
+
+
+21.2      API gateway
+After decomposing Cruder into a group of services, we need to re-
+think how the outside world communicates with the application.
+For example, a client might need to perform multiple requests to
+different services to fetch all the information it needs to complete a
+speciﬁc operation. This can be expensive on mobile devices, where
+every network request consumes precious battery life.
+
+Moreover, clients need to be aware of implementation details,
+such as the DNS names of all the internal services. This makes it
+challenging to change the application’s architecture as it requires
+changing the clients as well, which is hard to do if you don’t
+control them. Once a public API is out there, you had better be
+prepared to maintain it for a very long time.
+
+As is common in computer science, we can solve almost any prob-
+lem by adding a layer of indirection. We can hide the internal APIs
+behind a public one that acts as a facade, or proxy, for the internal
+services (see Figure 21.3). The service that exposes this public API
+is called the API gateway (a reverse proxy).
+
+
+21.2.1    Core responsibilities
+Let’s have a look at some of the most common responsibilities of
+an API gateway.
+
+Routing
+
+The most obvious function of an API gateway is routing inbound
+requests to internal services. One way to implement that is with
+the help of a routing map, which deﬁnes how the public API maps
+to the internal APIs. This mapping allows internal APIs to change
+without breaking external clients. For example, suppose there is
+a 1:1 mapping between a speciﬁc public endpoint and an internal
+one — if in the future the internal endpoint changes, the external
+clients can continue to use the public endpoint as if nothing had
+changed.
+
+Composition
+
+CHAPTER 21. MICROSERVICES                                       203
+
+
+
+
+Figure 21.3: The API gateway hides the internal APIs from its
+clients.
+
+
+The data of a monolithic application generally resides in a single
+data store, but in a distributed system, it’s spread across multiple
+services, each using its own data store. As such, we might en-
+counter use cases that require stitching data together from multiple
+sources. The API gateway can offer a higher-level API that queries
+multiple services and composes their responses. This relieves the
+client from knowing which services to query and reduces the num-
+ber of requests it needs to perform to get the data it needs.
+
+Composing APIs is not simple. The availability of the composed
+API decreases as the number of internal calls increases, since each
+has a non-zero probability of failure. Moreover, the data might be
+inconsistent, as updates might not have propagated to all services
+yet; in that case, the gateway will have to resolve this discrepancy
+
+CHAPTER 21. MICROSERVICES                                         204
+
+
+somehow.
+
+Translation
+
+The API gateway can translate from one IPC mechanism to an-
+other. For example, it can translate a RESTful HTTP request into
+an internal gRPC call.
+
+It can also expose different APIs to different clients. For example,
+the API for a desktop application could potentially return more
+data than the one for a mobile application, as the screen estate is
+larger and more information can be presented at once. Also, net-
+work calls are more expensive for mobile clients, and requests gen-
+erally need to be batched to reduce battery usage.
+
+To meet these different and competing requirements, the gateway
+can provide different APIs tailored to different use cases and trans-
+late these to internal calls. Graph-based APIs are an increasingly
+popular solution for this. A graph-based API exposes a schema com-
+posed of types, ﬁelds, and relationships across types, which de-
+scribes the data. Based on this schema, clients send queries declar-
+ing precisely what data they need, and the gateway’s job is to ﬁg-
+ure out how to translate these queries into internal API calls.
+
+This approach reduces the development time as there is no need
+to introduce different APIs for different use cases, and clients are
+free to specify what they need. There is still an API, though; it just
+happens that it’s described with a graph schema, and the gateway
+allows to perform restricted queries on it. GraphQL5 is the most
+popular technology in this space at the time of writing.
+
+
+21.2.2      Cross-cutting concerns
+As the API gateway is a reverse proxy, it can also implement cross-
+cutting functionality that otherwise would have to be part of each
+service. For example, it can cache frequently accessed resources
+or rate-limit requests to protect the internal services from being
+overwhelmed.
+  5
+      “GraphQL,” https://graphql.org/
+
+CHAPTER 21. MICROSERVICES                                           205
+
+
+Authentication and authorization are some of the most common
+and critical cross-cutting concerns. Authentication is the process of
+validating that a so-called principal — a human or an application —
+issuing a request is who it says it is. Authorization is the process of
+granting the authenticated principal permissions to perform spe-
+ciﬁc operations, like creating, reading, updating, or deleting a par-
+ticular resource. Typically, this is implemented by assigning one
+or more roles that grant speciﬁc permissions to a principal.
+
+A common way for a monolithic application to implement authen-
+tication and authorization is with sessions. Because HTTP is a
+stateless protocol, the application needs a way to store data be-
+tween HTTP requests to associate a request with any other request.
+When a client ﬁrst sends a request to the application, the applica-
+tion creates a session object with an ID (e.g., a cryptographically-
+strong random number) and stores it in an in-memory cache or
+an external data store. The session ID is returned in the response
+through an HTTP cookie so that the client will include it in all fu-
+ture requests. That way, when the application receives a request
+with a session cookie, it can retrieve the corresponding session ob-
+ject.
+
+So when a client sends its credentials to the application API’s lo-
+gin endpoint, and the credential validation is successful, the prin-
+cipal’s ID and roles are stored in the session object. The application
+can later retrieve this information and use it to decide whether to
+allow the principal to perform a request or not.
+
+Translating this approach to a microservice architecture is not
+that straightforward. For example, it’s not obvious which service
+should be responsible for authenticating and authorizing requests,
+as the handling of requests can span multiple services.
+
+One approach is to have the API gateway authenticate external re-
+quests, since that’s their point of entry. This allows centralizing the
+logic to support different authentication mechanisms into a single
+component, hiding the complexity from internal services. In con-
+trast, authorizing requests is best left to individual services to avoid
+coupling the API gateway with domain logic.
+
+CHAPTER 21. MICROSERVICES                                             206
+
+
+When the API gateway has authenticated a request, it creates a se-
+curity token. The gateway passes this token with the request to the
+internal services, which in turn pass it downstream to their depen-
+dencies. Now, when an internal service receives a request with a
+security token attached, it needs to have a way to validate it and
+obtain the principal’s identity and roles. The validation differs de-
+pending on the type of token used, which can be opaque and not
+contain any information, or transparent and embed the principal’s
+information within the token itself. The downside of an opaque to-
+ken is that it requires calling an external auth service to validate it
+and retrieve the principal’s information. Transparent tokens elimi-
+nate that call at the expense of making it harder to revoke compro-
+mised tokens.
+
+The most popular standard for transparent tokens is the JSON Web
+Token6 (JWT). A JWT is a JSON payload that contains an expiration
+date, the principal’s identity and roles, and other metadata. In ad-
+dition, the payload is signed with a certiﬁcate trusted by the inter-
+nal services. Hence, no external calls are needed to validate the
+token.
+
+Another common mechanism for authentication is the use of API
+keys. An API key is a custom key that allows the API gateway to
+identify the principal making a request and limit what they can
+do. This approach is popular for public APIs, like the ones of, e.g.,
+Github or Twitter.
+
+We have barely scratched the surface of the topic, and there are
+entire books7 written on the subject that you can read to learn more
+about it.
+
+
+21.2.3    Caveats
+One of the drawbacks of using an API gateway is that it can be-
+come a development bottleneck. Since it’s tightly coupled with the
+APIs of the internal services it’s shielding, whenever an internal
+  6
+    “Introduction to JSON Web Tokens,” https://jwt.io/introduction
+  7
+    “Microservices Security in Action,” https://www.manning.com/books/micr
+oservices-security-in-action
+
+CHAPTER 21. MICROSERVICES                                              207
+
+
+API changes, the gateway needs to be modiﬁed as well. Another
+downside is that it’s one more service that needs to be maintained.
+It also needs to scale to whatever the request rate is for all the ser-
+vices behind it.
+That said, if an application has many services and APIs, the pros
+outweigh the cons, and it’s generally a worthwhile investment. So
+how do you go about implementing a gateway? You can roll your
+own API gateway, using a reverse proxy as a starting point, like
+NGINX, or use a managed solution, like Azure API Management8
+or Amazon API Gateway9 .
+
+
+
+
+  8
+    “Azure API Management,” https://azure.microsoft.com/en-gb/services/api-
+management/
+  9
+    “Amazon API Gateway,” https://aws.amazon.com/api-gateway/
+
+
+Chapter 22
+
+
+Control planes and data
+planes
+
+The API gateway is a single point of failure. If it goes down, then
+so does Cruder, which is why it needs to be highly available. And
+because every external request needs to go through it, it must also
+be scalable. This creates some interesting challenges with regard
+to external dependencies.
+
+For example, suppose the gateway has a speciﬁc “conﬁguration”
+

@@ -1,0 +1,360 @@
+# corpus_manifest.yaml — cs-ai-textbook-canon
+# Canon: /Users/dubs/Projects/piranesi.skill/research-projects/0625-textbook-canon/returns/cs_ai_textbook_canon_decision_20260625.md
+
+session: 2026-06-25
+corpus_slug: cs-ai-textbook-canon
+source_root: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+canon_ref: /Users/dubs/Projects/piranesi.skill/research-projects/0625-textbook-canon/returns/cs_ai_textbook_canon_decision_20260625.md
+piranesi_project: /Users/dubs/Projects/piranesi.skill/research-projects/0625-textbook-canon
+fan_out: chapter
+output_mode: reference-library
+stakes: L3
+layout_mode: full
+# Phase-2 pilot cards on disk (metadata/practical_cards/*.yaml) — set true after fan-out
+practical_usage_required: false
+
+# Operator: drop PDFs at literature/cs-ai-textbook-canon/pdfs/{slug}.pdf
+# Export text to literature/cs-ai-textbook-canon/text/{slug}.txt (Marker or pdftotext)
+# Chapter ingests: literature/cs-ai-textbook-canon/ingests/{slug}_ch{NN}_ingest.md
+
+waves:
+  w1_foundation:
+    weeks: 1-3
+    slugs: [grokking_algorithms_2e_2024, philosophy_software_design_2e_2021, ai_engineering_2025, hands_on_llms_2024]
+  w2_systems_llm:
+    weeks: 4-6
+    slugs: [understanding_distributed_systems_2022, ddia_2e_2026, prompt_engineering_llms_2024]
+  w3_clinical_docs:
+    weeks: 5-9
+    slugs: [simon_aliferis_healthcare_2024, nam_gen_ai_health_2025, langsmith_docs_snapshot, langfuse_docs_snapshot, langgraph_fault_tolerance_snapshot]
+  w4_ops_governance:
+    weeks: 8-12
+    slugs: [kaestner_ml_production_2025, responsible_ai_practice_2025]
+  w_optional:
+    slugs: [clrs_4e_2022, se_modern_approach_2024, llmops_aryan_2025, designing_ml_systems_2022, fsa_2e_2025]
+
+entries:
+  - slug: grokking_algorithms_2e_2024
+    track: A
+    rank: 1
+    title: "Grokking Algorithms, 2nd Edition"
+    authors: [Bhargava, Aditya]
+    year: 2024
+    edition: "2e"
+    isbn: "9781633438538"
+    isbn_note: "manifest 9781633438531; text copyright page 9781633438538 — operator reconcile"
+    publisher: Manning
+    source_type: textbook
+    wave: w1_foundation
+    ingest_scope: all_chapters
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/grokking_algorithms_2e_2024.pdf
+    text_path: literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+    ingest_status: complete
+
+  - slug: philosophy_software_design_2e_2021
+    track: A
+    rank: 2
+    title: "A Philosophy of Software Design, 2nd Edition"
+    authors: [Ousterhout, John]
+    year: 2021
+    edition: "2e"
+    publisher: Yaknyam Press
+    source_type: textbook
+    wave: w1_foundation
+    ingest_scope: all_chapters
+    chapter_count_expected: 21
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/philosophy_software_design_2e_2021.pdf
+    text_path: literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt
+    ingest_status: complete
+    text_quality: good
+    drm: none
+    legal_status: personal_copy
+    chapter_count_actual: 22
+
+  - slug: ddia_2e_2026
+    track: A
+    rank: 3
+    title: "Designing Data-Intensive Applications, 2nd Edition"
+    authors: [Kleppmann, Martin, Riccomini, Chris]
+    year: 2026
+    edition: "2e"
+    isbn: "9781098119058"
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w2_systems_llm
+    ingest_scope: selective
+    ingest_note: "NOT 1e. Early-release partial: ch1-7 ingested (7/13); ch8-13 unavailable in text export ([Link to Come] in TOC)"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf
+    text_path: literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+    ingest_status: complete
+    chapter_count_expected: 13
+    chapter_count_actual: 7
+    text_quality: good
+    drm: none
+    legal_status: personal_copy
+    source_note: "2e confirmed via epub metadata Riccomini co-author ISBN 9781098119065"
+
+  - slug: understanding_distributed_systems_2022
+    track: A
+    rank: 4
+    title: "Understanding Distributed Systems"
+    authors: [Vitillo, Roberto]
+    year: 2022
+    edition: "2e"
+    source_type: textbook
+    wave: w2_systems_llm
+    ingest_scope: all_parts
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf
+    text_path: literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+    ingest_status: complete
+    chapter_count_actual: 34
+    text_quality: good
+    drm: none
+    legal_status: personal_copy
+    source_note: "text-only export ingested; PDF not on disk in corpus"
+
+  - slug: clrs_4e_2022
+    track: A
+    rank: 5
+    title: "Introduction to Algorithms, 4th Edition"
+    authors: [Cormen, Leiserson, Rivest, Stein]
+    year: 2022
+    edition: "4e"
+    isbn: "9780262367509"
+    publisher: MIT Press
+    source_type: textbook
+    wave: w_optional
+    ingest_scope: reference_only
+    ingest_note: "Do not monolith-ingest all 35 chapters; index TOC + ingest on-demand chapters only"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/clrs_4e_2022.pdf
+    text_path: literature/cs-ai-textbook-canon/text/clrs_4e_2022.txt
+    ingest_status: none
+    drm: unknown
+    legal_status: personal_copy
+
+  - slug: se_modern_approach_2024
+    track: A
+    rank: 6
+    title: "Software Engineering: A Modern Approach"
+    authors: [Valente, Marco]
+    year: 2024
+    source_type: textbook
+    wave: w_optional
+    ingest_scope: optional
+    oa_url: https://softengbook.org
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/se_modern_approach_2024.pdf
+    text_path: literature/cs-ai-textbook-canon/text/se_modern_approach_2024.txt
+    ingest_status: none
+    drm: none
+    legal_status: open_access
+
+  - slug: ai_engineering_2025
+    track: B
+    rank: 1
+    title: "AI Engineering"
+    authors: [Huyen, Chip]
+    year: 2025
+    edition: "1e"
+    isbn: "9781098166298"
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w1_foundation
+    ingest_scope: all_chapters
+    ingest_note: "Framework spine — NOT tutorial; tag chapters that need Hands-On LLMs complement"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/ai_engineering_2025.pdf
+    text_path: literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+    ingest_status: complete
+    text_quality: good
+    drm: none
+    legal_status: personal_copy
+
+  - slug: hands_on_llms_2024
+    track: B
+    rank: 2
+    title: "Hands-On Large Language Models"
+    authors: [Alammar, Jay, Grootendorst, Maarten]
+    year: 2024
+    edition: "1e"
+    isbn: "9781098150952"
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w1_foundation
+    ingest_scope: all_chapters
+    ingest_note: "Procedural complement to AIE — pair ch.8 with AIE ch.6 RAG; ch.11–12 with AIE ch.7 finetune"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/hands_on_llms_2024.pdf
+    text_path: literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+    ingest_status: complete
+    text_quality: good
+    drm: none
+    legal_status: personal_copy
+
+  - slug: prompt_engineering_llms_2024
+    track: B
+    rank: 5
+    title: "Prompt Engineering for LLMs"
+    authors: [Berryman, John, Ziegler, Albert]
+    year: 2024
+    edition: "1e"
+    isbn: "9781098156145"
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w2_systems_llm
+    ingest_scope: all_chapters
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/prompt_engineering_llms_2024.pdf
+    text_path: literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+    ingest_status: complete
+    chapter_count_actual: 11
+    text_quality: good
+    drm: unknown
+    legal_status: personal_copy
+
+  - slug: simon_aliferis_healthcare_2024
+    track: B
+    rank: 6
+    title: "Artificial Intelligence and Machine Learning in Health Care"
+    authors: [Simon, George, Aliferis, Constantin]
+    year: 2024
+    publisher: Springer
+    source_type: textbook
+    wave: w3_clinical_docs
+    ingest_scope: selective
+    oa_ref: ncbi.nlm.nih.gov/books/NBK610549
+    ingest_note: "OA CC BY 4.0; clinical/regulatory foundation; 12 selective chapter ingests (book ch1-18 selective); appendices A-C deferred"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/simon_aliferis_healthcare_2024.pdf
+    text_path: literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+    ingest_status: complete
+    chapter_count_actual: 12
+    drm: none
+    legal_status: open_access
+
+  - slug: nam_gen_ai_health_2025
+    track: B
+    rank: 7
+    title: "Generative AI in Health and Medicine"
+    authors: [National Academies of Sciences, Engineering, and Medicine]
+    year: 2025
+    source_type: consensus_report
+    wave: w3_clinical_docs
+    ingest_scope: full
+    oa_ref: ncbi.nlm.nih.gov/books/NBK615585
+    ingest_schema: paper_or_report_ingest
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/nam_gen_ai_health_2025.pdf
+    text_path: literature/cs-ai-textbook-canon/text/nam_gen_ai_health_2025.txt
+    ingest_status: complete
+    chapter_count_actual: 6
+    drm: none
+    legal_status: open_access
+
+  - slug: kaestner_ml_production_2025
+    track: B
+    rank: 9
+    title: "Machine Learning in Production"
+    authors: [Kästner, Christian]
+    year: 2025
+    edition: "1e"
+    isbn: "9780262049726"
+    publisher: MIT Press
+    source_type: textbook
+    wave: w4_ops_governance
+    ingest_scope: selective
+    ingest_note: "PREFERRED single MLOps-depth text per canon; CC BY-NC-ND 4.0 OA"
+    oa_url: https://mitpress.mit.edu/9780262049726/machine-learning-in-production/
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/kaestner_ml_production_2025.pdf
+    text_path: literature/cs-ai-textbook-canon/text/kaestner_ml_production_2025.txt
+    ingest_status: none
+    text_quality: mismatch
+    drm: none
+    legal_status: personal_copy
+    source_note: "WRONG BOOK staged: Andrew Kelleher not Christian Kästner — operator replace"
+
+  - slug: llmops_aryan_2025
+    track: B
+    rank: 8
+    title: "LLMOps"
+    authors: [Aryan, Rahul]
+    year: 2025
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w_optional
+    ingest_scope: gap_chapters_only
+    ingest_note: "Generic LLMOps — NOT LangSmith/Langfuse-specific; skip if Kästner covers same ground"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/llmops_aryan_2025.pdf
+    text_path: literature/cs-ai-textbook-canon/text/llmops_aryan_2025.txt
+    ingest_status: none
+    drm: unknown
+    legal_status: personal_copy
+
+  - slug: designing_ml_systems_2022
+    track: B
+    rank: 10
+    title: "Designing Machine Learning Systems"
+    authors: [Huyen, Chip]
+    year: 2022
+    edition: "1e"
+    isbn: "9781098107963"
+    publisher: O'Reilly
+    source_type: textbook
+    wave: w_optional
+    ingest_scope: gap_chapters_only
+    ingest_note: "Companion to AIE; selective chapters only — redundancy with Kästner"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/designing_ml_systems_2022.pdf
+    text_path: literature/cs-ai-textbook-canon/text/designing_ml_systems_2022.txt
+    ingest_status: none
+    drm: unknown
+    legal_status: personal_copy
+
+  - slug: responsible_ai_practice_2025
+    track: B
+    rank: 12
+    title: "Responsible AI in Practice"
+    authors: [Duke, Cynthia, Giudici, Paolo]
+    year: 2025
+    publisher: Springer
+    source_type: textbook
+    wave: w4_ops_governance
+    ingest_scope: selective
+    ingest_note: "10/10 chapters ingested; SAFE-HAI + Rank Graduation metric family; ch10 appendix deferred"
+    pdf_path: literature/cs-ai-textbook-canon/pdfs/responsible_ai_practice_2025.pdf
+    text_path: literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt
+    ingest_status: complete
+    chapter_count_actual: 10
+    text_quality: good
+    drm: unknown
+    legal_status: personal_copy
+
+  - slug: langsmith_docs_snapshot
+    track: B
+    rank: 3
+    title: "LangSmith Documentation (evaluation + tracing snapshot)"
+    year: 2026
+    source_type: doc_snapshot
+    wave: w3_clinical_docs
+    ingest_schema: outside_input_ingest
+    ingest_note: "Export docs.langchain.com/langsmith to markdown; no PDF chapter fan-out"
+    text_path: literature/cs-ai-textbook-canon/text/langsmith_docs_snapshot.md
+    ingest_status: none
+    legal_status: public_docs
+
+  - slug: langfuse_docs_snapshot
+    track: B
+    rank: 4
+    title: "Langfuse Documentation (observability + eval snapshot)"
+    year: 2026
+    source_type: doc_snapshot
+    wave: w3_clinical_docs
+    ingest_schema: outside_input_ingest
+    text_path: literature/cs-ai-textbook-canon/text/langfuse_docs_snapshot.md
+    ingest_status: none
+    legal_status: public_docs
+
+  - slug: langgraph_fault_tolerance_snapshot
+    track: B
+    rank: 11
+    title: "LangGraph Fault Tolerance (docs snapshot)"
+    year: 2026
+    source_type: doc_snapshot
+    wave: w3_clinical_docs
+    ingest_schema: outside_input_ingest
+    text_path: literature/cs-ai-textbook-canon/text/langgraph_fault_tolerance_snapshot.md
+    ingest_status: none
+    legal_status: public_docs

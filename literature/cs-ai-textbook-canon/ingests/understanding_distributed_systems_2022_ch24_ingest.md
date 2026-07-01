@@ -1,0 +1,187 @@
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 24
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch24_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e (Version 2.0.0, March 2022) |
+| **publisher** | Self-published (understandingdistributed.systems) |
+| **ISBN_print** | Not present in text export |
+| **ISBN_electronic** | Not present in text export |
+| **chapter_number** | 24 |
+| **chapter_title** | Common failure causes |
+| **page_range** | 233–241 (print); logical span lines 7449–7788 |
+
+---
+
+## scope
+
+Chapter 24 opens **Part IV — Resiliency**: a taxonomy of common failure root causes before the mitigation patterns in ch25–28. Defines failure vs fault; surveys nine cause classes with citations; closes with **risk prioritization** (probability × impact).
+
+**Major arcs:**
+
+1. **Hardware faults** — disks, memory, power, DC outages; redundancy helps but is not the dominant real-world cause.
+2. **Incorrect error handling** — Yuan et al. OSDI'14: majority of catastrophic failures in five distributed data stores from mishandled non-fatal errors (ignored errors, overly broad catches, FIXME handlers).
+3. **Configuration changes** — leading catastrophic-failure cause; delayed effect when values read lazily; must be version-controlled and tested like code (ch30 CD).
+4. **Single points of failure (SPOFs)** — humans in manual runbooks, DNS, TLS cert expiry; identify at design time; reduce blast radius when elimination impossible.
+5. **Network faults** — slow calls as silent killers; gray failures (Microsoft research).
+6. **Resource leaks** — memory, thread pools, HTTP socket pools without timeouts; libraries share the same failure modes.
+7. **Load pressure** — seasonality, expensive/abusive requests, DDoS; autoscaling vs rejection (ch28).
+8. **Cascading failures** — replica failover example → retry storms → metastable failures (Bronson et al. HotOS'21).
+9. **Managing risk** — risk matrix; address probability and/or impact.
+
+**Prerequisites cited:** ch2 (socket pools), ch7 (timeouts, failure detection), ch18 (health checks), ch28 (load rejection).
+
+**Out of scope:** Specific mitigation implementations (deferred to ch25–28).
+
+---
+
+## key_findings
+
+All claims **[verified from text]** unless tagged.
+
+### Framing
+
+- **Failure** = system no longer meets spec for users; **fault** = internal/external component failure; some faults tolerated invisibly (7454–7458).
+- Infrastructure faults are real but distributed apps often fail for **mundane** reasons (7481–7484).
+
+### Failure cause taxonomy
+
+| § | Cause | Core claim |
+|---|-------|------------|
+| 24.1 | Hardware | Redundancy addresses many; not primary real-world failure driver |
+| 24.2 | Error handling | OSDI'14: most catastrophic failures from incorrect non-fatal error handling; simple tests would catch many |
+| 24.3 | Config | Leading root cause; lazy-read delays detection; treat like code (7529–7533) |
+| 24.4 | SPOF | Humans, DNS, TLS certs; automate; reduce blast radius |
+| 24.5 | Network | Slow/gray failures worse than hard failures; client wait vs timeout dilemma (7584–7604) |
+| 24.6 | Resource leaks | Memory, threads, sockets without timeouts; GC doesn't prevent reference leaks |
+| 24.7 | Load | Capacity limits; sudden floods vs organic growth; DDoS (7661–7687) |
+| 24.8 | Cascading | LB removes replica B → A overloaded → retries → both out; metastable loop persists after fault heals (7702–7742) |
+| 24.9 | Risk | Prioritize by likelihood × impact; reduce probability and/or impact (7766–7782) |
+
+### Cascading failure walkthrough
+
+- Two DB replicas at 50 TPS each; B unavailable → A doubles load → timeouts → client retries → A removed → only B in pool → flooded → removed → feedback loop (7702–7742).
+- **Metastable** failures need large corrective action (block traffic); prevention beats cure (7744–7749).
+
+### Risk management
+
+- Not every possible fault warrants action; **risk score** = probability × impact (7766–7773).
+- High-likelihood/high-impact first; low/low can wait (7771–7773).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Source file** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt` |
+| **Lines read** | 7449–7788 |
+| **Chapter boundary** | Starts `Chapter 24` / `Common failure causes` (7449); ends before `Chapter 25` (7789) |
+| **Wrong-file flag** | `false` |
+| **Sections in slice** | §24.1–24.9 |
+| **Figures referenced** | 24.1–24.3 (replica cascade, risk matrix) |
+| **Cross-chapter refs cited, not re-ingested** | ch2, ch7, ch18, ch28–30 |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Distinguish **fault** from **failure** and explain why hardware is often not the dominant production cause.
+2. Summarize Yuan OSDI'14 findings on **error-handling bugs**.
+3. Explain why **configuration changes** are dangerous (delayed activation).
+4. Identify common **SPOFs** (DNS, TLS, humans) and blast-radius reduction.
+5. Define **gray failure** and why slow network calls are hard to debug.
+6. Trace **resource leak** paths (memory, threads, socket pools).
+7. Walk through the **cascading replica** scenario and **metastable** failure concept.
+8. Apply a **risk matrix** to prioritize mitigation work.
+
+### worked_examples_present
+
+**Y** — Replica A/B cascade (Figs. 24.1–24.2); risk matrix (Fig. 24.3).
+
+### exercise_hooks
+
+- **In-chapter exercises:** **N**
+- **Operator drills `[inferred]`:**
+  - Audit error handlers for bare `Exception` catches and ignored return codes.
+  - Map SPOFs for a service (DNS, certs, manual runbooks).
+  - Simulate replica removal + client retry policy; check for metastable loop.
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Part IV opener for **w2_systems_llm** resiliency track. Pairs with **AIE ch.10** observability/MTTD themes and **DDIA** replication/failure chapters when available.
+
+### 2. MDCalc alignment
+
+**[medium]** — Config-change and cert-expiry SPOFs map to regulated deploy change control; cascading failures relevant to multi-region clinical API dependencies.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** (ch replication/fault) | High — failure taxonomy complement |
+| **ai_engineering_2025 ch.10** | Medium — production failure mindset |
+| **UDS ch25–28** | High — direct sequel |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — replica cascade |
+| Citation density | **High** — Yuan, Xu config, gray failure, metastable |
+| Chapter boundary | **Clean** |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result |
+|-----------|--------|
+| Edition currency | **PASS** — 2e 2022 |
+| Author authority | **PASS** — Vitillo; ex-Mozilla/Microsoft distributed systems |
+| Citation density | **PASS** |
+| Contested claims flagged | **PASS** — hardware vs mundane causes balanced |
+| Worked examples | **PASS** |
+
+**Overall:** **PASS**
+
+---
+
+## Provenance anchors (sample)
+
+| claim-id | claim | text lines |
+|----------|-------|------------|
+| UDS-C24-001 | Failure vs fault definitions | 7454–7458 |
+| UDS-C24-002 | Yuan OSDI'14 error-handling majority | 7488–7496 |
+| UDS-C24-003 | Config delayed effect | 7508–7527 |
+| UDS-C24-004 | Gray failure definition | 7601–7604 |
+| UDS-C24-005 | Cascading replica scenario | 7702–7724 |
+| UDS-C24-006 | Metastable failures | 7741–7749 |
+| UDS-C24-007 | Risk = probability × impact | 7766–7773 |
+
+---
+
+## Recap bullets
+
+- Nine common failure causes; mitigation follows in later chapters.
+- Error handling and config dominate over hardware in practice.
+- Cascading + retries → metastable loops; prevention via blast-radius limits.
+- Prioritize faults by risk score, not paranoia.
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · word cap ≤4500*

@@ -1,0 +1,368 @@
+prompt_engineering_llms_2024_ch09_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: prompt_engineering_llms_2024 · chapter: 09
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/prompt_engineering_llms_2024_ch09_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (prompt_engineering_llms_2024_ch09_ingest.md)
+========================================================================
+
+# Chapter ingest — `prompt_engineering_llms_2024` · Chapter 9
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Prompt Engineering for LLMs |
+| **authors** | John Berryman, Albert Ziegler |
+| **edition** | 1st Edition (2025 copyright; first release 2024-11-04 per revision history) |
+| **ISBN_print** | 978-1-098-15615-2 |
+| **ISBN_electronic** | 978-1-098-15615-2 (single ISBN in export; O'Reilly online edition) |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 9 |
+| **chapter_title** | LLM Workflows |
+| **page_range** | Printed page numbers absent from text export; logical span Ch. 9 opening through Conclusion (before Ch. 10) |
+| **parent_book_title** | Prompt Engineering for LLMs |
+
+## Scope
+
+Chapter 9 positions **LLM workflows** on a **generality vs strength** spectrum (Figure 9-1): conversational agents are general but weak on multi-step unattended work; workflows trade generality for structured, high-fidelity task execution. AGI contrast frames current LLM limits (reasoning, math, no post-training learning). Framework discussion deliberately avoided (LangChain, AutoGen, etc.)—patterns are portable.
+
+**Would a Conversational Agent Suffice?** uses the **Shopify plug-in promoter** running example: scrape storefronts → extract details → ideate plug-in → email owners → send. Pure chat fails; tool-equipped chat still naive (web search "best Shopify 2024", `[your_name]` templates); narrowing system message + custom tools increases prompt bloat and lacks queue/unit-of-work semantics—motivating workflows.
+
+**Basic LLM Workflows** five-step meta-process (define goal → specify tasks → implement → connect → optimize). **Tasks**: explicit I/O schemas (Tables 9-1/9-2 plug-in and email fields); templated prompt approach (Table 9-3 prefix/suffix email template with post-processing); **tool-based extraction** (Table 9-4 restaurant HTML → structured tool call; `tool_choice` force-call; structured outputs). Failure modes: human-impossible extraction, overly nested schemas—decompose. **Sophistication**: CoT/ReAct in tasks; disable function calling first turn (`tool_choice: "none"`) for planning; **Reflexion** subtask on failed output; expert+UserProxy agent pattern (AutoGen mention). **Add variety**: crawlers/DB/BERT where sufficient; human approval for irreversible actions; per-task model sizing.
+
+**Assembling the Workflow**: state machine / pub-sub / orchestrator views; **pipeline** (Figure 9-5) vs **DAG** (Figure 9-6, storefront details to both ideation and email) vs **cyclic graph** (QC loop, Figure 9-7)—complexity warnings (reunite failure context, attempt limits, hide recursion in tasks). Batch vs streaming processing.
+
+**Example Workflow: Shopify Plug-in Marketing**: mock HTML emit → LLM summarize (6 questions) → two-step brainstorm+concept → multistep email (strategy, subject, body) → mock send; Fly By Jing sample output; optimization notes (idea variety, feasibility subprocess, Reflexion, I/O harnesses, DSPy/TextGrad, production A/B—Ch. 10 forward ref).
+
+**Advanced LLM Workflows**: LLM-driven routing (workflow as agent with task tools; agent-of-agents; dynamic task spawning; work-list prioritization); **stateful task agents** (file-bound agents, dependency notifications, user↔agent file discussion); **Roles and Delegation** (AutoGen Assistant/UserProxy, group chat manager; CrewAI sequential/hierarchical/consensual).
+
+**Sections ingested:** Introduction/spectrum · Agent insufficiency demo · Basic workflows · Tasks/implementation · Assembly topologies · Shopify example · Advanced workflows · Conclusion.
+
+Cross-refs: Ch. 8 (agents, ReAct, Reflexion), Ch. 10 (evaluation), Ch. 6 (context trimming).
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested in chapter]` or `[inferred]`.
+
+### Generality–strength tradeoff
+
+- LLMs excel at breadth but not AGI-level reasoning/math/novel knowledge creation. [verified from text, lines 8312–8321]
+- Conversational agents best for 1–2 step tasks with user assistance; workflows for rigid multi-step goals. [verified from text, lines 8323–8345]
+- Framework-agnostic pattern focus intentional. [verified from text, lines 8351–8356]
+
+### Agent failure → workflow need
+
+- Even tool-rich agents produce naive search, form-letter emails, and lack batch queue semantics. [verified from text, lines 8435–8463]
+- Each workflow step should be isolated specialized task. [verified from text, lines 8465–8470]
+
+### Task design
+
+- Tasks need defined schemas, implementation strategy, and isolation testability. [verified from text, lines 8544–8592]
+- Prefer non-LLM implementation when possible—cost, speed, determinism. [verified from text, lines 8599–8603]
+- Templated prompts use prefix/suffix to bound completion for downstream parsing. [verified from text, lines 8663–8669]
+- Tool-choice forcing + structured outputs for extraction; split complex schemas. [verified from text, lines 8723–8750]
+
+### Workflow topology
+
+- Pipeline simple but couples data paths; DAG shares upstream outputs to multiple consumers. [verified from text, lines 8889–8924]
+- Cyclic graphs for QC possible but increase state/retry complexity—prefer in-task recursion. [verified from text, lines 8930–8962]
+- Evaluate tasks in isolation before full workflow integration. [verified from text, lines 8855–8866]
+
+### Advanced patterns
+
+- LLM can route among fixed tasks, spawn sub-agents, or maintain dynamic work lists. [verified from text, lines 9167–9208]
+- Stateful task agents hold persistent work-item state with dependency notifications. [verified from text, lines 9210–9255]
+- AutoGen/CrewAI: role-based delegation teams. [verified from text, lines 9257–9302]
+- "Simpler is almost always better"; deterministic graph + LLM tasks preferred over LLM-orchestrated chaos. [verified from text, lines 9344–9354]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt` |
+| **Lines read** | 8296–9368 (inclusive) |
+| **Chapter boundary** | Starts `Chapter 9. LLM Workflows` (L8296); ends before `Chapter 10. Evaluating LLM Applications` (L9369) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Framework-specific APIs; full Shopify production code |
+| **Figures** | Figs. 9-1–9-8, Tables 9-1–9-4 |
+| **Amnesiac rule** | Spencer/Umar anecdote from chapter only |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Place agents vs workflows on the generality–strength spectrum for a use case.
+2. Decompose a multi-step business process into tasks with explicit I/O schemas.
+3. Implement LLM tasks via templates, tool-based extraction, and sophistication layers (CoT, Reflexion).
+4. Choose pipeline vs DAG vs cyclic topology with awareness of coupling and retry costs.
+5. Describe advanced patterns: LLM routing, stateful task agents, role delegation.
+6. Apply "non-LLM first" and per-task model selection heuristics.
+
+### worked_examples_present
+
+**Y** — Shopify promoter throughout; Tables 9-1–9-4; Fly By Jing email output; topology figures.
+
+### exercise_hooks
+
+- "Now, You Try!" — build UserProxy + CodeAssistant without framework.
+- **Instructor hooks `[inferred]`:** DAG redesign so email task receives storefront details directly; add Reflexion harness to one task.
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Ch. 9 is **w2_systems_llm workflow canon**—operational complement to Ch. 8 agents. Index before **ai_engineering_2025** agent chapters and **designing_ml_systems_2022** pipeline thinking. Pairs with DDIA/w2 distributed patterns at the "orchestration" metaphor level only.
+
+### 2. MDCalc alignment
+
+**[moderate]** — Human-in-loop for irreversible actions and task-level eval isolation map to high-stakes automation; no clinical workflow claims.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025** | Medium | Eval Ch. 4 + agents |
+| **llmops_aryan_2025** | Medium | Workflow ops |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — end-to-end narrative |
+| Exercise hooks | **Present** |
+| Chapter boundary | **Clean** |
+| Ingest suitability | **High** |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2023–2024 anecdote, current patterns |
+| **Author authority** | **PASS** | Practitioner workflow design |
+| **Citation density** | **PASS** | ReAct/Reflexion/DSPy references |
+| **Contested claims** | **PASS** | AGI framing explicit; advanced workflows "less stable" |
+| **Worked examples** | **PASS** | Full Shopify walkthrough |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| PE-C09-001 | Workflows trade generality for multi-step task strength | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Introduction |
+| PE-C09-002 | Conversational agents fail on queued multi-storefront promotion | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Would a Conversational Agent Suffice |
+| PE-C09-003 | DAG passes shared upstream data to parallel downstream tasks | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Figure 9-6 |
+| PE-C09-004 | Prefer deterministic workflow graph with LLM tasks over LLM router first | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Conclusion |
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/prompt_engineering_llms_2024_ch09_SLICE.txt)
+========================================================================
+
+# Text slice — prompt_engineering_llms_2024_ch09_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: prompt_engineering_llms_2024 · chapter: 09
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `prompt_engineering_llms_2024` · Chapter 9
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Prompt Engineering for LLMs |
+| **authors** | John Berryman, Albert Ziegler |
+| **edition** | 1st Edition (2025 copyright; first release 2024-11-04 per revision history) |
+| **ISBN_print** | 978-1-098-15615-2 |
+| **ISBN_electronic** | 978-1-098-15615-2 (single ISBN in export; O'Reilly online edition) |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 9 |
+| **chapter_title** | LLM Workflows |
+| **page_range** | Printed page numbers absent from text export; logical span Ch. 9 opening through Conclusion (before Ch. 10) |
+| **parent_book_title** | Prompt Engineering for LLMs |
+
+## Scope
+
+Chapter 9 positions **LLM workflows** on a **generality vs strength** spectrum (Figure 9-1): conversational agents are general but weak on multi-step unattended work; workflows trade generality for structured, high-fidelity task execution. AGI contrast frames current LLM limits (reasoning, math, no post-training learning). Framework discussion deliberately avoided (LangChain, AutoGen, etc.)—patterns are portable.
+
+**Would a Conversational Agent Suffice?** uses the **Shopify plug-in promoter** running example: scrape storefronts → extract details → ideate plug-in → email owners → send. Pure chat fails; tool-equipped chat still naive (web search "best Shopify 2024", `[your_name]` templates); narrowing system message + custom tools increases prompt bloat and lacks queue/unit-of-work semantics—motivating workflows.
+
+**Basic LLM Workflows** five-step meta-process (define goal → specify tasks → implement → connect → optimize). **Tasks**: explicit I/O schemas (Tables 9-1/9-2 plug-in and email fields); templated prompt approach (Table 9-3 prefix/suffix email template with post-processing); **tool-based extraction** (Table 9-4 restaurant HTML → structured tool call; `tool_choice` force-call; structured outputs). Failure modes: human-impossible extraction, overly nested schemas—decompose. **Sophistication**: CoT/ReAct in tasks; disable function calling first turn (`tool_choice: "none"`) for planning; **Reflexion** subtask on failed output; expert+UserProxy agent pattern (AutoGen mention). **Add variety**: crawlers/DB/BERT where sufficient; human approval for irreversible actions; per-task model sizing.
+
+**Assembling the Workflow**: state machine / pub-sub / orchestrator views; **pipeline** (Figure 9-5) vs **DAG** (Figure 9-6, storefront details to both ideation and email) vs **cyclic graph** (QC loop, Figure 9-7)—complexity warnings (reunite failure context, attempt limits, hide recursion in tasks). Batch vs streaming processing.
+
+**Example Workflow: Shopify Plug-in Marketing**: mock HTML emit → LLM summarize (6 questions) → two-step brainstorm+concept → multistep email (strategy, subject, body) → mock send; Fly By Jing sample output; optimization notes (idea variety, feasibility subprocess, Reflexion, I/O harnesses, DSPy/TextGrad, production A/B—Ch. 10 forward ref).
+
+**Advanced LLM Workflows**: LLM-driven routing (workflow as agent with task tools; agent-of-agents; dynamic task spawning; work-list prioritization); **stateful task agents** (file-bound agents, dependency notifications, user↔agent file discussion); **Roles and Delegation** (AutoGen Assistant/UserProxy, group chat manager; CrewAI sequential/hierarchical/consensual).
+
+**Sections ingested:** Introduction/spectrum · Agent insufficiency demo · Basic workflows · Tasks/implementation · Assembly topologies · Shopify example · Advanced workflows · Conclusion.
+
+Cross-refs: Ch. 8 (agents, ReAct, Reflexion), Ch. 10 (evaluation), Ch. 6 (context trimming).
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested in chapter]` or `[inferred]`.
+
+### Generality–strength tradeoff
+
+- LLMs excel at breadth but not AGI-level reasoning/math/novel knowledge creation. [verified from text, lines 8312–8321]
+- Conversational agents best for 1–2 step tasks with user assistance; workflows for rigid multi-step goals. [verified from text, lines 8323–8345]
+- Framework-agnostic pattern focus intentional. [verified from text, lines 8351–8356]
+
+### Agent failure → workflow need
+
+- Even tool-rich agents produce naive search, form-letter emails, and lack batch queue semantics. [verified from text, lines 8435–8463]
+- Each workflow step should be isolated specialized task. [verified from text, lines 8465–8470]
+
+### Task design
+
+- Tasks need defined schemas, implementation strategy, and isolation testability. [verified from text, lines 8544–8592]
+- Prefer non-LLM implementation when possible—cost, speed, determinism. [verified from text, lines 8599–8603]
+- Templated prompts use prefix/suffix to bound completion for downstream parsing. [verified from text, lines 8663–8669]
+- Tool-choice forcing + structured outputs for extraction; split complex schemas. [verified from text, lines 8723–8750]
+
+### Workflow topology
+
+- Pipeline simple but couples data paths; DAG shares upstream outputs to multiple consumers. [verified from text, lines 8889–8924]
+- Cyclic graphs for QC possible but increase state/retry complexity—prefer in-task recursion. [verified from text, lines 8930–8962]
+- Evaluate tasks in isolation before full workflow integration. [verified from text, lines 8855–8866]
+
+### Advanced patterns
+
+- LLM can route among fixed tasks, spawn sub-agents, or maintain dynamic work lists. [verified from text, lines 9167–9208]
+- Stateful task agents hold persistent work-item state with dependency notifications. [verified from text, lines 9210–9255]
+- AutoGen/CrewAI: role-based delegation teams. [verified from text, lines 9257–9302]
+- "Simpler is almost always better"; deterministic graph + LLM tasks preferred over LLM-orchestrated chaos. [verified from text, lines 9344–9354]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt` |
+| **Lines read** | 8296–9368 (inclusive) |
+| **Chapter boundary** | Starts `Chapter 9. LLM Workflows` (L8296); ends before `Chapter 10. Evaluating LLM Applications` (L9369) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Framework-specific APIs; full Shopify production code |
+| **Figures** | Figs. 9-1–9-8, Tables 9-1–9-4 |
+| **Amnesiac rule** | Spencer/Umar anecdote from chapter only |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Place agents vs workflows on the generality–strength spectrum for a use case.
+2. Decompose a multi-step business process into tasks with explicit I/O schemas.
+3. Implement LLM tasks via templates, tool-based extraction, and sophistication layers (CoT, Reflexion).
+4. Choose pipeline vs DAG vs cyclic topology with awareness of coupling and retry costs.
+5. Describe advanced patterns: LLM routing, stateful task agents, role delegation.
+6. Apply "non-LLM first" and per-task model selection heuristics.
+
+### worked_examples_present
+
+**Y** — Shopify promoter throughout; Tables 9-1–9-4; Fly By Jing email output; topology figures.
+
+### exercise_hooks
+
+- "Now, You Try!" — build UserProxy + CodeAssistant without framework.
+- **Instructor hooks `[inferred]`:** DAG redesign so email task receives storefront details directly; add Reflexion harness to one task.
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Ch. 9 is **w2_systems_llm workflow canon**—operational complement to Ch. 8 agents. Index before **ai_engineering_2025** agent chapters and **designing_ml_systems_2022** pipeline thinking. Pairs with DDIA/w2 distributed patterns at the "orchestration" metaphor level only.
+
+### 2. MDCalc alignment
+
+**[moderate]** — Human-in-loop for irreversible actions and task-level eval isolation map to high-stakes automation; no clinical workflow claims.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025** | Medium | Eval Ch. 4 + agents |
+| **llmops_aryan_2025** | Medium | Workflow ops |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — end-to-end narrative |
+| Exercise hooks | **Present** |
+| Chapter boundary | **Clean** |
+| Ingest suitability | **High** |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2023–2024 anecdote, current patterns |
+| **Author authority** | **PASS** | Practitioner workflow design |
+| **Citation density** | **PASS** | ReAct/Reflexion/DSPy references |
+| **Contested claims** | **PASS** | AGI framing explicit; advanced workflows "less stable" |
+| **Worked examples** | **PASS** | Full Shopify walkthrough |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| PE-C09-001 | Workflows trade generality for multi-step task strength | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Introduction |
+| PE-C09-002 | Conversational agents fail on queued multi-storefront promotion | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Would a Conversational Agent Suffice |
+| PE-C09-003 | DAG passes shared upstream data to parallel downstream tasks | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Figure 9-6 |
+| PE-C09-004 | Prefer deterministic workflow graph with LLM tasks over LLM router first | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md | Conclusion |
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · word cap ≤4500*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

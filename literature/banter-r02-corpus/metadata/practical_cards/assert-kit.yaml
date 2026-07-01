@@ -1,0 +1,73 @@
+# R-02 practical cards — assert-kit (P-HH)
+pillar_moniker: assert-kit
+pillar_ids: [P-HH]
+lane: L4
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#assert-kit
+
+source_ingests:
+  - literature/ingests/paterson_2022_assertiveness_workbook_ch01_chapter_ingest.md
+  - literature/ingests/hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+
+cards:
+  - exercise_name: DESO Request Worksheet
+    steps:
+      - Describe the other person's observable behavior in specific, nonjudgmental terms (Paterson Ch15 Describe).
+      - Express your feelings using I-statements tied to that behavior (Paterson Ch15 Express).
+      - Specify a concrete, positive, actionable request — what you want them to do differently (Paterson Ch15 Specify).
+      - State the likely Outcome if the request is met while leaving their choice intact — requests respect refusal (Paterson Ch15 Outcome).
+    cognitive_frame: Assertiveness controls my response including acceptance of no; a request is not a contract or demand.
+    observables:
+      - Operator names a specific behavior before stating preference
+      - Tone stays direct without aggression or excessive apology
+      - Operator stops after one clear ask; no repeat pressure after refusal
+    contraindications:
+      - persistence-after-no (σ−)
+      - nagging escalation framed as assertiveness
+      - send-ready DM scripts exported from worksheet
+    source_anchor: C-B19_CH15-DESO · paterson_2022_assertiveness_workbook_ch01_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#assert-kit
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Five S's Assertiveness Skills
+    steps:
+      - Self-reflection — notice what you want and what fear is driving passive or aggressive defaults (Hanks Ch6–9).
+      - Self-awareness — identify attachment-driven Doormat or Sword stances before the conversation (Hanks Ch7).
+      - Self-soothing — use mindfulness, emotion labeling, or wise mind until intensity drops enough to speak (Hanks Ch6).
+      - Self-expression — use I-feel/I-think stems and soft start-up before critique (Hanks Ch8).
+      - Self-expansion — hold Lantern stance: state your view while leaving room for her differing experience (Hanks Ch9).
+    cognitive_frame: Clarity, confidence, calmness, connection, and compassion come from the five skills sequence — not from winning the exchange.
+    observables:
+      - Pauses before responding when activated
+      - Uses I-statements rather than blame labels
+      - Stays engaged after stating a boundary or preference
+    contraindications:
+      - Sword stance as dominance performance
+      - people-pleasing Doormat autopilot after one assertive sentence
+    source_anchor: C-EXTB02_CH01-006 · hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#assert-kit
+    operator_fit_tags: [dating-IRL, partner-read]
+    quality_level: full
+
+  - exercise_name: Lantern Stance Assessment
+    steps:
+      - Name the situation trigger and rate activation 0–100 (Hanks Ch7).
+      - Identify whether your default is Doormat (over-accommodate), Sword (sarcasm/protective aggression), or Lantern (assertive + open) (Hanks Ch7).
+      - If Doormat or Sword — run self-soothing until wise mind before speaking (Hanks Ch6).
+      - Practice Lantern — direct statement of your view plus explicit openness to her perspective (Hanks Ch9 Lantern Stance Scenarios).
+    cognitive_frame: Lantern is assertive expression with curiosity about her view — not performing confidence or suppressing needs.
+    observables:
+      - Operator states preference without preemptive over-apology
+      - Operator asks what she thinks after stating view
+      - Body language open rather than closed or dominating
+    contraindications:
+      - Lantern used to reopen after clear no
+      - impression-management masking (performing a persona)
+    source_anchor: C-EXTB02_CH02-004 · hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#assert-kit
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full

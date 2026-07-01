@@ -1,0 +1,519 @@
+philosophy_software_design_2e_2021_ch02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: philosophy_software_design_2e_2021 · chapter: 02
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/philosophy_software_design_2e_2021_ch02_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (philosophy_software_design_2e_2021_ch02_ingest.md)
+========================================================================
+
+# Chapter ingest — A Philosophy of Software Design (2e) · Chapter 2
+
+| Field | Value |
+|-------|-------|
+| slug | philosophy_software_design_2e_2021 |
+| source_type | textbook |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/philosophy_software_design_2e_2021.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/philosophy_software_design_2e_2021_ch02_ingest.md |
+| text_lines_read | 646–927 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | A Philosophy of Software Design |
+| authors | John Ousterhout |
+| edition | 2nd Edition (v2.0, July 2021) |
+| ISBN_print | 978-1-7321022-1-7 [verified from text, line 29] |
+| ISBN_electronic | [not found in text export; epub/mobi noted at line 31 without ISBN] |
+| publisher | Yaknyam Press |
+| chapter_number | 2 |
+| chapter_title | The Nature of Complexity |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Chapter 2 establishes the book's operational definition of software complexity and the diagnostic framework used in all subsequent chapters. Ousterhout frames complexity as a **developer-experienced** property of system structure—not system size or feature sophistication—and introduces three **symptoms** (change amplification, cognitive load, unknown unknowns), two **root causes** (dependencies, obscurity), and the **incremental** nature of complexity accumulation. The chapter is conceptual and foundational; it contains no formal exercises but uses a recurring Web-site banner-color illustration (Figure 2.1) across three configurations to make symptoms and causes concrete. It explicitly sets book-wide assumptions and points forward to Chapters 3 (zero-tolerance philosophy), 13 (documentation), and 18 (obviousness techniques).
+
+---
+
+## Key findings
+
+1. **Practical definition of complexity** (§2.1, lines 676–685): Complexity is "anything related to the structure of a software system that makes it hard to understand and modify the system." Simple vs. complicated is judged by ease of understanding and modification—not by LOC, feature count, or apparent sophistication.
+
+2. **Cost/benefit framing** (§2.1, lines 687–690): In a complex system, small improvements require much work; in a simple system, larger improvements require less effort.
+
+3. **Complexity is situational, not absolute** (§2.1, lines 692–701): Complexity is what a developer experiences "at a particular point in time when trying to achieve a particular goal." A large sophisticated system that is easy to work on is not complex under this definition; a small unsophisticated system can be.
+
+4. **Time-weighted complexity** (§2.1, lines 703–714): Overall complexity C is characterized as the sum of per-part complexity cp weighted by the fraction of developer time tp spent on that part. "Isolating complexity in a place where it will never be seen is almost as good as eliminating the complexity entirely."
+
+5. **Reader vs. writer asymmetry** (§2.1, lines 716–723): Complexity is "more apparent to readers than writers." If others find your code complex, it is complex; the developer's job includes making code easy for others, not only for oneself.
+
+6. **Symptom: change amplification** (§2.2, lines 731–745): A seemingly simple change forces modifications in many places. Good design reduces the amount of code affected by each design decision. Figure 2.1(a) vs. (b) illustrates per-page vs. centralized banner color.
+
+7. **Symptom: cognitive load** (§2.2, lines 747–770): The amount a developer must know to complete a task. Higher load increases learning time and bug risk. Example: C caller must free memory allocated by a function—restructuring so the allocator also frees reduces load. LOC is an unreliable proxy; frameworks with few lines but opaque behavior can impose extreme cognitive load.
+
+8. **Symptom: unknown unknowns** (§2.2, lines 781–809): It is not obvious which code must change or what information is required. Figure 2.1(c): emphasis color is a darker shade specified per-page while background is centralized—changing `bannerBg` without updating emphasis colors breaks pages silently. Unknown unknowns are ranked worst among the three symptoms because discovery may only happen via post-change bugs; exhaustive code reading is infeasible at scale.
+
+9. **Design goal: obviousness** (§2.2, lines 811–818): Good design makes systems obvious—developers can quickly understand existing code and guess correctly what change is needed. Opposite of high cognitive load and unknown unknowns. Forward reference: Chapter 18.
+
+10. **Cause: dependencies** (§2.3, lines 830–867): A dependency exists when code cannot be understood or modified in isolation. Dependencies are unavoidable and intentionally introduced (e.g., class APIs), but design should minimize their number and make remaining dependencies simple and obvious. Centralizing banner color replaces a nonobvious inter-page dependency with a more obvious API dependency; compilers help surface API breakage.
+
+11. **Cause: obscurity** (§2.3, lines 869–889): Important information is not obvious—generic names (`time`), missing units in docs, hidden coupling (status enum vs. message table), inconsistency. Obscurity often accompanies dependencies. Extensive documentation need can signal design failure; simplifying design reduces obscurity. Forward reference: Chapter 13.
+
+12. **Symptom–cause mapping** (§2.3, lines 891–896): Dependencies → change amplification + cognitive load. Obscurity → unknown unknowns + cognitive load.
+
+13. **Incremental accumulation** (§2.4, lines 900–915): Complexity rarely stems from one catastrophic error; hundreds or thousands of small dependencies and obscurities compound until every change intersects several. Individual small additions seem harmless; collective effect is rapid growth. Reversal is hard because fixing one issue barely moves the needle. Prescription: "zero tolerance" philosophy (Chapter 3).
+
+14. **Chapter conclusion** (§2.5, lines 919–926): Complexity from accumulated dependencies and obscurities increases modification count, information-gathering time, and risk; worst case, developers cannot find all required information.
+
+---
+
+## Section digest (anchored)
+
+### Opening framing (lines 650–672)
+
+The chapter positions complexity recognition as a core design skill—easier than creating simplicity, but sufficient to steer design choices iteratively. It also states that later chapters treat this chapter's assumptions as given.
+
+### §2.1 Complexity defined
+
+Ousterhout's definition is deliberately **pragmatic** and **activity-centered**. Manifestations include difficulty understanding code, high effort for small improvements, unclear modification targets, and fix-one-bug-break-another dynamics.
+
+The **mathematical sketch** (formula placeholder `[]` in text export at line 709—likely a typeset equation lost in extraction) expresses weighted complexity: parts rarely touched contribute little to felt complexity even if locally intricate.
+
+**Contested / debatable [inferred]:** The time-weighting formula is presented as a "crude mathematical way" without empirical validation in this chapter; readers may dispute whether rarely-touched complex subsystems still create portfolio risk (security, onboarding, bus factor).
+
+### §2.2 Symptoms of complexity
+
+Three symptoms form a severity ladder for design evaluation:
+
+| Symptom | Core idea | Figure 2.1 role |
+|---------|-----------|-----------------|
+| Change amplification | One decision touches many sites | (a) per-page color vs. (b) shared variable |
+| Cognitive load | Must know too much to act safely | (implicit) C memory-ownership example |
+| Unknown unknowns | Hidden coupling; unclear blast radius | (c) emphasis shade not tied to central variable |
+
+**Change amplification** is annoying but tractable when modification sites are known.
+
+**Cognitive load** increases cost but remains tractable when required reading is identifiable.
+
+**Unknown unknowns** defeat systematic change planning; may depend on undocumented subtle decisions.
+
+The **obviousness** ideal: fast, confident, correct guesses about how to change code.
+
+### §2.3 Causes of complexity
+
+**Dependencies** are the primary structural coupling mechanism. Examples span Web pages, network protocol sender/receiver pairs, and method signature coupling to all call sites. Design trades one dependency shape for another (inter-page → shared-variable API); the goal is fewer, simpler, more visible dependencies.
+
+**Obscurity** hides information needed for safe change. Documentation helps (Ch. 13) but is inferior to structural clarity.
+
+### §2.4 Complexity is incremental
+
+This section bridges diagnosis (Ch. 2) to prescriptive philosophy (Ch. 3). The **tragedy-of-the-commons** dynamic: each developer's "small" complexity addition is rational locally but catastrophic globally. Single-fix remediation has low marginal payoff once debt is entrenched.
+
+### §2.5 Conclusion
+
+Restates the symptom/cause chain and the practical cost: more edits, more research time, higher risk, possible total information failure.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. State Ousterhout's practical definition of complexity and distinguish it from "large" or "feature-rich."
+2. Name and explain the three symptoms of complexity with at least one example each.
+3. Explain why unknown unknowns are considered the most dangerous symptom.
+4. Define dependencies and obscurity as root causes and map them to symptoms.
+5. Articulate why complexity accumulates incrementally and why per-change tolerance fails at scale.
+6. Apply the time-weighting intuition: rarely touched complex regions contribute less to overall felt complexity.
+7. Evaluate a design change by asking whether it increases obviousness or trades one dependency for a clearer one.
+
+### worked_examples_present
+
+**Y** — Figure 2.1 Web-site banner color trilogy (per-page specification, centralized variable, hidden derived emphasis color) is the chapter's primary worked illustration, reused across §2.2 and §2.3. Secondary micro-example: C memory allocation ownership and cognitive load (lines 752–758). No step-by-step coding lab; examples are architectural/narrative.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source text. Operator-derivable hooks:
+
+1. **Symptom audit:** Pick a module in a current project; classify recent bugs/changes as change amplification, cognitive load, or unknown unknowns.
+2. **Figure 2.1 replay:** Sketch three dependency graphs for a config value (hard-coded, centralized, partially derived) and list failure modes on change.
+3. **LOC vs. load debate:** Find a "short" API that is hard to use; argue whether line count or cognitive load better explains difficulty (per lines 762–770).
+4. **Incremental debt map:** List five small obscurities or dependencies introduced in the last sprint; assess compounding if each teammate adds similar items.
+5. **Reader test:** Exchange a PR with a peer; if they call a "simple" change complex, document the disconnect (per lines 716–723).
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter title + intro | Read | lines 646–672 |
+| §2.1 Complexity defined | Read | lines 674–723 |
+| §2.2 Symptoms of complexity | Read | lines 725–818 |
+| §2.3 Causes of complexity | Read | lines 820–896 |
+| §2.4 Complexity is incremental | Read | lines 898–915 |
+| §2.5 Conclusion | Read | lines 917–926 |
+| Chapter 3+ | Deferred | line 928 onward |
+| Other chapters | Not read | — |
+| Figure 2.1 caption | Read | lines 774–779 |
+| Equation at §2.1 | Partial | placeholder `[]` at line 709 — PDF needed for formula |
+| Page numbers | Not in export | operator confirm via PDF |
+
+**Attestation:** Single-file read of `philosophy_software_design_2e_2021.txt` lines 646–927 only. Chapter boundary confirmed: ends before `Chapter 3` at line 928. No cross-chapter content synthesized beyond explicit forward references in text.
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+This chapter is the **conceptual vocabulary layer** for the entire Ousterhout canon entry and for Track A software-design foundations in w1_foundation. It defines the enemy (complexity), the diagnostic triad (symptoms), and the causal dyad (dependencies, obscurity) that Chapters 3–21 elaborate through tactical design rules. For later canon titles—especially **AI Engineering**, **DDIA 2e**, and **Understanding Distributed Systems**—the change-amplification and unknown-unknowns lenses port directly to distributed coupling, implicit schema contracts, and observability gaps. Without Ch. 2, later Ousterhout chapters read as isolated heuristics rather than a unified complexity-reduction program.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical AI, agent trace/eval, or regulated-deployment content. Indirect relevance only: **unknown unknowns** and **cognitive load** are pattern-portable to safety-critical and high-stakes systems where hidden coupling causes silent failures; **obviousness** aligns with operability goals for production services. No employer-stack or MDCalc-specific claims.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **SE Modern Approach (Valente 2024)** | Likely overlaps on maintainability and technical debt framing; Ousterhout is more symptom/cause taxonomy and less process/methodology. |
+| **DDIA 2e** | Shared theme of hidden coupling in distributed systems; DDIA goes deeper on data-model and consistency dependencies; Ch. 2 is language-agnostic and UI/protocol illustrative only. |
+| **AI Engineering / Hands-On LLMs** | Little direct overlap; agent/LLM pipelines may exhibit unknown unknowns (prompt ↔ eval ↔ tool schema) ana
+
+[TRUNCATED at 14000 chars — full ingest on disk]
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/philosophy_software_design_2e_2021_ch02_SLICE.txt)
+========================================================================
+
+# Text slice — philosophy_software_design_2e_2021_ch02_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: philosophy_software_design_2e_2021 · chapter: 02
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Chapter 2
+
+The Nature of Complexity
+
+This book is about how to design software systems to minimize their
+complexity. The first step is to understand the enemy. Exactly what is
+“complexity”? How can you tell if a system is unnecessarily complex?
+What causes systems to become complex? This chapter will address those
+questions at a high level; subsequent chapters will show you how to
+recognize complexity at a lower level, in terms of specific structural
+features.
+
+The ability to recognize complexity is a crucial design skill. It allows
+you to identify problems before you invest a lot of effort in them, and
+it allows you to make good choices among alternatives. It is easier to
+tell whether a design is simple than it is to create a simple design,
+but once you can recognize that a system is too complicated, you can use
+that ability to guide your design philosophy towards simplicity. If a
+design appears complicated, try a different approach and see if that is
+simpler. Over time, you will notice that certain techniques tend to
+result in simpler designs, while others correlate with complexity. This
+will allow you to produce simpler designs more quickly.
+
+This chapter also lays out some basic assumptions that provide a
+foundation for the rest of the book. Later chapters take the material of
+this chapter as given and use it to justify a variety of refinements and
+conclusions.
+
+2.1  Complexity defined
+
+For the purposes of this book, I define “complexity” in a practical way.
+Complexity is anything related to the structure of a software system
+that makes it hard to understand and modify the system. Complexity can
+take many forms. For example, it might be hard to understand how a piece
+of code works; it might take a lot of effort to implement a small
+improvement, or it might not be clear which parts of the system must be
+modified to make the improvement; it might be difficult to fix one bug
+without introducing another. If a software system is hard to understand
+and modify, then it is complicated; if it is easy to understand and
+modify, then it is simple.
+
+You can also think of complexity in terms of cost and benefit. In a
+complex system, it takes a lot of work to implement even small
+improvements. In a simple system, larger improvements can be implemented
+with less effort.
+
+Complexity is what a developer experiences at a particular point in time
+when trying to achieve a particular goal. It doesn’t necessarily relate
+to the overall size or functionality of the system. People often use the
+word “complex” to describe large systems with sophisticated features,
+but if such a system is easy to work on, then, for the purposes of this
+book, it is not complex. Of course, almost all large and sophisticated
+software systems are in fact hard to work on, so they also meet my
+definition of complexity, but this need not necessarily be the case. It
+is also possible for a small and unsophisticated system to be quite
+complex.
+
+Complexity is determined by the activities that are most common. If a
+system has a few parts that are very complicated, but those parts almost
+never need to be touched, then they don’t have much impact on the
+overall complexity of the system. To characterize this in a crude
+mathematical way:
+
+[]
+
+The overall complexity of a system (C) is determined by the complexity
+of each part p (cp) weighted by the fraction of time developers spend
+working on that part (tp). Isolating complexity in a place where it will
+never be seen is almost as good as eliminating the complexity entirely.
+
+Complexity is more apparent to readers than writers. If you write a
+piece of code and it seems simple to you, but other people think it is
+complex, then it is complex. When you find yourself in situations like
+this, it’s worth probing the other developers to find out why the code
+seems complex to them; there are probably some interesting lessons to
+learn from the disconnect between your opinion and theirs. Your job as a
+developer is not just to create code that you can work with easily, but
+to create code that others can also work with easily.
+
+2.2  Symptoms of complexity
+
+Complexity manifests itself in three general ways, which are described
+in the paragraphs below. Each of these manifestations makes it harder to
+carry out development tasks.
+
+Change amplification: The first symptom of complexity is that a
+seemingly simple change requires code modifications in many different
+places. For example, consider a Web site containing several pages, each
+of which displays a banner with a background color. In many early Web
+sites, the color was specified explicitly on each page, as shown in
+Figure 2.1(a). In order to change the background for such a Web site, a
+developer might have to modify every existing page by hand; this would
+be nearly impossible for a large site with thousands of pages.
+Fortunately, modern Web sites use an approach like that in Figure
+2.1(b), where the banner color is specified once in a central place, and
+all of the individual pages reference that shared value. With this
+approach, the banner color of the entire Web site can be changed with a
+single modification. One of the goals of good design is to reduce the
+amount of code that is affected by each design decision, so design
+changes don’t require very many code modifications.
+
+Cognitive load: The second symptom of complexity is cognitive load,
+which refers to how much a developer needs to know in order to complete
+a task. A higher cognitive load means that developers have to spend more
+time learning the required information, and there is a greater risk of
+bugs because they have missed something important. For example, suppose
+a function in C allocates memory, returns a pointer to that memory, and
+assumes that the caller will free the memory. This adds to the cognitive
+load of developers using the function; if a developer fails to free the
+memory, there will be a memory leak. If the system can be restructured
+so that the caller doesn’t need to worry about freeing the memory (the
+same module that allocates the memory also takes responsibility for
+freeing it), it will reduce the cognitive load. Cognitive load arises in
+many ways, such as APIs with many methods, global variables,
+inconsistencies, and dependencies between modules.
+
+System designers sometimes assume that complexity can be measured by
+lines of code. They assume that if one implementation is shorter than
+another, then it must be simpler; if it only takes a few lines of code
+to make a change, then the change must be easy. However, this view
+ignores the costs associated with cognitive load. I have seen frameworks
+that allowed applications to be written with only a few lines of code,
+but it was extremely difficult to figure out what those lines were.
+Sometimes an approach that requires more lines of code is actually
+simpler, because it reduces cognitive load.
+
+[]
+
+Figure 2.1: Each page in a Web site displays a colored banner. In (a)
+the background color for the banner is specified explicitly in each
+page. In (b) a shared variable holds the background color and each page
+references that variable. In (c) some pages display an additional color
+for emphasis, which is a darker shade of the banner background color; if
+the background color changes, the emphasis color must also change.
+
+Unknown unknowns: The third symptom of complexity is that it is not
+obvious which pieces of code must be modified to complete a task, or
+what information a developer must have to carry out the task
+successfully. Figure 2.1(c) illustrates this problem. The Web site uses
+a central variable to determine the banner background color, so it
+appears to be easy to change. However, a few Web pages use a darker
+shade of the background color for emphasis, and that darker color is
+specified explicitly in the individual pages. If the background color
+changes, then the the emphasis color must change to match.
+Unfortunately, developers are unlikely to realize this, so they may
+change the central bannerBg variable without updating the emphasis
+color. Even if a developer is aware of the problem, it won’t be obvious
+which pages use the emphasis color, so the developer may have to search
+every page in the Web site.
+
+Of the three manifestations of complexity, unknown unknowns are the
+worst. An unknown unknown means that there is something you need to
+know, but there is no way for you to find out what it is, or even
+whether there is an issue. You won’t find out about it until bugs appear
+after you make a change. Change amplification is annoying, but as long
+as it is clear which code needs to be modified, the system will work
+once the change has been completed. Similarly, a high cognitive load
+will increase the cost of a change, but if it is clear which information
+to read, the change is still likely to be correct. With unknown
+unknowns, it is unclear what to do or whether a proposed solution will
+even work. The only way to be certain is to read every line of code in
+the system, which is impossible for systems of any size. Even this may
+not be sufficient, because a change may depend on a subtle design
+decision that was never documented.
+
+One of the most important goals of good design is for a system to be
+obvious. This is the opposite of high cognitive load and unknown
+unknowns. In an obvious system, a developer can quickly understand how
+the existing code works and what is required to make a change. An
+obvious system is one where a developer can make a quick guess about
+what to do, without thinking very hard, and yet be confident that the
+guess is correct. Chapter 18 discusses techniques for making code more
+obvious.
+
+2.3  Causes of complexity
+
+Now that you know the high-level symptoms of complexity and why
+complexity makes software development difficult, the next step is to
+understand what causes complexity, so that we can design systems to
+avoid the problems. Complexity is caused by two things: dependencies and
+obscurity. This section discusses these factors at a high level;
+subsequent chapters will discuss how they relate to lower-level design
+decisions.
+
+For the purposes of this book, a dependency exists when a given piece of
+code cannot be understood and modified in isolation; the code relates in
+some way to other code, and the other code must be considered and/or
+modified if the given code is changed. In the Web site example of Figure
+2.1(a), the background color creates dependencies between all of the
+pages. All of the pages need to have the same background, so if the
+background is changed for one page, then it must be changed for all of
+them. Another example of dependencies occurs in network protocols.
+Typically there is separate code for the sender and receiver for the
+protocol, but they must each conform to the protocol; changing the code
+for the sender almost always requires corresponding changes at the
+receiver, and vice versa. The signature of a method creates a dependency
+between the implementation of that method and the code that invokes it:
+if a new parameter is added to a method, all of the invocations of that
+method must be modified to specify that parameter.
+
+Dependencies are a fundamental part of software and can’t be completely
+eliminated. In fact, we intentionally introduce dependencies as part of
+the software design process. Every time you write a new class you create
+dependencies around the API for that class. However, one of the goals of
+software design is to reduce the number of dependencies and to make the
+dependencies that remain as simple and obvious as possible.
+
+Consider the Web site example. In the old Web site with the background
+specified separately on each page, all of the Web pages were dependent
+on each other. The new Web site fixed this problem by specifying the
+background color in a central place and providing an API that individual
+pages use to retrieve that color when they are rendered. The new Web
+site eliminated the dependency between the pages, but it created a new
+dependency around the API for retrieving the background color.
+Fortunately, the new dependency is more obvious: it is clear that each
+individual Web page depends on the bannerBg color, and a developer can
+easily find all the places where the variable is used by searching for
+its name. Furthermore, compilers help to manage API dependencies: if the
+name of the shared variable changes, compilation errors will occur in
+any code that still uses the old name. The new Web site replaced a
+nonobvious and difficult-to-manage dependency with a simpler and more
+obvious one.
+
+The second cause of complexity is obscurity. Obscurity occurs when
+important information is not obvious. A simple example is a variable
+name that is so generic that it doesn’t carry much useful information
+(e.g., time). Or, the documentation for a variable might not specify its
+units, so the only way to find out is to scan code for places where the
+variable is used. Obscurity is often associated with dependencies, where
+it is not obvious that a dependency exists. For example, if a new error
+status is added to a system, it may be necessary to add an entry to a
+table holding string messages for each status, but the existence of the
+message table might not be obvious to a programmer looking at the status
+declaration. Inconsistency is also a major contributor to obscurity: if
+the same variable name is used for two different purposes, it won’t be
+obvious to developers which of these purposes a particular variable
+serves.
+
+In many cases, obscurity comes about because of inadequate
+documentation; Chapter 13 deals with this topic. However, obscurity is
+also a design issue. If a system has a clean and obvious design, then it
+will need less documentation. The need for extensive documentation is
+often a red flag that the design isn’t quite right. The best way to
+reduce obscurity is by simplifying the system design.
+
+Together, dependencies and obscurity account for the three
+manifestations of complexity described in Section 2.2. Dependencies lead
+to change amplification and a high cognitive load. Obscurity creates
+unknown unknowns, and also contributes to cognitive load. If we can find
+design techniques that minimize dependencies and obscurity, then we can
+reduce the complexity of software.
+
+2.4  Complexity is incremental
+
+Complexity isn’t caused by a single catastrophic error; it accumulates
+in lots of small chunks. A single dependency or obscurity, by itself, is
+unlikely to affect significantly the maintainability of a software
+system. Complexity comes about because hundreds or thousands of small
+dependencies and obscurities build up over time. Eventually, there are
+so many of these small issues that every possible change to the system
+is affected by several of them.
+
+The incremental nature of complexity makes it hard to control. It’s easy
+to convince yourself that a little bit of complexity introduced by your
+current change is no big deal. However, if every developer takes this
+approach for every change, complexity accumulates rapidly. Once
+complexity has accumulated, it is hard to eliminate, since fixing a
+single dependency or obscurity will not, by itself, make a big
+difference. In order to slow the growth of complexity, you must adopt a
+“zero tolerance” philosophy, as discussed in Chapter 3.
+
+2.5  Conclusion
+
+Complexity comes from an accumulation of dependencies and obscurities.
+As complexity increases, it leads to change amplification, a high
+cognitive load, and unknown unknowns. As a result, it takes more code
+modifications to implement each new feature. In addition, developers
+spend more time acquiring enough information to make the change safely
+and, in the worst case, they can’t even find all the information they
+need. The bottom line is that complexity makes it difficult and risky to
+modify an existing code base.
+
+

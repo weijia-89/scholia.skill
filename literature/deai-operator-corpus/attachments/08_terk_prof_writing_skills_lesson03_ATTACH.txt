@@ -1,0 +1,543 @@
+08_terk_prof_writing_skills_lesson03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: terk_prof_writing_skills
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/08_terk_prof_writing_skills_lesson03_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/08_terk_prof_writing_skills_lesson03.txt)========================================================================
+
+Lesson 3,
+you will learn how to use concise language.
+                                                                                                   101
+
+
+
+
+                                             USE CONCISE LANGUAGE
+
+
+INTRODUCTION
+
+Unnecessary words are obstacles to good business writing. They clutter up your sentences and
+slow your readers down. They can also make your documents boring. By eliminating unneces-
+sary words, you can keep your readers’ interest and make your writing easier to follow.
+
+OBJECTIVES
+
+
+In this lesson, you'll learn to write more professionally and effectively with these strategies:
+        m™ Finding single words for one-word ideas
+        m™ Avoiding repetition
+        @   Eliminating wasteful verbs and clauses
+
+WHAT    YOU NEED
+
+        @   The draft document that you completed in Lesson 1
+        ™   Samples of your writing
+
+Here are a few examples of sentence with clutter—words that take up space without adding
+meaning. Which words do you think are unnecessary? Can you eliminate any words?
+
+             e   Please let me know as to whether you will attend the party.
+
+             e   The noise level of the trains arriving and departing from the station is low by
+                 the current standards of the rapid-transit industry.
+
+             e   There are several employees who want to take vacations in June.
+
+
+Here are the words you could easily eliminate:
+
+             e   Please let me know as-+e whether you will attend the party.
+                                                                    trains
+             e The noise level of the trains arriving and departing , fem
+                                                                      +the-station is low
+                 by the current standards? ofthe
+                                           rapid-transitindustyy:
+                              Several
+             e There are-severat i employees whe want to take vacations in June.
+102   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+In this lesson, you'll look at several ways to get rid of unnecessary words and you'll practice
+revising wordy sentences. Then you'll review your own writing to see if you can make it more
+concise.
+
+USE ONE WORD           FOR A ONE-WORD                 IDEA
+
+Sometimes you can collapse several words or a long phrase into one word that conveys your
+message quickly and clearly: for instance, at a time prior to simply means before. The longer
+phrase is dull and bulky. The single word does the same job more efficiently.
+
+At other times, you can collapse a multiword phrase into one word by identifying the most im-
+portant word of the phrase, turning that word into a different part of speech, and cutting out
+words that don’t enhance your meaning.
+
+ORIGINAL       We are in agreement with you about the contract terms.
+
+REVISION       We agree with you about the contract terms.
+
+ORIGINAL       She solved the problem in a clever way.
+
+REVISION       She solved the problem cleverly.
+                        ZOp=
+
+               She cleverly solved the problem.
+
+In the first example, the short verb “agree” delivers the full meaning of the longer phrase “are in
+agreement.”
+
+In the second example, “clever” is the most important word in the phrase “in a clever way.’ The
+single word “cleverly” delivers the same meaning faster.
+
+                                 Try a practice exercise on the next page.
+                                                                  LESSON   3   USE CONCISE   LANGUAGE   103
+
+
+
+
+PRACTICE
+
+Eliminate unnecessary words or revise the sentences to make them more concise.
+
+ORIGINAL      he client visited the site of the project in May.
+
+REVISION      The client visited the project site in May.
+
+    1.   She drove in a reckless manner.
+
+
+
+
+    2. We conducted a survey of the members.
+
+
+
+
+    3. The manager made an offer to buy everyone coffee.
+
+
+
+
+    4.   I believe this procedure will make an improvement in the way reports are filed.
+
+
+
+
+    5.   He called us in regard to his recent insurance claim.
+
+
+
+
+    6. Due to the fact that she had been drinking, the accident was her fault.
+
+
+
+
+                              Check your answers on the next page.
+104    PROFESSIONAL    WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+Your answers should look something like this:
+
+      1. She drove recklessly.
+
+      2.   We surveyed the members.
+
+      3. The manager offered to buy everyone coffee.
+
+      4. I believe this procedure will improve how reports are filed.
+
+      5. He called us about his recent insurance claim.
+
+      6. Because she had been drinking, the accident was her fault.
+
+AVOID REPETITION
+
+Business writers often use two or more words that mean exactly the same thing, leading to un-
+necessarily wordy sentences. Here are some common repetitive phrases:
+
+      alternative choices                    equally as effective as    separate entities
+      basic fundamentals                     symptoms indicative of     advance warning
+      serious crisis                         desirable benefits         two halves
+      final outcome                          important essentials       regular weekly meetings
+      past experience                        end result                 absolutely complete
+      surrounding circumstances           _ future plans                ten a.m. in the morning
+
+
+A crisis is always serious, plans are always for the future, and ten a.m. doesn't happen at night.
+These unnecessary words waste your readers’ time.
+
+
+PRACTICE
+
+Eliminate the unnecessary repetitions in these sentences.
+
+       1. The urban residents of the city are unhappy with the new regulations.
+
+
+
+
+      2. The subterranean garage, located underground, is more secure than the old one.
+
+
+
+
+      3. Until last week, our group had the best record to date.
+                                                                LESSON   3   USE CONCISE   LANGUAGE   105
+
+
+
+
+Your revisions should look something like this. The underlined words convey the original sen-
+tences full meaning without the wasteful extra words on the last page.
+
+    1. The urban residents are unhappy with the new regulations.
+                               (R=
+
+         The city residents are unhappy with the new regulations.
+
+    2. The subterranean garage is more secure than the old one.
+
+    3.   Until last week, our group had the best record.
+
+
+
+
+ELIMINATE WASTEFUL POSSESSIVES, CLAUSES, AND THERE IS PHRASES
+
+Some possessive word forms add nothing to a sentence but unnecessary length.
+
+ORIGINAL      Their assumption is that the company should always come first.
+
+REVISION      ‘They assume the company should always come first.
+
+Some sentences can be streamlined by removing unnecessary who, that, and which clauses.
+
+ORIGINAL      ‘The broker who works in Chicago sent the file that is incomplete to the home
+              office.
+
+REVISION      The Chicago broker sent the incomplete file to the home office.
+
+
+Also, phrases such as there is, there are, and there may be can clutter up sentences—either on
+their own or by requiring extra words after the phrase.
+
+ORIGINAL      There is a new package on your desk.
+
+REVISION A new package is on your desk.
+
+
+ORIGINAL      There may be several applicants who have the necessary background for this
+              position.
+
+REVISION      Several applicants may have the necessary background for this position.
+106   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+PRACTICE
+
+Revise these sentences to make them more concise.
+
+
+      1. The members of the group who are interested in learning more about this software are
+         welcome to attend the demonstration that will be conducted on February 16.
+
+
+
+
+      2.   Tomorrow’s meeting, which will be held as always on the fourth floor, will include a
+           speech about literacy in the workplace.
+
+
+
+
+      3.   There are thousands of hours wasted because no one can use the files that are out of
+           date.
+                                                                    LESSON   3.   USE CONCISE   LANGUAGE   107
+
+
+
+
+Your revisions should be similar to these:
+
+            The group members interested in learning more about this software are welcome
+            to attend the February 16 demonstration.
+            Tomorrow’ fourth-floor meeting will include a speech about literacy in the
+            workplace.
+            Thousands of hours are wasted because no one can use the out-of-date files.
+
+
+
+PRACTICE
+
+Here's a chance to pull together what you've learned so far. These sentences contain several kinds
+of clutter. Revise them to be more concise.
+
+             On the basis of your recent letter, | would like to take this opportunity
+             to inform you that | will investigate the problem about the delay in
+             processing your loan that you mentioned and send you a letter in or-
+             der to report my findings.
+
+             At this point in time, it is our understanding that the new computer
+             system will have the capability of processing 50 percent more infor-
+             mation than the amount that is processed by our present system.
+
+             With regard to the current status of your request for additional office
+             equipment, we have submitted a request for the purpose of obtaining
+             the funds that are needed to initiate the purchase.
+
+
+
+
+                               Check your answers on the next page.
+108   PROFESSIONAL   WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+Your revisions should look something like this:
+
+             Onthe-basis-ofyourrecentletter-I would like tetake
+                                                           this opportunity
+
+             to inform you that | will investigate the-probler-about the delay in
+
+              processing your loan which-youmentioned and send-you atetterin-
+                        write you with
+                             a my findings.
+
+
+                                                         EZOR=
+                       Thank you for                         0
+             Onthe basis of ayour recent letter A }would like to take this oppetu-
+
+             Ay to
+             inform-yeuthat                | will investigate the-preblem-about the delay in
+
+             processing your loan which-youmentioned, and send you a letter ia-
+                               with
+             erderto report amy findings.
+
+                                           We understana
+             Atthis point in time itis our atnderstanding that the new computer
+                                            be able to
+             system will Ravethe-capabilityof aProcessing 50 percent more infor-
+                 eA)
+             mation
+
+
+                                                         =OR=
+
+                                       We now understana
+             Atthis-pointintme itis our Atnderstanding that the new computer
+
+             system will Ravethe-capabiityof processing 50 percent more infor-
+
+             mation than the-amountwhichis-processed
+                                                   by our present system.
+
+
+
+                               We                  Reaver
+                               e-have submitteda ,
+             to purchase the office equiprient you eee
+             iagthe funds ,
+
+
+               You are probably getting good at spotting and eliminating clutter.
+             Turn the page for one last practice before searching your own writing
+                                    for unnecessary words.
+                                                                    LESSON   3   USE CONCISE   LANGUAGE   109
+
+
+
+
+PRACTICE
+
+Revise these paragraphs to be as concise as possible without changing the meaning. You can
+cross out or write in words on this page without recopying the letter.
+
+            During the month of March, the people who are working on the HUF
+
+            project team made a study of the past history of HUF in order to
+
+            come to some conclusions as to whether the necessary information
+
+            was available for the purpose of their determining the project goals.
+
+
+            The people who were members of this study team are of the opinion
+
+            that the original analysis was done in a hasty manner and there were
+
+            several errors in the original conclusions. At this point in time, it ap-
+
+            pears that the main question is a matter of making a decision as to
+
+            whether you should discontinue the project, or the team should un-
+
+            dertake and perform a new analysis.
+
+
+            We have enclosed for your information the details that resulted from
+
+            the study. Due to the fact that the short amount of time is a factor in
+
+            this situation, we would greatly appreciate your reviewing the informa-
+
+            tion, and your reaching a decision and informing us of it, in a prompt
+
+            way.
+
+
+
+
+                              Check your revisions on the next page.
+110   PROFESSIONAL   WRITING    SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+Your revisions should look something like this.
+
+                                         ln
+                                         aMarch, the
+                                                 people-who-are-working-on the HUF
+                          studieA                                                   ‘s histovy
+              project team Ampade-a-study of the past history of HUF                 ,in-order to
+                                                   AeciAe              they had
+             cometosome-conclusions-aste                    ,whether athe necessary information
+                                                       necessary to             Aeterwmine its
+             was available for the purpese oftheir adetermining the-project agoals.
+
+                                                                          velieve
+             The people-who-were members of this study team ,are efthe opinion
+                                                      hastily                        that
+             that the original analysis was done jifra-hasty manner and there
+
+             were several errors in the original conclusions. At+this-pointintime,-
+              It       now
+             it ,appears athat the main question is amaterotmaking-adecision-
+
+             as-to whether you should discontinue the project, or the team should
+
+              undertake and perform a new analysis.
+
+
+             We have enclosed feryournfermaton
+                                     the detais which resulted from
+                         vesults                                            Since
+             the study ,. Duetothe-fact
+                                that the short amount of ,time is afacter
+                               _ shovt
+             inthis-stuation        , we would greatly appreciate yourreviewing
+                                                                            the in-
+                                                                    it if you
+             formation_andyeurreaching a decision and ainforming us
+             of ae Aecision soon.
+              A      :                        :
+                                                              LESSON   3.   USE CONCISE   LANGUAGE   Tata
+
+
+
+
+                                       Assignment
+
+Read one or more of your writing samples. Select two or three sentences you think are cluttered
+and write them below. Then revise the sentences so they are more concise.
+
+ORIGINAL
+
+
+
+
+REVISION
+
+
+
+
+ ORIGINAL
+
+
+
+
+- REVISION
+112   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+ORIGINAL
+
+
+
+
+REVISION
+                                                                LESSON   3.   USE CONCISE   LANGUAGE   113
+
+
+
+
+REVIEW
+
+To review what you've learned in this lesson, answer these questions.
+
+    1. _________ words are obstacles to good business writing. They clutter up your
+         sentences, and slow your readers down.      (101)
+
+    2.   Sometimes you can collapse several words or a long phrase into
+         that conveys your message quickly and clearly   (102)
+
+    3.   Some sentences can be streamlined by removing unnecessary
+                          io   DD. eas PM     gHTa                       clauses.           (105)
+
+    Aree irases ke                       Can                    clutter up sentences—either on
+         their own, or by requiring extra words after the phrase. (105)
+
+
+
+
+WHAT’S NEXT?
+
+In this lesson, you've examined ways to streamline your language to hold your readers’ interest
+and save them time. In

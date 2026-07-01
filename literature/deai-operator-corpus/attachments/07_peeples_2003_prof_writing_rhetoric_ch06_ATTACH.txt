@@ -1,0 +1,1785 @@
+07_peeples_2003_prof_writing_rhetoric_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: peeples_2003_prof_writing_rhetoric
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/07_peeples_2003_prof_writing_rhetoric_ch06_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/07_peeples_2003_prof_writing_rhetoric_ch06.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/07_peeples_2003_prof_writing_rhetoric_ch06.txt).
+========================================================================
+
+User-Centered Documents
+
+
+
+
+          readers. If a critical essay is not usable or effective, readers will not read it, won’t fin-
+           ish reading it, or will not change the ways they think or act because of it. The impact
+           of being unusable or ineffective is not that great on the reader/user. The same does
+          not hold truealles a set of instructio
+
+          hee are a wide range efseTN impacts:ake nrodied can < a bad reputation, he
+          product could have low sales, the producer of the product could be taken to court, or
+          the reader/user could be injured.
+               Instructions are just one genre that professional writers might produce. As you
+          read the selections in Chapter 6, think about how other genres might be used by
+          readers and focus on how you as a professional writer can increase the usability of the
+          documents you might eventually produce.
+               One way professional writers increase the usability of documents is by paying
+          qpesiulariGACeh ceicheasis alase                         KC
+                                                                    osteo ick, in the first selection of the
+          chapter, develops a systematic approach to designing rhetorically effective visual
+          texts. Johnson, in the following selection, focuses our attention on the ways we think
+          about being user-centered and the processes we practice to produce user-centered
+          documents.
+
+
+
+           HERE   THORERHEEEREORGHRERHHOEEREKE   ED   seve   PRA    OHOSH   ERE   AHEROKHHERTKOEHHK
+                                                                                           ORE TEE EKERETE EUS
+
+
+             FOCUSING         ON KEY TERMS AND CONCEPTS
+             Focus on the following terms and concepts while you read through this selection.
+             Understanding these will not only increase your understanding of the selection that fol-
+             lows, but you will find that, because most of these terms or concepts are commonly used
+             in professional writing and rhetoric, understanding them helps you get a better sense of
+             the field itself.
+              1. low visual intensity
+             2. high visual intensity
+             3. visual signs
+             4. alphanumeric mode
+             5. spatial mode
+             6. graphic mode
+             7. intra-textual level
+             8. inter-textual level
+             9. extra-textual level
+            10. supra-textual level
+           Kostelnick        = A Systematic Approach to Visual Language in Business Communication                         271
+
+           PeRSSHORK    GEARED     ee
+
+
+
+     A SYSTEMATIC DysreVIe:CH TO> VISUAL
+     LANGUA GE a BUSINESS (COMMUNICATION
+     TRERPRRE
+         TSAR ERE DE SDS                 28
+                                                                                                            SHAPERHD
+
+
+       CHARLES KOSTELNICK
+       Iowa State University
+
+
+    Ae             business communication relies heavily on the visual, current ap-
+          proaches to graphics and text design are prescriptive and unsystematic. A 12-
+    cell schema of visual coding modes and levels provides a model for describing and
+    evaluating business documents as flexible SLES of visual language. SHUUDESELES
+    clarity and objectivity, the
+
+
+
+
+        Writing does not communicate until it is seen, until it becomes an artifact for vi-
+    sual inspection (Gelb, 1980). From the primitive making of lists, business communi-
+    cators have created permanent records by transcribing symbols onto two-dimensional
+    surfaces. With the proliferation of print technology formerly reserved for specialists,
+    contemporary business communicators have unprecedented control over visual de-
+    sign. However, participation in a visually intensive “print culture” (Ong, 28) does
+    not Ge taaeee visual sensibility.                                              ns    né
+
+
+                            :                                       ne in theory Ane ap-
+    plication, visual Gaiennce in business cormmunication remains rudimentary and pre-
+    scriptive, and ‘confined to a superficial or decorative rather than a functional or
+    rhetorical role in the communication process.
+         To compensate, we need a systematic approach for analyzing how visual elements
+    affect the readability and the rhetoric of business documents, and even for es IRe
+    the visual elements                                                         :
+'                                           ae:                                   The ere
+    language of Geinees communication is a foibles system ofcomminele marks, and spa-
+    tial variations that operates on several levels within and outside the text. Used effec-
+    tively, visual language enables readers to process information—in letters, brochures,
+reports, newsletters—clearly and efficiently. The “information design” movement has
+generated guidelines for creating functional, user-oriented documents. However, far
+from being generic or rhetorically “neutral” (Kinross, 1985), visual choices are bound
+to a perceptual and rhetorical context. Each document embodies an autonomous sys-
+
+Source:Kostelnick, Charles. “A Systemic Approach to Visual Language in Business Communication.” The Journal of Business
+Communication, Volume 25, Issue 3 (Summer 1988), pp. 29-48. Reprinted with permission.
+272   Chapter 6 =   Professional Writers Produce User-Centered Documents
+
+
+
+          tem requiring adaptation to a particular audience and putpose. Visual planning and
+          invention, therefore, must be part of the global strategy of the document and thor-
+          oughly integrated into the writing process.
+
+
+          THE SPECTRUM OF VISUAL INTENSITY
+          Writing and reading are intensely visual acts in which writer and reader negotiate
+          meaning on a two-dimensional field. Since this field can be varied and manipulated
+          into infinite configurations, all documents are not visual in the same way or to the
+          same degree (Bernhardt, 1986). Thus we could devise a spectrum of visual intensity
+          ranging from very low to very high:
+
+                     LOW VISUAL                                           HIGH VISUAL
+                      INTENSITY          ;                           2     INTENSITY
+
+          What, then, are the limits of such a continuum? What characteristics determine
+          whether a document has a high or low level of visual intensity?
+              At the low end we might place a conventional essay or report, which submerges
+          explanations   and arguments       in continuous   text,   or a novel   with   its symbols,
+          metaphors, and complex narrative strands that readers must extract from seamless
+          blocks of text (Bernhardt, 1986; Herrstrom, 1984). Still, even a novel relies on spa-
+          tial segmentation—books, chapters, paragraphs—to signal transitions in place, time,
+          and voice (Sterne even includes his own diagrams). The low end of the continuum
+          calls for something far less visual: ideally, a string of unembellished signs flowing in a
+          single direction, unrestricted by margins or pages. Rendering the text entirely in up-
+          per case and eliminating punctuation would further reduce visual dependency. The
+          reader would then have no sense of spatial direction other than the syntactic rela-
+          tions of linguistic signals. Like a message moving across a video screen in an airport,
+          the text would approximate the perceptual impermanence of an utterance.
+               At the high end of the visual continuum, designing and seeing assume a far
+          greater role in shaping and receiving the message. As text is segmented into chunks,
+          chunks into lists, and lists into matrices, charts, and diagrams, words become “thing-
+           like” (Ong, 1982) entities transfixed spatially and graphically (through line work, ar-
+           rows, geometric forms) on the page. Even more thing-like and reliant on visual inspec-
+           tion are representative images—for example, a picture in a proposal of key employees
+           seated around a conference table. Still, visual intensity does not necessarily depend on
+           realism because messages can be purely visual but abstract. For example, to show the
+           enrollment patterns of a college, I can use pictures of each class or even of each stu-
+           dent (achieving optimum realism), but a bar chart or a line graph would display the
+           trends more clearly and concisely and with greater visual immediacy.
+                Thus on one end of the spectrum we might place a purely (or as pure as possible,
+           given that it must be seen) linguistic message, on the other end a purely visual mes-
+           sage which defies simple translation into words. However, the conditions for the ex-
+           tremes rarely obtain: most business documents are visual hybrids. When transferred
+           to the page, the linear message flashing across the screen undergoes a visual metamor-
+         Kostelnick   = A Systematic Approach to Visual Language in Business Communication       273
+
+
+phosis: words are shaped by a type style, underlined, thickened, segmented into lines,
+distributed vertically and horizontally across the page, and circumscribed by graphic
+marks. The picture of the employees at the conference table, on the other hand, can
+be reduced to a line drawing, a plan view of the office, a corporate logo, or a series of
+abstract marks, each of which (including a color photo) may depend on linguistic
+coding to make any sense. And so inside the extremes of the continuum occurs a vast
+intermingling of visual signs, and of the visual and the verbal. Like a chemical reac-
+tion, the signs are interdependent: different combinations alter the visual effects of
+individual signs, which collectively alter the meaning of the message. Because these
+combinations are bound perceptually and rhetorically to context,
+
+
+
+
+A SCHEMA OF VISUAL LANGUAGE
+What, then, are the  constituent elements of visual language? First, we need to define
+the coding modes that comprise the raw materials of visual language; and second, the
+levels at which the modes operate within actual documents.
+     Visual language can be encoded in three modes:
+
+
+
+
+     ©     Spe                          phe                9olic   and graphic
+                                                                             signs acrossa
+         plane, creating visual syntax among textual or graphic particles.
+     These coding modes are integrated on four distinct levels: intra-, inter-, extra-,
+and supra-textual. Together these four levels and three modes comprise a 12-cell
+schema of visual language.!
+     The Intra-textual level (cells 1-3) is coded primarily in the alphanumeric/sym-
+bolic mode and controls the local form, size, posture, and embellishment of textual
+elements. Consider the following sample of text:
+    During the past month, our clientele in each region has increased as follows: East Region,
+    31 clients; South Region, 40 clients; and West Region, 25 clients.
+
+    In the alphanumeric/symbolic mode (cell 1), I can select a typeface with or with-
+out serifs, change the thickness (bold, light) or posture (e.g., italics) of the typeface,
+choose upper or lower case, and use symbols (&, $, #) in place of words; in the spatial
+mode (cell 2), enlarge or shrink the type size, choose the linear spacing between
+characters and words (12 pitch; 10 CPI; tight or loose spacing, kerning); and in the
+eraphic mode (cell 3) use marks to regulate the linear flow of text (commas, periods,
+colons) or to emphasize key ideas (underlining), or transform letters into expressive
+274   Chapter 6 =   Professional Writers Produce User-Centered Documents
+
+
+
+                                A 12-Cell Schema of Visual Communication:
+                                    Four Levels and Three Coding Modes
+                  Alphanumeric/Symbolic                   Spatial                    Graphic
+                     ]                              2                          3
+                    micro-level textual form:       local spacing be-          marks: punctua-
+          Intra     style, size, weight, and pos-   tween characters           tion, underscoring;
+                    ture of letters, numbers,       and textual particles:     iconicity of letters
+                    and symbols                     CPI, picas, kerning        and words
+
+                    4                               5)                         6
+                    serial and segmenting de-       vertical/horizontal        cueing devices:
+          Inter     vices: headings, letters,       arrangement of text:       bullets, icons; syn-
+                    numbers; typestyle varia-       line endings, inden-       tactic devices: line
+                    tions showing textual           tation; lists, matrices,   work and arrows
+                    structure                       trees, flow diagrams       on tables, charts,
+                                                                               diagrams
+                    7
+                                                    8                          9
+                    decoding devices: legends,      configuration of           schematic: lines,
+          Extra     captions, labels, numerical     schematic and picto-       tones, colors, and
+                    description of data             rial sign systems;         textures on data
+                                                    plotting of data on X-     displays; pictorial:
+                                                    Y axes, circles, other     resolution of de-
+                                                    forms; depth of pic-       tails on images,
+                                                    torial images              abstract to realistic
+
+                     10                             ll                         2
+                     macro-level serial and seg-    cohesion of entire         coding marks uni-
+          Supra      menting devices: section       document over sev-         fying pages or sec-
+                    titles, numbers; page           eral planes: page          tions of text: line
+                     headers, pagination            breaks, size; location     work, color, icons,
+                                                    of extra-textuals          logas, tabs
+                                                    within text
+
+
+
+
+          icons. Intra-textual choices, therefore, regulate thousands of points on a plane: given
+          only the common variations in each coding mode cited above, the possible permuta-
+          tions of our sample easily number in the thousands! Intra-textual choices can be local
+           (a word in boldface) or global (a type size for an entire text), but are essentially a one-
+          dimensional, point-by-point regulation of text.
+               The Inter-textual level (cells 4-6) is coded primarily in the spatial mode, generat-
+          ing visual cues that enable readers to search for and retrieve information. Distributed
+          horizontally and vertically on an invisible two-dimensional grid, a seamless text can
+          be transformed into a highly variegated system “surfacing” (Herrstrom, 1984, p. 229)
+          textual structure.’ In our sample, of course, some inter-textual decisions had already
+      Kostelnick   = A Systematic Approach to Visual Language in Business Communication        275
+
+
+been made: the movement of the text linearly to the right, the line break and contin-
+uation below and to the left, the distance between lines. We can introduce numerous
+other inter-textual elements to reshape the text:
+    5. During the past month, our clientele in each region has increased as follows:
+       e East Region, 31 clients
+       ¢ South Region, 40 clients
+       ¢ West Region, 25 clients
+
+In the alphanumeric/symbolic mode (cell 4), “5.” cues us that the statement is part of
+a series; headings, roman numerals, initial letters, and symbols are also serial devices.
+Spatially (cell 5), the second half of the text is segmented into units and aligned ver-
+tically as a list. Graphically (cell 6), bullets identify each item in the secondary series.
+In more dynamic inter-textual configurations—tables, matrices, flow charts, decision
+trees—spatial coding (the positioning of words and figures) creates a visual syntax,
+and graphic cues (arrows, lines, geometric shapes) form a system of “macro-punctua-
+tion” (Waller, 1980), among textual particles.
+     The division between the inter- and extra-textual levels is subtle but perceptu-
+ally and semantically critical. The two examples below can illustrate the distinction:
+
+
+                   PLAN                            PLAN
+
+
+Except for the spatial positioning of “PLAN,” both messages use similar visual lan-
+guage. But their meanings and visual codes differ radically. On the left, the textual
+particle “PLAN” (cell 5) is circumscribed graphically (cell 6), indicating one of per-
+haps several functions in a decision-making process. Framed and embellished, the
+word is the thing-like center of attention, like the word STOP on a road sign. The
+same applies to textual particles in tables, matrices, flow charts, decision trees, and so
+on: all are inter-textual arrangements, simply at a higher level of intensity than a
+seamless essay. In the example on the right, however, the textual particle is merely a
+tag (cell 7) identifying an image (a plan of an office, a desk, a post card) coded spa-
+tially (cell 8: top view, proportional to the real thing) and graphically (cell 9: outlin-
+ing the perimeter). Alternatively, the image may be nonrealistic, representing a
+quantity, say the dollar amount or time in hours of generating a plan (as opposed to
+other costs). In either case, textual elements assist the decoding of the message (leg-
+ends, labels, captions), but information is processed primarily through seeing rather
+than reading. In the right-hand example, “PLAN” is useful for decoding the message
+but secondary to the visual image, which stands outside the text.
+    The Extra-textual level (cells 7-9), therefore, may rely on the alphanumeric/sym-
+bolic mode for interpretation, but coding is primarily spatial and graphic. Sign sys-
+tems range in level of abstraction from pictorial (low level of abstraction—pho-
+tographs, renderings) to schematic (high level of abstraction—logos, graphs,
+diagrams; see Twyman 1979). Below, the data in our sample message are displayed
+schematically:
+276   Chapter 6 ®   Professional Writers Produce User-Centered          Documents
+
+
+
+
+                      During the past month, our clientele in each region has increased as follows:
+
+
+
+                                   40
+
+                                   30
+
+                                   20
+
+                                   10
+
+
+                                                 East       South        West
+
+
+
+          Alphanumeric signs (cell 7) encode the X axis with geographic locations, the Y axis
+          with figures; spatially (cell 8), plotting the data on the grid determines the vertical dis-
+          tance between figures and the horizontal distance between regions; graphically (cell
+          9), shaded bars encode the data, lines locate the axes, and tick marks gauge the scale.
+          All of the coding modes are open to variation. “East” can be simplified to “E,” and fig-
+          ures on the Y axis replaced by exact values above each bar. Spatially, the distances be-
+          tween values and between regions can be increased or decreased, or the axis shifted 90
+          degrees so the bars run horizontally. Graphically, the bars can be cross-hatched, col-
+          ored, or changed to simple lines, and the tick marks replaced by a light grid.
+              If the extra-textual were pictorial rather than schematic, the same                     variables
+          would come into play: spatially, the image of the employees at a conference table can
+          be close or distant or rotated at different angles from the real thing; graphically, it can
+          be coded at a high level of realism (with plenty of surface details, down to the wood
+          grain on the table) or reduced to an abstract stick drawing or a stylized logo. The cod-
+          ing choices for either schematics or pictorials are interdependent: the graphic coding
+          of a logo may flatten an image spatially; the spatial coding of data on a bar chart may
+          restrict the range of graphic choices. Like the intra- and inter-textual levels, visual
+          language at the extra-textual level depends on the contextual variables of the system.
+               The Supra-textual level (cells 10-12), like the inter-textual, operates chiefly in
+          the spatial mode, though on a more global scale, arranging extra-textuals (graphs, pie
+          charts, pictures) within the text and regulating the flow from one page or section
+          (paragraph breaks at the bottom of the page; breaks between parts of a report) to the
+          next to create a coherent document. For example, in the last version of our sample,
+          the spatial mode (cell 11) locates the extra-textual relative to the text (“During the
+          past month. . .”): centered directly beneath the text, or to the left or to the right; or
+          isolated on a separate page in close proximity or in an appendix. In the alphanumeric
+          mode (cell 10), supra-textual elements include segmenting and serial devices (page
+          headers, section titles, pagination); for example, I could label the bar graph in the
+          sample “Figure 6,” indicating a supra-textual relation with the other extra-textuals in
+          the document. In the graphic mode cohesive devices—line work, page color, logos—
+          unify sections of a document, providing visual markers for readers. In our example, a
+          line border around the bar chart would further demarcate the transition from text to
+       Kostelnick   » A Systematic Approach   to Visual Language in Business Communication      277
+
+
+extra-text. By mapping out the terrain, the supra-textual level controls the three-di-
+mensional configuration of the document, enabling readers to comprehend its logic
+and hierarchy and to retrieve essential information.
+     Each document blends the coding modes and levels into an idiosyncratic visual
+system incorporating most of the cells on the matrix. Consider the visual choices for
+a simple analytical memo report. At the intra-textual level, typefaces, point sizes (cell
+1), spacing (cell 2), and graphic cues (cell 3), selected from a menu of computer-gen-
+erated options, create interest and emphasis and regulate the intra-linear flow of
+signs. At the inter-textual level, headings (cell 4), indentation, and vertical spacing
+(cell 5) structure the text, and graphic coding around textual particles (cell 6) forms
+tables and matrices. At the extra-textual level, spatial coding distributes data
+(monthly sales figures, production costs) on a grid (cell 8), graphic coding records
+data with shaded bars (cell 9), and alphanumeric coding (cell 7) explains each vari-
+able. At the supra-textual level, pages are numbered and labeled with subject, date,
+author, and number (cell 10), composed spatially to locate the bar charts within the
+text and to ensure continuous flow from page to page (cell 11), and coded with icons,
+colors, tabs, or separate pages (blank or titled) to differentiate sections of the report
+(cell 12).
+
+
+age                                          ualities GR        1969). Hence, ane (eet
+and coding modes are fe Paeadens The cell 1 selection of a type size, posture, and
+style expands or contracts the document and therefore has supra-textual conse-
+quences. Conversely, a cell 11 decision to write a “one-page resume” impinges on in-
+tra- and inter-textual choices. The cell 4 decision to deploy a variety of headings may
+require cell 1 assistance to establish a hierarchy. The spatial and graphic coding of a
+bar chart (cells 8, 9) influence supra-textual page design. Choices for each coding
+mode and level, therefore, are contingent upon other choices.
+    The 12-cell matrix opens up these choices to public purview, enabling us to de-
+scribe how visual elements coalesce to form coherent systems. J                 riting   sit-
+
+
+                                    goals. To the extent that the oA on Ss matrix
+compose an integrated system dias contributes to the purpose of the message, the
+document obtains a certain level of visual sophistication or intensity.
+
+
+
+INFORMATION DESIGN: TOWARD A
+FUNCTIONAL VISUAL LANGUAGE
+Of course not all visual systems succeed in eau                 the reader. What makes
+visual language                                                           it, ef
+278   Chapter 6 ® Professional Writers Produce User-Centered Documents
+
+
+          visual language should    be      vals And on an idiomatic ‘and conventional level, it
+          usually is: words ordinarily flow horizontally across the page; letters have signature
+          blocks; bars on graphs stand for measured units. These generic conventions enable
+          the reader to place visual codes into the slots of mental schemata (see Schumacher,
+          1981). A one-page document that follows the conventions of a letter and arrives in
+          an envelope with a booklet “fits” nicely into the slot of “cover letter,” a persuasive
+          message, widely distributed, that entices the reader to examine an accompanying
+          document. On the other hand, a letter set of boustrophedon (as the ox plows, back
+          and forth), or horizontally across the length of the page, poses an obvious “misfit”
+          most readers. By activating schemata, generic conventions foster reader expectations
+          about the whole message.
+              Visual conventions, however, define only general patterns, change over time and
+          from one discourse community or culture to another, and may not provide the opti-
+          mum visual patterns for information processing.   To compensate for these shortcom-
+
+
+          search, nfCHBHOR Hes pn uponeee pea                                      ee percep-
+          tion, educational and cognitive psychology, and semiotics—to discover reader-ori-
+          ented visual patterns for many of the levels and coding modes on the matrix.
+               From the outset, the information design movement sought to create a modern,
+          rational, ideologically free system of signs accessible to a mass audience. Its intellec-
+          tual roots can be traced to the functional modernism of the Bauhaus in the 20’s
+          (Kinross, 1985) and indirectly to the visual dynamism of Futurist and Constructivist
+          text displays. Each of these movements experimented with radically new modes of vi-
+          sual design, emphasizing clean, nontraditional forms and typefaces compatible with
+          Machine Age technology (see Crouwel, 1979). Together these fresh approaches to
+          textual display and image-making provided an aesthetic and functional springboard
+          for early information designers. For example, Neurath’s “isotype” (international sys-
+          tem of picture education) symbols epitomized the quest for a rational, cross-cultural
+          language of extra-textual signs for displaying quantitative data. After World War II
+          the search for simple, universal, and technically precise forms continued in the in-
+          vention of typeface systems, for example the serifless Univers style (Kinross, pp. 23 &
+          27). On a supra-textual level, the appeal to the universal was reinforced by the laws
+          of gestalt psychology (similarity, good figure, equilibrium), which transcended style
+          and culture by codifying perceptual experiences detached from language or ideology.
+
+
+
+
+             eorists and practitioners ¢continue to develop and test methods for functional de-
+           signs. On the inter-textual level, Hartley (1985), Wright (1977), and several others
+           have devised methods of employing headings, vertical spacing, and graphic cues to
+           surface discourse visually, while Horn (1982) has codified these elements into a com-
+           prehensive system of “structured writing.” On the extra-textual level, Tufte (1983)
+           and Bertin (1981) apply functionalist principles to the visual display of quantitative
+           data. Both advocate economy through density, arguing that graphs and charts should
+       Kostelnick   = A Systematic Approach to Visual Language in Business Communication    279
+
+
+display the maximum information in the smallest space with the least ink. Bertin in-
+vokes semiotic theory to define visual clarity: graphic sign systems should be “mono-
+semic” (pp. 177-179), the relations among signs conveying a single, unambiguous
+meaning. Consistent with its functionalist tradition, contemporary information design
+theory values economy, objectivity, and semantic and structural transparency.
+     Further supporting the functionalist approach are a wealth of empirical studies
+aimed at identifying optimum visual displays. At the intra-textual level, Tinker (1963)
+found that type sizes between 9 and 12 point maximize reading efficiency, lower case
+letters are more readable than upper case, and excessive italic print reduces legibility.
+On the inter-textual level, Hartley (1984) has studied, with mixed results, the effects
+of horizontal and vertical structuring of text on readability, while Hartley and
+Trueman (1985) have shown, through extensive experiments, that headings improve
+reader performance. Wright (1968) experimented with the spatial configurations of ta-
+bles, finding that users of currency conversion tables perform better with redundant
+lists than with matrices. On the extra-textual level, Macdonald-Ross (1977) summa-
+rized over five decades of empirical research on the graphic display of quantitative
+data, concluding for example that horizontal bars are superior to unkeyed circles.
+Psychologists have studied the effects of spatial depth and degree of graphic Ce in
+the Eons of representative images (Perkins, 1980). oe ois tha
+
+
+              At the supra-textual level, guidelines can be Hence from RE
+brain research (see, for example, Welford, 1984). Because readers process visual infor-
+mation more effectively in the right brain (the left field of vision),       pi
+
+        any of the empirical findings and theoretical positions cited above presume a
+universal reader performing generic, noncontextual tasks. Wright (1977) sums up the
+empiricist’s dilemma: “Researchers often consider themselves free to ask if format A is
+better than format B, without needing to specify better for what?” (p. 112). Some of
+the findings—in particular, those of Hartley and Wright—are user-centered and tied
+to specific audiences and contexts. Wright’s experiments with tabular displays are
+bound to the readers’ experience with visual arrangements of figures, the situation in
+which the display is used, and the readers’ familiarity with the subject. Many case
+studies of public documents are contextually sensitive to the special needs posed by
+audience and situation. Such studies entail pretesting and interviewing during the
+design process to assure quality control and to convert visual language to a “plain
+English” style intelligible to the nonspecialist    (Redish, Felker, and Rose,     1981;
+Wright, 1979).
+     The functional guidelines of the information design movement, therefore, spec-
+ify which configurations afford the most efficient processing of information, enabling
+us to engineer clear visual conduits.                        nati    rivileges functi
+                       as the Bauhaus did.
+
+                   . By melding text and form, the information design movement revo-
+ utionized  the visual  language of texts and made design a bona fide part of the cre-
+ative process, from planning to production.
+280   Chapter 6 ®   Professional Writers Produce User-Centered Documents
+
+
+
+
+          THE MYTH OF RHETORICAL NEUTRALITY
+          Ideally, information design deploys visual language to ensure an unadulterated chan-
+          nel between sender and receiver. However, visual elements themselves—especially in
+          business messages—obtain meaning beyond the simple transfer of information.
+          “Pure’ information,” asserts Bonsiepe (1965), “exists for the designer only in arid ab-
+          straction. As soon as he begins to give it concrete shape, to bring it within the range
+          of experience, the process of rhetorical infiltration begins” (p. 30). Simply put, a
+          “thetoric of neutrality” is a “pipe-dream,” for even the mundane visual language of a
+          train timetable has a certain rhetorical force, intended or not, that affects the reader’s
+          judgment (Kinross).
+               This rhetorical “infiltration” stems partly from taste and cultural values. Futurist
+          and Constructivist text displays, the forerunners of information design, were consid-
+          ered iconoclastic when they first appeared; today they seem modern but passé. Then
+          as now, they relinquish any clams to neutrality. The Machine Age modernism of the
+          information design movement also constitutes a style—streamlined, simple, and low-
+          key—but also subject to the vicissitudes of intellectual and aesthetic favor, and hence
+          anything but “objective.”4 The invention and evolution of styles continually trans-
+          form taste and perception, in art and in business communication. An early corporate
+          logo, letterhead, or trademark juxtaposed to its contemporary version demonstrates
+          the visual distance between past and present, and presages future recreation.
+               Technology also influences the rhetoric of visual language. At the outset of the
+          century most texts were handwritten in one of four styles: business, civil service, text,
+          or legal. The appearance of the typewriter transformed “micro-level” (Waller, 1980)
+          visual choices, forcing characters into uniform, equally spaced units on a grid and ini-
+          tiating a whole new set of intra- and inter-textual conventions (Walker, 1984).
+          Ninety years ago a letter done in business script would have signaled the nature of the
+          message but otherwise attracted little attention. Today it would totally alter the
+          rhetoric of the communication: the writer would suffer (an entry-level application
+           letter) or benefit (a letter from a CEO to a consumer) from the unorthodox visual
+          coding.
+               Cultural and technological changes are long-term, evolutionary tendencies that
+          gradually modify the shared perception of large discourse communities. The choices
+          business communicators make everyday are highly contextual and vary from one au-
+          dience and visual system to another. Information design can weed out perceptually
+          poor choices—illegible type styles, line spacing, and data displays—but cannot nec-
+          essarily prescribe rhetorically appropriate choices governing the arrangement, style,
+          or tone of a particular document.
+               For example, Tinker found that many common typefaces were equally legible but
+          that readers preferred some faces over others. The “atmosphere value” or “semantic
+          quality” of er acu 1982) opens its door to Se                          and HOSEA
+
+
+
+           ofa pegs cananne a major impact on ae rhetoric of a message. For an informal
+           message to a co-worker, a handwritten note or a dot-matrix printout reinforces the fa-
+           miliar tone and transience of the document. However, a manager (one that values
+      Kostelnick   = A Systematic Approach   to Visual Language in Business Communication   281
+
+
+job security) submitting an annual report to a board of directors or a proposal to a
+government agency will specify a typeface that projects credibility and permanence.
+     Although technical capability helps, visual rhetoric is not necessarily con-
+strained by available technology. Direct mail sales letters use typewritten serif styles
+even though virtually any typeface could be used, given the bulk printing. Indeed, to
+make messages appear more spontaneous, senders frequently underline key points
+with insouciant strokes of the pen (in red ink) to personalize the visual style. Urgent
+messages (e.g., collections) are customarily typed entirely in upper case, sacrificing
+legibility for a more official, authoritarian tone. These choices may seem trivial and
+subjective, but they are made for rhetorically sound reasons. Add to these variations
+the ability to highlight text with boldface and multiple fonts and point sizes now
+commonly available in desk-top printers, the business communicator will experience
+far greater freedom to adapt intra-textual tone and style to the rhetorical task.
+     The same holds for information design on any level of the matrix. Inter-textual
+structuring—headings, vertical spacing, graphic cues—has rhetorical consequences,
+surfacing certain aspects of the message while embedding others. Opening up a text
+with spatial and graphic coding is equivalent to persuading visually, impelling readers
+to value selected pieces of information and to acquiesce to logical and hierarchical
+connections that make them cohere visually. In the second version of our sample
+text, the list with bullets establishes visual parallelism among the three regions.
+Perhaps the West Region is new and the writer wants to emphasize its status as a full
+and equal sector. Perhaps isolating these elements argues that the vice-president for
+sales is doing satisfactorily in all regions, or that by comparison the West Region is
+faltering, or that more employees should be hired in the South. Depending on the
+context, selective textual surfacing advances the writer’s argument. In an extremely
+sensitive message (a performance appraisal), the writer may even eschew any sort of
+inter-textual variation to embed key information, sacrificing legibility to maintain
+rhetorical integrity.
+     The third version of our sample detaches the data from the text, reshapes them
+graphically, and tells the reader in a resonant voice: “Here are the facts, bare and ir-
+refutable!” The visual style, bordering on hyperbole, can of course be modified.
+Spatially, the bars can be extended or contracted on the grid, the graphic coding or-
+namented or streamlined, the alphanumeric coding expanded—depending on the de-
+signer’s argument and rhetorical stance. The differences among regions can be accen-
+tuated or diminished, the graph made to appear scientific or aesthetically pleasing,
+clumsy or self-serving. Any of these effects influences the reader’s impression of the
+data as well as of the author’s integrity and is far from neutral. Even acquiescing to
+someone else’s configuration of the data is still to choose, and the reader to receive,
+the visual rhetoric of the message.
+     Together these choices coalesce to drive the visual rhetoric of the document.
+Consider the range of visual decisions that go into an annual report to stockholders:
+the company logo, charts and graphs to display sales and production figures; a plan
+and line drawing of a new plant; photographs introducing board members; and tex-
+tual displays of expenses, revenues, and earnings. Along with these are numerous
+supra-textual decisions regarding the location of extra-textuals, the size and number
+of pages, and graphic cues such as color and line work intended to coordinate the
+whole document, add interest to complex data, instill confidence in investors, and
+282   Chapter 6 #   Professional Writers Produce User-Centered Documents
+
+
+
+          accurately project the company’s image (innovative, consumer oriented, high-tech).
+          The visual system is both informational and persuasive, enabling investors to locate
+          pertinent facts and, more importantly, enabling the company to market its perfor-
+          mance. Although annual reports are more complex than everyday messages, main-
+          taining full rhetorical control over any business document requires careful visual
+          planning. In other words, the writer must attend to the visual system during the com-
+          posing process as rhetorical strategies take shape.
+
+
+
+          COORDINATING VISUAL AND VERBAL
+          RHETORIC: A HOLISTIC PROCESS
+                                                     st       ess” (Barton & Barton, 1985) in
+                                                    comp ement, and compensate for one an-
+          other to accomplish the rhetorical goals st the communication. Linguistic invention
+          entails innumerable lexical choices; visual invention Eee from the wealth of
+
+
+          arrang                          9 on. Burne the planning stage of a deat eey a
+          proposa persuading a skeptical reader to act on a recommendation—the visual
+          thetorician considers several options:
+
+               ¢ Stimulate reader interest through a logo, picture, or data display (cells 8, 9) and
+                 through highly variegated inter-textual structure (cells 4, 5, 6).
+               e Surface selected arguments and benefits through intra- and inter-textual varia-
+                 tions (cell 1: boldfacing and all capitals; cell 3: underlining; cell 6: bullets to
+                 highlight items in a list).
+               e Adapt the style of data displays (cells 8-9) to a nonspecialist (cell 7 alphanu-
+                 meric coding), and project a serious tone necessary to engage this reader (cell 1
+                 choice of a typeface; cells 6, 9, 12 graphic coding).
+               ¢ Map out the document with inter- and supra-textual cues (cells 4-6, 10-12)
+                 that guide the busy reader through the information, increasing readability.
+
+               Because these and many other strategies apply to visual as well as verbal problem-
+          solving, early planning synchronizes the two from the start.
+               Early planning also exploits the special rhetorical capabilities of the visual and the
+          verbal. For example, a bar graph can often argue with statistics more clearly and em-
+          phatically than inter-textual displays of figures; a logo can establish the identity of an
+          organization or a project more succinctly and forcefully than an explanatory paragraph.
+          On the other hand, in a sales letter a poetic description of the scenery at a resort may be
+          more provocative than a high resolution photograph, and in a negative recommenda-
+          tion letter a seamless text more tactful than one that is visually transparent.
+               Because the visual and verbal are interdependent, holistic planning enables the
+          writer-designer to monitor the interaction between the two. A highly variegated inter-
+          textual system changes sentence structure and syntax, increasing the frequency of paral-
+          lelism and fragments and eliminating the need for verbal transitions (Bernhardt, 1986).
+          Converting text-bound figures to a data display (as in the third version of our example)
+       Kostelnick   » A Systematic Approach to Visual Language in Business Communication              283
+
+
+contracts and reshapes the text. On the other hand, a complex line graph may require
+textual expansion to highlight and explain key data. Style and tone are also interactive:
+a set of informally written instructions on how to pot plants calls for simple line draw-
+ings, instead of photographs, to illustrate the task; the linguistic tone of a sales letter
+theme or slogan sets the visual tone for images on the envelope and enclosures.
+     Globally, supra-textual decisions can regulate the linguistic evolution of the text.
+Thing-like, the page is a tablet, the writer’s unit of workspace, like an artist’s canvas,
+an architect’s story, or a sculptor’s marble slab. The tablet as visual workspace both
+complicates and simplifies the writer’s task. Some undergraduates struggle to find
+enough material to fill up a “one-page” résumé, while others try desperately to con-
+flate several pages into one. As items are arranged on the tablet, the writer strikes a
+balance between the functional exigencies of information design (the user may give
+the document only a cursory glance) and an appropriate rhetorical stance—the need
+to appear trustworthy, ambitious, successful, and employable. To these ends, elements
+are moved about, sha           ut              inguistically (in phrases and fragments).
+
+
+       isual design, like writing, is a process of discovery. This discovery process occurs
+within and outside the text. Articulating a text with intra- and inter-textual cues—
+typographical variations, paragraph breaks, headings, lists, tables—unfolds and struc-
+tures ideas, enabling the writer to resee the logic of the message. Creating visual clar-
+ity demands clear thinking, and rethinking, about content (Hartley, 1984, p. 502).
+Extra-textuals also act as discovery tools (Bertin, 1981). The process of translating
+data into a visual sign system surfaces patterns and relationships submerged in a table
+of figures. This happens rudimentarily in the third version of our example: the de-
+signer must experiment with graphic and spatial coding to find a rhetorically suitable
+configuration. If we had additional figures—abut client increases in previous periods,
+the clients themselves (individuals, businesses, government agencies), or dollar vol-
+umes per client or region—permuting these data on the X-Y axes would enable us to
+find an insightful pattern. Supple and unpredictable, data displays are powerful dis-
+covery tools, much like freewriting, zero drafting, and outlining.
+
+                         un      5San evolutionary   process   entailing        vention,   revision
+                                                                O          SV
+
+
+                                                      ix.   However, if these elements are to
+be transformed into inventive patterns, they must be treated as bona fide rhetorical
+tools guided by the same strategies that govern the linguistic text. Asserting complete
+
+
+
+
+CONCLUSION
+Business communication is intensely visual: as practitioners, researchers, and instructors
+we are inundated with an array of visible forms. Although we use, teach, and presumably
+value effective visual language, we have no system for describing, analyzing, or evaluat-
+ing it. This is partially because design is viewed as a ready-made set of conventions or as
+284   Chapter 6 ®    Professional Writers Produce User-Centered Documents
+
+
+
+          a task performed by specialists—in either case extrinsic to the writing process. However,
+          in the making of business documents, writing and designing, reading and seeing, are in-
+          terdependent, complementing and impinging on each other to satisfy the goals of the
+          communication. Combined in any business document, the three coding modes and four
+          levels of visual language comprise an integrated system enabling the reader to process in-
+          formation efficiently from the rhetorical perspective the writer intends. Adapting the vi-
+          sual system to the message is essential in business communication because audience and
+          purpose vary from one message to another and because writers have the autonomy to de-
+          sign their own documents.
+               Successful adaptation requires attention to design throughout the writing
+          process. We have only rudimentary knowledge about how visual and verbal thinking
+          interact during this process or how the contextual variables of visual language affect
+          readers. What we do know, instinctively though perhaps unconsciously as members of
+          a “print culture,” is that visual thinking is intrinsic to the discovery and communica-
+          tion of meaning. To use visual language fluently, or to understand its structure and
+          nuances, we must explore it explicitly and systematically, with the same rigorous
+          scrutiny given the linguistic text.
+
+          Notes
+                  1. Twyman (1979) has proposed a graphic schema containing four modes of symboliza-
+              tion and seven methods of configuration. His matrix contains twenty-eight “cells” and
+              classifies primarily spatial variations at the inter- and extra-textual levels.
+                  2. Some of Twyman’s methods of configuration are particularly relevant here: Pure lin-
+              ear (a continuous flowing text; e.g., in circular form), Linear interrupted (conventional
+              text with line breaks), List, Matrix (tables), and Linear branching (a tree, an organiza-
+              tional chart).
+                  3. Design guidelines derived from hemispheric research are contingent upon at least
+              two variables: the kind of information processing required by the task (part-by-part vs.
+              holistic analysis) and the amount of verbal thinking the viewer is doing at the time.
+                    4. See Kinross for a detailed account of the aesthetic and ideological evolution of the
+              information design movement and its claims to rhetorical “neutrality.”
+                  5. The “atmosphere value” of typefaces has long been the subject of study and specula-
+              tion. For example, Ovink experimented with several typefaces used in literature and ad-
+              vertising, grouping their subjective effects under categories such as “luxury/refinement,”
+              “economy/precision,” and “strength.” But the moods and cultural values associated with
+              intra-textual styles can change dramatically: serifless letter forms, which are typically al-
+              lied with modernism, were initially revived in the eighteenth century because they
+              evoked “rugged antiquity” (Spencer, 1969, pp. 29-30).
+
+
+          References
+              Arnheim,      Rudolf (1969). Visual thinking. Berkeley, CA: University of California
+                 Press.
+               Barton, Ben E & Barton, Marthalee S. (1985). Toward a rhetoric of visuals for the
+                  computer era. The Technical Writing Teacher, 12, 126-145.
+               Bartram, David (1982). The perception of semantic quality in type: Differences be-
+                  tween designers and nondesigners. Information Design Journal, 3, 38-50.
+  Kostelnick    = A Systematic Approach      to Visual Language in Business Communication          285
+
+
+Bernhardt,     Stephen     A.   (1986).   Seeing   the    text.    College   Composition     and
+   Communication, 37, 66-78.
+Bertin, Jacques (1981). Graphics and graphic information-processing (William J. Berg
+   and Paul Scott, Trans.). New York: De Gruyter.
+Bonsiepe, Gui (1965). Visual/verbal rhetoric. Ulm, 14-16, 23-40.
+Crouwel, Wim (1979). Typography: A technique of making a text ‘legible.’ In Paul
+   Kolers,   Merald   E. Wrolstad,    and Herman      Bouma       (Eds.), Processing of Visible
+   Language, (1, pp. 151-164). New York: Plenum.
+Gelb, I. J. (1980). Principles of writing systems within the frame of visual communi-
+   cation. In Kolers, Wrolstad, and Bouma (2: pp. 7-24).
+Hartley, James (1985). Designing instructional text      (2nd ed.). New York: Nichols.
+Hartley, James (1984). Space and structure in instructional text. In Ronald Easterby
+   and Harm Zwaga (Eds.), Information design (pp. 497-515). New York: Wiley.
+Hartely, James & Trueman, Mark (1985). A research strategy for text designers: The
+   role of headings. Instructional Science, 14, 99-155.
+Herrstrom, David Sten (1984). Technical writing as mapping description onto dia-
+   gram: The graphic paradigms of explanation. Journal of Technical Writing and
+   Communication,     14, 223-240.
+Horn, Robert E. (1982). Structured writing and text design. In David H. Jonassen
+   (Ed.), The technology of text (pp. 341-365). Englewood Cliffs, NJ: Educational
+   Technology Publications.
+Kinross, Robin (1985). The rhetoric of neutrality. Design Issues, 2(2), 18-30.
+Macdonald-Ross, Michael (1977). How numbers are shown: A review of research on
+   the presentation      of quantitative data in texts. AV Communication           Review,   25,
+   359-409.
+Ong, Walter (1982). Orality and literacy: The technologizing of the word. New York:
+   Methuen.
+Perkins, D. N. (1980). Pictures and the real thing. In Kolers, Wrolstad, and Bouma
+   (2, pp. 259-278).
+Redish, Janice C., Felker, Daniel B., & Rose, Andrew M. (1981). Evaluating the ef-
+   fects of document design principles. Information Design Journal, 2, 236-243.
+Schumacher, Gary M. (1981). Schemata in text processing and design. Information
+   Design Journal, 2, 17-27.
+Spencer, Herbert (1969). The visible word (2nd ed.). New York: Hastings.
+Tinker, Miles (1963). Legibility of print. Ames, [A: lowa State University Press.
+Tufte, Edward (1983). The visual display of quantitative information. Cheshire, CT:
+   Graphics Press.
+Twyman, Michael (1979). A schema for the study of graphic language. In Kolers,
+   Wrolstad, and Bouma (1, pp. 117-150).
+Walker, Sue (1984). How typewriters changed correspondence: An analysis of pre-
+   scription and practice. Visible Language, 18, 102-117.
+Waller, Robert H. W. (1980). Graphic aspects of complex texts: Typography as
+   macro-punctuation. In Kolers, Wrolstad, and Bouma (2, pp. 241-253).
+Welford, A. T. (1984). Theory and application in visual displays. In Easterby and
+   Zwaga (pp. 3-18).
+286   Chapter 6 =      Professional Writers Produce User-Centered Documents
+
+
+
+              Wright, Patricia (1979). The quality control of document design. Information Design
+                 Journal, 1, 33-42.
+              Wright, Patricia (1977). Presenting technical information: A survey of research find-
+                 ings. Instructional Science, 6, 93-134.
+              Wright, Patricia (1968). Using tabulated information. Ergonomics, 11, 331-343.
+
+          DEVELOPING YOUR UNDERSTANDING
+            1. Explain what Kostelnick means when he argues that visual communication has remained
+               “confined to a superficial or decorative rather than a functional or rhetorical role in the
+               communicative process.” Support your explanation with examples you have located, and
+               be prepared to discuss your response and share your examples in class (bring your ex-
+               amples in electronic, transparent, or print-copied versions, depending on the technolo-
+               gies available in your classroom).
+            2. Locate a one-page document and analyze its use of visual language using cells one thru
+               nine of the twelve-cell schema. Be prepared to discuss in class your analysis of any of the
+               nine cells (bring your document example to class in either electronic, transparent, or
+               print-copied versions, depending on the technologies available in your classroom).
+            3. Kostelnick argues that visual language cannot be rhetorically neutral, and yet the informa-
+               tion design movement retains some sense that visual language can be rhetorically neu-
+               tral. Argue why you believe information design/visual language can or cannot be rhetori-
+               cally neutral. Support your position with examples.
+            4. Towards the end of his article, Kostelnick begins using a hyphenated “writer-designer”
+               designation to designate the professional writer. Define the writer-designer’s work (e.g.,
+               work she must attend to, her writing process, who she works with, and her final product)
+               by contrasting it with the non-hyphenated writer's and designer's work.
+
+
+
+
+             Focus on the following terms and concepts while you read through this selection.
+             Understanding these will not only increase your understanding of the selection that fol-
+             lows, but you will find that, because most of these terms or concepts are commonly used
+             in professional writing and rhetoric, understanding them helps you get a better sense of
+             the field itself.
+             1. text
+             2. artifact
+             3. system-centered approach
+             4. user-friendly approach
+             5. user-centered approach
+             6. readability
+             7. iterative design
+                                                        Johnson      #* When All Else Fails, Use the Instructions         287
+
+
+
+    WHEN ALL ELseE Fats, USE THE
+    INSTRUCTIONS: LOCAL KNOWLEDGE,
+    NEGOTIATION, AND THE CONSTRUCTION
+    OF USER-CENTERED COMPUTER
+    DOCUMENTATION
+    ROBERT ‘iJOHNSON
+
+         Consider the “stop print” function in some database programs. You make a
+         mistake or you see that it’s not printing the way you want and you want to
+         kill it. So you quickly open the manual under “print” and look for “stop” and
+         there is nothing. So you look under “k” for “kill”; you even look under “a” for
+         “annihilate.” And there is nothing in the index that tells you how to hike
+         the darned thing stop.
+               There should be a law: ET                           pre «oro
+                                  . I call this law: “No one should be allowed to
+         make menus who hasn’t had to eat off them.”
+                                                             —Ellen Bravo, 9 to 5
+
+
+
+U: of technologies, at one time or another, use some form of written instruc-
+     tions to help guide them through the “correct” procedure of whatever artifact
+they are currently using. Whether we are putting together a barbeque, repairing a bi-
+cycle, tuning a car, or following the directions for taking a medical prescription, we
+often are compelled to consult the instructions: the texts! that contain the knowl-
+edge of what it is that                                                               ut
+                                                                           . Early stud-
+ies of how people comprehend warnin        ns (see Chapanis aes sate ase Ss
+cated that                                    5                                   :
+More recent investigations have demonstrated that the bref om oneal cremareet
+included on drug prescriptions often is not followed correctly, thus leading to possible
+medical complications and potential lawsuits (Williams, et. al. 1995). Clearly, despite
+their ubiquity, written instructions have something less than a glowing reputation.
+     Nevertheless, as much as we may try to avoid them, we simply cannot escape the
+presence of instructional texts in our everyday lives. In some instances, such as those
+involving computer technology, we might not actively seek instructional assistance
+
+Source: Reprinted by permission from User-Centered Technology: A Rhetorical Theory for Computers and Other Mundane
+Artifacts by Robert R. Johnson, the State University of New York Press © 1998, State University of New York. All rights
+reserved.”
+
+  | In this chapter's discussion of instructional documents, “texts” will be used as broadly as possible: printed
+pages, on-line screen information, medicine bottle labels, road signs, explanatory cartoons—anywhere instruc-
+tional material might reside.
+288   Chapter 6    =   Professional Writers Produce User-Centered Documents
+
+
+
+          but it is offered to us anyway. For example, I unexpectedly received the following
+          message while loading a new piece of software on my personal computer:
+
+
+                                              The application “unknown” has
+                                              unexpectedly quit, beceuse an error of
+                                               type 15 occurred.
+
+
+
+
+          Unless I am a super user of the system, or I happen to have an up-to-date definitive
+          reference document explaining all of the error messages of the operating system,
+          there is little useful information contained in this computer displayed “dialogue
+          box.”? It provides no visible knowledge of why the system stopped working or what
+          the error might be. Was it my error or the system’s error? Am I compelled to agree
+          with the machine and just commit myself to agreeing that everything is “OK”? As the
+          authoritative upraised hand might suggest, am I to fear that by choosing “OK” I
+          might be harming the machine or the software? Above all else, if ] attempt the proce-
+          dure again (which | did), and I receive the same message again (which | did), what
+           am I supposed to do?
+                Instructional materials have more far-reaching consequences than merely frus-
+           trating or confounding a user. James Paradis’s study of the litigation that surrounded
+           the operating manual for a direct-acting stud gun is but one example of the legal ram-
+           ifications of written procedures (1991). Such discussions of the legal issues associated
+           with instructions have given me pause as I have gleaned numerous documentation
+           over the course of my research. Possibly the most frightening example was the proce-
+           dure for cleaning a rifle. In the fourth step of the procedure a warning (all in upper
+           case letters) stated:
+                  4. NEVER WORK ON A LOADED GUN!
+
+           It appears that the authors of these instruction assumed the user would make it to
+           step 4—a deadly assumption, given the context.
+                Curiously, with the vast number of texts dedicated to instructing humans how to
+           do, the potential legal problems surrounding them, and the significant effort that sev-
+           eral disciplines have devoted to the study of instructional materials, it is ironic that
+           the reputation of these texts remains so dismal. Try to remember the last time you
+           heard someone say, “Wow! Those were really fantastic instructions!” Chances are you
+           can not recall such a statement, and if you can then it was probably pure sarcasm.
+           Why have instructions received such a “bum rap?” Why are they used only when “all
+           else fails”? Why do instructions seemingly fail to do what they are supposed to do—
+           instruct humans on how to use technologies?
+
+
+            2 The term dialogue box is curious in that it actually represents a monologue presented through the computer.
+           Probably this terminology occurred because the computer has been characterized as an intelligent machine that
+           communicates with people. At the same time, it also appears to be a reflection of a false sense of the reality of
+           human-computer interaction, discussed in chapter 4.
+                                                       Johnson   *   When All Else Fails, Use the Instructions    289
+
+
+     Part of the difficulty with instructional materials is due to their deceptive simplic-
+ity. Instructions are meant to make the assembly or use of an artifact appear simple:
+they are a masking device for the complexity of systems and artifacts. Instructions are
+expected, as the renaissance courtier would have said, to possess Spretzaturra—the abil-
+ity to make the difficult arn mundane. Phi
+                                                                          2    Seager   4%       .
+
+                                                        Ironically, the apparent ease of
+useErie the texts ditplay makes the Geenietenal documents themselves look “easy.”
+They look simple, so they must be simple to write (and simple to use, thus invoking
+the image of “idiot-proofing,” discussed in chapter 3).
+      Further, instructional documents are what visibly reside between the user and the
+black box of technology. Therefore, they play the role of messenger in the transfer of
+the technology to the user and are more apt to be blamed for any breakdowns that oc-
+cur during use because they are present at the moment of frustration or breakdown.
+As such, instructions are intruders into users’ spaces. Humans have a proclivity to ap-
+proach technologies without instructions in hand (literally). We have a strong desire
+to “get going” when we are using new artifacts, and instructional texts only intrude
+on our mission. Technologies are means to our ends, after all, and the activity of using
+instructions can be an additional barrier to achieving our goal. That is, when we use a
+technology we are too busy trying to figure out how the artifact can help us obtain our
+goal, and the instructional document that accompanies the artifact is perceived as a
+time-consuming nuisance.
+    Perhaps, as commonly uae the poor reputation of instructions canEs
+be blamed ¢on bad writing.                      ons te    0ks       aim
+
+         ons. The evidence is £00. strong, however, to blame t                                            writ-
+                                  +m     of unusable      instructions. As I mentioned at the opening
+of this chapter, readers cann often comprehend the syntactic structure of the vocabu-
+lary used in instructional materials, but they cannot complete the intended actions
+that the instructions are meant to support.
+     Indeed, the aforementioned problems contribute to the difficulties we have with
+instructional documents. However, as accurate as these complaints may be, they do
+not actively address the fundamental end of usable documentation: the use of tech-
+nology by users.? Instructions have been written with the artifact or system (or the
+marketing of the artifact or system) as the focus, and the end of written instructions
+has thus been to merely describe the “thingness” or sleekness of artifacts and systems
+instead of their situated use. There is, in short, a deeply imbedded assumption that instruc-
+tional materials are adequate merely because the information is there in either print or on-
+line form. Never mind where or how the instructions will be used, this assumption
+dictates; the fact that users have a text in front of them is enough. Ironically, almost
+insidiously, this assumption places virtually the entire burden of comprehending in-
+structional text on the user.
+     For instance, in a recent study of medical patients, it was concluded that there is
+something akin to a literacy “epidemic” in regard to the information with which peo-
+
+ 3 Here I am referring to the “end” of technology as being in the user—see chapter 2 for an elaboration on this
+concept.
+290   Chapter 6   =   Professional Writers Produce User-Centered Documents
+
+
+
+          ple are provided as they seek medical care. When patients ‘at two large urban hospitals
+          were studied concerning their ability to comprehend written materials provided by
+          medical personnel, it was concluded that many patients suffered from “inadequate
+          functional health literacy” (Williams, et. al., p. 1677). As the researchers explain,
+          “Functional literacy is the ability to use reading, writing, and computational skills at a
+          level adequate to meet the need of everyday situations. Functional literacy varies by
+          context and setting; the skills of a patient may be adequate at home or work, but mar-
+          ginal or inadequate in the health care setting” (pp. 1677-78). In the study, they found
+          that patients had difficulty comprehending, remembering, or acting upon medical in-
+          formation contained on such things as appointment slips, birth control instructions,
+          prescription dosage information, and consent forms. With the exception of the con-
+          sent forms, which the researchers admit are difficult to read due to legal concerns re-
+          garding malpractice (see p. 1681), the study contends that most of the documents used
+          in the study are simple texts that are written at or below a sixth-grade comprehension
+          level. In other words, the assumption here is that regardless of context (even though
+          these authors seem to admit the problem of context in their aforementioned definition
+          of functional literacy) the “medically illiterate” are just plain unable to read and write.
+          I guess the same can be said of the “computer illiterate,” who cannot understand sim-
+          ple texts like the error message shown on page 288. The information from within the
+          medical black box is made visible, but those who cannot comprehend it are illiterate.
+          Heaven forbid that the system should be changed to expose the black box! The
+          knowledge of the Sa is assumed to be correct in the ae Steiner Inaddi-
+
+
+               “User cere is ihe AR ERANE logan Theeuser is relegated to the position of a
+          one-way receiver who has little knowledge of the technology itself or how the tech-
+          nological system might be refigured through an active negotiation of designers, pro-
+          ducers, and users. Instead, the situated activities associated with use are supplanted in
+          favor of the static, correct description of technology, ala the knowledge of the “expert”
+          who designed and developed the artifact. Thus instructional materials have, inno-
+          cently or not, played a significant role in the continuation of the modern technology
+          myth that the role of experts is to invent, while the role of novices is to await, with
+          baited breath, the perfectly designed artifact. The complicity of instructional docu-
+          ments with this top-down, expert-to-novice ideology has a number of crucial ramifi-
+          cations that have been mentioned in previous chapters regarding the determinist
+          tendencies of technology development, the perception of users as “idiots,” and the
+           use of the word “human” in technology development to give credence to technology-
+           driven initiatives. Most obviously, a disproportionate binary is created that at once
+           empowers the developers and disseminators of technology while it disempowers the
+           users who receive the technologies at the end of the production cycle. In this chapter,
+           I will argue that Fragomen                      benmnecenaferbensladsaainal
+          ogy development process. While this in itself is not a revolutionary claim, the conse-
+           quences of this arrangement are substantial.
+
+
+               I have chosen computer documentation as an example of instructional text de-
+           velopment for several reasons. First, the problems associated with instructional text
+                                                   Johnson     ® When All Else Fails, Use the Instructions     291
+
+
+have been magnified as a result of the personal computer. The computer has emerged
+into our culture through numerous contexts, many of which include people who have
+had no previous experience with computer technology. Even though these users may
+be highly educated, they received little, if any, formal instruction concerning com-
+puters in their traditional educational experience. Consequently, computer docu-
+mentation has become the primary vehicle for educating this wide variety of users
+about this rapidly developing technology.
+     Second, computer documentation resides in more than one medium (print and
+on-line forms), and thus further complicates the challenge of user-centered theory.
+Such multiple media involvement opens doors to a number of fascinating and funda-
+mental questions of reading, writing, text design, human comprehension, and the
+concept of self, to name only a few. In particular, the differences in media illuminate
+problems with traditional instructional genres. As we shall see later, traditional gen-
+res often do not address the needs of users in the ever-changing contexts of computer-
+mediated media.
+     Third, computer documentation writing is arguably the largest source of employ-
+ment presently for technical communicators. This in itself offers more than one rea-
+son to seriously pursue computer documentation as it brings to the front questions re-
+garding the practice of writing, the role of writers in industry, and even the position
+of power that technical communicators hold in institutional settings. For instance,
+technical and scientific writers have traditionally been defined by the discipline they
+work within—such as medicine, environmental science, industrial technology, and
+so on. The computer, however, complicates these divisions as many writers now per-
+form functions that were once primarily within the jurisdiction of the computer doc-
+umentation specialist. Most technical and scientific writers, regardless of their spe-
+cialty, write computer-related instructional materials in print and on-line forms
+because their audiences are increasingly using the computer medium as a text.
+     Fourth, computer documentation is a marginalized text in the sphere of academic
+research. By that, I mean it has seldom received the serious theoretical, historical, or
+general scholarly attention that many other forms of texts have received.* Here I am
+not just including literary texts (like novels, poems, short stories, diaries, essays, etc.)
+as the favored sites of analysis, but | also include scientific articles, laboratory reports,
+legal documents, and grant proposals. These texts have been given rigorous attention
+at one time or another by scholars in a variety of disciplines.» Computer documenta-
+tion is one of the most complicated forms of text we possess—both in terms of prod-
+uct and process. It simply deserves a serious analysis apart from the usual “applied”
+discussions that usually revolve around it.®
+     Finally, computer user documentation is a valuable lens, not only for the study of
+the texts themselves but also for studying the users who use them and the constituent
+
+4 The most notable exceptions are studies like Stephen Doheny-Farina’s or Roger Grice’s about documenta-
+tion processes in industry settings.
+ 5 A short list of work done with these other forms of “nonliterary” texts would include Greg Myers’ Writing
+Biology, Bruno Latour and Steve Woolgar’s Laboratory Life, Bazerman’s Shaping Written Knowledge, Yates’
+Control Through Communication, Dorothy Winsors’ (and others) work on the Challenger disaster.
+ 6 Apart from the practical discussions of writing computer documentation, most research using computer doc-
+umentation as a textual “site” has employed it in the service of explaining visual presentation of text (see
+Kalmbach or Koselnick), or as a model of products that exemplify usability methods (see Dumas and Redish).
+292   Chapter 6    =   Professional Writers Produce User-Centered Documents
+
+
+
+          cultures’ that arise/evolve from the activities associated with computer technology. It
+          is, in fact, the social arrangements and processes of computer documentation devel-
+          opment that will provide much of the focus for the upcoming discussion.
+
+
+                In this section, three approaches to computer documentation development will
+          be discussed: system-centered,             user-friendly, and user-centered. These three terms
+          have been borrowed from various places, but the use of them as a taxonomic device
+          to describe computer documentation development processes is my own invention.
+          Therefore, a definition of each term as it applies to the current discussion of computer
+          documentation theory will be provided here.
+
+
+          ARTIFACTS, EXPERTS, AND IDIOTS: THE SYSTEM-CENTERED
+          VIEW OF COMPUTER DOCUMENTATION
+          This view of computer system development has dominated the field of computer sci-
+          ence for many years, and it has driven much of the technological development that
+          computer systems have enjoyed in recent years. The reality that computer systems
+          and applications need user documentation, however, has sprung from the recent phe-
+          nomenon of the microcomputer and the proliferation of end users. System-centered
+          design practices, in contrast, have evolved from an earlier time in computer technol-
+          ogy where users were experts in the use of the systems, thus had little need for in-
+          structional texts in computer usage.
+                  Documentation        that was developed from these system-centered practices was
+          aimed more at the static description of the computer’s components and features than
+          it was at any kind of end use of the computer. A now classic example of this is the
+          huge library of documentation that accompanies UNIX, an operating system for
+          mainframe computers. The documentation for UNIX (both its print library and its
+          cryptic on-line commands and error messages) has been designed from a system-cen-
+          tered perspective that assumes more than a casual familiarity with UNIX. The major
+          sections of Volume 1 of the UNIX documentation (see Figure 6.1) depict the system-
+          centered focus on system features instead of user tasks. The documentation in the sys-
+          tem-centered approach, as exemplified by the UNIX system, is a literal documenting
+          of the static system: a description of the system’s features removed from any context
+
+
+                                                  1. Commands
+                                                  2. System calls
+                                                  3. Subroutines
+                                                  4. Special files
+                                                  5. File formats and conventions
+
+                                              Figure 6.1.    Section headings of a UNIX
+                                              manual.
+
+            7 “Culture” is used broadly here to mean any community that might have common bonds due to context or
+           practice: that is, workplace cultures, classroom cultures, and even electronic cultures such as those emerging
+           from the use of the Internet or other computer networked arrangements.
+                                             Johnson      #   When Ail Else Fails, Use the Instructions   293
+
+
+
+
+                                               The
+                                          Documentation
+
+
+
+
+                                           The Designer
+
+
+
+
+                                              Image of
+                                            the System
+
+
+                                              image of
+                                            the System
+
+
+
+
+     Figure 6.2.   The system-centered view of computer documentation.
+
+
+
+
+of use. The issue of where the computer will be used, who will use it, and for what
+purpose(s) it will be used is assumed in the system-centered view. A consequence of
+this approach for user documentation has been to place user documentation far from
+the center of system development (see Figure ¢ 6.2),
+     = ipicenenenecntilensareineatiGra Ia the needs of the technological system at
+  e                e system as the source of all knowledge pertaining to the de-
+velopment of
+           documentation (as the arrow indicates). This view assumes that it is
+not only focal, but that the system exists before any documentation exists. There is
+no need for the user to have an impact on the central concerns of system develop-
+ment, this black box perspective of technology suggests, because the system is too
+complex and therefore should be designed and developed by experts who know what
+is most appropriate in the system design. The image that radiates from the system and
+eventually finds its way into the documentation, then, is an image that is envisioned
+by the system designer. Consequently, it is commonplace in system-centered com-
+                                                                        to memorize com-
+puter designs to find cryptic error messages, long strings of difficult
+294   Chapter 6   ®   Professional Writers Produce User-Centered Documents
+
+
+
+          mands, and system components hidden from the interface that could prove poten-
+          tially helpful to the uninitiated user.
+               From this designer’s image follows the documentation image of the system. Here the
+          documentation is written (often by the designers themselves, at least in draft form) to
+          reflect what the designer views as the important components of the system. A com-
+          mon practice in this documentation development process is for writers to collect the
+          “knowledge” of the system from the designers through notes written by the designers,
+          or in interviews conducted by the writers. Consequently, the documentation is writ-
+          ten to reflect the image of the system designer (refer to Figure 2.1 for an earlier de-
+          scription of the general system-centered process). The user, then, far removed from
+          the central concerns of the system design, receives documentation that contains a
+          system designer’s image of the system.
+               I should explain that there are few published advocates of a system-centered ap-
+          proach to computer documentation, at least among professional writers.8 Most tech-
+          nical communicators who write computer documentation are concerned with the
+          needs of their audience—users—and therefore would not advocate a view of docu-
+          mentation development that places the user on the periphery. Unfortunately, techni-
+          cal communicators are often forced to be part of the system-centered approach be-
+          cause it is mandated (consciously or unconsciously) by the institution or organization
+          they work within. Consequently, technical communicators write documentation at
+          the end of the system development process and have little choice but to create sys-
+          tem-centered documents.
+              Caught in a loop of technological determinism, system-centered documentation
+          reflects the system designers’ description of the system’s features and its anticipated ac-
+          tions. The users’ views of the system are irrelevant because they are not only figuratively
+          but literally removed from the system development process. System-centered computer
+          documentation has been viewed by developers as a necessary evil that must be created
+          for the “idiots” who cannot figure out the system through their previous knowledge or
+          trial and error. Put simply, system-centered documentation is the result of the deeply
+          embedded dominance of system-centered philosophy in the world of computer technol-
+          ogy development—a view that is far moretechnologically
+                                                        than humanly driven.
+
+
+          TEXTS, READERS, AND “REALITY”: THE USER-FRIENDLY
+          VIEW OF COMPUTER DOCUMENTATION
+           User-friendly is a term that has been applied to technology usage in general (see chap-
+          ter 2). In terms of computer technology, it refers to a computer product that has been
+          Rae as an attempt to fit the product to the background and expectations of the
+           on                iliar icons on the screen to replace strings of commands, the advent of
+                  uter screens that looklike
+                                           the actual printed page (“what-you-see-is-what-you-
+
+
+            8 One published example of a system-centered approach to documentation is Mastering Documentation by
+           Paula Bell and Charlotte Evans. Most system-centered documentation is produced in-house (and thus propri-
+           etary) with little or no published material explaining the process. The main evidence of the system-centered
+           process remains the textual evidence it produces, like the UNIX manuals discussed previously.
+                                                      Johnson      # When Ail Else Fails, Use the Instructions     295
+
+
+get”), and the development of hand-operated pointer devices (i.e.mua                                       dy A
+teplage mostactionsdepe through a keyboard are a few examples of                                   how computer.
+interface designers have begun to make computers more accessible to a larger number
+of t
+     The user-friendly approach to documentation development is characterized by
+an emphasis on the clarity of the verbal text, close attention to structured page de-
+sign, copious use of visuals (often computer “screen shots”), and a warm, sometimes
+even excited tone that “invites” the user to enjoy learning the new computer system
+or software application. On a spectrum that places the system-centered computer
+ documentation         view on one end and user-centered views on the other, the user-
+friendly view would be in the middle, although intruth it is ¢            the user-cen-
+ceugeegess This view has more interest in the user than the system-centered view,
+undoubtedly it has improved the quality of user documents to a great degree. The
+user-friendly view, however, still assumes that the design of computer systems is pri-
+marily the charge of the system designers and developers. That is, the system is as-
+sumed to be complete in the user-friendly approach, and user-friendly documentation
+is viewed as the vehicle for carrying the “reality” of the system image to the user.
+Therefore, user-frien                   dly has most often focused on the ver-
+                          computer documentation
+bal and visual quality of texts that support the descriptionofthe system and the read-
+ability? of the text itself (see Figure 6.3).
+      The user-friendly approach is largely an outgrowth of the intensive work that has
+been carried out in recent years pertaining to document design and readability.
+During the past two decades, document design researchers have argued that docu-
+mentation should be designed in accordance with a process model of document de-
+sign (Felker, 1981), and that the functional nature of the texts should be accounted
+for through careful structuring of their verbal and visual elements. From this perspec-
+tive, the user-friendly development process begins approximately at the same stage of
+the system development represented by the third ring of the system-centered view in
+Figure 6.2: the documentation, or text, image. Consequently, the user-friendly devel-
+opment process concentrates almost solely on text that has been written in accor-
+dance with the system designer’s view of the system where there is little or no early
+user analysis before the documents are drafted. Most of these approaches also lean
+heavily on the traditional genres of user documentation, such as tutorials, user guides,
+reference guides, on-line help, computer-based training, and so on. This focus on text
+is clearly evident in most of the computer documentation textbooks currently on the
+market (Grimm 1984; Price 1993; Brockman 1991; Weiss 1991; Price and Korman
+1993; Low, et. al. 1994),10
+
+
+
+ 9T use the term readability in a strict sense, indicating the use of formal measures of determining the quality
+and comprehensibility of text, such as the Gunning Fog Index or Cloze tests.
+10 [ do not mean to imply that these texts completely ignore the user. Nearly all of the prominent how-to books
+for computer documentation writing include chapters devoted to methods of audience analysis or to brief dis-
+cussions of user testing. The audience analysis methods, however, are usually of the “audience invoked” variety
+(see Ede and Lunsford 1984), which calls for a writer to imagine the needs of the user. User testing is most
+often presented in a late chapter as a way to test already drafted documents.
+296   Chapter 6 = Professional Writers Produce User-Centered Documents
+
+
+
+
+                                                        The
+                                                   Verbal/Visual
+
+
+
+                                                        The
+                                                    Readability
+
+
+
+
+                                                     Design of
+                                                      the Text
+
+
+
+
+               Figure 6.3. The user-friendly view of computer documentation.
+
+
+
+
+                Radiating from this central concern of the text lies the readability of the text.
+           The user-friendly approach emphasizes the importance of reader comprehension and
+           learning and often advocates either readability measures or the results of previous
+           readability tests to measure the validity of the texts that they are developing (see
+           Duffy 1985 or Duin 1989). Great importance is placed on the coordination between
+           the verbal and visual elements of user documents (as seen in the third ring of the
+           user-friendly view, Figure 6.3). The integration of text and graphic is certainly not
+           new to technical communication, as some of the earliest general technical writing
+           textbooks spent considerable time on this practice (see, for instance, Mills and
+           Walter 1978; Lannon 1997), and it has been the source of much important scholarly
+           work in recent years (see Barton and Barton 1989; Tufte 1983; Killingsworth and
+           Sanders 1988).
+                Finally, the fourth ring of the user-friendly view attempts to account for the user
+           as a reader who is situated in a particular occasion of text usage: readers who have
+           particular needs that can be fulfilled by documents designed to meet that occasion.
+                                                Johnson     #   When All Else Fails, Use the Instructions   297
+
+
+Traditionally, the situation of the reader has been defined in terms of learning or
+doing,!! and the texts that result from this interpretation of the user’s situation fall
+into two categories: those that support learning (i.e., print genres of tutorials, user
+guides; on-line genres of computer-aided training or ERO} and those that support
+doing (i-e., print genres of teference and quick reference; on-line genres like “Help”).
+     The meena approach has many advantages over the system-centered view,
+due to its focus on visual design and the needs of the user as reader: differences that
+have greatly improved the textual quality and user reception of computer user docu-
+ments. The approach is a natural outcome of the historical movement toward creat-
+ing more usable texts. It does, however, have at least two chief drawbacks when ap-
+plied to computer documents. To begin, because                       D >ach isbased onreading, it
+focuses on how well readers comprehend and fol ow                     printed text. Readability re-
+search has become closely linked to the quality of ee          and thus focuses on the
+comprehensibility, organization, coherence, and audience appropriateness of the
+texts’ verbal content (see Duin 1989). This limits the results of such research to pri-
+marily the verbal elements of the text. Some researchers have expanded this view to
+encompass the use of visuals in user documents (Redish 1988), but most have con-
+centrated on the reader’s understanding of the verbal components (Charney, Reder,
+and Wells 1988). Such research yields valuable insights into reader behavior, yet it
+should be questioned in terms of how easily these findings can be transferred to the
+use of other media—primarily the computer screen. It is well known that people do
+not read computer screens as they do printed texts. Eye strain, impatience, poor reso-
+lution, and so on all play a role in the difficulties of reading the computer screen. In
+addition, users are not readers in the sense of using text in a linear fashion (i.e., read-
+ing from sentence > to sentence, page to page, and chapter to chapter). Instead,
+            =          and  jump   from screen to print and back to screen again (Wright
+1983: Salton a oe                ; Hartley 1985).
+    Secondly, user-friendly eae points toward the active engagement between a
+reader and a text (see Charney, Reder, and Wells 1988), but it usually does so outside
+of the context of a user’s actual situation of use. Even though the user-friendly ap-
+proach attempts to account for the reader’s situation (see the fourth ring of Figure
+6.3), such research is often laboratory controlled for the purpose of collecting data
+that can be analyzed under the pressure of statistical significance. Laboratory con-
+trolled conditions cannot adequately reflect the complexity of a user’s actual situation
+(see Duffy 1985), as the social contingencies brought about by organizational or cul-
+tural forces are rarely a focus of this type of research.
+     Let me reiterate that this is not a criticism of user-friendly research per se, be-
+cause such things as readability measures for the specific purposes of determining
+comprehension and memorization of texts can be useful. Instead, | am questioning
+the findings that reader-centered, user-friendly research can bring to the problems of
+designing documentation for user needs. Users often act differently than readers
+(Wright 1989), and a theory of user-centered design should focus on how these differ-
+ences rearrange our view of documentation. This means, for example, that the tradi-
+
+
+1 See Sticht (“Understanding Readers”) and Redish (“Reading To Learn To Do”).
+298   Chapter 6   =» Professional Writers Produce User-Centered Documents
+
+
+
+          tional guidelines regarding the verbal and visual integration of text might be rede-
+          fined to meet the needs of the multimedia of user documentation. The medium can
+          cause differences in the use of visuals, the format of the written components, and the
+          quantity of information to be contained on each page or screen (see Bernhardt 1993).
+              To build upon and then move beyond user-friendly conceptions of user docu-
+          ments—toward a user-centered Sua tee in Bae to Su                ee the docu-
+          mentation production process. Instead                of   lo      at    users as b                      Bare
+          ers of text, user-centered design must ask siiestions ofme user’s situation, |sare
+                                                                                          medium
+          of the documentation, and the organizational  and‘cultural constraints placed upon
+          the user and the |    ments. As I have already said, seaman
+         friend                      iven by traditional conceptions of reading, and,as the fol-
+          lowing discussion of theaR              view will emphasize once again, users are not
+          just involved with the act of reading. Instead, they are involved in a complex of dis-
+          course that incorporates reading as one of a host of communication, social, and tech-
+          nology interactions.                                              eet, -
+
+
+          CONTEXT, NEGOTIATION, AND THE MEDIUM: THE USER-
+          CENTERED VIEW OF COMPUTER DOCUMENTATION
+          The user-centered view is philosophically and practically at the opposite end of the
+          spectrum from the system-centered view. The philosophy of user-centered computer
+          documentation places the user at the center, thus arguing for the user as the driving
+          force in the process (see Figure 6.4). By placing users at the center of the approach,
+          neither the text nor the system are domina nt features as they were in the other views.
+          Instead, the focus of documentation development is placed on the user. In addition,
+          this view envisions the user as situated in a particular time and place: the user is not
+          using the documentation to learn software abstractly, but rather is learning the com-
+          puter application for a specific purpose or purposes. !2
+               The core of the user-centered view, then, is the localized situation within which
+           the user resides. For example, a computer user may be using a word processor to com-
+           plete his or her work. The act of using the word processor, however, is not a localized
+           activity but rather a generalized description of what the user is doing. A localized de-
+           scription of the user’s situation attempts to explain the specific work-related activity
+           that the user is involved with, such as the role that the user holds in an organization
+           or institution. Thus, the localized user of a word processor would be described     as a
+           “bookkeeper,” a“teacher,” “a
+                                     “a nurse,”“adocumentation writer,”
+                                                                  and so on. The spe-
+           cific nature of users’ work, then, drives documentation that is customized to the con-
+           text of use instead of generically explained to a universal user who is the construct of
+
+
+
+           12 | should emphasize here the approach that I am advocating is primarily suited to computer users who are
+           conducting what Bodker would call “purposive human work” (Through the Interface, 1991). It also is akin to the
+           philosophy of work-oriented design of computer artifacts as described by Ehn (1988) and others of the
+           “Scandinavian Approach” to technology design (see chapter 4). Thus, the computer documentation I will fo-
+           cus on will primarily be for users involved in a work activity, not those using computers for entertainment pur-
+           poses.
+                                              Johnson        # When All Else Fails, Use the Instructions   299
+
+
+
+
+                                                 The
+                                           Users' Activity
+
+
+
+                                            The Users'
+
+
+
+                                                The
+                                              Situated
+                                                User
+
+
+
+
+                                              with the
+                                              Medium
+
+
+
+
+                                              of the
+                                          Documentation
+                                              Medium
+
+
+
+     Figure 6.4.   The user-centered view of computer documentation.
+
+
+
+a writer's ae      eos: The focus on the users’ situation also nudges
+                                                                 the writer away
+          mr           emphasis
+                           on the medium (which is still a very crucial component,
+as we shall see), and instead forces an analysis of the user as being central to the doc-
+umentation process. This removes the writer from a premature preoccupation with
+the drafted document, as can be the case with readability or late-in-the-process us-
+ability tests where there is typically a relatively complete document in existence.
+     The user-centered view continues outward by taking into account the tasks and —
+actions the user will be performing as a result of the users’ situation (see the second
+ring of Figure 6.4). The focus on tasks within the user’s context separates this ap-
+proach from the system-centered approach, because the use of the computer is por-
+trayed through user activity, as opposed to system features or system actions. A user-
+centered interpretation of a user’s use of the word processor would be “writing a
+proposal,” “laying out a page,” or “producing a brochure.” All of these activities could
+be considered “using a word processor,” but the general activity depicted in the center
+of the user-centered scheme is too generic to accurately describe the actual activity of
+the user, especially concerning the documentation that will be written to help the
+300   Chapter 6 =      Professional Writers Produce User-Centered Documents
+
+
+
+          user achieve his or her specific job. A more specific analysis of actual user tasks, as
+          they are conducted within the context of use, is necessary.
+                   | want to make clear that my concept of user tasks is considerably different than
+          has been presented through madisional task analysis (see Bradford 1984; Weiss 1991;
+          Barker 1998). In a traditional task analysis, a writer refigures the description of system
+          actions into a vocabulary that is more relevant to the user's mental model of what the
+          system is doing. Once a hierarchy of overall tasks has been outlined, writers delineate
+          the subtasks that move the user from the start to the completion of the overall tasks.
+          Traditional task analysis, which historically emerged about the same time as user-
+          friendly approaches to computer documentation, was a significant improvement in
+          documentation planning because it forced a user perspective into the system and soft-
+          ware development processes.
+               The dithculty with traditional task analysis in terms of a user-centered perspec-
+          tive, however, is twofold. First, the user is relatively unsituated because, although tra-
+          ditional task analysis does move toward an understanding of user actions, it does so
+          generically, not locally. Based upon a rational description of how the user should act,
+          traditional task analysis merely reflects the anticipated actions of an idealized, logical
+          user. The task analysis approach, in other wonds, is based on determining generalized
+          knowledge that often ignores the local, domain knowledge of the actual, localized
+          USeYV.
+
+              Second, d                           ¢ analysis                      \      The
+          conception of traditional task analysis is embedded in a hyperrational approach to
+
+
+          task analysis is user-friendly, but certainly not user-centered. To avoid the rational
+            -plication of the system's tasks for the purpose of forcing the user to mimic them, the
+          user-centered approach couches tasks within the situation of the user and seeks an-
+          swers to questions like, What tasks will the user be performing within the given situ-
+          ation? Are these tasks truly user tasks, or are they couched within the terminology of
+          system features? Are the tasks placed in an order appropriate to the situation of use?
+               In the user-centered approach, a close analysis of other situations and user tasks
+          goes well beyond describing the rational system-dictated tasks expected of the user.
+          Instead, the analysis attempts to understand the irrational or contingent occurrences
+          that users experience within their local, everyday spaces. For instance, it is important
+          in user-centered documentation to illuminate fundamental characteristics of users’
+          situations to describe those cunning solutions that users have developed for dealing
+          with technology. User knowledge of this sort was discussed in chapter 3 in terms of
+          mets, the ancient Greek conception of the cunning intelligence that users display in
+          everyday contexts. In a similar vein, feminist sociologists have termed this type of
+          knowledge “articulation work,” and as Susan Leigh Star explains, it is a type of
+          knowledge that can only be “captured” through observation of users in their everyday
+          environments, or direct discussion with them in that everyday experience.
+
+                   Articulation work is the work of feting things together in real time in the workplace. . ..
+                   [For example, in a medical setting} Articulation work may mean tending to a patient, re-
+                   pairing a sentimental mistake in a conversation with a family, or finding a substitute im-
+                   plement in the middle of an emergency surgery. You cannot predict ahead of time what
+                                                    Johnson      # When All Else Fails, Use the Instructions       301
+
+      might be needed because, by definition, articulation work is contingent and occurs in
+      “real time.” Some people’s daily work, such as that of secretaries, homeless people, and
+      parents, seems especially rich in articulation. . . . (Epilogue, STS&HYV, p. 504)
+
+To reveal these moments of user knowledge is crucial to documentation. It “gets at”
+the essence of human involvement with technology in a situated way that describes
+the productive nature of user knowledge within context. These moments of metis or
+articulation work depict users producing knowledge, or at least displaying knowledge
+that they themselves have constructed/produced in the past and are now using to per-
+form in the present situation. Such localized, domain knowledge is unaccounted for
+through most computer documentation development processes, and, subsequently,
+the localized cunning knowledge of the work environment fails to surface in the writ-
+ten texts themselves.
+      Beyond the task ring represented in Figure 6.4, before the medium of the docu-
+mentation begins to play a central role in the design of the documentation, is the
+users’ activity with the medium. One of the most complicated aspects of computer doc-
+umentation specifically, and of instructional documents, generally, is that they are
+used in conjunction with the act of using a technological artifact or system. Consequently,
+it is important in user-centered design to determine which medium will best fit the
+particular user situation and tasks. For computers, this distinction has become espe-
+cially relevant since the advent of on-line information and has been the source of nu-
+merous questions for documentation writers. Whether the documentation should be
+delivered in print or on-line is a question asked most often in discussions of docu-
+mentation development. Will the user be better served by a print document, on-line
+document, or both? Will the user be using the medium in a linear or random manner?
+Is the medium capable of providing the user with a familiar model? For example, are
+the on-line system capabilities of the system too embedded within the interface, and
+thus users would be better served by the more familiar medium of print?
+     In addition to a choice of medium, the type of activity that the user is engaged in
+must be assessed. In the Discourse Complex of User-Centered Technology (see chap-
+ter 2) the three general categories of activity were described as doing, learning, and
+producing. In the context of computer documentation, doing describes activities
+where users are not reflecting!3 upon their actions for the sake of long-term retention.
+For instance, intermittent users of a certain piece of software may just want to be “re-
+freshed” concerning the procedures of an action, but they will have little reason to re-
+tain that information because they rarely perform the task. Instructions that support
+the role of doing, then, usually will be less elaborative, more action-centered, and
+highly specific concerning the nature of the users’ situation.
+
+
+13 The term reflection as used here is not meant in any way to indicate that users are unreflective, or that the
+ethics that might be involved with reflection on one’s actions is absent from such a scenario. | merely mean
+that users are doing tasks that must be accomplished and that there is little time for memory retention. A good
+example of this are the pull-down menus of computer interfaces. People often cannot remember under which
+menu item a particular command exists, but once they are placed into a context of use (e.g., they are actually
+using a computer interface) they can immediately go to the correct menu choice. They have not taken the
+time to learn the actual placement of certain commands, but they nevertheless are knowledgeable users of the
+system.
+302   Chapter 6 ®    Professional Writers Produce User-Centered Documents
+
+
+
+               The term learning, in the computer documentation realm, is revised to learning
+          through doing. This change in terminology accounts for the problems associated with
+          learning about computers while simultaneously using the computer: a paradoxical sit-
+          uation where you are compelled to learn (maybe because your job depends upon the
+          new technology), but you are actually more interested in just completing the activity
+          at hand.!4 This complicated paradox of learning and doing is, nevertheless, a real
+          problem for users, especially those who are experiencing electronic technologies as
+          they emerge into existing domains, such as the workplace or classroom. For example,
+          if a medical technician is using a computer for the first time to analyze results of a
+          blood test, then the technician is bringing expert knowledge of one domain (blood
+          test analysis) to a new domain (computer technology) where the technician has little
+          or no knowledge. For a technical writer who is determining what to include in the
+          documentation for the blood test analysis software, it can be unclear which domain of
+          knowledge is affecting any breakdowns that might occur.
+               More importantly, the user (the medical technician in the aforementioned case)
+          is learning to carry out tasks at the same time he or she is doing the tasks. The scenario
+          of this activity would be that the user is, at one moment, using the artifact (the com-
+          puter), “reading”!5 the documentation (print or on-line), and attempting to extrapo-
+          late data that is meaningful in his or her knowledge domain. To account for this com-
+          plex of activity, |have expanded the term learning to learning through doing to better
+          represent the activity that users are engaged in while learning computer software.
+          Documentation is compelled to manage this dichotomy for users through the careful
+          design of print and on-line documents that can accommodate learning and doing si-
+          multaneously.
+               Producing describes two specific activities of users as they are involved with doc-
+          umentation development: activities that are not accounted for in either the system-
+          centered or user-friendly views because neither approach invites actual users into
+          the development process. First of all, users in a user-centered approach actually take
+          part in the production of the documentation. They are involved in such things as
+          initial design planning, iterative evaluation and testing of the documentation or
+          software, and finally the decision making concerning the implementation of the
+          documentation in their respective contexts of use. Second, users are producers in
+          the sense of knowledge production (see chapter 3). What they know about the tech-
+          nology in question—its documentation, interface characteristics, and situations of
+          use—are necessary prerequisites for involving users in technology development and
+          decision making. The user’s physical presence in technology development is not the
+          only thing of importance; the knowledge of the user must be valued as well. In a
+
+
+          \4 Mary Beth Rosson and John Carroll refer to this as “the paradox of the active user.” Their observations of
+          users showed that users want to learn, but often are more interested in just “getting on with it.”
+          15 Reading is in quotation marks to designate the problems of reading discussed earlier in terms of the user-
+          friendly view. | contend that computer users do not read in any conventional way, and thus the concept of
+          reading is problematic. This is true if we are designing documentation that we anticipate as material to be read
+          as if it were an “armchair” document or a textbook that one reads in a library carrel, removed from the context
+          of technological use.
+                                        Johnson   # When All Else Fails, Use the Instructions   303
+
+
+user-centered approach to documentation, the producing user is crucial because the
+process of user-centered documents is a collaborative, negotiated affair that is per-
+petually building the knowledge of users and their various contexts into the products
+being developed.
+    In itself, the social interaction of users, developers, writers, and marketing spe-
+cialists should be adequate reason for adopting user-centered approaches to many dif-
+ferent forms of technology development, including documentation. Unfortunately,
+the act of involving users so intimately in the development process is met with much
+resistance. One barrier is the already mentioned schism between experts and novices.
+Users, because of their role as the “unknowing subject,” are deemed unworthy of par-
+ticipation in the highly specialized world of the technology developer. More likely,
+however, the reason for noninvolvement of users is the perception that it simply is
+too costly. Such arguments concerning profits margins have merit, but only within
+the context of short-term economic strategies. Certainly it is more expensive to com-
+mit time and resources to user involvement on a per project basis, especially if each
+project is seen as being unconnected to future versions of, or extensions of, the prod-
+uct. User input, though, is something that has value far beyond the present moment
+of testing a particular product. Capturing the knowledge of users and tracking such
+ information over the long term could only be beneficial.
+      The long-term advantages of allowing users to play a role in the production
+process are potentially great, however, and some research has pointed to the positive
+effects for financial reward and customer satisfaction when actual users are allowed to
+work with the production teams (Ehn 1988; Nielsen 1993). Full effect of user in-
+volvement in production, though, has never been measured because of our culture’s
+proclivity to base most production decisions on short-term motives and outdated cost
+accounting procedures that focus, in a very limited way, on month-to-month (and
+sometimes even day-to-day) analyses of the “bottom line” (see Johnson and Kaplan
+ 1987). User-centered approaches to technology development are, in part, counter to
+the short-term mind-set of business planning because the benefit of user involvement
+can best be measured over the long term.
+      At the outer ring of the user-centered view is the design of the documentation.
+User-centered designing of the medium is now possible because the prerequisites of
+the user’s situation, tasks to be performed, and purposes for using the chosen medium
+have been determined. The placing of the design or writing of the documentation at
+the outside of the user-centered view should not be taken pejoratively, however.
+Rather, it is the end of a production process that is consciously driven by the needs of
+the user. This does not diminish the role of documentation. On the contrary, it is an
+enhancement because it argues for user documentation that is in the image of the
+user’s model, not the system model or system designer’s model. A user-centered ap-
+proach, in essence, is a thorough form of audience analysis that is aimed at designing
+documentation that fits what a user actually does, not necessarily what we think he or
+she should do.
+     A final feature in the user-centered view is represented by the arrows that indi-
+cate movement in both directions, instead of the singular inward to outward move-
+ment of the other two perspectives. In the system-centered and user-friendly views,
+304   Chapter 6   =   Professional Writers Produce User-Centered Documents
+
+
+
+
+                                       Institution                                 Discipline
+
+
+           Culture                                   Learning
+                                                     Through
+                                                       Doing
+
+
+                                                                 Medium
+
+
+
+                                                                A Users   x
+
+                                                       User Tasks/           Writers
+                                                     System Actions
+
+
+
+
+                                                                 Producing
+
+
+
+
+                                                                Community
+
+
+
+
+            Figure 6.5. The user-centered rhetorical complex of computer documentation.
+
+
+
+
+           knowledge is put forth from the place of a singular authority (either the system or a
+           text). These nonnegotiable views not only treat the user as a mere receiver, but they
+           also exclude the user from an active involvement in the processes of production, as
+           mentioned earlier. The two-way movement of the user-centered view depicts the re-
+           cursive and negotiated nature of the user-centered approach to computer documenta-
+           tion, specifically, and technology, generally. The user-centered perspective invites in-
+           volvement by the user throughout the process. The two-way movement attempts to
+           disperse authority through a recursive process that is always in motion and always
+           correcting itself, dependent upon situational contingencies. In an ac

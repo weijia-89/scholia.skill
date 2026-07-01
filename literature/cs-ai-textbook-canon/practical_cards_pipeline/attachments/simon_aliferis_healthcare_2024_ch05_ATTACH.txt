@@ -1,0 +1,407 @@
+simon_aliferis_healthcare_2024_ch05_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 05
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch05_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch05_ingest.md)
+========================================================================
+
+# Chapter ingest — `simon_aliferis_healthcare_2024` · Selective Chapter 5
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| **authors** | Gyorgy J. Simon, Constantin Aliferis (eds.); ch. 8 Johnson/Simon/Aliferis; ch. 9 Simon/Aliferis |
+| **edition** | 1st Edition (2024, Springer Health Informatics, OA CC BY 4.0) |
+| **ISBN_print** | 978-3-031-39354-9 |
+| **ISBN_electronic** | 978-3-031-39355-6 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 5 (selective ingest; book ch. 8–9) |
+| **chapter_title** | Data Preparation & Management (+ bundled Evaluation) |
+| **page_range** | Printed pages absent from text export; logical span L25038–30520 |
+| **parent_book_title** | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+
+## Scope
+
+Selective ingest **05** spans book **Chapter 8** (*Data Preparation, Transforms, Quality, and Management*, L25038–27305) and book **Chapter 9** (*Evaluation*, L27308–30520). Primary title: **Data Preparation & Management**; Evaluation is bundled inside the line slice and completes the metrics/error-estimation canon referenced throughout the book.
+
+**Part A — Data preparation (book ch. 8).** Two-step pipeline (Fig. 1): **Prepare Data** (raw → data-design features → data mart + quality) then **Feature Engineering** (design features → ML features), both iterative with backward steps to new raw sources; supported by a **Data Ecosystem** (mapping, tools, lineage, version control).
+
+**Working with data:** EHR-centric realities — local terminologies, units, quality defects; definitions of **concept**, **vocabulary/terminology**, **ontology**; **dataset**, **research data warehouse**, **data mart** (project-specific, standardized, linked via data model); **data dictionary**; **common data models** (OMOP CDM, N3C, eMerge).
+
+**Constructing design features:** concept → feature mapping; **phenotypes** and **value sets** (VSAC atrial-fibrillation example, Elixhauser comorbidities); **data provenance/lineage**.
+
+**ML modeling dataset:** classical wide/long analytic tables, person-level vs person-event formats, normalization/pivoting; **feature engineering** motivations (interpretability, performance, dimensionality, NLP enablement); scaling, non-linearity, indicators, one-hot, binning, **contrast coding** (treatment, Helmert, backward difference — Pitfall 8.4.1 on destroying ordinal semantics); missing-data-aware features; supervised scores; automated FE (Deep Feature Synthesis, autoencoders, commercial tools); knowledge-based features.
+
+**Data quality:** fitness-for-purpose; **DQD/OHDSI**-style conformance/completeness/plausibility rules; quantitative + qualitative assessment; Pitfall 8.5.1 (unexamined bias invalidates models).
+
+**Missing data:** MCAR/MAR/MNAR taxonomy; complete-case, single/multiple imputation; informative missingness indicators.
+
+**Data processing stacks & pipelines:** FAIR/TRUST principles; SQL, Spark, R, Python, Julia, Matlab comparison (Table 4); pipeline reproducibility (recreate modeling dataset from scratch); phenotype metadata versioning; quality gates in pipelines; documentation (Jupyter/narrative mix) — BP 8.7.1–8.7.4.
+
+**Part B — Evaluation (book ch. 9, bundled).** Three evaluation levels: (1) **predictive performance**; (2) **generalizability** (time, geography, severity); (3) **clinical objective & cost**. Diagnostic-test vignette motivates level mismatch.
+
+**Classification metrics:** contingency matrix; complementary pairs (sensitivity/specificity, PPV/NPV, precision/recall); Pitfall 9.1.1 (redundant related metrics); Pitfall 9.1.2 (accuracy under prevalence shift); **weighted confusion matrices**; **concordance**; **ROC/AUC**; **Lorenz curves** (clinical interpretation advantages, population comparability limits); **PR curves**; multi-class one-vs-one/one-vs-rest.
+
+**Continuous outcomes:** residual metrics (MSE, MAE, MedAE); R² and concordance analogues; outlier/homoscedasticity pitfalls (Examples 9.1.2–3).
+
+**Time-to-event:** censoring; Harrell's C; IBS/Brier; time-dependent ROC/iAUROC (Heagerty-Zheng strategies).
+
+**Calibration:** weak (intercept/slope), moderate (flexible curves), strong; Hosmer-Lemeshow limits; **ICI**, E50/E90; synthetic calibration examples 9.1.4–6.
+
+**Clinical usefulness:** weighted sensitivity/specificity; effectiveness measures (OR, RR, ARR, NNT with pitfalls); **net benefit** and **decision curves** (Vickers-Steyerberg); relationship NB↔AUC; Pitfall 9.2.3 (good AUC, bad NB vs treat-none).
+
+**Health economic evaluation:** CEA, CUA (QALY, DALY, HYE), CBA, CMA; ICER thresholds; opportunity costs; intermediate endpoints caution.
+
+**Error estimation & model selection (§9.4):** plug-in bias (Pitfall 9.4.1); holdout, CV, **nested CV**, bootstrap, **0.632/0.632+**; bias correction; imputation **only on training folds** (BP 9.4.7); hyperparameter tuning inside outer loops (BP 9.4.8–9); lock final model after error estimation (BP 9.4.9); pseudo-prospective validation (BP 9.4.10).
+
+**Sections ingested:** Data prep overview · Terminology/warehouse/mart · Phenotypes/value sets · Analytic table formats · Feature engineering · Data quality/DQD · Missing data · Stacks/pipelines/FAIR · Classification/discrimination/calibration metrics · Clinical usefulness/net benefit · Health economics · Error estimation protocols · Summary pitfalls/BPs both chapters.
+
+Cross-refs: ch. 7 data design, ch. 4 lifecycle RNBNFCV, ch. 10 overfitting, ch. 16 regulatory.
+
+## Key findings
+
+All claims **[verified from text]** unless tagged `[contested in chapter]`.
+
+### Data preparation pipeline
+
+- Raw data → **data-design features** (algorithm-independent, implements study design) → **ML features** (learner-specific); iterative quality loops may force redesign or new raw sources. [verified from text, L25074–25112]
+- **Data mart** holds design-feature extracts meeting quality bar before ML feature work. [verified from text, L25098–25105]
+- **OMOP CDM** and OHDSI ecosystem enable multi-site harmonization (N3C, eMerge cited). [verified from text, L25396–25405]
+- **Phenotypes** operationalize concepts via value sets; VSAC lists 62+ atrial fibrillation definitions — phenotype choice is a modeling decision. [verified from text, L25584–25626]
+
+### Feature engineering pitfalls
+
+- **Wide vs person-event** format driven by temporal structure and software (BP 8.4.1–2). [verified from text, L25793–25801]
+- One-hot on ordinal levels destroys semantics (Pitfall 8.4.1); use contrast coding when levels have meaning (BP 8.4.3). [verified from text, L25962–25970]
+- Automated FE (DFS, autoencoders) requires scrutiny for leakage and interpretability. [verified from text, L26011–26032]
+
+### Data quality and missingness
+
+- Quality = degree dataset meets user purpose; unknown biases invalidate modeling (Pitfall 8.5.1). [verified from text, L26048–26079]
+- DQD-style rules encode conformance/completeness/plausibility; quantitative metrics need qualitative follow-up (BP 8.5.2). [verified from text, L26090–26200]
+- **MNAR** missingness requires explicit modeling; imputation choices affect both features and error estimation downstream. [verified from text, L26210–26248]
+
+### Pipelines and reproducibility
+
+- Every project needs a documented **data pipeline** recreating modeling datasets from raw sources (BP 8.7.3). [verified from text, L26507–26514]
+- Phenotype/variable metadata must version with definition changes (BP 8.7.4). [verified from text, L26533–26539]
+
+### Evaluation levels and classification
+
+- Three levels: predictivity, generalizability, clinical/cost objective — a accurate diagnostic test can fail levels 2–3. [verified from text, L27321–27378]
+- Use **complementary metric pairs**, not mathematically redundant pairs (Pitfall 9.1.1). [verified from text, L27400–27550]
+- **Accuracy** misleading under class imbalance (Pitfall 9.1.2); **Lorenz curves** aid clinical cumulative-benefit interpretation but compare only within same population (Pitfall 9.1.3). [verified from text, L27568–27874]
+
+### Calibration and clinical utility
+
+- Discrimination ≠ calibration; weak calibration via intercept/slope; flexible curves sensitive to smoothing (Pitfall 9.1.10). [verified from text, L28320–28422]
+- **Net benefit** and **decision curves** compare model-guided treatment vs treat-all/treat-none; high AUC can still lose to default policies (Pitfall 9.2.3). [verified from text, L28686–28879]
+- **NNT** has a range "hole" complicating significance testing (Pitfall 9.2.2). [verified from text, L28681–28685]
+
+### Error estimation `[contested in chapter]`
+
+- **Never use plug-in resubstitution** for generalization error (Pitfall 9.4.1). [verified from text, L30086+]
+- Imputation and hyperparameter tuning on full data before CV contaminates estimates (Pitfalls 9.4.3–4). [verified from text, L30093–30096]
+- **Nested CV** required when feature selection and modeling interact; tune inside inner loops only (BP 9.4.7–8). [verified from text, L30013–30034]
+- Bootstrap: estimate optimism bias; 0.632+ for small samples; repeated CV for stability (BP 9.4.4–6). [verified from text, L29990–30010]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| **Lines read** | 25038–30520 (inclusive) |
+| **Chapter boundary** | Starts book ch. 8 (L25038); ends before book ch. 10 Overfitting (L30521); includes full book ch. 9 Evaluation |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Detailed Steyerberg/Harrell textbook derivations (cited); classroom question banks summarized |
+| **Figures** | Feature-engineering flow, DQD tables, ROC/Lorenz/decision-curve plots — placeholders in export |
+| **Amnesiac rule** | ISBN from L53–57 and manifest |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Diagram the **two-step data prep → feature engineering** pipeline and data ecosystem components.
+2. Map clinical concepts to **phenotypes/value sets** and document lineage in a data mart.
+3. Choose **person-level vs person-event** analytic formats and appropriate **contrast coding**.
+4. Apply **DQD-style** quality rules and classify missingness (MCAR/MAR/MNAR).
+5. Design a reproducible **data pipeline** with FAIR/TRUST-aligned documentation.
+6. Select **complementary classification metrics** and interpret ROC, Lorenz, and PR curves.
+7. Distinguish **discrimination vs calibration** and construct decision curves/net benefit.
+8. Execute **nested CV / bootstrap** error estimation without plug-in or preprocessing leakage.
+
+### worked_examples_present
+
+**Y** — Tables, metric walkthroughs, and coding examples:
+
+| Example | Section | Role |
+|---------|---------|------|
+| Diabetic patient phenotype (Ex 8.3.1–2) | Design features | Concept→feature |
+| Cohort wide/long lab table (Ex 8.4.1) | Analytic formats | Normalization |
+| Contrast coding diabetes severity (Ex 8.4.2) | Feature engineering | Ordinal encoding |
+| Hypothetical classifier concordance (Ex 9.1.1) | Classification | Threshold-free metrics |
+| Gaussian outlier influence (Ex 9.1.2) | Continuous metrics | Robustness |
+| Heteroscedastic simulation (Ex 9.1.3) | Regression eval | Variance pitfalls |
+| Weak/poor calibration synthetics (Ex 9.1.4–6) | Calibration | Intercept/slope/smoothing |
+| Net benefit screening (Ex 9.2.1–2) | Decision curves | Clinical utility |
+| ICER treatment comparison (Ex 9.3.1) | Health economics | Cost-effectiveness |
+
+### exercise_hooks
+
+- Extensive **classroom assignments** in both book chapters (ICD/CCS mapping, ML feature design, missing-BP scenarios, CV/bootstrap bias, decision-curve thresholds).
+- **Instructor hooks `[inferred]`:**
+  - Build OMOP-style phenotype JSON with VSAC codes for one outcome.
+  - Demonstrate plug-in vs nested-CV error inflation on a public EHR subset.
+  - Plot Lorenz and decision curves for imbalanced screening task.
+  - Audit a published model paper for preprocessing leakage (imputation before split).
+
+## Operator hooks
+
+### 1. w3_clinical_docs — data + eval canon
+
+Selective ch05 is the **w3 operational pair** for EHR ML: implementation (ch08) + measurement (ch09). Pairs with **simon ch04** data design and **simon ch06** overfitting/OC. Supplements **ai_engineering_2025 ch04** with clinical metrics (NNT, net benefit, ICER) and **nested CV** discipline for high-stakes settings.
+
+### 2. MDCalc / clinical-adjacent alignment
+
+**[high]** — Load-bearing for clinical ML engineering:
+
+- **Phenotype governance:** Value-set choices affect transportability — mirror MDCalc-style explicit inclusion criteria.
+- **Decision curves:** Net benefit framing for threshold-sensitive alerts/rules.
+- **Error estimation:** Nested CV/imputation-on-train only — mandatory before claiming generalization on chart data.
+- **OMOP/OHDSI:** Standard harmonization path for multi-site validation.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025 ch04** | Medium | Custom eval pipelines; Simon adds clinical calibration/NB/ICER |
+| **hands_on_llms_2024** | Low | No LLM focus here |
+| **ddia_2e_2026** | Low–medium | Data modeling/storage vs phenotype/FE |
+| **designing_ml_systems_2022** | Medium | Feature stores/pipelines; Simon adds OHDSI/DQD clinical quality |
+
+**Dedup:** Canonical for **clinical data prep + health eval metrics + nested error estimation** in w3.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — phenotypes, tables, calibration/decision-curve synthetics |
+| Exercise hooks | **Strong** — lengthy classroom sections |
+| Chapter boundary | **Bundled** — data prep + evaluation by selective slice |
+| Ingest suitability | **High** — procedural + citation-backed |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edi
+
+[TRUNCATED at 14000 chars — full ingest on disk]
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch05_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch05_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 05
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `simon_aliferis_healthcare_2024` · Selective Chapter 5
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| **authors** | Gyorgy J. Simon, Constantin Aliferis (eds.); ch. 8 Johnson/Simon/Aliferis; ch. 9 Simon/Aliferis |
+| **edition** | 1st Edition (2024, Springer Health Informatics, OA CC BY 4.0) |
+| **ISBN_print** | 978-3-031-39354-9 |
+| **ISBN_electronic** | 978-3-031-39355-6 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 5 (selective ingest; book ch. 8–9) |
+| **chapter_title** | Data Preparation & Management (+ bundled Evaluation) |
+| **page_range** | Printed pages absent from text export; logical span L25038–30520 |
+| **parent_book_title** | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+
+## Scope
+
+Selective ingest **05** spans book **Chapter 8** (*Data Preparation, Transforms, Quality, and Management*, L25038–27305) and book **Chapter 9** (*Evaluation*, L27308–30520). Primary title: **Data Preparation & Management**; Evaluation is bundled inside the line slice and completes the metrics/error-estimation canon referenced throughout the book.
+
+**Part A — Data preparation (book ch. 8).** Two-step pipeline (Fig. 1): **Prepare Data** (raw → data-design features → data mart + quality) then **Feature Engineering** (design features → ML features), both iterative with backward steps to new raw sources; supported by a **Data Ecosystem** (mapping, tools, lineage, version control).
+
+**Working with data:** EHR-centric realities — local terminologies, units, quality defects; definitions of **concept**, **vocabulary/terminology**, **ontology**; **dataset**, **research data warehouse**, **data mart** (project-specific, standardized, linked via data model); **data dictionary**; **common data models** (OMOP CDM, N3C, eMerge).
+
+**Constructing design features:** concept → feature mapping; **phenotypes** and **value sets** (VSAC atrial-fibrillation example, Elixhauser comorbidities); **data provenance/lineage**.
+
+**ML modeling dataset:** classical wide/long analytic tables, person-level vs person-event formats, normalization/pivoting; **feature engineering** motivations (interpretability, performance, dimensionality, NLP enablement); scaling, non-linearity, indicators, one-hot, binning, **contrast coding** (treatment, Helmert, backward difference — Pitfall 8.4.1 on destroying ordinal semantics); missing-data-aware features; supervised scores; automated FE (Deep Feature Synthesis, autoencoders, commercial tools); knowledge-based features.
+
+**Data quality:** fitness-for-purpose; **DQD/OHDSI**-style conformance/completeness/plausibility rules; quantitative + qualitative assessment; Pitfall 8.5.1 (unexamined bias invalidates models).
+
+**Missing data:** MCAR/MAR/MNAR taxonomy; complete-case, single/multiple imputation; informative missingness indicators.
+
+**Data processing stacks & pipelines:** FAIR/TRUST principles; SQL, Spark, R, Python, Julia, Matlab comparison (Table 4); pipeline reproducibility (recreate modeling dataset from scratch); phenotype metadata versioning; quality gates in pipelines; documentation (Jupyter/narrative mix) — BP 8.7.1–8.7.4.
+
+**Part B — Evaluation (book ch. 9, bundled).** Three evaluation levels: (1) **predictive performance**; (2) **generalizability** (time, geography, severity); (3) **clinical objective & cost**. Diagnostic-test vignette motivates level mismatch.
+
+**Classification metrics:** contingency matrix; complementary pairs (sensitivity/specificity, PPV/NPV, precision/recall); Pitfall 9.1.1 (redundant related metrics); Pitfall 9.1.2 (accuracy under prevalence shift); **weighted confusion matrices**; **concordance**; **ROC/AUC**; **Lorenz curves** (clinical interpretation advantages, population comparability limits); **PR curves**; multi-class one-vs-one/one-vs-rest.
+
+**Continuous outcomes:** residual metrics (MSE, MAE, MedAE); R² and concordance analogues; outlier/homoscedasticity pitfalls (Examples 9.1.2–3).
+
+**Time-to-event:** censoring; Harrell's C; IBS/Brier; time-dependent ROC/iAUROC (Heagerty-Zheng strategies).
+
+**Calibration:** weak (intercept/slope), moderate (flexible curves), strong; Hosmer-Lemeshow limits; **ICI**, E50/E90; synthetic calibration examples 9.1.4–6.
+
+**Clinical usefulness:** weighted sensitivity/specificity; effectiveness measures (OR, RR, ARR, NNT with pitfalls); **net benefit** and **decision curves** (Vickers-Steyerberg); relationship NB↔AUC; Pitfall 9.2.3 (good AUC, bad NB vs treat-none).
+
+**Health economic evaluation:** CEA, CUA (QALY, DALY, HYE), CBA, CMA; ICER thresholds; opportunity costs; intermediate endpoints caution.
+
+**Error estimation & model selection (§9.4):** plug-in bias (Pitfall 9.4.1); holdout, CV, **nested CV**, bootstrap, **0.632/0.632+**; bias correction; imputation **only on training folds** (BP 9.4.7); hyperparameter tuning inside outer loops (BP 9.4.8–9); lock final model after error estimation (BP 9.4.9); pseudo-prospective validation (BP 9.4.10).
+
+**Sections ingested:** Data prep overview · Terminology/warehouse/mart · Phenotypes/value sets · Analytic table formats · Feature engineering · Data quality/DQD · Missing data · Stacks/pipelines/FAIR · Classification/discrimination/calibration metrics · Clinical usefulness/net benefit · Health economics · Error estimation protocols · Summary pitfalls/BPs both chapters.
+
+Cross-refs: ch. 7 data design, ch. 4 lifecycle RNBNFCV, ch. 10 overfitting, ch. 16 regulatory.
+
+## Key findings
+
+All claims **[verified from text]** unless tagged `[contested in chapter]`.
+
+### Data preparation pipeline
+
+- Raw data → **data-design features** (algorithm-independent, implements study design) → **ML features** (learner-specific); iterative quality loops may force redesign or new raw sources. [verified from text, L25074–25112]
+- **Data mart** holds design-feature extracts meeting quality bar before ML feature work. [verified from text, L25098–25105]
+- **OMOP CDM** and OHDSI ecosystem enable multi-site harmonization (N3C, eMerge cited). [verified from text, L25396–25405]
+- **Phenotypes** operationalize concepts via value sets; VSAC lists 62+ atrial fibrillation definitions — phenotype choice is a modeling decision. [verified from text, L25584–25626]
+
+### Feature engineering pitfalls
+
+- **Wide vs person-event** format driven by temporal structure and software (BP 8.4.1–2). [verified from text, L25793–25801]
+- One-hot on ordinal levels destroys semantics (Pitfall 8.4.1); use contrast coding when levels have meaning (BP 8.4.3). [verified from text, L25962–25970]
+- Automated FE (DFS, autoencoders) requires scrutiny for leakage and interpretability. [verified from text, L26011–26032]
+
+### Data quality and missingness
+
+- Quality = degree dataset meets user purpose; unknown biases invalidate modeling (Pitfall 8.5.1). [verified from text, L26048–26079]
+- DQD-style rules encode conformance/completeness/plausibility; quantitative metrics need qualitative follow-up (BP 8.5.2). [verified from text, L26090–26200]
+- **MNAR** missingness requires explicit modeling; imputation choices affect both features and error estimation downstream. [verified from text, L26210–26248]
+
+### Pipelines and reproducibility
+
+- Every project needs a documented **data pipeline** recreating modeling datasets from raw sources (BP 8.7.3). [verified from text, L26507–26514]
+- Phenotype/variable metadata must version with definition changes (BP 8.7.4). [verified from text, L26533–26539]
+
+### Evaluation levels and classification
+
+- Three levels: predictivity, generalizability, clinical/cost objective — a accurate diagnostic test can fail levels 2–3. [verified from text, L27321–27378]
+- Use **complementary metric pairs**, not mathematically redundant pairs (Pitfall 9.1.1). [verified from text, L27400–27550]
+- **Accuracy** misleading under class imbalance (Pitfall 9.1.2); **Lorenz curves** aid clinical cumulative-benefit interpretation but compare only within same population (Pitfall 9.1.3). [verified from text, L27568–27874]
+
+### Calibration and clinical utility
+
+- Discrimination ≠ calibration; weak calibration via intercept/slope; flexible curves sensitive to smoothing (Pitfall 9.1.10). [verified from text, L28320–28422]
+- **Net benefit** and **decision curves** compare model-guided treatment vs treat-all/treat-none; high AUC can still lose to default policies (Pitfall 9.2.3). [verified from text, L28686–28879]
+- **NNT** has a range "hole" complicating significance testing (Pitfall 9.2.2). [verified from text, L28681–28685]
+
+### Error estimation `[contested in chapter]`
+
+- **Never use plug-in resubstitution** for generalization error (Pitfall 9.4.1). [verified from text, L30086+]
+- Imputation and hyperparameter tuning on full data before CV contaminates estimates (Pitfalls 9.4.3–4). [verified from text, L30093–30096]
+- **Nested CV** required when feature selection and modeling interact; tune inside inner loops only (BP 9.4.7–8). [verified from text, L30013–30034]
+- Bootstrap: estimate optimism bias; 0.632+ for small samples; repeated CV for stability (BP 9.4.4–6). [verified from text, L29990–30010]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| **Lines read** | 25038–30520 (inclusive) |
+| **Chapter boundary** | Starts book ch. 8 (L25038); ends before book ch. 10 Overfitting (L30521); includes full book ch. 9 Evaluation |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Detailed Steyerberg/Harrell textbook derivations (cited); classroom question banks summarized |
+| **Figures** | Feature-engineering flow, DQD tables, ROC/Lorenz/decision-curve plots — placeholders in export |
+| **Amnesiac rule** | ISBN from L53–57 and manifest |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Diagram the **two-step data prep → feature engineering** pipeline and data ecosystem components.
+2. Map clinical concepts to **phenotypes/value sets** and document lineage in a data mart.
+3. Choose **person-level vs person-event** analytic formats and appropriate **contrast coding**.
+4. Apply **DQD-style** quality rules and classify missingness (MCAR/MAR/MNAR).
+5. Design a reproducible **data pipeline** with FAIR/TRUST-aligned documentation.
+6. Select **complementary classification metrics** and interpret ROC, Lorenz, and PR curves.
+7. Distinguish **discrimination vs calibration** and construct decision curves/net benefit.
+8. Execute **nested CV / bootstrap** error estimation without plug-in or preprocessing leakage.
+
+### worked_examples_present
+
+**Y** — Tables, metric walkthroughs, and coding examples:
+
+| Example | Section | Role |
+|---------|---------|------|
+| Diabetic patient phenotype (Ex 8.3.1–2) | Design features | Concept→feature |
+| Cohort wide/long lab table (Ex 8.4.1) | Analytic formats | Normalization |
+| Contrast coding diabetes severity (Ex 8.4.2) | Feature engineering | Ordinal encoding |
+| Hypothetical classifier concordance (Ex 9.1.1) | Classification | Threshold-free metrics |
+| Gaussian outlier influence (Ex 9.1.2) | Continuous metrics | Robustness |
+| Heteroscedastic simulation (Ex 9.1.3) | Regression eval | Variance pitfalls |
+| Weak/poor calibration synthetics (Ex 9.1.4–6) | Calibration | Intercept/slope/smoothing |
+| Net benefit screening (Ex 9.2.1–2) | Decision curves | Clinical utility |
+| ICER treatment comparison (Ex 9.3.1) | Health economics | Cost-effectiveness |
+
+### exercise_hooks
+
+- Extensive **classroom assignments** in both book chapters (ICD/CCS mapping, ML feature design, missing-BP scenarios, CV/bootstrap bias, decision-curve thresholds).
+- **Instructor hooks `[inferred]`:**
+  - Build OMOP-style phenotype JSON with VSAC codes for one outcome.
+  - Demonstrate plug-in vs nested-CV error inflation on a public EHR subset.
+  - Plot Lorenz and decision curves for imba
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

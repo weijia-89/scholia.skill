@@ -1,0 +1,109 @@
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 27
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch27_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 27 |
+| **chapter_title** | Downstream resiliency |
+| **page_range** | 253–260; lines 8045–8327 |
+
+---
+
+## scope
+
+**Tactical downstream patterns** stopping fault propagation to dependencies: **timeouts**, **retries** (exponential backoff + jitter, retry amplification), and **circuit breakers** (open/closed/half-open). Assumes ch24 resource-leak motivation and ch5.7 idempotency.
+
+---
+
+## key_findings
+
+### Timeouts (§27.1)
+
+- Fail calls that never return; prevent resource leaks (8057–8066).
+- Many stacks lack safe defaults: XHR timeout=0, fetch needed AbortController, Python requests ∞, Go net/http no default (8070–8095); Java/.NET better (8097–8100).
+- **Rule:** always set timeouts; audit third-party libs (8102–8105).
+- Size timeout from target **false timeout rate** — e.g. 0.1% false timeouts → p99.9 downstream latency (8127–8133).
+- Wrap calls in library or **sidecar/service mesh** (8143–8150).
+
+### Retries (§27.2)
+
+- After timeout/failure: fail fast vs retry; backoff for transient issues; immediate retry worsens overload (8154–8170).
+- **Exponential backoff:** `delay = min(cap, initial × 2^attempt)` (8173–8185).
+- **Jitter:** randomize delay to avoid retry herds (8194–8199).
+- Batch apps: retry queues (8201–8216).
+- Don't retry non-transient errors (auth); mind **non-idempotent** side effects (ch5.7) (8218–8225).
+
+### Retry amplification (§27.2.2)
+
+- Chain A→B→C: B retries C → A sees longer latency → A retries → client retries → exponential load on deep services (8228–8253).
+- **Mitigation:** retry at **one** level only; fail fast elsewhere (8251–8253).
+
+### Circuit breaker (§27.3)
+
+- For **non-transient** failures: stop calling downstream ("fastest call is one you don't make") (8257–8269).
+- States: **closed** (pass-through, track failures), **open** (fail fast), **half-open** (probe) (8287–8320).
+- Graceful degradation for non-critical deps (Amazon recommendations) (8304–8314).
+- Thresholds context-dependent — need historical failure data (8321–8327).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 8045–8327 |
+| **Sections** | §27.1 Timeout · §27.2 Retry · §27.2.1 Backoff · §27.2.2 Amplification · §27.3 Circuit breaker |
+| **Figures** | 27.1 retry storm · 27.2 amplification · 27.3 state machine |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Configure timeouts using percentile-based false-timeout budgets.
+2. Implement exponential backoff with jitter.
+3. Explain retry amplification in deep call chains.
+4. Operate circuit breaker state machine and graceful degradation.
+
+### worked_examples_present
+
+**Y** — XHR/fetch timeout snippets; backoff formula; A→B→C amplification diagram.
+
+### exercise_hooks
+
+- Set p99.9-based timeouts per dependency from production metrics.
+- Count max retries in a microservice graph; enforce single retry tier.
+
+---
+
+## Operator hooks
+
+Direct complement to **AIE ch.10** guardrails/retry and **hands_on_llms** gateway patterns. **DDIA** doesn't cover CB at this depth.
+
+**MDCalc [high]:** Idempotent retry policy for clinical write APIs; CB for non-critical enrichment services.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C27-001 | Timeouts prevent cascade/leaks | 8061–8066 |
+| UDS-C27-002 | p99.9 timeout sizing | 8127–8133 |
+| UDS-C27-003 | Jitter prevents retry herds | 8194–8199 |
+| UDS-C27-004 | Single-level retry in deep chains | 8251–8253 |
+| UDS-C27-005 | CB open/half-open/closed | 8287–8320 |
+
+---
+
+*Ingest · scholia · ≤4500w*

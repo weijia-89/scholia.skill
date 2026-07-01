@@ -1,0 +1,1601 @@
+PART II
+
+
+Finding a Structure
+
+
+I copy what I admire. I pinch. I read not only for pleasure, but as a journeyman, and where I see a good effect, I study it and try to reproduce it. Like an actor will study a senior character and learn an effect of make-up or a particular slouchy walk for a role he’s not thought of himself. He doesn’t regard that as being particularly influenced by the actor, but as a trick of the trade which he owes it to himself to pick up.
+
+—Lawrence Durrell
+
+
+
+
+
+5.
+
+
+Thinking Structure
+
+
+The search for models, in my terms, becomes a search for alternatives.
+
+—C. D. Wright
+
+Work Habits of Highly Successful Authors was the title of an excellent panel at the July 2004 Pacific Northwest Writers Association Conference. Sitting on this panel were three hyperproductive writers: Carolyn See (six novels, three nonfiction books, and coauthor of five more books), Donald E. McQuinn (nine novels), and Terry Brooks (twenty-three novels). These many-book authors had never before met and neither did they cheat and compare notes to get their stories straight. Their advice was identical. They each did two things. They wrote one thousand words every day (with, I think, one day off a week). And they wrote into a structure. Write every day, each advised, one after the other. And, each elaborated, write into a structure.
+
+Does writing into a structure (setting aside for a moment the question of what structure) conflict with writing practice—writing continuously without stopping until the timer goes off?
+
+It doesn’t conflict because you can write into a structure in the writing-practice manner. Besides, writing into a structure should be done in tandem with “discovery writing,” that is, writing to learn what you have to say, writing to work out your thoughts, writing to find out what your antagonist thinks (by writing from her point of view in your notebook, even though in the finished story you are never going to be in her point of view).
+
+Skipping discovery writing, deciding on a structure, and then forcing material into it like stuffing a sausage may result in writing that is too thin, with a forced or contrived feel. Discovery writing—a term coined by Jack Remick and Robert J. Ray—in the writing-practice notebook makes the work richer, more layered, and more insightful. But doing writing practice endlessly with no structure in mind puts you on the road to Never Never Land—never finishing, never publishing.
+
+You write in your writer’s notebook to find out what you have to say and then you deliberate on how to structure it and then you write it again, into its structure. In the midst of shaping and revising you may go back to your notebook to explore another aspect or to write for a second or third time to get to the bottom of it. There are writers who write entire novels, scene by scene, in their writer’s notebook. Then, of course, they go home and type.
+
+Writing to a form strikes some writers as a strange idea. But think of an assignment to write a sonnet. There are hundreds of sonnets, poems structured the same way, but which differ radically from one another in subject matter, language, image, tone. The form is the vessel. What goes into it is up to the writer.
+
+These chapters on structure offer four prose structures, with models to illustrate each one. For each type of structure, we’ll take a close look at a model and work through the steps of separating its structure from its content. This is a core skill that, with practice, will enable you to comprehend the structure of any piece of writing, much as an x-ray makes visible the skeleton, leaving in the dark all that these bones support.
+
+Our four structures are:
+
+1.Theme Structure
+
+Ira Sadoff, “Ben Webster”
+
+John Olson, “Home”
+
+2.Collage Structure
+
+Eula Biss, “Babylon”
+
+Patrick Madden, “Laughter”
+
+3.A/B or Two-Strand Structure
+
+Amit Majmudar, “The Servant of Two Masters”
+
+Lee Zacharias, “Buzzards”
+
+4.Dramatic Story Structure
+
+Steve Almond, “A Dream of Sleep”
+
+When I set out to write a new piece into a structure that I’ve extracted from a model, I spend a large amount of time cogitating on what to write about. This rumination may take as much time as generating the first draft of the piece. It is helpful to pick a subject different from that of the model, because you will be living closely with the model for some time and you don’t want to inadvertently ingest image or idea. You must work on material that is truly your own, of central importance to you. These are vital moves when you consciously put yourself under the influence of another writer. When we absorb the lessons of our models we incorporate neither subject matter, nor word, nor image, nor idea, but structure and technique. That we are working our own most urgent material acts as a counterweight to the model, allowing us to ultimately pull our own piece away altogether, with only scents or tints of its influence remaining. Finally, it is important that we use as models the work of a great variety of writers, because we are in the process of exploring, evolving, and speaking in our own voices. The last thing we want is to become a weak imitator of a predecessor writer.
+
+Nothing here is offered in the spirit of an academic exercise. Who among us has time to waste? Everything here is intended to assist you in completing and polishing excellent, original, publishable works. There is no better way to build a body of work than to give yourself the assignment of writing into a particular structure, then writing into another structure, then into another . . .
+
+
+
+
+
+FINDING THE RIGHT ONE
+
+
+How to approach this part of your learning? I suggest reading this section of The Writer’s Portable Mentor straight through and then going back and choosing a form to write a piece into. First study the structure and then choose a subject matter from among your concerns that is both different from that of the model and might possibly fit the structure.
+
+How to match content with structure? Think about the content. Does it suggest a narrative? That is, does it have a character in trouble or want (whether actual or fictional) with enough grit to fight his or her way out, for better or worse? If so the dramatic story structure illustrated by Steve Almond’s “A Dream of Sleep” in chapter 9 suggests itself. For example, I had a character, a woman in her forties, who’d spent her life not writing her own PhD dissertation but instead helping her brilliant professor husband, who has now dumped her for another woman, a fellow professor. This is a significant complication, worthy of a story, I thought, and so the dramatic story structure seemed right. (“Living for Robert” appeared in The Chaffin Journal.) On the other hand, for a piece called “Stonework,” I had my stone collection, my fascination with stones, the book I’d written on the rock that burns (coal), a collection of persons I might call “emotional stones,” in other words, a little of this, a little of that. No real protagonist, but something to say. A collage suggested itself. Remember that this process is not arbitrary, but rather, organic. Think of molding your material into its most natural shape.
+
+Practice abstracting the structure of works you read—essays or articles or short stories. This involves the skill of looking at the piece literally. Structure is carried in the following sorts of moves:
+
+•What are the literal divisions—sections separated by white space, a subtitle, or a number?
+
+•How many paragraphs does each section contain? What are the transition devices?
+
+•Mark out the scenes. A scene takes place in one setting. If you shift settings you are writing a new scene. A scene is one episode, in which there is dialogue and/or some sort of action. Think of a scene as happening on stage in a theater. A scene shows you what is happening, when it is happening, where it is happening. Summary is different. Summary explains, summarizes what happened, but doesn’t show it happening.
+
+•New character comes on stage (Antagonist? Helper? Protagonist?).
+
+•What is this character’s role? That is structural.
+
+•Dialogue carries the essential dramatic action and thus is structural.
+
+•Shifts from concrete description or narration to passages of philosophy, insight, or metaphor are structural shifts.
+
+•Compare the beginning to the end. Does the beginning mirror the end? This is structural.
+
+•Note all actions, whether mental or physical. Actions tend to move a story forward and are structural.
+
+The rewards of comprehending structures are great. Consider a new structure as an invitation to write not only a new piece but, for your own body of work, a new kind of piece. Some structures, such as the seemingly simple collage structure, can be quite challenging.
+
+How many different structures are there for short fictions or nonfictions? Impossible to say. Some writers have little interest in new structures, writing their great stories and fine essays into traditional structures. Others constantly try to find new structures, which sometimes work and sometimes begin to seem a bit gimmicky. Thinking about structure, reading for structure, and becoming savvier about writing into structures is an ongoing process that lasts for all the years of writing. The guideline, the goal for any given structure, is that it fit or even intensify its content.
+
+
+
+
+
+INVENTING A STRUCTURE
+
+
+There is no need to invent a structure. Most works that are original in their ideas and fresh in their language use a traditional structure. Original works do not require an original structure.
+
+But it’s fun to invent structures. How to begin doing such a thing? Think first of what the content is asking for. Form exists to intensify meaning.
+
+For example, I invented a creative nonfiction titled “Archaeology of Childhood.” I grew up on a commercial dairy farm where my father was employed as the dairyman. The farm was our home. We children grew up there and returned there to visit our parents for two decades after we’d moved away. We felt that the farmhouse, barns, windmill, machine shed, and silo were “ours,” though not in the sense of a property right. Eventually, due to falling milk prices, the farm went out of business. The original owner died and the land was sold to a nonfarmer who used its fields, woods, creeks, and marshes for duck hunting. The duck blinds were kept in repair but the other buildings stood in desuetude.
+
+Decades later, with the permission of the new owner, we returned to see our old place. We walked down the rutted mile-long dirt road, now impassable by most vehicles. The farmhouse was still there, overgrown with Virginia creeper, uninhabited except by field mice. The barns, too, were extant, but collapsing, roofs caving in. The milkhouse, machine shed, rusting windmill—everything was there. It was eerie, like returning in a dream to the ruins of childhood. The word archaeology came to mind.
+
+To shape “Archaeology of Childhood,” about our return journey to that place and its memories, I used the form of an academic archaeology article. My bookish friend Greg Lange left two shopping bags full of archaeology tomes on my doorstep. From them I took the form, which includes numbered sections, lists of artifacts, descriptive paragraphs, and so on. Within the different sections, I used different kinds of sentences, sentences that reflected the feel of that section.
+
+The content, you see, can suggest its own form.
+
+Francine du Plessix Gray wrote a masterpiece essay titled “The Work of Mourning.” It is a big, wide-ranging piece in which, among much else, she elaborates Elizabeth Kübler-Ross’s five stages of grief: denial, anger, bargaining, depression, acceptance. Gray’s work is shaped in five parts. In the first part we don’t even learn that the essay is actually about the death of her adored father when she was ten years old. (First stage: denial.)
+
+I wrote a piece called “Genome Tome,” which had twenty-three (very short) “chapters”—just as we have twenty-three pairs of chromosomes. The structure was not arbitrary but suggested by the content. One of the chapters comprises twenty-three questions pertaining to the meanings and implications of the Human Genome Project. The only alternative structure that suggested itself was one with forty-six “chapters,” one for each chromosome (rather than pair of chromosomes), but that seemed a bit much.
+
+One way to invent a form is to think of nonliterary texts. I think of Kim Adrian’s “Questionnaire for My Grandfather,” Michael Martone’s “Contributor’s Note,” and many epistolary stories. I have yet to see a short-short based on milk-carton copy or cereal-box text but maybe soon I will.
+
+
+
+
+
+STRUCTURING A BOOK
+
+
+Are you writing a novel? A memoir? A how-to book? Collect ten examples of your genre (some you’ve read before, some new ones) and read them for structure. Write out these structures in your notebook. Then choose one that fits your story, or design a fitting hybrid. Begin your own book by employing one of your found structures, modifying as you work along. By the time you finish your own work, it will have found its own shape.
+
+Past reading counts for nothing here. When we remember a book we’ve read, even recently, we typically don’t remember the structure, if we even noticed it in the first place. We remember the character or a tense moment or the setting or something that happens. So, for this work, it is necessary to reread for structure. To write down the structure, start with obvious divisions—paragraphs, sections, scenes, chapters.
+
+This work will repay you many times. Making a serious study of structure is an indispensable stage of writing any full-length book. Many nonfiction books have a rather simple structure that you can discover by looking at the Contents page. In fact writers writing a nonfiction book should write the book into a simple list of chapters. Keep in mind that a nonfiction book is an object made up of chapters. It has a title page and a Contents page. (If your book manuscript in progress has no title page and/or no Contents page, put them in immediately! To be writing a book for years with no title page and no Contents is to be structurally oblivious. You may write until death and then we could bury your one thousand–plus pages with you!) It is my own belief that it is folly to make an outline with its roman numerals, its arabic numerals, its capital letters and lowercase letters, its endless permutations and degrees of hierarchy. Instead, make a simple list of chapters. Then write the book, chapter by chapter.
+
+Here is the structure (the Contents) of a fine book by David B. Williams titled The Street-Smart Naturalist: Field Notes from Seattle:
+
+1.The Eagles
+
+2.The Fault
+
+3.The Plants
+
+4.The Creek
+
+5.The Stone
+
+6.The Geese
+
+7.The Bugs
+
+8.The Weather
+
+9.The Hills
+
+10.The Invaders
+
+11.The Water
+
+12.The Crows
+
+Each chapter in The Street-Smart Naturalist is essentially an essay on its topic. Each chapter comprises an interesting mix of human and natural history along with the writer’s personal experience.
+
+Certain guidebooks contain indispensable instructions on deep structure. Novelists can learn to plot from Robert J. Ray and Bret Norris’s The Weekend Novelist, and no mystery writer should even begin without Robert J. Ray and Jack Remick’s The Weekend Novelist Writes a Mystery. Also indispensable for novelists is Donald Maass’s Writing the Breakout Novel. Nonfiction writers can grasp dramatic story structure from Jon Franklin’s Writing for Story. These books will save you years of trial and error. Read them. Do the exercises suggested. Master their contents.
+
+Developing a structure is a core task required for writing a book. Begin exploring structure as you begin doing discovery writing and research. The structure is the framework you write into, your security blanket, your assurance that all your hard work will result in a completed manuscript.
+
+
+
+
+
+WORD COUNTS
+
+
+How long should a piece be? How many words? (In the world of professional publishing, we typically speak of word count, not numbers of pages.) How long is a book? How long is a newspaper article? How long is a short story? Here are some guidelines.
+
+The first thing to know is that articles, essays, stories, and books are getting shorter. Memoirs and literary novels tend to run from 60,000 to 90,000 words. The minimum length of a novel manuscript submitted to the AWP (Association of Writers and Writing Programs) novel award is 60,000 words. An average length for a short story or lyric essay in many literary journals is now 3,000 words or fewer, whereas it used to be more like 5,000 words. Flash fictions and flash nonfictions (under 1,000 words) are common. The famous online journal Brevity will take nothing over 750 words.
+
+But there’s still a place for longer pieces. Two venues that accept only longer pieces are The Long Story Short Journal (minimum length 4,000 words) and The Seattle Review (minimum length forty double- spaced pages). In other journals, a piece may run as long as 7,000 words or longer, but it has to be pretty spectacular to earn that much space in an issue. Our second model for the A/B structure, “Buzzards” by Lee Zacharias (see chapter 8), runs to close to 9,000 words. It originally appeared in the literary journal Southern Humanities Review and found a wider audience in The Best American Essays 2008. It is pretty spectacular.
+
+Word count is another way to think about deep structure. Let’s say you are writing a set of creative nonfictions in which personal matters intersect with science. Or let’s say you are writing a book of interconnected stories about the members of a single Chicago-based family. To complete your book you need twenty 3,000-word pieces or you need fifteen 4,000-word pieces, or some other combination that gets you up past 60,000 words. What you have done here is broken down the work into manageable units.
+
+There. You’ve got your assignment. Go for it!
+
+
+
+
+
+Hands On: Writing into Structures
+
+
+After you’ve chosen a structure to try, make a list of the model’s sections and, if it is not too long, its paragraphs. If you are looking at a short story, make a list of the scenes. Now make analogous paragraphs (if an essay) or scenes (if a story) for your own piece.
+
+Write the paragraphs one by one in your writing-practice notebook. Type them up, and then begin working your language, extending a thought, eliminating, or further elaborating. Do the necessary research, write, and rewrite. After you’ve completed a draft, take one last look at your structure-model to make absolutely certain that you have not unconsciously taken word, image, or idea from your “teaching” piece, your model.
+
+Then put the model aside and work on your own piece on its own terms.
+
+
+
+
+
+6.
+
+
+Theme Structure
+
+
+Working within the self-imposed discipline of a particular form eases the prospect of having to reinvent yourself with each new piece.
+
+—David Bayles and Ted Orland
+
+The theme structure is a common traditional form. It’s a perfect salad bowl for a remarkable variety of salads. It’s a simple form that often states its subject in the title. With the theme structure you can range widely while staying squarely on subject. Suppose I wanted to write a piece titled “Bald Eagle.” Paragraphs might dip into eagles and their lifestyle, the eagle as a symbol of America, how bald eagles nearly went extinct (and their comeback), their eagle eye (sharp vision), their role as spirit messenger in Native American world views, my own encounter with a bald eagle, the evolution of feathers and of flight. . . You get the idea.
+
+Let’s explore the theme structure by scrutinizing Ira Sadoff’s thirteen-paragraph piece on the jazz musician Ben Webster. Actually, let me rephrase that. Let’s begin by reading “Ben Webster” out loud, rather slowly. This is how, in the Advanced Short Forms Seminar, we take in a new piece. We read it paragraph by paragraph, each taking a turn to read. To skim a piece is to get its gist but to miss its structure. So we read out loud, as if we were schoolchildren. Read “Ben Webster” this way with a buddy or read it out loud to yourself.
+
+
+
+
+
+“Ben Webster” by Ira Sadoff
+
+He’s almost as wide as he is tall. His forehead is broad as an anvil. His eyes are red, alcohol red, and he glides onto the stage absentmindedly, as if he were on the way to somewhere else. He wears a worn-to-shine brown double-breasted suit and a porkpie hat. He doesn’t know we’re out there, any of the ten of us, in a small Amsterdam café in 1973. He may not know blacks and whites can use the same bathroom everywhere now, that the Vietnam War is winding down, that people may want to hear his music again. He was chased here a decade ago, by racial prejudice, by the lack of work, by television and rock and roll, by free jazz. He’s archaic as Keats; he’s a relic of jazz history.
+
+He snaps his finger and nods to the white Dutch rhythm section. They’re out of tune, they don’t play together, they play figures and chord changes from the fifties (they learned everything they know from old Charlie Parker records), they’re a little too loud, and worst of all, they’re bored. He’s done these same tunes night after night and they want to play something more modern, more dissonant.
+
+He growls at them and keeps snapping his fingers until they pick up the beat. Then he lifts up the saxophone, opens his eyes as if for the first time, and moves to the edge of the stage, where a Dutch girl is drinking coffee and talking with her boyfriend. He moves the sax in her direction; he serenades her. He plays “Prelude to a Kiss,” a ballad he learned with the Ellington band forty years before. It makes you want to wince, until he’s eight notes into the melody. Then you find you’re hypnotized by the pure beauty of his instrument, by the remarkable voice, by the wordless story the melody tells. By the unrelenting melancholy, the history of the familiar tune played as if you’ve never heard it before. This is Ben Webster, two months before he dies, on September 9, 1973. He’s the musician who can always move you, who’s a relentless bastard, who beats up on his piano player, who drinks himself sick. Who knows the secret of melody. Who, like many of our artists, like most of our black artists, dies alone and impoverished and completely unappreciated.
+
+Jazz is an expression of the history of a people, because every musician must understand its history before being able to play. No one can come to “Confirmation” without bowing to Charlie Parker; no one can play “Well, You Needn’t,” without absorbing the irony of Thelonious Monk.
+
+But rather than exalting the individual imagination, rather than exalting the perverse notion that complexity and eccentricity are themselves a virtue, that design and pure intellect prove the greatness of the art, jazz depends upon improvisation and community. A familiar tune, a tribal tune, really, is given an interpretation. The individual experience of the artist intersects with the community. Call and response, originated in West Africa, lets artists interact with each other, respond to each other’s ideas. They can break in on one another, they can cut each other up, they can alter the whole tone and rhythm of a piece.
+
+When I listen to the music of Ben Webster, though, I forget all the intellectual justifications for jazz; those rules simply don’t apply. Webster reduced me to pure feeling, to mood and attitude. I don’t care what tune he plays and I don’t often care who’s playing with him (only with Ellington, Hawkins, and Benny Carter are Webster’s cohorts more than time-keepers, tapping feet). I can’t claim to hear notes I’ve never heard before; I don’t hear configurations, inventions of melody I’ve never imagined. Instead I hear a voice. A human voice. A timbre, an imagination, a way of playing that comprehends the nuance, the suggestion of phrase. His tone is thick and reedy, throaty, almost as full of air as note. He keeps his instrument in the lower register until he wants to reach for some emotional statement on a melody: then the notes will come slowly, full of associational logic, sparsely decorated. Our understanding requires patience. He might play a series of quarter notes and then suddenly linger on the penultimate or final note of a phrase as if to say, “Look at what’s inside this note.” Sometimes the note will bleed onto the next phrase, the next chord change. But always Webster’s signature—the raspy sound and the deliberation of phrase—gives a ballad the texture of what Rahsaan Roland Kirk would call “the inflated tear.”
+
+Webster moves me by the sheer force of personality. I see the torchy ballads in small, dimly lit cafés; I see the streetlight and cigarette smoke. I imagine a life that’s full of hurtful memories. And I can see a lonely figure holding back his rage. The outsider who knows that love is the only possible salvation, but salvation is only something to long for. You only have to listen to his renditions of “Where Are You?” or “When Your Lover Has Gone,” to follow the quest and be consoled by the experience. And though his tone darkens over his forty-year career, though he chooses gruffness over grace, the tunes change only in minor ways. He might cross out a note, a phrase, stretch or compress it, and although the change might represent an improvement, the change is not essential. Webster’s greatest gift as an artist is his ability to inhabit the tone of a tune each time he gets up on the stand.
+
+We live in a culture where innovation is more highly valued than interpretation. Pound’s “make it new” has become a cry for eccentricity. It’s as though life would be entirely too boring if we didn’t change our clothes every day, if there weren’t some new electronic gadget to amuse us, if we couldn’t love someone new after a few years. We also have little patience for grief. My students tell me they hate Nathanael West because he’s too depressing. Producers in Hollywood won’t make “down” movies. We have a short, happy attention span. Loss is un-American. These are nostalgic grievances, but it shouldn’t surprise anyone, even those who love jazz, that Webster is not quite tragic enough—he’s not a drug addict; his connection with his race is implicit rather than explicit; he doesn’t quite provide an heroic enough image to become the martyr America requires of its artists.
+
+Webster’s born in 1909 in Kansas City, he comes from a middle- class black family, he picks up the violin before he picks up the tenor saxophone. He plays with Andy Kirk’s band in 1929. He meets up with the first great tenor player, Coleman Hawkins, and learns to make the saxophone growl, he learns how to make it run, how to sing. But it is not until the forties, in the great Ellington band in the middle war years, when he’s on the bandstand with Johnny Hodges (who has the sweetest tone of anyone who ever lived) that he develops his unmistakable tone and approach to the ballad. Then Charlie Parker, also from Kansas City, arrives and changes the quarter notes to eighth notes, changes swing to be-bop, learns to twist the melody out of shape the way Picasso can distort a face. Webster, who’s obstinate, who knows who he is, never gives be-bop a try. He’s not hostile, he’s just not interested. And in a few short years, one of the most prominent tenor players of the swing era is forgotten. He becomes a sideman, he plays in various bands, but basically he’s obsolete.
+
+Then, in the mid-fifties, like a number of older players, he’s resurrected. He backs up Billie Holiday in a series of Verve recordings when Billie’s voice is gone and when she’s never been so expressive. People remember them both. Verve signs Webster to a recording contract, and Webster makes a half-dozen of his most unforgettable recordings. A set of records with Oscar Peterson, J. C. Heard, and Alvin Stoller, mostly ballads (now re-released in a double album called Soulville); these recordings are Webster at his purest, his most melancholy, and his reputation as an artist could stand on them. He makes two recordings with Coleman Hawkins and their voices are so intertwined, so alike in mood, so opposite in personality—Hawkins grumbles, runs, stutters, vibrates in the lower register, while Webster is sweet, slow, pure, one note at a time—that one marvels at the illogic of recording producers . . . why were they never put in the same studio again? Why, because the producers believed, perhaps rightly so, there was no real market for these old fogies when there was Miles Davis and John Coltrane. So in a few years, after a last degrading record made to sell in 1964, “Ben Webster at the World’s Fair,” after the British Invasion, after the Five Spot Café is turned into a pizza parlor and then a used-clothing store, Webster takes off to Amsterdam. That’s where Dexter Gordon lives, that’s where Eric Dolphy lives, that’s where tens of great American black artists live, because they’re fed up with American commerce and race.
+
+In those last years Webster records sporadically, and his last recordings, equivalent to Holiday’s recordings of the fifties, are made for obscure Dutch labels. One set of recordings, an Affinity two-fer featuring those Duke Ellington songs that made him famous, is particularly poignant. The notes are not so different, but the tempos are slower, the emotional effect is of greater pain, the nostalgic grace of the playing reminds me of Mozart’s great Clarinet Concerto, K. 622, composed shortly before his death. Every note is an elegy. And that, it seems to me, is the legacy of Webster’s last recordings.
+
+There are other lessons, confused and contradictory, in the art and life of Ben Webster. He perservered, maintained his style regardless of fashion. He died unappreciated, though his art was great and though he kept at it every day of his life. He could be a generous man but when he drank, and that was often, he’d senselessly start fights. He was a relentless womanizer. He seduced women with his instrument. He saved the best part of himself for his work.
+
+Webster reminds us that grief is ennobling, though not necessarily transformative; that we’re made more human by our suffering, though not necessarily better humans. We may never recover from loss, but we can memorialize it with the imagination. Webster’s art ultimately affirms, because he makes us feel that if there’s beauty even in despair, perhaps, just perhaps, we can survive the world.
+
+
+
+
+
+Now, how do we extract the structure—separate the structure from the content—of this piece? The key to abstracting structure is looking at the physical page—literally. “Ben Webster” has no sections, whether numbered or subtitled or indicated by an extra space between blocks of type. Duly noted.
+
+Now we count the paragraphs. Thirteen. It’s tradition to think of word count (“Ben Webster” has 1,763 words), but more useful for our work to count paragraphs.
+
+I like counting paragraphs instead of using a word count because a paragraph is a structural unit. A paragraph has one controlling idea, more or less. You can make a list of paragraphs by making a list of controlling ideas. It’s like lining up a row of canning jars, each to be filled with tomatoes, string beans, corn, or red beets. The paragraph-as-Mason-jar way of thinking about the task makes it seem manageable. It’s especially effective to take a daunting subject, one that seems unmanageable because emotionally tricky or because just too big, and give yourself the assignment: write a piece on this subject in thirteen paragraphs. A big subject gives you plenty of material to work with, and thirteen paragraphs gives you a good harness within which to do that work. You have now sidestepped one big problem with many short pieces: they are too slight. A short piece need not be slight, and it need not be the last word on the subject either. Writers return to subjects again and again. So you need not worry about “wasting” your big subject on one thirteen-paragraph piece.
+
+When “copping a structure” to use in a piece of my own, I keep strictly to the given number of paragraphs, although this might cause one or more of my paragraphs to puff out rather big in its effort to contain everything I want to say. As the last step in this process, we discard the model and shape our own piece however it wants to be shaped. At that time I break up my ballooning paragraphs into two or sometimes three paragraphs. But this makes only a minor variation on the structure: I’m still not writing a thirty-paragraph piece. To disregard the number of paragraphs at the beginning is to disregard the structure.
+
+Indeed, because the theme structure is a nondramatic structure that lacks the driving energy of a dramatic story in which there is a protagonist to identify with and high stakes and obstacles to overcome, it may require its short length to work well. To take the thirteen- paragraph “Ben Webster” and make it twice or three times as long may doom it to the wastebasket.
+
+Now, with your assignment in hand—to write a thirteen-paragraph theme piece—what will your subject be? A portrait of a person comes to mind. “Ben Webster” is not an interview-based profile and it’s difficult to see how it could be a useful model for an interview-based profile. Sadoff’s piece includes a physical portrait of the man, his biography, a deep knowledge and ample description of his art, and reflections on the world in which he has carried out his work—the history and context of jazz.
+
+For our piece based on this model we want to assiduously stay away from a jazz musician or, really, any sort of musician. Our goal is to learn from and use Sadoff’s deep structure while producing an original piece of our own. The goal will be well-served by keeping a good distance from Sadoff’s subject matter to avoid unconsciously taking words or ideas from his work.
+
+So, our assignment is to write a thirteen-paragraph piece on a person. And, the person represents something that is somehow core to our own concerns and experiences. This is a good guideline in any case, but it’s especially important when we are deliberately putting ourselves under the influence of another writer.
+
+Let’s now return to Sadoff’s piece. We list the paragraphs in terms of what they contain.
+
+Paragraph 1: Portrait (body type, clothes, coloration, gesture). Time and place, and the opening paragraph immediately answers the question, what does this writer have to do with this material?
+
+Paragraph 2: Continuing portrait including gesture (“snaps his fingers”) and the context of jazz (the bored band prefers Charlie Parker).
+
+Paragraph 3: Observing the man in action—body language (“He growls at them and keeps snapping his fingers”). His work in action (plays “Prelude to a Kiss”). The personal reaction of the writer. The summing up: Who is this? When is this? The context of the musician as a black man.
+
+Paragraph 4: Short generalizing statement characterizing Ben Webster’s context—jazz (“Jazz is an expression of the history of a people”).
+
+Paragraph 5: Second paragraph elaborating Webster’s context of jazz (“jazz depends upon improvisation and community”).
+
+Paragraph 6: Personal response to the music, using “me” and “I” (“reduces me to pure feeling”). Characterizes the quality of Ben Webster’s music, a “here and now” of sound (“thick and reedy, throaty”).
+
+Paragraph 7: Further personal reaction including a riff comparing the music (the work) to a different mode (verbal images such as streetlight and cigarette smoke). Again, use of “I”—the writer inserts himself into the piece. The phrase “over his forty-year career” backs you up enough to see a life. Paragraph ends with a continuing characterization of the work (“He might cross out a note”).
+
+Paragraph 8: Statement in the universal “we” that characterizes our society as context for Webster and his work (“We live in a culture where”). Why, given what we are like, Webster has not received due recognition.
+
+Paragraph 9: Webster’s biography, given in present tense. Includes early career.
+
+Paragraph 10: A long paragraph detailing his music career, how he was resurrected, who he plays with, his recordings with Coleman Hawkins, and the demise not of his music but of his fame and status, ending with the move to Amsterdam.
+
+Paragraph 11: Elegy paragraph. The last recordings.
+
+Paragraph 12: Lessons his life gives us, as a creator.
+
+Paragraph 13: Larger meanings that this creator and his music give us.
+
+As we study “Ben Webster,” we keep in mind that as writers we are not here to opine on whether or not we like the piece (we may like it or dislike it). For the moment, “Ben Webster” is our teacher. What are its technical moves? Which of Sadoff’s strategies can we adapt for use in our own very different piece? After reading the piece out loud, we go paragraph by paragraph listing these out.
+
+Here are a few thoughts. The metaphorical images are fitting. Webster’s forehead is “broad as an anvil,” an anvil also being an old, archaic thing. Also, for Sadoff to write that Webster is “archaic as Keats” is to pay him a high honor, to give him world-class status as an artist. Sadoff gives us date and place, and also the context of the era, Vietnam, the situation of African Americans at that time. And for Sadoff language is a jazz tune: archaic/Keats/relic.
+
+Beginning with the second paragraph Sadoff saturates his piece on one musician with his deep knowledge of the history of jazz—this one musician’s context. The suggestion here is to place our subject within his or her larger world. Note how many other musicians Sadoff mentions by way of placing Webster in context—Charlie Parker, Duke Ellington, Thelonious Monk, Coleman Hawkins, Benny Carter, Johnny Hodges, Billie Holiday, Oscar Peterson, J. C. Heard, Alvin Stoller, Miles Davis, John Coltrane, Dexter Horton, and Eric Dolphy.
+
+Also, Sadoff gets to issues beyond music—the making of art, the life of this black musician in the context of racism, loss and grief and how our culture avoids them. He gets to this larger world, along with the history and context of jazz, through the lens of one man, one artist. He covers a lot of territory without digressing.
+
+In paragraph 8, Sadoff characterizes our society using the universal “we.” (“We live in a culture where innovation is more highly valued than interpretation.”) Speaking in the universal “we” is a practice and it is a skill. It is to claim authority, to speak without diminishing or undercutting your statement with phrases like “at least that’s my opinion.” I encourage you to learn to do this. To articulate, occasionally, for our larger culture. To characterize our own society. When you first try it, your pronouncement may end up sounding clichéd or overgeneralized or arrogant (often writers shun this move out of fear of arrogance). The work is to strive for accuracy and to work for a nonjudgmental tone.
+
+We note the technical moves of Sadoff’s sentences. His repetitions. His changes in tense and in person (from “I” to “you” to “he” to “we”).
+
+This is Ira Sadoff’s piece. Now, how do I proceed?
+
+I want to write a piece (as of this writing, not yet written) on the visual artist Agnes Denes, someone I’ve never met. Why her? She’s engaged with environmental issues and with science, as I am. She’s been compared to Leonardo da Vinci—that interests me. My own subject matters include art and the creative life and artists (including and even especially women artists).
+
+So here goes. How might I organize this piece? I will start with Sadoff’s thirteen-paragraph structure. This is not carved in stone but it gives me a direction for writing a complete draft.
+
+1.Opening should include a physical portrayal of her. I will use a photograph, the famous one of her in the wheatfield she created in lower Manhattan. What do I have to do with this subject matter?
+
+2.Context of conceptual art and Denes’s place in it. Her performance piece in which she buries the only copy of her Haiku in a time capsule to be opened in a thousand years. Time as a material she incorporates into her work.
+
+3.Another work described—her exquisite drawings based on mathematics? Include personal reaction.
+
+4.Short statement about conceptual and environmental art. What is it, when did it start?
+
+5.Elaboration of context of conceptual and environmental art. Name other artists.
+
+6.Take a particular artwork and do a Here and Now on it and my reactions. (The strength piece: she extracted words connoting strength from a fat dictionary and made them into an artwork, a process that took her seven years.)
+
+7.Take an environmental piece and do the same. Tree Mountain (in Finland, an artificial mountain with eleven thousand trees planted on it).
+
+8.A statement about our culture and Denes’s place in it. Here try a “we” statement. “We are a society devoted to consuming” or something.
+
+9.Biography: a Hungarian immigrant become artist. Loss of language. A beautiful woman working to be taken seriously. In present tense?
+
+10.Her career and its vicissitudes including her works, in chronological order more or less. Include Denes’s writings and the “Book of Dust”—human bones and dust and writings concerning “the beginning and end of time and thereafter” and our place in it.
+
+11.Her latest works (as I write this Denes is in her eighties).
+
+12.Lessons of her life as a creator. Going her own way. American artist as immigrant. As refugee from world disasters.
+
+13.Larger meanings this creator and her art give us. (Her view of artist as seer.)
+
+Here I have a structure to write into. It’s not rigid. It could change. I am also in the process of doing the lexicon work and doing research. Studying her writings and her works. Should I try to meet her? I suppose so. But I don’t see the piece as being largely interview-based. In any case, my work is nicely laid out. This is no longer a vague something-or-other on Agnes Denes. It has a direction. I have a harness. And trust me. Even before it is written I can tell you it will look nothing like Ira Sadoff’s marvelous piece on Ben Webster.
+
+Now let’s look at John Olson’s very different theme piece. Let’s read it out loud.
+
+
+
+
+
+“Home” by John Olson
+
+I didn’t see the rain yesterday. Our blinds were drawn. They’re new blinds, not brand new, relatively new, and already broken. Our cat managed to balance herself on the back of the computer desk and swat at the cord and chew the tassel so that it had to be rethreaded. Rethreading, however, did not go as planned. The tassel is dicey. It will endure several gingerly executed pulls, but pull too hard and it comes undone. The easiest solution is to not lift the blinds. This is easily accomplished, as we have no great view, and enjoy our privacy.
+
+Our window is flush with the ground. We overlook dirt, and a few bedraggled plants. I prefer this. I like being partially underground. It gives me a secure feeling. I feel grounded.
+
+I’m not into views. I once lived on the upper floor of an apartment with a panoramic view of Seattle’s Lake Union, downtown Seattle, and the east side of Queen Anne Hill. I looked at sailboats, white caps on windy days, and the seaplanes from Kenmore Air come and go. It wasn’t long before I lost interest. I prefer dirt.
+
+The place where I truly feel at home is in a book. This is where the real panoramas are. The landscapes of the human imagination. Oceans, raging rivers, philosophies, forests. Language is a wilderness and books are their reserves.
+
+If I’m in line at the DMV and I open a book I feel at home. If I’m at the airport, dentist office, hospital waiting room, coffeehouse or bench at the city park and I open a book I feel at home.
+
+Home is a sensation. Shelter, yes. Home is definitely shelter and I love that aspect of it. I say a prayer to the gods of electricity and running water every day. I do not take them for granted. A power outage that lasts more than eight hours is a reminder of how dependent we are on services to give that sheltering aspect of our homes real meaning. It makes me wonder what the hell libertarians are thinking when they squawk about the unnecessary burdens of municipal and federal agencies that ensure clean water and safe roads and standards for electrical wiring and outlets.
+
+That said, home is quintessentially a feeling. The expression “I feel at home here” is indicative of that. I’ve lived in a lot of places over the years. I’ve lived in a school bus, hotel, boarding house, and garage. Some places felt naturally good and some places remained cold and unaccepting.
+
+My first home was a human body. A female. My mother. I have absolutely no memory of ever being a zygote, tadpole, or humanoid floating in amniotic fluid. But I spent the first nine months of my existence living like that, rent free. It would be an interesting exercise to figure out at what point in human development a sense of self first begins. It’s that sense of self that is our true first home. No sense of self, no home.
+
+Some people are at home in themselves and some people (my tribe) never completely feel at home in themselves. There’s always something inside agitating, churning, ruminating, preventing me from that idyllic sense of being comfortable in one’s own skin. Sometimes a good feeling comes along and I will feel completely at home in my body, muscles relaxed, brain relaxed, my nerves flickering like little scented votive candles in a quiet Mexican church. It can be encouraged. It can be enhanced with a little wine, a little Vicodin, a little Xanax. Meditation helps, as does exercise. That boil inside can be brought down to a nice little bubbly simmer. Feelings can be mellowed. Attitudes can be softened.
+
+Votive candles lit, confessions made, prayers recited.
+
+The Agenbite of Inwyt, subtitled Remorse (Prick) of Conscience, is a confessional prose work written in Middle English by a Benedictine monk named Michael of Northgate sometime in the thirteenth century. The work did not garner a large and enduring audience but is most notable because James Joyce borrowed the title for referencing states of inner agitation and pain in Ulysses.
+
+Remorse is awful. I hate remorse. I never cease obsessing about building a time machine and going back to edit my life, undo all the horrendous mistakes made, horrible things said, wrong turns made, opportunities lost, bad choices made. People always say “let go.” You can’t go back, you can’t do anything, so what’s the point of dwelling on it? None, obviously. I get that. I’m on board with that. I would love to let go. But how do you let go of a feeling? It’s not a rope, not a wing strut, not a bowling ball. The hand has no purchase on it. It’s a feeling. It doesn’t have a shape, a texture, a knob or a handle. There are no levers or buttons. It’s not like an elevator. I can’t make it go up or down. I can’t steer it. Feelings are ghosts. They’re phantasmal. When we’re troubled with remorse we say we are haunted by something. The mind is preoccupied, and the tenant is a shapeless, formless apparition.
+
+Specter, shadow, wraith.
+
+Anxiety isn’t much fun either. That chronic sense of dread, of things going horribly wrong at any minute. Anxiety is a form of fear; what makes it different from fear is its irrationality, its presumption of harm where there may be no harm, its exaggeration of something scary that might not be all that bad. We just don’t know. It’s the uncertainty that drives us nuts. It’s a fear of something that might happen, not (as for example being chased by a bear) something that is actually happening.
+
+Psychologists give that inner discomfort a nifty little term: fight or flight. But fight what? Flee from what? If we knew the answer to that, we would be instantly relieved. We would be more at home in our bodies. We would know what to do. Resignation isn’t such a bad thing either. If there’s nothing we can do, if hope is more painful than helpful, surrender to a helpless situation can be liberating. It frees us from responsibility. We play a sonata on the violin while the Titanic sinks.
+
+Or we can seek therapy. A skilled psychologist can help us to see the irrationality of a fear. The ghost will vanish. Though, as in the recent election, some fears aren’t so irrational. Sometimes the things we dread do come to life. Godzilla rises from the New York harbor and starts crushing cars and buildings. A moronic fascist billionaire is elected president and critical social services are destroyed and people die.
+
+Mortality doesn’t help. Knowing one is going to die one day isn’t conducive to a homey feeling inside oneself. The ship is going down. You really get that message when you turn sixty. By the time you turn seventy you’re almost giddy with impermanence. Upkeep? There’s no remodeling for the temple that is the body. This is where you learn stoicism.
+
+Stoicism is a home for pessimists. Or should I say realists? Let’s say realists.
+
+Stoicism is a home for realists. The Stoics believed that we can become immune to misfortune if we cultivate certain virtues, such as developing the intellect and creating a philosophical perspective on life. But what does that mean, “philosophical perspective”? It means tapping into the idea of the universe and all beings and matter within the universe as being unified by breath, by pneuma, by Godstuff. Pneuma is breath and spirit. It is, in many ways, similar to the mindfulness movement. We minimize our pain by concentrating on our breath. By breathing in and breathing out. Our ultimate home may be breathing. Inhaling, exhaling. Letting thoughts pass through our minds like clouds. Let go let God, as they say in AA.
+
+Logic worked for the Stoics but it doesn’t always work for me. I do what I can to cultivate a philosophical perspective. Sometimes I succeed, sometimes I fall on my face. Sometimes I just thrash about like a madman, or brood like Hamlet on ghosts and revenge. I seek philosophy. I look for it wherever I can. But it helps considerably to be at home when I undertake that voyage.
+
+
+
+
+
+How do we analyze the structure of John Olson’s piece? First, as always, we look at the physical page. There are twenty paragraphs. Two of them consist of one sentence only. Duly noted.
+
+We list out the paragraphs. In doing so we are not floating high above the piece discussing its meanings. We are looking at it literally. We note the mundane paragraphs at the beginning about the blinds, the cat. We note how and exactly where this writer leaps from the material world to metaphysical, psychological, philosophical, and political worlds. We note the literary references. We follow any notion we have about the piece by pointing to the exact place in the text where this is illustrated.
+
+
+
+
+
+Hands On: Writing the Piece
+
+
+Most any idea or ideal, place, plant, animal, building, or person works within this structure. Among the theme-structured pieces I’ve composed are “House,” “Blue Note” (on the color blue), “Composition in Yellow,” “Housekeeping,” “Studio,” and “The Color Orange.”
+
+What might work for you using this structure? Do a writing- practice session for twenty minutes or a half-hour. If you had only five years to live, what subject matters would you certainly want to write about? After doing this discovery writing, make a list of every subject that came up. Now which of these might work as a theme-structured essay?
+
+Choose the one that attracts you and begin writing it by “Jump Starting an Essay or Story” (page 7). And consider, Could you do one of these per month?
+
+Finally, build your own collection of models based on this structure. You will see how delicious and commodious a form it can be.
+
+
+
+
+
+7.
+
+
+Collage Structure
+
+
+The meeting of two or more distant realities on an unfamiliar plane.
+
+—Artist Max Ernst’s definition of collage
+
+In the visual arts, a collage is an amalgamation of disparate objects—fruit labels, burlap, magazine cutouts, words printed on newspaper, wood, a nail, a spoon. The elements composing a collage may have little or no obvious relationship before they are brought together within the collage. Often the elements are found objects—not themselves generated by the artist. The German artist Kurt Schwitters was one of the early masters of the form and another was Joseph Cornell with his black-painted boxes fitted with objects hoarded from flea markets and junk shops to reveal an inner world. The Swiss artist Meret Oppenheim, a master collagist most famous for her fur-covered teacup, is yet another. Spend real time gazing at the work of these and other artists to get inspired and get ideas. The found objects found in visual-arts collages may be simulated in a literary collage (sometimes termed a mosaic or a montage) by using quotations—words found elsewhere.
+
+But what does “amalgamation of distant objects” mean when your materials are words, words, and more words? Well, think of the different shapes words can take: question, reflection, poem, joke, quote, anecdote, scripture, lecture, list.
+
+A key quality of the collage is that its sections are short and they are separated from each other by a space or an asterisk.
+
+Here is a collage, “Babylon” by Eula Biss.
+
+
+
+
+
+“Babylon” by Eula Biss
+
+The hanging gardens were built for a homesick wife. Amytis of the Medes found the flat, dry land of Babylon depressing, and so her gardens were planted on terraces to look like hillsides.
+
+
+
+“The air in California,” my cousin once told me in New York, “smells like flowers.” At the time, I took this as nostalgia for her home, but when I moved to California I found that it was true, especially in Oakland, where bougainvillea climbed telephone poles and huge hibiscus flowers poured out over the front yards of all the little houses.
+
+
+
+The people of Babylon did not grow figs or grapes or olives, wrote Herodotus, but the land of Assyria was so rich that the fields of grain produced two hundred–fold or even three hundred–fold. He is thought to have exaggerated.
+
+
+
+My first disappointment in California was the park. At the end of the summer it was a wasteland of brittle shrubbery. But the winter rains would make the park green, and I would learn that it was full of gardens.
+
+
+
+Their exile in Babylon, their captivity, was, for the Jews, both a punishment and a promise. It was through this exile that God would deliver his people.
+
+
+
+Palm trees were all I saw as my plane landed in California, and palm trees were all I could see there for a long time. The palm trees were how I knew I was a long way from home.
+
+
+
+There was a garden in the park called the Desert Garden, where African bottle trees and pencil trees and strange succulents grew. At midday this garden was hot and still, the yellow dirt paths were pounded hard, and almost all the plants were scarred from graffiti. There were messages etched into the leaves of the agaves and up the trunks of the saguaros, between the spines. Most were declarations of love: “Edgar R Te Amo Rosa,” “Sang Love Thuy,” “Victoria y Bernardo,” “Lilia + Maryus,” “Isidro y Blanca [heart] nuestra hija Leslie.”
+
+
+
+Plants deal with their wounds differently than we do. A cut on a plant will never heal, it will simply be sealed off or, at best, grown over. On one of our first days in California, my sister picked up the bright red fruit of a cactus from the ground and its tiny spines were in her fingers, swelling, for days.
+
+
+
+“By their fruits ye shall know them,” Matthew tells us. “Do men gather grapes of thorns, or figs of thistles?”
+
+
+
+My sister and I drove out into the desert, only to discover that it was not, as I had imagined, empty. It was full of ocotillos and saguaros and crucifixion thorns.
+
+
+
+I came to the fantasy of California early, twenty years before I moved there, because it was the place where my cousins lived. In third grade I wrote to the Oakland Chamber of Commerce and received, in the mail, a map of the city. This was in the eighties, when the crack houses of Oakland were still crack houses, not high-rent apartments. I pored over the map of Oakland, although the lines of it meant nothing to me then.
+
+
+
+Oakland was advertised as a “garden city” by its postwar boosters. “Workmen,” read one advertisement, “find happiness in their garden-set homes. . . . Their children are healthy in the mild, equable climate.” The factories wanted workers who would not leave looking for something better.
+
+
+
+But Americans always leave. We are a migrant people, a people of diasporas and exiles.
+
+
+
+The two great migrations of the twentieth century, the migrations that made the landscape I was born into, were the migration of blacks to the cities and the migration of whites to the suburbs.
+
+
+
+In the postwar decades, industry migrated too. The General Motors and Ford and Chevy plants left Oakland for the suburbs, and New York’s textile district emptied.
+
+
+
+The metaphor of Babylon, already employed by preachers and Rastafarians, entered, in the 1960s, the vocabulary of black politics. Babylon could stand for any city—for New York, for Oakland, for California, for the United States—for capitalism, for imperialism, or simply for excess. “It was often an illusive metaphor,” Robert Self writes, “but it captured the profound cynicism engendered by decades of liberal failure as well as the remarkably optimistic belief in rebirth, in beginning again.”
+
+The fall of the city of Babylon was also the end of that particular captivity for the Jews. A reminder that there is always some promise in destruction.
+
+
+
+Certain desert succulents can be forced to bloom by withholding water. And other plants can be forced to bloom with cold, or with cutting.
+
+
+
+“For the Panthers and other black radicals,” Robert Self writes, “the industrial garden of midcentury had become Babylon—a false city that had to be remade to stave off collapse.”
+
+
+
+By the seventies, landlords in New York City were abandoning their buildings. Squatters were taking over vacant tenements on the Lower East Side—patching roofs, rewiring electricity, building open fires, carrying buckets of water from fire hydrants, clearing the bricks and tires off empty lots to grow vegetables. On some blocks, they simply threw Christmas-tree ornaments full of wildflower seeds over the chain-link fences to break on the rubble. Seed bombs, they called these. And they called themselves homesteaders.
+
+
+
+Meanwhile, exurbs. Penturbs. Boomburbs. Technoburbs. Sprinkler cities.
+
+
+
+To flee within your own nation is to create a kind of captivity for yourself. A self-imposed exile. And so, the despair of the suburbs.
+
+
+
+But to call it flight is to acknowledge only the fear and to ignore the other motivations, particularly the government subsidies—the highways, the mortgages, the tax breaks, the American dream.
+
+
+
+I long, even now, to live in a place where I can have my own garden.
+
+
+
+Because it is so sheltered by tall buildings, and so warmed by the “urban heat island effect,” the climate of New York City is particularly suited to gardens of exile. The callaloo of Jamaica grows there, and the okra of Georgia, the peach tree of South Carolina and the tropical hibiscus.
+
+
+
+Nonnative plants are sometimes called “invaders.” Or, if we like them, “exotics.” The apple tree, for one, is an exotic.
+
+
+
+“The American traders and trappers who began settling in California as early as 1826 were leaving their country for a remote Mexican province, Alta California,” writes Joan Didion. “Many became naturalized Mexican citizens. Many married into Mexican and Spanish families. A fair number received grants of land from the Mexican authorities.” But when the American immigrants rebelled against the Mexican government, most of them had been in California for less than a year.
+
+
+
+Palm trees are not native to California. They come from Mexico, from Brazil, from Australia, from Costa Rica, from China, from Africa, from India, from Cuba—from, it seems, everywhere in the world except California.
+
+
+
+Americans began their acquisition of Mexico by simply moving there. Even after the Mexican government prohibited American immigration to Texas, Americans continued to cross the border illegally. Stephen Austin, the “Father of Texas,” urged Americans to come to Mexico, “passports or no passports.”
+
+
+
+After half of Mexico was claimed by the United States in 1848, thousands of Mexicans found themselves immigrants without ever having moved. In California, they outnumbered Americans by ten to one. They were made citizens of the United States, but they would, in the decades following the Treaty of Guadalupe Hidalgo, lose most of their land to drought, squatters, taxes, and American courts.
+
+
+
+Now, some Americans fear a reconquista of the Southwest.
+
+
+
+The iconic palms that line the streets and boulevards of Southern California are dying of age and disease. They were planted when the cities were young, and the cities are no longer young.
+
+
+
+Oakland was once a woodland of oaks. It was named Encinal, “oak land,” by the Spanish rancher who owned it before the gold rush.
+
+
+
+In Los Angeles, the rows of dying palms along the boulevards may soon be replaced by oaks.
+
+
+
+Almost two million more people left California in the 1990s than came there from the rest of the country. They went, mostly, to the mountain states, to Colorado, Montana, Idaho. “Lifestyle migrants,” they were called. A native Californian who left for Idaho told USA Today, “I was getting tired of traffic, graffiti, dirty air.”
+
+
+
+But graffiti, we all know, is not a reason to leave the place where you were born.
+
+
+
+“A lot of people coming in from California,” observed a professor at the University of Montana, “are coming in for ‘urban dread’ reasons.”
+
+
+
+In the nineties, after New York had resisted collapse and the land on the Lower East Side became valuable again, the city began to bulldoze gardens on empty lots to make way for new buildings. By then, the gardens had stone paths and goldfish ponds and grape trellises and roses.
+
+
+
+Graffiti is one way to claim a place you do not own. And so is planting a garden. Because we are all forever in exile, or so the story goes, from the original garden.
+
+
+
+Date palms belong to the genus Phoenix, and in California they rise from the ashes of conquest. Phoenix canariensis is the Canary Island date palm, brought by the Franciscan priest who founded the mission that became San Diego, and Phoenix roebelenii is the pygmy date palm, and Phoenix dactylifera is the true date palm.
+
+
+
+Some of the community gardens of lower Manhattan had already been razed when I moved to New York, but there was still a hanging garden in the old meatpacking district—the elevated train tracks, no longer in use, had grown tall weeds and wildflowers.
+
+
+
+“The daughter of Babylon,” Jeremiah tells us, “is like a threshing- floor, it is time to thresh her; yet a little while, and the time of her harvest shall come.”
+
+
+
+My cousin and I stood together once, by the Long Island Railroad tracks, under a sign that read “Babylon.” As I looked down the long gray tracks netted with electric lines, my cousin looked up at the sign and said, “Well, they call it what it is out here.”
+
+
+
+My grandmother keeps a garden on the graves of her parents, who came all the way from Poland to die in New York. Her most precious plants grow there, in the most permanent place she knows. She gave me some lilies of the valley from that garden, and I planted them in the shade of my father’s house in the suburbs not long before he moved away and I left for California.
+
+
+
+“They tended to accommodate any means in pursuit of an uncertain end,” Joan Didion writes of the pioneer women in her family, the women who went West. “They tended to avoid dwelling on just what that end might imply. When they could not think what else to do they moved another thousand miles, set out another garden: beans and squash and sweet peas from seeds carried from the last place. The past could be jettisoned, children buried and parents left behind, but seeds got carried.”
+
+
+
+I spent my first summer in New York City walking through the gardens of Far Rockaway, gardens that covered entire blocks forgotten by the city. They had paths of old carpet between rows of sunflowers. I walked through gardens in Harlem and the Bronx full of beads and candles and statues of the Virgin Mary enshrined in little wooden casitas. One man told me that he had everything he needed to survive Y2K in his garden.
+
+
+
+I heard a rumor in California, which I never had occasion to test, that if you were stranded out in the desert, you could cut off the top of a barrel cactus and find a reservoir of fresh water within.
+
+
+
+Next to the highway running through the desert outside San Diego, there were gallon jugs of water buried for those trying to make their way into the country on foot. A priest from LA had brought the jugs of water to the desert in his minivan and buried them with the help of volunteers. The water was marked with blue flags bleached by the sun, and some jugs were buried where bodies had been found. That this water had been brought all the way out there and was truly under those blue flags seemed as impossible to me as the telephone poles that persisted through the heart of the desert.
+
+
+
+The hanging gardens of Babylon may never have existed. Herodotus never mentions them, and they are absent from the Babylonian records. But the other defining feature of the city, its immense walls, described by Herodotus as 80 feet thick and 320 feet high, were real enough to crumble with time.
+
+
+
+
+
+After reading “Babylon” out loud, what qualities can we list out? How do we approach it as a structure? As before, we keep it literal. How many sections are there? (Forty-seven sections, 2,123 words.) A crucial characteristic is the short length of each section. Indeed, fully twelve sections consist of only one or two lines. If I’m going to use this as a structure model, I’m going to take the shortness of these short sections seriously and I am going to take a word count of around 2,000 seriously. Also, each section is separated from its neighbors by white space (often but not always including some sort of dingbat, such as an asterisk).
+
+What makes this a collage, since every section is a short section of prose (including a few quotes)? There is no list put next to a poem put next to an anecdote put next to a quote. What makes “Babylon” a collage, I think, is that the leaps in time and place are given no connective tissue. Yet together they add up to a meditation on displacement and exile.
+
+The form works like a weaving constructed from different colored threads. One thread is plants and gardens, mentioned specifically in thirty sections (if you count the “industrial garden” and woman perceived as a crop to be harvested). Plants are specifically associated with exile, migration, homesickness, captivity, escape, nostalgia, wounding. One might lay out the colored threads like this:
+
+1.garden homesick (Babylon)
+
+2.flowers nostalgia (California)
+
+3.figs, grapes, olives, lush—vegetation exaggerated (Babylon)
+
+4.wasteland/gardens (California)
+
+5.Jews captivity and exile (Babylon)
+
+6.garden and graffiti (California)—graffiti and gardens a way to make a home
+
+7.wounded plants, wounded person
+
+8.thorns (biblical, so in the realm of Babylon)
+
+9.and so on, through the forty-seven sections.
+
+It is the repeated locations (Babylon, California, New York) and the weaving of the theme-threads that give the finished piece its coherence. Note that the piece begins and ends with the hanging gardens of Babylon, providing a frame.
+
+Using this piece as my teacher, how might I shape a piece of my own? I am working on a series of reflections on types of places, and some of my favorite places are bookshops and libraries. This might be a perfect form for that. For it would allow me to explore libraries in history and to remember libraries I’ve spent hours and years of time in. It would allow me to return in memory to Leary’s Bookshop in Philadelphia, a three-story treasure house that became part of my childhood, the magical place where we always stopped on the way to visit our Scottish grandmother.
+
+A form of the collage is the abecedarian, the A to Z familiar from childhood alphabet books. This type of collage has twenty-six sections, one for each letter of the alphabet. One I wrote titled “My Brain on My Mind” progresses from A for Alphabet, to B for Brain, to C for Consciousness, down to Z for Zero. Dinty W. Moore composed one on fathers, with twenty-six titled sections that include D for Divorce and F for Father Knows Best. William Boyd’s abecedarians include one on the great Russian writer Anton Chekov (A for Anton, C for Critics).
+
+What is the abecedarian good for? It is a cathedral form, a considerable space to contain and thankfully to rein in a large subject. As I began building “My Brain on My Mind,” I felt the need for even more constraint, so required each section to conclude with the opening word of the following section, a move I learned from William Boyd.
+
+When you first become entranced with the abecedarian, you will find it a bit like a puzzle. You’ll have three L’s, four D ’s, and no X’s. You keep working until the puzzle resolves. (Which A is most essential? Could Alzheimer’s become Dementia?)
+
+Another type of collage proceeds by means of numbered sections. (The numbered sections of a collage must be short. Many essays that are completely un-collagelike comprise rather long numbered sections.) In a numbered collage, the numbers, it seems to me, should have some bearing on the subject. Could you write a forty-part piece on turning forty?
+
+Our second example of a collage is “Laughter” by Patrick Madden.
+
+
+
+
+
+“Laughter” by Patrick Madden
+
+My three-month-old daughter is just beginning to laugh. She is not ticklish; she is not mimicking us. As far as I can tell, she is just delighted by the world. She sees a funny face, sees her brother in a giant witch’s hat, sees me with my glasses on upside down, sees her mother dancing to the funky music of a commercial, and she laughs.
+
+I have loved her since she was born—since before she was born, when she was only an idea—and yet I feel I haven’t known her until now. Her laughter has become a common ground for us, a mutual realization that the world is an interesting and silly place.
+
+
+
+According to a third-century B.C. Egyptian papyrus, “When [God] burst out laughing there was light . . . When he burst out laughing the second time the waters were born; at the seventh burst of laughter the soul was born.” Man as the height of God’s laughter: that explains a lot.
+
+
+
+Max Beerbohm, in his essay on laughter, wonders that “of all the countless folk who have lived before our time on this planet not one is known in history or in legend as having died of laughter.” But Beerbohm is wrong. Bulwer-Lytton’s Tales of Miletus speak of Calchas, a soothsayer who was told by a beggar that he would never drink of the fruit of his vineyard. Moreover, the beggar promised that if the prophecy did not come true, he would be Calchas’s slave. Later, when the grapes were harvested and the wine made, Calchas celebrated by laughing so hard at the beggar’s folly that he died before he took a sip.
+
+
+
+The word laughter is like any other word: if you say it enough, it begins to sound strange and wondrous. Listen to the sound as it separates from meaning; feel your tongue jump away from your front teeth, the way you bite your bottom lip slightly—laf—the quick strike of the tongue against the teeth again—ter! If you say laughter fast enough and long enough it will make you laugh.
+
+
+
+Animals that laugh: hyenas, monkeys, the kookaburra or laughing jackass, an Australian bird whose call is so similar to raucous laughter that early European explorers of that continent were tormented by it. There is the laughing frog (which is edible), the laughing bird (or green woodpecker), the laughing crow, the laughing thrush, the laughing dove (or African dove), the laughing goose (or white-fronted goose), the laughing gull, the laughing falcon, the laughing owl.
+
+
+
+Democritus (460–357 B.C.), called the Laughing Philosopher, proposed that matter was not infinitely divisible, that there existed a basic unit of matter, the atom, which was indivisible. It turns out that atoms can be further broken down into protons, neutrons, and electrons, which in turn consist of quarks, which name comes from the James Joyce novel Finnegans Wake, because Murray Gell-Mann, originator of quark theory, loved the line “Three quarks for Muster Mark!” This makes me laugh.
+
+
+
+In English, laughter as dialogue is often portrayed as ha ha ha. Santa Claus’s laugh is ho ho ho. The Green Giant’s laugh is also ho ho ho. Children are said to laugh he he he. The laughter of connivers and old men is heh heh heh. In Spanish, laughter is ja ja ja, jo jo jo, ji ji ji, and je je je. The same holds true for laughs in Romanian, French, Japanese, and Chinese, and I’d be willing to bet it’s the same in most other languages too. Always a vowel sound introduced by an h, the sound closest to breathing, as if laughter were as basic as respiration.
+
+
+
+Some synonyms for laughter: cackle, chuckle, chortle, giggle, guffaw, snicker, snigger, titter, twitter. These words make my children laugh.
+
+
+
+Many things are laughable only later, after everything has turned out fine and we can reflect on our good fortune or our dumb luck. Such as my son’s many trips to the emergency room for foreign objects in his nose: raisins, rubber, paper, a toy snake’s tail. “See,” I once overheard a nurse telling her coworker when she saw him in the waiting room, “I told you it would be him.”
+
+
+
+Laughter heals; it can change the flavor of tears. When our cat died after nineteen years with us, my family was stricken with grief. My brothers dutifully prepared to bury him, digging a grave near the woods where he once romped. The former cat waited in a plastic bag inside a cooler from the vet’s office. Everyone was crying silently, speaking in whispers. When the diggers rested for a moment, my father prepared to deposit the body in the hole. But we weren’t done, the hole was too shallow, and my brother shouted, Wait! Don’t let the cat out of the bag!
+
+
+
+On a train one afternoon, Fourth of July, hot, tired, my son can’t sit still. He can never sit still, but he is extra-can’t-sit-still today. He jumps, hangs, clambers, throws his grandfather’s hat, drops his crackers, chatters. I plead with him to be still as he wriggles and twists. He laughs, thinking I am trying to tickle him. The woman behind ducks to where he can’t see her. He steps on my leg to peer over the edge of the seat. She jumps up and whispers, “Boo!” He falls limp to the seat below, convulsing with laughter. She does it again. He does it again. She does it again. He does it again. His baby sister stares intently at her brother. Her eyes radiate something I want to call admiration. Each time he falls to the seat beside her, she laughs heartily, uncontrollably. Pretty soon the whole train car is laughing. My children’s laughter is so bright and clear and pure and unselfconscious that I suddenly understand why a cool mountain brook might be said to laugh.
+
+
+
+“And God said unto Abraham,” according to the Book of Genesis, “as for [Sarah] thy wife . . . I will bless her, and give thee a son also of her: yea, I will bless her, and she shall be a mother of nations; kings of people shall be of her. Then Abraham fell upon his face, and laughed.”
+
+
+
+The next passage, you will remember, is Sarah also laughing at the prospect of bearing a child at her age (supposedly ninety). Lesson: God has a sense of humor, a special kind of love. God also chooses the name of their son: Isaac, which means “he laugheth.”
+
+
+
+We laugh at, with, about: clowns, jokes, funny faces, children, ourselves, contortions, misfortunes, wordplay, irony, other laughs, others’ joy, good fortune, madness, sickness, health, debilitation, recovery, things we can’t change, things we can change, sports, games, circuses, animals, drunkenness, sobriety, sex, celibacy, errors, equivocations, mistakes, blunders, bloopers, boners, double meanings.
+
+
+
+The late Norman Cousins, editor of the Saturday Review, when stricken with ankylosing spondylitis, treated himself with Marx Brothers movies. He recovered almost completely. Doctors were not sure why. Cancer and heart patients at Loma Linda University’s medical center today are treated with episodes of I Love Lucy and The Honeymooners. Laughter apparently increases levels of disease-fighting T cells, the very cells killed off by AIDS. Doctors are not sure why.
+
+
+
+“Among those whom I like,” said the great poet W. H. Auden, “I can find no common denominator, but among those whom I love, I can; all of them make me laugh.”
+
+
+
+That laughter is sweetest which is unexpected, which takes one unawares. “To that laughter,” says Max Beerbohm, “nothing is more propitious than an occasion that demands gravity. To have good reason for not laughing is one of the surest aids.” In church, then, in a foreign land, in a foreign language, one might reach such heights of laughter as to lose entirely any semblance of reverence.
+
+A hot Sunday morning in Carrasco, the rich neighborhood of Montevideo. I am one of two gringos among nearly a hundred Uruguayans. The chapel is filled with families in summer dresses and breezy shirts. After a solemn hymn, a member of the congregation approaches the podium to say an opening prayer. “Our kind and gracious Heavenly Father,” he begins, and I bow my head, close my eyes, try to keep my mind from wandering as I listen to his invocation. Slowly I become aware of a muffled, tinny music in the air. Appalled, I open my eyes and slyly look around me to find the blasphemer with a Walkman. All other heads are bowed, none with headphones. I close my eyes and try to focus again, but by now the music is clearer; it’s the egregiously awful “She’s an Easy Lover,” by Phil Collins and Phillip Bailey. Then I realize that the speakers in the chapel ceiling are channeling the music along with the prayer.
+
+I slide down the bench away from my friend, so as not to laugh, and I fold over in airplane-emergency-landing position, biting my tongue, casting my mind, feebly, to serious thoughts, solemn thoughts, when I feel the pew start to rumble and shake with my friend’s silent convulsions. With that the dam bursts, and no amount of biting our tongues and holding our noses shut can stop the laughter. The tears roll down our faces, we snort profusely. Finally the prayer ends, and as the members of the congregation lift their heads and open their eyes, everyone turns toward us, on every face an expression of dismay.
+
+
+
+As I write, I can hear my daughter’s laughter behind me. She is lying in bed, sucking on her whole hand, eyes bright with the morning sun through the window, and she is laughing. It is not clear to me what she is laughing about, but her laughter is beautiful. I listen closely, I watch her, and I start to laugh too. Amen.
+
+
+
+
+
+Patrick Madden’s “Laughter” repays the effort to count its (eighteen) sections. It repays the effort to note its sources and types of content: anecdotes, quotes, etymology, lists, and bits of philosophy. It reaches far into history, into ancient texts, into language, as well as telling personal stories. The piece is framed (begins and ends) with a vision of Madden’s little daughter. She also comes up somewhere near the center. So the piece has a structure, a beginning and end and a center post to hold it up and add coherence.
+
+
+
+
+
+Hands On: Writing the Collage
+
+
+For the creator, forms open doors. Discovering the collage has catalyzed a number of works for me, and this is what happens when you begin working within any specific form. The form itself opens up the subject matter in unique and interesting ways.
+
+Think of a collage as a type of patchwork quilt. The first step may be to begin a literary ragbag—a file for quotes and your own thoughts around a subject. Currently, for example, I am filling such a ragbag with thoughts and quotes on teaching writing. Then the juxtaposing may be a matter of matching or contrasting colors, of likes and opposites, of elaborations and contradictions.
+
+How do you sustain interest? What about closure, since a collage could in principle dribble on forever? (Consider making a frame by matching beginning and end, the way both “Babylon” and “Laughter” do.) How long should individual sections be? Overly long sections will undermine the form. If, while making a quilt, you include as one piece a bedsheet, you have sabotaged your quilt.
+
+Collect your own examples of the form to study and learn from. Brilliant collages that have come under my eyes include C. D. Wright’s “69 Hidebound Opinions, Propositions, and Several Asides from a Manila Envelope Concerning the Stuff of Poets,” and “Grace Notes” by Brian Doyle (who called this lovely form a mosaic).
+
+
+
+
+
+8.
+
+
+The A/B or Two-Strand Structure
+
+
+You don’t really have a workable idea until you combine two ideas.
+
+—Twyla Tharp
+
+The two-strand structure takes two topics and weaves them. Each pulls on the other, stretches the other, pushes against the other. It’s a useful way to work your way into a new piece because the technique itself pulls you, the writer, along. Thinking of Thread No. 1 in a certain way forces you to consider Thread No. 2 in that way too. Like so many writing strategies, it is not only a writing plan but also a thinking plan.
+
+Comparing something that interests you to something else that also interests you can open the door to several new pieces. You look at the first through the lens of the second, and then turn it around and look at the second through the lens of the first.
+
+Our first two-strand model is Amit Majmudar’s piece comparing poem to novel, poet to novelist. To slow it down, to absorb its qualities, read it out loud.
+
+
+
+
+
+“The Servant of Two Masters” by Amit Majmudar
+
+The poem makes the self strange. The novel makes strangers familiar.
+
+Both the poem and the novel are tasked with rendering their subjects at once larger-than-life and lifelike. The poem begins with the larger-than-life and narrows it. The novel begins with the lifelike and expands it.
+
+Size matters. In the novel, size is a function of duration. In the poem, size is a function of intensity. A two-line metaphor can weigh as much in the mind as one hundred pages. Collapse those hundred pages into a two-line summary, or expand that couplet to a hundred pages, and everything is lost.
+
+There is nothing poetry can do that the novel cannot do. There is nothing the novel can do that the poem cannot do. (What they do separately now, they once did together in epic and tragedy.) Today it is the novel’s audience that grows impatient with purple passages, and the poem’s audience that grows impatient with length. A single restriction inheres in all forms even after they are mastered—and that restriction originates in the audience.
+
+The novel allows itself diffuseness so it can tell a story. The poem denies itself diffuseness and restricts itself to the anecdote. A certain amount of sanctioned diffuseness made narrative poems possible. (This is one major reason for the decline in the reputations, huge during their lifetimes, of Sir Walter Scott and Henry Wadsworth Longfellow.) To insist on intensity, as the poem does, is to insist on brevity; to insist on brevity is to insist on the image. The novel, by contrast, has all the time in the world. It can afford the slow exposition, the rising action, the climax, the denouement.
+
+The novel, at its best, kills the novelist to give life to a character. The poem can give life to a character, too, but Prufrock will never shake Eliot the way Scrooge has shaken Dickens. The poem makes masks. The novel makes golems.
+
+The novel makes life out of language. The poem makes language come to life. The best of either does the work of both. Joyce’s prose is often poetic, Larkin’s verse is often novelistic. In life as in language, hybridity breeds vigor.
+
+Goethe, Kipling, and Hardy wrote both, but Victor Hugo is the truest poet-novelist. In his work, the division is taken to its greatest possible extreme. The novels, popular and sentimental, transfer very naturally to the animated film or the musical. The late poems are abstruse, allusive, God-mad. For Hugo, the novel is exoteric art, and the poem is esoteric art. They have a Mahayana-Hinayana dichotomy. In Goethe, Kipling, and Hardy, both the poem and the novel are pursued as exoteric arts. Passing from their novels to their poems, we find no sudden increase in the difficulty of the terrain, no drastic change in climate. Hugo, such a warm host in his novels, froths and goes crosseyed in La Lengende des Siecles and Le Fin de Satan. He uses the novel as a sitting room where he can entertain readers, and the poem as a dark tower where he can escape them.
+
+Ambidexterity is the least of literary virtues. The truly dual career (as opposed to the occasional prose work) dooms a writer to a two-front war. Energy and time drain from the form you are writing to the form you aren’t. To chase one is to stray from the other. But the real concern of the poet-novelist is not logistical. Consider: Hugo’s novels rank lower than Stendhal’s. At least in the English-speaking world, people revere Goethe but read Rilke. Hardy and Kipling, good writers of both poems and novels, are neither the best of poets nor the best of novelists. How much better to be a Tennyson or a Dickens—to be one thing completely! The novel and the poem may well reserve their highest gifts for the pure at heart. Lancelot wins a reputation; Galahad wins the Grail.
+
+The novel gains its power from inclusion and the broad gaze. The poem gains its power from exclusion and sharp focus. This is not to say a novel “should” not be spare and limit itself to one character’s musings, or that a poem “should” not suck up unfiltered the detritus of everyday life. Nor that such work cannot be powerful in its way. But a certain kind of power, specific to either form, is lost when the principles of one guide the other. The novel becomes poetic but falls short of the poem. The poem becomes novelistic but falls short of the novel.
+
+To call a writer “creative” is to use a hidden metaphor. The metaphor connects the writer and God. Writers do not create; they recombine. What they recombine are letters. When we speak of writers “creating” a character or “creating” a world, we are still speaking of recombination. Science-fiction worlds and literary characters are actually recombinations of the recognizable. That is what gives them resonance and meaning. Inventiveness gives pleasure. Creativity estranges. This is why we can understand writers but cannot understand God.
+
+
+
+
+
+Now, what can we observe about Majmudar’s piece?
+
+•Both poem and novel are introduced immediately.
+
+•It has eleven sections. The sections are short.
+
+•Each section comprises one and only one paragraph.
+
+•Each section speaks of both poem and novel (the other way of doing this form is to alternate sections A [poem] and B [novel]).
+
+•Threads to the big wide world: I count thirteen different authors: poets, novelists, or poet/novelists—Scott, Longfellow, Eliot, Dickens, Joyce, Larkin, Goethe, Kipling, Hardy, Hugo, Stendhal, Rilke, and Tennyson.
+
+•Two other cultural references are to Mahayana-Hinayana dichotomy (Buddhist terms meaning something like “lesser vehicle” and “greater vehicle”) and the knights of Medieval English lore, Lancelot and Galahad.
+
+•Majmudar employs many parallel sentences, representing the parallel qualities of poems and novels, such as “In the novel, size is a function of duration. In the poem, size is a function of intensity.”
+
+•That conclusion! It’s not just one more iteration of the A/B. It takes both to a different level.
+
+•It is fascinating to note that Amit Majmudar, who is both a poet and a novelist, mentions neither himself nor his own work nor his life in the piece. Yet his deep knowledge of poetry and novel, and of the conundrums of serving both, are evident.
+
+Now, what is our assignment? What can we take from this piece?
+
+My assignment is to write an eleven-part piece on two related but different or even opposite things. I am thinking of beauty and ugliness. I am thinking of domestic versus wild. Chastity versus promiscuity. Faith versus secularism. Garden versus wilderness.
+
+Or, to hone more closely to Majmudar’s piece, I think I will choose poet versus painter. This is close in subject matter (which is a risk), but I think my experiences and views differ enough from those of Majmudar that I will not unconsciously take word, image, or idea from “Servant of Two Masters.” I’m a poet and have an abiding fixation on the visual arts. So let me think of ways painter and poet, or paintings and poems, may be contrasted and compared.
+
+1.Paintings and poems both use images.
+
+2.Both grow out of ancient traditions.
+
+3.They both use color: paint like cadmium red and words like cadmium red.
+
+4.Numbers of painters write poems; numbers of poets paint.
+
+5.Poems about paintings (ekphrastic poems); paintings that incorporate words.
+
+6.The work process: blank canvass, blank page.
+
+7.Deep envy of poets by painters and painters by poets (maybe).
+
+8.Both depend on the visual cortex. Neural aspects. The brain.
+
+9.Painters paint music; poets write music.
+
+10.Performance aspects of each. Preservation aspects of each.
+
+11.Conclusion: something about art?
+
+You see how it works. This is a rough idea. It will change, especially as I do research, exploring paintings and poems and their makers.
+
+Our second model, “Buzzards” by Lee Zacharias, juxtaposes the carrion-feeding vulture with the writer’s father. Both threads are introduced promptly. In this case Zacharias introduces the bird (A) in the first segment and the father (B) in the second. A subtext, introduced in the first segment, is death.
+
+
+
+
+
+“Buzzards” by Lee Zacharias
+
+They woof. Though I have photographed them before, I have never heard them speak, for they are mostly silent birds. Lacking a syrinx, the avian equivalent of the human larynx, they are incapable of song. According to field guides the only sounds they make are grunts and hisses, though the Hawk Conservancy in the United Kingdom reports that adults may utter a croaking coo and that young black vultures, when annoyed, emit a kind of immature snarl. But to hear any of these sounds, you must be quite close. And I am quite close. Crouched over an unextended tripod at the edge of an empty parking lot in the Everglades, I am in the middle of a flock of black vultures, a vortex, maypole for this uneasy circle dance in which they weave and run at one another, raising their ragged wings and thrusting their gnarly gray heads. I would not call the sound they make a grunt or a hiss, nor croaking coo, nor snarl; it is more a low, embryonic woofing, a sound I know from my dog, who is also a black creature, not a bark or growl, not the voice itself, but the anticipation of one reverberating deep inside his throat. And though I keep shooting as they lurch at one another and dip their heads to peck at bottle caps and flattened pieces of tin, they creep me out. I have had the same sensation while snorkeling, an exhilaration in the magic of a world not mine that manifests itself in the same nauseous thrill of nerve as my dread. Buzzards. Carrion crows, Jim Crow, Charleston eagle. Coragyps atratus. From the Greek korax, meaning “raven,” and gyps, meaning “vulture,” Latin atratus, “clothed in black, as in mourning.” The Grim Reaper’s hooded cloak, wing-like sleeves, and protruding skeletal feet all come to us as a personification of the black vulture; Death’s trademark scythe is the color and shape of the flight feathers, the long white primaries the bird displays as he hunches and spreads his wings. The Latin vulturus means “tearer.” Give voice to the word and you cannot distinguish it from terror.
+
+To photograph birds requires a great deal of equipment. I paid for most of mine—the carbon steel tripod and expensive ball head, the camera bodies lenses, flash, filter, reflectors, and remote—with money I inherited from my father. He would not have approved. He disapproved of most things. Though he could rage, he was a mostly silent man who had no respect for impractical pursuits. He was not a bad man, though he was difficult, excitable, hard on others, obsessed with money. The first time I visited the Everglades he tried to talk me out of it—it was too far, he said, there was nothing there; instead he recommended that I visit Silver Springs, a nature theme park boasting glass-bottom boat tours and a narrated Jeep safari. He wasn’t much for nature in the wild. He liked control. He was afraid of the unknown, not of death, but of life, which had too many variables. It was the unpredictable and irritating otherness of others that frightened him most.
+
+What frightens me is the otherness of vultures. I am wondering whether they will tear at my flesh, raise their wings, and run at me. I should know, but I don’t.
+
+To photograph a wild creature, you must learn its habits.
+
+The bible does not differentiate between birds of prey and vultures, which are rarely predators, living instead as scavengers, consumers of carrion. One might even call them connoisseurs, for they prefer their meat fresh and the turkey vulture favors the flesh of herbivores over that of carnivores. According to the Carolina Raptor Center, in captivity they won’t eat possum, which is greasy, but happily chow down on rats. The black also feasts on fruit, though it has an unfortunate taste for turtle hatchlings, unlike the palm nut vulture of Africa, a vegetarian that is surely the strangest of the twenty-three species that populate the world. But in Biblical wisdom both predator and scavenger are unclean and hateful birds; if raptors are God’s creatures, according to the Book of Leviticus, they are also an abomination: “And these are they which ye shall have in abomination among the fowls . . . the eagle, and the ossifrage, and the osprey, and the vulture. . . .” Ossifrage, from the Latin ossifraga, meaning bone-breaker, is an archaic name for the bearded vulture, an Old World species once plentiful in the Alps, Himalayas, and Pyrenees, the only vulture to consume bone as the primary part of its diet. Ornithologists no longer sanction use of the bird’s other names, lamb vulture and lammergeyer, since it is incapable of killing lambs, let alone babies, despite myths that have led to its near extinction. While some vultures prey on insects and small amphibians and the black will steal young herons from the nest, they rarely attack live mammals. More than once I have come out my back door to discover a puff of feathers light as dandelion fluff beneath the azaleas, signature of a hawk that has raided the feeder; thrice I have been startled by the sight of a great blue heron advancing across my small city yard toward the pond. Only recently scientists have confirmed that our ancestors, the ape men, were not killed off by ferocious saber-toothed tigers but by eagles, which hunt primates larger than themselves by swooping down and piercing their skulls with their strong back talons. These are predators. “I hate vultures because they only frighten humans,” says Mrs. MacKinnon in the Book of Animals, Plants, Trees, Birds, Bugs, and Flowers that informs Craig Nova’s novel The Good Son. The titmice and chickadees, the thrashers and towhees, chipmunks, squirrels, fantails, koi, and Labrador retriever who share the space of my garden do not fear the vulture.
+
+When Charles Darwin observed the “carrion-feeding hawks” of Uruguay in the summer of 1832, he lamented that although their structure placed them among the eagles, they ill became such a rank. Though Darwin was a self-taught observer rather than a trained scientist, even the most learned scientists of the time mistakenly believed that the New World vultures were related to the eagles. While the Old World vultures that inhabit Africa, Asia, and parts of Europe, did descend from the birds of prey classified as Falconiformes, the seven species that inhabit the Americas are classified as Ciconiiformes, related not to hawks but to storks. The similarities in appearance—the wattled necks, small naked heads, the hooked beaks, weak though fearsome-looking talons, shaggy feathers, and pronounced hunch—are the result of convergent evolution, like but independent physical adaptations.
+
+Yet so inevitable is the vulture’s association with death and so staunch our cultural will to deny it, that we persist in the Biblical view of the vulture even as we tend to perceive those raptors from which the Old World vultures descended, the hawks and the eagles, as Darwin did: creatures of grace, nobility, and strength, equated with freedom instead of death. Darwin called the turkey buzzard a “disgusting bird” whose bald scarlet head is “formed to wallow in putridity.” He was right about the formation of the head—bacteria die on the bare skin of the face, just as the bird’s practice of defecating on its legs kills bacteria. But though their habits may seem repulsive, in fact vultures are among the cleanest of creatures. Adult condors wipe their heads and necks on grass or sand after feeding; while other carrion eaters spread disease, the acids in the vulture’s digestive system are so strong they destroy anthrax, botulin, cholera, and hanta-virus—the birds can consume the most toxic corpses without passing the germs along.
+
+In The Vulture novelist Catherine Heath describes a pet vulture that preys on its master’s thoroughbred dogs as “a huddle of old rags thrown over a naked body, whose stringy neck and red head stuck out at the top as if surveying a hostile world from a safe shelter.” The buzzards that perch on the light posts of Arrow Catcher, Mississippi in Lewis Nordan’s Wolf Whistle sit “with hunched shoulders and wattled necks like sad old men in dark coats,” and Ernest Hemingway calls them “huge, filthy birds sunk in hunched feathers.” The villainous protagonist of “The Tell-Tale Heart” kills not out of passion or greed, but because his victim had the eye of a vulture. Pablo Neruda speaks not of the vulture’s appearance but his black habits. It is these habits that have made “vultures” into a favorite epithet for the media. We use it for politicians, lawyers, ambulance chasers, talk-show audiences, corporations, and nosy neighbors. Photographers are often called vultures. So are writers.
+
+When my father died, his companion of nearly twenty years told me, “Be sure to take your stories.” I found the books I’d signed to both of them at the back of his closet. Though there were a few books on their living room shelves, mine had never been among them. My father was ashamed of my writing. I know because he said as much to my mother, though they were already divorced. Otherwise I would not have known he read them, for he never mentioned them to me.
+
+He was ashamed not just of the writing itself but of the fact that I wrote. He didn’t see the point. He kept a log of his gas mileage, but he never kept a journal. Skilled at repair, he gave to objects the kind of attention he could not deliver to people; yet I have no recollection of his hands, no memory of the texture of his skin or shape of the nails. He had beautiful handwriting, but no use for words.
+
+Vultures are big birds. The largest bird that ever existed was a vulture of the Pleistocene epoch with a wingspan of sixteen to seventeen feet. Weighing up to thirty-three pounds, with a ten and a half foot wingspan that dwarfs a grand piano, the Andean condor is still the largest and heaviest bird that flies; climbers compare the sound of the wind rushing through its feathers to that of a jet plane. The largest of the Old World species, the Himalayan griffon, is only slightly smaller. Wingtip to wingtip the turkey vulture measures seventy-nine inches, and is larger than the American black, which has the shortest wingspan of all, a mere fifty-four inches. But to crouch in the shadow of the black’s scythe-tipped wings and feel the sweep of their breath as they open is to lose all sense of inches. This smallest emissary of death has an embrace of four and a half feet. When they are even partially unfolded, the bird must hunch to keep its wings from dragging on the ground.
+
+In youth my father was a handsome man, tall and broad-shouldered. On the street people sometimes mistook him for the rising film star John Wayne, though by the time I was old enough to remember he was already balding, no longer auburn but gray, with the same harried look on his face of other middle-aged men who worked whatever jobs they could find to pay the mortgage and support their families. Perhaps they had wanted children; my father never did. He would have rather sailed on the tankers he loaded with oil before punching a clock and then driving home. I don’t think his work gave him pleasure, but nor do I think he thought it should. For him pleasure was a sign of weak character.
+
+On the ground a group of vultures is called a venue, but a group circling in the air is a kettle, as if they are swirling in a clear cauldron, a school of black fish swimming in a soup of pure air. Ungainly on the ground with their small heads, oversized wings, and heavy bodies, a gait that is at once a lurch and a run, vultures are astonishingly graceful in flight, a glide “in God’s fingerprint,” according to George Garrett. Darwin marveled at the sight of condors soaring in high, graceful circles. Even the turkey buzzard he found so abhorrent is transformed on the wing “by its lofty, soaring and most elegant flight”; Lewis Nordan’s vultures sail “like hopeful prayers.” Who has not watched them wheel overhead? Floating high above the landfills that punctuate the flatness of the interstate along the east coast of Florida, they undulate like kites tethered to the earth by invisible strings. In the mountains I thrill to discover how close I am to heaven by the arc of a turkey vulture swooping below. I am too dazzled by the wideness of the sky to connect the dots of the constellations, and I forget the names of all but the most basic forms of clouds; though I know the field markings of many birds, I cannot tell a vireo from a shrike in the air; but even at a distance far too great to note the shorter tail of the black or difference in coloration on the underside of the wings, I can easily distinguish between black and turkey vultures in flight. The turkey rarely beats its wings, holding them raised in a dihedral as it tilts from side to side, rocking as if buoyed by a gentle sea; the black holds its wings flat, beats more often, and does not tilt. Lacking a sense of smell, it flies higher than the turkey, whose olfactory sense is so keen engineers look for circling turkey vultures to locate gas line leaks and NASA used them to find remains of the ill-fated crew of the space shuttle Columbia. The magnifying center of the black vulture’s eye is so powerful it can locate food by sight from more than a mile above, though it often follows the turkey to a corpse. Indians of the South American highlands roast and consume condors’ eyes in the belief that their own eyesight will be sharpened.
+
+In the tropics the king vulture too flies higher than the turkey; in the dense rainforest both it and the black must depend upon the Cathartes, the turkeys and yellow-heads, to locate carrion by smell. With its gaudy orange, red, yellow, purple, and black wattled head, the king is the most flamboyantly colored; in flight its white back and long ebony-tipped wings are spectacular. Rounding a curve of road in the Alajuela Province of Costa Rica one Christmas, our van flushed a king vulture from his roost on the living fence, and I gasped as he spread his wings and slowly swept across the cassava field to the forest canopy beyond, so stunned by the sight that he was gone before I remembered the camera beside me on the seat.
+
+Vultures soar. Unlike most birds, whose breast muscles power the beating of the wings, creating lift and propulsion, a vulture simply opens its wings to the air currents that lift and keep it aloft. Once in a storm so torrential I pulled to the side of the interstate, I watched a small bird flying in place, flapping its wings frenetically in an effort to battle the wind, which finally blew it backward, as if it were no more than a bit of ash. The vulture’s flight is so beautiful because it appears effortless. And in fact it nearly is, for a vulture uses scarcely more energy in flight than it would in standing still. It’s not surprising that the Wright brothers should have designed their first plane with the curved wingtips of the turkey vulture in mind. According to Michael Alford Andrews, Andean condors spread their wingtip primaries “like fingers feeling for life as they turn.” David Houston explains that once a vulture has gained altitude by circling inside a thermal, it can “glide away into still air, where it will slowly lose altitude” until it nears the ground, finds another thermal, and climbs again. They travel at remarkably high altitudes, as great as 15,000 feet for the vultures of Africa and the Andean condor; Houston reports a Ruppell’s griffon alleged to have collided with a commercial aircraft at 37,000 feet. Imagine the alarm of passengers looking out a plane’s window to see a vulture cruising just off the wing like a seagull following a boat’s wake.
+
+It is said that vultures circled above Romulus and Remus. Over and over they appear in literature and film as a dark omen. In Alain Robbe-Grillet’s Jealousy the vulture pictured atop a mast on a calendar seems to confirm in the husband’s mind his wife’s infidelity. The hero of Ernest Hemingway’s “The Snows of Kilimanjaro” knows that he is going to die when the buzzards move in, three “squatting obscenely” on the ground while a dozen swirl overhead “making quick-moving shadows.” In Zora Neale Hurston’s Their Eyes Were Watching God a thousand buzzards precede the deadly hurricane. In William Faulkner’s As I Lay Dying it is the sight of vultures in the distance that tell Darl his mother has died. And whenever we see them in a cartoon or Hollywood western, we know another outlaw is expiring just over the next hill.
+
+My father died shortly after noon. He shot himself in the treeless backyard of the Florida house he shared with his companion, which backed on the open fairway of the community golf course, though he did not play. She had gone to the beauty parlor. When she returned a few hours later, she went through the house calling his name. She saw him through the window. I don’t know if she stepped outside. In any case I’m sure she wouldn’t have looked up.
+
+Though from the vulture’s point of view it would hardly seem to matter which side prevails, many nations have used vultures as symbols of victory. Wayne Grady’s eclectic and fascinating Vulture: Nature’s Ghastly Gourmet lists several ancient monuments decorated with gruesome depictions of vultures devouring or hovering over the slain enemy. Grady also recalls Samuel Johnson’s fable “The Vulture,” in which a female is overheard instructing her young in the arts of a vulture’s life—the easiest way to find food, she tells them, is to look for the place where enemies wage war. In the first scene of Patton, which opens with the image of an African white-backed vulture sitting on the mountain above the film’s title, soldiers shoot two vultures to keep them from the battlefield corpses, denying them the cherished memories of Lewis Nordan’s ancient Mississippi buzzards, who endure the lean twentieth century of roadkill by feasting on their recollection of “the glorious Festival of Dead Rebels.”
+
+But as the turkey vulture has extended its range northward, some see the bird not as the harbinger of death but the harbinger of spring. Bruce Ehresman, a biologist with the Iowa Department of Natural Resources, calls turkey vultures “much more reliable than robins,” and Scott Weidensaul, whose observations contest the notion that turkey vultures are nonmigratory, maintains that they are the real sign of spring in the central Appalachians, reappearing “most often around the first week of February,” followed by common grackles, then the red-winged blackbirds, until finally the robin returns at the end of February or early March, though only if the snow has melted. Here, on the Piedmont Plateau of North Carolina, I see no such sign, and so I wait for the Bradford pears and poke around the ivy for crocus.
+
+My father was from Wisconsin. He grew tired of waiting for spring, and when he retired he moved to Florida. He might have moved to El Paso, but he didn’t like the radio station. In Florida, he reported proudly, it was summer nearly all year round, which is why the black vulture, which does not tolerate cooler temperatures as well as the turkey, is so common there. Vultures used to drink from the bucket beneath his downspout.
+
+I have often observed black vultures at Florida’s Myakka River State Park. There they flock in great numbers, trolling the air above the lake, roosting on railings and roofs as if they are basking—and perhaps they are—the russet winter afternoon sun warming their dull black feathers and lending a subtle lavender to the wrinkled gray skin of their heads. One year when they seemed particularly active, I spotted half a dozen standing on a car parked beside the lake, where they appeared to be gorging on bloody bits of flesh, though the grisly morsels turned out to be only shreds of the car’s red upholstery. The windows were closed, and in my ignorance, assuming their olfactory organ to be as keen as a bear’s, I supposed the owner had left cold cuts in a cooler and was astonished to think they could have pecked through the roof as easily as a chick liberates itself from the egg. On the lake a boat was gliding toward shore, and as I watched, the occupant leapt to his feet, screaming, “My car! My car! Get off my car, you damn buzzards!” and promptly fell in the lake.
+
+Yet in my photographs the unbroken shell of blue-gray metal reflects the vultures’ silvery talons like still water. A few years later a chatty ranger at the Everglades Anhinga Trail told me that Ford had used fish oil in the sealants on the 1999 Taurus. The occasion for our conversation was the unusual number of black vultures on the trail, brought to the ground by the cool weather. He had just come from the parking lot, where on such days he had seen flocks of black vultures attack the sealant so vigorously that tourists returned to their cars to find the windshields popped out; he had been checking the lot for damage. True, the black, which prefers coastal areas, often dines on fish. At the Wild Bird Center on Key Largo I have watched it eat its sardine more delicately than my dog eats his meat and kibble. Once at the Anhinga Trail my husband, son, and I all observed a black vulture attending a great blue heron that had caught a fish too large for it to swallow. The heron tried it headfirst, then tailfirst, and sideways, dropping the fish to the ground after each attempt and walking a few steps away as if to consider another approach, but the vulture moved in to feed only after the heron gave up and departed. Perhaps its patience was only caution, for the same ranger regaled me with the tale of a researcher who got too close to a great blue, which drove its beak into the man’s skull and killed him. “Most aggressive bird there is,” he remarked of the heron. Who can say whether a vulture is fearful or forbearing? In Darwin’s era vultures liked to tear the leather from ship’s rigging, though the leather would have borne no more visual resemblance to a cow than Ford’s sealant to a gar. They may be prudent, but if it’s true that the blacks have no sense of smell they are not just scavengers but vandals.
+
+My father loved cars, though he never drove anything fancier than a Ford Crown Victoria. Mechanical though he was, a noise beneath the hood sent him into a panic. A dent or a scratch drove him wild. In the empty parking lot where the single driving lesson he gave me took place, he was so afraid I would hit something that I didn’t learn to drive for another ten years. Many years after that, when I had failed to sell a new novel and had to buy a used car instead of a new one, I asked my father’s advice. To my astonishment he sent me a check for five thousand dollars. I think all he ever really wanted was for me to ask his opinion on something that mattered to him. He didn’t care if I told him I loved him, but he wanted that token of respect.
+
+Properly speaking, we should not call them buzzards, buzzard being a British designation for a large hawk. The word comes from the French busard, which means hawk, and in the Old World busard refers to the genus of soaring hawks called Buteo, the most common of which in North America is the familiar red-tailed hawk; in Australia the bird called a black-breasted buzzard is a hawk of the genus Hamirostra. But we do not speak properly; in common American usage a buzzard is the same thing as a vulture; it is a contemptible, cantankerous old person; it is a greedy and ruthless person who preys upon others. As an adjective in the past it was used to mean senseless or stupid. A search of books on Amazon brings up 342 results for vultures and 363 for buzzards, including one titled The Old Buzzard Had It Coming.
+
+Once I came across a lone black vulture feeding at the side of the road from Florida City to Key Biscayne. When I slowed the car to watch, it paused and looked up, standing over the carcass and watching me until I drove on. An hour or so later, when I drove back the same way, there was no evidence that it had ever been there. Perhaps it dragged the skeleton into the brush the moment I was out of sight. I imagine it glancing back as it carries the corpse in its mouth like my dog bearing a stick he knows I plan to confiscate. It could not carry its prize off through the air like an eagle, for though its talons are as fearsome in appearance as the eagle’s, their grasp is weak. Only the bearded vulture uses its talons to grip.
+
+At the table my parents, my brother, and I often sat with our heads bowed. It was not to pray. We were trying not to talk. My parents didn’t seem to remember how to have a conversation, though once, surely, they had been able to talk without erupting, had been able to speak without a fight. My father had so many allergies he didn’t enjoy eating anyway. We picked at our food and waited for the meal to be over.
+
+Generally the black is a communal feeder. In the rainforest the turkey vulture is most likely to locate a kill, but at a larger carcass it yields to the black, and both yield to the king. Even among its own ranks the turkey is a hierarchical diner, but feeding is less a competition than collaboration, with each species dining on a different part of the animal. When larger vultures tear into mammals the size of horses or cows, they make the flesh available to the turkey, which has the weakest beak and on its own must content itself with animals the size of chipmunks and squirrels. The long necks of the largest vultures allow them to reach into the organs, while others feast on skin, tendons, and the tougher meat; the turkey, black, and hooded species take the scraps and pick the bones clean. In its habitat the bearded, the only vulture to have a feathered head, is the last to feed, for its specialty is bones, which it picks up with its feet, swooping down to crack them against a rock. It is reputed to prepare tortoises the same way, and the ancient Greeks blamed it for the death of Aeschylus. As the story goes, a bearded vulture with a tortoise in its talons mistook his bald head for a rock and dropped the tortoise, cracking the poet’s skull. I like the irony, but the image that enchants me is that of the feeding chimango, the caracara that Darwin observed to be the last to leave the table, lingering at the carcass so long that it might often be “seen within the ribs of a cow or a horse like a bird in a cage.” I picture the cathedral arch of those bleached white ribs, inside a dark canary without song.
+
+The turkey vulture is more solitary and less aggressive than the black. While the black defends itself by vomiting, as a friend who shot one with an air rifle as a child learned firsthand, the turkey more often plays dead. At the Carolina Raptor Center, which stages a photo shoot every spring, I have been close enough to touch it, though I would not. The bird’s very solitariness precludes it.
+
+To see a turkey vulture up close is to know the bird’s tragic beauty, for there is a majesty to the crimson head, bare save for a sparse black stubble; the bird looks less bald than vulnerable and shorn, a Nazi collaborator exposed before a French village. The raised nostrils have no internal division; they are like the space left by a handle, the eye of a bloody needle of bone. All the vilification and fear the vulture inspires seem contained in the sidelong wary sadness of the eye, not the sharp black stare of an eagle or a heron’s mean pupil in its fixed yellow ring, but a doleful attention that is the same soft shade of brown as my dog’s. The bird’s muteness sits upon its shoulders. It knows what death tastes like, but cannot speak of the flavor. To see a turkey vulture up close is to be reminded of death not as portent but as the weight of an unbearable witness. His dirge has no throat, his wisdom no voice. Two million years of silence haunt his expression. To see a turkey vulture up close is to know what loneliness looks like.
+
+When my father was young he did some hunting. When I was young he liked to fish. But he was not the kind of man who took up hobbies. He had friends, but no close ones. I don’t think he ever had a pet. He filled his time by fixing things, so many things it seems now as if he must have thought everything we owned was broken.
+
+In the United States it is illegal not only to shoot a vulture but also to keep one as a pet. I would think few people want one, though the sister of a former president of Ecuador kept a condor, and wildlife rehabilitators report that vultures are intelligent, more so than other raptors, as well as mischievous and inquisitive. Darwin claimed that they stole a pocket compass in a red morocco case and carried off a big black hat. At the Carolina Raptor Center one developed a habit of untying the staff members’ shoestrings; when they tried to trick it by wearing shoes with Velcro tabs, the bird learned to undo those too. I think of George the Goose, who used to unlace my boots at the train station in Princeton Junction the year I lived in New Jersey. Or my dog, who loved to steal socks and make us chase him through the house when he was a pup, who greets me every morning by dropping a tennis ball on my face. Like crows, which I have often observed skating across the frozen surface of my backyard pond, vultures frolic. Young blacks toss rocks like balls. They play tag and follow-the-leader. According to the Turkey Vulture Society, some of the soaring and circling they do may be for fun, just as Darwin suspected. Their lives seemed so pleasurable to Edward Abbey—“floating among the clouds all day, seldom stirring a feather”—that he insisted he wanted to be reincarnated as one. They’re not just personable birds, they’re sweet, insists the Society’s president. Vultures raised by humans love and trust them; even after rejoining their natural communities they continue to respond to human attention. One is reported to have followed a boy to his school bus each day, flying off to forage only after the bus was gone, and returning in the afternoon to accompany the boy home. Only my dog comes close to being that loyal.
+
+My father was a misogynist, a deeply conservative man who felt women should be seen and not heard. He detested women drivers and did not see the point of sending me to college. The whole problem with his marriage, as he saw it, was that my mother didn’t want to follow; a marriage, he said, can’t have two leaders. Still he always claimed that he would not be there for her if she ever got sick—in that case, he seemed to believe, it was everyone for herself.
+
+Though we think of the Grim Reaper as male, in most vultures it is not possible to tell the difference between male and female by appearance, and in Federico Garcia Lorca’s Blood Wedding, the figure of death is not a vulture itself but a beggar woman in a vulture costume. The ancient Egyptians believed that only female vultures existed; they were able to perpetuate the species because they were impregnated by the south and southeastern winds. The Egyptian goddesses Nekhbet and Mut wore vulture headdresses. Nekhbet, goddess of Upper Egypt, often portrayed as a vulture hovering at the Pharaoh’s head, was also the goddess of childbirth; the hieroglyph for Mut, whom the Greeks associated with Hera, meant mother. The crown of Upper Egypt bore the image of a vulture, and the gold face mask of King Tut has a vulture over the right eye and a cobra, symbol of Lower Egypt, over the left. So sacred was the bird to the Egyptians that “Pharaoh’s chicken” is the first wild animal known to have been given legal protection.
+
+In some versions of Mayan legend the vulture is the mother and protector of the Serpent Priestess, who lived among jaguars, though in other versions the bird is male, perhaps in reference to the king vulture, whose scientific name, Sarcorhamphus papa, means the Pope’s fleshy beak and refers to the bulb of bright orange skin above the orange and black beak. The common name predates the Spanish conquest of South America. A royal tomb dating from 450 AD in the pre-Columbian city of La Milpa in Belize contains the remains of a ruler known as Bird Jaguar whose adornments include a large pendant of a king vulture’s head carved from jade. In Mayan legend humans descended from jaguars; the vulture, who was personified as a lord or king, was the messenger who mediated between humans and the gods, “the conduit to the gods and the afterworld . . . deified and venerated as an ancestor and god after his death.”
+
+Some Indian villages in Peru have annual ceremonies involving the condor. One re-enacts the Spanish conquest and Quechua myth by pairing a bull, introduced to Peru by the Spanish, with a native condor, whose feet are sewn to the back of the bull with strips of leather. In frenzy the two creatures buck, pitch, and lurch around the plaza together. If the condor survives it is released, a victory that symbolizes successful Indian resistance, though I can’t help wondering how the Indians overcome the resistance of bird and beast to the process of the sewing.
+
+The Andean condor, which appeared on the pottery and textiles of cultures that predate the Incas, is still a symbol of strength and endurance in South America, figuring on the national crests of Bolivia, Chile, Columbia, and Ecuador. In Chile the condor is a coin featuring the bird’s image. The name of Chile’s capital province, Cundinamarca, comes from the native word for condor, and in Bolivia the Order of the Condor is the highest award of merit.
+
+In North America we know the California condor as the Thunder-bird through the legends of the Tlingit, who believed the flapping of its wings to cause thunder and lightning to flash from its eyes. In many West Coast native communities shamans were believed to receive their powers from the condor. The Costanoans raised raptors to be sacrificed at funerals, eagles to Venus and condors to Mars. In Iroquois legend the Golden Eagle, Head Chief of all the birds, chose vultures as his faithful servants, for it was his law that the earth be kept clean.
+
+In African folklore the bird’s ability to show up wherever there is a carcass is a sign of extrasensory powers, though not all myths venerate vultures. In Hindu belief, vultures are carriers of the human spirit but also the gatekeepers of hell. In European folklore the bearded vulture has a reputation as predatory as that of the wolf, though its otherworldliness makes it more frightening. In North American Tsimshian legends the condor abducts young women and destroys its rivals with a great wind. And in ancient Greek myth, it was not two eagles, but two bearded vultures that flew down to tear out Prometheus’s liver every day. Whether they were male or female legend does not say.
+
+My father was not a religious man. As a child he was sent to Catholic schools, where a nun rapped his hand with a metal-edged ruler and split his knuckles. Did he look up, I wonder, when he felt the chill of her shadow, or did he just hear the sweeping wing of the nun’s black habit as she brought the blade of the ruler down? I don’t know if he had any faith before. He never did after. His view of death was practical, his view of life dark. He threatened to die so often it was a shock when he did.
+
+Both Tibetans and the Parsees of India dispose of their dead by feeding them to vultures. According to myth Sakyamuni Buddha gave himself to feed a hungry tiger; in another version he fed his own flesh to a hawk in order to spare a pigeon—thus sky burial is regarded as a final act of charity in which the deceased provides food to sustain living things, and the Tibetan name for the practice, jhator, means giving alms to the birds. Interference with jhator is a serious breach of Tibetan religion, in which the vultures, sacred messengers called Dakinis, the Tibetan equivalent of angels, are believed to carry the soul up to heaven, where it will wait reincarnation; Tibetans fear they will not return if driven away. In Xue Xinran’s nonfiction account of a Chinese woman’s search for her soldier husband in Tibet, the Tibetans were so angry at the Chinese solder, who accidentally disrupted a wartime sky burial by shooting one of the vultures, he could placate them only by killing himself, allowing the Tibetans to call back the sacred birds by feeding them his flesh.
+
+Although jhator is embedded in Tibetan Buddhism, its origins predate the religion in Tibet. The kings of the Yalung dynasty were entombed and the remains of Dalai Lamas and other high Buddhist figures are preserved in stupas or encased in gold, but neither burial nor cremation is practical in a country with so little fuel and such hard ground. Until Buddhism was introduced in the ninth century water burial was the most common method of disposal—poor people simply dropped the bodies of their dead into a river, though in more elaborate forms of water burial the corpse was cut into small pieces to be consumed by fish, just as it is dismembered and hacked into pieces for the vultures in jhator, which is now chosen by more than three-quarters of Tibetans; those who cannot afford the o-yogin butcher simply place their dead on high rocks for the birds and wild dogs.
+
+At the Drigung Monastery in Central Tibet, the best known of the three major sites, as many as ten sky burials are conducted a day. Here the vultures are so sated they must be coaxed to eat, but at many of the more remote sites the birds are so ravenous they must be fended off with sticks while the body is prepared. Though it is considered a bad omen if they do not consume the entire corpse, a sign that demons have taken over the spirit, some remote sites are strewn with tufts of hair and bones, as well as scraps of clothing, beer bottles, broken axe handles, and rusty blades. At Langmusi on the Sichuan border, where tickets to the jhator illustrated with a flock of vultures devouring a human body are sold despite the efforts of the Chinese to restrict attendance, one witness reports seeing a headless, armless skeleton.
+
+At such remote sites the ceremony may be no more than a prayer uttered by the single butcher, but at Drigung preparations begin the day before, when the body is washed, shaved, placed in a fetal position, and wrapped in a white shroud. Lamas chanting prayers to release the soul from purgatory lead the procession to the charnel ground, a large fenced meadow with a circle of stones surrounded by prayer flags. At dawn the sky burial master blows a horn and lights a fire of juniper or mulberry branches to summon the vultures to roll out a five-colored road between heaven and earth, though surely the incense also helps purify the foul air. While the mourners watch, the o-yogin butcher or tomden rips off the shroud and begins the dismemberment, cajoling the vultures as he hacks off limbs, removes the flesh and smashes the bones. Often he and his assistants laugh and chat as they work, mixing the pulverized bones with a tsampa of roasted barley flour, yak butter, and tea to make them more palatable to the birds. All the while they speak to the vultures, coaxing, inviting.
+
+“Eat, eat,” they say in Tibetan, “Shey, shey.” “Birdies,” they call in a language that seems less their own than the birds’.
+
+In India, where the actual consumption of the body is hidden from view, sky burials are required by orthodox Parsee doctrine, which holds that corpses contaminate anything they touch and therefore cannot be buried, cremated, or thrown in the river. Here the body is placed in a closed granite structure with one-hundred foot towers known as the dakhma. Once all clothing and adornment have been removed with hooked rods and the body has been washed, perfumed with myrrh, and blessed by the officiating priest, it is placed on one of the three-tiered stones atop the towers, open at the top to the vultures. When the body is ready, a signal is given, and male mourners in a nearby prayer pavilion begin praying. It is the voice of their prayers that summons the birds.
+
+There was no service for my father; he wanted none. No prayers, no eulogies. He would have liked a brief notice of his death in the newsletter put out by Texaco, the company for which he had worked for forty years, but his companion was afraid for strangers to know she was alone, and so he had no obituary either. Only a death certificate marked his passing. His body was cremated, his ashes scattered from a plane over the Gulf of Mexico.
+
+Years later, in a restaurant where I had taken her to lunch, my mother said, out of the blue, “I think it’s good what your father did. Potassium for the fish.”
+
+I was so upset—we were eating; we hadn’t been talking about my father, except for the running conversation in her head—I dropped my fork and went to the ladies’ room and wept. When she came in a few minutes later it was to rinse her partial plate.
+
+“You don’t know how lucky you are,” she said. “You still have all your teeth. You can eat whatever you want.”
+
+My father was who he was. He died how he died. But because he was my father I loved him.
+
+Though it seems as if the symbol of death ought to be eternal, vultures, slow breeders who eat at the top of the food chain, are particularly vulnerable to environmental threats. What will we fear if the buzzard is gone? In the United States though populations of black and turkey vultures are increasing thanks to our bounty of roadkill, a captive breeding program was necessary to save the California condor, which came so close to extinction that by 1987 there were only three birds left in the wild. It will take more than that to save the Old World vultures of South Asia, the Old World long-billed griffon, slender-billed, and Indian white-backed vultures, all listed as Critically Endangered, the highest level of risk for extinction, by the World Conservation Union.
+
+So radically has the vulture population of South Asia declined that in 2001 the Parsee Council of India installed solar reflectors to speed decomposition in the dakhma, where more than a hundred vultures are needed to keep up with the three or four corpses a day. It is not just the Parsees who are affected by their disappearance. We may loathe vultures, but we need them.
+
+Carcasses of animals that the vultures are no longer numerous enough to consume have created public health problems in Pakistan, India, and Nepal. Besides the diseases spread by the carcasses themselves, rotting carrion has resulted in a booming population of feral dogs and outbreaks of rabies. In Europe the vulture population is one percent of what it was in the nineteenth century. We may have learned the lesson of DDT, but only recently has the decline of the vulture population in Asia been traced to Diclofenac. An anti-inflammatory used to treat sick cattle, it causes renal failure in vultures and is so lethal that contamination of less than one percent of livestock carcasses created the most rapid population decline ever recorded for a wild bird. Perhaps the recent ban will save them, though it’s too soon to know whether anything can keep them from going the way of the dinosaurs and woolly mammoths.
+
+My father left no note, of course. I wouldn’t have expected one, though I looked.
+
+When vultures woo they seem to summon all the voice their unequipped throats can muster. The New World black spreads his wings, lowers his head and emits a puffing sound; the turkey groans. It is as close to a serenade as these creatures without song can come. When they warn they grunt or hiss; they may even snarl. But what I hear does not sound like a grunt or a hiss, neither snarl nor groan, not a puffing or even a croaking coo; it is more a low, embryonic woofing, not the voice itself but the anticipation of one reverberating deep inside the throat. I cannot tell whether they are warning me or wooing, though here in their midst, surrounded by a flock of them at the edge of an empty parking lot in the Everglades, it would seem important to know.
+
+In the end they ignore me. They wander off; I pack up my camera and tripod and go. I will learn their habits and more, but I will never speak their language.
+
+Yet some of the happiest hours of my life have been spent in the open air of a salt marsh in the company of birds. It is an acquired taste, for I grew up in the Midwest, where farmland falls away from the road like a low tide and the highway seems an endless bridge over nothing, the horizon so treeless and vast that if someone beside a farmhouse a mile away lifted a hand to wave I would see it. The Midwest affords everyone a vulture’s view. Perhaps that is why it has always seemed such a lonely place to me. Even in the safety of my car I feel dwarfed and exposed.
+
+If I ever saw vultures wheeling in the sky over the Midwestern cornfields I don’t remember. The first time I saw one on the ground was at Merritt Island National Wildlife Refuge in Florida. My father had died less than two months before, and I was on my way home from his house, the house that I now owned, where I had spent the past week working on his estate. I knew of the Refuge only from a picture on a calendar; it was not a place I had always longed to see, but a place that was on my way home. Stopping was an attempt to give that dark errand some small facet of pleasure.
+
+Driving the highway through the Everglades to Flamingo, I always feel on the edge of openness in the way I am on the edge of it as I pass over the Midwestern farmland, a traveler, an observer, a person apart. It is different at Merritt Island, where an unpaved road winds along dikes once used for mosquito control, a sandy seven-mile lane through one hundred forty thousand acres of saltwater estuaries, brackish marsh, and freshwater lagoons. I rarely saw another car in the two days I spent cruising the wildlife drive and paved back road, the radio off, windows and sunroof open, eating peanut butter crackers for lunch and peeing in a Dixie cup I dumped out the window. In the afternoon I walked the trails through the hammocks of oak and palm, listening to the drill of a pileated woodpecker whose bright red crest I could just spot through the trees. At dawn I parked beside the small swales where egrets, ibises, and wood storks fed and squabbled. Each time I opened my door they flushed upward with a great whooshing of wings, then settled again like parachutes, pecking and squawking. On the ponds there were great black formations of coots, and in the distance a streamer of dazzling white pelicans. In the clarity of the weak winter light the mudflats glittered, quivering with sandpipers and tiny crustaceans, while an osprey sailed the far sky. A rail skittered into the brush at the start of the Cruickshank Trail, the five-mile loop I hiked around a shallow lagoon and through the marsh while a balmy breeze wisped at my collar and fingered my hair. The only sound was the whistling kik-kik-kik of the terns that swooped and dipped and flashed their forked white origami tails against the bright blue heaven. I had not spoken a word for two days. The landscape was as wide, as exposed and dwarfing as the Midwest, but I had disappeared inside it. When I got back to my car, four turkey vultures blocked the narrow road. They were huge, rough feathered, dark, a color I would describe as more a dirty chocolate than black; the sun shone off the red heads and ivory hooks of their beaks. Though I confess to superstition, they did not strike me as an omen. Despite the recentness of grief they did not remind me of death or its tedious business. They were simply there, as I was, in a kind of matter-of- factness so profound we can know it only in nature. It may have been a minute or ten that we regarded one another. Then they waddled to the side and let me pass. That evening, driving the back road, I came upon a vulture tree. It was dusk, and the hunkering vultures and bare black bones of the branches were silhouetted against the faded dust-blue sky in a way that seemed incredibly beautiful to me. It is in such confrontations with the eternal shape of death that we know most fully we’re alive.
+
+In “The Snows of Kilimanjaro” the dying writer dreams that he is saved, carried by a small silver plane up over the wildebeest and zebras, the forests and bamboo slopes, only to understand that where he is going is into the unbelievable whiteness of death. He is borne on the buzzard’s wing, like a Buddhist carried up to heaven by the dakhini.
+
+I do not dream of vultures. I have never dreamed of flying, though as a child, lying in the dark, voiceless, awake, listening to my parents fight, I used to dream of escape. Perhaps that’s why I grew up to be a writer. In bed at night now my dog nests against my thigh. Sometimes in his sleep he twitches and yips, chasing squirrels, tasting the hunt. Africans believe that vultures dream the location of their food. But who really knows where the dog and vulture soar while they sleep? Why would we dream never to leave the domain of our waking world? I don’t know where I go as I sink into the blackness of that temporary death, only that in the morning I wake with a low woofing in my throat that, if I’m lucky, will turn into song.
+
+
+
+
+
+What can we learn from Zacharias’s monumental reflection on death, on that old buzzard her father, and on the vultures she photographs and studies? Do we think it earns its word count (almost nine thousand words)? As previously noted, “Buzzards” appeared in Southern Humanities Review and was reprinted in The Best American Essays 2008. The vulture, seen as a “death bird” (because it is a scavenger) in so many cultures, seems a powerful matrix in which to embed a painful family story.
+
+In using “Buzzards” as a model, should we take our own piece to its length, knowing how difficult it is to publish such a long piece? We might, given a weighty subject matter. But we can also profitably study the qualities of Zacharias’s piece to write a shorter piece of our own.
+
+First, let’s look at the piece literally. That is the way to begin. Count the sections (twenty-eight), one of them one line only, some rather short, some considerably longer. How long? The longest section, the last, comes to 1,112 words. The shortest section comes to fifteen words. Most sections come to between 200 and 400 words. Yes I did count the words in each section. What is fascinating is that the family story is told in the shortest sections.
+
+What glues the vulture sections to the father sections are the subject-matter links between them. The piece goes from photographing vultures to the writer purchasing photography equipment with money inherited from her father; from the father’s fear of others to the writer’s fear of otherness in vultures; from the epithet “vulture” used against writers to the father’s dislike of this writer’s writing; from physical attributes of vultures to the father’s physical appearance; from vultures as an emblem of death to the father’s suicide; from vultures as a harbinger of spring to the father’s move to Florida since he was tired of waiting for spring; from vultures eating cars to the father’s love of cars; from vultures dining on road kill to the family gathered for dinner; from a vulture’s look of loneliness to the father’s lack of close friends; from the loyalty of the vulture to the disloyalty of the father; from the ritual feeding of corpses to vultures in Tibetan Buddhist culture to the feeding of the father to the fish (“potassium for the fish,” according to the mother). And there are others.
+
+Things to consider when using “Buzzards” as our teacher in thinking about a piece of our own: What is out there in the larger world that would mirror or serve as a matrix for a personal story? This something-or-other is not causally tacked on but rather deeply researched. It is notable that the vulture matrix Zacharias uses to elegize her father comes from the natural world, a world entirely external to the family. I might think of writing about my sister Susanne’s mental illness within a matrix of rivers flooding and exceeding their bounds, or I might think of a piece on addiction and compulsivity within a matrix of gravity.
+
+
+
+
+
+Hands On: Writing the Piece
+
+
+The two-strand form invites many sorts of pieces and you will want to explore its riches by adding it to your repertoire of structures.
+
+•Begin your own collection of models. Among those I admire is T. Coraghessan Boyle’s “Chicxulub,” which alternates between a teenage daughter and the danger she is in, and the danger of a meteor hitting the earth. Jane Kramer’s “The Reporter’s Kitchen” mixes writing and cooking (this reporter cannot write without cooking and her account of this difficulty is both hilarious and breathtaking in its virtuosity).
+
+•Again list out the key subjects that interest you, that would repay research and reflection. Make a list of ten subjects. Which of these might be compared? Which contain analogous requirements and attributes? Which contain opposite requirements and attributes? Are there persons who stand for these attributes?
+
+•Now, begin a piece in your writer’s notebook. Write the piece. Make it the first of a series.
+
+
+
+
+
+9.
+
+
+Dramatic Story Structure
+
+
+Most short stories focus on a main character. . . . We expect the character’s experiences will change him / her, because change is the way we perceive that something has happened. . . . Readers are also very much interested in the struggle toward that change.
+
+—Charles Brashear
+
+The last structure offered here, illustrated by Steve Almond’s “A Dream of Sleep,” is the dramatic story structure. (“Story” refers to both nonfiction and fiction.) This structure has a complication or problem in the beginning, an escalating series of actions, a climax, and a resolution.
+
+The complication or problem at the beginning belongs to a protagonist with a passionate goal or else with a need to surmount the complication. There are a series of rising actions, most typically involving the protagonist’s attempts to overcome the complication or to achieve his or her goal. They are rising in that each new one is more serious or consequential than the previous one. An antagonist—a person or nature or a series of related events—challenge the protagonist and block or impede his or her efforts to gain the goal. The dramatic story structure has a climax, which is the final battle or struggle. It ends with a resolution—the protagonist either succeeds or fails. Preceding this resolution, often, an intruder enters, a helper or its opposite. In any story, the entrance of an intruder is a significant structural moment.
+
+In Almond’s story, the antagonist comes in the form of the events of urban change. It’s the changing urban environment and its agents that escalate the action. The protagonist is impinged upon and his efforts to protect his position are entirely defensive until the big turn at the end.
+
+The classical dramatic structure is what Aristotle was talking about in Poetics, which he composed in 350 BCE. For him, plot was “an imitation of an action that is complete, and whole, and of a certain magnitude; for there may be a whole that is wanting in magnitude. A whole is that which has a beginning, a middle, and an end.”*
+
+The dramatic story structure is old, reliable, faithful, and remains the structure of choice for any number of short stories, articles, and essays. There are writers who think it’s the only way to write a piece. Two instruction books that I would not be without elaborate this dramatic structure for fiction and nonfiction. They are Janet Burroway’s Writing Fiction and Jon Franklin’s Writing for Story. It’s important for writers to command dramatic story structure if only to comprehend how nondramatic structures must rely on something else to drive them forward. Or to comprehend how, in some cases, a piece constructed in a seemingly different form, such as a collage, can be powered by an underlying dramatic structure.
+
+Note two key strategies that inform successful dramatic stories. First, the story’s problem or complication, the thing that sets it off, should be important (not “wanting in magnitude,” as Aristotle put it). A trivial complication will give you a trivial story. Second, the complication should be something that the protagonist attempts to solve (whether successfully or not) by his or her own efforts. Passive protagonists don’t make good stories because it is the protagonist’s actions to solve the problem that move the story forward. Often, before the protagonist resolves the complication, he or she must arrive at a new understanding of what the complication is.
+
+Now let’s read Steve Almond’s story, out loud.
+
+
+
+
+
+“A Dream of Sleep” by Steve Almond
+
+The caretaker’s name was Wolf Pinkas. He lived with his two cats in a stone cottage at the rear of the cemetery. The building, a square structure six feet high, had been erected as a family crypt. But the wealthy Prussian immigrant who commissioned it disappeared without a trace before the First World War. Unable to sell the vault, the owners of the cemetery, a family named Gardner, converted it to a caretaker’s shed.
+
+In the decade following World War II, when Wolf assumed the position of caretaker, the yard was a thriving concern. Its high walls shimmered with ivy; dainty wood benches lined its paths. The graves were in the eastern European fashion, aboveground, great slabs of marble or slate etched with names and dates and inlaid with small circular photos of the deceased. On weekends and holidays, relatives came to set out flowers, votive candles, wreaths of hazelnut. They carried picnic lunches and sat on the benches and ate and laughed with the dead.
+
+But the yard had fallen from prosperity. The elder Gardner died, leaving management to his son, a young man with slicked-back hair who informed Wolf he no longer had the funds to pay for both caretaking services and security.
+
+Wolf was a shy man, unaccustomed to speech. His face reddened and his hands, unusually large for a man who stood barely five feet, began to tremble. “Them visitors,” he said slowly, hoping to undo the effects of his heavy accent, “what will they do?”
+
+“No one’s buying plots,” the young Gardner murmured. “I’m sorry, Mr. Pinkas.”
+
+The implication was clear: Wolf would have to find work elsewhere. The thought sent dread scouring through him. After some hesitation, he declared he would take a pay reduction in exchange for permission to move into the shed.
+
+Gardner glanced at the crypt and broke into a grin. “But you’re still a young man, Pinkas. You might want . . . company.”
+
+Wolf’s throat constricted. He knew Gardner found his proposal morbid, but Gardner was an American. He understood the body as an object of desire. He had been spared a true accounting of the world, its rancid plains and oceans of tormented flesh. Only the dead were safe.
+
+“It will not be a problem,” Wolf said.
+
+Gardner pursed his thin lips. “You’d have to double as security,” he said at last.
+
+Wolf, who was frightened of weapons and their use, quietly assented.
+
+The young man removed a small whisk brush from his coat pocket and dusted his wing tips. “Nothing but ghosts in this place anyway, right?”
+
+“I hope,” Wolf said.
+
+The shed had never been intended as a domicile and Wolf spent an entire autumn making it habitable. He purchased a potbellied stove from an estate sale, placed a tin basin beside it for bathing, drilled holes in the roof for ventilation, built a privy out back, and conveyed the few furnishings from his nearby apartment. The architect of the crypt had been thoughtful enough to include several arched window slots, intended for stained glass, and Wolf constructed wooden shutters for them. On cold nights he bolted the shutters and unplugged his tiny refrigerator from the portable generator and attached a heater. In the warm months he left the shutters open and breezes stirred the room’s air.
+
+Wolf spent his days as he always had, clearing vines from footpaths, hacking at the weeds that encroached upon remote plots. Waxed paper bags and wrappers drifted in from the street out front, where there was a trolley stop, and found their way into corners of the yard. Wolf made a round before sundown, jabbing them with a wooden spear he had fashioned for this purpose. He worked methodically to preserve the rightful peace accorded the dead.
+
+At night he listened to classical music, Chopin mostly, Mozart and Bach, played on an ancient crank phonograph. It was his lone concession to the past, for his father, Dr. Pinkas, had loved Chopin, the fragile nocturnes, the rousing mazurkas. These were the songs he would hum to Wolf and his older sisters at night and, later, in the dim chaos of the boxcars and roads. Wolf lay on his cot and closed his eyes. The nocturnes made him weep, quietly and with some relief.
+
+He ate lightly. Tea and toast in the mornings, fruit at lunch, a sandwich with soup for supper. He treated his cats to a bit of meat each day. He had not intended to keep pets. No, the cats had come to him. Dempsey was a large orange tom with frayed ears and a left eye that had been battered into a rakish wink. Coal, a skeletal black kitten, had arrived on a frosty morning and immediately, to the distress of all involved parties, attempted to suckle Dempsey.
+
+Each month a small check signed by young Gardner was slipped into the mailbox outside the gate. The next morning Wolf walked the half mile to his bank, where he cashed his check and then continued on to the barber and grocer.
+
+When the bank and barber closed, he climbed onto a trolley to do his errands. Then the city’s trolley service ceased, its tracks ripped from the ground and piled about. Asphalt and pavement seemed to wash outward from the roads, welcoming a greater flow of cars. Tar fouled the air. Wires snarled overhead. In the near distance, cranes pieced together the skeletons of skyscrapers. No matter how neatly men striped the center of the streets, no matter how bright the billboard promises, disorder hurtled on. Wolf ventured out less and then less.
+
+Frail figures still appeared in the cemetery, occasionally seeking Wolf out to praise the upkeep of the yard and the garden he had coaxed from the sandy soil around his cottage. Wolf nodded at these comments and smiled and disappeared from view as courteously as possible.
+
+But these older visitors, who understood the importance of spending a few hours each week in the company of the dead, died off themselves. Though there were still unfilled plots for sale, their younger relatives buried them closer to their own neighborhoods, in suburban cemeteries that looked to Wolf like a species of park, acres of grass smoothed of unsightly wrinkles. Small stone tablets marked the graves, or discreet plaques of the sort used elsewhere to announce historical sites. A road wound through the indistinguishable rows, for those who sought a whiff of the dead as they drove past.
+
+The decline in visitors increased Wolf’s workload, as the care of individual plots, which had once been the assumed duty of relatives, now passed to him. It was he who ensured that headstones were kept free of rubbish, the photos polished, the dead flowers cleared away. He enjoyed these tasks, which seemed to him the logical completion of a cycle to which he had given his life over contentedly.
+
+Wolf was not a man prone to fancy. But sometimes, as he hunched to clean a sheet of marble or set a bouquet of wildflowers at the foot of a favorite grave, he heard a faint voice on the breeze. Once in a great while, these apparitions materialized outside his cottage and hovered in the moonlight. When he played Mozart, they waltzed with cautious grace. The cats perched on the sill and watched.
+
+After a lengthy period of construction, the road fronting the cemetery became a four-lane highway, and thereafter the surrounding neighborhood declined precipitously. Private homes were demolished and large, drab public-housing projects built. During the cold months, after supper, Wolf lay on his cot and read, the cats flung atop him like pelts. But when the nights turned warm, Wolf could hear young blacks in the park next door, laughter and shouts, bottles shattering against the cemetery’s brick walls, the snap of firecrackers, which frightened the cats. Graffiti surfaced on the walls near the front gate. Wolf considered apprising Gardner of the problem, but decided to purchase additional paint instead.
+
+Gardner was a busy man and his annual visits lasted barely long enough for Wolf to count the buttons shining on his coat. “Sales have been a bit off,” he observed. “Orders will come up by winter.” With a sour expression, he would then inquire if anything was needed, to which Wolf would respond, with a slight bow, in the negative.
+
+One evening, after closing, a tall figure in a sagging suit presented himself at the gate. He let himself in with a key and tromped about the place with a tape measure in one hand and a notepad in the other, so engrossed that he failed to notice Wolf’s approach and nearly walked over him. The man leaped backward, his suit seeming to follow a second later.
+
+Wolf apologized.
+
+“Quite all right,” the man said. “Yes, Gardner mentioned you. Mr. Pinks, correct?”
+
+“Pinkas, yes.”
+
+“You live on the premises, correct?”
+
+Wolf pointed to his cottage.
+
+“Yes. Well. I didn’t mean to startle you. Ham Tallaway.” He extended a hand. “Development commission. Just a routine inspection.”
+
+Wolf said, “How did you get a key?”
+
+“Why, Bob Gardner gave it to me. I’d have rung the bell, but you don’t seem to have one.” Tallaway laughed. “I’ll just look around and be out of your way.” While the two men stood talking, Dempsey hobbled out of the cottage and nudged against Wolf’s shin. “What a nice kitty.” Tallaway bent to pat him. “This retaining wall—you know if it’s furrow-grounded, or overlaid?”
+
+Wolf shrugged. “It was here when I arrive.”
+
+“I see. Well. Don’t let me interrupt you. I’ll be done in a few minutes.”
+
+When Wolf returned to the cottage, Dempsey was gone. A week later he found the body sprawled beneath a gorse bush just beyond the rear gate. Coal glanced at the frozen eyes and matted fur, then scampered back to the cottage.
+
+With his garden and the new varieties of dehydrated foods, Wolf no longer left the yard more than a few times a year, and then only to cash his checks. His hair grew wild. At rush hour, cars chuffed past, exhaling smog. Ambulances flashed and shrieked, planes roared overhead, black boys loped by on foot, carrying plastic boxes that pumped out cruel imitations of music. Even the quietest moments resounded with electronic beeps and metallic sighs, a faint persistent ringing.
+
+Against these, Wolf placed his wooden shutters and the chirping of tinder in his stove, the music from his phonograph. He allowed ivy to overrun the front gate and found comfort in the gradual vanishing of highway and streetlight and wire. He removed the mailbox and, excepting his monthly stipend, fed to his stove the envelopes dropped near the yard’s entrance. He surrendered his battle against the graffiti. Then, without so much as a letter to young Gardner, he bolted the yard shut with a large padlock.
+
+He had hoped to make the ruin outside his kingdom disappear. But rather than feeling reassured, he felt oddly besieged. His sleep grew restless with dreams.
+
+Wolf had never before remembered his dreams. He might awaken with a strange sense of elation, or dread, even expectation. But as he swung his legs over the edge of his cot, as he sipped his morning tea and surveyed the yard, the turbulent rhythm of these feelings dissipated. He simply immersed himself in the day’s routine. As if by a gentleman’s agreement, all was forgotten.
+
+Now he woke with distinct memories: a vulture swooping down on Coal while Wolf watched from the doorway of his cottage, unable to wrestle himself into motion. Other nights, Wolf found himself cast out, stumbling through a featureless landscape: the stink of diesel and dead horses, eyes peering at him from dank basements, blue-black air.
+
+Most disturbing was his dream of sleep. He could see himself in this dream. He slept on his mother’s deathbed. Yet he could also see images from his childhood: families marched down muddy roads, his father heaped on a wet road, his sisters crying out for potatoes. Bombs dropped from the sky and turned gardens to violent dirt. The dry pop of machine guns shoved bodies into pits. Ashes settled onto his skin. Wolf saw and heard and smelled all of it. Yet he slept. Even as he rose to fire the stove, fifty years on, he could see himself curled peacefully. He looked dead, but he was dreaming.
+
+One day, in the midst of mending a fissured tombstone, Wolf heard the strokes of a hacksaw. He found Ham Tallaway on the other side of the gate. Next to him stood a black man in a work shirt beginning to sweat through.
+
+Tallaway stared at Wolf. “If you wouldn’t mind opening the gate, Mr. Pinkas.”
+
+“Of course.”
+
+“You mean this son of a bitch had the key all along?” The black man scowled. “I been coming out here for how many months, Mr. Tallaway?”
+
+With a strained smile, Tallaway instructed his workman to return to the truck. Wolf swung the gate open and Tallaway proceeded to the nearest shaded bench and sat. “We need to speak, Mr. Pinkas. I am sorry about my colleague, but you can understand his frustration. I myself have grown . . . frustrated. Mr. Gardner has sent a number of letters informing you of the situation, as has the city.” He gestured with his chin toward the beheaded mailbox post and paused. “I understand that you have grown quite attached to your home. I see by your care of the premises that you have been diligent in the exercise of your duties. But the city owns this land now. Do you understand?”
+
+“Yes,” Wolf said. “I understand.” He felt eager to return to his repair, fearful the grout would dry improperly.
+
+Tallaway pulled a handkerchief from his pocket and dabbed his forehead. “And the situation calls for me, you see, to inform you that the city, as it should arise, no longer requires your services.”
+
+“Services?”
+
+“It’s nothing personal, Mr. Pinkas. We appreciate your dedication,” Tallaway said. “This has nothing to do with job performance.”
+
+“What will you do? Hire another man?” His tongue flustered at the words.
+
+“No. You see, this property, the city plans to build an arena here. For sports, music concerts, cultural events.”
+
+“But this is a graveyard. You can’t move graves.”
+
+“The interred and all existing markers will be relocated,” Tallaway said. He folded his handkerchief and tucked it back into his pocket. “Construction won’t start until after Christmas, so you have several months to wind up your affairs here. I’ve discussed the possibility of your obtaining employment with one of our municipal cemeteries. That’s a decision for you to make on your own, of course.” Tallaway stood and walked to the gate. “I’m sorry,” he said without slowing.
+
+That night, Wolf heard a commotion behind his cottage. He felt certain the dead had been agitated by Tallaway’s visit. But the voices were young. They licked the night with laughter. Wolf rose from the cot and fetched his trash stick and his lantern and stepped into the night. Summer, with its languid breath, was gone, but autumn had yet to arrive. A fragment of moon hung in the sky.
+
+The giggling came from the north corner of the yard. Wolf walked past the privy and the brass monument honoring the yard’s wealthiest family, past the small clearing where Dempsey had hunted mice, and toward a low wooden gate. Inside, weeds obscured two rows of waist-high headstones. When he first took the job, Wolf tended to the children’s graveyard. But these visits became more than he could bear: to be stared at by the mounted photos, forced to consider the bodies below.
+
+Gooseflesh prickled his arms. He heard a cry and stepped inside the gate and made his way toward the back, where two figures were intertwined beneath a stand of cedar. They seemed to be wrestling. He stepped closer and lifted his lantern. For a long moment he watched the boy’s muscled back, watched him struggle with the pleasures of congress, arching and thrusting, grunting in satisfaction while the second figure breathed extravagantly and dug her plump ankles into the ropy muscles of her lover’s calves. Against the crisp white of the cedar trunks they composed a tableau of brutal desire.
+
+Wolf stepped backward, but in so doing stumbled on a root. The girl lifted her head and looked at him and shrieked. The boy continued his exertions. But she shrieked again and he tumbled from her and they both lay stunned on the blanket they had set down. Bits of dried leaves clung to the girl’s braided hair. She ducked behind the boy, who raised his arms as a boxer might and peered into the dull nimbus of Wolf’s lantern. “Who the fuck out there?”
+
+Wolf could smell what they had been doing, the slightly putrid scent of bodies opened in this way. The girl reached to cover herself.
+
+“I am the caretaker here,” Wolf announced unhappily.
+
+“He’s crazy,” the girl said. “Look at him, D. Keep him away from me.”
+
+The boy reached past her, for his clothes. “Come any closer and I’ll kill your ass.” He showed his teeth. “I got a gun.”
+
+They spoke too fast for Wolf to understand every word. But he saw their fright. “I do not want to hurt you,” he said.
+
+“Ain’t nobody scared,” the boy said. “You the one should be scared.”
+
+“This is private property,” Wolf said. “A graveyard is here. This is not a place for what you do.”
+
+“Look at his face,” the girl cried. “Do something, D.” She squirmed into her T-shirt.
+
+“You have no rights to be here,” Wolf said.
+
+The boy seemed to consider this. He took note of the steel-tipped stick in Wolf’s hand.
+
+“This ain’t no private property,” the girl said suddenly. “City own it. We got the same right here as you.”
+
+As she spoke, the boy snatched up a pint bottle and dashed away. The girl scrambled after him. They retreated quick and sleek, as if they belonged to the night. Wolf hurried back to his cottage and lay down to calm himself. Wind whistled thinly through the graves. His cottage moaned.
+
+Toward dawn there was a faint knock at the door. Coal lifted his head. Wolf stoked the fire and pulled on his trousers. He rubbed his eyes. As he set the kettle for tea, a second, more distinct knock sounded.
+
+Wolf opened the door. The girl fell to the floor like a swimmer frozen in mid-stroke. Scratches raked the length of her forearms and blood from a gash at the knee ribboned her calf. Her T-shirt rode up around her hips, revealing the muddied seat of her panties. She looked at Wolf and began at once to sob. Wolf thought, for just a moment, of the dying girl he had come upon in a field so many years ago, and of her final wish, at which he shuddered.
+
+“What’s happened to you?” Wolf asked. “Was it the boy who did this?”
+
+“Your damn wall too high.”
+
+Wolf flew into a brief panic. He wanted the girl gone, out of his home. “There is a place here for washing,” he said. “You may clean up. Then you return home. The front gate is open.”
+
+The girl nodded drowsily.
+
+When Wolf returned at lunch, he found her on his cot, wearing one of his undershirts, her dirty T-shirt folded and set in a corner. Coal was draped on the prominent swell of her belly. With no great interest, she was inspecting one of his records.
+
+“Young lady,” he said.
+
+“You ain’t got to tell me,” she said. “I was just waiting around to say thanks.”
+
+“Yes. I appreciate.”
+
+“I’m going,” she said. And yet she did not move from the cot.
+
+Wolf looked at her face. Her small features lacked sharpness. She was young. Thirteen? Fourteen?
+
+“I could sue you,” she said. “For reckless abuse and some other shit.”
+
+Wolf thought about his cache of twenty-dollar bills. Would she have had the ingenuity to check the tin hidden behind his phonograph? “Young lady.”
+
+She stood. Coal tumbled and hit the floor with a squeak. Wolf held the door open. But rather than leaving, she ambled around the cottage, inspecting his domestic arrangements, as if he were the interloper and his presence an inconvenience she had chosen, for the moment, to tolerate. “Where you from?” she said.
+
+“What do you mean?”
+
+“You got a accent,” she said.
+
+Wolf shook his head. “What does this matter?”
+
+“It don’t. I’m just asking.”
+
+“You must leave.”
+
+“I am leaving.” She smiled flirtatiously. “You from Mexico?”
+
+“Poland,” Wolf said softly.
+
+“You don’t look Polish. Them Polish are big. Where’s your wife, anyway? You old enough to have a wife.”
+
+“You must leave,” Wolf repeated. “Your mother will worry.”
+
+“If you had a wife she’d make you cut that hair, I tell you that right now. Hoo boy, you like one of them flower children. How old are you? You sixty?” She walked over to the stove and peeked inside. “Why you live here? It’s spooky round here.”
+
+Wolf cleared a strand of hair from his face and noted, with some distress, that she was the same height as him. “The front gate is open. Go home. Your mother will worry.”
+
+“I live with my auntie. You got any Coke?”
+
+“Young lady—”
+
+“Any kind of soda?”
+
+“Young lady,” Wolf repeated, as firmly as his manner allowed. “This is my home. I am a busy man.”
+
+“Taking care of dead folks. Real busy.”
+
+Wolf’s cheeks reddened.
+
+“All right, all right. I’m going. Don’t get all crazy on me.” She looked him up and down, a girl staring out from the body of a woman. Then she began undoing the buttons on her shirtfront.
+
+For a moment Wolf could only watch in astonishment. “That is not necessary. No, please. Stop that, young lady. You may keep that. As, as payment. For your fall.”
+
+The girl looked down at the shirt, then over to her T-shirt in the corner. “Fine. You can keep mine, then.” She made her way slowly to the door, looking about distractedly. “Your cat’s pregnant,” she said, before stepping outside.
+
+“What?”
+
+“Your kitty. She pregnant.”
+
+“No,” Wolf said. “Coal is a boy cat.”
+
+“Look at her. She fat. She pregnant.”
+
+Wolf sighed. “If you need bus fare—”
+
+“Nah.” She breezed out. “I don’t want nothing from you.”
+
+“Do not come back,” Wolf called to her. “I am warning.”
+
+That night Wolf smelled her everywhere, on his clothes and on Coal and especially on his cot, a smell like the oil applied to babies. He settled down and cranked his phonograph and attempted to clear his mind for sleep. But the odor interfered. He felt a longing that was not lust, but something less easily dispelled. He wanted to cry out. Coal, lying on the foot of the cot, regarded him quizzically. Wolf rushed outside in his bed shirt. He stumbled this way and that, peering at nothing, at the heavy ink of night, at his garden, at what might have been her footsteps in the dust.
+
+A week later she was back, her voice circling the treetops, then a deeper tone, that of a boy. Wolf selected a record from his collection, an obscure chorale by Emanuel Bach, and cranked his phonograph and listened to Moses sing in German. The cottage swelled with his somber promises, an end to the desert, the milk of Canaan. Wolf closed his eyes and saw her body, bent to its awful purposes.
+
+The next morning he marched to the children’s graveyard and stood between the two rows of headstones. The couple had left behind their thin quilt. He burned it in his stove. He drank his tea and struggled to forget these interruptions. But she made this impossible, for she returned to the yard, routinely, on the very night he managed to convince himself he was free of her.
+
+Only in October, with the rains now steady, did her visits cease. As if to compensate, surveyors sent by Tallaway arrived and spent the afternoons pacing the yard’s perimeter. A helicopter hovered overhead one morning. Wolf surrendered the pleasures of peaceful sleep. The snows began. He lost track of the days. A notice arrived informing him of the yard’s closure. He had thirty days to vacate. Wolf began harboring the conscious wish that he were no longer alive.
+
+On a frigid night deep into December, the girl’s voice roused him. He took her screams to be those of ecstasy. Then they lengthened and rose and timbre.
+
+He burrowed under his blankets, for a moment unable to determine if he was awake or asleep, if he lay in the garden of his boyhood or the graveyard that had been his home for thirty years. Then Coal purred thickly, and the phonograph crackled as its needle dipped into the empty grooves at the end of a record. He had been dreaming. A dream.
+
+The girl’s next cry drowned out everything. It was like a siren. Wolf threw his coat on over his nightshirt and pulled on his boots. The spirits jeered him. They turned themselves into black veils and twirled indignantly.
+
+He found her in the children’s cemetery, on the ground, her legs thrown open. Her monstrous belly heaved under a glaze of sweat. Steam puffed from between her legs. Her arms lay to each side, like sticks propped in the pegs of her shoulders. Every few seconds her fists pounded the frozen earth. “Oh God,” Wolf said. “Young lady. No. No. God, we got to get you to a hospital.” He wondered if he might be able to lift her into his wheelbarrow. But she grew panicky when he tried to move her. She wasn’t going anywhere.
+
+Wolf felt an instant revulsion at the prospect of having to play a part in the delivery. He told the girl he was going to find help, and started toward the gate. Surely someone had a phone, which would lead to an ambulance, a doctor. But he could hear her pleadings. “Don’t leave me! I’m gonna die!” Wolf made it as far as his cottage, then turned back with an armful of blankets. He laid these under her and over her torso. He shucked his coat to make a pillow for her head. There was no choice now—he lowered himself between her legs. The smell of blood and waste punched into the air. Her genitals were red and grotesquely swollen. He reared back and pressed tentatively at her stomach and told her to push. The girl thrashed. She clamped his wrist until the bone ached.
+
+“Push,” Wolf said. “You must push.” The girl cursed him. “Push,” Wolf commanded. “Young lady, please.” Wolf could feel the muscles inside her clenching. The baby dropped down into the birth canal. The girl’s stomach hardened and her hips bucked and the flesh at her center, engorged with blood, prepared to rend. Snow began to fall. The flakes melted on her legs and Wolf’s own reddened hands. “Please,” he said. “Young lady, please.” The girl seized up, let out a wheeze, then ceased moving. Her muscles went slack.
+
+Wolf took off his nightshirt and held it out, as if its presence might coax the child. Naked but for his boots, he entreated the girl. The tears on his cheeks had begun to freeze. Then the idea stuck him that the child was asleep. Wolf himself had slept through the trauma of his own birth according to his father. “Your own mother dying and you slept, Wolfie. Peaceful. Asleep.”
+
+But if the baby was asleep, and the mother as well, how was the birth to occur? He jostled the girl, to no effect. He kneaded her stomach. Finally his hand came forward and probed unsteadily. It was not like touching earth, the wet rubber of her, the slick hairs, the muck. His fingers slipped inside and immediately felt the baby’s head. Her flesh held to it like the seal on a jar of preserves. He pushed in farther and felt something hard against the baby. One of its shoulders was lodged behind the pelvic bone. With a sharp jab Wolf wedged two fingers between the mother and child and tried to pry the child free. Blood and fluid spurted onto his hands. The girl convulsed. He lost purchase.
+
+For a moment, the situation appeared almost comical: he, a naked old hermit crouched in the cold, reaching into a young girl, trying to deliver life into a world he wished mostly to leave. Again he worked his fingers in and searched for the point of contact. He dug at the child’s soft shoulder, his fingers cramped. The girl convulsed again and Wolf felt something give, collapse downward.
+
+The baby’s head emerged, a dark crescent, then a bit more, a forehead and nose smashed nearly flat. A second dark blotch eased into view, a shoulder, and in a single precarious moment the baby slid out, as if sprung from a trap. Wolf held the steaming body in his huge hands. It dripped and pawed the air, the umbilical cord dangling. He smacked its bottom twice, then a third time, until he heard a sputter. Next, he swaddled the baby in his nightshirt and set it on the mother’s chest, nestled beneath the blankets. “Hold,” he said, placing her hands on the baby. He shoved one arm under the girl’s back and the other under her knees. But she was dead weight now, half-conscious if that. Using his nightshirt as a sling, he tied the baby to his chest and dragged its mother, yard by yard, away from the cedars. The snow fell harder. His knees ached. Blood rushed to the surface of his skin.
+
+Back at the cottage Wolf placed mother and baby on the mattress removed from his cot. He moved the heater close and fed the stove the last of the kindling. With a jackknife he cut through the umbilical cord and moved the baby, a boy, onto his mother’s breast. His delicate lips rooted for a nipple, found it, suckled. Wolf boiled water and cleaned the baby as best he could with a towel, then the girl, too. He placed tea bags between her legs to ease the swelling. Coal wandered over and licked at the blood on the stone floor.
+
+Wolf pulled on his trousers and coat and ran outside to fetch wood. He was gone less than a minute. When he returned, he found the baby sprawled beside his mother on the mattress. Coal had retreated to the corner, his tail puffed. Wolf lifted the child and pressed him again to his mother’s breast. The child fell away, limp. His eyes were open but clouded. Wolf touched two fingers to his neck and felt a flickering pulse.
+
+He looked at the girl. “What happened here?”
+
+She smiled the glassy smile of delirium. “You killed my baby.”
+
+Wolf shook his head. “Something happened to this child.”
+
+“You killed him. You a killer.”
+
+“No,” he whispered. He picked up the child and cradled him against his chest. “I tried to save. Do you understand? I am doing what I can.”
+
+She stared blankly at the space where he stood; her eyelids slid down.
+
+“What else must I do? You should have gone to a hospital. Why did you come here? Why? I did not ask for you. Why did you bring this trouble into my home?” He looked down at the baby and trembled. “I will not take blame for this, young lady.” He knelt and whispered into the girl’s ear. “I am trying to save both of you.”
+
+But the girl couldn’t hear him.
+
+Wolf turned away and struck his head against the stone wall. The baby was still against him, a tiny pulsing thing, and the girl was there, her feverish body tossing. He sank to his knees, remembering the sting of death, how it left its imprint on even the simplest human gestures. His father set flowers on the dark soil of a grave mound. His sisters—in pinafores and terrified smiles—sang him to sleep. And later, when the war was over and the killing had stopped, he staggered alone into a field and came upon a naked girl, perhaps thirteen, who stared at him from the place where she would perish, whispering her terrible wish. She wanted to be held.
+
+Death did this. It transmuted each act of love into something unbearable. Was it any wonder he had buried himself?
+
+Light seeped through the shutters. Wolf rose from the floor with the baby. He hurried to the door of his cottage and, in one curiously exuberant motion, burst outside. He moved with the child through the cemetery on an old man’s legs, aching but stubbornly alive, not seeing the graves he had tended, the headstones touched with dew, the spirits in their tattered gowns, only hurtling himself toward the gate, the city beyond, a hospital, a doctor, the pink thread of dawn.
+
+
+
+
+
+Now let’s take a look at this structure.
+
+First, the status quo is established. Who is this, when is this, where is this? Wolf Pinkas assumed his position of caretaker of the graveyard (caring for the dead) in the decade after World War II. The context of World War II in Eastern Europe (and, by implication, the genocidal atrocities that occurred) is immediately established.
+
+First challenge to status quo or first statement of the complication. Owner can no longer pay for caretaking services.
+
+Reaction: Wolf moves into a crypt and takes a pay reduction. Life and death are juxtaposed. Life: the owner’s idea that Wolf might “want company.” Death: Wolf’s knowledge of “oceans of tormented flesh.” Wolf is aligned with death. He even moves into a crypt. He moves in with death. He stays with the deaths of the past, which, we discover, include his entire family.
+
+New status quo. Wolf fixes up the crypt. He picks up trash with a “wooden spear”—an antique weapon wholly inadequate to the battles he must fight. Here his backstory of trauma and the war is told in the line “dim chaos of the boxcars and roads.” He gets his check, walks to bank and barber and grocer.
+
+Second escalation of complication. The bank closes, so Wolf begins to take the trolley but then the trolley shuts down. Further, the frail elderly who come to tend the graves begin to die off. Plus, their children don’t use this old traditional graveyard to bury their dead.
+
+Reaction: Wolf has an increased workload but rather enjoys it. He has given his life to the care of the dead. The apparitions appear. Now he is dancing with the dead. He withdraws, goes out less and less.
+
+Third escalation of complication. A four-lane highway replaces the street; public housing replaces the old houses. Young blacks who shatter bottles and write graffiti arrive.
+
+Reaction: Wolf buys more paint.
+
+Fourth escalation of complication. The development commissioner comes in to measure the graveyard. Dempsey, one of his two cats dies. (Note that in this story the big themes are life and death and the two cats mirror life and death. Think about setting up mirrors within a story.)
+
+Reaction: Now Wolf retreats even further. Seldom leaves. Bolts the graveyard gate shut. Ignores graffiti rather than repainting it. The horrors of his past in Eastern Europe begin to return in his dreams: the dream of the stink of diesel and dead horses, his father heaped on a wet road, his sisters crying for potatoes, machine guns, bodies in pits, and the “dream of sleep” of the title—in his dream he is sleeping on his mother’s deathbed.
+
+Fifth escalation of complication. Developer gets in with a hacksaw, informs that the city is going to build an arena on site and Wolf is going to lose his job.
+
+Intruders complicate the complication. Long scene in which Wolf interrupts teenagers having sex in the children’s graveyard. The graveyard he can’t bear to maintain. Again, life (sex) and death (the dead children) juxtaposed. Then the girl arrives at his crypt-home. She is the story’s main intruder. He takes care of her despite their hostile conversation. He freaks out when she starts to unbutton his undershirt to return it to him. She notes that the second cat, Coal, is pregnant (pregnant = life). Indeed, the girl is pregnant. She keeps returning. She represents life.
+
+Sixth escalation of original complication. The takeover of the graveyard commences with surveyors and the thirty-day notice that he must leave. Wolf now reaches his lowest point, wishing consciously for death (despite that a force for life, the girl, has now entered the scene).
+
+Rise in dramatic action, to resolution. The lengthy crisis of the birth scene. Birth in the children’s graveyard. Wolf actually reaches into the girl’s birth canal and helps the baby be born. Then drags mother and child to his crypt. Then runs out of the gate to find a doctor, a hospital. So he has made a total turnaround, now standing for birth, for life, for the living child, now running out of the place of death to save a life. Wolf’s goal has mutated from a wish to stay with the dead to the wish to save a life, to save the infant from the graveyard for dead children in which it was born.
+
+What else can we learn from Almond’s story? The complication and its escalations are really a stepped escalation of one complication or challenge (to Wolf), the new urban ways having no more use for this old way of honoring the dead. And honoring the dead (and staying with the dead) is the only way Wolf wants to be. So the series of complications can be boiled down to two: the escalating encroachment of the city and the entrance of the black teens and sex. The black teens and the girl seem to escalate Wolf’s crisis but in the end this intrusion ejects Wolf back to the side of life. I find it instructive to see how Almond lays in the backstory of the Holocaust, not in scene but in flashes of memory.
+
+
+
+
+
+Hands On: Writing the Piece
+
+
+What is the significant complication? What are the big forces in opposition? Who is the character with enough grit to fight to resolve it? These are the two key ingredients required for dramatic narrations. Take any volume of The Best American Short Stories put out by Houghton Mifflin or of The O’Henry Prize Stories and go through and reread the stories. Which stories clearly follow this dramatic structure? Can you name the complication? Is it a significant complication? Can you show how the protagonist fights to resolve it? (Whether or not the complication is resolved successfully is not at issue.) If a story seems obscure in terms of this structure, just pass it by. This is not the only structure in existence. To learn dramatic structure, look for stories that plainly use it.
+
+Now turn to a story of your own, whether fiction or nonfiction. What significant complication engages you? Do you have a character with enough grit to fight toward resolution? Or to react clearly and strongly to each provocation? Keep in mind that trivial complications do not give good story.
+
+Beyond that you can proceed to structure just about any dramatic narrative using three or five attempts to overcome the difficulty or achieve the desired object. Who or what is opposed to the success of the protagonist? Add an antagonist. (Writers Jack Remick and Robert J. Ray ask the writers in their classes, Who is the antagonist? The implication is, no antagonist, no story.) And who is the helper? And does the resolution come about in part due to the fact that the protagonist comes to understand the complication differently? Wolf Pinkas’s original complication is how to preserve his way of life with the dead. In the end, the complication has reversed: it is how to keep this infant within the realm of life.
+
+Is the protagonist forced to his or her resolution by a helper, the way Wolf Pinkas is helped toward loving life by the girl in Steve Almond’s marvelous story?
+
+
+
+*Aristotle, Poetics, http://classics.mit.edu/Aristotle/poetics.html.
+
+
+
+
+
+10.
+
+
+How to Open
+
+
+When in doubt, or wherever possible, tell the whole story of the novel in the first sentence.
+
+—John Irving
+
+A great opening works like a Baked Alaska: the server lights a match and it bursts into flame. It’s mesmerizing, and when the flame dies down, you are ready to eat.
+
+Open with the most important thing you have to say. Spend your capital—fast. Open with a swift, well-placed whack:
+
+Once a guy stood all day shaking bugs from his hair.
+
+(Philip K. Dick, A Scanner Darkly, 3)
+
+“You must not tell anyone,” my mother said, “what I am about to tell you. In China your father had a sister who killed herself. She jumped into the family well.”
+
+(Maxine Hong Kingston, The Woman Warrior, 3)
+
+For five years I was on the team of short-fiction readers for The Seattle Review. What an enlightening experience. Above all, I learned—again and again—how a weak opening can kill a piece. Nice writing does not do the job. A nice description does not do the job. A windup explanatory sentence, typically begun with a dependent clause, does not do the job.
+
+Take up one or more anthologies of short masterworks, fiction or nonfiction. Page through. Look at each opening. What can you learn?
+
+•Often a good opening consists of a small sentence that concentrates into its short little self the essence (sometimes the central dramatic conflict) of what follows.
+
+When had she begun to suspect that her second-floor tenant, Mr. Han, was building a bomb?
+
+(Julie Orringer, “Neighbors,” 147)
+
+I am haunted by waters.
+
+(Olivia Laing, To the River, 3)
+
+I woke to a downpour the March morning in 1989 when I had to identify my mother’s body at the New York City morgue.
+
+(Kim Dana Kupperman, “Relief,” 96)
+
+After my boyfriend left me, I went a little crazy for a while.
+
+(Katha Pollitt, “Webstalker,” 21)
+
+•Begin with an aphorism. An aphorism is a pithy truth that the rest of the chapter or piece or book then proceeds to prove out or defend. Or begin with your conclusion.
+
+Research is formalized curiosity.
+
+(Zora Neale Hurston, Dust Tracks on a Road, 127)
+
+The universe has its secrets.
+
+(Lisa Randall, Warped Passages: Unraveling the Mysteries of the Universe’s Hidden Dimensions, 1)
+
+Music has soul.
+
+(Rick Moody, “On Celestial Music,” 163)
+
+•What is the central question of the piece? Ask the question in the first sentence.
+
+Is winemaking an art?
+
+(Jim Harrison, “Is Winemaking an Art?,” 28)
+
+Is there a richer and stranger idea in the world than grace?
+
+(Brian Doyle, “Grace Notes,” 41)
+
+What is the charm of necklaces?
+
+(Emily R. Grosholz, “On Necklaces,” 75)
+
+•An elegant and simple way to begin is to state directly and immediately what a piece (whether short or book-length) is about.
+
+This book is intended to be an informal and friendly guide for writers.
+
+(Richard Marius, A Writer’s Companion, 3)
+
+This book is about the steps you can take and the choices you can make to combat global warming.
+
+(Seth Shulman et al., Cooler Smarter, 3)
+
+God on Trial tells the stories of recent conflicts over religion in six American communities: towns and cities that have become battlefields in America’s growing religious wars.
+
+(Peter Irons, God on Trial, xi)
+
+•Immediately establish your own or the protagonist’s connection to the subject matter at hand.
+
+Today it is January, midmonth, midday, and mid-New Hampshire. I sit in my blue armchair looking out the window. I am eighty-three. I teeter when I walk, I no longer drive, I look out the window.
+
+(Donald Hall, “Out the Window,” 40)
+
+When I walk into a bookstore, any bookstore, first thing in the morning, I’m flooded with a sense of hushed excitement.
+
+(Lewis Buzbee, The Yellow-Lighted Bookshop, 3)
+
+I love houses, all the things they tell me, so that’s one reason I don’t mind working as a cleaning woman. It’s just like reading a book.
+
+(Lucia Berlin, “Mourning,” 236)
+
+I was born and raised in rural upstate New York, but who I am began with a younger brother’s death in a hunting accident when I was twelve and he was eight. I held the gun that killed him. But if my life began at twelve with my brother’s sudden, violent death, then my end, determined by the trajectory of that harsh beginning, could easily have taken place a scant six years later, when, in June 1965, I was kidnapped at gunpoint by vigilantes near the small town of Hayneville, Alabama.
+
+(Gregory Orr, “Return to Hayneville,” 125)
+
+•Begin with a telling anecdote or quote. Remember that the reader must be completely oriented as to what the essay is about by the end of the second paragraph, at latest.
+
+Once, in the Ecuadorian Amazon, I was obliged to lighten my baggage prior to boarding a seemingly lighter-than-air plane. I wouldn’t have minded giving up my waterproof poncho, my hiking boots, and my chloroquine tablets, but when the pilot asked me to leave behind Waterton’s Travels in South America and Alec Waugh’s Hot Countries, I became rather upset. What if I were laid up in some remote jungle hut? I wasn’t worried about dying, but I was worried about dying without a book to read.
+
+Of all the maladies capable of striking down a traveler in a foreign land—malaria, blackwater fever, typhoid, sleeping sickness, and so on—the one I fear the most is being caught with nothing to read. Let the monsoons play havoc with my itinerary, the national airline go on strike, and the foreign land itself prove unabashedly dull: a good book or indeed a bad book will always save the day. Nor do I even need to open this book. Simply the knowledge that it’s there, waiting to be opened, is enough.
+
+(Lawrence Millman, “Bookless in Biak,” 169–70)
+
+•Rely on the reliable What? When? Where? Why? Who? It is remarkable how many works, both fiction and nonfiction, begin by stating the time, the place, and who is in that place at that time.
+
+At half past six on the twenty-first of June 1922, when Count Alexander Ilyich Rostov was escorted through the gates of the Kremlin onto Red Square, it was glorious and cool.
+
+(Amor Towles, A Gentleman in Moscow, 9)
+
+We always had a gas stove in the kitchen, in our house in Piedmont, West Virginia, where I grew up.
+
+(Henry Louis Gates, Jr., “In the Kitchen,” 117)
+
+It was in the early seventies, a time of violence in Northern Ireland. Our front room was a rectangle with white walls, hardly any furniture and a small television chanting deaths and statistics at teatime.
+
+(Eavan Boland, “Subject Matters,” 175).
+
+My mother once had a boyfriend named Glen Baxter. This was in 1961. We—my mother and I—were living in the little house my father had left her up the Sun River, near Victory, Montana, west of Great Falls.
+
+(Richard Ford, “Communist,” 394)
+
+A sunny, windy day on the lower East Side of New York. The year is 1942. Sean, aged six, is being more or less pulled along the sidewalk by his father, who has shown up from nowhere to take him home from school.
+
+(Frank Conroy, Midair, 3)
+
+•Begin with a good title. A good title says what the book or the piece is about:
+
+The Sea Around Us (Rachel Carson)
+
+“Consider the Lobster” (David Foster Wallace)
+
+“Grace Notes” (Brian Doyle)
+
+A History of Reading (Alberto Manguel)
+
+“This Old Man” (Roger Angell)
+
+I Know Why the Caged Bird Sings (Maya Angelou)
+
+These titles, and all of these beginnings, give readers a good idea of what’s behind the door they are about to walk through. They shun lyrical flourishes and anecdotes with delayed points. They are direct. They are plain and simple. They put the reader in a time and place, or they say what the problem is, or they flatly state what the piece is about. They make instantly clear what the relationship of the I is to the matter at hand.
+
+The temptation is to begin fancy. The practice is to condense what is offered into its shortest, most accurate, most telling form. Often, in the process of composing, beginnings do not clarify themselves until endings arrive. “Good leads often show up late,” writes many-book author Ralph Keyes in The Courage to Write. “In my own writing and that of students, I generally find the best opening deep within the narrative. This opening only makes itself known as I read drafts, see what catches my eye, something that sets a tone, that gets the piece up and running. Knowing this I don’t concern myself with beginnings till the end.”*
+
+
+
+
+
+Hands On: Openings
+
+
+As with all the exercises, do this one in relation to work you have in progress.
+
+•Take five of your works that have yet to be published. Lay them out on the table or on the floor. Choose one type of opening, say Rick Moody’s “Music has soul.” For each of your chosen works, make an opening that is syntactically identical to Moody’s opening, that is, it is an equation using the “to be” verb—X is Y or X has Y. This sentence holds the essence of what you want to say in the piece.
+
+•Take the piece that pleases you most or that you most want to finish. Do not go into it and begin flailing about. Rather, copy out into your writing-practice notebook or type out the present opening. This is your “before” paragraph. Now, below it, make your new opening, beginning with your new “X is Y” sentence. Work on the paragraph to make it fit the new opening and in any other way you see fit. Here’s an example of a Before/After from a piece I wrote called “Solitude.” This is the opening paragraph:
+
+Before
+
+When I was five years old, we moved to a farm in Maryland called Ravenswood. We lived there for a year before moving to Comegys Bight Farm a few miles down the road. At Ravenswood, I got a room of my own—an attic room with steep gables and a square casement window made of wood on the vertical end wall. To me at the time—I’m a twin and have a brother ten months older—it was pure happiness to possess this sunny, silent kingdom at the top of the house.
+
+After
+
+Solitude is delicious. It can be delicious even to a five-year-old. The year we turned five—I have a twin sister and a brother ten months older—our family moved to a farm in Maryland called Ravenswood. At Ravenswood, I got a room of my own, an attic room with steep gables and a square wooden window that opened sideways like a book. This was my own silent kingdom at the top of the house.
+
+That is a great improvement, or so it seems to me.
+
+Do the Before/After exercise with each type of opening offered here. You can do the Before/After exercise again and again. In the years of assigning it and actually doing it myself, I cannot remember a case in which the “after” paragraph did not turn out better; often it is much better. The exercise works almost like magic, partly because you are focusing on a single paragraph in your notebook.
+
+The act of removing the paragraph from your piece before starting to work on it is essential. This makes the job finite, one you can entertain yourself with for an hour or so before returning the paragraph to its appointed place. Doing this exercise on the first paragraph of any given piece will repay your efforts many times.
+
+•Begin your own collection of virtuoso openings written by others. Write them in your sentence book (see page 173). Study them. What can you learn from them?
+
+
+
+*Keyes, Courage to Write, 154.

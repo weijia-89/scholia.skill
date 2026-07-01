@@ -1,0 +1,2143 @@
+09_henry_2000_writing_workplace_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: henry_2000_writing_workplace
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/09_henry_2000_writing_workplace_ch06_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/09_henry_2000_writing_workplace_ch06.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/09_henry_2000_writing_workplace_ch06.txt).
+========================================================================
+
+chapter 6, and with ideology, since ideo-
+logical discourses “work more through selective attention than through
+outright suppression” (Rosaldo 87). As discourse workers interpret and
+act upon information as it moves between workplace and larger cul-
+tures, the representations that they make to themselves of their rela-
+tionships to their conditions of existence are always at work, and it be-
+hooves us all, as writers and researchers, to probe interplays between
+these representations and such intermediation.
+    Concerning the effects of organizational authorship on larger cul-
+tures and professional writers’ roles in these effects, Mary Beth Debs
+offers one scenario:
+
+      In writing, for example, about new products or policy decisions, the writer
+      is acting as a spokesperson for the organization in transcribing what is,
+      in effect, a preexisting reality (the product or policy developed by the or-
+      ganization): It is the company’s message and to a large extent the organ-
+      ization’s vision or knowledge that the writer is sending. (166)
+
+In characterizing a writer’s work as “transcribing . . . a preexisting
+reality,” Debs sketches a scenario of cultural inscription, of mediation
+between the organizational and the discursive effected by writers. Her
+selection of “products” as example might prompt us to muse upon the
+organizational products and kinds of writing discussed in chapter 5.
+Though products such as editorial pages and recruitment brochures
+might seem relatively innocuous, inquiries into the ways in which such
+products represent internal realities and position external audiences
+with respect to these realities by course researchers Jen and Hart, re-
+                             REPRESENTING DISCURSIVE WORK IN THE WORKPLACE   157
+
+
+spectively, reveal the construction of a variety of relations between
+organizational cultures and the larger cultures in which they are lo-
+cated. In the case of a job announcement newsletter, audiences are
+positioned as protégés of the organization; in the recruitment bro-
+chures, as young scholars enamored with tradition yet desiring change.
+As intermediary agents between organizations and audiences, writers
+shape these relations and monitor them to ensure their success—which
+in turn guarantees the solvency of the organization. And if we take
+relationality as a generative topic in studies of cultural construction and
+reproduction, we can ask ourselves how the relations that get shaped
+through this mediation among cultures might become in turn foci for
+inquiry in the ideological plane: how do the subject positions offered
+to audiences through an organization’s discursive representations re-
+verberate through larger cultures? What conditions of existence do they
+imply and where do these conditions fit in systems of value within or-
+ganizations and beyond them?
+    In the discursive shards of chapter 5 alone, dozens and dozens of
+representations, attendant positions, and relations among them are
+suggested; other archaeologies would produce hundreds more. In the
+domain of professional authorship, the relations thus established be-
+come topics for critique in the ongoing progress of workplace cultures
+and critical topics for culture members striving to maintain the solvency
+of the organization. In this sense, the roles of “advocate” and “me-
+diator” suggested by scholars in professional writing seem vital, since
+these roles focus explicitly on the circuits of discursive output and feed-
+back and the knowledge that can be constructed in these circuits. These
+roles should prompt writers to nurture expertise in demographic in-
+terpretation as it can feed such knowledge, to draw on circuits partic-
+ular to, say, government writing that position the public as primary
+audience reached through complex mediation, and to envision com-
+posing for multiple and serial audiences as constructions of self and
+other—to recall earlier comments by ethnographic theorist James Clif-
+ford and composition theorist Louise Phelps.
+    Such constructions of knowledge in the domain of professional
+authorship will dovetail with knowledge of oneself as a member of a
+professional class in formation as discussed in chapter 6 and with self-
+knowledge as a writer whose subjectivity is an in-process construction
+amid the discursive structures and practices of given workplace cul-
+tures. To enhance this knowledge, writers, as “nodes” and “links”
+between organizational cultures and larger cultures, will want to de-
+158   IMPLICATIONS AND APPLICATIONS
+
+
+velop expertise in participating in on-line forums composed of other
+writers in other cultures, the better to frame reflections on discursive
+selves and others (see Jillian in the appendixes; Selfe and Selfe). In
+representing this facet of writers’ expertise in the workplace, writers
+and scholars collaborating with them will probably want to point out
+that discursive constructions of self and other are not only ethical con-
+siderations but considerations in the generation of a culture’s value.
+
+Representing Writing’s Interests
+In an individual writing conference with George, he told me of peren-
+nial writing classes offered in the military headquarters organization
+where he worked. In these classes, expert instructors from outside the
+organization would review principles of style and usage and run their
+charges through exercises designed to reduce nominalizations, passive
+voice, and the like. The classes were fine as refreshers, George claimed,
+but nearly all of the writers with whom he collaborated had long since
+mastered such fundamentals and rarely wrote in the passive voice or
+converted action to stasis in their prose. The reports to which they
+contributed, on the other hand, were riddled with such constructions,
+and therein lay the rub: problems in style were the result of cultural
+processes that included regular obfuscation of agency and disciplin-
+ing of inferiors by superiors through discursive intervention that ef-
+faced their “voices.” (For a fuller discussion, see Henry and “George.”)
+Yet because “writing” in this culture was represented widely as an
+individual endeavor (albeit conducted serially in a “chop chain” of
+review) and the “work” of discourse as essentially the transmission of
+information, the culture’s occasional engagement with discourse in-
+struction came in the simplistic form of individual tutelage in prose
+style. George’s MA thesis explored this phenomenon in depth, mak-
+ing provocative suggestions for local writing practice and instruction
+that would make use of reader-response theory and thus exploit one
+of the elements of the domain of professional authorship more fully.
+His work demonstrates the enormity of the rift between the academy
+and the workplace in understandings of discourse and its workings,
+and suggests some of the work which remains to be done in represent-
+ing the interests of writing in the workplace.
+     The most immediate channel for doing so would seem to be pro-
+fessional writers who circulate between the two zones. To represent
+their expertise in postmodern modes of composing more fully to their
+                              REPRESENTING DISCURSIVE WORK IN THE WORKPLACE   159
+
+
+coworkers, they will need instruction in various aspects of discourse
+as outlined in chapter 6 and they will need concrete examples drawn
+from their daily work as illustration—hence, once again, the enormous
+value of cultivating varying approaches to reflexive practice and to
+documenting one’s engagement in collective procedures. Based on such
+documentation, professional writers may draw upon teacherly subjec-
+tivities to demonstrate ways in which social constructionism takes form
+in specific cultures. As they inhabit these teacherly subjectivities (many
+made available through discourses with which they maintain connec-
+tions), other subjectivities are likely to be offered within organizational
+structures, in particular those of managers.
+     Lena’s research most directly addressed this aspect of professional
+writing. When she interviewed the director of the association where
+she was observing document processing and production, the director
+lamented the fact that several of the able writers on staff would leave
+after a few years, having exhausted possibilities for promotion and for
+learning. If they wanted to remain with the organization, she predicted,
+their only option would be to move into management. This option is
+obviously at work in many cultures, judging by advertisements I receive
+regularly from outfits offering seminars in organizational communica-
+tions and publishing. Titles such as “publications manager,” “public
+relations manager,” “communications manager,” and the like, wrought
+in part by the complexities of composition in an informated age, pres-
+age organizational positions in which the writer is positioned as a “man-
+ager” of discursive production. In such an era, it seems critical that
+we represent discursive production as already imbued with complex cul-
+tural processes, local and larger, and that we contemplate the ways in
+which new “management” positions can heed such representations.
+     One possible avenue is through integrating our theory, research,
+and instruction on discursive work with Frow’s notion of professional
+classes as always classes in formation discussed in chapter 6. Undergird-
+ing formations, he suggests, are ideological class relations, in which sem-
+iotic constructions of the self take form and in which a sense of self-iden-
+tity and identification of the social other emerges. As discussed earlier,
+writers’ practices of journaling and reflective commentary on their writ-
+ing can enhance work in this sphere enormously. Frow’s juxtaposition
+of ideological class relations with political class relations and economic
+class relations should prompt us to seize the latter as a highly perti-
+nent sphere for representing writing’s interests in workplace cultures.
+Precisely because workplace cultures are configured most strongly by
+160   IMPLICATIONS AND APPLICATIONS
+
+
+economic forces, we will need to point out the ways in which these
+forces, ultimately concerned most centrally with the production of
+value, are inextricably bound to forces and values in the other two
+spheres. Now that we have dispensed with notions of writing as purely
+transmissive and with discursive work as merely functional, it remains
+our task to demonstrate repeatedly the ways in which values in the
+ideological sphere relate to values in the economic sphere. As we un-
+dertake this work as part of composition’s subject, we will need to
+devise strategies in the political sphere, a central topic of chapter 8.
+8   INTERVENING IN CULTURAL PRODUCTION
+    AND REPRODUCTION
+
+    Roy: How’d you like to go to Washington and work for the
+       Justice Department? All I gotta do is pick up the phone, talk
+       to Ed, and you’re in.
+    Joe: In . . . what, exactly?
+    Roy: Associate Assistant Something Big. Internal Affairs, heart of
+       the woods, something nice with clout.
+    Joe: Ed . . . ?
+    Roy: Meese. The Attorney General.
+    Joe: Oh.
+    Roy: I just have to pick up the phone . . .
+                                   —Tony Kushner, Angels in America
+
+    Ito: The chance.
+    Grace Jones: To refigure the self.
+    Ito: To appropriate.
+    Grace Jones: The accoutrements of power.
+    Ito: To articulate.
+    Grace Jones: A new identity.
+                              —Dorinne Kondo, “Bad Girls: Theater,
+                 Women of Color, and the Politics of Representation”
+
+
+
+
+                                                                         161
+162   IMPLICATIONS AND APPLICATIONS
+
+
+
+
+In Dorinne Kondo’s performative version of ethnography, Janice Ito,
+“a young assistant professor who is thrilled with her new job at the
+Mount Olympus of scholarship, Ivy University” (52), team talks with
+Grace Jones as the two stroll down a fashion designer’s runway, clad
+in Issey Miyake dresses and carrying Uzis. Ito is bent on academic suc-
+cess yet struggling with various ideological and pragmatic demands that
+go with the job; Jones is her pop idol, suddenly materializing in her
+world to serve as both inspiration for her articulation of a politics of
+representation and foil to her conceptualization of political identity in
+narrowly academic terms. The chance to refigure the self—to articu-
+late a new identity—comes to those who inhabit given identities cre-
+atively, we glean from Jones’s later comments when Ito objects to Jones’s
+having donned a leopard-skin suit and brandished a spear in Conan
+the Barbarian.
+     As one of the contributions to Behar and Gordon’s Women Writ-
+ing Culture, Kondo’s essay takes up the complex issue of the politics
+of representation within the field of ethnography, and the character
+of Grace Jones in Kondo’s performative ethnography prompts musings
+upon autoethnographic projects. As noted in chapter 3, when Mary
+Louise Pratt popularized the term in English circles, she defined auto-
+ethnography as “a text in which people undertake to describe them-
+selves in ways that engage with representations others have made of
+them” (35). To articulate a postmodern, feminist, autoethnographic
+identity, Kondo’s scene implies, subjects should be prepared to engage
+with the identities that specific cultures regularly offer, even if these
+identities as initially offered appear objectionable.
+     Such is the engagement with identity that the domain of profes-
+sional authorship would currently seem to require of professional writ-
+ers. That is, given the ready-made subjectivities of “functionary,” “sup-
+port staff,” “ghost” (chapter 4), or even “robot” (Slack, Miller, Doak)
+that are offered to professional writers most often by workplace cul-
+tures where writing is represented as essentially reflective of rather than
+constitutive of realities, where discourse is a mode of transmission
+                      INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   163
+
+
+rather than an apparatus for the production of meaning—these repre-
+sentations linked to reductionist notions of authorship fostered by both
+the academy and by popular media—the most salubrious tactic would
+seem to be to engage with such subject positions in order to revise them.
+Depending upon the culture and positions that are offered, engagement
+may mean little more than putting up with limiting notions of iden-
+tity until one can move to a better culture. (This tactic has been voiced
+by several of the researchers represented here, particularly those work-
+ing in cultures which are customarily the most top-down and constrict-
+ing: trade associations.) Such cultures will undoubtedly resist revision
+from the bottom up, certainly from one lone agent whose professional
+class carries so little clout, which should prod academics who prepare
+such agents for their positions to investigate other means of interven-
+tion in local cultures and in cultural processes.
+     Intervening in cultural processes beyond the walls of the academy
+may strike compositionists as foreign, but in professional writing schol-
+arship such a mandate has been taking form over the last few years,
+leading Rachel Spilka to speak in 1993 of “influencing workplace prac-
+tices” through curriculum design and research. That professional writ-
+ing scholarship should be the field to forward this mandate derives not
+only from its object of study but from the methodologies that have most
+informed this study. From the earliest ventures into workplace cultures
+by academics in rhetoric and composition, the primary fieldwork meth-
+odology has been ethnography (see Odell and Goswami), and at least
+two approaches to ethnographic inquiry—applied ethnography and
+feminist ethnography—lobby explicitly for intervention in the culture
+under study. In “Applied Anthropology and Post-Modernist Ethnog-
+raphy,” Agneta M. Johannsen notes that “applied anthropology is
+mainly characterized by intervention” (71), observing in the process
+that “interpretive anthropology especially focuses on the principle that
+to characterize people in any way is to intervene in their lives” (77),
+which has been a principle at the heart of feminist anthropology, amply
+demonstrated in Women Writing Culture. As professional writing
+scholars seeking rigor both in our methodologies and in our position-
+ing with respect to epistemologies tied to those methodologies, it makes
+perfect sense to recognize intervention in cultural processes as part of
+our work.
+     It also makes sense to take up the issue of cultural intervention
+within the broader landscape of postsecondary curriculum design. To
+speak of cultural processes in terms of cultural production and repro-
+164   IMPLICATIONS AND APPLICATIONS
+
+
+duction is to invoke the work of Pierre Bourdieu and Jean-Claude Pas-
+seron, who in Reproduction in Education, Society, and Culture return
+to Bourdieu’s notion of a habitus, “the product of internalization of
+the principles of a cultural arbitrary capable of perpetuating itself af-
+ter pedagogical action has ceased and thereby of perpetuating in prac-
+tices the principles of the internalized arbitrary” (31). Bourdieu and
+Passeron use habitus to characterize the ways in which the French
+educational system reproduces class distinctions even when federal in-
+terventions have been taken to prompt more egalitarian access to high-
+status disciplines. Though their interpretations of class formation strike
+one as oversimplified in the light of class scholarship since the book’s
+publication, their observations on educational institutions’ unwitting
+collusion with forces in the sphere of production that reproduce the
+status quo are well taken. Such observations implicate curriculum de-
+sign and return us once again to the realm of curriculum theory. To
+the element of students’ self-actualization as part of curriculum noted
+in chapter 6, ethnographic inquiry as framed in this archaeological work
+lobbies implicitly for adding social reconstruction (Eisner and Val-
+lance), since work at the level of discursive constructions of the sub-
+ject always entails work at the level of social systems as intertwined
+with discursive processes. Sidelined earlier in the century as invalid
+curricular material during the Taylorization of the academy and par-
+ticularly of writing instruction, social reconstructionism is likely
+to reemerge as cultural forces so closely allied with Taylorization wane
+in the informated age.
+     As this shift occurs, composition will be positioned to take advan-
+tage of it in novel ways by virtue of having taken on discursive con-
+structions of subjectivity as one of its foci. In so doing, composition
+commits itself to inquiries into the replication of status quo subjec-
+tivities within educational institutions and, by extension, to the inter-
+ventions necessary to aid students in achieving their maximum self-
+actualization. With respect to professional writing, at the very least,
+compositionists have a mandate—grounded in this composer-centered
+field—to investigate the ways in which status quo subjectivities required
+by the workplace in an earlier economic era are replicated through cur-
+rent discursive practices, to strive to revise these practices, and to share
+these investigations and rationales for revision with students. Primary
+to this rationale is the principle that the writing subject has been shaped
+dramatically and systematically by current-traditional composition
+epistemology and institutional locations of writing instruction that
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   165
+
+
+sunder “real” selves from their discursive representations in specific
+ways—intervening, as it were, in the subject’s range of possible entries
+into discourse.
+     Countering the effects of this protracted and systematic interven-
+tion will require diverse and equally protracted efforts, given the scope
+and depth of these earlier forces bearing on discursive subjectivities.
+Yet the time for such counterintervention would seem ripe, owing to
+at least three developments in the past decade or so: (1) theories for ap-
+prehending the complexities of discursive constructions of subjectiv-
+ities—of the ways in which the social constructionist elements of lan-
+guage and discourse practices shape our identities—have finally made
+their ways to composition studies; (2) the shifts in our national econ-
+omy, particularly as global capitalism has positioned U.S. economy,
+render earlier subjectivities required by the workplace archaic and even
+counterproductive; (3) developments in technology have revolution-
+ized discursive circuits, opening channels for reshaping subjectivities
+and for reimagining rhetorics, as Carolyn Miller’s observations noted
+in the previous chapter underscore. I discuss some implications of each
+of these factors against the backdrop of this archaeology below.
+
+Discursive Sites of Intervention
+The most immediately relevant discursive site for investigation and
+intervention is the writing subject. In chapter 6 ideas are presented for
+repositioning this subject as part of the larger project of re-presenting
+discursive work in the academy. In the pages that follow, these ideas
+are extended for their applications in an interventionist approach to
+writing subjectivities in the realms of the individual, of a professional
+class, and of virtual forums.
+
+Individual Sites
+
+When conceptualized as a site at which social forces struggle to enter
+discourse, the “I” of the professional writer stands as a key point in
+intervening in cultural reproduction. The erasure of the “I” through
+current-traditional composition epistemology has been roundly sec-
+onded by workplace discursive practices, judging by the reports of
+researchers in this book, rendering this site somewhat inaccessible. Yet
+through rethinking authorship as a part of instrumental discourse and
+conceptualizing a domain of professional authorship, the purview of
+166   IMPLICATIONS AND APPLICATIONS
+
+
+the professional writer’s “I” becomes clear: “real” authorship entails
+“managing” the many contributors to an organizational document (in-
+cluding in some cases end users providing feedback) and imagining the
+document’s ultimate effects in local and larger cultures, as noted in
+chapter 7. Otherwise stated, the “I” of the real author, even when not
+evidenced in texts, becomes politically and poetically positioned among
+many social forces in extremely complex ways. Intervening in cultural
+production and reproduction entails equipping professional writers for
+such positioning intellectually in classrooms and collaborating with
+them later in the ongoing processes and products in which each “I”
+becomes implicated.
+     If we ponder Louise Phelps’s observation on the “disappearing
+boundary” between authors and audiences and if we accept the valid-
+ity of extending to instrumental discourse James Clifford’s observation
+that every positing of an “other” in discourse is a simultaneous con-
+struction of a “self,” then clearly one of our projects in the academy
+must entail assessing various discursive practices and traditions for their
+potential in intervention. That is, in addition to imagining courses in
+organizational studies and classroom work on students’ “I’s” as ma-
+terial, we might comb discursive horizons for practices and traditions
+that offer occasions for deconstructing notions of the “I” as an originat-
+ing, transcendent ego. Most traditions in English work against such po-
+sitioning, paradoxically, which is one reason why collaborative compo-
+sition courses hold such promise. But in addition to such courses, we
+might nurture course design that makes connections with fields that tra-
+ditionally position writers as spokespeople rather than transcendent egos.
+     Ethnography and folklore are two such fields, based on my expe-
+rience in this archaeological undertaking. While it is true that each of
+these fields currently replicates in scholarly publications the “major
+author” mode that academic notoriety requires, they nonetheless de-
+mand of these authors a cultural validation of tales uncommon in most
+English studies: the ethnographer and the folklorist employ method-
+ologies explicitly to this end, thus constructing an “author” who is
+directly responsible to local cultures. And while Ph.D. writers in these
+traditions display such responsibility in writing about cultures, pro-
+fessional writers could display such responsibility while writing with-
+in cultures.
+     We can prepare grounds for interventionist action via the individual
+writer by writing such responsibility for cultural validation into our
+composition epistemology and practices. James Zebroski and Nancy
+                      INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   167
+
+
+Mack have observed the power of ethnographic writing in heighten-
+ing critical consciousness among students; what I am signaling is the
+power of such writing for heightening collective consciousness among
+all of us who convey fundamental philosophies about writing subjects
+through the very conceptualization of courses. My experience in teach-
+ing such a course (at the undergraduate level) has taught me that a
+recurrent focus becomes that of the writer’s ways and means of vali-
+dating observations on a culture. Even writers who do extremely well
+in courses positioning them as independent originators of writing have
+difficulty learning how and when and why to seek cultural validation
+for discourse depicting a culture. In the domain of professional author-
+ship, such a discursive identity is indispensable.
+     Equally indispensable is an individual identity that assesses the
+culture with respect to larger cultures. The politics of representation,
+as ethnographers know, requires an ongoing questioning of who speaks
+for whom, to whom, and under what conditions. Just as rethinking
+ethnography in the postcolonial era has led some ethnographers to eye
+the uses of ethnographic representation with vigilance, so might our
+course work with individual writers in this tradition foster a similar
+vigilance over cultural representations and reproductions via instru-
+mental discourse in workplace cultures. Because the workplace culture
+is always situated in our larger culture, such vigilance is not only jus-
+tified but necessary. The work on ethos cited in chapter 7 speaks to
+this issue, as does the burgeoning research on writers’ subjectivities as
+shaped by computers. As Cynthia and Richard Selfe observe, “We are
+already constituted both as technological and cultural subjects, cre-
+ated in part by the machines we ourselves have created and written
+continually in our discursive practices on these machines” (352). Part
+of our interventionist project as technological and cultural subjects
+surely must entail monitoring the contours of individual subjectivity
+as technology shapes it, combating the politics of amnesia as we de-
+velop our rhetorics from technology. Sharing the knowledge produced
+through such monitoring among professional writers, scholars, and
+other members of the workplace constitutes an intervention in indi-
+vidual subjectivity as compelling as any other in composition history.
+     Catherine Belsey speaks of the “displacement of subjectivities
+across a range of discourses” (65), and as I scan the lists in chapter 5,
+I can imagine the ways in which subjectivities are displaced across some
+of the specific discourses of the workplace represented in this archae-
+ology. I imagine writers encountering discourses from other profes-
+168   IMPLICATIONS AND APPLICATIONS
+
+
+sional classes and from other intellectual traditions, working to effect
+meanings that the professional writer must interpret. When I review
+representations of themselves as writers in appendix B, though, they
+seem unprepared to theorize relations between displacements and re-
+sponsibilities. If we glance through the appendixes further, we can see
+that professional writers are quite capable of working within the eth-
+nographic writing tradition to produce discursive subjectivities allow-
+ing entry to such theorizing. Part of our work in intervening in cul-
+tural reproduction should entail our working with these writers to
+probe how such writerly subjectivities take form as part of a profes-
+sional class.
+
+Class Sites
+
+My work as instructor of Cultures of Professional Writing each term
+entailed constructing tables similar to those in appendix B and appen-
+dix C so that course participants could see how their work compared
+with that of peers and so that they might begin to glean contours of
+writers as a professional class. If we are to intervene effectively in cul-
+tural production and reproduction, investigating the contours of this
+professional class as they solidify and shift is indispensable. Such in-
+vestigations can proceed from many points of departure. Depicting the
+production of all writers in a course as a set supports in-class discus-
+sion of the terms of the set. Whereas I have chosen topics and themes
+as valuable to a discussion of organizational and discursive features
+deemed pertinent by professional writers engaged in organizational
+analysis, one might equally devote tables or charts to the specifics of
+whole writing projects undertaken by a group of professional writers.
+Doing so would enable even finer discerning of the current scopes of
+writers’ purview in the domain of professional authorship.
+    Comparing organizational charts across workplace cultures also
+supports enhanced understandings of professional writers as a specific
+class. Inevitably, these organization charts show writers situated on the
+margins of their cultures, or at the lower echelons. Comparing their
+positions in workplace cultures with those of professionals from other
+classes, along with study of the educational backgrounds and work-
+place experiences required (or professed) by other professionals, could
+enable a critical consciousness at the level of discursive formations,
+which in turn might enable the envisioning of intervention in the name
+of a class’s value to the organization. As an individual, it is often dif-
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   169
+
+
+ficult to discern where and how such values are constructed, yet as a
+class, such constructions are more easily discernible by virtue of the
+relations and recurrent positions rendered visible.
+     As a site of intervention in cultural production and reproduction,
+the professional class of writers currently offers little leverage in work-
+place cultures because of its low status, yet this status could change
+with shifts in organization of workplace cultures towards high value.
+For those cultures seeking high value configurations to support new
+production of knowledge, employing writing as a mode of learning and
+discourse as an apparatus for the production of meaning, the profes-
+sional class of writer could re-form with greater status and say in cul-
+tural production. In his discussion of class formation, John Frow speaks
+of class interests as “hypotheses, more or less rationally calculated (or
+miscalculated)” (105). As a site of intervention, we might hypothesize
+the interests of professional writers as they fit in workplace cultures.
+Chapter 6 implies hypotheses in the ideological sphere, grounded in
+the symbolic capital with which we provide professional writers and
+always already linked to discursive constructions of self and other as
+our composition epistemologies enable them. This capital can be par-
+layed in the sphere of production when discursive representations are
+recognized as a site where not only cultural capital but also economic
+capital take form. The political world turns on such a principle, but
+perhaps because composition epistemology has for so long eschewed
+politics under pretense of neutrality, professionals trained in writing
+have been at a loss to identify and act upon political agendas in the
+interests of their class.
+     Such work would seem to lie before us, and as we undertake it,
+we would do well to hypothesize interests that heed all the relations
+of the domain of professional authorship. The onus of explaining the
+interrelatedness of “users” and “authors” might fall to writers in their
+roles as discourse teachers, and to this end it behooves us all to take
+up such topics regularly in discursive forums conceptualized not just
+for colleagues in the academy but for discourse workers in various
+contexts and at various levels. At least one hard-copy forum in which
+academics speak to professional writers (and vice versa) on issues of
+cultural production and reproduction would be a valuable first step
+in hypothesizing this class’s future interests. Virtual forums will be
+indispensable, both as means of drawing together writers dispersed
+geographically and as means of exchanging information on the moni-
+toring of cultural production immediately and at will.
+170   IMPLICATIONS AND APPLICATIONS
+
+
+Virtual Sites
+
+If considerations of writers as a class of professionals enhance our
+understanding of writer subjectivities through the organizational fac-
+tors introduced, then considerations of virtual sites of representation
+enhance our understanding of writer subjectivities by expanding the
+“organizational” beyond traditional structures. In fact, such expan-
+sion may be influencing organizational dynamics in ways unbeknownst
+even to organizational players at the tops of organization charts, if
+Shoshana Zuboff is correct in her predictions about the ways in which
+“informating” is changing the nature of the workplace. That is, even
+in the absence of organizational restructuring for high-value produc-
+tion (as evidenced by most of the studies in this archaeology), ad hoc
+restructuring may be at work through new flows of information. The
+fact that organizations already employ software to monitor employee
+Internet use in a twenty-first-century enactment of nineteenth-century
+panopticism clearly signals new information circuitry. Discursive reach
+among workplace culture members, it would seem, has been revolu-
+tionized by the Internet in ways still to be explored.
+    So have writers’ touchstones for style, judging by Gary’s study of
+World Wide Web site maintenance by a job bank and software pro-
+vider. With no previous professional writing experience, Gary went to
+his site with notions of style garnered from instruction in writing in
+the English essay tradition, only to find tantalizing guidelines offered
+by “writers” from business and marketing grounded in one principle:
+what kind of writing invited and sustained visits to the site. On one
+level, such an observation points to the market discourse that drives
+many workplace cultures (see chapter 5), yet on another level, the ob-
+servation augurs progressive conceptualization of cultural discursive
+production that brings audience and users into the authoring process.
+By bringing audiences into real authorship of a culture’s discursive
+products, one might argue, intervention in cultural reproduction is
+made possible in ways hitherto impossible.
+    Such scenarios for intervention have existed for some time in the
+realm of technical writing via feedback procedures aimed at usability
+or readability. It seems inevitable that these scenarios will expand to
+other domains, if only by virtue of the cultural porosity enhanced by
+the Web. And indeed, major public institutions are increasing “trans-
+parency” by placing documents on the Web and integrating them into
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   171
+
+
+cultural processes. Though the content of these documents is no doubt
+carefully screened, the accessibility might in many cases reposition
+users, particularly if we think of the government sites represented in
+this archaeology (see appendix B). Other possible scenarios include
+forums in which outsiders to an organization might post commentary
+on that organization’s engagement with respect to the larger culture;
+such publications already exist in hard-copy form, of course, but the
+Web offers means for collecting and threading them in novel ways.
+     Concurrent with such virtual interventions that bring audiences
+into authoring in valuable ways will be virtual interventions linked to
+the class of professionals known as writers. Now this class can share
+information among its constituents concerning their conditions of
+existence; writers can represent these conditions to other writers much
+in the ways that participants in Cultures of Professional writing have
+represented such conditions to one another in flesh and blood. Using
+these virtual forums constitutes ideological intervention and invites
+contributions from discourse workers in the workplace and the acad-
+emy. Cynthia Selfe proposes using forums such as e-mail in ways spe-
+cific to intervention in cultural reproduction, to “support discursive
+forums that serve to flatten more traditionally constructed hierarchies
+in business, organizations, and governments by connecting individu-
+als directly to decision makers and to the information used in making
+decisions” (258), which dovetails with observations above and else-
+where in this archaeology concerning circuits of information flow in
+the domain of professional writing. Selfe sees such virtual forums as
+part of a larger trend in the postmodern era in which grand narratives
+(which always work ideologically through selective attention) are en-
+feebled through the multiplication of discourses (and hence alterna-
+tive narratives), which in turn offer more opportunities for agency and
+resistance (285). Focusing some narratives on the interests of profes-
+sional writers as a class, how these interests do and do not connect with
+interests of other classes (and indeed with ultimate audiences in the
+domain of professional writing), and where and how these relations
+figure in values produced and sustained through local cultural work
+can perhaps bolster interventions by writers in realms previously ex-
+cluded to them. At least some of these narratives should be grounded
+in the petits recits such as found in archaeologies, enabling individual
+writers, perhaps, to link the petits recits from other locales to their own,
+cognitively mapping their positions ever more globally.
+172   IMPLICATIONS AND APPLICATIONS
+
+
+Organizational Sites of Intervention
+The chapter epigraph from Angels in America is in part about the
+construction of exclusive realms through networking, in this case po-
+litical networking between New York and Washington in the mid-eight-
+ies. The character of Roy Cohn (based on the real-life New York at-
+torney and power broker), facing disbarment, needs a well-placed pawn
+in the Justice Department to represent his interests—hence his offer
+to clerk Joe Pitt. The vituperative Cohn is dishonest, maliciously evil,
+and extremely powerful, being well connected within the Republican
+Party not only to Attorney General Meese but even via Nancy Reagan
+to the President. As the play unfolds and we witness Cohn’s Machia-
+vellian tactics, we come to realize, as does the naive Joe Pitt, that Cohn
+indeed has only to pick up the phone to place a player in the upper
+echelons of a major government organization.
+     This representation of political networking manifested by actors
+as emanating primarily from the professional class of attorney requires
+no willing suspension of disbelief on the part of a Washington audience,
+for our days are dappled with similar discursive scenes, be it through
+the local press or through occasional unfortunate real-life encounters.
+(Edwin Meese, attorney general under President Reagan during the
+Iran-Contra debacle and current activist against freedom of speech on
+the Internet through his support of the Communications Decency Act,
+was named to my university’s Board of Visitors by Republican gover-
+nor George Allen; in 1999 Meese became Rector.) In many organiza-
+tions in and around the Washington area, particularly those associated
+with government or its lobbying, selection, and positioning of huge
+numbers of organizational players has much more to do with politi-
+cal interests than with relevant expertise. Organization charts that be-
+nignly depict these players and positions, never hinting at the interests
+or networks behind them, offer little more than faint intimations of
+the complexities of organizational authorship.
+     Such were the organizations studied by 32 of the 84 researchers
+in this archaeology (appendix C). Another 36 studied organizations
+in the private sector, where players’ interests are admittedly tied more
+closely to market demands, and organizational authorship is thus
+shaped by different kinds of politics: here professionals from business
+classes and others wield the strongest influence in cultural production
+and reproduction. The remaining researchers studied educational in-
+stitutions and nonprofits, encountering the political shaping of author-
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   173
+
+
+ship in varying degrees depending upon the topics and themes explored.
+Even in this last category, where the play of politics often appears most
+innocent, the forces bearing upon organizational authorship as re-
+searchers could discern them in just one semester nearly always sug-
+gested further lines of inquiry into the interests behind these forces.
+(See the abstracts of researchers in this category, along with the topics
+and themes they explored in appendixes B and D.)
+     The issue of interests as represented through organizational author-
+ship cannot be overemphasized, neither as theoretical insights on class
+formations as intricately tied to relationality of interests across eco-
+nomic, ideological, and political spheres urges empirical inquiry into
+the conditions underpinning such relations (see Brodkey, “On the
+Subjects”) nor as scholarship in the informated age on professional
+writing poses questions not easily answered in an era of shifting orga-
+nizational and discursive formations. Computerized composition schol-
+ars Cynthia and Richard Selfe pose such questions, and although they
+use the title “technical communicators” to designate organizational
+writers largely because such writers are most easily associated with
+electronic composing, we can substitute the title “professional writer,”
+as I have done elsewhere in this archaeology, not only to tap the valu-
+able scholarship coming from technical writing but also because the
+titles are often used synonymously and interchangeably in organiza-
+tional settings. Selfe and Selfe ask:
+
+    To whom are technical communicators responsible? Their corporate
+    employers? The public who uses the corporation’s products? The pro-
+    fessional societies to which they belong? Who is responsible for the in-
+    formation that technical communicators produce? Who controls the in-
+    formation technical communicators produce? Why is this so? Whose
+    interests are being served in controlling information and in defining the
+    various roles and responsibilities of technical communicators in the way
+    that we now do? (330)
+
+As inscribers of cultures, managing organizational writing in the do-
+main of professional authorship, professional writers are responsible
+to large numbers of people in ways that are occluded by current roles
+and responsibilities as configured in most organizational settings.
+Hence we are not only justified in claiming rights to interventions by
+professional writers and their discursive collaborators in cultural pro-
+duction and reproduction, we are obligated—even impelled—to do so
+in the interest of knowledge both theoretical and utilitarian in an era
+174   IMPLICATIONS AND APPLICATIONS
+
+
+of changing discursive and organizational formations. Deborah Brandt
+observes ways in which literacy is always multiply “sponsored,” not-
+ing that different kinds of sponsorship construct subjects differently.
+If we revisit the sites discussed in chapter 3 and the work and posi-
+tions documented in them for the ways that literacy sponsorship is
+already shaping subjects, we can imagine interventions (and can hy-
+pothesize class interests) to form new unities from this earlier archaeo-
+logical work, as follows.
+     In commercial organizations (see appendix C), part of writers’
+work should entail a philosophical situating of the local culture vis-à-
+vis larger cultural trends, as writers manage implied authorship. The
+philosophy invoked would be one not only of ethics and civic human-
+ism (see Thomas Miller) but also of pragmatism, as the local culture
+seeks optimum articulations with norms and values evidenced in larger
+and exterior cultures. Even in businesses such as public relations firms,
+whose sole raison d’être is the discursive representations of outside
+clients, organizational authorship entails negotiating these represen-
+tations in consumer cultures. Because such cultures are always imbued
+with mediations of representations emanating from other sources, the
+professional writer must select and deploy clients’ representations ju-
+diciously. Otherwise stated, the writer engages in ideological work, and
+intervention in such work entails at the very least theorizing the terms
+of selection and deployment.
+     As an example, Ann, who works as a writer for a public relations
+firm, extended her work in Cultures of Professional Writing into an
+MA thesis, in which she explored the processes whereby an all-female
+business shaped the voices of all-male clients for various media. Her
+inquiry naturally took her to feminist theory and works such as Belenky
+et al.’s Women’s Ways of Knowing in order to depict the kinds of
+knowledge about discursive forms that she and her colleagues had built
+over the years and to contrast this knowledge with that of their cli-
+ents. Part of their work entailed teaching their clients about discursive
+features in the realm of public relations, and herein lies great potential:
+as we collaborate with such writers through academic liaisons, the
+theories we harken to imply specific kinds of responsibilities, relation-
+ality, and alliance with other groups, defined in part by professional
+class and also by gender, race, and other traits.
+     The interests of such groups might enter the domain of professional
+authorship via the circuits open to users, consumers, and other audi-
+ences implicated in organizational authorship. As such, interventions
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   175
+
+
+by professional writers may well entail taking the position of “advo-
+cate” cited earlier. If we recall Jeff’s discovery through his interviews
+with engineers that technical editors in his culture were unwittingly un-
+dermining the engineers’ authority by unstringing noun strings, we can
+imagine future scenarios in which those noun strings might indeed need
+to be unstrung for interpretation by a nonengineering audience. In the
+role of advocate for audiences (and end users), his editing work could
+even entail pursuing questions and objections raised in their interests
+(or that he would anticipate in their interests) within the organization.
+     Alongside the role of advocate might be considered the role of
+lookout—as writers positioned as nodes or links with extraorgani-
+zational cultures scan discursive horizons for information and knowl-
+edge that shapes the local culture. Starla’s job of clipping daily news
+items she deems relevant to her organization represents a form of in-
+tervention with great potential, depending upon the ways in which
+organizations position these writers in information flows and the ways
+in which educational institutions prepare them intellectually.
+     Professional writers might also intervene in those cultural processes
+that are more self-contained within an organization. Some research-
+ers in business cultures studied in this archaeology have already done
+so, either literally through discursive intervention or philosophically
+through themes addressed in their organizational analysis: Nyck com-
+posed formal policy regarding employees’ duties and rights and had it
+instituted at his office, and Red harkened in his ethnography to news-
+paper industry traditions being scuttled at his newspaper through the
+introduction of time clocks for reporters. Rex noted ways in which
+discursive practices reinforced certain organizational structures at his
+site of study, thus implying possible interventions by writers should
+those structures support counterproductive values, and Lisa similarly
+identified a reproduction of cultural values through discursive prac-
+tice. In her final ethnography, she states: “Since discursive practice is
+defined as rationalizations used for the production of meanings, it
+would then follow that the editing process is yet another set of ratio-
+nalizations for rationalizations previously constructed (the written
+text)” (12).
+     We can imagine similar conceptualizations of intervention in gov-
+ernment agencies and institutions as depicted in appendix C. Seeing
+these conceptualizations through to realization might prove more dif-
+ficult, given the frequent layers of bureaucracy and politically moti-
+vated decisions. George’s insightful suggestions for introducing some
+176   IMPLICATIONS AND APPLICATIONS
+
+
+instruction in reader-response theory at his military headquarters or-
+ganization as an alternative to the pointless instruction in prose style
+went unheeded, yet it remains a valuable intellectual intervention as
+we elaborate our understandings of organizational authorship and ways
+of integrating audiences into authoring circuits. Other researchers in
+government settings conceptualized similar frameworks for interven-
+tions in discursive practices: Helen through her analysis of magazine
+editors’ construction of implied authorship as replicating certain cul-
+tural norms and values, and Gloria through a similar analysis of im-
+plied authorship in correspondence composed across divisions at the
+Library of Congress. Pragmatic interventions in such sites will undoubt-
+edly require sustained efforts on the part of professional writers, per-
+haps in concert with professionals from other classes, which is all the
+more reason to cultivate connections with these classes under the ae-
+gis of shared values.
+     In the trade associations represented in appendix C, intervention
+seems relatively unfeasible, except when writers are positioned such
+as Kyle was to solicit and edit articles for the association’s publications
+with a fair amount of license. But as noted earlier, his professional pur-
+view as a writer was the exception rather than the rule in this category
+of workplace. More often, content of even the most mundane nature
+is carefully monitored, owing to the hegemony of political discourse
+in local practices, and if writers and their allies are to conceptualize
+intervention, their efforts would be better placed in intellectual inter-
+ventions by writers in their own discursive, theoretical, and political
+understandings—since in most cases they will leave such workplaces
+for better employ after short stints.
+     Finally, the category of educational institutions as organizational
+sites for intervention strikes most closely to home for those of us with
+a direct stake in the goals of these institutions. Writers’ work and posi-
+tions in these institutions as depicted in appendix C lobby for inter-
+vention in curriculum design and classroom practices, of course, yet
+they also lobby for intervention in extracurricular circuits (see the ab-
+stracts of Alice, Emma, Jillian, Julie, Lee, and Marla). To do so, one
+might draw upon the work of Anne Ruggles Gere on the “extracur-
+riculum,” which identifies the need for academics investigating and
+teaching discursive practices in classrooms to learn from the practices
+of grassroots community writing groups, formed in the name of a cause.
+She says: “As we consider our own roles of social agency we can insist
+more firmly on the democracy of writing and the need to enact peda-
+                         INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   177
+
+
+gogies that permit connections and communication with the commu-
+nities outside classroom walls” (91). Her stance is echoed by James
+Slevin in terms of the very disciplinarity of composition studies:
+
+    At the heart of the educational practice I propose is a reconceptualizing
+    of disciplinarity so that its intellectual work is located in encounters with
+    students and in the projects that arise from these encounters. What we
+    need is a sense of disciplinary work that supports and even makes pos-
+    sible these developments, a sense of “discipline” that allows literacy work-
+    ers (teachers and students) in various institutional sites (academic and
+    nonacademic) to feel the importance of what they do and to recognize
+    their connections with one another. (160)
+
+     Intervention, along such lines, would entail deconstructing the
+philosophical boundaries that accompany the institutional boundaries
+of our colleges and universities in ways that admit and legitimize in-
+strumental discourse elaborated in workplace cultures. Such interven-
+tions have already been proposed—perennially, in fact—yet usually in
+ways that suggest the kinds of collusion in cultural reproduction dis-
+cussed in the chapter introduction. The interventions I refer to valorize
+instrumental discourses as topics of critical analysis to be undertaken
+in the elaboration of writing formations. As such, they will position
+their students not as uncritical subjects but as future inscribers of work-
+place cultures, tasked with the enormous responsibility of scrutiniz-
+ing the discourses and discursive practices implicated in such inscrip-
+tion for the norms and values they produce and reproduce.
+     To ignore this extracurriculum is tantamount to political suicide
+for discourse workers, given the recent trends at the national level
+among students towards undertaking postsecondary education con-
+current with work. At my state university, for example, the majority
+of students support themselves partially through jobs and take five or
+six years to complete an undergraduate degree. Recent federal subsi-
+dies for similar structuring of tertiary education in community colleges
+augurs similar scenarios which, when considered alongside the num-
+bers of people pursuing advanced degrees in discourse studies while
+holding full-time jobs, compels us to theorize this situation. Such en-
+gagement dramatically limits a person’s time and opportunities for edi-
+fication in cultural issues or for civic engagement, which renders Mary
+Beth Debs’s suggestion in chapter 4 that the organization has become
+the major arena for public life for the individual in modern Western
+civilization simultaneously tantalizing and ominous. With the increased
+178    IMPLICATIONS AND APPLICATIONS
+
+
+speed in cultural processes effected through computers, political impli-
+cations of the products of authorship can be easily overlooked, mean-
+ing that whether or not we admit it, writers in workplace cultures are
+engaged in political work by default. Surely, it behooves us to investi-
+gate the discursive contours of this work in the academy.
+     In tandem with technological developments, other cultural pro-
+cesses have increased in speed, including those processes that make use
+of professional writers in a post-Fordist era of flexibility. The flexibil-
+ity of labor produced by recent national economies clearly benefits org-
+anization players at the upper echelons at the expense of those in lower
+positions (Harvey). If we are to align ourselves epistemologically and
+politically with discourse workers whom popular (and academic) ide-
+ologies would position in these lower positions as functionaries, then
+it becomes our work to take up intervention in cultural production and
+reproduction as part of our job as compositionists, cultural scholars,
+and certainly as academics in professional writing. If we do not, scenar-
+ios such as the one composed by Kali, based on her real-life witness-
+ing of hiring and firing and enacted by course participants during a
+writing workshop, could well become a recurrent tale among profes-
+sional writers. Her scenario depicts a Kafkaesque culture in which
+writers are fired and (perhaps) rehired so frequently through manage-
+ment snafus that they are inured to termination:
+      Kali: Here’s the setting: battleship-grey walls with rose flecks that are
+         an attempt to add cheer but end up looking like blood stains. The
+         floor plan is obviously cubes, but they’re attached in such a way as
+         to resemble a maze as well. Everyone is walking around holding
+         clipboards. Alan enters in a whirl, like a Tasmanian devil.
+      “Alan”: Has anyone seen Mary? I need to find Mary. I need to fire
+         Mary. I don’t want to, but someone upstairs messed up and I have
+         to. Tell Mary I’m looking for her.
+      [he exits; Mary enters]
+      “Mary”: Has anyone seen Alan? He needs to fire me so I can get back
+         to work. I need to get all this done before I go.
+      [Alan reenters]
+      Alan: Mary. There you are. You’re fired.
+      Mary: I know.
+      Alan: I don’t want to be the one to tell you but I have to.
+      Mary: I know.
+      Alan: It’s nothing you’ve done.
+      Mary: I know.
+                         INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   179
+
+
+    Alan: You’re a great employee.
+    Mary: I know.
+    Alan: Three weeks.
+    Mary: I know.
+                                                   —discussion in class, 4/9/97
+
+
+Reforming Discursive Formations and Recapturing
+Intellectual Dominion
+In this workshop, Kali’s fictional scene was conducted as a class ac-
+tivity in tandem with discussions of Dorinne Kondo’s ethnography cited
+in the chapter epigraph. The workshop was suggested by guest scholar
+Zofia Burr, who melds poetry writing with critical writing in construct-
+ing her scholarship, which is otherwise grounded strongly in African-
+American studies, women’s studies, and cultural studies. In introducing
+herself to the class, she stressed that she saw the dichotomy “creative
+writing/critical writing” as a false dichotomy against which she strug-
+gled, and the workshop produced provocative “plays” of the kind cited
+above that bore out her argument. Writers worked both creatively with-
+in the approach of performative ethnography proposed by Kondo and
+critically against the backdrop of a semester’s fieldwork and analysis
+in a given workplace culture. Our goal in the workshop, much like the
+goal in Kondo’s essay, was to shift momentarily to another mode of
+composing in the interest of gleaning something about underlying re-
+lations in culture. As Professor Burr put it:
+    The live experience [of a staged scenario] really models for you the kind
+    of problem you have as a writer to begin with: How are people who are
+    situated in different places going to get into this? How am I going to
+    represent people situated differently from myself? All of that. It’s all about
+    being in relation. And the thing about figuring a drama, as opposed to
+    figuring a poem, is that you really do think about bodies in relation to
+    each other saying things that are potentially defining. (in class, 4/9/97)
+
+In Kali’s scene above, the exchange between Alan and Mary is poten-
+tially defining of the whole class of professional writers if we don’t in-
+tervene to reconstruct composition epistemologies and liaisons among
+discourse workers that recognize and theorize the creative and critical
+elements of composing instrumental discourse. Through their discursive
+work, professional writers daily reproduce (and potentially reconfig-
+ure) the terms of being in relation in their specific culture, yet because
+180   IMPLICATIONS AND APPLICATIONS
+
+
+we have been remiss in recognizing such socially constructive acts for
+the inscription of culture that they are, writers such as Mary find them-
+selves wholly expendable. With the rise of the professional managerial
+class (see Harvey) has come a construction of organizational author-
+ship in which those most versed in writing find themselves most dis-
+tanced from authoring by their lack of authority. As discourse work-
+ers, we should seek to reclaim this dominion for fellow writers, and
+we should concurrently reshape writing formations critical to exercis-
+ing authority and responsibility in the domain of professional writing.
+     We can begin by connecting curricular writing formations of pro-
+fessional writers with reading formations such as discussed in chapter
+6 to the ends of producing writers who are creative in their construc-
+tions of reality via instrumental discourses and are equipped with theo-
+ries and cultural awareness of the most critical sort. If I have seemed
+overly dismissive of courses in which students write to an instructor
+about literature and other texts, I should emphasize here that I see such
+work as crucial, given the imbrication of reading formations and writ-
+ing formations. When such courses are conceptualized as complemen-
+tary to the constructions of writing formations rather than constitu-
+tive of them, they can aid writers enormously. Indeed, invaluable work
+takes place in courses with carefully selected texts and contextu-
+alization that enables situating these texts amid cultural (and multicul-
+tural) processes past and present. Courses such as those described by
+Richard Miller or Phyllis van Slyck, in which the classroom setting is
+construed as a “contact zone” in which the cultures coming into the
+classroom with students become a part of curricular material, enable
+negotiations of representations and repositionings in light of multiple
+theories and multiple perspectives among those students. Such read-
+ing formations can link with writing practices in valuable ways, as writ-
+ers in organizational settings tap discursive theories and experiences
+to make decisions in the ongoing inscriptions of workplace cultures.
+     When scholars and educators such as Miller and van Slyck use the
+term “contact zones,” they invoke the autoethnographic project, since
+the term became popularized by Mary Louise Pratt in the same essay
+that transported autoethnography from anthropological to literary cir-
+cles. And indeed, spatial tropes have often been employed to depict dis-
+cursive work under the postmodern umbrella, since one feature of post-
+modern discourse is that of border crossings. These tropes have enabled
+insight in particular with respect to cultural differences grounded in
+ethnicity and regionality, for example, for obvious reasons: particu-
+                      INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   181
+
+
+larly if students from various “zones” are present in one classroom,
+experiences and interpretations emanating from these zones can be
+aired. But a similar task with respect to professional class is more dif-
+ficult to accomplish, both because most students in most classrooms
+are not yet fully vested members of those classes and because academic
+structures are such that once class formation does begin with special-
+ization, students encounter only students of their own specialization
+and class in formation.
+     It would seem that we need tropes to complement autoethno-
+graphy’s “zones” for conceptualizing and engendering exchanges be-
+tween the academy and the workplace in the name of cultural inter-
+ventions and under the aegis of authorship in instrumental discourse.
+Because the “zone” has proven a productive trope and perhaps to ar-
+ticulate more easily the knowledge generated through this trope, we
+might think in terms of “space,” particularly in an age of virtuality
+and its forums. Working within the philosophical tradition, Jacques
+Derrida has spoken of a “becoming space” that Patti Lather draws
+upon in conceptualizing inquiry that bridges postmodern and feminist
+theory: “A science capable of grasping the continual interplay of agen-
+cy, structure, and context requires a ‘becoming space’ . . . where we
+can think and act with one another into the future in ways that both
+mark and loosen limits” (101). Forming such a space, against the work
+of this archaeology and in pursuit of bringing to organizational au-
+thorship the theoretical and pragmatic attention it deserves, would
+require players from both academic and workplace contexts construct-
+ing theories of practice that explore the interplay of both structure and
+agency in the processes and products of authorship. Kurt Spellmeyer
+has asked, “Are we prepared to recognize nonspecialists as genuine
+collaborators in the making of knowledge?” (“Inventing the Univer-
+sity Student” 44), and this archaeology answers his question with a
+resounding “We must.” Collaborating genuinely—thinking and act-
+ing with one another—will of a necessity entail inspecting the terms
+of “being in relation” of which Zofia Burr speaks, which should push
+us relentlessly—as members of the class of discourse workers—towards
+mapping the continual interplays among the ideological, productive,
+and political spheres shaping our being and in which cultural values
+take form.
+     Tony Bennett has spoken of “strategic interventions within the
+operating procedures and policy agendas of specific cultural institu-
+tions” (32), and while he is thinking more of interventions among
+182   IMPLICATIONS AND APPLICATIONS
+
+
+players from a variety of professional classes usually positioned in more
+powerful positions than writers in organizations, his appeal applies to
+professional writers in their day-to-day inscriptions of culture. As we
+take steps to enhance the theorizing of and ongoing empirical research
+in organizational authorship and as we conceptualize new reading and
+writing formations to prepare discourse workers for their positions, we
+would do well to acknowledge the lack of political impetus to act that
+we have provided to date. Such a lack looms large, given the degree to
+which we have shaped political interpretations in reading formations
+in recent years. Kondo’s play is illustrative: the character of Janice Ito
+is invited by Grace Jones to try on the accoutrements of power, which
+we realize can be little more than a temporary fitting for Ito in current
+political arenas. Compared with the character of Roy Cohn in Kush-
+ner’s play, at least, the real political clout of Ito is negligible.
+     As for Cohn, he is facing not only disbarment but also his impend-
+ing death, though he refuses to admit it. He has contracted AIDS
+through homosexual sex, we glean, yet he forbids his doctor during
+the diagnosis (under threat of destroying the doctor’s practice) even
+to pronounce the word “homosexual,” since such a representation of
+Cohn in his circles of power would mean his undoing. Thus Angels in
+America informs us not only about political networking to construct
+and maintain realms of exclusion but also about the politics of repre-
+sentation. Reading the play in 2000, in the age of protease inhibitors
+that offer extended life until perhaps even a cure for AIDS is found
+for people infected with HIV, we remember the early years of the plague
+in which the play is set and the pointed refusal of the Reagan admin-
+istration to respond quickly to this disease. Gay interpretations of this
+refusal point to the equation of AIDS with homosexuals in the mid-
+eighties and long-standing homophobia in the Republican Party which
+condoned gay genocide through selective inattention. Had interven-
+tions in research, treatment, and education occurred earlier, such in-
+terpretations argue, many who have died might still be among us, and
+the epidemic that now sweeps the world might have been mollified.
+     The character of Cohn illustrates a particular kind of politics of
+representation, in which personal gain or the gain of a select group is
+inordinately augmented by blocking comprehensive and multidimen-
+sional interpretations of social facts. Such interpretations have long
+been at the core of feminist theory, African-American studies, gay stud-
+ies, cultural studies, and others, yet the power suggested through such
+reading formations hasn’t been connected with writing formations. One
+                       INTERVENING IN CULTURAL PRODUCTION AND REPRODUCTION   183
+
+
+of the reasons for this failure is that for all of the work in the ideologi-
+cal sphere, the political sphere has been pretty much ignored—while
+the sphere of production is positioned as some kind of afterlife to which
+academics have neither interest nor purview. In so doing, composi-
+tionists have repeated an “innocence about power” (Berlin, Rhetorics
+80) which has consistently plagued composition epistemologies. Yet
+when we rethink ideological constructions of authorship through the
+ages and institutional enactments of composition that relay current-
+traditional epistemology, the spheres of production and politics loom
+as terribly neglected elements in the approach to discursive construc-
+tions of subjectivity. Surely one solution to this problem is through the
+establishment of a political action arm of the Conference on College
+Composition and Communication, as Sharon Crowley argues (240).
+     One of the effects of the institutional departmentalization of com-
+position into English earlier in the century, to recall the argument in
+chapter 1, was that the relationship of mentor between professors and
+students was severely undermined, since professors now found them-
+selves with so many students from outside of their field and the pro-
+fessorate was being pushed towards research in the academic rationalist
+tradition—that is, publications on their own topics of interest, often
+rarified and esoteric—thus limiting energy and time that could be in-
+vested in mentoring. As we refashion composition epistemology and
+imagine new institutional forms adequate for apprehending the com-
+plexities of organizational authorship, certainly we will want to redress
+this positioning of professor and students. Probably the identity of
+“mentor” will prove inadequate, since student writers (who will of-
+ten be simultaneously workplace writers) will be bringing experiences
+and expertise into the classroom which will in fact constitute much of
+the curriculum—and so we must seek new relationships adequate to
+our task.
+     We will want to seek new relationships (and alliances) with stu-
+dents and professors from other professional classes, too, given that
+many of these people are deeply implicated in discourse work, in spe-
+cific ways owing in part to their disciplining, in part to the contexts,
+and in part to the contours of the classes in formation to which they
+belong. Occasions for many other kinds of archaeological digs will
+present themselves, and it behooves us to nurture them as they might
+enable writers to act in their workplace cultures with greater and
+greater sophistication and political savvy. If, with Branden and with
+all other discourse workers with whom we explore organizational au-
+184   IMPLICATIONS AND APPLICATIONS
+
+
+thorship we seek to foster a critical relationship with our own dis-
+course, we will need to explore relentlessly the ways in which individual
+discourses meet with structures and practices in situ. Not to do so is
+to succumb to reductionist ideology in our own fields and by extension
+in our own lives. When we imagine the becoming spaces that we will
+create to mark and loosen discursive limits, we might take one archaeo-
+logical shard as talisman, Leigh’s comment that she “always wants
+writing to be part of her life” (appendix B), a life, like all of our lives,
+that will be increasingly composed by the workplace cultures that writ-
+ers write.
+APPENDIXES
+
+WORKS CITED
+INDEX
+Appendix A
+RESEARCHERS’ PROFESSIONAL WRITING BACKGROUNDS
+Organizational Print Publications (including editors, copy editors,
+editorial assistants)
+    1993: Bernie, Challie, Itsy, Jan, Kolar, Nancy
+    1994: Hart, Jen, Leigh
+    1995: Brenda, Daisy, Grace, Helen, Karla, Kelly, May, Phoebe, Tess
+    1996: Diane, Holly, Kyle, Nyck, Starla, Sue
+    1997: Adam, Chet, Corinne, Lena, Maggie, Mary
+    1998: Heather, Jackie
+    1999: Anita, Ella, Ginger, Jane, Meg
+
+Public Relations/Policy
+    1994: Ann
+    1995: May
+    1996: Andrew, Ray
+    1997: Carolyn, Lena
+    1998: Kirsten
+
+Technical Writing/Technical Editing (includes Web site design and writing)
+    1993: Ellie, Jeff, Joe, Rex
+    1995: Sarah, Tom
+    1996: Albert, Norma
+    1997: Ana, Carolyn, Chet, Kali
+    1999: Adria, Anita, Amy, Joanne, Leathe
+
+Analysis Writing and Correspondence
+    1993: George, Lisa, Mandy
+    1994: Cass, Hart, Liz, Rachel
+    1995: Gloria, Tom
+    1996: Andrew, Lois, Starla
+    1998: Megan, Ravi
+    1999: Leathe
+
+Research Writing
+    1993: George
+    1995: Gloria, Gwen
+
+Journalism
+    1993: Nidean
+    1995: Daisy, Karla, Kelly, Marla
+    1996: Mack, Red
+
+
+                                                                             187
+188    APPENDIX A
+
+Journalism (continued)
+      1997: Carolyn, Maggie
+      1998: Jackie
+
+Teaching
+      1993: Anne, Lisa
+      1994: Lee
+      1995: Kelly, Marla
+      1996: Alice, Jihad, Kate
+      1997: Chet, Elaine, Janice, Julie, Lara
+
+Graphic Design
+      1993: Challie
+      1997: Mary
+
+Freelance, Self-Employed Writing
+      1993: Branden
+      1997: Janice
+
+Academic Writing (solely)
+      1995: Jillian
+      1997: Gary
+Appendix B
+RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS,
+SITES OF RESEARCH, AND RESEARCH TOPICS AND THEMES
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Adam                    Worked as a                 Publishing         “Customer service”;
+Editing                 contributing                company            morale; turnover;
+                        editor for arts                                isolation, alienation of
+                        and entertain-                                 department within
+                        ment magazine;                                 company
+                        good at inter-
+                        viewing and
+                        incorporating
+                        quotes; good at
+                        dialogue; prone
+                        to agonizing; uses
+                        deadlines; needs
+                        practice
+
+Adria                   Creative writing            Military           Socialization, modes of
+Technical               undergraduate               contractor         communication, high
+writing                 degree; technical                              turnover, visibility of
+                        writing career                                 technical writers’ work
+                        means learning
+                        technical
+                        knowledge;
+                        enjoys document
+                        design, end-user
+                        documentation;
+                        designs Web
+                        pages and
+                        corporate
+                        literature;
+                        agonizes over
+                        phrasing, fears
+                        sounding stilted;
+                        “my academic
+                        writing . . .
+                        sounds strange”
+
+Albert                  Development in              Government         Virtual workplace and
+Technical               high school                 think tank         split subjectivity,
+writing,                advanced                                       representations of self,
+World Wide              placement                                      writer as go-between,
+Web writing             English; influence                             accountability
+
+
+                                                                                                    189
+190    APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Albert                  of college pro-
+(continued)             fessor; better
+                        writing when
+                        not nervous
+                        about risks;
+                        mainly e-mail
+                        now; in charge
+                        of public image
+                        of organization;
+                        functional
+                        writer—observe,
+                        experience, write;
+                        humorous
+                        narrator
+
+Alice                   Early develop-              Fourth-            Research projects and
+Teaching,               ment; journals,             grade              multicultural issues;
+academic                storytelling,               classroom          library’s lacunae,
+writing                 poetry; writes and                             parents’ books;
+                        reads for students                             nonnative speakers and
+                        and publicly;                                  literacy roles
+                        interest allows
+                        immersion;
+                        challenge of
+                        research
+
+Amy                     “Never thought              Electronics        E-mail communica-
+Technical               of myself as a              representa-        tions, shaping cultural
+writing                 writer”; writes             tive               norms and values
+                        Powerpoint
+                        presentations,
+                        Web pages, and
+                        brochures; enjoys
+                        letter writing;
+                        “enterprising”;
+                        wants to improve
+                        as a writer
+
+Ana                     Technical writing           Military           Gender, race, and
+Technical writer        for military                contractor         organizational status
+                        contracts;                                     and position;
+                        woman, minority,                               document review,
+                        and non-techie in                              budgets; technical
+                        military-industrial                            writer’s knowledge
+                        complex (status
+                        through English
+                        degree); writes
+                        fiction in personal
+                        life for release,
+                        satisfaction,
+                        development
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             191
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Andrew                  Career change;              Campus             Formalization of
+Policy and              experience in               police             policy, training,
+public                  reading and                 department         remodeling of culture,
+relations               writing of pro-                                control of information
+writing                 gram proposals,
+                        procedural
+                        initiatives, and
+                        speeches, in
+                        addition to
+                        editing and
+                        proofreading;
+                        would like to
+                        write for an
+                        association,
+                        public relations;
+                        grammar and
+                        writing served
+                        earlier career
+                        (writing as
+                        valuable pro-
+                        fessional skill)
+
+Anita                   A “writer-in-               Maritime           Meetings and writing
+Technical               progress”; handle           office             projects, efficiency,
+writing                 topics coherently,                             communications
+                        in an organized
+                        format; “soup-
+                        maker,” present-
+                        ing other people’s
+                        information;
+                        good ear, weak in
+                        rules of grammar;
+                        fun with words
+                        and ideas
+
+Ann                     Not a “writer”              Public             Instruction in writing;
+Public                  (“public relations          relations          organizational function
+relations               specialist”);               company            of lessons; all women;
+writer                  writing equals                                 “feminine”; status;
+                        poetry or liter-                               voice, vocabulary
+                        ature, “publica-
+                        tion”; satisfaction
+                        seeing writing in
+                        print; two types
+                        of writing; pro-
+                        fessional: news-
+                        letters, press
+                        releases, brochure
+                        copy (creativity,
+                        scrutiny, frus-
+                        tration); personal:
+                        proposals for
+                        nonprofits (satis-
+                        fying, purpose,
+                        responsibility,
+                        pride)
+192      APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Anne                    Teaching as a               Boys’ prep         Personal/academic
+Video-                  profession                  school             writing, gender roles
+grapher,                perhaps an error            English class
+full-time               (job market);
+student                 narrator
+                        questions the self-
+                        analysis
+                        instrument
+
+Bernie                  High school                 Professional       Topics for organiza-
+Editor                  writing as                  association        tional publications,
+                        expressive outlet;          headquarters       linear and lateral
+                        self-satisfying;                               thinking, lobbying
+                        more effective
+                        form of commu-
+                        nication than
+                        speech; writing
+                        vs. other
+                        professions
+
+Branden                 High school                 Government         Documents as
+Independent             writing influen-            travel             possessions in
+tourism                 tial; equates               agency             bureaucracy
+writer                  writing with
+                        Shakespeare;
+                        published widely;
+                        selling her writing
+
+Brenda                  Developed early             Association        Magazine editing and
+Press and               (age eleven);                                  review processes, Post-
+professional            writing is fiction,                            its, editors’ review
+writing                 a certain length;                              styles
+                        finds it easy,
+                        enjoyable; process
+                        involves trans-
+                        lating, solving
+                        puzzles; some-
+                        times humdrum;
+                        motivated by
+                        deadlines; looks
+                        forward to re-
+                        sponse; schooling;
+                        following a
+                        project
+
+Carolyn                 Values essential—           Information        Communication gaps
+Technical               must believe in             technology         between departments,
+writer,                 document; enjoys            consulting         influence of gaps on
+journalism              writing to educate          company            writers’ performance
+                        (experience as
+                        feature writer);
+                        experience in
+                        interviewing;
+                        currently working
+                        collaboratively on
+                        a user’s manual
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             193
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Cass                    Excelled in                 Government         Director’s manage-
+Contract                research papers in          agency             ment of projects, fax,
+writer,                 high school;                                   communications,
+government              writing commer-                                government
+                        cials for radio;                               hierarchy, employee
+                        seven years                                    affect
+                        preparing docu-
+                        ments for
+                        government
+                        contracts (coor-
+                        dinating requests
+                        for proposals;
+                        memos, board
+                        reports, research
+                        ideas); pursuing
+                        MA in teaching
+                        of writing and
+                        literature to teach
+                        composition or
+                        technical writing
+                        eventually
+
+Challie                 More comfort-               Professional       E-mail message
+Graphic                 able with creative          association        types, Continuous
+designer                than technical              headquarters       Quality Improvement
+                        writing; capable                               in organization,
+                        yet difficulty                                 efficiency through e-
+                        implementing                                   mail, performance
+                        ideas
+
+Chet                    Needs improve-              Govern-            Deadlines and
+Editing                 ment in writing             ment-related       quality; teamwork,
+                        skills; interest/           publishing         cooperation, sacrifice
+                        passion for this            company
+                        art form;
+                        mediocre in
+                        nonfiction,
+                        poetry, technical
+                        writing; have
+                        “verbal acuity”;
+                        likes writing
+                        fiction most, but
+                        earning a living?
+
+Corinne                 Difficulty con-             Public             Restructuring and
+Editing                 veying emotion as           relations          editing, perpetuating
+                        an editor; investi-         office of          image, old produc-
+                        gative, artistic,           historic           tion practices
+                        organizer; func-            house
+                        tional skills:
+                        cultivating,
+                        problem solving,
+                        producing,
+                        collaborating,
+                        administering,
+                        scheduling
+194    APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Daisy                   Journalism, news            Newsroom           “Live” culture vs.
+Journalism,             releases, public            of biweekly        textbook, observed
+public                  service announce-                              quietness in the field
+relations,              ments, brochures,                              site, experience,
+editor                  features; others’                              interactions
+                        evaluations of
+                        her; enjoyment;
+                        writing poetry
+                        provides ful-
+                        fillment; dead-
+                        lines; early
+                        development;
+                        goal to teach
+
+Diane                   “Conventional               Education          Strategic planning in
+Organization            organizer, artistic         association        “disheveled” culture,
+publications            creator, social             headquarters       publication processes,
+editing                 helper” (Holland);          (communi-          management vs.
+                        undergraduate               cations            writers and editors,
+                        training in jour-           department)        turnover
+                        nalism; perhaps
+                        more an editor
+                        than writer;
+                        satisfaction in
+                        effecting results
+
+Elaine                  When writing, a             Corporate          One script’s evolution,
+Academic,               good writer (“ele-          history            academic/corporate
+newsletters             gant simplicity”);          writing            views of writing,
+                        needs audience              company            should/can this com-
+                        and deadline,                                  pany do advertising?
+                        though (why her
+                        novel remains
+                        unfinished);
+                        juggling mother-
+                        hood and writing;
+                        great emphasis on
+                        page one in com-
+                        posing; newslet-
+                        ters; emotional
+                        high from
+                        crafting words
+
+Ella                    Assemble note-              Law office         Managing documenta-
+Legal                   books, design                                  tion for outside client:
+support                 databases, orga-                               volumes of old docu-
+writing                 nize, summarize;                               ments, drudgery, lack
+                        no creativity,                                 of autonomy
+                        presently; still
+                        developing;
+                        importance of
+                        proofreading;
+                        adapted style
+                        (shorter sen-
+                        tences); creating
+                        family Web pages
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             195
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Emma                    High school                 Elementary         Teachers’ and
+Teaching                training in                 school             administrators’
+                        “notecards and                                 writing; hierarchy,
+                        outlines”; later,                              distance, tensions
+                        “writer-based”;
+                        still later, “audi-
+                        ence issues”;
+                        not a “gifted”
+                        analytical writer,
+                        so uses lots of
+                        drafts and hard
+                        work
+
+Gary                    Early develop-              Internet job       Writing and editing by
+Academic                ment (grade                 bank               “non-writers,” new
+                        school); enjoys                                issues in writing
+                        researching,                                   brought by Internet
+                        drafting, and
+                        revising; enjoys
+                        poetry and
+                        creative writing;
+                        doesn’t call self
+                        writer (“true
+                        writers write all
+                        the time”);
+                        methodical,
+                        precise
+
+George                  Childhood                   Military           Ghostwriting,
+Writer/editor           writing; high               headquarters       document review
+(fourteen               school contest;             organization       procedures, writer
+years)                  occupational                                   psychology, readability
+                        pleasure is clear
+                        and useful
+                        writing
+
+Ginger                  Personal writing            Law office         Legal culture,
+Legal                   is journals,                                   drudgery, humor,
+support                 poetry, letters,                               sarcasm
+writing                 e-mails, classes,
+                        editing others;
+                        professional
+                        writing is legal-
+                        secretarial,
+                        revisions,
+                        collaborative,
+                        never originated
+                        by self; strong in
+                        grammar,
+                        sentence
+                        structure;
+                        “pride”; future
+                        goal to be editor
+                        or technical
+                        writer
+196    APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Gloria                  Innovation, ex-             Library of         Reference correspon-
+Professional            perimentation,              Congress           dence, self develop-
+writing,                self-motivation                                ment, autonomy,
+library                 on the job; auto-                              service, timeliness,
+                        nomy, variation;                               styles
+                        interdisciplinary;
+                        research, self-dis-
+                        covery; discipline
+
+Grace                   Developed early             Society’s          Manuscript review
+Copy editor,            (age eight); many           journal            policy and procedures,
+public rela-            genres; student             publications       culture’s three
+tions writer            writing vs.                 office             subcultures, history
+                        literary; BA in
+                        English; analyzing
+                        others’ vs.
+                        original work;
+                        volunteering;
+                        correspondence;
+                        promotional
+                        copy; editing
+
+Gwen                    Writing requires            Psychiatric        Documentation of and
+Medical                 much research;              research           by workers, intrigue,
+writer                  writing since               hospital           surveillance, profes-
+                        childhood;                                     sional development
+                        schooling impor-
+                        tant; literature an
+                        important influ-
+                        ence; family in-
+                        fluences; many
+                        skills; variety and
+                        learning on the
+                        job; thorough-
+                        ness; patience and
+                        understanding
+                        required; seeks a
+                        contribution to
+                        society
+
+Hart                    Hearing an “in-             University         Representing change
+Corporate               ternal editor” and          public             and tradition, office
+editor, writer          “voice of doom”             relations          status in university
+                        while writing;              office             hierarchy, conflicts,
+                        comparison with                                writers’ roles
+                        Hamlet, The Firm,
+                        The Road Less
+                        Traveled; humor is
+                        a refuge; deadlines
+                        as motivation;
+                        natural affinity for
+                        language; writing
+                        self withered while
+                        corporate tool;
+                        writing is hard
+                        work
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             197
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Heather                 Switched from               Association        Writing and editing
+Magazine                MA in literature            publications       magazine; isolation of
+writing                 to professional             department         staff, physically and
+                        writing and                                    culturally
+                        editing; practical,
+                        realistic, goal
+                        oriented, with
+                        artistic, creative
+                        streak; has dif-
+                        ficulty with long
+                        papers, lead
+                        sentences for
+                        news stories;
+                        “just starting out
+                        as a writer, with
+                        room for im-
+                        provement”
+
+Helen                   Schooling; job led          Law                Magazine publications
+Editing,                her to pursue               enforcement        office, editors’ dif-
+organization            professional                training           fering approaches,
+magazine                writing and                 facility           implied authorship
+                        editing degree;                                of magazine
+                        variety; purpose;
+                        artistic endeavors
+
+Holly                   Editing while               Newsletter         Decisions and author-
+Newsletter              writing, overview           publisher          ity in process, turnover,
+writing and             and notes; per-                                management lacunae
+editing                 fectionist and
+                        organizer, needs
+                        clear idea and
+                        right conditions;
+                        deadline helps;
+                        writing and dis-
+                        covery; originality
+                        and creativity not
+                        strong suits;
+                        perhaps a better
+                        editor than writer
+
+Itsy                    Childhood                   Small              Office dynamics,
+Editorial               writing; “struc-            business           newsletters, family
+assistant,              tured and uni-              management         metaphor, miscommu-
+federal                 maginative                  office             nication
+government              writing” in fede-
+                        ral government;
+                        wants work in
+                        publications
+
+Jackie                  Artistic, social,           Association        Publishing bimonthly
+News,                   enterprising,               publications       newsletter, staff/“volun-
+magazine,               conventional                department         teer” dynamics, “news”
+public                  (Holland model);                               role in a public relations
+relations               work has fostered                              setting, writing style
+writing                 talent in creative                             defined by roles
+198      APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Jackie                  nonfiction, inter-
+(continued)             viewing, headline
+                        writing, problem
+                        solving; future
+                        goal: technical
+                        writing, pub-
+                        lishing, teaching,
+                        advertisement
+                        copywriting
+
+Jan                     Not a writer, yet;          Professional       Issues management
+Editor                  writing as genetic;         association        teams resulted in no
+                        literary vs.                headquarters       change in writing
+                        professional                                   process, memo use in
+                        writing (herself)                              organization,
+                                                                       management vs.
+                                                                       employees
+
+Jane                    College experi-             City               Red tape, document
+Research/               ence in visual              government         cycling; strategically
+editing                 arts; “Can I call           agency             missed deadlines
+                        myself a writer if
+                        I don’t excel at
+                        multiple types?”;
+                        clinical research
+                        associate; ghost-
+                        writing; editing
+                        children’s book
+
+Janice                  Early develop-              Newsletter/        Business letter in small
+Creative                ment; writing as            book               family company, family
+freelance               therapy; penchant           fulfillment        conflicts, no second
+                        for humor                   company            generation business
+                        writing; enjoys                                writers
+                        workshops and
+                        group processes;
+                        enjoys close
+                        observation and
+                        analysis
+
+Jeff                    Meeting deadlines           Environmen-        Culture clash, technical
+Technical               is crucial; good at         tal engineer-      staff vs. editors; status;
+editor,                 organizing large            ing con-           expertise and inter-
+environmen-             documents;                  sultancy           actions; noun strings
+tal engineer-           prefers writing
+ing company             humorous essays
+                        about people
+                        (“male Erma
+                        Bombeck”)
+
+Jen                     Two “types” of              Government         Purpose of editorial
+Editor,                 writing, personal           employment         pages, office style and
+publications            and professional;           newsletter         writing style, all
+specialist              personal: journals          publisher          women, feminine
+                        (enjoyment,                                    attributes, authority,
+                        therapy, relaxed,                              validation
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             199
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Jen                     most clear); pro-
+(continued)             fessional: job
+                        writing and
+                        editing (analyti-
+                        cal, exacting,
+                        “technical-
+                        mindedness,”
+                        “structured”);
+                        writing means
+                        expressing self
+
+Jihad                   Identifies purpose          Fast food          Writing forms and
+Teaching,               and sticks to it;           headquarters       instructions, implied
+business                edits a minimum;            and                readers and voice
+memos                   does not revise             franchise
+                        ideas; favors
+                        uncomplicated
+                        language over
+                        fancy; as non-
+                        native speaker
+                        sometimes uses
+                        Arabic writing
+                        approaches;
+                        recent shift to
+                        word processing
+
+Jillian                 Satisfaction;               Internet list      Shift in e-“culture”
+Academic                solutions to                                   over time, users’ self-
+writing                 problems in                                    representation, register
+                        others’ writing;
+                        exploration;
+                        reformulation;
+                        academic writing
+                        is unfulfilling
+
+Joanne                  BS in technical             Technical          Documenting of tech
+Technical/              writing/editing;            contractor         contracting work,
+publications            marketing writer                               changes in technology
+writing                 in computer                                    and documentation
+                        industry;
+                        integrating art
+                        and text; simple
+                        style; analytical,
+                        scheduling skills;
+                        company news-
+                        letter; “social,
+                        artistic, enterpris-
+                        ing”; social inter-
+                        est; collaborative
+                        skills; provides
+                        financial security
+
+Joe                     Technical writing           Software           Corporate style
+Documen-                is a challenge;             development        manual, representa-
+tation                  diplomacy and               company            tion, users, audience
+specialist              negotiating;
+200    APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Joe                     rewarding;
+(continued)             creator, problem
+                        solver (writer
+                        working on
+                        programmer’s
+                        product)
+
+Julie                   Lots of reading             Community          Work writing influence
+Teaching,               and thinking                college            on school; perceived
+community               about conven-               classroom          applications, similari-
+college                 tions (academic                                ties, value
+                        and business);
+                        composed a com-
+                        puter manual;
+                        experience in
+                        industry and
+                        many written
+                        genres of
+                        workplace
+
+Kali                    Easily adapts               Military           Job insecurity and
+Information             styles; uses                contracting        writing quality, self-
+and analysis            investigative and           company            imposed standards,
+writing                 conventional                                   planning departures
+                        skills for work
+                        writing (mostly
+                        factual tables and
+                        charts); uses
+                        speech-pattern
+                        sentences for
+                        personal and
+                        informal writing;
+                        artistic, social,
+                        enterprising
+
+Karla                   Artistic skills;            Association        Newsletter production,
+Journalism,             schooling;                  publications       editorial board’s
+pubs                    newsmagazine                division           intervention, corporate
+                        writing; free-                                 politics
+                        lancing; fulfill-
+                        ment; narratives
+                        of changing jobs,
+                        validation; goal is
+                        to write fiction
+
+Kate                    “Solid” writer—             University         Tutor styles, writing
+Teaching,               others’ estima-             writing            center services, English
+academic                tion; precision,            center             department culture/
+writing                 readability,                                   writing center culture
+                        thoroughness, yet
+                        lacking spark; not
+                        a “creative”
+                        writer (humilia-
+                        tion); more
+                        comfortable in
+                        third person than
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             201
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Kate                    first, would like
+(continued)             to meld first
+                        person and third
+                        in this course
+
+Kelly                   Teaching compo-             University         Changes in publications
+Copy editor/            sition; freelancing;        publications       process to “teams”;
+writer,                 journalism; pub-            department         time, pressure; different
+publications            lications; variety                             participants’ viewpoints
+                        and volume of
+                        work; creative
+                        writing interest;
+                        “painful”
+
+Kirsten                 Influence of                Association        Publishing monthly
+Magazines,              college instruc-            magazine           magazine, work ethic,
+public                  tion by magazine            publications       standards, collabora-
+relations               writer; interviews          division           tive and solo work
+writing                 and research lead
+                        the writing;
+                        nonprofit writing
+                        to raise public
+                        awareness; future
+                        goal: marketing
+                        or public
+                        relations writing
+
+Kolar                   No assessment               U.S. senator’s Hill culture, press
+Editorial               provided                    office         office writing, fabri-
+assistant,                                                         cation, socialization
+public
+relations
+
+Kyle                    Practice and                Association        Magazine publication,
+Writing and             perfection (edit-           communica-         turnover, publication
+editing,                ing association             tions de-          processes and
+organization            magazine); edit-            partment           creativity
+magazine                ing others; devel-
+                        oping style (easy
+                        to read, clear,
+                        concise); true love
+                        is humor (D.
+                        Barry); e-mails a
+                        favorite place to
+                        write—not
+                        literary or poetic,
+                        but fun and
+                        understandable
+
+Lara                    Working with                Elementary         Composing school
+Teaching,               kindergartners;             school             plan collaboratively;
+kindergarten            artistic theme                                 difficulties, poor
+                        strong in Holland                              management of
+                        model; difficulty                              collaborative writing
+                        in expression at
+                        times; write funny
+202    APPENDIX B
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Lara                    letters, emotional
+(continued)             poetry, deter-
+                        mined letters to
+                        Congress
+
+Leathe                  Working                     Research           Culture of a “flat
+Technical/              independently,              and                organization”; chain of
+report                  analyzes, con-              technical          command; project
+writing                 ceptualizes, and            development        cycling, iterations
+                        organizes infor-            company
+                        mation; creates
+                        tables; writes data
+                        up without the-
+                        orizing; dislikes
+                        proposals, prizes
+                        “time flexibility”;
+                        likes data analysis
+
+Lee                     Writing to learn,           Writing            Tutoring vs. computer
+Teacher,                writing and                 center             lab, evaluating soft-
+writing                 reading; writing                               ware, organizational
+center                  to explain, pro-                               location and conflict
+director                vide information
+                        at work; journal
+                        for exploring,
+                        examining
+                        feelings; notes,
+                        letters, and lists in
+                        “everyday life”;
+                        lacks discipline;
+                        revises a lot; play-
+                        ing with words
+
+Leigh                   Professional                U.S. cabinet  writing processes,
+Editor,                 writing means               speechwriters writer’s references,
+government              editing other                             “idea factory”,
+                        people’s writing,                         metaphors, civil
+                        style to govern-                          servant vs. political
+                        ment standards;
+                        memos are
+                        “structured
+                        writing” (a for-
+                        matting technique)
+                        (persuasive memo
+                        to boss got money
+                        for graduate
+                        school); academic
+                        writing includes
+                        hypertext fiction,
+                        a struggle and is
+                        revealing about
+                        self as writer
+                        (vulnerability,
+                        flow, catharsis);
+                        writing always
+                        part of life
+                                      RESEARCHERS’ TOPICS IN SELF-ASSESSMENT AS WRITERS             203
+
+Researcher/Background   Topics in Self-Assessment   Site of Research   Research Topics and Themes
+
+
+Lena                    Enjoys language,            Nonprofit          Management style,
+Teaching,               “putting it to-             educational        editors’ decisions on
+high school             gether”; “scaled-           publications       manuscripts, career
+                        back ambitions”             company            advancement for
+                        (great novels,                                 writers means moving
+                        MFA vs. MA in                                  into management
+                        professional
+                        writing and
+                        editing); likes to
+                        observe, describe,
+                        draw conclusions
+
+Lisa                    Understanding               Bank               Style: marketing and
+Analyst,                through writing;                               prestige; commercial
+English as a            writing as means;                              loan vs. operations;
+second                  writing and inves-                             family symbolism;
+language                tigative skills; non-                          gender, conflict, morale
+teacher                 native speakers in
+                        American work
+                        culture
+
+Liz                     BA in French;               World Bank         Writing style, editors’
+Staff                   MA underway to              editors            work, organizational
+assistant               expand profes-                                 division’s status, sup-
+                        sional scope,                                  port staff/professional
+                        improve writing                                staff
+                        skills; difficulty
+                        with long docu-
+                        ments; strengths:
+                        creativity and
+                        variety of style,
+                        persuasive
+                        writing; uses
+                        e-mail extensively
+
+Lois                    Career change;              Telecommu-         Face-to-face and
+Marketing,              striving to                 nications          virtual cultures, top-
+organization            improve skill

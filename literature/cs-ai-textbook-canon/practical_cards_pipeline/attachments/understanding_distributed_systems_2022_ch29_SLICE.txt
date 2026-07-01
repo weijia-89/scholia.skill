@@ -1,0 +1,126 @@
+# Text slice — understanding_distributed_systems_2022_ch29_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 29
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 29
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch29_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 29 |
+| **chapter_title** | Testing |
+| **page_range** | 279–287; lines 8809–9132 |
+
+---
+
+## scope
+
+**Part V — Maintainability** opens with testing strategy: scope (unit/integration/E2E pyramid), size (small/intermediate/large), test doubles, contract tests, risk-based E2E (GDPR purge), and **TLA+ formal verification** with dual-write migration example.
+
+---
+
+## key_findings
+
+### Value & limits
+
+- Late bug detection is expensive; tests enable safe change (8814–8822).
+- Can't predict all distributed states; best-effort only (8824–8830).
+- **Rule:** if you need confidence in behavior, write a test (8841–8843).
+
+### Scope (§29.1)
+
+| Type | Scope | Notes |
+|------|-------|-------|
+| Unit | Small (class) | Public API; state not sequence; sociable style (Fowler) |
+| Integration (narrow) | Service + one dependency | Fowler narrow |
+| E2E | Multi-service user scenarios | Slow, flaky; user-journey framing reduces count (8900–8905) |
+| Pyramid | Many unit, fewer integration, fewest E2E | Fig 29.1 (8911–8914) |
+
+### Size (§29.2)
+
+- **Small:** single process, no I/O — fast, deterministic (8935–8937).
+- **Intermediate:** single node, local I/O (8939–8942).
+- **Large:** multi-node (8944–8945).
+- Doubles: fake > stub > mock (brittle last resort) (8949–8974).
+- **Contract tests** for integration with mocks (8976–8983).
+
+### Practical considerations (§29.3)
+
+- Smallest test with real fakes where possible (8997–9018).
+- **GDPR user purge:** high-risk → periodic **production E2E** with live services (9020–9032).
+
+### Formal verification (§29.4)
+
+- Spec before code catches design bugs (9036–9057).
+- **TLA+:** behaviors as state sequences; safety (invariant) vs liveness (9036–9087).
+- **Dual-write migration** A→B: model checker finds crash-between-writes liveness violation; concurrent writers ordering issue (9089–9126).
+- Fix via serialized write channel (global order) (9127–9132).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 8809–9132 |
+| **Sections** | Intro · §29.1–29.4 |
+| **Figures** | 29.1 pyramid · 29.2 test boundaries · 29.3 write ordering |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Place tests on scope/size pyramid.
+2. Choose fake vs mock by resemblance tradeoff.
+3. Apply contract tests at service boundaries.
+4. Decide when production E2E is warranted (regulatory risk).
+5. Sketch TLA+ value for migration design review.
+
+### worked_examples_present
+
+**Y** — API endpoint test diagram; GDPR purge case; dual-write TLA+ walkthrough.
+
+### exercise_hooks
+
+- Map one user journey to single E2E vs decomposed tests.
+- Write contract test for a REST dependency.
+
+---
+
+## Operator hooks
+
+**AIE ch.4** eval metrics; **recovery** hardening. TLA+ for consensus-heavy designs links **UDS ch10–12**.
+
+**MDCalc [high]:** GDPR purge → production periodic E2E pattern directly applicable.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C29-001 | Test pyramid tradeoff | 8907–8914 |
+| UDS-C29-002 | Mock last resort | 8971–8974 |
+| UDS-C29-003 | GDPR production E2E | 9020–9032 |
+| UDS-C29-004 | Dual-write TLA+ crash bug | 9105–9111 |
+
+---
+
+*Ingest · scholia · ≤4500w*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

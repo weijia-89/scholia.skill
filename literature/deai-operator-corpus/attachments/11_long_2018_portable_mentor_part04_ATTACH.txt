@@ -1,0 +1,473 @@
+11_long_2018_portable_mentor_part04_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: long_2018_portable_mentor
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/11_long_2018_portable_mentor_part04_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/11_long_2018_portable_mentor_part04.txt)========================================================================
+
+PART IV
+
+
+Honing, Deepening, Stretching
+
+
+Mauve takes offence at my having said “I am an artist”—which I do not take back, because that word of course included the meaning: always seeking without absolutely finding. It is just the converse of saying, “I know it, I have found it.” As far as I know, that word means: “I am seeking, I am striving, I am in it with all my heart.”
+
+—Vincent van Gogh to Theo, May 1882
+
+
+
+
+
+22.
+
+
+Metaphor and Simile
+
+
+Is the bluing of the hills then a metaphor for distance?
+
+—John Hollander
+
+We look at the world through metaphorical glasses. As George Lakoff and Mark Johnson explicate in Metaphors We Live By, we see good as up (we climb corporate ladders, get high, enter high society), and bad as down (we speak of an uncle’s downfall, the pit of despair). Lakoff and Johnson’s illuminating book (knowledge as light) is enlightening. It may be intrinsic to our Homo sapiens way of perceiving to look at A by comparing it to B. Consider the Milky Way (comparing the white light of our galaxy to milk); dead end (comparing the end of a road to the end of life); a dog-eared book (comparing bent page-corners to a dog’s ears).
+
+But our concern as writers is to create metaphors that clarify and make vivid, metaphors we have never heard before. This last point is crucial, since many clichés are metaphors (to buy a house for a song, to cry over spilt milk, to run around like a chicken with its head cut off). And as Ben Yagoda observes in his excellent book The Sound on the Page, “Clichés are prominent features of everyone’s first draft, whether we write it down or keep it to ourselves. How could they not be? We hear and read them all the time and our brains are filled with them. The key to avoiding them in the second and succeeding drafts is recognizing them and casting them out.”*
+
+A good metaphor is an original metaphor. It intensifies an emotion or clarifies a concept. It makes an abstract notion visual or visceral. It turns something unknown into something familiar.
+
+Writers who make metaphors fluidly and aptly—and these are our best writers—practice making metaphors the way musicians practice scales. They practice making similes, which are a form of metaphor. Jonathan Raban, speaking of the notebook he takes on his travels, writes of his “daily target-practice of a dozen or so experimental similes.”*
+
+
+
+
+
+AVOIDING LITERARY SHIPWRECKS
+
+
+Good metaphors clarify. Rotten metaphors attempt to decorate, to be poetic. They distract and confuse. Be willing to freely try out metaphors and to freely discard the rotten ones. Watch out for “out” images. What is an out image? On a sweltering hot beach, don’t make the sand snow-white: snow doesn’t belong on a hot beach. A metaphor should intensify the scene rather than distract from it by introducing a foreign object.
+
+Some subjects defy comparison. Pablo Neruda wrote, “Y por las calles la sangre de los niños / corría simplemente, como sangre de niños.” (And through the streets the blood of the children / ran simply, like blood of children.)† There’s nothing to compare with the blood of children running in the streets, so don’t try. Metaphors can weaken, trivialize, and falsify. As you set out to become more skilled at making metaphors, keep in mind that some things are beyond comparison. The practice of making metaphor ought to include the practice of eschewing metaphor.
+
+How to avoid mixing metaphors? A metaphor compares two things. “Dora Maar became Picasso’s doormat” compares a person to an object that is frequently stepped upon. A (Dora Maar) compares to B (door mat). A mixed metaphor compares A to two things. “Dora Maar became Picasso’s doormat, never yapping or nipping his hand” is a mixed metaphor in that it compares Maar to both a doormat and a dog. Mixed metaphors confuse rather than clarify. They usually come about because the writer is unaware of using a metaphor. “The window gaped open, beckoning the thief to enter” is mixed because it compares the window to both a mouth (gaping) and a hand (beckoning).
+
+
+
+
+
+DEFINITIONS AND PRINCIPLES
+
+
+A metaphor compares two things. Often it characterizes something abstract (memory, childhood, panic, death) by comparing it to something concrete (violets, volleyball, firestorm, tombstone).
+
+Panic in me now blacker than old tea.
+
+(Sebastian Barry, The Secret Scripture, 34)
+
+Panic is abstract. You can’t see it or hear it or touch it. But you can see black tea.
+
+A simile compares two things (white as snow, black as a crow’s wing) using the connector “like” or “as.” Similes typically compare just one aspect of a thing with one aspect of something else.
+
+Vermeer is blatant and ineffable, like the Sphinx.
+
+(Peter Schjeldahl, “Vermeer,” 157)
+
+It was blacker than olives the night I left.
+
+(Anne Carson, Plainwater, 39)
+
+It’s a mistake to think of metaphors and similes as surprising gifts or as something only literary writers use. Certainly, an apt metaphor is a pleasing thing, but it also works as a conceptual tool. The best writing, whether memoir, science, history, or philosophy, uses metaphor to clarify ideas. The French philosopher Gaston Bachelard writes:
+
+So, like a forgotten fire, a childhood can always flare up again within us.
+
+(Bachelard, Poetics of Reverie, 104)
+
+The English historian E. P. Thompson, author of the monumental The Making of the English Working Class, writes:
+
+The working class did not rise like the sun at an appointed time.
+
+(Thompson, The Making of the English Working Class, 9)
+
+In Anaïs Nin’s novel Collages the Consul’s wife speaks of their marriage:
+
+Then she talked about the Consul. The pattern of their marriage was frayed. The silver, gold, purple, red and green threads were worn away.
+
+(Anaïs Nin, Collages, 89)
+
+Metaphor works not as ornament but to deepen, to clarify, and to extend meaning. Metaphors make ideas more vivid. Here is the opening passage of Faulkner’s story “Dry September.” To intensify the terror of his story about a lynching, Faulkner compares the red of the sunset to blood.
+
+Through the bloody September twilight, aftermath of sixty- two rainless days, it had gone like a fire in dry grass—the rumor, the story, whatever it was. Something about Miss Minnie Cooper and a Negro.
+
+(William Faulkner, “Dry September,” 169)
+
+If Faulkner had made the evening light “rosy” or “flushed,” that would have set up a different story—perhaps an erotic story. For this story it would have been inapt and certainly inept. If the rumor had run like a dancing nymph . . .
+
+Metonymy exists in the realm of metaphor. Metonymy names an associated object to stand for the object, “the crown” to stand for the king, “a uniform” to stand for a police officer. “The pen is mightier than the sword.”
+
+Synecdoche also exists in the realm of metaphor. A synecdoche names a part to stand for the whole. Do you have wheels? He worked as a hired hand. She was the brain of the class.
+
+
+
+
+
+FORMS OF METAPHOR
+
+
+A good way to approach working with metaphor is to practice, not metaphor in general, but metaphor as it occurs in particular syntactical forms. That way you can practice one form at a time. Here are seven ways of making a metaphor.
+
+1.Adverbial clause of manner. The adverbial clause of manner, beginning with “as if” or “as though,” compares one action or one object to another. It is found ubiquitously in literary writing, but not so much elsewhere. One way to begin working with metaphor is to begin working with the adverbial clause of manner. Keep in mind that all adverbial clauses of manner are not metaphorical. Metaphor compares one thing to something entirely different. So “He trudged into the kitchen as if he was exhausted” contains an adverbial clause of manner, but no metaphor.
+
+His thoughts clogged as if a comb working through his mind had stuck against a snarl.
+
+(Annie Proulx, “The Half-Skinned Steer,” 24)
+
+Joined in mutual admiration they watched each day as though it were a movie arranged for their amusement.
+
+(Toni Morrison, Sula, 55)
+
+There’s also such a thing as an adverbial phrase of manner. Here the protagonist has just arrived from a war zone, so it is fitting that he would see huddled beer bottles as doomed persons. The phrase is a participial phrase:
+
+On the kitchen table was a throng of beer bottles with their labels torn off, huddled together as if awaiting execution.
+
+(Aleksandar Hemon, “Blind Jozef Pronek,” 168)
+
+2.X does something the way Y does something else.
+
+There are four hundred finches on the island at this moment, and the Grants know every one of the birds on sight, the way shepherds can tell every sheep in their flocks.
+
+(Jonathan Weiner, The Beak of the Finch, 3)
+
+Songbirds fly in and out of towering cottonwoods the way people throng office buildings.
+
+(Gretel Ehrlich, The Solace of Open Spaces, 90)
+
+3.Appositive as metaphor. (An appositive defines a noun: Mr. Brown, the janitor . . . ) In the first model, Roger Angell, age 93 at its writing, is speaking of the knowledge of impending death:
+
+It must be this hovering knowledge, that two-ton safe swaying on a frayed rope just over my head, that makes everyone so glad to see me again. “How great you are looking! Wow, tell me your secret!”
+
+(Roger Angell, “This Old Man,” 269–70)
+
+But after the bottle was empty sometime that night, I was finally left with nothing but myself and my thoughts, devious cabdrivers that took me where I did not want to go.
+
+(Viet Thanh Nguyen, The Sympathizer, 186)
+
+And all love that had overtaken her would have to be a memory, a truck on the interstate roaring up from the left, a thing she must let pass.
+
+(Lorrie Moore, “The Jewish Hunter,” 140)
+
+4.It is like . . . It was like . . . It would be like . . .
+
+In the first model, the speaker is a girl and “the companions” are either ghosts or figments of her imagination.
+
+For a while after the disaster with Catherine, I tried to avoid the companions, but my loneliness was like the slow gas bubbling up from the pond in the woods, poisoning even the sweetest of days.
+
+(Margot Livesey, Eva Moves the Furniture, 31)
+
+In its most basic form, a plant is like a drinking straw, drawing water and nutrients out of the soil and up through the stems to the leaves, where the water is lost through evaporation (properly termed “transpiration”).
+
+(Geoff Hodge, Practical Botany for Gardeners, 85)
+
+Looking for goshawks is like looking for grace: it comes, but not often, and you don’t get to say when or how.
+
+(Helen Macdonald, H Is for Hawk, 5)
+
+5.X is Y.
+
+Keep in mind that all X is Y statements are not metaphorical. “The beach is hot” describes the beach. It does not compare the beach with something entirely different. “Happiness is going to lunch with a friend” specifies one sort of happiness. It does not compare happiness (A) with something else (B). But our first model below is metaphorical. It compares a bed (A) to a completely different thing, a vehicle (B):
+
+The bed is a mode of transport. It is our vehicle, our spaceship into oblivion.
+
+(John Olson, In Advance of the Broken Justy, 195)
+
+Memory is a house with ten thousand rooms; it is a village slated to be inundated.
+
+(Anthony Doerr, “Village 113,” 131)
+
+Creative writing, like any art, is a kind of fishing.
+
+(John Daniel, “In Praise of Darkness,” 44)
+
+6.Word substitution: bringing in a word or phrase from a different world.
+
+You can’t grasp the unknown even when it’s pissing in your face.
+
+(John Edgar Wideman, “Sightings,” 161)
+
+For a moment, all that remained in the sky was the watermark stain of the moon’s dark side.
+
+(Craig Childs, The Secret Knowledge of Water, 14)
+
+The storm came on a wild horse and rode over us.
+
+(Norman Maclean, A River Runs Through It, 47)
+
+7.Similes. A simile compares by using like or as. Similes compare one aspect of a thing with the same aspect of another thing. Be aware that any random use of like or as does not necessarily result in a simile.
+
+The sun rose yellow as a lemon.
+
+(Ray Bradbury, Something Wicked This Way Comes, 60)
+
+In a badly designed book, the letters mill and stand like starving horses in a field.
+
+(Robert Bringhurst, The Elements of Typographic Style, 19)
+
+In an early Woody Allen film, a poor and lovely girl sits opposite him at a table, her skin flawless as a petal.
+
+(Rebecca McClanahan, “Considering the Lilies,” 181)
+
+
+
+
+
+Hands On: Making Metaphor
+
+
+I suggest a three-part program. First, study the concept. Read the warnings. Understand definitions and principles. Second, collect sentences that use metaphor. Collect the different forms and write them in your sentence book to use as models. Third, practice making metaphors using a specific syntax, working on one form at a time (rather than trying to think of metaphor in general).
+
+Remember that you are comparing an unfamiliar thing to a familiar thing. She ate the chocolate cake (the reader doesn’t yet know how) as if she were a starving person (something easily imagined). If you wrote: “She ate the chocolate cake as if she were cibophobic,” that would compare something unfamiliar (how she was eating) to something equally unfamiliar except to an extreme minority of readers who know that cibophobia means fear of food.
+
+•Choose one of the forms, say, X is Y. A barn, in day, is a small night (John Updike). Then take an abstraction that is key to the piece you are working on. Set the timer for some excruciating amount of time—perhaps ten or twenty minutes. Write using the phrase over and over, spinning off comparisons using only your chosen form. For example, for a piece on the Human Genome Project, I might write: “The human genome project is a modern-day Lewis and Clark expedition. The human genome project is the twentieth century’s search for the Northwest Passage. The human genome project is exploration in the outer space of the infinitesimal. The human genome project is a modern-day search for the philosopher’s stone.” And so on. You keep going, never minding that some will be awful. While you are writing you are meditating on the thing you are writing about, sinking into the ambiance of it, the emotion of it. This is an exercise in association, so that, to use the Faulkner example again, if you were using a simile and a color (red as . . . ) to describe the kind of evening on which a murder was to take place, your words might run to “red as gut, red as blood, red as hot lava.”
+
+•When the time is up, look over the result and choose an appropriate one. This is not an arbitrary choice, but one that deepens meaning. (“She had leopard eyes, narrow and yellow at the rims” does not describe a sweet silly person.) Turn some of your similes into metaphors. Turn “twilight red as blood” into “the bloody September twilight.”
+
+•Over the course of several weeks, practice using all the forms of metaphor. Don’t get stuck on just one. Take one at a time and make it your own.
+
+•As you become more fluid, become more rigorous. Keep questioning your metaphorical language. Is this apt? Does the comparison make literal sense? A dog may run as fast as a train but can a dog run like a train? I don’t think so. But perhaps a rumor can run through town fast as a grass fire.
+
+A writer in one of my classes recently wrote an excellent piece on living on a cul-de-sac. In it she wrote that during the 1950s, in suburban developments, culs-de-sac spread like a virus. Well, actually, culs-de-sac and viruses spread in entirely different ways. But perhaps culs-de-sac became as popular as white bread. (Both are manufactured things, both are made by companies, both were seen in the 1950s as being superior to their previous forms—the grid, whole-grain bread. Both were later criticized as being inferior to their previous forms.)
+
+You see how it works.
+
+
+
+*Yagoda, Sound on the Page, 233.
+
+*Raban, “Keeping a Notebook,” 233.
+
+†Quoted in Hills, May Stevens, 81.
+
+
+
+
+
+23.
+
+
+Extending Connections, Deepening Insight
+
+
+I love words but I love the world more.
+
+—Scott Russell Sanders
+
+I sometimes ask myself: Why do the works that grab me grab me? What is it about the pieces I reread and pass around and quote from and teach from that hold me within the world they have created? Certainly, I love language. Certainly, I am drawn to writers who have a good ear, who play language as if it were a musical instrument. But beyond that, I am drawn to works that to me have significance, that offer insight. Alternatively, I shy away from works that seem slight, even if well-written.
+
+In my own work I have been trying to extend my philosophical reach, to ask questions that matter to me but also to the world, to realize pieces that may be quite personal but that also weave connections to a wider circle. It is my desire, whether or not I succeed, to increase the philosophical weight of my work and to deepen any insight it can bring to bear. Does this strike a chord? Is insight something dispersed by the heavens or can a writer strive for it? Are such matters susceptible to intention and to conscious work? The answer I think is yes. Here are some approaches.
+
+
+
+
+
+ASK QUESTIONS
+
+
+One way to deepen and extend our work is to ask questions. Michael J. Gelb’s How to Think Like Leonardo da Vinci, written not for writers but for anyone wishing to enrich his or her life, suggests writing out—in your writer’s notebook in the writing-practice manner, continuously without stopping—one hundred questions. These can be personal questions, questions about the world, questions about science, about nature, about society, about your mother, your life, your spouse, your dog, your car engine. After writing out your questions freely and without censorship or even much contemplation, circle the ten that seem to you to be the most important. On a clean page, write down your ten most important questions.
+
+How do these ten questions relate to your body of work as it is developing right now? Are your most important questions reflected in your work? Do your questions suggest areas into which you might extend your work?
+
+There are no right or wrong questions. Each writer’s concerns and core questions will be different and a writer’s questions will shift over time. Questions do not necessarily have answers and the best questions—examples might be, How does a bird fly? or Why was my mother so silent?—do not have simple answers. Rather, they open doors into areas of inquiry. The question, Why was my mother so silent? might lead me to write a memoir, or an exploration of expressiveness and communication, or a mother-daughter story, or a piece on family dynamics.
+
+It seems right that our work as creators should reflect our deepest questions, concerns, and values. It seems obvious. Yet if we’ve never articulated these concerns or if we are professionally oriented to completing assignments generated by someone else, this dream can get lost. Allowing your own values to shape a piece does not preclude balance. Balance means you represent both sides of a question fairly and with respect. David Foster Wallace’s “Consider the Lobster” is balanced, in that he takes care to fully express the viewpoint of the Maine lobster industry. Yet he also introduces his own questions. The piece appeared in Gourmet—not an animal rights venue. In it, Wallace manages to insert and even bring to the fore his question of whether or not dropping a live lobster into boiling water causes the creature to die in terror and agonizing pain, and if so, do we want to do that?
+
+Asking questions can help to shape our whole body of work and can extend and deepen individual pieces. An entire essay might articulate the essential questions facing some discipline or area of concern or interest. A piece titled “20 Questions on our Minds” by neuropsychiatrist Richard Restak, which appeared in The American Scholar, consists of nothing more (or less) than twenty questions on the human brain, taking into account the revolution in neuroscience currently under way.
+
+Fiction writers ask questions through their characters. In Sherwood Anderson’s story “I Want to Know Why,” an adolescent boy is smitten with horses and with a horse trainer who proceeds to degrade himself before the boy’s very eyes. The boy wants to know, “What did he do it for?” In Penelope Fitzgerald’s novel Offshore, Nenna, separated from her husband, who is living on the opposite side of London, is contemplating a move to Canada:
+
+After all, she thought, if she did go away, how much difference would it make? In a sense, Halifax was no further away than 42b Milvain Street, Stoke Newington. All distances are the same to those who don’t meet.
+
+(Penelope Fitzgerald, Offshore, 165)
+
+Characters, like people, have conundrums, things they want to understand, things they find incomprehensible. They seek. They query the universe, just as we ourselves do. Ask questions. Let your characters ask their questions. They want to know why.
+
+
+
+
+
+CONNECT WITH A WIDER WORLD
+
+
+Another way to deepen your writing is to spin threads to connect immediate personal experience with the big, wide, outside world. In an essay on dressing, I might articulate the current chaos of my closet, but also recall that Sappho was concerned with beauty, that there exists a history of costume, that the silkworm is a worm, that cotton is a plant requiring toil in a cotton field, that a fur garment was once a creature’s skin, that the detective in Raymond Chandler’s The Big Sleep steps out in a powder-blue suit.
+
+In John Olson’s “Home” we see how far you can travel to get home. In these twenty paragraphs we go from the view from the window to feeling at home in a book to the infrastructure necessary to make a home to the politics that disregards infrastructure to the abodes lived in during a lifetime (a school bus, a hotel . . . ) to the mother’s body as the first home to feeling at home in a personal sense and in a spiritual sense (“votive candles lit . . .”) to feeling ill at ease, not at home within yourself due to remorse and anxiety and fear, to aging to Stoicism (“a home for realists”) to the voyage of seeking philosophy, best undertaken at home.
+
+I have composed a piece called “Housekeeping.” It is based on my childhood experience growing up in an unkempt household, which stood in contrast to my maternal grandmother’s household, which was vacuumed and polished to the point of fanaticism. What does my personal housekeeping experience connect to, out there in the wide world? Well. There is Hercules’s fifth labor—cleaning the Augean stables. There are writers who are hyperkempt (May Sarton with her washed cups and cut flowers) and writers who are hyperunkempt (the poet Auden with his white wine-splattered suit; Iris Murdoch and John Bayley with their dustballs and dirt-desecrated dinner plates). There is fêng shui in which clutter clogs energy. There is “ethnic cleansing,” God help us. There was my sister Susanne whose refrigerator full of rotting food revealed a life spiraling into mental illness. There are the ten random people I asked, “How do you keep your house (or your room) clean?” (My favorite answer came from my nephew Eric Messerschmidt: “This assumes I do keep my room clean.”) There is Marilynne Robinson’s brilliant novel Housekeeping. And no doubt there are other connections I haven’t thought of yet.
+
+Look at the piece you are working on. Where are its mirrors, out there in the world? Is there a way you can spin a thread to the moon? Back to the Middle Ages, to the black plague? Is your personal situation connected to a scientific or medical finding? (I am an identical twin. Twins are clones. Clones bring us to the first cloned mammal, Dolly, to the debate about cloning and stem cells, to the Human Genome Project).
+
+You get the idea.
+
+
+
+
+
+READING
+
+
+“Reading is important,” writes Yusef Komunyakaa. “I can’t see how anyone can write and not read. I’m not just talking about only reading literature, but reading in the sciences, philosophy, mythology, history, about the arts, current events—everything that one can possibly read. This feeds the imagination.”*
+
+Reading is one of the absorbing pleasures of the writing life. Research is part of it. Say I have a character, an elderly photographer. How does her work fit into the history of photography? What does she herself know of this history? What were the influences on her? As a woman, was she an anomaly, a maverick? Or part of a long tradition? These questions may lead to happy hours in the library. And the internet has become another library whose riches multiply as the years roll on.
+
+Reading carries us into wider worlds, sparks ideas for our own work, lets us rest from our own work, and provides shelter for mind and spirit. Just as visual artists spend hours and years looking at contemporary and past art, so we writers read.
+
+One immediate way to let your reading inform your writing is to collect epigraphs—a quotation taken from your reading, placed at the beginning of a work, setting forth the theme. Whenever I read a passage that strikes me, and that can stand alone, I copy it into a small blank book I call my epigraph book, carefully noting the author, and where I got the quote from. I do this with no preconceived notion of where to use it. It’s remarkable how many of these quotations have found their way into something I’m working on. Here is a random list of epigraphs taken from a few pages of my epigraph book:
+
+“I am working out the vocabulary of my silence.”
+
+(Muriel Rukeyser)
+
+“Darkness was hidden by darkness in the beginning.”
+
+(Rig Veda)
+
+“Anything could happen in the strange cities of the mind.”
+
+(C. D. Wright)
+
+“Honey, the gods are laughing at us.”
+
+(Langston Hughes)
+
+“You have to take freedom. No one will give it to you.”
+
+(Meret Oppenheim)
+
+“I am worn out with dreams.”
+
+(William Butler Yeats)
+
+Beginning a piece with an epigraph makes an immediate connection between what is to follow and something out there in the world that mirrors it.
+
+
+
+
+
+INTENTION
+
+
+After you’ve finished a draft of a piece, set your timer for ten minutes. In your writing-practice notebook, write the start line, “If I could bring 5 percent more insight to this matter, it would be that . . .” Write for ten minutes without stopping, letting anything that comes to mind go on the page.
+
+You may be surprised at the further insights and understandings you can come to in this way.
+
+
+
+*Miller and Anglesey, Writer’s Chronicle, 16.
+
+
+
+
+
+24.
+
+
+On Revision
+
+
+Let’s say it’s a mess. But you have a chance to fix it. You try to be clearer. Or deeper. Or more eloquent. Or more eccentric. You try to be true to a world. You want the book to be more spacious, more authoritative. You want to winch yourself up from yourself. You want to winch the book out of your balky mind. You try to liberate it. You try to get this wretched stuff on the page closer to what you think your book ought to be—what you know, in your spasms of elation, it can be. You read the sentences over and over. Is this the book I’m writing? Is this all?
+
+—Susan Sontag
+
+Revision is about deepening, extending, elaborating, and only then burnishing and honing. Polishing a too-thin piece is to do the right thing at the wrong time. And most unrealized works are, basically, too thin. They don’t extend far enough. Perhaps they lack insight. Perhaps the language is thin as weak tea. Perhaps the structure needs correcting for the piece is structured nonsensically or lacks a dramatic structure altogether. Perhaps the emotional ground is merely hinted at because the setting is not saturated with the emotion of the piece. Perhaps the character is engaged in some job or sport or activity that is scarcely on the page, no glimpse of the tools or odors or tasks of this trade. Perhaps someone comes on stage without portrayal. Or speaks but lacks body language. Perhaps the sentence forms bear no relationship to the meanings they are carrying.
+
+For writers who make themselves students of the language—of words and word origins, of forms of the sentence and of the paragraph—revising becomes a pleasurable stage of composition. This is the time to play, to experiment, to enjoy the delicious sense of mastery that comes from growing skills.
+
+As you revise, keep hold of the idea that you are working out your own thoughts in your own words. You’re not trying to second-guess some teacher or mentor or reader. There’s a time to focus on the demands posed by the work itself, the work in front of you. I’ve known writers who are so externally oriented, so fixed on whether anyone will ever like this thing or read it or publish it that they’ve lost track of what they want for the piece and are paying no attention to what the piece itself requires. There’s a time to turn inward, to create an interior space in which the two forces interacting are the creative work and the creative worker.
+
+Here are some approaches and strategies.
+
+•You have a rough essay, with various blocks of type in place. Perhaps some of the segments are rather badly written, perhaps transitions are lacking. But, as far as you know, every piece is there. Do not, I repeat, do not go into the essay and begin hacking or thrashing about. Do not enter the premises with a wrecking bar. Instead, work on craft outside the essay itself. Work in your writing-practice notebook. Copy down a sentence or a paragraph that needs work and work on it there, in the notebook. Experiment with alternatives until you get one you like. Then type it back into the essay.
+
+•There is no need to begin at the beginning, but when you do return to the beginning, remember to ground the reader in time and place, and in your connection to this material. Is there something surprising, or startling, or unusual that unfolds within the first few paragraphs? Try putting it in the first sentence:
+
+François was killed on a Saturday night. Just as it was getting dark. A car coming from behind knocked him over.
+
+(John Berger, “François, Georges and Amélie: A Requiem in Three Parts,” 413)
+
+•Does the piece ask questions? Does it open up the key questions inherent in its subject matter? If it is fiction, what are the protagonist’s questions?
+
+•Structure: Look at complication/resolution (probably 85 percent of stories use this structure). Or look over the structures presented in this book or elsewhere, structures you’ve taken into your repertoire. Does the structure of the piece fit its content? If it is about baseball, could it have nine innings? If it is about twins, could it repeatedly double itself? If it is about beauty versus ugliness, could it fit into an A/B structure?
+
+•Verbs carry the piece. Circle every verb. Question every verb. Can you make a verb more active, more accurate? Does at least one sentence have multiple verbs?
+
+•Go through and circle areas that are vacant of images (gray areas). Rewrite the sentence to expel the gray and the drab. Make general words more specific. Change casual attire to T-shirt and blue jeans. Change She packed her undergarments to She packed her black lace panties and matching bra.
+
+•Work on sentences. Make a sentence or a paragraph enact its own meaning.
+
+•Body parts ground writing and increase its visual and visceral impact. Merely increasing the number of body parts can improve a story. Not, He leaned against the doorjamb but He leaned his shoulder against the doorjamb. Not, He touched her face, but He touched her face with his fingertips.
+
+•What is the emotion of the piece? Is the setting saturated with this emotion? Can you put in an object that holds a love or a pain or a recurring dream or memory?
+
+•Work on coloration. Color is not arbitrary but resonates metaphorically. Thus, blood-red nail polish will deepen a sense of doom, whereas a rose-silk gown adds an erotic blush. It is important what you choose to color and what you choose to leave alone. Color what is significant to the story. Leave the rest alone. All this language work is about making a piece more visual and more sonorous. It is not about making it more flowery.
+
+•Whenever a person comes onstage, he or she becomes visible and needs a portrait. Whenever a person speaks, he or she speaks from a body, moves the body, or holds it still.
+
+•Voice: Do persons and characters each have their own voice, or do they sound generic?
+
+•Go through and take out every lie (Grace Paley).
+
+•Deepen insight, and deepen the connections of the piece with the outer world. What is the philosophy of a piece? How does it connect with the past, with history? What stories in mythology, fairy tale, or fable does this story carry? What are the icons, associations, archetypes? How does this relate to scientific findings? Do timed writes in your writing-practice notebook on each section, in which you ask yourself: What is the meaning of this? What further insight can I bring to this? Is there any story out there in the world that this is an instance of?
+
+•There is a constant tension between accuracy and authenticity on the one hand, and language as music, as vision, as a palpable aesthetic object on the other. We are not in the decorating business but we are working to deepen our contact with the language, to engage it fully. Constantly measure the one—truth—against the other—color, odor, sound, sight.
+
+•Finally, after each session, insert your new changes into the piece and print out a clean version. Always have at hand a clean version including all your most recent tweaks. Do not work for long periods with a scratched-up, emended mess.
+
+
+
+
+
+WORK VS. TALENT
+
+
+Here is a good place to question whether some people may just have more talent. Most people, when speaking of great artists—writers or painters or musicians—speak of talent (for the undeveloped) or genius (for the well-developed). Art students and apprentice writers often ask themselves, “Do I have it?” When I was in graduate school, a fellow graduate student in creative writing announced his intention to ask his faculty advisor whether he had “it.” If not, he planned to quit. Some accomplished writers believe fervently that talent is fundamental to their own and other people’s artistic achievement.
+
+Perhaps because I did not grow up hearing the word talented, I’ve always belonged to the opposite school of artistic development, the practice-makes-perfect school. Pablo Picasso—the artist to whom the word “genius” most often sticks—may also have been in the practice- makes-perfect school because he was a prodigious, indefatigable worker, outworking all his friends, outworking probably every other artist in France. So, yes, he was a genius, but he may have come by that genius through his fanatical work habits.
+
+Indeed, neuroscience and cognitive psychology have landed with both feet in the practice-makes-perfect school. The emerging picture, writes Daniel J. Levitin in This Is Your Brain on Music, “is that ten thousand hours of practice is required to achieve the level of mastery associated with being a world-class expert—in anything. In study after study, of composers, basketball players, fiction writers, ice skaters, concert pianists, chess players, master criminals, and what have you, this number comes up again and again. . . . But no one has yet found a case in which true world-class expertise was accomplished in less time. It seems that it takes the brain this long to assimilate all that it needs to know to achieve true mastery.”*
+
+Let’s assume you have talent, whatever that means. If you want to write, why waste time wondering? We all have some abilities and propensities. We all have potential. Now we know that to realize that potential, all we have to do is—work for ten thousand hours.
+
+
+
+*Levitin, Your Brain on Music, 197.

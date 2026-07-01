@@ -1,0 +1,450 @@
+ddia_2e_2026_ch02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: ddia_2e_2026 · chapter: 02
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/ddia_2e_2026_ch02_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (ddia_2e_2026_ch02_ingest.md)
+========================================================================
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 2
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch02_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 |
+| ISBN_electronic | 9781098119065 |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 2 |
+| chapter_title | Defining Nonfunctional Requirements |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 2 defines **nonfunctional requirements (NFRs)** for data-intensive systems via a Twitter/X-style social network case study (lines 1633–3156). Four pillars:
+
+1. **Performance** — response time vs throughput; latency vs service time vs queueing; percentiles; load parameters; metastable failures and retry storms; backoff, circuit breakers, load shedding.
+
+2. **Reliability and fault tolerance** — faults vs failures; hardware/software/human errors; fault-tolerant design; testing; chaos engineering; security briefly noted out of scope.
+
+3. **Scalability** — load description; vertical vs horizontal scaling; shared-nothing architectures; elasticity; fan-out/on-read vs fan-out/on-write timelines.
+
+4. **Maintainability** — operability, simplicity, evolvability; technical debt; big ball of mud; domain-driven design preview.
+
+Case study threads through performance and scalability sections (500M posts/day, celebrity fan-out). [verified from text, lines 1633–3156]
+
+## key_findings
+
+1. **Functional vs nonfunctional** — Speed, reliability, compliance, maintainability as load-bearing requirements equal to features. [verified, 1656–1667]
+
+2. **Social network scale assumptions** — 500M posts/day (~5.7k/s avg, 150k/s spikes); avg 200 follows; celebrity skew. [verified, 1703–1708]
+
+3. **Relational schema baseline** — users, posts, follows tables as starting design. [verified, 1710+]
+
+4. **Home timeline fan-out** — Materialized timelines per user; write amplification on post; celebrity special-casing. [verified, 1750–1807]
+
+5. **Response time vs throughput** — User-facing latency vs resource/cost sizing; queueing links them (Figure 2-3). [verified, 1809–1878]
+
+6. **Metastable failure** — Overload → timeouts → retries → worse overload; may need reboot. [verified, 1846–1857]
+
+7. **Overload controls** — Exponential backoff, circuit breaker, token bucket, load shedding, backpressure. [verified, 1859–1867]
+
+8. **Latency terminology** — Response time includes network/queueing; service time is active processing; latency catch-all for waiting. [verified, 1880–1899]
+
+9. **Percentiles over averages** — p50/p95/p99/tail; SLO thinking; histograms. [verified, 1900+ range]
+
+10. **Describing load** — RPS, fan-out ratio, read/write mix, payload size as scalability inputs. [verified, 2427+]
+
+11. **Reliability definition** — Continue working correctly despite faults; fault ≠ failure. [verified, 2064+]
+
+12. **Fault categories** — Hardware (disk, RAM, power, network), software bugs, human config errors; correlated failures. [verified, 2100+ range]
+
+13. **Fault tolerance tactics** — Redundancy, rolling upgrades, graceful degradation, monitoring, chaos experiments. [verified, 2200+ range]
+
+14. **Scalability** — Ability to increase throughput by adding resources; limited by bottlenecks. [verified, 2384–2426]
+
+15. **Elastic vs scalable** — Cloud elasticity automatic; scalability architectural. [verified, 2450+ range]
+
+16. **Maintainability triad** — Operability (run in prod), simplicity (manage complexity), evolvability (change ease). [verified, 2563+]
+
+17. **Evolvability** — Rolling upgrades, schema evolution foreshadow Ch. 5; DDD/agility references. [verified, 2700+ range]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Early release note + opener | read | 1633–1694 |
+| Case Study: Social Network Home Timelines | read | 1695–1808 |
+| Describing Performance | read | 1809–2063 |
+| Reliability and Fault Tolerance | read | 2064–2383 |
+| Scalability | read | 2384–2562 |
+| Maintainability | read | 2563–2752 |
+| Summary + references | read | 2753–3156 |
+| Chapter 3 opener | **deferred** | 3157+ |
+| Chapters 8–13 | **unavailable** | early release TOC |
+
+- **Lines read:** 1633–3156
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Findings trace to `ddia_2e_2026.txt` line ranges
+
+## pedagogy
+
+### learning_objectives
+
+- Define and measure response time, throughput, and tail latencies
+- Diagnose overload metastability and select client/server mitigations
+- Classify faults and design fault-tolerant data paths
+- Describe load with parameters relevant to scaling decisions
+- Articulate operability, simplicity, and evolvability for long-lived systems
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| X/Twitter scale assumptions | Order-of-magnitude load modeling | 1703–1708 |
+| Fan-out on write vs read timelines | Write amplification trade-off | 1750–1807 |
+| Figure 2-3 throughput→latency | Queueing knee | 1832–1844 |
+| Celebrity post handling | Hot-key / skew mitigation | 1800–1807 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 2.PERF-1 | Timeline load model | Compute fan-out writes/sec for N followers; compare on-read | 1750–1807 |
+| 2.PERF-2 | Percentile SLO | Generate latency histogram; set p99 target | 1900+ |
+| 2.PERF-3 | Retry storm sim | Client retry without backoff; observe metastable curve | 1846–1867 |
+| 2.REL-1 | Fault tree | List single points of failure in timeline design | 2064+ |
+| 2.SCALE-1 | Horizontal vs vertical | Identify bottleneck when doubling posts/sec | 2384+ |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 2 supplies **quantitative NFR vocabulary** for w2:
+
+- **Fan-out and skew** — direct precursor to Ch. 7 hot shards/keys
+- **Tail latency** — RAG/agent p99 matters as much as mean token latency
+- **Evolvability** — bridges to Ch. 5 encoding and rolling deploys
+
+Pair timeline case study with **DDIA Ch. 6–7** when discussing read replicas vs sharding.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical content. Pattern-portable: SLO/percentile monitoring, graceful degradation under load, auditability (reliability).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS Ch. 1–2 overlap on reliability/scale; DDIA deeper on perf percentiles and case study |
+| `ai_engineering_2025` | AIE Ch. 4 eval metrics; DDIA Ch. 2 infra SLO framing |
+| `hands_on_llms_2024` | HOTL defers systems NFRs; DDIA owns load/latency math |
+| `philosophy_software_design_2e_2021` | Ousterhout deep modules vs DDIA evolvability/operability; complementary |
+
+**Dedup rule:** DDIA Ch. 2 for **load models and SLO math**; UDS for quicker distributed failure intro.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong — social network quantitative walkthrough |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — summary 2753; Ch.3 at 3157 |
+| Citation density | High (Hamilton, Beyer SRE, metastable failures) |
+| Child-skill potential | `scholia.fan-out-load-model`, `scholia.tail-latency-slo` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2e 2026 early release |
+| Author authority | **PASS** | Practitioner-researcher pedigree |
+| Citation density | **PASS** | SRE, queueing, chaos, Twitter-scale refs |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Quantitative case study |
+
+### Contested claims
+
+| Claim | Flag |
+|-------|------|
+| Simplified Twitter model | Author admits huge simplification [1700] |
+| Metastable failure prevalence | Production anecdote; domain-specific |
+| Vertical scaling "limited" | Workload-dependent |
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Response time | Client-visible end-to-end delay |
+| Throughput | Requests or data per second |
+| Metastable failure | Overload state persisting after load drops |
+| Fault | Component deviation; failure is user-visible break |
+| Scalability | Throughput gain from added resources |
+| Evolvability | Ease of future change |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 1 architecture framing
+- Forward: Ch. 3 data models (3157+), Ch. 5 evolvability detail (7529+)
+- Ch. 8–13 **[unavailable early release]**
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/ddia_2e_2026_ch02_SLICE.txt)
+========================================================================
+
+# Text slice — ddia_2e_2026_ch02_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ddia_2e_2026 · chapter: 02
+# hooks: 6 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 2
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch02_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 |
+| ISBN_electronic | 9781098119065 |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 2 |
+| chapter_title | Defining Nonfunctional Requirements |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 2 defines **nonfunctional requirements (NFRs)** for data-intensive systems via a Twitter/X-style social network case study (lines 1633–3156). Four pillars:
+
+1. **Performance** — response time vs throughput; latency vs service time vs queueing; percentiles; load parameters; metastable failures and retry storms; backoff, circuit breakers, load shedding.
+
+2. **Reliability and fault tolerance** — faults vs failures; hardware/software/human errors; fault-tolerant design; testing; chaos engineering; security briefly noted out of scope.
+
+3. **Scalability** — load description; vertical vs horizontal scaling; shared-nothing architectures; elasticity; fan-out/on-read vs fan-out/on-write timelines.
+
+4. **Maintainability** — operability, simplicity, evolvability; technical debt; big ball of mud; domain-driven design preview.
+
+Case study threads through performance and scalability sections (500M posts/day, celebrity fan-out). [verified from text, lines 1633–3156]
+
+## key_findings
+
+1. **Functional vs nonfunctional** — Speed, reliability, compliance, maintainability as load-bearing requirements equal to features. [verified, 1656–1667]
+
+2. **Social network scale assumptions** — 500M posts/day (~5.7k/s avg, 150k/s spikes); avg 200 follows; celebrity skew. [verified, 1703–1708]
+
+3. **Relational schema baseline** — users, posts, follows tables as starting design. [verified, 1710+]
+
+4. **Home timeline fan-out** — Materialized timelines per user; write amplification on post; celebrity special-casing. [verified, 1750–1807]
+
+5. **Response time vs throughput** — User-facing latency vs resource/cost sizing; queueing links them (Figure 2-3). [verified, 1809–1878]
+
+6. **Metastable failure** — Overload → timeouts → retries → worse overload; may need reboot. [verified, 1846–1857]
+
+7. **Overload controls** — Exponential backoff, circuit breaker, token bucket, load shedding, backpressure. [verified, 1859–1867]
+
+8. **Latency terminology** — Response time includes network/queueing; service time is active processing; latency catch-all for waiting. [verified, 1880–1899]
+
+9. **Percentiles over averages** — p50/p95/p99/tail; SLO thinking; histograms. [verified, 1900+ range]
+
+10. **Describing load** — RPS, fan-out ratio, read/write mix, payload size as scalability inputs. [verified, 2427+]
+
+11. **Reliability definition** — Continue working correctly despite faults; fault ≠ failure. [verified, 2064+]
+
+12. **Fault categories** — Hardware (disk, RAM, power, network), software bugs, human config errors; correlated failures. [verified, 2100+ range]
+
+13. **Fault tolerance tactics** — Redundancy, rolling upgrades, graceful degradation, monitoring, chaos experiments. [verified, 2200+ range]
+
+14. **Scalability** — Ability to increase throughput by adding resources; limited by bottlenecks. [verified, 2384–2426]
+
+15. **Elastic vs scalable** — Cloud elasticity automatic; scalability architectural. [verified, 2450+ range]
+
+16. **Maintainability triad** — Operability (run in prod), simplicity (manage complexity), evolvability (change ease). [verified, 2563+]
+
+17. **Evolvability** — Rolling upgrades, schema evolution foreshadow Ch. 5; DDD/agility references. [verified, 2700+ range]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Early release note + opener | read | 1633–1694 |
+| Case Study: Social Network Home Timelines | read | 1695–1808 |
+| Describing Performance | read | 1809–2063 |
+| Reliability and Fault Tolerance | read | 2064–2383 |
+| Scalability | read | 2384–2562 |
+| Maintainability | read | 2563–2752 |
+| Summary + references | read | 2753–3156 |
+| Chapter 3 opener | **deferred** | 3157+ |
+| Chapters 8–13 | **unavailable** | early release TOC |
+
+- **Lines read:** 1633–3156
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Findings trace to `ddia_2e_2026.txt` line ranges
+
+## pedagogy
+
+### learning_objectives
+
+- Define and measure response time, throughput, and tail latencies
+- Diagnose overload metastability and select client/server mitigations
+- Classify faults and design fault-tolerant data paths
+- Describe load with parameters relevant to scaling decisions
+- Articulate operability, simplicity, and evolvability for long-lived systems
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| X/Twitter scale assumptions | Order-of-magnitude load modeling | 1703–1708 |
+| Fan-out on write vs read timelines | Write amplification trade-off | 1750–1807 |
+| Figure 2-3 throughput→latency | Queueing knee | 1832–1844 |
+| Celebrity post handling | Hot-key / skew mitigation | 1800–1807 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 2.PERF-1 | Timeline load model | Compute fan-out writes/sec for N followers; compare on-read | 1750–1807 |
+| 2.PERF-2 | Percentile SLO | Generate latency histogram; set p99 target | 1900+ |
+| 2.PERF-3 | Retry storm sim | Client retry without backoff; observe metastable curve | 1846–1867 |
+| 2.REL-1 | Fault tree | List single points of failure in timeline design | 2064+ |
+| 2.SCALE-1 | Horizontal vs vertical | Identify bottleneck when doubling posts/sec | 2384+ |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 2 supplies **quantitative NFR vocabulary** for w2:
+
+- **Fan-out and skew** — direct precursor to Ch. 7 hot shards/keys
+- **Tail latency** — RAG/agent p99 matters as much as mean token latency
+- **Evolvability** — bridges to Ch. 5 encoding and rolling deploys
+
+Pair timeline case study with **DDIA Ch. 6–7** when discussing read replicas vs sharding.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical content. Pattern-portable: SLO/percentile monitoring, graceful degradation under load, auditability (reliability).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS Ch. 1–2 overlap on reliability/scale; DDIA deeper on perf percentiles and case study |
+| `ai_engineering_2025` | AIE Ch. 4 eval metrics; DDIA Ch. 2 infra SLO framing |
+| `hands_on_llms_2024` | HOTL defers systems NFRs; DDIA owns load/latency math |
+| `philosophy_software_design_2e_2021` | Ousterhout deep modules vs DDIA evolvability/operability; complementary |
+
+**Dedup rule:** DDIA Ch. 2 for **load models and SLO math**; UDS for quicker distributed failure intro.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong — social network quantitative walkthrough |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — summary 2753; Ch.3 at 3157 |
+| Citation density | High (Hamilton, Beyer SRE, metastable failures) |
+| Child-skill potential | `scholia.fan-out-load-model`, `scholia.tail-latency-slo` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2e 2026 early release |
+| Author authority | **PASS** | Practitioner-researcher pedigree |
+| Citation density | **PASS** | SRE, queueing, chaos, Twitter-scale refs |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Quantitative case study |
+
+### Contested claims
+
+| Claim | Flag |
+|-------|------|
+| Simplified Twitter model | Author admits huge simplification [1700] |
+| Metastable failure prevalence | Production anecdote; domain-specific |
+| Vertical scaling "limited" | Workload-dependent |
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Response time | Client-visible end-to-end delay |
+| Throughput | Requests or data per second |
+| Metastable failure | Overload state persisting after load drops |
+| Fault | Component deviation; failure is user-visible break |
+| Scalability | Throughput gain from added resources |
+| Evolvability | Ease of future change |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 1 architecture framing
+- Forward: Ch. 3 data models (3157+), Ch. 5 evolvability detail (7529+)
+- Ch. 8–13 **[unavailable early release]**
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

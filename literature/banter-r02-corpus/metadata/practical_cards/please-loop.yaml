@@ -1,0 +1,88 @@
+# R-02 practical cards — please-loop (P-J/K/L)
+pillar_moniker: please-loop
+pillar_ids: [P-J, P-K, P-L]
+lane: L2
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#please-loop
+
+source_ingests:
+  - literature/ingests/braiker_2000_disease_to_please_ch18_chapter_ingest.md
+  - literature/ingests/braiker_2000_disease_to_please_ch19_chapter_ingest.md
+  - literature/ingests/braiker_2000_disease_to_please_ch21_chapter_ingest.md
+  - literature/ingests/braiker_2000_disease_to_please_ch22_chapter_ingest.md
+
+cards:
+  - exercise_name: DAY 1 — Phrases to Buy Time
+    steps:
+      - When asked for a favor or date commitment — insert delay before any yes (Braiker DAY 1 Five-Step Response Sequence).
+      - Use buy-time phrases — hold/excuse without committing (Braiker Phrases_to_Buy_Time hook).
+      - Rehearse phrases out loud to build assertive tone without aggression or over-apology (Braiker Ch18).
+      - Break automatic yes habit — delay between request and response (Braiker DAY 1 finding).
+    cognitive_frame: Approval trap breaks when operator inserts pause — time to consult own preference before pleasing.
+    observables:
+      - Visible pause before agreeing to plans
+      - Operator uses buy-time phrase instead of instant yes
+    contraindications:
+      - buy-time used to string someone along without eventual clarity
+      - persistence-after-no after they accept your no
+    source_anchor: C-EXTB03_CH18-001 · braiker_2000_disease_to_please_ch18_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#please-loop
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: DAY 2 — Broken Record Technique
+    steps:
+      - Acknowledge pressure or guilt-trip without capitulating (Braiker DAY 2 Broken Record).
+      - Calmly repeat boundary message — firm and pleasant tone (Braiker Ch19 finding).
+      - Do not over-explain or escalate — repetition preserves relationship while holding limit (C-EXTB03_CH19-003).
+      - Stop when boundary is clear — not when other person exhausted (σ− no nagging from operator side).
+    cognitive_frame: Broken Record holds message under pressure — tolerating disapproval without over-giving (pillar P-K).
+    observables:
+      - Operator repeats boundary once or twice without argument spiral
+      - Tone stays firm and pleasant
+    contraindications:
+      - Broken Record after clear yes from partner — not for negotiating consent
+      - operator-side persistence-after-no (σ−)
+    source_anchor: C-EXTB03_CH19-003 · braiker_2000_disease_to_please_ch19_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#please-loop
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: DAY 4 — Sandwich Technique
+    steps:
+      - Open with genuine positive rapport element (Braiker DAY 4 Sandwich structure).
+      - State direct refusal in middle — no without excessive justification (Braiker Ch21 key skill).
+      - Close with positive relationship preservation element (Braiker Sandwich_Technique).
+      - Practice for valued relationships — direct no while preserving rapport (C-EXTB03_CH21-001).
+    cognitive_frame: Sandwich delivers no while preserving rapport — shame during awareness is expected; self-compassion over shame-as-fuel (P-L B03 ch11 wire).
+    observables:
+      - Refusal stated clearly in middle of exchange
+      - Operator avoids over-apologizing or over-explaining
+    contraindications:
+      - sandwich so vague the no is missed
+      - verbatim scripts pasted as messages (σ−)
+    source_anchor: C-EXTB03_CH21-003 · braiker_2000_disease_to_please_ch21_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#please-loop
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: DAY 5 — Reverse Sandwich Technique
+    steps:
+      - Use Reverse Sandwich for counteroffers when pressured after initial no (Braiker DAY 5 C-EXTB03_CH22-001).
+      - Expect resistance responses — prepare Broken Record follow-up, not capitulation (Braiker Ch22).
+      - Repeat buy-time and no responses under pressure — skill builds with reps (C-EXTB03_CH21-003).
+      - Label emotions in resistance without changing boundary (C-EXTB03_CH28-005 cross-link).
+    cognitive_frame: Counteroffers need structure too — Reverse Sandwich is for negotiation, not reopening after clear no.
+    observables:
+      - Counteroffer stated once clearly
+      - Operator holds boundary if pressure continues
+    contraindications:
+      - reverse sandwich to re-ask after she said no to date
+      - overexplaining beyond Broken Record repetition (C-EXTB03_CH28-004)
+    source_anchor: C-EXTB03_CH22-003 · braiker_2000_disease_to_please_ch22_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#please-loop
+    operator_fit_tags: [dating-IRL]
+    quality_level: full

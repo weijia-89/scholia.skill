@@ -1,0 +1,111 @@
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 30
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch30_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 30 |
+| **chapter_title** | Continuous delivery and deployment |
+| **page_range** | 289–295; lines 9133–9375 |
+
+---
+
+## scope
+
+**CD/CD pipeline** for safe automated release: four stages (review/build, pre-production, production, rollbacks). Emphasizes config and IaC parity with code; canary/regional rollout; bake time; backward-compatible change sequences.
+
+---
+
+## key_findings
+
+### Motivation
+
+- Manual release → batched changes, hard bisect, engineer babysitting (9138–9155).
+- CD automates rollout + rollback; major failure source → needs safeguards (9164–9169).
+
+### Pipeline stages (Fig 30.1)
+
+1. **Review & build** — PR: compile, static analysis, fast small tests; human checklist (tests, telemetry, breaking changes, rollback) (9177–9211).
+2. **Config/assets/IaC** — version-controlled; config via CD (ch24 link) (9212–9237).
+3. **Build artifact** after merge (9239–9241).
+
+### Pre-production (§30.2)
+
+- Synthetic env; smoke + E2E; ephemeral → persistent mirrored-traffic envs (AWS multi-env) (9246–9261).
+- **Same health signals as production** — avoid second-class pre-prod (9263–9267).
+
+### Production (§30.3)
+
+- **Canary** to small instance subset first (9282–9286).
+- Incremental fleet rollout; spare capacity during deploy (9287–9293).
+- Multi-region: low-traffic region first; staged acceleration after confidence (9295–9305).
+
+### Rollbacks (§30.4)
+
+- Health: E2E, metrics, alerts; monitor **upstream/downstream** too (9310–9323).
+- **Bake time** — peak-only bugs; gate on request volume per endpoint (9324–9331).
+- Auto rollback vs on-call decision; roll-forward for incompatible changes (9333–9345).
+- **Backward compatibility** default; breaking serialization common pitfall (9346–9348).
+- **Three-phase incompatible change:** prepare (consumer reads both) → activate (producer writes new) → cleanup (9349–9372).
+- Upgrade-downgrade test in pre-prod (9373–9375).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 9133–9375 |
+| **Sections** | Intro · §30.1–30.4 |
+| **Figures** | 30.1 pipeline |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Map four CD stages and PR review checklist.
+2. Design canary + regional rollout with bake time.
+3. Execute prepare/activate/cleanup for schema changes.
+4. Treat config/IaC as first-class CD inputs.
+
+### worked_examples_present
+
+**Y** — Messaging schema three-phase rollout; PR checklist.
+
+### exercise_hooks
+
+- Draft CD checklist for a config-only change.
+- Write prepare/activate/cleanup plan for one API field rename.
+
+---
+
+## Operator hooks
+
+**AIE ch.10** deploy/monitoring loop; **pr** skill deploy gates. Config CD closes **UDS ch24** config-failure thread.
+
+**MDCalc [high]:** Validated-model deploy canary; rollback safety for calculator logic changes.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C30-001 | Config via CD pipeline | 9219–9223 |
+| UDS-C30-002 | Canary production start | 9282–9286 |
+| UDS-C30-003 | Bake time peak bugs | 9324–9328 |
+| UDS-C30-004 | Three-phase incompatible change | 9350–9372 |
+
+---
+
+*Ingest · scholia · ≤4500w*

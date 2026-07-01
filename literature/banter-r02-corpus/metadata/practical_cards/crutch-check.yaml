@@ -1,0 +1,70 @@
+# R-02 practical cards — crutch-check (P-B)
+pillar_moniker: crutch-check
+pillar_ids: [P-B]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#crutch-check
+
+source_ingests:
+  - literature/ingests/antony_2017_shyness_sa_workbook_ch06_chapter_ingest.md
+  - literature/ingests/antony_2017_shyness_sa_workbook_ch11_chapter_ingest.md
+
+cards:
+  - exercise_name: Safety Behavior Trial
+    steps:
+      - Pick one safety move from recent date or message thread — script, masking, avoid groups, alcohol, phone bail, safe topics only, ghosting (pillar safety_moves + B01 claims).
+      - Name the feared outcome the move was meant to prevent (C-B01_CH02-002 three-component loop).
+      - Plan one trial without that move — experiment not purge (pillar practical; Meulders 2016 — dropping not mandatory for exposure).
+      - Log anxiety 0–100, prediction, and actual outcome after trial (B01 anxiety diary pattern C-B01_CH03-002).
+    cognitive_frame: Short-term comfort moves block learning — one link change weakens the loop (pillar P-A ELI15 parallel).
+    observables:
+      - Named specific safety move before trial
+      - Operator stayed through agreed end point without substitute crutch
+      - Post-trial log compares prediction to outcome
+    contraindications:
+      - dropping all crutches at once without graded plan
+      - trial framed as proving worth to specific person
+      - persistence-after-no labeled as exposure
+    source_anchor: C-B01_CH01-003 · antony_2017_shyness_sa_workbook_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#crutch-check
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Feared Social Situations Worksheet — Safety Column
+    steps:
+      - List feared dating situations on Feared Social Situations Worksheet (Antony Ch3 hook).
+      - Add column for safety behaviors used in each — reassurance, overcompensation, subtle avoidance (Antony Ch6 finding 5).
+      - Rate how safety behavior maintains fear long-term — honest 0–100 bother rating (Antony severity variables).
+      - Select highest-impact dating safety move for next single trial (Antony prioritize quick-win/high-disability).
+    cognitive_frame: Safety behaviors feel helpful short-term but maintain fear — map before drop trial.
+    observables:
+      - Worksheet includes dating-specific rows (online and IRL)
+      - One move selected per week maximum
+    contraindications:
+      - impression-management masking without values rationale
+      - alcohol before dates without medical/substance gate
+    source_anchor: C-B01_CH02-003 · antony_2017_shyness_sa_workbook_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#crutch-check
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Dating Safety Move Map (Online vs IRL)
+    steps:
+      - Online column — over-preparing script, safe topics only, checking phone to bail, ghosting instead of decline (pillar operator_note).
+      - IRL column — avoiding groups or one-on-one asks, alcohol before dates, impression-management persona (pillar safety_moves).
+      - Cross-link each move to online vs in-person dating context (pillar scholia_open spec fulfilled).
+      - Run crutch-check trial in the context where move most often appears.
+    cognitive_frame: Generic safety examples are weak fit — dating-specific moves are the lever (pillar operator_note).
+    observables:
+      - Two-column map completed
+      - Trial context matches where crutch usually runs
+    contraindications:
+      - staying in bad match to avoid pool re-entry without values review
+      - ghosting framed as self-care without direct decline attempt when safe
+    source_anchor: C-B01_CH02-002 · r02-foundational-guidance-pillars.md P-B safety_moves
+    aletheia_wire: references/model/operator-self-module.md#crutch-check
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full

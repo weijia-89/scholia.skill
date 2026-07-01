@@ -1,0 +1,111 @@
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 32
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch32_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 32 |
+| **chapter_title** | Observability |
+| **page_range** | 315–321; lines 10041–10295 |
+
+---
+
+## scope
+
+**Observability** as superset of monitoring: metrics vs high-dimensional **logs** and **traces** for hypothesis validation. Covers structured logging best practices, cost controls, distributed tracing (OpenZipkin, X-Ray), and unified telemetry model (metrics/traces as aggregates of events).
+
+---
+
+## key_findings
+
+### Framing
+
+- Systems never 100% healthy; resiliency mechanisms add complexity (10045–10052).
+- Operators debug via hypotheses; metrics alone insufficient for slow variance drift (10054–10064).
+- **Observability** minimizes time to validate hypotheses with rich contextual events (10066–10074).
+
+### Telemetry stores
+
+- Metrics: high throughput, low dimensionality (10075–10077).
+- Logs/traces: high dimensionality, lower throughput (10078–10081).
+- Monitoring ⊂ observability (10082–10086).
+
+### Logs (§32.1)
+
+- Immutable timestamped events; structured JSON/Protobuf (10089–10100).
+- Agent → collector (ELK, CloudWatch) (10117–10121).
+- Good for per-request root cause; bad signal/noise, cost, disk risk (10123–10152).
+- **Best practices:** one event per work unit; context object; request ID for joins; sanitize PII (10154–10178).
+- **Cost:** log levels, sampling (prioritize failures), collector rate limits; metrics as aggregates trade drill-down (10182–10208).
+
+### Traces (§32.2)
+
+- Trace = causally linked **spans** for request lifespan (10211–10217).
+- **Trace ID** propagated across threads and HTTP headers (10219–10222).
+- Uses: specific ticket debug, rare failures, bottleneck ID, resource attribution/billing (10242–10262).
+- Hard to retrofit; needs library + third-party support; service mesh helps (10263–10268).
+
+### Putting it together (§32.3)
+
+- Metrics/traces as **derived views** from events; backend rollup (10271–10289).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 10041–10295 |
+| **Sections** | Intro · §32.1 Logs · §32.2 Traces · §32.3 synthesis |
+| **Figures** | 32.1 monitoring vs observability · 32.2 spans |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Contrast monitoring symptoms vs observability root-cause debugging.
+2. Structure per-request log events with correlation IDs.
+3. Explain trace ID propagation and span assembly.
+4. Choose sampling vs full logging under cost constraints.
+
+### worked_examples_present
+
+**Y** — Sample JSON event; span diagram.
+
+### exercise_hooks
+
+- Define work-unit context schema for one handler.
+- List trace propagation gaps in your call graph.
+
+---
+
+## Operator hooks
+
+**AIE ch.10** logs/traces/drift — strongest cross-canon link. **diet** skill for production debugging workflows.
+
+**MDCalc [high]:** PHI sanitization in logs; trace IDs for support-ticket reproduction.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C32-001 | Observability superset of monitoring | 10082–10086 |
+| UDS-C32-002 | One event per work unit | 10156–10161 |
+| UDS-C32-003 | Trace ID propagation | 10219–10222 |
+| UDS-C32-004 | Metrics derived from events | 10279–10285 |
+
+---
+
+*Ingest · scholia · ≤4500w*

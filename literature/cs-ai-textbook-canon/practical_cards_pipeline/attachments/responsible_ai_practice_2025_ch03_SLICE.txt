@@ -1,0 +1,784 @@
+# Text slice — responsible_ai_practice_2025_ch03_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: responsible_ai_practice_2025 · chapter: 03
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Practicehttps://doi.org/10.1007/979-8-8688-1166-1_3
+
+3. Robustness
+
+Toju Duke¹   and Paolo Giudici²
+
+(1)
+
+Bedrock AI, London, UK
+
+(2)
+
+Via San Felice 7, 27100, University of Pavia, Pavia, Italy
+
+ 
+
+In this chapter, we’ll look at “robustness,” another important
+Responsible AI principle and one of the principles in the SAFE-HAI
+framework. We will look at a brief definition of robustness and how it
+relates to the reliability of ML models, with specific reference to
+NIST’s risk management framework. We will also discuss the metrics for
+measuring robustness, with an introduction to the Rank Graduation
+“Robustness” score (RGR). We’ll conclude this chapter with a brief
+analysis of an adversarial benchmark for robustness, recommendations for
+mitigation, and a scoring rubric that could be adopted to analyze the
+robustness scores of your ML models/applications.
+
+Robustness is another fundamental and important principle of Responsible
+AI and AI performance in general. Robustness refers to the sturdiness of
+an ML model to withstand uncertainties (perturbations or adversarial
+conditions) such as cyber attacks, and the ability to perform accurately
+in different contexts. Given the current concerns and unending systemic
+risks identified in AI systems, particularly generative AI, building
+robust ML models is not only advised but critical.
+
+According to NIST’s RMF, an AI system has to be trustworthy. To achieve
+trustworthiness, one of the important characteristics is to have “valid
+and reliable” AI systems. These are reliable systems that have the
+ability to perform as intended without potential failure over a given
+period of time, under specific conditions. Another important component
+of trustworthy AI is the reliability of an AI system to be correct and
+work as intended during its entire life cycle/lifetime. As such,
+accuracy (covered in the previous chapter) and robustness are basic
+components to ensure the validity and reliability of AI systems.
+
+Let’s take a look at the NIST’s definition of robustness – the ISO/IEC
+TS 5723:2022 defines robustness or generalizability as the “ability of a
+system to maintain its level of performance under a variety of
+circumstances.”
+
+In NIST’s risk management framework, robustness, along with accuracy, is
+a key characteristic an AI application/system should have to be
+considered trustworthy and, specifically, reliable. Reliability is
+defined as the “ability of an item to perform as required, without
+failure, for a given time interval, under given conditions.” While a
+valid AI application should be accurate, a reliable AI application must
+be robust.
+
+Robustness is not only the key principle behind reliability but is also
+pivotal for other two trustworthy characteristics in the NIST risk
+management framework, namely, that an application should be secure and
+resilient, as well as safe. The two aspects are distinct, but closely
+related. Safety aims to avoid harms that affect the health of people,
+property, and the environment. Security, on the other hand, aims to
+avoid unauthorized access of data such as adversarial attacks and data
+poisoning. Security is directly related to the notion of robustness and
+specifies its consequences in terms of reliability of an AI application,
+that is, the expectation that it works as expected, whereas safety can
+be seen as an indirect consequence of lack of robustness, which leads to
+unexpected harms on people and the environment. In this chapter, we will
+focus on the measurement of robustness and the “technical” notion that
+underpins reliability, security, resilience, and safety.
+
+The EU AI Act also refers to robustness and the requirement to ensure
+that high-risk AI systems have an appropriate level of robustness and
+cybersecurity in order to perform consistently throughout the life cycle
+of an AI system. It’s required that AI systems are resilient against
+errors, faults, and inconsistencies that could occur in the
+model/application, and appropriate technical measures and solutions are
+included to backup or “fail-safe” plans especially against malicious
+attacks against the training dataset, for example, data poisoning, or
+pretrained models, for example, model poisoning, or adversarial attacks
+aimed at manipulating the results/output of a model which could include
+data leakages and confidentiality attacks.
+
+NIST’s RMF addresses the following question which also aligns with the
+EU AI Act:
+
+- How will we protect the AI system against cyber attacks, adversarial
+  attacks, data poisoning, model leakage, evasion, inversion, etc., and
+  ensure ongoing performance? How will we ensure the system is robust to
+  optimizers that aim to induce specific system responses?
+
+The following sections in this chapter will address this critical
+question.
+
+Measuring Robustness
+
+The measurement of robustness draws on the variation of the output of a
+machine learning model caused by data perturbations, generated
+intentionally (as in cyber attacks) or unintentionally (as in extreme
+rare events). A model is robust when the variation of its output under a
+data perturbation is limited, and it’s not robust otherwise. A more
+precise definition of robustness can be stated for classification
+problems: a classifier is robust if it correctly classifies a large
+proportion of cases, under all possible variations of the input
+variables (within a certain distance, see, e.g., Croce et al., 2023).²⁶
+
+Typically, simpler models with fewer explanatory variables are more
+robust than more complex models, with more feature variables, as the
+sources of anomalous variation are less in the former case. This aspect
+is also known as the bias-variance trade-off (see, e.g., Hastie et al.,
+2023),²⁷ where simple models have more bias than complex models, but
+lower variance. In the measurement of robustness, we will thus consider
+two apparently distinct but related aspects: a direct measurement of
+robustness (ex post), in terms of output variability under data
+perturbations, and an indirect measurement of robustness (ex ante, by
+design), in terms of model comparison and regularization, which leads to
+the selection of a model with an appropriate bias-variance trade-off.
+
+The development of this chapter is based on two main benchmark metrics:
+the RGR metrics, introduced by Giudici and Raffinetti (2024),²⁸ which
+measures the “distance” between the predicted output and the predicted
+output under perturbations, for models based on structured data, and the
+RobustBench metrics, developed by Croce et al. (2023), which measures a
+similar distance, for large language models based on unstructured data.
+
+Model Robustness
+
+In this section, we consider how to measure the robustness of a model
+under perturbations, regardless of their source, that is, whether they
+are intentional or not. These measurements are also applicable to
+cybersecurity, security, and safety (indirectly).
+
+The simplest way to measure robustness is to consider the variability of
+the predictions. For a continuous response, we can resample the
+train-test partition and obtain repeated predictions, one for each
+sample. We can then calculate the mean of the predictions, as well as
+their variance, which measures how robust the predictions are by
+changing the underlying samples. We can also calculate percentiles of
+the predictions, which can be used to support decisions.
+
+We recall that the p-th percentile of a statistical distribution X,
+indicated with xp, can be obtained from the following equation, in which
+“Freq” indicates the frequency (whose limit is the probability):
+
+Freq (X<-xp) = p
+
+Or equivalently
+
+Freq(X > xp) = 1-p
+
+For instance, the 5th percentile, x0.05, is obtained setting
+
+Freq (X<-x0.05) = 0.05
+
+Or equivalently
+
+Freq(X > x0.05) = 0.95
+
+The obtained 5th percentile x0.05 can then be used as a threshold. For
+example, if we repeat machine learning on different samples, to predict
+the value of a specific observation, the prediction will be
+significantly higher than zero if the 5th percentile is greater than
+zero, which means that at least 95% of the predicted values are above
+zero.
+
+For a binary or ordinal response, we can use the entropy or the Gini
+index, instead of the variance, which are both measures of variability
+for categorical variables.
+
+We can exemplify the point with an example, taken from a paper written
+by Babaei and Giudici (2024).²⁹ The authors consider a situation in
+which a platform (Lending Club) assesses, based on a machine learning
+model, whether a set of individuals should be given credit or not –
+considered a binary classification problem. They compare a “classic”
+machine learning model, based on a logistic credit scoring model, with
+the predictions obtained using the Generative Pretrained Transformer
+model (GPT) 3.5, both without training and with 80 examples (against
+30,000 employed by the logistic regression model).
+
+Table 3-1 shows the results of the comparison, comparing the AUROC
+obtained from five different training samples, in which the
+classifications to be predicted are the same (170 individuals).
+
+Table 3-1
+
+Comparison of performance of three models using different training
+samples
+
+                  Min AUC   Max AUC   Mean AUC
+  --------------- --------- --------- ----------
+  Classic model   0.70      0.79      0.75
+  GPT             0.59      0.65      0.61
+  Informed GPT    0.63      0.70      0.67
+
+Table 3-1 shows a GPT model without training examples, outperforming a
+random model, with a mean AUROC of 0.61. When informed with a minimum
+set of examples (80), it already reaches a mean of 0.67. On the other
+hand, a classic model has an accuracy of 0.75, but obtained with 30,000
+examples! It’s important to note that the range of all three models
+(max-min) is quite large, especially when examples are being considered
+(e.g., for the classic model and for the informed GPT).
+
+This indicates that machine learning models, and particularly generative
+AI models, which are based on large training samples, may have a high
+variability (a low robustness) and may therefore be extremely sensitive
+to extreme and/or cyber manipulated data.
+
+However, the method described above is based on the available data and
+may not be able to provide a measure of robustness of the predictions
+under perturbations in the data, especially when extreme perturbations
+lead to data that have not been observed in the available sample. To
+this aim, we propose to extend the Rank Graduation Accuracy (RGA)
+measurement to a Rank Graduation Robustness (RGR) measurement, comparing
+the predictions obtained with the model with those that would be
+obtained under data perturbations. While the RGA is based on the
+difference between the observed cumulative response values calculated
+respectively using the observed and the predicted ranks, the RGR is
+based on the difference between the observed cumulative predicted values
+calculated, respectively, using the available data and the perturbed
+data.
+
+More precisely, the summary of robustness metrics for a model can be
+obtained by considering the area between the dual Lorenz curve and the
+concordance curve, derived using the ranks of the predictions obtained
+with perturbed data, and dividing it by its maximum possible value – the
+area between the dual Lorenz curve and the concordance curve. This is
+considered the Rank Robustness (RGR) measure.
+
+Mathematically, the Rank Graduation Robustness measure (RGR) is defined
+by
+
+sum(Q’i-QPi)/sum(Q’i-Qi),
+
+where Q’i is the dual Lorenz curve, Qi is the concordance curve obtained
+using the ranks of the predictions, and QPi is the concordance curve
+obtained using the ranks of the perturbed predictions.
+
+The RGR measure has some important properties, in particular:
+
+1.  1)
+
+    It is normalized: RGR=0 in the worst case of a nonrobust model;
+    RGA=1 for the best case of a perfectly robust model; otherwise,
+    0<RGA<1.
+
+     
+
+2.  2)
+
+    To assess whether the RGR metric passes a set threshold indicating a
+    minimum level of accuracy, a statistical test for RGR has to be
+    made. When the response Y is binary, the test coincides with
+    DeLong’s test. In general, a statistical test based on U-statistics
+    can be derived. In all cases, the higher the RGR, the higher the
+    predictive accuracy, and the smaller the p-value, the more
+    significant is the found RGA with respect to a given lower bound.
+
+     
+
+Let’s exemplify the calculation with a numerical example. Consider the
+predictions obtained in Table 2-3 of Chapter 2, and suppose a cyber
+attack that poisons the input data of the input (explanatory) variables
+occurs, resulting in the perturbed predictions in the third column of
+Table 3-2.
+
+Table 3-2
+
+Calculation of the RGR measure for a predictive problem
+
+  Individual   Observed Response   Predicted Response   Qi     Qi’    Predicted Perturbed   Perturbed Ranks   QPi    Q’i-Qi   Q’i-QPi
+  ------------ ------------------- -------------------- ------ ------ --------------------- ----------------- ------ -------- ---------
+  1            50                  70                   0.14   0.26   110                   4                 0.20   0.12     0.06
+  3            100                 80                   0.3    0.5    80                    1                 0.44   0.2      0.06
+  2            80                  100                  0.5    0.7    100                   3                 0.60   0.2      0.10
+  5            150                 120                  0.74   0.86   120                   5                 0.70   0.12     0.16
+  4            120                 130                                90                    2                                  
+
+From Table 3-2, it shows that the sum of the differences of Q’i-QPi is
+equal to 0.48, whereas the sum of Q’i-Qi is equal to 0.64, from which
+the value of RGR is 0.48/0.64=0.75, indicating a reasonable level of
+robustness of the predictions against this perturbation. Looking at the
+data, this is due to the fact that the main changes in the predicted
+ranks occur for individuals 1 and 4 whose ranks become fourth and second
+vs. first and fifth according to the predicted model.
+
+The exercise can be repeated many times, possibly considering a set of
+sample perturbations of the input variables and the mean RGR calculated.
+An AI application will be deemed robust if the average RGR is
+significantly higher than a given bound (determined by a set risk
+appetite). We can also evaluate whether the perturbation significantly
+deteriorates the prediction obtained with the original data, with a
+similar resampling test, which is implemented in the Python code
+referenced in the case study and provided in the appendix of the book.
+
+Let’s now consider, as a further example, a classification problem. This
+allows us to provide an intuitive explanation for the very important
+case of classifier robustness to cyber attacks, much considered in the
+literature on adversarial robustness (see, e.g., Croce et al., 2023, for
+a review). This widely debated stream of research considers both the
+case of white-box attacks (for which the machine learning model is
+known) and that of black-box attacks (in which the machine learning
+model is not known). In both cases, the aim of the attack is to alter
+the model classification based on the predicted values without
+perturbations. The literature also considers the case of generic attacks
+aimed, for example, at corrupting the available input images or texts.
+This situation can be analyzed as previously described for predictive
+problems, with continuous response variables.
+
+Similar to accuracy, we suggest using the same metrics as for the
+continuous case: the RGR measure. The advantage of using a unified
+measure is evident also in this case – the robustness of the model to
+different cyber attacks can be measured in the same fashion regardless
+of the aim of the attack by altering the classifications or more simply
+corrupting the predictions.
+
+Here’s a numerical example for this. Consider the classifications
+obtained in Table 2-6 in Chapter 2, and suppose a cyber attack that
+poisons the input data of the input (explanatory) variables occurs,
+resulting in the altered classifications in the third column below.
+Specifically, we suppose that the cyber attack alters only the
+prediction for the individual n.2, with the aim of altering its
+classification (e.g., bringing it closer to a “1” classification, rather
+than a “0”).
+
+From Table 3-3, we obtain that the sum of Q’i-Qi (maximum possible
+perturbation) is equal to 1.31, whereas the sum of Q’i-QPi (actual
+perturbation effect) is equal to 0.89, leading to an RGR equal to 68%, a
+value which indicates limited robustness, which requires attention.
+
+Table 3-3
+
+Calculation of the RGR measure for a classification problem
+
+  Individuals   Observed Response   Predicted Response   Qi     Qi’    Predicted Perturbed   Perturbed Ranks   QPi    Q’i-Qi   Q’i-QPi
+  ------------- ------------------- -------------------- ------ ------ --------------------- ----------------- ------ -------- ---------
+  2             0                   0.10                 0.04   0.32   0.60                  3                 0.19   0.28     0.13
+  5             1                   0.46                 0.21   0.58   0.46                  1                 0.34   0.37     0.24
+  1             0                   0.52                 0.41   0.79   0.52                  2                 0.50   0.38     0.29
+  4             1                   0.71                 0.68   0.96   0.71                  4                 0.73   0.28     0.23
+  3             1                   0.85                               0.85                  5                 1                
+
+We conclude this section with the Python code required to calculate the
+RGR, for any given machine learning application.
+
+The function is called
+
+- check_robustness
+
+It provides different functions related to the calculation of the Rank
+Graduation Robustness measure (RGR).
+
+The RGR function can calculate the Rank Graduation Robustness (RGR) of a
+model, for classification (categorical response) or for prediction
+(continuous response). It requires a preliminary setup of the type of
+data perturbation that will be applied to the model. For example, we can
+consider extracting from the available highest values (e.g., higher than
+the 95th percentile) of an explanatory variable and replace them with
+the lowest values (e.g., lower than the 5th percentiles) and vice versa.
+
+Then, the function rgr.single (variable, perturbation.percentage=0.05)
+perturbs the training values of a (single) selected explanatory variable
+swapping the values in the 5% lower tail of the corresponding
+distribution with the values in the 5% upper tail. The default value of
+5% can be changed.
+
+Alternatively, the user can use the function
+rgr.all(perturbation.percentage=0.05) which perturbs in a similar
+fashion all explanatory variables.
+
+More details on the Python implementation, including a statistical test
+for RGR, which provides a corresponding p-value are provided in the
+appendix.
+
+Model Comparison
+
+To improve the robustness and cybersecurity of AI applications (their
+sustainability), we can also work on the structure (the architecture) of
+a machine learning model, reducing the number of predictors and/or of
+their functions involved in the model. It is well known that a complex
+model may improve the accuracy of a model (its bias) but at the expense
+of a higher variance of the results, leading to possible overfitting. To
+solve this problem, which helps with the selection of a model with the
+appropriate bias-variance trade-off, several approaches have been
+proposed for model comparison. The most important of them can be
+classified as dimensionality reduction methods, stepwise selection
+methods, and regularization methods.
+
+Dimensionality reduction methods aim at summarizing the available input
+variables in a smaller set of variables, which are functions of the
+original variables. The most known method is based on the principal
+components, which replaces k variables with p linear combinations of
+them, where p is much lower than k. In the principal component method,
+the p linear combinations are chosen to minimize the loss in variability
+or, equivalently, the loss in statistical information which derives from
+reducing the number of variables from k to p.
+
+The obtained transformed variables have the advantage of being
+uncorrelated with each other so that, for example, the explained
+variance of the response attributed to a model with all components will
+be the sum of the explained variances of the single components. A second
+advantage, already mentioned, is the gain in dimensionality reduction,
+which means a much lower cost in computations and a consequent lower
+consumption of energy. A disadvantage of this methodology is that the
+components are combinations of many variables, and it is often not clear
+how to interpret them especially when they do not have a common physical
+meaning. It is also important to standardize or normalize the original
+variables before performing a principal component analysis; otherwise,
+the variables expressed in a lower scale (higher magnitude) will
+dominate the others in terms of variability and, consequently, will have
+a much higher weight in the linear combinations.
+
+When the available variables are not numerical, it is not possible to
+run principal component analysis. However, a similar technique, named
+correspondence analysis, can be run on the frequencies of the available
+categories, and linear combinations can be obtained minimizing the
+reduction in the appropriate distance metric (such as the chi-square
+distance).
+
+Model selection and regularization methods maintain all original
+variables and compare all model combinations that can be obtained, which
+is quite different from principal component analysis. It is important to
+note that the number of possible models grows exponentially with the
+number of variables. For example, with three explanatory variables, the
+number of possible models is 2^(3*2)/2 = 8; with four variables,
+2^(4*3)/2= 64; and with five variables, 2^(5*4)/2 = 1024. In general,
+with p variables, it is 2^(p*p-1)/2.
+
+The two most important strategies for model selection are stepwise model
+selection and regularization methods.
+
+Stepwise methods can be either forward or backward.
+
+In a forward model selection procedure, models are compared in
+increasing complexity. That is, we first compare the model with no
+explanatory variables vs. the best model with one variable; then, if the
+best model with one variable wins, we compare it with the best model
+with two variables. If the best model with two variables loses, we stop
+and finally choose the best model with one variable. Otherwise, we
+proceed and compare the best model with two variables against the best
+model with three variables and so on until we stop. Note that the
+decision of who wins and also the decision of when to stop are
+determined by the choice of appropriate accuracy metrics. Typically,
+researchers and practitioners use AUROC for binary classifications and
+RMSE for predictive problems, with the related statistical tests, such
+as DeLong and Diebold and Mariano tests, mentioned in Chapter 2, which
+opt to reject the simpler model when the p-value is small.
+
+In a backward model selection procedure, models are compared in
+decreasing complexity. We first compare the most complex model with all
+variables (the full model) with a model that has all variables but one.
+If the latter wins, we compare it with a model that has all variables
+but two. If the latter loses, we stop. If the model without two
+variables wins, we compare it with a model with all variables but three,
+and so on, until we stop. As in the forward procedure, the decision of
+who wins and the decision of when to stop are determined by the choice
+of accuracy metrics, such as AUROC and RMSE, and of the related tests.
+Backward model selection is computationally more costly (as it starts
+the comparison from the most complex model), but it has the advantage of
+taking into account all variables and their interactions.
+
+In stepwise selection models, the best model is chosen a posteriori,
+after a collection of models have been fit and compared (how many depend
+on when the sequence is stopped), while in regularization methods, the
+choice is done a priori, on the basis of an optimization method. The
+main idea is to fit a full model, with all variables, but estimate its
+parameters (coefficients) taking into account model complexity. More
+precisely, when regularization is not applied, a full model is estimated
+by choosing the parameters that minimize an appropriate distance between
+the observed and the estimated values, such as the mean squared error.
+
+Mathematically, the parameters are chosen minimizing
+
+sum(y_i-ypred_i)^2,
+
+which is the distance between the vector containing the true values, y,
+and the vector containing the predicted values, ypred.
+
+When ridge regularization is applied, the function to be minimized is
+the same distance plus a penalization term that is an increasing
+function of the sum of the squares parameter values. Doing so, we reduce
+the space of solutions to those that have a sum of parameters smaller
+than a set value. This implies that some coefficients will have
+parameter estimates very close to zero.
+
+Mathematically, with ridge regularization, the parameters are chosen
+minimizing
+
+sum(y_i-ypred_i)^2+penalty*sum(beta)^2,
+
+which is the distance between the vector containing the true values, y,
+and the vector containing the predicted values, ypred, plus a penalty
+term which multiplies the sum of the squares of the parameters of the
+model.
+
+When lasso regularization is applied, the penalization term is instead
+an increasing function of the sum of the absolute values of the
+parameter values. This implies that some coefficients may actually
+become zero, thereby reducing ex ante the number of explanatory
+variables.
+
+Mathematically, with lasso regularization, the parameters are chosen
+minimizing
+
+sum(y_i-ypred_i)^2+penalty*sum(|beta|),
+
+which is the distance between the vector containing the true values, y,
+and the vector containing the predicted values, ypred, plus a penalty
+term which multiplies the sum of the absolute values of the parameters
+of the model.
+
+Using either stepwise or regularization, the result of model comparison
+will be a selected model which will be more parsimonious and, therefore,
+more stable against extreme variations (or cyber attacks) in the data –
+a model that will not significantly lose predictive accuracy with
+respect to a full model.
+
+We now go back to the choice of metrics that can be used to compare
+models in a stepwise procedure. When we can assume an underlying
+probabilistic structure, the difference in likelihood between two nested
+models can be calculated, and a statistical test, such as the F-test for
+a continuous response or the chi-square test for a binary response, can
+be implemented to assess whether the difference is significant. For
+example, if models are compared in a backward perspective, removing one
+variable at a time, starting from the fully parameterized model (with
+the highest likelihood), the test can provide a stopping rule, based on
+the p-values of the test. This procedure could lead to a model that,
+while still accurate, is more parsimonious and, therefore, more
+sustainable than the full model.
+
+When a probabilistic model cannot be assumed, as in many realistic
+machine learning models, a stepwise procedure can also be undertaken by
+ordering variables with an explainability criterion, such as their
+Shapley values. You could then employ a stopping rule based on the
+comparison of predictive accuracy, either in terms of Diebold and
+Mariano’s test (when the response variable is continuous) or in terms of
+DeLong’s test (when the response variable is binary).
+
+The stopping rule will add variables as long as predictions are
+different, that is, until the difference in predictive accuracy between
+two consecutive models is large and the p-value smaller than a set
+threshold.
+
+Instead of using separate metrics and tests for the binary and
+continuous case, we can also use the RGA metrics proposed in the last
+chapter and the related test, as in the Python code that is provided in
+the appendix.
+
+We now exemplify the application of RGR for model comparison. Suppose we
+need to compare three alternative models – a linear regression model, a
+regression tree model, and a random forest model – on a set of simulated
+data, to which we apply random perturbations characterized by the 15% of
+lower and the 15% of upper outliers. While the linear regression model
+is explainable by design and the regression tree can be explained by
+visualizing the tree, the random forest is a black-box machine learning
+model.
+
+We aim to assess whether the degree of robustness associated with each
+model when they are contaminated with the same anomalous observations
+produces significantly different results. The obtained findings are
+displayed in Table 3-4.
+
+Table 3-4
+
+Model comparison based on the RGR measure
+
+        Model Comparison                       
+  ----- ------------------- ----------------- ---------------
+        Linear regression   Regression tree   Random forest
+  RGR   0.7976              0.8137            0.9683
+
+From Table 3-4, note that the random forest model appears more robust
+than both the linear regression model and the regression tree model,
+with the RGR measure achieving a value which is close to one. We further
+investigate this conclusion by checking whether the robustness degree
+associated with the random forest model is significantly different with
+respect to that related to the linear regression model and the
+regression tree model. The RGR-based statistical test provides a p-value
+smaller than 0.001 when comparing the linear regression model with the
+random forest model and also when comparing the regression tree model
+with the random forest model. This implies that the random forest model
+is actually more robust than the other two competitors. Based on these
+findings, it seems that, despite their black-box nature, random forest
+models provide more stable outcomes than white-box models.
+
+With the purpose of further investigating the efficiency of our
+proposal, we increase the number of predictors from one to four in order
+to evaluate if increasing the complexity may affect the models’
+performance in terms of robustness.
+
+To do so, we generate data from a five-dimensional Gaussian distribution
+with a prespecified variance-covariance matrix and vector of mean
+values. More precisely, we suppose that the variable which is selected
+as a target variable, Y, is associated with the remaining variables
+according to a common correlation coefficient, which can take four
+possible values: rho=(0.6,0.4,0.3,0.1). Based on these settings, we
+simulate the data and fit three alternative machine learning models –
+linear regression, regression trees, and random forests – and we compute
+the corresponding predicted values.
+
+Similarly to what we previously described, we apply the scenario
+characterized by a perturbation of 15% of lower outliers and of 15% of
+upper outliers, this time to all four predictors.
+
+The findings provided by the application of the linear regression model,
+the regression tree, and the random forest model to the new simulated
+data are displayed in Table 3-5.
+
+Table 3-5
+
+Model comparison based on the RGR measure for a higher dimensional
+problem
+
+        Model Comparison                       
+  ----- ------------------- ----------------- ---------------
+        Linear regression   Regression tree   Random forest
+  RGR   0.7449              0.9395            0.9782
+
+Table 3-5 confirms the previous findings: linear regression is the least
+robust model, and the random forest is the most robust. Note also that
+while the robustness of linear regression and random forest does not
+change sensibly increasing model complexity, that of the tree models
+gets much worse. This is likely due to the “local” behavior of tree
+models, which rapidly increase complexity when even a small number of
+observations behave differently from the others.
+
+The findings provided by the application of the linear regression model,
+the regression tree, and the random forest models show that the linear
+regression model improves its robustness when model complexity
+increases, whereas the regression tree considerably worsens its
+performance. Finally, the random forest model presents only a slight
+worsening, preserving its robustness to the presence of outlying
+observations. To sum up, the application shows that random forest models
+are more robust than the other two models and are thus recommended for
+the considered problem.
+
+More generally, random forests, and similar ensemble models, such as
+gradient boosting, can provide a good trade-off between accuracy and
+robustness, which are often at odds, especially for highly complex
+neural network models: very accurate, but with a limited robustness.
+
+Adversarial Robustness Benchmark
+
+As with any ML model launch or application, the use of benchmarks is
+always highly recommended and is applicable to robustness. Adversarial
+robustness refers to the model’s ability to resist being fooled by
+malicious actors. Croce et al. introduced “RobustBench: a standardized
+adversarial robustness benchmark” (cited above) which evaluates
+adversarial robustness using AutoAttack, a combination of white- and
+black-box attacks. The benchmark consists of the following:
+
+- An open source website with a leaderboard on GitHub which contains
+  over 120 evaluations of models, aimed at reflecting the current state
+  of the art (SOTA) in image classification models on a set of
+  well-defined tasks, among others. Users are able to track the progress
+  of the evaluations and the current SOTA based on a standardized
+  evaluation using AutoAttack.
+
+- The library also provides access to over 80 models (model zoo) to
+  facilitate downstream applications, which facilitates the development
+  of improved adversarial attacks as ML engineers can perform
+  evaluations on a large set of over 80 models.
+
+- RobustBench also analyzes the “impact of robustness on the performance
+  on distribution shifts, calibration, out-of-distribution detection,
+  fairness, privacy leakage, smoothness, and transferability,” based on
+  the collection of models from the model zoo.
+
+While performing robustness evaluations is highly recommended and
+crucial to the success of an ML model/application, it’s important to
+note that there are trade-offs with accuracy, where adoption of
+adversarial robustness could affect performance, leading to severe
+accuracy penalties. In early 2023, Bai et al. introduced a way to
+alleviate these trade-offs through “adaptive smoothing.”³⁰ Adaptive
+smoothing mixes the output probabilities of a standard classifier and a
+robust classifier while optimizing for clean accuracy. The method
+includes adapting an adversarial input detector into a mixing network
+which adjusts the mixture of the two base models – the robust base
+classifier and the standard classifier. This flexible mixture-of-experts
+(MoE) framework has proven to reduce the accuracy penalty of achieving
+robustness, further leading to clean accuracy, robustness, and adversary
+detection. Adaptive smoothing also uses AutoAttack to evaluate
+robustness. As discussed for accuracy in the previous chapter,
+benchmarks are important to assess compliance, but they cannot be simply
+adoped in a risk management model; for that purpose, a statistical
+metric, such as RGR, is necessary.
+
+Scoring Rubric
+
+Once the outlined measurement metrics for RGR have been completed, it’s
+important to score the robustness of your model(s). Here’s a simple
+scoring rubric for robustness.
+
+Table 3-6
+
+A scoring rubric for robustness
+
+                                                   Excellent   Good      Fair      Borderline   Poor
+  ------------------------------------------------ ----------- --------- --------- ------------ --------
+  What is the robustness score of your model(s)?   75%–90%     70%–75%   60%–70%   40%–60%      0%–40%
+
+Mitigation
+
+Now that you have a thorough understanding of how to measure the
+robustness of your model(s), including a component analysis, and you’re
+able to run several benchmarks to test the robustness of your model,
+it’s important you work on improving the robustness of your model if it
+comes up with a low score.
+
+Depending on the issue, there are various ways to improve the robustness
+of your ML model. A few recommendations have been mentioned such as a
+model selection and evaluation. Here are some additional
+recommendations:
+
+1.  1.
+
+    Have a thorough understanding of the data: Conduct exploratory data
+    analysis, identify potential outliers, understand the relationships
+    between the various variables in the dataset(s), and gain some
+    overall understanding of the structure of the data use.
+
+     
+
+2.  2.
+
+    Conduct data preprocessing: This is an important step in the ML
+    pipeline and includes tasks such as normalizing numerical variables
+    or dealing with class imbalance in the target variable. Data
+    preprocessing makes the data compatible with your selected ML
+    algorithm and helps to improve the algorithm’s ability to uncover
+    meaningful patterns.
+
+     
+
+3.  3.
+
+    Adopt feature engineering: This creates new features from existing
+    ones and has a significant impact on the performance of an ML model,
+    helping to capture important aspects of the data that the model may
+    not have identified, further improving the model’s predictive power.
+
+     
+
+4.  4.
+
+    Perform cross-validation: Cross-validation is an important technique
+    that helps to prevent overfitting, where the model memorizes data
+    and performs poorly on unseen data (also explained in Chapter 2). To
+    avoid overfitting, divide the data into training and validation sets
+    several times, which helps to ensure the model generalizes well on
+    unseen data. As accuracy and robustness go hand in hand, this
+    technique will also invariably improve the robustness of a model.
+
+     
+
+5.  5.
+
+    Keep up to date with the latest research developments: Keeping up to
+    date with the latest research in the ever-evolving field of ML will
+    help you learn the newest research methods to adopt, ensuring more
+    robust models – including the robustness of generative AI models,
+    which have much more amounts of data and have been “jailbreaked”
+    quite often.³¹
+
+     
+
+In this chapter, we covered the meaning of robustness and its importance
+and how to measure the robustness of ML models using the RGR value with
+comparisons between a random forest model and a linear regression model.
+We also discussed benchmarks for robustness and ways to improve the
+robustness of your models if they have a poor robustness score. In the
+following chapter, we’ll look at “explainability” and the importance of
+developing explainable and transparent ML models.
+
+© Toju Duke and Paolo Giudici 2025
+
+T. Duke, P. GiudiciResponsible AI in

@@ -1,0 +1,260 @@
+understanding_distributed_systems_2022_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 06
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch06_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch06_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 6
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch06_ingest.md |
+| text_lines_read | 1952–2064 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 6 |
+| chapter_title | System models |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 6 introduces **formal system models** for reasoning about distributed algorithms by abstracting implementation. Three dimensions: **communication links** (fair-loss, reliable, authenticated reliable—with TCP/TLS as real implementations), **process failures** (Byzantine/arbitrary up to f of 3f+1 tolerance, crash-recovery, crash-stop), and **timing** (synchronous, asynchronous, partially synchronous). Book default: **fair-loss links + crash-recovery processes + partial synchrony**. Emphasizes models are wrong but useful; question assumptions against production reality.
+
+---
+
+## Key findings
+
+1. **Communication link models** (lines 1963–1985): **Fair-loss:** messages may be lost/duplicated; retransmit eventually delivers. **Reliable:** exactly-once delivery; implement via dedup on fair-loss. **Authenticated reliable:** reliable + sender authentication. TCP ≈ reliable; TLS ≈ authentication layer.
+
+2. **Process failure models** (lines 1987–2011): **Arbitrary/Byzantine:** any deviation; tolerates up to ⌊(n-1)/3⌋ faulty (Lamport); for safety-critical/untrusted parties (aircraft, Bitcoin)—**out of book scope**. **Crash-recovery:** correct algorithm but crash loses in-memory state; **book default**. **Crash-stop:** no recovery after crash; models hardware/permanent failure; simpler algorithms.
+
+3. **Timing models** (lines 2013–2040): **Synchronous:** bounded message/operation time—unrealistic (GC pauses, network delays). **Asynchronous:** unbounded time—many problems unsolvable (infinite stall). **Partially synchronous:** mostly synchronous—representative of real systems.
+
+4. **Default model** (lines 2041–2051): Fair-loss + crash-recovery + partial synchrony for remainder. Deeper theory: Cachin et al. "Introduction to Reliable and Secure Distributed Programming."
+
+5. **Models vs. reality** (lines 2048–2051): "All models are wrong"—operators must imagine breakage modes when assumptions fail.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Define fair-loss, reliable, and authenticated reliable links.
+2. Contrast Byzantine, crash-recovery, and crash-stop process models.
+3. Explain why asynchronous models limit solvable problems.
+4. State the book's default system model triple.
+
+### worked_examples_present
+
+**N** — Conceptual taxonomy only; maps to prior TCP/TLS chapters.
+
+### exercise_hooks
+
+1. Map a production outage to which model assumption broke.
+2. Decide whether Byzantine model applies to a given multi-tenant SaaS.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.6 System models (full) | Read | lines 1952–2064 |
+| Ch.7+ | Deferred | line 2065 onward |
+
+---
+
+## Operator hooks
+
+Theoretical foundation for **Part II Coordination**; aligns with **DDIA** fault-tolerance framing. Essential before Raft/CAP chapters.
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Classic distributed-systems taxonomy with primary refs (Lamport Byzantine, Chandra failure detectors).
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| Fair-loss link | May lose/duplicate; eventual delivery if sender retries |
+| Crash-recovery | Process may crash and restart losing RAM state |
+| Partial synchrony | System synchronous most of the time |
+| Byzantine fault | Arbitrary process misbehavior |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch06_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch06_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 06
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+
+   Part II
+
+Coordination
+
+
+Introduction
+
+     “Here is a Raft joke. It is really a Paxos joke, but easier to
+     follow.”
+
+     – Aleksey Charapko
+
+So far, we have learned how to get processes to communicate reli-
+ably and securely with each other. We didn’t go into all this trou-
+ble just for the sake of it, though. Our ultimate goal is to build
+a distributed application made of a group of processes that gives
+its users the illusion they are interacting with one coherent node.
+Although achieving a perfect illusion is not always possible or de-
+sirable, some degree of coordination is always needed to build a
+distributed application.
+
+In this part, we will explore the core distributed algorithms at the
+heart of distributed applications. This is the most challenging part
+of the book since it contains the most theory, but also the most re-
+warding one once you understand it. If something isn’t clear dur-
+ing your ﬁrst read, try to read it again and engage with the content
+by following the references in the text. Some of these references
+point to papers, but don’t be intimidated. You will ﬁnd that many
+papers are a lot easier to digest and more practical than you think.
+There is only so much depth a book can go into, and if you want
+to become an expert, reading papers should become a habit.
+
+Chapter 6 introduces formal models that categorize systems based
+on what guarantees they offer about the behavior of processes,
+communication links, and timing; they allow us to reason about
+
+                                                                56
+
+
+distributed systems by abstracting away the implementation de-
+tails.
+Chapter 7 describes how to detect that a remote process is unreach-
+able. Failure detection is a crucial component of any distributed
+system. Because networks are unreliable, and processes can crash
+at any time, without failure detection a process trying to commu-
+nicate with another could hang forever.
+Chapter 8 dives into the concept of time and order. We will ﬁrst
+learn why agreeing on the time an event happened in a distributed
+system is much harder than it looks and then discuss a solution
+based on clocks that don’t measure the passing of time.
+Chapter 9 describes how a group of processes can elect a leader
+that can perform privileged operations, like accessing a shared re-
+source or coordinating the actions of other processes.
+Chapter 10 introduces one of the fundamental challenges in dis-
+tributed systems: replicating data across multiple processes. This
+chapter also discusses the implications of the CAP and PACELC
+theorems, namely the tradeoff between consistency and availabil-
+ity/performance.
+Chapter 11 explores weaker consistency models for replicated data,
+like strong eventual consistency and causal consistency, which al-
+low us to build consistent, available, and partition-tolerant sys-
+tems.
+Chapter 12 dives into the implementation of ACID transactions
+that span data partitioned among multiple processes or services.
+Transactions relieve us from a whole range of possible failure sce-
+narios so that we can focus on the actual application logic rather
+than all the possible things that can go wrong.
+Chapter 13 discusses how to implement long-running atomic
+transactions that don’t block by sacriﬁcing the isolation guar-
+antees of ACID. This chapter is particularly relevant in practice
+since it showcases techniques commonly used in microservice
+architectures.
+
+Chapter 6
+
+System models
+
+To reason about distributed systems, we need to deﬁne precisely
+what can and can’t happen. A system model encodes expectations
+about the behavior of processes, communication links, and timing;
+think of it as a set of assumptions that allow us to reason about
+distributed systems by ignoring the complexity of the actual tech-
+nologies used to implement them.
+
+For example, these are some common models for communication
+links:
+
+   • The fair-loss link model assumes that messages may be lost
+     and duplicated, but if the sender keeps retransmitting a mes-
+     sage, eventually it will be delivered to the destination.
+   • The reliable link model assumes that a message is delivered
+     exactly once, without loss or duplication. A reliable link can
+     be implemented on top of a fair-loss one by de-duplicating
+     messages at the receiving side.
+   • The authenticated reliable link model makes the same assump-
+     tions as the reliable link but additionally assumes that the
+     receiver can authenticate the sender.
+
+Even though these models are just abstractions of real communi-
+cation links, they are useful to verify the correctness of algorithms.
+And, as we have seen in the previous chapters, it’s possible to build
+
+CHAPTER 6. SYSTEM MODELS                                                  58
+
+
+a reliable and authenticated communication link on top of a fair-
+loss one. For example, TCP implements reliable transmission (and
+more), while TLS implements authentication (and more).
+
+Similarly, we can model the behavior of processes based on the
+type of failures we expect to happen:
+
+

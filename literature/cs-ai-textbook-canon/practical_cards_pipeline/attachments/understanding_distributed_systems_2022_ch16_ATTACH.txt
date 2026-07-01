@@ -1,0 +1,401 @@
+understanding_distributed_systems_2022_ch16_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 16
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch16_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch16_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 16
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch16_ingest.md |
+| text_lines_read | 5086–5279 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 16 |
+| chapter_title | Partitioning |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Data partitioning/sharding: gateway routing, cross-partition costs, range vs hash partitioning, static vs dynamic rebalance, consistent hashing.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Costs** (5105–5134): Routing, scatter-gather, multi-partition txs, hotspots, rebalance; caches partition well.
+2. **Range** (5150–5204): Lexicographic ranges; date hotspots; static many-partitions vs dynamic split/merge.
+3. **Hash** (5207–5272): Uniform hash; mod N mass reshuffle; consistent hashing ring minimizes movement.
+
+---
+
+## Section digest (anchored)
+
+### §16.1 Range (5150–5204)
+
+Figures 16.1–16.2.
+
+### §16.2 Hash (5207–5272)
+
+Figures 16.3–16.5 consistent hashing.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Explain partitioning role in Cruder scale path.
+2. Apply patterns to operator cloud stack.
+
+### worked_examples_present
+
+**Y** — Cruder narrative + figures cited in text.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Design hook:** Apply Partitioning to one operator static-asset path.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.16 full slice | Read | 5086–5279 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 5086–5279 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+Core pattern for ch19 DB scale, ch20 cache sharding, ch23 broker partitions.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | Medium — parallel themes at data layer |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (figures).
+- **Chapter boundary:** Clean.
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Primary papers and vendor docs in footnotes |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Cruder + cloud refs |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Next UDS ch | Scale path continues |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 5086–5279 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Partitioning | Partitioning per chapter |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch16_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch16_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 16
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+the actual server, clients are unaware that they are communicating
+through an intermediary (see Figure 14.3).
+
+
+
+
+Figure 14.3: A reverse proxy acts as an intermediary between the
+clients and the servers.
+
+A common use case for a reverse proxy is to cache static resources
+returned by the server. Since the cache is shared among the clients,
+it will decrease the load of the server a lot more than any client-side
+cache ever could.
+  3
+      “CQRS,” https://martinfowler.com/bliki/CQRS.html
+  4
+      This is another instance of functional decomposition.
+
+CHAPTER 14. HTTP CACHING                                          149
+
+
+Because a reverse proxy is a middleman, it can be used for much
+more than just caching. For example, it can:
+      • authenticate requests on behalf of the server;
+      • compress a response before returning it to the client to speed
+        up the transmission;
+      • rate-limit requests coming from speciﬁc IPs or users to pro-
+        tect the server from being overwhelmed;
+      • load-balance requests across multiple servers to handle more
+        load.
+We will explore some of these use cases in the next chapters. NG-
+INX5 and HAProxy6 are widely-used reverse proxies that we could
+leverage to build a server-side cache. However, many use cases for
+reverse proxies have been commoditized by managed services. So,
+rather than building out a server-side cache, we could just leverage
+a Content Delivery Network (CDN).
+
+
+
+
+  5
+      “NGINX,” https://www.nginx.com/
+  6
+      “HAProxy,” https://www.haproxy.com/
+
+
+Chapter 15
+
+Content delivery
+networks
+
+A CDN is an overlay network of geographically distributed
+caching servers (reverse proxies) architected around the design
+limitations of the network protocols that run the internet.
+When using a CDN, clients hit URLs that resolve to caching servers
+that belong to the CDN. When a CDN server receives a request,
+it checks whether the requested resource is cached locally. If not,
+the CDN server transparently fetches it from the origin server (i.e.,
+our application server) using the original URL, caches the response
+locally, and returns it to the client. AWS CloudFront1 and Akamai2
+are examples of well-known CDN services.
+
+
+15.1        Overlay network
+You would think that the main beneﬁt of a CDN is caching, but it’s
+actually the underlying network substrate. The public internet is
+composed of thousands of networks, and its core routing protocol,
+BGP, was not designed with performance in mind. It primarily
+  1
+      “Amazon CloudFront,” https://aws.amazon.com/cloudfront/
+  2
+      “Akamai,” https://www.akamai.com/
+
+CHAPTER 15. CONTENT DELIVERY NETWORKS                                   152
+
+
+uses the number of hops to cost how expensive a path is with re-
+spect to another, without considering their latencies or congestion.
+
+As the name implies, a CDN is a network. More speciﬁcally, an
+overlay network3 built on top of the internet that exploits a variety
+of techniques to reduce the response time of network requests and
+increase the bandwidth of data transfers.
+
+When we ﬁrst discussed TCP in chapter 2, we talked about the
+importance of minimizing the latency between a client and a server.
+No matter how fast the server is, if the client is located on the other
+side of the world from it, the response time is going to be over 100
+ms just because of the network latency, which is physically limited
+by the speed of light. Not to mention the increased error rate when
+sending data across the public internet over long distances.
+
+This is why CDN clusters are placed in multiple geographical loca-
+tions to be closer to clients. But how do clients know which cluster
+is closest to them? One way is via global DNS load balancing4 : an
+extension to DNS that considers the location of the client inferred
+from its IP, and returns a list of the geographically closest clusters
+taking into account also the network congestion and the clusters’
+health.
+
+CDN servers are also placed at internet exchange points, where ISPs
+connect to each other. That way, virtually the entire communica-
+tion from the origin server to the clients ﬂows over network links
+that are part of the CDN, and the brief hops on either end have low
+latencies due to their short distance.
+
+The routing algorithms of the overlay network are optimized
+to select paths with reduced latencies and congestion, based
+on continuously updated data about the health of the network.
+Additionally, TCP optimizations are exploited where possible,
+such as using pools of persistent connections between servers
+   3
+     “The Akamai Network: A Platform for HighPerformance Internet Applica-
+tions,” https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/
+2019/12/The- akamai- network- a- platform- for- high- performance- internet-
+applications.pdf
+   4
+     “Load Balancing at the Frontend,” https://landing.google.com/sre/sre-
+book/chapters/load-balancing-frontend/
+
+CHAPTER 15. CONTENT DELIVERY NETWORKS                                         153
+
+
+to avoid the overhead of setting up new connections and using
+optimal TCP window sizes to maximize the effective bandwidth
+(see Figure 15.1).
+
+
+
+
+Figure 15.1: A CDN reduces the round trip time of network calls
+for clients and the load for the origin server.
+
+The overlay network can also be used to speed up the delivery
+of dynamic resources that cannot be cached. In this capacity, the
+CDN becomes the frontend for the application, shielding it against
+distributed denial-of-service (DDoS) attacks5 .
+
+
+15.2       Caching
+A CDN can have multiple content caching layers. The top layer is
+made of edge clusters deployed at different geographical locations,
+as mentioned earlier. But infrequently accessed content might not
+be available at the edge, in which case the edge servers must fetch it
+from the origin server. Thanks to the overlay network, the content
+can be fetched more efﬁciently and reliably than what the public
+internet would allow.
+
+There is a tradeoff between the number of edge clusters and the
+cache hit ratio6 , i.e., the likelihood of ﬁnding an object in the cache.
+   5
+     “Denial-of-service attack,” https://en.wikipedia.org/wiki/Denial-of-servic
+e_attack
+   6
+     A cache hit occurs when the requested data can be found in the cache, while a
+cache miss occurs when it cannot.
+
+CHAPTER 15. CONTENT DELIVERY NETWORKS                            154
+
+
+The higher the number of edge clusters, the more geographically
+dispersed clients they can serve, but the lower the cache hit ratio
+will be, and consequently, the higher the load on the origin server.
+To alleviate this issue, the CDN can have one or more intermedi-
+ary caching clusters deployed in a smaller number of geographical
+locations, which cache a larger fraction of the original content.
+Within a CDN cluster, the content is partitioned among multiple
+servers so that each one serves only a speciﬁc subset of it; this is
+necessary as no single server would be able to hold all the data.
+Because data partitioning is a core scalability pattern, we will take
+a closer look at it in the next chapter.
+
+Chapter 16
+
+
+Partitioning
+
+When an application’s data keeps growing in size, its volume will
+eventually become large enough that it can’t ﬁt on a single ma-
+chine. To work around that, it needs to be split into partitions, or
+shards, small enough to ﬁt into individual nodes. As an additional
+beneﬁt, the system’s capacity for handling requests increases as
+well, since the load of accessing the data is spread over more nodes.
+
+When a client sends a request to a partitioned system, the request
+needs to be routed to the node(s) responsible for it. A gateway ser-
+vice (i.e., a reverse proxy) is usually in charge of this, knowing how
+the data is mapped to partitions and nodes (see Figure 16.1). This
+mapping is generally maintained by a fault-tolerant coordination
+service, like etcd or Zookeeper.
+
+Partitioning is not a free lunch since it introduces a fair amount of
+complexity:
+
+

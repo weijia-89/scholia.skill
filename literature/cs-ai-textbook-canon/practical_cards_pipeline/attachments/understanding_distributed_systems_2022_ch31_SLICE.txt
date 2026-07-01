@@ -1,0 +1,141 @@
+# Text slice — understanding_distributed_systems_2022_ch31_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 31
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 31
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch31_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 31 |
+| **chapter_title** | Monitoring |
+| **page_range** | 297–313; lines 9376–10040 |
+
+---
+
+## scope
+
+**Black-box vs white-box monitoring**; metrics (aggregation, labels, cost); **SLIs/SLOs/error budgets**; burn-rate alerting; dashboard taxonomy; **on-call** culture and postmortems. Longest chapter in Part V slice.
+
+---
+
+## key_findings
+
+### Monitoring evolution
+
+- Black-box: up/down, synthetics for external/user view (9387–9415).
+- White-box: app instrumentation (statsd/Etsy) for root cause (9391–9395).
+- Synthetics catch DNS-down scenarios invisible internally (9417–9420).
+
+### Metrics (§31.1)
+
+- Time series + labels; label cardinality explosion risk (9423–9436).
+- Emit load, internal state, dependency latency (9438–9443).
+- Event-per-failure expensive at scale; **pre-aggregation** at ingest/client (9506–9550).
+- Tradeoff: can't re-aggregate finer after coarse rollup (9551–9555).
+
+### SLIs (§31.2)
+
+- Ratio: good events / total events (0=broken, 1=perfect) (9576–9602).
+- Measure closest to **user experience** (client-side preferred) (9604–9611).
+- **Percentiles** over average for latency; long-tail hurts revenue (Akamai) and thread capacity (Little's Law example: 1% at 20s doubles threads) (9613–9667).
+- Taming tail latency improves average and resilience (9669–9674).
+
+### SLOs (§31.3)
+
+- Acceptable SLI range; **error budget** = tolerated failures (9677–9692).
+- Budget exhaustion → prioritize repairs over features (9694–9700).
+- Multiple window sizes; start comfortable, tighten with confidence (9717–9733).
+- >3 nines costly with diminishing returns; 100% impossible for user path (9731–9733).
+- Stakeholder agreement; SLO must win prioritization debates (9746–9753).
+- **Chaos testing** prevents dependency on undocumented behavior (9755–9762).
+
+### Alerts (§31.4)
+
+- Actionable alerts only; SLO/error-budget based (9766–9789).
+- Precision vs recall tradeoff (9791–9799).
+- Naive 1h window on 30d SLO burns only 0.14% budget — useless page (9801–9814).
+- **Burn rate** alerts; multi-threshold severity (SRE workbook) (9816–9835).
+- Temporary alerts for known unfixed failure modes (e.g. memory leak restart) (9837–9844).
+
+### Dashboards (§31.5)
+
+- Audience-first: SLO summary, public API, service-internal (9865–9918).
+- Version-control dashboard definitions; top charts most important (9921–9935).
+- Consistent time resolution/range per dashboard; min series per chart (9939–9961).
+- Emit 0 on no-error for gap-free charts (9973–9978).
+
+### On-call (§31.6)
+
+- Developers operate what they build; compensate on-call (9982–9999).
+- Mitigate first (rollback, scale), root-cause later; postmortem when budget burned (10010–10032).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 9376–10040 |
+| **Sections** | Intro · §31.1–31.6 · §31.5.1 best practices |
+| **Figures** | 31.1 SLI ratio · 31.2 SLO range · 31.3 dashboard types |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Distinguish black-box synthetics from white-box metrics.
+2. Define SLIs as ratios; pick percentile-based latency SLIs.
+3. Set SLOs with error budgets and burn-rate alerts.
+4. Organize dashboards by audience.
+5. Describe healthy on-call and postmortem triggers.
+
+### worked_examples_present
+
+**Y** — `get_resource` instrumentation comments; Little's Law thread math; burn-rate alert critique.
+
+### exercise_hooks
+
+- Draft one SLI + SLO + burn-rate alert for a critical endpoint.
+- Sketch three-dashboard layout (SLO/API/service).
+
+---
+
+## Operator hooks
+
+**AIE ch.10** MTTD/CFR/metrics — direct parallel; **diet** skill incident response. SRE books cited as extended reading.
+
+**MDCalc [high]:** Clinical API SLOs; chaos tests for silent model/API drift analog.
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C31-001 | SLI as good/total ratio | 9576–9587 |
+| UDS-C31-002 | Long-tail thread doubling | 9646–9667 |
+| UDS-C31-003 | Error budget prioritization | 9694–9700 |
+| UDS-C31-004 | Burn rate vs naive threshold | 9816–9827 |
+| UDS-C31-005 | Mitigate before root-cause | 10010–10013 |
+
+---
+
+*Ingest · scholia · ≤4500w*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

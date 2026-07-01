@@ -1,0 +1,522 @@
+01_corpus_3375627_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: corpus_3375627
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/01_corpus_3375627_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/01_corpus_3375627.txt)========================================================================
+
+Paper Presentation                                                                                                 AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+
+                                                               Ethics for AI Writing
+                                                           The Importance of Rhetorical Context
+
+                            Heidi A. McKee†                                                                                James E. Porter
+                                English                                                                English / Emerging Technology in Business & Design
+                            Miami University                                                                            Miami University
+                            Oxford, OH USA                                                                              Oxford, OH USA
+                         mckeeha@miamioh.edu                                                                         porterje@miamioh.edu
+
+
+ABSTRACT                                                                                          ACM Reference format:
+Implicit in any rhetorical interaction—between humans or between                                  Heidi A. McKee and James E. Porter. 2020. Ethics for AI Writing: The
+humans and machines—are ethical codes that shape the rhetorical                                   Importance of Rhetorical Context. In Proceedings of 2020 AAAI/ACM
+context, the social situation in which communication happens and                                  Conference on AI, Ethics, and Society (AIES’20), February 7–8, 2020, New
+also the engine that drives communicative interaction. Such                                       York, NY, USA. ACM, New York, NY, USA, 7 pages. DOI:
+implicit codes are usually invisible to AI writing systems because                                https://doi.org/10.1145/3375627.3375811
+the social factors shaping communication (the why and how of
+language, not the what) are not usually explicitly evident in                                     1 Introduction
+databases the systems use to produce discourse. Can AI writing                                    AI is transforming communication, including written
+systems learn to learn rhetorical context, particularly the implicit                              communication. AI writing agents transcribe meetings and
+codes for communication ethics? We see evidence that some                                         produce minutes (Voicea’s Eva), write emails to set up
+systems do address issues of rhetorical context, at least in                                      appointments (x.ai’s Amy), and communicate via text chat with
+rudimentary ways. But we critique the information transfer                                        customers (customer service bots too numerous to name). AI
+communication model supporting many AI writing systems,                                           systems publish news stories (the Washington Post’s Heliograf),
+arguing for a social context model that accounts for rhetorical                                   create financial reports (Narrative Science’s Quill), produce
+context—what is, in a sense, “not there” in the data corpus but that                              marketing copy (Persado), and (co)write our emails (Google
+is critical for the production of meaningful, significant, and ethical                            Compose). AI agents have long been used for sentiment analysis in
+communication. We offer two ethical principles to guide design of                                 customer service and corporate social media, producing reports
+AI writing systems: transparency about machine presence and                                       and making recommendations for action (Amazon’s Connect).
+critical data awareness, a methodological reflexivity about                                       Quite simply we are immersed in AI professional communications
+rhetorical context and omissions in the data that need to be                                      on a daily basis [1].
+provided by a human agent or accounted for in machine learning.
+                                                                                                     In this paper we focus on the ethics of AI writing systems
+CCS CONCEPTS                                                                                      (sometimes called text generation systems or data-to-text systems),
+                                                                                                  focusing in particular on the rhetorical contexts for producing and
+• Computing methodologies~natural language generation
+                                                                                                  receiving written communication. Our discussion builds upon the
+• Computing methodologies~intelligent agents • Human-centered
+                                                                                                  extensive research on machine ethics [2, 3, 4, 5, 6, 7, 8, 9], but we
+computing~interaction design theory, concepts and paradigms
+                                                                                                  approach AI from the standpoint of rhetoric and communication
+                                                                                                  theory, and especially communication ethics [10]. We raise the
+KEYWORDS                                                                                          important question, What do humans need to know and what do
+AI writing systems; rhetoric; ethics; communication ethics;                                       machines need to know to write to and for each other—and,
+rhetorical context; text generation; language models; social context                              importantly, what can’t they know? Communication is often
+model; information transfer model; transparency; machine ethics;                                  complex and always influenced by rhetorical context, including
+critical date awareness                                                                           the sociocultural, historical, ideological, attitudinal, and ethical
+†
+                                                                                                  codes that shape how communication happens.
+    Corresponding author: Heidi A. McKee, mckeeha@miamioh.edu.
+                                                                                                     While humans have a distinct edge in the layered, nuanced
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed             complexities of communication, AI writing systems certainly have
+for profit or commercial advantage and that copies bear this notice and the full citation         the edge on processing huge volumes of data. But even with
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or            seemingly unlimited data points, many AI writing systems are
+republish, to post on servers or to redistribute to lists, requires prior specific                built on an information transfer model of communication that
+permission and/or a fee. Request permissions from Permissions@acm.org.                            assumes text production is a simple matter of converting raw data
+AIES ‘20, February 7–8, 2020, New York, NY, USA.
+© 2020 Copyright is held by the owner/author(s). Publication rights licensed to ACM.              into sentences and paragraphs. This model generally obscures the
+ACM ISBN 978-1-4503-7110-0/20/02...$15.00.                                                        critical role of audience and context and excludes ethics as an
+DOI: https://doi.org/10.1145/3375627.3375811
+
+
+
+
+                                                                                            110
+Paper Presentation                                                                             AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+element of textual production. In this paper we offer as an                    homophobia, and anti-semitism. She was a naïf, with immature
+alternative a social context model of communication that takes                 ethical standards and limited rhetorical intelligence, lacking skills
+account of rhetorical context—the stuff that is “not there”                    and safeguards for how to communicate ethically in social media.
+(typically) in the available data sets but that is vital for the               In short, she was not rhetorically savvy and thus was not an
+production of meaningful, significant, and ethical communication.              effective communicator, at least in the ways her creators intended.
+                                                                                  When machine talks to machine it is perhaps easier for effective
+2 Rhetorical Context and Ethics                                                communication to occur because the unpredictability and
+We approach the issue of AI writing from the standpoint of our                 complexity of rhetorical context can be more efficiently managed.
+field—rhetoric and professional communication. As scholars in                  But with humans talking to humans or humans talking with
+professional communication, we study writing practices in the                  machines that unpredictability and complexity cannot be so easily
+professional and public realms, focusing particularly on how                   programmed in, requiring more flexibility for both human and
+digital networks change communication production and reception.                machine about communication patterns and processes. The ethics
+And we do so from the standpoint of rhetoric theory. Rhetorical                of human-machine writing requires of both humans and machines
+analysis, as a humanistic methodology, differs from linguistic                 a deeper understanding of context and a commitment to being a
+study of language in several important respects, but most                      good human, a good machine, and a good human-machine
+importantly in its focus on context rather than text (i.e., on the             speaking well together.
+situational elements that comprise the communication setting) and
+also on inventional methods for generating content.                            3 Two Rhetorical Models
+   Rhetoric is the art and study of effective communication.                   The model of communication we see shaping many, not all, text
+Rhetoric is not, as the popular media assumes, lying, skewing the              generation systems is some variation on the Shannon-Weaver
+facts, political manipulation for political gain, or gaslighting.              model [14, 15]—also known as the information transfer model—
+Actually just the opposite: a fundamental tenet of rhetoric is that            which views communication primarily as the one-way
+ethics is an integral part of rhetorical interaction—from design and           transmission of information, encapsulated in a message, from the
+development to delivery and response. Aristotle [11] established               knowledgeable transmitter (encoder) to the uninformed receiver
+ethos as one of the key persuasive appeals for rhetoric: the ethos of          (decoder or audience). The epistemological assumption of this
+the speaker depended on the speaker being virtuous (arête), as well            model is that knowledge and meaning are fully contained in the
+as having practical wisdom (phronesis) and good will toward                    data corpus, that the knowledge can be encapsulated in a verbal
+audience (eunoia). Quintilian’s [12] definition of rhetoric as “the            message, and then the message can be delivered to a largely
+art of speaking well” puts ethics at the forefront of rhetoric, seeing         uniformed and/or ignorant audience. Meaning is in the words.
+the very definition of rhetoric as tied to ethics in two senses: (1)              This model has been often and soundly critiqued for being
+rhetoric depends on the virtue and ethical qualities of the speaker,           simplistically reductive and one way, for failing to acknowledge
+and (2) rhetoric must ultimately serve the overall good of the polis,          the contributions of the audience to knowledge construction, and
+community, or state. Rhetoric deals fundamentally with questions               for underestimating the role of rhetorical context. However, as
+of purpose and audience—why are we communicating in the first                  Lakoff and Johnson [16] showed, this one-way pipeline model is
+place? for whose ultimate benefit? And it takes up the key                     deeply embedded into everyday metaphors and ways of talking
+question of ultimate purpose as well: How does this                            about communication and so has incredible power and pervasive
+communication serve the welfare of the polis, the community, the               influence over our thinking.
+society?
+                                                                                  We see this model underlying many discussions of AI writing
+   As Markham [13] pointed out, ethical issues are not always high             systems. For example, the Talk to Transformer text generator
+stakes, life-and-death trolley problems; microethical questions                takes a short piece of text inputted and, using GPT-2, an OpenAI
+arise numerous times daily in our interactions with others, and we             generative language model, creates an entire written article from
+build our character through the way we negotiate those everyday                that piece of text, using a predictive model that creates new text
+small communication interactions (e.g., do we say please and                   based on the preceding text. The OpenAI model was trained on a
+thank you, or not? do we say good morning?). A rhetorical lens on              dataset of 8 million web pages built from what the developers
+communication ethics emphasizes the interrelated and inseparable               described as “outbound links from Reddit which received at least 3
+components of rhetor/speaker, audience, purpose, message, and                  karma”—meaning that had achieved some level of human approval
+context, all forming the rhetorical situation.                                 and curation within the Reddit platform. In this language
+   Rhetorical context—including shared ethical understandings                  generator, the longer and more detailed the human prompt at the
+and, importantly, the quality of trust—is a kind of invisible glue             beginning, the more likely the system is to generate a coherent
+that brings meaning, significance, coherence, and value to                     text based on the topic. What the system achieves, according to
+discourse. Microsoft’s Twitterbot Tay is a great example of a                  the developers, is a text that “feels close to human quality and
+writing system that went out into the world without adequate                   shows coherence over a page or more of text” because, they argue,
+contextual knowledge of the rough-and-tumble context of                        their dataset draws across a wide variety of text-types, rather than
+Twitter—and, particularly, of what constitutes racism, sexism,                 using just one type, like only fiction books [17, 18].
+
+
+
+
+                                                                         111
+Paper Presentation                                                                           AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+   From a communication standpoint this OpenAI generative                       One alternative to the information transfer model is a social
+language model of text generation is badly flawed—first, because             context model, a model that frames interaction in a very different
+of its core assumption that new text arises out of the combination           way, recognizing that meaning making starts with the community,
+of topic prompt and existing database of text. While certainly               not with the individual. A social context model (Figure 2)
+sequential order is important in communicating meaning, it’s not             forefronts the co-creation of meaning by rhetor/writer and
+actually the most essential. What’s missing is the crucial element           audience and the context shaping their interaction. Context
+shaping any communications, what would be the starting point for             includes both immediate context of the individuals involved
+a social or rhetorical model: the rhetorical context, including              (machine and human, and the purpose that brings them together),
+audience, exigence, purpose for communication, and ethical                   but also the larger social and cultural contexts that have an effect.
+understandings of the interactions. Why are we communicating in              That is, a meaningful discursive event does not start with topical
+the first place? What are we hoping to achieve? This OpenAI                  data; it starts with rhetorical context or situation [22]: exigence,
+model’s approach to coherence is badly flawed because it is based            purpose, audience, and the ethical understandings that shape that
+on a formalist notion of textual coherence (Does one piece of text           assemblage.
+follow topically from another?) versus a notion of coherence that               What is rhetorical exigence? It is “an imperfection marked by
+involves audience (Does the text make sense to its intended                  urgency; it is a defect, an obstacle, something waiting to be done, a
+readers in the contexts of interaction?).                                    thing which is other than it should be” [22, p. 66]. Rhetorical
+  The assumption of the linear model (Figure 1)—a model forming              action arises from some perceived need, an occasion calling for
+the basis for several AI-text generation systems [19, 20]—is that            something to be done. That “something to be done” is the raison
+the AI system assembles data and, using NLG (natural language                d’être for rhetorical action. Rhetoric strives to move us, through
+generation), produces a story or article, which is then delivered            the deployment of symbolic action, from some current actuality to
+unproblematically to readers.                                                some new potentiality—the possible, to dynaton in sophistic
+                                                                             rhetoric [23], which in large part involves moving an audience.
+                                                                             That the “something to be done” action/outcome is desirable,
+                                                                             valuable, beneficial (to someone), and good is the ethical
+                                                                             component of rhetorical context.
+
+
+
+Figure 1. Information transfer model for AI writing
+   Think about any conversation you’ve had recently—whether
+written or oral—and then think of the amount of context
+knowledge involved. HCI researchers from early on recognized the
+challenge context poses for effective human machine interaction.
+A brief conversational example from the sociolinguist John
+Gumperz [21], an exchange between two secretaries in an office,
+illustrates this challenge:
+     A: Are you going to be here for ten minutes?                            Figure 2. Social context model for AI writing
+     B: Go ahead and take your break. Take longer if you want.                  Our point about context is rather a simple one: To be an
+     A: I’ll just be outside on the porch. Call me if you need me.           effective writer—whether human or AI—you have to understand
+     B: OK, don’t worry.                                                     the rhetorical context for your communication, and that context is
+   In this exchange coherence and meaning are not purely a                   not always clearly visible or available in the data set being used.
+function of data or text only. Coherence, significance, meaning              This essential knowledge is not “there” in the data; it exists “out
+arise from the relationship between the interlocutors and their              there” in the social realm. Numerous AI researchers have talked
+understandings of the message and its purpose. This exchange                 about this issue with AI systems, though using different terms.
+works because the two communication agents both possess the                  Harnad [24] discussed the symbol grounding problem. Floridi [25]
+missing information, the context, the prior knowledge, the                   referred to the importance of semantic capital, i.e., the background
+necessary presuppositions to link the pieces of the text into a              knowledge, the underlying frame that we acquire that enables us
+coherent message. The exigence that drives this particular                   to make meaning and find significance in our world. Chowdhury
+conversation—that is, the desire to make sure that the office has            [26] talked about the “pitfalls” in AI systems that cannot read
+secretarial coverage—is not articulated explicitly. Nor does it have         important environmental factors that are vital to effective system
+to be. The exigence, though implicit, is clearly understood by both          functioning [27, 28, 29, 30].
+parties in the conversation. The information transfer model                     As regards purpose, why we are communicating in the first
+emphasizes the data-to-text process, but what about all that other           place, we have to acknowledge that the writer’s purpose is
+stuff?                                                                       sometimes—always?—different from the reader’s purpose.
+                                                                             Certainly AI systems could develop strategies for accessing this
+
+
+
+
+                                                                       112
+Paper Presentation                                                                             AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+realm and, through deep learning, for understanding the                       a person thinks they are talking with a human that brings
+variability of audiences and purposes. (Effective human writers               different understandings of the rhetorical context and
+learn this.) But our point is that many AI systems are being                  (micro)ethical understandings for interaction.
+developed with linear communication models (i.e., if we can just
+get the input right, output will be fine) without sufficient respect          5 Ethic of Critical Data Awareness
+for the importance and complexity of context. When humans and
+                                                                              We next turn to look at an AI system that works with data input
+AI systems interact, miscommunication occurs and ethical issues
+                                                                              to produce news stories. Narrative Science’s AI agent Quill
+arise from lack of understanding about context. We now turn to
+                                                                              powers the GameChanger app, which writes recaps for youth
+discuss a few brief examples.
+                                                                              baseball, softball and other sports. GameChanger takes the box
+                                                                              score comprised of data entered by the coach or manager and
+4 Ethic of Transparency: The Zingle Case                                      converts it into a narrative of the game, producing the story
+In 2014, several hotels in the Marriott franchise contracted with             immediately upon conclusion of the game. For example (names
+the company Zingle to use a valet parking service that included an            changed):
+automated text messaging system for car retrieval. We first                        Four RBI Day for Jason G leads Miami LL Rockies
+learned of Zingle’s service when Heidi stayed at a Marriot and the                 Minors Past Cubs
+parking valet handed her a claim check and said, “Text your claim                  Jason G was an RBI machine on Friday, driving in four on
+check number to us, and we’ll get your car for you.” The valet                     two hits to lead Miami LL Rockies Minors past Cubs 11-2
+made no mention of an automated system. The next day, when                         on Friday. Jason drove in runs on a home run in the first,
+retrieving her car, Heidi had the following text exchange with the                 a groundout in the fourth, and a single in the sixth.
+AI system (though not knowing it was an AI system):
+                                                                                Stories of games, particularly of kids’ little league baseball
+     Heidi: Please retrieve our car 0359-928. We will be at                   games, circulate in complicated rhetorical situations. How does
+     front door at 2:10. Thx.                                                 GameChanger deal with the issue of rhetorical context,
+     Zingle: Could not retrieve your claim check at this time.                particularly with questions of audience and ethics?
+     Please check the claim check number and try again. If                       We have deduced, based on years of experience as parents
+     you continue to get this text, please call 216-791-5678.                 reading GameChanger stories, that the AI writer does use some
+     Heidi: 0359-928 Honda Accord gray Ohio plate.                            basic rhetorical and ethical principles. (1) It tells the story of the
+     Zingle: Thank you. We have received your request for                     game from the point of the view of your team, whichever team
+     [ticket, brackets original]. Your vehicle will be ready in 10            your child is on. This is not unlike how local sports writers write
+     minutes. Regards, Courtyard Marriott Valet.                              up games for hometown fans. (2) It never says anything bad about
+                                                                              any player; there is no criticism, even if a player commits a crucial
+   Heidi went to the front of the hotel and, after waiting 30                 error in the field or strikes out at a key moment. This is very
+minutes and no car, contacted the manager, who explained that                 unlike what a human sportswriter would say, at least about a
+the system was automated: the system did not register her request             professional game.
+because it only reads claim check numbers, nothing else. In order
+for the process to work, hotel guests must text only the claim                   GameChanger operates in a well-defined, clearly bounded
+check number.                                                                 rhetorical space: youth sporting event, with kids playing and
+                                                                              families and friends watching; families and friends are the
+   In    terms       of    troubleshooting     this   context-based           intended readers for any game writeup. GameChanger recognizes
+miscommunication, there is obviously a lot that could have been               that no parent wants to read anything negative about their child.
+done differently. First, the valet should have been explicit that the         But in following a fairly simple formula, GameChanger does, of
+system was automated and that a human would not be reading the                course, miss a great deal of the rhetorical storyline. A box score
+text. Second, the Zingle developers could have designed the                   reports the facts of the game in a very efficient format, providing a
+system to read claim check numbers no matter if words were also               lot of information. But what does it miss?
+included. And they could have also set a reply so that if the system
+could not read a message it would provide more helpful clarifying                The stats do not capture the story or the drama of the game (e.g.,
+advice: e.g., “Please send only the claim check number. No words.”            celebrating someone’s first hit of the year; noting the game was
+                                                                              delayed by 15 minutes due to a loose dog on the field; a key player
+  This short example shows the complexity of even a simple                    was injured and had to leave the game). GameChanger renders the
+communicative interaction. With Zingle’s Valet Text Service, a                box score in narrative fashion (sentences, paragraphs), but the
+bounded AI system, even that single-purpose, single task-defined              narrative is sorely limited by box score facts: Player A had two hits
+system opens up considerable possibility for error and                        in the game, Pitcher B gave up only one run in three innings. But
+misunderstanding that impacts the entire network of                           what if Player C’s error was the deciding factor in the game, the
+communication. Bottom line for ethics: Human-AI interaction                   difference between winning and losing? GameChanger does not
+requires an ethic of transparency: humans must know the                       allow itself to say that—and in that respect its writeup, as currently
+rhetorical context and if they are interacting with an AI agent—              programmed for options allowed, makes a clear ethical choice:
+whether in mobile text, social media, or other communications. If             being positive vs telling a fuller story. What if the third out of the
+
+
+
+
+                                                                        113
+Paper Presentation                                                                                  AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+inning—which the box score renders simply as FO9—was an                             its data-driven approach to developing creative marketing that
+incredible diving catch by a right fielder who had not made a catch                 Persado can “disrupt the limitations of human bias ... and
+all year? That is an important event that readers/fans would want                   communicate with customers in a way that is proven to resonate”
+to see acknowledged. GameChanger misses the drama, misses the                       [33]. Or, as Kristin Lemkau, Chief Marketing Officer of JPMorgan
+ebb and flow, misses the critical incidents (to borrow a term from                  Chase, stated in an announcement about Chase’s new 5-year
+usability studies); it renders no judgment overall or a more                        contract with Persado: “Machine learning is the path to more
+contextualized story about the meaning of the game, as would a                      humanity in marketing . . . [Persado] rewrote copy and headlines
+human sportswriter.                                                                 that a human marketer, using subjective judgement and their
+   However, a story from GameChanger is better than no story at                     experience likely wouldn’t have. And they worked” [34].
+all and not many sportswriters are lining up to write pieces on 10-                    “More humanity” with AI writing? What we see in these
+year-olds’ games. So in that respect AI communication agents                        product claims for Persado is a certain theory of how rhetoric
+extend the context of an event, serving a kind of ethic of expanded                 works, an example of the information transfer model at work—but
+circulation. This ethic may not seem that significant when applied                  a version of the model that does take audience into account, albeit
+to a kids’ ball game, but applied to other sectors, it increases in                 a reductive view of audience. Implicit in the discussion is the
+importance and ethical complexity. AI apps such as the                              absolute trust in data as more scientific, more reliable than human
+Washington Post’s Heliograf often report on news stories that                       judgment. This trust may at times be justified if we clearly know
+otherwise might not be written up—results of local elections, for                   where the data comes from and how it is collected. But, as
+example. So certainly having some information available that                        Markham [35] cautioned, we have to be critical about our
+otherwise not be made available is important. But if machine                        understanding of data: What if the data is wrong or incomplete or,
+reporting becomes the only form of reporting there are dangers of                   as is so often the case, biased for or against particular groups?
+losing representations of the rhetorical context in more detail and                 What if the data we are collecting is the wrong data for the
+complexity.                                                                         problem we are addressing? There is also an issue of how the data
+   Let’s take a look at a much higher stakes text generation app:                   is used to categorize and rate humans and thus shape the
+the Los Angeles Times’ Quakebot. Quakebot takes earthquake                          communications marketed to humans. Ethics lies in methods as
+notices from the U.S. Geological Survey and then, if the                            much as in machines [36].
+earthquake is severe enough, generates a draft article, which is                       Whether someone chooses to click an ad or not is not,
+then delivered to the news room for editorial approval (human                       necessarily, high stakes, but whether or not someone gets
+approval, that is). If the event is verified, the article is released [31].         employed is. AI screening bots are big business. One top program
+The articles are short and simple statements of fact (including a                   used is HireVue, a video AI hiring system that uses facial
+Google Map): an earthquake happened, of a certain magnitude, at                     recognition software while recording short online interviews with
+a given time, with a particular epicenter. Quakebot reports the                     job candidates and then generates a written report card for the
+facts instantly, in a linear way delivering news from the U.S.                      employer assessing the employability of job candidates. HireVue
+Geological Survey right to readers of the Los Angeles Times,                        does not makes its algorithm available for review other than to say
+following the one-way information transfer model. In one respect                    that “Facial Action Units ... make up 29% of a person’s score; the
+this is not a problem: this is important information which the                      words they say and the ‘audio features’ of their voice, like their
+public needs to know, and quickly. The issue lies more with what                    tone, make up the rest.” The candidate’s score is benchmarked
+QuakeBot does not do: it does not assess the quake and tell people                  against others’ scores who have been determined to be “successful
+how to respond to it. The key question readers will have in                         employees.” One argument that HireVue makes for the validity of
+response to the Quakebot article is, What should I do? Should I                     its approach is that it is “still more objective than the flawed
+evacuate? And of course the answer to that question will vary                       metrics used by human recruiters” [37].
+depending on individual reader location. The information reported                      What is not clear about the HireVue system is whether and how
+is important, but by itself inadequate for the reader’s purpose and                 it might be discriminating against certain candidates: e.g., non-
+well-being. Here is where human judgment is necessary to                            English speaking candidates, nervous candidates, candidates with
+determine a recommended course of action. Some communication                        disabilities, candidates who are lower key and not sufficiently
+processes cannot happen by machine alone.                                           expressive or enthusiastic, etc. What seems clear to us, though, is
+   But some increasingly can—or at least are. Persado is an AI-                     that it is yet another example of a reductive audience analysis.
+based content strategy tool that writes marketing copy. Where                       That is, it renders a judgment based on a limited data set
+Persado differs from some of the AI agents previously discussed is                  emphasizing facial expressiveness and speaking ability (versus
+that it performs a kind of audience analysis, drawing from                          other factors such as, say, technical background, previous work
+extensive data that allows it to “create emotional profiles for every               experience, professional qualifications, intelligence). Its bias in
+customer segment based on their responses to previous                               rendering a hiring judgment might not be any worse than a
+campaigns” [32]. Then, using its “AI-powered knowledge base of                      human recruiter’s, but what makes it worse is its claim to
+more than 1 million tagged and scored words, phrases, and images                    objectivity.
+in 25 languages,” it produces “personalized marketing messages”
+for distinct customer segments [33]. The company claims that with
+
+
+
+
+                                                                              114
+Paper Presentation                                                                             AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+   What we see, overall, in AI development is a reductive sense of             Tay). The failure/success question seems dependent on whether
+the complexity of the rhetorical context—starting with, and maybe              the rhetorical context is well defined and bounded (i.e., clear
+mostly dependent on, a naive trust in data, especially big data, as            audience needs, predictable interaction scripts) versus an open-
+the answer to all rhetorical challenges. From our standpoint there             ended situation with multiple audiences, competing needs, unclear
+is not enough critical reflection on what data is (and is not), not            expectations, problematic or debatable context (e.g., political
+enough respect for the presence of malicious agents who skew                   exchange). and/or incomplete data.
+data, and insufficient appreciation for the problem of limited and                For the next several years, perhaps decades, we will be in a
+incomplete data and of the complexity of human and human-                      transition phase where AI writing systems will autonomously
+machine communication. With the Persado and HireVue apps, for                  produce simpler communications (e.g., customer service
+instance, we see the methodological error of assuming that the                 interaction, news writing) but serve as collaborators with humans
+limited data collected is sufficient to provide a holistic view of the         on      more      advanced      communications.     Future-of-work
+problem or topic or audience being analyzed, when in fact the                  commentators believe that we are entering an age of human-
+assessment, from a rhetorical standpoint, is incomplete and                    machine symbiosis [38, 39] requiring collaborative intelligence [40,
+therefore badly skewed. How does the system provide a                          41]—that is, a transitional period where humans and machines will
+corrective?                                                                    work closely together as partners in the creation of written
+   When dealing with well-defined and not high-stakes rhetorical               content and meaning.
+contexts and genres, AI machines can perhaps perform adequately.                  But maybe collaboration, partnership, symbiosis is the wrong
+We can see AI writing agents as existing along a continuum of                  descriptive frame. Perhaps the human-machine effort will involve
+contextual fluency. At one end of the continuum is the financial               more delegation of tasks in a division-of-labor model: delegation,
+report function of Narrative Science’s Quill, which takes quarterly            rather than collaboration, may be the more accurate way to frame
+earnings reports (required in the U.S., for example, of all publicly           this [42]. Humans will need to understand “how the unique
+traded companies) and produces a cut-and-dry genre, one with                   strengths of humans and AI can act synergistically” [43, p. 579],
+few variations. In a sense, a quarterly report is simply putting               and where the human participant can provide the most value. The
+words to a financial box score. When such reports used to be                   operative metaphor for this relationship might well be the
+written by humans, often someone new to the task would be told                 centaur—half person, half horse—rather than the cyborg [44]. The
+to simply “Take last quarter’s report and change the numbers.” A               machine/body provides power and speed, the human/head
+quarterly earnings report requires little contextual knowledge; it is          provides direction, purpose, and, most importantly, ethical
+proving to be a genre that AI writing systems handle well. Now                 guidance.
+the story that might be shaping those financial numbers is far
+more complicated, and to tell that story might require much                       AI writing systems will likely need help with rhetorical context,
+greater knowledge of rhetorical context. That is where other                   which includes understanding the immediate communication
+genres and human writers or human oversight of machine writers                 context (why are we communicating? who is the audience? what
+have a significant role to play.                                               do they know? what do they need?) and the broader cultural,
+                                                                               social, and historical context that includes matters of ethics. The
+   Basically when there is a more nuanced story to tell or you get             machine will need assistance with higher order cognitive skills
+humans in the mix, communication gets more complicated. In our                 such as synthesis of data and decision making involving matters of
+interview with Dennis Mortensen, CEO and founder of x.ai and                   uncertainty and ambiguity, with competing perspectives and
+creator of Amy, the AI-based scheduling assistant, he discussed                interests and, even, at times, competing versions of data. Because
+the complexity of rhetorical context in something as seemingly                 both human and machine will have to learn how to talk to the
+simple as setting up a meeting: “What you figure out quickly is                other—especially how to ask meaningful rhetorical questions—
+that humans are just crazy. Even when they speak to time,                      humans will need to know when they are talking to machines,
+sometimes it doesn’t even look like time. They’ll say things like,             because that requires a specific form of communication different
+‘Let’s meet up later.’ Later? What does that mean?” [1]. Preparing             from talking with other humans.
+Amy for market took years with 65+ trainers because, as
+Mortensen explained to us, “We need[ed] to train on that                          Any AI writing system needs to be able to learn about rhetorical
+ambiguity. Amy needs to exist in your [human] universe.”                       context—what is “not there” in the data—or else they will miss an
+                                                                               essential component of communication. But will that contextual
+  We live in a complicated communicative universe where                        information ever be entirely visible or accessible to the AI writer?
+meaning is not just carried in the words but also in the rhetorical            Will the AI writer ever be able to learn the prior knowledge
+context shaping the words—and for this reason we need to re-                   required to set up a lunch date? Can an AI writer learn to
+envision the models used for preparing AI-based writing and                    recognize nuanced forms of prejudice? Until that time happens,
+communication systems.                                                         humans will continue to have a vital role in communication:
+                                                                               helping machines meet the demands of context, the needs of
+6 Conclusion                                                                   diverse audiences, and the standards for ethical communication.
+AI writing agents sometimes succeed (e.g., customer service
+chatbots responding to set questions) and they sometimes fail (e.g.,
+
+
+
+
+                                                                         115
+Paper Presentation                                                                                                     AIES ’20, February 7–8, 2020, New York, NY, USA
+
+
+
+REFERENCES                                                                                        [24] Stevan Harnad. 1990. The symbol grounding problem. Physica D, Nonlinear
+                                                                                                       Phenomena, 42, 1-3, 335–346. DOI: https://doi.org/10.1016/0167-2789(90)90087-6
+[1]   Heidi A. McKee and James E. Porter. 2017. AI agents as professional
+      communicators. In Professional Communication and Network Interaction: A                     [25] Luciano Floridi. 2018. Semantic capital: Its nature, value, and curation.
+      Rhetorical and Ethical Approach. Routledge, New York, NY.                                        Philosophy & Technology, 31, 481-497. DOI: https://doi.org/10.1007/s13347-018-
+                                                                                                       0335-1
+[2]   Luciano Floridi and J.W. Sanders. 2004. On the morality of artificial agents.
+      Minds & Machine, 14, 3 (Aug. 2004), 349-379. DOI: https:doi.org/                            [26] Rumman Chowdhury. 2019. The pitfalls of a “retrofit human” in AI.
+      10.1023/B:MIND.0000035461.63578.9d                                                               VentureBeat. Retrieved from https://venturebeat.com/2019/11/11/the-pitfalls-of-
+                                                                                                       a-retrofit-human-in-ai-systems/
+[3]   Alison Adam. 2008. Ethics for things. Ethics and Information Technology, 10, 2-3
+      (Sept. 2008), 149–154. DOI: https://doi.org/10.1007/s10676-008-9169-3                       [27] Joyce Y. Chai, Rui Fang, Changsong Liu, and Lanbo She. 2016. Collaborative
+                                                                                                       language grounding toward situated human-robot dialogue. AI Magazine, 37, 4
+[4]   Amitai Etzioni and Oren Etzioni. 2016. AI assisted ethics. Ethics and Information
+                                                                                                       (Winter 2016), 32–45. DOI: https://doi.org/10.1609/aimag.v37i4.2684
+      Technology, 18, 2 (June 2016), 149–156. DOI: https://doi.org/10.1007/s10676-016-
+      9400-6                                                                                      [28] Stina Bengtsson. 2018. Ethics exists in communication: Human-machine ethics
+[5]   Bertram F. Malle. 2016. Integrating robot ethics and machine morality: The                       beyond the actor-network. Media@LSE Working Paper Series, London School
+      study and design of moral competence in robots. Ethics and Information                           of Economics and Political Science. OAI: DiVA.org:sh-37239
+      Technology, 18, 4 (Dec. 2016), 243-256. DOI: https://doi.org/10.1007/s10676-015-            [29] Robert Earl Patterson and Robert G. Eggleston, R.G. 2018. Machine synergism in
+      9367-8                                                                                           high-level cognitive functioning: The human component. IEEE Transactions on
+[6]   Virginia Dignum. 2018. Ethics in artificial intelligence: Introduction to the                    Emerging Topics in Computational Intelligence, 2, 4 (July 2018), 249-257. DOI:
+      special issue. Ethics and Information Technology, 20, 1 (March 2018), 1-3. DOI:                  https://doi.org/10.1109/TETCI.2018.2816584
+      https://doi.org/10.1007/s10676-018-9450-z                                                   [30] Federica Russo. 2018. Digital technologies, ethical questions, and the need of an
+[7]   Fabio Fossa. 2018. Artificial moral agents: Moral mentors or sensible tools?                     informational framework. Philosophy & Technology, 31, 4 (Dec. 2018), 655-667.
+      Ethics and Information Technology, 20, 2 (June 2018), 115-126. DOI:                              DOI: https://doi.org/10.1007/s13347-018-0326-2
+      https://doi.org/10.1007/s10676-018-9451-y                                                   [31] Editor. 2019. What is the Quakebot and how does it work? LATimes. Retrieved
+[8]   Jaana Leikas, Raija Koivisto, and Nadezhda Gotcheva.. 2019. Ethical framework                    from http://www.latimes.com/la-me-quakebot-faq-20190517-story.html
+      for designing autonomous intelligent systems. Journal of Open Innovation, 5, 1              [32] Paul Roetzer,. 2018. This marketing tool uses AI to create copy that converts.
+      (March 2019), 18. https://doi.org/10.3390/joitmc5010018                                          Artificial       Intelligence     Marketing         Institute.       Retrieved
+[9]   Aimee van Wynsberghe and Scott Robbins. 2019. Critiquing the reasons for                         fromhttp://www.marketingaiinstitute.com/blog/persado-spotlight
+      making artificial moral agents. Science and Engineering Ethics, 25, 3 (June 2019),          [33] Persado.    2019.     Persado—How     it            works.      Retrieved      from
+      719-735. DOI: https://doi.org/10.1007/s11948-018-0030-8                                          https://www.persado.com/how-it-works/
+[10] Heidi A. McKee and James E. Porter. 2018. Digital media ethics and rhetoric. In              [34] Joseph N. DiStefano. 2019. “Machine learning is the path to more humanity in
+     The Routledge Handbook of Digital Writing and Rhetoric, ed. J. Alexander and J.                   marketing”: JPMorgan picks AI to write ads. Philadelphia Inquirer, July 30.
+     Rhodes, 401-411. Routledge, New York, NY.                                                         Retrieved from          https://www.inquirer.com/business/phillydeals/jpmorgan-
+[11] Aristotle. 2006. On Rhetoric: A Theory of Civic Discourse (2nd ed.). Trans. G.A.                  artificial-intelligence-copy-writing-persado-ads-20190730.html
+     Kennedy. Oxford University Press, Oxford, UK.                                                [35] Annette N. Markham. 2013. Undermining “data”: A critical examination of a
+[12] Marcus F. Quintilian. 1920-1922. Institutio Oratoria (Institutes of Oratory). Trans.              core term in scientific inquiry. First Monday, 18, 10. DOI:
+     H.E. Butler. Retrieved from                                                                       https:/doi.org/10.5210/fm.v18i10.4868
+     http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Orat                 [36] Annette N. Markham, Katrin Tiidenberg, and Andrew Herman. 2018. Ethics as
+     oria/home.html                                                                                    methods: Doing ethics in the era of big data research—Introduction. Social
+[13] Annette N. Markham. 2018. What’s the trolley problem got to do with It: Ethics                    Media + Society, July-September. DOI: https://doi.org/10.1177/205630511878450
+     as method. July. Retrieved from                                                              [37] Drew Harwell. 2019. A face-scanning algorithm increasingly decides whether
+     https://annettemarkham.com/2018/07/ethics_as_method_published/                                    you deserve the job. Washington Post, November 6. Retrieved from
+[14] C.E. Shannon. 1948. A mathematical theory of communication. Bell System                           https://www.washingtonpost.com/technology/2019/10/22/ai-hiring-face-
+     Technical Journal, 27, 3 (July-Oct 1948), 379–423, 623–656. DOI:                                  scanning-algorithm-increasingly-decides-whether-you-deserve-job/
+     https://doi.org/10.1002/j.1538-7305.1948.tb01338.x                                           [38] J.C.R. Licklider. 1960. Man-Computer Symbiosis. IRE Transactions on Human
+[15] Warren Weaver and Claude E. Shannon. 1949. The Mathematical Theory of                             Factors in Electronics, 1, 1 (March 1960), 4-11. DOI:
+     Communication. University of Illinois Press, Normal, IL.                                          https://doi.org/10.1109/THFE2.1960.4503259
+[16] George Lakoff and Mark Johnson. 1980. Metaphors We Live By. University of                    [39] Sang-won Leigh, Harshit A. Agrawal, and Pattie Maes. 2018. Robotic symbiosis:
+     Chicago Press, Chicago, IL.                                                                       Interweaving human and machine actions. IEEE Pervasive Computing, 17, 2
+[17] OpenAI. 2019. Better language models and their implications. Retrieved from                       (June 2018), 34-43. DOI: https://doi.org/10.1109/MPRV.2018.022511241
+     https://openai.com/blog/better-language-models/                                              [40] H. James Wilson and Paul R. Daugherty. 2018. Collaborative intelligence:
+[18] Alec Radford et al. 2019. Language models are unsupervised multitask learners.                    humans and AI are joining forces. Harvard Business Review. Retrieved from
+     OpenAI Blog. Retrieved from https://openai.com/blog/better-language-models/                       https://hbr.org/2018/07/collaborative-intelligence-humans-and-ai-are-joining-
+                                                                                                       forces
+[19] Donald Dong. 2018. Text generation using recurrent neural networks. Medium.
+     Retrieved from https://towardsdatascience.com/text-generation-using-rnns-                    [41] Susan L. Epstein. 2015. Wanted: Collaborative intelligence. Artificial Intelligence,
+     fdb03a010b9f                                                                                      221(April 2015), 36-45. DOI: https://doi.org/10.1016/j.artint.2014.12.006
+[20] Dan Nelson. 2019. Text generation with Python and TensorFlow/Keras. Stack                    [42] Andreas Fügener, Jörn Grahl, Alok Gupta., and Wolfgang Ketter. 2019,
+     Abuse. Retrieved from https://stackabuse.com/text-generation-with-python-                         Collaboration and Delegation between Humans and AI: An Experimental
+     and-tensorflow-keras/                                                                             Investigation of the Future of Work.. ERIM Report Series. DOI:
+                                                                                                       http://dx.doi.org/10.2139/ssrn.3368813
+[21] Lucy A. Suchman. 1987. Plans and Situated Actions: The Problem of Human
+     Machine Communication. Cambridge University Press, New York, NY.                             [43] Mohammad Hossein Jarrahi. 2018. Artificial intelligence and the future of work:
+                                                                                                       Human-AI symbiosis in organizational decision making. Business Horizons 61, 4
+[22] Lloyd F. Bitzer. 1968. The rhetorical situation. Philosophy & Rhetoric 1, 1 (Jan.
+                                                                                                       (July-Aug. 2018), 577-586. DOI: https://doi.org/10.1016/j.bushor.2018.03.007
+     1968), 1–14. Retrieved from https://www.jstor.org/stable/40236733
+[23] John Poulakos. 1983. Toward a sophistic definition of rhetoric. Philosophy &                 [44] Nicky Case. 2018. How to become a centaur. Journal of Design and Science. DOI:
+     Rhetoric, 16, 1, 35-48. Retrieved from http://www.jstor.org/stable/40237348                       https://doi.org/10.21428/61b2215c
+
+
+
+
+                                                                                            116
+

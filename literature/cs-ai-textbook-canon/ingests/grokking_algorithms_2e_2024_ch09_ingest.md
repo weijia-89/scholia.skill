@@ -1,0 +1,235 @@
+# Chapter ingest — grokking_algorithms_2e_2024 · ch09
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Grokking Algorithms, 2nd Edition |
+| **authors** | Aditya Bhargava |
+| **edition** | 2e (2024) |
+| **ISBN_print** | 9781633438531 |
+| **ISBN_electronic** | [not stated in text export; Manning typically pairs print/ebook — operator verify] |
+| **chapter_number** | 9 |
+| **page_range** | Not recoverable from Marker/pdftotext export; chapter bounded by heading `9 Dijkstra's algorithm` (line 5055) through Recap before ch.10 (line 5729) |
+| **parent_book_title** | Grokking Algorithms, 2nd Edition |
+| **publisher** | Manning (per corpus manifest) |
+| **corpus_slug** | grokking_algorithms_2e_2024 |
+| **wave** | w1_foundation · track A |
+
+---
+
+## scope
+
+Chapter 9 extends the graph material from chapter 6 (breadth-first search on unweighted graphs) to **weighted graphs** and **Dijkstra's algorithm** for minimum-cost paths. Coverage spans:
+
+1. **Motivation** — BFS minimizes edge count; weighted graphs need minimum total weight (travel time, money).
+2. **Four-step algorithm** — cheapest unprocessed node → relax out-neighbors → repeat → reconstruct path via parent pointers.
+3. **Terminology** — weights, weighted vs unweighted graphs, cycles (positive-weight cycles never improve shortest path), directed vs undirected, non-negative weights requirement.
+4. **Worked narrative: Rama's trades** — barter graph minimizing cash outlay; full four steps including parent backtrace.
+5. **Negative-weight edges** — failure mode with concrete counterexample; Bellman–Ford named as alternative (out of book scope).
+6. **Python implementation** — nested hash tables for weighted adjacency, `costs` / `parents` / `processed`, main loop, `find_lowest_cost_node`; priority queue / heap noted as efficiency upgrade (deferred to last chapter).
+7. **Exercise 9.1** — shortest-path weight on three small graphs (figures not in text layer).
+
+Prerequisites assumed: ch.6 graphs, BFS, directed/undirected graphs. Forward pointers: ch.10 greedy algorithms; heaps/priority queues in final chapter.
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[inferred]` or `[contested]`.
+
+### KF-01 · BFS vs Dijkstra — different optimality criteria
+
+> "Breadth-first search will find the path with the fewest segments … What if you want the fastest path instead … You can do that fastest with a different algorithm called Dijkstra's algorithm." (lines 5076–5079)
+
+> "To calculate the shortest path in an unweighted graph, use breadth-first search. To calculate the shortest path in a weighted graph, use Dijkstra's algorithm." (lines 5215–5217, Recap 5730–5734)
+
+**Finding:** "Shortest path" is overloaded — segment count (BFS) vs sum of edge weights (Dijkstra).
+
+### KF-02 · Four-step Dijkstra procedure (pedagogical core)
+
+> "There are four steps to Dijkstra's algorithm: 1. Find the 'cheapest' node … 2. Update the costs of the out-neighbors … 3. Repeat until you've done this for every node … 4. Calculate the final path." (lines 5096–5106)
+
+The Start→A→B→Finish walkthrough demonstrates **relaxation**: path to A improves from 6→5 via B; Finish from ∞→7 via B, then 7→6 via A (lines 5114–5166).
+
+**Invariant (text's formulation):** once a node is chosen as cheapest among unprocessed nodes, the text treats its cost as final — "There is no cheaper way to get to this node!" (lines 5329–5330) — valid only when all edge weights are non-negative (KF-05).
+
+### KF-03 · Parent pointers for path reconstruction
+
+> "To calculate the final path, you also need a parent column on this table." (lines 5303–5304)
+
+Rama example: piano ← drums ← LP ← book; backward walk yields trade sequence at $35 (lines 5370–5394).
+
+### KF-04 · Shortest path as generic minimization
+
+> "I hope this example showed you that the shortest path doesn't have to be about physical distance. It can be about minimizing something. In this case, Rama wanted to minimize the amount of money he spent." (lines 5396–5400)
+
+**Finding:** Graph shortest-path machinery applies to any additive non-negative cost objective, not geography alone.
+
+### KF-05 · Non-negative weights required; negative edges break greedy finalization
+
+> "Dijkstra's algorithm works when all the weights are nonnegative." (Recap, lines 5736–5737)
+
+Sarah's LP→poster edge at −$7 causes re-processing of an already "finalized" poster node — "This is a big red flag. Once you process a node, it means there's no cheaper way to get to that node. But you just found a cheaper way to the poster!" (lines 5455–5458). Algorithm reports drums at $35 vs known $33 path (lines 5463–5464).
+
+> "If you want to find the shortest path in a graph that has negative-weight edges, there's an algorithm for that! It's called the Bellman–Ford algorithm. Bellman–Ford is out of the scope of this book." (lines 5468–5471)
+
+### KF-06 · Implementation data structures (Python)
+
+Weighted graph as nested dicts:
+
+```python
+graph["start"] = {}
+graph["start"]["a"] = 6
+graph["start"]["b"] = 2
+```
+
+State: `costs`, `parents`, `processed` set; `infinity = math.inf` (lines 5488–5576).
+
+Main loop (lines 5584–5594): select lowest unprocessed cost node → for each neighbor, if `cost + edge_weight < costs[n]`, update cost and parent → mark processed.
+
+`find_lowest_cost_node` scans all nodes in `costs` excluding `processed` (lines 5698–5706).
+
+> "There is a more efficient version of this algorithm. It uses a data structure called a priority queue … built on … a heap." (lines 5714–5718)
+
+**Complexity note `[inferred]`:** Text presents O(V) scan per extraction; heap-based Dijkstra is O((V+E) log V) — not derived in chapter.
+
+### KF-07 · Cycles and undirected graphs — imprecise wording flagged
+
+> "Dijkstra's algorithm only works on graphs with no cycles, where all the edges are nonnegative." (lines 5255–5257)
+
+Earlier, on positive-weight cycles: "following the cycle will never give you the shortest path" (lines 5242–5243) — cycles are allowed if weights are non-negative; positive cycles are suboptimal.
+
+> "An undirected graph means that both nodes point to each other. That's a cycle!" (lines 5250–5251)
+
+**`[contested]`:** Standard treatment: Dijkstra applies to undirected graphs (model each undirected edge as two directed edges) and to graphs with cycles when edge weights are non-negative. The "no cycles" sentence conflates undirected 2-cycles with the negative-weight failure mode. Operator should not treat KF-07 as rigorous graph theory — use CLRS or similar for formal preconditions.
+
+---
+
+## coverage_attestation
+
+| Check | Result |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt` |
+| **Lines read** | 5055–5739 (inclusive) |
+| **Chapter boundary** | Starts `9 Dijkstra's algorithm`; ends Recap before `10 greedy algorithms` |
+| **Wrong-file flag** | NO — slug matches manifest `grokking_algorithms_2e_2024` |
+| **Figure/diagram loss** | YES — text export contains `[]` placeholders where figures lived; exercise 9.1 graphs not numerically recoverable from text alone |
+| **Amnesiac compliance** | Claims anchored to line ranges above; no training-prior fill for missing figure weights |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+After this chapter, a reader should be able to:
+
+1. Distinguish unweighted shortest path (BFS) from weighted shortest path (Dijkstra).
+2. Execute Dijkstra's four steps manually on a small weighted graph.
+3. Explain why the "cheapest unprocessed node" step is safe with non-negative weights.
+4. Maintain `costs` and `parents` tables and backtrace the optimal path.
+5. Recognize negative-weight edges as invalid input for Dijkstra; name Bellman–Ford as the alternative.
+6. Implement Dijkstra in Python with nested hash tables and a linear scan for the minimum-cost node.
+7. Map shortest-path problems to generic cost minimization (e.g., trading / routing).
+
+### worked_examples_present
+
+**Y** — Multiple:
+
+| Example | Sections | Outcome |
+|---------|----------|---------|
+| Start–A–B–Finish (minutes) | Working with Dijkstra's algorithm | 6 min optimal vs 7 min BFS-by-segments |
+| Commute analogy (school vs park) | Trading for a piano | Explains cheapest-node finality |
+| Rama music trades | Trading for a piano | $35 path: book→LP→drums→piano |
+| Negative-weight Sarah trade | Negative-weight edges | Dijkstra wrong ($35 vs $33) |
+| Python hash-table graph | Implementation | Full code + step trace |
+
+### exercise_hooks
+
+- **9.1** (line 5723): "In each of these graphs, what is the weight of the shortest path from Start to Finish?" — three graphs; **requires PDF/figure** for numeric answers from text export alone.
+- **Stretch `[inferred]`:** Re-implement with `heapq` priority queue; compare step counts to linear scan.
+- **Stretch:** Construct a minimal negative-edge counterexample on ≤4 nodes and trace Bellman–Ford informally (external reading).
+- **Cross-canon:** Contrast with CLRS Dijkstra preconditions and complexity when CLRS ch.22 ingested on demand.
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 9 is the **canon foundation for weighted graph search** in track A. It bridges ch.6 BFS (unweighted reachability / hop count) to:
+
+- ch.10 **greedy algorithms** (different optimization pattern)
+- ch.11 **dynamic programming** (alternative optimality structure)
+- Later canon: **routing in distributed systems** (UDS, DDIA — path/cost metaphors), **agent tool graphs** (LangGraph snapshots — state transitions with costs/latency as edge weights `[inferred]`)
+
+Without this chapter, readers lack the standard template for **relaxation + priority-driven exploration**, which reappears in many systems texts under different names.
+
+### 2. MDCalc alignment
+
+**[none]** — No agents, trace/eval observability, clinical AI safety, or regulated deployment content. Pure algorithms pedagogy. Pattern-portable only: "shortest path under constraints" is structurally similar to **minimum-cost workflow routing** but the chapter does not discuss healthcare, evaluation harnesses, or deployment gates.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **CLRS 4e** (optional) | Full Dijkstra proof, priority-queue analysis, Bellman–Ford — **deeper and formal**; this chapter is intuitive precursor |
+| **Understanding Distributed Systems** | May use graph/routing analogies; unlikely to re-teach Dijkstra from scratch |
+| **AI Engineering / Hands-On LLMs** | No direct overlap; graph search not LLM-core |
+| **Grokking ch.6** | **High** — direct prerequisite; BFS explicitly contrasted |
+
+**Verdict:** Keep both ch.6 and ch.9 ingests; flag CLRS as proof-grade upgrade when operator requests algorithms depth.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Y** — strong multi-domain narratives + code |
+| Exercise hooks | **Y** — 9.1 present; figure-dependent |
+| Chapter boundary | **Clean** — single algorithm family, clear Recap; Bellman–Ford deliberately out of scope |
+| Text export quality | **Partial** — figures missing; implementation section still usable |
+| Contested claims | **Flagged** — "no cycles" wording (KF-07) |
+
+**Scholia recommendation:** High-value ingest for reference-library; pair with operator-supplied figure OCR or PDF glance for exercise 9.1 solutions.
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Pass/Fail | Notes |
+|-----------|-----------|-------|
+| **Edition currency** | **PASS** | 2e (2024); ≤5 years; manifest rank #1 track A foundation |
+| **Author authority** | **PASS** | Manning textbook tier; pedagogical CS algorithms series |
+| **Primary-source citation density** | **PASS (low)** | No academic citations in chapter; procedural text with original examples — acceptable for skill-building tier, not survey |
+| **Contested claims flagged** | **PASS** | KF-07 "no cycles" oversimplification flagged; negative-weight limitation accurately demonstrated |
+| **Worked examples (procedural chapter)** | **PASS** | Manual traces + Rama + Python — meets procedural bar |
+
+**TEXTBOOK-Q1 overall: PASS** — Suitable for cs-ai-textbook-canon reference-library with `[contested]` annotation on cycle wording and figure-gap caveat on exercises.
+
+---
+
+## Provenance ledger (load-bearing rows)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| GA2E-C09-001 | BFS = fewest segments; Dijkstra = minimum total weight | quoted | Grokking Algorithms 2e | 9781633438531 | literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md | KF-01 |
+| GA2E-C09-002 | Four-step Dijkstra procedure | compressed | Grokking Algorithms 2e | 9781633438531 | literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md | KF-02 |
+| GA2E-C09-003 | Non-negative weights required; negative edges break finality | quoted | Grokking Algorithms 2e | 9781633438531 | literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md | KF-05 |
+| GA2E-C09-004 | Python: nested dict graph + costs/parents/processed | compressed | Grokking Algorithms 2e | 9781633438531 | literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md | KF-06 |
+| GA2E-C09-005 | "No cycles" claim oversimplifies standard preconditions | inferred | Grokking Algorithms 2e | 9781633438531 | literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md | KF-07 `[contested]` |
+
+---
+
+## Recap alignment (chapter closing bullets)
+
+The ingest confirms the chapter Recap (lines 5729–5738):
+
+- BFS → unweighted shortest path
+- Dijkstra → weighted shortest path
+- Non-negative weights only
+- Negative weights → Bellman–Ford (external)
+
+---
+
+*Ingest generated: 2026-06-25 · scholia chapter fan-out · lines 5055–5739 · ≤4500w cap*

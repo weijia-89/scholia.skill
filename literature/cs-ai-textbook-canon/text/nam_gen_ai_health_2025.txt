@@ -1,0 +1,2582 @@
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+                          THE LEARNING HEALTH SYSTEM SERIES
+
+
+
+
+                           Generative Artificial Intelligence
+                              in Health and Medicine
+                                 Opportunities and Responsibilities
+                                  for Transformative Innovation
+
+
+
+
+                   Thomas Maddox, Dianne Babski, Peter Embí,
+           Jackie Gerhart, Jennifer Goldsack, Ravi Parikh, and Troy Sarich
+
+                           Sunita Krishnan and Audrey Elliott, Editors
+
+
+
+
+                                             WASHINGTON, DC
+                                                NAM.EDU
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             NATIONAL ACADEMIES PRESS                      500 Fifth Street, NW           Washington, DC 20001
+
+             This publication has undergone peer review according to procedures established by the National
+             Academy of Medicine (NAM). Publication by the NAM signifies that it is the product of a carefully
+             considered process and is a contribution worthy of public attention but does not constitute an
+             endorsement of conclusions and recommendations by the NAM. The views presented in this
+             publication are those of individual contributors and do not represent formal consensus positions
+             of the authors’ organizations; the NAM; or the National Academies of Sciences, Engineering, and
+             Medicine.
+
+             This publication was completed with support from the Doris Duke Foundation and the Gordon
+             and Betty Moore Foundation. Any opinions, findings, or conclusions expressed in this publication
+             do not necessarily reflect the views of any organization or agency that provided support for this
+             publication.
+
+             International Standard Book Number-13: 978-0-309-73369-4
+             International Standard Book Number-10: 0-309-73369-7
+             Digital Object Identifier: https://doi.org/10.17226/28907
+
+             Copyright 2025 by the National Academy of Sciences. National Academies of Sciences, Engineering,
+             and Medicine and National Academies Press and the graphical logos for each are all trademarks of
+             the National Academy of Sciences. All rights reserved.
+
+             Printed in the United States of America.
+
+             Suggested citation: National Academy of Medicine. 2025. Generative Artificial Intelligence in Health
+             and Medicine: Opportunities and Responsibilities for Transformative Innovation. Krishnan, S., and A.
+             Elliott, editors. NAM Special Publication. Washington, DC: National Academies Press. https://doi.
+             org/10.17226/28907.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                       “Knowing is not enough; we must apply.
+                                        Willing is not enough; we must do.”
+                                                   —GOETHE
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                     AB OUT THE NATIONAL ACADEMY OF MEDICINE
+
+             The National Academy of Medicine is one of three Academies constituting
+             the National Academies of Sciences, Engineering, and Medicine (the National
+             Academies).The National Academies provide independent, objective analysis and
+             advice to the nation and conduct other activities to solve complex problems
+             and inform public policy decisions. The National Academies also encourage
+             education and research, recognize outstanding contributions to knowledge, and
+             increase public understanding in matters of science, engineering, and medicine.
+
+             The National Academy of Sciences was established in 1863 by an Act of
+             Congress, signed by President Lincoln, as a private, nongovernmental institution
+             to advise the nation on issues related to science and technology. Members are
+             elected by their peers for outstanding contributions to research. Dr. Marcia
+             McNutt is president.
+
+             The National Academy of Engineering was established in 1964 under the
+             charter of the National Academy of Sciences to bring the practices of engineering
+             to advising the nation. Members are elected by their peers for extraordinary
+             contributions to engineering. Dr. John L. Anderson is president.
+
+             The National Academy of Medicine (formerly the Institute of Medicine)
+             was established in 1970 under the charter of the National Academy of Sciences
+             to advise the nation on issues of health, health care, and biomedical science and
+             technology. Members are elected by their peers for distinguished contributions to
+             medicine and health. Dr.Victor J. Dzau is president.
+
+             Learn more about the National Academy of Medicine at NAM.edu.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                        GENERATIVE ARTIFICIAL INTELLIGENCE
+                             IN HEALTH AND MEDICINE
+
+
+          Author Group
+
+          THOMAS MADDOX (Chair), BJC HealthCare/Washington University
+            School of Medicine
+          DIANNE BABSKI, National Institutes of Health
+          PETER EMBÍ, Vanderbilt University Medical Center
+          JACKIE GERHART, Epic
+          JENNIFER GOLDSACK, Digital Medicine Society
+          RAVI PARIKH, Emory University
+          TROY SARICH, Johnson & Johnson
+
+          NAM Staff
+
+            Development of this publication was facilitated by contributions of the
+          following current and former NAM staff, under the guidance of J. Michael
+          McGinnis, Leonard D. Schaeffer Executive Officer and Executive Director of the
+          NAM Leadership Consortium:
+
+          SUNITA KRISHNAN, Senior Program Officer
+          AUDREY ELLIOTT, Associate Program Officer
+          ANNIE MURFF, Research Associate
+          STEPHANIE STAN, Research Associate (June 2023–March 2024)
+
+
+
+
+                                                               v
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       DISCLOSURE OF CONFLICTS OF INTEREST
+
+             See Author Information on p. 43.
+
+
+
+
+                                                               vi
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                      CONSULTATIVE EXPERTS
+
+            The author group would like to express its sincere gratitude to the following
+          experts, who were called upon to share their views on emerging applications,
+          opportunities, and risks of generative artificial intelligence for health and medicine.
+          Their insights and knowledge have informed the final form of this publication.
+
+          PETER LEE, Microsoft
+          KENNETH MANDL, Harvard University
+
+
+
+
+                                                               vii
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                  REVIEWERS
+
+            This NAM Special Publication was reviewed in draft form by individuals
+          chosen for their diverse perspectives and technical expertise. The purpose of this
+          independent review is to provide candid and critical comments that will assist the
+          National Academy of Medicine in making the publication as sound as possible
+          and to ensure that it meets the institutional standards for quality, objectivity, and
+          evidence. The review comments and draft manuscript remain confidential to
+          protect the integrity of the deliberative process.
+            The author group thanks the following individuals for their review of this
+          report:
+
+             DAVID W. BATES, Harvard University
+             DAVID C. CLASSEN, University of Utah
+             WILLIAM W. STEAD, Vanderbilt University
+
+            The reviewers listed above provided many constructive comments and
+          suggestions, but they were not asked to endorse the publication’s content and did
+          not see the final draft before it was published.
+            Review of this publication was overseen by PAUL C. TANG, Stanford
+          University School of Medicine. Responsibility for the final content rests entirely
+          with the author group and the National Academy of Medicine.
+
+
+
+
+                                                               ix
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                 CONTENTS
+
+          Preface                                                                                           xv
+
+          Acronyms and Abbreviations                                                                      xvii
+
+          1    Introduction                                                                                   1
+
+          2    Opportunities and Early Evidence for Generative
+               Artificial Intelligence in Health and Medicine                                                 5
+
+          3    Risks of Generative Artificial Intelligence in Health
+               and Medicine                                                                                 11
+
+          4    Application Readiness Cadence                                                                15
+
+          5    The Path Forward                                                                             21
+
+          References                                                                                        35
+
+          Author Information                                                                                43
+
+          Appendix: Rapid Field Development and Progress                                                    47
+
+
+
+
+                                                               xi
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                      FIGURES AND TABLES
+
+                                                     FIGURES
+
+          1-1     The history of artificial intelligence use in health care, 2
+
+          4-1     Large language model application readiness cadence, 16
+
+                                                      TABLES
+
+          5-1     Similarities in Monitoring Generative and Predictive/Analytical Artificial
+                  Intelligence, 23
+          5-2     Differences in Monitoring Generative and Predictive/Analytical Artificial
+                  Intelligence, 24
+          5-3     Opportunities for Cross-Sector Collaboration Across the Artificial
+                  Intelligence Life Cycle Phases, 27
+          5-4     Responsibility Assignment Matrix Defining the Current Roles and
+                  Responsibilities of Collaborating Stakeholders During Different Phases of
+                  Generative Artificial Intelligence Model Development and Deployment
+                  in Health and Health Care, 30
+
+
+
+
+                                                              xiii
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                   PREFACE
+
+             The fundamental goal of modern health care is to enhance the well-being
+          of individuals and populations, ensuring that each person has the opportunity
+          to achieve their full health potential. Today, we stand at the threshold of a
+          technological revolution that has the potential to transform health and medicine
+          as we know it: the rise of generative artificial intelligence (AI) and large language
+          models (LLMs). These innovations hold promise for improving health care
+          delivery, advancing medical research, and augmenting the capacity of clinicians to
+          provide personalized care at an unprecedented scale.
+             The introduction of these powerful tools comes at a time when the health
+          system faces significant challenges, including workforce shortages, inequities
+          in care access, rising costs, and the burden of navigating increasingly complex
+          terrain. As we integrate generative AI into this landscape, the potential for
+          both breakthrough innovation and unintended consequences demands careful
+          consideration.These technologies, while transformative, also raise concerns about
+          privacy, bias, and the role of human judgment in clinical decision making.
+             In response to the opportunities and risks posed by generative AI, the National
+          Academy of Medicine’s (NAM’s) Digital Health Action Collaborative convened
+          a workshop in the fall of 2023 to enhance common understanding among health
+          professionals and health system leaders, technology developers, and government
+          agencies of the nature and health care implications of LLMs and generative AI.
+          Leading experts across clinical medicine, biomedical research, AI ethics, and health
+          policy were engaged to assess the future impact of generative AI on health and
+          medicine.The discussions focused on how LLMs can augment clinical workflows,
+          reduce administrative burden, support diagnostic decision making, and empower
+          patients through more accessible, tailored health information. At the same time,
+          participants examined the ethical, legal, and regulatory frameworks needed to
+          ensure these technologies are used responsibly and equitably.
+
+
+
+                                                               xv
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             xvi | Preface
+
+
+                This NAM Special Publication, Generative Artificial Intelligence in Health and
+             Medicine: Opportunities and Responsibilities for Transformative Innovation, addresses
+             both the promise and the potential unintended consequences related to the use of
+             generative AI in health, medicine, and biomedical science. It highlights how LLMs
+             might transform all aspects of care, from patient triage and clinical documentation
+             to drug discovery and public health analytics.Yet, it also emphasizes the importance
+             of human oversight, transparency, and ensuring that AI-driven solutions are free
+             from bias and accessible to all populations.
+                Generative AI will not replace health professionals, but it will reshape their
+             roles, enabling them to focus on the aspects of care that require empathy, creativity,
+             and complex decision making. By enhancing professional education, addressing
+             workforce needs, and reimagining patient engagement, this publication offers a
+             roadmap for ensuring that the integration of generative AI in health and medicine
+             benefits all stakeholders—patients, providers, and the broader health ecosystem.
+                As part of the NAM’s continued commitment to advancing equitable and
+             innovative health solutions, we look forward to supporting this transformative
+             shift and working with stakeholders across sectors to ensure that the future of
+             health and medicine is one in which technology best serves humanity, advancing
+             both individual well-being and the health of people everywhere.
+
+             J. Michael McGinnis, MD, MPP			                                            Victor Dzau, MD
+             Leonard D. Schaeffer Executive Officer                                             President
+             National Academy of Medicine		                                National Academy of Medicine
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                         ACRONYMS AND ABBREVIATIONS
+
+          AI                   artificial intelligence
+
+          CDS                  clinical decision support
+
+          DT                   digital twin
+
+          EHR                  electronic health record
+          EU                   European Union
+
+          FDA                  U.S. Food and Drug Administration
+
+          GenAI                generative AI
+
+          IST                  in silico trial
+
+          LHS                  Learning Health System
+          LLM                  large language model
+
+          ML                   machine learning
+
+          NAM                  National Academy of Medicine
+
+          WHO                  World Health Organization
+
+
+
+
+                                                              xvii
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                           1
+                                           INTRODUCTION
+
+             Generative AI (GenAI) is a type of artificial intelligence (AI) that produces
+          a variety of content, including text, imagery, and audio. Large language models
+          (LLMs) are a subset of GenAI that specializes in interpreting and generating
+          human language to create text (see Figure 1-1). GenAI models are trained on vast
+          amounts of text and use the content and relationships of that text to predict and
+          generate new text (Accenture, 2024; Briganti, 2023). Users of GenAI guide the
+          creation of text using prompts and post-processing actions to further refine and,
+          if needed, correct potential errors, omissions, and fabrications.
+             GenAI tools currently have a range of potential applications in health, health
+          care, and biomedicine. For example, GenAI can enable clinical work and
+          reduce cognitive burden by drafting administrative documents, aiding in clinical
+          documentation tasks, and supporting decision making (Gandhi et al., 2023). It
+          also can help patients to better understand and engage with their health care
+          (Pahune and Rewatkar, 2024). GenAI can also facilitate health care payment tasks
+          by summarizing patient data and generating written authorization for health care
+          services (Shoja et al., 2023). Clinically relevant summaries and recommendations
+          generated by LLMs might also help provide potential diagnoses, allowing health
+          care professionals to expedite treatment decisions for their patients (Briganti,
+          2023). GenAI also has the potential to assimilate scientific evidence and help
+          identify novel therapeutics as well as prioritize potential repurposing candidates
+          for existing drugs (Yan et al., 2024).
+             While these early experiences hold promise, the evidence for real-world
+          impact of GenAI tools remains limited. Furthermore, applications of GenAI
+          in health and biomedicine raise unique risks. These include information
+          inaccuracy relevant to medical decision making due to so-called hallucinations
+          or confabulations; inequitable access, utility, and applicability of LLMs in lower-
+          resourced environments; and the perpetuation of biases present in training data or
+          introduced by AI engineers (Yang et al., 2023; Zhang and Kamel Boulos, 2023).
+                                                               1
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             2 |
+
+
+
+
+                                                                                                     FIGURE 1-1 | The history of artificial intelligence use in health care.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                            Introduction | 3
+
+             As is the case with all AI tools, the safe, effective, ethical, and equitable use and
+          implementation of GenAI in health and medicine is essential to maximizing
+          its benefits while minimizing risks. As further expanded on below, ensuring
+          such trustworthy and responsible use of GenAI tools in health care requires
+          approaches that are both similar to and different than those applied to predictive
+          and analytical AI tools. As these technologies evolve, so too must the policies and
+          best practices that guide such trustworthy practices. Accountability mechanisms
+          could include creating and implementing a governance framework across health
+          systems and organizations; enhancing standards for testing and training LLMs and
+          GenAI on diverse data sets; and requiring health care providers to have training
+          and certification on LLMs and GenAI use in clinical settings. In addition, clinical
+          workflows will need modification to allow for effective GenAI interaction and
+          human oversight. Furthermore, once workflows are designed and implemented,
+          periodic local testing, validation, and oversight of GenAI in real-world clinical
+          settings will be essential (Ratwani et al., 2024).
+             Achieving the opportunities above will require many parties and skill sets
+          to work toward the ultimate goal of upholding and promoting a continuously
+          learning health system. A Learning Health System (LHS) has been defined by the
+          National Academy of Medicine (NAM) as
+
+               one in which science, informatics, incentives, and culture are aligned for
+               continuous improvement, innovation, and equity—with best practices and
+               discovery seamlessly embedded in the delivery process, individuals and families
+               as active participants in all elements, and new knowledge generated as an integral
+               by-product of the delivery experience. (NAM, n.d.)
+
+             As part of a larger effort to achieve a Learning Health System and improve
+          alignment across these domains, the NAM developed a set of Shared Commitments
+          as a trust framework for health and health care services, emphasizing system
+          performance that is accessible, affordable, transparent, accountable, and adaptive
+          (McGinnis et al., 2024).To this end, the NAM Digital Health Action Collaborative
+          convened a workshop on October 25, 2023, and a follow-on meeting with federal
+          agency representatives on October 26, 2023, to enhance common understanding
+          among health professionals and health system leaders, technology developers,
+          and government agencies of the nature and health care implications of LLMs
+          and GenAI. Workshop sessions focused on the possible GenAI benefits, risks and
+          necessary guideposts, and guardrails in health care. This publication builds on
+          those discussions and key takeaways, outlining GenAI’s potential opportunities,
+          risks, and paths forward.
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                           2
+              OPPORTUNITIES AND EARLY EVIDENCE FOR
+              GENERATIVE ARTIFICIAL INTELLIGENCE IN
+                     HEALTH AND MEDICINE
+
+             Early experience with generative AI (GenAI) has shown promise with
+          potentially reducing clinician burden and delays in care (Albrecht et al., 2024;
+          Tierney et al., 2024). GenAI’s potential also extends beyond daily patient care
+          to support biomedical discovery in areas like drug development, diagnostics, and
+          clinical trial management. It also shows promise in areas like health equity and
+          patient support network engagement.We discuss these specific applications below.
+
+                                      CHART SUMMARIZATION
+
+             Medical chart abstraction and summarization is an essential and often time-
+          consuming part of clinical practice, and it is an area where GenAI has shown
+          early promise for reducing burden. Recent research supports that, when clinicians
+          are asked to summarize a chart, it takes about 7 minutes, whereas a GenAI large
+          language model (LLM) can perform a similar task in less time. Furthermore,
+          when comparing clinician-generated summaries to GenAI summaries, clinicians
+          preferred the GenAI summaries more than half the time (Van Veen et al., 2024).
+          GenAI-created summaries have also been deemed comparable to physician-
+          created summaries in terms of completeness, correctness, and trustworthiness
+          (Schoonbeek et al., 2024).
+
+                                      NOTE D O CUMENTATION
+
+            GenAI has shown potential in assisting clinicians with ambulatory clinic note
+          generation. Using an ambient recording of the clinic visit, GenAI LLMs can
+          process the recording and generate an encounter note that follows a designated
+
+                                                               5
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             6 | Generative Artificial Intelligence in Health and Medicine
+
+
+             template format. In one evaluation of the approach, clinicians at the Permanente
+             Medical Group and their patients reported favorable experiences with GenAI-
+             supported note generation. They also reported that the approach generated
+             high-quality note drafts for editing and was linked to reduced documentation
+             time (Tierney et al., 2024). In contrast, a study from Atrium Health found no
+             overall differences in electronic health record (EHR) or financial metrics with
+             the use of the GenAI-supported note generation approach, although there were
+             some small signals of benefit among low-volume clinicians, high utilizers of the
+             GenAI-supported note generation approach, and family medicine clinicians
+             (Liu, Hetherington, Dharod, et al., 2024). Despite these mixed results, GenAI-
+             generated notes are being rapidly adopted (Epic, 2024; Tierney et al., 2024), so
+             it will be important to continually assess the overall value of this approach as it
+             becomes more widespread.
+
+                                      DRAFT PATIENT MESSAGING
+
+                GenAI can also assist with routine patient communications. A study performed
+             at the University of California, San Diego (Tai-Seale et al., 2024), explored the
+             benefits GenAI might pose for administrative clinical workflow. Physicians that
+             participated noted GenAI-assisted patient message responses relieved clinician
+             cognitive burden by providing an empathetic draft. However, the study also found
+             that using GenAI was associated with an increase in read time and longer replies.
+             Another study from the Mayo Clinic showed that nurses saved approximately 30
+             seconds per message when using GenAI-drafted responses, a small but valuable
+             time savings over the course of a shift (Cacciaglia, 2024). These studies suggest
+             that human input is still necessary as there are large improvements that need to
+             be met with GenAI tools.
+
+                             POPULATION HEALTH AND RESEARCH
+
+               GenAI is showing early potential to assist with population health analytics
+             and research. Data queries can be conducted using conversational language as
+             prompts, which the GenAI tool translates into data queries (Epic, 2024). GenAI
+             can also help manage the large and ever-growing corpus of medical literature
+             and research-derived evidence. GenAI can help clinicians stay abreast of the latest
+             evidence-based practices and clinical guidelines by synthesizing and summarizing
+             current research findings accurately, ensuring that patient care decisions are
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                    Opportunities and Early Evidence | 7
+
+          informed by the most current scientific knowledge. However, this use of GenAI
+          is also subject to hallucinations, so development and evaluation of this capability
+          will need to mitigate that risk.
+
+                                 PRIOR AUTHORIZATIONS AND
+                                INSURANCE COMMUNICATIONS
+
+             Another source of clinical administrative burden relates to the common work
+          of requesting prior authorization for a clinical test or trying to contact insurance
+          companies on behalf of a patient who had a test denied. GenAI has the potential
+          to reduce the burden of these tasks by helping draft request letters and denial
+          appeals. Rather than foraging for the specific data that support the denial appeal,
+          GenAI tools can abstract them from a patient’s chart and compile it into an appeal
+          letter (Kirby, 2024).
+
+                                  CLINICAL DECISION SUPPORT
+
+             While GenAI’s current role in enabling clinical decision support (CDS) is
+          nascent, in part due to concerns related to errors and bias (Ratwani et al., 2024),
+          there are emerging roles for GenAI in the creation of explainable CDS (Liu,
+          McCoy, and Peterson, et al., 2024) and in assessing and optimizing CDS to make
+          it more useful and less burdensome (Liu, McCoy, and Wright, et al., 2024). Over
+          time, we anticipate that the use of GenAI in enabling clinical decision making via
+          supportive approaches will continue to evolve.
+
+                                             CLINICAL TRIALS
+
+             GenAI has significant potential in enhancing clinical trial processes by
+          automating tasks like trial design, evidence summarization, and regulatory
+          compliance. It has the potential to streamline participant recruitment, improving
+          enrollment speed and diversity (Carroll and Anderson, 2024; Gangwal et al.,
+          2024; Merk et al., 2018; Ng, 2024). For example, its capabilities to standardize
+          and analyze unstructured text from clinical notes or reports hold potential for
+          increasing the efficiency and reliability of research data (Hutson, 2024). GenAI
+          also supports patient education by presenting enrollment information in multiple
+          languages and comprehension levels.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             8 | Generative Artificial Intelligence in Health and Medicine
+
+
+                            DRUG DISCOVERY AND REPOSITIONING
+
+                In drug development, GenAI can facilitate the identification of novel molecular
+             structures, potentially enabling faster development of new therapeutics, such as
+             targeted antibody therapies (Marinov et al., 2024). Early evidence also indicates
+             the capacity to identify not only new molecules that might be created, but new
+             applications for existing medicines (Yan et al., 2024).
+
+                          DIAGNOSTICS AND DISEASE MONITORING
+
+               GenAI also has the potential to accelerate and improve diagnostic efficiency
+             and accuracy. Early evidence shows promise in improving diagnostic accuracy,
+             such as differentiating forms of dementia (Xue et al., 2024), and to assist clinicians
+             in developing differential diagnoses in cases that require complex diagnostic
+             reasoning (Kanjee et al., 2023). GenAI applications may also have potential
+             for enhancing monitoring of conditions like hypertension through enabling
+             improved patient engagement (Andreadis et al., 2024).
+
+                                                 HEALTH EQUIT Y
+
+                GenAI has the potential to significantly impact health equity by addressing
+             various disparities and barriers to health care access. First, given current access
+             limitations for many people and populations, equity can be positively affected
+             by GenAI solutions that can either directly enable care interactions or indirectly
+             increase the availability of clinicians to see more patients due to decreased burden.
+                Second, GenAI’s capabilities can also bridge communication gaps between
+             health care providers and patients. Such tools can translate educational materials
+             and health information into multiple languages, enabling non–English speaking
+             patients to receive information in their preferred language. This has the potential
+             to improve understanding and even build trust between a patient and a provider,
+             which can lead to higher treatment adherence levels. GenAI can also tailor
+             health care information and interventions to the specific cultural contexts and
+             social determinants of health affecting individual patients or communities.
+             This personalized approach acknowledges and addresses the broader factors
+             influencing health, from socioeconomic status to environmental conditions,
+             thereby promoting more equitable health care delivery.
+                Third, GenAI—as previously discussed—can improve reimbursement for health
+             care services through prior authorization and claims adjudication generation. In
+             addition, GenAI tools such as patient-facing chatbots can improve appointment
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                    Opportunities and Early Evidence | 9
+
+          scheduling processes, allowing more patients to find health care encounters
+          that match their schedules and circumstances (Clark and Bailey, 2024). Both of
+          these applications may make health care services more accessible and reduce
+          administrative burdens that disproportionately affect lower-income patients.
+             Finally, GenAI trained on large datasets can also incorporate information
+          gleaned from training data and help identify and illuminate health disparities that
+          exist across populations. By analyzing and summarizing data, GenAI can uncover
+          patterns of inequity in disease prevalence, treatment outcomes, and access to
+          care. This insight can guide health care providers and policy makers in targeting
+          interventions and resources to underserved communities, thereby addressing gaps
+          in care. That said, GenAI could worsen equity as well, given the risks of using
+          non-representative or biased data in generating its output or applying its output
+          in inequitable ways. As such, careful evaluation and monitoring of GenAI models
+          and their training sets is needed to mitigate this potential risk.
+             Although these applications of GenAI hold promise in improving health
+          equity, empiric evidence of this impact is currently absent and validation of these
+          approaches is needed. Accordingly, it will be important to continually monitor
+          the use of GenAI in the context of health equity and address any inequities to
+          which it may be contributing.
+
+                PATIENT AND SUPPORT NET WORK ENGAGEMENT
+
+             GenAI can potentially increase patients’ and their support networks’ engagement
+          in health care by providing personalized, accessible, and interactive tools for health
+          management and education. By leveraging its capabilities in natural language
+          processing and data analysis, GenAI can transform complex medical information
+          into understandable, patient-friendly formats. This demystification of medical
+          jargon plays a crucial role in helping patients, their families, and their broader
+          support network comprehend diagnoses, treatment plans, and health guidelines,
+          leading to better informed and more engaged patients.
+             Specifically, GenAI can assist through personalized patient education. GenAI
+          systems can tailor educational content to individual health conditions and
+          learning preferences, making information more relevant and engaging. For
+          example, GenAI can generate patient information for a personalized diet plan,
+          exercise suggestions, and information on managing blood sugar levels, all in
+          easy-to-understand language. Additionally, GenAI-powered chatbots and virtual
+          health assistants can provide 24/7 support to patients and their support network
+          by answering queries, providing health tips, and reminding patients about
+          medication and appointments. This constant availability is especially beneficial
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             10 | Generative Artificial Intelligence in Health and Medicine
+
+
+             for chronic disease management, where ongoing monitoring and adherence to
+             treatment are crucial. Importantly, these chatbots and health assistants will require
+             ongoing clinical oversight and monitoring to ensure adequate performance. For
+             family members and other members of a patient’s support network that serve as
+             a caregiver, GenAI can provide educational resources and support tools, helping
+             them understand and manage their loved one’s health conditions effectively.
+             Finally, GenAI-enabled platforms can connect patients and networks with
+             additional support networks and communities, providing emotional support and
+             shared experiences with others in similar situations.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                           3
+                  RISKS OF GENERATIVE ARTIFICIAL
+               INTELLIGENCE IN HEALTH AND MEDICINE
+
+            Generative AI (GenAI) poses several risks, which are important to identify
+          and mitigate to effectively use the technology. Primary risks of GenAI include
+          data privacy and security, bias, output limitations, algorithmic brittleness, and
+          hallucinations.
+
+                                 DATA PRIVACY AND SECURIT Y
+
+             Key among the risks of GenAI is the concern over data privacy and security.
+          GenAI systems require access to vast amounts of sensitive patient data, and it is
+          important to ensure these data are handled securely. Because the output of GenAI
+          algorithms is fed back into the transformer engine to refine future output, there
+          is a significant risk of sensitive information disclosure to non-authorized parties.
+          Health systems and related entities will need to understand GenAI data flows
+          and uses, then take measures to ensure that protected health information is not
+          inadvertently shared in the public domain.
+
+                                            BIAS AND EQUIT Y
+
+            As with other forms of AI, GenAI solutions fundamentally could worsen equity,
+          given the risks of using non-representative or biased data in generating its output
+          or applying its output in inequitable ways. Accordingly, it will be important to
+          continually monitor the use of GenAI in the context of health equity and move
+          to address any inequities to which it may be contributing. Large language models
+          (LLMs) and GenAI rely on vast amounts of training data to generate responses
+          and recommendations. If the training data are biased, incomplete, or incorrect,
+          or are not representative of the activities, populations, and specific environments
+
+                                                               11
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             12 | Generative Artificial Intelligence in Health and Medicine
+
+
+             to which resultant GenAI will be applied, the result can worsen care or lead
+             to unfair treatment for certain patient groups, affecting diagnostic accuracy
+             and treatment recommendations. Models trained using historical data may
+             reflect biases already present in the health care system. If certain demographic
+             groups are underrepresented in the training data or if there are disparities in
+             how patients from different backgrounds are diagnosed and treated, the model
+             may perpetuate these human-induced biases. A phenomenon known as AI drift
+             occurs when LLMs begin to exhibit unpredictable or unwanted behaviors that
+             deviate from their original parameters. This may develop when new data points
+             are introduced or when attempts are made to improve certain components of AI
+             models, inadvertently causing its performance to degrade over time. As a result,
+             the model may provide skewed diagnostic or treatment recommendations, which
+             can negatively affect patient care and perpetuate health disparities. Transparency
+             and rigorous validation methodologies that employ bias detection are essential for
+             identifying and mitigating bias in health care algorithms.
+
+                                            OUTPUT LIMITATIONS
+
+                The lack of originality in LLM-generated responses for diagnoses can diminish
+             the quality of patient care.To understand this, consider a scenario in which a health
+             care organization uses a GenAI-powered chatbot to assist patients with health
+             inquiries and symptom assessments. When patients interact with the chatbot and
+             describe their symptoms or medical history, the responses generated are based on
+             pre-existing patterns learned from previous training data. As a result, they may
+             only get generic or repetitive answers that lack specificity. If multiple patients
+             present with similar symptoms, the chatbot may provide identical responses
+             for each, without considering each patient’s specific medical history, leading to
+             frustration, dissatisfaction, and lack of trust in the technology.To address this issue,
+             health care organizations can implement strategies like incorporating dynamic
+             response generation techniques that consider individual patient characteristics
+             and contextual factors and continuously update and refine models based on
+             feedback from patients.
+                Furthermore, the use of generative AI in clinical settings could pose negative
+             outcomes or harm patients if not responsibly designed, developed, and deployed.
+             Safeguards are crucial to help minimize risks and ensure patient safety. For example,
+             health care organizations should create processes to assess the use of new AI tools,
+             monitor AI-related safety issues, and identify and address challenges.While health
+             care organizations may vary in size and resources, federal guidelines such as the
+             National Institute of Standards and Technology AI Risk Management Framework
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                               Risks of Generative Artificial Intelligence in Health and Medicine | 13
+
+          and the Executive Order on Safe, Secure, and Trustworthy Development and Use
+          of AI provide a foundation for establishing consistent practices in AI governance,
+          promoting ethical usage, and ensuring patient safety across diverse settings
+          (National Institute of Standards and Technology, 2024; The White House, 2023).
+
+                                   ALGORITHMIC BRIT TLENESS
+
+             Another risk is algorithmic brittleness, which refers to an algorithm’s
+          vulnerability to errors, breakdowns, or failures when encountering unexpected
+          inputs or situations (Eliot, 2024). While an algorithm may perform well under
+          specific conditions, it can yield inaccurate or unreliable results when dealing
+          with data or scenarios different from its training environment. Brittleness arises
+          from an algorithm’s inability to effectively generalize across datasets or adapt to
+          environmental changes. Consequently, brittle algorithms lack robustness and
+          reliability, posing challenges in critical domains like health care.
+
+               GenAI “HALLUCINATIONS” OR “CONFABULATIONS”
+
+            A “hallucination” or “confabulation” is when a GenAI tool produces information
+          that is incorrect, misleading, or not based on fact despite seeming plausible
+          (Farquhar, 2024). Hallucinations, as we refer to them here, are a consequence of
+          the way GenAI is designed to predict and generate novel, but seemingly relevant,
+          words and phrases. Awareness of this inherent limitation is essential among users
+          who might otherwise take the seemingly accurate output at face value.
+            The following case illustrates this scenario: After discovering a study on tick
+          behavior and following up with a query for the referenced scientific paper
+          supporting the study claims, GenAI provided a citation to a paper authored by
+          known experts in the field, complete with a reference. On further investigation it
+          was discovered that the paper’s title, authors, and other citation information were
+          fake (Goddard, 2023).The impact of hallucinations or fake information from using
+          GenAI in health care underscore the importance of validating generated outputs,
+          maintaining transparency in systems’ capabilities and limitations, and integrating
+          human oversight into health care processes to ensure safety and quality of care.
+          For example, one reliable approach to reduce hallucinations is to use two models
+          to address the same issue, then compare their outputs. Discrepancies can reveal
+          inaccuracies, biases, or areas prone to hallucinations. Additionally, effective prompt
+          engineering, combined with high-quality knowledge bases and fact-checking
+          models that cross-reference verified sources, enhances accuracy and minimizes
+          hallucinations by grounding responses.
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             14 | Generative Artificial Intelligence in Health and Medicine
+
+
+                              COLLAB ORATION TO MITIGATE RISKS
+
+                To mitigate these and other GenAI risks, the path forward for integrating
+             GenAI into health care should involve engaging multiple stakeholders, including
+             health care providers, patients, policy makers, technology developers, insurance
+             providers, medical researchers, and ethicists. Collaboration among these groups
+             is essential to ensure that the deployment and use of GenAI are intentional,
+             coordinated, and ethically sound. It is important for stakeholders to work together
+             to establish guidelines and regulations that protect patient data, ensure fairness
+             and transparency, and evaluate the effectiveness and safety of GenAI applications
+             in health care.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                           4
+                       APPLICATION READINESS CADENCE
+
+             Large language models (LLMs) powered by advancements in generative AI
+          (GenAI) and natural language processing, hold promise in augmenting patient
+          care and clinical workflows. At the same time, the risks inherent in GenAI and
+          their application to health care require careful consideration and development. As
+          a result, some lower-risk applications of GenAI in health care, such as ambient
+          LLM scribing for ambulatory clinic visits, are closer to clinical deployment than
+          higher-risk applications such as virtual health assistants (Tierney et al., 2024).
+          Below and in Figure 4-1, we identify near-, mid-, and long-term applications of
+          LLMs in medicine and health care, organized by their specific opportunities and
+          risks for patients, clinicians, and health systems.
+
+                                    NEAR-TERM APPLICATIONS
+
+                                 Patient Education and Engagement
+
+             LLMs are poised to enhance patient education and engagement through
+          personalized health information dissemination. AI-based conversational agents
+          have already demonstrated reasonable proof of concept in areas like mental health,
+          with prospective studies demonstrating reductions in depression and distress (Li et
+          al., 2023). The underlying learning architecture of modern chatbots has evolved
+          from predictive natural language processing and speech recognition software to
+          generative LLMs that process large text-based datasets to translate, predict, and
+          produce content. Chatbots and virtual assistants powered by LLMs can augment
+          prior efforts by providing tailored responses to patient queries in patient-friendly,
+          culturally appropriate language, improving health literacy and adherence to
+          treatment plans. There is already emerging evidence that LLM chatbots can
+          improve understandability and readability of decision support around informed
+
+                                                               15
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             16 | Generative Artificial Intelligence in Health and Medicine
+
+
+
+
+             FIGURE 4-1 | Large language model application readiness cadence.
+
+
+
+             consent for surgery, although, unchecked, such chatbots may reinforce biased
+             decision making (Decker et al., 2023; Omiye et al., 2023).
+
+                                               Information Synthesis
+
+                LLMs can facilitate automated summarization of medical records, aiding
+             clinicians in quickly extracting relevant information during patient encounters
+             and reducing administrative burdens (Van Veen et al., 2024). Large EHR vendors
+             have already integrated LLMs to summarize information from EHRs and these
+             programs have been implemented in several health systems (Goodman et al., 2024).
+             Cohort retrieval is a particular application of LLMs, with existing applications
+             involved in recruitment for clinical trials, protocol design, and retrospective
+             studies (Jin et al., 2023). Additionally, LLMs show promise in accelerating clinical
+             decision making through real-time literature review and evidence synthesis. By
+             analyzing vast volumes of medical literature, these models can assist clinicians in
+             staying abreast of the latest research findings and treatment guidelines, thereby
+             supporting evidence-based practice. However, without careful tailoring of clinical
+             questions, LLMs are prone to factual inaccuracies in evidence synthesis (Tang et
+             al., 2023).
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                     Application Readiness Cadence | 17
+
+                                     MID-TERM APPLICATIONS
+
+                                             Precision Medicine
+
+             A large strength of LLMs is their ability to synthesize large amounts of
+          information for prognostic and predictive risk assessments. By analyzing multi-
+          modal data, including EHRs, genomics, and imaging studies, LLMs may be on a
+          path to assist in treatment selection (Wilhelm et al., 2023). That said, early efforts
+          in this capacity have demonstrated some limitations, such as confusing or incorrect
+          recommendations, so significant quality improvements will be needed before this
+          capacity is ready for real-world deployment. In areas like precision oncology, a
+          major limitation of current LLMs for personalized treatment and decision support
+          is their inability to generate accompanying evidence that is useful for clinicians
+          (Benary et al., 2023). This inability to include clinical domain knowledge into
+          decision making may explain the suboptimal performance of current LLMs for
+          treatment selection and disease management and may foreshadow the need for
+          integrating neurosymbolic reasoning for next-generation decision support to
+          improve interpretability and generalizability.
+
+                                     Treatments for Rare Diseases
+
+             There is an urgent need for novel therapies of rare diseases, including genetic
+          diseases, but clinical trials in this space are often underpowered, fail to meet
+          enrollment targets, or do not yield effective therapies (Rees et al., 2019). GenAI
+          can provide powerful insights and knowledge linking between the emerging
+          mechanistic understanding of an increasing number of rare diseases with existing
+          therapeutics that might prevent or treat those rare diseases. Computational
+          simulations of clinical trials, termed in silico trials (ISTs), have the potential to
+          salvage some of the resources devoted to failed pharmacological studies in rare
+          diseases and speed the development of promising therapies by enabling better
+          powered trials, simulating control and efficacy arms, and optimizing patient
+          recruitment and drug protocols (Kolla et al., 2021). Digital twins (DTs) are a
+          related concept, defined as a computational representation of an individual
+          patient or disease (Moingeon et al., 2023). DTs may represent a specific organ,
+          disease process, or entire patient modeled from high-resolution imaging, genetic,
+          or physiologic function. DTs aim to facilitate virtual experiments and subgroup
+          analyses of investigational agents that would otherwise be difficult or risky to
+          conduct in real patients; this is particularly salient in rare diseases, where treatments
+          may carry a higher risk profile. Many current DTs utilize AI and machine
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             18 | Generative Artificial Intelligence in Health and Medicine
+
+
+             learning (ML) methods for functions that include better optimizing patient
+             matching, simulating counterfactuals, and predicting downstream response. It can
+             be challenging to create separate digital twins for specific diseases; the advent of
+             LLM foundation models can facilitate cross-disease digital twins that could be
+             used to simulate the effectiveness of various drug combinations (Bartlett et al.,
+             2019; Cosmas et al., 2024).
+
+                               Streamlining Documentation and Coding
+
+                Through natural language understanding, LLMs can automatically generate
+             comprehensive clinical notes and assign appropriate billing codes, enhancing
+             revenue cycle management in health care settings (Yang et al., 2023). Generation
+             of appropriate billing and procedural codes may also ensure reliable claims-based
+             datasets that are used for observational and economic studies in health care (Yang
+             et al., 2023). Such tools could also be used to extract important metrics of social
+             determinants of health from unstructured clinical text (Guevara et al., 2024).
+             Platforms like ChatGPT have had markedly high accuracy in detecting diagnosis
+             codes from unstructured text and inferring disease modifiers, although this
+             performance may vary by disease. Furthermore, similar general-purpose LLMs
+             may have large levels of inaccuracy with diagnosis codes, especially with rarer
+             diseases (Hadi et al., 2024; Harada et al., 2024).
+
+                                                   Genome Mining
+
+               Despite the progress made in understanding genetic contributions to disease
+             through efforts such as the Human Genome Project, the phenotypic impact
+             of many variants in the exome and transcriptome remains unknown. LLMs
+             can be trained on billions of genomic variants to predict effects of heretofore
+             uncharacterized genomic variants. So-called DNA language models may
+             augment traditional genome-wide association studies and lead to more accurate
+             characterization of variants of unknown significance, which can uncover new
+             therapeutic options for diseases like cancer.
+
+                                       LONG-TERM APPLICATIONS
+
+                                            Virtual Health Assistants
+
+               Given appropriate validation, LLM-powered virtual health assistants can
+             conduct symptom assessments, provide triage recommendations, and facilitate
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                     Application Readiness Cadence | 19
+
+          remote consultations, expanding access to care in regions where access to in-
+          person health care is limited. Such models may be able to adapt to new evidence
+          and treatment faster than traditional medical professionals, offering access
+          improvements (Sezgin, 2024; Tadesse et al., 2023).
+
+                                            Disease Sur veillance
+
+            LLMs can contribute to the development of disease outbreak detection and
+          management tools. By ingesting diverse data sources, including population
+          health data, laboratory data, social media trends, and environmental factors, these
+          models can generate more comprehensive insights to aid in early identification
+          of public health threats and inform timely interventions. Such efforts to bolster
+          pandemic preparedness and response efforts may be extremely beneficial for
+          future outbreaks akin to the COVID-19 pandemic. However, safe and effective
+          deployment in this space is limited by access to real-time reliable sources of data
+          to inform forecasting models.
+
+                                              Medical Education
+
+            The current paradigm of medical education is based on potentially identifiable
+          patient vignettes or hypothetical cases of limited disease phenotypes. In areas
+          requiring visual interpretation, like radiology and dermatology, datasets are
+          often limited to specific populations while underrepresenting other groups
+          or pathologies. When armed with representative data and appropriate clinical
+          domain knowledge, LLMs may generate synthetic images and cases that can
+          inform more representative, equitable medical education materials that represent
+          diverse pathologies (Safranek et al., 2023).
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                           5
+                                       THE PATH FORWARD
+
+             To effectively navigate the path forward to realize the potential of generative AI
+          (GenAI) in health care and health, several foundational activities will be required.
+          These include skill generation; model testing, implementation, and monitoring;
+          resources and infrastructure; and standardized oversight and guidelines.
+
+                                           SKILL GENERATION
+
+             To effectively use GenAI in health care, it is important that clinicians develop
+          proficiency in using GenAI tools effectively and be attuned to discerning
+          and interpreting GenAI-driven outputs. For instance, as with many artificial
+          intelligence (AI) solutions, recommendations such as a likely diagnosis or
+          treatment recommendations, or generated responses to patient queries, should be
+          considered in context as possible, but not certain, such that they supplant clinical
+          judgment and diligence. As confidence in the reliability and validity of GenAI-
+          driven guidance improves, clinicians will make use of these tools more effectively
+          to improve patient outcomes and enhance health care delivery.
+             The advancement and sustainable integration of AI tools in health care
+          necessitate a comprehensive expansion of training and educational programs.
+          Professional training programs for clinicians should incorporate core curricula
+          focused on teaching the appropriate use of data science and AI products and
+          services. Continuous education for health care professionals should empower
+          them to become more informed consumers of AI technologies, capable of
+          providing feedback to continually refine AI-driven results. Additionally, consumer
+          education campaigns are essential to inform patients of their rights, and to build
+          and maintain trust across various educational levels. Patients need to actively
+          engage with their health care providers to discuss the potential benefits and risks
+          of AI-driven interventions, to ensure that patients have a clear understanding of
+          how AI will impact their care.
+                                                               21
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             22 | Generative Artificial Intelligence in Health and Medicine
+
+
+                             MODEL TRAINING, IMPLEMENTATION,
+                                    AND MONITORING
+
+                For the foreseeable future, the responsible and safe use of AI, including GenAI,
+             will require a combination of sociotechnical approaches spanning the individual
+             and systems levels to ensure benefits while mitigating harms, as has been described.
+             To that point, it is also incumbent upon multiple health system stakeholders, from
+             regulators, to health AI vendors, to health systems and providers, to consider and
+             enable testing, evaluation, local validation, and ongoing monitoring, all as part of a
+             web of solutions to enable comprehensive governance of such AI models applied
+             to practice (Shah et al., 2023). Monitoring for errors, biases, and adverse effects of
+             GenAI will in some ways be like monitoring for those in predictive and analytical
+             AI, but GenAI also presents some unique challenges due to its very nature. As has
+             been true with predictive and analytical AI solutions, GenAI’s processes are often
+             difficult to discern and monitor for accuracy and veracity (the so-called black box
+             issue). However, this makes the need for ongoing, multi-faceted monitoring of
+             implemented AI solutions, including GenAI, following an “algorithmovigilance”
+             approach even more important (Embí, 2021).
+                Many of the training, implementation, and monitoring needs are similar
+             between predictive and generative AI. However, important differences exist as
+             well and will require attention as the application of GenAI in health care matures.
+             These tables provide a structured comparison, detailing current considerations
+             of the areas where monitoring approaches align (see Table 5-1) and where they
+             diverge (see Table 5-2) for generative versus predictive/analytical AI models.
+                To mitigate the risks of GenAI, thorough testing and validation across diverse
+             datasets representative of real-world clinical scenarios should be integrated into
+             algorithm training, paired with ongoing monitoring and refinement based on
+             feedback from clinicians. A recent Biden administration Office of Management
+             and Budget memo recommended that “testing conditions should mirror as
+             closely as possible the conditions in which the AI will be deployed” (Office of
+             Management and Budget, 2024).Validation should occur on the local population
+             with the local operational software where the AI is being used. Such a local
+             electronic health record (EHR) software safety monitoring program has been
+             operationalized nationwide and is currently used annually by more than 3,000
+             hospitals (Classen et al., 2023).
+                Finally, GenAI health care applications must also consider patient privacy
+             and ethical considerations. Given the rapidly evolving and complex nature of
+             these tools, it is crucial to involve domain experts, ethicists, and stakeholders
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                    The Path Forward | 23
+
+          TABLE 5-1 | Similarities in Monitoring Generative and Predictive/Analytical Artificial
+          Intelligence
+          Aspect                Description
+          Bias and fairness     Both types of AI require continuous monitoring to ensure that bias does
+          checks                not influence outcomes. This is crucial to avoid reinforcing stereotypes
+                                or making unfair predictions that could adversely affect members of
+                                subpopulations, particularly those who are underrepresented in training
+                                data and often are among the most vulnerable.
+          Performance           AI models are susceptible to degradation over time as data patterns shift
+          degradation and       or as the model “drifts” from its original quality or relevance. Routine
+          drift management      performance monitoring and retraining are necessary for both to keep
+                                them accurate and effective in their respective tasks.
+          Ethical and societal Both generative and predictive/analytical AI can have broader societal
+          impact assessments impacts. Monitoring requires a clear understanding of each model’s
+                               societal and ethical implications, particularly where outputs could affect
+                               user behavior, decision making, or public trust.
+          Regulatory and        As AI technology becomes more integrated into sectors like health
+          compliance            care, both types of models face increasing regulatory scrutiny. Ensuring
+          oversight             compliance with privacy, transparency, fairness, and equity standards is
+                                essential, especially for high-stakes applications such as in health care.
+          User feedback         User feedback is valuable for refining both generative and predictive
+          integration           AI, as it provides real-world insights into how well the AI is performing
+                                and where adjustments may be needed. Regular feedback loops improve
+                                accuracy and align outputs with user expectations or industry standards.
+
+
+
+          throughout the development, deployment, and monitoring process to ensure that
+          the AI systems are trustworthy, reliable, and fair.
+
+                              RESOURCES AND INFRASTRUCTURE
+
+             Lack of resources and infrastructure pose significant barriers to the widespread
+          implementation of large language models (LLMs) and GenAI in health care.
+          Many health care organizations lack the necessary technical expertise, financial
+          resources, and IT infrastructure to deploy and maintain AI systems effectively.
+             The deployment of LLMs and GenAI in health care introduces significant
+          complexities and costs. Integrating AI systems into existing workflows and EHR
+          systems demands substantial investments of time, resources, and training. These
+          investments represent a significant financial burden for health care organizations,
+          particularly for smaller institutions or those with limited budgets, potentially
+          hindering widespread adoption across health care systems. In addition, local
+          adoption of such programs is critically dependent on establishing the trust of
+          frontline clinicians, which can be very resource intensive.
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             24 | Generative Artificial Intelligence in Health and Medicine
+
+
+             TABLE 5-2 | Differences in Monitoring Generative and Predictive/Analytical Artificial In-
+             telligence
+             Aspect                Generative AI                             Predictive/Analytical AI
+             Output evaluation The primary outputs are new content, These models generate quantitative
+             and quality control such as text, images, and audio, where predictions, making performance
+                                 quality is subjective and context       assessment more straightforward
+                                 dependent. Monitoring focuses on        through accuracy, precision, and
+                                 coherence, relevance, and ensuring      recall metrics. The emphasis is
+                                 ethical content generation, as well as on accuracy within defined data
+                                 preventing issues like “hallucinations” parameters rather than subjective
+                                 or factual inaccuracies.                quality.
+             Bias manifestation    Bias can appear in subtle ways, shaping Bias checks focus on ensuring that
+             and detection         content tone, language, or framing.     model predictions are fair across
+                                   Monitoring involves detecting biases different groups. Monitoring bias
+                                   in generated language or other output in these models often involves
+                                   media and preventing the spread         fairness audits and statistical checks
+                                   of misinformation or unintended         on outcomes rather than subjective
+                                   stereotypes.                            analysis of generated content.
+             Performance           Quality degradation may appear            Model drift often relates to
+             degradation and       as reduced coherence or creativity,       underlying data shifts, requiring
+             adaptation and        requiring frequent content review         statistical tracking of accuracy
+             dynamic nature        and adjustments. User feedback is         and regular retraining. The
+                                   often essential in detecting subtle       process is more data driven and
+                                   shifts in output quality. Also, GenAI     straightforward, as performance is
+                                   models are often designed to evolve       measured against historical accuracy
+                                   over time, learning from new data,        benchmarks.
+                                   so monitoring requires ongoing
+                                   vigilance to adapt to changes.
+             Impact on users       The potential for misuse of               Impacts are more directly related to
+             and society           generative content (e.g., for spreading   decision making, where inaccurate
+                                   misinformation) adds a unique layer       predictions can affect outcomes in
+                                   of impact monitoring, requiring           areas like medicine or eligibility
+                                   checks on ethical content generation      for services. Monitoring focuses on
+                                   and user satisfaction. Societal impacts   ensuring reliable decision support
+                                   include privacy, misinformation, and      and fairness in model applications.
+                                   the psychological effect on users.
+             Compliance            Content produced by generative AI     These models often operate
+             and legal             can raise unique compliance issues    in industries with established
+             considerations        related to privacy, misinformation,   regulatory frameworks (e.g., finance
+                                   and ethical standards. Monitoring     or health care), so monitoring
+                                   involves regulatory checks on content focuses on meeting interpretability,
+                                   generation standards and adherence to privacy, and compliance
+                                   ethical guidelines.                   requirements within well-defined
+                                                                         legal standards.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                    The Path Forward | 25
+
+            Finally, disparities in health care access may worsen if patients lacking reliable
+          internet or digital devices are excluded from benefiting from timely GenAI-
+          driven diagnostics. Such exclusions could widen existing gaps in health care
+          access and outcomes, further exacerbating inequities in health care delivery.
+
+                   STANDARDIZED OVERSIGHT AND GUIDELINES
+
+            Given the cross-cutting nature of LLMs and GenAI, whose impact spans
+          sectors and stakeholders, collaboration and coordination among federal and state
+          regulators, non-governmental bodies, and organizations responsible for health
+          care delivery is important to ensure adequate oversight of these technologies.
+          Health care regulators with authority over industry developers and enablers of
+          AI solutions (e.g., the U.S. Food and Drug Administration [FDA], the Assistant
+          Secretary for Technology Policy/Office of the National Coordinator for
+          Health Information Technology) should develop clear guidelines and standards
+          for evaluating AI systems, including GenAI, as well as robust mechanisms for
+          monitoring their safe and ethical use in health care. Health care organizations
+          will need to navigate a complex regulatory landscape, including privacy laws, data
+          security regulations, and health care standards, to ensure compliance with legal and
+          ethical guidelines governing the effective and equitable use of GenAI in health
+          care. Even as the number of FDA-regulated AI solutions grows, there currently are
+          and likely will remain many more AI-enabled solutions in health care that are not
+          regulated in the same fashion and yet will be increasingly relied upon for health
+          care delivery and processes. From the summarization of health care data and
+          the creation of new clinical data at the point of care, to the recommendation of
+          diagnostic and therapeutic interventions and the use of GenAI-enabled chatbots
+          that interact directly with patients as health care “agents,” there are numerous uses
+          and downstream risks associated with GenAI in health care. Even as the federal
+          regulatory landscape matures relative to AI vendors and enablers, regulations
+          are also being clarified to define the responsibilities of health care providers to
+          ensure that their adoption and use of AI does not lead to discriminatory care and
+          inequities (Office for Civil Rights, 2024). Indeed, GenAI presents a formidable
+          challenge for health care organizations seeking to harness the benefits of GenAI
+          technology to improve patient care and clinical outcomes as well as drive new
+          discoveries.
+            Even as the regulatory landscape around the approval and use of GenAI for
+          care continues to unfold, new and refined regulatory and payment structures
+          will need to evolve to incentivize appropriate innovation and sustainability
+          of GenAI-driven health care solutions. Health care payers and policy makers
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             26 | Generative Artificial Intelligence in Health and Medicine
+
+
+             should develop flexible reimbursement models and regulatory frameworks
+             that support the adoption and integration of GenAI technologies into clinical
+             practice while safeguarding patient safety and health equity. Properly structured
+             to foster alignment of incentives among different stakeholders, such frameworks
+             can promote collaboration and knowledge sharing in an AI-driven health care
+             ecosystem.
+                The need for new GenAI evaluation metrics and procedures is evident as
+             traditional evaluation methods may not capture the unique characteristics and
+             challenges of health care AI systems. New approaches, such as real-world local
+             validation studies and standardized benchmarks, are needed to accurately assess
+             the safety, efficacy, and usability of GenAI-driven health care technologies. Health
+             care providers and GenAI developers should develop and implement a shared
+             responsibility between using specialized expertise to optimize performance
+             for specific tasks and ensuring that GenAI algorithms remain flexible and
+             generalizable enough to adapt to evolving clinical needs and support diverse
+             patient populations (Ratwani et al., 2024).
+
+                                      AREAS FOR COLLAB ORATION
+
+               As we evaluate the opportunities and risks associated with the integration of
+             LLMs and GenAI in health care, it becomes evident that the potential benefits
+             of these technologies have the capacity to vastly outweigh the inherent risks.
+             However, realizing these benefits will require intentional, coordinated actions by
+             multiple stakeholder groups, including health care providers, researchers, policy
+             makers, regulatory bodies, and technology developers. There is a pressing need
+             to pivot toward a collective call for collaboration. By fostering collaboration and
+             partnership across diverse stakeholder groups, GenAI-related challenges can be
+             collectively addressed to harness the transformative potential of LLMs and GenAI
+             to advance medicine, improve patient outcomes, and revolutionize the landscape
+             of health care delivery.
+               Table 5-3 highlights a selection of key phases in the GenAI life cycle and
+             examples of where collaboration can advance policies and practices that optimize
+             the benefit–risk ratio and assessment.The extraordinarily high costs associated with
+             developing and implementing GenAI models are a driving force for collaboration.
+             Multi-stakeholder, multi-organizational cooperation to develop shared data assets
+             and identify best practices presents substantial opportunities for cost sharing and
+             commercial risk reduction. The use of standards and collaboration approaches
+             used in the software life cycle can be of benefit in this area (Association for the
+             Advancement of Medical Instrumentation, 2020).
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                    The Path Forward | 27
+
+          TABLE 5-3 | Opportunities for Cross-Sector Collaboration Across the Artificial Intelligence
+          Life Cycle Phases
+          Phase               Sectors                   Example Opportunities for Collaboration
+          Prioritizing        • Health care             1. Identify unmet needs that can be most suitably
+          problems              professionals and          and acceptably addressed by GenAI, helping
+                                systems                    maximize the impact of GenAI on the health
+                              • GenAI developers           care industry and lives.
+                                and manufacturers       2. Develop requests for applications and funding
+                              • Representative             opportunities for specific program areas.
+                                patients and
+                                communities
+                              • Researchers
+          Data creation,      • Health care             1. Define the minimum viable data elements for
+          acquisition, and      professionals and          algorithm training and evaluation.
+          assurance             systems                 2. Generate and govern shared, representative data
+                              • GenAI developers           assets meeting these minimum requirements.
+                                and manufacturers       3. Ensure adherence to privacy, security, individual
+                              • Representative             autonomy, and transparency.
+                                patients and
+                                communities
+                              • Policy makers and
+                                regulators
+                              • Researchers
+          Model               • Health care             1. External validation of models across diverse care
+          development           professionals and          settings.
+                                systems                 2. Identify ground truth labels for model
+                              • GenAI developers           development to increase model applicability and
+                                and manufacturers          reduce bias.
+                              • Representative
+                                patients and
+                                communities
+                              • Researchers
+          Model evaluation • Health care                1. Define the characteristics beyond performance
+                             professionals and             that should be evaluated to determine whether
+                             systems                       a model is trustworthy and fit for purpose.
+                           • GenAI developers           2. Perform significant testing and validation to
+                             and manufacturers             ensure accuracy of GenAI outputs as new
+                           • Representative                information is incorporated into LLMs.
+                             patients and               3. Ensure the reproducible quality of LLM
+                             communities                   outputs.
+                           • Policy makers and          4. Practice red-teaming and adversarial approaches
+                             regulators                    to ensure model robustness against biased inputs.
+                           • Researchers
+
+                                                                                                      continued
+
+
+
+
+                         Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             28 | Generative Artificial Intelligence in Health and Medicine
+
+
+             TABLE 5-3 | Continued
+             Phase                Sectors                  Example Opportunities for Collaboration
+             Model standards      • Health care            1. Develop a regulatory framework to ensure
+                                    professionals and         responsible use of GenAI while continuing to
+                                    systems                   promote innovation.
+                                  • GenAI developers       2. Determine the proper process for regulatory
+                                    and manufacturers         review.
+                                  • Representative         3. Continually monitor and update the regulatory
+                                    patients and              framework as GenAI technology and use cases
+                                    communities               evolve.
+                                  • Policy makers and
+                                    regulators
+                                  • Researchers
+             Model                • Health care            1. Ensure that GenAI products are suitable for
+             implementation         professionals and         existing and future clinical workflows.
+             and diffusion          systems                2. Identify and develop the skills needed for model
+                                  • GenAI developers          selection and governance.
+                                    and manufacturers      3. Support the equitable deployment of patient-
+                                  • Representative            facing GenAI solutions.
+                                    patients and           4. Adapt pre-trained models to new domains,
+                                    communities               tasks, and settings.
+                                  • Researchers            5. Identify whether sufficient evaluation has been
+                                                              conducted to translate an existing model to a
+                                                              new setting.
+             Model monitoring • Health care                1. Define optimal roles and responsibilities—as
+             and maintenance    professionals and             well as funding mechanisms—for monitoring
+                                systems                       and managing changes in model performance
+                              • GenAI developers              over time.
+                                and manufacturers          2. Determine optimal time points for model
+                              • Representative                retraining.
+                                patients and               3. Manage different versions of AI models for
+                                communities                   ongoing reporting.
+                              • Policy makers and
+                                regulators
+                              • Researchers
+
+
+
+               The complexity and interdisciplinary nature of developing, evaluating,
+             implementing, and monitoring GenAI models in health care, coupled with the
+             increased risk of harm when deploying these tools in an industry that exists to care
+             for people and is defined by information asymmetry, also drives the need for deep
+             interdisciplinary collaboration. There is no single stakeholder group capable of
+             identifying and capturing the full spectrum of potential benefits and opportunities
+             for GenAI in health care, nor to identify and mitigate all the associated risks.
+             However, defining the current roles and responsibilities of different stakeholders
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                    The Path Forward | 29
+
+          collaborating to develop and deploy GenAI in health care (see Table 5-4) reveals a
+          high burden on certain stakeholders and challenges the notion that policy makers
+          and regulators are ultimately responsible for the implementation of GenAI that
+          helps, not harms, in health care.
+             Health care professionals are most often ultimately accountable for guaranteeing
+          performance at key phases of GenAI development and/or deployment. While
+          many of their collaborators, including developers, GenAI manufacturers, and
+          researchers, are responsible for tasks and costs associated with these phases,
+          the burden of decision making—and the assumption of risk for harm—most
+          commonly sits with health care professionals. Even in a collaborative model,
+          discrepancies in the roles and responsibilities should be addressed, and AI
+          developers should collaborate with health care professionals and share in these
+          responsibilities. In an ecosystem where health care professionals are the backdrop
+          of responsible AI, equity issues will arise, as differently resourced health care
+          systems and organizations will provide variable levels of support for the health
+          care professionals driving GenAI strategies. Without proper support, there is also
+          the risk of fueling further provider burnout as new GenAI models are introduced.
+             To reduce these risks, appropriate resources, training, and support should be
+          provided to health care professionals in all settings, equipping them with the
+          knowledge, operational capacity, and skills to serve as the stewards of responsible
+          AI. The broader community should also intentionally implement strategies
+          that seek to reduce this burden on health care professionals. An example is the
+          development of more robust medical education and training opportunities to
+          support the workforce required for scale and sustainability.
+             Policy makers and regulators are essential collaborators in almost all key phases
+          of GenAI development and deployment in health care, responsible for creating
+          the necessary incentives for action and enforcing best practices and standards. To
+          illuminate where incentives may be necessary, Table 5-4 highlights examples of
+          where collaboration can advance policies and practices that optimize the benefit–
+          risk ratio and ensure appropriate benefit–risk assessment. Policies and incentives
+          should drive the broad adoption and adaptation of this collaborative approach
+          across all contexts and settings.
+             Finally, representative patients and communities should be engaged as critical
+          collaborators throughout the total product life cycle of GenAI models in health and
+          health care.There is no phase of the development or deployment of GenAI models
+          that can be successfully completed without the insights from the individuals the
+          health care industry exists to serve, specifically patients representing communities
+          where specific models will be implemented. Establishing shared values that define
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+                                                               TABLE 5-4 | Responsibility Assignment Matrix Defining the Current Roles and Responsibilities of Collaborating Stakeholders During Different
+                                                               Phases of Generative Artificial Intelligence Model Development and Deployment in Health and Health Care                                                 30 |
+
+                                                                              Health Care     GenAI          Representative Policy
+                                                                              Professionals   Developers and Patients and   Makers and
+                                                               Phase          and Systems     Manufacturers Communities Regulators       Researchers   Commentary
+                                                               Prioritizing   A, R            C              R              I            R             With health GenAI solutions being developed for health
+                                                               problems                                                                                care providers and payers, health care professionals and
+                                                                                                                                                       systems are accountable for prioritizing the problems
+                                                                                                                                                       that GenAI models could solve. They are also responsible,
+                                                                                                                                                       in conjunction with patients, communities, and
+                                                                                                                                                       researchers, for defining these problems. Once these are
+                                                                                                                                                       determined, then GenAI manufacturers and developers
+                                                                                                                                                       are consulted in order to determine if GenAI models are
+                                                                                                                                                       an appropriate solution (either in whole or in part) to
+                                                                                                                                                       the prioritized problems. Finally, policy makers should be
+                                                                                                                                                       informed of these prioritized problems so that they can
+                                                                                                                                                       assist in identifying any relevant regulatory considerations.
+                                                               Data creation, R               A, R           C              C            C             GenAI developers and manufacturers are accountable
+                                                               acquisition,                                                                            for ensuring that data used for algorithms adhere
+                                                               and assurance                                                                           to minimum viable data standards, including being
+                                                                                                                                                       representative, secure, and compliant with privacy
+                                                                                                                                                       standards. They are also responsible, along with health
+                                                                                                                                                       professionals and systems, for ensuring that the data they
+                                                                                                                                                       produce adhere to these standards. Policy makers and
+                                                                                                                                                       regulators, patients and communities, and researchers
+                                                                                                                                                       should all be consulted in these activities to ensure
+Copyright National Academy of Sciences. All rights reserved.
+
+
+
+
+                                                                                                                                                       responsible and comprehensive data use in GenAI
+                                                                                                                                                       applications.
+                                                                                                                                                                                                                              Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+                                                               Model         C   A, R   C   I      R   GenAI developers and manufacturers are ultimately
+                                                               development                             accountable in how and which models are developed,
+                                                                                                       though the responsibility for actually developing those
+                                                                                                       models and identifying ground truth labels that optimize
+                                                                                                       model applicability and minimize bias is a collaborative
+                                                                                                       endeavor between developers, manufacturers, and
+                                                                                                       researchers. Health systems and patient stakeholders
+                                                                                                       should be consulted to identify optimal features and
+                                                                                                       outcomes, while regulators should be informed of which
+                                                                                                       models may be coming to their attention.
+                                                               Model         C   C      C   A, R   C   Policy makers and regulators bear primary accountability
+                                                               standards                               and responsibility for developing and disseminating
+                                                                                                       regulatory standards for model performance, bias, and
+                                                                                                       interoperability. These standards ought to be developed in
+                                                                                                       consultation with all other stakeholders.
+                                                               Model         A   R      C   C      R   With consultation from patients, communities, policy
+                                                               evaluation                              makers, and regulators, health care professionals and
+                                                                                                       systems are ultimately accountable for defining the
+                                                                                                       parameters of trustworthiness and fit for purpose
+                                                                                                       of models designed for implementation into their
+                                                                                                       workflows, systems, organizations, and clinical decision
+                                                                                                       making, and recommending them to their patients.
+                                                                                                       GenAI developers, manufacturers, and researchers are
+                                                                                                       responsible for creating the evidence to support these
+                                                                                                       evaluations.
+
+                                                                                                                                                          continued
+Copyright National Academy of Sciences. All rights reserved.
+
+
+
+
+                                                                                                                                                                      | 31
+                                                                                                                                                                             Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+                                                               TABLE 5-4 | Continued
+                                                                                                                                                                                                                     32 |
+                                                                             Health Care     GenAI          Representative Policy
+                                                                             Professionals   Developers and Patients and   Makers and
+                                                               Phase         and Systems     Manufacturers Communities Regulators       Researchers   Commentary
+                                                               Model imple- A, R             R              C              I            C             GenAI developers, manufacturers, health care
+                                                               mentation and                                                                          professionals, and health systems assume responsibility for
+                                                               diffusion                                                                              building tools suitable for clinical workflows and diverse
+                                                                                                                                                      patient populations, with consultation from patients
+                                                                                                                                                      and communities to ensure appropriate prioritization
+                                                                                                                                                      and from researchers to ensure evidence-based rollouts.
+                                                                                                                                                      However, health care professionals remain ultimately
+                                                                                                                                                      accountable for the integration of these tools into their
+                                                                                                                                                      workflows and patient care; advocating for investment
+                                                                                                                                                      and training to select, implement, and govern these
+                                                                                                                                                      models; and adapting pre-trained models to new domains.
+                                                                                                                                                      Policy makers do not play a large role in implementation,
+                                                                                                                                                      although they should be informed of implementation
+                                                                                                                                                      challenges in order to cross-reference against standards to
+                                                                                                                                                      ensure safe implementation.
+                                                               Model mon-    A, R            R              C              R            R             GenAI developers, manufacturers, regulators, and
+                                                               itoring and                                                                            researchers play a critical role in monitoring and
+                                                               maintenance                                                                            managing changes in model performance over time.
+                                                                                                                                                      Similarly, policy makers and regulators should standardize
+                                                                                                                                                      performance parameters and generate incentives for this
+                                                                                                                                                      monitoring. Health care professionals and systems are
+                                                                                                                                                      ultimately accountable for ensuring that models deployed
+Copyright National Academy of Sciences. All rights reserved.
+
+
+
+
+                                                                                                                                                      in their organizations, care workflows, or patients’ lives
+                                                                                                                                                      are trustworthy and fit for purpose, even long after initial
+                                                                                                                                                      implementation.
+                                                                                                                                                                                                                            Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                    The Path Forward | 33
+
+
+
+                              Key for Responsibility Assignment Matrix
+
+             Responsible (R): Those who are assigned the “Responsible” level of responsibility
+             do the work to achieve the task. For every task or deliverable, there should be at least
+             one role with this level of responsibility. However, other roles can be delegated to assist
+             in the work required (see below for separately identifying those who participate in a
+             supporting role).
+
+             Accountable (A): Those who are assigned the “Accountable” level of responsibility
+             are those that are ultimately answerable for the correct and thorough completion of the
+             deliverable or task.They are also the ones who may delegate the work to those who are
+             “Responsible.” In other words, an “Accountable” should sign off or approve the work
+             that a “Responsible” does. For every task or deliverable, there should be only one role
+             with this level of responsibility.
+
+             Consulted (C): Those who are assigned the “Consulted” level of responsibility are
+             those whose opinions are sought during the work to complete the task or deliverable,
+             or who help to review the result of the work to ensure it meets the necessary goals.
+             They are typically subject matter experts or those who may be directly affected by the
+             work, and two-way communications with them are usually maintained throughout the
+             work process.
+
+             Informed (I): Those who are assigned the “Informed” level of responsibility have
+             no required work to support a task or deliverable but are usually kept up to date on
+             work progress, or they may only be notified once the work or deliverable is completed.
+             Typically, communications with those in an “Informed” role are purely one-way from
+             those who are Accountable or Responsible.
+
+
+
+          patient input as table stakes in health GenAI is critical to capturing the promise
+          of these new technologies to improve health and health care.
+
+                                                CONCLUSION
+
+            The integration of LLMs and GenAI in health care holds significant potential
+          to transform the practice of medicine, the work and experiences of health care
+          providers, and the health and well-being of patients. GenAI can support clinical
+          decision making and streamline workflows, promote patients’ and their support
+          networks’ engagement in care processes, address health equity issues, and support
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             34 | Generative Artificial Intelligence in Health and Medicine
+
+
+             clinical research. However, successful, ethical, and equitable implementation
+             of GenAI requires careful consideration of the associated risks, particularly
+             those concerning data privacy, bias, transparency, and infrastructure limitations.
+             Collaboration among stakeholders, including health care providers, patients,
+             policy makers, ethicists, and researchers, along with a cross-sector commitment
+             to maximizing the benefit of GenAI while minimizing the risks, is important
+             for navigating the complexities associated with GenAI in health care. Federal
+             and organizational oversight; standardized guidelines for GenAI development,
+             implementation, and responsible and ethical use; and continuous practitioner and
+             patient education can facilitate the ethical and effective application of LLMs in
+             health and medicine to improve patient outcomes, increase equitable access to
+             care, and revolutionize medicine, research, and health care.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                               REFERENCES
+
+          Accenture. 2024. What is generative AI? https://www.accenture.com/in-en/
+            insights/generative-ai (accessed March 29, 2024).
+          Albrecht, M., D. Shanks, T. Shah, T. Hudson, J. Thompson, T. Filardi, K. Wright, G.
+            Ator, and T. R. Smith. 2024. Enhancing clinical documentation workflow with
+            ambient artificial intelligence: Clinician perspectives on work burden, burnout,
+            and job satisfaction. MedRxiv. https://doi.org/10.1101/2024.08.12.24311883.
+          Andreadis, K., D.V. Rodriguez, A. Zakreuskaya, J. Chen, J. Gonzalez, and D. Mann.
+            2024. Bridging gaps with generative AI: Enhancing hypertension monitoring
+            through patient and provider insights. Studies in Health Technology and Informatics
+            316:939–943. https://doi.org/10.3233/SHTI240565.
+          Association for the Advancement of Medical Instrumentation. 2020. American
+            National Standard: Safety and effectiveness of health IT software and systems.
+            Part 4: Application of human factors engineering. https://array.aami.org/doi/
+            abs/10.2345/9781570207594.ch1 (accessed August 9, 2023).
+          Bartlett,V. L., S. S. Dhruva, N. D. Shah, P. Ryan, and J. S. Ross. 2019. Feasibility of
+            using real-world data to replicate clinical trial evidence. JAMA Network Open
+            2(10):e1912869. https://doi.org/10.1001/jamanetworkopen.2019.12869.
+          Benary, M., X. D. Wang, M. Schmidt, D. Soll, G. Hilfenhaus, M. Nassir, C. Sigler,
+            M. Knödler, U. Keller, D. Beule, U. Keilholz, U. Leser, and D. T. Rieke. 2023.
+            Leveraging large language models for decision support in personalized
+            oncology. JAMA Network Open 6(11):e2343689. https://doi.org/10.1001/
+            jamanetworkopen.2023.43689.
+          Briganti, G. 2023. A clinician’s guide to large language models. Future Medicine AI
+            1(1). https://doi.org/10.2217/fmai-2023-0003.
+          Cacciaglia, A. 2024. Gen AI saves nurses time by drafting responses to patient
+            messages. EpicShare. https://www.epicshare.org/share-and-learn/mayo-ai-
+            message-responses (accessed November 7, 2024).
+
+
+
+                                                               35
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             36 | Generative Artificial Intelligence in Health and Medicine
+
+
+             Carroll, R., and K. Anderson. 2024. How pharma can benefit from using GenAI
+               in drug discovery. EY Parthenon. https://www.ey.com/en_us/insights/life-
+               sciences/how-pharma-can-benefit-from-using-genai-in-drug-discovery
+               (accessed November 7, 2024).
+             City of San Jose. n.d. Information Technology Department Generative AI Guidelines |
+               City of San Jose. https://www.sanjoseca.gov/your-government/departments-
+               offices/information-technology/itd-generative-ai-guideline (accessed February
+               27, 2024).
+             Clark, M., and S. Bailey. 2024. Chatbots in Health Care: Connecting Patients to
+               Information: Emerging Health Technologies. Ottawa, ON: Canadian Agency for
+               Drugs and Technologies in Health. https://www.ncbi.nlm.nih.gov/books/
+               NBK602381 (accessed November 7, 2024).
+             Classen, D. C., C.A. Longhurst,T. Davis, J.A. Milstein, and D.W. Bates. 2023. Inpatient
+               EHR user experience and hospital EHR safety performance. JAMA Network
+               Open 6(9):e2333152. https://doi.org/10.1001/jamanetworkopen.2023.33152.
+             Cosmas, A., G. Cruz, S. Cubela, M. Huntington, S. Rahimi, and S. Tiwari. 2024.
+               Digital Twins and Generative AI: A Powerful Pairing. McKinsey Digital. https://
+               www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward/
+               digital-twins-and-generative-ai-a-powerful-pairing (accessed October 28, 2024).
+             Decker, H., K. Trang, J. Ramirez, A. Colley, L. Pierce, M. Coleman, T.
+               Bongiovanni, G. Melton, and E. Wick. 2023. Large language model−based
+               chatbot vs surgeon-generated informed consent documentation for common
+               procedures. JAMA Network Open 6(10):e2336997. https://doi.org/10.1001/
+               jamanetworkopen.2023.36997.
+             Eliot, L. 2024. Exposing the brittleness of generative AI as exemplified
+               by the recent gibberish meltdown of ChatGPT. Forbes. https://www.
+               forbes.com/sites/lanceeliot/2024/02/25/exposing-the-brittleness-of-
+               generative-ai-as-exemplified-by-the-recent-gibber ish-meltdown-of-
+               chatgpt/?sh=3ae6ed345096 (accessed February 25, 2024).
+             Embí, P. J. 2021. Algorithmovigilance—Advancing methods to analyze and
+               monitor artificial intelligence–driven health care for effectiveness and
+               equity. JAMA Network Open 4(4):e214622. https://doi.org/10.1001/
+               jamanetworkopen.2021.4622.
+             Epic. 2024. SlicerDicer SideKick Epic Systems. https://www.epic.com/software/ai
+               (accessed November 7, 2024).
+             European Union. 2023. Commission welcomes political agreement on Artificial Intelligence
+               Act. Press release, December 9. https://ec.europa.eu/commission/presscorner/
+               detail/en/ip_23_6473?utm_source=pocket_saves (accessed March 29, 2024).
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                            References | 37
+
+          Farquhar, S., J. Kossen, L. Kuhn, and Y. Gal. 2024. Detecting hallucinations in
+             large language models using semantic entropy. Nature 630:625–630. https://
+             doi.org/10.1038/s41586-024-07421-0.
+          Gandhi, T. K., D. Classen, C. A. Sinsky, D. C. Rhew, N. V. Garde, A. Roberts, and
+             F. Federico. 2023. How can artificial intelligence decrease cognitive and work
+             burden for front line practitioners? JAMIA Open 6(3):ooad079. https://doi.
+             org/10.1093/jamiaopen/ooad079.
+          Gangwal, A., A. Ansari, I. Ahmad, A. K. Azad, V. Kumarasamy, V. Subramaniyan,
+             and L. S. Wong. 2024. Generative artificial intelligence in drug discovery:
+             Basic framework, recent advances, challenges, and opportunities. Frontiers in
+             Pharmacology 15. https://doi.org/10.3389/fphar.2024.1331062.
+          Goddard, J. 2023. Hallucinations in ChatGPT: A cautionary tale for biomedical
+             researchers. American Journal of Medicine 136(11):1059–1060. https://doi.
+             org/10.1016/j.amjmed.2023.06.012.
+          Goodman, K. E., P. H.Yi, and D. J. Morgan. 2024. AI-generated clinical summaries
+             require more than accuracy. JAMA 331(8):637–638. https://doi.org/10.1001/
+             jama.2024.0555.
+          Guevara, M., S. Chen, S. Thomas, T. L. Chaunzwa, I. Franco, B. H. Kann, S.
+             Moningi, J. M. Qian, M. Goldstein, S. Harper, H. J. W. L. Aerts, P. J. Catalano,
+             G. K. Savova, R. H. Mak, and D. S. Bitterman. 2024. Large language models to
+             identify social determinants of health in electronic health records. npj Digital
+             Medicine 7:6. https://doi.org/10.1038/s41746-023-00970-0.
+          Hadi,A., E.Tran, B. Nagarajan, and A. Kirpalani. 2024. Evaluation of ChatGPT as a
+             diagnostic tool for medical learners and clinicians. PLoS ONE 19(7):e0307383.
+             https://doi.org/10.1371/journal.pone.0307383.
+          Harada, Y., T. Suzuki, T. Harada, T. Sakamoto, K. Ishizuka, T. Miyagami, R.
+             Kawamura, K. Kunitomo, H. Nagano, T. Shimizu, and T. Watari. 2024.
+             Performance evaluation of ChatGPT in detecting diagnostic errors and their
+             contributing factors: An analysis of 545 case reports of diagnostic errors. BMJ
+             Open Quality 13:e002654. https://doi.org/10.1136/bmjoq-2023-002654.
+          Hutson, M. 2024. How AI is being used to accelerate clinical trials. Nature
+             627:8003. https://.doi.org/10.1038/d41586-024-00753-x.
+          Jin, Q., Z. Wang, C. S. Floudas, F. Chen, C. Gong, D. Bracken-Clarke, E. Xue, Y.
+             Yang, J. Sun, and Z. Lu. 2023. Matching patients to clinical trials with large
+             language models. arXiv:2307.15051v2.
+          Kanjee, Z., B. Crowe, and A. Rodman. 2023. Accuracy of a generative artificial
+             intelligence model in a complex diagnostic challenge. JAMA 330(1):78–80.
+             https://doi.org/10.1001/jama.2023.8288.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             38 | Generative Artificial Intelligence in Health and Medicine
+
+
+             Kirby, M. 2024. How doctors are using AI to save time on prior authorization. Advisory Board.
+               https://www.advisory.com/daily-briefing/2024/07/16/ai-prior-authorization
+               (accessed November 7, 2024).
+             Kolla, L., F. K. Gruber, O. Khalid, C. Hill, and R. B. Parikh. 2021. The case
+               for AI-driven cancer clinical trials: The efficacy arm in silico. Biochimica et
+               Biophysica Acta Reviews on Cancer 1876(1):188572. https://doi.org/10.1016/j.
+               bbcan.2021.188572.
+             Li, H., R. Zhang,Y. C. Lee, R. E. Kraut, and D. C. Mohr. 2023. Systematic review
+               and meta-analysis of AI-based conversational agents for promoting mental
+               health and well-being. npj Digital Medicine 6:236. https://doi.org/10.1038/
+               s41746-023-00979-5.
+             Liu, S., A. B. McCoy, J. F. Peterson,T. A. Lasko, D. F. Sittig, S. D. Nelson, J. Andrews,
+               L. Patterson, C. M. Cobb, D. Mulherin, C. T. Morton, and A. Wright. 2024.
+               Leveraging explainable artificial intelligence to optimize clinical decision
+               support. Journal of the American Medical Informatics Association 31(4):968–974.
+               https://doi.org/10.1093/jamia/ocae019.
+             Liu, S., A. B. McCoy, A. P. Wright, S. D. Nelson, S. S. Huang, H. B. Ahmad, S.
+               E. Carro, J. Franklin, J. Brogan, and A. Wright. 2024. Why do users override
+               alerts? Utilizing large language model to summarize comments and optimize
+               clinical decision support. Journal of the American Medical Informatics Association
+               31(6):1388–1396. https://doi.org/10.1093/jamia/ocae041.
+             Liu, T.-L., T. C. Hetherington, A. Dharod, T. Carroll, R. Bundy, H. Nguyen,
+               H. E. Bundy, M. Isreal, A. McWilliams, and J. A. Cleveland. 2024. Does AI-
+               powered clinical documentation enhance clinician efficiency? A longitudinal
+               study. NEJM AI 1(12):AIoa2400659. https://doi.org/10.1056/AIoa2400659.
+             Marinov, T. M., A. A. Abu-Shmais, A. K. Janke, and I. S. Georgiev. 2024. Design
+               of antigen-specific antibody CDRH3 sequences using AI and germline-based
+               templates. bioRxiv [Preprint]. https://doi.org/10.1101/2024.03.22.586241.
+             McGinnis, J. M., H. V. Fineberg, and V. J. Dzau. 2024. Shared commitments for
+               health and health care: A trust framework from the learning health system.
+               NAM Perspectives. Commentary, National Academy of Medicine, Washington,
+               DC. https://doi.org/10.31478/202412c.
+             Merk, D., L. Friedrich, F. Grisoni, and G. Schneider. 2018. De novo design of
+               bioactive small molecules by artificial intelligence. Molecular Informatics 37.
+               https://doi.org/10.1002/minf.201700153.
+             Moingeon, P., M. Chenel, C. Rousseau, E. Voisin, and M. Guedj. 2023. Virtual
+               patients, digital twins and causal disease models: Paving the ground for in silico
+               clinical trials. Drug Discovery Today 28(7):103605. https://doi.org/10.1016/j.
+               drudis.2023.103605.
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                            References | 39
+
+          National Academy of Medicine. n.d. Collaboration for a learning health system. https://
+            nam.edu/programs/value-science-driven-health-care (accessed December 17,
+            2024).
+          National Institute of Standards and Technology. 2024. Artificial Intelligence Risk
+            Management Framework: Generative artificial intelligence profile. https://doi.
+            org/10.6028/NIST.AI.600-1 (accessed January 3, 2025).
+          Ng,W. L. 2024. Revolutionizing clinical trials with generative AI. Clinical Research News.
+            https://www.clinicalresearchnewsonline.com/news/2024/07/19/revolutionizing-
+            clinical-trials-with-generative-ai (accessed October 28, 2024).
+          Office for Civil Rights. 2024. HHS issues new rule to strengthen nondiscrimination
+            protections and advance civil rights in health care. https://www.hhs.gov/about/
+            news/2024/04/26/hhs-issues-new-rule-strengthen-nondiscrimination-
+            protections-advance-civil-rights-health-care.html (accessed October 28, 2024).
+          Office of Management and Budget. 2024. Advancing governance, innovation, and
+            risk management for agency use of artificial intelligence. https://www.whitehouse.
+            gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-
+            Innovation-and-Risk-Management-for-Agency-Use-of-Ar tificial-
+            Intelligence.pdf (accessed January 3, 2025).
+          Omiye, J. A., J. C. Lester, S. Spichak,V. Rotemberg, and R. Daneshjou. 2023. Large
+            language models propagate race-based medicine. npj Digital Medicine 6:195.
+            https://doi.org/10.1038/s41746-023-00939-z.
+          Pahune, S., and N. Rewatkar. 2024. Large language models and GAI’s expanding
+            role in health care. [Preprint]. https://doi.org/10.13140/RG.2.2.20109.72168.
+          Ratwani, R. M., D. Classen, and C. Longhurst. 2024. The compelling need for
+            shared responsibility of AI oversight: Lessons from health IT certification.
+            JAMA 332(10):787–788. https://doi.org/10.1001/jama.2024.12630.
+          Rees, C. A., N. Pica, M. C. Monuteaux, and F. T. BourgReois. 2019.
+            Noncompletion and nonpublication of trials studying rare diseases: A cross-
+            sectional analysis. PLoS Medicine 16(11):e1002966. https://doi.org/10.1371/
+            journal.pmed.1002966.
+          Safranek, C.W., A. E. Sidamon-Eristoff, A. Gilson, and D. Chartash. 2023.The role
+            of large language models in medical education: Applications and implications.
+            JMIR Medical Education 9:e50945. https://doi.org/10.2196/50945.
+          Schoonbeek, R., J. Workum, S. Schuit, J. Doornberg, T. P. van der Laan, and C.
+            Bootsma-Robroeks. 2024. Completeness, correctness and conciseness of
+            physician-written versus large language model generated patient summaries
+            integrated in electronic health records. The Lancet. http://dx.doi.org/10.2139/
+            ssrn.4835935.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             40 | Generative Artificial Intelligence in Health and Medicine
+
+
+             Sezgin, E. 2024. Redefining virtual assistants in health care: The future with large
+               language models. Journal of Medical Internet Research 26:e53225. https://doi.
+               org/10.2196/53225.
+             Shah, N. H., J. D. Halamka, S. Saria, M. Pencina, T. Tazbaz, M. Tripathi, A.
+               Callahan, H. Hildahl, and B. Anderson. 2023. A nationwide network of health
+               AI assurance laboratories. JAMA 331(3):245–249. https://doi.org/10.1001/
+               jama.2023.26930.
+             Shoja, M. M, J. M. Monica Van de Ridder, and V. Rajput. 2023.The emerging role
+               of generative artificial intelligence in medical education, research, and practice.
+               Cureus June 24. https://doi.org/10.7759/cureus.40883.
+             Tadesse, G. A., C. Cintas, K. R. Varshney, P. Staar, C. Agunwa, S. Speakman, J. Jia,
+               E. E. Bailey, A. Adelekun, J. B. Lipoff, G. Onyekaba, J. C. Lester, V. Rotemberg,
+               J. Zou, and R. Daneshjou. 2023. Skin Tone Analysis for Representation in
+               Educational Materials (STAR-ED) using machine learning. npj Digital Medicine
+               6:151. https://doi.org/10.1038/s41746-023-00881-0.
+             Tai-Seale, M., S. L. Baxter, F. Vaida, A. Walker, A. M. Sitapati, C. Osborne, J. Diaz,
+               N. Desai, S. Webb, G. Polston, T. Helsten, E. Gross, J. Thackaberry, A. Mandvi,
+               D. Lillie, S. Li, G. Gin, S. Achar, H. Hofflich, C. Sharp, M. Millen, and C. A.
+               Longhurst. 2024. AI-generated draft replies integrated into health records and
+               physicians’ electronic communication. JAMA Network Open 7:4. https://doi.
+               org/jamanetworkopen.2024.6565.
+             Tang, L., Z. Sun, B. Idnay, J. G. Nestor, A. Soroush, P. A. Elias, Z. Xu, Y. Ding, G.
+               Durrett, J. F. Rousseau, C. Weng, and Y. Peng. 2023. Evaluating large language
+               models on medical evidence summarization. npj Digital Medicine 6:158. https://
+               doi.org/10.1038/s41746-023-00896-7.
+             Tierney, A. A., G. Gayre, B. Hoberman, B. Mattern, M. Ballesca, P. Kipnis, V. Liu,
+               and K. Lee. 2024. Ambient artificial intelligence scribes to alleviate the burden
+               of clinical documentation. NEJM Catalyst Innovations in Care Delivery 5:3.
+               https://doi.org/10.1056/CAT.23.0404.
+             Van Veen, D., C. V. Uden, L. Blankemeier, J. B. Delbrouck, A. Aali, C. Bluethgen,
+               A. Pareek, M. Polacin, E. Pontes Reis, A. Seehofnerová, N. Rohatgi, P.
+               Hosamani, W. Collins, N. Ahuja, C. P. Langlotz, J. Hom, S. Gatidis, J. Pauly and
+               A. S. Chaudhari. 2024. Adapted large language models can outperform medical
+               experts in clinical text summarization. Nature Medicine 30:1134–1142. https://
+               doi.org/10.1038/s41591-024-02855-5.
+             The White House. 2022. Blueprint for an AI Bill of Rights | OSTP. https://www.
+               whitehouse.gov/ostp/ai-bill-of-rights (accessed March 29, 2024).
+             The White House. 2023. FACT SHEET: President Biden Issues Executive Order on
+               Safe, Secure, and Trustworthy Artificial Intelligence. https://www.whitehouse.gov/
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                            References | 41
+
+            briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-
+            issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence
+            (accessed March 29, 2024).
+          Wilhelm, T. I., J. Roos, and R. Kaczmarczyk. 2023. Large language models for
+            therapy recommendations across three clinical specialties: Comparative study.
+            Journal of Medical Internet Research 25:e49324. https://doi.org/10.2196/49324.
+          World Health Organization. 2021. Ethics and Governance of Artificial Intelligence for
+            Health: WHO Guidance. Geneva: World Health Organization. https://iris.who.
+            int/bitstream/handle/10665/341996/9789240029200-eng.pdf?sequence=1
+            (accessed March 29, 2024).
+          Xue, C., S. S. Kowshik, D. Lteif, S. Puducheri, V. H. Jasodanand, O. T. Zhou, A. S.
+            Walia, O. B. Guney, J. D. Zhang, S. T. Pham, A. Kaliaev,V. C. Andreu-Arasa, B. C.
+            Dwyer, C. W. Farris, H. Hao, S. Kedar, A. Z. Mian, D. L. Murman, S. A. O’Shea,
+            A. B. Paul, S. Rohatgi, M. H. Saint-Hilaire, E. A. Sartor, B. N. Setty, J. E. Small,
+            A. Swaminathan, O. Taraschenko, J. Yuan, Y. Zhou, S. Zhu, C. Karjadi, T. F. A.
+            Ang, S. A. Bargal, B. A. Plummer, K. L. Poston, M. Ahangaran, R. Au, and V.
+            B. Kolachalama. 2024. AI-based differential diagnosis of dementia etiologies
+            on multimodal data. Nature Medicine 30:2977–2989. https://doi.org/10.1038/
+            s41591-024-03118-z.
+          Yan, C., M. E. Grabowska, A. L. Dickson, B. Li, Z.Wen, D. M. Roden, C. M. Stein,
+            P. J. Embí, J. F. Peterson, Q. Feng, B. A. Malin, and W. Q. Wei. 2024. Leveraging
+            generative AI to prioritize drug repurposing candidates for Alzheimer’s disease
+            with real-world clinical validation. npj Digital Medicine 7(1):46. https://doi.
+            org/10.1038/s41746-024-01038-3.
+          Yang, R., T. F. Tan, W. Lu, A. J. Thirunavukarasu, D. S. W. Ting, and N. Liu.
+            2023. Large language models in health care: Development, applications, and
+            challenges. Health Care Science 2(4):255–263. https://doi.org/10.1002/hcs2.61.
+          Zhang, P., and M. N. Kamel Boulos. 2023. GAI in medicine and health care:
+            Promises, opportunities and challenges. Future Internet 15(9):286. https://doi.
+            org/10.3390/fi15090286.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                   AUTHOR INFORMATION
+
+          Dianne Babski is the director of the National Library of Medicine’s (NLM’s)
+          User Services and Collection Division. She is responsible for the overall
+          management of one of NLM’s largest divisions, including a national network of
+          more than 9,000 academic, health science, and public libraries and community
+          organizations. Babski serves as the scientific review administrator on the
+          Literature Selection Technical Review Committee, a federal advisory committee
+          responsible for recommending journals for inclusion to MEDLINE. Currently,
+          Babski leads a pioneering generative artificial intelligence (GenAI) pilot project
+          across NLM. Leveraging cutting-edge GenAI technologies, this endeavor seeks to
+          unlock novel pathways of research, streamline operational processes, and elevate
+          user experience across NLM resources. She holds a bachelor’s degree in biology
+          and a master’s degree in information management. (Conflict and Interest
+          Disclosures: None)
+
+          Peter Embí is an internationally recognized researcher, educator, and leader in
+          the field of clinical and translational research informatics. Dr. Embí serves as a
+          professor and the chair of the Department of Biomedical Informatics, a professor
+          of medicine, the co-director of the ADVANCE AI Center, and the senior vice-
+          president for research and innovation at the Vanderbilt University Medical
+          Center. Among his other leadership roles, he is the president of the American
+          College of Medical Informatics (ACMI), was the past president and chair of the
+          Board of Directors of the American Medical Informatics Association, and served
+          on the National Advisory Council for the Agency for Healthcare Research and
+          Quality. He is a Fellow of the American College of Physicians, Fellow of ACMI,
+          Fellow of the International Academy of Health Sciences Informatics, and an
+          elected member of the National Academy of Medicine. (Conflict and Interest
+          Disclosures: None)
+
+
+
+                                                               43
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             44 | Generative Artificial Intelligence in Health and Medicine
+
+
+             Jackie Gerhart is a family medicine physician and clinical informaticist at Epic
+             in Verona, Wisconsin. She earned her medical degree from the Mayo Clinic
+             College of Medicine in Rochester, Minnesota, and is a faculty member at the
+             University of Wisconsin–Madison, where she still sees patients, including on the
+             frontlines during this COVID-19 pandemic. Her passion is to reduce barriers
+             to medical care through the best use of technology. She enjoys advocating to
+             align policy with practice to improve clinician well-being and empower patients.
+             At Epic she focuses on health care innovation such as the use of ambient voice
+             for documentation and the use of electronic health record data to advance
+             the knowledge of medicine and patient-centered care. She is the lead clinical
+             researcher for Epic Research and publishes studies on Epicresearch.org. (Conflict
+             and Interest Disclosures: Employment by Epic)
+
+             Jennifer Goldsack founded and serves as the chief executive officer of the
+             Digital Medicine Society, a 501(c)(3) non-profit organization dedicated
+             to advancing digital medicine to optimize human health. Goldsack’s work
+             focuses on applied approaches to the safe, effective, and equitable use of digital
+             technologies to improve health, health care, and health research. Goldsack sits on
+             the boards of the Coalition for Health AI and Sage Bionetworks; is a member of
+             the Roundtable on Genomics and Precision Health at the National Academies
+             of Science, Engineering, and Medicine; and serves on the World Economic
+             Forum Digital Health Action Collaborative. Goldsack earned her master’s degree
+             in chemistry from the University of Oxford, England, her master’s degree in
+             the history and sociology of medicine from the University of Pennsylvania, and
+             her M.B.A. from The George Washington University. (Conflict and Interest
+             Disclosures: None)
+
+             Thomas Maddox is a professor of medicine (cardiology) at the Washington
+             University School of Medicine. He is a practicing non-invasive cardiologist, a
+             trained epidemiologist, and an accomplished health services researcher. He is also
+             the vice president of digital products and innovation at BJC HealthCare and
+             the Washington University School of Medicine, leading their digital health and
+             innovation programs. He is a member of the National Academy of Medicine’s
+             Digital Health Action Collaborative, the Healthcare Innovators Professional
+             Society, and the inaugural U.S. Food and Drug Administration’s Digital Health
+             Advisory Committee. He is a leader in cardiology professional societies and
+             currently serves on the Board of Trustees for the American College of Cardiology.
+             He is an elected fellow of the American College of Cardiology, an elected fellow
+             of the American Heart Association, and an elected member of the American
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                  Author Information | 45
+
+          Clinical and Climatological Association. (Conflict and Interest Disclosures:
+          None)
+
+          Ravi Parikh is a board-certified medical oncologist specializing in the treatment
+          of genitourinary cancers. Dr. Parikh is an attending physician practicing at the
+          Winship Cancer Institute at Emory Midtown. Dr. Parikh is an associate professor
+          in the Department of Hematology and Medical Oncology at the Emory
+          University School of Medicine. He serves as the medical director of the Winship
+          Data and Technology Applications Shared Resource at Winship Cancer Institute
+          of Emory University. Dr. Parikh received his M.D. at Harvard Medical School
+          and his M.P.P. at the John F. Kennedy School of Government. He completed
+          his residency in internal medicine at Brigham and Women’s Hospital and his
+          fellowship in hematology and oncology at the University of Pennsylvania.
+          (Conflict and Interest Disclosures: None)
+
+          Troy Sarich is the chief commercial data science officer at Johnson & Johnson. Dr.
+          Sarich has been a key driver of global pharmaceutical research and development
+          and commercial teams across multiple therapeutic areas for more than 25 years,
+          delivering new medicines, major business transformations, and impact for
+          patients. Dr. Sarich has led teams for major drug programs like XARELTO®
+          and INVOKANA® and has expertise in data science, real-world evidence, digital
+          health, precision medicine, clinical trials, clinical development, drug launches,
+          market access, medical devices, and major business transformations. Dr. Sarich is
+          a recipient of the prestigious Johnson Medal Award as part of the XARELTO®
+          team’s effort to bring this innovative medicine to millions of patients around
+          the world. He has authored more than 80 scientific abstracts and publications
+          and is an internationally renowned speaker. He earned both his B.S. and Ph.D.
+          from The University of British Columbia in Canada. (Conflict and Interest
+          Disclosures: Employment and shareholder interests with Johnson & Johnson)
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                              APPENDIX
+             RAPID FIELD DEVELOPMENT AND PRO GRESS
+
+             The challenges that present in parallel to the acceleration of GenAI are complex
+          and affect a range of stakeholders, including federal agencies, state- and local-level
+          organizations, professional societies, and ultimately the individuals whose data
+          provide the basis of the AI models and may be subject to their output. In response,
+          multiple efforts to address the risks associated with GenAI have been initiated by
+          regulatory bodies.
+             On a global scale, the World Health Organization (WHO) released guidance
+          around six principles on AI governance for health, and the European Union’s
+          (EU’s) AI Act served as a comprehensive regulatory framework for AI systems
+          across the EU (European Union, 2023; World Health Organization, 2021). From
+          a domestic federal perspective, the Biden administration pulled a variety of policy
+          levers to advance responsible AI in health-related fields. In 2022, the White House
+          Office of Science and Technology Policy developed the AI Bill of Rights, which
+          identifies five principles that guide the design, use, and deployment of automated
+          systems to protect the American public in the age of AI (The White House,
+          2022). Additionally, President Biden signed the Safe, Secure, and Trustworthy
+          Development and Use of Artificial Intelligence Executive Order on generative
+          AI (The White House, 2023). In response, several cities have issued guidelines on
+          generative AI use that seek to recognize the opportunities of AI while mitigating
+          bias, privacy, and cybersecurity risks (City of San Jose, n.d.). At a local and
+          community level, companies are deploying a range of strategies for developing
+          and using GenAI, including pursuing partnerships and direct investments with AI
+          developers for access to key technologies and inputs needed for AI development.
+          As GenAI rapidly expands to include more applications in health care, it is
+          expected that broad governance and guidance will include increasingly detailed
+          aspects specifically for GenAI.
+             It will be necessary to engage the diverse array of stakeholders influencing the
+          governance and responsible use of GenAI in health care for the public good. The
+                                                               47
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             48 | Generative Artificial Intelligence in Health and Medicine
+
+
+             need for alignment among technology developers, health systems, government
+             agencies, research and advocacy organizations, and patients in future GenAI
+             regulation is crucial to ensure ethical and safe practices. The current applications
+             of GenAI in medicine represent a transformative shift in health care. From aiding
+             clinical decision making, to reducing administrative burden, expediting drug
+             discovery, and enhancing patient education, the integration of GenAI is poised to
+             revolutionize various aspects of the health care continuum, ultimately leading to
+             improved patient outcomes and more efficient health care delivery.
+
+                                         IMPLEMENTATION GUIDE
+
+                This implementation guide provides a structured approach to effectively
+             disseminate the insights and innovations from our work.Tailored messaging helps
+             to address the specific needs and interests of different stakeholders, enhancing
+             engagement and facilitating broader adoption. This guide serves as a strategic
+             tool to organize key interests for diverse stakeholder groups and align them with
+             tailored messaging strategies.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                              Appendix | 49
+
+
+          Project Background                     The National Academy of Medicine’s Digital Health
+                                                 Action Collaborative convened a workshop on October
+                                                 25, 2023, and a subsequent meeting with federal agency
+                                                 representatives on October 26, 2023, to enhance common
+                                                 understanding among health professionals and health
+                                                 system leaders, technology developers, and government
+                                                 agencies of the nature and health care implications of
+                                                 LLMs and GenAI. Workshop sessions focused on the
+                                                 possible GenAI benefits, risks and necessary guideposts,
+                                                 and guardrails in health care. This publication builds on
+                                                 those discussions and key takeaways.
+          Paper Overview and Takeaways           The integration of LLMs and GenAI in health care holds
+                                                 the potential to transform the practice of medicine, the
+                                                 work and experiences of health care providers, and the
+                                                 health and well-being of patients. GenAI can support
+                                                 clinical decision making and streamline workflows,
+                                                 promote patients’ and their support networks’ engagement
+                                                 in care processes, address health equity issues, and support
+                                                 clinical research. However, successful, ethical, and equitable
+                                                 implementation of GenAI requires careful consideration
+                                                 of the associated risks, particularly those concerning data
+                                                 privacy, bias, transparency, and infrastructure limitations.
+                                                 Collaboration among stakeholders, including health care
+                                                 providers, patients, policy makers, ethicists, and researchers,
+                                                 along with a cross-sector commitment to maximizing
+                                                 the benefit of GenAI while minimizing the risks, is
+                                                 important for navigating the complexities associated
+                                                 with GenAI in health care. Federal and organizational
+                                                 oversight; standardized guidelines for GenAI development,
+                                                 implementation, and responsible and ethical use; and
+                                                 continuous practitioner and patient education can facilitate
+                                                 the ethical and effective application of LLMs in health and
+                                                 medicine to improve patient outcomes, increase equitable
+                                                 access to care, and revolutionize medicine, research, and
+                                                 health care.
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+             50 | Generative Artificial Intelligence in Health and Medicine
+
+
+             Stakeholder Group       Applications                              Strategies
+             Providers/provider      • Improving patient outcomes              • Work with their care teams to
+             associations (specialty • Streamlining clinical workflows           learn and adopt GenAI tools
+             societies)              • Reducing administrative burden            that can help with improving
+                                     • Enhancing diagnostic and                  workflow efficiencies
+                                       treatment accuracy                      • Advocate for investment and
+                                     • Clinical decision support                 training for selecting and
+                                     • Continuing medical education              implementing GenAI models
+                                                                                 within their institutions
+             Payers                  • Improving care quality                  • Develop flexible
+                                     • Ensuring patient satisfaction             reimbursement models
+                                     • Reducing unnecessary health care          that support the adoption
+                                       spending                                  and integration of GenAI
+                                     • Resource allocation                       technologies into clinical
+                                     • Administrative support                    practice while safeguarding
+                                     • Improving patient care                    patient safety and privacy
+
+
+             Regulators              •   Patient safety                        • Develop and disseminate
+                                     •   Data privacy                            regulatory standards for
+                                     •   Compliance with regulations             GenAI model performance,
+                                     •   Equitable access to health care         bias, and interoperability
+                                     •   AI regulation/certification           • Standardize performance
+                                                                                 parameters and generate
+                                                                                 practices for monitoring
+                                                                                 model performance over time
+             Public health           • Monitoring and controlling disease •      Learn and adapt GenAI tools
+                                       outbreaks                                 for public health activities
+                                     • Improving population health               such as monitoring and
+                                       outcomes                                  analyzing data from various
+                                     • Enhancing health data analytics           sources to detect and track
+                                                                                 disease in real time
+                                                                               • Consider approaches to using
+                                                                                 AI-driven chatbots and tools
+                                                                                 to provide accurate health
+                                                                                 information, answer public
+                                                                                 queries, and debunk myths
+             Tech industry           • Drive innovation                        • GenAI manufacturers can
+                                     • Health care market opportunities          monitor changes in model
+                                                                                 performance over time,
+                                                                                 working with health care
+                                                                                 stakeholders to manage
+                                                                                 ongoing evolution
+                                                                               • Communicate with
+                                                                                 health stakeholders to
+                                                                                 understand key opportunities
+                                                                                 and considerations for
+                                                                                 implementation of GenAI in
+                                                                                 health settings
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                                                                                             Appendix | 51
+
+
+          Stakeholder Group       Applications                             Strategies
+          Patients and patient    • Receiving quality/personalized         • Patients and patient advocates
+          advocates                 care                                     can be consulted throughout
+                                  • Access to reliable health                the development, evaluation,
+                                    information                              diffusion, and monitoring of
+                                  • Data privacy and security                GenAI models
+                                                                           • Use Gen AI to access
+                                                                             information about treatment
+                                                                             options, risks, and benefits,
+                                                                             helping them make informed
+                                                                             decisions about their care
+          Medical education       • Train future health care           • When armed with
+                                    professionals                        representative data and
+                                  • Understand key uses of AI/LLMs       appropriate clinical domain
+                                    in clinical care                     knowledge, LLMs may
+                                  • Improve learning opportunities for   generate materials and
+                                    students                             cases that can inform more
+                                                                         representative, equitable
+                                                                         medical education materials
+                                                                         that represent diverse
+                                                                         pathologies
+                                                                       • Work together to ensure
+                                                                         education reflects the
+                                                                         appropriate ethical and
+                                                                         professional guidelines for the
+                                                                         use of GenAI tools in clinical
+                                                                         practice
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+Generative Artificial Intelligence in Health and Medicine: Opportunities and Responsibilities for Transformative ...
+
+
+
+
+                       Copyright National Academy of Sciences. All rights reserved.
+

@@ -1,0 +1,105 @@
+# Text slice — understanding_distributed_systems_2022_ch33_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 33
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `understanding_distributed_systems_2022` · Chapter 33
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** understanding_distributed_systems_2022 · **Wave:** w2_systems_llm  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch33_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Understanding Distributed Systems |
+| **authors** | Roberto Vitillo |
+| **edition** | 2e |
+| **chapter_number** | 33 |
+| **chapter_title** | Manageability |
+| **page_range** | 323–324; lines 10296–10371 |
+
+---
+
+## scope
+
+Short chapter on **runtime configuration** and **feature flags** without redeploy. Includes **Part V Summary** (10351–10371) on maintenance as path to systems-design mastery. Slice boundary: ch34 epilogue starts 10372.
+
+---
+
+## key_findings
+
+### Runtime configuration
+
+- Settings (behavior + secrets) must not be hardcoded; external store (AWS AppConfig, Azure App Configuration) (10307–10315).
+- Deploy-time env vars: can't change without redeploy (10317–10332).
+- **Periodic re-read** at runtime; recreate dependents when settings change (e.g. HTTP handler) (10333–10337).
+
+### Feature flags & A/B
+
+- Toggle features enable/disable per instance or user fraction (10338–10343).
+- Release build with feature off → gradual enable; same mechanism for **A/B tests** (10344–10350).
+
+### Part V Summary (in slice)
+
+- Most engineering time is maintenance, not greenfield design (10353–10359).
+- "Sixth sense" from operating production beats trend-chasing (10360–10371).
+- Advice: on-call, postmortems, ask how incidents were avoidable (10366–10371).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **Lines read** | 10296–10371 |
+| **Sections** | Manageability body · Part V Summary |
+| **Chapter boundary** | Ends before ch34 Final words (10372) |
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+1. Separate config from code; compare deploy-time vs runtime refresh.
+2. Use feature flags for safe rollout and A/B.
+3. Articulate Part V thesis: operability drives design skill.
+
+### worked_examples_present
+
+**N** — conceptual only; no code walkthrough.
+
+### exercise_hooks
+
+- Flag plan for one risky feature (off → 1% → 100%).
+- List config that currently requires redeploy unnecessarily.
+
+---
+
+## Operator hooks
+
+**AIE ch.10** prompt/version flags; **UDS ch30** CD for config repos; **UDS ch22** control plane patterns.
+
+**MDCalc [medium]:** Feature flags for calculator variants; runtime config for rate limits (ch28 tie-in).
+
+---
+
+## Provenance anchors
+
+| claim-id | claim | lines |
+|----------|-------|-------|
+| UDS-C33-001 | Runtime config re-read | 10333–10337 |
+| UDS-C33-002 | Feature flag gradual rollout | 10338–10343 |
+| UDS-C33-003 | Maintenance builds design sense | 10360–10365 |
+
+---
+
+*Ingest · scholia · ≤4500w*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

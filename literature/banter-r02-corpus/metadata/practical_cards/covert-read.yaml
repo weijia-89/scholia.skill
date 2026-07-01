@@ -1,0 +1,51 @@
+# R-02 practical cards — covert-read (P-U)
+pillar_moniker: covert-read
+pillar_ids: [P-U]
+lane: L5
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/person-model.md#covert-read
+
+source_ingests:
+  - research/claims/papers/P06-gersick-covert.yaml
+
+cards:
+  - exercise_name: Covert Signaling Read Framework
+    steps:
+      - Identify interest level on covert–overt spectrum — ambiguity balances interest with social cost management (C-008 / Gersick model).
+      - Note observable shifts — prosody/pace toward you vs baseline; reciprocal disclosure after you share (pillar detection_heuristics + C-005/C-006).
+      - Mark proximity/orientation increases over interaction — observable, not inferred intent (pillar + Hall P-X cross-link).
+      - Treat ambiguous warmth as ambiguous — one clarifying question beats assumption (pillar hard rule).
+      - Hard stop — explicit no or hesitation → stop; covert interest never overrides refusal (C-021, B12 refusal floor σ−).
+    cognitive_frame: Skilled flirtation matches signal to context — social intelligence read, not mind-reading or plausible-deniability chase.
+    observables:
+      - Operator distinguishes observed behavior from story about intent
+      - Clarifying question used once; no repeated probing after hesitation
+      - Stops on explicit refusal regardless of prior ambiguous warmth
+    contraindications:
+      - persistence-after-refusal using covert-signal rationalization
+      - treating plausible deniability as license to push (P06 ethical boundary)
+    source_anchor: C-008 · P06-gersick-covert.yaml Q-P06-001
+    aletheia_wire: references/model/person-model.md#covert-read
+    operator_fit_tags: [partner-read, dating-IRL, dating-online]
+    quality_level: full
+
+  - exercise_name: Observable vs Inferred Column
+    steps:
+      - Column A — write only third-party-visible behaviors (pace shift, disclosure reciprocity, orientation) (pillar scholia_open spec).
+      - Column B — write inferred interest story separately — label as hypothesis not fact (UNDERSTAND-HER lens C-007-ARCH).
+      - Cross-check inferred story against explicit verbal cues and hesitation markers (B12 floor).
+      - If Column B contradicts explicit no — discard Column B and stop (C-021).
+    cognitive_frame: Covert courtship minimizes performance costs — calibration is defensive literacy, not an operator playbook (P-V tactic-lens policy).
+    observables:
+      - Written log with separate observable/inferred columns
+      - Operator cites behaviors before coaching self on next step
+    contraindications:
+      - exporting Column B as send justification
+      - MANIP-* patterns dressed as "reading signals"
+    source_anchor: Q-P06-002 · P06-gersick-covert.yaml
+    aletheia_wire: references/model/person-model.md#covert-read
+    operator_fit_tags: [partner-read]
+    quality_level: full

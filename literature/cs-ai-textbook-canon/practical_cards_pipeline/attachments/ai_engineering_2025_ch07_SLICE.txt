@@ -1,0 +1,182 @@
+# Text slice — ai_engineering_2025_ch07_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ai_engineering_2025 · chapter: 07
+# hooks: 13 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `ai_engineering_2025` · Chapter 7
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** ai_engineering_2025 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch07_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | AI Engineering |
+| **authors** | Chip Huyen |
+| **edition** | 1e (First Edition, 2025) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-16630-4 [verified from text, line 116] |
+| **ISBN_electronic** | 9781098166298 [corpus manifest; errata URL cites 9781098166304] |
+| **chapter_number** | 7 |
+| **chapter_title** | Finetuning |
+| **page_range** | Not present in text export; logical span `Chapter 7. Finetuning` (line 13787) through `Summary` + footnotes before Ch. 8 (line 16188) |
+
+---
+
+## scope
+
+Chapter 7 is the **weight-adaptation spine** of Huyen's AI-engineering framework: when and why to finetune versus prompting and RAG, the memory economics of training at foundation-model scale, parameter-efficient finetuning (PEFT) with deep coverage of LoRA and QLoRA, experimental model merging for multi-task and on-device deployment, and practical finetuning tactics (frameworks, hyperparameters).
+
+**Major arcs within assigned slice (lines 13787–16187):**
+
+1. **Finetuning overview** — transfer learning history; continued pre-training, supervised finetuning, preference finetuning, long-context finetuning; Code Llama pipeline (Fig 7-1); model developer vs application developer roles.
+2. **When to finetune** — reasons for/against; task-specific degradation (alignment tax); domain-specific skepticism (BloombergGPT vs GPT-4); token-cost vs prompt caching; **finetuning is for form, RAG is for facts**; Ovadia et al. (2024) MMLU/current-events tables; 5-step adaptation workflow (Fig 7-3).
+3. **Memory bottlenecks** — backprop trainable parameters; inference vs training memory formulas; activation dominance (Korthikanti et al.); numerical formats (FP32/16, BF16, TF32, INT8/4); quantization (PTQ, QAT, mixed precision); BitNet b1.58.
+4. **Finetuning techniques** — full vs partial vs PEFT; Houlsby adapters; LoRA mechanics, intrinsic dimension, rank/config, multi-LoRA serving; QLoRA/NF4/Guanaco Elo table.
+5. **Model merging** — vs ensembling; multi-task finetuning (simultaneous, sequential forgetting, parallel merge); summing (linear combo, task vectors, SLERP, TIES/DARE pruning); layer stacking/frankenmerging/MoE upcycling/SOLAR depthwise scaling; LoRA concatenation caveat.
+6. **Finetuning tactics** — OpenAI progression vs distillation paths; framework/API landscape; hyperparameters (LR, batch size, epochs, prompt loss weight).
+
+Author flags chapter as **most technically challenging to read**; memory-math section skippable with key-takeaways box (lines 13831–13835, 14359–14394). ML training basics deferred to external resources (GitHub pointers).
+
+**Prerequisites cited:** Ch. 2 (finetuning types, semantic parsing), Ch. 4 (eval pipeline), Ch. 5–6 (prompting, RAG), Ch. 8 (instruction data, distillation data synthesis), Ch. 9 (inference, KV cache, prompt caching).
+
+**Manifest note:** Framework spine — pair with **Hands-On LLMs** for executable LoRA/QLoRA paths.
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Framing: finetuning vs prompting
+
+- Finetuning adapts models by **adjusting weights**; prompting adapts via instructions, context, tools (lines 13789–13793).
+- Primary uses: domain capability, safety, **instruction-following and output format** (JSON/YAML) (lines 13795–13799).
+- Higher memory footprint than prompting; PEFT dominant for accessibility (lines 13808–13821).
+- Finetuning sits in **model training** territory; ML basics required (lines 13823–13829).
+
+### Transfer learning and finetuning taxonomy
+
+- Transfer learning (Bozinovski & Fulgosi 1976); Johnson et al. (2016) multilingual translation; LLM pre-training → specialized tasks with fewer examples (lines 13845–13873).
+- InstructGPT view: finetuning **unlocks** latent capabilities (lines 13876–13879).
+- Feature-based transfer (embedding + classifier head) common in vision; finetuning is weight-update transfer (lines 13881–13894).
+- **Continued pre-training** on domain raw text before expensive supervised data (lines 13909–13916).
+- Supervised finetuning on (input, output); preference finetuning on (instruction, winner, loser); long-context finetuning needs positional embedding changes, may hurt short sequences (lines 13932–13955).
+- Application developers usually finetune **post-trained** models, not raw pre-trained (lines 13974–13978).
+
+### When to finetune — decision framework
+
+| Signal | Recommendation |
+|--------|----------------|
+| Missing/outdated facts | RAG first |
+| Wrong format, style, relevance, syntax | Finetuning |
+| Both | RAG first, then finetune if needed |
+| Early project | Prompt systematically first |
+
+(lines 14198–14276, 14307–14335)
+
+- Finetune after extensive prompting; finetuning + prompting often combined (lines 13986–13988).
+- **Reasons to finetune:** task quality, structured outputs, rare SQL dialects, bias mitigation (Wang & Russakovsky 2023; Garimella et al. 2022), **distill large→small** (Grammarly Flan-T5 vs GPT-3, 60× smaller, 82k pairs) (lines 13992–14036).
+- **Reasons not to:** catastrophic **task narrowing** (footnote: alignment tax); maintenance burden; new base models may outpace finetuned models; unsystematic prompt experiments often blamed on "prompting failure" (lines 14047–14126).
+- **Domain-specific caveat:** GPT-4-0314 beat BloombergGPT on financial benchmarks despite Bloomberg's $1.3–2.6M training cost; general models increasingly dominate domain specialists (lines 14130–14172) `[contested]` for proprietary internal use cases.
+- Pre–prompt-caching: finetuning baked few-shot into weights to save tokens; prompt caching weakens that benefit (lines 14179–14190).
+- Ovadia et al. (2024): RAG beats finetuning on current-events QA; base+RAG often beats finetuned+RAG; RAG+finetune helps ~43% of MMLU categories (lines 14221–14289).
+
+### Memory bottlenecks
+
+- Training memory ≫ inference because backward pass stores gradients + optimizer states per **trainable** parameter (lines 14365–14452).
+- **Inference:** `N × M × 1.2` (weights + ~20% activations/KV); 13B @ 2 bytes ≈ 31.2 GB (lines 14476–14505).
+- **Training:** weights + activations + gradients + optimizer states; Adam = 3 values per trainable param (lines 14507–14542).
+- Activation memory can dwarf weights; **gradient checkpointing** trades compute for memory (lines 14544–14560).
+- Format matters: loading Llama 2 as FP16 instead of BF16 degraded quality (lines 14668–14677).
+- Quantization reduces bits; PTQ standard for inference; QAT simulates low precision; mixed precision training common (lines 14684–14856).
+
+### PEFT, LoRA, QLoRA
+
+- Full finetuning 7B + Adam @ 16-bit ≈ 56 GB weights/grads/opt alone (lines 14890–14905).
+- Partial finetuning parameter-inefficient (~25% params for BERT-large GLUE parity per Houlsby et al. 2019) (lines 14917–14939).
+- **PEFT:** adapters (Houlsby 2019, +latency) vs **soft prompts** (prefix-tuning, P-tuning, prompt tuning); LoRA dominates huggingface/peft issue analysis Oct 2024 (lines 14950–15056).
+- **LoRA:** low-rank ΔW merged into W without inference layers; ~0.0027% trainable params for GPT-3 with comparable performance; intrinsic dimension argument (Aghajanyan et al.) (lines 15063–15148).
+- Rank r often 4–64 sufficient; increasing r may not help (Databricks, LoRA paper) `[contested]` — Raschka found r=256 best on some tasks (lines 15268–15280).
+- **Multi-LoRA serving:** keep W + separate (A,B) adapters — 100 customers: 1.68B vs 23.3M params example (lines 15291–15340).
+- **QLoRA:** 4-bit NF4 weights, BF16 compute, paged optimizers; 65B on single 48 GB GPU; Guanaco 65B Elo 1022 vs ChatGPT 966 (May 2023 GPT-4 judge) (lines 15366–15426).
+- LoRA limitation: generally weaker than full finetuning; implementation complexity for obscure architectures (lines 15357–15364).
+
+### Model merging
+
+- Parallel task finetuning + merge avoids sequential **catastrophic forgetting** (Kirkpatrick et al. 2016) (lines 15470–15497).
+- **Ensembling** = multiple inference calls; **merging** = mix parameters (lines 15521–15542).
+- **Summing:** linear combo, task vectors/task arithmetic (Ilharco et al. 2022), SLERP; TIES/DARE prune redundant task-vector params before merge (lines 15561–15692).
+- **Layer stacking:** frankenmerging (Goliath-120B), MoE sparse upcycling (Komatsuzaki et al. 2022), SOLAR depthwise scaling (lines 15694–15756).
+- **Concatenation** of LoRA ranks: higher perf possible but no memory win — author included for completeness (lines 15758–15774).
+
+### Finetuning tactics
+
+- **Progression path:** cheap model code test → mid model data test → best model experiments → price/performance frontier (OpenAI best practices) (lines 15806–15819).
+- **Distillation path:** strong model on small data → synthetic data → cheaper student (lines 15821–15830).
+- Start LoRA; try full finetuning later; LoRA better for small datasets and multi-adapter serving (lines 15837–15855).
+- Frameworks: PEFT, Axolotl, unsloth, LitGPT, LLaMA-Factory; APIs trade customization for ease (lines 15857–15886).
+- Hyperparameters: LR 1e-7–1e-3; batch size vs gradient accumulation; epochs 1–2 (millions of examples) vs 4–10 (thousands); prompt loss weight default ~10% (lines 15888–15981).
+
+### Chapter close
+
+- Finetuning execution is easy via frameworks; **deciding whether, acquiring data, serving, maintaining** is hard (lines 15983–16032).
+- Forward: Ch. 8 dataset engineering for instruction data (lines 16029–16032).
+
+---
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener | read | 13787–13838 |
+| Finetuning overview + transfer learning | read | 13839–13979 |
+| When to finetune (reasons for/against) | read | 13980–14127 |
+| Domain-specific tasks (BloombergGPT) | read | 14128–14177 |
+| Token cost / Fig 7-2 | read | 14179–14195 |
+| Finetuning and RAG + tables | read | 14196–14289 |
+| Adaptation workflow Fig 7-3 | read | 14291–14340 |
+| Memory bottlenecks (key takeaways) | read | 14342–14394 |
+| Backpropagation + trainable params | read | 14396–14452 |
+| Memory math (inference/training) | read | 14454–14560 |
+| Numerical representations + Table 7-3 | read | 14567–14683 |
+| Quantization (inference/training) | read | 14684–14856 |
+| PEFT overview + partial vs full | read | 14858–14983 |
+| PEFT taxonomy + soft prompts | read | 14985–15061 |
+| LoRA mechanics + why it works | read | 15063–15186 |
+| LoRA configurations + Table 7-5 | read | 15187–15290 |
+| Serving LoRA / multi-LoRA | read | 15291–15355 |
+| QLoRA + Guanaco table | read | 15366–15436 |
+| Model merging + multi-task | read | 15438–15559 |
+| Summing (linear, SLERP, TIES/DARE) | read | 15561–15692 |
+| Layer stacking + SOLAR | read | 15694–15756 |
+| Concatenation | read | 15758–15774 |
+| Finetuning tactics | read | 15776–15981 |
+| Summary + footnotes ¹–³⁷ | read | 15983–16187 |
+| Chapter 8 opener | **deferred** | 16188+ (outside scope) |
+
+- **Lines read:** 13787–16187 (full parent-requested range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `ai_engineering_2025.txt`; contested claims retained with source attribution
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+Implicit from chapter arc (no numbered LO block in text):
+
+- Decide when finetuning beats prompting and RAG using failure-mode taxonomy
+- Estimate inference and training memory from parameter count and precision
+- Choose among full finetuning, partial finetuning, PEFT, and quantization
+- Configure LoRA (target matrices, rank, α) and serving mode (merged vs adapter)
+- Apply QLoRA constraints for single-GPU large-model finetuning
+- Evaluate model merging approaches for multi-task and on-device con
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

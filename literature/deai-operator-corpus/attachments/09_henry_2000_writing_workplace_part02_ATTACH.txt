@@ -1,0 +1,1959 @@
+09_henry_2000_writing_workplace_part02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: henry_2000_writing_workplace
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/09_henry_2000_writing_workplace_part02_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/09_henry_2000_writing_workplace_part02.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/09_henry_2000_writing_workplace_part02.txt).
+========================================================================
+
+Part two, “Research on Discursive Work in Organizational Settings
+(Uncovering Shards),” presents much of the documentation for the
+claims made in this book. Chapter 3, “In Fieldworkplaces: Research-
+ers’ Sites of Study,” discusses the various sites of study and writers’
+work in these sites, by category of organization, all the while making
+the case for construing all professional writing sites simultaneously as
+sites of fieldwork. Appendix C, “Writers’ Work and Positions by
+Nature of the Organization,” supports readings of this chapter. Chapter
+                                                            PREFACE   xiii
+
+
+4, “Organizational Features of Workplace Writing Cultures,” presents
+features of writing identified by researchers over all seven years and
+draws syntheses across these features. Chapter 5, “Discursive Features
+of Workplace Writing Cultures,” provides a similar development of
+discursive features as identified by researchers. Chapters 4 and 5 pre-
+sent numerous lists of specific organizational and discursive structures
+and practices, providing additional shards for readers’ uses.
+     Part three, “Implications and Applications (Links to Other Shards,
+Other Sites),” prompts heuristic thinking, too, as it draws implications
+for the academy, the workplace, and collaborators on knowledge pro-
+duction in both. Chapter 6, “Representing Discursive Work in the
+Academy,” posits discourse studies as a means of re-presenting writ-
+ing instruction to colleagues in the academy, the aim being to recon-
+figure composition epistemologies and practices in light of this archae-
+ology and recent composition thinking. Chapter 7, “Representing
+Discursive Work in the Workplace,” posits a domain of professional
+authorship as writers’ workplace realms, in which they manage multi-
+authored documents with an eye to local cultural norms and values,
+contributors, end users, and our larger culture. Chapter 8, “Interven-
+ing in Cultural Production and Reproduction,” situates the work of
+the researchers in this book within the ideological context of Wash-
+ington, D.C., and makes the case for collaboration among academics
+and workplace writers to identify and promote measures to add value
+to workers’ lives and to the organization’s life.
+
+Obviously, this project has entailed a lot of collaboration among many
+people. My thanks go first and foremost to the eighty-four graduate
+students who composed ethnographic analyses of workplace cultures
+as the basis for this book. They appear throughout the book under
+pseudonyms, and so I shall not name them here. Their analyses were
+aided greatly by my colleagues who have visited our course each spring
+to probe the topic of cultural analysis from a variety of perspectives.
+Since the inception of the project, the following colleagues have vis-
+ited at least one class session: Debra Bergoffen, philosophy/women’s
+studies; Zofia Burr, women’s studies/cultural studies/creative writing;
+Pat Caretta, career services; Dulce Cruz, composition studies/Latina/
+o studies; Joel Foreman, English/social and organizational learning;
+Cindy Fuchs, film and media studies/cultural studies/English; Ted
+Gessner, organizational psychology; Robert Holt, organizational psy-
+chology; Kara Incalcatera, organizational psychology; Roger Lancaster,
+xiv   PREFACE
+
+
+anthropology/cultural studies; Marilyn Mobley McKenzie, African-
+American studies/English; Tom Moylan, cultural studies/English; John
+O’Connor, English/computers and composition; William Rifkin, so-
+cial and organizational learning; Michelle Smith-Bermiss, African-
+American studies/English; Beverly Stennett, career services; Susan Tren-
+cher, anthropology; Margaret “Peggy” Yocom, folklore/English/
+cultural studies. My colleagues in the English Department at George
+Mason University have provided support and encouragement through-
+out the project; Chris Thaiss and Terry Zawacki in particular have
+aided me through critical response to chapter drafts. Two anonymous
+reviewers for Southern Illinois University Press also provided valuable
+critiques. Finally, Meg Moss aided me with the graphic design of the
+figures in the book.
+                             xv
+
+
+
+
+WRITING WORKPLACE CULTURES
+INTRODUCTION:
+CHANGING MODES OF COMPOSITION
+
+        Modes of composition have changed because the discipline’s
+        research agenda has shifted from the search for structures to
+        theories of practice that explore the interplay of both structure
+        and agency.
+                                     —Renato Rosaldo, Culture and Truth
+
+
+The discipline Renato Rosaldo refers to is anthropology. As one of the
+contributors to James Clifford and George Marcus’s widely referenced
+Writing Culture: The Poetics and Politics of Ethnography, Rosaldo
+helped usher in an era of reflexivity in ethnographic writing. To achieve
+this reflexivity, ethnographers have turned their scrutiny to the ways
+and means of textual representation of cultures, to the “poetics and
+politics” of ethnographic work and ethnographic products. The work
+of the ethnographer no longer consists of composing a written account
+that pretends to mirror flawlessly a local reality, in which members of
+the culture are cast as types and the researcher as an instrument of sci-
+ence—objectivity personified. In the postmodern scene, all composi-
+tion is contingent, all composers politically and discursively positioned.
+     The shift in research agenda that Rosaldo describes applies to many
+disciplines in the postmodern academy, in particular to those in the
+humanities and social sciences. Much of the deconstructive work of
+the 1980s and 1990s has enabled fuller understandings of the ways in
+which structures identified through earlier “objective” research were
+inevitably also products of the research frame and researchers’ meth-
+ods (and thus always partial), leading researchers in many fields to fo-
+cus their efforts not on further reifying structures but on examining
+practices within and against them. With the increased complexity of
+cultural practices resulting from the shifts in national economic and
+social structures, changes in organizational structures, and the sheer
+volume of information moving among these structures in the informa-
+
+                                                                            1
+2    INTRODUCTION
+
+
+tion age, questions of agency have assumed centrality in postmodern
+research. For researchers and for researched subjects entering a new cen-
+tury, many postmodern theoretical tenets have become a part of daily
+life. Witness the fragmentation of cultural unities believed to be nearly
+immutable (e.g., job security in certain organizations earlier allied with
+purported national interests), blurred boundaries among domains of
+life (in particular, those of work and leisure), hyperacceleration of
+cultural processes (through digitized information, its networked flows,
+and its Web dissemination), and a pastiche of synchronic representa-
+tions of realities supplanting the more linear and hierarchical (most
+notably in mass media). Discerning agency as practiced among struc-
+tures in this scene looms a task as vital as it is challenging.
+     Composition has been one of the many fields to rise to this chal-
+lenge. In the 1970s the shift in research focus from students’ written
+products to their writing processes (framed then for the most part as
+cognitive processes) prepared the ground for the ensuing shift in the
+1980s to a focus on writing contexts (mostly academic classrooms).
+This in turn opened the way for some researchers to focus on agency
+as circumscribed by cultural and discursive practices. Susan Miller, for
+example, proposed “disclosing connections between specific social and
+textual superstructures and highlighting how writing situations con-
+struct their participant writers before, during, and after they under-
+take any piece of writing” (198), and Lester Faigley suggested that
+students be invited to explore “how agency can be constructed from
+multiple subject positions” (224).
+     Undeniably, one of composition’s most endearing traits is its reso-
+lute and persistent connection to teaching practices, as indicated by
+the comments of Miller and Faigley. Yet the history of teaching com-
+position in American postsecondary institutions has grossly under-
+mined the potential of inquiry by composition researchers or by writ-
+ers themselves into their agencies and subject positions. James Berlin’s
+comprehensive history of twentieth-century postsecondary writing in-
+struction in the United States traces the dominance of “current-tradi-
+tional” rhetoric, which “makes the patterns of arrangement and su-
+perficial correctness the main ends of writing instruction” (Rhetoric
+and Reality 9). Sharon Crowley extends the critique, noting shortcom-
+ings of such instruction in the realms of purpose and audience as well
+as the narrow range of subject positions offered to writers:
+    In current-traditional pedagogy, students’ papers are not constructed as
+    messages that might command assent or rejection. Nor do current-tradi-
+                                            CHANGING MODES OF COMPOSITION     3
+
+
+    tional teachers constitute an audience in any rhetorical sense of that word,
+    since they read not to learn or be amused or persuaded but to weigh and
+    measure a paper’s adherence to formal standards. Hence the current-tra-
+    ditional theory of discourse is not a rhetoric but a theory of graphic dis-
+    play, and so it perfectly met the humanist requirement that students’ ex-
+    pression of character be put under constant surveillance so that they could
+    be “improved” by correction. (Composition 96)
+
+     Such instruction has dominated curricula since the turn of the cen-
+tury, when the so-called Harvard model grounded in current-traditional
+rhetoric and spearheaded by Francis Child gained enormous influence
+among curriculum designers at many institutions across the country,
+leading them to conceptualize composition as he had: an endeavor con-
+sisting of mastering forms, engaging little disciplinary content knowl-
+edge (Russell 50). The research paper had earlier emerged as a form
+of writing quite valuable in initiating new members into their chosen
+realms of discursive work, yet this component of writing instruction
+had been in its turn sapped of relevance through curricular reforms at
+the time. As Donald Stewart notes, early-twentieth-century curriculum
+reforms witnessed writing instruction wrested away from departments
+of rhetoric (many in demise) by English departments concerned pri-
+marily with the belles lettres. Student composers who might earlier have
+pondered the discursive “I” as it assumed membership in a discipline
+while researching topics valued by the discipline and dear to their own
+concerns now were faced with researching topics in literature, like it
+or not. Whether justified through current-traditional rhetoric’s tenet
+that composition’s focus should be primarily formal or through lib-
+eral humanism’s belief that the values gained through the study of lit-
+erature automatically took priority over values that might be nurtured
+through other discursive work, the end result was that studying com-
+posers through the years—at least until the resurgence of disciplinary
+writing courses in the 1980s—rarely got the chance to compose posi-
+tions (and selves) in the discursive realms of their future active lives.
+Coincident with the loss of this written discursive eperience, notes
+William Riley Parker, was the loss of parallel spoken discursive expe-
+rience, since composition instruction focusing on literature lacked the
+oratorical component found earlier in departments of rhetoric (349).
+     David Russell observes another important effect of the reconfig-
+uring of research writing when taken over by English departments
+devoted to belletristic pursuits: “Its pedagogical uses narrowed, mov-
+ing from apprenticeship to production” (89). That is, composers not
+4    INTRODUCTION
+
+
+only were deprived of discursive subject positions in their future ac-
+tive realms but were in the process positioned primarily to produce.
+This shift eerily presaged the Taylorization of American industry in the
+early 1900s. Spearheaded by the studies of Frederick W. Taylor in The
+Principles of Scientific Management, factories reorganized work pro-
+cesses for greater efficiency, using time-motion studies to maximize (and
+standardize) workers’ movements. Taylorization of the workplace was
+linked strongly to “social efficiency” models of teaching all subjects
+(and students) at the K–12 levels, as discussed by Herbert M. Kliebard
+in The Struggle for the American Curriculum, 1893–1958. He observes
+the links between Taylorization of the workplace and of curricula:
+“Once the standardization of the techniques of production were
+achieved, the task of bringing the average worker up to the required
+level of work could be accomplished” (95). Schooling, too, could be
+Taylorized to prepare workers efficiently (albeit at individuals’ discur-
+sive experiential expense). Composition instruction achieved this not
+only through current-traditional epistemology that divorced instruc-
+tion from composers’ genuine concerns (and that rendered writers and
+future workers more easily quantifiable via a theory of graphic display)
+but also through generic writing assignments and conventions that
+dramatically limited first-person discourse (which, once again, would
+have been unthinkable in a department of rhetoric). Finally, composi-
+tion courses in this age were invariably structured around books, which,
+although on the one hand opened new horizons for readers, on the
+other limited those horizons in their own way through the codex cul-
+ture they carried with them (Lanham), a culture that values literacy
+over orality and that has in fact imposed literate interpretive lenses on
+preliterate cultural phenomena.
+    This dramatic reduction in the dimensions that any discursive “I”
+might assume in writing courses dovetailed with shifts in business re-
+structuring occurring at the same time. Following JoAnne Yates, Russell
+observes:
+
+    In the late nineteenth and early twentieth centuries, American business
+    reorganized human relationships through the new movement toward sys-
+    tematic management, a movement that depended upon impersonal writ-
+    ten communication to subordinate the individual to a rationalized sys-
+    tem. (103)
+
+The impersonal written communication needed for the rationalization
+of management systems was effectively assured by the ideological form
+                                         CHANGING MODES OF COMPOSITION   5
+
+
+that composition instruction had taken, to be reinforced through the
+formalist theories underpinning textual interpretations of belletristic
+texts (and compositions about them) by midcentury, which will be
+taken up in chapter 2. For the moment, this brief history of composi-
+tion serves to underscore the economic and ideological reasons for its
+modes in the modernist era.
+     That era was one of unprecedented U.S. economic prosperity, made
+possible not only by the Taylorization of workplaces and systematic
+management but also by the development of high-volume production
+in the industrial sector by the nation’s core corporations. Says Robert
+Reich: “By the 1950s, the well-being of individual citizens, the pros-
+perity of the nation, and the success of the nation’s core corporations
+seemed inextricably connected” (43). The structure of these corpora-
+tions at the core of the high-volume economy was one of absolute
+control: “Organizational charts graphically mapped out internal hi-
+erarchies, starting with a large box at the top containing the chief ex-
+ecutive officer, and proceeding downward through levels of ever smaller
+and more abundant boxes” (51). Literacy demands of most workers
+were principally those of interpreting executive orders correctly and
+implementing them efficiently within the hierarchy. Says Yates: “Im-
+personal policies, procedures, processes, and orders flowed down the
+hierarchy; information to serve as the basis for analysis flowed up the
+hierarchy” (20). Expertise in writing required primarily a mastery in
+generating and interpreting impersonal written communication to the
+ends of executive efficiency, and perhaps because the middle class per-
+ceived its interests as so closely intertwined with those of big business,
+impetus for reconceptualizing college writing instruction for greater
+individual actualization was hardly forthcoming from the workplace
+experience. Thus macroeconomic organization of subjectivities joined
+that of curricular philosophy and institutional competition among dis-
+ciplines to assure that composition instruction would replicate status
+quo discursive experience.
+     By the time the research agenda in composition had shifted, with
+many other fields, to theories of practice exploring interplays of struc-
+ture and agency, the nation’s economy had effectively shifted from high-
+volume production to high-value production. In the high-value enter-
+prise, says Reich, “profits derive not from scale and volume but from
+continuous discovery of new linkages between solutions and needs”
+(85). Workers’ literacies in such an economy, clearly, must go beyond
+the functionary practices of yore. The forms that workplace literacies
+6    INTRODUCTION
+
+
+will take remain to be seen, but even in this initial phase of reconsid-
+ering composition research and instruction, prior research in the field
+speaks to macroeconomic realities. Writing, as Janet Emig demon-
+strated in 1977, is more than a neutral medium of communication for
+preestablished knowledge. It is a mode of learning, which, when prop-
+erly conceptualized and contextualized in local workplace cultures, can
+contribute to discoveries of new linkages between solutions and needs,
+at the very least.
+     Such a rethinking of writing’s potential within organizational life
+is suggested by Shoshana Zuboff’s work, in which she analyzes the shift
+from high-volume production (in what she calls the “automated” age)
+to high-value production (in the “informated” age). Predicting new
+shapes for organizations and new dissemination of information and
+authority within them, she says that “when work becomes synonymous
+with responsiveness to data, it engenders inquiry and dialogue, thus
+opening the way for workers to envision new possibilities and fresh
+alternatives to the reigning definitions of process, product, and orga-
+nization” (302). “To put it simply,” she says, “learning is the new form
+of labor” (395).
+     What, though, will writers learn through workplace writing? What
+should be their topics of inquiry and their modes of composition in
+conducting it? What forms might curricula take to prepare them for
+such inquiry? Because writing is not only a mode of learning but is in
+fact the means by which realities become socially constructed—by
+which local cultures create realities with effects far beyond their bor-
+ders and reproduce the local realities of their organizations—writers
+must at the very least hone their skills in perceiving the ways and means
+of this social construction via language. And because writers not only
+compose but are composed by the discourses of the workplace, recent
+composition tenets tell us, they must hone skills in perceiving the mech-
+anisms, dynamics, and effects of such composition. In the twenty-first
+century, learning about, during, and through workplace writing must
+embrace the interplay of organizational structures and agencies among
+them in the ongoing composition of writers’ lived realities and the
+realities that they write/create.
+     This book supports such work. As the title suggests, part of this
+project borrows from recent ethnographic theory that explores the
+implications of the interpretive turn in the analysis of local cultures.
+The Cultures of Professional Writing course attempted to enact field-
+work methodologies linked to this new analysis, in this case on the part
+                                         CHANGING MODES OF COMPOSITION   7
+
+
+of practicing (or aspiring) professional writers and editors, who rep-
+resent a class of professionals regularly tasked with composing as their
+central workplace duty. As mentioned in the preface, during seven
+consecutive springs, a total of eighty-four writers enrolled in an MA
+program in professional writing and editing conducted ethnographic
+analyses of workplace cultures in their organizational and discursive
+dimensions. While participating in course work, they also agreed to
+serve as my research subjects under the university’s sponsored programs
+of research, following the guidelines of the Belmont Report. Our course
+thus became the site of “informed intersubjective research” (McBeth),
+in which all class discussions and individual conferences were audio-
+taped and all writings were photocopied or electronically stored. Stu-
+dents in the class had the option of not participating in my research
+(only one student chose this option), and grades were based solely on
+material production and regular, engaged participation, so that course
+participants would not feel coerced either to participate in research or
+to conform to a particular stance in their writing. (To see the current
+syllabus, go to http://mason.gmu.edu/~jhenry/612syl.htm.)
+     The course design was inspired by Lee Odell and Dixie Goswami’s
+Writing in Nonacademic Settings, the groundbreaking text presenting
+studies of writing in workplace cultures by various academic research-
+ers (mostly from rhetoric and composition). This text set the stage for
+a number of ethnographic studies of workplace writing, leading Carl
+Herndl in 1993 to voice this caveat: “This research lends itself to a
+mode of reporting that reproduces the dominant discourse of its re-
+search site and spends relatively little energy analyzing the modes and
+possibilities for dissent, resistance, and revision” (349). From the first
+Cultures of Professional Writing class meeting in 1993, I have empha-
+sized the value of dissent, resistance, and critique to writers studying
+their careers, since such critique could afford them insights that would
+strengthen their writing prowess. As it turned out, of the eighty-four
+participants in this research, sixty-five chose to study their own places
+of work, and they required no prompting to mount critiques.
+     My research design was inspired initially by Dixie Goswami and
+Peter Stillman’s Reclaiming the Classroom: Teacher Research as an
+Agency for Change, in which they present examples of classroom in-
+structors conducting research collaboratively with their students to
+improve curricula and teaching practices. James Berlin has observed
+that “the teacher-as-researcher program in writing emphasizes the
+study of the unique language practices of students in their particular
+8    INTRODUCTION
+
+
+social setting” (“Teacher” 10), and I sought through my research de-
+sign to focus students’ attention on the unique language practices of
+their workplace social settings. Because the course’s workshop format
+enabled frequent reporting by participants on these language practices,
+class sessions and research writing provided a forum for professional
+writers to share their own insights on workplace cultures with other
+professional writers.
+     In this respect, my students’ ethnographic project differed signifi-
+cantly from that of contributors to Writing Culture and to the femi-
+nist volume Women Writing Culture that stands as a valuable episte-
+mological update on the earlier work. Debts to each of these volumes
+will be repaid in later chapters; I mention them here to signal a sig-
+nificant difference in this book: unlike the academic ethnographer-
+theorists inspecting representative practices and addressing commen-
+tary on them to their peers in the academy, the researchers represented
+in this book were more concerned with inspecting the “instrumental”
+discourses of the workplaces in which they daily composed (and were
+composed) and in interpreting local cultures to inform their under-
+standings of these compositions. Thus their aims were quite different,
+as were their audiences. I see their project as no less vital than that of
+their Ph.D. counterparts, even though their familiarity with ethnogra-
+phy and hence theoretical sophistication is less, because the research-
+ers in this book have taken as their object of analysis a topic at the very
+heart of social constructionism itself: the composing through language
+practices of everyday realities. Professional writers daily compose and
+recompose the cultures of their workplaces however subtly through
+their discursive projects. Focusing on this aspect of composing through
+ethnographic analysis can illuminate the ways in which so-called in-
+strumental discourses also constitute a cultural poesis, a “constant
+reconstitution of selves and others through specific exclusions, con-
+ventions, and discursive practices” (Clifford 24). That these research-
+ers were often members of the cultures they researched also holds in-
+triguing possibilities for intervention, which has been a key element of
+both applied anthropology and feminist practices for years. These pos-
+sibilities are discussed at length in part three of the book.
+     Just as the title Writing Workplace Cultures signals this book’s
+connections with ethnographic analysis, so does the subtitle An Archae-
+ology of Professional Writing signal connections with Michel Fou-
+cault’s work in The Archaeology of Knowledge and the Discourse on
+Language. He uses the term archaeology to indicate “a possible line
+                                          CHANGING MODES OF COMPOSITION    9
+
+
+of attack for the analysis of verbal performances” (206), these perfor-
+mances being construed not as utterances by individuals but as “discur-
+sive events.” An endeavor in the history of ideas, his work entails a
+revision of historical interpretive approaches by revisiting certain sites
+of discourse (for example, that of mid-nineteenth-century medicine)
+to piece together the findings in that site, not so much in the interest
+of confirming hypotheses about a previous reality as to discern rules
+of practice underpinning it. Hence his choice of the extended metaphor
+of archaeology. My use of the term signals both Foucault’s conceptual
+frames as they will inform some of my analysis of professional writ-
+ing and the procedures through which this analysis is made possible.
+     Archaeological work is initially exploratory and then synthetic. In
+the exploratory phase, one slices through earth gingerly, methodically,
+alert for any colors or textures that contrast with the ground. When I
+worked as an archaeologist’s assistant in the 1970s on a prehistoric
+site, we would skim off the soil, layer by layer, until a fleck of ivory or
+burnt sienna appeared. Then we would drop our shovels and take up
+dental picks, prying earth away from the color in the hope that more
+color would appear, producing a form. The ivory might be a tip of a
+finger or a hip or a knee, and our work consisted of uncovering the
+color in whatever direction it would take us, bones hardening in the
+air and leading us on eventually to expose the full body, which, de-
+pending upon how much the earth had shifted since burial, might lie
+at nearly any angle. In the case of burnt sienna, we would pick at it
+gently in the hope of retrieving a vessel fully intact, but such was rarely
+the case. Rather, we would salvage one shard here, another there, col-
+lecting as many as possible that seemed likely to belong to the same
+vessel, whereupon the synthetic work began: as logic and imagination
+suggested, we would piece together these shards to arrive at a repre-
+sentation of what might have been the earlier unity.
+     Foucault’s archaeological work in the territory of discourses was
+similar in its procedures, though somewhat different in its aims. Phi-
+losopher Debra Bergoffen describes it as follows:
+
+    I’m down there and I’m digging and I come upon these shards. I say: What
+    do they make? How do these pieces fit together? How are they related
+    to each other? What sorts of objects emerge when I put them together in
+    certain ways? Shards is all we got. And shards, that’s what Foucault is
+    calling discourses. (in class, 5/1/96)
+
+Part of Foucault’s project was discerning the ways in which various
+10   INTRODUCTION
+
+
+discourses and practices surrounding them came together in discursive
+formations, offering positions to subjects who circulated in these for-
+mations and among these discourses. The work of this book rejoins his
+project and takes as its object of analysis not the historical uncovering
+of nineteenth-century discourses but rather the contemporary uncov-
+ering of twentieth- (and twenty-first-) century discourses in which pro-
+fessional writers (and others) are offered positions. Because writers are
+a class of professionals who regularly enact composition tenets as part
+of their primary work, this archaeology serves as a resource both for
+writers (and aspiring writers and writing managers) and for composi-
+tionists who want to reshape our field in light of these findings.
+     As I mentioned in the preface, this archaeology is aided by research-
+ers’ abstracts (appendix D) and by three large tables (appendixes A,
+B, and C). Using these tables along with the abstracts and index, readers
+can chart readings through the book according to their own interests
+or local circumstances by following a particular theme or researcher
+through each appearance and by comparing themes and researchers
+with others in a table or specific table cell. Though I draw syntheses
+and analyses for each table at various moments, part of the lure of an
+archaeological site is the similarities one perceives with shards in one’s
+own dig.
+     Like an archaeological museum containing vessels from many sites,
+this book is dense with information, so that linear, word-by-word read-
+ings cannot correspond with any one reader’s desires. Hence I have used
+numerous headings in part two, for example, which enable readers to
+glean a trend or pattern among research issues at a glance—then to
+consult the detailed bulleted lists as deemed pertinent. The tables may
+appear dense at first brush, but they gain dimension in tandem with
+my discussions and with the reading trajectories that readers bring to
+them and continue through them. (Readers who would like to ponder
+the shards of this archaeology in a hypertext excavation can do so at
+http://classweb.gmu.edu/classweb/jhenry/index.html.) In Envisioning
+Information, Edward R. Tufte observes that “high-density design also
+allows viewers to select, to narrate, to recast and personalize data for
+their own uses” (50), and my hope is that readers will indeed be able
+to do just that. When I began work on this project, I sought in my
+analysis to mount some “meta-ethnographic” commentary that would
+subsume course participants’ work in encompassing narratives, but this
+attempt proved unfulfilling in its reductionism. Grappling with the
+politics and poetics of representation, concurring with Jean-François
+                                         CHANGING MODES OF COMPOSITION   11
+
+
+Lyotard’s strategy for countering master narratives through localized
+petits recits, I have come to agree with James E. Porter and Patricia
+Sullivan, who in their discussion of methodological interfaces in pro-
+fessional writing research, say: “The kind of theorizing we are advo-
+cating is postmodern in the sense that the maps we draw are not meta-
+maps, but rather heuristic ones” (319). I urge readers to view the many
+tables, researchers’ abstracts, and indexes linking them as heuristic
+maps to aid them in charting their own projects, and I take satisfac-
+tion that these fragmented representations of my “research subjects”
+resist any totalizing accounts.
+     When I worked as a technical writer in the railroad industry, I
+not only began to realize how academic institutional structures and
+ideological practices had grossly undertheorized instrumental dis-
+course, I also learned how valuable and complex the seemingly trans-
+parent concepts of readability and usability could be. I have tried to
+apply these concepts in this book, imagining my readers to be profes-
+sional writers (or aspiring writers), workplace managers, writing teach-
+ers, curriculum designers, professional writing scholars, and compo-
+sitionists, and assuming that many readers will fall into more than one
+of these categories. Readers at one extreme might deem this text too
+academically esoteric, at the other extreme too preoccupied with mun-
+dane discursive work. Yet these two extremes have every interest in
+conversing, and composition studies has every interest in making the
+conversation possible, as suggested by John Trimbur’s account of
+postmodern composition: “By this postmodern version, composition
+studies situates itself in a nondisciplinary or postdisciplinary place
+where multiple, heterogeneous, and polyvalent discourses, projects, and
+interests intersect” (136). This book uses one archaeological dig to
+suggest some such intersections.
+     In terms of usability, I imagine readers not only reading but con-
+sulting this book, using it intermittently as a source for their own writ-
+ing, course design, research, or debate. I imagine writers engaged in
+workplace composing—weighing the pulls of tradition and culture,
+disciplines and fields, the community, and their own values and expe-
+riences—and agreeing with James E. Porter that “every composing
+event is itself an ethical decision, not simply a presentation of an al-
+ready preformed ethical position” (“Developing” 223). I imagine
+writers and scholars collaborating in critical literacy projects, explor-
+ing “how individuals are constituted as subjects outside educational
+institutions” (Anderson and Irvine 87) and working together “to ad-
+12   INTRODUCTION
+
+
+dress the relationship between literacy and empowerment in a given
+context” (91). I imagine readers in organizational cultures, concerned
+along with former labor secretary Robert Reich that the “sense of con-
+nectedness” between workers and national identity has disintegrated
+and convinced that one way to reshape this connectedness—in ways
+valuable not only to the nation but beyond it—is to examine the orga-
+nizational and discursive structures and practices within local cultures
+that have perhaps contributed to this disintegration.
+    One central practice to explore is the structuring of authority. Zu-
+boff depicts the ways in which authority moved out of workers’ pur-
+views with the shift to Tayloristic forms of work organization in this
+century. The parallel reduction of writers’ authority to the essentially
+formal in composition theory and practice is too strong to ignore, and
+this book begins the work of reconstructing writers’ discursive (and
+hopefully organizational) authority as a part of authorship. Here the
+notion of implied authorship proves invaluable, for within narrato-
+logical theory every text has an implied author, defined by Gerald
+Prince as the “implicit image of an author in the text, taken to be stand-
+ing behind the scenes and to be responsible for its design and for the
+values and cultural norms it adheres to” (Dictionary of Narratology
+42). Writers in workplaces regularly compose these authors, and be-
+cause they are part of a process that is responsible for values and cul-
+tural norms, they will need theoretical and methodological support in
+apprehending these cultural phenomena, and they will need epistemo-
+logical support in lobbying for their rights in this authorship. As modes
+of composing change with the digitization of information and work-
+place restructuring in the twenty-first century, in fact, professional
+writers and students of writing could prove invaluable collaborators
+in rectifying misconceptions of what composition is. This book seeks
+to join the efforts of many compositionists and professional writing
+scholars over the past several years to achieve these ends.
+PART ONE
+
+Writers in Theories and Practices
+(Mapping the Dig)
+1   RESEARCHING THE DISCURSIVE SELF
+
+    In the Archaeology, the question “who is speaking?” actually
+    serves to underscore the multiplicity of social forces impinging
+    upon the self, forces that struggle against one another to enter
+    discourse through the “I.” The subject always speaks from a
+    “discontinuity,” from a point of intersection between divergent
+    interests, channels, and communities.
+               —Kurt Spellmeyer, “Foucault and the Freshman Writer:
+                                     Considering the Self in Discourse”
+
+    Anne: [To instructor] And the gap there between what you read
+       and what you analyze, is making me as a writer very self-
+       conscious as I write. And as I do this work.
+    Nidean: Are you self-conscious when you write anything? Or
+       just . . .
+    Anne: Um—no—well, I’m taking a class in autobiography right
+       now. And we share those pieces, and those are very personal
+       pieces of writing. And those, I just let go and write. And if
+       somebody doesn’t like it, or doesn’t understand it, I can sit
+       there in the group and come back at him face to face—or
+       her—anyway . . .
+    Branden: Um, could I just make a comment? Because I don’t—I,
+       I understand what you’re saying [to Anne]—but I don’t look
+       at this like that. I, I thought this quote was really neat, in the
+       Herndl article; he said that “Derrida is right when he says
+       that the critical relationship that we establish with our own
+       discourse is a measure of its quality and fecundity.” I mean,
+       that’s—anyway—basically he’s—what I’m trying to get out of
+       this is just sort of develop this critical viewpoint of what I’m
+       doing, and do the best possible thing that I can do.
+                                            —discussion in class, 3/23/93
+
+
+
+
+                                                                            15
+16   WRITERS IN THEORIES AND PRACTICES
+
+
+
+
+While composition was emerging as a field of research on writing
+processes in the 1970s and 1980s, continental theory was exerting enor-
+mous influence in American academe, in the humanities in general and
+in English in particular. Because much of this theory focused on dis-
+course, discursive practices and traditions, discursive formations, and
+the construction of the subject therein, literature scholars were able
+to enhance interpretive frames brought to published texts. Many com-
+position scholars found themselves positioned to use this theory in
+dynamic ways, given that their primary material was the writing of stu-
+dents, which made the authors of primary texts immediately available—
+often in researchers’ own classrooms. Kurt Spellmeyer’s use of Foucaul-
+dian theory to interpret freshman writing illustrates the parameters of
+this research: the “self” in discourse represents social forces that find
+their manifestations when one writes; the “I” is recognized as a sub-
+ject of composition along with any claims that this “I” may predicate.
+     The potential of such research is enormous. After all, a theory of
+subjectivity as constructed in discourse links with diverse intellectual
+realms, including politics, psychology, and philosophy at the very least.
+In the realm of politics, for example, Althusser’s concept of the sub-
+ject as interpellated by ideological state apparatuses reminds us that
+our subjective identities are always shaped to a degree by the state and
+its institutions, including surrogate institutions from the religious to
+the educational that determine one subject’s relationship to another.
+In the realm of psychology, Lacan’s extensions of Freudian theory that
+posit a fundamental disunity in our psychologies, engendered in infancy
+upon first realization that the self is discrete from the mother (and
+coincident with language learning that permits acquiring the concepts
+of self and other), help explain at least part of the difficulty of repre-
+senting oneself in writing—of finding adequate words upon each re-
+entry into discourse. In philosophy, Barthes’s now-famous “death of
+the author” permitted a new approach to textual interpretation that
+sought out recurrent semantic codes in literary works and the cultural
+constructions imbuing each individual writer, and Foucault’s essay
+                                          RESEARCHING THE DISCURSIVE SELF   17
+
+
+“What Is an Author?” inspected the subjectivity of authorship in the
+plane of sociological functions. Indeed, much of Foucault’s work has
+enlarged the implications of social constructionism itself for under-
+standing our daily subjectivities as lived among the myriad discourses
+with which we contend.
+     Compositionists, professional writing scholars and writers, and
+workplace writers and managers can benefit from such theory by fo-
+cusing it on actual workplace writing experiences, academic writing
+experiences, and comparisons of the two. With respect to subjective
+identities as shaped by the state and surrogate institutions, for example,
+we might study the specific ways in which the structures and practices
+of our academic institutions shape writing subjects’ relationships with
+other subjects, and how these relationships compare with those of the
+workplace. In what ways are writing subjects shaped as functionar-
+ies, and in what ways as collaborators or apprentices? Through what
+writing practices do we position subjects within institutions as core-
+searchers gleaning new linkages between problems and solutions? How
+can organizational structures and practices in academic and nonaca-
+demic settings be revised to promote productive and satisfying rela-
+tionships among subjects (acknowledging that the political inflection
+of subjectivity is an ongoing discursive process) to the benefit of orga-
+nizations and writers within them? Chapters 3, 4, and 5 offer shards
+that might serve academics and workplace discourse managers in imag-
+ining these revisions.
+     Psychological subjectivities as shaped through language practices
+have been addressed within many disciplines and from a variety of
+perspectives. However, such research to date has focused overwhelm-
+ingly on individual authorship, on manifestations of an essentialized
+and unified self, most often composed in an expressive mode. Much
+work lies ahead on gleaning the contours of discursive selves composed
+in organizational settings via collaborative authorship, reviewing these
+contours critically through varieties of theoretical lenses, and design-
+ing new frameworks for understanding the interplay among discursive
+selves and organizational practices, values, and products. As Dorothy
+Winsor observes of workplace writing, “We must constitute ourselves
+in texts that we do not wholly control” (194). Such constitution elic-
+its complex psychological processes on writers’ parts, the study of which
+could yield greater value for writers and their workplace cultures. In
+chapter 2 appears a partial inventory of writers’ subjectivities in psy-
+chological dimensions, and ensuing chapters demonstrate that even this
+18   WRITERS IN THEORIES AND PRACTICES
+
+
+partial inventory displays aspects of subjectivity that are dramatically
+truncated in most workplace writing. What steps might be taken by
+discourse managers in the workplace and professional writing schol-
+ars collaborating with them to enhance the structures and practices
+shaping psychological subjectivities of workplace writers? This ques-
+tion goes beyond the rhetorical, because “finding adequate words upon
+each reentry into discourse” can yield value for organizations and in-
+dividual writers alike.
+     Researching the discursive self as shaped in academic and nonaca-
+demic cultures can thus prove valuable to writers, their audiences, their
+colleagues, and their managers—and to compositionists and profes-
+sional writing scholars eager to understand better the practices and
+structures undergirding composition of the self within workplace dis-
+courses. One difficulty in accomplishing this research, however, is find-
+ing frameworks for interpretation that enable one to capture the of-
+ten momentary, ambiguous, and even contradictory manifestations of
+subjectivity in the discourses encountered in academic and nonaca-
+demic settings.
+     In academic settings, part of this difficulty derives from the deficit
+models that have framed interpretations of student writing for so many
+years: because for decades academic essays have been approached as
+demonstrations of incomplete proficiency to be corrected, it proves dif-
+ficult to discern in our readings a subjectivity beyond that of neophyte
+writer/learner. This difficulty has been compounded, ironically, by the
+strong expressivist strand in composition epistemology during the
+1970s and 1980s that often harkened to essentialist concepts of iden-
+tity, grounded ultimately in Freudian psychological theory positing a
+fundamentally unified self. Whereas such epistemology often helped
+teachers reengage students as writers within academic discourses from
+which they had become alienated, it simultaneously thwarted interpre-
+tations that would enable student writers to perceive the many subjec-
+tivities they assumed with each new essay, the many forces that struggle
+against one another to enter discourse through the “I.”
+     In nonacademic settings, researching the discursive self has rarely
+been a project undertaken by organizations, despite the rapidly grow-
+ing corpus of research by academics on workplace writing. This lack
+of initiative surely stems from broadly held views of so-called instru-
+mental writing as “authorless”—and hence devoid of discursive selves.
+The topic of the discursive self, moreover, smacks of purely personal
+issues that most workplaces would pass over in favor of research on
+                                           RESEARCHING THE DISCURSIVE SELF   19
+
+
+topics perceived as more pragmatic. Yet this book makes the case that
+research on the discursive self can yield applications in the workplace
+that, because of the theoretical richness underpinning them, could far
+outstrip applications focused solely on discursive products or processes
+with no eye to writers’ lives. Practicing writers, managers, and writ-
+ing scholars must collaborate on this research to uncover more archaeo-
+logical shards for our inspection. In the pages that follow, I outline some
+approaches for pondering these shards grounded in narratology.
+
+Reading Writers Narratologically
+Narratology, the theory of narrative, concerns itself first and foremost
+with narrative structures and elements essential to telling a story. Prin-
+cipal among these elements are the narrator, the “speaker” inscribed
+in the text, and the narratee, the “listener” in the story (see Prince,
+“Introduction to the Study of the Narratee,” for a fuller discussion of
+the characteristics of the narratee). Whether overt or effaced, these
+narrators and narratees are the lifeblood of most narratives: the nar-
+rator recounts events to her or his narratee while we readers observe
+from outside the world in the text.
+    Of course, narration takes many forms, narrators and narratees in
+some cases barely discernible, yet narratologists have identified a num-
+ber of textual indicators of speakers’ and listeners’ presence in addition
+to the more obvious personal pronouns such as “I” and “you” (Piwo-
+warczyk; Prince, “Introduction,” Dictionary). These indicators allow
+us to trace the word-by-word emergence of the one who enunciates
+thoughts and the one who attends to them in the world of the text.
+    At a more macroscopic level, and as an extension of the symmetri-
+cal relationship between narrator and narratee, narratologists speak
+of an “implied author” and an “implied reader” for every text. De-
+fined as the “implicit image of an author in the text, taken to be stand-
+ing behind the scenes and to be responsible for its design and for the
+values and cultural norms it adheres to” (Prince, Dictionary 42), the
+implied author in a sense represents a text’s engagement with the “real
+world” in which it circulates.
+    I use the expression “real world” to echo narratologists’ designa-
+tion of yet two more entities in this theoretically symmetrical relation-
+ship, the “real author” and “real reader.” Exterior to the text, the real
+author is the flesh-and-blood writer who has generated the narrator(s),
+narratee(s), and the narrative structures through which they relate. The
+20      WRITERS IN THEORIES AND PRACTICES
+
+
+“real reader,” by the same token, is any one of us who brings his or
+her eyes to the text. Figure 1, taken from Story and Discourse by Sey-
+mour Chatman, illustrates the entities I’ve described.
+
+
+                                            Text
+      Real        Implied                             Implied         Real
+     Author   ▼    Author → (Narrator) → (Narratee) → Reader     ▼   Reader
+
+
+Fig. 1. A Narratological Framework for Reading Writers. Reprinted from Seymour
+Chatman, Story and Discourse: Narrative Structure in Fiction and Film. Copy-
+right © 1978 by Cornell University. Used by permission of the publisher, Cornell
+University Press.
+
+
+     Using this narratological framework to analyze nonfiction texts
+yields valuable insight on discursively manifested selves. By demarcat-
+ing the real author and that author’s textual productions, we can sepa-
+rate momentarily textual representations of the writer from the bio-
+logical writer, trace the complexities of textual “selves” in the forms
+of narrators, narratees, and narrative structures, then read these selves
+as they compose an implied author, responsible for the text and for the
+values and cultural norms it adheres to. The following section illus-
+trates such analysis, which begins by identifying narrators and narratees
+in a given text.
+
+Narratological Readings of Classroom Texts
+
+In the excerpt from class discussion that appears in the opening of this
+chapter, three “real authors” have voiced utterances that constitute
+texts. The opening comment of Anne reveals two narrators, an “I” “as
+a writer,” and an “I” who “do[es] this [intellectual] work.” In the light
+of Spellmeyer’s comments on the self in discourse, we can say that these
+two different appearances of an “I” represent moments when differ-
+ent social forces enter into discourse, in this case constituting an “in-
+tersection” among (at least) the interests of writing and the interests
+of conducting the academic work of ethnographic analysis.
+    The “you” of Nidean’s reply seems to designate as narratee Anne’s
+“writer” narrator. The interrogative construction signals this narratee
+once again, and depending upon one’s interpretation of this mini speech
+act when tone and inflection are taken into account, this question es-
+                                          RESEARCHING THE DISCURSIVE SELF   21
+
+
+tablishes a narrator who might represent interests of collaboration
+(helping us all negotiate the issue of my analysis and render it fruitful)
+and of critique (pointing out to Anne that all “writing” demands self-
+consciousness).
+     Within the larger context of the course, Anne’s comment to me was
+motivated by an earlier instance in which I had misinterpreted a nar-
+rator she had posited in a progress report. In pointing out my error to
+me, she had said that she was correcting me not just because I might
+come up with a faulty analysis of her as a writer but also because she
+knew that this analysis might be published and reach a wider audience,
+resulting in a misrepresentation to the community of composition
+scholars. Hence this “I” also speaks for that community.
+     Anne’s response to Nidean reveals yet other issues concerning the
+self in discourse that were under negotiation in this scene. The student
+narrator that appears (“I’m taking a class”) functions to pit one form
+of writing offered in our curriculum (“autobiography”) against the
+form offered in this course, ethnography. (Invisible to other members
+of the class was a narrative begun when Anne previously took a pro-
+seminar in composition studies with me, in which she championed an
+expressivist approach to instruction and I a more social-epistemic ap-
+proach. Less invisible, perhaps, are other narratives implied by the fact
+that autobiography as a course offering in English is more “estab-
+lished,” as is the professor who teaches it in our department.) Anne’s
+“student” narrator is joined by the “writer” narrator once again,
+marked by jargon (“pieces”) and an “I” who summons a liberatory
+narrative (“I just let go and write”). A narrative of publicly defending
+a position ends her comment (“I . . . can come back at him face to
+face”), serving to point out an important facet of these course partici-
+pants’ subjectivities—as subjects of analysis—and to remind us all of
+the complexities of occupying the positions of analyst and analyzed
+in this forum.
+     Branden’s intervention speaks to these positions. Like Anne, she
+posits a “student” narrator (“could I just make a comment?”), situat-
+ing this narrator as a supportive peer (“I understand what you’re say-
+ing”) yet locating this narrator as a utilitarian reader who plumbs
+course texts to develop her writerly self: “what I’m trying to get out
+of this is just sort of develop this critical viewpoint.” As she grapples
+to articulate this last position, the starts and stops marked by dashes
+in the transcription could be seen as graphic demonstration of the
+struggle among social forces to enter discourse.
+22    WRITERS IN THEORIES AND PRACTICES
+
+
+     At the “real author” level as I’ve framed it here, this scene shows
+issues of “selves and others” being negotiated with respect to the in-
+stitutional subjectivities of instructor and student and to the research
+subjectivities of analyst and analyzed. At the textual level, other selves
+and others find manifestation, with different narrators providing sites
+for social forces to enter discourse, representing the interests of class
+participants, collaborators, peers, and writers. As concerns the inter-
+ests of writers, they enter discourse here as multifaceted: as self-con-
+scious work, as liberatory experience, as critical reflection.
+     As a “text,” this excerpt from a class discussion in 1993 illustrates
+the complex subjectivities that surface and recede in a brief five-minute
+classroom exchange. The written texts that paralleled such exchanges,
+because they were focused on discursive practices in workplace cul-
+tures, provided similarly rich manifestations of subjectivity. Working
+with these student-practitioner-researchers each year, I composed
+analyses of subjectivities that we reviewed together as part of our in-
+formed intersubjective research. Thus the course entailed researching
+the discursive self as part and parcel of academic assignments focused
+on writing in workplace cultures, an endeavor that enriched this one-
+semester academic experience. To render this research valuable to
+writers and scholars exterior to the course, I will first review ration-
+ales for research on nonacademic writing then link these rationales to
+that of an archaeology in the following section.
+
+Exploring Discursive Selves Beyond Academic Borders
+Just as classroom studies of writers’ discursive subjectivities are often
+hampered by the flat source medium of the academic essay, so are stud-
+ies of writing in the workplace limited by their motivation: most of-
+ten they are conducted exclusively to utilitarian ends, owing to fund-
+ing, and focus not on writers so much as the writing. Such research
+thus ignores discursive subjectivities because they are deemed irrel-
+evant. James E. Porter and Patricia Sullivan note this lacuna in work-
+place research, all the while suggesting links with classroom research:
+     Workplace research too often assumes that knowledge about the work-
+     place should feed classroom practice, but not vice versa. The classroom
+     perhaps is the best site for effecting fundamental changes in the nature
+     of workplace literacy; it certainly provides an opportunity for experimen-
+     tation, for testing new possibilities (whereas workplace action can be con-
+     strained by “the way things have always been done”). (315)
+                                           RESEARCHING THE DISCURSIVE SELF   23
+
+
+The goals of research as framed in the Cultures of Professional Writ-
+ing course are first to capture “the way things have always been done”
+in a given local culture and then to reflect critically upon these local
+practices and imagine possible alternatives, including alternative dis-
+cursive formations and attendant subject positions.
+     As course instructor and researcher drawing upon course partici-
+pants’ primary research, I have sketched the methodologies for elabo-
+rating our informed intersubjective research along lines similar to those
+suggested by Gesa E. Kirsch and Joy S. Ritchie in “Beyond the Personal:
+Theorizing a Politics of Location in Composition Research.” They sug-
+gest that “research participants must be invited to articulate research
+questions, to speak for themselves” (13), and each term, course par-
+ticipants did indeed elaborate their own research questions once we
+had framed the research through reviews of workplace ethnographies
+and an introduction to ethnographic fieldwork methods. This position
+on methodologies resonates not only with recent trends in composi-
+tion but also with research principles grounded in feminism. Drawing
+on Sandra Harding’s groundbreaking work on feminist theory and
+social science methodology (“Introduction: Is There a Feminist Meth-
+od?”), Kirsch calls attention to the purpose of the researcher’s ques-
+tions: “they must be grounded in the subject’s experience and be rel-
+evant to the subject” (“Methodological Pluralism” 256). Discerning
+more fully writers’ subjectivities among workplace discourses seeks to
+heed this purpose.
+     Questions and issues raised through such research have varied
+dramatically and provocatively, both in researchers’ chosen topics and
+themes to pursue and in their authorship in doing so. As to the latter,
+our classroom meld of research/writing workshop allowed us to ad-
+dress other issues of research principles raised by undertaking such
+work, in particular with regard to the entry into ethnographic discourse
+by course participants as primary researchers. As outlined in the intro-
+duction, ethnographers have embraced recent epistemological issues
+in authorship and the politics of representation with wonderful insight
+in recent years, leading to textual representations of cultures grounded
+in rigorous fieldwork methodology all the while situating the “I” who
+narrates these representations of “self” and “other.” The vital ques-
+tions that many ethnographic researcher-theorists have asked them-
+selves revolve around their representative practices in the roles of schol-
+ars producing and reproducing academic fields. The questions that
+researchers have raised in the Cultures of Professional Writing course
+24    WRITERS IN THEORIES AND PRACTICES
+
+
+are no less vital, yet they are formulated in a different rhetorical arena:
+addressing their accounts to fellow writers, possibly to workplace
+managers, and through me to composition scholars and researchers in
+professional writing, course participants have struggled with compos-
+ing an “I” (and its surrogates) that sways these audiences. Hence the
+intellectual realm of ethnography joins those of politics, psychology,
+and philosophy invoked earlier to theorize discursive subjectivities,
+with this theorizing linked solidly to pragmatics. Ruth Behar, address-
+ing the plotting of ethnographic narratives as part of her introduction
+to Women Writing Culture, observes: “How we plot ourselves into our
+fictions has everything to do with how we plot ourselves into our lives”
+(15). Two central goals of exploring discursive subjectivities beyond
+the academy through the informed intersubjective research of our
+course and this book have been to equip professional writers with an
+array of ideas on how to plot themselves into their future work lives
+and to equip writing teachers with ideas for alternative plots in the
+classroom. Such ideas will hopefully spring from the archaeological
+displays and analyses in the following chapters.
+     As a writing teacher, I was prompted by my intersubjective research
+with course participants in 1993 and 1994 to revisit the opening chap-
+ters of The Archaeology of Knowledge, in which Foucault explores the
+construction of subject positions in nineteenth-century medical dis-
+course. In the spring of 1995, I included this text in our course read-
+ings, and I prompted course participants to consider the subject posi-
+tions of professional writers in twenty-first-century discourse as they
+engaged with Foucault’s analysis. We discussed the text in class with
+the help of philosopher Debra Bergoffen, who extended her metaphor
+of uncovering shards during archaeological work, cited in the intro-
+duction, to say the following:
+     There’s no singular subject. There are subjective positions within particu-
+     lar discourses. I’ve got surfaces on which these discourses appear. And I
+     want to know the rules by which these discourses operate. If I figure out
+     these rules, I will discover how objects are composed . . . . I get an object
+     by putting the shards together; I don’t get an object by digging deeper. I
+     don’t look for intentions . . . I look for regularities, I look for rules. . . .
+        When you do that you’re going to discover, not that these unities never
+     existed, but that they came into existence according to certain rules of
+     discourse. It’s not a question of “are these unities true or false?” Fou-
+     cault says, let’s see what practices produced those unities; let’s see whether
+     they’re the only unities that get produced by these practices. Maybe if
+                                           RESEARCHING THE DISCURSIVE SELF   25
+
+
+    we take a good look at the practices, we’ll discover other kinds of uni-
+    ties. (in class, 5/1/96)
+
+     In Cultures of Professional Writing, course participants take stock
+of the kinds of discourses at work in their research sites, conducting
+primary archaeological work on the forms of discourse in which writ-
+ers work, the ways and moments in which particular discourses mani-
+fest themselves, the ways in which certain discourses easily dovetail
+with some while resisting connections with others, and the like. One
+of our goals is to imagine alternative unities that might take form when
+discursive formations and practices are exposed through this archaeo-
+logical undertaking. This book seeks to support researchers and writ-
+ers at other sites by displaying the shards collected over seven years of
+research, in the hope that these shards can be compared to those of
+other digs and that alternative unities can take form in other settings.
+To support such comparisons, I extend the narratological readings of
+student writers above to demonstrate readings that trace discursive
+contours of subjectivity, as discourses shape writers’ schooling, pro-
+fessional writing backgrounds, organizational sites of work, and work-
+place cultures. Because shards of Branden’s discursive subjectivity have
+already been introduced, I will trace her appearances throughout the
+book as an illustration.
+     Branden’s abstract, “Discursive Elitism in a Government Travel
+Agency” (see appendix D), opens with a narrator identified as a “par-
+ticipant observer,” thus introducing the social force of fieldwork meth-
+odology as part of the social sciences into discourse. This social force
+is strongly bolstered by references to the “local culture,” a “principal
+informant,” and the explicit naming of a scholar in organizational
+psychology, Edgar H. Schein (“Organizational Culture”). The narra-
+tor is also a text analyst, thus introducing social forces emanating from
+discourse studies generally and English studies in particular. These two
+social forces—a tradition of research on social practices and structures
+and a tradition of text analysis grounded in discourse studies—begin
+to sketch a discursive formation in which certain objects of analysis
+fall within the limits of valid study while others do not. This is no small
+fact: discursive scenes from classrooms to workplaces regularly desig-
+nate valid topics, and part of archaeological work entails making ex-
+plicit the terms of validation. The “self” in this abstract finds its posi-
+tion among discourses validated by our course work and which might
+not be validated by research “sponsored” (Brandt) by other institu-
+26   WRITERS IN THEORIES AND PRACTICES
+
+
+tions. The implied author that emerges in the abstract has gleaned some
+organizational maneuvering via textual practices that she might not
+have gleaned outside this particular discursive formation—no trivial
+matter when we consider that the “real” Branden leaves the classroom
+with knowledge thus constructed.
+     Other shards represent aspects of Branden’s discursive subjectiv-
+ity via the tables in appendixes A, B, and C. Appendix A shows re-
+searchers’ professional writing backgrounds, representing Branden as
+a freelance, self-employed writer. Such a writing “self” is exceptional
+in this data set, and scanning the table prompts one to consider dis-
+cursive formations from a slightly different angle: the discourse of pro-
+fessional writing forms what Foucault would call “various situations
+that the subject can occupy” (Archaeology 53), in this case remunera-
+tive situations in which discursive range and scope vary significantly.
+The discursive work of a freelancer and the ways in which this work
+shapes subjectivity by virtue of the relations it establishes and prolongs
+with other workplace groups, for example, differs from that of jour-
+nalists, of technical writers, of teachers, and so on.
+     Appendix B displays key points taken from Branden’s written rep-
+resentation of herself as a writer. Here we might understand “forma-
+tion” in the sense of schooling (the double entendre in French supports
+such a reading even though Foucault does not mention it) and note that
+scholastic experience shaped Branden’s vision of what constitutes “writ-
+ing” with a bias toward the literary tradition. Chapter 2 discusses the
+ways in which an “author function” has served to establish realms of
+discursive exclusivity as writers enter discourse, and Branden’s equation
+of writing with Shakespeare signals such a function at work. Through
+publication under her name (a cultural sine qua non for assuming the
+mantle of “writer,” many researchers report), she enters such a realm,
+albeit at a lesser status, and so manifests a self shaped in part by the
+forces of the publishing industry and the relations among writers and
+readers it establishes. The discursive self in this table also signals the
+interests of the market in shaping professional writing subjectivity.
+     Appendix C lists all researchers by the nature of the organization
+they studied. The categories I’ve derived to accommodate all sites of
+study prompt musings on subjectivity. In his analysis of the evolution
+of nineteenth-century medical discourse, Foucault speaks of describ-
+ing the different kinds of institutional sites from which subjects speak
+and from which a discourse derives its source and points of applica-
+tion (51). Just as a subject’s purview in a hospital (and its discourses)
+might differ from that in a clinic (and its discourses), so do subjects of
+                                           RESEARCHING THE DISCURSIVE SELF   27
+
+
+discourse in twentieth-century professional writing discourse find their
+purviews shaped in different ways depending upon the nature of the
+organization. A writer in a private business is positioned vis-à-vis other
+subjects in very different ways from a writer in a government agency,
+for example, and the discursive selves that will take form in these scenes
+will differ dramatically.
+     Within each category of sites, too, the terms of subjectivity for writ-
+ing selves differ significantly according to writers’ work and positions
+as observed. Among the researchers who studied government agencies
+and institutions, we glimpse Branden observing policy and planning
+writing in a part of the Department of Commerce, suggesting subjec-
+tivities for writers that are quite directly shaped by the state. Against
+the background information of her abstract, we can imagine the or-
+ganizational scope of writers being shaped by discursive subject posi-
+tions that are inscribed in a weekly report that “allowed certain play-
+ers to hold other members to projected roles in the organization, all
+the while elaborating their own.” In government accounting, one’s
+organizational roles as documented in reports can sometimes have the
+weight of terms writ in stone.
+     Branden’s appearance in chapter 4 sheds light on an aspect of
+writers’ subjectivities in organizations as inflected by document pro-
+cesses. The lists of skills, status, roles, and the like came from the full
+ethnographies and class discussions. In the section devoted to the dy-
+namics of collective procedures and writing, we see Branden’s abstract
+supplemented by the observation that an organizational player was able
+to gain personal credit for collective production through the process
+of document routing. The observation calls attention to the fact that
+document processing, seemingly benign in any flow chart, serves as a
+mechanism for presenting a self in different ways depending upon
+organizational position. Readers interested in this phenomenon might
+also consult Ana’s account to glean ways in which the contours of
+document processing might offer slightly different subject positions
+depending upon the nature of the institutional site.
+     Chapter 5 presents discursive features of organizational author-
+ship, with a particular slant. The first three sections approach discourse
+in a modernist mode, whereas the following three sections use a more
+postmodern approach. I explain this construction in chapter 5; for pur-
+poses here, one notes that Branden, while studying a document that
+in a modernist mode constitutes a policy statement (section 1), also
+observed organizational maneuvering (section 6) as an effect of dis-
+course that posits subject positions strongly along government bureau-
+28   WRITERS IN THEORIES AND PRACTICES
+
+
+cratic lines, as discussed above. As with the lists in chapter 4, one can
+glean more on this phenomenon of discursive subjectivity by going to
+abstracts of researchers observing similar features (Ana and Mandy).
+     As we trace the representations of any of the eighty-four research-
+ers through these pages, pondering narrators, implied authors, docu-
+mented discourses, and subjects’ positions in them, we can use them
+to great advantage by pondering Foucault’s celebrated questions: “What
+are the modes of existence of this discourse? Where has it been, how
+can it circulate, and who can appropriate it for himself? What are the
+places in it where there is room for possible subjects? Who can assume
+these various subject positions?” (“What Is an Author?” 120).
+     Though these questions were used by Foucault to conclude his es-
+say postulating ways in which an author “function” had taken form
+in literary discourse, the same questions speak compellingly to profes-
+sional writers, discourse managers, researchers, and compositionists as
+we research discursive selves. The term “author” might hinder, because
+the belletristic tradition uses this term solely for the literary author. But
+as Roger Chartier points out, earlier ages prioritized uses of “author”
+differently: in seventeenth-century France, for example, the term “au-
+thor” was used more often to designate one engaged in discourses of
+practical affairs than literary affairs (40). The history of U.S. compo-
+sition instruction as sketched in the introduction works against us here,
+since most composing has been taught under paradigms of belletristic
+authorship. Yet archaeological inquiry resists understandings limited
+exclusively to recent pasts and pushes us to imagine other unities.
+     So, too, does recent composition theory aimed at exploring the dis-
+cursive self, as sketched in the introduction. Lester Faigley’s prompt to
+explore agency as constructed from multiple subject positions can be
+considered while pondering the many workplace subject positions rep-
+resented in the following chapters in specific organizational contexts.
+Likewise, we can respond to Susan Miller’s suggestion that we seek to
+disclose connections between specific local and textual superstructures
+(and that we highlight how writing situations construct their partici-
+pant writers before, during, and after they undertake a piece of writ-
+ing) by considering the shards of this archaeology and matching them
+with shards from other sites. To aid us all in such explorations of agency
+among institutional structures and practices, the next chapter completes
+part one of this book by sketching a profile of the eighty-four profes-
+sional writers and aspiring professional writers whose research and re-
+searching selves define the terrain of this archaeological undertaking.
+2   WHAT IS A WRITER?
+
+    A few years ago I would not have defined myself as a writer, and
+    today I still don’t use the term “writer” if asked what I do for a
+    living. I usually reply, “I’m in public relations.” Then, if asked
+    what I do on a daily basis, I respond, “I do a lot of writing.”
+    Still, I hesitate to categorize myself as a writer. . . . I think my
+    hesitation comes from my immediate perception of what
+    someone is when she does define herself as a writer. My first
+    thought is that the person must write literature or poetry for a
+    living. The rest of us are journalists, or public relations profes-
+    sionals, or proposal managers, but not writers.
+                                      —Ann, self-assessment as a writer
+
+    How, under what conditions, and in what forms can something
+    like a subject appear in the order of discourse? What place can it
+    occupy in each type of discourse, what functions can it assume,
+    and by obeying what rules? In short, it is a matter of depriving
+    the subject (or its substitute) of its role as originator, and of
+    analyzing the subject as a variable and complex function of
+    discourse.
+                             —Michel Foucault, “What Is an Author?”
+
+
+
+
+                                                                           29
+30    WRITERS IN THEORIES AND PRACTICES
+
+
+
+
+A  s noted in chapter 1, Foucault’s project in “What Is an Author?”
+was to trace ways in which fetishisms of literary authorship worked
+to maintain systems of hierarchy that admitted certain subjects while
+excluding others. In proposing an “author function” as an object of
+study in place of flesh-and-blood authors, he sought to prompt dis-
+cursive inquiry into the ways in which the concept of authorship op-
+erated systemically in cultural constructions of knowledge. As a title,
+historically, the term “author” identified a set of discursive subjects
+distinct from “writer” and marked by cultural features such as publi-
+cation. Discussing figures of the author in seventeenth-century France,
+Roger Chartier observes that “the term ‘author’ presupposed printed
+circulation of works and, in return, recourse to the press distinguished
+the ‘author’ from the ‘writer’” (40).
+     In her essay “writing and Writing,” Sharon Crowley traces ways
+in which current-traditional composition pedagogy has effected simi-
+lar systemic distinctions among subjects:
+     There’s writing, which is the simple ordering and recording of thoughts
+     or information and which can be done as easily by a secretary or a com-
+     mittee or a machine or a technical writer, since its author-ity is not rel-
+     evant to its status as text; and there’s Writing, what Authors (and authors)
+     do. (97)
+
+Crowley uses capitalization to signal levels of exclusivity in sketching
+the ways in which current-traditional epistemology works to maintain
+exclusion, positioning the student writer’s work outside the realm of
+the real: “Each such [writing] effort is expendable, marking, as it does,
+only a stage in a learner’s/writer’s progress toward ‘real’ writing” (94).
+The subject position offered by such epistemology to student writers
+is thus always one that replicates distinctions based on cultural prac-
+tices of publication, which date, as Chartier’s research demonstrates,
+to at least the seventeenth century and an era when the modes of dis-
+cursive production and consumption were radically different from those
+of today. Because writers such as Ann have been disciplined by such
+                                                      WHAT IS A WRITER?   31
+
+
+discursive epistemology, it’s easy to understand their inclination to
+disqualify themselves as writers, even if they spend the majority of their
+active lives writing. Crowley’s ironic equation of secretaries (a cultur-
+ally gendered position), committees, machines, and technical writers
+(her ordering heightens the irony) signals several of the features mark-
+ing professional writing at the end of the twentieth century, which will
+be explored from various angles in this book to characterize the au-
+thorship of professional writers.
+      I have chosen Ann’s comments as an epigraph because they reflect
+a strongly recurrent phenomenon in the researchers’ written and oral
+self-representations as writers all seven years: more often than not,
+these professional writers and aspiring professional writers would not
+claim the title “writer.” Whereas current-traditional epistemology helps
+explain this phenomenon, so does a consideration of other epistemolo-
+gies that have figured in these researchers’ educations. Their ages var-
+ied from mid-twenties to mid-forties, meaning that the English classes
+in which they received composition instruction (at both secondary and
+postsecondary levels) would have been strongly shaped by New Criti-
+cal understandings of texts in force since at least the early 1960s and
+still strong today. Like all theoretical movements, New Criticism has ad-
+vantages and disadvantages, yet with regard to its effects on studying
+writers’ understandings of their own subjectivities established through
+and elaborated within discursive work, the disadvantages weigh heav-
+ily. By eliminating the (published) writer’s intentions and the reader’s
+affect from the domain of “objective” criticism, New Critical thought
+frames discursive products as nearly autonomous objects. That the in-
+stances of an “I” entering discourse via student writing in such a theo-
+retical arena would be dramatically limited goes without saying; and
+it seems quite plausible that a secondary effect would be a systematic,
+subtle suppression of one’s affect as a legitimate and important con-
+cern upon entry into discourse as a writer.
+      Thus professional writers often deny themselves their titles as a
+result of several forces in English disciplining, making them a profes-
+sional class marked by remarkable self-effacement—particularly with
+respect to the other professional classes with which they daily inter-
+act. This self-denial is compounded by strictly formalist understand-
+ings of writing that circulate widely among those other professionals:
+in written self-analyses and in class discussions, the metaphor of a
+“talking handbook” has recurred when professional writers described
+their colleagues’ manifested understandings of their expertise. Given
+32   WRITERS IN THEORIES AND PRACTICES
+
+
+the likelihood that most of these colleagues endured Composition 101
+in a current-traditional model that emphasizes primarily formal char-
+acteristics (which Sharon Crowley characterizes as driven by a “theory
+of graphic display,” Composition 97), this interpretation of profes-
+sional writers’ subjectivity is perfectly understandable. As a professional
+class, then, writers find their discursive subjectivities constructed in dra-
+matically reductive manners from a number of cultural quarters. Part
+of the project in this book is to begin reshaping the terms defining this
+class by taking stock of its own “author functions” and the cultural
+processes related to those functions.
+     As a professional category, “professional writer” is somewhat dif-
+fuse, owing to the varieties of writing that might be performed and the
+wide range of workplaces that serve as sites for writing. (Bureau of
+Labor statistics group writers with “artists, entertainers, and athletes”
+and provide categorical breakdowns only for “authors,” “technical
+writers,” “editors and reporters,” and “public relations specialists”
+[table 11].) Barbara Couture speaks in terms of “career writers,” inti-
+mating occupational longevity and limiting her set to those who write
+on technical and “professional” subjects: “Technical/professional
+writing is that variety of writing in the workplace that is constrained
+by the occupational responsibilities of career writers, a term I shall use
+to refer to those professionals in organizations who write on techni-
+cal/professional subjects for a living” (26).
+     Couture’s definition allows her to contrast professional writing
+with other kinds of writing prevalent in workplaces—in her study, with
+engineering writing and administrative writing. She further contrasts
+professional writing to these two by pointing out that “technical/pro-
+fessional writing has been defined as a rhetorical category by career
+writers’ perspectives on effective communication and by rhetoricians’
+perspectives on the role of the technical/professional writer in organi-
+zational contexts” (26).
+     This positing of technical writing and professional writing as syn-
+onymous is driven not only by Couture’s particular data set but also
+by the evolution of professional writing as a topic of instruction and
+research in academic settings. Sullivan and Porter describe a “curricu-
+lar geography,” in which “professional writing” has traditionally found
+itself in a parallel slot with “technical writing” and “business writing,”
+all three of which are usually positioned in English departments as an
+“adjunct or service” to “English [as] Literature” (see figure 2). Sullivan
+and Porter propose a new geography that establishes professional
+                                                                     WHAT IS A WRITER?    33
+
+
+writing as a major and recognizes it as a research field, forecasting,
+perhaps, directions in curriculum and research to come that can indeed
+begin to characterize professional writing more fully in terms of its local
+and larger cultural functions. Their proposal, grounded in a review of
+curricular history, resonates with observations from the workplace:
+Kathleen Gregory, following the work of Van Maanen and Barley, has
+described “occupational communities” that crosscut organizations in
+Silicon Valley, and as the field of communications coevolves with tech-
+nology, occupational communities of writers are certain to grow. (One
+could argue that the Society for Technical Communication constitutes
+one such community, its membership 23,000 strong.) The interests that
+unite writers as a professional class are developed in part three, draw-
+ing on the profiles and desires as documented in this chapter.
+
+
+ Academic
+     Field
+                               English (as) Literature
+
+  Adjuncts               Creative                                                   Workplace
+and Service   Film       Writing
+
+                  Rhetoric/                                             Business
+                                Linguistics                                         ▼
+                 Composition                                            Writing
+                                                                Technical
+                                                                                    ▼
+                                                                 Writing
+                                                      Professional
+                                                                                    ▼
+                                                        Writing
+
+                                              Journalism                            ▼
+
+
+
+
+Fig. 2. Sullivan and Porter’s Curricular Geography. From Patricia A. Sullivan and
+James E. Porter, “Remapping Curricular Geography: Professional Writing in/and
+English.” Journal of Business and Technical Communication 7 (1993), p. 393,
+copyright © 1993 by Sage Publications, Inc. Reprinted by permission of Sage Pub-
+lications, Inc.
+
+
+
+    Were we to expand Couture’s definition of professional writing to
+begin to embrace the work of professional writers in adequate detail,
+we would probably want to include some reference to the handling of
+digitized information in the form of text and graphics, given the de-
+gree to which professional writers now handle document design and
+Web design. We would certainly emphasize that most often these writ-
+ers work in collaboration with other writers and specialists from other
+34   WRITERS IN THEORIES AND PRACTICES
+
+
+fields, managing the plural authorship of singular texts in the capaci-
+ties of drafter, editor, associate editor, technical writer, and the like. In
+practice, rarely do professional writers live exclusively the subject posi-
+tion of textual originator, thus providing a concrete example of a Fou-
+cauldian tenet aimed at exploring authorship in the cultural plane. Pro-
+fessional writers in practice live subject positions multiply configured
+by organizational and discursive structures, and this archaeology at-
+tempts to map some of them by cataloguing data on eighty-four such
+writers’ backgrounds and workplace experiences.
+     This chapter initiates some cataloguing by drawing upon appen-
+dix B, in which topics in written self-assessments are summarized. In
+the second class meeting of our course each year, researchers submit-
+ted prose analyses of themselves as writers, based on a model for plan-
+ning professional trajectories that was provided by the university’s
+career services office in the first class meeting. Under headings derived
+from topics and commentary in these analyses, I draw some synthe-
+ses. These syntheses are offered to complement readers’ encounters with
+individual researchers as they trace them across various chapters and
+to point out trends and patterns that mark this class of professional.
+Thus some initial profiles of professional writers take form, serving
+as a springboard, hopefully, for all readers desiring to grasp in greater
+complexity what a professional writer might be.
+
+Profiles of Professional Writers
+Appendix A displays the backgrounds of the eighty-four researchers,
+81 percent of whom were women, who took part in this project. As a
+glance reveals, the majority of them had experience primarily with
+organizational publications, most often in the capacity of editor, copy
+editor, or editorial assistant in the publication of annual reports, bro-
+chures, newsletters, magazines, and the like. Other backgrounds fig-
+uring heavily across this set of researchers include technical writing/
+editing and analysis/correspondence. The technical writers and editors
+had worked in contexts from small entrepreneurial businesses to mid-
+size software or engineering firms (in which they found themselves
+working in technical writing teams) to large contracting corporations
+with the government. The analysis and correspondence writers often
+had experience in composing (singly and collectively) reports and let-
+ters for both internal and external audiences, several of them in very
+large corporate settings. Other workplace discursive experiences that
+                                                         WHAT IS A WRITER?   35
+
+
+these researchers brought to this project included public relations/policy
+writing, research writing, journalism, graphic design, and teaching. That
+thirteen of the researchers held experience in this last field owes in part
+to the fact that our MA program offers a track in the teaching of writ-
+ing and literature, and several students from that track had taken Cul-
+tures of Professional Writing as an elective. Yet as discussions through-
+out the book display, I hope, teaching and professional writing overlap
+theoretically and pragmatically in many ways, most of which remain
+untapped in contemporary inquiries into each. Finally, it is notewor-
+thy that only two of these eighty-four researchers had no prior expe-
+rience in professional writing, and only two more had experience solely
+as self-employed freelancers, which means that the large majority of
+researchers represented in this book were already familiar with pro-
+fessional writing in organizational settings.
+     As a set, these writers’ experiences also reflect George Mason Uni-
+versity’s geographic location. Just fifteen miles from Washington, D.C.,
+the university offers the only MA program in professional writing and
+editing in the area. Thus many people who have gained professional
+writing experience in the governmental, para-governmental, and lob-
+bying organizations that abound come to the program in Professional
+Writing and Editing to update knowledge and skills to enhance their
+current organizational status or to move to a better job. Many, too,
+work in the burgeoning beltway private sector producing publications
+for private and public audiences alike. The analyses of themselves as
+writers used for the following profiles touched upon literally hundreds
+of aspects of writing, and finding appropriate categories for classify-
+ing shards from these analyses has been no easy task. Indeed, in archae-
+ological work, classification is a much more complex task than it might
+seem, as Ken Dark explains:
+
+    Take, for example, a piece of pottery: is it the dimensions (or some of
+    them), or the fabric . . . which we consider worthy of classification? Do
+    we consider the surface treatment of the inside or the outside of the pot?
+    How much variation is significant? Do we assign importance to the weight
+    of the pottery sherd, where it was found, its colours, its possible func-
+    tion, or the way it has broken? The choice between these options is not
+    obvious. . . . (78)
+
+The parallels between traditional archaeological fieldwork and discur-
+sive archaeology in the realm of professional writing are compelling:
+among the many “shards” turned up through research on and by pro-
+36   WRITERS IN THEORIES AND PRACTICES
+
+
+fessional writers, which categories prove the most fruitful in yielding
+knowledge on writers and their subjectivities as a professional class?
+In this chapter and the chapters to follow, I have derived categories
+with an eye to specific users of this book, whom I envision to be prac-
+ticing writers, workplace managers, academics teaching and conduct-
+ing research in professional writing, and other scholars interested in
+the domain of professional writing as it might inform theory and teach-
+ing in discourse studies. The categories for mounting an initial profile
+that address all of these users and which emerge convincingly from the
+commentaries on writing backgrounds by the researchers in this project
+are the following: Learning to Write, Conceptualizing the Self in Writ-
+ing, and Professional Writing Experiences.
+
+Learning to Write
+
+Current-traditional composition epistemology and New Critical liter-
+ary theory as sketched theoretically above have joined other forces to
+shape these writers’ discursive understandings and experiences as they
+report them. Students admitted to the MA program in Professional
+Writing and Editing in which this research took place possess under-
+graduate degrees in English, for the most part. This bias is due largely
+to admission procedures that screen applicants with an eye to the grad-
+uate courses in literature that must be taken as part of the degree; stu-
+dents with no backgrounds in literature, it is feared, will have a diffi-
+cult time performing in these courses and so few are admitted. Thus
+as a “data set” the self-assessments as writers reflect a strong literary
+disciplining which, when effected through curricular forms common
+to most undergraduate departments of English, in turn reflects a con-
+struction of instrumental writing as peripheral, less complex than writ-
+ing in the belletristic tradition, as noted in Sullivan and Porter’s dis-
+cussion of curricular geography. Yet a glance at appendix B reveals that
+constructions of writing as an essentially individual endeavor, prizing
+fiction and poetry as more interesting or more venerated, begin before
+undergraduate work or even scholastic experience. Such views of writ-
+ing derive no doubt from the many and varied cultural representations
+of writing that begin in early childhood, to be reinforced through
+schooling practices. As mentioned in chapter 1, Foucault’s frequent
+allusions to “discursive formations” prove provocative in this sense,
+in that “formations” can designate both the networked practices pro-
+duced by specific institutional sites of discourse and the schooling of
+                                                      WHAT IS A WRITER?   37
+
+
+any writer operating among various discursive formations. The double
+entendre provokes the simultaneous consideration of cultural construc-
+tions of writing and individual articulations to these constructions that
+no postmodern understandings of discursive work can do without. The
+syntheses that follow are offered to prompt such consideration.
+     Writing “talent” often manifests early in life. Nancy dated her
+writing debut to age six, and Nyck “dreamed of writing since fourth
+grade.” Many other researchers cited similar early signs (Alice, Brenda,
+Daisy, Gary, George, Grace, Gwen, Itsy, Janice, Megan, Tom). Stories
+of childhood story writing are so prevalent, in fact, that people who
+were attracted to writing after childhood may even refer to themselves
+as “late bloomers” (Norma). And even as researchers noted influences
+from the immediate environment (Red noted that his mother was a
+painter), the sense of a calling lent by such constructions of writing
+led one to claim a “natural affinity for language” (Hart), and another
+to fear, albeit tongue-in-cheek, that “the writing gene had passed me
+by” (Jan).
+     Initial forays into writing are often in the realm of fiction. Nancy’s
+oeuvre at age six was a novel (The Big Dog), Brenda penned a “mys-
+tery novel,” Megan a “creative writing book” in fifth grade. Janice
+wrote of “sitting on the floor around my father’s desk, pretending to
+write stories while he worked on his column.” Clearly, the storytelling
+impulse is strongly culturally bound with writing.
+     Writing skills develop over time. Emma noted shifts over time from
+“notecards and outlines” to “writer-based” writing, to “audience-
+based,” mirroring some shifts in composition theory and pedagogy in
+the last two decades. Cass pinpointed key moments in development
+throughout her life, and Mandy traced her learning even into the
+present. Gwen cited learning on the job, Kyle still intends to “practice
+to perfection,” Heather is “just starting out as a writer,” and Anita
+considers herself a “writer-in-progress.”
+     Schooling in writing included rewards, nurturing, exposure to
+varieties of genres. Megan won her fifth grade creative writing con-
+test, and has her name “engraved on a plaque that I assume still hangs
+over the doorway of a bright yellow classroom at James Buchanan Ele-
+mentary School.” George remembered winning a high school essay
+contest, and Bernie’s high school experience offered him writing as an
+“expressive outlet.” Cass “excelled in research papers in high school,”
+and Albert developed in high school AP English, later to be encour-
+aged by a college English professor. Kirsten noted college instruction
+38   WRITERS IN THEORIES AND PRACTICES
+
+
+by a professional magazine writer. Many researchers cited forays into
+poetry, journal writing, humor writing, and letter writing alongside
+other academic writing (Alice, Brenda, Grace, Gwen, Helen, Karla,
+Kyle, May, Phoebe, Starla).
+     Learning writing is often autodidactic. Even as these researchers
+acknowledged the many school influences in their writing, they also
+occasionally raised the issue of autodidacticism when learning to write.
+Rachel noted early employment and teaching herself to write in dif-
+ferent styles, and numerous researchers mentioned struggling alone
+with finding the right words. Comments such as these surely derive
+not only from the primary construction of writing in our culture as
+essentially individual but also from the commonplace that good writ-
+ing can’t be taught—only learned. In some cases (Gwen, Tess, Maggie),
+it derives as well from the reality of having to learn constantly to per-
+form duties as professional writers and editors—a topic to be rejoined
+below and in later chapters.
+     Undeniably, we begin learning to write from the earliest ventures
+into discourse, even before learning forms of any kind—even before
+learning, one might argue, the very rudiments of inscription, so strong
+is the promise of discursive engagement. As one learns to write in U.S.
+culture, we glean from the syntheses above, not only does the sway of
+narrative loom powerful but also schooling practices emphasize, struc-
+ture, and reward only individual achievement in discursive work. Thus
+both broad cultural forces and schooling emphasize individual talent
+in the singular authorship mode of fiction, reinforcing an understand-
+ing of the writer as independent and solitary in production, an under-
+standing deconstructed by Linda Brodkey in “Modernism and the
+Scene(s) of Writing.” In professional writing perhaps more so than any
+other form, such an understanding of writing is not only theoretically
+counterproductive but pragmatically impossible: professional writers
+write in contexts, and recent theory and research aimed at classroom
+practice (Lunsford and Ede, Singular Texts/Plural Authors; Forman;
+Lay and Karis; Reagan et al.; Selber et al.; Dias et al.) underscore the
+need for teachers to offer students new scenes for conceptualizing their
+writing selves. As we ponder the profiles of professional writing and
+workplace authorship in its cultural dimensions, it behooves us to
+consider how these childhood experiences fundamentally shape one’s
+understanding of discursive selves—and to consider those early discur-
+sive experiences that later become lost or transformed.
+                                                      WHAT IS A WRITER?   39
+
+
+Conceptualizing the Self in Writing
+
+Early learning, schooling, and the discursive experiences that ensue pro-
+duce an array of conceptualizations of the self in writing and as a writer,
+as suggested by the self-assessment topics in appendix B. Syntheses
+across them highlight some of these conceptualizations.
+     The writer at times becomes a medium. Closely related to the theme
+of autodidacticism is the narrative of writer as medium. Leigh wrote
+of a story “flowing out of me naturally,” Alice noted that “interest
+allows immersion” in a topic, and Lois likens the writer to a “reverse
+prism,” speaking of “stories demanding to be told.”
+     Writing is often equated with literary authorship or publication
+under one’s name. Branden “equated writing with Shakespeare” early
+in her life, and Mandy is “not a writer yet” because she is unpublished.
+Hart constructed her idealized writerly self as an amalgamation of three
+renowned writers in fiction and nonfiction. These researchers’ thoughts
+echo those of Ann cited in the chapter’s epigraph, a strong cultural
+commonplace in the United States.
+     Writing is an encounter with the world. Writing may constitute an
+exploration of this world (Jillian), permitting the writer to learn about
+it (Gloria, Gwen, Holly, Lisa, Tess) and to enjoy it (Brenda, Daisy,
+Sarah, Tess). Close observation and analysis may be a part of this en-
+counter (Janice), as may be interviewing other people (Adam, Jackie,
+Kirsten, Maggie). It may be perceived as both an art (Chet, Red, Rex)
+and a science—as in problem solving or puzzle solving (Brenda,
+Corinne, Ellie, Joe).
+     Writing is protean in terms of difficulty and engagement. Writing
+is hard work at times (Emma, Hart, Norma), easy at others (Lee), hum-
+drum at still others (Brenda). It requires discipline (Gary, Sue) and prac-
+tice (Adam, Kyle), and one must be “methodical and precise” (Gary).
+     Writing exposes oneself. Inevitably exposing one’s self to assess-
+ment by and response from others (Brenda, Daisy, Sue, Tom), endur-
+ing their scrutiny (Ann) and editing (Starla), writing requires coming
+to terms with vulnerability (Tom).
+     Writing is linked to feelings. Writing can serve as a refuge (Hart)
+and can be employed to examine feelings (Lee), invariably eliciting
+them: writing is playful (Lee), painful (Kelly, Tess), fun (Anita, Kirsten,
+Kyle), therapeutic (Janice, Nyck, Phoebe, Red, Sue), even cathartic
+(Leigh).
+40   WRITERS IN THEORIES AND PRACTICES
+
+
+     Writing represents a livelihood. Even though only Joanne, Rachel,
+and Ravi developed this topic in their self-assessments, the topic sur-
+faced frequently in class discussions.
+     Writing elicits emotional reactions. It provides satisfaction (Ann,
+Daisy, Karla), a sense of purpose, responsibility and pride (Ann, Gin-
+ger, Gloria) or of “occupational pleasure” (George), involving creativity
+(Ann, Liz)—even passion (Chet)—and at times engendering frustra-
+tion (Ann) or stress (Norma). Writing can render one “prone to ago-
+nizing” (Adam, Adria) or moody (Sue), making it difficult, to “convey
+emotion” (Corinne); or, alternatively, one can attain “an emotional high
+from crafting words” (Elaine) or maybe even a “thrill” (Mack).
+     Writing is at times highly “personal” (as opposed to public/pro-
+fessional). Many researchers deemed it pertinent to represent their
+writerly selves as at least bivalent between the personal and the profes-
+sional, including in the former category writing such as personal cor-
+respondence, journal entries, and poetry addressed to friends. Jen cited
+the former as the “most clear” and Ann actually included “proposals
+for nonprofits” among the personal, since they afford her satisfaction
+through volunteering. Jeff idealized his writerly self as a “male Erma
+Bombeck,” and Ray fictionalized his future self as “writing indepen-
+dently on the beach in Honolulu, Hawaii.” Ray’s comment serves to
+pinpoint the element of escapism that imbues many of these research-
+ers’ comments on their writerly selves (and that reflects a common cul-
+tural experience of readerly experiences of authorship), and at the same
+time limns a leitmotif among professional writers: for many, their ul-
+timate aim is to write a novel and publish it.
+     This last opposition of categories, the personal and the profes-
+sional, is significant in a variety of ways. It is strongly recurrent. Among
+those students who did not employ it in their written self-assessments,
+the professional/personal binary almost inevitably surfaced in class dis-
+cussions at some point during the course. In part yet another facet of
+the narrative of individual talent so frequent in these researcher’s com-
+ments on early discursive experience, this opposition of categories also
+underscores the degree to which writing—as engagement with language
+and discourse—is so often integral to knowledge that one builds in
+several discursive domains simultaneously. Yet as later depictions of
+workplace writing experiences will show, writers are frequently posi-
+tioned both organizationally and conceptually in ways that dramati-
+cally limit the kinds of knowledge they might pursue, thus leaving much
+of the potential of workplace discursive work untapped. As noted in
+                                                      WHAT IS A WRITER?   41
+
+
+the introduction, organizational researcher Shoshana Zuboff claims
+that in informated workplaces, learning is the new form of labor. Janet
+Emig’s demonstration that writing constitutes a unique mode of learn-
+ing, when teamed with studies of writing in its heuristic dimensions
+(e.g., Young et al.), underscores the degree to which the early-twenti-
+eth-century shift in both the academy and the workplace toward un-
+due focus on production at the expense of inquiry has undermined
+writing labor’s potential. Yet the following section reveals aspects of
+discursive formations that, even as they are heavily configured by pro-
+duction rationales, nonetheless hold potential for rectifying this philo-
+sophical wrong turn.
+
+Professional Writing Experiences
+
+That so many professional writers summoned distinctions between
+professional and personal writing stems without doubt from many
+influences, yet the earlier depictions of learning to write make it clear
+that broad and deep discursive formations support a primary identifi-
+cation with writing as singular activity. As the syntheses below dem-
+onstrate, the workplace almost inevitably presents formations that
+frame writing as just the opposite—as collective work requiring skills
+and knowledge in extratextual domains.
+     Bringing rhetorical skills and knowledge to other people’s texts.
+Professional writers edit others’ work (Andrew, Chet, Corinne, Diane,
+Ella, Ginger, Grace, Holly, Jackie, Jeff, Kyle, Leigh, Maggie, Mary,
+Phoebe, Ravi) and find solutions to problems in the writing of others
+(Jillian), at times conceiving of their own work as “translating” the
+thoughts of others (Brenda) or even as a “soupmaker” (Anita).
+     Managing projects from beginning to finish; multitasking; meet-
+ing deadlines. Writers manage documents (Cass, Jeff) and give them
+order (Sarah), effecting results (Diane), putting together “creative prod-
+ucts or volumes” (Jackie), and overseeing projects from start to finish
+(Brenda). They handle a variety of tasks and projects simultaneously
+(Gloria, Helen, Kelly, Phoebe, Sarah, Tess), at times in large volume
+(Kelly), and use many skills in doing so (Gwen, Leathe, Phoebe), all
+the while meeting deadlines (Brenda, Daisy, Holly, Jeff, Mack, Nyck).
+     Exercising various skills to complete writing projects. They must
+be thorough (Gwen) and often must develop and exercise research skills
+(Brenda, Cass, Gloria, Gwen, Kirsten) and interviewing skills, draw-
+ing particularly on skills endemic to journalism (Adam, Brenda, Caro-
+42   WRITERS IN THEORIES AND PRACTICES
+
+
+lyn, Daisy, Jackie, Kelly, Maggie, Marla, May, Nidean). They collabo-
+rate (Carolyn, Corinne, Ginger, Joanne). They may have to learn new
+skills on their own as they go (Maggie). In recent years, writers have
+developed skills at integrating images and text (Adria, Ella, Jane,
+Joanne, Mary).
+     Exercising diplomacy. As they negotiate with content specialists,
+they at times take the position of a “diplomat” (Joe); such a position
+requires exhibiting patience and understanding (Gwen).
+     Gleaning and achieving utilitarian ends through writing. Depend-
+ing upon the local culture, writers might gain some organizational au-
+tonomy through self-motivation and discipline (Gloria), and they might
+use writing to innovate and experiment (Gloria). They may “generate
+enthusiasm and public interest in an organization” (Kirsten), or they
+may even see themselves as “in charge of the public image” (Albert).
+     Teaching. Mack wrote that he enjoyed “telling stories to teach and
+delight,” signaling the didactic element that often figures in professional
+writing. Lee, a full-time teacher and writing center director, tapped her
+perspective to enumerate a number of functions that writing serves:
+to learn, to explain, to aid reading, to provide information, and to ex-
+plore. Her comments reflect some of the insights to be taken by pro-
+fessional writing theory and practice from composition, and Kelly cites
+teaching composition explicitly as a part of her formative experience
+leading to professional writing. That several of the researchers in this
+book held backgrounds in teaching owes in part to the fact that they
+were completing degrees in the teaching of writing and literature. Yet
+just as the researchers cited above illustrate conceptual movements
+from composition to workplace writing, so do other researchers fore-
+cast movements in the opposite direction: Bernie, Cass, Daisy, Ella, and
+Lisa, all currently professional writers, hope one day to teach. New
+unities that might be composed from shards from these two fields are
+explored in part three.
+     Changing careers. As writers seek to become teachers and teach-
+ers seek to become writers, several of the other researchers in this vol-
+ume aim to change careers. Andrew and Lois enrolled in the MA pro-
+gram to resituate writing as they resituated their careers. Jackie, though
+certain she’d remain in “communications,” would like to explore dif-
+ferent “arenas,” such as “technical writing, publishing, teaching, and
+advertising copywriting”; Sarah was considering embarking on a
+freelance career. Tess wrote of “finding her professional culture” in
+which she could best exercise her writing. Though it is to be expected
+                                                      WHAT IS A WRITER?   43
+
+
+that participants in any degree program often envision a new career,
+in this case the large percentage proves telling of the profession: post-
+Fordist “flexibility” in labor expends those workers whose skills are
+apparently the least difficult to replace. (Ana’s abstract is illustrative
+in this respect.)
+
+What Will Writers Be?
+In the introduction I briefly traced the sea change in theoretical move-
+ments and practices addressing “subjectivity” within the academy over
+the last three decades of the century. This change was paralleled by
+technological changes that reshaped the very conceptualization of
+writing—from activities associated mostly with printed text and its
+distribution to those associated with “volatile and interactive electronic
+text[s]” (Lanham 11). As recently as 1993, when Challie undertook
+her analysis of e-mail as an index of organizational climate, “writing”
+was still seen in our culture largely as the final printed matter that
+computers helped produce. Thus this archaeology reflects a particu-
+larly transitional period in U.S. cultural understandings of what writ-
+ing is and what a writer does.
+     Given this shift, if we review the profiles of writers as represented
+in this chapter and imagine their counterparts of the future, we will
+no doubt see dramatic differences in their “formations” as writers.
+From earliest ages, their forays into writing will be computer-mediated,
+marked not only by the conceptual tools and pragmatic support that
+computers offer but also by the networking among writers (and read-
+ers) and the intertextuality that computers render complex and tanta-
+lizing. The cultural power of narrative that captures would-be writers
+will be funneled through new channels in addition to those of yore,
+and the learning of writing will be enhanced exponentially by extra-
+curricular forces and presences. (Scholastic preparation will differ dra-
+matically, too, if the forecasts of researchers in Garay and Bernhardt’s
+Expanding Literacies are even remotely on target.)
+     The self as conceptualized in writing and as shaped through dis-
+cursive forces will be subject to digitized influences. Intimate feelings,
+noted by researchers in this archaeology as often formed and reformed
+through entries into discourse, will in the future be shaped through
+discursive entry that can interconnect with other selves and other feel-
+ings instantly and across continents. The emotional reactions bound
+up in writing and the exposure that one senses through writing will
+44    WRITERS IN THEORIES AND PRACTICES
+
+
+be shaped and sensed quite differently. The notions of “private” writ-
+ing and “public/professional” writing will most certainly change, and
+though digitized information and its flows will channel most of these
+changes, discourse will remain at the core of what is happening, re-
+gardless of the channels.
+    The collective work that researchers in this volume describe as the
+sine qua non of professional writing will undoubtedly develop in many,
+many ways. Here the sea change in national economic reorientation
+from high-volume to high-value still awaits widespread workplace re-
+organization. (Sarmiento, quoted in Hull, claims that 95 percent of U.S.
+companies still organize the workplace along Taylorist principles [14],
+and his claim is echoed by the findings of researchers in this archaeol-
+ogy.) The continuation of Taylorism in workplace cultures undercuts
+the organization’s potential on a number of fronts, as noted by Johndan
+Johnson-Eilola:
+
+     Taylorism, however, always falls short of its goal of completely specify-
+     ing and optimizing activities. Unlike easily reproducible mechanical parts
+     of identical properties, people bring with them a broad range of abili-
+     ties, attitudes, behaviors, and social relationships that resist integration
+     into the machine. (Nostalgic Angels 228)
+
+     Johnson-Eilola’s metaphor of the machine was chosen not only to
+characterize workplace structures but also to remind us that the com-
+puter’s current and future omnipresence in those structures requires
+compositionists and their allies finally to investigate and teach writ-
+ing with heightened reflexivity as concerns subjectivities produced
+through machine-mediated composition.
+     To help professional writers resist integration into the machine—
+or rather, to reconfigure the status and purview of professional writ-
+ers in organizations which will be compelled to change structures (and
+hence metaphors)—we can take steps, theoretically and pragmatically,
+to support the professional “class-in-formation,” as John Frow would
+term it, of writers. Frow’s term will be developed in chapter 5; I use it
+here to stress that because professional writers daily enact—and in-
+deed, embody—composition tenets in organizational sites, it behooves
+compositionists in particular to inspect the process of formation of this
+class more closely. By 2006, according to the Bureau of Labor, 347,000
+people will be employed as professional writers (table 2), and between
+51 percent and 66 percent of them will be women, depending upon
+the category of professional writer (table 11). These people will repre-
+                                                     WHAT IS A WRITER?   45
+
+
+sent composition tenets as we elaborate them and as we define them as
+inextricably related to social movements such as feminism and others.
+     As part of their self-assessments summarized in appendix B and
+frequently in class discussions, researchers in this volume mentioned
+skills and goals in the domain of the social. Gwen’s comment that she
+“seeks a contribution to society” is illustrative. Yet currently these
+writers’ possibilities for realizing this goal through professional writ-
+ing proves limited, in part because reigning epistemologies of compo-
+sition have colluded with Taylorized organizational structures to deny
+professional writers a say in the social ends of organizational author-
+ship. I use the term “authorship” both to return to Foucault’s ques-
+tions about the legitimization of particular subjects’ purviews within
+various institutionalized discourses and to recall the ways in which the
+“author function” has systematically established realms of discursive
+exclusivity, placing professional writing at the lower reaches of these
+realms. I recall, too, the narratological framework from the previous
+chapter that reminds us that every text carries an implied author re-
+sponsible for the cultural norms and values undergirding it, another
+realm of authorship to which professional writers contribute yet from
+which they are usually excluded at the level of executive decisions.
+     Andrea Lunsford adds another important issue as we ponder the
+notion of “authorship” and the ways in which it has shaped our un-
+derstandings of writers. She traces ways in which the theoretical cri-
+tique of the sovereign author which opened the doors for imagining
+new modes of composing has been dramatically countered in the digi-
+tal age by the appropriation of “authorship” (and the rights to own-
+ership) by the corporate world (“Rhetoric”). In the interest of control-
+ling (and selling) access to information and knowledge under the aegis
+of “intellectual property,” corporate legal teams answer the question
+“What Is an Author?” with a resounding “us.” Because composition
+tenets and practices during the twentieth century paved the way for
+sundering writing from writers and their desires, values, and goals, the
+fruits of such authorship customarily belong to those at the top of
+Taylorized hierarchies or to those for whom they serve as agents. So
+does the power to decide about writing’s effects in local cultures and
+our larger culture.
+     Lunsford argues for advancing rhetorical theory and practice that
+promotes “alternative forms of agency and ways of owning that would
+shift the focus from owning to owning up; from rights and entitlements
+to responsibilities (the ability to respond) and answerability; from a
+46   WRITERS IN THEORIES AND PRACTICES
+
+
+sense of self as radically individual to the self always in relation” (535).
+To enact such rhetorical theory and practice, she continues, “Scholars
+of rhetoric and composition need to identify, theorize, and begin sys-
+tematically practicing and teaching alternative forms of subjectivity and
+alternative modes of ownership” (541). Using shards from archae-
+ologies such as this, we can begin constructing theories that will not
+only restore writers’ rightful places in alternative modes of ownership
+but also investigate subjectivity based on empirical findings in work-
+place cultures. Part two provides lengthy documentation to such ends.
+PART TWO
+
+Research on Discursive Work in
+Organizational Settings (Uncovering Shards)
+3   IN FIELDWORKPLACES: RESEARCHERS’
+    SITES OF STUDY
+
+    The foremost prospects and possibilities of auto-ethnography in
+    anthropology at this time lie in the following: (1) the substantive
+    and heuristic values of its diverse concepts and theories; (2) the
+    ethical and moral issues it per

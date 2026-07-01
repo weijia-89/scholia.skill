@@ -1,0 +1,680 @@
+simon_aliferis_healthcare_2024_ch12_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 12
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch12_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch12_ingest.md)
+========================================================================
+
+# Chapter ingest — Simon & Aliferis (2024) · Selective Ch.12 (Book Ch.18: Final Synthesis)
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch12_ingest.md |
+| text_lines_read | 45013–45490 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Aliferis, Constantin; Simon, Gyorgy |
+| edition | 1st (Springer Health Informatics, 2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| DOI | https://doi.org/10.1007/978-3-031-39355-6 |
+| chapter_number | 12 (selective) / 18 (book) |
+| chapter_title | Synthesis of Recommendations, Open Problems and the Study of Best Practices |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Book chapter 18 (titled "Final Synthesis of Recommendations" in front matter) is the **volume capstone**: consolidates all prior pitfalls and best practices into a unified framework linking background knowledge (methods, cognitive biases, case studies) → pitfall identification → BP codification → seven dimensions of AI/ML trust and adoption. Introduces **macro/meso/micro** guidance levels, **maturity** (mature vs evolving) and **impact** (high vs medium) classifications with Appendix 3 master checklist examples. Surveys **open problems**: context-dependent BP adaptation, automation of manual safeguards, sufficiency-vs-necessity surprises, code tampering in open science, transparency vs locked black-box tradeoffs, culture-building for responsible AI, over-engineering/over-regulation balance, systematic BP evolution, regulatory bypass via "exploratory" labeling, hype-cycle misalignment, phased feasibility→mission-critical R&D, and plural acceptable BP sets sharing a necessary core. Concludes that immutable biomedical data-science desiderata provide a durable foundation for the subfield of health-AI best-practices research.
+
+Distinct from selective ch.11 (Reporting Standards): this chapter contains ≥30 words of unique synthesis body (confirmed split per worker contract).
+
+Out of scope: Appendix 3 full checklist tables (48108+, referenced not ingested); appendices A–B; index.
+
+---
+
+## Key findings
+
+All claims **[verified from text]** from lines 45013–45490 unless tagged `[inferred]`.
+
+1. **Unified framework (Fig. 1)** (lines 45051–45065). Grey background: methods properties, human cognitive biases, case studies. Blue: pitfall/BP codification across method development, data design, model selection, error estimation, overfitting management, deployment risk, regulatory/ELSI. Green: seven trust/adoption dimensions enabled when BPs followed.
+
+2. **Three guidance levels** (lines 45074–45088). **Macro:** high-level problem-to-AI mapping, broad objectives. **Meso:** intermediate conceptual/implementation elements. **Micro:** significant lower-level implementation details. Reader infers level from chapter context.
+
+3. **Maturity and impact taxonomy** (lines 45090–45120). **Mature:** immutable/perennial recommendations. **Evolving:** work-in-progress, likely to change. **High impact:** must address or document explicit exception rationale. **Medium impact:** ideally addressed; milder pitfalls or deferrable items if resource-constrained. Appendix 3 collects all BPs with maturity/impact tags (e.g., BP 10.1 overfitting prevention = MATURE/HIGH; BP 10.5.7 dense time series = EVOLVING/MEDIUM).
+
+4. **Context adaptation** (lines 45143–45162). BPs stated for default contexts; project teams must justify deviations from high-impact items or add stricter safeguards when defaults are too lax (genomics overfitting example). Expertise reduces rigid rule dependence ("rules are for the obedience of fools and the guidance of wise men").
+
+5. **Automation of safeguards** (lines 45164–45174). Newer algorithms embed overfitting protection, regularization, protocol stacks—reducing manual BP enforcement over time.
+
+6. **Sufficiency vs necessity surprises** (lines 45176–45198). Methods work outside stated assumptions (linear models on nonlinear data; tractable causal discovery despite worst-case hardness; simple univariate strategies beating complex methods in small samples). Data scientists need plural techniques without wishful thinking.
+
+7. **Code tampering and transparency tradeoffs** (lines 45200–45229). Open science enables uncontrolled algorithm modification degrading validated properties—version identifiers with benchmark associations proposed. Transparency aids validation but enables abuse; locked black-box may be desirable when validated; superior black-box performance may be unethical to ignore.
+
+8. **Culture and governance balance** (lines 45231–45246). Responsible-AI culture needed in education, ethics training, community/government/industry engagement. Over-prescriptive bureaucratic BP enforcement stifles innovation; safety-performance balance must weigh opportunity costs of delayed deployment.
+
+9. **Systematic BP evolution** (lines 45248–45271). BPs will evolve with science and use cases—informed by prior generations without reinventing wheel. Immutable objectives: precise model goals, reliable performance estimators, data design aligned to objectives, bias-variance tradeoffs, causal vs associational distinction, safe operating boundaries, ethical/unbiased operation.
+
+10. **Regulatory and economic open problems** (lines 45273–45304). **Exploratory-intent bypass:** disguising decision models as advisory undermines regulation and design-stage safety requirements. **Hype misalignment:** historical AI winters from over-promising; careful R&D with BPs can navigate hype cycle. **Phased R&D:** feasibility→iterative mission-critical development economically realistic but optimal health-AI phasing mechanisms remain open.
+
+11. **Plural BP sets** (lines 45306–45319). Shared **necessary core** (statistics, data science laws) plus **sufficient alternatives** with equal outcomes; field-specialized BPs with varying restrictiveness expected as research topic.
+
+12. **Conclusion** (lines 45321–45327). Authors hope guidances focused on persistent biomedical data-science desiderata support growing success of biomedical AI/ML and establish best-practices study as a worthwhile subfield.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain macro/meso/micro BP levels with examples from prior chapters.
+2. Classify a BP by maturity and impact using Appendix 3 criteria.
+3. Articulate when context justifies deviating from a high-impact BP.
+4. Evaluate transparency vs locked-model tradeoffs for a clinical deployment.
+5. Identify open problems requiring future health-AI BP research.
+
+### worked_examples_present
+
+**Y** — Framework diagram (Fig. 1); Appendix 3 indicative BP table rows; classroom synthesis exercises (lines 45381–45466).
+
+### exercise_hooks
+
+1. Choose 3 BPs likely vs unlikely to change (exercises 1–2).
+2. Debate whether BP-enforcing systems should allow user opt-out (exercise 4).
+3. Resolve conflicting BP guidance for a use case (exercise 12).
+
+---
+
+## Coverage attestation
+
+| Field | Value |
+|-------|-------|
+| source_path | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| lines_read | 45013–45490 (inclusive) |
+| section_boundary | Starts `Synthesis of Recommendations, Open Problems and the Study of BPs`; ends before `Appendix A: Models for Time-to-Event Outcomes` (45491) |
+| wrong_file_flag | false |
+| deferred | Appendix 3 full BP tables (48108+); appendices A–C; index (49704–52845) |
+| book_chapter_map | Selective ch.12 = book ch.18 ("Final Synthesis of Recommendations" in TOC) |
+| ch12_creation_rationale | Distinct synthesis body ≥30 words separate from ch.11 reporting content; split applied |
+
+---
+
+## Operator hooks
+
+**w3_clinical_docs synthesis capstone.** Use maturity/impact tags to prioritize study-guide cards and deployment checklists. Pair selective ch.01–09 ingests for chapter-level detail; this file is the **routing index** for BP taxonomy. **MDCalc `[relevant]`:** high-impact mature BPs map to pre-deploy gates; open problems (exploratory bypass, hype misalignment) inform governance reviews—not production policy.
+
+### Redundancy
+
+| Canon | Overlap | Distinction |
+|-------|---------|-------------|
+| Selective ch.01–09 | Individual chapter BPs | ch.12 = consolidated framework only |
+| Selective ch.11 | Reporting/documentation | ch.12 = meta-synthesis and open problems |
+| recovery / form-check skills | BP checklists | Simon = domain-specific health AI taxonomy |
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Synthesizes entire volume with explicit taxonomy; open problems stated falsifiably; forward to Appendix 3; does not smooth contested tradeoffs (black-box ethics, regulatory bypass).
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Selective ch.01–11 | Source chapter BPs referenced in synthesis |
+| Appendix 3 (deferred) | Full BP checklist with maturity/impact |
+| Book ch.7 | Hype cycle, historical failures |
+| NAM w3-closeout | Corpus-level SYNTHESIS merge target |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| Macro-level guidance | High-level problem formulation and principles |
+| Meso-level guidance | Intermediate design and implementation concepts |
+| Micro-level guidance | Granular technical implementation details |
+| Mature BP | Perennial, unlikely to change recommendation |
+| High-impact BP | Must address or document exception |
+| Necessary core | BPs required by statistics/data-science fundamentals |
+
+---
+
+*Ingest agent: simon-ingest-ch10-12 · selective ch12 · lines 45013–45490 · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch12_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch12_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 12
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Synthesis of Recommendations, Open Problems and the Study of BPs
+
+Constantin Aliferis¹   and Gyorgy Simon¹
+
+(1)
+
+Institute for Health Informatics, University of Minnesota, Minneapolis,
+MN, USA
+
+ 
+
+ 
+
+Constantin Aliferis
+
+Email: constantinaibestpractices@gmail.com
+
+Abstract
+
+This chapter assembles a list of all best practices (BPs), and pitfalls,
+discussed in the previous chapters. These are codified in a single
+hierarchical structure and assistive checklists intended to make them
+operationally useful. We differentiate between macro-, meso- and
+micro-levels of pitfalls and corresponding best practices-roughly
+corresponding to high-level principles, concrete differentiations of the
+above and granular/detailed tools and techniques for implementation. The
+recommended BPs are cross-referenced across the volume and key
+corresponding literature and other sources. Several open problems remain
+and the evolution of BPs for biomedical AI/ML is certain to become in
+the years to come a field of inquiry with explosive growth and value.
+
+Keywords
+
+Macro-, Meso-, Micro-level guidelines and best practicesMaturity level
+of guidelines and best practicesImpact level of guidelines and best
+practicesContinuous evolution of guidelines and best practicesOpen
+problems in best practices of health AI/ML
+
+Bringing Best Practices Together
+
+With all components of understanding pitfalls and codifying
+corresponding best practices in place, we can now attempt a synthesis of
+all the material in this volume in a unified framework represented in
+Fig. 1. As can be seen, background knowledge on methods’ properties,
+human cognitive biases, and cases studies (left, grey background)
+informs the identification of pitfalls and the codification of
+corresponding best practices (blue background, middle). These address
+method development, model development, and components such as data
+design and encoding, model selection, error estimation, over fitting and
+under fitting avoidance, managing risk of model use are deployment and
+addressing regulatory and ELSI requirements. Taken together and when
+properly followed, these can enable the 7 dimensions of AI/ML trust,
+adoption and acceptance (on the right, green color).
+
+[]
+
+A block flow diagram represents the backgrounds of A I M L properties,
+human cognitive biases, and informative case studies that are mapped to
+pitfalls and best practices for robust method development. It exhibits a
+list of 7 trust and acceptance factors.
+
+The many pitfalls and best practices we presented throughout the present
+volume can be thought as belonging to 3 levels which are obvious to the
+reader by the context of their presentation and discussion:
+
+- Macro Level Guidance: corresponds to correct specification of
+  high-level design, in which a problem is mapped to AI and ML modeling,
+  broad objectives, high level principles.
+
+- Micro Level Guidance: corresponds to lower-level (but still
+  significant) implementation details.
+
+- Meso Level Guidance: corresponds to conceptual and implementation
+  elements in-between the high (macro) and low (micro) levels. It
+  encompasses neither too broad (and abstract), nor too narrow (and
+  minute) details.
+
+Moreover it is important to appreciate that some of the pitfalls and
+best practices are more immutable and unlikely to change than others as
+the field of AI/ML progresses. It is useful to appreciate the
+differences in maturity levels across pitfalls and guidelines presented
+in this book and the literature.
+
+Maturity level:
+
+- A mature designation denotes immutable, perennial or otherwise robust
+  recommendation.
+
+- An evolving designation denotes a recommendation that is
+  work-in-progress, evolving or otherwise subject to
+  likely modifications in the future.
+
+Finally, not all guidance has the same gravity. Some best practices are
+critical and should be always adhered to according to their impact
+level:
+
+- High Impact: corresponds to an action that must be addressed,
+  otherwise serious pitfalls may follow with significant probability. If
+  not addressed, because of special circumstances of a particular
+  problem context, then an explicit rationale must be developed to
+  support the exception.
+
+- Medium Impact: corresponds to recommendations that ideally should be
+  addressed. If, however, resource constraints or other factors preclude
+  addressing, then milder pitfalls may ensue, or serious pitfalls with
+  very small probability. In this category we will also include
+  recommendations that can be addressed at a later stage of developing
+  the AI/ML solution.
+
+In APPENDIX 3 of the present book, we collected all best practices of
+the present volume and characterized them according to maturity and
+importance. Indicative examples are given in the table below.
+
+  Best Practice                                                                                                                                                                                                                         Maturity   Impact
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------- --------
+  10.1: [Context: model development and validation]. Deploy procedures that prevent, diagnose and remedy errors of overconfidence in, or over fitting of, models                                                                        MATURE     HIGH
+  10.2.6: [Context: benchmarking of methods] follow theoretically and empirically proven specifications of reference (i.e., prototypical or official use of employed method)                                                            MATURE     MEDIUM
+  10.5.7: Models for individual patients: use dense time series data, leverage population models, search for and model abrupt distribution shifts of the individual (including learning and modeling shifts at the population level).   EVOLVING   MEDIUM
+
+Notice that this synthesis is enabled by examining these recommendations
+across multiple stages and aspects of the AI/ML R&D process and thus the
+reader can appreciate this final consolidated view with the benefit of
+having accumulated diverse knowledge about the various scientific and
+technical aspects of health AI/ML addressed in the book’s chapters.
+
+Open Problems, Unknowns & Future Directions
+
+We discuss next, some of the open problems and future directions in the
+study of best practices for biomedical AI/ML.
+
+Adapting best practices to novel or unanticipated contexts of use.
+“Rules are for the obedience of fools and the guidance of wise
+men”^([21]). This famous quote captures the notion that as
+user expertise grows the need for strict adherence to rules reduces.
+
+For example, as we saw throughout the present volume, the context of use
+may influence the validity or application scope of a guideline. Every
+best practice recommendation is stated with a set of use cases and
+contexts in mind. It is important to consider if a particular R&D or
+AI/ML technology deployment project has special characteristics that may
+subtly or overtly affect the appropriateness of a particular guideline.
+See for example the discussion of genomics and overfitting in chapter
+“Lessons Learned from Historical Failures, Limitations and Successes of
+AI/ML In Healthcare and the Health Sciences. Enduring Problems, and the
+Role of Best Practices”. It is up to the project team to establish that
+deviations from best practices, especially ones designated as critical
+in the above checklists is appropriate. Conversely, if a recommended
+best practice is assessed to be too lax for a problem at hand, it may be
+necessary to incorporate additional restrictions, safeguards,
+performance requirements etc. that go beyond the ones presented here.
+
+Related to the above, newer technology may (and should) render manual
+safeguards of today, automatic, and indeed this is a trend in ML, for
+example many newer algorithms that incorporate multiple protections
+against overfitting, or sampling variation (see chapter “An Appraisal
+and Operating Characteristics of Major ML Methods Applicable in
+Healthcare & Health Science”). This is also the case for statistical
+techniques that incorporate regularization/shrinkage and do not require
+pre-processing data with PCA or other dimensionality reduction. Systems
+that are designed around protocols and stacks that implement best
+practices will also advance the ease of use and reduce the need for
+manual enforcement of best practices.
+
+Sufficiency vs necessity and assumption-mitigating factors. Often
+techniques that are designed to work well under specific sufficient
+assumptions surprise the research community by working well in settings
+that violate these assumptions. Perhaps the most classic example in the
+history of data science is the success of linear models even when
+deployed in domains with non-linear data generating functions (for
+example, due to bias-variance reasons, see chapter “Foundations and
+Properties of AI/ML Systems”). Another example is the mitigation of the
+hardness of large scale causal models despite the fact that worst case
+computational complexity for even small networks is intractable (see
+chapter “Foundations and Properties of AI/ML Systems”). Benchmarks have
+shown that methods whose sufficient assumptions are violated, manage in
+some situations to outperform better–designed methods (for example, in
+very small samples simple univariate association strategies may
+outperform more complex modeling strategies; or in another example XOR
+parents of a response have non-zero first order effects if they are
+correlated, i.e., they do not exhibit the worst-case behavior of the
+textbook XOR function). These considerations suggest that data
+scientists should operate with an open mind and employ a plurality of
+techniques as these may yield good but unexpected results. They must
+walk the fine line between allowing for empirical happy surprises on one
+hand, and avoiding wishful thinking or not prioritizing methods
+according to their fit to the problem, on the other.
+
+Ramifications of tampering with validated codes. It takes lengthy,
+costly and demanding efforts to build methods that meet specific
+performance criteria with guaranteed properties (as detailed in chapter
+“Principles of Rigorous Development and of Appraisal of ML and AI
+Methods and Systems”). At the same time, changes to original
+specifications that on the surface may appear insignificant can have
+major effects on these properties and performance (see chapter “Lessons
+Learned from Historical Failures, Limitations and Successes of AI/ML In
+Healthcare and the Health Sciences. Enduring Problems, and the Role of
+Best Practices” - text categorization benchmark study). This issue
+becomes of great relevance in light of open science frameworks in which
+anyone can access and modify codes and algorithms with potentially
+uncontrollable consequences to quality due to the modifications.
+Establishing unique identifiers for algorithm and code versions with
+associated properties, benchmarks and other performance properties, may
+serve as a possible solution to this problem.
+
+Transparency of algorithms and codes is desirable in many ways
+especially for validating methods and tools, however it opens up the
+possibility for abuse, unintended damage or even “gaming” of models and
+systems. Black box methods and systems are utterly undesirable when not
+operating as intended or to the standard of safety and performance that
+generates trust and adoption. On the opposite side of things, black box
+systems that are “locked” to avoid tampering and degrading alterations
+may be desirable under many circumstances. Also as it has been advocated
+in the AI literature, if the well-validated statistical advantage of a
+black box model is so superior to the performance of the best
+transparent model, it may be impractical or even unethical to not use
+the best performing model. Navigating these tradeoffs is certainly a
+challenge.
+
+Developing a culture that values and strives for performant and
+responsible AI/ML is of paramount importance for wide spread adoption of
+BPs. Such culture can be developed in key places: education (health
+science and professional health schools), ethics training, engagement
+with community, government, health systems, tech industry. This culture
+should be built around guiding principles with sound scientific basis
+and broad acceptance.
+
+Over-engineering and over-regulating. As with every aspect of science
+and technology, if best practices are enforced in very prescriptive,
+bureaucratic or superficial ways lacking thoughtfulness, there is the
+danger to stifle innovation and render progress slow. The need to ensure
+safety and performance by adhering to best practices designed to support
+these goals has to be carefully balanced against the very real
+opportunity costs inherent in unnecessarily delaying deployment of
+useful AI/ML both in healthcare and the health sciences.
+
+Need for evolving best practices systematically. Undoubtedly, the
+recommendations and codified best practices in this volume and
+elsewhere will evolve as the science and technology of AI/ML advance and
+as new use cases in health care and health science research emerge. It
+is important that this evolution is informed by prior generations of
+best practices and that the various stakeholders who will be called to
+adopt and advance the state of the art in BPs will do so without
+re-inventing the wheel. There is a body of knowledge in particular that
+we cannot imagine to require radical re-design or abandonment in any
+point in the foreseeable future. For example, we will always need to
+have health care models and decision support systems with precise goals
+guiding their design and deployment. We will always need reliable
+estimators of model performance. We will always need to design data
+capture, sampling and measurements in ways that support the modeling
+objectives. We will always need to manage the trade-offs of model bias
+and sampling variance. We will always need to pay particular attention
+to the distinction between causal and associational models and their
+strengths and limitations. We will always need to equip AI/ML models and
+systems with protective measures against operating outside their
+knowledge and safe performance boundaries. We will always need to ensure
+against unethical and biased operation of such technology. These are
+just a few examples of essentially immutable objectives stemming from
+fundamental laws of statistics and learning theory, computer science,
+statistical risk management, computability, and ethics.
+
+Bypassing regulations by claiming exploratory intent. It is all too easy
+to disguise a decision model that guides user actions as one that merely
+advises or informs the user. This has been a problem throughout the
+history of health AI/ML. Regulation must address such abuses, otherwise
+they can render regulation perfunctory and ineffective but also because
+they can grossly distort the performance and safety requirements at the
+design stages of AI/ML systems.
+
+Misaligned sentiment and technical reality. As we saw in chapter
+“Lessons Learned from Historical Failures, Limitations and Successes of
+AI/ML In Healthcare and the Health Sciences. Enduring Problems, and the
+Role of Best Practices” a large distance between the reality of AI/ML
+capabilities and the over-promising of results led to multiple and deep
+crises in the history of the field. This danger is always present and
+should be taken very seriously. It is the position of the present book
+that rational and careful R&D and deployment facilitated by appropriate
+best practices can accelerate passage thru the precarious terrain of the
+hype cycle.
+
+Need to conduct R&D with limited resources. For reasons of simplicity we
+presented feasibility and mission-critical development as discrete and
+mutually exclusive approaches. However even when mission-critical models
+and systems are sought, “ideal” development, validation and deployment
+of AI/ML not only is not always possible, but it could also be
+economically unwise. A phased approach where R&D can be abandoned once
+sufficient evidence against feasibility is gathered, is a more
+economically realistic approach. This phased model of
+feasibility → iterative development until mission-critical goals are
+met, is a worthy direction that is also congruent with established
+models of industrial R&D. However at this time the precise mechanisms to
+optimally manage such phased development in the health AI context, is an
+open problem.
+
+We finally ask:
+
+Do best practices need to be universally accepted? Should there be a
+single set of acceptable and/or effective best practices for health
+AI/ML? We can conceptualize health AI/ML BPs as comprising a necessary
+shared core criteria, and a component corresponding to additional
+sufficient criteria with multiple alternatives of equal outcomes. In
+other words to the extent that BPs abide by the laws of statistics, data
+science, and so forth, they may vary in various details (of sufficient
+criteria). What has to be present in all useful guidelines is an
+underlying shared core of necessary criteria. Finally, there is value in
+establishing BPs that further specialize the general rules to narrow
+fields of application with more or less restrictive requirements. We
+expect that such variations will become a topic of fruitful research.
+
+Conclusion
+
+It is our hope that the specific guidances presented here, especially
+when focused on persistent and immutable desiderata and laws of
+biomedical data science, will be a useful basis for both the growing
+success of biomedical AI/ML, and for assisting in the study of best
+practices as its own worthwhile subfield of AI/ML.
+
+Key Concepts Discussed in This Chapter
+
+Macro, Meso, and Micro Level Guidelines and Best Practices
+
+BP Maturity levels: Mature vs Evolving
+
+BP Impact levels: High vs Medium Impact
+
+Key Messages Discussed in This Chapter
+
+- Bringing Best Practices together. From background knowledge on
+  methods’ properties, to the identification of pitfalls and the
+  codification of corresponding best practices to enable the 7
+  dimensions of AI/ML trust, adoption and acceptance.
+
+- A checklist that integrates and characterizes all discussed BPs
+  (Appendix 3).
+
+- Best practices may need to be adapted to novel or unanticipated
+  contexts of use.
+
+- In the future, newer technology may (and should) render manual
+  safeguards automatic.
+
+- Mitigating factors can exist that can overcome lack of sufficient
+  assumptions for correctness or other properties.
+
+- Tampering with validated codes may have unwanted ramifications.
+
+- There are pros and cons of transparent algorithms and codes vs Black
+  Box technology.
+
+- Developing a culture that values and strives for performant, ethical
+  and accountable AI/ML is of paramount importance for wide spread
+  adoption of BPs
+
+- Over-engineering and over-regulating AI/ML are dangers that need be
+  recognized and addressed.
+
+- Improving BPs is unavoidable but needs to be done systematically.
+
+- Bypassing regulations by claiming exploratory intent may hinder
+  successful regulation and AI/ML based solution design.
+
+- Misaligned expectations and technical reality is a problem that may be
+  mitigated by BPs.
+
+- Phased feasibility to iterative development may allow
+  more economically efficient R&D.
+
+- Multiple sets of BPs that achieve equal outcomes are conceivable.
+
+Classroom Assignments & Discussion Topics Chapter “Synthesis of
+Recommendations, Open Problems and the Study of Best Practices”
+
+1.  1.
+
+    Choose 3 of the listed BPs in the book that you think are most
+    likely to change in the future and explain why you chose those.
+
+     
+
+2.  2.
+
+    Choose 3 of the listed BPs in the book that you think are least
+    likely to change in the future and explain why you chose those.
+
+     
+
+3.  3.
+
+    Give 2 examples where an unusual context of use may override a
+    listed guideline of your choice.
+
+     
+
+4.  4.
+
+    Should systems that incorporate BPs give users the option to turn
+    the BPs off? Discuss.
+
+     
+
+5.  5.
+
+    How can generative algorithm specifications enable safe alterations
+    of core algorithms?
+
+     
+
+6.  6.
+
+    Provide 3 examples of algorithms that embed the following BPs:
+    managing model complexity, managing sampling variance,
+    differentiating between causal and predictive modeling.
+
+     
+
+7.  7.
+
+    Have you encountered positive and negative examples of attitudes
+    toward AI/ML safety? Discuss.
+
+     
+
+8.  8.
+
+    Give an example of over-engineering AI/ML.
+
+     
+
+9.  9.
+
+    Give an example of over-regulating AI/ML.
+
+     
+
+10. 10.
+
+    Can you think of ways to ensure that a stated exploratory intent is
+    genuine?
+
+     
+
+11. 11.
+
+    What generates in your view misaligned of societal sentiment about
+    biomedical AI/ML with technical reality? Can you think of solutions?
+
+     
+
+12. 12.
+
+    Assume that two sets of BPs exist and give different guidance for a
+    particular context or use case. How would you resolve this
+    situation?
+
+     
+
+[Creative Commons]
+
+Open Access This chapter is licensed under the terms of the Creative
+Commons Attribution 4.0 International License
+(http://​creativecommons.​org/​licenses/​by/​4.​0/​), which permits use,
+sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s)
+and the source, provide a link to the Creative Commons license and
+indicate if changes were made.
+
+The images or other third party material in this chapter are included in
+the chapter's Creative Commons license, unless indicated otherwise in a
+credit line to the material. If material is not included in the
+chapter's Creative Commons license and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder.
+
+Footnotes
+
+1
+
+ 
+
+

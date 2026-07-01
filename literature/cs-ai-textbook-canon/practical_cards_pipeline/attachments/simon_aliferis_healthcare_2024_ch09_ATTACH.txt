@@ -1,0 +1,388 @@
+simon_aliferis_healthcare_2024_ch09_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 09
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch09_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch09_ingest.md)
+========================================================================
+
+# Chapter ingest — Artificial Intelligence and Machine Learning in Health Care (Simon & Aliferis, 2024), Chapter 9
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/simon_aliferis_healthcare_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch09_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Gyorgy J. Simon, Constantin Aliferis (eds.); Chapter 9: Dennis H. Murphree, Anirudh Choudhary, Puneet K. Bhullar, Nneka I. Comfere |
+| edition | 1st Edition (2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| publisher | Springer Nature (Health Informatics series) |
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| chapter_number | 9 (selective canon index) |
+| chapter_title | Considerations for Specialized Health AI & ML Modelling and Applications: Imaging—Through the Perspective of Dermatology |
+| book_chapter_doi_suffix | _15 [text export line 40900] |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 9 (text lines **40902–41848**) surveys **deep learning computer vision in dermatology and dermatopathology** as of ~2022. Covers CNN/DNN fundamentals, transfer learning, input modalities (clinical photos, dermoscopy, whole-slide images), problem types (classification, segmentation, weakly supervised pathology), landmark human-vs-model comparison studies, U-Net segmentation pipelines, WSI patch→tissue→slide hierarchical classifiers, scanner/staining bias pitfalls, ISIC datasets/challenges, augmented intelligence framing, and gaps (few prospective trials, limited prognosis/therapy prediction from morphology).
+
+Out of scope: exhaustive tutorial on CNN theory (points to Murphree et al. JAMA Dermatology reviews and Goodfellow/LeCun texts).
+
+## key_findings
+
+### Foundations
+
+1. **Augmented intelligence** — Authors favor human–computer synergy over autonomous replacement; cross-ref "Human with Machine" chapter. [verified, 40958–40964]
+
+2. **CNNs dominate dermatology AI** — Convolution + pooling for translation-invariant hierarchical features; common architectures: ResNet, DenseNet121, EfficientNet, GoogleNet. [verified, 40970–41003]
+
+3. **BP 15.1** — Start from known SOTA architecture (EfficientNet as fast signal probe); do not design custom nets first. [verified, 41005–41009]
+
+4. **Supervised learning prevalence** — Cancer diagnosis, risk stratification, lesion ID; large data requirements. [verified, 41011–41017]
+
+5. **Transfer learning** — Pretrained networks reduce data needs; standard in published dermatology DL. [verified, 41018–41029]
+
+6. **BP 15.2 / Pitfall 15.1** — Use transfer learning when similar pretraining exists; if only ImageNet-like weights, also try training from scratch (especially pathology). [verified, 41031–41041]
+
+### Data types and problem framing
+
+7. **Input modalities** — Clinical vs dermoscopic vs WSI; patient-captured vs clinic photos are distinct distributions. [verified, 41052–41062]
+
+8. **BP 15.3** — Check outcome balance by image acquisition source when mixing sources. [verified, 41064–41070]
+
+9. **Classification vs segmentation** — Image-level labels vs pixel labels; combined pipelines (segment then classify). [verified, 41072–41082]
+
+10. **Weak supervision in pathology** — Slide-level labels from EHR reduce pixel-annotation burden (BP 15.4). [verified, 41084–41095]
+
+### Classification literature
+
+11. **Melanoma/cancer focus** — Majority of AI work on pigmented lesions; inflammatory disease underrepresented. [verified, 41108–41113]
+
+12. **Landmark comparisons** — Esteva et al. (Nature 2017) CNN vs 21 dermatologists on biopsy-proven sets; Han, Codella, Brinker, Haenssle et al. man-vs-machine designs with varying dermatologist experience and clinical context integration. [verified, 41115–41166]
+
+13. **Mobile triage** — Soenksen et al. (2021) wide-field phone photos, >90% SPL sensitivity. [verified, 41168–41175]
+
+14. **Robustness gaps** — Ethnicity/domain shift (Han 2018); ensemble and OOD corruption benchmarks (Gessert, Maron); class imbalance handling (Sayed et al.). [verified, 41177–41197]
+
+15. **Prospective evidence scarce** — As of 2022, only one noted prospective clinical trial (Han et al. 2022 RCT). [verified, 41199–41204]
+
+### Segmentation
+
+16. **Pixel-level difficulty** — Hair, fuzzy borders, color variation favor CNN over handcrafted methods. [verified, 41206–41222]
+
+17. **Encoder–decoder and U-Net** — Dominant architecture; skip connections preserve detail; Jaccard >80% cited as reliability threshold (Ashraf et al. 2022). [verified, 41223–41266]
+
+### Dermatopathology / WSI
+
+18. **BP 15.5 patch paradigm** — Patch tissue classifier (DNN) → slide-level aggregator (often logistic regression to limit overfitting). [verified, 41276–41290]
+
+19. **Pitfall 15.2 scanner effects** — Models learn scanner/stain/protocol artifacts; multicenter rare-disease concentration is red flag. [verified, 41292–41303]
+
+20. **WSI study patterns** — Mitosis detection (Moreno-Andrés), BCC/nevus/SK classification (Olsen), Spitz vs conventional melanocytic (Hart: 99% curated vs 52% whole-slide patches), Hekler melanoma vs pathologists on crops, weakly supervised MPATH triage (Sankarapandian), interpretable multi-class WSI segmentation (Thomas). [verified, 41311–41367]
+
+21. **Prognosis gap** — Limited work linking WSI morphology + genetics to therapy response/survival. [verified, 41370–41377]
+
+### Datasets and outlook
+
+22. **ISIC Archive and challenges** — Central public resource with known limitations; annual challenges at vision conferences (BP 15.6). [verified, 41379–41397]
+
+23. **Conclusion** — Dermatology image-centric; ~3000 skin diseases, large global burden; opportunity for remote specialty access. [verified, 41399–41409]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Introduction, augmented intelligence | read | 40939–40968 |
+| CNN/DNN review, transfer learning | read | 40970–41045 |
+| Application taxonomy (input, problem type) | read | 41047–41098 |
+| Classification studies | read | 41100–41204 |
+| Segmentation / U-Net | read | 41206–41266 |
+| Dermatopathology / WSI | read | 41268–41377 |
+| Datasets, conclusion | read | 41379–41409 |
+| Key concepts, pitfalls, BPs, discussion | read | 41411–41539 |
+| References | read | 41558–41841 |
+| Book ch. 16 regulatory opener | **deferred** | 41849+ |
+
+- **Lines read:** 40902–41848 (full assigned range)
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Choose input modality (clinical, dermoscopic, WSI) and supervision level for a dermatology ML task
+- Apply transfer-learning workflow with scratch-training ablation in pathology
+- Design WSI pipeline: patch classifier + slide-level aggregator with bias checks
+- Critically read man-vs-machine studies (experience mix, clinical context, statistical testing)
+- Identify scanner/stain/domain-shift red flags in multicenter image datasets
+
+### worked_examples_present
+
+**Y** — Architecture and pipeline best practices; cited study designs; discussion questions on scanner effects and supervision types.
+
+### exercise_hooks
+
+| ID | Prompt summary | Anchor |
+|----|----------------|--------|
+| 9.PE-1 | Case vs control prevalence by acquisition site | 41494–41498 |
+| 9.PE-2 | Scanner-effect red flags in multicenter studies | 41501–41505 |
+| 9.PE-3 | Supervised vs weakly supervised pathology labels | 41507–41512 |
+| 9.PE-4 | Compare dermatologist study designs (Haenssle vs Esteva) | 41535–41538 |
+
+## Operator hooks
+
+### 1. w3_clinical_docs
+
+**Imaging slice** for dermatology/dermatopathology CV—complements Simon ch08 NLP and regulatory ch10+ selective ingests; directly relevant to skin-lesion AI diligence.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — Risk stratification and triage patterns analogous to clinical decision support; no specific calculator mapping.
+
+### 3. Redundancy
+
+| Canon title | Relationship |
+|-------------|--------------|
+| Simon ch07 | DL hype meta-analyses, ESM, comparator discipline |
+| `hands_on_llms_2024` | None for vision |
+| ISIC / external reviews | Murphree & Puri J Am Acad Dermatol 2022 cited as depth reference |
+
+### 4. Scholia fit
+
+Strong **best-practice numbering (BP 15.x)** and pitfall pairing; ideal for computer-vision clinical-ingest checklist cards.
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 text, 2022 field snapshot |
+| Author authority | **PASS** | Mayo Clinic dermatology + CS collaborators |
+| Citation density | **PASS** | Nature, Ann Oncol, ISIC, major CV conferences |
+| Contested claims | **PASS** | Notes missing formal tests in some comparisons; prospective trial gap |
+| Worked examples | **PARTIAL** | Survey + BPs; defers depth to Murphree/Puri series |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — specialized imaging ingest with explicit deployment cautions.
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch09_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch09_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 09
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Artificial Intelligence and Machine Learning in Health Care (Simon & Aliferis, 2024), Chapter 9
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/simon_aliferis_healthcare_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch09_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Gyorgy J. Simon, Constantin Aliferis (eds.); Chapter 9: Dennis H. Murphree, Anirudh Choudhary, Puneet K. Bhullar, Nneka I. Comfere |
+| edition | 1st Edition (2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| publisher | Springer Nature (Health Informatics series) |
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| chapter_number | 9 (selective canon index) |
+| chapter_title | Considerations for Specialized Health AI & ML Modelling and Applications: Imaging—Through the Perspective of Dermatology |
+| book_chapter_doi_suffix | _15 [text export line 40900] |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 9 (text lines **40902–41848**) surveys **deep learning computer vision in dermatology and dermatopathology** as of ~2022. Covers CNN/DNN fundamentals, transfer learning, input modalities (clinical photos, dermoscopy, whole-slide images), problem types (classification, segmentation, weakly supervised pathology), landmark human-vs-model comparison studies, U-Net segmentation pipelines, WSI patch→tissue→slide hierarchical classifiers, scanner/staining bias pitfalls, ISIC datasets/challenges, augmented intelligence framing, and gaps (few prospective trials, limited prognosis/therapy prediction from morphology).
+
+Out of scope: exhaustive tutorial on CNN theory (points to Murphree et al. JAMA Dermatology reviews and Goodfellow/LeCun texts).
+
+## key_findings
+
+### Foundations
+
+1. **Augmented intelligence** — Authors favor human–computer synergy over autonomous replacement; cross-ref "Human with Machine" chapter. [verified, 40958–40964]
+
+2. **CNNs dominate dermatology AI** — Convolution + pooling for translation-invariant hierarchical features; common architectures: ResNet, DenseNet121, EfficientNet, GoogleNet. [verified, 40970–41003]
+
+3. **BP 15.1** — Start from known SOTA architecture (EfficientNet as fast signal probe); do not design custom nets first. [verified, 41005–41009]
+
+4. **Supervised learning prevalence** — Cancer diagnosis, risk stratification, lesion ID; large data requirements. [verified, 41011–41017]
+
+5. **Transfer learning** — Pretrained networks reduce data needs; standard in published dermatology DL. [verified, 41018–41029]
+
+6. **BP 15.2 / Pitfall 15.1** — Use transfer learning when similar pretraining exists; if only ImageNet-like weights, also try training from scratch (especially pathology). [verified, 41031–41041]
+
+### Data types and problem framing
+
+7. **Input modalities** — Clinical vs dermoscopic vs WSI; patient-captured vs clinic photos are distinct distributions. [verified, 41052–41062]
+
+8. **BP 15.3** — Check outcome balance by image acquisition source when mixing sources. [verified, 41064–41070]
+
+9. **Classification vs segmentation** — Image-level labels vs pixel labels; combined pipelines (segment then classify). [verified, 41072–41082]
+
+10. **Weak supervision in pathology** — Slide-level labels from EHR reduce pixel-annotation burden (BP 15.4). [verified, 41084–41095]
+
+### Classification literature
+
+11. **Melanoma/cancer focus** — Majority of AI work on pigmented lesions; inflammatory disease underrepresented. [verified, 41108–41113]
+
+12. **Landmark comparisons** — Esteva et al. (Nature 2017) CNN vs 21 dermatologists on biopsy-proven sets; Han, Codella, Brinker, Haenssle et al. man-vs-machine designs with varying dermatologist experience and clinical context integration. [verified, 41115–41166]
+
+13. **Mobile triage** — Soenksen et al. (2021) wide-field phone photos, >90% SPL sensitivity. [verified, 41168–41175]
+
+14. **Robustness gaps** — Ethnicity/domain shift (Han 2018); ensemble and OOD corruption benchmarks (Gessert, Maron); class imbalance handling (Sayed et al.). [verified, 41177–41197]
+
+15. **Prospective evidence scarce** — As of 2022, only one noted prospective clinical trial (Han et al. 2022 RCT). [verified, 41199–41204]
+
+### Segmentation
+
+16. **Pixel-level difficulty** — Hair, fuzzy borders, color variation favor CNN over handcrafted methods. [verified, 41206–41222]
+
+17. **Encoder–decoder and U-Net** — Dominant architecture; skip connections preserve detail; Jaccard >80% cited as reliability threshold (Ashraf et al. 2022). [verified, 41223–41266]
+
+### Dermatopathology / WSI
+
+18. **BP 15.5 patch paradigm** — Patch tissue classifier (DNN) → slide-level aggregator (often logistic regression to limit overfitting). [verified, 41276–41290]
+
+19. **Pitfall 15.2 scanner effects** — Models learn scanner/stain/protocol artifacts; multicenter rare-disease concentration is red flag. [verified, 41292–41303]
+
+20. **WSI study patterns** — Mitosis detection (Moreno-Andrés), BCC/nevus/SK classification (Olsen), Spitz vs conventional melanocytic (Hart: 99% curated vs 52% whole-slide patches), Hekler melanoma vs pathologists on crops, weakly supervised MPATH triage (Sankarapandian), interpretable multi-class WSI segmentation (Thomas). [verified, 41311–41367]
+
+21. **Prognosis gap** — Limited work linking WSI morphology + genetics to therapy response/survival. [verified, 41370–41377]
+
+### Datasets and outlook
+
+22. **ISIC Archive and challenges** — Central public resource with known limitations; annual challenges at vision conferences (BP 15.6). [verified, 41379–41397]
+
+23. **Conclusion** — Dermatology image-centric; ~3000 skin diseases, large global burden; opportunity for remote specialty access. [verified, 41399–41409]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Introduction, augmented intelligence | read | 40939–40968 |
+| CNN/DNN review, transfer learning | read | 40970–41045 |
+| Application taxonomy (input, problem type) | read | 41047–41098 |
+| Classification studies | read | 41100–41204 |
+| Segmentation / U-Net | read | 41206–41266 |
+| Dermatopathology / WSI | read | 41268–41377 |
+| Datasets, conclusion | read | 41379–41409 |
+| Key concepts, pitfalls, BPs, discussion | read | 41411–41539 |
+| References | read | 41558–41841 |
+| Book ch. 16 regulatory opener | **deferred** | 41849+ |
+
+- **Lines read:** 40902–41848 (full assigned range)
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Choose input modality (clinical, dermoscopic, WSI) and supervision level for a dermatology ML task
+- Apply transfer-learning workflow with scratch-training ablation in pathology
+- Design WSI pipeline: patch classifier + slide-level aggregator with bias checks
+- Critically read man-vs-machine studies (experience mix, clinical context, statistical testing)
+- Identify scanner/stain/domain-shift red flags in multicenter image datasets
+
+### worked_examples_present
+
+**Y** — Architecture and pipeline best practices; cited study designs; discussion questions on scanner effects and supervision types.
+
+### exercise_hooks
+
+| ID | Prompt summary | Anchor |
+|----|----------------|--------|
+| 9.PE-1 | Case vs control prevalence by acquisition site | 41494–41498 |
+| 9.PE-2 | Scanner-effect red flags in multicenter studies | 41501–41505 |
+| 9.PE-3 | Supervised vs weakly supervised pathology labels | 41507–41512 |
+| 9.PE-4 | Compare dermatologist study designs (Haenssle vs Esteva) | 41535–41538 |
+
+## Operator hooks
+
+### 1. w3_clinical_docs
+
+**Imaging slice** for dermatology/dermatopathology CV—complements Simon ch08 NLP and regulatory ch10+ selective ingests; directly relevant to skin-lesion AI diligence.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — Risk stratification and triage patterns analogous to clinical decision support; no specific calculator mapping.
+
+### 3. Redundancy
+
+| Canon title | Relationship |
+|-------------|--------------|
+| Simon ch07 | DL hype meta-analyses, ESM, comparator discipline |
+| `hands_on_llms_2024` | None for vision |
+| ISIC / external reviews | Murphree & Puri J Am Acad Dermatol 2022 cited as depth reference |
+
+### 4. Scholia fit
+
+Strong **best-practice numbering (BP 15.x)** and pitfall pairing; ideal for computer-vision clinical-ingest checklist cards.
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 text, 2022 field snapshot |
+| Author authority | **PASS** | Mayo Clinic dermatology + CS collaborators |
+| Citation density | **PASS** | Nature, Ann Oncol, ISIC, major CV conferences |
+| Contested claims | **PASS** | Notes missing formal tests in some comparisons; prospective trial gap |
+| Worked examples | **PARTIAL** | Survey + BPs; defers depth to Murphree/Puri series |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — specialized imaging ingest with explicit deployment cautions.
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

@@ -1,0 +1,1033 @@
+responsible_ai_practice_2025_ch01_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: responsible_ai_practice_2025 · chapter: 01
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/responsible_ai_practice_2025_ch01_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (responsible_ai_practice_2025_ch01_ingest.md)
+========================================================================
+
+# Chapter ingest — Responsible AI in Practice, Chapter 1 (Responsible AI and AI Governance)
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Responsible AI in Practice |
+| **authors** | Toju Duke, Paolo Giudici |
+| **edition** | 1st (Apress / Springer Nature, 2025) |
+| **ISBN_print** | 979-8-8688-1165-4 |
+| **ISBN_electronic** | 979-8-8688-1166-1 |
+| **DOI** | https://doi.org/10.1007/979-8-8688-1166-1 |
+| **chapter_number** | 1 |
+| **chapter_title** | Responsible AI and AI Governance |
+| **page_range** | [not in text export] |
+| **parent_book_title** | Responsible AI in Practice |
+| **source_type** | textbook |
+| **text_path** | literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt |
+| **pdf_path** | [not staged on disk] |
+
+## Scope
+
+Chapter 1 establishes the book's governance and measurement spine. It defines Responsible AI within ethical AI (governance, social, societal, legal dimensions); traces philosophical roots to the 1950s; documents GenAI-era harms (LAION-5B copyright/privacy/CSAM, Replika companion risks); surveys global AI regulation (UNESCO 2021 Recommendation, UN 2023 advisory principles, US Executive Order Oct 2023, EU AI Act, UK AI bill Nov 2023, plus China/Japan/Canada/Australia/Korea/Singapore); and introduces the **SAFE-HAI** framework (Secure, Accurate, Fair, Explainable Human-Centered AI) with Lorenz-curve / Gini-index extensions for quantitative compliance metrics (RGA, RGR, RGE, RGF, RGP, RGS, RGH preview). Sequel to Duke (2023) *Building Responsible AI Algorithms*.
+
+Out of scope in this slice: procedural measurement of SAFE metrics (ch.2–8); governance processes (ch.9); case study (ch.10); Python appendix.
+
+## Key findings
+
+All claims **[verified from text]** from lines 194–1034 unless tagged `[inferred]`.
+
+1. **Responsible AI definition.** Body of work ensuring development, deployment, and use of AI with minimal risks/harms across race, gender, belief, sexual orientation, age, and ability; overlaps with but is not identical to "ethical AI." (lines 212–233)
+
+2. **Historical framing.** Principles (fairness, transparency, accountability, privacy, safety, explainability, inclusivity, sustainability) trace to 1950s academic philosophy; GenAI/transformer era (post-2017) accelerated adoption and harm surface. (lines 235–261)
+
+3. **Documented harms.** LAION-5B: copyright disputes, private medical images in training data, Stanford finding of >1000 CSAM images (Dec 2023). Replika: depression reports, 2021 UK incident (Chail). Authors frame these as drivers for regulatory action. (lines 284–329)
+
+4. **UNESCO / UN governance.** UNESCO 2021 global AI ethics standard (human rights, transparency, fairness, human oversight). UN 2023 advisory body: five principles—inclusive governance, public interest, data-governance alignment, stakeholder collaboration, UN Charter/HR law/SDG grounding. (lines 342–439)
+
+5. **US Executive Order (Oct 2023).** Eight principles: safe/secure; responsible innovation/competition; worker support; anti-discrimination; consumer protection; privacy/HR protection; federal workforce/infrastructure; international collaboration. `[contested in chapter]` Skepticism noted: revocability, limited power without congressional law, funding gaps, innovation slowdown concerns. (lines 444–597)
+
+6. **EU AI Act.** High-risk criteria: significant health/safety/rights risk; third-party conformity assessment products; profiling (e.g., CCTV). Non-high-risk exemptions for narrow procedural tasks, human-activity improvement, pattern detection without replacing human review, preparatory assessment tasks. Transition from Aug 2024; `[contested]` innovation-stifle and private-sector accountability critiques. (lines 599–682)
+
+7. **UK AI bill (Nov 2023).** Risk assessment/monitoring; five principles (safety/security/robustness, transparency/explainability, fairness, accountability/governance, contestability/redress); transparency, testing, data-protection, equality, inclusivity requirements for developers/deployers. (lines 684–736)
+
+8. **Regulatory gap theme.** Global convergence on privacy/fairness/transparency/robustness/safety themes, but implementation speed, standards, workforce literacy, and GenAI pace raise open questions. (lines 742–772)
+
+9. **SAFE-HAI framework.** SAFE = Security (robustness to perturbations), Accuracy (ground-truth consistency), Fairness (absence of group bias), Explainability (human-understandable causes). HAI extensions = qualitative: privacy, environmental sustainability, human-in-the-loop. Metrics agnostic to underlying ML architecture; inspired by Basel financial risk measurement (Giudici & Raffinetti 2023 financial-sector precursor). (lines 777–863)
+
+10. **Lorenz/Gini methodology preview.** Extend Lorenz curve and Gini index from income inequality to AI output concentration; seven Rank Graduation measures planned across book chapters (RGA accuracy, RGR robustness, RGE explainability, RGF fairness, RGP privacy, RGS sustainability, RGH human oversight). Python code deferred to later chapters and case study. (lines 888–1013)
+
+## Chapter digest
+
+| Subtopic | Lines (approx.) | Takeaway |
+|----------|-----------------|----------|
+| RAI definition & history | 212–261 | Ethical-AI subset; GenAI harm acceleration |
+| Harm vignettes | 284–329 | LAION-5B, Replika as regulatory catalysts |
+| UNESCO / UN | 342–439 | Global ethics + five governance principles |
+| US EO 2023 | 444–597 | Eight trust principles; enforcement limits noted |
+| EU AI Act | 599–682 | High-risk taxonomy; contested private-sector balance |
+| UK + other jurisdictions | 684–740 | Principle-based bill; synthetic-data/privacy focus |
+| SAFE-HAI intro | 777–1013 | Quantitative Lorenz metrics + qualitative HAI pillars |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Distinguish Responsible AI from ethical AI and name core principle categories.
+2. Map major 2023–2024 regulatory instruments (UNESCO, UN, US EO, EU AIA, UK) to overlapping trust themes.
+3. Explain SAFE vs HAI components and why authors adopt financial-sector risk-measurement analogy.
+4. Identify contested claims in regulatory reception (innovation vs safety tradeoffs).
+5. Preview how Lorenz-curve metrics unify accuracy/robustness/fairness measurement.
+
+### worked_examples_present
+
+**Y** — LAION-5B and Replika harm narratives; EU high-risk vs non-high-risk decision tree; Lorenz income example (preview); SAFE-HAI diagram placeholders.
+
+### exercise_hooks
+
+1. Map NIST AI RMF trust characteristics to SAFE-HAI pillars (forward to ch.2–8).
+2. Classify a hypothetical clinical CDS under EU AI Act high-risk criteria.
+3. Compare US EO principle 4 (non-discrimination) with UK fairness principle—gaps and overlaps.
+4. Draft org-level AI governance checklist from UNESCO + UN principles.
+
+## Coverage attestation
+
+| Field | Value |
+|-------|-------|
+| **source_path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt` |
+| **lines_read** | 194–1034 (inclusive) |
+| **section_boundary** | Starts at Ch.1 heading (196); ends before Ch.2 `Accuracy` (1037) |
+| **wrong_file_flag** | false |
+| **deferred** | Ch.2–10; Python appendix; references list |
+| **figure_placeholders** | SAFE-HAI governance cube (793–799); seven-aspect diagram (933–938) |
+
+## Operator hooks
+
+### Foundation layer (w4_ops_governance)
+
+**Governance + measurement spine opener** for Wave 4. Establishes SAFE-HAI vocabulary and global policy map before technical chapters. Pair with:
+
+- `nam_gen_ai_health_2025_sec05_ingest.md` — health-system guardrails (mandatory pair per wave card)
+- `simon_aliferis_healthcare_2024_ch10_ingest.md` — FDA/ISO 14971 regulatory depth
+- `ai_engineering_2025_ch10_ingest.md` — production guardrails complement
+
+### MDCalc alignment
+
+**[relevant]** — pattern-portable governance (no employer claims):
+
+- **Eight US EO principles + EU high-risk taxonomy** (lines 457–663) → tiered risk classification before patient-facing deploy; map to org policy + local validation.
+- **Human oversight emphasis** (UNESCO lines 351–355; SAFE-HAI HITL preview lines 831–832, 998–1000) → HOTL: AI drafts; clinician accountable for sign-off.
+- **Post-deployment monitoring** (US EO lines 472–474) → algorithmovigilance-style ongoing performance checks.
+- **Consumer protection in healthcare** (lines 532–536) → sensitive-domain safeguards for CDS and documentation tools.
+
+Do not cite this chapter as FDA clearance criteria or MDCalc production policy.
+
+### Redundancy
+
+| Canon | Overlap | Distinction |
+|-------|---------|-------------|
+| NAM GenAI 2025 sec01 | Governance, bias, local validation | RAI = global regulation survey + quantitative SAFE-HAI metrics program |
+| Simon/Aliferis ch10 | EU AI Act, NIST RMF, fairness | RAI = cross-sector textbook; less health-specific causal bias depth |
+| AIE 2025 ch10 | Guardrails, monitoring | RAI = statistical compliance metrics (Lorenz/Gini), not MLOps pipeline |
+| Duke 2023 (prior book) | RAI framework precursor | This book adds measurable SAFE-HAI statistics + Python |
+
+### Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Anchor density | Moderate — cites UNESCO, UN, US EO, EU AIA, Giudici & Raffinetti 2023, Basel analogy |
+| Procedural hooks | Governance checklist + high-risk classifier derivable for study-guide cards |
+| Boundary | Clean intro/governance slice; measurement deferred to ch.2+ |
+| Contested claims | Flagged — EO revocability, EU innovation critique, regulation pace vs GenAI |
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — 2025 edition; author authority (Duke: Google RAI PM; Giudici: 200+ pubs, EU regulatory projects); primary-source policy citations; contested regulatory reception not smoothed; worked harm/regulatory examples present.
+
+---
+
+*Ingest agent: rai-ingest-ch01-03 · ch01 · lines 194–1034 · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/responsible_ai_practice_2025_ch01_SLICE.txt)
+========================================================================
+
+# Text slice — responsible_ai_practice_2025_ch01_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: responsible_ai_practice_2025 · chapter: 01
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Practicehttps://doi.org/10.1007/979-8-8688-1166-1_1
+
+1. Responsible AI and AI Governance
+
+Toju Duke¹   and Paolo Giudici²
+
+(1)
+
+Bedrock AI, London, UK
+
+(2)
+
+Via San Felice 7, 27100, University of Pavia, Pavia, Italy
+
+ 
+
+Responsible AI
+
+Responsible AI is a new and nascent field, and the term “Responsible AI”
+has been used interchangeably with the term “ethical AI” in recent
+years. In this chapter, we’ll look at a brief history of Responsible AI
+and the factors influencing its emergence as a new and incredibly
+valuable part of AI development. We will also review new global AI
+regulation and policies from UNESCO to the EU AI Act and a few other
+global AI policies, highlighting the different principles in each policy
+and the importance of adopting the recommendations to build AI
+governance within your organization/project.
+
+Responsible AI falls within the field of “ethical AI” and refers to the
+governance, responsible, social, societal, and legal aspects of AI. Due
+to the sporadic and unpredictable nature of AI applications which have
+resulted in several risks and harms perpetuated on various members of
+society, the need for more responsible development and deployment of AI
+has increased over the years, which also includes its use.
+
+In simple terms, Responsible AI can be defined as a body of work that
+ensures the development, deployment, and use of AI models and
+applications which have minimal risks and harms on every member of
+society, regardless of race, gender, belief, sexual orientation, age,
+and ability (disability).
+
+The field of “responsible principles in AI” isn’t new and has been in
+existence since the 1950s round about the time the term artificial
+intelligence was coined in 1956 by John McCarthy of the Massachusetts
+Institute of Technology (MIT) during the first academic conference on
+computer programming construction and the ability for machines to think
+– a concept introduced by Alan Turing, who is considered the father of
+AI and one of the first pioneers in the field.
+
+Due to the issues stemming from AI applications in the past few years,
+which negatively affected users in various ways, organizations and
+companies turned to the philosophical academic research that originated
+in the 1950s, focused mainly on philosophical arguments ranging across
+several principles from fairness, transparency, accountability, privacy,
+safety, explainability, inclusivity, and sustainability.¹ These
+arguments encompass the field of AI ethics and include Responsible AI
+principles.
+
+We’ve seen a steady growth of AI adoption over the years, and we’re
+currently in an “AI summer,” mainly driven by the recent introduction of
+generative AI – deep learning models that are able to generate
+high-quality content ranging from text, audio, video, and speech. The
+arrival of generative AI led to the AI arms race in 2022 where we saw a
+plethora of rapid AI development built on the transformer architecture
+(introduced by Google in 2017, a new neural network architecture for
+language models²) with the introduction of text to image generators,
+text to video, text to speech, text to image and video, and so many
+other multimodalities, kicked off by the famous ChatGPT.
+
+We’ve also seen a steady and quite concerning increase in the number of
+human rights violations, psychological harms, data leakages, energy
+consumption, disinformation, social inequities including
+representational harms and biases, gender- and child-related violence,
+which also includes an increase in child sexual abuse material (CSAM),
+and threats to democracy and elections with a heightened increase in
+deepfakes. These are very concerning issues that cannot go ignored.
+
+In Building Responsible AI Algorithms by Toju Duke,³ a good number of
+real-life examples of AI’s harms on various members of society were
+discussed. Duke also introduced a Responsible AI framework which offers
+solutions to mitigate identified risks and harms that arise as a result
+of AI technologies’ outputs/results. We recommend reading Building
+Responsible AI Algorithms first before delving into the principles of
+this book, as it sets the foundation and cornerstone for Responsible AI
+principles and guidelines and provides some background on the risk
+management framework and measurement techniques outlined in this book.
+
+To relay a few very recent examples where AI has produced harmful output
+to users, let’s take a look at a couple of examples below.
+
+The LAION-5B dataset, which stands for Large-Scale Artificial
+Intelligence Open Network, was introduced in March 2022, just before
+generative AI took the world by storm, by a German nonprofit
+organization – LAION. LAION develops datasets, tools, and models for
+machine learning (ML) research. Sourced from the Common Crawl web index,
+LAION-5B is a popular open source training dataset containing over 5.8
+billion images used for image generation. It was used to train Stable
+Diffusion, an image generator introduced by Stability AI (a UK-based
+start-up), and other AI image models. LAION has been riddled with all
+sorts of risks ranging from copyright, privacy, and safety which has
+been covered by several media outlets.⁴
+
+In April 2023, a German stock photographer discovered that his photos
+had been used to train the LAION-5B dataset and requested for the photos
+to be removed as they’d been used without his consent, knowledge, and
+any form of compensation, infringing on copyright laws (copyright is
+still a gray and debatable area with respect to AI and dataset
+training). On his request to the company to delete his pictures from the
+dataset, he was met with a $979 fine for making an “unjustified
+copyright claim” according to the organization’s lawyers. The
+photographer has filed a lawsuit against LAION at a court in Germany.⁵
+
+In September 2022, a San Francisco–based artist noticed her photos from
+her private medical record taken in 2013 were on the LAION 5B dataset.
+These discoveries were made through a website called “Have I been
+Trained,” which allows people to search for images on publicly scraped
+datasets. This is not akin to this artist, and there are several patient
+medical record photos existent in the LAION dataset, which is a huge
+infringement on privacy.⁶
+
+Lastly, in December 2023, over 1000 child sexual abuse material (CSAM)
+in the form of images were found in the LAION-5B dataset discovered by a
+team of researchers from Stanford University. The study highlighted the
+possibility that these images were used to train AI image generators to
+re-create photorealistic images of child exploitation and abuse.
+
+There are also countless examples of AI and generative AI–related harms
+on individuals. For example, an AI “companion” known as Replika, over
+time, started making Reddit users depressed based on their reports after
+several interactions with the chatbot. Replika also encouraged a
+21-year-old man in England to kill the Queen of England in 2021 (before
+she passed away), and he attempted to do so and got arrested. He’s
+currently serving time in jail with a nine-year sentence. The young man
+named Chail was reported by his psychiatrist as lonely, depressed, and
+suicidal. Clearly, Replika preyed on his vulnerability.
+
+These issues are very grave, concerning, and have to be addressed. With
+examples like these, the need for wider adoption of Responsible AI
+practices is of utmost importance. As a result, there are several AI
+policies and regulations that have been introduced by various
+governments in 2023 to reduce the harms resulting from AI systems. Let’s
+take a look at some of the existing policies and governance structures
+in the next section.
+
+AI Governance
+
+AI Regulation and Policies
+
+The United Nations have been working on ethical principles for AI since
+2018, after publishing a report titled “Towards an Ethics of Artificial
+Intelligence,” which emphasizes the ubiquitous rise of technology,
+including AI, and the importance of developing AI with a human-centric
+approach, based on human values and human rights. The report highlighted
+the opportunity AI lends to sustainable development and mentions a few
+challenges associated with the technology with the need for global
+dialogue on the Ethics of AI from UNESCO.⁷ Based on this recommendation,
+UNESCO published the first global standard on AI Ethics titled
+“Recommendation on the Ethics of Artificial Intelligence,” which was
+adopted by all member states in 2021. Its emphasis is on the protection
+of human rights and dignity “based on the advancement of fundamental
+principles such as transparency and fairness, remembering the importance
+of human oversight of AI systems.” It also proposes several policy areas
+equipping policymakers with the right values to translate to principles
+across several areas, including data governance, environment, health,
+and social well-being, among others.⁸
+
+In 2023, the Office of the Secretary-General’s Envoy on Technology set
+up a high-level multinational advisory body to undertake analysis and
+advance recommendations for the international governance of AI. The
+report⁹ has several guiding principles positing AI governance and how it
+should be carried. These are as follows:
+
+1.  1.
+
+    AI should be governed inclusively, by and for the benefit of all:
+    This principle encourages the inclusion of all members of society
+    and underrepresented groups, including those from the Global South,
+    giving them the opportunity to access, shape, and leverage on the
+    benefits of AI.
+
+     
+
+2.  2.
+
+    AI must be governed in the public interest: As AI is developed by a
+    small subset of technology companies, there is a need for
+    accountability of companies and organizations that develop, deploy,
+    and manage AI, including downstream users across the various sectors
+    of the economy and society throughout the AI life cycle. Work on
+    governance must consider “public policy goals related to diversity,
+    equity, inclusion, sustainability, societal and individual
+    well-being, competitive markets, and healthy innovation ecosystems.”
+
+     
+
+3.  3.
+
+    AI governance should be built in step with data governance and the
+    promotion of data commons, as data is the bedrock for AI systems.
+    Data commons, hosted by Google, refers to a distributed network of
+    sites that publish data and provides a unified view across multiple
+    public datasets using a governance framework where people can
+    manage, analyze, and share its data. Public data commons is highly
+    encouraged, especially data that could help solve societal problems,
+    such as climate change, public health, economic development, etc.
+
+     
+
+4.  4.
+
+    AI governance must incorporate stakeholder management and
+    collaboration: All AI governance efforts must pursue stakeholder
+    collaboration and buy-in from different member states of the UN. It
+    should also anchor on inclusivity, lowering barriers to entry from
+    previously excluded communities, such as those from the Global
+    South. A good and effective AI governance framework should reflect
+    views, best practices, and expertise from across the world,
+    including the private, academic, government sectors, and civil
+    society, with the aim to understand and adopt different cultural
+    ideologies that influence AI development, deployment, and use.
+
+     
+
+5.  5.
+
+    AI governance should reflect the UN’s charter, International Human
+    Rights Law and Sustainable Development Goals (SDGs): It’s crucial
+    that AI governance is grounded on the UN’s foundational values which
+    is the UN’s charter and its commitment to peace, security, human
+    rights, and sustainable development. The consideration of AI’s
+    impact on a variety of “global economic, social, health, security,
+    and cultural conditions, all grounded in the need to maintain
+    universal respect for, and enforcement of human rights and the rule
+    of law” should be conducted by the UN and its agencies.
+
+     
+
+The focus and emphasis from the UN is on AI governance which is a
+bedrock and key component of AI regulation and policy and Responsible AI
+as a whole. The UN’s report has been positively received by the ML
+communities as it’s considered the first global guideline on AI, marking
+a significant step and milestone toward international AI governance and
+cooperation. Its emphasis on ethics and human rights, legal frameworks,
+sustainable development, social good, data protection, and privacy makes
+it a very useful resource for all organizations wanting to get started
+on AI governance and AI governing principles.
+
+In this perspective, it’s important to take a look at the United States’
+position on regulation.
+
+In October 2023, the President of the United States, Joe Biden, released
+an executive order directing the “safe, secure, and trustworthy
+development and use of AI” split across several sections from the
+purpose of the technology to its policy and principles and its
+development and use by American citizens. The US government clearly
+recognizes the promises and dangers of AI and understands the importance
+of Responsible AI to solve top challenges while at the same time
+providing the benefits it brings to economic empowerment, productivity,
+innovation, and security. The results of the irresponsible use of AI
+accentuate societal harms from “fraud, discrimination, bias, and
+disinformation.” It also has the potential to “displace and disempower
+workers, stifle competition, and pose risks to national security.”
+
+AI governance and policy in the development and use of AI across eight
+guiding principles is outlined in the executive order. These principles
+encompass the views of several disciplines from the private sector,
+academia, civil society, and other organizations. The principles¹⁰ are
+the following:
+
+1.  1.
+
+    AI must be safe and secure, which means it has to meet the
+    requirements of being “robust, reliable, repeatable, and follow
+    standardized evaluations of AI systems.” Policies and methodologies
+    for the testing, understanding, and mitigations of AI risks before
+    deployment are also required. Most pressing security risks such as
+    biotechnology, cybersecurity, and other national security concerns
+    need to be addressed in AI systems. The opacity and complexity of AI
+    technologies must not be ignored, and testing, evaluations, and
+    post-deployment performance monitoring must be carried out. Guiding
+    users on effective labeling so they are aware when content is
+    developed by AI vs. when it’s not will also be the responsibility of
+    the US administration.
+
+     
+
+2.  2.
+
+    AI must promote responsible innovation, competition, and
+    collaboration, granting the US leadership the opportunity to harness
+    the power of AI technologies to solve society’s pressing challenges.
+    This will be carried out through investments in AI literacy,
+    training, development, and research while promoting a fair and
+    competitive landscape and marketplace for AI and other technologies
+    to ensure the continuation of innovation by start-ups and
+    developers, reducing the monopoly and dominance of compute power,
+    cloud storage, and semiconductors by big players in the field. The
+    marketplace will leverage the benefits of AI and provide new
+    opportunities for small businesses and entrepreneurs.
+
+     
+
+3.  3.
+
+    AI must be developed responsibly and used responsibly, supporting
+    workers and ensuring all workers have a seat at the table, while
+    delivering on the job training and education, enabling a diverse
+    workforce and access to opportunities that AI creates across all
+    American citizens. Next steps in AI development should have
+    diversity of thought and views from workers, trade unions,
+    educators, employers, and civil society, making sure everyone enjoys
+    the benefits and opportunities from technological innovation.
+
+     
+
+4.  4.
+
+    AI policies must not cause harm through discrimination, bias, and
+    online or physical harms, amplifying existing inequities, and must
+    not be a disadvantage to people from underrepresented groups who are
+    quite often denied equal opportunity and justice. The administration
+    of the United States would work with all existing federal laws, such
+    as the Blueprint for an AI Bill of Rights and the AI Risk Management
+    Framework (more on this in the following sections of this chapter),
+    to ensure thorough “robust technical evaluations, careful oversight,
+    engagement with affected communities, and rigorous regulation” while
+    holding those in charge of AI development responsible and
+    accountable to existing standards and laws that protect US citizens
+    against unlawful discrimination and abuse.
+
+     
+
+5.  5.
+
+    Consumers must be protected and the responsible use of AI promoted.
+    Consumer protection laws and principles would be enforced, and
+    safeguards against “fraud, unintended bias, discrimination,
+    infringements on privacy, and other harms from AI” will be enacted.
+    Protections such as these are quite critical in sensitive fields
+    such as healthcare, financial services, education, housing, law, and
+    transportation and all other related fields where the misuse or
+    incorrect output of AI could harm patients or jeopardize human
+    rights/safety.
+
+     
+
+6.  6.
+
+    The protection of privacy and human rights where people’s sensitive
+    data containing their personal identifiable information (PII),
+    interests, location, habits, and plans/desires are not exploited or
+    exposed through AI systems. By law, all collection, use, and
+    retention of data must be secure and uphold privacy and
+    confidentiality, combatting the broader legal and societal risks
+    associated with AI technologies.
+
+     
+
+7.  7.
+
+    The federal government will support the responsible use of AI
+    through the development and investment in human resources, promoting
+    public service AI professionals, including those from
+    underrepresented communities across several fields from technology,
+    policy, management, procurement, ethics, governance, legal, and so
+    on, while ensuring the workforce receives adequate AI training to
+    help harness and govern AI. The federal government’s information
+    technology infrastructure will also be updated to ensure the
+    adoption, deployment, and use of AI is safe and respects the human
+    rights of American citizens.
+
+     
+
+8.  8.
+
+    Leading Responsible AI through collaboration with international
+    allies. Partnering with international partners and allies, the
+    federal government of the United States would pave the way for
+    global, societal, economic, and technological progress, ensuring AI
+    systems have appropriate safeguards and are deployed responsibly by
+    developing a risk management framework which would unlock AI’s
+    potential for societal good and promote similar approaches to its
+    challenges, ensuring safe and secure AI.
+
+     
+
+The executive order by the United States was introduced at an
+interesting time, just a few days before the UK held its AI Safety
+Summit in November 2023. This clearly states the United States’ position
+on AI implementation, deployment, and its focus on safe and trustworthy
+AI. While it’s a much necessary step in the right direction and has been
+applauded and widely accepted by most, some experts and people from the
+general public have remained a bit skeptical. American citizens have
+opined that the government will need to “walk the walk” while bearing in
+mind that these laws and regulations could be revoked by a future
+administration if not recognized and accepted across all political
+parties in the United States. A few have also pointed out that if the
+order is not passed as laws within the congress, it has limited power
+and will rather introduce regulatory burdens and slow down AI
+development – highlighting the gap between new government programs and
+adequate funding, a key issue that challenges new reforms in the United
+States. It’s worth noting that the executive order is not mandatory but
+it is a guidance on AI development for the US government, agencies, and
+businesses.
+
+In a similar vein, the European Union’s (EU) AI Act,¹¹ first introduced
+in April 2021, recognized as the first global AI law, is aimed at
+promoting human-centric and trustworthy AI while ensuring health,
+safety, fundamental rights, democracy, and environmental protection are
+upheld with a high support for innovation and regulation of the internal
+market within the EU. It proposes very similar principles as those of
+the UN and the United States, with a clear distinction on high-risk AI
+systems, risk management, and foundation or frontier models. An AI
+system is considered at high risk if it:
+
+1.  1)
+
+    Poses significant risks to the health, safety, and fundamental
+    rights of humans
+
+     
+
+2.  2)
+
+    Is an application that would need to undergo a third-party
+    conformity assessment, in other words, placed in the market as an
+    application or product
+
+     
+
+3.  3)
+
+    Performs profiling of people, for example, through CCTV/camera
+    surveillance. 
+
+     
+
+An AI system is considered “non-high risk” if on the flip side it
+doesn’t pose any risk or harm to the health, safety, and fundamental
+rights of people and does not influence the outcome of decision-making.
+This is the case if one of the following requirements is met:
+
+1.  (a)
+
+    The AI system is intended to perform a narrow procedural task.
+
+     
+
+2.  (b)
+
+    The AI system is intended to improve the result of a previously
+    completed human activity.
+
+     
+
+3.  (c)
+
+    The AI system is intended to detect decision-making patterns or
+    deviations from prior decision-making patterns and is not meant to
+    replace or influence the previously completed human assessment,
+    without proper human review.
+
+     
+
+4.  (d)
+
+    The AI system is intended to perform a preparatory task to an
+    assessment.
+
+     
+
+Similar to the US administration’s executive order on AI, the EU AI Act
+has been received with some skepticism and nervousness on its potential
+to stifle innovation and further impact the European economy negatively,
+where the concentration of AI power and companies is in the United
+States vs. Europe. The act went into a “deadlock” toward the end of 2023
+and was at risk of being deprecated due to the mentioned reasons. It
+eventually got passed and is now in motion with the Act gradually coming
+into force since August 1, 2024, for a transition period of two
+years. Further criticism has been made from experts within the ethical
+AI fields. Some have noticed a reduced emphasis on the responsibilities
+AI companies have towards democratic interference with general-purpose
+AI systems, posing a risk to democracy. There’s also dissatisfaction on
+accountability where emphasis is being made on the public sector to
+safeguard AI practices and less on the private sector. For example, the
+act proposes the use of a fundamental rights impact assessment which
+places more responsibility on the public sector and less on the private
+sector. While the act has been applauded as the right step to take,
+there’s still skepticism on its efficacy and focus.
+
+The UK also introduced an AI bill in November 2023,¹² shortly after its
+UK AI Safety Summit, with the aim to achieve the following (summarized):
+
+1.  (a)
+
+    Assess and monitor AI risks across the UK economy.
+
+     
+
+2.  (b)
+
+    Work with the AI principles addressing
+    1.  (i)
+
+        Safety, security, and robustness
+
+         
+
+    2.  (ii)
+
+        Transparency and explainability
+
+         
+
+    3.  (iii)
+
+        Fairness
+
+         
+
+    4.  (iv)
+
+        Accountability and governance
+
+         
+
+    5.  (v)
+
+        Contestability and redress
+
+         
+
+     
+
+The bill stipulates that any business which develops, deploys, or uses
+AI should be transparent about the technology, conduct accurate and
+thorough tests with transparency, and comply with all applicable laws on
+data protection, privacy, and intellectual property. All AI models and
+applications should comply with legislation on equality; be inclusive by
+design; not discriminate unlawfully against individuals; meet the needs
+of people from lower socioeconomic groups, including elderly and
+disabled people; and generate data that is accessible, interoperable,
+and reusable.
+
+We also have AI regulations across several other countries, such as
+China, Japan, Canada, Australia, Korea and Singapore, with a focus on
+synthetic data regulation, privacy laws, and AI safety.
+
+Observably, it’s impressive and heartening to see an introduction and
+widespread increase of AI regulation globally with common themes across
+privacy, fairness, transparency, robustness, and safety. These are the
+associated risk categories in AI technologies, which, when addressed,
+lead to safe, human-centric, and trustworthy AI. The importance of
+implementing safe, technical measures and guardrails to ensure AI
+systems are developed, deployed, and used responsibly cannot be
+overstated – not only is it critical to the human race and the users of
+these systems, failure to do so can lead to legal implications,
+including hefty fines from several policy-makers and governments. Most
+of these regulations have been received differently and at the same time
+with a common theme. We have one camp of individuals who are genuinely
+gratified that there is some form of regulation and policy for AI across
+various countries, with a focus on safe and Responsible AI, while the
+other camp is genuinely concerned about actual implementation, guidance,
+and standards for AI, with concerns on how governments will coordinate
+and assist with the implementation of these policies. The skeptical camp
+also raises very important questions on the speed of creating new
+laws/regulation vs. the pace at which AI is being developed, especially
+in recent times. Can regulation catch up? Would it be comprehensive
+enough to address systemic risks that are still yet to be identified in
+the rapidly evolving generative AI? How about AI standards and guidance
+on building safe and Responsible AI? How will businesses and
+organizations be supported in acquiring these requirements? Is the
+workforce even prepared for these changes, especially when most are
+scared of losing their jobs to AI? Are there adequate AI literacy
+programs to educate members of the workforce and the general public on
+AI and its impact on their lives? These are the general concerns of most
+people that are aware of the recent AI developments, and while these
+regulations and policies are quite succinct and very much needed,
+there’s still much more that needs to be done.
+
+It’s quite clear that AI is such an important and life-changing
+technology, which has to be developed and deployed safely and
+responsibly to benefit humankind. To achieve this, adopting a
+Responsible AI framework is crucial. Introducing the SAFE-HAI (Secure,
+Accurate, Fair, and Explainable Human-Centered Artificial Intelligence)
+framework to support AI practitioners and anyone working on AI
+development on the implementation, measurement, and deployment of ML
+models/applications in a safe, trustworthy, transparent, and responsible
+manner.
+
+The SAFE-HAI Framework
+
+We propose an integrated framework to measure the risk of compliance of
+AI systems with existing global regulations, directives, and standards.
+The model expands what was proposed in Giudici and Raffinetti (2023) for
+the financial sector¹³ and builds on the Responsible AI principles
+proposed by Duke.
+
+[]
+
+Diagram illustrating key aspects of AI governance, centered around a
+cube icon. Eight categories are connected: AI Principles, Data,
+Fairness, Safety, Explainability, Human-in-the-Loop, Privacy &
+Robustness, and AI Ethics. Each category includes specific
+considerations, such as data ethics, algorithmic bias, risk assessments,
+transparency, human feedback, bias mitigation, and energy consumption.
+
+To continue with this line of work,SAFE-HAI consists of a set of
+interrelated statistical measures which are summarized with the acronym
+SAFE, derived from four core compliance principles. These are outlined
+below:
+
+- Security: Refers to the robustness of the AI output to data
+  perturbations, generated intentionally (e.g., cyber attacks) or
+  unintentionally (in the case of extreme events).
+
+- Accuracy: Refers to the consistency of the AI output in accordance
+  with the ground truth (whether objective or subjective). Ground truth
+  is information existent in training data or in the real world which is
+  used as a benchmark to test the AI output
+
+- Fairness: Refers to the absence of bias and discrimination in the AI
+  output toward population groups.
+
+- Explainability: Refers to the capability of the AI output to be
+  understood for human oversight and understanding, particularly in its
+  driving causes.
+
+While the former two requirements are more technical and “internal” to
+the AI process, the latter two are more ethical and “external” to the AI
+process, involving the stakeholders of the AI system.
+
+The above SAFE compliance risk principles are necessary, but
+insufficient for the requirements of Responsible AI. Other important
+principles that an AI system must comply with are qualitative rather
+than quantitative and, therefore, more difficult to embed in a risk
+management process, for example, privacy protection, environmental
+sustainability, and human-in-the-loop (HITL).
+
+To ensure we have a comprehensive framework to conduct the necessary
+tests, measurements, and implementation of risk mitigation for AI
+systems – which includes AI models and applications – we have expanded
+the SAFE framework to include more qualitative Responsible AI
+principles.
+
+We’ve developed a framework titled “SAFE-HAI” which stands for Secure,
+Accurate, Fair, and Explainable Human-Centered Artificial Intelligence.
+While the SAFE section of the framework will consist of a set of
+integrated risk metrics, the “H” section will consist of a set of more
+qualitative compliance indicators.
+
+The initial four proposed SAFE risk metrics provide an opportunity for
+the development of an integrated measure of trustworthiness (compliance
+risk) for any AI application that is developed to monitor, guide, and
+assist with regulating the applications of AI models. These risk metrics
+mirror risk measurement from the financial sector which have been used
+over the past 20 years to address financial risk management in an
+attempt to monitor and regulate the financial industry, following the
+Basel regulations (a set of standards on Banking Supervision developed
+by the Basel Committee).¹⁴
+
+The proposed metrics are “agnostic” statistical tools that are able to
+assess and evaluate the output of a machine learning (ML) model,
+independent of the underlying data structure and statistical learning
+models. They could consequently be used by any stakeholder in a
+relatively simple way, without the need to understand the training data
+or the ML models and software codes employed by the AI system under
+investigation. This enables human oversight (the monitoring and
+intervention by humans), giving rise to a fully transparent SAFE and
+Human-Centered AI compliance system.
+
+The SAFE metrics have two main applications:
+
+1.  1.
+
+    The metrics are applicable to policy-makers, auditors, and
+    supervisors to assess the compliance of AI applications to
+    regulations and code of conducts, such as the US NIST and the
+    European AI Act, which require AI systems to be trustworthy and
+    safe.
+
+     
+
+2.  2.
+
+    They are also applicable to the developers and users of AI
+    applications within a risk management framework providing the
+    ability to measure areas of noncompliance with regulatory standards
+    in the AI models and applications on a continuous basis, thereby
+    prioritizing mitigation measures addressed at reducing compliance
+    risks.
+
+     
+
+From a methodological viewpoint, the statistical metrics that are
+proposed in the SAFE-HAI framework consist of a set of four integrated
+statistical measures of trustworthiness, all based on the extension of
+the Lorenz curve.¹⁵
+
+The Lorenz curve was introduced by the American economist Max Lorenz in
+1905 to measure the contribution to wealth and income of a nation from
+each individual, or each group of individuals, to assess economic
+inequalities in a nation’s population and to measure the distance of the
+actual income distribution from an “ideal” one. The main mathematical
+tool behind the Lorenz curve is the cumulative distribution function
+which, by ordering individuals from the poorest to the richest and
+calculating their cumulative percentages, can determine where the
+accumulation of wealth lies across the social classes of society. For
+example, “the richest 1% of the people own 50% of the world’s total
+income.”¹⁶ The Lorenz curve was further summarized by the Italian
+statistician Corrado Gini with the Gini index,¹⁷ well known for its
+applications in the measurement of economic inequalities across the
+world.
+
+We propose to extend the methodology behind the Lorenz curve and the
+Gini index, which has worked quite well for more than 100 years in the
+measurement of concentration and inequality in income and wealth, to the
+measurement of concentration and inequality of the AI output.
+
+The Lorenz curve is an appropriate tool to measure the contribution of
+each individual data point in the training data to the output of an ML
+model, in order to assess the inequalities of single data points or
+groups of points, and to measure the distance of the output from the
+ground truth. The same concept can be adopted to measure the
+contribution to the output of each explanatory variable. In other words,
+in applying the Lorenz curve, we could measure inequalities in single
+data points, such as “security,” or of groups of data points, such as
+“fairness,” or “accuracy,” which measures the distance from the AI
+model’s/application’s output to the ground truth.
+
+As for income and wealth, a specific Lorenz curve and Gini index value
+does not necessarily imply a positive or a negative statement on the AI
+output. This is dependent on the comparison between the obtained values
+and some reference benchmarks and threshold which can be set by
+regulators and policy makers or by AI developers themselves, or
+calculated statistically.
+
+[]
+
+Diagram illustrating seven key aspects of a system, centered around a
+network icon. The aspects are: 1. Accuracy, 2. Security, 3.
+Explainability, 4. Fairness, 5. Privacy, 6. Environmental
+Sustainability, and 7. Human-in-the-Loop. Each aspect is connected to
+the central icon, highlighting their importance in the system's design
+and functionality.
+
+Following this rationale, we’ll adopt the Lorenz curve and Gini
+coefficient methodologies across the several Responsible AI principles
+outlined in the SAFE-HAI framework across the chapters of the book:
+
+1.  1.
+
+    Accuracy will be measured by comparing the Lorenz curve of the true
+    response with a similar curve obtained using the ranks of the
+    predictions provided by the model, leading to the Rank Graduation
+    Accuracy (RGA) measure.
+
+     
+
+2.  2.
+
+    Security will be measured by comparing the Lorenz curve of the
+    predictions with a similar curve obtained using the ranks of the
+    predictions obtained with the perturbed data, leading to the Rank
+    Graduation Robustness (RGR) measure.
+
+     
+
+3.  3.
+
+    Explainability of an input variable will be measured by comparing
+    the Lorenz curve of the predictions with a similar curve obtained
+    using all input variables except the one under examination, leading
+    to the Rank Graduation Explainability (RGE) measure.
+
+     
+
+4.  4.
+
+    Fairness of a (protected) input variable will be measured in a
+    similar way as explainability, by comparing the Lorenz curve of the
+    predictions for each population group contained in the protected
+    variable, leading to a Rank Graduation Fairness (RGF) measure.
+
+     
+
+5.  5.
+
+    Privacy will measure how the Lorenz curve of the predictions varies
+    when it “forgets” (eliminates) one or more records, leading to a
+    Rank Graduation Privacy (RGP) measure.
+
+     
+
+6.  6.
+
+    Environmental sustainability will measure the explainability of
+    specific environmental (but also social and governance) factors,
+    leading to a Rank Graduation Sustainability (RGS) measure.
+
+     
+
+7.  7.
+
+    Human-in-the-loop will measure the impact of human actions and
+    interventions on the AI output, leading to a Rank Graduation Human
+    Oversight (RGH) measure.
+
+     
+
+We believe that the application of the Lorenz curve methodology to the
+AI output, which will be described in depth in the following chapters
+(along with its Python code to guide implementation, illustrated in the
+case study chapter), can lead to a set of SAFE-HAI metrics which fits
+well within the requirements of the recently proposed recommendations
+and regulations, such as the US AI Risk Management Framework and the EU
+AI Act mentioned earlier in this chapter. The Lorenz curve methodology
+can also be employed to derive further compliance metrics and evaluate
+the qualitative aspects of the AI output, such as privacy preservation,
+environmental sustainability, and the impact of HITL.
+
+In summary, the extension of the Lorenz curve to the AI output can
+provide a user-friendly tool designed to assess AI systems across
+different dimensions in an agnostic and transparent way. Following these
+risk management measurements, we’ll also provide details on mitigation
+measures to address identified harmful outputs using the NIST risk
+management framework requirements.
+
+While we’ve looked at a brief history of Responsible AI, its importance
+with a couple of real-life examples emphasizing the need for this body
+of work, AI governance, and different AI policies across the world and
+introduced the SAFE-HAI framework, it’s essential we delve more into
+this important topic and see how we can work with AI using Responsible
+AI principles. In the next chapter, we’ll look at “accuracy” as one of
+SAFE-HAI’s principles.
+
+Part IITechnical Risks (Internal to an Organization)
+
+© Toju Duke and Paolo Giudici 2025
+
+T. Duke, P. GiudiciResponsible AI in
+

@@ -1,0 +1,252 @@
+# Text slice — understanding_distributed_systems_2022_ch02_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 02
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+ing issues that will inevitably arise. More importantly, having an
+appreciation of the complexity of what happens when you make a
+network call will make you a better systems builder.
+
+Chapter 2 describes how to build a reliable communication chan-
+nel (TCP) on top of an unreliable one (IP), which can drop or dupli-
+cate data or deliver it out of order. Building reliable abstractions
+on top of unreliable ones is a common pattern we will encounter
+again in the rest of the book.
+
+                                                                   15
+
+
+Chapter 3 describes how to build a secure channel (TLS) on top
+of a reliable one (TCP). Security is a core concern of any system,
+and in this chapter, we will get a taste of what it takes to secure a
+network connection from prying eyes and malicious agents.
+Chapter 4 dives into how the phone book of the internet (DNS)
+works, which allows nodes to discover others using names. At its
+heart, DNS is a distributed, hierarchical, and eventually consistent
+key-value store. By studying it, we will get the ﬁrst taste of even-
+tual consistency8 and the challenges it introduces.
+Chapter 5 concludes this part by discussing how loosely coupled
+services communicate with each other through APIs by describing
+the implementation of a RESTful HTTP API built upon the proto-
+cols introduced earlier.
+
+
+
+
+  8
+      We will learn more about consistency models in chapter 10.
+
+
+Chapter 2
+
+
+Reliable links
+
+At the internet layer, the communication between two nodes hap-
+pens by routing packets to their destination from one router to the
+next. Two ingredients are required for this: a way to address nodes
+and a mechanism to route packets across routers.
+
+Addressing is handled by the IP protocol. For example, IPv6 pro-
+vides a 128-bit address space, allowing 2128 addresses. To decide
+where to send a packet, a router needs to consult a local routing
+table. The table maps a destination address to the address of the
+next router along the path to that destination. The responsibility
+of building and communicating the routing tables across routers
+lies with the Border Gateway Protocol (BGP1 ).
+
+Now, IP doesn’t guarantee that data sent over the internet will
+arrive at its destination. For example, if a router becomes over-
+loaded, it might start dropping packets. This is where TCP2 comes
+in, a transport-layer protocol that exposes a reliable communica-
+tion channel between two processes on top of IP. TCP guarantees
+that a stream of bytes arrives in order without gaps, duplication,
+or corruption. TCP also implements a set of stability patterns to
+   1
+     “RFC 4271: A Border Gateway Protocol 4 (BGP-4),” https://datatracker.ietf.o
+rg/doc/html/rfc4271
+   2
+     “RFC 793: Transmission Control Protocol,” https://tools.ietf.org/html/rfc793
+
+CHAPTER 2. RELIABLE LINKS                                                18
+
+
+avoid overwhelming the network and the receiver.
+
+
+
+2.1     Reliability
+To create the illusion of a reliable channel, TCP partitions a byte
+stream into discrete packets called segments. The segments are
+sequentially numbered, which allows the receiver to detect holes
+and duplicates. Every segment sent needs to be acknowledged
+by the receiver. When that doesn’t happen, a timer ﬁres on the
+sending side and the segment is retransmitted. To ensure that the
+data hasn’t been corrupted in transit, the receiver uses a checksum
+to verify the integrity of a delivered segment.
+
+
+
+2.2     Connection lifecycle
+A connection needs to be opened before any data can be transmit-
+ted on a TCP channel. The operating system manages the connec-
+tion state on both ends through a socket. The socket keeps track of
+the state changes of the connection during its lifetime. At a high
+level, there are three states the connection can be in:
+
+   • The opening state in which the connection is being created.
+   • The established state in which the connection is open and
+     data is being transferred.
+   • The closing state in which the connection is being closed.
+
+In reality, this is a simpliﬁcation, as there are more states3 than the
+three above.
+
+A server must be listening for connection requests from clients be-
+fore a connection is established. TCP uses a three-way handshake
+to create a new connection, as shown in Figure 2.1:
+
+   1. The sender picks a random sequence number x and sends a
+      SYN segment to the receiver.
+   3
+     “TCP State Diagram,” https://en.wikipedia.org/wiki/Transmission_Control
+_Protocol#/media/File:Tcp_state_diagram_fixed_new.svg
+
+CHAPTER 2. RELIABLE LINKS                                       19
+
+
+  2. The receiver increments x, chooses a random sequence num-
+     ber y, and sends back a SYN/ACK segment.
+  3. The sender increments both sequence numbers and replies
+     with an ACK segment and the ﬁrst bytes of application data.
+
+The sequence numbers are used by TCP to ensure the data is de-
+livered in order and without holes.
+
+
+
+
+                Figure 2.1: Three-way handshake
+
+The handshake introduces a full round-trip in which no applica-
+tion data is sent. So until the connection has been opened, the
+bandwidth is essentially zero. The lower the round trip time is,
+the faster the connection can be established. Therefore, putting
+servers closer to the clients helps reduce this cold-start penalty.
+
+After the data transmission is complete, the connection needs
+to be closed to release all resources on both ends. This termi-
+nation phase involves multiple round-trips. If it’s likely that
+another transmission will occur soon, it makes sense to keep the
+connection open to avoid paying the cold-start tax again.
+
+Moreover, closing a socket doesn’t dispose of it immediately as it
+
+CHAPTER 2. RELIABLE LINKS                                        20
+
+
+transitions to a waiting state (TIME_WAIT) that lasts several min-
+utes and discards any segments received during the wait. The
+wait prevents delayed segments from a closed connection from be-
+ing considered part of a new connection. But if many connections
+open and close quickly, the number of sockets in the waiting state
+will continue to increase until it reaches the maximum number of
+sockets that can be open, causing new connection attempts to fail.
+This is another reason why processes typically maintain connec-
+tion pools to avoid recreating connections repeatedly.
+
+
+
+2.3    Flow control
+Flow control is a backoff mechanism that TCP implements to
+prevent the sender from overwhelming the receiver. The receiver
+stores incoming TCP segments waiting to be processed by the
+application into a receive buffer, as shown in Figure 2.2.
+
+
+
+
+Figure 2.2: The receive buffer stores data that hasn’t yet been pro-
+cessed by the destination process.
+
+The receiver also communicates the size of the buffer to the sender
+whenever it acknowledges a segment, as shown in Figure 2.3.
+
+CHAPTER 2. RELIABLE LINKS                                         21
+
+
+Assuming it’s respecting the protocol, the sender avoids sending
+more data than can ﬁt in the receiver’s buffer.
+
+
+
+
+Figure 2.3: The size of the receive buffer is communicated in the
+headers of acknowledgment segments.
+
+
+This mechanism is not too dissimilar to rate-limiting at the service
+level, a mechanism that rejects a request when a speciﬁc quota is
+exceeded (see section 28.3). But, rather than rate-limiting on an
+API key or IP address, TCP is rate-limiting on a connection level.
+
+
+
+2.4    Congestion control
+TCP guards not only against overwhelming the receiver, but also
+against ﬂooding the underlying network. The sender maintains
+a so-called congestion window, which represents the total number
+of outstanding segments that can be sent without an acknowledg-
+ment from the other side. The smaller the congestion window is,
+the fewer bytes can be in ﬂight at any given time, and the less band-
+width is utilized.
+
+CHAPTER 2. RELIABLE LINKS                                                 22
+
+
+When a new connection is established, the size of the congestion
+window is set to a system default. Then, for every segment ac-
+knowledged, the window increases its size exponentially until it
+reaches an upper limit. This means we can’t use the network’s full
+capacity right after a connection is established. The shorter the
+round-trip time (RTT), the quicker the sender can start utilizing
+the underlying network’s bandwidth, as shown in Figure 2.4.
+
+
+
+
+Figure 2.4: The shorter the RTT, the quicker the sender can start
+utilizing the underlying network’s bandwidth.
+
+What happens if a segment is lost? When the sender detects a
+missed acknowledgment through a timeout, a mechanism called
+congestion avoidance kicks in, and the congestion window size is
+reduced. From there onwards, the passing of time increases the
+window size4 by a certain amount, and timeouts decrease it by an-
+other.
+
+As mentioned earlier, the size of the congestion window deﬁnes
+the maximum number of bytes that can be sent without receiving
+   4
+     “CUBIC: A New TCP-Friendly High-Speed TCP Variant,” https://citeseerx.is
+t.psu.edu/viewdoc/download?doi=10.1.1.153.3152&rep=rep1&type=pdf
+
+CHAPTER 2. RELIABLE LINKS                                                   23
+
+
+an acknowledgment. Because the sender needs to wait for a full
+round trip to get an acknowledgment, we can derive the maximum
+theoretical bandwidth by dividing the size of the congestion win-
+dow by the round trip time:
+
+                                           WinSize
+                         Bandwidth =
+                                            RTT
+
+The equation5 shows that bandwidth is a function of latency. TCP
+will try very hard to optimize the window size since it can’t do
+anything about the round-trip time. However, that doesn’t always
+yield the optimal conﬁguration. Due to the way congestion control
+works, the shorter the round-trip time, the better the underlying
+network’s bandwidth is utilized. This is more reason to put servers

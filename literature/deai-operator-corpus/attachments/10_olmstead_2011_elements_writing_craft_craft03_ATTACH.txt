@@ -1,0 +1,1299 @@
+10_olmstead_2011_elements_writing_craft_craft03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: olmstead_2011_elements_writing_craft
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/10_olmstead_2011_elements_writing_craft_craft03_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/10_olmstead_2011_elements_writing_craft_craft03.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/10_olmstead_2011_elements_writing_craft_craft03.txt).
+========================================================================
+
+OPENING WITH AN ENCOUNTER, NONFICTION
+
+READING
+
+Summer, ninety-five degrees. The residential unit for chronic schizophrenics sits dead and silent in the heat. I ring the bell and a fat sweating boy, his face a mash of pimples, answers. “I am here to see Dr. Siley,” I say, glancing down at the job advertisement in my hand. The pimply-faced boy stares and stares at me. I can tell, from his fatness and sweat, that he is a patient. He reaches out and touches my neck. I flinch.
+
+FROM THE MEMOIR WELCOME TO MY COUNTRY, BY LAUREN SLATER
+
+LESSON
+
+The writing begins by efficiently establishing time and place, something we expect of all writing sooner or later. The first person comes forward in the third sentence, but because it's a memoir, we expected that before we even began to read. In our lives we like to know where we are, when it is, and who is talking to us. A writer must fulfill or at least address this need. This writer is taking us into a very difficult world. It's important that the reader be guided through as clearly and artfully as possible. The writer rang that bell some time ago and now she is reenacting it on the page so we might make this entry with her and experience what she has experienced. Keep in mind, also, she is an expert and the reader is not. She takes special care of the reader because she understands how very different this world is. She returns to the moment so we are entering with her.
+
+WRITING POSSIBILITIES
+
+1. Do you have a job or a life experience that someone might want to read about? A time worth revisiting? It is strange how bad we are at recognizing the significance of our own experiences. We tend to see them as being more or less important than they really are. What makes an experience worth telling? List ten subtle clues. For example: When you are in a group, there is a particular story your friends want you to tell; there's a story your children want to hear again and again; there's an experience a group of you had together and years later you still talk about it.
+
+2. As we work through these next two exercises, use an event from exercise one or feel free to write fiction. Let's begin by filling in the following frame based on Slater's passage: (Season), (temperature). The _____ for _____ sits _____ and _____ in the (heat, cold, wind?). I (ring the bell, knock on the door, let myself in?) and a _____ answers. “I am here to see _____,” I say, glancing down at the _____. The ______ _____ at me. I can tell, from _____, that (he/she) is a _____. (He/she)_____ and _____ my _____. I _____.
+
+3. Imagine you are taking your reader into a place of delight. Begin again: (Season), (temperature). The _____ for _____ sits _____ and _____ in the _____. I ring the bell and … (Continue.) I smile.
+
+4. Draw Slater's text away from its original construction. Begin: (Year). Summer and ninety-five degrees. The (barracks?) for (new recruits?) sat dead and silent in the heat. … (Continue.)
+
+5. Draw it away even further. Begin: 1997. Winter and twenty-three degrees. The water for the livestock froze block solid in the cold. I called the plumber and a fat bundle of a man arrived, his face a … (Continue.)
+
+OPENING IN AFTERMATH
+
+READING
+
+The other victim the summer my wife left me was my dreamlife, which, like a mirage, dried up completely the closer we came to the absolute end of us. In the fourteen years we were married, I had been a ferocious dreamer, drawing all I knew or feared or loved about the waking world into my sleeplife.
+
+FROM THE STORY “DREAMS OF DISTANT LIVES,” BY LEE K. ABBOTT
+
+LESSON
+
+Often the unpleasant events in our lives are most dramatic, most suited to story. But unpleasantness is difficult to talk about. A good place to start might be once the dust has settled. Abbott begins in the aftermath of a broken relationship. But the narrator is finding a way to tell about the pain of something large and incomprehensible by talking about the pain of something small and inconsequential, the strange loss of dreamlife. Our minds find a place where they can endure what is unendurable. The first sentence likens the dreamlife to a mirage, which is the central part of the sentence, and the relationship begins and ends the sentence. The second sentence with its fourteen years sharpens the breakup; the word ferocious sharpens the dreamlife. This story goes on for many paragraphs recounting the demise of the dreamlife before the narrator finally settles into the story he wants to tell.
+
+WRITING POSSIBILITIES
+
+1. Abbott enters this story, in a sense, at the end. He invokes the chain of events that precede the breakup of a marriage with the phrase my wife left me. He doesn't need to give the details at this point, but knows he can depend upon the reader to realize the size of what came before. Start a story of your own this way. Write at least two paragraphs. A perfectly good word to begin with is after. Two examples: After the house burned down; After my mother broke her hip.
+
+2. Open a story with a tragedy and some small parallel event. Perhaps a death is accompanied by a profound loss of appetite, a bankruptcy by a dying lawn, a loss of faith by forgetfulness. Write at least two paragraphs in this vein.
+
+3. Open a story in the aftermath of a joyful occasion. Something new has come into a character's life, a success of sorts. Let a small good thing accompany this occasion too. Baseball players on a hitting streak have all manner of superstitions they follow. Maybe your character is a traveling saleswoman who has a lucky charm. Write a few paragraphs to open this story.
+
+STORYTELLING IN NONFICTION
+
+READING
+
+“… She ran the forty feet. There was no tree for me to climb. You can't fight a bear. They are so strong. She wrapped around me. I tried to put my stuff sack in her mouth so she wouldn't bite me, but it didn't work. She came at me seven times. I looked her in the eye. People say you shouldn't look a bear in the eye, but I wanted to tell her: ‘Don't do this to me. ’ But she wanted me.
+
+“She lifted me off the ground by my elbow. I'm what you call a six-foot woman. I weighed 160 pounds then. I weigh less now, after the operations. I don't really know what happened. I hope to remember some day. It was so quick. The next thing I knew I was on the ground and she was gone. It was almost like a dream.”
+
+FROM THE BOOK KAYAKING THE FULL MOON, BY STEVE CHAPPLE
+
+LESSON
+
+Chappie is retelling a true story, and he lets the victim recount the drama of the attack. This is an extraordinary personal experience—not many people have been attacked by bears and survived. Often the best way to tell the story of something many people have never experienced is to carefully detail the action: she ran, she wrapped, she came at me, she wanted me, she lifted me. The victim then also tells her reactions just as clearly and simply: you can't fight a bear, I tried, I looked her in the eye. The intensity of the moment is revealed in these short sentences, like gunshots or breathlessness. The woman gives an idea of her injuries when she says that she weighs less now after the operations, and as the passage continues she points out the specific damage the bear caused to her body. These are the marks left behind. The woman says she really doesn't know what happened, but now she has these injuries like a map of the event on her body. Remember, as a writer of nonfiction you must seek out your stories. You must adhere to the facts.
+
+WRITING POSSIBILITIES
+
+1. What are some unusual, survivable dramatic experiences that you can report? Make a list of ten. For example: being struck by lightning; waiting out a hurricane; being trapped in a car wreck, in a snowstorm, under ice.
+
+2. Now find a person who has had one of these experiences, a friend or a relative. Interview him on precisely what occurred. What was going on around him? What was happening to him? What was he feeling and thinking? You can use this material in either fiction or nonfiction.
+
+3. Find some detail left behind by the disaster, like the bear victim's injuries. For example, in a hurricane, there could be a board driven through a palm tree. If a person falls through ice, there is the hole that freezes over. Details like this can shape your story. Use this key detail in a descriptive paragraph or two.
+
+4. Decide whether to tell the story yourself or let those who experienced it tell their own story. Chappie lets this woman tell her own story because she is a good storyteller. Base your decision on the information you've collected and write your story.
+
+REPORTING IN NONFICTION
+
+READING
+
+Kazmann got into his car, crossed the Mississippi on the high bridge at Baton Rouge, and made his way north to Old River. He parked, got out, and began to walk the structure. An extremely low percentage of its five hundred and sixty-six feet eradicated his curiosity. “That whole miserable structure was vibrating,” he recalled years later, adding that he had felt as if he were standing on a platform at a small rural train station when “a fully loaded freight goes through.” Kazmann opted not to wait for the caboose. “I thought, This thing weighs two hundred thousand tons. When two hundred thousand tons vibrates like this, this is no place for R. G. Kazmann. I got into my car, turned around, and got the hell out of there.”
+
+FROM THE BOOK THE CONTROL OF NATURE, BY JOHN MCPHEE
+
+LESSON
+
+Sometimes we need to get facts across to our readers in the quickest, most efficient way possible. This is reporting, not storytelling, and this is the technique McPhee uses. Nonfiction also depends upon people to carry its message, just the way a story would. Except for a word or two, this passage from McPhee could easily be mistaken for a story excerpt, and Kazmann for a character in that story. Facts are precise and places are named. McPhee recounts Kazmann's sensation of being on this dam. We rely on our characters, real and fictional, to share their impressions as well as their knowledge. Whether you are writing fiction or nonfiction, it is done the same way, except one is supposed to be true.
+
+WRITING POSSIBILITIES
+
+1. Rewrite this McPhee quote as a piece of fiction, perhaps the opening to a story. Rename Kazmann. Make up all your places, states and cities. Create a structure to put your character on such as a bridge, a dam, a skyscraper; make up its dimensions and your character's perceptions of those dimensions. Think about the third sentence. Does that work as fiction?
+
+2. How do you have a character tell his feelings in his own words? You just do it. Settle your character in the position of a storyteller. Here are some examples to get you started: He sat down and lit a cigarette. “That whole building was on fire by the time I got there,” he recalled years later. … She sat back and put her feet up on the hassock. “I don't really know how it all started,” she said to no one in particular … He flew into Charlotte, landed in a fog and walked away. “It was the smartest thing I ever did,” he said, years later. … Now try it yourself. Briefly describe a character and then launch him into his own feelings in dialogue.
+
+3. Description by the numbers. The dam is 566 feet. It weighs 200, 000 tons. Think about size, distance and weight as ways of describing. Be precise. If you have a car rolling over on the highway, how much weight is tumbling through the air? How far is it from Concord, New Hampshire, to Charlotte, North Carolina? How long does it take to bake a meat loaf?
+
+4. Look at the first sentence of the reading. Put someone in a car. Send him across a river on a certain bridge, have him turn in the direction of his destination. Fill in the blanks: He got into his car, crossed _____ on _____ at _____, and made his way _____ to _____; She walked down _____ to _____ where she turned up _____ and crossed _____ to _____.
+
+HIGH DRAMA IN NONFICTION
+
+READING
+
+… Pat is in the chair now and guards are moving quickly, removing the leg irons and handcuffs and replacing them with the leather straps. One guard has removed his left shoe. They are strapping his trunk, his legs, his arms. He finds my face. He says, “I love you.” I stretch my hand toward him. “I love you, too.”
+
+He attempts a smile (he told me he would try to smile) but manages only to twitch.
+
+A metal cap is placed on his head and an electrode is screwed in at the top and connected to a wire that comes from a box behind the chair. An electrode is fastened to his leg. A strap placed around his chin holds his head tightly against the back of the chair. He grimaces. He cannot speak anymore. A grayish green cloth is placed over his face.
+
+Millard says, “Father forgive them, for they know not what they do.”
+
+Only the warden remains in the room now, only the warden and the man strapped into the chair. The red telephone is silent. I close my eyes and do not see as the warden nods his head, the signal to the executioner to do his work.
+
+I hear three clanks as the switch is pulled with pauses in between. Nineteen hundred volts, then let the body cool, then five hundred volts, pause again, then nineteen hundred volts. “Christ, be with him, have mercy on him,” I pray silently.
+
+FROM THE BOOK DEAD MAN WALKING. BY HELEN PREIEAN, C. S. J.
+
+LESSON
+
+This is the moment before a death, an excerpt from Prejean's nonfiction account of her correspondence with a death row prisoner. She tells exactly how Pat is placed in the electric chair, how he is strapped down. The careful details build tension. Prejean wants us to be intimate with this process. The guards and the warden and the silent red telephone that would bring a last-minute pardon are all details of inevitability. They highlight the feelings of doom. Prejean closes her eyes and does not see the actual moment of execution. She finds no refuge in her mind, however. She knows exactly what is happening as the switch is pulled. Her solace is prayer.
+
+The telling is straight subject-verb. In the face of this most extraordinary event, the writer has removed herself as much as possible, letting the facts speak for themselves. But not quite. She has decided to use the present tense, making the events immediate. It seems Prejean is telling the story in a straight chronological order, but she isn't. She is also accounting for simultaneous actions, or actions completed. Few events happen one at a time. The second sentence is an action already completed. Reportage has its own difficulties being precise with time, place, and event.
+
+WRITING POSSIBILITIES
+
+1. The present tense is a way to create immediacy, a sense that the drama is unfolding before your eyes. Rewrite Prejean's passage in the past tense. What do you do with the words now and pause? Which draft is better?
+
+2. In the third paragraph, Prejean seems to tell of actions without actors when she writes a metal cap is placed, an electrode is fastened. But not so. In the first paragraph it is established that the guards are doing this work. Write a set of sentences describing a process without an actor. Use this technique to describe actions that are bringing doom and drama.
+
+3. Prejean uses the phrase I close my eyes. Given the situation, we have every reason to believe she did close her eyes. Try opening a story with a phrase like this. What are other examples? Perhaps I cover my ears. Write two or three paragraphs in which a character has purposely closed off one of her senses. This effect heightens the drama of the event. Remember, however, that at some point the character must undo such an act so narrative might continue.
+
+DAILY DRAMA IN NONFICTION
+
+READING
+
+… “I slammed the door on her finger,” Colleen said sorrowfully as she set Cara down on the counter and took off her blue mitten. Then I heard her scream. “Her finger came off! The top of her finger came off, Don!”
+
+It was more than the bills for the emergency room and the hand surgeon that carried me back to the house to ask for a job. It was the memory of me just standing there in the kitchen inside my fears, taking all that time to feel sorry for myself while Colleen zipped Cara inside her down coat. …
+
+FROM THE ESSAY “WINTER WORK: DIARY OF A DAY LABORER,” BY DON J. SNYDER
+
+LESSON
+
+Too often we are taught that essay is about idea. It is discussed in terms of logic, argument, theory and delivery. Yes, essays are about ideas, but the writer is telling the story of that idea. Based on what you learned in school, you would not know this is an essay even if you read the whole piece. This is an essay about a man who has been out of work for eighteen months and finds a job as a carpenter building a mansion. He has just moved to Maine with his wife and four children, and he is really not qualified to be a carpenter but needs the work. This essay is about the risks we take when we're in need. It's about being out of work and desperate.
+
+Notice how the word as in the first sentence efficiently creates simultaneous action. The word then moves us forward within the small drama of the moment. The trip to the emergency room, being there, and coming home all happen offstage. After the word coat, thirteen more words get us out the door and on the way to the hospital. A line break ends the movement. The true drama of Cara's injury is what lingers in our minds. This is the use of dense dramatic narrative.
+
+WRITING POSSIBILITIES
+
+1. People are always getting hurt. Remember a real situation where someone you cared about was suddenly injured or suddenly discovered he'd injured someone else. Rewrite the beginning of the quote. Use thefollowing frame: “I _____,” _____ said sorrowfully as (he/she)_____ and _____. Then I heard (him/her)_____”_____.”
+
+2. Continue with the second movement, the one that references but does not tell all that followed. You can change subject matter or actually continue with exercise one. Notice the movement of Snyder's in … inside … inside. Try to replicate this as you write, perhaps with another set of prepositions. Use the following frame: It was more than _____ and the _____ that carried me _____. It was the memory of _____ in the _____ inside _____, _____ while … (Continue.)
+
+3. Now either combine exercises one and two or complete each one separately. Consider combining them even if you were thinking about different subject matter when you wrote them. You will probably need to change some words of fact, but change as few as possible. You may have arrived at something interesting.
+
+4. Move to fiction. In exercises one, two and three you were working with real events. Do the same exercises again with made-up events.
+
+STORY INSIDE STORY
+
+READING
+
+… It was with these feelings that he heard the uncle's suddenly solemn voice. What was this voice, this tone? What story?
+
+It was in the dark afternoon on a November day of sleet, told the uncle. We waited and we waited for Louetta to get home from her trip into town. The darker it got the scareder we got.
+
+FROM THE STORY “HAD 1 A HUNDRED MOUTHS,” BY WILLIAM GOYEN
+
+LESSON
+
+Often we wish to tell a story inside a story. The problem is how to move gracefully into this story. Goyen begins with the boy hearing his uncle's voice as if it were coming from a strange place. Goyen is moving both the reader and the listener within the larger story. The movement is gradual and inexorable, as if sliding under water, falling under a spell. The first move is the solemn sound of the voice. Then the question, What voice?, then a reference to tone, then, What story? Before an answer is forthcoming, the story commences, yet we are not sure until we too are already under its spell and read the words told the uncle. The story thus is begun.
+
+WRITING POSSIBILITIES
+
+1. Storytellers inside your stories, in all likelihood, will sound different from the narrator. They will tell their story in a way that is unique within the larger story. Begin with the sound of a voice. Make a list of ten phrases that describe a voice. A few examples: his father's voice was but a whisper; her voice like a reed.
+
+2. Use questions to move into your story. Choose one of the phrases from exercise one and add three questions to move into your story. For example: her voice was like a reed. What was this sound? Was this her voice? Her story?
+
+3. Now begin your interior story, and once inside, understand you have a new storyteller. For example: His father's voice was but a whisper. Why so quiet? Why such a whisper? What story?
+
+It was sunlit in December. Snowfields and cold, said my father. We walked and walked and walked. … (Continue.)
+
+MEMORY
+
+READING
+
+… The way I always see her is the way she used to be on a Sunday afternoon, say, when the old folks were talking after the big Sunday dinner. I always see her wearing pale blue. She'd be sitting on the sofa. … Maybe somebody's got a kid in his lap and is absent-mindedly stroking the kid's head. Maybe there's a kid, quiet and big-eyed, curled up in a big chair in the corner. The silence, the darkness coming, and the darkness in the faces frighten the child obscurely.
+
+FROM THE STORY “SONNY'S BLUES,” BY JAMES BALDWIN
+
+LESSON
+
+More often than not, storytelling is the act of bringing forth memory onto the page. As we remember, so do our characters. But not so fast. Memory on the page is an act of storytelling in all its fullness. In these passages from the same paragraph, the narrator tells the story of his memory. He sees his mother in a time and a place. But note the use of the word say. It is used the same way we might use maybe. When he uses the word say, he is calling upon you to agree with him. In the second sentence he repeats the phrase I always see her.
+
+Later on in the movement the word say becomes maybe. So that his memory might include as much as possible, he writes the scene as if it were held immovable in time and place. He writes the scene as if he, too, is trying to hold it in place. He makes for the possibility of a child curled up in a chair; then in the next sentence he evokes that child as if it were really there and carries that through the paragraph and into the next one. His repetition of words is like the cupping of photographs in his hands. He is seeing with his eyes closed, conjuring up the past.
+
+WRITING POSSIBILITIES
+
+1. Perhaps it's time to go after that one memory you have always wanted to commit to the page. Maybe it changed your life for the good or bad. Maybe it's a small special memory you have always carried inside your head and don't quite know why. Write down this memory in loose phrases and words. Be as precise as you can about what you remember, but don't worry about making good sentences.
+
+2. Use the words Baldwin used to translate that memory onto the page. Begin:
+
+The way I always see (person, place, event) is the way (he/she/it) used to be. … I always see (him/her/it) … (He'd/She'd/It'd) be … Maybe somebody's … Maybe there's …
+
+3. With the exception of the word silence, this memory is all visual. In a few paragraphs, describe a memory in terms of another sense: hearing, smell, taste, touch.
+
+FACT TO FICTION
+
+READING
+
+… It is known that Muhammad composed the Koran after attacks of epilepsy. Black Elk experienced fits before his grand “buffalo” vision. Joan of Arc is thought to have been a left-temporal-lobe epileptic. Each of these in a terrible flash of brain lightning was able to pierce the murky veil of illusion which is spread over all things. Just so did the scales fall from my eyes. It is called the “sacred disease.”
+
+But what a price. I rarely leave the house anymore. To avoid falling injuries, I always wear my old boxer's headgear, and I always carry my mouthpiece.
+
+FROM THE STORY “THE PUGILIST AT REST.” BY THOM JONES
+
+LESSON
+
+One of the reasons we read is to learn. We are drawn to small bits of knowledge, and we trust writers who speak with authority. Jones begins this passage by citing the lore of epilepsy. Notice how each example is focused on a different aspect. The writer then sums up by saying what is common about them: Each of these. … Then the narrator explains why he is telling us this, because he, too, is subject to seizures. Then he backs away for a moment, letting this information sink in, strikes a new paragraph and begins his own story.
+
+WRITING POSSIBILITIES
+
+1. Think of a condition that afflicts us, such as epilepsy. Find out its claim to fame, its subtlety, its nuance. Come up with a page full of these facts.
+
+2. Describe in a paragraph how a character might live with one of your afflictions. Your lore doesn't have to be encyclopedic. Make it up, if you like. For example: It was known that my Uncle Phil often went to the mailbox in his sleep. Aunt Rose would rise up from her naps and walk about the house in broad daylight. My grandfather is said to have gone to the barn and milked cows in his sleep. Just so do I wander my own house, walking in my sleep.
+
+3. Now follow exercise two with a new paragraph that moves away from the lore of your character's affliction to the personal experiences of it, the day-to-day life. For example:
+
+… Just so do I wander my own house, walking in my sleep.
+
+But it's okay. Before I go to bed, I lock the doors and windows, hide the keys. I padlock the cellar door and, for some reason I don't know, I wrap the knives in towels.
+
+PERCEIVING
+
+READING
+
+“I have a headache,” Jane says.
+
+Milly nods. Her expression seems to indicate how unimportant she finds this, as if Jane had told her she'd already got over a cold or something. “They're in the garage now,” she says.
+
+“Who?”
+
+“Teddy, Wally, Martin. Martin conquered the world.”
+
+FROM THE STORY “THE FIREMAN'S WIFE,” BY RICHARD BAUSCH
+
+LESSON
+
+Notice how Bausch depends upon Jane's perception to tell us the nature of Milly's response. Imagine how difficult it would be to give Milly's nod the action required to gain the desired effect. Milly does not act out her feelings. She simply nods and the reading of that nod is placed inside Jane's head.
+
+WRITING POSSIBILITIES
+
+1. Make a list of a dozen simple acts. Some examples: John smiled. Mary shook her head.
+
+2. Now make the next move and let another character interpret one of your simple actions. Depend upon Bausch's words to get started. For example: John smiles. His expression seems to indicate …
+
+3. Pick another simple action but have your other character interpret this one negatively. For example: Mary shook her head. But her expression did not seem to indicate she was against the idea. …
+
+CONFLICT
+
+READING
+
+… I used to imagine it wasn't the 'flu that killed my mother, but a broken heart at the death of her beloved.
+
+But the truth of the matter was he'd moved into a logging shack a year before he'd broke his neck, and only showed up to our house at twilight on Saturday nights to have at my mother, then to attend church the next morning, his black hair slicked back and shiny with pomade.
+
+FROM THE STORY “TWO STORIES,” BY BRET LOTT
+
+LESSON
+
+Conflict in this case is not so simple as a disagreement, not so simple as the tug and pull of opposites. Lott writes of the conflicted mind. He calls on the imagining of a broken heart, the fact of 'flu, the truth of abandonment, and the reality of a broken neck—all in four lines. The conflict occurs within a contentious mind, a mind that has to face up to the differences between imagination and truth. Also he explores the way the imagination can still operate in the face of what it knows to be a fact.
+
+WRITING POSSIBILITIES
+
+1. Make two lists, one for phrases similar to I used to imagine and a second list for phrases similar to But the truth of the matter. Do five phrases for each. For example: I used to think, but to tell you the truth …
+
+2. Try several sentences like Lott's first. Use the frame: I used to imagine it wasn't _____ but _____. For example: I used to imagine it wasn't the meanness that broke us up, but the long cold winters in Wyoming.
+
+3. Select one of your first sentences and now make your second move. Use the frame:
+
+I used to imagine it wasn't _____ but _____.
+
+But the truth was _____.
+
+For example:
+
+I used to imagine it wasn't the meanness that broke us up, but the long cold winters in Wyoming.
+
+But the truth was she used to break things and slam doors, and one time she slammed a door on my hand, saying it was an accident.
+
+DECIDING
+
+READING
+
+… Then it occurred to him that by taking a dogleg to the southwest he could reach his home by water.
+
+His life was not confining and the delight he took in this observation could not be explained by its suggestion of escape. He seemed to see, with a cartographer's eye, that string of swimming pools, that quasi-subterranean stream that curved across the county. He had made a discovery, a contribution to modern geography; he would name the stream Lucinda after his wife.
+
+FROM THE STORY “THE SWIMMER,” BY JOHN CHEEVER
+
+LESSON
+
+Stories are about change. Sometimes what brings about change is outside of us: an act of man or nature. Sometimes what brings about change is inside of us. Sometimes we decide a change is in order. The decision in Cheever's story finds a place in the character's being, specifically his eye. It is something seen. Cheever illustrates the decision making with references to a cartographer, a string, a stream, a discovery, geography. The decision becomes a vision. This all begins when it occurs to the character that between him and home are backyard pools. It's a simple thought he stitches together. The change in paragraphs allows the character to step back with his fresh idea and let it come into his life.
+
+WRITING POSSIBILITIES
+
+1. Let a character make a decision at the outset of your story. Examine the passage above and find Cheever's phrases that describe the process of deciding something. Write a new and different decision of your own character's making for each of the phrases you find. To get you started: It occurred to him that _____. The decision took hold. She could _____. He'd made a discovery. He could _____.
+
+2. Place the decision within the character as Cheever does in the second paragraph, only depend upon another sense. For example: He took in this feeling … ; He seemed to hear a clear message. …
+
+3. Cheever uses an extended metaphor to illustrate his character's decision. Try making one of these yourself. Start by listing a group of associated words. For example: aviator's eye, elevation, jet stream, wind shear, cloud cover, visibility; weatherman's mind, fronts, systems, precipitation, accumulation, heat wave. Now write your paragraph, but be careful. These can get silly pretty fast.
+
+REVELATION
+
+READING
+
+Monday morning an answer—or at least a possibility—was waiting for him, as though it had actually chosen to enter his mind now, with the buzzing of the alarm clock. He got up quickly and stood in a shaft of sunlight on the floor. Maxine rolled away from the clock and was still asleep.
+
+FROM THE STORY “THE DOCTOR.” BY ANDRE DUBUS
+
+LESSON
+
+A revelation is a momentary occurrence, like being awakened or shaken by the shoulders or slapped in the face. Dubus gives his character such a moment coming out of sleep. He pairs opposite actions. The sleep is quiet and calm and dreamy, and the revelation is quick and pulls him to his feet. There is stillness and then sudden motion, much like the way a revelation comes. It's as if the answer were waiting for him to uncover it. The buzzing of the alarm clock is almost synonymous with the thought in his head—jarring and loud and clear as the shaft of sunlight he stands in. A revelation, too, is a personal thing. The character's wife is still asleep. She rolls away from the clock, does not participate.
+
+WRITING POSSIBILITIES
+
+1. Make a list of ten times when your mind is not paying attention to itself. For example: staring into space, driving on a long highway, petting a dog.
+
+2. Write a paragraph in which you give one of these activities to a character. Now bring her out of her quiet with an opposite action accompanied by the idea she's been waiting for. For example: I was driving through the desert when I slammed on the brakes. I knew what to do … ; He was stroking the cat in his lap when the possibility came over him and he got to his feet. …
+
+3. Now create a new paragraph in which you give your character an unaffected companion. For example: He was stroking the cat in his lap when the possibility came over him and he got to his feet. Lydia heard him slam the front door on his way out.
+
+INTENTION
+
+READING
+
+… He was ready to hang up when she answered.
+
+“Hello?” she said.
+
+He couldn't move. The voice went through him like ice. He could feel it even after she stopped speaking.
+
+“Hello?” she said again.
+
+He heard noise in the background, the TV going, and a man saying, “Who is it?” over the sound of the TV.
+
+“Who is this?” she said.
+
+He hung up the phone gently.
+
+He sat there for a long time, dazed, not feeling a thing.
+
+FROM THE STORY “LIVING THROUGH THE WINTER,” BY MARY BUSH
+
+LESSON
+
+Often we set out to do things with the best of intentions, but the outcome is not what we anticipated. Sometimes our intentions are not clear; nevertheless we are moved to act. It is the same way with our characters. A young boy makes a phone call. He intended to talk, but now he can't bring himself to do so. The scene is filled with sound. The voice that goes through him is like ice. The TV is going in the background. The image is of sound coming through a TV screen, which reminds us of a voice through ice. Also in the background is a man's voice. The boy's intentions are thwarted. Bush accounts for that moment of defeat by telling us the character is left dazed and not feeling a thing.
+
+WRITING POSSIBILITIES
+
+1. Instead of a phone call, imagine the intent is to mail a letter, to stop for milk or gas or to see someone. List five things you intended to do in just the last few days.
+
+2. Consider the interior of this quote. Imagine it's not a phone call, but a face-to-face encounter, a dialogue where a question goes unanswered. Try writing one of these. For example:
+
+She couldn't speak. She intended to tell her brother, but the sight of him made her want to hide her face.
+
+“What?” he said again. “What is it?”
+
+She could see how innocent he was, and behind him were his children and his pretty wife.
+
+“What?” he said. “Tell me.”
+
+She shook her head and he turned and walked away, his family following behind.
+
+She sat. …
+
+3. What about the opposite, an intention realized? Even when we intend to do something and carry it through, things don't always turn out as we anticipated. Sometimes the opposite of what we expect occurs. Perhaps we are still left dazed or defeated or turned away by our own unmet expectation. Write a passage in which a character does precisely what she intends to do.
+
+PREMONITION
+
+READING
+
+He bought the paper and some cigars and drank a Coca-Cola or two before he went in to breakfast with his father. After breakfast—out, out, out to attend to business. The getting out had in itself become the chief business. But he had realized that he could not keep this up much longer, and today he was afraid. He was aware that his routine was about to break up and he sensed that a huge trouble long presaged but till now formless was due. Before evening, he'd know.
+
+Nevertheless he followed his daily course and crossed the lobby.
+
+FROM THE NOVEL SEIZE THE DAY, BY SAUL BELLOW
+
+LESSON
+
+Sometimes in life we have the feeling that the future is sneaking up on us. It comes to us exactly as Bellow evokes it. We realize. We become aware. We feel a change in the air. There is little we can do about this. When it comes over us, it is still only a feeling. Call it intuition or premonition. It is that sense we are being followed by what is to come. And like Bellow's character, we go on with our lives, convinced for reasons not yet apparent that change is coming.
+
+WRITING POSSIBILITIES
+
+1. Make a list of synonyms for realize, aware, presage. Keep this list handy.
+
+2. Imagine you have a character who senses a change coming. Begin with two small acts. Rewrite Bellow's text, using this frame: He bought _____. After breakfast, _____.
+
+3. In Bellow's third sentence, a fact is established. This becomes the foundation of the premonition. Try sentences like these: The showing up for work had in itself become work. The driving had in itself become a reason not to make the trip.
+
+4. Now, from your list of synonyms, complete the movement into premonition. Fill out your paragraph by completing this frame: He realized _____. He was aware _____, and he sensed _____. Before evening, _____.
+
+5. Now move back to narrative. Bellow starts a new paragraph to make this move. Try the same technique yourself.
+
+ACTION TO INTERIOR
+
+READING
+
+… I will not defend myself. I was experiencing a peculiar revenge towards my sister. But I intended this familiarity to stop; I fully intended to control its limits.
+
+Later, when he drove onto the dirt road which led to the graveyard, saying that he had left something, I knew that my revenge had conjoined with his and that we would very soon prove uncontrollably, weakly submissive to our instincts.
+
+He parked behind the white shed, leaving the door of the truck yawning open.
+
+FROM THE STORY “SHED OF GRACE,” BY MELISSA PRITCHARD
+
+LESSON
+
+The narrator has reasons in her mind to betray her sister. Her sister's husband has reasons of his own. Their mutual ambitions become one. In the middle paragraph, Pritchard follows action with her character's interior. These thoughts interrupt the action, allowing it to take place without being narrated. This character is able to make these moves for several reasons. The most obvious reason is first person license, the first-person narrator's ability to make quick moves in and out of thoughts because of an intimate relationship with the reader. This character expresses a need to be understood by the reader, a need to explain her actions. She is self-conscious. She is the subject of her thoughts and deeds.
+
+WRITING POSSIBILITIES
+
+1. Make a list of the phrases particular to a character expressing his or her own interior. For example: I was experiencing … ; I fully intended … ; I was aware … ; I knew …
+
+2. Create a sentence in which you move from the action of the story to the interior thoughts of a character. For example: Earlier, when she went to town saying she needed groceries, I knew that my distrust of her would only grow with time.
+
+3. In the first two lines of the passage, the character explains herself. Create a small movement where one of your characters does the same thing. For example: I will not lie. I was enjoying what was happening to my town. But I intended to put a stop to it. I fully intended …
+
+REALIZATION
+
+READING
+
+I let the lamb go. It just lay there awhile. I had to kick it gently a couple of times before it stood up on its own. It cried to its mother. The old ewe came running, letting it hide under her body. I tipped my hatbrim up and let the wind cool my forehead. I tasted blood on my lips, spitting, already feeling tired. I looked around. There were a lot more undoctored sheep than it seemed. My face and eyes burned from the Sioux's holy sun. I knew at that moment this was not my future—not this farm, this labor, not this whole sphere of human toil. I would do anything I had to do to get away.
+
+FROM THE NOVEL LEAVING THE LAND, BY DOUGLAS UNGER
+
+LESSON
+
+Characters are like us in that they come to moments where they see the writing on the wall or, in this case, what's written in the sky, lit by the sun. The narrator catalogues his actions, step by step, and they clear his mind, prepare him for a realization, a decision that will beget decision. Beyond that this will not be his future; he turns on himself and confesses he will do anything he has to do to change his life's course. But before all that, see how the moment is built. The acts are small and can be witnessed. The first imperceptible act is the wind cooling his forehead. Then he tastes, then he feels and then he turns inward, toward the realization.
+
+WRITING POSSIBILITIES
+
+1. Think of a job or task that you know well, such as weeding a garden, paying bills or washing dishes. Write five succinct, precise sentences that lay out the sequence of the procedure. For example: I fill the sink with water. I let the dishes slide to the bottom. I squeeze out more soap and stir the water. It foams and bubbles at my wrist. The phone rings, but I don't dry my hands, don't answer it.
+
+2. Now describe what cannot be seen. Start with one of the senses. For example: The water is too hot for my hands. I feel them redden and swell, but the phone has stopped ringing. I knew then he would not be coming back. …
+
+3. Continue, telling what your character would not do. For example: … because I would not answer his call, would not say, I forgive you, would not open his letters, would not even remember he'd ever been a part of my life. I would do anything to not ever remember again.
+
+INTO DRAMATIC MOMENT
+
+READING
+
+I saw him many times, caught glimpses of his truck, of him, but only once in thirty years did he look back at me, last summer when Costin's old place caught heat and burned and everybody gathered there. The barn was still burning, but the house had gone. People shone flashlights over the ash pile, but there was nothing left to see but charred wood and one lone teapot on a blackened stove. Across the ashes that had been the house, against the blaze that was the barn, stood Call.
+
+FROM THE STORY “WHAT THE THUNDER SAID,” BY JANET PEERY
+
+LESSON
+
+This passage comes toward the end of the story. Peery shoots forward thirty years to this moment, a last contact between characters who were lovers when we last saw them. Phrase by phrase she moves us into this drama of their final meeting, into the feel of events unfolding before our eyes. Thirty years becomes last summer, last summer becomes was still burning. Another way she makes the moment large is simply by widening our view of it. She moves from words like glimpses and flashlights, to small details like the charred wood and lone teapot, to the blaze that was the barn. The light grows big, and Call becomes as enormous in our eyes as the fire around him.
+
+WRITING POSSIBILITIES
+
+1. Rewrite Peery's first sentence. Go from ten years to last week. For example: I saw her often, caught glimpses of her car, of her, but only once in ten years did she look my way, last week when a wind brought down trees along the highway and everybody came out of their houses.
+
+2. Rewrite this as a reunion. For example: I didn't see her after that, not for six years did our paths cross, until last weekend when the sun was hot and everybody headed for the park.
+
+3. Think about the way we see, the way we focus. Reread Peery's last three sentences. Write three sentences that make the same move. An example: The six-story building was mirrored glass and held the sun. People passed in front of it, and it was hard to see but color or shape, tall man, short woman, boy in a blue T-shirt. Then across the way, against the light of the building, was my father, waiting for me.
+
+OUT OF DRAMATIC MOMENT
+
+READING
+
+We shall come back, no doubt, to walk down the Row and watch young people on the tennis courts by the clump of mimosas and walk down the beach by the bay, where the diving floats lift gently in the sun, and on out to the pine grove, where the needles thick on the ground will deaden the footfall so that we shall move among trees as soundlessly as smoke. But that will be a long time from now, and soon now we shall go out of the house and go into the convulsion of the world, out of history into history and the awful responsibility of Time.
+
+FROM THE NOVEL ALL THE KINGS MEN. BY ROBERT PENN WARREN
+
+LESSON
+
+This is the final paragraph of All the King's Men. In the first line, the narrator speaks of an eventual return to the places the novel inhabits. However, look at the verbs Penn Warren uses: walk, watch, lift, will deaden and shall move. These are all very easy, gentle verbs. They give the mood of a stroll, of slipping quietly away, of a fade-out on a movie screen. Even as Penn Warren is speaking of action, he is moving us slowly to rest.
+
+The final sentence begins But that will be a long time from now. This also transports the reader away from the drama of the novel. A return is a long way off. The motion of this sentence is similar to the flight of an eagle over some dinner he wants. There is the descent, almost a glide so that you might even think the bird means to land on the water, but then he snatches the fish, his wings beat, and he and the fish take off in another direction. Penn Warren sends his narrator out of the house and into the world. It's as if he were a parent bundling up a child and sending it forth, telling that child to go ahead, but be careful. But of course, Penn Warren is speaking to all of us.
+
+WRITING POSSIBILITIES
+
+1. Let's look at this, not as an ending, but perhaps as a middle, something that might precede a line break. Try to rewrite this passage, saving its essential movement. Your story may not have the space for such large issues as time and history and mankind, but what if a character is moving or has lost a job, or a flood has come through? On such occasions, we may wish to allow for what has been and look toward what will come. List five more of these turning points in life. Begin: I will come back ___
+
+2. Penn Warren's first sentence conveys what has been by telling what will be. He does this by making inextricable movement and place: to walk down the Row and watch young people on the tennis courts by the clump of mimosas. … He does this several times. Try another sentence: Ben thinks he will come back to swim in the creek and watch the trout rise in the deepest holes, and walk. …
+
+3. Now turn to what stands in the way, something Penn Warren does in his second sentence. Continue: … But that won't be for some time, and now he will get in his car and find the highway, drive west. …
+
+PERSONAL EXPERIENCE
+
+READING
+
+One of my favorite examples of bureaucratic understatement has long been the commercial airlines' decision to refer to the horror of motion sickness on their official barf bags as “motion discomfort.” “Discomfort” describes the internal upheaval of motion sickness the way that “neck ache” describes hanging. The specific feelings that attend a full-fledged case of motion sickness are probably impossible to describe, but what the hell, let's try.
+
+It begins subtly enough with a flickering sense of ennui.
+
+FROM THE ESSAY “MY LIFE WITH THE HORROR,” BY DONALD KATZ
+
+LESSON
+
+It's safe to say that just about anything can make for a good story. If ever you had your doubts, go find this essay by Donald Katz. In the last line of the excerpt included here, the antecedent of the pronoun It is—you guessed it—motion sickness. This essay is about all manner of motion sickness. The narrator begins in grand and high-minded style, speaking of bureaucratic understatement, going at the English language and its abuse by way of euphemism, something he feels further exacerbates the condition of his own weak stomach. This umbrage, this pique, sets the tone for what is to come. He goes on to make an analogy, “Discomfort” describes the internal upheaval of motion sickness the way that “neck ache” describes hanging, the boldness of which heightens the indignity and in turn raises the level of importance of his subject. This accomplished, he settles into narrative with the naturalness of a true storyteller. In the last two sentences of the quote, he uses tried-and-true methods to enter the narrative.
+
+WRITING POSSIBILITIES
+
+In exercises one, two and three you are asked to make lists. Keep them separate and number each entry.
+
+1. The sentence “Discomfort” describes the internal upheaval of motion sickness the way that “neck ache” describes hanging heightens the subject and its importance to the storyteller. List five more like this. Use the following frames to get started: “_____” describes the _____ of _____ the way that “_____” describes _____. To say “_____” in describing _____ is about like saying that “_____” describes _____.
+
+2. The phrase but what the hell, let's try signifies a marked casualness, perhaps the necessary attitude to assume when one embarks on an odd topic. List five more of these. For example: but who cares, let's give it a shot.
+
+3. The phrase It begins subtly enough takes us into narrative, the beginning of a story. List five more of these. For example: It starts out quietly enough … ; It commences with barely a flicker.
+
+4. You now have three lists of five each, fifteen beginnings or turns of phrase or openings to a story. Play some games with your lists. Try the following: (a) Pick, for instance, the third entry on each list. With some imagination, can you make them work together? (b) Your lists are created in the order the phrases/sentences appear in the quote. Can you rearrange them and find combinations that work? (c) Find a set of three that seem to click for you. Write them down in the order you want and keep going.
+
+ENDING QUIETLY
+
+READING
+
+So we kept on with it. His fingers rode my fingers as my hand went over the paper. It was like nothing else in my life up to now.
+
+Then he said, “I think that's it. I think you got it,” he said. “Take a look. What do you think?”
+
+But I had my eyes closed. I thought I'd keep them that way for a little longer. I thought it was something I ought to do.
+
+“Well,” he said. “Are you looking?”
+
+My eyes were still closed. I was in my house. I knew that. But I didn't feel like I was inside anything.
+
+“It's really something,” I said.
+
+FROM THE STORY “CATHEDRAL,” BY RAYMOND CARVER
+
+LESSON
+
+A story can come to a quiet, peaceful ending in what is learned or changed or accomplished. We can render this change with small, incremental moves. In Carver's ending, the narrator is up late with his wife's houseguest, who happens to be blind. The narrator has his eyes closed, pretending to be blind, and the blind man is guiding his hand in the drawing of a cathedral. The moment is defined in the declaration It was like nothing in my life up to now. Purely and simply put, but still extraordinary to this man's life. The narrator keeps his eyes closed even after they are finished with the drawing. He gives us small truths in small sentences as entrances to his mind: I was in my house. I knew that. “It's really something. …”
+
+Notice, too, the small deceptions involved here. The narrator comments as if he really is looking at the drawing, when in fact his eyes are still closed. These are white lies that recognize the difference between the two men, but also express a desire for some mutual understanding, the common ground of the cathedral.
+
+WRITING POSSIBILITIES
+
+1. Your narration has come to the moment of conclusion. You wish for movement to become poised. Carver does that in the first sentence of this passage. Create five more of these moments. Some examples: So we kept driving. So we continued down the path we were on. So she went on with what she was saying.
+
+2. Choose one of your sentences and complete the paragraph. For example: So we kept driving. His fingers held the steering wheel as my hand rested on his leg. It was like no place else in my life I'd ever been.
+
+3. Try this. In several lines, Carver has the narrator affirm what he has told us: I thought I'd keep them that way for a little longer. I thought it was something I ought to do. I was in my house. I knew that. Follow your paragraph in exercise two with three statements your character makes and allow him the three sentences necessary to reaffirm these statements.
+
+ENDING WITH INEVITABILITY
+
+READING
+
+… There is every possibility that my baby will be loved and cared for and will grow up to be like any of these people. Another contraction, and I reach out for Oliver's hand but stop in time and stroke it, don't squeeze.
+
+I am really at some out-of-the-way beach house, with a man I am not married to, and people I do not love, in labor.
+
+Sven squeezes a lemon into the pitcher. Smoky drops fall into the soda and wine. I smile, the first to hold out my glass. Pain is relative.
+
+FROM THE STORY “GIRL TALK,” BY ANNE BEATTIE
+
+LESSON
+
+Often what you do not write is as important as what you do write. In this story, the reader knows what has begun. The narrator tells of a contraction, creates dramatic distance, and then tells us she is in labor. Consider the sentence where she reveals this: the third sentence. The subject and verb are the first two words: I am. She then holds the sentence, raises it, suspends it the way a singer might hold a note, and finally she tells us. Beattie's sentences hold to something that is patternlike. They have a fluid rhythm created by two- and three-word phrases. There are three reference points for the narrator—what she thinks, what she feels, and what she does—and she is their only connection. What is not written? The birth itself. It is not necessary. It will come of its own accord. The reader is left to imagine it.
+
+WRITING POSSIBILITIES
+
+1. Imagine an event like childbirth, an event that is out of our control. Perhaps a fall, perhaps the course of a sudden illness, a car wreck. Name five more of these.
+
+2. Choose one of these events and rewrite Beattie's third line. Use the past tense. For example: I was standing on an icy sidewalk in New York, with a woman I just met, and friends of hers who were strangers to me and I was falling.
+
+3. The narrator is moving inside of herself and outside and back inside. She is in a place and is narrating the action of that place. All the while, she has something very important on her mind, and she is narrating that also. This is one way of rendering a character's interior. The events inside this woman's body and mind are powerful, and they will not relent. The action inside your character may be less determined, but you can still use these same alternations to make that move. Write a paragraph that mimics this inside story and outside story narration. Alternate your description, sentence by sentence, interior then exterior.
+
+ENDING WITH CONSEQUENCE
+
+READING
+
+… He jumped up and ran to his room, to kiss him, to tell him that he loved him, that he would never fail him again.
+
+The light was on in Norton's room but the bed was empty. He turned and dashed up the attic stairs and at the top reeled back like a man on the edge of a pit. The tripod had fallen and the telescope lay on the floor. A few feet over it, the child hung in the jungle of shadows, just below the beam from which he had launched his flight into space.
+
+FROM THE STORY “THE LAME SHALL ENTER FIRST,” BY FLANNERY O'CONNOR
+
+LESSON
+
+Sometimes our characters make mistakes. They set in motion events they cannot control. In this passage, Sheppard runs to his son's room to tell him he loves him. He has been neglecting Norton because in his capacity as a counselor he has been paying attention to another boy. The first sentence in the quote comes at the end of a long passage when Sheppard realizes his mistake. He wants to make it up to Norton. But, of course, it's too late. As readers, we knew of the boy's growing distance from his father. Like Sheppard, we were concerned, but not alarmed. We discover the boy just as his father does, and as we think back, we see the chain of events leading to this act.
+
+WRITING POSSIBILITIES
+
+1. Write three sentences like O'Connor's first. Notice how the sentence grows. For example: He jumped down from the truck and ran to the house, to kiss her, to tell her that he loved her, that he would always stay by her side.
+
+2. Move to the second sentence. Notice how O'Connor pauses here, achieves some distance. Select one of your sentences from above and continue with a sentence like O'Connor's second. For example: The light was on in the kitchen, but she wasn't there.
+
+3. Continue. You must decide how this will turn: for the good or the bad? The cliché in writing workshops is that you have to earn such moments. Sometimes clichés are not so far from the truth.
+
+ENDING WITH KNOWLEDGE
+
+READING
+
+And after that, it was all over. And I did not want that to happen to me—did not, in fact, think it ever would. I knew what love was about. It was about not giving trouble or inviting it. It was about not leaving a woman for the thought of another one. It was about never being in that place you said you'd never be in. And it was not about being alone. Never that. Never that.
+
+FROM THE STORY “SWEETHEARTS,” BY RICHARD FORD
+
+LESSON
+
+Sometimes we would like a character to be so bold as to tell us what he has learned. Think of an actor who comes to the front of the stage and talks to the audience, acknowledges its presence. Ford ends here on the tight urgency of something realized that must be said before such clarity of mind is lost. He repeats the words and, that, it, was, about, never. The word it takes on several meanings. It and that refer to the same thing; they are joined in that way in the first sentence. It begins three sentences, and And begins three sentences. The last two sentences echo Poe's “The Raven.”
+
+WRITING POSSIBILITIES
+
+1. Make a declaration. Take Ford's line: I knew what love was about. Challenge yourself to be bold about a dozen of life's most important bits of knowledge. Rewrite his line twelve times. Some examples: I knew what hate was about. I knew what happiness was about.
+
+2. Pick one of your dozen declarations and craft the five or six conditions you know about it. Begin as Ford did: It was about …
+
+3. Now claim this for your own. Start by switching to the present tense. Ford's passage would read: I now know what love is about. It's about …
+
+4. Find a single word to change in your paragraph. For example: I knew the truth about love. The truth is, it …
+
+
+
+
+
+PART II
+
+CHARACTER
+
+
+CHARACTER BY SOUND AND APPEARANCE IN NONFICTION
+
+READING
+
+… His wife was sitting on a platform under one of the chickees, piecing together another shirt with a sewing machine. She had on a long dress. “My daughters wear shorts and miniskirts, but I don't want people to see my legs,” she explained. She wore the traditional twenty or thirty pounds of beads around her neck, threaded on separate strands. She had received these for birthdays and earned them for acts of virtue. Later in her life she would begin to give the strands away one by one until only the first one remained. This she would wear to the grave.
+
+FROM THE BOOK FLORIDA RAMBLE, BY ALEX SHOUMATOFF
+
+LESSON
+
+Think of this piece in terms of its composition. Shoumatoff is an artist crafting a life on the page. He describes the woman and uses that occasion to give her a voice. He is a reporter. Is what she said in response to a specific question he asked? Probably. The writer is conveying her to us in appearance and by the sound of her voice. He is finding a way for her to tell us about herself. No doubt the information in the last four lines was also solicited. What he knows and what he tells is based upon what she has told him, not just the quoted words, but in all probability, also the words that follow. This is the creation of narrative to avoid a question-and-answer format. The journalist is creating a piece of prose that tells a true story.
+
+WRITING POSSIBILITIES
+
+1. Consider doing what a journalist does, actually talking to people for purposes of telling their story. No doubt, there is someone whose path you cross on a regular basis whom you might engage in a conversation. What are some possibilities? Make a list of ten. Perhaps: your boss; your tennis instructor; your neighbor, who is a circus clown.
+
+2. After you decide whom to interview, keep in mind the challenge ahead. You must compose the picture, must reveal them in their world. Let's say you've just had dinner with your neighbor, the circus clown. What did he cook? What's his living room like? What does he look like? If you asked him nicely, would he put on his makeup and costume for you? Write an imaginary descriptive paragraph for practice. Begin: His wife was sitting on the couch under a cage full of _____, sewing together …
+
+3. Returning to the quote, take note of the thread, no pun intended, that runs through the writing. She is sewing. She had on a long dress. She explains clothing. Shoumatoff observes her beads and tells us of their tradition. Now, as you write your profile, look for the thread that runs through your information. This is what both fiction writers and journalists do on the page. Maybe it is something of sound or appearance, a hobby that seems to have found its way into the nooks and crannies of the subject's life.
+
+CREATING A CHARACTER BY ACTIONS
+
+READING
+
+… The other girl, Daisy, made an attempt to rise—she leaned slightly forward with a conscientious expression—then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+
+“I'm p-paralyzed with happiness.”
+
+She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I've heard it said that Daisy's murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+
+FROM THE NOVEL THE GREAT GATSBY, BY F. SCOTT FITZGERALD
+
+LESSON
+
+The first time we meet Daisy in The Great Gatsby, we come to know her by what she is doing: she attempts, leans, laughs, speaks, laughs again, hold hands, looks, promises, hints, murmurs. And each of these actions has an effect on the storyteller. He leans and laughs and listens and holds her hand. There are people we meet every day and we know them more for what they do than for who they are. What people do is apparent to the world. There is a kind of mystery to not knowing a character's thoughts or inner feelings. The way we behave is as particular to us as the way we look. Behaviors are like fingerprints; every one is different.
+
+WRITING POSSIBILITIES
+
+1. We all fancy ourselves to be people-watchers, but we are quick to come to a conclusion based on behavior and appearance. We overlook the movement of hands, the way someone walks, the way a woman holds her cigarette, the way a man scratches his head. Make a list of ten more movements a person might make.
+
+2. Ask a friend to button a button or tie a shoe or slice a loaf of bread. Is she left-handed or right-handed? Ask her to do it again and this time do not watch her hands. Watch her face. Are her lips pursed? Eyebrows furrowed? Write a paragraph that conveys the expression on the face of someone performing a task.
+
+3. Actions rarely have beginnings and ends. They flow from one to another and that is how Fitzgerald portrays Daisy, in a series of actions observed by the storyteller, each of which has an effect on the storyteller. A given scene can contain action and response. Some examples: He was crying and I started crying too. John tossed his keys and John Jr. snatched them out of the air. She leaned toward me and I leaned away. When I first saw him he was up to his waist in the stream and I thought how cold that water must be.
+
+Choose one of these, or make up one of your own, and use it as part of a brief scene between two characters.
+
+CREATING A CHARACTER BY ACTIVITY
+
+READING
+
+He started by building a miniature log cabin from notched Popsicle sticks. He varnished it and placed it on the TV set, where it remains. It reminds him of a rustic Nativity scene. Then he tried string art (sailing ships on black velvet), a macramé owl kit, a snap-together B-17 Flying Fortress, and a lamp made out of a model truck, with a light fixture screwed in the top of the cab. At first the kits were diversions, something to kill time, but now he is thinking about building a full-scale log house from a kit.
+
+FROM THE STORY “SHILOH,” BY BOBBIE ANN MASON
+
+LESSON
+
+You might find your character in need of activity, something to fill time or the head or hands. Maybe your character is laid up with a cold, a broken leg, or something drastic or consuming in his thoughts. What he chooses to do is a function of the person within. Just like life, our actions define us.
+
+In Mason's passage, the building of the miniature log cabin from Popsicle sticks grows in his mind to thoughts of building a full-scale log house. In between are efforts at string art, macramé, a model airplane and a lamp. He is a person who gradually comes to big ideas. The action progresses as a straight chronology with a summary sentence to close the paragraph. He started … Then he tried … At first… but now. It is told in the present tense, allowing for the simple past tense to tell previous time. Simultaneously, Mason places each move in the character's mind: It reminds him … the kits were diversions … now he is thinking.
+
+WRITING POSSIBILITIES
+
+1. Mason shows how an idea can develop in a character's mind. List five activities, such as building the miniature cabin, that can begin on a small scale and grow to a larger one. A few examples: a windowsill seedling to plans for a Japanese garden; a morning walk to full-blown triathalon training.
+
+2. Select one activity and allow that to shape your character in a paragraph. Use Mason's simple chronology for the actions and remember also to chart the thoughts that accompany them. For example: She started by sinking a zinnia seed in some leftover potting soil and a Styrofoam cup. She set the cup on her kitchen windowsill and watched it become a full flower, quicker than she ever imagined. At first, the seedlings were just something to watch happen, but now she is sketching for a rock garden, complete with Japanese maple and ball juniper, a reflection pond and goldfish.
+
+3. In Mason's passage, simple diversions become large plans. To what other ends can actions reveal our characters? Try reversing Mason's idea so that your character's large plans become simpler. This shift could create a completely different character. Rewrite the example from exercise two. Have her start out with her grand design and reduce it by increments.
+
+CHARACTERS WHO REVEAL THEMSELVES
+
+READING
+
+It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! yes, it was this! He had the eye of a vulture—a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold; and so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever.
+
+FROM THE STORY “THE TELL-TALE HEART,” BY EDGAR ALLAN POE
+
+LESSON
+
+All characters come to us with the potential of whole lives. Our focus is as wide or slender as we decide. Sometimes our characters have good intentions and mean well, but sometimes we imagine a character who intends to commit a terrible act. That character comes to us as a voice afflicted and bent on telling what he is going to do. Why does one commit a terrible act? Such actions are beyond reason, so rather than logic, we depend upon a voice that sounds reasonable and compelling.
+
+Poe begins with It is impossible to say how the idea first entered my brain. This sounds reasonable, but think about it. It is impossible to say how almost any idea enters our brains. And so it begins, the disorienting spin of possible reasons for acting in ways we do not understand until the teller settles on the eye. It becomes a good reason because it is declared to be so. The teller makes up his mind by degrees —very gradually. This is the action of a rational, sane person. As readers, we follow him into his afflicted mind and insane acts with a certain sense of belief, of trust.
+
+WRITING POSSIBILITIES
+
+1. Think of a first-person character who has evil intentions. List five such intentions and their targets. Two examples: I want to kill my boss. I want to pour sugar into the gas tank of my ex-girlfriend's car.
+
+2. Begin this character's story with a sentence that brings us into his mind. For example: I got the idea from television. I don't know where the thought came from, but. …
+
+3. Follow your first sentence with a few sentences describing a small obsession. For example: I got the idea from television. I watched it day and night, soap operas, talk shows, cartoons, movies made for screen and those made for TV. I never left my sofa.
+
+4. Finish your paragraph by inserting evil and its object and then rebuild a sense of sanity. For example: I got the idea from television. I watched it day and night, soap operas, talk shows, cartoons, movies made for screen and those made for TV. I never left my sofa. I came to despise all talk show hosts and so began my campaign of mailing death threats. It must have come from TV. Yes, the television. It is so very violent all the time and those were the people most apparently enjoying it in a manner of speaking.
+
+5. Of course intentions need not always be of evil. Rewrite the quote for an opposite intention. Begin: It's hard to say how I first got the idea; but once it came to me, it delighted me day and night. … (Continue.)
+
+CHARACTERS WHO ARE CRAZY
+
+READING
+
+The yard boy was a spiritual materialist. He lived in the Now. He was free from the karmic chain. Being enlightened wasn't easy. It was very hard work. It was manual labor actually.
+
+The enlightened being is free. He feels the sorrows and sadness of those around him but does not necessarily feel his own. The yard boy felt that he had been enlightened for about two months, at the most.
+
+FROM THE STORY “THE YARD BOY,” BY JOY WILLIAMS
+
+LESSON
+
+In this passage, Williams begins to take the yard boy down the road to madness. This isn't easy to do. Too often, such characters are rendered as cartoons or stereotypes—the crazy aunt, the daffy neighbor, the demon child. As true writers, we can't turn away from the mysterious interiors of the afflicted.
+
+Williams tells this story in the third person and the past tense. She does move to the present tense to define the yard boy's beliefs, to declare his feelings, and then moves back to the past tense to pick up the story again. This is a good strategy because we can't always ask characters to show themselves through their actions. This way she is not asking the yard boy to perform. By telling his story this way, she enriches and makes significant his condition. The verbs Williams chooses function for the most part as simple equal signs. There is no action. She is defining the yard boy, breaking the cliché of show, don't tell. Williams has sympathetic fun with the yard boy's ideas of himself. She uses phrases at the ends of some sentences like punch lines: actually, at the most. The yard boy becomes caught up in the fanciness of ideas, eventually falling in love with a plant.
+
+WRITING POSSIBILITIES
+
+1. Create five characters using a title instead of a proper name, the way Williams does with the yard boy. For example: deliveryman, butcher, auto mechanic.
+
+2. Now pick one character and use the verb was to define him in one sentence as simply as possible. Let that definition be quirky, something that might give rise to conflict within the character. Two examples: The auto mechanic was a Buddhist monk. The English professor was a closet pyromaniac.
+
+3. Now add five aspects, one sentence for each, to explain this character's understanding of self. Go back to the passage and see how Williams does it. For example: (1) The English professor was a closet pyromaniac. (2) He lived for fire. (3) Burning things freed him from all his cares. (4) But being a firebug had its downside. (5) (Continue.) 4. By the conclusion of exercise three, you've written a paragraph. Continue with a three-sentence paragraph like Williams', moving into the interior of your character. (a) Make a general statement, some way to see the world, present tense. (b) Make a second statement describing an emotion the character has or an idea he thinks about, present tense. (c) Start this last sentence with your character, what he or she felt or thought, past tense.
+
+CHARACTERS IN A CROWD
+
+READING
+
+Back in the dining alcove, the Barley twins were talking with Michael. They had flipped up their clip-on shades which stuck out above their glasses like the perky antennas of some sharp-faced, cute little creatures from outer space, and they were nodding earnestly, in unison. Jo Ann and Sugar were discussing mixed marriages—the consuming interest of Jo Ann's life for years before her wedding to Nat and evidently afterward as well. “But tell me the truth,” Sugar was saying. “Doesn't it sometimes seem to you like every marriage is mixed?” And Serena's two little grandsons were surreptitiously bombarding each other with bits of cake. It looked good: angel food. Maggie thought about trying a slice but then she remembered her diet. She had a virtuous, empty feeling in the center of her rib cage. She traveled around the table surveying what was offered, resisting even the bowl of Fritos. “The dump salad is mine,” Serena's neighbor said at her elbow.
+
+“Dump salad?”
+
+FROM THE NOVEL BREATHING LESSONS, BY ANNE TYLER
+
+LESSON
+
+Gatherings of people can be difficult to manage, but you may want to write a scene in which people have come together for a party or celebration or, as in this case, a funeral. In this excerpt, think of dialogue not so much as dialogue, but as another form of action taking place in the swim of the scene. There are eleven characters referenced in these few lines: the Barley twins, Michael, Jo Ann, Sugar, Nat, Serena's two grandsons, Maggie and Serena's neighbor.
+
+The action is written as being simultaneous: were talking, were discussing, were bombarding. At the end of the paragraph, Tyler moves to Maggie's thoughts. Think of the dialogue in earlier lines as Tyler using spoken words to make characters, the same way the Barley twins are signified by their clip-ons flipped up. Characters are made memorable as much for what they say as for what they do or how they appear. Furthermore, this scene depends upon Maggie to guide us through. What we come to know and experience is what she knows and experiences.
+
+WRITING POSSIBILITIES
+
+1. List five occasions for which people come together. For each, create a cast of characters, one of whom will be like Maggie, a guide. Once you have finished, decide on one occasion to keep through the following sequence of exercises.
+
+2. Tyler follows a pattern in which she first introduces the characters by name, three of them, and then distinguishes them by action and appearance. Begin like this for your own occasion.
+
+3. Tyler introduces Jo Ann and Sugar by name, interest and dialogue. Use these lines to model your next ones.
+
+4. Continue until you have accounted for all those present, concluding with the interior of your main character. Maybe he has a dialogue with another character or simply wanders away from the crowd.
+
+CHARACTERS WHO PART
+
+READING
+
+After he left, her mood always varied; sometimes she was lightheaded, other times more somber, even teary. Every year she swam. Last summer there'd been a host of Medusa jellyfish sending off green light. The year before she'd stroked straight out, so far that when she turned, the shore looked like a mirage. Once she tried to stand on a sandbank. Barnacles, like white teeth, cut the fleshy part of her foot and blood dribbled into the sand.
+
+FROM THE NOVEL UP THROUGH THE WATER, BY DARCY STEINKE
+
+LESSON
+
+The construct of time seems even and regulated, but time itself is strange and vague. Time expands and collapses and we are left to mark it as we will. So, too, do our characters experience time. As we mark time with actions specific and memorable, our characters do likewise. The parting in this passage is anticipated. He comes to the island for a visit in the summer and then must return home while she stays behind. Time is designated in sweeps: sometimes, every year, last summer, the year before, once. These phrases are then followed by very precise and specific actions. The small significant actions in these grand sweeps of time become sad and poignant. The character is made small and even more alone for all the poignancy and precision.
+
+WRITING POSSIBILITIES
+
+1. Think of a regular and anticipated parting—such as leaving for work—that might occur between two characters. For example: Christmas time; off to school. Then rewrite Steinke's first sentence using one of these situations. For example: Each time she left, he felt different; sometimes calm and patient and other times like the apartment was coming unhinged from the earth.
+
+2. Now mark the previous times when the same parting has taken place, following each with a significant action. For example: Last time she left, he went through his closets and took almost half of his clothes to the Salvation Army.
+
+3. Use these same constructs to evoke an anticipated arrival. Now the character is preparing for the event.
+
+CHARACTERS WHO MEET
+
+READING
+
+“I would surely appreciate it if you'd call off them dogs,” says Frank, as if those puppies weren't wagging their tails and jumping up to be patted.
+
+He can see I am shivering and soaked. And I am mad. If I had a gun, I might shoot him.
+
+“You ought to be ashamed … a man like you.”
+
+“Frank Bowman,” he says, grinning and holding out his large thick hand. “From Bowman Corners.” Bowman Corners is just down the road.
+
+“What happened to you?” he grins. “Take a shower in your boots?”
+
+How can you stay mad at that man?
+
+FROM THE STORY “ITS COME TO THIS,” BY ANNICK SMITH
+
+LESSON
+
+We take for granted something so simple as two people meeting. It seems like such a commonplace event, but think again. When was the last time you came to know a stranger without being introduced by someone else? It is rare for strangers to meet, yet such an encounter may be needed in your story. In this passage, the meeting is told in first person, present tense. Notice how we learn the man's name before he introduces himself. Both characters are brought here for reasons other than to meet. They have reason to meet, yes, but it is not for the sake of each other. This event is told to us as something remembered. Its natural awkwardness is not recounted. In telling us how they met, Smith has winnowed it down to its finest details.
+
+WRITING POSSIBILITIES
+
+1. Remember three special meetings from your past, times when people came into your life unexpectedly and a friendship ensued. For each, write down names, place, season and time of day.
+
+2. There was an occasion for these meetings. Maybe someone came onto your property or entered your place of work. Write down the conditions of each special meeting.
+
+3. So far, we have some words doodled on the page. Now we need some spirit. The character Frank comes into her life with a style all his own. Write your own spirited beginning. For example: “Now I was wondering if you were the kind of person who might like some help or not,” Dorie says to me, as if I didn't have my necktie fed into the fax machine about up to my chin.
+
+4. Now combine the real elements from above, make up two names, and write a passage of your own modeled after the quote where two characters are brought together.
+
+A CHARACTER'S FIRST WORDS
+
+READING
+
+… My father and I used to enjoy big cars, with tops that came down. We were both tall and we wanted what he called “stretch room.” My father had been dead for fourteen years, but I resented my mother's buying a car in which he would not have fitted.
+
+“Now what's wrong? Are you coming?” my mother said.
+
+“Nothing's wrong except that my shoes are opening around the soles,” I said. “I just paid a lot of money for them.”
+
+FROM THE STORY “PRETTY ICE,” BY MARY ROBISON
+
+LESSON
+
+Be aware of when and how a character first speaks. The storyteller in this passage is waiting for her mother to pick her up and so, too, the reader is anticipating her arrival. We wait and wait and when we finally meet her, we hear her say: Now what's wrong? Are you coming? We make conclusions about this woman, especially since her daughter has been telling of her own resentment. The mother appears to be a mind reader, because the narrator does not mention the resentment—and don't miss the word now, the sense that something being wrong is common. We wonder if the mother is always suspicious, or if she has learned that when it comes to her daughter, there is usually a problem. Then we hear the storyteller speak. Are her first words true?
+
+WRITING POSSIBILITIES
+
+1. Create a set of three characters. Robison gives us a daughter, mother and father. Make up five sets. Like the father in the passage, maybe one in each set is dead.
+
+2. Create a situation in which one set comes together. Robison has the daughter's memory evoke the father's presence. Instead of a car ride, perhaps the situation is a meal, or cleaning out the attic. List five more possibilities.
+
+3. List five versions of the mother's question. Some examples: Now what are you looking at? Now what's on your mind?
+
+4. Pick one from each of your lists and combine them for a movement. It may go like this:
+
+My brother and I used to enjoy _____. We were both _____ and we wanted what he called _____. My brother had been dead for _____ and I had resented my sister's _____.
+
+“Now what is it?” my sister said.
+
+CHARACTERS WHO TALK TO THEMSELVES
+
+READING
+
+Bo felt this to be the royal time of his day—these sparse, solitary moments when the rest of the world was either going to bed or not up yet. He was alone, knew the power in singularity, yet was afraid of it. Insecurity crawfished through his blood, leaving him powerless again. Soon he began a conversation to make the light seem closer to the road.
+
+“Coffee, Bo,” he said to himself.
+
+“Yeah, and Lucy, toosie,” he answered.
+
+FROM THE STORY “FOX HUNTERS.” BY BREECE DM PANCAKE
+
+LESSON
+
+We often talk to ourselves internally, and sometimes, when we are alone, we talk out loud. This is a small natural feature we might give to a character. In this passage, Pancake has Bo on a road in the early morning. He feels the power of the breaking daylight and enjoys his aloneness, and then is overwhelmed by these feelings. He begins a conversation with himself much as someone might whistle past a graveyard. This is to say, Pancake gives him a reason to talk to himself: the buildup of fear and insecurity. The tension is made fun of but still maintained at the fore of the moment. Then we return to narrative.
+
+WRITING POSSIBILITIES
+
+1. We are most apt to talk to ourselves when we are alone. List five occasions that allow a character to be alone. Name a character for each. For example: It was late in the day, and the office was empty, but Sharon was working overtime.
+
+2. Imbue each of the five occasions you have listed with a feeling of silence, an invitation to talk to oneself. For example: The game was over and the field was empty. It was the absence of noise that made for the most profound silence John could remember.
+
+3. Choose one of your movements and continue, making a turn similar to the one Pancake made: He was alone, knew the power in singularity, yet was afraid of it. The feeling could be reversed though, pleasure instead of fear. For example: He was alone, knew how rare such an event was, and was thrilled.
+
+4. Now move into dialogue, but first prepare for it by finishing your narrative with a phrase such as soon he began a conversation. For example:
+
+He couldn't help but discuss this with himself.
+
+“Chance to put the old feet up on the desk,” he said to himself.
+
+“Yeah. Maybe kick the shoes off,” he added.
+
+Now move back into narrative and continue writing. You may have the beginning of a good story.
+
+CHARACTERS BY THEIR OBSESSIONS
+
+READING
+
+Miss Lonelyhearts found himself developing an almost insane sensitiveness to order. Everything had to form a pattern: the shoes under the bed, the ties in the holder, the pencils on the table. When he looked out of a window, he composed the skyline by balancing one building against another. If a bird flew across this arrangement, he closed his eyes angrily until it was gone.
+
+FROM THE NOVEL MISS LONELYHEARTS, BY NATHANAEL WEST
+
+LESSON
+
+We all have habits, and sometimes they take hold of us in unkind ways. They seem to have lives of their own. Focusing on a habit in a character is like opening a small door on his personality. Miss Lonelyhearts is a man writing a column for the lovelorn. He receives letters and responds in the newspaper. In this passage, Miss Lonelyhearts develops a sensitivity to order, a desire to see the world and keep the world in a special way. This is larger than a habit, but it shows itself in small, habitual ways. Note the lack of the conjunction and in the second sentence about patterns. Without the and, the list feels partial, as if it will continue.
+
+West gives a certain grace and artfulness to Miss Lonelyhearts' habits. He composes, balances and arranges. West could have provided a psychological label for Miss Lonelyhearts, something from the vocabulary of therapists. But that wouldn't be writing. That would be labeling and analyzing, fixing the character in a place and time where therapy is common practice. As writers, labels make our characters easily explained, instead of complex and interesting.
+
+WRITING POSSIBILITIES
+
+1. What might someone develop a sensitivity to? List ten of these large concerns. Remember, this is the obsession that shows itself in the smaller habits. For example: a heightened sense of smell; a need to number and compute; not wanting to be touched.
+
+2. Select one from your list and try a first sentence. For example: Mr. Jones found himself developing an obsession with sets of numbers.
+
+3. Continue by giving at least five examples of the small ways this large concern affects your character. Leave out the word and in your list to give West's feeling of unlimited possible habits. For example: Mr. Jones found himself developing an obsession with sets of numbers. He'd compute the sum of every phone number he came across, add up the prices on a menu, figuring what it would cost him if he ordered everything.
+
+4. West closes his paragraph by naming the emotion that Miss Lonelyhearts' habits inspire with the word angrily. Find an emotion that reveals your character's attitude toward himself. For example: Mr. Jones found himself developing an obsession with sets of numbers. He'd compute the sum of every phone number he came across, add up the prices on a menu, figuring what it would cost him if he ordered everything. If he came across a grocery receipt, he gladly covered the printed total and tallied it up himself.
+
+CHARACTERS WITH A PAST
+
+READING
+
+There had been better days: when she was up on the high wire, and her body was a flash of motion as she swung, hanging by her heels, across the top of the tent, the faces below like rows of lightbulbs, her body light as a firefly in her blue body suit. All alone up there, no nets below, with the tight thrill that was the joy bred of danger. The tingle in the blood. God, how she loved it! It was the years that had brought her down to earth. She'd nearly killed herself once in a fall. She'd lost her timing, her body had gotten heavy despite all her efforts. The pull of gravity, the reluctance of the flesh. And all the while Dusty trying to put together his misbegotten scheme.
+
+FROM THE NOVEL CARNIVAL FOR THE GODS, BY GLADYS SWAN
+
+LESSON
+
+We may want to write a story with a character telling about an interesting past. We'd want to recount that telling in an artful way. How do we do it? This character is an aerialist past her prime. Her name is Alta; her scheming husband is named Dusty. She is remembering a better time, when her body was capable of extraordinary performance.
+
+This passage comes near the beginning of the novel. It begins with the phrase there had been better days, peaks with the sentence God, how she loved it! and eases back into the present by recounting the toll the years have taken on her body. The better days are made real through images, through a kind of electricity: the high wire, the flash, light bulbs, firefly, thrill, tingle. The second part of the passage markedly lacks this kind of poetry, rather holding within itself loss and heaviness and reluctance. Moving from intense, detailed memories to feelings of loss is one way of showing your character's past.
+
+WRITING POSSIBILITIES
+
+1. Let's stay close to this model. Imagine a character who performs before an audience. Make a list of five characters who are past their prime and are looking back. For example: a retired jockey; an ex-baseball player who is now a coach.
+
+2. Writer about one of your five characters. Your first sentence will begin: There had been better days: Continue this sentence with six images that vividly evoke the character's performing experience. For example: There had been better days: when he was on horseback and his body was weightless and tight …
+
+3. Swan writes The tingle in the blood. God, how she loved it! Build your next movement to such excitement. First, internalize the feeling and then give comment. For example: The hair standing on end. How it amazed him!
+
+4. Allow reality to set in. Your character becomes more somber with thought. His memory, having been re-experienced, now feels so distant. Finish your paragraph with a movement that begins: It was the years that brought. …
+
+5. What other past pursuits might a character want to recount that have nothing to do with performance? Pasts can be something longed for or regretted. Make a list of ten possibilities. Some examples: an E. R. nurse who now works in a clinic; a mountain climber who used to be a computer consultant.
+
+CHARACTERS IN A FIGHT
+
+READING
+
+The referee's call had a high joyous lilt: “Let'm roll!”
+
+The handlers slipped the leashes and the dogs met in the center of the pit. The impact as they came together had the sound of an ax in wood, a deep solid joining. It was impossible to follow what was happening as they rolled in the dirt, but when at last they stopped, Tuffy had been cut along the back and across the top of the skull. But it was Devil who was caught. Tuffy had managed to close on the side of his neck, not far enough under to get the jugular, but it was a mean, wearing hold. He closed his eyes and rode the other dog down. Devil was strong enough to regain his feet at times and lift Tuffy nearly clear of the ground but he couldn't shake him and eventually they were in the dirt again.
+
+FROM THE NOVEL A FEAST OF SNAKES. BY HARRY CREWS
+
+LESSON
+
+This fight comes late in the novel, but throughout we are led to anticipate it. Crews does not give us a blow-by-blow account. Rather, he says it was impossible to follow what was happening. The violence of the fight is poised; it's action withheld. The verbs go like this: they came together, they rolled in the dirt, at last they stopped. The results of the violence are told in the past tense, but not the gore and blood itself. There is distance between the action and the telling. Crews is not showing us, but is telling us what is happening. While the events are to the death, the storyteller does not lose sight of his characters. Notice that what is fast and furious does not consume the two characters the way a cloud of dust might consume a fight in a cartoon.
+
+WRITING POSSIBILITIES
+
+1. Imagine that rare encounter in which two people might come to blows. Who would it be? Brothers? A father and a son? A husband and wife? List five such pairs and write down several reasons why they might be violently inclined toward each other.
+
+2. The challenge in this exercise is to lengthen your sentence. Make it read more slowly than the action it conveys, so as not to lose your characters. For example:
+
+It was impossible to say how it got started or even when it started, but Joe felt himself to be nudged and thought it might even have been a push, so to be safe, he pushed back. Roddy, being the sort of guy he was, couldn't just turn the other cheek, so he wound up, paused a heartbeat or two and whaled Joe a good one right in the stomach.
+
+Note the commas and conjunctions, the qualifying of each and every action to slow the pace. Now pick one of your five combinations from exercise one and write a paragraph.
+
+3. Imagine another kind of encounter marked by physical confrontation: a pitcher and a batter in baseball; two volleyball players. List five more. The writing strategies used in the fight scene can also be used in less violent encounters such as these.
+
+CHARACTERS IN A RELATIONSHIP
+
+READING
+
+He rearranged his body in the lawn chair and blinked, trying to look alert. He was a graying man of fifty-three, handsome in a ruddy, solid, ex-athlete's way, with strikingly pale blue eyes. He owned a chain of hardware stores. A safe man, Use thought each evening when he returned from work. And decent, competent, sexy: mornings, watching him dress—the ritual bending, reaching, zipping, and buttoning—she felt a reflexive pleasure, compounded with satisfaction, like the interest on capital, at how durable this pleasure had proved. If that was love, then she loved him well enough.
+
+FROM THE STORY “KILLING THE BEES,” BY LYNNE SHARON SCHWARTZ
+
+LESSON
+
+Use's husband is first evoked by his movements as he rearranges, blinks, tries. He comes into focus as if through a camera lens. Then Schwartz uses more opinioned description, which is placed in Ilse's head with the phrase a safe man, Use thought, and there it remains for the rest of this passage. What Schwartz tells us and what Ilse thinks are both rendered like sketches, almost complete. This development of character happens like a mind at work, delivering what comes quickest and surest and first. Schwartz creates the feeling they are creatures of habit; the words safe, ritual, reflexive, durable reveal a love that lives at the front of the mind. Use loves him well enough. Relationships are complicated in life and should be so on the page. How do you get two people in love, and is that love always giddy, always true? Think about the love Schwartz describes. Couldn't two people dislike each other for the same reasons? Maybe you have characters like that in mind.
+
+WRITING POSSIBILITIES
+
+1. Name ten places where one character might observe a significant other. For example: an unmade bed, an overstuffed chair, a red picnic table.
+
+2. Select a place and sketch the character being observed as follows: first sentence, position and gestures; second sentence, physical description; third sentence, occupation.
+
+3. Follow the sentences in exercise two with a sentence that moves into a second character's mind. For example: A good enough friend, as far as friends go, Abe decided.
+
+4. Continue the paragraph. Give more attributes. Speed up the sentence the way Schwartz does by beginning with And, and list features of your character.
+
+5. Now think of the relationship you've given to these characters, based on how they live in the character's mind. Describe this love, or lack of love, in a precise sentence, the way Schwartz does. Begin with the words: If that was love.
+
+MOVING INTO DIALOGUE
+
+READING
+
+… Her voice was sandstone harsh.
+
+“Casey just might be tired of you.” …
+
+Beth yanked his shirt. “
+
+Beth,” he said.
+
+FROM THE STORY “AUNT GRANNY LITH,” BY CHRIS OFFUTT
+
+LESSON
+
+Sometimes we are vexed by the simplest of transitions. One such small and necessary transition is moving from narrative into dialogue. In doing so, we move from one voice to another. We move from the voice of the narrator to the voice of another character. Is it simply a matter of stopping narrative because it's time for dialogue? Sometimes it appears to be that simple. In both examples above, Offutt makes a bridge to carry us into dialogue. In the first example, the voice is described by the narrator as a feature of the character, and then she speaks. In the second example, the narrator tells us that Beth yanked his shirt, and it's as if she were calling forth his words.
+
+WRITING POSSIBILITIES
+
+1. List five sentences that could describe a voice speaking and follow each with a line of dialogue. Two examples:
+
+Her words were rocket-fast.
+
+“Okay, okay, I get the picture already.”
+
+And:
+
+His voice was something like the sound honey would make if it did such a thing.
+
+“You can leave out the door, or you can leave out the window. Don't matter, you're gonna leave one way or another.”
+
+2. List five actions that call on a character to speak and follow each with a line of dialogue. Two examples:
+
+Rosie took him by the shoulders and shook him.
+
+“Rosie,” he said. “I'll never do it again.” And:
+
+He cupped his little boy's face in his hand and looked into the child's eyes.
+
+“Daddy, it really was a snake, I swear.”
+
+MOVING OUT OF DIALOGUE
+
+READING
+
+“We'll see if you like the winters, too. You've never seen any snow, have you?”
+
+“No, but I hear it's cold and white.”
+
+“That about sums it up. You've been doing some research, I see.”
+
+I don't remember when we started this kind of conversation, but we've had a lot of them. The general theme is that I'm barely able to keep from drooling on my collar, and require full-time professional help so I won't injure myself through stupidity. Dad blames it all on his family, who he claims have set records for Scandinavian incompetence since the days of Leif Ericson.
+
+FROM THE NOVEL RED SKY AT MORNING, BY RICHARD BRADFORD
+
+LESSON
+
+The ambition when moving from dialogue into narrative is, as with all moves, to make it smooth and seamless. This passage is written in the first person, the narrator being a participant in the conversation. The last speaker brings the dialogue to closure by actually saying That about sums it up. The storyteller continues into narrative by referencing the conversation, by designating it as an ongoing event. The second sentence of the narrative moves us further from the dialogue by thematicizing it (The general theme is …), and the third sentence leaves the dialogue even further behind, moving into the father's attitudes. Still, words like blames and claims describe speech acts, so dialogue is not so much left behind as it is eased away from.
+
+WRITING POSSIBILITIES
+
+1. List five sets of characters, relatives or friends who might have a conversation similar to the one Bradford has written. As you make your list, include for each a reason and an issue for the conversation. For example: mother/daughter—moving to another town—daughter doesn't want to go; brothers—on the building of a barn—finances.
+
+2. Pick one from your list of five and begin in dialogue. For example:
+
+“You'll like it there. I promise. There's a lot of parks, nature. That kind of stuff.”
+
+“Mother, I don't care all that much for nature.”
+
+“Well that about does it. You don't care for nature.”
+
+3. Continue. Move into narrative the way Bradford does, gradually. Start with: We've been having these conversations pretty regular now. …
+
+UNQUOTED DIALOGUE
+
+READING
+
+Why not, boys. Mrs. Hegel-Shtein smiled and invited them. Look it in the face: old age! Here it comes, ready or not. The boys looked, then moved close together, their elbows touching.
+
+Faith tried to turn back to the children, but her father held her hand hard. Faithy, pay no attention. Let Mama take care. She'll make it a joke. She has presents for them. Come! We'll find a nice tree next to a bench. One thing this place got is trees and benches. Also, every bench is not just a bench—it's a dedicated bench. It has a name.
+
+FROM THE STORY “DREAMER IN A DEAD LANGUAGE,” BY GRACE PALEY
+
+LESSON
+
+Dialogue need not always be quoted and paragraphed. Paley uses combinations of spoken words and narrative, and the effect is that all her characters are conversing with each other. Whatever the reason, at no time should the writer risk confusion. Paley relies upon the way narrative and dialogue each have a distinct sound, making clear the difference between what is spoken and what is told. In narrative, she begins each sentence with a subject: Mrs. Hegel-Shtein smiled and invited them. The boys looked, then moved close together, their elbows touching. Faith tried to turn back to the children, but her father held her hand hard. There is a simple pattern here, easily recognized: mention of characters followed by what they are doing. The lines the characters speak in this passage are designated in several ways. Faith becomes Faithy. Contractions are used. Exclamation marks are used. One-word sentences are employed as commands and directives. Remember, the writer has an obligation to create structures the reader can depend upon.
+
+WRITING POSSIBILITIES
+
+1. Alternate between what is spoken and what is narrated. Try five of these yourself. Begin by completing this paragraph: What's the matter, girls. Mrs. Liebman grinned and held out her hand. Take it. It's so delicious! … Follow this with a sentence of narrative and then move back to words said aloud.
+
+2. A second way of using unquoted dialogue is to paragraph your dialogue as usual and simply leave out the quotation marks. At some point it will be safe to no longer indicate who is speaking. The stream of conversation, the distinct quality of each voice, and the narrative that precedes unquoted dialogue between two people establish who the speakers are. Continue the following:
+
+Mrs. Liebman grinned and held out her hand. She opened it slowly and offered up to the girl what she held.
+
+What's the matter, girl, she said. Take it! It's so delicious.
+
+I don't care for raisins, the girl said. Why not?
+
+3. Imagine that Betty is waiting for Jake and alongside her is Christine, their companion. Then let each character speak four times. Begin with: I wish you'd get a move on, Betty yelled from the high rocks.
+
+4. As you complete each of these exercises, ask someone to read them to see if they are clear. Remember, readers have come to depend on quotation marks to separate dialogue and narrative. If you take license here, you must be vigilant not to confuse.
+
+INDIRECT DIALOGUE
+
+READING
+
+… Stick said he wasn't going if they had to pick up anything. Rainy said no, there wasn't any product in the deal; all they had to do was drop a bag. Stick said, “And the guy's giving you five grand?”
+
+“It makes him feel important,” Rainy said, “it's how it's done. Listen, this's the big time, man, I'm taking you uptown.”
+
+Rainy told Stick he didn't even have to say a word unless the guy Chucky asked him something. Which he probably would, Chucky liked to talk. He was a you-all, he talked real nice and easy, real slooow, slower than you, Rainy said. Stick said he could hardly wait to meet the guy, thinking: Rainy and Chucky … like they were hanging around the playground.
+
+FROM THE NOVEL STICK, BY ELMORE LEONARD
+
+LESSON
+
+Elmore Leonard is a writer of tough, hard-boiled novels. It's a safe bet that some of these people are up to no good. Safe to assume that your life could depend upon saying the right words and withholding the wrong words. In this passage, Leonard has made decisions about what is said, what is told, and what is asked. What is said is in dialogue. What is asked and told is in narrative. He has made decisions about what to quote and what not to quote. These decisions are important to writers. Talking and how to talk are important in creating characters. Leonard uses the mannerisms of a speaking voice to distinguish between characters. It is how they know each other and how we come to know them. Some words Leonard wants spoken and others he wants heard. Some words are more important for the information and are told rather than quoted to get out the information in the quickest and most efficient way possible.
+
+WRITING POSSIBILITIES
+
+1. Use unquoted dialogue as if it were narrative as Leonard does in his first paragraph. Conclude your paragraph with something said aloud. For example: Woody said there was no way he was going to stick his neck into that noose. Raylene said no, there wasn't any need to; everything had pretty much blown over. Woody said, “And they're still living together?”
+
+2. Continue with what you've started, or feel free to continue the example above. The next move is to answer Woody's question. Now you have begun a narrative and a conversation at the same time. Keep writing.
+
+3. Permeating Leonard's quote is the feeling that talk is artistry to these characters. Write about four characters who are signified by their manner of speaking. Two examples: (a) Marvin loved to gab. He was a run-off-at-the-mouth kind of guy, he talked from morning 'til night, probably talked in his sleep, Rudy said. (b) Elliot was creepy silent. You'd ask him a question and wait all day for an answer, a breath, a creaking in his jaw, nothing, Dickie said.
+
+CHARACTERS WHO IMAGINE
+
+READING
+
+But I began to imagine bank shots with my car. I began to figure out at exactly what angle I would have to hit a telephone pole in order to bank the car across the street and into the pole on the other side. Then I began to do it with buildings—double banks into doorways, caroms off two fireplugs and into a brick wall, a massé around a parked car and into the plate glass of the corner drugstore. By the time I parked at my apartment, the knuckles of my hands were pale on the wheel.
+
+FROM THE STORY “MASSÉ,” BY LEIGH ALLISON WILSON
+
+LESSON
+
+Characters have interiors. Like everybody else, they have tastes, imaginations. A natural way inside a character is to reveal his or her imaginings. In this passage, the order of this character's life is beginning to unravel. She likes to shoot pool, and so for this activity to possess her while she is driving is terribly disconcerting. It begins in a simple way, one thought leading to another and building in intensity, until finally it seems to have taken over her mind. By the last sentence of the passage she has become a threat to her own safety. Wilson follows this passage with a line break, as if to further punctuate the condition of her character. When the story resumes, the moment has passed.
+
+WRITING POSSIBILITIES
+
+1. Wilson's character is imagining bank shots with her car. List ten consuming pastimes, such as shooting pool, that could stimulate imagination. For example: fly-fishing; bowling.
+
+2. Wilson's character is driving. List ten places or activities that could free a character's mind to imagine. For example: dozing in the shade; jogging.
+
+3. Now look at your two lists. Find a connection that interests you. Maybe it's thinking about basketball while doing laundry. Pick one pairing and write a paragraph in which you open up your character's imagination. Use the first person for simplicity. Refer to the quote for cues as you need them. Begin this way: I imagined shooting baskets while I was doing laundry. I began to _____. Then I began to _____.
+
+4. Allow your character's imaginings to build to a crescendo and then allow your character to find a way to stop what she is doing. Use the following frame to finish the small dramatic movement you have begun: By the time I _____ at my _____, the (hair on my head?) was _____ …
+
+CHARACTERS WHO EXAGGERATE
+
+READING
+
+Ever since I could pronounce the word Mycostatin, I've wanted to be a philandering pharmaceutical sales rep tooling around the countryside in a 280Z in search of medical-arts buildings and uninhibited receptionists. The idea of pulling physicians out of critical procedures or poignant consultations (“Yes, Mr. Haber, I'd try to do the Oaxaca ballooning trip within the next two months if I were you”) in order to hawk product, the idea of making commodities out of anticoagulants, was just the most romantic and exciting thing in the world to me.
+
+FROM THE ESSAY “TAKE MY THIRD COUSIN, PLEASE,” BY MARK LEYNER
+
+LESSON
+
+This essay opens with the writer putting forth his exaggerated imagination for all to see. He makes fun of his own desires in preparation for something even more outrageous. This is the writer-as-character. He has an idea he wants to pass on to us, a thought that is pretty strange, but to prepare us for it, he softens us up with humor. The ideas now arrive in a context, in the words of someone prone to performance, prone to posing on the page. The ideas are not his own; he is merely someone capable of harboring extraordinary thinking. The paragraph leads us into the world where he learns from an older salesman what he is about to tell us. Just for your information, it has more to do with philandering than with pharmaceuticals.
+
+WRITING POSSIBILITIES
+
+1. A philandering pharmaceutical sales rep. That's funny. Can you come up with five more? Choose jobs you have had in the past. For example: a crafty cockeyed computer programmer; a licentious librarian.
+
+2. Imagine such a character in fiction. Imagine the quote is the opening to a story or novel. Begin again and this time make up the information you need. For example: Ever since I could say cordon bleu, I've wanted to be a dramatic and dangerous cruise-ship chef tooling through the dining room in search of heavy eaters and non-eaters, those who pick and those who gorge themselves, those with taste and those with no taste at all. The idea of … (Continue.)
+
+3. The quote is two sentences. Let's gain even more distance from it than in the previous exercise. Let's pare it down to its most basic parts. Write on any subject, first or third person, fiction or non-fiction. Begin: Ever since I _____, I've wanted to be _____. The idea of _____, the idea of _____ …
+
+CHARACTERS WHO ARE DESPERATE
+
+READING
+
+The sight of the dog put a wild idea into his head. He remembered the tale of the man, caught in a blizzard, who killed a steer and crawled inside the carcass, and so was saved. He would kill the dog and bury his hands in the warm body until the numbness went out of them. Then he could build another fire. He spoke to the dog, calling it to him; but in his voice was a strange note of fear that frightened the animal, who had never known the man to speak in such way before. …
+
+A certain fear of death, dull and oppressive, came to him. This fear quickly became poignant as he realized that it was no longer a mere matter of freezing his fingers and toes, or of losing his hands and feet, but that it was a matter of life and death with the chances against him.
+
+FROM THE STORY “TO BUILD A FIRE,” BY JACK LONDON
+
+LESSON
+
+Sometimes a story dictates that we take our characters to their limits. To do this successfully, we must know those limits. Know the capacity of our character's mind and spirit. This passage shows us a way to access a character's core. Here is someone who is alone in a desperate situation. Follow the workings of the character's mind: He sees the dog and it gives him an idea. The idea leads to a memory. The memory informs him. The information returns his attention to the dog. He makes a decision based on that process. He acts and he fails. The second part of the quote shows that his wits will not be enough to save him. There is no easy way to see your only choice when it is a desperate one.
+
+WRITING POSSIBILITIES
+
+1. List five situations in which, if you do not act, you will die. Designate a character other than yourself for each one. For example: a fisherman whose boat capsizes; a logger who cuts his leg.
+
+2. Select one from your list. Give your character an idea the way London does, but have him survive. For example: The sight of the steel-bladed ax next to the fire made it clear what he must do. He remembered his father telling him of one time being injured in the woods and searing the wound with a red-hot knife. After tightening the tourniquet on his leg, he crawled to the edge of the fire ring and eased the ax into the coals. …
+
+3. Select another situation from your list. This time the fates will not be so kind to your character. Begin as you did in exercise two, but in this story the attempt is futile. Look to the London quote for a way to do this. For example: A fear that he would not make it, would not survive the cold water began to descend on him. … This fear became overwhelming. …
+
+CHARACTERS WHO ARE MYSTERIOUS
+
+READING
+
+… Within a tin bowl beside her are soft cotton balls soaking up peroxide. She gets one and squeezes it and roughly abrades the dried blood from Mariette's palm until she's sure she's seen the healing of weeks in just one day. She tries to read Mariette's face, and then she says, “I'll have to see your foot.”
+
+“Which?”
+
+The infirmarian looks for a trick and tries, “Your left.”
+
+Mariette unties the dressings and Sister Aimée kneels to find the healing there, too. She pauses and asks, “What are you up to?”
+
+“Up to?”
+
+Sister Aimée's sleepless eyelids open and shut like dull scissors. “You were supposed to stay put but you sneaked out this morning. Why?”
+
+“Simply for Mass and Holy Communion.”
+
+Sister Aimée stares at her with honest interest and then she stands. “You truly amaze me.”
+
+“I have work to do,” Mariette says.
+
+She tries to smile at the postulant as she asks, “Then why are you still here?”
+
+FROM THE NOVEL MARIETTE IN ECSTASY, BY RON HANSEN
+
+LESSON
+
+Are Mariette's wounds self-inflicted or are they visited upon her by God? That is the question that drives the entire novel. Mariette is an elusive character. She is the one to be figured out, and Sister Aimée has been charged with this responsibility. Yet Hansen does not make this easy in the least because, by all appearances, Mariette seems the more forthright of the two. Notice how Sister Aimée's dialogue is preceded by interior, by intention, by action, while Mariette's dialogue stands alone. Consider something as simple as the line Sister Aimée stares at her with honest interest and then she stands. It's as if the act of standing cancels out the honest interest. It's often said that dialogue isn't what we say to each other, it's what we do to each other. Dialogue is a feature of character. The actions that surround our words are as likely to betray them as support them. By using gestures to contradict what a character says, you can make your dialogue richer, more interesting and complex.
+
+WRITING POSSIBILITIES
+
+Rather than work toward recreating a dialogue as complex and embedded in context as this one, try beginning with one small move that Hansen makes. Consider the following:
+
+Sister Aimée stares at her with honest interest and then she stands. “You truly amaze me.”
+
+“I have work to do,” Mariette says.
+
+1. These characters are not responding to each other. Try three of these simple exchanges yourself. For example:
+
+“I don't get you,” he said.
+
+“It's time for me to go,” she told him.
+
+2. Remember, what characters say is a function of who they are. In the example above, which character is being elusive, he or she? Decide this for your own exchanges. Now work backward and give your more straightforward character some intention, some action, like Hansen does for Sister Aimée. For example:
+
+He smiled at her with true affection. “I don't get you,” he said.
+
+“It's time for me to go,” she told him.
+
+3. With this small dialogue, characters in a relationship have been established. Now you have something to explain them. Continue your scene with a paragraph of narrative. For example:
+
+He smiled at her with true affection. “I don't get you,” he said.
+
+“It's time for me to go,” she told him.
+
+He tried to keep smiling at her because he truly did not understand her, but wanted to. … (Continue.)
+
+CHARACTERS WHO DREAM
+
+READING
+
+Danner sinks deep, completely, finally, into a dream she will know all her life; the loneliness of her mother's voice, Oh, it's hot, rises in the dream like vapor. In the cloudy air, winged animals struggle and stand up; they are limbed and long-necked, their flanks and backs powerful; their equine eyes are lucent and their hooves cut the air, slicing the mist to pieces. The horses are dark like blood and gleam with a black sheen; the animals swim hard in the air to get higher and Danner aches to stay with them. She touches herself because that is where the pain is; she holds on, rigid, not breathing, and in the dream it is the horse pressed against her, the rhythmic pumping of the forelegs as the animal climbs, the lather and the smell; the smell that comes in waves and pounds inside her like a pulse.
+
+FROM THE NOVEL MACHINE DREAMS, BY JAYNE ANNE PHILLIPS
+
+LESSON
+
+Think about the last time you recounted one of your dreams to someone else, how hard it was to get the facts straight, make sense to someone who didn't experience it. Think, too, about the many dream interpretation books and how dry they can be. In this passage, Phillips depends on the familiarity of the horse dream, something many young girls experience, but she doesn't stop there. She makes this dream enter her character's body: Danner aches … she touches herself … she holds on. … But as powerful as this dream is to Danner, it's still a dream. As you think about your characters and their dream worlds, keep in mind that writing a dream requires the same level of attention and intention as any other element. Think of a dream as a story out of sleep. It is only as important as you make it.
+
+WRITING POSSIBILITIES
+
+1. What are some of your most familiar dreams? Okay, now that you've remembered the one where you are in a public place without your clothes, think of five more, good and bad, and describe each dream in a single sentence.
+
+2. Which of these five dreams are yours alone, and which do you think you share with other people? Take one of these more universal dreams and give it to a character. Write one paragraph in which you enter this dream as Phillips does, with the sound of a voice. This gives the dream a solid base.
+
+3. Now, following Phillips, move into the fractured language we use to tell about our dreams. Notice how, in her first descriptive sentence, Phillips doesn't mention horses, but animals, as if these were completely new creatures to Danner's mind. Familiar things often become unfamiliar in dreams. In her next sentence, she calls them horses, for clarity, but the mood has been set. Write five phrases that sketch in your dream images. Note here that the words fractured and sketch do not mean incomplete or vague. Phillips is precise in her image making. 4. Danner's dream carries out of sleep and affects her body. List five ways dreams can take hold of us. For example: tossing, turning, mumbling, talking.
+
+CHILDREN
+
+READING
+
+Juniper breathes a cloud across her window and writes “ADAM.” Jade, after glancing over her shoulder, fogs her window and writes “ADAM LOVES JADE.” Juniper makes tongue prints; Jade draws a dozen deft Xs, for kisses. Caught between them, awed by the twins' cold second-grade glamour, Fanny feels herself whittled down to a ragged scarecrow—a scarecrow with a note, weighing like lead in her pocket, that her kindergarten teacher asked her to take home.
+
+FROM THE STORY “BLACK HOLES.” BY ELIZABETH TALLENT
+
+LESSON
+
+Using 

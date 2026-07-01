@@ -1,0 +1,566 @@
+understanding_distributed_systems_2022_ch19_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 19
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch19_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch19_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 19
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch19_ingest.md |
+| text_lines_read | 5852–6192 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 19 |
+| chapter_title | Data storage |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Scale relational DB via leader-follower replication, partitioning limits, NoSQL access-pattern modeling (DynamoDB single-table, GSI), NewSQL trend (CockroachDB, Spanner callback).
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Replication** (5865–5941): Leader WAL → followers; read replicas + LB; async fast but lossy; sync fragile; mixed sync follower for failover; scales reads not writes.
+2. **Partitioning pain** (5954–5970): App-layer sharding + 2PC + replication combo is daunting.
+3. **NoSQL** (5998–6032): Bigtable/Dynamo lineage; relaxed consistency; denormalized key-value/documents.
+4. **DynamoDB** (6056–6144): PK/SK; 3 replicas; W=2 ack; single-table entity mixing (Jon Snow orders); GSI eventually consistent.
+5. **Access patterns upfront** (6146–6157): NoSQL less flexible than SQL when misused.
+6. **NewSQL** (6159–6192): CockroachDB, Spanner; consistency over partition availability.
+
+---
+
+## Section digest (anchored)
+
+### §19.1 Replication (5865–5941)
+
+Figure 19.1 leader-follower.
+
+### §19.2 Partitioning (5954–5970)
+
+App-layer complexity.
+
+### §19.3 NoSQL/DynamoDB (5998–6192)
+
+Single-table example; NewSQL.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Configure leader-follower for read scale.
+2. Explain app-layer partitioning cost.
+3. Model DynamoDB for dominant queries.
+4. Contrast NoSQL/NewSQL/RDB.
+
+### worked_examples_present
+
+**Y** — Jon Snow orders table; RDS failover; DeBrie DynamoDB Book ref.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Sync policy:** 1 sync + N async for RPO target.
+2. **DynamoDB model:** PK/SK + GSI for second query.
+3. **Store picker:** NoSQL vs NewSQL vs RDB.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| §19.1 | Read | 5865–5941 |
+| §19.2 | Read | 5954–5970 |
+| §19.3 | Read | 5998–6192 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 5852–6192 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+Primary w2 data-layer ingest; pair **ddia_2e_2026** replication/partitioning; links ch12.4 Spanner.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | High — primary overlap |
+| **UDS ch12** | High — Spanner/NewSQL |
+| **AIE** | Low — vector store different layer |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (concrete DynamoDB rows).
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Bigtable, DynamoDB re:Invent, DeBrie, Pavlo NewSQL |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | DynamoDB + replication depth |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| NoSQL flexibility myth | 6146–6151 | Author inversion |
+| NewSQL availability cost | 6164–6178 | Pavlo contested |
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.20 | Cache DB reads |
+| DDIA 2e | SYNTHESIS dedup |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 5852–6192 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Read replica | Follower serving reads |
+| Single-table design | Multiple entities same PK |
+| NewSQL | Distributed SQL/ACID |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch19_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch19_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 19
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+
+Although this approach works, it’s not resilient to failures. If one of
+the two servers goes down, the DNS server will happily continue
+to serve its IP address, unaware that it’s no longer available. Even
+if we were to automatically reconﬁgure the DNS record when a
+failure happens and take out the problematic IP, the change needs
+  6
+      “Round-robin DNS,” https://en.wikipedia.org/wiki/Round-robin_DNS
+
+CHAPTER 18. NETWORK LOAD BALANCING                                175
+
+
+
+
+                       Figure 18.1: DNS load balancing
+
+
+time to propagate to the clients, since DNS entries are cached, as
+discussed in chapter 4.
+The one use case where DNS is used in practice to load-balance is
+for distributing trafﬁc to different data centers located in different
+regions (global DNS load balancing). We have already encountered
+a use for this when discussing CDNs.
+
+
+18.2         Transport layer load balancing
+A more ﬂexible load-balancing solution can be implemented with
+a load balancer that operates at the TCP level of the network stack
+(aka L4 load balancer7 ) through which all the trafﬁc between
+clients and servers ﬂows.
+A network load balancer has one or more physical network interface
+  7
+      layer 4 is the transport layer in the OSI model
+
+CHAPTER 18. NETWORK LOAD BALANCING                                        176
+
+
+cards mapped to one or more virtual IP (VIP) addresses. A VIP, in
+turn, is associated with a pool of servers. The load balancer acts
+as an intermediary between clients and servers — clients only see
+the VIP exposed by the load balancer and have no visibility of the
+individual servers associated with it.
+
+When a client creates a new TCP connection with a load balancer’s
+VIP, the load balancer picks a server from the pool and henceforth
+shufﬂes the packets back and forth for that connection between the
+client and the server. And because all the trafﬁc goes through the
+load balancer, it can detect servers that are unavailable (e.g., with a
+passive health check) and automatically take them out of the pool,
+improving the system’s reliability.
+
+A connection is identiﬁed by a tuple (source IP/port, destination
+IP/port). Typically, some form of hashing is used to assign a con-
+nection tuple to a server that minimizes the disruption caused by
+a server being added or removed from the pool, like consistent
+hashing8 .
+
+To forward packets downstream, the load balancer translates9 each
+packet’s source address to the load balancer’s address and its des-
+tination address to the server’s address. Similarly, when the load
+balancer receives a packet from the server, it translates its source
+address to the load balancer’s address and its destination address
+to the client’s address (see Figure 18.2).
+
+As the data going out of the servers usually has a greater volume
+than the data coming in, there is a way for servers to bypass the
+load balancer and respond directly to the clients using a mecha-
+nism called direct server return10 , which can signiﬁcantly reduce
+the load on the load balancer.
+
+A network load balancer can be built using commodity machines
+   8
+     “SREcon19 Americas - Keeping the Balance: Internet-Scale Loadbalancing De-
+mystiﬁed,” https://www.youtube.com/watch?v=woaGu3kJ-xk
+   9
+     “Network address translation,” https://en.wikipedia.org/wiki/Network_a
+ddress_translation
+  10
+     “Introduction to modern network load balancing and proxying,” https://blog
+.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-
+a57f6ff80236
+
+CHAPTER 18. NETWORK LOAD BALANCING                                   177
+
+
+
+
+            Figure 18.2: Transport layer load balancing
+
+
+and scaled out using a combination of Anycast11 and ECMP12 . Load
+balancer instances announce themselves to the data center’s edge
+routers with the same Anycast VIP and identical BGP weight. Us-
+ing an Anycast IP is a neat trick that allows multiple machines to
+share the same IP address and have routers send trafﬁc to the one
+with the lowest BGP weight. If all the instances have the same iden-
+tical BGP weight, routers use equal-cost multi-path routing (con-
+sistent hashing) to ensure that the packets of a speciﬁc connection
+are generally routed to the same load balancer instance.
+
+Since Cruder is hosted in the cloud, we can leverage one of the
+  11
+    “Anycast,” https://en.wikipedia.org/wiki/Anycast
+ 12
+    “Equal-cost multi-path routing,” https://en.wikipedia.org/wiki/Equal-
+cost_multi-path_routing
+
+CHAPTER 18. NETWORK LOAD BALANCING                                      178
+
+
+many managed solutions for network load balancing, such as AWS
+Network Load Balancer13 or Azure Load Balancer14 .
+
+Although load balancing connections at the TCP level is very
+fast, the drawback is that the load balancer is just shufﬂing bytes
+around without knowing what they actually mean. Therefore,
+L4 load balancers generally don’t support features that require
+higher-level network protocols, like terminating TLS connections.
+A load balancer that operates at a higher level of the network
+stack is required to support these advanced use cases.
+
+
+18.3      Application layer load balancing
+An application layer load balancer (aka L7 load balancer15 ) is an
+HTTP reverse proxy that distributes requests over a pool of servers.
+The load balancer receives an HTTP request from a client, inspects
+it, and sends it to a backend server.
+
+There are two different TCP connections at play here, one between
+the client and the L7 load balancer and another between the L7
+load balancer and the server. Because a L7 load balancer operates
+at the HTTP level, it can de-multiplex individual HTTP requests
+sharing the same TCP connection. This is even more important
+with HTTP 2, where multiple concurrent streams are multiplexed
+on the same TCP connection, and some connections can be a lot
+more expensive to handle than others.
+
+The load balancer can do smart things with application trafﬁc, like
+rate-limit requests based on HTTP headers, terminate TLS connec-
+tions, or force HTTP requests belonging to the same logical session
+to be routed to the same backend server. For example, the load bal-
+ancer could use a cookie to identify which logical session a request
+belongs to and map it to a server using consistent hashing. That
+allows servers to cache session data in memory and avoid fetching
+  13
+     “Network Load Balancer,” https://aws.amazon.com/elasticloadbalancing/
+network-load-balancer/
+  14
+     “Azure Load Balancer,” https://azure.microsoft.com/en-us/services/load-
+balancer/
+  15
+     layer 7 is the application layer in the OSI model
+
+CHAPTER 18. NETWORK LOAD BALANCING                                           179
+
+
+it from the data store for each request. The caveat is that sticky ses-
+sions can create hotspots, since some sessions can be much more
+expensive to handle than others.
+A L7 load balancer can be used as the backend of a L4 load balancer
+that load-balances requests received from the internet. Although
+L7 load balancers have more capabilities than L4 load balancers,
+they also have lower throughput, making L4 load balancers better
+suited to protect against certain DDoS attacks, like SYN ﬂoods16 .
+A drawback of using a dedicated load balancer is that all the trafﬁc
+directed to an application needs to go through it. So if the load
+balancer goes down, the application behind it does too. However,
+if the clients are internal to the organization, load balancing can be
+delegated to them using the sidecar pattern. The idea is to proxy all
+a client’s network trafﬁc through a process co-located on the same
+machine (the sidecar proxy). The sidecar process acts as a L7 load
+balancer, load-balancing requests to the right servers. And, since
+it’s a reverse proxy, it can also implement various other functions,
+such as rate-limiting, authentication, and monitoring.
+This approach17 (aka “service mesh”) has been gaining popularity
+with the rise of microservices in organizations with hundreds of
+services communicating with each other. As of this writing, pop-
+ular sidecar proxy load balancers are NGINX, HAProxy, and En-
+voy. The main advantage of this approach is that it delegates load-
+balancing to the clients, removing the need for a dedicated load
+balancer that needs to be scaled out and maintained. The draw-
+back is that it makes the system a lot more complex since now we
+need a control plane to manage all the sidecars18 .
+
+
+
+
+  16
+     A SYN ﬂood is a form of denial-of-service attack in which an attacker rapidly
+initiates a TCP connection to a server without ﬁnalizing the connection.
+  17
+     “Service mesh data plane vs. control plane,” https://blog.envoyproxy.io/ser
+vice-mesh-data-plane-vs-control-plane-2774e720f7fc
+  18
+     “Service Mesh Wars, Goodbye Istio,” https://blog.polymatic.systems/service-
+mesh-wars-goodbye-istio-b047d9e533c7
+
+
+Chapter 19
+
+Data storage
+
+Because Cruder is stateless, we were able to scale it out by running
+multiple application servers behind a load balancer. But as the
+application handles more load, the number of requests to the rela-
+tional database increases as well. And since the database is hosted
+on a single machine, it’s only a matter of time until it reaches its
+capacity and it starts to degrade.
+
+
+
+19.1     Replication
+We can increase the read capacity of the database by creating repli-
+cas. The most common way of doing that is with a leader-follower
+topology (see Figure 19.1). In this model, clients send writes (up-
+dates, inserts, and deletes) exclusively to the leader, which persists
+the changes to its write-ahead log. Then, the followers, or replicas,
+connect to the leader and stream log entries from it, committing
+them locally. Since log entries have a sequence number, follow-
+ers can disconnect and reconnect at any time and start from where
+they left off by communicating to the leader the last sequence num-
+ber they processed.
+
+By creating read-only followers and putting them behind a load
+balancer, we can increase the read capacity of the database. Repli-
+
+CHAPTER 19. DATA STORAGE                                          182
+
+
+
+
+               Figure 19.1: Single leader replication
+
+
+cation also increases the availability of the database. For example,
+the load balancer can automatically take a faulty replica out of the
+pool when it detects that it’s no longer healthy or available. And
+when the leader fails, a replica can be reconﬁgured to take its place.
+Additionally, individual followers can be used to isolate speciﬁc
+workloads, like expensive analytics queries that are run periodi-
+cally, so that they don’t impact the leader and other replicas.
+
+The replication between the leader and the followers can happen
+either fully synchronously, fully asynchronously, or as a combina-
+tion of the two.
+
+If the replication is fully asynchronous, when the leader receives a
+write, it broadcasts it to the followers and immediately sends a
+response back to the client without waiting for the followers to
+acknowledge it. Although this approach minimizes the response
+time for the client, it’s not fault-tolerant. For example, the leader
+could crash right after acknowledging a write and before broad-
+
+CHAPTER 19. DATA STORAGE                                                 183
+
+
+casting it to the followers, resulting in data loss.
+
+In contrast, if replication is fully synchronous, the leader waits for
+the write to be acknowledged by the followers before returning a
+response to the client. This comes with a performance cost since
+a single slow replica increases the response time of every request.
+And if any replica is unreachable, the data store becomes unavail-
+able. This approach is not scalable; the more followers there are,
+the more likely it is that at least one of them is slow or unavailable.
+
+In practice, relational databases often support a combination
+of synchronous and asynchronous replication. For example, in
+PostgreSQL, individual followers can be conﬁgured to receive
+updates synchronously1 , rather than asynchronously, which is
+the default. So, for example, we could have a single synchronous
+follower whose purpose is to act as an up-to-date backup of
+the leader. That way, if the leader fails, we can fail over to the
+synchronous follower without incurring any data loss.
+
+Conceptually, the failover mechanism needs to: detect when the
+leader has failed, promote the synchronous follower to be the new
+leader and reconﬁgure the other replicas to follow it, and ensure
+client requests are sent to the new leader. Managed solutions like
+AWS RDS or Azure SQL Database, support read replicas2 and au-
+tomated failover3 out of the box, among other features such as au-
+tomated patching and backups.
+
+One caveat of replication is that it only helps to scale out reads, not
+writes. The other issue is that the entire database needs to ﬁt on
+a single machine. Although we can work around that by moving
+some tables from the main database to others running on different
+nodes, we would only be delaying the inevitable. As you should
+know by now, we can overcome these limitations with partition-
+ing.
+   1
+     “PostgreSQL Server Conﬁguration, Replication,” https://www.postgresql.o
+rg/docs/14/runtime-config-replication.html
+   2
+     “Amazon RDS Read Replicas,” https://aws.amazon.com/rds/features/read-
+replicas/
+   3
+     “Multi-AZ deployments for high availability,” https://docs.aws.amazon.co
+m/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+
+CHAPTER 19. DATA STORAGE                                                         184
+
+
+19.2       Partitioning
+
+Partitioning allows us to scale out a database for both reads and
+writes. Even though traditional (centralized) relational databases
+generally don’t support it out of the box, we can implement it at
+the application layer in principle. However, implementing par-
+titioning at the application layer is challenging and adds a lot of
+complexity to the system. For starters, we need to decide how to
+partition the data among the database instances and rebalance it
+when a partition becomes too hot or too big. Once the data is par-
+titioned, queries that span multiple partitions need to be split into
+sub-queries and their responses have to be combined (think of ag-
+gregations or joins). Also, to support atomic transactions across
+partitions, we need to implement a distributed transaction proto-
+col, like 2PC. Add to all that the requirement to combine partition-
+ing with replication, and you can see how partitioning at the ap-
+plication layer becomes daunting.
+
+
+Taking a step back, the fundamental problem with traditional rela-
+tional databases is that they have been designed under the assump-
+tion they ﬁt on a single beefy machine. Because of that, they sup-
+port a number of features that are hard to scale, like ACID trans-
+actions and joins. Relational databases were designed in an era
+where disk space was costly, and normalizing the data to reduce
+the footprint on disk was a priority, even if it came with a signiﬁ-
+cant cost to unnormalize the data at query time with joins.4
+
+
+Times have changed, and storage is cheap nowadays, while CPU
+time isn’t. This is why, in the early 2000s, large tech companies
+began to build bespoke solutions for storing data designed from
+the ground up with high availability and scalability in mind.
+
+
+
+   4
+     That said, reducing storage costs isn’t the only beneﬁt of normalization: it also
+

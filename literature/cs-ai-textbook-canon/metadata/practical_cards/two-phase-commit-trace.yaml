@@ -1,0 +1,26 @@
+topic_slug: two-phase-commit-trace
+claim_ids: []
+wire_status: pending
+generated: 2026-06-26
+source_ingests:
+  - ingests/understanding_distributed_systems_2022_ch12_ingest.md
+cards:
+  - exercise_name: Two-Phase Commit Failure Trace
+    steps:
+      - Draw participants (coordinator + replicas) for a cross-store update and mark the prepare phase — each participant votes ready or abort (UDS Ch12 §12.3.1).
+      - Record the first point of no return when all participants have prepared and the coordinator issues commit (UDS Ch12 §12.3.1).
+      - Simulate coordinator crash after all prepare OK — list which participant states block until coordinator recovery (UDS Ch12 2PC blocking).
+      - Note mitigation — replicate coordinator/participant roles via consensus (e.g. Raft) so roles survive process death (UDS Ch12 §12.3.1).
+    cognitive_frame: Distributed atomicity has explicit blocking windows — trace state machines, do not assume single-node rollback.
+    observables:
+      - Diagram labels prepare vs commit phases
+      - Operator identifies blocking interval when coordinator is unavailable
+      - Operator names at least one replication-based mitigation
+    contraindications:
+      - treating 2PC as low-latency default without async-transaction alternative review
+      - conflating ACID isolation levels with replication consistency models
+    source_anchor: "[read:body] understanding_distributed_systems_2022_ch12_ingest.md §12.3.1 Two-phase commit"
+    consumer_wire: null
+    context_tags: [distributed-systems, transactions]
+    quality_level: full
+    procedure_gap: false

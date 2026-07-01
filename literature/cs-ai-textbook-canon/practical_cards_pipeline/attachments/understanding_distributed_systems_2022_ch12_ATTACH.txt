@@ -1,0 +1,789 @@
+understanding_distributed_systems_2022_ch12_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 12
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch12_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch12_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 12
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch12_ingest.md |
+| text_lines_read | 3812–4353 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 12 |
+| chapter_title | Transactions |
+| part | Part II — Replication (capstone) |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Chapter 12 implements **ACID transactions** for centralized and distributed data stores. Vitillo opens with microservice multi-store updates, then walks **ACID** (with explicit note that consistency in ACID is application-level, not replication consistency), **isolation anomalies** (dirty write/read, fuzzy read, phantom read), isolation levels through **serializability** and **strict serializability**, pessimistic **two-phase locking (2PL)**, optimistic **OCC**, **MVCC**, WAL-based **atomicity**, **two-phase commit (2PC)**, and **Google Spanner** as a NewSQL reference combining Paxos replication, cross-partition 2PC, MVCC+2PL, and TrueTime clock uncertainty.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **ACID framing** (lines 3842–3896): Atomicity rolls back partial work; durability requires replication (Ch.10); author ignores confusing ACID "C" per Hellerstein.
+2. **Isolation ladder** (lines 3901–3996): Stronger levels forbid more races but cost performance; default PostgreSQL is read committed; when in doubt choose strict serializability; vendor specs may diverge from formal definitions (Jepsen).
+3. **2PL** (lines 3998–4026): Shared read locks, exclusive write locks, expanding/shrinking phases; strict 2PL until commit prevents cascading aborts; deadlock detection via victim abort.
+4. **OCC** (lines 4027–4052): Local workspace + timestamp validation at commit; physical latches on internal structures; best for read-heavy or low-conflict writes.
+5. **MVCC** (lines 4075–4103): Read-only transactions see immutable snapshots without blocking writers; write transactions use 2PL or OCC underneath.
+6. **Object-level OCC** (lines 4118–4131): Version numbers + compare-and-swap for distributed conditional updates (links to leases §9.2).
+7. **WAL** (lines 4141–4156): Write-ahead log enables rollback/recovery within one data store.
+8. **2PC** (lines 4170–4247): Prepare then commit/abort; two points of no return; blocking if coordinator dies; uniform consensus harder than consensus; replicate roles via Raft for resilience.
+9. **Spanner** (lines 4260–4353): Partitioned Paxos groups; leader lock manager; cross-partition 2PC with replicated logs; TrueTime uncertainty intervals + commit wait; CockroachDB uses hybrid logical clocks.
+
+---
+
+## Section digest (anchored)
+
+### §12.1 ACID (3842–3896)
+
+Money-transfer motivates transactions; ACID properties defined; durability needs replication.
+
+### §12.2 Isolation (3901–3996)
+
+Four race conditions; Figure 12.1 isolation level ladder; strict serializability adds real-time order.
+
+### §12.2.1 Concurrency control (3998–4131)
+
+2PL vs OCC vs MVCC trade-offs; Pavlo course recommended for implementation depth.
+
+### §12.3 Atomicity (4134–4168)
+
+WAL single-store; cross-bank transfer needs distributed atomicity.
+
+### §12.3.1 Two-phase commit (4170–4247)
+
+Figure 12.2 prepare/commit; mixed reputation (Stonebraker blog).
+
+### §12.4 NewSQL / Spanner (4251–4353)
+
+Figure 12.3 three partitions; TrueTime <10ms uncertainty typical.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Define ACID and map isolation levels to forbidden anomalies.
+2. Compare 2PL, OCC, MVCC for workload fit.
+3. Explain 2PC blocking and replication mitigations.
+4. Describe Spanner's Paxos + 2PC + MVCC + clocks stack.
+
+### worked_examples_present
+
+**Y** — Bank transfer, 2PC figure, Spanner multi-partition diagram, CAS version example.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Isolation picker:** Given read/write ratio, pick isolation level and justify.
+2. **2PC failure:** Trace participant state when coordinator crashes after all prepare OK.
+3. **Clock compare:** TrueTime wait vs CockroachDB HLC for external consistency.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.12 opener | Read | 3812–3833 |
+| §12.1 ACID | Read | 3842–3896 |
+| §12.2 Isolation | Read | 3901–3996 |
+| §12.2.1 Concurrency | Read | 3998–4131 |
+| §12.3–12.3.1 Atomicity/2PC | Read | 4134–4247 |
+| §12.4 Spanner | Read | 4251–4353 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 3812–4353 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part II — Replication (capstone))
+
+Transaction capstone linking Part II consistency to ch19 NewSQL and **ddia_2e_2026** transaction chapters. Essential for microservice multi-store updates (pairs ch13 async patterns).
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | High — isolation, 2PC, Spanner; dedup at SYNTHESIS |
+| **UDS ch13** | High — 2PC blocking motivates async txs |
+| **Philosophy SD ch10** | Low — exception/rollback philosophy |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (figures + Spanner walkthrough).
+- **Chapter boundary:** Clean end before Ch.13.
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Jepsen, Pavlo 15-445, Spanner OSDI'12, Stonebraker 2PC blog |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Multiple figures + Spanner architecture |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Ignore ACID Consistency vs consistency models | 3862–3873 | Author explicit |
+| Default strict serializability | 3968–3972 | Perf cost |
+| 2PC move-on reputation | 4217–4226 | Async alt in ch13 |
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.13 | Asynchronous transactions |
+| Ch.19 | NewSQL callback |
+| DDIA 2e | Transaction isolation depth |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 3812–4353 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Strict serializability | Serializability + real-time ordering |
+| 2PL | Two-phase locking |
+| 2PC | Two-phase commit |
+| TrueTime | Spanner clock uncertainty intervals |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch12_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch12_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 12
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+
+       • For many applications, causal consistency is “consistent
+         enough” and easier to work with than eventual consistency.
+       • Causal consistency is provably16 the strongest consistency
+         model that enables building systems that are also available
+         and partition tolerant.
+
+Causal consistency imposes a partial order on the operations.
+The simplest deﬁnition requires that processes agree on the order
+of causally related operations but can disagree on the order of
+unrelated ones. You can take any two operations, and either one
+happened-before the other, or they are concurrent and therefore can’t
+be ordered. This is the main difference from strong consistency,
+which imposes a global order that all processes agree with.
+
+For example, suppose a process updates an entry in a key-value
+  15
+    “Causal Consistency,” https://jepsen.io/consistency/models/causal
+  16
+    “Consistency, Availability, and Convergence,” https://apps.cs.utexas.edu/tec
+h_reports/reports/tr/TR-2036.pdf
+
+CHAPTER 11. COORDINATION AVOIDANCE                                           108
+
+
+store (operation A), which is later read by another process (opera-
+tion B) that consequently updates another entry (operation C). In
+that case, all processes in the system have to agree that A happened-
+before C. In contrast, if two operations, X and Y, happen concur-
+rently and neither happened-before the other, some processes may
+observe X before Y and others Y before X.
+
+Let’s see how we can use causal consistency to build a replicated
+data store that is available under network partitions. We will
+base our discussion on “Clusters of Order-Preserving Servers”
+(COPS17 ), a key-value store that delivers causal consistency across
+geographically distributed clusters. In COPS, a cluster is set up as
+a strongly consistent partitioned data store, but for simplicity, we
+will treat it as a single logical node without partitions.18 Later, in
+chapter 16, we will discuss partitioning at length.
+
+First, let’s deﬁne a variant of causal consistency called causal+ in
+which there is no disagreement (conﬂict) about the order of unre-
+lated operations. Disagreements are problematic since they cause
+replicas to diverge forever. To avoid them, LWW registers can be
+used as values to ensure that all replicas converge to the same state
+in the presence of concurrent writes. An LWW register is com-
+posed of an object and a logical timestamp, which represents its
+version.
+
+In COPS, any replica can accept read and write requests, and
+clients send requests to their closest replica (local replica). When
+a client sends a read request for a key to its local replica, the latter
+replies with the most recent value available locally. When the
+client receives the response, it adds the version (logical timestamp)
+of the value it received to a local key-version dictionary used to
+keep track of dependencies.
+
+When a client sends a write to its local replica, it adds a copy of
+  17
+     “Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage
+with COPS,” https://www.cs.princeton.edu/~mfreed/docs/cops-sosp11.pdf
+  18
+     COPS can track causal relationships between partitions (and therefore nodes),
+unlike simpler approaches using version vectors, which limit causality tracking to
+the set of keys that a single node can store (see “Session Guarantees for Weakly
+Consistent Replicated Data,” https://www.cs.utexas.edu/users/dahlin/Classes
+/GradOS/papers/SessionGuaranteesPDIS.pdf).
+
+CHAPTER 11. COORDINATION AVOIDANCE                                109
+
+
+the dependency dictionary to the request. The replica assigns a
+version to the write, applies the change locally, and sends an ac-
+knowledgment back to the client with the version assigned to it. It
+can apply the change locally, even if other clients updated the key
+in the meantime, because values are represented with LWW regis-
+ters. Finally, the update is broadcast asynchronously to the other
+replicas.
+
+When a replica receives a replication message for a write, it doesn’t
+apply it locally immediately. Instead, it ﬁrst checks whether the
+write’s dependencies have been committed locally. If not, it waits
+until the required versions appear. Finally, once all dependencies
+have been committed, the replication message is applied locally.
+This behavior guarantees causal consistency (see Fig 11.8).
+
+
+
+
+Figure 11.8: A causally consistent implementation of a key-value
+store
+
+If a replica fails, the data store continues to be available as any
+replica can accept writes. There is a possibility that a replica could
+
+CHAPTER 11. COORDINATION AVOIDANCE                                        110
+
+
+fail after committing an update locally but before broadcasting it,
+resulting in data loss. In COPS’ case, this tradeoff is considered
+acceptable to avoid paying the price of waiting for one or more
+long-distance requests to remote replicas before acknowledging a
+client write.
+
+
+11.6      Practical considerations
+To summarize, in the previous chapters we explored different
+ways to implement replication and learned that there is a tradeoff
+between consistency and availability/performance. In other
+words, to build scalable and available systems, coordination
+needs to be minimized.
+This tradeoff is present in any large-scale system, and some even
+have knobs that allow you to control it. For example, Azure
+Cosmos DB is a fully managed scalable NoSQL database that
+enables developers to choose among 5 different consistency mod-
+els, ranging from eventual consistency to strong consistency19 ,
+where weaker consistency models have higher throughputs than
+stronger ones.
+
+
+
+
+  19
+    “Azure Cosmos DB: Pushing the frontier of globally distributed databases,”
+https://azure.microsoft.com/en- gb/blog/azure- cosmos- db- pushing- the-
+frontier-of-globally-distributed-databases/
+
+Chapter 12
+
+
+Transactions
+
+Transactions1 provide the illusion that either all the operations
+within a group complete successfully or none of them do, as if
+the group were a single atomic operation. If you have used a
+relational database such as MySQL or PostgreSQL in the past, you
+should be familiar with the concept.
+
+
+If your application exclusively updates data within a single rela-
+tional database, then bundling some changes into a transaction is
+straightforward. On the other hand, if your system needs to atom-
+ically update data that resides in multiple data stores, the opera-
+tions need to be wrapped into a distributed transaction, which is a
+lot more challenging to implement. This is a fairly common sce-
+nario in microservice architectures where a service needs to inter-
+act with other services to handle a request, and each service has
+its own separate data store. In this chapter, we explore various
+solutions to this problem.
+
+
+   1
+     “Transaction processing,” https://en.wikipedia.org/wiki/Transaction_proce
+ssing
+
+CHAPTER 12. TRANSACTIONS                                               112
+
+
+12.1      ACID
+Consider a money transfer from one bank account to another. If
+the withdrawal succeeds, but the deposit fails for some reason, the
+funds need to be deposited back into the source account. In other
+words, the transfer needs to execute atomically; either both the
+withdrawal and the deposit succeed, or in case of a failure, nei-
+ther do. To achieve that, the withdrawal and deposit need to be
+wrapped in an inseparable unit of change: a transaction.
+
+In a traditional relational database, a transaction is a group of
+operations for which the database guarantees a set of properties,
+known as ACID:
+
+   • Atomicity guarantees that partial failures aren’t possible;
+     either all the operations in the transactions complete suc-
+     cessfully, or none do. So if a transaction begins execution
+     but fails for whatever reason, any changes it made must be
+     undone. This needs to happen regardless of whether the
+     transaction itself failed (e.g., divide by zero) or the database
+     crashed mid way.
+   • Consistency guarantees that the application-level invariants
+     must always be true. In other words, a transaction can only
+     transition a database from a correct state to another correct
+     state. How this is achieved is the responsibility of the appli-
+     cation developer who deﬁnes the transaction. For example,
+     in a money transfer, the invariant is that the sum of money
+     across the accounts is the same after the transfer, i.e., money
+     can’t be destroyed or created. Confusingly, the “C” in ACID
+     has nothing to do with the consistency models we talked
+     about so far, and according to Joe Hellerstein, it was tossed in
+     to make the acronym work2 . Therefore, we will safely ignore
+     this property in the rest of the chapter.
+   • Isolation guarantees that a transaction appears to run in iso-
+     lation as if no other transactions are executing, i.e., the con-
+     current execution of transactions doesn’t cause any race con-
+
+   2
+     “When is”ACID” ACID? Rarely.” http://www.bailis.org/blog/when-is-acid-
+acid-rarely/
+
+CHAPTER 12. TRANSACTIONS                                           113
+
+
+        ditions.
+      • Durability guarantees that once the database commits the
+        transaction, the changes are persisted on durable storage so
+        that the database doesn’t lose the changes if it subsequently
+        crashes. In the way I described it, it sounds like the job is
+        done once the data is persisted to a storage device. But, we
+        know better by now, and replication3 is required to ensure
+        durability in the presence of storage failures.
+
+Transactions relieve developers from a whole range of possible fail-
+ure scenarios so that they can focus on the actual application logic
+rather than handling failures. But to understand how distributed
+transactions work, we ﬁrst need to discuss how centralized, non-
+distributed databases implement transactions.
+
+
+
+12.2        Isolation
+The easiest way to guarantee that no transaction interferes with an-
+other is to run them serially one after another (e.g., using a global
+lock). But, of course, that would be extremely inefﬁcient, which is
+why in practice transactions run concurrently. However, a group
+of concurrently running transactions accessing the same data can
+run into all sorts of race conditions, like dirty writes, dirty reads,
+fuzzy reads, and phantom reads:
+
+      • A dirty write happens when a transaction overwrites the
+        value written by another transaction that hasn’t committed
+        yet.
+      • A dirty read happens when a transaction observes a write
+        from a transaction that hasn’t completed yet.
+      • A fuzzy read happens when a transaction reads an object’s
+        value twice but sees a different value in each read because an-
+        other transaction updated the value between the two reads.
+      • A phantom read happens when a transaction reads a group
+        of objects matching a speciﬁc condition, while another trans-
+        action concurrently adds, updates, or deletes objects match-
+  3
+      see Chapter 10
+
+CHAPTER 12. TRANSACTIONS                                              114
+
+
+      ing the same condition. For example, if one transaction is
+      summing all employees’ salaries while another deletes some
+      employee records simultaneously, the ﬁnal sum will be in-
+      correct at commit time.
+To protect against these race conditions, a transaction needs to be
+isolated from others. An isolation level protects against one or more
+types of race conditions and provides an abstraction that we can
+use to reason about concurrency. The stronger the isolation level
+is, the more protection it offers against race conditions, but the less
+performant it is.
+An isolation level is deﬁned based on the type of race conditions
+it forbids, as shown in Figure 12.1.
+
+
+
+
+Figure 12.1: Isolation levels deﬁne which race conditions they for-
+bid.
+
+Serializability is the only isolation level that isolates against all pos-
+
+CHAPTER 12. TRANSACTIONS                                                 115
+
+
+sible race conditions. It guarantees that executing a group of trans-
+actions has the same side effects as if the transactions run serially
+(one after another) in some order. For example, suppose we have
+two concurrent transactions, X and Y, and transaction X commits
+before transaction Y. A serializable system guarantees that even
+though their operations are interleaved, they appear to run after
+the other, i.e., X before Y or Y before X (even if Y committed af-
+ter!). To add a real-time requirement on the order of transactions,
+we need a stronger isolation level: strict serializability. This level
+combines serializability with the real-time guarantees of lineariz-
+ability so that when a transaction completes, its side effects become
+immediately visible to all future transactions.
+
+(Strict) serializability is slow as it requires coordination, which cre-
+ates contention in the system. For example, a transaction may be
+forced to wait for other transactions. In some cases, it may even
+be forced to abort because it can no longer be executed as part of
+a serializable execution. Because not all applications require the
+guarantees that serializability provides, data stores allow develop-
+ers to use weaker isolation levels. As a rule of thumb, we need to
+consciously decide which isolation level to use and understand its
+implications, or the data store will silently make that decision for
+us; for example, PostgreSQL’s default isolation4 is read committed.
+So, if in doubt, choose strict serializability.
+
+There are more isolation levels and race conditions than the ones
+we discussed here. Jepsen5 provides a good formal reference for
+the existing isolation levels, how they relate to one another, and
+which guarantees they offer. Although vendors typically docu-
+ment the isolation levels of their products, these speciﬁcations
+don’t always match6 the formal deﬁnitions.
+
+Now that we know what serializability is, the challenge becomes
+maximizing concurrency while still preserving the appearance of
+serial execution. The concurrency strategy is deﬁned by a concur-
+   4
+     “PostgreSQL Transaction Isolation,” https://www.postgresql.org/docs/12/t
+ransaction-iso.html
+   5
+     “Consistency Models,” https://jepsen.io/consistency
+   6
+     “Jepsen Analyses,” https://jepsen.io/analyses
+
+CHAPTER 12. TRANSACTIONS                                                 116
+
+
+rency control protocol, and there are two categories of protocols that
+guarantee serializability: pessimistic and optimistic.
+
+
+12.2.1       Concurrency control
+A pessimistic protocol uses locks to block other transactions from ac-
+cessing an object. The most commonly used protocol is two-phase
+locking7 (2PL). 2PL has two types of locks, one for reads and one for
+writes. A read lock can be shared by multiple transactions that ac-
+cess the object in read-only mode, but it blocks transactions trying
+to acquire a write lock. A write lock can be held only by a single
+transaction and blocks anyone trying to acquire either a read or
+write lock on the object. The locks are held by a lock manager that
+keeps track of the locks granted so far, the transactions that ac-
+quired them, and the transactions waiting for them to be released.
+There are two phases in 2PL, an expanding phase and a shrinking
+one. In the expanding phase, the transaction is allowed only to ac-
+quire locks but not release them. In the shrinking phase, the trans-
+action is permitted only to release locks but not acquire them. If
+these rules are obeyed, it can be formally proven that the protocol
+guarantees strict serializability. In practice, locks are only released
+when the transaction completes (aka strict 2PL). This ensures that
+data written by an uncommitted transaction X is locked until it’s
+committed, preventing another transaction Y from reading it and
+consequently aborting if X is aborted (aka cascading abort), result-
+ing in wasted work.
+Unfortunately, with 2PL, it’s possible for two or more transactions
+to deadlock and get stuck. For example, if transaction X is waiting
+for a lock that transaction Y holds, and transaction Y is waiting for
+a lock granted to transaction X, then the two transactions won’t
+make any progress. A general approach to deal with deadlocks is
+to detect them after they occur and select a “victim” transaction to
+abort and restart to break the deadlock.
+In contrast to a pessimistic protocol, an optimistic protocol opti-
+mistically executes a transaction without blocking based on the
+  7
+      “Two-phase locking,” https://en.wikipedia.org/wiki/Two-phase_locking
+
+CHAPTER 12. TRANSACTIONS                                                117
+
+
+assumption that conﬂicts are rare and transactions are short-lived.
+Optimistic concurrency control8 (OCC) is arguably the best-known
+protocol in the space. In OCC, a transaction writes to a local
+workspace without modifying the actual data store. Then, when
+the transaction wants to commit, the data store compares the trans-
+action’s workspace to see whether it conﬂicts with the workspace
+of another running transaction. This is done by assigning each
+transaction a timestamp that determines its serializability order.
+If the validation succeeds, the content of the local workspace is
+copied to the data store. If the validation fails, the transaction is
+aborted and restarted.
+It’s worth pointing out that OCC uses locks to guarantee mutual
+exclusion on internal shared data structures. These physical locks
+are held for a short duration and are unrelated to the logical locks
+we discussed earlier in the context of 2PL. For example, during the
+validation phase, the data store has to acquire locks to access the
+workspaces of the running transactions to avoid race conditions.
+In the database world, these locks are also referred to as latches to
+distinguish them from logical locks.
+Optimistic protocols avoid the overhead of pessimistic protocols,
+such as acquiring locks and managing deadlocks. As a result, these
+protocols are well suited for read-heavy workloads that rarely per-
+form writes or workloads that perform writes that only occasion-
+ally conﬂict with each other. On the other hand, pessimistic pro-
+tocols are more efﬁcient for conﬂict-heavy workloads since they
+avoid wasting work.
+Taking a step back, both the optimistic and pessimistic protocols
+discussed this far aren’t optimal for read-only transactions. In 2PC,
+a read-only transaction might wait for a long time to acquire a
+shared lock. On the other hand, in OCC, a read-only transaction
+may be aborted because the value it read has been overwritten.
+Generally, the number of read-only transactions is much higher
+than the number of write transactions, so it would be ideal if a
+read-only transaction could never block or abort because of a con-
+   8
+     “On Optimistic Methods for Concurrency Control,” https://www.eecs.harva
+rd.edu/~htk/publication/1981-tods-kung-robinson.pdf
+
+CHAPTER 12. TRANSACTIONS                                                  118
+
+
+ﬂict with a write transaction.
+Multi-version concurrency control9 (MVCC) delivers on that premise
+by maintaining older versions of the data. Conceptually, when a
+transaction writes an object, the data store creates a new version of
+it. And when the transaction reads an object, it reads the newest
+version that existed when the transaction started. This mechanism
+allows a read-only transaction to read an immutable and consis-
+tent snapshot of the data store without blocking or aborting due
+to a conﬂict with a write transaction. However, for write transac-
+tions, MVCC falls back to one of the concurrency control protocols
+we discussed before (i.e., 2PL or OCC). Since generally most trans-
+actions are read-only, this approach delivers major performance
+improvements, which is why MVCC is the most widely used con-
+currency control scheme nowadays.
+For example, when MVCC is combined with 2PL, a write trans-
+action uses 2PL to access any objects it wants to read or write so
+that if another transaction tries to update any of them, it will block.
+When the transaction is ready to commit, the transaction manager
+gives it an unique commit timestamp 𝑇 𝐶𝑖 , which is assigned to all
+new versions the transaction created. Because only a single trans-
+action can commit at a time, this guarantees that once the transac-
+tion commits, a read-only transaction whose start timestamp 𝑇 𝑆𝑗
+is greater than or equal to the commit timestamp of the previous
+transaction (𝑇 𝑆𝑗 ≥ 𝑇 𝐶𝑖 ), will see all changes applied by the pre-
+vious transaction. This is a consequence of the protocol allowing
+read-only transactions to read only the newest committed version
+of an object that has a timestamp less than or equal 𝑇 𝑆𝑗 . Thanks
+to this mechanism, a read-only transaction can read an immutable
+and consistent snapshot of the data store without blocking or abort-
+ing due to a conﬂict with a write transaction.
+I have deliberately glossed over the details of how these concur-
+rency control protocols are implemented, as it’s unlikely you will
+have to implement them from scratch. But, the commercial data
+stores your applications depend on use the above protocols to iso-
+   9
+     “Multi-version concurrency control,” https://en.wikipedia.org/wiki/Multiv
+ersion_concurrency_control
+
+CHAPTER 12. TRANSACTIONS                                                       119
+
+
+late transactions, so you must have a basic grasp of their trade-
+offs. If you are interested in the details, I highly recommend Andy
+Pavlo’s database systems course10 .
+
+That said, there is a limited form of OCC at the level of individual
+objects that is widely used in distributed applications and that you
+should know how to implement. The protocol assigns a version
+number to each object, which is incremented every time the object
+is updated. A transaction can then read a value from a data store,
+do some local computation, and ﬁnally update the value condi-
+tional on the version of the object not having changed. This valida-
+tion step can be performed atomically using a compare-and-swap
+operation, which is supported by many data stores.11 For example,
+if a transaction reads version 42 of an object, it can later update
+the object only if the version hasn’t changed. So if the version is
+the same, the object is updated and the version number is incre-
+mented to 43 (atomically). Otherwise, the transaction is aborted
+and restarted.
+
+
+12.3       Atomicity
+When executing a transaction, there are two possible outcomes: it
+either commits after completing all its operations or aborts due to
+a failure after executing some operations. When a transaction is
+aborted, the data store needs to guarantee that all the changes the
+transaction performed are undone (rolled back).
+
+To guarantee atomicity (and also durability), the data store records
+all changes to a write-ahead log (WAL) persisted on disk before
+applying them. Each log entry records the identiﬁer of the transac-
+tion making the change, the identiﬁer of the object being modiﬁed,
+and both the old and new value of the object. Most of the time,
+the database doesn’t read from this log at all. But if a transaction
+is aborted or the data store crashes, the log contains enough in-
+formation to redo changes to ensure atomicity and durability and
+  10
+     “CMU 15-445/645: Database Systems,” https://15445.courses.cs.cmu.edu/fal
+l2019/
+  11
+     We have already seen an example of this when discussing leases in section 9.2.
+
+CHAPTER 12. TRANSACTIONS                                                       120
+
+
+undo changes in case of a failure during a transaction execution.12
+
+Unfortunately, this WAL-based recovery mechanism only guaran-
+tees atomicity within a single data store. Going back to our origi-
+nal example of sending money from one bank account to another,
+suppose the two accounts belong to two different banks that use
+separate data stores. We can’t just run two separate transactions
+to respectively withdraw and deposit the funds — if the second
+transaction fails, the system is left in an inconsistent state. What
+we want is the guarantee that either both transactions succeed and
+their changes are committed or they fail without any side effects.
+
+
+12.3.1      Two-phase commit
+Two-phase commit13 (2PC) is a protocol used to implement atomic
+transaction commits across multiple processes. The protocol is
+split into two phases, prepare and commit. It assumes a process acts
+as coordinator and orchestrates the actions of the other processes,
+called participants. For example, the client application that initiates
+the transaction could act as the coordinator for the protocol.
+
+When a coordinator wants to commit a transaction, it sends a
+prepare request asking the participants whether they are prepared
+to commit the transaction (see Figure 12.2). If all participants
+reply that they are ready to commit, the coordinator sends a
+commit request to all participants ordering them to do so. In
+contrast, if any process replies that it’s unable to commit or
+doesn’t respond promptly, the coordinator sends an abort request
+to all participants.
+
+There are two points of no return in the protocol. If a participant
+replies to a prepare message that it’s ready to commit, it will have
+to do so later, no matter what. The participant can’t make progress
+from that point onward until it receives a message from the coor-
+dinator to either commit or abort the transaction. This means that
+  12
+     The details of how this recovery mechanism works are outside the scope of this
+book, but you can learn more about it from any database textbook.
+  13
+     “Two-phase commit protocol,” https://en.wikipedia.org/wiki/Two-phase_c
+ommit_protocol
+
+CHAPTER 12. TRANSACTIONS                                              121
+
+
+
+
+Figure 12.2: The two-phase commit protocol consists of a prepare
+and a commit phase.
+
+
+if the coordinator crashes, the participant is stuck.
+
+The other point of no return is when the coordinator decides to
+commit or abort the transaction after receiving a response to its pre-
+pare message from all participants. Once the coordinator makes
+the decision, it can’t change its mind later and has to see the trans-
+action through to being committed or aborted, no matter what. If
+a participant is temporarily down, the coordinator will keep retry-
+ing until the request eventually succeeds.
+

@@ -1,0 +1,482 @@
+ddia_2e_2026_ch01_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: ddia_2e_2026 · chapter: 01
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/ddia_2e_2026_ch01_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (ddia_2e_2026_ch01_ingest.md)
+========================================================================
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 1
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch01_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 [corpus manifest] |
+| ISBN_electronic | 9781098119065 [corpus manifest source_note] |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 1 |
+| chapter_title | Trade-offs in Data Systems Architecture |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 1 is the **architectural framing chapter** for DDIA 2e. Within lines 106–1632 it establishes the book's trade-off lens and vocabulary before implementation chapters. Four major arcs:
+
+1. **Operational vs analytical systems** — OLTP vs OLAP; business analysts vs data scientists; data warehouses, ETL, HTAP hybrids; data lakes; lakehouse; DataOps; systems of record vs derived data; unbundling databases.
+
+2. **Cloud vs self-hosting** — build/buy spectrum; SaaS vs off-the-shelf vs bespoke; cloud economics; vendor lock-in; cloud-native separation of storage and compute; multitenant services; SRE vs customer ops.
+
+3. **Distributed vs single-node** — reasons to distribute (geo, HA, scale reads, latency, elasticity, specialized hardware, compliance); downsides (latency, partial failure, debugging); microservices and serverless; cloud vs supercomputing/HPC.
+
+4. **Law and society** — GDPR, EU AI Act, datensparsamkeit, compelled disclosure risks, SOC2/ISO27001 procurement pressure.
+
+Early-release boilerplate and GitHub feedback repo noted at slice start. Chapter ends with summary and references; Ch. 2 opens at line 1633. [verified from text, lines 106–1632]
+
+## key_findings
+
+1. **Data-intensive definition** — Applications whose primary challenge is storing/processing large volumes, managing change, consistency under failure/concurrency, and availability—not raw compute parallelism. [verified, 143–149]
+
+2. **Standard building blocks** — Databases, caches, search indexes, stream processing, batch processing; glue-code integration when single tools insufficient. [verified, 151–182]
+
+3. **No universal best approach** — Technology choice depends on application needs; book teaches evaluation questions not dogma. [verified, 184–189]
+
+4. **Stakeholder divergence** — Same dataset, different teams with implicit conflicting goals; architecture must surface trade-offs. [verified, 202–208]
+
+5. **OLTP vs OLAP** — Interactive read/write/update (transaction processing) vs large scans/aggregations (analytics); fuzzy boundary; analysts use SQL/BI tools, not ad-hoc production DB access. [verified, 307–383]
+
+6. **Data warehouse pattern** — Read-only ETL copy from operational systems; column-oriented layouts (Ch. 4); separation protects production and enables analyst freedom. [verified, 391–445]
+
+7. **HTAP and hybrid** — SingleStore-style combined OLTP+OLAP possible but operational/analytical separation still common at scale (microservices → many OLTP DBs). [verified, 456–477]
+
+8. **Data lake → lakehouse** — Raw files (Parquet etc.) for ML; warehouse can query lake; governance/privacy central to DataOps. [verified, 485–567]
+
+9. **Systems of record vs derived** — Authoritative source vs redundant copies (indexes, caches, warehouses); derived data needs derivation pipelines; unbundling specialized DBs. [verified, 577–636]
+
+10. **Cloud spectrum** — Bespoke → off-the-shelf self-hosted → managed cloud → SaaS; economics situational not universal. [verified, 641–699]
+
+11. **Cloud pros/cons** — Elasticity, reduced ops burden vs lock-in, opaque failures, compliance limits, cost surprises at scale. [verified, 684–765]
+
+12. **Cloud-native architecture** — IaaS vs PaaS/serverless layering; separation of storage and compute; object storage durability assumptions; multitenant cost efficiency. [verified, 776–904]
+
+13. **Ops bifurcation** — Cloud provider SRE vs customer integration/observability; API hides machines; capacity planning → elasticity. [verified, 905–981]
+
+14. **When to distribute** — Seven drivers listed; prefer single-node when possible (DuckDB, SQLite, KùzuDB for many workloads). [verified, 990–1106]
+
+15. **Distributed downsides** — Network latency, partial failure, troubleshooting difficulty, consistency complexity. [verified, 1062–1103]
+
+16. **Microservices/serverless** — Decomposition for team autonomy vs operational/API-evolution complexity; FaaS and managed data services as serverless data layer. [verified, 1108–1188]
+
+17. **Privacy/regulation** — Legal constraints shape storage design; datensparsamkeit; risks of compelled access; no clear technical mapping yet. [verified, 1239–1336]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Early release note + opener | read | 106–226 |
+| Terminology: Frontends and Backends | read | 228–250 |
+| Analytical versus Operational Systems | read | 251–298 |
+| Characterizing OLTP and Analytics | read | 307–384 |
+| Data Warehousing | read | 391–478 |
+| Data lake / lakehouse / beyond | read | 485–576 |
+| Systems of Record and Derived Data | read | 577–640 |
+| Cloud versus Self-Hosting | read | 641–775 |
+| Cloud-Native System Architecture | read | 776–904 |
+| Operations in the Cloud Era | read | 905–989 |
+| Distributed versus Single-Node | read | 990–1107 |
+| Microservices and Serverless | read | 1108–1189 |
+| Cloud Computing versus Supercomputing | read | 1190–1238 |
+| Data Systems, Law, and Society | read | 1239–1337 |
+| Summary + footnotes + references | read | 1338–1632 |
+| Chapter 2 opener | **deferred** | 1633+ |
+| Chapters 8–13 | **unavailable** | TOC lines 92–102 marked unavailable in early release |
+
+- **Lines read:** 106–1632 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `ddia_2e_2026.txt`
+- **Early-release gap:** Ch. 8–13 text not in corpus; forward refs use `[Link to Come]`
+
+## pedagogy
+
+### learning_objectives
+
+Implicit from chapter arc:
+
+- Distinguish operational (OLTP) from analytical (OLAP) workloads and audiences
+- Explain ETL, data warehouse, data lake, and derived-data relationships
+- Compare cloud-managed vs self-hosted deployment trade-offs
+- Articulate when distribution is necessary vs premature
+- Connect privacy/regulatory constraints to data architecture choices
+
+### worked_examples_present
+
+**Y** (conceptual diagrams and walkthroughs, not code labs)
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Figure 1-1 ETL to warehouse | Warehouse ingestion pattern | 445–446 |
+| Figure 1-2 software spectrum | Build/buy/hosting placement | 659–667 |
+| Table 1-2 cloud vs self-hosted examples | Service layering | 792–801 |
+| Microservices timeline fan-out (preview) | Scale motivation | 1110–1116 |
+
+### exercise_hooks
+
+No numbered end-of-chapter exercises. Operator extensions:
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 1.ARCH-1 | OLTP vs OLAP for your app | Classify each query path; draw system-of-record vs derived copies | 251–636 |
+| 1.ARCH-2 | Cloud vs self-host TCO | Model one workload on managed vs self-hosted; list lock-in vectors | 641–765 |
+| 1.ARCH-3 | Single-node feasibility | Benchmark DuckDB/SQLite on corpus size before distributing | 1101–1106 |
+| 1.ARCH-4 | Derived data audit | Map caches/indexes/warehouses to upstream sources of record | 577–636 |
+| 1.ARCH-5 | GDPR minimization | List PII fields; apply datensparsamkeit retention policy | 1285–1312 |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 1 is the **systems vocabulary primer** for the cs-ai-textbook-canon w2 track:
+
+- **OLTP/OLAP/derived data** — prerequisite framing before DDIA Ch. 4 storage layouts and Ch. 6–7 replication/sharding
+- **Cloud-native separation** — context for vector DB and warehouse choices in RAG stacks
+- **Distribution discipline** — counterweight to "scale early" LLM-app defaults
+
+Pair with **understanding_distributed_systems_2022** for lighter first pass on distribution; DDIA Ch. 1 is the architectural economics layer UDS often assumes.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical workflow content. Pattern-portable: data minimization, audit trails for derived analytics, procurement security questionnaires (SOC2/ISO).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS covers failure models faster; DDIA Ch.1 broader (cloud, lakehouse, law) |
+| `ai_engineering_2025` | AIE assumes managed services; DDIA explains why warehouses/indexes exist beneath RAG |
+| `hands_on_llms_2024` | HOTL Ch. 8 RAG sits on indexes DDIA Ch. 4 details; Ch.1 gives OLTP/OLAP split |
+| `philosophy_software_design_2e_2021` | Ousterhout module depth vs DDIA system composition; complementary not duplicate |
+
+**Dedup rule:** Use this ingest for **architecture trade-off vocabulary**; defer storage engine mechanics to Ch. 4 and consistency to Ch. 6–7.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Moderate — diagrams and enterprise patterns |
+| Exercise hooks | Operator extensions only |
+| Chapter boundary | Clean — ends 1337 summary; Ch.2 at 1633 |
+| Citation density | High (warehouse, cloud, local-first, GDPR refs) |
+| Child-skill potential | `scholia.oltp-olap-split`, `scholia.derived-data-map` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2e early release 2026; canonical for w2 (NOT 1e per iron law) |
+| Author authority | **PASS** | Kleppmann (Cambridge/LinkedIn); Riccomini (Samza/SlateDB); O'Reilly tier-1 systems text |
+| Primary-source citation density | **PASS** | Codd OLAP, Inmon/Kimball lineage, cloud SRE, GDPR, local-first paper |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Conceptual architecture walkthroughs |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Cloud always cheaper/easier | 693–699 | Situational; author states depends on expertise and scale |
+| HTAP eliminates warehouse separation | 464–477 | Author notes separation still common |
+| Single-node revival (DuckDB etc.) | 1105–1106 | Workload-dependent; not all analytics fit |
+| Legal→technical mapping immature | 1285–1294 | Acknowledged gap |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — w2 entry-point ingest; note early-release incompleteness for Ch. 8–13.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Data-intensive application | Data management is primary development challenge |
+| OLTP | Transaction processing; interactive reads/writes |
+| OLAP | Online analytical processing; large scans/aggregations |
+| ETL | Extract-transform-load into warehouse |
+| Data lake | File-based analytical store (often raw) |
+| System of record | Authoritative data source |
+| Derived data | Redundant copy computed from another system |
+| Cloud-native | Uses managed primitives (object storage, serverless) not just VMs |
+| HTAP | Hybrid transactional/analytic processing |
+
+## Reciprocal index pointers
+
+- Forward: Ch. 2 NFRs (1633+), Ch. 4 storage layouts (5478+), distributed detail Ch. 9+ **[unavailable in early release]**
+- External: GitHub `ept/ddia2-feedback` for errata
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/ddia_2e_2026_ch01_SLICE.txt)
+========================================================================
+
+# Text slice — ddia_2e_2026_ch01_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ddia_2e_2026 · chapter: 01
+# hooks: 6 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 1
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch01_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 [corpus manifest] |
+| ISBN_electronic | 9781098119065 [corpus manifest source_note] |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 1 |
+| chapter_title | Trade-offs in Data Systems Architecture |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 1 is the **architectural framing chapter** for DDIA 2e. Within lines 106–1632 it establishes the book's trade-off lens and vocabulary before implementation chapters. Four major arcs:
+
+1. **Operational vs analytical systems** — OLTP vs OLAP; business analysts vs data scientists; data warehouses, ETL, HTAP hybrids; data lakes; lakehouse; DataOps; systems of record vs derived data; unbundling databases.
+
+2. **Cloud vs self-hosting** — build/buy spectrum; SaaS vs off-the-shelf vs bespoke; cloud economics; vendor lock-in; cloud-native separation of storage and compute; multitenant services; SRE vs customer ops.
+
+3. **Distributed vs single-node** — reasons to distribute (geo, HA, scale reads, latency, elasticity, specialized hardware, compliance); downsides (latency, partial failure, debugging); microservices and serverless; cloud vs supercomputing/HPC.
+
+4. **Law and society** — GDPR, EU AI Act, datensparsamkeit, compelled disclosure risks, SOC2/ISO27001 procurement pressure.
+
+Early-release boilerplate and GitHub feedback repo noted at slice start. Chapter ends with summary and references; Ch. 2 opens at line 1633. [verified from text, lines 106–1632]
+
+## key_findings
+
+1. **Data-intensive definition** — Applications whose primary challenge is storing/processing large volumes, managing change, consistency under failure/concurrency, and availability—not raw compute parallelism. [verified, 143–149]
+
+2. **Standard building blocks** — Databases, caches, search indexes, stream processing, batch processing; glue-code integration when single tools insufficient. [verified, 151–182]
+
+3. **No universal best approach** — Technology choice depends on application needs; book teaches evaluation questions not dogma. [verified, 184–189]
+
+4. **Stakeholder divergence** — Same dataset, different teams with implicit conflicting goals; architecture must surface trade-offs. [verified, 202–208]
+
+5. **OLTP vs OLAP** — Interactive read/write/update (transaction processing) vs large scans/aggregations (analytics); fuzzy boundary; analysts use SQL/BI tools, not ad-hoc production DB access. [verified, 307–383]
+
+6. **Data warehouse pattern** — Read-only ETL copy from operational systems; column-oriented layouts (Ch. 4); separation protects production and enables analyst freedom. [verified, 391–445]
+
+7. **HTAP and hybrid** — SingleStore-style combined OLTP+OLAP possible but operational/analytical separation still common at scale (microservices → many OLTP DBs). [verified, 456–477]
+
+8. **Data lake → lakehouse** — Raw files (Parquet etc.) for ML; warehouse can query lake; governance/privacy central to DataOps. [verified, 485–567]
+
+9. **Systems of record vs derived** — Authoritative source vs redundant copies (indexes, caches, warehouses); derived data needs derivation pipelines; unbundling specialized DBs. [verified, 577–636]
+
+10. **Cloud spectrum** — Bespoke → off-the-shelf self-hosted → managed cloud → SaaS; economics situational not universal. [verified, 641–699]
+
+11. **Cloud pros/cons** — Elasticity, reduced ops burden vs lock-in, opaque failures, compliance limits, cost surprises at scale. [verified, 684–765]
+
+12. **Cloud-native architecture** — IaaS vs PaaS/serverless layering; separation of storage and compute; object storage durability assumptions; multitenant cost efficiency. [verified, 776–904]
+
+13. **Ops bifurcation** — Cloud provider SRE vs customer integration/observability; API hides machines; capacity planning → elasticity. [verified, 905–981]
+
+14. **When to distribute** — Seven drivers listed; prefer single-node when possible (DuckDB, SQLite, KùzuDB for many workloads). [verified, 990–1106]
+
+15. **Distributed downsides** — Network latency, partial failure, troubleshooting difficulty, consistency complexity. [verified, 1062–1103]
+
+16. **Microservices/serverless** — Decomposition for team autonomy vs operational/API-evolution complexity; FaaS and managed data services as serverless data layer. [verified, 1108–1188]
+
+17. **Privacy/regulation** — Legal constraints shape storage design; datensparsamkeit; risks of compelled access; no clear technical mapping yet. [verified, 1239–1336]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Early release note + opener | read | 106–226 |
+| Terminology: Frontends and Backends | read | 228–250 |
+| Analytical versus Operational Systems | read | 251–298 |
+| Characterizing OLTP and Analytics | read | 307–384 |
+| Data Warehousing | read | 391–478 |
+| Data lake / lakehouse / beyond | read | 485–576 |
+| Systems of Record and Derived Data | read | 577–640 |
+| Cloud versus Self-Hosting | read | 641–775 |
+| Cloud-Native System Architecture | read | 776–904 |
+| Operations in the Cloud Era | read | 905–989 |
+| Distributed versus Single-Node | read | 990–1107 |
+| Microservices and Serverless | read | 1108–1189 |
+| Cloud Computing versus Supercomputing | read | 1190–1238 |
+| Data Systems, Law, and Society | read | 1239–1337 |
+| Summary + footnotes + references | read | 1338–1632 |
+| Chapter 2 opener | **deferred** | 1633+ |
+| Chapters 8–13 | **unavailable** | TOC lines 92–102 marked unavailable in early release |
+
+- **Lines read:** 106–1632 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `ddia_2e_2026.txt`
+- **Early-release gap:** Ch. 8–13 text not in corpus; forward refs use `[Link to Come]`
+
+## pedagogy
+
+### learning_objectives
+
+Implicit from chapter arc:
+
+- Distinguish operational (OLTP) from analytical (OLAP) workloads and audiences
+- Explain ETL, data warehouse, data lake, and derived-data relationships
+- Compare cloud-managed vs self-hosted deployment trade-offs
+- Articulate when distribution is necessary vs premature
+- Connect privacy/regulatory constraints to data architecture choices
+
+### worked_examples_present
+
+**Y** (conceptual diagrams and walkthroughs, not code labs)
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Figure 1-1 ETL to warehouse | Warehouse ingestion pattern | 445–446 |
+| Figure 1-2 software spectrum | Build/buy/hosting placement | 659–667 |
+| Table 1-2 cloud vs self-hosted examples | Service layering | 792–801 |
+| Microservices timeline fan-out (preview) | Scale motivation | 1110–1116 |
+
+### exercise_hooks
+
+No numbered end-of-chapter exercises. Operator extensions:
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 1.ARCH-1 | OLTP vs OLAP for your app | Classify each query path; draw system-of-record vs derived copies | 251–636 |
+| 1.ARCH-2 | Cloud vs self-host TCO | Model one workload on managed vs self-hosted; list lock-in vectors | 641–765 |
+| 1.ARCH-3 | Single-node feasibility | Benchmark DuckDB/SQLite on corpus size before distributing | 1101–1106 |
+| 1.ARCH-4 | Derived data audit | Map caches/indexes/warehouses to upstream sources of record | 577–636 |
+| 1.ARCH-5 | GDPR minimization | List PII fields; apply datensparsamkeit retention policy | 1285–1312 |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 1 is the **systems vocabulary primer** for the cs-ai-textbook-canon w2 track:
+
+- **OLTP/OLAP/derived data** — prerequisite framing before DDIA Ch. 4 storage layouts and Ch. 6–7 replication/sharding
+- **Cloud-native separation** — context for vector DB and warehouse choices in RAG stacks
+- **Distribution discipline** — counterweight to "scale early" LLM-app defaults
+
+Pair with **understanding_distributed_systems_2022** for lighter first pass on distribution; DDIA Ch. 1 is the architectural economics layer UDS often assumes.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical workflow content. Pattern-portable: data minimization, audit trails for derived analytics, procurement security questionnaires (SOC2/ISO).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS covers failure models faster; DDIA Ch.1 broader (cloud, lakehouse, law) |
+| `ai_engineering_2025` | AIE assumes managed services; DDIA explains why warehouses/indexes exist beneath RAG |
+| `hands_on_llms_2024` | HOTL Ch. 8 RAG sits on indexes DDIA Ch. 4 details; Ch.1 gives OLTP/OLAP split |
+| `philosophy_software_design_2e_2021` | Ousterhout module depth vs DDIA system composition; complementary not duplicate |
+
+**Dedup rule:** Use this ingest for **architecture trade-off vocabulary**; defer storage engine mechanics to Ch. 4 and consistency to Ch. 6–7.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Moderate — diagrams and enterprise patterns |
+| Exercise hooks | Operator extensions only |
+| Chapter boundary | Clean — ends 1337 summary; Ch.2 at 1633 |
+| Citation density | High (warehouse, cloud, local-first, GDPR refs) |
+| Child-skill potential | `scholia.oltp-olap-split`, `scholia.derived-data-map` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2e early release 2026; canonical for w2 (NOT 1e per iron law) |
+| Author authority | **PASS** | Kleppmann (Cambridge/LinkedIn); Riccomini (Samza/SlateDB); O'Reilly tier-1 systems text |
+| Primary-source citation density | **PASS** | Codd OLAP, Inmon/Kimball lineage, cloud SRE, GDPR, local-first paper |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Conceptual architecture walkthroughs |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Cloud always cheaper/easier | 693–699 | Situational; author states depends on expertise and scale |
+| HTAP eliminates warehouse separation | 464–477 | Author notes separation still common |
+| Single-node revival (DuckDB etc.) | 1105–1106 | Workload-dependent; not all analytics fit |
+| Legal→technical mapping immature | 1285–1294 | Acknowledged gap |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — w2 entry-point ingest; note early-release incompleteness for Ch. 8–13.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Data-intensive application | Data management is primary development challenge |
+| OLTP | Transaction processing; interactive reads/writes |
+| OLAP | Online analytical processing; large scans/aggregations |
+| ETL | Extract-transform-load into warehouse |
+| Data lake | File-based analytical store (often raw) |
+| System of record | Authoritative data source |
+| Derived data | Redundant copy computed from another system |
+| Cloud-native | Uses managed primitives (object storage, serverless) not just VMs |
+| HTAP | Hybrid transactional/analytic processing |
+
+## Reciprocal index pointers
+
+- Forward: Ch. 2 NFRs (1633+), Ch. 4 storage layouts (5478+), distributed detail Ch. 9+ **[unavailable in early release]**
+- External: GitHub `ept/ddia2-feedback` for errata
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

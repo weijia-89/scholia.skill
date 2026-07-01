@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS + AI Foundation Study Guide</title>
+<link rel="stylesheet" href="style.css">
+<script src="notes.js" defer></script>
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <div class="hero__category">CS + AI Foundation corpus</div>
+  <h1 class="hero__title">CS + AI Foundation Study Guide</h1>
+  <p class="hero__subtitle">Grokking, Ousterhout, AIE. Parts 1-5 plus pedagogy appendix D.</p>
+</header>
+<nav class="daynav" style="margin-top:0;border-top:none;padding-top:0;">
+  <a href="index.html">&larr; Daily index</a>
+  <span class="daynav__meta">CS_AI_Foundation_Study_Guide.md</span>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Top</a>
+</nav>
+<p><strong>Program:</strong> cs-ai-textbook-canon wave-1 (2 weeks, 10 weekdays)<br />
+<strong>Primary sources:</strong> Grokking Algorithms 2e · A Philosophy of Software Design 2e · AI Engineering (Huyen 2025)<br />
+<strong>Quote policy:</strong> Passages marked <strong>[verified from text]</strong> come from <code>/literature/cs-ai-textbook-canon/text/*.txt</code> exports. Contested claims are flagged, not smoothed.</p>
+<hr />
+<h2 id="part-1-algorithms-and-growth-rates-grokking-algorithms-2e" data-notable-anchor="corpus-guide-part-1-algorithms-and-growth-rates-grokking-algorithms-2e">Part 1 - Algorithms and growth rates (Grokking Algorithms 2e)</h2>
+<blockquote>
+<p><strong>Memory anchors for Part 1 - Algorithms.</strong> Pick one room of a familiar space (kitchen, childhood bedroom, office). For each chunk below, choose a locus and a vivid image you will never forget. Spend two minutes building it now; walk it again tonight before sleep.</p>
+<ul>
+<li><strong>Binary search halving:</strong> a phone book ripped in half each guess</li>
+<li><strong>Big O vs wall clock:</strong> NASA counting down vs Bob multiplying guesses</li>
+<li><strong>Hash collision:</strong> two fruits fighting for the same alphabet slot</li>
+<li><strong>BFS layers:</strong> ripples in a pond from one stone</li>
+<li><strong>Dijkstra cheapest:</strong> toll booths on a highway map</li>
+<li><strong>Greedy trap vs DP table:</strong> vending machine that steals change vs spreadsheet grid</li>
+</ul>
+<p>See Appendix D.2 for the build-your-own framework and fallback palace.</p>
+</blockquote>
+<h3 id="11-binary-search-and-sorted-preconditions">1.1 Binary search and sorted preconditions</h3>
+<p>Binary search is the first algorithm in Grokking because it teaches the habit of <strong>eliminating half the search space</strong> each step.</p>
+<blockquote>
+<p><strong>Binary search is an algorithm; its input is a sorted list of elements</strong> (I'll explain later why it needs to be sorted). If an element you're looking for is in that list, binary search returns the position where it's located. Otherwise, binary search returns null.<br />
+- Grokking ch1 <strong>[verified from text]</strong></p>
+</blockquote>
+<p><strong>Worked example (phone book):</strong> 240,000 names → at most ~18 halvings (log₂ 240k). The book's number-guessing demo caps at <strong>7 guesses for 1-100</strong> because log₂ 100 ≈ 6.6.</p>
+<p><strong>Simple search vs binary search:</strong> guessing 1, 2, 3… eliminates one candidate per try. Binary search eliminates <strong>half</strong> the remaining space.</p>
+<p><strong>Big O trap (Bob vs NASA):</strong> Bob says binary search is &quot;15× faster&quot; at 1B entries because 1B/240k ≈ 4000 and log only doubles a bit. That confuses <strong>multiplicative speedup</strong> with <strong>growth rate</strong>. log₂(1B) ≈ 32 steps vs 1B steps for simple search - the ratio explodes at scale, but O(log n) is about <strong>how cost grows</strong>, not a fixed multiplier.</p>
+<table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Name</th>
+<th>Typical examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O(1)</td>
+<td>Constant</td>
+<td>Hash lookup (average)</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Logarithmic</td>
+<td>Binary search</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Linear</td>
+<td>Simple search, one pass</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Linearithmic</td>
+<td>Merge sort</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Quadratic</td>
+<td>Nested loops, naive sorts</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Figure note:</strong> EPUB/PDF shows halving diagrams; text export has <code>[]</code> placeholders - open the book for visuals.</p>
+<h3 id="12-arrays-linked-lists-and-selection-sort">1.2 Arrays, linked lists, and selection sort</h3>
+<ul>
+<li><strong>Arrays:</strong> O(1) random access; O(n) insert in middle (shift elements).</li>
+<li><strong>Linked lists:</strong> O(n) access by index; O(1) insert at head if you have the pointer.</li>
+<li><strong>Selection sort:</strong> find smallest, swap, repeat - O(n²). Fine for tiny n; not for large datasets.</li>
+</ul>
+<p><strong>Design link (preview):</strong> picking array vs list is an <strong>interface / performance tradeoff</strong> Ousterhout returns to as hidden cost in abstractions.</p>
+<h3 id="13-recursion-and-the-call-stack">1.3 Recursion and the call stack</h3>
+<p>Recursion needs:</p>
+<ol>
+<li><strong>Base case</strong> (stop)</li>
+<li><strong>Recursive case</strong> (smaller subproblem)</li>
+</ol>
+<p>The <strong>call stack</strong> holds unfinished frames. Stack overflow = too deep without base case.</p>
+<p><strong>Classic:</strong> sum(list) = first + sum(rest); factorial; Euclidean GCD (ingest flags: full proof deferred in text).</p>
+<h3 id="14-divide-and-conquer-quicksort-and-merge-sort">1.4 Divide and conquer: quicksort and merge sort</h3>
+<p><strong>Quicksort:</strong> pick pivot, partition smaller/larger, recurse. Average O(n log n); worst O(n²) on adversarial/poor pivot order. Random pivot helps average case.</p>
+<p><strong>Merge sort:</strong> split in half, sort halves, merge - stable O(n log n) but needs extra memory.</p>
+<p><strong>When to pick which:</strong> in-memory, average-case speed → quicksort variants; stability or guaranteed bound → merge sort.</p>
+<h3 id="15-hash-tables-and-collisions">1.5 Hash tables and collisions</h3>
+<p>Hash maps underpin dicts, caches, and dedup sets.</p>
+<blockquote>
+<p><strong>First, I've been telling you a white lie. I told you that a hash function always maps different keys to different slots in the array.</strong><br />
+- Grokking ch5 <strong>[verified from text]</strong></p>
+</blockquote>
+<p><strong>Collisions:</strong> two keys land in same slot → chaining or open addressing. <strong>Load factor</strong> triggers resize/rehash.</p>
+<p><strong>Applications:</strong> dedup, caches, routing tables, inverted indexes (preview for RAG).</p>
+<h3 id="16-graphs-bfs-and-shortest-unweighted-paths">1.6 Graphs: BFS and shortest unweighted paths</h3>
+<p>Model relationships as <strong>nodes + edges</strong>. BFS explores <strong>layer by layer</strong> → fewest hops on unweighted graphs. Use a <strong>queue</strong>.</p>
+<p><strong>Seen set</strong> prevents cycles from looping forever.</p>
+<h3 id="17-trees-and-binary-search-trees">1.7 Trees and binary search trees</h3>
+<p>Trees are acyclic connected graphs. <strong>BST:</strong> left &lt; parent &lt; right; in-order traversal yields sorted order. Imbalance degrades to linked-list performance → balanced trees (red-black, AVL) in other books (CLRS optional in canon).</p>
+<h3 id="18-dijkstra-and-weighted-graphs">1.8 Dijkstra and weighted graphs</h3>
+<p>For <strong>non-negative</strong> edge weights, Dijkstra greedily settles the cheapest unvisited node. Differs from BFS when edge weights differ.</p>
+<p><strong>Ingest flag:</strong> Grokking sometimes says Dijkstra requires &quot;no cycles&quot;; with non-negative weights, cycles do not break correctness - revisit with CLRS if you need proof.</p>
+<h3 id="19-greedy-np-complete-dynamic-programming">1.9 Greedy, NP-complete, dynamic programming</h3>
+<p><strong>Greedy:</strong> locally optimal choices. Works for some problems (Huffman, activity selection with proof); fails for 0/1 knapsack.</p>
+<p><strong>NP-complete:</strong> no known fast exact algorithm for worst case; approximation or exponential DP often used.</p>
+<p><strong>DP:</strong> optimal substructure + overlapping subproblems → table or memoization. Classic: knapsack, longest common subsequence.</p>
+<h3 id="110-k-nn-and-where-ml-fits">1.10 k-NN and where ML fits</h3>
+<p>k-nearest neighbors: classify by majority vote of nearby training points. Grokking ch12 introduces ML lightly - <strong>ingest flags oversimplifications</strong>; pair with AIE for production reality.</p>
+<hr />
+<h2 id="part-2-managing-complexity-in-software-ousterhout-2e" data-notable-anchor="corpus-guide-part-2-managing-complexity-in-software-ousterhout-2e">Part 2 - Managing complexity in software (Ousterhout 2e)</h2>
+<blockquote>
+<p><strong>Memory anchors for Part 2 - Software design.</strong> Pick a second room (or a second route through the same home). Anchor:</p>
+<ul>
+<li><strong>Complexity definition:</strong> fog on a windshield while driving</li>
+<li><strong>Change amplification:</strong> one domino knocks over twenty</li>
+<li><strong>Deep module:</strong> five Unix syscalls hiding a filesystem</li>
+<li><strong>Information hiding:</strong> restaurant kitchen behind a menu</li>
+<li><strong>Strategic vs tactical:</strong> patching a tire daily vs aligning wheels once</li>
+</ul>
+<p>See Appendix D.2.</p>
+</blockquote>
+<h3 id="21-what-complexity-is-and-is-not">2.1 What complexity is (and is not)</h3>
+<blockquote>
+<p><strong>Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system.</strong><br />
+- Ousterhout ch1 <strong>[verified from text]</strong></p>
+</blockquote>
+<p>Large feature-rich systems can be <strong>simple</strong> if easy to change; small systems can be <strong>complex</strong> if every tweak is scary.</p>
+<p><strong>Weighted complexity:</strong> isolate rare complex parts that nobody touches - they barely raise C = Σ tₚ cₚ.</p>
+<h3 id="22-three-symptoms">2.2 Three symptoms</h3>
+<ol>
+<li><strong>Change amplification</strong> - small logical change touches many files.</li>
+<li><strong>Cognitive load</strong> - how much you must hold in head to be safe.</li>
+<li><strong>Unknown unknowns</strong> - surprises you did not know to look for (worst symptom).</li>
+</ol>
+<h3 id="23-strategic-vs-tactical-programming">2.3 Strategic vs tactical programming</h3>
+<p><strong>Tactical:</strong> ship the fastest patch now. <strong>Strategic:</strong> invest in design so future changes stay cheap. Ousterhout argues <strong>0% strategic</strong> eventually drowns in complexity debt; ch3 investment curves are <strong>[conditional - anecdotal in ingest]</strong>.</p>
+<h3 id="24-deep-modules-vs-shallow-modules">2.4 Deep modules vs shallow modules</h3>
+<blockquote>
+<p><strong>The best modules are deep: they have a lot of functionality hidden behind a simple interface. A deep module is a good abstraction because only a small fraction of its internal complexity is visible to its users.</strong><br />
+- Ousterhout ch4 <strong>[verified from text]</strong></p>
+</blockquote>
+<p><strong>Unix I/O:</strong> <code>open/read/write/lseek/close</code> - enormous behavior, tiny surface.</p>
+<p><strong>Shallow module / classitis:</strong> many tiny classes with pass-through methods - high interface cost, low benefit.</p>
+<h3 id="25-information-hiding-and-leakage">2.5 Information hiding and leakage</h3>
+<p><strong>Parnas:</strong> hide design decisions likely to change. <strong>Leakage:</strong> interface exposes internals callers should not need (e.g., file format details in method names).</p>
+<p><strong>Pull complexity downward:</strong> module should absorb pain, not export config knobs for every edge case.</p>
+<h3 id="26-layers-and-pass-through-methods">2.6 Layers and pass-through methods</h3>
+<p>Each layer should add value. <strong>Pass-through method</strong> only forwards calls - sign of shallow layering. Prefer <strong>different abstractions</strong> per layer, not 1:1 wrappers.</p>
+<h3 id="27-debates-you-should-know">2.7 Debates you should know</h3>
+<ul>
+<li><strong>Clean Code small functions:</strong> Ousterhout ch9/ch12 - splitting can <strong>increase</strong> total complexity if interfaces multiply without depth.</li>
+<li><strong>Test-driven development:</strong> useful but not a substitute for deep modules (ch8).</li>
+</ul>
+<h3 id="28-capstone-principles-and-red-flags-ch22">2.8 Capstone: principles and red flags (ch22)</h3>
+<p><strong>16 design principles</strong> (sample): define errors out of existence; pull complexity down; separate general from special; design it twice; comments describe what code cannot; etc.</p>
+<p><strong>14 red flags</strong> (sample): shallow module; information leakage; pass-through method; overexposure of internals; special-general mixture; conjoined implementations.</p>
+<p><strong>Day 5 mock</strong> expects you to recite any 3 principles + 3 red flags from memory, then verify against ch22.</p>
+<hr />
+<h2 id="part-3-ai-engineering-framing-aie-ch12" data-notable-anchor="corpus-guide-part-3-ai-engineering-framing-aie-ch12">Part 3 - AI engineering framing (AIE ch1-2)</h2>
+<blockquote>
+<p><strong>Memory anchors for Part 3 - AI stack.</strong> Pick a third room. Anchor:</p>
+<ul>
+<li><strong>Scale post-2020:</strong> power lines feeding a stadium-sized GPU hall</li>
+<li><strong>Foundation model:</strong> iceberg - API tip, training underwater</li>
+<li><strong>Three layers:</strong> app / model dev / infrastructure cake tiers</li>
+<li><strong>Sampling randomness:</strong> dice cup over next-token choice</li>
+</ul>
+<p>See Appendix D.2.</p>
+</blockquote>
+<h3 id="31-scale-and-ai-engineering">3.1 Scale and AI engineering</h3>
+<blockquote>
+<p><strong>If I could use only one word to describe AI post-2020, it'd be scale.</strong><br />
+- AIE ch1 <strong>[verified from text]</strong></p>
+</blockquote>
+<p>Consequences: (1) more capable models → more applications; (2) only a few orgs train at frontier → <strong>model-as-a-service</strong> for everyone else.</p>
+<blockquote>
+<p><strong>AI engineering-the process of building applications on top of readily available models-</strong> into one of the fastest-growing engineering disciplines.<br />
+- AIE ch1 <strong>[verified from text]</strong></p>
+</blockquote>
+<h3 id="32-from-language-models-to-foundation-models">3.2 From language models to foundation models</h3>
+<p><strong>Self-supervision</strong> infers labels from raw text (next-token prediction), unlocking web-scale training data.</p>
+<p><strong>Foundation model:</strong> large pretrained model adapted via prompt engineering, RAG, finetuning.</p>
+<h3 id="33-ai-vs-traditional-ml-engineering">3.3 AI vs traditional ML engineering</h3>
+<table>
+<thead>
+<tr>
+<th>Traditional ML eng</th>
+<th>AI engineering</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Train custom models</td>
+<td>Mostly adapt existing FMs</td>
+</tr>
+<tr>
+<td>Feature pipelines</td>
+<td>Context construction</td>
+</tr>
+<tr>
+<td>Batch inference focus</td>
+<td>Interactive latency + streaming</td>
+</tr>
+<tr>
+<td>Tabular metrics</td>
+<td>Open-ended generation eval</td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-use-case-patterns-and-limits">3.4 Use-case patterns and limits</h3>
+<p>Successful patterns: coding assistants, search/synthesis, translation, classification with instructions. Limits: factual drift, tool misuse, inconsistent sampling, cost at scale.</p>
+<h3 id="35-crawl-walk-run-deployment">3.5 Crawl-Walk-Run deployment</h3>
+<p>Microsoft framing cited in AIE: start <strong>human-in-loop</strong>, increase automation as eval confidence grows. Pair with guardrails before unsupervised actions.</p>
+<h3 id="36-model-internals-you-must-respect-ch2-skim">3.6 Model internals you must respect (ch2 skim)</h3>
+<p><strong>Autoregressive LMs</strong> predict next token. <strong>Attention</strong> mixes prior tokens. <strong>Scaling laws / Chinchilla:</strong> model size and data should scale together for compute-optimal training.</p>
+<p><strong>Hallucination:</strong> fluent but false - not a bug you &quot;unit test away&quot;; manage with retrieval, constraints, eval.</p>
+<p><strong>Sampling:</strong> temperature and top-p increase diversity → <strong>non-determinism</strong> is a product requirement, not an accident.</p>
+<hr />
+<h2 id="part-4-evaluation-prompts-rag-agents-aie-ch36" data-notable-anchor="corpus-guide-part-4-evaluation-prompts-rag-agents-aie-ch36">Part 4 - Evaluation, prompts, RAG, agents (AIE ch3-6)</h2>
+<blockquote>
+<p><strong>Memory anchors for Part 4 - Eval and context.</strong> Fourth room. Anchor:</p>
+<ul>
+<li><strong>AI-as-judge bias:</strong> referee wearing your team's jersey</li>
+<li><strong>EDD buckets:</strong> four clipboards on a wall</li>
+<li><strong>RAG pipeline:</strong> librarian hands book pages to writer</li>
+<li><strong>Compound accuracy:</strong> chain of leaky buckets</li>
+</ul>
+<p>See Appendix D.2.</p>
+</blockquote>
+<h3 id="41-why-fm-evaluation-is-hard-ch3">4.1 Why FM evaluation is hard (ch3)</h3>
+<p>Structural difficulties include: open-ended outputs, no single correct answer, judge cost, distribution shift, rapid model churn, sensitivity to prompt phrasing.</p>
+<p><strong>Perplexity:</strong> useful on training-like text; weak post-SFT product proxy.</p>
+<p><strong>Functional correctness:</strong> pass@k for code - tests, not vibes.</p>
+<p><strong>AI-as-judge biases:</strong> position bias, verbosity bias, self-preference. Mitigate with swap order, rubrics, human calibration.</p>
+<h3 id="42-evaluation-driven-development-ch4">4.2 Evaluation-driven development (ch4)</h3>
+<p>Build eval sets <strong>before</strong> chasing leaderboard scores. Four buckets: domain accuracy, generation quality, instruction-following, cost/latency.</p>
+<p><strong>Leaderboards</strong> ≠ your product decision - different data, prompts, and risk tolerance.</p>
+<h3 id="43-prompt-engineering-ch5">4.3 Prompt engineering (ch5)</h3>
+<p>Techniques: instructions, few-shot ICL, chain-of-thought (when appropriate), structured output formats.</p>
+<p><strong>Prompt injection:</strong> untrusted content hijacks instructions - direct (user) vs indirect (retrieved doc). Defenses: separation of trusted system vs untrusted data, output filtering, tool permission boundaries - not one silver bullet.</p>
+<h3 id="44-rag-pattern-ch6">4.4 RAG pattern (ch6)</h3>
+<blockquote>
+<p><strong>Two dominating patterns for context construction are RAG, or retrieval-augmented generation, and agents.</strong><br />
+- AIE ch6 <strong>[verified from text]</strong></p>
+</blockquote>
+<p><strong>RAG:</strong> retrieve relevant chunks → condition generation. Persists because:</p>
+<ul>
+<li>Context windows still bounded economically</li>
+<li>Fresh/private corpora not in weights</li>
+<li>Attribution and update without retrain</li>
+</ul>
+<p><strong>Hybrid search:</strong> BM25 (lexical) + embeddings (semantic) fused (e.g., RRF).</p>
+<h3 id="45-agents-and-compound-accuracy">4.5 Agents and compound accuracy</h3>
+<p>Agents loop: perceive → plan → act with tools. <strong>Compound accuracy:</strong> 0.95¹⁰ ≈ 0.60 for ten independent 95% steps - multi-step autonomy needs human checkpoints or narrow tools.</p>
+<p><strong>ReAct:</strong> interleave reasoning traces with tool calls.</p>
+<p><strong>Experimental warning (ingest):</strong> agent frameworks evolve quickly - eval before production autonomy.</p>
+<h3 id="46-finetune-vs-rag-heuristic">4.6 Finetune vs RAG heuristic</h3>
+<p><strong>Facts</strong> → RAG / knowledge base. <strong>Form</strong> (tone, format, tool style) → finetune / preference tuning. Many products need both.</p>
+<hr />
+<h2 id="part-5-adaptation-data-inference-architecture-aie-ch710" data-notable-anchor="corpus-guide-part-5-adaptation-data-inference-architecture-aie-ch710">Part 5 - Adaptation, data, inference, architecture (AIE ch7-10)</h2>
+<blockquote>
+<p><strong>Memory anchors for Part 5 - Production.</strong> Fifth room or revisit room 1 with new stickers. Anchor:</p>
+<ul>
+<li><strong>LoRA/QLoRA:</strong> small adapter backpack on a giant model</li>
+<li><strong>TTFT vs TPOT:</strong> door opening vs items on a conveyor</li>
+<li><strong>Guardrails layer:</strong> bouncer before and after the model</li>
+<li><strong>Feedback loop risk:</strong> amplifier squeal when mic hears speaker</li>
+</ul>
+<p>See Appendix D.2.</p>
+</blockquote>
+<h3 id="51-finetuning-and-peft-ch7">5.1 Finetuning and PEFT (ch7)</h3>
+<p><strong>Full finetune</strong> updates all weights - expensive. <strong>LoRA:</strong> low-rank adapters on attention layers. <strong>QLoRA:</strong> quantized base + adapters for consumer GPUs.</p>
+<p>When to finetune: stable style/format, proprietary workflow, after RAG ceiling - not as first move for changing facts.</p>
+<h3 id="52-dataset-engineering-ch8">5.2 Dataset engineering (ch8)</h3>
+<p>Dimensions: relevance, diversity, correctness, toxicity/safety, format consistency. <strong>Data iteration</strong> often beats architecture churn.</p>
+<h3 id="53-inference-and-cost-ch9">5.3 Inference and cost (ch9)</h3>
+<p><strong>TTFT</strong> (time to first token) dominates perceived chat latency. <strong>TPOT</strong> (time per output token) dominates long completions.</p>
+<p><strong>KV cache</strong> stores attention state during decode - critical for throughput.</p>
+<p>Batching, quantization, speculative decoding - know names; Hands-On LLMs week covers labs.</p>
+<h3 id="54-architecture-stack-ch10">5.4 Architecture stack (ch10)</h3>
+<p>Typical request path:</p>
+<ol>
+<li><strong>Guardrails / policy</strong> (input)</li>
+<li><strong>Router</strong> (model selection)</li>
+<li><strong>Semantic cache</strong> (repeat queries)</li>
+<li><strong>Context builder</strong> (RAG / memory)</li>
+<li><strong>Model call</strong></li>
+<li><strong>Guardrails</strong> (output)</li>
+<li><strong>Logging / tracing</strong></li>
+</ol>
+<p><strong>Observability triad:</strong> metrics (aggregates), logs (events), traces (request journeys). Essential for debugging nondeterministic failures.</p>
+<h3 id="55-feedback-loops-and-safety">5.5 Feedback loops and safety</h3>
+<p>User thumbs-up/down, implicit signals, RLHF-style training can improve quality but also <strong>sycophancy</strong> and <strong>reward hacking</strong>. Regulated-adjacent deployments: human escalation, PHI out of caches, audit trails - pattern-portable ideas from ch10 without employer-specific claims.</p>
+<hr />
+<h2 id="appendix-a-chapter-map-and-ingest-status" data-notable-anchor="corpus-guide-appendix-a-chapter-map-and-ingest-status">Appendix A - Chapter map and ingest status</h2>
+<table>
+<thead>
+<tr>
+<th>Book</th>
+<th>Chapters in program</th>
+<th>Ingest path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grokking 2e</td>
+<td>1-12</td>
+<td><code>ingests/grokking_algorithms_2e_2024_ch*_ingest.md</code></td>
+</tr>
+<tr>
+<td>Ousterhout 2e</td>
+<td>1-5, 7-8, 9, 20-22</td>
+<td><code>ingests/philosophy_software_design_2e_2021_ch*_ingest.md</code></td>
+</tr>
+<tr>
+<td>AIE 2025</td>
+<td>1-10</td>
+<td><code>ingests/ai_engineering_2025_ch*_ingest.md</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Not in 2-week sprint:</strong> Hands-On LLMs labs (follow-on week).</p>
+<hr />
+<h2 id="appendix-b-high-frequency-miss-patterns" data-notable-anchor="corpus-guide-appendix-b-high-frequency-miss-patterns">Appendix B - High-frequency miss patterns</h2>
+<blockquote>
+<p><strong>Memory anchors for Appendix B miss patterns.</strong> Walk the rooms you already built (D.2). At each existing locus, add ONE small sticker for the trap - do not invent new loci.</p>
+</blockquote>
+<h3 id="miss-pattern-1-big-o-as-speed-multiplier">Miss pattern 1: Big O as speed multiplier</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Pick an image separating &quot;growth rate&quot; from &quot;× faster on my laptop.&quot;</p>
+</blockquote>
+<p>Bob's NASA mistake: O(log n) describes scaling, not a constant factor speedup.</p>
+<h3 id="miss-pattern-2-hash-o1-always">Miss pattern 2: Hash O(1) always</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Two avocados in the same alphabet slot.</p>
+</blockquote>
+<p>Collisions and load factor break the white lie.</p>
+<h3 id="miss-pattern-3-bfs-vs-dijkstra">Miss pattern 3: BFS vs Dijkstra</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Counting stops vs counting tolls.</p>
+</blockquote>
+<p>BFS = unweighted hops. Dijkstra = sum of non-negative weights.</p>
+<h3 id="miss-pattern-4-shallow-small-file">Miss pattern 4: Shallow = small file</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Tiny interface, huge hidden kitchen.</p>
+</blockquote>
+<p>Depth = benefit/cost of interface, not LOC.</p>
+<h3 id="miss-pattern-5-pass-through-layering">Miss pattern 5: Pass-through &quot;layering&quot;</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Echo hallway that only repeats your words.</p>
+</blockquote>
+<p>Layers must add semantics, not forwarding.</p>
+<h3 id="miss-pattern-6-perplexity-as-product-metric">Miss pattern 6: Perplexity as product metric</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Textbook difficulty score on customer support replies.</p>
+</blockquote>
+<p>Good for LM training diagnostics; weak alone for task success.</p>
+<h3 id="miss-pattern-7-leaderboard-ship-decision">Miss pattern 7: Leaderboard = ship decision</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Trophy shelf from a different sport.</p>
+</blockquote>
+<p>Your data, prompts, and risk profile differ.</p>
+<h3 id="miss-pattern-8-long-context-kills-rag">Miss pattern 8: Long context kills RAG</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Entire library on desk vs index cards.</p>
+</blockquote>
+<p>Economics, freshness, and attribution keep RAG relevant.</p>
+<h3 id="miss-pattern-9-agent-step-accuracy-multiplies">Miss pattern 9: Agent step accuracy multiplies</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Ten locks, each 95% - how many open?</p>
+</blockquote>
+<p>Multiply probabilities; add human gates.</p>
+<h3 id="miss-pattern-10-finetune-for-fresh-facts">Miss pattern 10: Finetune for fresh facts</h3>
+<blockquote>
+<p><strong>Anchor this trap.</strong> Tattoo vs pocket notebook.</p>
+</blockquote>
+<p>Changing knowledge → retrieval; changing voice → finetune.</p>
+<hr />
+<h2 id="appendix-c-completion-checklist-day-10" data-notable-anchor="corpus-guide-appendix-c-completion-checklist-day-10">Appendix C - Completion checklist (Day 10)</h2>
+<ul>
+<li>[ ] Mock B scored ≥ 75% open-book</li>
+<li>[ ] Palace walk under 5 minutes, all five rooms</li>
+<li>[ ] Glossary: 40+ terms self-defined without looking</li>
+<li>[ ] One-page &quot;crawl-walk-run&quot; plan for a hypothetical FM app</li>
+<li>[ ] List 3 Ousterhout red flags you have actually seen in code</li>
+<li>[ ] Sketch AIE ch10 architecture stack from memory</li>
+<li>[ ] Export browser notes if using static hosting</li>
+<li>[ ] Schedule Hands-On LLMs follow-on week for labs</li>
+</ul>
+<p><strong>Sleep target:</strong> 7-8 hours before heavy mock days (D5, D10).</p>
+<hr />
+<h2 id="appendix-d-pedagogy-and-memory-systems" data-notable-anchor="corpus-guide-appendix-d-pedagogy-and-memory-systems">Appendix D - Pedagogy and memory systems</h2>
+<h3 id="d1-evidence-summary">D.1 Evidence summary</h3>
+<ol>
+<li><strong>Retrieval practice</strong> <code>[T1-verified, read:body]</code> - testing beats re-reading for delayed recall (Serra et al. 2025). <strong>Practical:</strong> daily drills in PRACTICE_EXAMS.md and mock exams.</li>
+<li><strong>Transfer-appropriate processing</strong> <code>[T1-verified, read:body]</code> - practice in the form you'll be tested in (Morris et al. 1977). <strong>Practical:</strong> open-book mocks with trace/paper exercises, not flashcards alone.</li>
+<li><strong>Spaced repetition</strong> <code>[T2-verified]</code> - expanding intervals (Ebbinghaus; modern meta-analyses). <strong>Practical:</strong> Anki deck from glossary (optional build).</li>
+<li><strong>Method of loci</strong> <code>[T1-verified, read:body]</code> - spatial serial recall d≈0.42-0.88 immediate (Ondrej et al. 2025). <strong>Practical:</strong> five-room map across Parts 1-5.</li>
+</ol>
+<p><strong>Compounders:</strong> dual coding (image + word), interleaving algorithm + design questions, generation effect (write traces before reading solutions).</p>
+<h3 id="d2-build-your-own-memory-palace">D.2 Build-your-own memory palace</h3>
+<ol>
+<li><strong>Pick your space</strong> - current home recommended.</li>
+<li><strong>Map five rooms</strong> to Parts 1-5 in walk order.</li>
+<li><strong>5-7 loci per room</strong> - max ~2 items per locus.</li>
+<li><strong>Vivid images</strong> - yours, not this document's.</li>
+</ol>
+<p><strong>Locus patterns:</strong> bookshelf for ordered lists; stove burners for intensity scales; spice rack for equivalent options.</p>
+<p><strong>Fallback (under 90 seconds):</strong> use kitchen → bedroom → office route; sticky notes on fridge, bedpost, monitor for the five Part titles only - replace with personal images by Day 3.</p>
+<h3 id="d3-mnemonic-quick-reference">D.3 Mnemonic quick reference</h3>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Mnemonic</th>
+<th>Expands to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sorting growth</td>
+<td>&quot;1 log n square&quot;</td>
+<td>O(1), O(log n), O(n), O(n log n), O(n²)</td>
+</tr>
+<tr>
+<td>Ousterhout symptoms</td>
+<td>&quot;ACC&quot;</td>
+<td>Amplification, Cognitive load, Unknown unknowns</td>
+</tr>
+<tr>
+<td>Unix I/O depth</td>
+<td>&quot;ORWLC&quot;</td>
+<td>open, read, write, lseek, close</td>
+</tr>
+<tr>
+<td>EDD buckets</td>
+<td>&quot;DGIC&quot;</td>
+<td>Domain, Generation, Instruction, Cost/latency</td>
+</tr>
+<tr>
+<td>RAG stages</td>
+<td>&quot;RIG&quot;</td>
+<td>Retrieve, Inject context, Generate</td>
+</tr>
+<tr>
+<td>Latency pair</td>
+<td>&quot;First Per&quot;</td>
+<td>TTFT first token, TPOT per token</td>
+</tr>
+</tbody>
+</table>
+<h3 id="d4-daily-integration-schedule">D.4 Daily integration schedule</h3>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Memory work (15-30 min evening)</th>
+<th>New technique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>Build room 1 (Algorithms); drill binary search</td>
+<td>Retrieval: end-of-day recap without book</td>
+</tr>
+<tr>
+<td>D2</td>
+<td>Room 1 loci for sort/recursion</td>
+<td>Generation: write partition trace</td>
+</tr>
+<tr>
+<td>D3</td>
+<td>Room 2 (Design) + hash collision image</td>
+<td>Interleave one algo + one design question</td>
+</tr>
+<tr>
+<td>D4</td>
+<td>Room 2 depth/leakage stickers</td>
+<td>Dual coding: sketch Unix I/O diagram</td>
+</tr>
+<tr>
+<td>D5</td>
+<td>Full walk rooms 1-2; <strong>Mock A</strong></td>
+<td>TAP: timed mock form</td>
+</tr>
+<tr>
+<td>D6</td>
+<td>Room 3 (AI framing)</td>
+<td>Spaced review D1 flash terms</td>
+</tr>
+<tr>
+<td>D7</td>
+<td>Room 4 (Eval)</td>
+<td>AI-as-judge bias list from memory</td>
+</tr>
+<tr>
+<td>D8</td>
+<td>Room 4 RAG/agent loci</td>
+<td>Compound accuracy calculation</td>
+</tr>
+<tr>
+<td>D9</td>
+<td>Room 5 (Production)</td>
+<td>Finetune vs RAG decision writeup</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>Full five-room walk; <strong>Mock B</strong></td>
+<td>No new material; sleep</td>
+</tr>
+</tbody>
+</table>
+<h3 id="d5-honest-caveats">D.5 Honest caveats</h3>
+<ol>
+<li><strong>Mocks beat palace</strong> for exam-like checks (MoL GRADE low-low).</li>
+<li>Mnemonics are pointers, not understanding.</li>
+<li><strong>TAP:</strong> timed mocks &gt; passive re-read.</li>
+<li>~2 items per locus max.</li>
+<li>Sleep beats one more chapter.</li>
+<li>Cross-domain chains in this guide are <code>[inferred]</code> pedagogical links, not author claims.</li>
+<li><strong>Abort rule:</strong> if Day 2 palace recall &lt;30%, rebuild with simpler space before adding rooms.</li>
+<li>Figures require EPUB/PDF - exports lack diagrams.</li>
+</ol>
+<h3 id="d6-sources">D.6 Sources</h3>
+<ul>
+<li>Ondrej J. et al. (2025). Method of loci meta-analysis. PMC12514325.</li>
+<li>Serra M.J. et al. (2025). Retrieval practice in health professions. PMC12292765.</li>
+<li>Roediger H.L., Karpicke J.D. (2006). Test-enhanced learning.</li>
+<li>Morris C.D. et al. (1977). Transfer appropriate processing.</li>
+<li>Paivio A. (1971). Imagery and Verbal Processes.</li>
+<li>Bjork R.A. (1994). Desirable difficulties.</li>
+</ul>
+
+</main>
+</body>
+</html>

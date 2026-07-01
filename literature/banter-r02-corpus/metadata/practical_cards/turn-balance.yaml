@@ -1,0 +1,51 @@
+# R-02 practical cards — turn-balance (P-Z)
+pillar_moniker: turn-balance
+pillar_ids: [P-Z]
+lane: L8
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#turn-balance
+
+source_ingests:
+  - literature/ingests/antony_2017_shyness_sa_workbook_ch13_chapter_ingest.md
+  - research/claims/papers/P05-hall-flirting.yaml
+
+cards:
+  - exercise_name: Effective Listening Strategies Practice
+    steps:
+      - Before replying, notice listening blocks — rehearsing answer, filtering, advising, judging (Antony Ch10 / McKay listening blocks).
+      - Ask about her content — one question at a time; match her pace (pillar P-Z + C-G006-A03 online rule).
+      - Give a brief answer when your turn comes — then ask again rather than monologue (C-005/C-006 turn balance).
+      - Monitor closed body language — self-monitor and open channels (Antony Ch10 closed-behavior self-monitoring).
+    cognitive_frame: Balanced turns and matched disclosure predict rapport — responsiveness beats question stacks (MANIP-QSTACK WARN).
+    observables:
+      - Alternating ask–answer in early rapport online
+      - Operator catches self rehearsing reply instead of listening
+      - Fewer rapid-fire personal questions without reciprocity
+    contraindications:
+      - MANIP-QSTACK rapid-fire interrogation
+      - using follow-up questions as persistence after disengagement
+    source_anchor: C-G006-A03 · antony_2017_shyness_sa_workbook_ch13_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#turn-balance
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Responsiveness Check-In
+    steps:
+      - After you share, note whether she reciprocates disclosure depth — matched depth when trust exists (C-009 reciprocity).
+      - If she gives short replies — adjust pace down; one affiliative question rather than stack (FI-C-009 disputed cap 60).
+      - If mutual engagement present — continue balanced turns; do not escalate intensity faster than reciprocity (A05 hyperpersonal WARN).
+      - Log turn balance quality for debrief — not as score to manipulate outcome.
+    cognitive_frame: Responsiveness is mutual engine of liking — read her pace, don't engineer compliance.
+    observables:
+      - Operator adjusts question rate to her reply length
+      - Disclosure depth rises gradually with reciprocity
+    contraindications:
+      - trauma-dump to force reciprocal share (MANIP-VULNBAIT)
+      - binary ultimatums on response speed (MANIP-BINARY)
+    source_anchor: C-005 · claim-bridge.md C-G006-A03 row
+    aletheia_wire: references/model/operator-self-module.md#turn-balance
+    operator_fit_tags: [dating-online]
+    quality_level: full

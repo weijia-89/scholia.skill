@@ -1,0 +1,181 @@
+# Text slice — understanding_distributed_systems_2022_ch03_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 03
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+geographically close to the clients.
+
+
+2.5     Custom protocols
+TCP’s reliability and stability come at the price of lower band-
+width and higher latencies than the underlying network can
+deliver. If we drop the stability and reliability mechanisms that
+TCP provides, what we get is a simple protocol named User
+Datagram Protocol6 (UDP) — a connectionless transport layer
+protocol that can be used as an alternative to TCP.
+Unlike TCP, UDP does not expose the abstraction of a byte stream
+to its clients. As a result, clients can only send discrete packets
+with a limited size called datagrams. UDP doesn’t offer any relia-
+bility as datagrams don’t have sequence numbers and are not ac-
+knowledged. UDP doesn’t implement ﬂow and congestion control
+either. Overall, UDP is a lean and bare-bones protocol. It’s used
+to bootstrap custom protocols, which provide some, but not all, of
+the stability and reliability guarantees that TCP does7 .
+   5
+     “Bandwidth-delay product,” https://en.wikipedia.org/wiki/Bandwidth-
+delay_product
+   6
+     “RFC 768: User Datagram Protocol,” https://datatracker.ietf.org/doc/html/
+rfc768
+   7
+     As we will later see, HTTP 3 is based on UDP to avoid some of TCP’s short-
+comings.
+
+CHAPTER 2. RELIABLE LINKS                                        24
+
+
+For example, in multiplayer games, clients sample gamepad
+events several times per second and send them to a server that
+keeps track of the global game state. Similarly, the server samples
+the game state several times per second and sends these snapshots
+back to the clients. If a snapshot is lost in transmission, there is
+no value in retransmitting it as the game evolves in real-time; by
+the time the retransmitted snapshot would get to the destination,
+it would be obsolete. This is a use case where UDP shines; in
+contrast, TCP would attempt to redeliver the missing data and
+degrade the game’s experience.
+
+Chapter 3
+
+Secure links
+
+We now know how to reliably send bytes from one process to an-
+other over the network. The problem is that these bytes are sent in
+the clear, and a middleman could intercept the communication. To
+protect against that, we can use the Transport Layer Security1 (TLS)
+protocol. TLS runs on top of TCP and encrypts the communica-
+tion channel so that application layer protocols, like HTTP, can
+leverage it to communicate securely. In a nutshell, TLS provides
+encryption, authentication, and integrity.
+
+
+3.1      Encryption
+Encryption guarantees that the data transmitted between a client
+and a server is obfuscated and can only be read by the communi-
+cating processes.
+
+When the TLS connection is ﬁrst opened, the client and the server
+negotiate a shared encryption secret using asymmetric encryption.
+First, each party generates a key pair consisting of a private and
+public key. The processes can then create a shared secret by ex-
+changing their public keys. This is possible thanks to some math-
+  1
+    “RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3,” https:
+//datatracker.ietf.org/doc/html/rfc8446
+
+CHAPTER 3. SECURE LINKS                                                     26
+
+
+ematical properties2 of the key pairs. The beauty of this approach
+is that the shared secret is never communicated over the wire.
+
+Although asymmetric encryption is slow and expensive, it’s only
+used to create the shared encryption key. After that, symmetric en-
+cryption is used, which is fast and cheap. The shared key is peri-
+odically renegotiated to minimize the amount of data that can be
+deciphered if the shared key is broken.
+
+Encrypting in-ﬂight data has a CPU penalty, but it’s negligible
+since modern processors have dedicated cryptographic instruc-
+tions. Therefore, TLS should be used for all communications,
+even those not going through the public internet.
+
+
+3.2     Authentication
+Although we have a way to obfuscate data transmitted across the
+wire, the client still needs to authenticate the server to verify it’s
+who it claims to be. Similarly, the server might want to authenti-
+cate the identity of the client.
+
+TLS implements authentication using digital signatures based on
+asymmetric cryptography. The server generates a key pair with a
+private and a public key and shares its public key with the client.
+When the server sends a message to the client, it signs it with its
+private key. The client uses the server’s public key to verify that
+the digital signature was actually signed with the private key. This
+is possible thanks to mathematical properties3 of the key pair.
+
+The problem with this approach is that the client has no idea
+whether the public key shared by the server is authentic. Hence,
+the protocol uses certiﬁcates to prove the ownership of a public
+key. A certiﬁcate includes information about the owning entity,
+expiration date, public key, and a digital signature of the third-
+party entity that issued the certiﬁcate. The certiﬁcate’s issuing
+   2
+     “A (Relatively Easy To Understand) Primer on Elliptic Curve Cryptography,”
+https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-
+curve-cryptography/
+   3
+     “Digital signature,” https://en.wikipedia.org/wiki/Digital_signature
+
+CHAPTER 3. SECURE LINKS                                                        27
+
+
+entity is called a certiﬁcate authority (CA), which is also represented
+with a certiﬁcate. This creates a chain of certiﬁcates that ends with
+a certiﬁcate issued by a root CA, as shown in Figure 3.1, which
+self-signs its certiﬁcate.
+
+For a TLS certiﬁcate to be trusted by a device, the certiﬁcate, or one
+of its ancestors, must be present in the trusted store of the client.
+Trusted root CAs, such as Let’s Encrypt4 , are typically included in
+the client’s trusted store by default by the operating system ven-
+dor.
+
+
+
+
+Figure 3.1: A certiﬁcate chain ends with a self-signed certiﬁcate
+issued by a root CA.
+
+When a TLS connection is opened, the server sends the full cer-
+tiﬁcate chain to the client, starting with the server’s certiﬁcate and
+  4
+      “Let’s Encrypt: A nonproﬁt Certiﬁcate Authority,” https://letsencrypt.org/
+
+CHAPTER 3. SECURE LINKS                                                  28
+
+
+ending with the root CA. The client veriﬁes the server’s certiﬁcate
+by scanning the certiﬁcate chain until it ﬁnds a certiﬁcate that it
+trusts. Then, the certiﬁcates are veriﬁed in reverse order from that
+point in the chain. The veriﬁcation checks several things, like the
+certiﬁcate’s expiration date and whether the digital signature was
+actually signed by the issuing CA. If the veriﬁcation reaches the
+last certiﬁcate in the path (the server’s own certiﬁcate) without er-
+rors, the path is veriﬁed, and the server is authenticated.
+
+One of the most common mistakes when using TLS is letting a
+certiﬁcate expire. When that happens, the client won’t be able to
+verify the server’s identity, and opening a connection to the re-
+mote process will fail. This can bring an entire application down
+as clients can no longer connect with it. For this reason, automa-
+tion to monitor and auto-renew certiﬁcates close to expiration is
+well worth the investment.
+
+
+3.3     Integrity
+Even if the data is obfuscated, a middleman could still tamper
+with it; for example, random bits within the messages could be
+swapped. To protect against tampering, TLS veriﬁes the integrity
+of the data by calculating a message digest. A secure hash function
+is used to create a message authentication code5 (HMAC). When a
+process receives a message, it recomputes the digest of the message
+and checks whether it matches the digest included in the message.
+If not, then the message has either been corrupted during trans-
+mission or has been tampered with. In this case, the message is
+dropped.
+
+The TLS HMAC protects against data corruption as well, not just
+tampering. You might be wondering how data can be corrupted if

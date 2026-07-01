@@ -1,0 +1,26 @@
+topic_slug: sandwich-prompt-refocus
+claim_ids: []
+wire_status: pending
+generated: 2026-06-26
+source_ingests:
+  - ingests/prompt_engineering_llms_2024_ch06_ingest.md
+cards:
+  - exercise_name: Sandwich Prompt Refocus
+    steps:
+      - Write a concise introduction that states document type and allocates early thought budget for the task (PE Ch6 introduction).
+      - Place critical context snippets at prompt start and end; filter middle context to mitigate Valley of Meh / lost-middle weakness (PE Ch6 Valley of Meh).
+      - After the context parade, repeat the main ask in a refocus block — sandwich the context between intro and refocus (PE Ch6 Table 6-1).
+      - Add a transition that begins the answer shape — completion inception or chat assistant turn — so the model continues in the target format (PE Ch6 transition).
+    cognitive_frame: Assembly is feedforward engineering — structure controls attention, not clever phrasing alone.
+    observables:
+      - Prompt file shows distinct intro, context, refocus, and transition sections
+      - Highest-salience facts appear at start or end, not buried mid-context
+      - Refocus restates the task after long context blocks
+    contraindications:
+      - send-ready opener banks exported as coaching scripts
+      - dumping full documents without elastic snippet sizing
+    source_anchor: "[read:body] prompt_engineering_llms_2024_ch06_ingest.md §Sandwich / refocus"
+    consumer_wire: null
+    context_tags: [eval-harness, prompt-engineering]
+    quality_level: full
+    procedure_gap: false

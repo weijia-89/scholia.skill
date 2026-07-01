@@ -1,0 +1,1158 @@
+03_s00146_2024_ai_writing_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: s00146_2024_ai_writing
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/03_s00146_2024_ai_writing_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/03_s00146_2024_ai_writing.txt)
+NOTE: Embedded primary truncated to 119,000 chars (full export 125,911 chars at source_exports/03_s00146_2024_ai_writing.txt).
+========================================================================
+
+AI & SOCIETY
+https://doi.org/10.1007/s00146-024-01905-3
+
+    OPEN FORUM
+
+
+
+Using rhetorical strategies to design prompts: a human‑in‑the‑loop
+approach to make AI useful
+Nupoor Ranade1          · Marly Saravia2 · Aditya Johri3
+
+Received: 10 April 2023 / Accepted: 19 February 2024
+© The Author(s) 2024
+
+
+Abstract
+The growing capabilities of artificial intelligence (AI) word processing models have demonstrated exceptional potential to
+impact language related tasks and functions. Their fast pace of adoption and probable effect has also given rise to controversy
+within certain fields. Models, such as GPT-3, are a particular concern for professionals engaged in writing, particularly as
+their engagement with these technologies is limited due to lack of ability to control their output. Most efforts to maximize
+and control output rely on a process known as prompt engineering, the construction and modification of the inputted prompt
+with expectation for certain outputted or desired text. Consequently, prompt engineering has emerged as an important
+consideration for research and practice. Previous conceptions of prompt engineering have largely focused on technical and
+logistic modifications to the back-end processing, remaining inaccessible and, still, limited for most users. In this paper, we
+look to the technical communication field and its methods of text generation—the rhetorical situation—to conceptualize
+prompt engineering in a more comprehensible way for its users by considering the context and rhetoric. We introduce a
+framework, consisting of a formula, to prompt engineering, which demands all components of the rhetorical situation be
+present in the inputted prompt. We present discussions on the future of AI writing models and their use in both professional
+and educational settings. Ultimately, this discussion and its findings aim to provide a means of integrating agency and
+writer-centric methods to AI writing tools to advance a more human-in-the-loop approach. As the use of generative AI and
+especially NLP-based technologies become common across societal functions, the use of prompt engineering will play a
+crucial role not just in adoption of the technology, but also its productive and responsible use.
+
+Keywords Prompt engineering · AI writing · Technical communication · Rhetoric
+
+
+1 Introduction                                                   provided to a large language model (LLM) that programs
+                                                                 the LLM by customizing it and/or enhancing or refining its
+Natural language processing (NLP) has witnessed remark-          capabilities, affords a dialogic conversation with its user; it
+able advancements over the years, revolutionizing the ways       can not only produce output specific to the user’s request
+in which we interact with machines and bridging the gap          communicated via prompts, but also provide suggestions to
+between human language and artificial intelligence. One          improve the query itself which might potentially result in a
+critical aspect that has played a pivotal role in shaping the    more tailored response. In particular, a prompt sets the con-
+capabilities of NLP algorithms is the design and usage of lan-   text for the conversation and tells the LLM what information
+guage prompts and queries. A prompt, or a set of instructions    is important and what the desired output form and content
+                                                                 should be. This process of meticulously composing prompts
+* Nupoor Ranade                                                  using natural language to harness the capabilities of genera-
+  nranade@gmu.edu                                                tive AI, to obtain precise, contextually relevant information
+                                                                 is known as prompt engineering. Since the release of GPT-3,
+1
+     Department of English, George Mason University, Fairfax,    Open AI’s generative language model, in July 2020, there
+     VA, USA
+                                                                 has been a renewed interest in strategizing prompts that can
+2
+     Department of Psychology, George Mason University,          then be fed to applications based on GPT to produce effec-
+     Fairfax, VA, USA
+                                                                 tive content more efficiently. However, most strategies are
+3
+     Department of Information Sciences & Technology, George     based on trials and tests to establish best practices for prompt
+     Mason University, Fairfax, VA, USA
+
+
+                                                                                                                 Vol.:(0123456789)
+                                                                                                                            AI & SOCIETY
+
+
+design. None of them are grounded in theories that are foun-          ChatGPT’s ability to mimic each celebrity CEO archetype
+dational to effective writing. This article is an attempt to initi-   by prompting language in the style of exemplars. White et al.
+ate conversations by blending the architectural workflow of           (2023) view prompts as a form of programming that can cus-
+algorithms with writing studies research for effective content        tomize the outputs and interactions with an LLM. They devel-
+generation.                                                           oped a catalog of prompt engineering techniques presented in
+   Before diving into prompt engineering, we wanted to                pattern form that can be applied to solve common problems
+bring forth some applications that make research on prompt            when conversing with LLMs. Prompt patterns were designed
+engineering more important than ever. Generative AI appli-            to provide reusable solutions to common problems faced in a
+cations, especially the latest ChatGPT released on Novem-             particular context only; context being output generation and
+ber 30, 2022, have garnered attention from all disciplines,           interaction with LLMs. Another example is Bozkurt and Shar-
+especially writing communities, for its detailed responses            ma’s (2023) work for defining prompts. In their short piece
+and articulate answers across many domains of knowledge.              they provide a detailed list of attributes and rules for prompt
+Despite some concerns of specificity and inherent bias, the           creation such as defining the objective of content to be gen-
+fluency of the tool, ease of use, statefulness (its ability to        erated, providing examples within prompts, using clear and
+remember previous prompts provided in the same conver-                concise language, and so on. All these methods differ in terms
+sation) makes ChatGPT a powerful tool for content devel-              of their method for fine-tuning prompts. But there are two
+opment, raising questions about AI’s potential to almost              main similarities: (1) all methods either are based on explora-
+replace writers’ jobs (AIContentfy 2023). The doubts are              tory approaches to test that their methods work, and (2) the
+not unfounded. Media agencies have used natural language              prompts are task specific. For example, Short & Short’s work
+processors (NLP) like Open AI’s GPT for more than 7 years.            is for generating entrepreneurial pitches and White et al. focus
+In 2015, Associated Press (AP) generated around 200 articles          on software documentation. None of these methods are truly
+per minute, and by 2016, the efficiency increased to 2000             generic in nature. Open AI’s recommendation for prompt gen-
+articles per second (Sharma 2021). Beyond the ability to pro-         eration is similar to Bozkurt and Sharma’s where the method
+duce texts that are indistinguishable from that of a human            may appear generic with rules and best practices, but does not
+writer, features such as sentiment analysis, speech and voice         guarantee effective content. To address this gap, we developed
+recognition, customer service automation, customer feedback           a method based on the rhetorical situation (Bitzer 1968) which
+analysis, and others (that provide language parsing and mod-          is grounded in rhetorical theory that lays the foundation for
+eling) have made NLP applications useful to different sectors         writing studies making the approach generic and useful across
+like finance, health and business. The technical and profes-          all applications.
+sional communication (TPC) field is not unaffected. Tools                 For centuries, rhetoricians, followed later by writing studies
+like GPT can write emails, memos, product documentation,              scholars, have developed systematic approaches for identify-
+and full length essays, indistinguishable from those written          ing strategies to develop effective and persuasive content that
+by human writers, and can also help professional writers in           is grounded in theory. The theoretical underpinnings make
+useful tasks like summarizing texts, developing cover letters,        the strategies generic and useful for all applications of com-
+and building resumes (Nielsen 2022). They help in the edit-           munication. They rely on rhetorical foundations for content
+ing process as well. GPTs can automatically edit spelling and         generation which ensures that the content developed is con-
+grammar errors as they are typed. This helps speed up the             text-specific, addresses needs of the audience of the content, is
+editing process while also cutting back the revisions required        logically accurate, useful, and meets other qualitative require-
+for each draft. Despite these capabilities, the content gener-        ments. Despite the potential of rhetorical methods, research on
+ated by AI is not always accurate; it suffers from specificity.       how to improve composing using AI in the fields of rhetoric
+AI tools lack high degrees of personalization and intelligent         and writing is sparse. The literature that exists studied gen-
+levels of responsiveness. To make them more specific, users           erative AI through an analysis of its algorithmic components
+need to provide additional information through prompts or             using computational rhetoric (Hart-Davidson 2018; McKee
+other customization options provided by the tool. For exam-           and Porter 2020; Marcus and Davis 2020). The rhetorical
+ple, Custom Instructions is a feature provided by ChatGPT             analysis of algorithms helps investigate persuasiveness, the
+that allows users to set preferences that the tool can consider       role of ethics and the human/non-human agency of algorithms.
+for a single instance or all future instances of running any          A closer look combined with experimental genre analysis of
+query. But how can users determine which preferences are              AI algorithms will help investigate issues related to teaching
+required for the most effective content output?                       writing with the help of these tools, and the impact on writing
+   Recent literature on prompt engineering focuses on differ-         pedagogy and its future. This became our primary motivation
+ent methods of configuring prompts to fine tune content gen-          to do this research and this paper is an attempt to explore AI
+erated by AI. For example, Short and Short (2023)’s work for          writing from the point of view of rhetorical situation to offer
+generative AI in entrepreneurial communication demonstrates           a generalizable way of designing prompts for TPC as well as
+AI & SOCIETY
+
+other fields, and to highlight the role of human augmentation        natural language understanding (NLU) and dialog generation.
+with AI technologies for creating audience-centered content.         Language modeling (LM), one of the most important tasks
+   Duin and Pedersen (2021) come closest to rhetorically             in modern NLP, is a probabilistic model which helps us to
+evaluating the intelligence of AI writing systems such as            predict the next word or character in a document.
+GPT-2 and GPT-3. They argue that such tools create new text             Generative Pre-Trained Transformer (GPT), originating
+based on the text provided, textual production building off a        from these models and developed by OpenAI, has the
+database of existing text, but without collecting knowledge          most parameters, is of the largest scale, and the strongest
+of the rhetorical situation—the scene or setting for writing,        capabilities (as of January 2023). Using a large amount of
+which includes the purpose, exigence, and audience and               Internet text data and thousands of books for model training,
+without considering questions of ethics and reasoning.               the latest version—GPT-4, can imitate the natural language
+They argue “that machine writing designs see writing as              patterns of humans nearly perfectly. This language model is
+transmission of thought-via-words, rather than as interaction        closest to predictability and generates meaningful content.
+with others” (p. 49). Our work extends Duin and Pedersen’s           With the introduction of pre-training on vast amount of text,
+research through a mixed-methods approach. Our experiments           GPT has acquired a healthy knowledge, which eventually
+consist of rhetorical genre analysis using both qualitative and      helping us to solve discriminative tasks such as:
+quantitative measures to produce a formula that can be used
+for generalizable prompt engineering.                                •   Question answering,
+   Through this work, we address the following research              •   Semantic similarity assessment,
+questions:                                                           •   Entailment determination, and
+                                                                     •   Text classification
+• (RQ1) How can we leverage human and AI collaborations
+  for writing, especially within technical communication                GPT utilizes a semi-supervised method for NLU, it uses
+  (TC), through rhetorical prompt engineering?                       a combination of unsupervised pre-training and supervised
+• (RQ2) What are the implications of using rhetorical prompt         fine-tuning. GPT uses a large amount of unlabeled text and
+  engineering on practice and pedagogy?                              several datasets which are very well annotated pre-hand
+                                                                     training examples (target tasks). GPT follows a 2-stage
+   The paper answers these questions by first describing the         training procedure. It uses language modeling objectives on
+background of AI tools as relevant to the field of writing,          unlabeled data and learns the parameters of neural network
+followed by an explanation on our methods of experimenting           models. In the second phase, these parameters are used to
+with different genres. The results section details our               a target task using the corresponding supervised objective.
+observations on careful comparisons of data generated during            This section explains how such models work and
+the experiments against a rubric which led to development of a       how rhetorical theory can aid these models predict most
+rhetorical formula. Finally, we conclude with some takeaways         successful probabilities for content generation.
+that can be used by TC instructors in their classrooms to teach
+writing using AI and for TC practitioners to think about the
+impact of these tools on the workplace.
+   Although writing impacts a range of fields, for this research     3 GPT architecture
+we focus on technical and professional communication (TPC)
+as it has more specific genre conventions which makes it prone       GPT uses a transformer-based architecture based on
+to significant disruption due to AI. Limiting this case also         neural networks. Knowing GPT architecture is crucial for
+allows us to create the necessary boundary conditions for a          understanding how these algorithms determine contexts.
+feasible and impactful research study. In particular, a rhetorical   GPT uses a stack of self-attention layers to learn long-range
+lens provides clear genres of writing that can be tested for         dependencies in text. Instead of analyzing the meaning of
+prompts used for generating technical content.                       text by defining each word, the self-attention mechanism
+                                                                     allows GPT to learn the importance of each word in the input
+                                                                     phrase, regardless of its position. This is important for NLP
+2 Background and relevance                                          tasks, such as translation and question answering, where the
+                                                                     meaning of a sentence can depend on the words that are far
+LLMs are the closest AI invention to create a huge impact on         apart (Wang et al. 2020; Liu et al. 2020; Hadi et al. 2023).
+the role of writers. Through the development of such large-          The algorithm learns which aspects of the input to prioritize
+scale natural language models with writing and dialogue              answering, and to form response text. This is done through
+capabilities, AI has taken a significant stride towards better       six steps as shown in Fig. 1:
+                                                                                                                     AI & SOCIETY
+
+1. Input encoding: In this step the input is converted to        4 Evolution of GPT
+   a high-dimensional vector representation through an
+   embedding layer.                                              The main difference between the various GPTs is the nature
+2. Transformer encoder: GPTs consist of multi-layered            of data used for training and the design of the algorithm.
+   transformers. This is where self-attention mechanisms         GPT-1 was trained to compress and decompress the contents
+   and feed-forward networks are built-in. Self-attention        of the BookCorpus, a 5 GB database consisting of the text
+   allows the model to capture dependencies between              content of over 7000 published books compiled by the
+   different words in the input sequence, while the              University of Toronto and MIT. The size of the content
+   feed-forward networks process and transform the               was nearly a billion words. Speculating that the accuracy
+   representations.                                              of the Machine Learning model can be improved by feeding
+3. Contextual embeddings: The distance between words are         more data, the OpenAI team widened the horizons of the
+   evaluated by the encoding process to identify contexts        model’s data ingestion. GPT-2 ingested the text content
+   that will be used by the next stages. As the input            of an indigenous data set, consisting of eight million web
+   sequence passes through the transformer encoders, each        pages totaling 40 GB of data. GPT-3 took the text ingestion,
+   token’s representation is updated in a contextualized         compression, and decompression to another level. It
+   manner. This is the most important step for framing           consumed the text content of the popular CommonCrawl
+   input text.                                                   dataset of web pages from 2016 to 2019. Although OpenAI
+4. Decoding and language generation: Based on the                curated it to eliminate redundancy and improve quality, it is
+   transformer encoding results, GPT generates new text by       nominally 45-terabytes worth of compressed text data.
+   predicting the probability distribution of the next token        ChatGPT, the next version of GPT-3, is a general-purpose
+   based on the context identified in previous stages.           conversation chatbot based on the GPT-3 language model
+5. Training with masked language modeling: For faster            developed by OpenAI. It is designed to generate human-
+   content mapping, GPT models are trained with pre-             like text based on a given prompt or conversation and has
+   existing content. The training helps the models to            the ability to engage in natural, open-ended conversations
+   remember certain contextual mappings which produce            on a wide range of topics (refer to https://​openai.​com/​blog/​
+   context-specific content faster with more accuracy.           chatg​pt/). Unlike previous versions which were designed to
+                                                                 seek input requests via prompts, ChatGPT was trained in a
+   Thus, contextual embeddings in GPTs assign each word a        conversation or dialog-based way using reinforced learning
+representation based on its context, thereby capturing uses of   from human feedback. This design makes ChatGPT capable
+words across varied contexts. This type of encoding makes        of answering follow-up questions, admitting mistakes, chal-
+GPTs unique in their ability to work across languages with       lenging incorrect premises, and rejecting inappropriate que-
+varying grammars and rules as well as contexts that may          ries (Zhai 2022). Dialog systems offer creative opportunities
+have social and cultural nuances.                                for human feedback that prompt-based systems do not. There
+
+
+
+Fig. 1  Generative pre-trained
+transformers architecture
+AI & SOCIETY
+
+are other advantages in using conversational systems which       technically focused, current efforts have considered NLP
+have made them extremely popular since 2011 (when Apple          within prompt manipulations. Specifically, the intended
+introduced Siri). In his work, McTear (2021) described the       use of prompt engineering and concentration of this paper
+history of conversational systems and provided a rationale       is mainly based on manually constructed, paraphrased
+on why researchers develop and use conversational systems.       prompts. The increase of such methods may be seen in the
+He argued that a dialog system provides a low-barrier-entry      rise of tools such as PromptBase, in which users may buy
+for users, enabling them to interact in an intuitive way with-   or sell prompts to generate their intended output (Wiggers
+out having to learn to use a new interface (p. 13). Addi-        2022). As such, discussions primarily concentrate on an
+tionally, the ability to converse in a natural manner, provide   ideal prompt ‘template’ to guarantee adequate results.
+relevant responses, and understand the emotional state of a          Prompt engineering has been approached colloquially
+human is one of the high-level cognitive skills that enables     by users who seek guidance on improving their outputs.
+social bonding and coordination of actions (p. 13), making       OpenAI’s website includes additional suggestions and
+users develop trust in the application. GPT-3, which was         documentation on prompt engineering, including rules,
+used for this research, uses prompts to provide commands         description outlines and inclusion of context, style, and
+to the text-generation algorithm (see Methods section for        format (Shieh 2023). For example, one rule suggests using
+more details). The primary difference between GPT-3 and          the latest version of GPT to ensure the output reflects the
+ChatGPT is the nature of input—prompt-based for GPT-3            latest modeling learning developments. Another one states
+and dialog-based for ChatGPT. In both cases, input is key,       that users must always start with the zero-shot method,
+because these algorithms parse the entire input phrase to        then few-shot, and if neither of them work, then use fine-
+determine the context. To understand how that is done, we        tune. (Zero-shot means using a comprehensive list of
+need to look closely at the architecture of GPT.                 keywords, and few-shot means using few keywords with
+   There are two notable characteristics of GPT algorithms       few examples.) Current literature attempts to outline other
+that we would like to point out here:                            successful techniques and their consequential output.
+                                                                 In particular, Liu et al. (2021) defined statistical NLP
+• First, GPTs are only good at context mapping based             practices, including those relevant to prompt engineering
+  on proximity of words and word sequences that have             such as prompt shape, template, and type. Such methods
+  occurred previously. To achieve better mapping, either         may extend onto permutations of prompts and continuous
+  the model needs to be trained on more data, or context         iterations until the desired result is achieved.
+  needs to be ingested through the prompt itself. Training           These practices, although expensive, can be useful. But
+  is expensive, harmful to the environment (Li et al. 2022)      they do not warrant accurate, reliable outputs that can be
+  and, therefore, doing it over and over again to improve        used for technical communication work. These practices do
+  accuracy is not sustainable.                                   not guide users to an effective prompt and, as a result, may
+• Second, context does not always ensure completeness            present a learning curve when interacting with such tools.
+  of input. For example, an input phrase: “Write an email        Moreover, the prompts generated by current practices often
+  for requesting sick leave by employee” does not provide        neglect context and rhetorical devices, leading to scattered,
+  enough context about the position. Therefore, the output       undirected outputs of which do not pertain to the writer’s
+  may look too generic, not suitable for specific roles          focus. Such practices, therefore, present an element of
+  such as manager who is requesting the leave and needs          unpredictability and offer limited control on communicators,
+  reportees to report for someone else.                          who are forced to continuously aim directionless at their
+                                                                 targets, hoping to accidentally wander into their desired
+   So we need a more strategic approach towards designing        output. Overall, the literature suggests many directions for
+inputs rather than refining outputs (through re-training).       how to improve prompt engineering. Yet, there is a paucity
+That is, designing the prompt or creating the input request      of work on how to direct users towards better prompt
+is crucial. Researchers are, therefore, studying how to          creation from the perspective of writing tasks especially
+design prompts that will provide the highest value and save      pertaining to those undertaken by writing professionals
+iterations. This is termed as prompt engineering.                working on technical writing and related projects.
+                                                                     To ensure effective content development, technical
+                                                                 communicators understand language or acts of
+5 Prompt engineering                                            communication as rhetorical, and rely on principles as
+                                                                 rhetoric for developing content that suits the needs of
+Prompt engineering may be defined as any iteration made          their audiences. Analyzing content through a rhetorical
+to a given prompt with the intent of generating a practical,     lens allows comparing language formation to the goals
+functional output. While iterations may be strictly              it is meant to achieve. Rhetoric is about strategic choices
+                                                                                                                     AI & SOCIETY
+
+and approaches to communication. For example, when                 that intentional communicators use in every communication
+communicating to different types of audiences about the            situation.
+same topic, we make strategic decisions on what details to            Every communication situation is different. But it can
+include or omit, what types of evidence or support to use,         be broken down using components of the rhetorical situa-
+and so on. The rhetorical situation is a useful tool to evaluate   tion. A rhetorical situation is a natural context of persons,
+whether the content meets our goals. The next sections will        events, objects, relations, and an exigence which strongly
+throw light on what the rhetorical situation is, and ways in       invites utterance; this invited utterance participates natu-
+which it can be used for prompt engineering.                       rally in the situation, is in many instances necessary to
+                                                                   the completion of situational activity, and by means of its
+                                                                   participation with situation, obtains its meaning and its
+6 The rhetorical situation                                        rhetorical character (Bitzer 1968). The rhetorical situation,
+                                                                   which consists of the exigence, audience, and constraints
+A rhetorical approach to technical communication is inten-         of a given rhetorical act, becomes a useful reference point
+tional or purposeful (Smith 2008). When using a rhetorical         for prompt engineering since it helps incorporate external
+approach to communication, a communicator tries to under-          circumstances that define context to which discourse (con-
+stand the social context of their intended audience, and will      tent generated by AI tools) must respond in fitting ways.
+be strategic about using language towards a specific purpose.      In Bitzer’s terms the more specific the rhetorical situation,
+So, a communicator must know whether they are trying to            the more precise its characteristics, including those of the
+persuade or inform, for example, and they must understand          audience, the more it determines the specific features and
+enough about their audience to know what might be per-             context of the discourse (Fig. 2).
+suasive or how they can inform them. Smith (2008) empha-              Context is a key element in the rhetorical situation. The
+sizes that rhetoric—and a rhetorical approach—is not just          term was first used by Lloyd Bitzer (1968) in “The Rhe-
+something used in advertisements or politics, but something        torical Situation,” to refer to all the features of audience,
+
+
+Fig. 2  The rhetorical situation
+AI & SOCIETY
+
+purpose, and exigence that serve to create a moment suit-                This argument was especially valuable in understanding
+able for a rhetorical response. As per Bitzer (1968) rhe-                how exigence affects and is affected by multiple agents
+torical situation can be understood as a combination of                  and constraints.
+circumstances under which the rhetor or content producer
+writes or speaks, including:
+                                                                         7 Approach and assessment
+• The nature and disposition of the audience,
+• The exigence that requires the rhetor to become part of                This section focuses on the application of the rhetorical
+   the dialog creation                                                   situation and prompt engineering to generalize AI text
+• The writer’s goal or purpose,                                          generation inputs. As discussed in the literature, components
+• An understanding of the subject, and                                   of the rhetorical situation may compliment prompts or input
+• The specific context in which the conversation takes                   texts through their similar methods. For our experiments,
+   place                                                                 we chose the GPT-3 model for its exceptional advancement
+                                                                         and relevancy. In this section we describe the instruments,
+   Our research is heavily influenced by the components                  procedure, and analysis method integral to our research.
+of the rhetorical situation that determine the strategic                    Under a mixed-methods (qualitative and quantitative
+choices about which details to include or not include in                 feedback based) approach, we developed prompt variations
+the prompts based on the particular rhetorical situation                 prior to the experiment, in a word processing document,
+of the required content output.                                          and labeled their components of the rhetorical situation (see
+   This paper advances the work on prompt engineering                    Appendix for variations). Three genres, user guide, proposal,
+by providing a framework and formula to assist users by                  white paper and memo, were selected for the experiment
+drawing on literature on the aforementioned components                   owing to (1) their relevance to the technical writing field
+of the rhetorical situation. In particular, we make the                  and (2) distinct characteristics that will allow seamless
+argument and show that creation of useful prompts                        comparisons. After setting the model per the outlined
+requires not just the engineering aspect, but also                       parameters, we copied and pasted the prompts into the
+considering the rhetorical situation for tailoring the                   OpenAI workspace. We, then, copied and pasted resulting
+input in an attempt to design the most suitable output                   outputs back onto the document to be kept beside their
+for any communication task; in other words, a careful                    specified prompt. Following this procedure for all prompts,
+consideration of multiple communication factors needed                   our group acted as two raters for the resulting outputs;
+for prompt design. The next section will demonstrate this                we divided this work equally and assigned ourselves nine
+through several experiments and assessments.                             outputs, each, for grading. Consequently, we, both, assigned
+   It is worth mentioning that in this paper we are not                  a series of grades for our respective text outputs based on
+limiting technical writing to the more situational response              criteria defined in the rubric.
+created by a communicator for an exigence as explained
+by Bitzer. We surveyed other rhetoricians who have                       7.1 Instruments
+described the significance of analyzing any rhetorical
+situation to create a fitting response for multiplicities                7.1.1 Genre and prompt design
+of audiences, genres, and exigencies. For example, we
+reviewed Vatz’s (1973) work which critiqued Bitzer for                   Prior to the investigation, we conducted a preliminary pilot
+locating exigencies beyond the situation as the thing that               across two platforms, OpenAI and Neuroflash, on the follow-
+rhetors respond to, as opposed to the thing that rhetors                 ing genres: user guide, proposal, white paper, and memo. We
+create for their audiences. Smith and Lybarger (1996)                    selected these genres after a brief comparison of common
+also critiqued Bitzer, arguing that “rhetorical situation                genres present in the field and those included in a profes-
+involves a plurality of exigences and complex relation-                  sional and technical communication course syllabus. Moreo-
+ships between the audience and a rhetorician’s interest”.                ver, the following genres demonstrate variance in their use
+
+
+Table 1  Two categories of prompt design used in initial experiment
+Prompt 1 (minimal reference to rhetorical elements)                     Prompt 2 (inclusion of rhetorical components)
+
+“Write a guide to creating an account on a social media networking app” “A novice technology user needs help creating an account on a social
+                                                                         media networking app. Create a user guide that outlines how to
+                                                                         create an account successfully.”
+                                                                                                                    AI & SOCIETY
+
+of the rhetorical situation and, thus, allow for substantial    temperature (0), maximum length (4000), top P (1), fre-
+comparison. As noted in Table 1, we tested two categories of    quency penalty (1), presence penalty (0), best of (1), inject
+prompt design: one with attention to the rhetorical situation   start text (checked), inject restart text (checked), and show
+through the inclusion of writer, audience, or genre, and one    probabilities (off). General settings focused on producing
+with minimal reference to their rhetorical elements.            maximum output to notice an effect, but remained minimal
+   To further ensure prompts were designed accurately, we       to consider its potential influence and compromise over
+conducted a brief survey of literature on genre analysis;       prompt iterations (Fig. 3).
+this supported the general basis and foundation of resulting
+prompts. Each genre was assigned a central component of         7.1.3 Rubric
+the rhetorical situation (audience, writer, subject) at which
+prompt variations were accommodated to. We produced             The assessment rubric for the efficacy of the prompt output
+a series of six prompt variations; each iteration included      was based on an instrument provided by the University
+another element of the rhetorical situation (show image).       of Delaware’s Problem-Based Learning Clearinghouse: a
+Moreover, we focused our investigation on only the use          collection of problems, articles, and resources for educators
+of OpenAI, as it demonstrated greater leverage over text        (SERC, n.d.). We modified this rubric based on limitations
+generation and output. Specifically, the ability to modify      and strengths gathered from preliminary grading sessions.
+settings, such as model type, temperature, and length, helped   Limitations include the specificity and measurability of each
+tailor the outputs and maintain consistency across different    section’s parameters. The newly developed parameters focus
+iterations of generating them over a period of time.            on the presence of defined principles, its effectiveness, and
+                                                                its demonstration in the text. Specifically, to accommodate
+7.1.2 Text model                                               all genres, we modified the rubric to include relevant
+                                                                sections for readers/audience, conclusion/mechanisms for
+OpenAI offers various GPT-3 models such as: text-               feedback, and rhetorical purpose. Characteristics were
+davinci-003, text-curie-001, text-babbage-001, and text-        defined based on literature in the technical writing field;
+ada-001. We used the latest model, text-davinci-003, to         this included a search on genre definition and analysis. We
+generate outputs. This model was selected for both its          removed the following criteria: support for reasons, source
+relevance and increased capability to generate text. Based      sufficiency, source selection, in-text citation, and works
+on this selection, we set the following parameters to lev-      cited. From the remaining criteria, outputs were assigned a
+erage outputs: mode (complete), model (text-davinci-003),       letter grade for each section; we adjusted the range to fit only
+
+
+
+
+Fig. 3  OpenAI workspace with specified constraints
+AI & SOCIETY
+
+A–D, with the removal of letter F to avoid fence-sitting. We      7.2 Rubric development
+modified criteria and its descriptions to apply to all outputs,
+regardless of genre; alterations are defined below:               See Table 2.
+
+• Audience: (row 1) This criteria are adjusted to include         7.3 Data analysis
+   objective characteristics that demonstrate the range
+   at which the audience is considered. Letter grades             Resulting text outputs were kept in a word-processing
+   are assigned based on the presence of the following            document, alongside their prompt to be graded by two
+   characteristics:                                               raters and the rubric. Based on the text output, the two raters
+                                                                  assigned grades for each criteria section. In the case of any
+      Audience is explicitly mentioned                            difference, both raters negotiated to agree on a single grade.
+      Style and voice are used to compliment audience             All criteria grades were summated to determine the, overall,
+      demographic and attitude                                    best scoring text output. This output was compared with its
+      Specified recommendations or actions are catered            prompt design, structure, and included rhetorical elements
+      toward the audience                                         to determine and suggest the best strategies to maximize the
+                                                                  generated text. We aimed to test if the maximum number of
+• Rhetorical Purpose: (row 2) The current rubric retains          rhetorical elements led to the most effective output.
+  the original rubric’s description of rhetorical purpose,
+  but includes consideration to the audience. Letter grades
+  are determined by the range at which outputs explain its’       8 Results
+  rhetorical purpose and focus on a specific audience.
+• Language Use: (row 3) Criteria for language use were            This study aimed to answer the following relevant research
+  developed based on the original rubric’s grammar                questions:
+  section. Letter grades are assigned based on the number
+  of errors seen in the output. Errors are focused on the         • (R1) How can we leverage human and AI collaboration
+  following elements:                                               in the technical communication field through prompt
+                                                                    engineering?
+      Spelling, grammar, word usage, and punctuation
+                                                                  • (RQ2) What are the implications of using a socio-
+• Genre: (row 4) Genre is assessed using the original               technical approach for prompt generation for practice
+  rubric’s description which is based on the range of               and pedagogy?
+  characteristics used and relevant to genre. This portion
+  is modified to include specific characteristics for each           Our purpose and focus rested on the integration of
+  genre type in the pursuit of objectivity. Letter grades are     AI writing tools and the technical writing field both, in
+  determined by the mention of and adherence to these             education and the workforce. Our findings agree with
+  characteristics.                                                scholars’ work that suggests that the industry can truly
+• Organization of Writing: (row 5) As this section                benefit from new technologies when human–machine
+  coincides with genre, the original portion is completely        complementarity is leveraged, especially where AI
+  removed and replaced to include specified principles and        technology is complemented by human intervention. We see
+  an organization type for each genre. Letter grades were         prompt engineering as a method for achieving a collaborative
+  allotted based on the number of specified principles and        relationship between human and AI that produces outputs
+  the presence of the organization type.                          that are not only better suited for the audience, but will result
+• Conclusions/Mechanism for Feedback: (row 6) This                in adding to the human knowledge representation. Through
+  criterion is loosely based on the original rubric’s section     rhetorical prompt engineering we can achieve effective
+  for conclusions/solution. The current rubric modifies           automation of content development tasks, but also enhance
+  this by retitling this section conclusion/mechanisms for        capabilities of both human and AI.
+  feedback and defining specified evidence for each genre.           This section seeks to address this investigation through
+  Letter grades are credited for each genre based on the          analysis of the following areas: (1) a generalizable formula
+  presence of the following:                                      for prompt generation; (2) rubric assessment for AI
+                                                                  generated content; (3) prompt variation versus text output.
+      User Guide: additional help or contact information
+      White Paper: evidence for recommendations
+      Memo: providing contact information and statement
+      for inquiries
+Table 2  Rubric considering AI-generated components to assess work
+Criteria                                A                                         B                                    C                                   D
+
+Readers/audience                       Audience is clearly considered in          The audience is frequently           The audience is somewhat            The audience is considered but no
+Characteristics                          text and all three characteristics are    considered and at least two          considered and at least one         evidence found
+– Audience is explicitly mentioned       present                                   characteristics are present          characteristic is present
+– Style and voice are used to
+  compliment audience demographic
+  and attitude
+– Specified recommendations or
+  actions are catered toward the
+  audience
+Rhetorical purpose                     Purpose of text is clearly explained       Purpose is explained and targeted for Purpose is mentioned and somewhat Purpose is mentioned but not targeted
+                                         and highly targeted for a specific        a specific audience                   targeted for a specific audience  for a specific audience
+                                         audience
+Language use                           1 or fewer errors per page                 2 or fewer errors per page           3 or fewer errors per page          4 or more errors per page
+Errors
+– Spelling, grammar, word usage,
+  and punctuation
+Genre                                  The text is structured as belonging        The text is defined as belonging     The text is defined as belonging    The text is defined as belonging to
+Specified characteristics                to a certain genre with all specified     to a certain genre with some         to a certain genre with limited     a certain genre with none of the
+– User guide: task based instruction     characteristics                           characteristics                      characteristics                     specified characteristics
+– Memo: letter format
+– White paper: introduction, body,
+  and conclusion
+Organization of writing                The text contains all specified            The text contains few specified      The text contains either a few      The text contains, neither, the
+Specified principles and                 principles relevant to genre and          principles relevant to genre but     specified principles relevant       specified principles relevant
+  organization                           uses the appropriate organization         uses the appropriate organization    to genre or the appropriate         to genre or the appropriate
+– User guide: chronological              type                                      type                                 organization type                   organization type
+  organization, less than seven
+  bullet points or steps, conciseness,
+  active voice, limited use of long
+  sentences
+– White paper: spatial organization,
+  summary at the beginning of the
+  paper, background on specified
+  issue and presented explanation,
+  appropriate conclusion/solution
+– Memo: order of importance
+  organization, including “to, from,
+  subject, date” format, signature
+  and contact information
+
+
+
+
+                                                                                                                                                                                                  AI & SOCIETY
+  AI & SOCIETY
+
+
+                                                                                                        8.1 1. General formula for prompt generation
+
+
+
+
+                                  Recommendations are not present
+                                                                                                        From the series of experiments, we devised a general,
+                                                                                                        universal formula for prompt generation. This framework
+                                                                                                        is ultimately based on producing effective content with the
+                                                                                                        structure and foundation of the rhetorical situation. The
+                                                                                                        formula and its components are defined below:
+
+                                                                                                        Prompt =(audience + genre + purpose
+                                                                                                                  + subject + context + exigence + writer)
+                       D
+
+
+                                                                                                        Audience	the intended reader demographic of the content
+
+
+
+
+                                  Recommendations are mentioned
+                                                                                                                  and their characteristics
+
+
+                                                                                                        Genre	preferred genre selection
+
+                                                                                                        Purpose	the author’s purpose for writing or the reader’s
+                                                                                                                 purpose for reading
+                       C
+                                                                                                        Subject	focus and details of the content
+
+
+
+
+                                  Recommendations are discussed and Recommendations are discussed
+                                                                                                        Context	the relevant circumstances outside of the content
+
+                                                                                                        Exigence	the demand to write the content
+
+                                                                                                        Writer	the intended writer of the content
+
+
+
+
+                                   supported with specified evidence and supported with some or other
+                                                                                                           To demonstrate prompt engineering with the specified
+                                                                                                        formula, we include an example for the following inquiry:
+                       B                                                                                how to install ‘ABC’ software on my computer? Through
+                                                                                                        analysis and recognition of the rhetorical situation, the
+                                                                                                        formula would follow accordingly:
+
+                                                                                                        Prompt =(novice user + user guide + to inform
+
+
+
+
+                                                                     evidence
+                                                                                                                  + installation of ABC software
+                                                                                                                  + the computer model and type
+                                                                                                                  + encourage software use
+                                                                                                                  + software’s help center)
+
+                       A
+                                                                                                        Audience	novice user
+
+                                  Conclusion/mechanism for
+                                    feedback                                                            Genre	user guide
+                                  Specified evidence
+                                  – User guide: additional help or
+                                                                                                        Purpose	to inform
+
+
+
+Table 2  (continued)
+                                    contact information
+                                  – White paper: evidence for
+                                    recommendations                                                     Subject	installation of ABC software
+                                  – Memo: providing contact
+                       Criteria
+                                    information and statement for                                       Context	computer model and type
+                                    inquiries
+                                                                                                                       AI & SOCIETY
+
+                                                                    rely substantially on the model’s assumptions, of which could
+Exigence	encourage software use                                    lead to biased, unethical content—to reduce such frequencies,
+                                                                    our prompt defines the audience, writer, and purpose, to lead
+Writer	software’s help center                                      the model to the desired response. Our formula intends to pro-
+                                                                    mote writer and AI collaborations through effective methods
+   Using the formula and components defined above, the              of communication, with attention to the control of the writer.
+resulting prompt could be input into an AI writing tool like
+GPT-3:                                                              8.1.2 Advantages of using the rhetorical situation
+                                                                           over traditional prompt engineering
+   “ABC software is looking to encourage software
+   use among their users. A novice user would like to
+                                                                    Traditional LLMs utilize sophisticated neural network archi-
+   download the software but isn’t sure how. As ABC
+                                                                    tectures, such as Transformers described earlier, which ena-
+   software’s help center, consider the user model and
+                                                                    ble them to capture complex patterns and dependencies in
+   write a user guide to inform the user on the installation
+                                                                    language. The training objective is to optimize the model’s
+   of ABC software.”
+                                                                    parameters to maximize the likelihood of generating the cor-
+   It is important to note that the specified prompt is only        rect next word in a given context. The context depends highly
+an instance and other variations could be inputted based            on the occurrence of the same words in a specific sequence
+on the formula. As such, the defined formula is to act as           in the past (now part of training data). So new instances for
+a template at which writers can, then, develop prompts              context will not work. With strategic prompt design based, we
+at their discretion. The intentions of the formula rely on          can ensure that the context is always accurate and therefore
+the execution of a fitting response: content that meets             have more control on the outcome. Some advantages of using
+the demands of the rhetorical situation and consequently            the rhetorical formula t are as follows:
+solves the available problem. It is important to note that
+the defined formula has yet to be considered against tools          • Finite, specific inputs beyond context to achieve fitting
+such as ChatGPT, in which prompts are refined and modified            responses for generic applications: The Conditional
+through its dialogue feature—the formula is not to be                 Transformer Language Model (CTRL) is a language
+received as single-use or disposable prompt engineering,              model designed to generate text based on specific control
+but, instead, promotes an iterative process at the discretion of      codes or prompts (Hadi et al. 2023). The control codes
+the writer. Writers are encouraged to modify the components           guide the model’s text generation process, allowing users
+of the prompt, their order, and contents, to their liking and         to specify the desired style, topic, or other characteristics
+based on the generated output. Moreover, the defined syntax           of the generated text. While our formula appears simi-
+aims to provide efficient assistance for varying settings, as         lar to this method, the output of CTRL depends on the
+to be discussed in the next section.                                  user ensuring that all conditions are provided which are
+                                                                      not listed finitely. The rhetorical situation elements thus
+8.1.1 Implications of using a rhetorical formula                     provide a finite listing of inputs (audience + genre + pur-
+                                                                      pose + subject + context + exigence + writer) resulting in
+The intentions of our proposed formula are to produce effec-          generic, reproducible, fitting-responses to users’ commu-
+tive, efficient, ethical content which is, most importantly, at       nication requests. Additionally, the formula goes beyond
+the discretion of the writer. For technical communicators,            context to define elements such as communication pur-
+effective content satisfies and fulfills the writer’s intentions;     pose, genre and writer’s positionality, which are crucial
+our prompt formula considers this by its demands of the rhe-          for achieving most suitable responses.
+torical situation and its elements. In place of current solu-       • Practical implementation of a human-in-the-loop
+tions where the context of the generated text is assumed by           approach: Strategic designing of prompts by human
+the model or writer, our proposed solution aims to frame and          users provides them an opportunity to participate in the
+contain the content in a context, specified by the writer. Simi-      task of content development and not rely completely on
+larly, our proposed formula advocates for efficient content, or       decisions made by algorithms which is what human-
+the optimal response as envisioned by the writer, by defining         in-the-loop approach is all about. Prompt designing is
+the rhetorical elements prior to inputting the prompt. This,          a means for selective inclusion of human participation
+ultimately, aims to eliminate current practices’ initial focuses      resulting in efficient content development processes
+on assumption and guesswork, to provide a reliable, efficient         which harness the efficiency of intelligent automation
+formula. Additionally, to further control and leverage the            while remaining amenable to human feedback while
+model’s responses, our methods seek to alleviate potential            retaining a greater sense of meaning.
+bias and promote ethical, generated content. Current solutions
+AI & SOCIETY
+
+• Eliminate retraining costs: The fine-tuning phase of            in our modification of the assessment rubric, as we removed,
+  LLMs is crucial for adapting the models to specific             added, and modified areas to consider the collaboration of
+  tasks or domains. While fine-tuning helps in produc-            AI and human writers. In its development, we found areas
+  ing better outputs, it involves re-training the models on       concerning rhetoric and the rhetorical situation to be integral
+  more datasets and control codes that are specific to the        to the resulting grade; this demonstrated elements defined
+  expected outputs. For example, if we want to set a context      by the human writer and, therefore, justified its focus in our
+  of a manager who is requesting the leave, not just any          rubric. With a similar focus and the growing capabilities of
+  employee, similar data need to be fed into the training         text generation models, the resulting rubric suggests that
+  dataset. The model is thus exposed to context-specific          instructors should consider modifying rubrics to incorporate
+  prompts and is trained to do tasks that align with the          potential AI tools or use. Instances could be integrative, such
+  desired output or behavior for the given task. This helps       as a citation requirement, or reflective, such as asking students
+  reduce costs incurred for retraining. The power consump-        to edit the generated work and a written reflection based on
+  tion, processing power, and other energy requirements for       what was or wasn’t effective in the content. In either case,
+  LLMs are extremely high; over $100 million for the first        the rubric assessment represents potential considerations
+  training (Smith 2023).                                          to assigning grades to AI collaborative work, as well as
+• Ability to learn and create: A common concern among             discussions on what element is most representative of the
+  the educational communities is that technologies                students’ learning.
+  like generative AI may lead to a loss of creativity and
+  critical thinking skills among students (Hadi et al.            8.3 3. Prompt variation versus text output
+  2023). If students rely too heavily on AI to write essays,
+  complete assignments and answer tests, they may not be          Across all outputs, we noticed differences in the structure of
+  developing the skills necessary to think critically and         the text, degree of context, attention to audience, and style
+  solve problems on their own. However, with rhetorical           and voice. Each variation demonstrated the effect of all added,
+  prompt engineering students will learn foundational             rhetorical components, suggesting the model’s interpretation
+  attributes of effective writing such as understanding           of the prompt and its elements.
+  the purpose of content, exigence, and main subject                  With the exception of one, all genres saw a linear increase in
+  of reference. Composing prompts will help them                  total grades as prompts became well-defined, varied, and com-
+  set meaningful expectations from automatic content              plex with the included rhetorical components. It should be noted
+  generation. The ability to look for missing elements in         the exception to this statement was due to the model’s response
+  the output will help them critically evaluate the output        to ambiguity; specifically, we found the relationship between the
+  leading to more impactful writing studies research.             intended writer and reader was not clearly defined, leading to a
+• Decision making and transparency for social justice:            limited output. This instance, though, reflects the importance of
+  Composition, writing studies, rhetoric, and technical           a well-defined rhetorical situation and is, further, supported by
+  communication scholars all agree that audience analysis         the quality of the final iterations between the genres, in which
+  is the first step of writing. While promoting human-in-         all seven components are stated in the prompt.
+  the-loop for decision-making on which audiences does
+  the content address (include), rhetorical prompting helps       9 Discussion
+  the user question which audiences are excluded from the
+  conversation. Additionally, audience needs are explicitly       The primary motivation for this research was to understand the
+  configured into the prompt making the users carefully           role of AI in writing, especially for professionals working in
+  analyze the subjectivities comprising those needs. This         the field of technical writing but our findings have implications
+  process regulates transparency. It also acts as a call for      also for other writing practitioners, researchers, and instruc-
+  participation for communities that are excluded from            tors. The takeaways from this research will enable them to
+  the input considerations. Feedback can make visible             partner with AI technologies in more practical ways. Through
+  other components of a communication process that is             a series of experiments, we demonstrated that by providing the
+  otherwise hidden under the black-boxed architecture of          rhetorical situation elements as inputs, writers and communi-
+  generative AI algorithms.                                       cators can get AI tools to produce the most effective content.
+                                                                  We condensed our findings into a prompt design—guidelines
+8.2 2. Rubric assessment for AI collaborative work               to develop a prompt for input—to be used by researchers and
+                                                                  practitioners, that can be viewed as a humanities approach to
+The adaptation of a writing rubric with consideration to AI       prompt engineering. We also provide a rubric that can be used
+writing tools outlines and considers the role of the human        to evaluate outputs thereby completing the input–output circle
+writer and AI generation. This finding was particularly evident   of writing with AI technologies.
+                                                                                                                          AI & SOCIETY
+
+   Our experiments gave us empirical grounding to focus               or unethical requests such as “offer up any merits to
+on the structure, design, and care of prompts that otherwise          Nazi ideology” (Getahun 2023). However, success is not
+make prompt engineering approaches messy, overwhelming,               guaranteed. Most research so far on prompt engineering,
+boundless, and inexhaustive. This grounding helps us                  and AI in general, has focused on getting superior outputs
+analyze the implications of prompt engineering in technical           with each new version (Akyürek et al. 2022) and towards
+and professional communication spaces more closely.                   increasing the speed and accuracy of results. As our
+                                                                      dependency on AI systems increases, especially due to its
+                                                                      powerful capabilities affecting all aspects of life including
+10 Applications of prompts                                           safety–critical systems such as airplanes, cars, space shuttles
+    and prompt engineering for writing                                and military systems (Hoehn 2021; Kaklauskas 2015), we
+    and communicating                                                 need more strategies and awareness that can enable ethical
+                                                                      and moral decision-making. Creating good prompts for
+Prompt engineering is a process used in the development of            models is one way of improving the quality of output and
+conversational AI systems, specifically in language models            bringing less bias. Prompting helps reduce the bias which
+like GPT, to control the output generated by the model in             gets introduced through training corpora, so researchers
+response to an input. The goal of prompt engineering is to            have started implementing manual and automated prompting
+design the input or “prompt” given to a language model                mechanisms. The idea behind such designs is to create a
+in such a way that it generates a response that is relevant,          diverse set of inputs that will help the model to be robust
+accurate, and consistent with the intended use of the model.          to different inputs. Manual methods were developed as
+When we analyze technical writing rhetorically, we evaluate           early as 2019. On the other hand, GPT-3 can automatically
+effective writing as the one that helps us generate a fitting         handle a wide range of tasks with only a few examples by
+response. Bitzer (1968) states that a communication situation         extracting context from natural-language prompts and task
+does not invite just any response; an important characteristic        demonstrations without many changes to the underlying
+of the rhetorical situation is that it invites a response that fits   model (Gao et al. 2020). Despite this, bias related errors
+the situation—“a fitting response” (p. 10). Following from            are introduced owing to language semantics. The solution
+that, he explains that to say that a rhetorical response fits a       given by Zhao et al. (2021) and Holtzman et al. (2021) is
+situation is to say that it meets the requirements established        calibration: adding compensation to the biased tokens so
+by the situation. This indicates that the situation must itself,      that they are calibrated to an unbiased status. Rhetorical
+somehow, prescribe the response which fits. Prompts can be            situations can be used as a tool to achieve such calibrations.
+one method of composing the prescription.                                After Bitzer’s piece (1968), several other scholars started
+    Well-defined prompts can lead to successful implementa-           analyzing the rhetorical situation. For Biesecker (1989),
+tions of several applications in the communications field. For        meaning is constructed by looking beyond binary construc-
+example, whether we want to write an email or summarize               tions of speaker/situation, looking instead in the “differencing
+it (Thiergart et al. 2021), or get a suitable response from a         zone” (p. 118). She argued that while audience is an important
+chatbot (Heo and Lee 2018)—providing details about what               element, we need to reconsider that the audience as unstable
+needs to be communicated (purpose and exigence), who the              and shifting (p. 126), in other words—diverse and constantly
+AI is writing for (writer), who will read the output (audi-           changing. In her piece, she also discusses the advantage of
+ence) and what do they already know (subject + context), and          this perspective in seeing the rhetorical situation as an event
+what should the output look like (genre), can not only gener-         that makes possible the production of identities and social
+ate a successful response, but also meet clear performance            relations (p. 126). We can use this approach for identifying the
+targets (Heo and Lee 2018).                                           multiplicities of audiences in a rhetorical situation to develop
+                                                                      a prompt that generates content to not only address the needs
+                                                                      of audiences, but ensures that it does not marginalize certain
+11 Prompt engineering for social justice                             populations, does not cause harm, and is generally morally
+                                                                      and ethically sound.
+Like all AI products, writing algorithms like GPT-3
+(including the latest ChatGPT as of February 2023) has the
+potential to learn biases from the dataset that is used to train      12 Pedagogical implications
+them. This hasn’t changed much since Floridi and Chiriatti
+(2020) conducted experiments to test AI’s mathematical,               Rapid progress in AI technologies has generated considerable
+semantic and ethical capabilities. For the latest version             interest in their potential to address challenges in every
+– ChatGPT, OpenAI has attempted to hard code rules that               field and education is no exception. AI literacy has become
+will automatically decline to respond to inappropriate                especially important in the current era of technology driven
+AI & SOCIETY
+
+personalization. AI agents such as virtual assistants, robots,    purposes for several years (Dhuri and Jain 2020). With stu-
+AI writers, etc. are still in their early stages of development   dents’ extensive use of AI technologies, as is predicted,
+and far from perfect; yet they are able to converse with a        teachers will have to find new ways of evaluating assign-
+human, produce texts that are indistinguishable from that         ments, especially since plagiarism checkers, like TurnItIn,
+of a human writer, and assess work performed by humans            fail to detect work done by AI tools. Other challenges are
+if given a checklist of objectives. These capabilities have       that AI tools may occasionally generate incorrect informa-
+found several applications in pedagogy, both for students         tion. The issue of bias is also prevalent since tools like GPT
+and instructors, and the excitement and curiosity about these     are trained on pre-existing datasets. Teachers will have to
+applications is only growing each day.                            find new pedagogical tools that will prove effective in AI
+   Formal studies show that AI applications in the form           environments. Prompt engineering models like the one pro-
+of intelligent learning systems are popular in AI educa-          vided in this article can help teachers include a reflective
+tion. Such applications collect and analyze students’ online      component to the course. Other approaches of using AI tools
+learning behavior and performance and provide personal            in teaching include developing AI assisted role-playing to
+guidance or feedback based on their learning status thus          help students make ethical decisions (Hingle et al. 2021),
+creating an adaptive learning environment (Srinivasan             enabling collaborations and discussions in classrooms
+2022). Another category is that of interactive systems—           (Miller 2022), peer evaluations in class, reflective assign-
+using AR/VR and games as a pedagogical tool for learning          ments to question the AI tool’s work, and so on.
+and/or as a learning companion is popular (Monahan et al.            The discussion of writing with AI tools, or assistive
+2008). Communication studies have seen the growth of              writing, has been a popular line of study in literacy which
+students’ use of AI word processing tools which can auto-         dates as far back as 2007 (Sternberg et al. 2007). Beyond
+matically edit spelling and grammar errors as you type.           composing, literacy scholars have studied AI technologies
+NLP and rule-based engines allow such tools to help users         by analyzing algorithmic design and big data perspectives
+identify errors in language (grammar and sentence struc-          to understand students’ experiences of reading and writing
+tures) and mechanics (such as punctuation, capitalization,        with algorithms, especially with respect to identity, agency,
+abbreviations) or fix them automatically. Popular media           authority, adversary, conversational resource, audience,
+have been seeing a lot of cases on automated writing with         and so on (Leander and Burriss 2020). To study human
+applications such as ChatGPT. Such automated writing              interactions with AI in education we need more rigorous
+tools can be used by students to generate essays that pass        engagement with changing technologies, as well as new
+plagiarism tests. Along with aiding the learning process,         ways of conceiving digital literacies than are found in
+the use of AI tools in writing helps students deal with some      representational paradigms (Leander and Burriss 2020).
+humanistic concerns in writing, such as motivation and
+anxiety. AI tools help in penetrating the writer’s block,
+and the automated feedback is almost always perceived             13 Conclusion
+as unbiased or indifferent (Rudenko-Morgun et al. 2023)
+compared to a human’s. Prompt engineering can provide             The most crucial skill to provide the public when it
+students with skills to apply critical analysis to assist with    comes to the use of AI is to empower them to understand
+AI work in productive ways. Missing from these conversa-          the human-in-the-loop aspect of using AI technologies.
+tions is the need to teach students the role of human-in-the-     Rhetorical analysis provides useful frameworks to do
+loop, that is, the role they play in getting outputs from AI      this work. This article provides a strategic way of using
+tools. Scholars rely on approaches such as Actor Network          rhetorical situations for prompt engineering which has both
+Theory, posthumanism, assemblages, etc. inspired by new           practical implications, as well as ethical. The increasing
+materialism and other media theories to analyze human             capabilities of AI writing tools suggests a potential shift
+interaction with technology. Although such approaches             toward human-AI collaborative writing in both professional
+open up possibilities to survey different heterogeneous           and educational settings. As this transition is varied, our
+elements in these socio-technical systems, they can be            current discussion does not consider all variables and
+overwhelming and well beyond scope for classes focused            prospective circumstances. Specifically, we have focused
+on writing and communication. Therefore, the approach             our study on Bitzer’s rhetorical situation theory and
+of using rhetorical situations can provide students with a        have not considered more or other interpretations of the
+practical framework to reflect on their work in AI-enabled        rhetorical situation. Other related argumentation may have
+professional environments.                                        potentially transformed our formula by adhering to different
+   For teachers, AI tools provide several affordances, new        applications of AI writing, relative to other interpretations
+challenges as well as opportunities to adapt their teaching       of rhetoric. Moreover, our methodology only considers the
+practices. AI tools have been used by teachers for assessment     judgment of two raters; our findings may have been a result
+                                                                                                                             AI & SOCIETY
+
+of bias and understanding the intention of the study. As            Prompt variation                   Prompt
+discussed above, our findings also found an anomaly to the
+                                                                    Audience + genre + pur-            “The workforce is adopting a new
+assumption that more rhetorical elements would lead to an            pose + context                     social media app for professional
+effective output. Limitations present, then, in our prompts or                                          networking purposes. A novice,
+methodology, as it does not demonstrate a result completely                                             older user would like to learn
+consistent to our hypothesis and other findings. As such,                                               how to create an account to keep
+                                                                                                        up with their colleagues. Create
+most limitations are unable to address all nuances relative                                             a user guide that informs users
+to the rhetorical situation and prompt engineering. This,                                               how to create an account suc-
+however, presents instances and suggestions for future work                                             cessfully.”
+to fully address all elements. Such recommendations include         Audience + genre + pur-            “The workforce is adopting a new
+the use of other genres as the current study focuses solely          pose + subject + context           social media app for professional
+                                                                                                        networking purposes. A novice,
+on selective genres relevant to technical writing. These                                                older user would like to learn
+findings may present differently in consideration to other                                              how to create an account to keep
+styles, organizations, and contexts of writing. Additionally,                                           up with their colleagues. Create
+future studies may concentrate on the line between human                                                a user guide that informs users
+                                                                                                        on the convenient functions to
+writer and AI tool; this may include objectively and                                                    create an account successfully.”
+accurately defining roles delegated to AI writing tools             Audience + genre + pur-            “The workforce is adopting a new
+and credit assigned to the writer, themselves. The current           pose + subject + context + exi-    social media app for professional
+study demonstrates this line with the use of the rhetorical          gence                              networking purposes. A novice,
+situation, a writing tool to be devised by the writer, but does                                         older user would like to learn
+                                                                                                        how to create an account to keep
+not concentrate on this point. Similarly, as aforementioned,                                            up with their colleagues. Create
+the current efforts focus on a specific analysis of the                                                 a user guide that informs users
+rhetorical situation; this presents an opportunity for future                                           on the convenient functions to
+consideration to different interpretations of the rhetorical                                            create an account successfully
+                                                                                                        and supports all users regard-
+situation, prompt engineering, and their potential impacts on                                           less of technical experience.”
+AI generated work. This variance may demonstrate further            Audience + genre + pur-            “The workforce is adopting a new
+levels of control in using AI writing tools. As the contexts         pose + subject + context + exi-    social media app for professional
+and circumstances in which AI tools are used vary, further           gence + writer                     networking purposes. A novice,
+work may consider these possibilities.                                                                  older user would like to learn
+                                                                                                        how to create an account to keep
+                                                                                                        up with their colleagues. As the
+                                                                                                        app’s help center, create a user
+Appendix                                                                                                guide that informs users on the
+                                                                                                        convenient functions to create
+                                                                                                        an account successfully and
+1. User guide                                                                                           supports all users regardless of
+                                                                                                        technical experience.”
+
+Prompt variation               Prompt
+
+Audience + context             “The workforce is adopting a         2. White paper
+                                new social media app for pro-
+                                fessional networking purposes.
+                                                                    Prompt variation          Prompt
+                                A novice, older user needs help
+                                creating an account to keep up      Writer + context          “In the current market, no social media
+                                with their colleagues.”                                         app focuses solely on professional
+Audience + genre + context     “The workforce is adopting a new                                 networking. A group of developers are
+                                social media app for professional                               looking to launch their app for profes-
+                                networking purposes. A novice,                                  sional networking with current and poten-
+                                older user needs help creating                                  tial colleagues.”
+                                an account to keep up with their    Writer + pur-             “In the current market, no social media app
+                                colleagues. Create a user guide      pose + context             focuses on professional networking. A
+                                that outlines how to create an                                  group of developers are looking to launch
+                                account successfully.”                                          their app for professional networking and
+                                                                                                entice people.”
+AI & SOCIETY
+
+
+Prompt variation          Prompt                                           Prompt variation                  Prompt
+Writer + purpose + exi-   “In the current market, no social media          Subject + exi-                    “Current issues arise with the
+ gence + context            app focuses on professional network-            gence + genre + context           elements of your social media
+                            ing. Based on its potential, a group of                                           networking app. Write an ideas
+                            developers are looking to launch their app                                        and suggestions memo on the
+                            for professional networking and entice                                            subject of the app, its interface,
+                            people.”                                                                          and how to maintain it. Include
+Writer + purpose + exi-   “In the current market, no social media app                                         sections for user-friendliness,
+ gence + genre + con-       focuses on professional networking. Based                                         logo redesign, and helpful
+ text                       on its potential, write a white paper for a                                       features. Be sure to define the
+                            group of developers on their professional                                         problem and follow memo writ-
+                            networking app to entice readers.”                                                ing format.”
+Writer + purpose + exi-   “In the current market, no social media app      Subject + exigence + genre + con- “Current issues arise with the
+ gence + genre + sub-       focuses on professional networking. Based       text + audience                   elements of your social media
+ ject + context             on its potential, write a white paper for a                                       networking app. Write an ideas
+                            group of developers on their professional                                         and suggestions memo to your
+                            networking app to entice readers. Be                                              manager on the subject of the
+                            sure to include features of the app that                                          app, its interface, and how to
+                            address the defined problem.”                                                     maintain it. Include sections
+                                                                                                              for user-friendliness, logo
+Writer + purpose + exi-   “In the current market, no social media app
+                                                                                                              redesign, and helpful features.
+ gence + genre + sub-       focuses on professional networking. Based
+                                                                                                              Be sure to define the problem
+ ject + audi-               on its potential, write a white paper for
+                                                                                                              and follow memo writing
+ ence + context             a group of developers on their profes-
+                                                                                                              format.”
+                            sional networking app to entice users and
+                            potential investors. Be sure to include        Subject + exigence + genre + con- “Current issues arise with the
+                            features of the app that address the defined    text + audience + purpose         elements of your social media
+                            problem.”                                                                         networking app. Write an ideas
+                                                                                                              and suggestions memo to your
+                                                                                                              manager on the subject of the
+                                                                                                              app, its interface, and how to
+3. Memo                                                                                                       maintain it. Include recom-
+                                                                                                              mendations for user-friendli-
+                                                                                                              ness, logo redesign, and helpful
+Prompt variation                   Prompt                                                                     features. Be sure to define the
+                                                                                                              problem and follow memo writ-
+Subject + context                  “Write suggestions important for                                           ing format.”
+                                    the maintenance of your social
+                                                                           Subject + exigence + genre + con- “Current issues arise with the
+                                    media networking app and its
+                                                                            text + audience + pur-            elements of your social media
+                                    interface. Include sections for
+                                                                            pose + writer                     networking app. Write an ideas
+                                    user-friendliness, logo rede-
+                                                                                                              and suggestion memo to your
+                                    sign, and helpful features.”
+                                                                                                              manager on the subject of the
+Subject + exigence + context       “Current issues arise with                                                 app, its interface, and how to
+                                    the elements of your social                                               maintain it. As a colleague,
+                                    media networking app. Write                                               include recommendations for
+                                    suggestions important for the                                             user-friendliness, logo redesign,
+                                    maintenance of the app and its                                            and helpful features. Be sure to
+                                    interface. Include sections for                                           define the problem and follow
+                                    user-friendliness, logo redesign,                                         memo writing format.”
+                                    and helpful features.”
+                                                                                                                                        AI & SOCIETY
+
+4. User guide generated text (basic vs. rhetorical prompt)
+
+
+Basic prompt                                                               Rhetorical devices prompt
+
+“Write a guide to creating an account on a social media networking         “The workforce is adopting a new social media app for professional
+ app”                                                                        networking purposes. A novice, older user would like to learn how
+                                                                             to create an account to keep up with their colleagues. As the app’s
+                                                                             help center, create a user guide that informs users on the convenient
+                                                                             functions to create an account successfully and supports all users
+                                                                             regardless of technical experience.”
+Creating an account on a social media networking app is a great way        Creating an Account on the Social Media App
+  to stay connected with friends and family. Here is a guide to help       Welcome to the social media app! We’re excited to have you join us and
+  you get started:                                                           look forward to helping you get started. This guide will provide step-
+1. Download the app: The first step is to download the app from the          by-step instructions on how to create an account, so that you can start
+  app store. Make sure you read the reviews and check the ratings            connecting with your colleagues
+  before downloading                                                       1. Download the app from your device’s app store
+2. Create an account: Once you have downloaded the app, you will           2. Open the app and select “Create Account” from the home screen
+  need to create an account. This usually involves entering your name,     3. Enter your name, email address, and a password of your choice in the
+  email address, and a password                                              provided fields (make sure it is something you will remember)
+3. Add a profile picture: After creating your account, you will need to    4. Select “Create Account” at the bottom of the page when finished
+  add a profile picture. This is the image that will be displayed when       entering information in all fields
+  people view your profile                                                 5. You will be asked to enter a verification code sent via email or text
+4. Add friends: Once you have created your account and added a               message; enter this code into its designated field and select “Verify
+  profile picture, you can start adding friends. You can search for          Code” when finished entering it correctly (if you do not receive a
+  people by name or email address                                            verification code within 5 minutes, please check your spam folder)
+5. Start posting: Now that you have created your account and added         6. Once verified, select “Continue” at the bottom of this page; this will
+  friends, you can start posting. You can post photos, videos, and text      take you back to our home screen where you can begin using our
+  updates                                                                    features!
+6. Explore the app: Finally, take some time to explore the app and get     We hope that these steps were helpful for creating an account on our
+  familiar with all the features. This will help you get the most out of     social media app! If there are any questions or concerns about creating
+  your social media experience                                               an account or using any other features of our platform, please feel free
+Creating an account on a social media networking app is a great way          to reach out via email or phone for further assistance—we are here for
+  to stay connected with friends and family. With this guide, you            all users regardless of technical experience
+  should be able to get started in no time
+AI & SOCIETY
+
+5. White paper generated text (basic vs. rhetorical prompt)
+
+Basic prompt                                                         Rhetorical device prompt
+
+“Write a white paper for a new social media networking app”         “In the current market, no social media app focuses on professional network-
+                                                                      ing. Based on its potential, write a white paper for a group of developers on
+                                                                      their professional networking app to entice users and potential investors. Be
+                                                                      sure to include features of the app that address the defined problem.”
+Introduction                                                        Introduction
+Social media has become an integral part of our lives, and          In today’s digital age, professional networking is becoming increasingly
+  the development of new social media networking apps is a            important. With the rise of social media, it has become easier than ever to
+  growing trend. This white paper will discuss the features and       connect with people from all over the world. However, there is still a lack
+  benefits of a new social media networking app, and how it can       of dedicated platforms for professionals to network and build meaningful
+  help users stay connected with their friends and family             relationships. This white paper will discuss the potential of a professional
+Features                                                              networking app and how it can benefit users and potential investors alike
+The new social media networking app will have a variety of          Problem Statement
+  features that will make it easy for users to stay connected with The current market lacks an effective platform for professionals to network and
+  their friends and family. The app will have a user-friendly         build meaningful relationships with one another. Social media apps are not
+  interface that will allow users to quickly and easily navigate      designed specifically for this purpose, making it difficult for professionals
+  the app. It will also have a variety of features such as:           to find each other and establish connections that could be beneficial in their
+• A newsfeed that will allow users to see what their friends and      respective fields
+  family are up to                                                  Solution
+• A messaging system that will allow users to send messages to A professional networking app would provide users with an effective platform
+  their friends and family                                            to connect with other professionals in their field or related industries. The
+• A photo sharing feature that will allow users to share photos       app would feature various features that make it easy for users to find each
+  with their friends and family                                       other based on their interests or skillsets, as well as providing them with
+• A calendar feature that will allow users to keep track of           tools such as messaging systems or video conferencing capabilities so they
+  important dates and events                                          can communicate more effectively. Additionally, the app would also provide
+• A location-based feature that will allow users to find nearby       users with access to exclusive job postings from employers looking for quali-
+  friends and family                                                  fied candidates in specific fields or industries
+• A search feature that will allow users to search for people,      Benefits of Professional Networking App
+  places, and events                                                • Connecting Professionals: The primary benefit of a professional networking
+Benefits                                                              app is its ability to connect professionals from different backgrounds who
+The new social media networking app will provide users with           may have something valuable to offer one another in terms of knowledge or
+  a variety of benefits. It will allow users to stay connected        resources that could help further their careers or businesses
+  with their friends and family, no matter where they are. It       • Building Relationships: By connecting people who share similar interests or
+  will also allow users to easily share photos, messages, and         skillsets, the app will enable them to form meaningful relationships which
+  other content with their friends and family. Additionally, the      could lead to collaborations down the line that could be beneficial both
+  app will provide users with a convenient way to keep track of       professionally and personally
+  important dates and events                                        • Exclusive Job Postings: Employers looking for qualified candidates in
+Conclusion                                                            specific fields will be able to post job openings exclusively on the platform
+The new social media networking app will provide users with           which will give users access opportunities they may not have had otherwise
+  a convenient and user-friendly way to stay connected with           due exposure on traditional job boards like Indeed or Monster, etc
+  their friends and family. It will have a variety of features that • Networking Events: The platform can also host virtual events where
+  will make it easy for users to share photos, messages, and          members can meet up virtually and discuss topics related their respective
+  other content with their friends and family. Additionally, the      industries while building connections at same time
+  app will provide users with a convenient way to keep track of Conclusion
+  important dates and events                                        The potential benefits of a professional networking app are clear; by provid-
+                                                                      ing an effective platform where professionals can easily connect with one
+                                                                      another based on shared interests/skillsets while also giving them access
+                                                                      exclusive job postings from employers looking specifically for qualified can-
+                                                                      didates in certain fields/industries, this type of application has great potential
+                                                                      both user engagement wise as well as monetization wise
+                                                                                                                                            AI & SOCIETY
+
+6. Memo generated text (basic vs. rhetorical prompt)
+
+Basic prompt                                                             Rhetorical device prompt
+
+“Write a memo to a manager and communicate suggestions for your “Current issues arise with the elements of your social media network-
+  team’s social media networking app.”                                    ing app. Write an ideas and suggestion memo to your manager on the
+                                                                          subject of the app, its interface, and how to maintain it. As a colleague,
+                                                                          include recommendations for user-friendliness, logo redesign, and
+                                                                          helpful features. Be sure to define the problem and follow memo writing
+                                                                          format.”
+Memo                                                                    To: [Manager]
+To: [Manager’s Name]                                                    From: [Colleague]
+From: [Your Name]                                                       Subject: Ideas and Suggestions for Social Media Networking App
+Date: [Today’s Date]                                                    Date: [date]
+Subject: Suggestions for Team’s Social Media Networking App             I am writing to discuss the current issues with our social media network-
+I am writing to provide suggestions for our team’s social media           ing app and provide some ideas and suggestions for improvement. As
+  networking app. Our app should be designed to provide users with        you know, the app has been experiencing a few technical difficulties
+  an easy and enjoyable experience                                        lately, which have caused user dissatisfaction. To maintain our user
+First, I suggest that we focus on creating a user-friendly interface.     base, I believe it is important that we address these issues as soon as
+  The app should be intuitive and easy to navigate. We should             possible
+  also consider adding features that allow users to customize their     First of all, I think it would be beneficial to redesign the logo of the app to
+  experience, such as the ability to create custom profiles and post      make it more visually appealing. Additionally, I suggest that we update
+  content                                                                 the interface of the app to make it more user-friendly. This could include
+Second, I suggest that we focus on creating a secure platform. We         adding helpful features such as a search bar or an easy-to-navigate menu
+  should ensure that user data are protected and that users are able to system. Furthermore, I recommend that we add a customer service fea-
+  control who can access their information. We should also consider       ture so users can easily contact us if they have any questions or concerns
+  adding features that allow users to report inappropriate content        about using the app
+Finally, I suggest that we focus on creating a platform that            In conclusion, I believe these changes will help improve our social media
+  encourages user engagement. We should consider adding features          networking app and ensure its continued success in today’s competitive
+  that allow users to interact with each other, such as the ability to    market. If you have any questions or need further information on this
+  comment on posts and send messages. We should also consider             matter please do not hesitate to contact me at your convenience. Thank
+  adding features that allow users to discover new content, such as       you for your time and consideration on this matter
+  the ability to follow other users and explore trending topics         Sincerely,
+I believe that these suggestions will help us create a successful       [Colleague]
+  social media networking app that users will enjoy using. If you
+  have any questions or would like to discuss these suggestions
+  further, please do not hesitate to contact me
+Sincerely,
+[Your Name]
+
+
+7. Generated text iterations and their grades                                           Readers/ Rhe-    Lan- Genre Organiza-Conclusion/
+                                                                                        Audience torical guage      tion of Mechanism
+                                                                                                 purpose Use        Writing for Feedback
+          Readers/ Rhe-    Lan- Genre Organiza-Conclusion/
+          Audience torical guage      tion of Mechanism                       III       D          D         B       D       D          D
+                   purpose Use        Writing for Feedback                    IV        C          D         C       C       C          D
+User guide                                                                    V         B          C         B       A       B          B
+I        D          D          B       C       B         D                    VI        A          B         B       A       A          A
+II       C          C          B       B       B         D                    Memo
+III      B          C          B       B       C         D                    I         D          D         B       D       D          D
+IV       D          D          C       A       B         A                    II        C          D         A       D       D          D
+V        B          C          B       A       A         A                    III       B          C         A       B       C          D
+VI       A          A          A       A       A         A                    IV        B          C         C       A       B          A
+Whitepaper                                                                    V         A          B         A       A       A          A
+I        D          D          B       D       D         D                    VI        B          A         A       B       B          A
+II       C          C          C       D       D         D
+AI & SOCIETY
+
+Funding This study was partially funded by George Mason Univer-                       Routledge handbook of digital writing and rhetoric. Routledge,
+sity’s ARIE Course Improvement Grant and U.S. National Science                        New York, pp 248–255
+Foundation Awards #204863, 1937950, 1939105; USDA/NIFA                           Heo M, Lee KJ (2018) Chatbot as a new business communication tool:
+Award#2021-67021-35329. Any opinions, findings, and conclusions                       the case of naver talktalk. Bus Commun Res Pract 1(1):41–45
+or recommendations expressed in this material are those of the authors           Hingle A, Rangwala H, Johri A, Monea A (2021, October) Using role-
+and do not necessarily reflect the views of the funding agencies.                     plays to improve ethical understanding of algorithms among com-
+                                                                                      puting students. In: 2021 IEEE Frontiers in education conference
+Data availability The authors confirm that the data supporting the                    (FIE), pp 1–7. IEEE
+findings of this study and other supplementary materials are available           Hoehn JR (2021) Joint all-domain command and control: Background
+within the article's Appendix section.                                                and issues for congress. Congressional Research Service. https://​
+                                                                                      crsre​ports.​congr​ess.​gov/​produ​ct/​pdf/R/​R46725/2
+Declarations                                                                     Holtzman A, West P, Shwartz V, Choi Y, Zettlemoyer L (2021) Surface
+                                                                                      form competition: why the highest probability answer isn’t always
+Competing interests The authors have no competing interests to                        right. Preprint at arXiv:​2104.​08315
+declare that are relevant to the content of this article.                        Kaklauskas A (2015) Intelligent decision support systems. In: Kak-
+                                                                                      lauskas A (ed) Biometric and intelligent decision making support.
+                                                                                      Springer International Publishing, Cham, pp 31–85
+Open Access This article is licensed under a Creative Commons Attri-             Leander KM, Burriss SK (2020) Critical literacy for a posthuman
+bution 4.0 International License, which permits use, sharing, adapta-                 world: when people read, and become, with machines. Br J Edu
+tion, distribution and reproduction in any medium or format, as long                  Technol 51(4):1262–1276
+as you give appropriate credit to the original author(s) and the source,         Li C, Zhang M, He Y (2022) The stability-efficiency dilemma: inves-
+provide a link to the Creative Commons licence, and indicate if changes               tigating sequence length warmup for training GPT models. Adv
+were made. The images or other third party material in this article are               Neural Inf Process Syst 35:26736–26750
+included in the article’s Creative Commons licence, unless indicated             Liu Q, Kusner MJ, Blunsom P (2020) A survey on contextual embed-
+otherwise in a credit line to the material. If material is not included in            dings. Preprint at arXiv:​2003.​07278
+the article’s Creative Commons licence and your intended use is not              Liu P, Yuan W, Fu J, Jiang Z, Hayashi H, Neubig G (2021) Pre-train,
+permitted by statutory regulation or exceeds the permitted use, you will              prompt, and predict: a systematic survey of prompting methods
+need to obtain permission directly from the copyright holder. To view a               in natural language processing. Preprint at http://​arxiv.​org/​abs/​
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.              2107.​13586
+                                                                                 Marcus G, Davis E (2020) GPT-3, Bloviator: OpenAI’s language gen-
+                                                                                      erator has no idea what it’s talking about. Technology Review
+                                                                                 McKee HA, Porter JE (2020, February) Ethics for AI writing: the
+References                                                                            importance of rhetorical context. In: Proceedings of the AAAI/
+                                                                                      ACM conference on AI, ethics, and society, pp. 110–116
+                                          

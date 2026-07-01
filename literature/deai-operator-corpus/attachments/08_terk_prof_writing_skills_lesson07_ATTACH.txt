@@ -1,0 +1,871 @@
+08_terk_prof_writing_skills_lesson07_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: terk_prof_writing_skills
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/08_terk_prof_writing_skills_lesson07_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/08_terk_prof_writing_skills_lesson07.txt)========================================================================
+
+LESSON   7   WRITE   EFFECTIVE   E-MAIL   219
+
+
+
+
+You probably agree that e-mail was not the appropriate choice for either of these messages.
+Larissa’s message to Daniel addressed performance issues, which should always remain confi-
+dential and are best addressed in person. And Parker used e-mail to vent his feelings, something
+he might later regret. He also passed on a rumor, assuming that Billie would keep it confidential.
+
+Convenience is not a good-enough reason for using e-mail to communicate certain kinds of in-
+formation. E-mail is too public for some messages. It’s more like sending a postcard than sealing
+a letter into an envelope.
+
+CONSIDER THE CONSEQUENCES
+
+To make sure that e-mail is the appropriate choice, think carefully whenever you need to
+communicate
+
+            @™ confidential or private information
+            ™   sensitive topics
+
+            ™   complex information
+
+People other than your intended recipients could always see any e-mail you send. Before clicking
+Send, ask yourself what might happen if someone published your e-mail draft in a newspaper.
+
+E-mail is no substitute for a conversation, or a memo or letter, that only the recipient is likely to
+see. Sometimes it’s easy to throw negative feelings into an e-mail and send it off without paus-
+ing to think how the recipient might react. Face-to-face interaction is vital when your message
+might upset other people.
+
+The casualness of e-mail also makes it easy to forget that it can be the wrong place to poke fun
+at an individual or a group. Something that seems funny to you could offend others who see the
+message. Offensive e-mails can get you—and your organization—in a lot of trouble.
+
+An e-mail is not the best way to convey complex information, which is hard to read on a screen
+and may look different in a printout. To make the document more useful for the recipient, send
+complex information as an attached file that describes—and perhaps summarizes—the file’s
+contents.
+220   PROFESSIONAL      WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+THINK        ABOUT...
+eoneoeas   ee2eoeeonneesesen
+
+
+
+
+Have you ever received an inappropriate e-mail? How did you feel about it? Did other people see
+it? Were there any consequences? Did it affect the business relationship?
+
+In the last two weeks, have you sent e-mails with messages more appropriate to a different kind
+of document—or that should not have been communicated at all?
+
+APPLYING THE SIX STEPS TO E-MAIL
+
+Think about how you read e-mail. Do you sit back with a cup
+                                                                        For a review of the six
+of coffee and ponder every word? Most readers are likely to
+                                                                        steps, see Lesson 1:
+read only the first few lines before deciding whether the e-mail
+                                                                        Develop a Writing Plan
+merits any more of their time. If it does, they scan the rest of
+                                                                        in Six Steps.
+the message to pick out the important points.
+
+This fast reading makes it all the more important to plan your document. ‘The six steps you
+learned in Lesson 1 work as well for e-mail as for any other kind of document.
+
+Remember that communication is a two-way process: your e-mail recipients must receive and be
+able to understand your message. Stop to think about the point of view of your e-mail recipients
+as carefully as you would for the readers of a letter youd write.
+
+When sending the same message to several people or a large group, ask yourself whether the
+readers’ needs, interests, and concerns are similar enough for one message to be appropriate for
+all of them. If not, you'll get better results by writing more than one e-mail, tailored to different
+audiences. You might write one e-mail providing some background context for a topic, and an-
+other short e-mail to people who already know this information.
+
+WRITING TO PEOPLE YOU DON’T KNOW
+
+When you do not know your e-mail recipients, weigh factors like the type of organization they
+work for, their positions, and their relationship to you and your organization. Here are some
+profiles of different types of recipients.
+            =   Customer service representatives. You can assume they want to be helpful, know
+                a lot about a product but little or nothing about your specific question or com-
+                plaint about it, and receive hundreds of similar messages every week.
+            m   Prospective clients who have asked for information about your products. They
+                probably know something about your business, but need details from you to de-
+                cide whether your product meets their needs.
+                                                                 LESSON   7   WRITE   EFFECTIVE   E-MAIL   221
+
+
+
+
+          ™   Managers in another area who have asked for information about a project.
+              They're interested in your information, probably need a suminary of key points
+              rather than small details, and may lack your technical knowledge.
+
+ Too often, we write e-mail out of habit, without thinking about why we are writing. Like any
+ other business document, e-mail is far more clear—and gets better results—when you determine
+ your purpose before writing.
+
+ To get the most important information across quickly and clearly for a reader skimming your
+ e-mail, decide on your single, main point; frame it as a key sentence; and put it at the beginning.
+ Expand on your main point with facts and ideas. As you write, stop and think about exactly
+ what information a reader needs. For an e-mail to be useful, your information should answer all
+ the reader’s questions—and only those questions. In a document as brief as an e-mail, it’s espe-
+ cially important to group your points into logical categories that facilitate skimming.
+
+ Together, these steps will leave the recipients of any e-mail you write with a complete, coherent
+ message that accomplishes your purpose.
+
+ LAUNCHING        YOUR MESSAGE
+
+ E-mail can save us a lot of time, but it raises concerns that don't come up in other business
+ documents:
+          ™   How do! make sure my message conveys the right tone?
+          =   How can I format my e-mail to be easy to read?
+          #   Do [always have to use a salutation? A closing? Complete sentences?
+          ®   Do my punctuation and grammar have to be perfect?
+          @   What should be on the subject line?
+
+  These questions don’t have quick and easy answers. But the tips and techniques on the following
+_ pages will help you send e-mail that achieves your goals and meets your readers’ needs.
+
+ READ FOR SENSE
+
+
+Keep yourself in the recipient’s shoes, and read through your e-mail before sending it. Make any
+  necessary changes to the content of the message right away, before worrying about the format-
+  ting, subject line, or other components. If there is any unnecessary information, delete it. If you
+_ forgot anything essential, add it.
+222   PROFESSIONAL     WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+Stop yourself if you find yourself rewriting the message, moving things around, or adding a lot
+of new information. Remember your purpose, audience, and main point, and the questions the
+e-mail needs to answer.
+
+
+When you read for sense, also check the tone. Is the e-mail too abrupt? Too casual? Too formal?
+Not friendly enough?
+       ABRUPT:                   Get me the revisions by Thursday.
+       POLITE:                   Please be sure to get me the revisions by Thursday.
+       POLITE:                   I would appreciate your getting me the revisions by Thursday.
+       CASUAL:                   Got a lot on my plate right now—not sure I can take on a new gig.
+       PROFESSIONAL:             I’m very busy at the moment, and I’m not sure I can take on a new
+                                 project.
+
+       FORMAL:                   Prior to July 23, payments can be sent only through the Postal Service.
+                                 Subsequent to that date, payments must be made through our website.
+       FRIENDLY:                 Before July 23, you can make payments only by mail. After July 23, you
+                                 can make payments on our website.
+
+Dont use all-capital or all-lowercase letters. They are hard to read and, respectively, sound either
+too demanding or too casual.
+
+MAKE     THE E-MAIL EASY TO READ
+
+
+How easily can you follow this e-mail message?
+
+              Hi, Laura,
+
+             The total contribution you’ve made for this tax year is $7,200. The
+             maximum contribution for the year is $11,000 plus an additional
+             $1,000 if you are age 50 or older. If Craig wishes to contribute the
+             maximum, he can contribute $4,800 for the rest of the year (12,000
+             less 7,200 = 4,800).
+
+             If he can get the Salary Reduction Agreement form to me by Tuesday
+             we can take advantage of the last three months in this tax year
+             (4,800 divided by 3 = $1600). Next year’s maximum is $12,000 plus
+             an additional $2,000 if age 50 or older. Our tax year begins with the
+             December pay period (the check that’s issued on January 1.) | hope
+             this information is helpful.
+
+              Best wishes,
+
+              Pierre
+                                                                LESSON   7   WRITE   EFFECTIVE   E-MAIL   223
+
+
+
+
+Pierre clearly didn’t think about how that message would look on a computer screen—or on a
+handheld device. Even though the message is well written, it takes effort to understand it.
+
+Notice how much easier the message is to read when it’s broken down into short paragraphs,
+with a blank line between each one:
+
+            Hi, Laura,
+
+            The total contribution you’ve made for this tax year is $7,200. The
+            maximum contribution for the year is $11,000, plus an additional
+            $1,000 if you are age 50 or older.
+
+            If Craig wishes to contribute the maximum, he can contribute $4,800
+            for the rest of the year ($12,000 less $7,200 = $4,800). If he can get
+            the Salary Reduction Agreement form to me by Tuesday, we can take
+            advantage of the last three months in this tax year ($4,800 divided by
+            3 = $1,600).
+
+            Next year’s maximum is $12,000 plus an additional $2,000 if you are
+            age 50 or older. Our tax year begins with the December pay period
+            (the check that’s issued on January 1).
+
+            | hope this information is helpful.
+
+            Best wishes,
+
+            Pierre
+
+
+
+               CAN A PARAGRAPH             BE ONLY ONE SENTENCE              LONG?
+
+_ Sure it can. One-sentence paragraphs are fine in e-mail messages, as long as the sentence
+ - communicates a complete thought.
+
+               Mark,
+
+               As you asked, I'll make the necessary changes to the project
+               timetable and send you a revised calendar by next Friday.
+
+               Deanna
+
+
+
+
+               Marketing Team,
+
+               We’ve scheduled the telephone meeting for 10:30 a.m. tomor-
+               row, May 3.
+
+               Billy
+224   PROFESSIONAL   WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+If a message is clearly written and presented, the reader should be able to grasp the important
+information by quickly scanning it.
+
+Keep these points in mind:
+         B   Short sentences and paragraphs are
+             easier to read than long ones                             Use short sentences how
+
+         H   Lists are easier to read than sentences                   paragraphs, and bullet points to :
+             and paragraphs                                            convey information in your e-mail.
+                                                                       See pages 38, 43, 73, and 179-80 for
+         &   Information is easier to follow when                           :        :
+                                                                       more information.
+             there’s space between list items and
+             paragraphs
+
+SALUTATIONS
+
+E-mail doesn't always need to follow the same rules as formal business correspondence. But a
+salutation or greeting is like saying “Hi” or “Hello” when you begin a conversation. It helps you
+         @   establish a personal contact by using the reader's name
+         ®@ assure readers that the e-mail is meant for them
+         #   set the tone
+
+
+Salutations or greetings can be formal or informal, depending on the situation. If you're writing
+to a group, sometimes all you need is “Hi” or “Hello,” followed by the first line.
+
+
+SHOULD       I INCLUDE         A SALUTATION?
+
+
+You should usually use a salutation. You can leave it off when you are holding an extended back-
+and-forth e-mail exchange, and sometimes when you are providing a brief answer to a question.
+But an e-mail that begins without so much as “Hi” can seem abrupt.
+
+Your company policy might include guidelines for determining which kind of salutation to use.
+Otherwise, you can use the ones that follow.
+              Dear Mr. Wolinsky,             Hi, Bob,                Dear Bob,         Hello, Bob,
+
+              Bob,                           Dear clients,           To my clients:    Hi, team,
+
+              Hi, everyone,                  Hello, associates
+                                                                  LESSON   7   WRITE   EFFECTIVE   E-MAIL   225
+
+
+
+
+  COMMAS       IN SALUTATIONS?
+
+
+  These days, people often omit the comma between the “Hi” or “Hello” and the person's name for
+  informal salutations:
+
+                 Hi Bob,
+
+                 Hi, Bob,
+
+
+  Either form is okay. Be sure, however, to use the comma after the person’s name.
+
+  You usually need a formal salutation (“Dear . .”) only for people outside your organization.
+  But there are exceptions. If you're writing to someone who is senior to you, such as a director
+  or chairman of the board, it might be more appropriate to use “Dear Ms. Moreno” or “Dear
+  Director” instead of “Hi, Allison.”
+
+
+  Are you writing to a colleague or friend? Use an informal salutation or greeting, or just begin
+  with the person's name. It’s sometimes better to use a formal salutation when you write to some-
+  one you've never met, never spoken with on the phone, or never communicated with by e-mail.
+
+- When you reply to an e-mail message, note the way the person addressed you. If the person used
+  a formal salutation, you should probably use a formal salutation in return. When you write to
+someone in another country, you might want to use a formal salutation, at least when you first
+  begin to exchange messages. People outside the U.S. tend to be more formal in business settings.
+
+  COLONS IN SALUTATIONS?
+
+
+  A common question is whether to use a colon after a formal salutation, the way you would if you
+  were writing a business letter.
+
+                 Dear Mr. O’Connor:
+
+
+  The evolving style is to use a comma instead of a colon.
+
+                 Dear Mr. O’Connor,
+
+  Unless your organization's style guide addresses this topic, do what feels right to you.
+
+| THINK ABOUT...
+  Seeseeoooeasseesoonseee   °
+
+
+
+
+| Do you ever receive e-mail that has no salutation or greeting? Under what circumstances does
+  that seem okay?
+226   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+What kind of salutation or greeting do you normally use when you send e-mail messages? How
+do you make that decision?
+
+CLOSINGS AND SIGNATURES
+
+A closing is like the period that ends a sentence—it lets the reader know youre done. Closings
+can show good manners and efficiency: they let readers know they’ve reached the end of the
+message. Your signature also tells them how to reach you.
+
+CLOSINGS
+
+
+Like the salutation, the closing can be formal, informal, or casual.
+          Formal               Sincerely; Regards; Yours truly
+          Less formal          Best wishes; Warm regards; Thank you
+          Casual               Thanks; See you soon
+
+Choose a salutation and a closing that complement each other. For brief messages to friends and
+colleagues, it can be okay to close with only your name or even your initials. But keep in mind
+that this kind of closing can have a rather abrupt tone:
+
+              Parker,
+
+              UPS picked up the package today. It should arrive by next Tuesday.
+
+             Sheila
+
+
+
+
+             Thanks for the update, Brendon—will let you know if | need more
+             details.
+
+             J.
+
+
+SIGNATURES
+
+
+An e-mail without a signature is like a voicemail message without a name or telephone number:
+the assumption is that the other person knows who you are and how to reach you. But just as
+someone you call might not recognize your voice or have your number handy, an e-mail recipi-
+ent might not recognize your e-mail address or know your number.
+
+To avoid these problems, always include your name and number. Repeating your e-mail address
+in the signature can make it easier for people to find you if they’re not replying immediately.
+And if you use more than one e-mail address, make sure that the e-mail address on the From
+line is the one you want people to use.
+                                                                  LESSON   7   WRITE   EFFECTIVE   E-MAIL   227
+
+
+
+
+ Depending on the situation and your organization's policy, also include all or some of these
+ details:
+         @   Your title or position
+         @   Your company name
+         m@ A fax number
+         @   Your office and cell numbers, if necessary
+         @   A mailing address
+         m™ The URL for your website
+
+ WORRIED      ABOUT WHETHER            YOUR MESSAGE WAS RECEIVED?
+
+ If you need to know that someone received your e-mail, but you don't need a full reply, add a
+ line requesting a reply at the beginning or the end of the e-mail. (E.g., “Please let me know that
+ you got this message.)
+
+ PROOFREAD!
+
+ Some people believe that a professional writing style isn’t important for e-mail—that the rules
+ of grammar, punctuation, and spelling don’t apply. Let’s look closely at that belief. Suppose you
+ received the following message from someone you've never met. What would be your image of
+ the person who wrote it?
+
+              Dear Supplier Partner:
+
+              | am pleased to announce: that InfoSearch has adcepted a offer, from
+              Online Libary, Inc. to purchase it’s website. Marcus Wellenby, Onlines
+              CEO and | have work non-stop in recent weeks to put the deal to-
+              gether with minimum affects for both customers and our supplier
+              partners. This will inable the InfoSearch.com web site to contine to
+              operate and, give it a chance to realize it’s potential.
+
+             | want to apologize to any of you who have had a difficulty, in contact-
+             ing us while we have operated with a skeletel staff in anticipation of
+             this transatcion. | also want to personnelly thank you. For your sup-
+             port and for a wonderful asociation to those of you | have the plea-
+             sure of meeting.
+
+              Best Regrds,
+
+             Suzanne Boyles
+
+
+Chances are, you wouldn't take Suzanne’s message very seriously. After all, how credible is some-
+ one who can’t take the time to write a message without glaring errors, or doesn't know how?
+228   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+We think error-free e-mail is important. Remember these key points:
+         ™   The e-mail you write conveys a particular image to your readers. If your grammar,
+             punctuation, and spelling are sloppy, your image will be, too.
+         ™   Some careless writing and errors will mislead readers, or make it difficult for them
+             to understand what you're trying to say.
+
+Before sending out an e-mail message, do yourself and your readers a favor by proofreading it.
+The process doesn't take long, and it can go a long way towards promoting a positive, profes-
+sional image of you and your organization.
+
+ATTACHMENTS
+
+Always tell your readers whenever you attach a file to your e-mail. Otherwise, they might delete,
+forward, or save the message before noticing the important file they needed.
+
+It takes time to open and read an attachment. Save your readers time by telling them what the
+attachment is, instead of forcing them to open it just to find out. Also include a cover e-mail that
+clearly explains what you expect the reader to do with the attachment.
+
+When you send attachments, consider your audience. Sometimes only your primary reader—the
+person named on the To line and not the people on the CC or BCC lines—needs the attachment.
+In those cases, you might want to send the others a separate e-mail without the attachment.
+
+Also, if the attachment is long and complex, consider summarizing it briefly in the body of the
+e-mail message.
+
+THE SUBJECT LINE
+
+
+Imagine a news website without headlines. How would you know what stories you wanted to
+read? A well-written subject line is like the headline for a news article: it draws the reader’s at-
+tention and tells the reader what the e-mail is about. The subject line gives the reader a reason to
+open the e-mail. It's also your first and most important opportunity to get your message across.
+
+
+Notice the difference between the original and revised subject lines in the following examples:
+
+        ORIGINAL          Changes
+
+        REVISION          Health benefits will change on Dec. 1: Please enroll
+                                                                     LESSON   7   WRITE   EFFECTIVE   E-MAIL   229
+
+
+
+
+       ORIGINAL             Planning date?
+
+        REVISION            Planning Project: Is meeting on Apr. 2, 6, or 9?
+
+The revised subject lines are compelling. They grab the reader’s attention and provide enough
+information to make the reader want to read and respond to the message.
+
+WORD SUBJECT LINES CAREFULLY. Certain words or phrases can get your message sent to the
+spam, or junk mail, folder, where your reader will probably never see it. Here are a few examples:
+
+              For your eyes only                        Opportunity Knocks
+
+              Profit Free                               Confirmation of order
+
+              Look at this!                             $$ HM
+
+ Your organization might have a list of words and phrases to avoid. Check with the people who
+ provide you with technical support. By the way, always put something in the subject line. A
+ blank subject line is not only useless to the recipient, it might get your message tagged as spam.
+
+ MAKE SUBJECT LINES DESCRIPTIVE AND ENGAGING. Try to use them to pique the reader's in-
+ terest. The best subject lines both summarize and introduce the contents of the e-mail.
+
+         NOT DESCRIPTIVE               Budget
+
+         DESCRIPTIVE                   Marketing budget increased 10%
+
+ MAKE SUBJECT LINES SPECIFIC. An effective subject line includes enough detail to distinguish
+ it from similar e-mails. It should tell readers what the e-mail is about, and enable recipients to
+ find the e-mail again by searching for a key word or phrase.
+
+         VAGUE              Report
+
+         SPECIFIC           Robotix computer upgrade project report
+
+
+ WATCH THOSE EXCLAMATION POINTS. Ina misguided attempt to call attention to their e-mail
+_messages, some writers “liven up” their subject lines with language and punctuation in the at-
+ tempt to make the message seem more important than it is.
+
+             Only 3 days left to apply!
+
+             Your presence required!!
+230   PROFESSIONAL     WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+Anything with an exclamation point get your message sent to the spam folder. Furthermore, it's
+unfair to mislead readers by conveying a false sense of urgency. Remember the boy who cried
+“Wolf!” If you do it too often, no one will ever take you seriously. If a message really is urgent,
+your system might let you flag it or mark it in some way. Better yet, make a phone call to let the
+recipient know it’s coming and needs immediate attention.
+
+MAKE SUBJECT LINES CONCISE AND CLEAR. A compelling subject line gets the message across
+without unnecessary words or obscure abbreviations.
+
+              WORDY AND CONFUSING                               This msg inclds the details abt nu mktg pln
+
+              CONCISE AND CLEAR                                 New marketing plan details
+
+Change your e-mails’ subject lines when the subject changes in a reply to an earlier e-mail. Ina
+back-and-forth multireply “conversation,” pay special attention to the subject line. If the focus
+remains on the original topic, you might not need to change the subject line. But you can mis-
+lead or confuse the reader by keeping the original subject line when a reply or series of replies
+changes the topic of your current e-mail.
+
+CONSIDER THE LENGTH. Long subject lines are often truncated, especially on handheld de-
+vices. If you can't avoid a long subject line, make sure the key information appears in its first few
+words.
+
+
+
+
+POSSRTHOHHRTOEEHHREEHEDREBE
+
+
+
+
+How much attention do you pay to the subject line? Do you usually stop to consider whether
+it accurately describes and previews the message? Can you think of a time that you forgot to
+change the subject line when you replied to a message but changed the topic?
+                                                         LESSON   7   WRITE   EFFECTIVE   E-MAIL   231
+
+
+
+
+                                 Assignment
+Check the salutations on ten recent e-mail messages you've sent and received. Are they
+appropriate to the situation? Too formal? Too casual? Too abrupt? How would you
+change them? Write three of the original salutations or greetings on the lines below.
+Then write the changes youd make.
+
+ORIGINAL
+
+
+
+
+REVISION
+
+
+
+
+Look at five recent e-mail messages you've sent and five you've received. Do they have
+useful closings and signatures? What changes would have helped?
+
+Do you already have a signature file that automatically adds a signature block to your
+e-mail? Do you have at least one alternative signature? If so, review those files to see
+whether they need any changes.
+
+If you dont have a signature file, create at least two that would be appropriate for the dif-
+ferent kinds of e-mail you send. Decide which signature file should be your default—the
+one that will be added automatically to every message unless you manually select a differ-
+ent one.
+
+
+
+If you don’t know how to create a signature file, consult your Help menu or the people in
+your organization who provide technical support.
+232    PROFESSIONAL   WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+      4.   Look through a magazine or some news articles. Circle or jot down some headlines that
+           draw your attention. Notice how the headline writer gave you a little preview of the ar-
+           ticle in those few words. Write out the best three headlines below.
+
+
+
+
+      5.   Look at the subject lines from five e-mails you've sent and five you've received. Do they
+           meet the criteria of a well-written subject line discussed in this chapter? If not, how
+           could you revise them so they would be more effective? Write three of the original sub-
+           ject lines and their revisions below.
+
+           ORIGINAL
+
+
+
+
+           REVISION
+
+
+
+
+           ORIGINAL
+
+
+
+
+           REVISION
+
+
+
+
+           ORIGINAL
+
+
+
+
+           REVISION
+
+
+
+      6.   Write effective subject lines based on these scenarios:
+
+           Simon needs someone to volunteer to provide administrative assistance for the Heart
+           Association project.
+
+           SUBJECT LINE
+                                                       LESSON   7   WRITE   EFFECTIVE   E-MAIL   233
+
+
+
+
+Melissa can't attend the Verizon meeting on February 6, but wants someone to attend in
+her place and take notes.
+
+SUBJECT LINE
+
+
+Grisha believes that the draft of the Clorox presentation needs a lot more work.
+
+SUBJECT LINE
+
+Do you regularly send e-mail to groups? Review the distribution list for at least one of
+those groups. Add or remove addresses to make sure that the right people—and only the
+right people—get those messages.
+234
+                                                                                                235
+
+
+
+ RESOURCES CONSULTED AND RECOMMENDED                        FOR CONTINUED LEARNING
+
+The Chicago Manual of Style. 15th ed. Chicago: University of Chicago Press, 2003.
+
+Einsohn, Amy. The Copyeditor’s Handbook: A Guide for Publishing and Corporate
+   Communications, with Exercises and Answer Keys. Berkeley: University of California Press,
+   2006.
+
+Fogarty, Mignon. Grammar Girl: Quick and Dirty Tips for Better Writing.
+   http://grammar.quickanddirtytips.com.
+
+Merriam-Webster’ Collegiate Dictionary. 11th ed. Springfield, MA: Merriam-Webster, Inc., 2005.
+
+Straus, Jane. GrammarBook.com. http://grammarbook.com.
+
+Turabian, Kate L. A Manual for Writers of Research Papers, Theses, and Dissertations. 7th ed.
+   Chicago: University of Chicago Press, 2007.
+
+Williams, Joseph M. Style: The Basics of Clarity and Grace. 3rd ed. New York: Pearson Longman,
+   2009.
+236
+
+
+
+
+ABOUT WRITE IT WELL
+
+Write It Well began in 1979 as Advanced Communication Designs, Inc., a training company that
+specialized in helping people communicate more clearly.
+
+Our focus has always been on providing practical information, techniques, and strategies that
+people can use immediately. Individuals, teams, training specialists, and instructors in corpora-
+tions and businesses of all sizes, nonprofit organizations, government agencies, and colleges and
+universities all use our books and training programs.
+
+The Write It Well series currently includes the self-paced training workbooks Professional
+Writing Skills, How to Write Reports and Proposals, Grammar for Grownups, and Writing
+Performance Reviews. For more about our company and detailed descriptions of our publica-
+tions, visit our website, www.writeitwell.com.
+
+
+
+
+ABOUT THE AUTHOR
+
+
+Natasha Terk is the author of Writing Performance Reviews: A Write It Well Guide and the co-
+author of E-Mail: A Write It Well Guide. As the president of Write It Well, she leads the firm’s
+business operations and strategy.
+
+
+Natasha holds master’s degrees from the University of San Francisco and the University of
+Manchester, UK. She served as a program officer at the Packard Foundation and as a manage-
+ment consultant with La Piana Consulting, and serves on the board of the Ronald McDonald
+House of San Francisco.
+
+Natasha has taught business writing at the University of California, Berkeley. She leads on-
+site and online webinars and workshops for clients including Hitachi Data Systems, Hewlett
+Packard, Granite Construction, National Semiconductor, and the Port of Oakland. Natasha gives
+keynote speeches and presentations on business communications at seminars and large confer-
+ences. She develops job-relevant, engaging training solutions that help people work more effec-
+tively and efficiently.
+                                             \
+
+
+    F
+                                            7=
+
+                 3                                   -
+             £                         es
+
+
+
+
+    Pd
+                                            —
+         -           —           ae
+
+
+
+
+                         —            =-     J
+
+
+
+
+                             =                   a
+
+
+
+
+=
+—"
+i/
+    It’s very importanttowrite clearly, concisely, and professionally ifyou want to be competitive
+    in today’s business environment. I consider this book to be one of my essential sales tools.
+                                                 AMANDA NOGUERA, Regional Sales Director
+                                        AVOKE Caller Experience Analytics, BBN Technologies
+
+    Most of our employees — engineers, developers, product managers, marketing staff — were
+    never taught how to write professionally. They were just thrown into it. This book offers people
+    what they need to get their point across clearly and present a professional image of themselves
+    and of our corporation in everything they write.
+                                      je      KiNG, Director, Worldwide Marketing Operations
+                                                           National Semiconductor Corporation
+
+
+    The book's for anyone, really. It answers many of our everyday writing questions in simple
+    language without getting bogged down by daunting grammar and style rules. And it offers
+    clear plans of action for those who might get overwhelmed by the writing process.
+    I wish I could get each and every one of our reporters to read Professional Writing Skills. .
+    Even as trained writers, they could benefit from its useful and easy-to-remember tips.
+                                             MICHELLE MEYERS, Associate Editor, CNET News
+
+
+
+
+  Professional Writing Skills: AWrite It Well Guide leads you through Write It Well’s
+  time-tested, six-step planning process for any business writing. The process
+_ will help you write business letters, e-mail, and other documents that persuade
+  and inform - clearly, concisely, and professionally. This new edition provides
+  more tips and tools for writing better e-mail, as well as expanded sections
+  on grammar and punctuation — great for learning and for reference.
+
+
+
+                  Natasha Terk, President of Write It Well, is the author of Performance Reviews:
+                  A White It Well Guide and the co-author ofE-Mail: AWrite It Well Guide. She leads
+                  the firm’s operations and strategy and develops books, workshops, webinars,
+                  and facilitator guides that provide practical, relevant information, techniques,
+                  and strategies that people can use immediately to improve business communication.
+
+    Write It Well (formerly Advanced Communication Designs)          ISBN: 978-0-9824
+    was founded in 1980 to help people in the workplace
+    communicate clearly and work together effectively.
+
+
+    Visit us at www.writeitwell.com
+a                                                        a            780982    447116

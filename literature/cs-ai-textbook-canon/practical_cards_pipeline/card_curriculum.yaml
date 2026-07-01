@@ -1,0 +1,1182 @@
+generated_at: '2026-07-01T18:20:22.386611+00:00'
+corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+schema: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+waves:
+  w1_foundation:
+    summary:
+      total: 56
+      fan_out: 29
+      inline: 7
+      skip: 20
+    batches:
+    - batch_id: w1_foundation_fan-out_01
+      route: fan-out
+      chapters:
+      - ingest_file: ai_engineering_2025_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch01_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '01'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice:
+        - 661
+        - 2738
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch02_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '02'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=6 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 2739
+        - 5260
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch03_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '03'
+        wave: w1_foundation
+        hooks: 9
+        hook_method: n=0 t=9 b=0
+        route: fan-out
+        text_slice:
+        - 5261
+        - 7221
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch05_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '05'
+        wave: w1_foundation
+        hooks: 8
+        hook_method: n=0 t=8 b=0
+        route: fan-out
+        text_slice:
+        - 9672
+        - 11401
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch06_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '06'
+        wave: w1_foundation
+        hooks: 12
+        hook_method: n=0 t=12 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch07_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '07'
+        wave: w1_foundation
+        hooks: 13
+        hook_method: n=0 t=13 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch01_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '01'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice:
+        - 642
+        - 1244
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch02_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '02'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch05_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '05'
+        wave: w1_foundation
+        hooks: 8
+        hook_method: n=0 t=8 b=0
+        route: fan-out
+        text_slice:
+        - 2702
+        - 3430
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch06_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '06'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 3431
+        - 4003
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch07_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '07'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice:
+        - 4004
+        - 4559
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch11_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch11_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '11'
+        wave: w1_foundation
+        hooks: 4
+        hook_method: n=0 t=4 b=0
+        route: fan-out
+        text_slice:
+        - 6144
+        - 6829
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch12_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch12_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '12'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: hands_on_llms_2024_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch01_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '01'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 511
+        - 1598
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch02_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '02'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 1599
+        - 3122
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch03_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '03'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 3123
+        - 4060
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+    - batch_id: w1_foundation_fan-out_02
+      route: fan-out
+      chapters:
+      - ingest_file: hands_on_llms_2024_ch04_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch04_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '04'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice:
+        - 4061
+        - 4977
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch05_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '05'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch06_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '06'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch07_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '07'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch08_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: 08
+        wave: w1_foundation
+        hooks: 8
+        hook_method: n=0 t=8 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch09_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: 09
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch10_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch10_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '10'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch11_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch11_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '11'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: hands_on_llms_2024_ch12_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch12_ingest.md
+        slug: hands_on_llms_2024
+        chapter_id: '12'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt
+      - ingest_file: philosophy_software_design_2e_2021_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/philosophy_software_design_2e_2021_ch01_ingest.md
+        slug: philosophy_software_design_2e_2021
+        chapter_id: '01'
+        wave: w1_foundation
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt
+      - ingest_file: philosophy_software_design_2e_2021_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/philosophy_software_design_2e_2021_ch02_ingest.md
+        slug: philosophy_software_design_2e_2021
+        chapter_id: '02'
+        wave: w1_foundation
+        hooks: 5
+        hook_method: n=5 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 646
+        - 927
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt
+      - ingest_file: philosophy_software_design_2e_2021_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/philosophy_software_design_2e_2021_ch03_ingest.md
+        slug: philosophy_software_design_2e_2021
+        chapter_id: '03'
+        wave: w1_foundation
+        hooks: 7
+        hook_method: n=0 t=7 b=0
+        route: fan-out
+        text_slice:
+        - 928
+        - 1181
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt
+      - ingest_file: philosophy_software_design_2e_2021_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/philosophy_software_design_2e_2021_ch06_ingest.md
+        slug: philosophy_software_design_2e_2021
+        chapter_id: '06'
+        wave: w1_foundation
+        hooks: 8
+        hook_method: n=0 t=8 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt
+    - batch_id: w1_foundation_inline_03
+      route: inline
+      chapters:
+      - ingest_file: ai_engineering_2025_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch08_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: 08
+        wave: w1_foundation
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch09_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: 09
+        wave: w1_foundation
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: ai_engineering_2025_ch10_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch10_ingest.md
+        slug: ai_engineering_2025
+        chapter_id: '10'
+        wave: w1_foundation
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ai_engineering_2025.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch03_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '03'
+        wave: w1_foundation
+        hooks: 3
+        hook_method: n=0 t=3 b=0
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch08_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: 08
+        wave: w1_foundation
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch09_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: 09
+        wave: w1_foundation
+        hooks: 3
+        hook_method: n=0 t=0 b=3
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+      - ingest_file: grokking_algorithms_2e_2024_ch10_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch10_ingest.md
+        slug: grokking_algorithms_2e_2024
+        chapter_id: '10'
+        wave: w1_foundation
+        hooks: 3
+        hook_method: n=0 t=3 b=0
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt
+  w2_systems_llm:
+    summary:
+      total: 52
+      fan_out: 14
+      inline: 35
+      skip: 3
+    batches:
+    - batch_id: w2_systems_llm_fan-out_01
+      route: fan-out
+      chapters:
+      - ingest_file: ddia_2e_2026_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch01_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '01'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch02_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '02'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch03_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '03'
+        wave: w2_systems_llm
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch04_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch04_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '04'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch05_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '05'
+        wave: w2_systems_llm
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch06_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '06'
+        wave: w2_systems_llm
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: ddia_2e_2026_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch07_ingest.md
+        slug: ddia_2e_2026
+        chapter_id: '07'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt
+      - ingest_file: prompt_engineering_llms_2024_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch01_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '01'
+        wave: w2_systems_llm
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice:
+        - 249
+        - 756
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch02_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '02'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 757
+        - 1805
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch03_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '03'
+        wave: w2_systems_llm
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice:
+        - 1806
+        - 2775
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch04_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch04_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '04'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 2776
+        - 3707
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch05_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '05'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 3708
+        - 5096
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch06_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: '06'
+        wave: w2_systems_llm
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice:
+        - 5097
+        - 6122
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: understanding_distributed_systems_2022_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch01_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '01'
+        wave: w2_systems_llm
+        hooks: 4
+        hook_method: n=4 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 338
+        - 732
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+    - batch_id: w2_systems_llm_inline_02
+      route: inline
+      chapters:
+      - ingest_file: prompt_engineering_llms_2024_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: 08
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: prompt_engineering_llms_2024_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch09_ingest.md
+        slug: prompt_engineering_llms_2024
+        chapter_id: 09
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt
+      - ingest_file: understanding_distributed_systems_2022_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch02_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '02'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 733
+        - 978
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch03_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '03'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=2 t=0 b=0
+        route: inline
+        text_slice:
+        - 979
+        - 1153
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch04_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch04_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '04'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=2 t=0 b=0
+        route: inline
+        text_slice:
+        - 1154
+        - 1280
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch05_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '05'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 1281
+        - 1951
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch06_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '06'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=2 t=0 b=0
+        route: inline
+        text_slice:
+        - 1952
+        - 2064
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch07_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '07'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=2 t=0 b=0
+        route: inline
+        text_slice:
+        - 2065
+        - 2118
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch08_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: 08
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 2119
+        - 2352
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch09_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: 09
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=2 t=0 b=0
+        route: inline
+        text_slice:
+        - 2353
+        - 2572
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch10_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch10_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '10'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 2573
+        - 3237
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch11_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch11_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '11'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 3238
+        - 3811
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch12_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch12_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '12'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 3812
+        - 4353
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch13_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch13_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '13'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 4354
+        - 4816
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch14_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch14_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '14'
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=1 t=0 b=0
+        route: inline
+        text_slice:
+        - 4817
+        - 4963
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch15_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch15_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '15'
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=1 t=0 b=0
+        route: inline
+        text_slice:
+        - 4964
+        - 5085
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+    - batch_id: w2_systems_llm_inline_03
+      route: inline
+      chapters:
+      - ingest_file: understanding_distributed_systems_2022_ch16_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch16_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '16'
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=1 t=0 b=0
+        route: inline
+        text_slice:
+        - 5086
+        - 5279
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch17_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch17_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '17'
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=1 t=0 b=0
+        route: inline
+        text_slice:
+        - 5280
+        - 5422
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch18_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch18_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '18'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 5423
+        - 5851
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch19_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch19_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '19'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 5852
+        - 6192
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch20_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch20_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '20'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 6193
+        - 6375
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch21_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch21_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '21'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 6376
+        - 6771
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch22_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch22_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '22'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 6772
+        - 7010
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch23_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch23_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '23'
+        wave: w2_systems_llm
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 7011
+        - 7448
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch24_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch24_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '24'
+        wave: w2_systems_llm
+        hooks: 1
+        hook_method: n=0 t=0 b=1
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch25_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch25_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '25'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch26_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch26_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '26'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch27_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch27_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '27'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch28_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch28_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '28'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch29_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch29_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '29'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch30_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch30_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '30'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch31_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch31_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '31'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+    - batch_id: w2_systems_llm_inline_04
+      route: inline
+      chapters:
+      - ingest_file: understanding_distributed_systems_2022_ch32_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch32_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '32'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch33_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch33_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '33'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+      - ingest_file: understanding_distributed_systems_2022_ch34_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch34_ingest.md
+        slug: understanding_distributed_systems_2022
+        chapter_id: '34'
+        wave: w2_systems_llm
+        hooks: 2
+        hook_method: n=0 t=0 b=2
+        route: inline
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt
+  w3_clinical_docs:
+    summary:
+      total: 18
+      fan_out: 10
+      inline: 2
+      skip: 6
+    batches:
+    - batch_id: w3_clinical_docs_fan-out_01
+      route: fan-out
+      chapters:
+      - ingest_file: simon_aliferis_healthcare_2024_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '01'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch02_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '02'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch03_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '03'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch04_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch04_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '04'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch05_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch05_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '05'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch06_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch06_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '06'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch07_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '07'
+        wave: w3_clinical_docs
+        hooks: 6
+        hook_method: n=0 t=6 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch08_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: 08
+        wave: w3_clinical_docs
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch09_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch09_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: 09
+        wave: w3_clinical_docs
+        hooks: 5
+        hook_method: n=0 t=5 b=0
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch10_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch10_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '10'
+        wave: w3_clinical_docs
+        hooks: 4
+        hook_method: n=4 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 41849
+        - 43887
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+    - batch_id: w3_clinical_docs_inline_02
+      route: inline
+      chapters:
+      - ingest_file: simon_aliferis_healthcare_2024_ch11_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch11_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '11'
+        wave: w3_clinical_docs
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 43888
+        - 45012
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+      - ingest_file: simon_aliferis_healthcare_2024_ch12_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch12_ingest.md
+        slug: simon_aliferis_healthcare_2024
+        chapter_id: '12'
+        wave: w3_clinical_docs
+        hooks: 3
+        hook_method: n=3 t=0 b=0
+        route: inline
+        text_slice:
+        - 45013
+        - 45490
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt
+  w4_ops_governance:
+    summary:
+      total: 10
+      fan_out: 5
+      inline: 0
+      skip: 5
+    batches:
+    - batch_id: w4_ops_governance_fan-out_01
+      route: fan-out
+      chapters:
+      - ingest_file: responsible_ai_practice_2025_ch01_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch01_ingest.md
+        slug: responsible_ai_practice_2025
+        chapter_id: '01'
+        wave: w4_ops_governance
+        hooks: 4
+        hook_method: n=4 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 194
+        - 1034
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt
+      - ingest_file: responsible_ai_practice_2025_ch02_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch02_ingest.md
+        slug: responsible_ai_practice_2025
+        chapter_id: '02'
+        wave: w4_ops_governance
+        hooks: 5
+        hook_method: n=5 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 1035
+        - 2084
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt
+      - ingest_file: responsible_ai_practice_2025_ch03_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch03_ingest.md
+        slug: responsible_ai_practice_2025
+        chapter_id: '03'
+        wave: w4_ops_governance
+        hooks: 5
+        hook_method: n=5 t=0 b=0
+        route: fan-out
+        text_slice:
+        - 2085
+        - 2862
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt
+      - ingest_file: responsible_ai_practice_2025_ch07_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md
+        slug: responsible_ai_practice_2025
+        chapter_id: '07'
+        wave: w4_ops_governance
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt
+      - ingest_file: responsible_ai_practice_2025_ch08_ingest.md
+        ingest_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch08_ingest.md
+        slug: responsible_ai_practice_2025
+        chapter_id: 08
+        wave: w4_ops_governance
+        hooks: 4
+        hook_method: classroom-prose-est≥4
+        route: fan-out
+        text_slice: null
+        text_path: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt

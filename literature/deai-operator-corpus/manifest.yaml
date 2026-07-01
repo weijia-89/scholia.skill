@@ -1,0 +1,324 @@
+session: '2026-06-27'
+batch_id: deai-downloads-corpus
+corpus_slug: deai-operator-corpus
+source_root: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+scholia_project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+attachments_dir: attachments
+piranesi_project: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus
+inbox: /Users/dubs/Downloads/deai
+inbox_link: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox
+save_root: chatprd_returns
+lanes_required:
+- deai_removal
+- tic_enrichment
+- both
+esl_operator: Wei Jia
+entries:
+- slug: corpus_3375627
+  title: Corpus item 3375627/3375811 (identify on ingest)
+  authors:
+  - unknown
+  year: null
+  source_type: paper
+  lane_hint: both
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/3375627_3375811
+    -- 97a00481fb30d1d6f674af52fc2cd2aa -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 939319
+  text_path: source_exports/01_corpus_3375627.txt
+  ingest_path: chatprd_returns/corpus_3375627_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: ''
+  attach_upload: attachments/01_corpus_3375627_ATTACH.txt
+- slug: olmstead_2011_elements_writing_craft
+  title: Elements of the Writing Craft
+  authors:
+  - Olmstead, Robert
+  year: 2011
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Elements
+    of the writing craft _ [excerpts from the masters, -- Robert, Olmstead -- 2011;2010
+    -- F&W Media, Incorporated -- isbn13 9781599635002 -- d311441439e741ab5a5ae72cec3de832
+    -- Anna’s Archive.epub
+  format: epub
+  bytes: 938621
+  text_path: source_exports/10_olmstead_2011_elements_writing_craft.txt
+  ingest_path: chatprd_returns/olmstead_2011_elements_writing_craft_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 3 attaches in attachments/; full export at source_exports/10_olmstead_2011_elements_writing_craft.txt.'
+  attach_upload: attachments/10_olmstead_2011_elements_writing_craft_craft01_ATTACH.txt
+  chapter_attaches:
+  - attachments/10_olmstead_2011_elements_writing_craft_craft01_ATTACH.txt
+  - attachments/10_olmstead_2011_elements_writing_craft_craft02_ATTACH.txt
+  - attachments/10_olmstead_2011_elements_writing_craft_craft03_ATTACH.txt
+- slug: baker_2020_prof_writing_speaking
+  title: Professional Writing and Speaking (5th ed.)
+  authors:
+  - Baker, William H.
+  - Baker, Matthew J.
+  - Robles, Vincent D.
+  year: 2020
+  source_type: textbook
+  lane_hint: tic_enrichment
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Professional
+    Writing and Speaking -- William H_ Baker; Matthew J_ Baker; Vincent D_ Robles
+    -- 5, 2020 -- Noun Publishing LLC -- isbn13 9781735184302 -- 1610ce378c8a887ba711a3be08b34c5f
+    -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 98367849
+  text_path: source_exports/05_baker_2020_prof_writing_speaking.txt
+  ingest_path: chatprd_returns/baker_2020_prof_writing_speaking_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 5 attaches in attachments/; full export at source_exports/05_baker_2020_prof_writing_speaking.txt.'
+  attach_upload: attachments/05_baker_2020_prof_writing_speaking_ch01_ATTACH.txt
+  chapter_attaches:
+  - attachments/05_baker_2020_prof_writing_speaking_ch01_ATTACH.txt
+  - attachments/05_baker_2020_prof_writing_speaking_ch03_ATTACH.txt
+  - attachments/05_baker_2020_prof_writing_speaking_ch05_ATTACH.txt
+  - attachments/05_baker_2020_prof_writing_speaking_ch06_ATTACH.txt
+  - attachments/05_baker_2020_prof_writing_speaking_ch07_ATTACH.txt
+- slug: locker_2012_prof_writing_w231
+  title: Professional Writing (W231)
+  authors:
+  - Locker, Kitty O.
+  - Kienzler, Donna S.
+  - Collins, Jacquelyn
+  year: 2012
+  source_type: textbook
+  lane_hint: tic_enrichment
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Professional
+    writing _ W231 -- Locker, Kitty O; Kienzler, Donna S; Collins, Jacquelyn -- New
+    York], New York State, 2012 -- [New York] _ McGraw-Hill -- isbn13 9781121587779
+    -- 2930325b5550a4e1c92ec1101edc6ea2 -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 27756127
+  text_path: source_exports/06_locker_2012_prof_writing_w231.txt
+  ingest_path: chatprd_returns/locker_2012_prof_writing_w231_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 6 attaches in attachments/; full export at source_exports/06_locker_2012_prof_writing_w231.txt.'
+  attach_upload: attachments/06_locker_2012_prof_writing_w231_ch02_ATTACH.txt
+  chapter_attaches:
+  - attachments/06_locker_2012_prof_writing_w231_ch02_ATTACH.txt
+  - attachments/06_locker_2012_prof_writing_w231_ch03_ATTACH.txt
+  - attachments/06_locker_2012_prof_writing_w231_ch05_ATTACH.txt
+  - attachments/06_locker_2012_prof_writing_w231_ch06_ATTACH.txt
+  - attachments/06_locker_2012_prof_writing_w231_ch07_ATTACH.txt
+  - attachments/06_locker_2012_prof_writing_w231_ch08_ATTACH.txt
+- slug: peeples_2003_prof_writing_rhetoric
+  title: 'Professional Writing and Rhetoric: Readings from the Field'
+  authors:
+  - Peeples, Tim
+  year: 2003
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Professional
+    writing and rhetoric _ readings from the field -- Peeples, Tim -- New York, New
+    York State, 2003 -- New York_ Longman Publishers -- isbn13 9780321099754 -- a8f29ff93409915c670c60e816e77ce4
+    -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 35078560
+  text_path: source_exports/07_peeples_2003_prof_writing_rhetoric.txt
+  ingest_path: chatprd_returns/peeples_2003_prof_writing_rhetoric_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 2 attaches in attachments/; full export at source_exports/07_peeples_2003_prof_writing_rhetoric.txt.'
+  attach_upload: attachments/07_peeples_2003_prof_writing_rhetoric_ch02_ATTACH.txt
+  chapter_attaches:
+  - attachments/07_peeples_2003_prof_writing_rhetoric_ch02_ATTACH.txt
+  - attachments/07_peeples_2003_prof_writing_rhetoric_ch06_ATTACH.txt
+- slug: terk_prof_writing_skills
+  title: Professional Writing Skills
+  authors:
+  - Terk, Natasha
+  year: null
+  source_type: textbook
+  lane_hint: tic_enrichment
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Professional
+    writing skills _ how to write business letters, -- Terk, Natasha -- 3rd ed_ with
+    expanded sections on e-mail, grammar, and -- Write It -- isbn13 9780982447116
+    -- 4083ed7aceda554afab7f62ab481dd6e -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 8987555
+  text_path: source_exports/08_terk_prof_writing_skills.txt
+  ingest_path: chatprd_returns/terk_prof_writing_skills_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 4 attaches in attachments/; full export at source_exports/08_terk_prof_writing_skills.txt.'
+  attach_upload: attachments/08_terk_prof_writing_skills_lesson02_ATTACH.txt
+  chapter_attaches:
+  - attachments/08_terk_prof_writing_skills_lesson02_ATTACH.txt
+  - attachments/08_terk_prof_writing_skills_lesson03_ATTACH.txt
+  - attachments/08_terk_prof_writing_skills_lesson04_ATTACH.txt
+  - attachments/08_terk_prof_writing_skills_lesson07_ATTACH.txt
+- slug: long_2018_portable_mentor
+  title: The Writer's Portable Mentor
+  authors:
+  - Long, Priscilla
+  year: 2018
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/The
+    Writer's Portable Mentor _ A Guide to Art, Craft, and -- Priscilla Long -- University
+    of New Mexico Press, Albuquerque, NM, 2018 -- University of -- isbn13 9780826360052
+    -- 9ec70b48e734eb8c12853a114eeb65db -- Anna’s Archive.epub
+  format: epub
+  bytes: 493745
+  text_path: source_exports/11_long_2018_portable_mentor.txt
+  ingest_path: chatprd_returns/long_2018_portable_mentor_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 5 attaches in attachments/; full export at source_exports/11_long_2018_portable_mentor.txt.'
+  attach_upload: attachments/11_long_2018_portable_mentor_part01_ATTACH.txt
+  chapter_attaches:
+  - attachments/11_long_2018_portable_mentor_part01_ATTACH.txt
+  - attachments/11_long_2018_portable_mentor_part02_ATTACH.txt
+  - attachments/11_long_2018_portable_mentor_part03_ATTACH.txt
+  - attachments/11_long_2018_portable_mentor_part04_ATTACH.txt
+  - attachments/11_long_2018_portable_mentor_part05_ATTACH.txt
+- slug: munier_2016_writers_guide_beginnings
+  title: The Writer's Guide to Beginnings
+  authors:
+  - Munier, Paula
+  - Martin, William
+  year: 2016
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/The
+    writer's guide to beginnings _ [how to craft story -- Paula Munier, William Martin
+    -- Penguin Random House LLC, Cincinnati, Ohio, 2016 -- F & W -- isbn13 9781440347177
+    -- be15c10dd5dac7017fcba47daebc8311 -- Anna’s Archive.epub
+  format: epub
+  bytes: 365213
+  text_path: source_exports/12_munier_2016_writers_guide_beginnings.txt
+  ingest_path: chatprd_returns/munier_2016_writers_guide_beginnings_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 2 attaches in attachments/; full export at source_exports/12_munier_2016_writers_guide_beginnings.txt.'
+  attach_upload: attachments/12_munier_2016_writers_guide_beginnings_ch01_ATTACH.txt
+  chapter_attaches:
+  - attachments/12_munier_2016_writers_guide_beginnings_ch01_ATTACH.txt
+  - attachments/12_munier_2016_writers_guide_beginnings_ch02_ATTACH.txt
+- slug: ginna_what_editors_do
+  title: What Editors Do
+  authors:
+  - Ginna, Peter
+  year: null
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/What
+    Editors Do_ The Art, Craft, and Business of Book -- Peter Ginna -- Chicago guides
+    to writing, editing, and publishing, Chicago, -- The University -- isbn13 9780226299839
+    -- 572f22c661ab829092072ce7f910c249 -- Anna’s Archive.epub
+  format: epub
+  bytes: 551188
+  text_path: source_exports/13_ginna_what_editors_do.txt
+  ingest_path: chatprd_returns/ginna_what_editors_do_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 4 attaches in attachments/; full export at source_exports/13_ginna_what_editors_do.txt.'
+  attach_upload: attachments/13_ginna_what_editors_do_part02_ATTACH.txt
+  chapter_attaches:
+  - attachments/13_ginna_what_editors_do_part02_ATTACH.txt
+  - attachments/13_ginna_what_editors_do_part03_ATTACH.txt
+  - attachments/13_ginna_what_editors_do_ch14_ATTACH.txt
+  - attachments/13_ginna_what_editors_do_ch15_ATTACH.txt
+- slug: henry_2000_writing_workplace
+  title: Writing Workplace Cultures
+  authors:
+  - Henry, Jim
+  year: 2000
+  source_type: textbook
+  lane_hint: both
+  chapter_fanout: true
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/Writing
+    workplace cultures _ an archaeology of professional -- Associate Professor Jim
+    Henry Phd -- 1st, First Edition, PS, 2000 -- Southern Illinois -- isbn13 9780809323203
+    -- 4c5c84ae98d43533c647da3aaea5de66 -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 975557
+  text_path: source_exports/09_henry_2000_writing_workplace.txt
+  ingest_path: chatprd_returns/henry_2000_writing_workplace_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: 'Chapter fan-out: 2 attaches in attachments/; full export at source_exports/09_henry_2000_writing_workplace.txt.'
+  attach_upload: attachments/09_henry_2000_writing_workplace_part02_ATTACH.txt
+  chapter_attaches:
+  - attachments/09_henry_2000_writing_workplace_part02_ATTACH.txt
+  - attachments/09_henry_2000_writing_workplace_ch06_ATTACH.txt
+- slug: jones_2015_jslw
+  title: 'Syntactic complexity in college-level English writing: Differences among
+    writers with diverse L1 backgrounds'
+  authors:
+  - Lu, Xiaofei
+  - Ai, Haiyang
+  year: 2015
+  source_type: paper
+  lane_hint: both
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/j_jslw_2015_06_003
+    -- cde08c27bbdaa46cdd58c942d9170c33 -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 284562
+  text_path: source_exports/02_jones_2015_jslw.txt
+  ingest_path: chatprd_returns/jones_2015_jslw_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: Slug filename jones_2015_jslw is legacy; paper is Lu & Ai 2015 JSLW DOI 10.1016/j.jslw.2015.06.003
+  attach_upload: attachments/02_jones_2015_jslw_ATTACH.txt
+- slug: s00146_2024_ai_writing
+  title: AI / writing detection research (s00146-024-01905-3)
+  authors: []
+  year: 2024
+  source_type: paper
+  lane_hint: deai_removal
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/s00146-024-01905-3
+    -- 2b3f46d172f98864a53017eb0ece0db4 -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 1084078
+  text_path: source_exports/03_s00146_2024_ai_writing.txt
+  ingest_path: chatprd_returns/s00146_2024_ai_writing_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: ChatPRD attach uses first 119,000 chars; full at source_exports/03_s00146_2024_ai_writing.txt.
+  attach_upload: attachments/03_s00146_2024_ai_writing_ATTACH.txt
+- slug: s40979_2024_ai_writing
+  title: AI / writing detection research (s40979-024-00155-6)
+  authors: []
+  year: 2024
+  source_type: paper
+  lane_hint: deai_removal
+  inbox_file: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/operator/inbox/s40979-024-00155-6
+    -- 883a2ebea644baff869e6ee49cd55b7e -- Anna’s Archive.pdf
+  format: pdf
+  bytes: 1789717
+  text_path: source_exports/04_s40979_2024_ai_writing.txt
+  ingest_path: chatprd_returns/s40979_2024_ai_writing_ingest.md
+  ingest_status: none
+  text_status: ready
+  wave: null
+  notes: ''
+  attach_upload: attachments/04_s40979_2024_ai_writing_ATTACH.txt

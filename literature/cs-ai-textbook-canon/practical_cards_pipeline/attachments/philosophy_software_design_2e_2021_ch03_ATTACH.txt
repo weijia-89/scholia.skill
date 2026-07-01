@@ -1,0 +1,505 @@
+philosophy_software_design_2e_2021_ch03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: philosophy_software_design_2e_2021 · chapter: 03
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/philosophy_software_design_2e_2021_ch03_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (philosophy_software_design_2e_2021_ch03_ingest.md)
+========================================================================
+
+# Chapter ingest — philosophy_software_design_2e_2021 · Chapter 3
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Working Code Isn't Enough (Strategic vs. Tactical Programming) |
+| **authors** | John K. Ousterhout |
+| **edition** | 2e (July 2021, v2.0) |
+| **ISBN_print** | 978-1-7321022-1-7 [verified from text, line 29] |
+| **ISBN_electronic** | not stated in text extract (digital epub/mobi noted at line 31; no separate e-ISBN) |
+| **chapter_number** | 3 |
+| **page_range** | not present in text extract — operator map from PDF |
+| **parent_book_title** | A Philosophy of Software Design, 2nd Edition |
+| **publisher** | Yaknyam Press [verified from text, line 17] |
+| **corpus_slug** | philosophy_software_design_2e_2021 |
+| **wave / track** | w1_foundation · track A |
+
+---
+
+## Scope
+
+Chapter 3 argues that **mindset**—tactical vs. strategic programming—is a first-order driver of software design quality. It builds directly on Chapter 2's claim that complexity is incremental, and frames the rest of the book's design heuristics as requiring a strategic, investment-oriented culture.
+
+**Sections ingested (text lines 928–1181):**
+
+| Section | Lines | Focus |
+|---------|-------|-------|
+| Chapter intro | 928–941 | Strategic vs. tactical mindset; long-run cost claim |
+| §3.1 Tactical programming | 943–999 | Short-sighted delivery; complexity accumulation; tactical tornado archetype |
+| §3.2 Strategic programming | 1001–1035 | Working code insufficient; proactive/reactive design investments |
+| §3.3 How much to invest? | 1037–1096 | 10–20% time rule; technical debt; Figure 3.1; payback opinion 6–18 months |
+| §3.4 Startups and investment | 1098–1161 | Startup pressure; Facebook/Google/VMware anecdotes; hiring quality |
+| §3.5 Conclusion | 1163–1180 | Continuous small investments; anti-deferral under crunch |
+
+**Out of scope for this ingest:** Chapters 1–2 (complexity definition), Chapters 4+ (modules, information hiding, etc.). Cross-references to Chapter 2 and forward chapters are noted but not summarized.
+
+---
+
+## Key findings
+
+All quotes **[verified from text]** unless tagged otherwise.
+
+### KF-1 — Tactical programming optimizes the wrong objective
+
+Tactical programming centers "getting something working" (features, bug fixes) at the expense of system design. Ousterhout treats this as initially reasonable but ultimately design-toxic:
+
+> "what could be more important than writing code that works? However, tactical programming makes it nearly impossible to produce a good system design." (lines 948–950)
+
+Under deadlines, planners skip "best design" search and accept "a bit of complexity or introduce a small kludge or two" (lines 957–958). Each task adds a few complexities; "the complexities accumulate rapidly, especially if everyone is programming tactically" (lines 963–968)—echoing Chapter 2's incremental-complexity thesis.
+
+### KF-2 — Tactical path becomes a ratchet: patches beget patches
+
+Once shortcuts land, refactoring loses to the next feature:
+
+> "it’s more important to get the next feature working than to go back and refactor existing code" (lines 972–973)
+
+Quick patches "just creates more complexity, which then requires more patches" until the codebase is "a mess" and cleanup would take "months of work" the schedule cannot absorb (lines 976–979). Starting tactically makes reversal "difficult to change" (lines 985–986).
+
+### KF-3 — The "tactical tornado" anti-pattern
+
+Organizations may celebrate a prolific fast shipper who "works in a totally tactical fashion" and "leave[s] behind a wake of destruction" (lines 989–995). Future maintainers clean up the mess, making them *appear* slower than the tornado—distorting performance signals (lines 997–999).
+
+### KF-4 — Strategic programming elevates design above "working code"
+
+Core normative claim:
+
+> "working code isn’t enough. It’s not acceptable to introduce unnecessary complexities in order to finish your current task faster." (lines 1004–1005)
+
+Primary goal becomes "the long-term structure of the system" because "most of the code in any system is written by extending the existing code base" (lines 1006–1008). Strategic programmers aim to "produce a great design, which also happens to work" (lines 1010–1011).
+
+### KF-5 — Investments are proactive and reactive
+
+**Proactive:** extra time for simpler class designs (try alternatives), anticipate future change, write documentation (lines 1020–1026).
+
+**Reactive:** when design mistakes surface, "don’t just ignore it or patch around it; take a little extra time to fix it" (lines 1030–1031). Strategic work "continually make[s] small improvements" vs. tactical continual small complexity additions (lines 1032–1035).
+
+### KF-6 — Quantified investment heuristic: 10–20% of development time
+
+Ousterhout rejects big up-front design (waterfall) in favor of emergent design via continual small investments:
+
+> "I suggest spending about 10–20% of your total development time on investments." (lines 1044–1045)
+
+Short-term: projects take 10–20% longer initially (lines 1047–1048). Medium-term: within "a few months" strategic teams develop "at least 10–20% faster" than tactical peers; past investments then "become free" (lines 1050–1055). Tactical teams finish first projects 10–20% faster but soon slow by at least 20% as complexity accumulates (lines 1067–1075).
+
+**Contested / unverified quantitative claims** (author flags uncertainty):
+
+- Figure 3.1 is "intended only as a qualitative illustration"; author is "not aware of any empirical measurements of the precise shapes of the curves" (lines 1063–1065).
+- Crossover payback period: "somewhere in the range of 6–18 months" — "just my opinion, and I don’t have any data to back it up" (lines 1089–1096).
+- Poor code quality slows development "by at least 20%" — anecdotal via "talk to someone who has" worked in degraded codebases (lines 1073–1075).
+
+### KF-7 — Technical debt framing
+
+> "The term technical debt is often used to describe the problems caused by tactical programming." (lines 1077–1078)
+
+Debt metaphor: borrow time now, repay more later. Unlike financial debt, "most technical debt is never fully repaid: you’ll keep paying and paying forever" (lines 1081–1082).
+
+### KF-8 — Startup context: tactical shortcuts may not even win first release
+
+Early-stage startups under release pressure may skip even 10–20% investment (lines 1100–1105). Ousterhout warns spaghetti is "nearly impossible to fix" and bad design payoff arrives "pretty quickly," so tactical approach may not accelerate first release (lines 1110–1114).
+
+**Hiring argument:** best engineers care about design; wrecked codebases harm recruiting, yielding mediocre engineers and further structural decay (lines 1116–1124).
+
+### KF-9 — Facebook vs. Google/VMware case narratives
+
+**Facebook (tactical):** motto "Move fast and break things"; new hires pushing production commits in week one; culture of latitude with "few rules and restrictions" (lines 1126–1133). Company succeeded commercially but codebase "unstable and hard to understand, with few comments or tests, and painful to work with" (lines 1135–1138). Later motto shift to "Move fast with solid infrastructure" (lines 1139–1140); long-term cleanup success "remains to be seen" (lines 1141–1142). Author notes Facebook "probably isn’t much worse than average among startups" (lines 1145–1147).
+
+**Google and VMware (strategic):** contemporaries emphasizing "high quality code and good design," sophisticated reliable systems, strong technical cultures, hiring advantage for top talent (lines 1150–1157).
+
+**Contested claim:** "a company can succeed with either approach" (lines 1159–1160) — success attribution is narrative, not controlled study; selection bias and market timing not addressed in chapter.
+
+### KF-10 — Cultural consistency under crunch
+
+Conclusion stresses investment "today, not tomorrow." Deferring cleanups during crunch is a "slippery slope" of recurring crunches; delays become permanent and culture slips tactical (lines 1171–1176). Effective model: "every engineer makes continuous small investments in good design" (lines 1179–1180).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| **source_path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/philosophy_software_design_2e_2021.txt` |
+| **lines_read** | 928–1181 (inclusive) |
+| **wrong_file_flag** | false |
+| **chapter_boundary** | Starts `Chapter 3` (line 928); ends before Chapter 4 content (line 1182 is blank; Ch. 4 begins later in file) |
+| **sections_complete** | §3.1–§3.5 + chapter intro + conclusion — all present in slice |
+| **figures** | Figure 3.1 referenced (lines 1057–1065); image placeholder `[]` in text — qualitative only |
+| **deferred** | Page numbers; Figure 3.1 graphic; external validation of Facebook/Google claims; Ch. 2 complexity theory detail |
+
+---
+
+## Pedagogy
+
+### learning_objectives
+
+After this chapter, a reader should be able to:
+
+1. **Distinguish** tactical programming (finish task fast, accept incremental complexity) from strategic programming (optimize long-term structure, accept short-term slowdown).
+2. **Explain** why tactical shortcuts compound into unmaintainable systems using the incremental-complexity link to Chapter 2.
+3. **Identify** organizational anti-patterns (tactical tornado, hero worship of fast committers) and their measurement distortions.
+4. **Apply** the 10–20% investment heuristic and categorize investments as proactive vs. reactive.
+5. **Evaluate** startup and team-culture arguments for/against strategic investment, including hiring and technical-debt tradeoffs.
+6. **Recognize** author-stated limits on empirical backing for productivity curves and payback timelines.
+
+### worked_examples_present
+
+**N** — No code walkthroughs, exercises, or step-by-step procedural demos. The chapter is argument + organizational case narrative. Figure 3.1 is a qualitative productivity curve illustration without numeric data or worked calculation.
+
+### exercise_hooks
+
+| Hook | Type | Prompt sketch |
+|------|------|---------------|
+| **E-3.1 Tactical audit** | reflection | Review a recent PR you shipped under deadline: list compromises accepted "to finish quickly." Which are reversible in <1 day vs. which encode permanent complexity? |
+| **E-3.2 Investment ledger** | time-box | For one sprint, log hours spent on proactive design (alternatives considered, docs, tests) vs. reactive fixes. Compare to 10–20% guideline. |
+| **E-3.3 Tornado postmortem** | team | Map modules with highest churn + lowest test coverage. Who authored them? Does velocity attribution reward tactical tornadoes? |
+| **E-3.4 Payback debate** | structured disagreement | In groups, argue for/against 6–18 month strategic payback using only evidence from your org (not Ousterhout's opinion). What would falsify each side? |
+| **E-3.5 Startup scenario** | case | Given a pre-revenue startup with 3-month runway, design a *minimum* strategic investment policy that avoids spaghetti while shipping — explicit tradeoff table. |
+| **E-3.6 Cross-canon** | synthesis | Contrast this chapter's "continuous 10–20% investment" with DDIA 2e / AIE operational maturity themes: where do they align on deferred-work risk? |
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 3 is the **cultural prerequisite** for the entire Ousterhout design vocabulary in later chapters (deep modules, information hiding, comments, etc.). Without accepting that working code is insufficient and that design investment is ongoing, subsequent chapters read as optional polish rather than core engineering duty.
+
+For **w1_foundation** canon stack, this chapter bridges:
+
+- **Grokking Algorithms 2e** — correctness/efficiency at algorithm level ≠ sustainable system structure.
+- **AI Engineering 2025 / Hands-On LLMs 2024** — fast iteration on models, prompts, and agents without strategic codebase discipline reproduces the tactical tornado pattern at LLM-product scale.
+- **DDIA 2e** — distributed systems complexity makes tactical accumulation especially costly; investment mindset aligns with operability and evolution chapters (pattern-portable; not ingested here).
+
+**Prerequisite established:** incremental complexity + investment mindset + anti-deferral under crunch.
+
+### 2. MDCalc alignment
+
+**[peripheral]**
+
+Chapter is general software-design philosophy, not clinical AI, agents, trace/eval observability, or regulated deployment. Portable patterns only:
+
+- Tactical pressure to ship features maps to **rushed agent/tool integrations** without eval harnesses or traceability — structurally similar to "patches beget patches."
+- "Best engineers care about design" recruiting argument is relevant to **team quality** for any health-tech AI work, but chapter does not discuss HIPAA, FDA, clinical validation, or monitoring.
+
+No MDCalc production-stack claims. For agent-monitoring canon, link is metaphorical (invest in observability infrastructure early vs. borrow time) — operator must not treat this chapter as clinical-AI authority.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Distinction |
+|-------------|---------|-------------|
+| **FSA 2e / Clean Code traditions** | code quality, debt, maintainability | Ousterhout foregrounds *organizational mindset* and quantified time-investment rule; less style-level prescription |
+| **DDIA 2e** | complexity, operability, evolution | DDIA is domain/architecture-specific; Ch. 3 is pre-architecture culture |
+| **AI Engineering 2025** | fast shipping pressure in AI products | AIE covers LLM lifecycle; this chapter is language/framework agnostic |
+| **Designing ML Systems / Kästner ML in Production** | tech debt, production maturity | MLops books operationalize debt in pipelines; Ch. 3 states the *why* before *how* |
+| **Understanding Distributed Systems 2022** | cites Ousterhout's book [not in this slice] | potential backlink — verify in that title's ingest |
+
+**Low redundancy within w1 for this specific arg
+
+[TRUNCATED at 14000 chars — full ingest on disk]
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/philosophy_software_design_2e_2021_ch03_SLICE.txt)
+========================================================================
+
+# Text slice — philosophy_software_design_2e_2021_ch03_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: philosophy_software_design_2e_2021 · chapter: 03
+# hooks: 7 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Chapter 3
+
+Working Code Isn’t Enough
+
+(Strategic vs. Tactical Programming)
+
+One of the most important elements of good software design is the
+mindset you adopt when you approach a programming task. Many
+organizations encourage a tactical mindset, focused on getting features
+working as quickly as possible. However, if you want a good design, you
+must take a more strategic approach where you invest time to produce
+clean designs and fix problems. This chapter discusses why the strategic
+approach produces better designs and is actually cheaper than the
+tactical approach over the long run.
+
+3.1  Tactical programming
+
+Most programmers approach software development with a mindset I call
+tactical programming. In the tactical approach, your main focus is to
+get something working, such as a new feature or a bug fix. At first
+glance this seems totally reasonable: what could be more important than
+writing code that works? However, tactical programming makes it nearly
+impossible to produce a good system design.
+
+The problem with tactical programming is that it is short-sighted. If
+you’re programming tactically, you’re trying to finish a task as quickly
+as possible. Perhaps you have a hard deadline. As a result, planning for
+the future isn’t a priority. You don’t spend much time looking for the
+best design; you just want to get something working soon. You tell
+yourself that it’s OK to add a bit of complexity or introduce a small
+kludge or two, if that allows the current task to be completed more
+quickly.
+
+This is how systems become complicated. As discussed in the previous
+chapter, complexity is incremental. It’s not one particular thing that
+makes a system complicated, but the accumulation of dozens or hundreds
+of small things. If you program tactically, each programming task will
+contribute a few of these complexities. Each of them probably seems like
+a reasonable compromise in order to finish the current task quickly.
+However, the complexities accumulate rapidly, especially if everyone is
+programming tactically.
+
+Before long, some of the complexities will start causing problems, and
+you will begin to wish you hadn’t taken those early shortcuts. But, you
+will tell yourself that it’s more important to get the next feature
+working than to go back and refactor existing code. Refactoring may help
+out in the long run, but it will definitely slow down the current task.
+So, you look for quick patches to work around any problems you
+encounter. This just creates more complexity, which then requires more
+patches. Pretty soon the code is a mess, but by this point things are so
+bad that it would take months of work to clean it up. There’s no way
+your schedule can tolerate that kind of delay, and fixing one or two of
+the problems doesn’t seem like it will make much difference, so you just
+keep programming tactically.
+
+If you have worked on a large software project for very long, I suspect
+you have seen tactical programming at work and have experienced the
+problems that result. Once you start down the tactical path, it’s
+difficult to change.
+
+Almost every software development organization has at least one
+developer who takes tactical programming to the extreme: a tactical
+tornado. The tactical tornado is a prolific programmer who pumps out
+code far faster than others but works in a totally tactical fashion.
+When it comes to implementing a quick feature, nobody gets it done
+faster than the tactical tornado. In some organizations, management
+treats tactical tornadoes as heroes. However, tactical tornadoes leave
+behind a wake of destruction. They are rarely considered heroes by the
+engineers who must work with their code in the future. Typically, other
+engineers must clean up the messes left behind by the tactical tornado,
+which makes it appear that those engineers (who are the real heroes) are
+making slower progress than the tactical tornado.
+
+3.2  Strategic programming
+
+The first step towards becoming a good software designer is to realize
+that working code isn’t enough. It’s not acceptable to introduce
+unnecessary complexities in order to finish your current task faster.
+The most important thing is the long-term structure of the system. Most
+of the code in any system is written by extending the existing code
+base, so your most important job as a developer is to facilitate those
+future extensions. Thus, you should not think of “working code” as your
+primary goal, though of course your code must work. Your primary goal
+must be to produce a great design, which also happens to work. This is
+strategic programming.
+
+Strategic programming requires an investment mindset. Rather than taking
+the fastest path to finish your current project, you must invest time to
+improve the design of the system. These investments will slow you down a
+bit in the short term, but they will speed you up in the long term, as
+illustrated in Figure 3.1.
+
+Some of the investments will be proactive. For example, it’s worth
+taking a little extra time to find a simple design for each new class;
+rather than implementing the first idea that comes to mind, try a couple
+of alternative designs and pick the cleanest one. Try to imagine a few
+ways in which the system might need to be changed in the future and make
+sure that will be easy with your design. Writing good documentation is
+another example of a proactive investment.
+
+Other investments will be reactive. No matter how much you invest up
+front, there will inevitably be mistakes in your design decisions. Over
+time, these mistakes will become obvious. When you discover a design
+problem, don’t just ignore it or patch around it; take a little extra
+time to fix it. If you program strategically, you will continually make
+small improvements to the system design. This is the opposite of
+tactical programming, where you are continually adding small bits of
+complexity that cause problems in the future.
+
+3.3  How much to invest?
+
+So, what is the right amount of investment? A huge up-front investment,
+such as trying to design the entire system, won’t be effective. This is
+the waterfall method, and we know it doesn’t work. The ideal design
+tends to emerge in bits and pieces, as you get experience with the
+system. Thus, the best approach is to make lots of small investments on
+a continual basis. I suggest spending about 10–20% of your total
+development time on investments. This amount is small enough that it
+won’t impact your schedules significantly, but large enough to produce
+significant benefits over time. Your initial projects will thus take
+10–20% longer than they would in a purely tactical approach. That extra
+time will result in a better software design, and you will start
+experiencing the benefits within a few months. It won’t be long before
+you’re developing at least 10–20% faster than you would if you had
+programmed tactically. At this point your investments become free: the
+benefits from your past investments will save enough time to cover the
+cost of future investments. You will quickly recover the cost of the
+initial investment. Figure 3.1 illustrates this phenomenon.
+
+[]
+
+Figure 3.1: At the beginning, a tactical approach to programming will
+make progress more quickly than a strategic approach. However,
+complexity accumulates more rapidly under the tactical approach, which
+reduces productivity. Over time, the strategic approach results in
+greater progress. Note: this figure is intended only as a qualitative
+illustration; I am not aware of any empirical measurements of the
+precise shapes of the curves.
+
+Conversely, if you program tactically, you will finish your first
+projects 10–20% faster, but over time your development speed will slow
+as complexity accumulates. It won’t be long before you’re programming at
+least 10–20% slower. You will quickly give back all of the time you
+saved at the beginning, and for the rest of system’s lifetime you will
+be developing more slowly than if you had taken the strategic approach.
+If you haven’t ever worked in a badly degraded code base, talk to
+someone who has; they will tell you that poor code quality slows
+development by at least 20%.
+
+The term technical debt is often used to describe the problems caused by
+tactical programming. By programming tactically you are borrowing time
+from the future: development will go more quickly now, but more slowly
+later on. As with financial debt, the amount you pay back will exceed
+the amount you borrowed. Unlike financial debt, most technical debt is
+never fully repaid: you’ll keep paying and paying forever.
+
+Figure 3.1 raises an important question: where is the crossover point
+between the strategic and tactical curves? In other words, how long does
+it take before the strategic approach has paid for itself? Unfortunately
+I am not aware of any data on this topic, and it would be difficult to
+perform the kind of controlled experiment needed to answer the question
+in a convincing fashion. My personal opinion is that the time to payback
+is somewhere in the range of 6–18 months. This has a lot to do with
+developers’ memory: by the time a piece of code is a few months old,
+developers have forgotten most of what was in their minds when they
+wrote it, so development will slow down significantly if the code is
+complex. These additional costs quickly compensate for any initial gains
+from strategic programming. Again, this is just my opinion, and I don’t
+have any data to back it up.
+
+3.4  Startups and investment
+
+In some environments there are strong forces working against the
+strategic approach. For example, early-stage startups feel tremendous
+pressure to get their early releases out quickly. In these companies, it
+might seem that even a 10–20% investment isn’t affordable. As a result,
+many startups take a tactical approach, spending little effort on design
+and even less on cleanup when problems pop up. They rationalize this
+with the thought that, if they are successful, they’ll have enough money
+to hire extra engineers to clean things up.
+
+If you are in a company leaning in this direction, you should realize
+that once a code base turns to spaghetti, it is nearly impossible to
+fix. You will probably pay high development costs for the life of the
+product. Furthermore, the payoff for good (or bad) design comes pretty
+quickly, so there’s a good chance that the tactical approach won’t even
+speed up your first product release.
+
+Another thing to consider is that one of the most important factors for
+success of a company is the quality of its engineers. The best way to
+lower development costs is to hire great engineers: they don’t cost much
+more than mediocre engineers but have tremendously higher productivity.
+However, the best engineers care deeply about good design. If your code
+base is a wreck, word will get out, and this will make it harder for you
+to recruit. As a result, you are likely to end up with mediocre
+engineers. This will increase your future costs and probably cause the
+system structure to degrade even more.
+
+Facebook is an example of a startup that encouraged tactical
+programming. For many years the company’s motto was “Move fast and break
+things.” New engineers fresh out of college were encouraged to dive
+immediately into the company’s code base; it was normal for engineers to
+push commits into production in their first week on the job. On the
+positive side, Facebook developed a reputation as a company that
+empowered its employees. Engineers had tremendous latitude, and there
+were few rules and restrictions to get in their way.
+
+Facebook has been spectacularly successful as a company, but its code
+base suffered because of the company’s tactical approach; much of the
+code was unstable and hard to understand, with few comments or tests,
+and painful to work with. Over time the company realized that its
+culture was unsustainable. Eventually, Facebook changed its motto to
+“Move fast with solid infrastructure” to encourage its engineers to
+invest more in good design. It remains to be seen whether Facebook can
+successfully clean up the problems that accumulated over years of
+tactical programming.
+
+In fairness to Facebook, I should point out that Facebook’s code
+probably isn’t much worse than average among startups. Tactical
+programming is commonplace among startups; Facebook just happens to be a
+particularly visible example.
+
+Fortunately, it is also possible to succeed in Silicon Valley with a
+strategic approach. Google and VMware grew up around the same time as
+Facebook, but both of these companies embraced a more strategic
+approach. Both companies placed a heavy emphasis on high quality code
+and good design, and both companies built sophisticated products that
+solved complex problems with reliable software systems. The companies’
+strong technical cultures became well known in Silicon Valley. Few other
+companies could compete with them for hiring the top technical talent.
+
+These examples show that a company can succeed with either approach.
+However, it’s a lot more fun to work in a company that cares about
+software design and has a clean code base.
+
+3.5  Conclusion
+
+Good design doesn’t come for free. It has to be something you invest in
+continually, so that small problems don’t accumulate into big ones.
+Fortunately, good design eventually pays for itself, and sooner than you
+might think.
+
+It’s crucial to be consistent in applying the strategic approach and to
+think of investment as something to do today, not tomorrow. When you get
+in a crunch it will be tempting to put off cleanups until after the
+crunch is over. However, this is a slippery slope; after the current
+crunch there will almost certainly be another one, and another after
+that. Once you start delaying design improvements, it’s easy for the
+delays to become permanent and for your culture to slip into the
+tactical approach. The longer you wait to address design problems, the
+bigger they become; the solutions become more intimidating, which makes
+it easy to put them off even more. The most effective approach is one
+where every engineer makes continuous small investments in good design.
+
+

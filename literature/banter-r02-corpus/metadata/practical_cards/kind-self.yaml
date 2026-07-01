@@ -1,0 +1,70 @@
+# R-02 practical cards — kind-self (P-II)
+pillar_moniker: kind-self
+pillar_ids: [P-II]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#kind-self
+
+source_ingests:
+  - literature/ingests/fleming_2013_mindfulness_sa_workbook_ch08_chapter_ingest.md
+  - literature/ingests/cohen_2025_shame_sa_ch08_chapter_ingest.md
+  - literature/ingests/kolakowski_2015_single_shy_love_ch04_chapter_ingest.md
+
+cards:
+  - exercise_name: Exercise 8.1 Loving-Kindness
+    steps:
+      - Sit quietly and bring attention to breath or body anchor (B15 Ch8 Exercise 8.1).
+      - Direct compassionate phrases toward yourself — acknowledge struggle without fixing (B15 loving-kindness protocol).
+      - Extend phrases to a neutral person, then a difficult person only if stable — return to self if activated (B15 Ch8).
+      - Close by noting one values-aligned social step for the next day (B15 roadblocks + maintenance).
+    cognitive_frame: Self-compassion is training reps, not a reward for perfect performance — brief online format matched CT for SA in Stevenson et al. (2019) `[cap 55]`.
+    observables:
+      - Operator uses self-compassion before rewriting messages after awkward ask
+      - Reduced shame-spiral silence after rejection
+      - Returns to approach on sane timeline after self-kindness pause
+    contraindications:
+      - self-compassion used to avoid necessary boundary respect
+      - replacing exposure with affirmation-only practice
+    source_anchor: C-B15_CH08-006 · fleming_2013_mindfulness_sa_workbook_ch08_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#kind-self
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Pride and Gratitude Log
+    steps:
+      - Daily (~5 min) list specific positive events from the day — brief format to lower writing avoidance (B18 Ch8).
+      - Add strength attribution — link micro-win to enduring quality (e.g., engaging conversationalist, bravery) (B18 strength step).
+      - Optionally plan one small positive action for next day integrated with experiment evidence (B18 planned positive action).
+      - Periodically reread log when mood dips — feelings may lag behind logging initially (B18 Ch8).
+    cognitive_frame: Shame-rooted SA needs pride and gratitude alongside exposure — counter negativity bias without denying real setbacks.
+    observables:
+      - Operator logs social attempts including imperfect ones
+      - Less global "socially broken" self-label after rejection
+    contraindications:
+      - log used as impression-management evidence for others
+      - skipping log to ruminate instead
+    source_anchor: C-B18_CH08-006 · cohen_2025_shame_sa_ch08_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#kind-self
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Reflecting on Your Dating Experiences with Compassionate Attention
+    steps:
+      - After a dating interaction, recall what happened without fusion to worst interpretation (Kolakowski Ch4 hook).
+      - Notice shame or self-conscious postmortem thoughts — label as thoughts, not identity (Kolakowski Labeling Self-Conscious Thoughts).
+      - Apply compassionate attention — what would you say to a friend in the same situation? (Kolakowski Reflecting hook).
+      - Identify one learning point and one values-aligned next step — not a message rewrite (Kolakowski σ−).
+    cognitive_frame: Post-event review is data collection with kindness — not a tribunal proving unworthiness.
+    observables:
+      - Debrief focuses on behavior and values, not mind-reading her verdict
+      - Operator avoids ghosting self after awkward moment when values favor repair or re-approach
+    contraindications:
+      - rumination as recon for chase planning
+      - send-ready script generation in debrief
+    source_anchor: C-B02_CH07-004 · kolakowski_2015_single_shy_love_ch04_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#kind-self
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full

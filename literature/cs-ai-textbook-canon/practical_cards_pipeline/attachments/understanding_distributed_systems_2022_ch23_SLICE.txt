@@ -1,0 +1,444 @@
+# Text slice — understanding_distributed_systems_2022_ch23_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 23
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+or management endpoint to add, remove and conﬁgure API keys
+used to rate-limit requests. Unsurprisingly, the request volume for
+the conﬁguration endpoint is a lot lower than the one for the main
+endpoint(s), and a lower scale would sufﬁce to handle it. And
+while the gateway needs to prefer availability and performance
+over consistency for routing external requests to internal services,
+it should prefer consistency over availability for requests sent to
+the management endpoint.
+
+Because of these different and competing requirements, we could
+split the API gateway into a data plane service that serves external
+requests directed towards our internal services and a control plane
+service that manages the gateway’s metadata and conﬁguration.
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                                210
+
+
+As it turns out, this split is a common pattern1 . For example, in
+chain replication in section 10.4, the control plane holds the conﬁg-
+uration of the chains. And in Azure Storage, which we discussed
+in chapter 17, the stream and partition managers are control planes
+that manage the allocation of streams and partitions to storage and
+partition servers, respectively.
+
+More generally, a data plane includes any functionality on the criti-
+cal path that needs to run for each client request. Therefore, it must
+be highly available, fast, and scale with the number of requests.
+In contrast, a control plane is not on the critical path and has less
+strict scaling requirements. Its main job is to help the data plane do
+its work by managing metadata or conﬁguration and coordinating
+complex and infrequent operations. And since it generally needs
+to offer a consistent view of its state to the data plane, it favors
+consistency over availability.
+
+An application can have multiple independent control and data
+planes. For example, a control plane might be in charge of scaling
+a service up or down based on load, while another manages its
+conﬁguration.
+
+But separating the control plane from the data plane introduces
+complexity. The data plane needs to be designed to withstand
+control plane failures for the separation to be robust. If the data
+plane stops serving requests when the control plane becomes un-
+available, we say the former has a hard dependency on the latter. In-
+tuitively, the entire system becomes unavailable if either the con-
+trol plane or the data plane fails. More formally, when we have
+a chain of components that depend on each other, the theoretical
+availability of the system is the product of the availabilities of its
+components.
+
+For example, if the data plane has a theoretical availability of
+99.99%, but the control plane has an availability of 99%, then the
+overall system can only achieve a combined availability of 98.99%:
+
+   1
+     “Control Planes vs Data Planes,” https://brooker.co.za/blog/2019/03/17/co
+ntrol.html
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                                 211
+
+
+
+
+                         0.9999 ⋅ 0.99 = 0.9899
+
+In other words, a system can at best be only as available as its
+least available hard dependency. We can try to make the control
+plane more reliable, but more importantly, we should ensure that
+the data plane can withstand control plane failures. If the control
+plane is temporarily unavailable, the data plane should continue
+to run with a stale conﬁguration rather than stop. This concept is
+also referred to as static stability.
+
+
+22.1      Scale imbalance
+Generally, data planes and control planes tend to have very differ-
+ent scale requirements. This creates a risk as the data plane can
+overload2 the control plane.
+
+Suppose the control plane exposes an API that the data plane pe-
+riodically queries to retrieve the latest conﬁguration. Under nor-
+mal circumstances, you would expect the requests to the control
+plane to be spread out in time more or less uniformly. But, in some
+cases, they can cluster within a short time interval. For example,
+if, for whatever reason, the processes that make up the data plane
+are restarted at the same time and must retrieve the conﬁguration
+from the control plane, they could overload it.
+
+Although the control plane can defend itself to some degree with
+the resiliency mechanisms described in chapter 28, eventually, it
+will start to degrade. If the control plane becomes unavailable be-
+cause of overload or any other reason (like a network partition), it
+can take down the data plane with it.
+
+Going back to the previous example, if part of the data plane is
+trying to start but can’t reach the control plane because it’s over-
+loaded, it won’t be able to come online. So how can we design
+around that?
+   2
+    “Avoiding overload in distributed systems by putting the smaller service in
+control,” https://aws.amazon.com/builders- library/avoiding- overload- in-
+distributed-systems-by-putting-the-smaller-service-in-control/
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                               212
+
+
+One way is to use a scalable ﬁle store, like Azure Storage or S3, as
+a buffer between the control plane and the data plane. The control
+plane periodically dumps its entire state to the ﬁle store regardless
+of whether it changed, while the data plane reads the state peri-
+odically from it (see Figure 22.1). Although this approach sounds
+naive and expensive, it tends to be reliable and robust in practice.
+And, depending on the size of the state, it might be cheap too.3
+
+
+
+
+Figure 22.1: The intermediate data store protects the control plane
+by absorbing the load generated by the data plane.
+
+Introducing an intermediate store as a buffer decouples the control
+plane from the data plane and protects the former from overload.
+It also enables the data plane to continue to operate (or start) if
+the control plane becomes unavailable. But this comes at the cost
+of higher latencies and weaker consistency guarantees, since the
+time it takes to propagate changes from the control plane to the
+data plane will necessarily increase.
+To decrease the propagation latency, a different architecture is
+needed in which there is no intermediary. The idea is to have
+the data plane connect to the control plane, like in our original
+approach, but have the control plane push the conﬁguration
+whenever it changes, rather than being at the mercy of periodic
+queries from the data plane. Because the control plane controls
+the pace, it will slow down rather than fall over when it can’t keep
+  3
+      This is another example of the CQRS pattern applied in practice.
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                                          213
+
+
+up.4
+
+
+To further reduce latencies and load, the control plane can ver-
+sion changes and push only updates/deltas to the data plane. Al-
+though this approach is more complex to implement, it signiﬁ-
+cantly reduces the propagation time when the state is very large.
+
+
+However, the control plane could still get hammered if many data
+plane instances start up around the same time (due to a massive
+scale-out or restart) and try to read the entire conﬁguration from
+the control plane for the ﬁrst time. To defend against this, we can
+reintroduce an intermediate data store that contains a recent snap-
+shot of the control plane’s state. This allows the data plane to read
+a snapshot from the store at startup and then request only a small
+delta from the control plane (see Figure 22.2).
+
+
+
+
+Figure 22.2: The intermediate data store absorbs the load of bulk
+reads, while the control plane pushes small deltas to the data plane
+whenever the state changes.
+
+
+
+
+   4
+     That said, there is still the potential to overload the control plane if it needs to
+juggle too many connections.
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                                       214
+
+
+22.2       Control theory
+Control theory gives us another5 way to think about control planes
+and data planes. In control theory, the goal is to create a controller
+that monitors a dynamic system, compares its state to the desired
+one, and applies a corrective action to drive the system closer to it
+while minimizing any instabilities on the way.
+
+In our case, the data plane is the dynamic system we would like to
+drive to the desired state, while the controller is the control plane
+responsible for monitoring the data plane, comparing it to the de-
+sired state, and executing a corrective action if needed.
+
+The control plane and the data plane are part of a feedback loop.
+And without all three ingredients (monitor, compare, and action),
+you don’t have a closed loop, and the data plane can’t reach the
+desired state6 . The monitoring part is the most commonly missing
+ingredient to achieve a closed loop.
+
+Take chain replication, for example. The control plane’s job
+shouldn’t be just to push the conﬁguration of the chains to the
+data plane. It should also monitor whether the data plane has
+actually applied the conﬁguration within a reasonable time. If it
+hasn’t, it should perform some corrective action, which could be
+as naive as rebooting nodes with stale conﬁgurations or excluding
+them from being part of any chain.
+
+A more mundane example of a control plane is a CI/CD pipeline
+for releasing a new version of a service without causing any disrup-
+tion. One way to implement the pipeline is to deploy and release a
+new build blindly without monitoring the running service — the
+build might throw an exception at startup that prevents the ser-
+vice from starting, resulting in a catastrophic failure. Instead, the
+pipeline should release the new build incrementally while moni-
+toring the service and stop the roll-out if there is clear evidence that
+   5
+     “AWS re:Invent 2018: Close Loops & Opening Minds: How to Take Control of
+Systems, Big & Small ARC337,” https://www.youtube.com/watch?v=O8xLxNj
+e30M
+   6
+     That said, having a closed loop doesn’t guarantee that either, it’s merely a pre-
+requisite.
+
+CHAPTER 22. CONTROL PLANES AND DATA PLANES                           215
+
+
+something is off, and potentially also roll it back automatically.
+To sum up, when dealing with a control plane, ask yourself what’s
+missing to close the loop. We have barely scratched the surface
+of the topic, and if you want to learn more about it, “Designing
+Distributed Control Systems”7 is a great read.
+
+
+
+
+  7
+    “Designing Distributed Control Systems,” https://www.amazon.com/gp/pr
+oduct/1118694155
+
+
+Chapter 23
+
+Messaging
+
+Suppose Cruder has an endpoint that allows users to upload a
+video and encode it in different formats and resolutions tailored
+to speciﬁc devices (TVs, mobile phones, tablets, etc.). When the
+API gateway receives a request from a client, it uploads the video
+to a ﬁle store, like S3, and sends a request to an encoding service
+to process the ﬁle.
+
+Since the encoding can take minutes to complete, we would like
+the API gateway to send the request to the encoding service with-
+out waiting for the response. But the naive implementation (ﬁre-
+and-forget) would cause the request to be lost if the encoding ser-
+vice instance handling it on the other side crashes or fails for any
+reason.
+
+A more robust solution is to introduce a message channel between
+the API gateway and the encoding service. Messaging was ﬁrst in-
+troduced in chapter 5 when discussing APIs. It’s a form of indirect
+communication in which a producer writes a message to a channel
+— or message broker — that delivers the message to a consumer
+on the other end.
+
+A message channel acts as a temporary buffer for the receiver. Un-
+like the direct request-response communication style we have been
+using so far, messaging is inherently asynchronous, as sending a
+
+CHAPTER 23. MESSAGING                                           218
+
+
+message doesn’t require the receiving service to be online. The
+messages themselves have a well-deﬁned format, consisting of a
+header and a body. The message header contains metadata, such
+as a unique message ID, while the body contains the actual con-
+tent.
+
+Typically, a message can either be a command, which speciﬁes
+an operation to be invoked by the receiver, or an event, which
+signals the receiver that something of interest happened to the
+sender. A service can use inbound adapters to receive messages
+from channels and outbound adapters to send messages to chan-
+nels, as shown in Figure 23.1.
+
+
+
+
+Figure 23.1: The message consumer (an inbound adapter) is part
+of the API surface of the service.
+
+After the API gateway has uploaded the video to the ﬁle store, it
+writes a message to the channel with a link to the uploaded ﬁle and
+responds with 202 Accepted, signaling to the client that the request
+has been accepted for processing but hasn’t completed yet. Even-
+tually, the encoding service will read the message from the chan-
+nel and process it. Because the request is deleted from the channel
+only when it’s successfully processed, the request will eventually
+be picked up again and retried if the encoding service fails to han-
+
+CHAPTER 23. MESSAGING                                            219
+
+
+dle it.
+
+Decoupling the API gateway (producer) from the encoding service
+(consumer) with a channel provides many beneﬁts. The producer
+can send requests to the consumer even if the consumer is tem-
+porarily unavailable. Also, requests can be load-balanced across a
+pool of consumer instances, making it easy to scale out the consum-
+ing side. And because the consumer can read from the channel at
+its own pace, the channel smooths out load spikes, preventing it
+from getting overloaded.
+
+Another beneﬁt is that messaging enables to process multiple mes-
+sages within a single batch or unit of work. Most messaging brokers
+support this pattern by allowing clients to fetch up to N messages
+with a single read request. Although batching degrades the pro-
+cessing latency of individual messages, it dramatically improves
+the application’s throughput. So when we can afford the extra la-
+tency, batching is a no brainer.
+
+In general, a message channel allows any number of producer and
+consumer instances to write and read from it. But depending on
+how the channel delivers a message, it’s classiﬁed as either point-
+to-point or publish-subscribe. In a point-to-point channel, the mes-
+sage is delivered to exactly one consumer instance. Instead, in a
+publish-subscribe channel, each consumer instance receives a copy
+of the message.
+
+Unsurprisingly, introducing a message channel adds complexity.
+The message broker is yet another service that needs to be main-
+tained and operated. And because there is an additional hop be-
+tween the producer and consumer, the communication latency is
+necessarily going to be higher; more so if the channel has a large
+backlog of messages waiting to be processed. As always, it’s all
+about tradeoffs.
+
+Because messaging is a core pattern of distributed systems, we will
+take a closer look at it in this chapter, starting with the most com-
+mon communication styles it enables.
+
+One-way messaging
+
+CHAPTER 23. MESSAGING                                             220
+
+
+In this messaging style, the producer writes a message to a point-
+to-point channel with the expectation that a consumer will eventu-
+ally read and process it (see Figure 23.2). This is the style we used
+in the example earlier.
+
+
+
+
+              Figure 23.2: One-way messaging style
+
+
+Request-response messaging
+
+This messaging style is similar to the direct request-response style
+we are familiar with, albeit with the difference that the request
+and response messages ﬂow through channels. The consumer has
+a point-to-point request channel from which it reads messages,
+while every producer has its dedicated response channel (see
+Figure 23.3).
+
+When a producer writes a message to the request channel, it dec-
+orates it with a request ID and a reference to its response chan-
+nel. Then, after a consumer has read and processed the message,
+it writes a reply to the producer’s response channel, tagging it with
+the request’s ID, which allows the producer to identify the request
+it belongs to.
+
+Broadcast messaging
+
+In this messaging style, the producer writes a message to a publish-
+subscribe channel to broadcast it to all consumer instances (see Fig-
+ure 23.4). This style is generally used to notify a group of processes
+that a speciﬁc event has occurred. For example, we have already
+encountered this pattern when discussing the outbox pattern in
+section 13.1.
+
+CHAPTER 23. MESSAGING                                            221
+
+
+
+
+          Figure 23.3: Request-response messaging style
+
+
+
+
+              Figure 23.4: Broadcast messaging style
+
+
+23.1     Guarantees
+A message channel is implemented by a messaging service, or bro-
+ker, like AWS SQS1 or Kafka, which buffers messages and decou-
+ples the producer from the consumer. Different message brokers
+offer different guarantees depending on the tradeoffs their imple-
+mentations make. For example, you would think that a channel
+should respect the insertion order of its messages, but you will
+ﬁnd that some implementations, like SQS standard queues2 , don’t
+offer any strong ordering guarantees. Why is that?
+
+Because a message broker needs to scale horizontally just like
+  1
+   “Amazon Simple Queue Service,” https://aws.amazon.com/sqs/
+  2
+   “Amazon SQS Standard queues,” https://docs.aws.amazon.com/AWSSimpl
+eQueueService/latest/SQSDeveloperGuide/standard-queues.html
+
+CHAPTER 23. MESSAGING                                                           222
+
+
+the applications that use it, its implementation is necessarily
+distributed. And when multiple nodes are involved, guaranteeing
+order becomes challenging, as some form of coordination is
+required. Some brokers, like Kafka, partition a channel into
+multiple sub-channels. So when messages are written to the
+channel, they are routed to sub-channels based on their partition
+key. Since each partition is small enough to be handled by a single
+broker process, it’s trivial to enforce an ordering of the messages
+routed to it. But to guarantee that the message order is preserved
+end-to-end, only a single consumer process is allowed to read
+from a sub-channel3 .
+
+Because the channel is partitioned, all the caveats discussed in
+chapter 16 apply to it. For example, a partition could become
+hot enough (due to the volume of incoming messages) that the
+consumer reading from it can’t keep up with the load. In this
+case, the channel might have to be rebalanced by adding more
+partitions, potentially degrading the broker while messages are
+being shufﬂed across partitions. It should be clear by now why not
+guaranteeing the order of messages makes the implementation of
+a broker much simpler.
+
+Ordering is just one of the many tradeoffs a broker needs to make,
+such as:
+
+    • delivery guarantees, like at-most-once or at-least-once;
+    • message durability guarantees;
+    • latency;

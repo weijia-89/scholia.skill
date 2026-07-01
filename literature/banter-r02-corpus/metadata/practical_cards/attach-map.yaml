@@ -1,0 +1,70 @@
+# R-02 practical cards — attach-map (P-N/O/P)
+pillar_moniker: attach-map
+pillar_ids: [P-N, P-O, P-P]
+lane: L3
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#attach-map
+
+source_ingests:
+  - literature/ingests/levine_2010_attached_ch04_chapter_ingest.md
+  - literature/ingests/levine_2010_attached_ch08_chapter_ingest.md
+
+cards:
+  - exercise_name: Golden Rules for Deciphering Attachment Style
+    steps:
+      - Ask — does this person seek intimacy and closeness consistently? (Golden Rule 1, Levine Ch8).
+      - Ask — are they highly sensitive to rejection or slights? (Golden Rule 2).
+      - Look for patterns across episodes — one symptom is insufficient (Golden Rule 3).
+      - Observe reaction to effective communication — secure engages; avoidant deflects or labels neediness (Golden Rule 4 + smoking guns).
+      - Listen for omissions — what they avoid saying may signal avoidant strategy (Golden Rule 5).
+    cognitive_frame: Protest behavior is biology plus attachment system — name it internally; no chase scripts (C-B08_CH09-001 σ−).
+    observables:
+      - Operator pauses before double-text when spike follows slow reply
+      - Distinguishes protest activation from genuine mismatch
+      - Uses direct needs language with secure matches
+    contraindications:
+      - protest persistence or chase escalation (σ−)
+      - anxious-avoidant trap mistaken for chemistry without pattern check
+    source_anchor: C-B08_CH08-002 · levine_2010_attached_ch08_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#attach-map
+    operator_fit_tags: [partner-read, dating-online]
+    quality_level: full
+
+  - exercise_name: Anxious-Avoidant Trap Check
+    steps:
+      - Note activation spike — rapid merge feeling or hot-cold mixed signals (Levine Ch4 Tamara/Greg + Ch8 workshop cases).
+      - Check pool skew — dating pools may over-represent avoidant patterns; activation ≠ proof of fit (pillar P-N).
+      - Ask whether needs for closeness and space are mutually workable — not whether intensity equals passion (Levine Ch8).
+      - If protest — pause before escalation; if mismatch — adjust investment rather than pursue (pillar P-P σ−).
+    cognitive_frame: High activation with mixed signals is data about fit, not a mandate to try harder.
+    observables:
+      - Operator logs hot-cold episodes before increasing investment
+      - Avoids interpreting withdrawal as a puzzle to solve with more contact
+    contraindications:
+      - double-text escalation after slow reply
+      - performing avoidant distance to regain control
+    source_anchor: C-B08_CH04-001 · r02-foundational-guidance-pillars.md P-N
+    aletheia_wire: references/model/operator-self-module.md#attach-map
+    operator_fit_tags: [partner-read, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Secure Match Runway Protocol
+    steps:
+      - Spot secure early markers — direct asks, consistent follow-through, tolerates closeness and space (pillar P-O + Levine Ch8 Bella/Logan).
+      - Communicate needs early — secure partners respond to directness without devaluation (Levine Ch8 secure screening).
+      - Give runway — avoid anxious game-playing or premature merge when secure pace is steady (Levine Janet workshop contrast).
+      - Maintain abundance mindset — one match is not the only potential partner (Levine secure early screening).
+    cognitive_frame: Needs-first framing — give secure matches room to meet you directly rather than testing them.
+    observables:
+      - Operator states preferences without preemptive apology
+      - Accepts steady pacing without protest behaviors
+    contraindications:
+      - testing secure partner with indirect games
+      - staying in bad match to avoid re-entering pool (safety move)
+    source_anchor: C-B08_CH08-003 · levine_2010_attached_ch08_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#attach-map
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full

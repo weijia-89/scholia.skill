@@ -1,0 +1,1322 @@
+simon_aliferis_healthcare_2024_ch11_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 11
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch11_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch11_ingest.md)
+========================================================================
+
+# Chapter ingest — Simon & Aliferis (2024) · Selective Ch.11 (Book Ch.17: Reporting Standards)
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch11_ingest.md |
+| text_lines_read | 43888–45012 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Simon, Gyorgy; Aliferis, Constantin |
+| edition | 1st (Springer Health Informatics, 2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| DOI | https://doi.org/10.1007/978-3-031-39355-6 |
+| chapter_number | 11 (selective) / 17 (book) |
+| chapter_title | Reporting Standards, Certification/Accreditation, and Reproducibility |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Book chapter 17 addresses **documentation and institutional readiness** for health AI/ML: why reporting standards matter for independent appraisal, replication, and liability; the **EQUATOR** ecosystem and **TRIPOD** as the primary prediction-model checklist (22 items); limitations of TRIPOD for ML (ex post forensic, no bias assessment, regression-centric); complementary standards **PROBAST** (bias risk), **CHARMS** (systematic review/appraisal), and **RECORD** (EHR retrospective studies); a **59-item synthesis table** mapping items across T/P/C/R by modeling stage; poor TRIPOD adoption in practice (2022 systematic review: <10% for subject flow and predictive performance); **HIMSS AMAM** eight-stage analytic maturity model with strong caution that conventional analytics ≠ AI/ML competency; gaps in **CAHIIM** accreditation, HIMSS certifications, and health-AI-specific professional certification; and conclusions calling for expanded education, certification, and reporting investment.
+
+Out of scope in this slice: Final Synthesis chapter (split to selective ch.12, lines 45013+); appendices A–C (45491–49703); index (49704–52845)—noted in attestation for w3-closeout.
+
+---
+
+## Key findings
+
+All claims **[verified from text]** from lines 43888–45012 unless tagged `[inferred]`.
+
+1. **Purpose of reporting** (lines 43914–43995). Documented intent, construction method, data, intended population, and expected performance enable third-party evaluation, transfer, and refinement. Standards improve reproducibility—not study design quality. Applicable to internal organizational documentation even without publication. Demographics and practice changes necessitate ongoing re-evaluation; documentation supports reconstruction and liability analysis.
+
+2. **Reproducibility crisis context** (lines 44018–44042). Psychology replication: 97% significant in originals vs 36% in replications [3]; ~50% reproducibility in biomedical fields [4–6]; peer predictions correlate with replication success [7]. Reporting guidelines remind authors and reviewers what to include—they do not prescribe methodology.
+
+3. **TRIPOD adoption gap** (lines 44044–44055). 2022 review of 152 ML papers (2019): near-universal interpretation and data source reporting; <10% included subject flow and predictive performance—items TRIPOD authors deem essential for appraisal.
+
+4. **TRIPOD appraisal** (lines 44057–44136). 22-item checklist organized by manuscript section: clinical context, blind outcome/predictor assessment, missing data, feature selection, calibration/discrimination, limitations, funding. **Pitfall 17.3:** TRIPOD does NOT guarantee correctness, freedom from bias, or clinical safety. Five structural limitations: (a) assumes reader knows best practices; (b) ex post forensic not proactive; (c) misrepresentation possible; (d) elements neither complete nor necessary; (e) no bias-risk assessment. AI-focused TRIPOD/PROBAST revisions announced via Delphi [14]. Pitfall: not all ML methods have intercept/baseline hazard.
+
+5. **PROBAST and CHARMS** (lines 44125–44128). PROBAST focuses bias reduction assessment; CHARMS supports study-design pitfall avoidance for systematic reviews.
+
+6. **Four-standard synthesis (Table 1)** (lines 44138–44457). 59 items across study goals, data source, participants, outcomes, predictors, modeling, evaluation, interpretation, supplements—mapped to TRIPOD [T], PROBAST [P], CHARMS [C], RECORD [R]. Purpose: more complete documentation for bias assessment and cross-institution EHR applicability. Book best practices (causal modeling, overfitting controls, equity, regulatory conformance) must supplement Table 1.
+
+7. **Best Practices 17.1–17.2** (lines 44007–44016). Document development, validation, deployment; use reporting standards plus problem-specific extensions from book BPs.
+
+8. **HIMSS AMAM certification** (lines 44478–44554). Eight stages (0–7): no analytics → data warehouse → governance/competency center → stable quality/reporting → process improvement → point-of-care/population health → predictive/genomic → prescriptive/personalized medicine. **Pitfall 17.4:** vast gap between conventional hospital analytics and AI/ML; immature certification risks false institutional confidence and patient harm.
+
+9. **Academic accreditation gaps** (lines 44556–44612). Few specialized health data science / health AI/ML degree programs; no health-AI-specific accreditation; CAHIIM Master's accreditation based on AMIA informatics competencies—not comprehensive AI/ML specialty. HIMSS offers CAHIMS/CPHIMS/CPDHTS; clinical informatics subspecialty exists but not deep AI/ML. **Pitfalls 17.5–17.7:** no health-AI professional society; no AI/ML-specific accreditation/certification; dearth of specialist education programs.
+
+10. **Chapter conclusions** (lines 44614–44621). Field needs focused educational programs, meaningful individual/institutional certification, and comprehensive reporting standards—initial efforts promising but intensive investment required.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Distinguish reporting standards from methodological quality requirements.
+2. Apply TRIPOD checklist categories to an ML prognostic model manuscript.
+3. Articulate five TRIPOD limitations specific to health AI/ML.
+4. Use Table 1 synthesis to plan internal model documentation.
+5. Critically evaluate institutional analytic-maturity certification for AI/ML readiness.
+6. Identify workforce accreditation gaps relevant to deployment governance.
+
+### worked_examples_present
+
+**Y** — Table 1 four-standard synthesis (59 items); AMAM stage table; TRIPOD adoption statistics; classroom exercises on GRIPS, PROBAST, TRIPOD tailoring (lines 44750–44864).
+
+### exercise_hooks
+
+1. Build TRIPOD+PROBAST+CHARMS checklist for internal 7-year diabetes risk model (exercise 7).
+2. Map AMAM stages to AMIA competency areas (exercise 9).
+3. Propose TRIPOD items from PROBAST bias domains (exercise 5).
+
+---
+
+## Coverage attestation
+
+| Field | Value |
+|-------|-------|
+| source_path | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| lines_read | 43888–45012 (inclusive) |
+| section_boundary | Starts `Reporting Standards, Certification/Accreditation, and Reproducibility`; ends before `Synthesis of Recommendations, Open Problems and the Study of BPs` (45013) |
+| wrong_file_flag | false |
+| deferred | Selective ch.12 synthesis (45013–45490); appendices A–C (45491–49703); index (49704–52845) |
+| book_chapter_map | Selective ch.11 = book ch.17 |
+| ch12_split_note | Distinct Final Synthesis section exists at line 45013 (≥30 words unique body); split to `simon_aliferis_healthcare_2024_ch12_ingest.md` per worker contract |
+
+---
+
+## Operator hooks
+
+**w3_clinical_docs documentation spine.** TRIPOD+extensions align with model cards and internal runbooks; pair with AIE ch.10 eval documentation. **MDCalc `[relevant]`:** Table 1 synthesis is a portable internal-documentation scaffold for clinical prediction tools—supplement with book BPs for safety/equity; do not treat TRIPOD conformance as clinical validation.
+
+### Redundancy
+
+| Canon | Overlap | Distinction |
+|-------|---------|-------------|
+| Selective ch.10 | GMLP principle 9 → reporting | ch.11 = full standards landscape |
+| NAM sec04 | Readiness cadence | Simon = TRIPOD/PROBAST technical depth |
+| kaestner_ml_production_2025 | Model documentation | Simon = clinical publication standards |
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — EQUATOR/TRIPOD/PROBAST/CHARMS/RECORD primary citations; adoption statistics; explicit TRIPOD limitation critique; AMAM pitfall flagged; classroom exercises present.
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Selective ch.10 | GMLP principle 9, regulatory context |
+| Selective ch.12 | Consolidated BP checklist (Appendix 3 preview) |
+| Book ch.3–6 | Best practices to extend reporting |
+| EQUATOR / TRIPOD / PROBAST | External checklists |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| TRIPOD | Transparent Reporting of multivariable Prediction models (22 items) |
+| PROBAST | Prediction model Risk Of Bias ASsessment Tool |
+| CHARMS | Checklist for critical Appraisal and data extraction for systematic Reviews of prediction Modelling Studies |
+| RECORD | REporting of studies Conducted using Observational Routinely-collected Data |
+| EQUATOR | Network umbrella for 250+ reporting guidelines |
+| AMAM | HIMSS Adoption Model of Analytic Maturity (stages 0–7) |
+
+---
+
+*Ingest agent: simon-ingest-ch10-12 · selective ch11 · lines 43888–45012 · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch11_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch11_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 11
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Reporting Standards, Certification/Accreditation, and Reproducibility
+
+Gyorgy Simon¹   and Constantin Aliferis¹
+
+(1)
+
+Institute for Health Informatics, University of Minnesota, Minneapolis,
+MN, USA
+
+ 
+
+Abstract
+
+This chapter covers the interrelated topics of (a) enhancing the
+quality, safety and reproducibility of clinical AI/ML via reporting
+standards frameworks; (b) recent efforts for accrediting health care
+provider organizations for AI readiness and maturity; (c) professional
+certification; and (d) education and related accreditation in the space
+of educational programs of data science and biomedical informatics
+specific to AI/ML.
+
+Keywords
+
+Reporting StandardsTRIPOD (and other common
+standards)CertificationAccreditation
+
+Reporting Standards
+
+An essential element of successful application of a previously developed
+and validated model is to have documented exactly the intent of the
+model, its method of construction, the data used, the analytical
+modeling, the characteristics of the intended application population and
+the expected generalization performance and safety characteristics.
+These pieces of information can enable third parties, independent of the
+developers, to evaluate the rigor of the models, determine the
+appropriateness of their application to their settings, and perform
+further evaluations, refinements and enhancements as needed. For all the
+above to be feasible, sufficient documentation and reporting of the
+model development and validation process must exist. Certain narrower
+subsets of the above functions fall also under the rubric of scientific
+reproducibility, which is a major indicator of reliable science, of
+AI/ML models with a high likelihood of successful application in
+additional populations and settings. Reporting standards have been
+devised in the scientific publication sphere to facilitate these goals.
+However, these reporting standards can also be applied to internal
+organizational documentation practices.
+
+The publication reporting standards prescribe a minimal set of
+information that different types of scientific publications in health
+sciences must include. They are not designed to improve research
+quality, study design or any aspect of research and development other
+than reproducibility. Even when publication is not a primary goal, these
+reporting standards can be useful as a guide for internal documentation
+of AI/ML model development.
+
+In this chapter, we review and synthesize several existing reporting
+standards, and comment on their usefulness and applicability to AI/ML
+development.
+
+Reporting standards prescribe a minimal set of information that needs to
+be included in the model description.
+
+Problems with reporting has been recognized as early as 1929 [1], and
+several guidelines have been proposed. The first evidence-based
+recommendations, CONSORT, have been published for clinical trials in
+1996. These guidelines have established a protocol for developing
+reporting standards, for disseminating these guidelines, and recognized
+the need for collaboration among various stakeholders, including the
+researchers and the journals. The most established organization for
+reporting guidelines is the Enhancing the QUAlity and Transparancy Of
+heath Research, EQUATOR [2]. In their own words, “The EQUATOR Network is
+an ‘umbrella’ organization that brings together researchers, medical
+journal editors, peer reviewers, developers of reporting guidelines,
+research funding bodies and other collaborators with mutual interest in
+improving the quality of research publications and of research itself.”
+
+The EQUATOR Network has over 250 reporting standards, covering a
+multitude of study types and settings. There are core reporting
+standards for several areas relevant to this book, including randomized
+trials (CONSORT), observational studies (STROBE), diagnostic accuracy
+(STARD), genetic risks prediction (GRIPS), and others. The most relevant
+standard is the Transparent Reporting of a Multivariable Prediction
+Model for Individual Prognosis or Diagnosis (TRIPOD).
+
+Purpose and Value of Documenting AI/ML Models
+
+Decision makers at health care provider organizations may appraise
+published models to determine appropriateness for particular clinical
+applications. Researchers may wish to replicate the same modeling
+process to compare the resulting model with alternatives. AI/ML data
+scientists may want to improve upon the model, etc. The publication of
+the model must contain sufficient information so that readers (i) can
+determine whether the research is sound, (ii) can determine whether the
+model has clinical utility in the intended or other contexts and (iii)
+test whether they can reproduce the results.
+
+Moreover, changes in healthcare are constant; among many changes,
+demographics shift, practice patterns improve, diagnostic criteria are
+updated and new treatments are introduced. As a result, models need to
+be re-evaluated, updated, extended regularly. Complete documentation can
+help anticipate which elements need to be updated. The model or its
+predictors may have to be completely reconstructed for example due to
+changes in the underlying technologies or the model may have to be
+recomputed to prove the correctness of the development process to
+determine liability. Proper documentation of the model is necessary for
+these purposes and the reporting standards provide help in ensuring that
+at least a minimal set of required elements have been included in the
+documentation.
+
+Pitfall 17.1
+
+Poorly documented AI/ML models and their development and evaluation
+processes make independent review and replication efforts difficult.
+
+Pitfall 17.2
+
+Information required by reporting standards is a minimal set; additional
+information is often necessary.
+
+Best Practice 17.1
+
+Document the model, its development, validation and deployment process.
+
+Best Practice 17.2
+
+Document AI/ML models using reporting standards and extend with problem
+and technology-specific necessary information even if not part of the
+standard. Such extensions can be based on the various development stages
+and Best Practices in the present volume.
+
+Relation to Reproducibility
+
+Reproducibility is a cornerstone of science. Research is reproducible if
+independent scientists can recreate the findings (e.g., AI/ML models and
+their performance characteristics) based on the reported information. In
+the last decade, several large studies have been conducted to measure
+the reproducibility of published studies. In an attempt to reproduce
+results from 100 manuscripts in the psychology literature, a research
+team found that while 97% of the original studies reported a significant
+effect, only 36% of replication studies found that effect [3].
+Replication efforts in biomedical and other fields found that
+approximately only 50% of the research studies was reproducible [4–6].
+Failure of the studies to replicate was found to be predictable; e.g.,
+predictions by peers about whether a study would replicate were highly
+correlated with the actual replication results [7]. The purpose of the
+reporting standards in this context is not to advocate for a particular
+modeling methodology, but to include information in the AI/ML model
+documentation that allows readers to decide whether the model
+development process used in the manuscript was sound and to test the
+reproducibility if needed.
+
+The key purpose of reporting standards/guidelines is to remind
+researchers what information to include in the manuscript and to remind
+peer-reviewers what information to look for. Reporting guidelines do not
+prescribe how research should be done.
+
+Reporting Standards Adoption
+
+In terms of current adoption of reporting standards, a 2022 study [8]
+examined 152 articles published in the year 2019 to determine which of
+the 22 key pieces of information recommended by the TRIPOD reporting
+standard were included. They found that some information, such as
+interpretation of the results and source of data were included in almost
+all publications, while others such as the flow of subjects and the
+predictive performance of the model were included in less than 10%.
+According to the TRIPOD authors, a model cannot be appraised properly
+without these pieces of information (we will appraise these claims and
+describe the TRIPOD standard later in the chapter).
+
+Appraisal of the TRIPOD Standard
+
+Among general purpose reporting standards, TRIPOD is the most applicable
+to AI/ML models. It comprises a checklist [9] of 22 items, a statement
+document [10], and an Explanation and Elaboration document [11]. Being a
+reporting standard for publications, the 22 items are organized by the
+section of the publication they must be included in: title, abstract,
+methods, results, etc.
+
+At a high level, key information required includes the clinical context,
+the study objective, outcome (whether the outcome assessment was
+“blind”—carried out without knowing the predicted risk), data source,
+study setting (including the dates), participant information
+(eligibility, inclusion, exclusion criteria, treatments received),
+assessment of the predictors (including whether the assessment was
+“blind”—devoid of knowledge about the outcome), methods information
+(missing data, feature selection, model type), performance (calibration
+and discrimination), limitations, potential for clinical use, and
+funding information. As immediately obvious by examining the TRIPOD
+reportable elements, there is no guidance on how to pursue AI/ML
+modeling to ensure safety and effectiveness. Therefore full conformance
+with TRIPOD reporting does not lead to or guarantee these objectives.
+
+Pitfall 17.3
+
+TRIPOD does NOT guarantee that the resulting model is correct, free of
+bias and safe for clinical use.
+
+TRIPOD is a reporting standard that seeks to bring to public view
+elements of proper construction of AI/ML models (e.g. population choice,
+outcomes and model accuracy, data used etc.). However, several
+fundamental limitations exist that include:
+
+1.  (a)
+
+    TRIPOD assumes that the reader knows all appropriate best practices
+    for the right design and execution of the above elements.
+
+     
+
+2.  (b)
+
+    TRIPOD is more of ex post factor forensic tool rather than proactive
+    enabler of good AI/ML.
+
+     
+
+3.  (c)
+
+    The reporting entity may misrepresent the reported information and
+    TRIPOD has no means of ensuring validity of reporting.
+
+     
+
+4.  (d)
+
+    TRIPOD reported elements are neither complete nor are they necessary
+    to ensure high quality AI/ML models.
+
+     
+
+5.  (e)
+
+    TRIPOD does not aim to avoid biases and does not assess the risk of
+    pertinent biases.
+
+     
+
+To address some of TRIPOD’s limitations other reporting standards have
+been devised such as PROBAST [12] with a focus on bias reduction, and
+CHARMS [13] aiming to help reduce pitfalls in the study design, and
+provide checklists for this purpose.
+
+We also note that TRIPOD is aimed at multivariate models, primarily
+regression models. Some of its items are not appropriate across machine
+learning methods. For example, not all machine learning methods have an
+intercept or a baseline hazard which are required by TRIPOD. At the time
+of this writing it has been announced that new AI-focused reporting
+standard versions of TRIPOD and PROBAST will be developed using a survey
+and Delphi methodology [14].
+
+Synthesis of Reporting Recommendations from Multiple Existing Standards
+
+Given that reporting standards are not tailored to AI/ML, it is useful
+to attempt a synthesis of recommendations adopting elements from
+multiple standards. Below we provide such an example, using items from
+four documentation standards for documenting ML models using EHR data.
+The standards are TRIPOD [T] (predictive models), PROBAST [P]
+(assessment tool for the potential of biases), CHARMS [C] (model
+appraisal and systematic reviews) and RECORD [R] (retrospective study
+using individual level data). We re-iterate that depending on the
+specifics of the models additional necessary documentation has to be
+provided in accordance with the Best Practices in the present volume.
+
+In Table 1, we include the recommendation itself, organized by modeling
+steps, and denote which item it corresponds to in each standard.
+
+Table 1
+
+Synthesis of four reporting standards. The columns correspond to the
+four reporting standards and the number to the corresponding item in
+each reporting standard
+
++-----------------------------+---------+---------+---------+----------+
+| Item                        | T       | P       | C       | R        |
++:============================+:========+:========+:========+:=========+
+| Study Goals and Design                                               |
++-----------------------------+---------+---------+---------+----------+
+| 1. Type of study            | 1       |         | 1       |          |
+|                             |         |         |         |          |
+| (diagnostic, prognostic,    |         |         |         |          |
+| treatment effect            |         |         |         |          |
+| estimation, causal          |         |         |         |          |
+| structure discovery, etc)   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 2. Type of predictive       |         |         | 3       |          |
+| modeling study              |         |         |         |          |
+|                             |         |         |         |          |
+| (Model development with     |         |         |         |          |
+| external validation,        |         |         |         |          |
+| without external            |         |         |         |          |
+| validation, external        |         |         |         |          |
+| validation of an existing   |         |         |         |          |
+| model)                      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 3. Objective                | 3b      |         | 2       | 3        |
++-----------------------------+---------+---------+---------+----------+
+| 4. Medical context;         | 3a      |         | 2       | 2        |
+| Rational for the study      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 5. Intended moment of using |         |         | 7       |          |
+| the model                   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Source of Data                                                       |
++-----------------------------+---------+---------+---------+----------+
+| 6. Source of data for       | 4a      | 1.1     | 8       | 1        |
+| training and validation     |         |         |         |          |
+|                             |         |         |         |          |
+| (e.g. EHR, individual-level |         |         |         |          |
+| routinely collected,        |         |         |         |          |
+| registry, randomized trial, |         |         |         |          |
+| etc)                        |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 7. Key dates                | 4b      |         | 9d      |          |
+|                             |         |         |         |          |
+| (start and end of accrual,  |         |         |         |          |
+| start and end of follow-up, |         |         |         |          |
+| index date)                 |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Participants                                                         |
++-----------------------------+---------+---------+---------+----------+
+| 8. Study Setting            | 5a      |         |         | 5        |
+|                             |         |         |         |          |
+| (primary care, ICU,         |         |         |         |          |
+| academic center, community  |         |         |         |          |
+| hospital, etc)              |         |         |         |          |
+|                             |         |         |         |          |
+| Number of locations and     |         |         |         |          |
+| centers                     |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 9. Eligibility criteria     | 5b      | 1.2     | 4, 9a   |          |
++-----------------------------+---------+---------+---------+----------+
+| 10. Patient selection       |         |         |         | 6.1, 6.2 |
+| method                      |         |         |         |          |
+|                             |         |         |         |          |
+| (Codes, phenotype,          |         |         |         |          |
+| algorithms, etc)            |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 11. Linkage of databases    |         |         |         | 6.3      |
++-----------------------------+---------+---------+---------+----------+
+| 12. Treatments received     | 5c      |         | 9c      |          |
++-----------------------------+---------+---------+---------+----------+
+| 13. Study size              | 8       |         | 13      | 10       |
+|                             |         |         |         |          |
+| Flow diagram for sample     | 13a     |         |         | 13       |
+| selection                   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 14. Was there filtering of  |         |         |         | 13.1     |
+| participants based on data  |         |         |         |          |
+| quality?                    |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 15. Exclusion criteria      |         | 1.2     |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 16. Were all selected       |         | 4.3     |         |          |
+| patients included in the    |         |         |         |          |
+| analysis?                   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 17. Number of outcome       | 14a     | 4.1     | 12a     | 15       |
+| events                      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 18. Number of events in     |         |         | 12b     |          |
+| relation to the number of   |         |         |         |          |
+| predictors                  |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 19. Participant             | 13b     |         | 9b,     | 14       |
+| characteristics             |         |         |         |          |
+|                             |         |         | 13ab    |          |
+| (demographic, clinical      |         |         |         |          |
+| features, missing           |         |         |         |          |
+| predictors, missing         |         |         |         |          |
+| outcome)                    |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 20. Summary of follow-up    |         |         |         | 14c      |
++-----------------------------+---------+---------+---------+----------+
+| Outcome                                                              |
++-----------------------------+---------+---------+---------+----------+
+| 21. Outcome definition      | 6a      | 3.1     | 5, 10a  | 7.1      |
++-----------------------------+---------+---------+---------+----------+
+| 22. Is the outcome          |         | 3.2     | 10c     |          |
+| pre-defined? Is it a        |         |         |         |          |
+| standard outcome?           |         |         |         |          |
+|                             |         |         |         |          |
+| (Composite outcomes can     |         |         |         |          |
+| render predictors           |         |         |         |          |
+| insignificant)              |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 23. Were predictors         |         | 3.3     | 10e     |          |
+| excluded from the outcome   |         |         |         |          |
+| definition?                 |         |         |         |          |
+|                             |         |         |         |          |
+| (Unless the predictor is    |         |         |         |          |
+| the definition of the       |         |         |         |          |
+| outcome)                    |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 24. How and when was the    | 6a      |         |         |          |
+| outcome assessed?           |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 25. Was the outcome defined |         | 3.4     | 10b     |          |
+| the same way for all        |         |         |         |          |
+| participants?               |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 26. Was the outcome         | 6b      | 3.5     | 10d     |          |
+| assessment process blind to |         |         |         |          |
+| the model predictions?      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 27. Time gap between        |         | 3.6     | 10f     |          |
+| predictor assessment and    |         |         |         |          |
+| outcome determination       |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 28. Time span of prediction | 6a      |         | 6,10f   |          |
+|                             |         |         |         |          |
+| (e.g. 7-year diabetes)      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Predictor Variables                                                  |
++-----------------------------+---------+---------+---------+----------+
+| 29. Definition of all       | 7a      |         | 11ab    | 8        |
+| predictors variables        |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 30. Time of the predictor   | 7a      |         | 11c     |          |
+| variable assessment         |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 31. Was the predictor       | 7b      | 2.2     | 11d     |          |
+| variable assessment process |         |         |         |          |
+| blind to the outcome?       |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 32. Were the predictor      |         | 2.1     |         |          |
+| variables assessed the same |         |         |         |          |
+| way for all participants?   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 33. Are all predictor       |         | 2.3     |         |          |
+| variables available at the  |         |         |         |          |
+| time the model is intended  |         |         |         |          |
+| to be used?                 |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Modeling                                                             |
++-----------------------------+---------+---------+---------+----------+
+| 34. How was missing data    | 9       | 4.4     | 13c     | 12c      |
+| handled?                    |         |         |         |          |
+|                             |         |         |         |          |
+| (Complete case analysis,    |         |         |         |          |
+| imputation, etc)            |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 35. How were the predictor  | 10a     |         | 11e     | 11       |
+| variables handled?          |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 36. Univariate association  | 14b     |         |         |          |
+| of the predictor variables  |         |         |         |          |
+| with the outcome            |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 37. Pre-selection based on  |         | 4.5     |         |          |
+| univariate association      |         |         |         |          |
+|                             |         |         |         |          |
+| (potential for bias by      |         |         |         |          |
+| omission)                   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 38. Type of model, model    | 10b     |         | 14acd   |          |
+| construction process,       |         |         |         |          |
+| feature selection           |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 39. Were the model          |         |         | 14b     |          |
+| assumptions satisfied?      |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 40. Were complexities       |         | 4.6     |         | 12d      |
+| considered?                 |         |         |         |          |
+|                             |         |         |         |          |
+| (informative censoring,     |         |         |         |          |
+| competing risk, sampling of |         |         |         |          |
+| controls, etc)              |         |         |         |          |
+|                             |         |         |         |          |
+| (RECORD 12d breaks this     |         |         |         |          |
+| down by study type)         |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 41. How were confounders    |         |         |         | 12a      |
+| controlled for?             |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 42. Sensitivity analysis    |         |         |         | 12e      |
++-----------------------------+---------+---------+---------+----------+
+| 43. Subgroup analysis       |         |         |         | 12b      |
++-----------------------------+---------+---------+---------+----------+
+| Evaluation                                                           |
++-----------------------------+---------+---------+---------+----------+
+| 44. Measures of model       | 10d     | 4.7     | 15ab    |          |
+| evaluation                  |         |         |         |          |
+|                             |         |         |         |          |
+| Both calibration and        |         |         |         |          |
+| discrimination reported for |         |         |         |          |
+| classification              |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 45. Method of model         | 10b     | 4.7     | 16a     |          |
+| evaluation                  |         |         |         |          |
+|                             |         |         |         |          |
+| (bootstrap, cross           |         |         |         |          |
+| validation, etc)            |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 46. Are confidence          | 16      |         |         |          |
+| intervals reported          |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 47. Performance in the      | 19a     |         |         |          |
+| development and validation  |         |         |         |          |
+| data                        |         |         |         |          |
+|                             |         |         |         |          |
+| Is over- and underfitting   |         |         |         |          |
+| taken into consideration?   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 48. If the performance was  | 10e, 17 |         |         |          |
+| poor, was the model         |         |         |         |          |
+| updated?                    |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 49. Model comparison        | 10d     |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 50. Was external validation |         |         | 16a     |          |
+| performed?                  |         |         |         |          |
+|                             |         |         |         |          |
+| (temporal, geographical,    |         |         |         |          |
+| different investigators,    |         |         |         |          |
+| etc)                        |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 51. For validation,         | 16      |         | 16b     |          |
+| describe model updates      |         |         |         |          |
+| incl. recalibration         |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 52. Were risk groups        | 11      |         |         |          |
+| defined? How?               |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 53. For external            | 12      |         | 17c     |          |
+| validation, document        |         |         |         |          |
+| differences between the     | 13c     |         |         |          |
+| development and validation  |         |         |         |          |
+| data sets.                  |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 54. Is there an alternative |         | 4.8     | 17b     |          |
+| presentation of the final   |         |         |         |          |
+| model                       |         | 4.9     |         |          |
+|                             |         |         |         |          |
+| (e.g. conversion into a     |         |         |         |          |
+| score)                      |         |         |         |          |
+|                             |         |         |         |          |
+| Are all components of the   |         |         |         |          |
+| model taken into            |         |         |         |          |
+| consideration (incl. the    |         |         |         |          |
+| intercept)                  |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Interpretation                                                       |
++-----------------------------+---------+---------+---------+----------+
+| 55. Limitations             | 18      |         |         | 19.1     |
+|                             |         |         |         |          |
+| (non-representative sample, |         |         |         |          |
+| few events, excessive       |         |         |         |          |
+| missing data, informative   |         |         |         |          |
+| missing data, data not      |         |         |         |          |
+| collected for this purpose, |         |         |         |          |
+| unmeasured confounders,     |         |         |         |          |
+| eligibility changing over   |         |         |         |          |
+| time, etc)                  |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 56. Performance in the      | 19a     |         | 18a     |          |
+| development and validation  |         |         |         |          |
+| data                        |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 57. Discuss the performance | 19b     |         | 18b     | 20       |
+| in the context of the       |         |         |         |          |
+| objective                   |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| 58. Discuss potential       | 20      |         |         |          |
+| clinical use                |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+| Miscellaneous                                                        |
++-----------------------------+---------+---------+---------+----------+
+| 59. Study protocol in the   | 21      |         |         |          |
+| supplements                 |         |         |         |          |
++-----------------------------+---------+---------+---------+----------+
+
+The main purpose of this list is to demonstrate how multiple standards
+can be combined to arrive at a more complete documentation that helps
+the appraisal of the model, including the assessment of potential
+biases, and help determine the applicability of the model to another
+institution with different EHR data elements.
+
+Throughout the book, we present a multitude of suggested best practices,
+designed to increase the likelihood of good modeling and reduce to a
+minimum the potential for error. These range from high level design down
+to fine-grain implementation details and can be used to provide complete
+reporting of critical factors affecting the quality of modeling. Such
+reportable dimensions and categories are, aspects of causal modeling,
+unstructured data modeling, diagnostics and assurances for overfitting
+and under performance avoidance, model selection strategies, modern
+feature selection, model explanation, regulatory conformance, equity and
+fairness considerations, and many other critical pieces of information
+not addressed in Table 1, and that should supplement and enhance the
+current reporting standards.
+
+HIMSS Analytic Maturity Model
+
+Another important aid in ensuring the safe, fair, effective and
+efficient use of AI/ML in clinical practice is the certification of
+healthcare institutions by professional associations or societies with
+credible expertise and well-designed, validated certification processes
+for health AI/ML.
+
+- Certification ensures that certified healthcare institutions satisfy a
+  minimum core set of requirements that are set forth by a reputable
+  professional association or society with expertise in the area.
+
+- High quality certification ensures that meeting these requirements
+  guarantees organizational competences.
+
+- Certification bodies can also offer advice on how to achieve the
+  certification goals in areas of weakness.
+
+Currently there is no professional association specializing in clinical
+or research AI/ML. HIMSS (Healthcare Information and Management Systems
+Society), which focuses on Healthcare Information Technology, has
+developed an 8-stage model of analytic maturity, called the Adaptation
+Model of Analytic Maturity (AMAM) [15], measuring an institution’s
+analytic capabilities. AMAM is also intended as a roadmap, which, in
+consultation with HIMSS experts, lays a path forward for organizations
+that wish to improve their analytic maturity. The eight stages, numbered
+0–7, are as follows [15].
+
+We caution the reader that while the intent is to help organizations
+grow their analytical capabilities, there is a vast distance between
+conventional analytic capabilities and AI/ML capabilities. While the
+AMAM framework is not explicitly designed for AI/ML, there is language
+that strongly implies AI/ML competencies. Such organization competencies
+require a deep level of advanced scientific and technological
+understanding that goes beyond conventional analytics and IT.
+
+The high-level certification requirements of Table 2 for example, lack
+the level of testable technical rigor and specificity that will ensure
+safe and effective AI/ML technology deployment in a high-risk domain
+such as clinical medicine. For example, there is little in the stated
+requirements that ensures that deployed technology is performant,
+reliable and cost-effective or that it can generate trust in patients,
+providers, regulators and other stakeholders. Moreover, much needed
+protection against grave decision making errors that can be produced by
+poorly understood and applied AI/ML technology do not seem to be
+sufficiently addressed. In general, (outside the narrow discussion of
+the AMAM model) we caution against the following general pitfall:
+
+Table 2
+
+HIMSS Adoption model of analytic maturity stages
+
+  Stage   Capabilities
+  ------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  0       The organization does not have any analytic capabilities, but has the desire to develop them.
+  1.      The organization has started to collect data and stores it at a central location (e.g. in a data warehouse). They have a strategy for developing data governance and for building out the analytic capabilities.
+  2.      The organization has built a data warehouse and is maturing their data governance. They have established an analytic competency center, responsible for managing the organization’s analytic skills, standards and education.
+  3.      The data quality in the data warehouse is stable, broadly accessible within the organization. Data access is well managed and tools to access the data are standardized. The institution has mastered basic reporting capabilities.
+  4.      The institution has started directing analytic capabilities towards improving clinical, financial and operational processes. They have started making efforts towards providing analytic support for evidence-based clinical practice, tracking and reporting care and operational variability, and identifying and minimizing clinical and operational waste.
+  5.      The institution has expanded point-of-care analytics. Analytic capabilities now support population health and have developed a thorough understanding of the economics of care. Quality based performance reporting is implemented.
+  6.      The institution has reached maturity of predictive analytics and have started focusing on advanced data, such as genetic or biometric information, in preparation of more individualized medicine.
+  7.      They have developed the ability to deliver mass customization of care along with prescriptive analytics. The institution is leveraging advanced data (e.g. genetic or biometric) to tailor treatment decisions to the individual for personalized medicine.
+
+Pitfall 17.4
+
+There is a world of difference between conventional hospital analytics
+and AI/ML technology.
+
+Significant dangers exist for certification processes that do not
+discriminate among these domains to create false confidence in the
+existence of deep institutional competency and mastery of technologies,
+the complexity of which, in reality, radically exceeds the technical
+capabilities of most healthcare institutions.
+
+Such technologies have the potential to radically advance population
+health when designed correctly, but also to hurt patients if not
+properly developed and deployed.
+
+Academic Accreditation and Professional Certification Efforts
+
+Beside reporting standards that aim to promote the quality of AI/ML
+scientific and technological development, and the certification of
+healthcare organizations along the lines of AI/ML competencies, another
+pillar of ensuring safety, equity, efficiency and effectiveness is
+training a specialized workforce with deep expertise in the science and
+technology of health AI/ML. In this section, we briefly look at two
+functions: (i) The availability of formal educational programs that
+educate health data science specialists in health AI/ML at the graduate,
+and post graduate levels; (ii) The training and certification of the
+broader health care and health sciences workforce to a minimally
+necessary level of understanding of these technologies; and (iii) The
+accreditation of educational programs that provide the above training
+and certifications.
+
+Currently there are few programs across the nation providing specialized
+undergraduate, or graduate degrees in health data science and health
+AI/ML. There is also no accreditation specific to health AI and ML.
+Elements of healthcare and health science-related AI/ML are often taught
+in health informatics programs. Very few institutions are offering
+health AI/ML-focused degrees. The Commission on Accreditation for Health
+Informatics and Information Management Education (CAHIIM) [16] currently
+offers accreditation at the Master’s Degree level. The CAHIIM standard
+is based on AMIA’s (American Medical Informatics Association)
+informatics competencies that span health, social and behavioral
+science, information science and technology, leadership,
+professionalism, and areas at the intersections of these competencies
+[17]. These requirements were neither designed to nor do they achieve a
+comprehensive standard for specialty professional knowledge and
+competencies in AI/ML.
+
+In terms of continued certification of the broader healthcare workforce,
+no organization offers AI/ML-specific certification. HIMSS (discussed
+above) offers certification for health information management systems
+(Certified Associate/Professional in Healthcare Information and
+Management Systems; CAHIMS/CPHIMS) and digital transformation strategy
+(Certified Professional in Digital Health Transformation Strategy;
+CPDHTS). Alternatively, for board certified physicians engaging in
+health information technology, the clinical informatics subspecialty
+[18, 19], developed jointly with AMIA, is offered by the American Board
+of Preventive Medicine or American Board of Pathology but is not
+designed to develop deep competency in AI/ML.
+
+Pitfall 17.5
+
+There is no professional association/society specifically for health
+AI/ML.
+
+Pitfall 17.6
+
+There is no accreditation or certification specifically for heath AI/ML.
+
+Pitfall 17.7
+
+There is a dearth of academic programs for educating health data
+scientists and health AI/ML experts.
+
+Conclusions
+
+The field of health care and health science research is in dire need for
+development of focused educational programs, meaningful individual and
+institutional certification, and comprehensive reporting standards.
+Initial efforts along these lines are promising and directionally sound;
+however significant and intensive efforts and investments are needed in
+these areas.
+
+Key Concepts Discussed in This Chapter
+
+Reporting standards prescribe a minimal set of information that needs to
+be included in the model description.
+
+The key purpose of reporting guidelines is to remind researchers what
+information to include in the manuscript and to remind peer-reviewers
+what information to look for. It does not prescribe how research is
+done.
+
+We discussed the TRIPOD standard for publishing predictive models.
+
+We discussed additional standards. These include the PROBAST, which is a
+tool for assessing the potential for biases, and CHARMS for appraisal of
+models and systemic reviews.
+
+Certification aims to ensure that healthcare institutions satisfy a
+minimum core set of requirements toward developing technical competency.
+
+Educational programs for specialists and certification for the broader
+workforce will need to be expanded greatly in order to meet the demand
+for experts necessitated by the explosive growth of AI/ML.
+
+Pitfalls in This Chapter
+
+Pitfall 17.1. Poorly documented AI/ML models and their development and
+evaluation processes make independent review and replication efforts
+difficult.
+
+Pitfall 17.2. Information required by reporting standards is a minimal
+set; additional information is often necessary.
+
+Pitfall 17.3. TRIPOD does NOT guarantee that the resulting model is
+correct, free of bias and safe for clinical use.
+
+TRIPOD is a reporting standard that seeks to bring to public view
+elements of proper construction of AI/ML models (e.g. population choice,
+outcomes and model accuracy, data used etc.). However several
+fundamental limitations exist that include:
+
+1.  (a)
+
+    TRIPOD assumes that the reader knows all appropriate best practices
+    for the right design and execution of the above elements.
+
+     
+
+2.  (b)
+
+    TRIPOD is more of ex post factor forensic tool rather than proactive
+    enabler of good AI/ML.
+
+     
+
+3.  (c)
+
+    The reporting entity may misrepresent the reported information and
+    TRIPOD has no means of ensuring validity of reporting.
+
+     
+
+4.  (d)
+
+    TRIPOD reported elements are neither complete nor are they necessary
+    to ensure high quality AI/ML models.
+
+     
+
+5.  (e)
+
+    TRIPOD does not aim to avoid biases and does not assess the risk of
+    pertinent biases.
+
+     
+
+Pitfall 17.4. Significant dangers exist for imperfect or immature
+certification processes to create institutional false confidence in the
+existence of deep competency and mastery of technologies the complexity
+of which radically exceeds the technical capabilities of most healthcare
+providers. Such technologies have the potential to either radically
+advance population health when designed correctly, but also to hurt
+patients if not properly developed and deployed.
+
+Pitfall 17.5. There is no professional association/society specifically
+for health AI/ML.
+
+Pitfall 17.6. There is no accreditation or certification specifically
+for heath AI/ML.
+
+Pitfall 17.7. There is a dearth of academic programs for educating
+health data scientists and health AI/ML experts.
+
+Best Practices in This Chapter
+
+Best Practice 17.1. Document the model, its development, validation and
+deployment process.
+
+Best Practice 17.2. Document AI/ML models using reporting standards and
+extent with problem and technology-specific necessary information even
+if not part of the standard. Such extensions can be based on the various
+development stages and Best Practices in the present volume.
+
+Questions and Discussion Topics in This Chapter
+
+1.  1.
+
+    List some benefits of internally documenting a predictive model in a
+    way that the model can be recreated, including the predictor
+    variables, the outcomes, the training and validation data sets, and
+    the model.
+
+     
+
+2.  2.
+
+    Discuss benefits and possible downsides of publishing models in
+    peer-reviewed scientific journals.
+
+     
+
+3.  3.
+
+    Can you think of ways to publish a model other than a research
+    article?
+
+     
+
+4.  4.
+
+    Consider the 22 items of the TRIPOD checklist and answer the
+    following questions.
+    1.  (a)
+
+        Which items are necessary and which can be omitted for the
+        internal documentation of a model?
+
+         
+
+    2.  (b)
+
+        If you develop a deep learning model, which items in the
+        checklist may not make sense? Would you change your answer if
+        the model was a GBM?
+
+         
+
+    3.  (c)
+
+        Can you think of other data elements that you may want to record
+        for a deep learning model?
+
+         
+
+    4.  (d)
+
+        The TRIPOD checklist is designed for diagnostic and prognostic
+        models. Would a model that quantifies the effect of an
+        intervention fall into the purview of TRIPOD?
+
+         
+
+    5.  (e)
+
+        Which of the TRIPOD items should be included for a model that
+        quantifies the effect of an intervention for internal
+        documentation? You can modify the item as necessary.
+
+         
+
+    6.  (f)
+
+        For the same model (that quantifies the effect of intervention),
+        are there additional pieces of information you would include
+        for (a) internal documentation and (b) for publication of the
+        model in a journal?
+
+         
+
+    7.  (g)
+
+        If you were to build a multivariate regression model as a
+        prognostic model based on genetic biomarkers, what additional
+        information would you include?
+
+         
+
+    8.  (h)
+
+        Consult the GRIPS checklist
+        (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3175742/) and
+        refine your answer to question (g).
+
+         
+
+     
+
+5.  5.
+
+    The PROBAST tool
+    (https://www.probast.org/wp-content/uploads/2020/02/PROBAST_20190515.pdf)
+    is designed to assess the risk of bias in predictive models. It is
+    not intended as a reporting standard. Read the PROBAST items and
+    propose new reporting items to add to the TRIPOD checklist that
+    allows for assessing the risk of bias.
+
+     
+
+6.  6.
+
+    Suppose you conduct a study for discovering the causal relationships
+    among risk factors in Alzheimer’s disease. This is neither a
+    diagnostic nor a prognostic study, so it falls outside the scope of
+    TRIPOD. Which TRIPOD items are relevant and what additional
+    information should be reported?
+
+     
+
+7.  7.
+
+    Your goal is to document a prognostic predictive model, e.g. 7-year
+    diabetes risk, for internal use in a manner that allows you to
+    re-construct the predictors, outcome, training and validation data,
+    and the model itself. Create a reporting checklist based on TRIPOD,
+    PROBAST and CHARMS.
+
+     
+
+8.  8.
+
+    The HIMSS certification has eight stages, while the CAHIIM
+    accreditation is a pass/defer decision. Can you think of advantages
+    to having multiple stages versus making a binary pass/fail decision?
+
+     
+
+9.  9.
+
+    When you look at the stages 1-7 of the AMAM, each stage requires
+    several competencies. Which AMIA competency areas correspond to AMAM
+    competencies?
+
+     
+
+[Creative Commons]
+
+Open Access This chapter is licensed under the terms of the Creative
+Commons Attribution 4.0 International License
+(http://​creativecommons.​org/​licenses/​by/​4.​0/​), which permits use,
+sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s)
+and the source, provide a link to the Creative Commons license and
+indicate if changes were made.
+
+The images or other third party material in this chapter are included in
+the chapter's Creative Commons license, unless indicated otherwise in a
+credit line to the material. If material is not included in the
+chapter's Creative Commons license and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder.
+
+References
+
+1.  1.
+
+    Altman DG, Simera I. A history of the evolution of guidelines for
+    reporting medical research: the long road to the EQUATOR Network. J
+    Roy Soc Med. 2016;109(2).
+    https://​journals.​sagepub.​com/​doi/​pdf/​10.​1177/​0141076815625599​
+
+2.  2.
+
+    EQUATOR network. https://​www.​equator-network.​org/​
+
+3.  3.
+
+    Open Science Collaboration. Estimating the reproducibility of
+    psychological science. Science. 2015;(6251):349.
+    https://​doi.​org/​10.​1126/​science.​aac4716.
+    https://​www.​science.​org/​doi/​10.​1126/​science.​aac4716
+
+4.  4.
+
+    Camerer CF, Dreber A, Foresll E, Ho TH, et al. Evaluating
+    replicability of laboratory experiments in economics. Science.
+    2016;351(6280) https://​doi.​org/​10.​1126/​science.​aaf0918.
+
+5.  5.
+
+    Piper K. Science has been in a “replication crisis” for a decade.
+    Have we learned anything? Vox; 2020.
+
+6.  6.
+
+    Baker M, Penny D. Is there a reproducibility crisis? Nature.
+    2016;533
+
+7.  7.
+
+    Camerer CF, Dreber A, Holzmeister F, Ho TC, et al. Evaluating the
+    replicability of social science experiments in Nature and Science
+    between 2010 and 2015. Nat Human Behav. 2018;2:637–42.Crossref
+
+8.  8.
+
+    Navarro CLA, Damen JAA, Takada T, Nijman SW, et al. Completeness of
+    reporting of clinical prediction models developed using supervised
+    machine learning: a systematic review. BMC Med Res Methodol.
+    2022;22:12.Crossref
+
+9.  9.
+
+    TRIPOD checklist.
+    https://​www.​tripod-statement.​org/​wp-content/​uploads/​2020/​01/​Tripod-Checklist-Prediction-Model-Development-and-Validation-PDF.​pdf
+
+10. 10.
+
+    Collins GS, Reitsma JB, Altman DG, Moons KGM. Transparent reporting
+    of a multivariable prediction model for individual prognosis or
+    diagnosis (TRIPOD): the TRIPOD statement. BMJ. 2014:350.
+    https://​doi.​org/​10.​1136/​bmj.​g7594. [TRIPOD statement].
+
+11. 11.
+
+    Moons KGM, Altman DG, Reitsma JB, Ioannidis JPA, et al. Transparent
+    reporting of a multivariable prediction model for individual
+    prognosis or diagnosis (TRIPOD): Explanation and Elaboration. Ann
+    Intern Med. 2015;162:W1–W73. https://​doi.​org/​10.​7326/​M14-0698.
+    [TRIPOD E&E].Crossref
+
+12. 12.
+
+    Moons KGM, Wolff RF, Riley RD, Whiting PF, Westwood M, Collins GS,
+    Reitsma JB, et al. A tool to assess the risk of bias and
+    applicability of prediction model studies: explanation and
+    elaboration. Ann Intern Med. 2019; https://​doi.​org/​10.​7326/​M18-1377.
+    [PROBAST].
+
+13. 13.
+
+    Moons KGM, de Groot JAH, Bouwmeester W, Vergouwe Y, Mallett S,
+    Altman DG, et al. Critical appraisal and data extraction for
+    systematic reviews of prediction modelling studies: the CHARMS
+    checklist. PLoS Med. 2014;11(10):e1001744. [CHARMS].Crossref
+
+14. 14.
+
+    Collins GS, Dirman P, Navarro CLA, Ma J, Hooft L, Reitsma JB,
+    Logullo P, Beam AL, et al. Protocol for development of a reporting
+    guideline (TRIPOD-AI) and risk of bias tool (PROBAST-AI) for
+    diagnostic and prognostic prediction model studies based on
+    artificial intelligence. BMJ Open. 2021;11:e048008.
+    https://​doi.​org/​10.​1136/​bmjopen-2020-04800.Crossref
+
+15. 15.
+
+    [AMAM] HIMSS. Adoption Model for Analytics Maturiy (AMAM). URL:
+    https://​www.​himss.​org/​what-we-do-solutions/​digital-health-transformation/​maturity-models/​adoption-model-analytics-maturity-amam
+
+16. 16.
+
+    [CAHIIM] CAHIIM. URL: cahiim.​org
+
+17. 17.
+
+    AMIA Board. AMIA 2017 core competencies for applied health
+    informatics education at the master’s degree level. JAMIA.
+    2018;25(12):1657–68. [AMIA competencies]
+    https://​www.​cahiim.​org/​docs/​default-source/​about-cahiim/​history/​final-amia-health-informatics-core-competencies-for-cahiim.​pdf?​sfvrsn=​fed062b8_​4
+
+18. 18.
+
+    Gardner RM, Overhage JM, Steen EB, Munger BS, Holmes JH, Williamson
+    JJ, Detmer DE, for the AMIA Board of Directors. AMIA Board White
+    Paper: core content for the subspecialty of clinical informatics.
+    JAMIA. 2009;16:153–7. https://​doi.​org/​10.​1197/​jamia.​M3045.Crossref
+
+19. 19.
+
+    Safran C, Shabot MM, Munger BS, Holmes JH, Steen EB, Lumpkin JR,
+    Detmer DE, for the AMIA Board of Directors. AMIA Board White Paper:
+    program requirements for fellowship education in the subspecialty of
+    clinical informatics. JAMIA. 2009;16:158–66.
+    https://​doi.​org/​10.​1197/​jamia.​M3046.Crossref
+
+© The Author(s) 2024
+
+G. J. Simon, C. Aliferis (eds.)Artificial Intelligence and Machine
+Learning in Health Care and Medical SciencesHealth
+Informaticshttps://doi.org/10.1007/978-3-031-39355-6_18
+
+

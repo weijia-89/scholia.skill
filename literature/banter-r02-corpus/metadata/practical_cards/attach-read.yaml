@@ -1,0 +1,71 @@
+# R-02 practical cards — attach-read (P-M)
+pillar_moniker: attach-read
+pillar_ids: [P-M]
+lane: L3
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#attach-read
+
+source_ingests:
+  - literature/ingests/levine_2010_attached_ch04_chapter_ingest.md
+  - literature/ingests/levine_2010_attached_ch08_chapter_ingest.md
+
+cards:
+  - exercise_name: Applied Adult Attachment Style Spotting
+    steps:
+      - Shift question from "does she like me?" to "can this person meet my intimacy needs?" (Levine Ch4 investment frame).
+      - Observe three behavioral episodes over 2–3 dates before labeling — not one signal (pillar operator_note + Levine methodology).
+      - Map behaviors to secure, anxious, or avoidant prototypes using consistent follow-through, direct asks, and closeness/space tolerance (C-B08_CH04-001).
+      - Record observations in a log — behavior first, label second — to reduce fusion with one ambiguous cue.
+    cognitive_frame: Styles are useful supporing calibration, not destiny labels or excuses for protest behavior.
+    observables:
+      - Operator notes specific behaviors (response latency, follow-through, direct asks) before style label
+      - Avoids labeling from a single text or one date
+      - Distinguishes own activation from partner pattern
+    contraindications:
+      - mind-reading partner intent from attachment label
+      - protest-behavior scripts or chase after avoidant withdrawal (σ−)
+      - hard-to-get performance
+    source_anchor: C-B08_CH04-001 · levine_2010_attached_ch04_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#attach-read
+    operator_fit_tags: [partner-read, dating-IRL, dating-online]
+    quality_level: full
+
+  - exercise_name: Partner Attachment Questionnaire
+    steps:
+      - Complete partner-focused questionnaire scoring groups A (avoidant), B (secure), C (anxious) (Levine Ch8 partner_attachment_questionnaire).
+      - Score ≥23 on one group as provisional style indicator — pattern over single symptom (Golden Rule 3).
+      - Apply Golden Rules — intimacy seeking, rejection sensitivity, reaction to effective communication, listen for omissions (Levine Ch8).
+      - Revisit score after new behavioral data rather than locking label after day one.
+    cognitive_frame: Questionnaire supports hypothesis testing about fit — not a verdict on chemistry or a script for pursuit.
+    observables:
+      - Operator cites multiple behavioral markers aligned with score group
+      - Notes smoking-gun avoidant responses to needs disclosure without self-blame spiral
+      - Secure matches given runway for direct communication
+    contraindications:
+      - using anxious label to justify double-text escalation
+      - using avoidant label to perform distancing games
+    source_anchor: C-B08_CH08-001 · levine_2010_attached_ch08_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#attach-read
+    operator_fit_tags: [partner-read]
+    quality_level: full
+
+  - exercise_name: Partner Read Behavior Log
+    steps:
+      - After each date or sustained message thread, log three observable behaviors — no inference column yet (pillar partner_read).
+      - Secure markers — consistent follow-through, direct asks, tolerates closeness and space (pillar partner_read).
+      - Anxious markers — rapid merge, protest when distant, hypervigilance to cues (pillar partner_read + Levine Ch4).
+      - Avoidant markers — warmth then withdrawal, self-reliance emphasis, distancing when serious (pillar partner_read + Levine Ch8 smoking guns).
+    cognitive_frame: Read partners by accumulated behavior, not by fantasy or one spike of activation mistaken for chemistry.
+    observables:
+      - Written log with dates and behaviors before style hypothesis
+      - Operator distinguishes protest spike from genuine mismatch before acting
+    contraindications:
+      - labeling from covert-interest heuristics alone
+      - diagnostic certainty without 2–3 observation windows
+    source_anchor: C-B08_CH04-001 · r02-foundational-guidance-pillars.md P-M partner_read
+    aletheia_wire: references/model/operator-self-module.md#attach-read
+    operator_fit_tags: [partner-read, dating-IRL, dating-online]
+    quality_level: full

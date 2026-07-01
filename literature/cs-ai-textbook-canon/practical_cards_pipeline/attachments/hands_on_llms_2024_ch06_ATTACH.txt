@@ -1,0 +1,491 @@
+hands_on_llms_2024_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: hands_on_llms_2024 · chapter: 06
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/hands_on_llms_2024_ch06_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (hands_on_llms_2024_ch06_ingest.md)
+========================================================================
+
+# Chapter ingest — Hands-On Large Language Models, Chapter 6
+
+| Field | Value |
+|-------|-------|
+| slug | hands_on_llms_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/hands_on_llms_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch06_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Hands-On Large Language Models |
+| authors | Jay Alammar, Maarten Grootendorst |
+| edition | 1st Edition (2024) |
+| ISBN_print | 9781098150952 [corpus manifest] |
+| ISBN_electronic | not stated in chapter slice |
+| publisher | O'Reilly Media |
+| parent_book_title | Hands-On Large Language Models |
+| chapter_number | 6 |
+| chapter_title | Prompt Engineering |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 6 is the **generative-model prompting tutorial** for Phi-3-mini. Within lines 6037–7253:
+
+1. **Model I/O** — Choosing open vs proprietary LLMs; loading `microsoft/Phi-3-mini-4k-instruct` via `transformers` pipeline; chat templates (`<|user|>`, `<|assistant|>`, `<|end|>`).
+
+2. **Sampling controls** — `temperature`, `top_p` (nucleus), `top_k`, `do_sample`; Table 6-1 use-case matrix (brainstorming, email, creative writing, translation).
+
+3. **Prompt structure** — Instruction + data + output indicators; instruction-based prompting for classification, summarization, etc.; specificity, hallucination mitigation ("I don't know"), order/primacy-recency (Lost in the Middle).
+
+4. **Advanced prompting** — Modular components (persona, instruction, context, format, audience, tone, data); in-context learning (zero/one/few-shot); chain prompting (product name → slogan → pitch).
+
+5. **Reasoning techniques** — System 1 vs 2 framing; chain-of-thought (few-shot + zero-shot "Let's think step-by-step"); self-consistency majority voting; tree-of-thought (multi-expert emulation).
+
+6. **Output verification** — Few-shot JSON structure; constrained sampling via Guidance/Guardrails/LMQL; `llama-cpp-python` JSON grammar on GGUF Phi-3.
+
+7. **Chapter close** — Bridge to Ch. 7 external memory and tools. Fine-tuning deferred to Ch. 12. [verified from text, lines 6037–7253]
+
+## key_findings
+
+1. **Open-source default** — Book favors open models for flexibility; start small (Phi-3 3.8B, ≤8 GB VRAM) then scale up. [verified, 6064–6088]
+
+2. **Chat templates are contractual** — `apply_chat_template` reveals training-time format; pipeline hides this but custom templates needed elsewhere (LangChain Ch. 7). [verified, 6137–6156]
+
+3. **Deterministic vs creative generation** — `do_sample=False` → greedy most-likely token; `do_sample=True` enables temperature/top_p stochasticity. [verified, 6189–6224]
+
+4. **Temperature vs top_p** — Temperature reshapes token probability distribution; top_p truncates nucleus by cumulative probability; Table 6-1 pairs them per task (e.g. high temp + low top_p for coherent creativity). [verified, 6195–6268]
+
+5. **Prompt = iterative experiment** — No perfect prompt; components composable; model-specific effectiveness varies. [verified, 6278–6282, 6507–6511]
+
+6. **Instruction prompting tactics** — Specificity reduces drift; hallucination guard via abstention instruction; place critical info at start or end (middle forgotten — Liu et al. 2023). [verified, 6373–6397]
+
+7. **Modular prompt components** — Persona, instruction, context, format, audience, tone, data — add/remove/order iteratively (Figure 6-11/6-12 walkthrough with paper summarization). [verified, 6420–6496]
+
+8. **In-context learning** — Zero/one/few-shot; exemplar "Gigamuru"/"screeg" one-shot via user/assistant turns in chat template. [verified, 6513–6586]
+
+9. **Chain prompting** — Sequential prompts: product name+slogan → sales pitch; enables per-step token budgets and validation passes. [verified, 6593–6672]
+
+10. **Reasoning is mimicked, not guaranteed** — LLM "reasoning" attributed to pattern matching/memorization; prompt engineering emulates System 2 slow thinking. [verified, 6688–6698]
+
+11. **Chain-of-thought** — Few-shot reasoning exemplars improve math; zero-shot trigger "Let's think step-by-step" (Kojima et al.); variant phrases exist. [verified, 6718–6803]
+
+12. **Self-consistency** — Sample multiple CoT paths; majority vote on final answer; n× latency cost. [verified, 6805–6829]
+
+13. **Tree-of-thought** — Explore/prune intermediate thoughts; zero-shot multi-expert prompt emulates multi-call ToT in one generation. [verified, 6831–6898]
+
+14. **Output control triad** — Examples (few-shot structure), grammar (constrained decoding), fine-tuning (Ch. 12); production needs structured/valid/ethical/accurate outputs. [verified, 6900–6953]
+
+15. **JSON via grammar** — `llama_cpp` `response_format={"type": "json_object"}` enforces valid JSON at sampling time vs unreliable zero-shot JSON. [verified, 7079–7193]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener | read | 6037–6054 |
+| Choosing + loading Phi-3 | read | 6056–6116 |
+| Chat template exploration | read | 6124–6165 |
+| Temperature, top_p, top_k | read | 6167–6268 |
+| Intro prompt engineering | read | 6270–6288 |
+| Basic prompt ingredients | read | 6292–6338 |
+| Instruction-based prompting | read | 6344–6397 |
+| Advanced components + iteration | read | 6399–6511 |
+| In-context learning | read | 6513–6591 |
+| Chain prompting | read | 6593–6679 |
+| Reasoning intro (System 1/2) | read | 6681–6716 |
+| Chain-of-thought | read | 6718–6803 |
+| Self-consistency | read | 6805–6829 |
+| Tree-of-thought | read | 6831–6898 |
+| Output verification overview | read | 6900–6953 |
+| Few-shot JSON example | read | 6955–7037 |
+| Grammar / llama-cpp JSON | read | 7039–7193 |
+| Summary + footnotes ¹–¹¹ | read | 7195–7252 |
+| Chapter 7 opener | **deferred** | 7254+ |
+
+- **Lines read:** 6037–7253 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `hands_on_llms_2024.txt`
+
+## pedagogy
+
+### learning_objectives
+
+- Load and invoke a chat-tuned causal LM with correct template
+- Tune temperature/top_p for task-specific creativity vs determinism
+- Compose modular prompts and iterate on component order
+- Apply few-shot and chain-of-thought patterns for reasoning tasks
+- Constrain outputs via few-shot schemas and grammar-based decoding
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Chicken joke + chat template | Pipeline + template inspection | 6124–6149 |
+| Temperature=1 resampling | Stochastic output | 6215–6224 |
+| Sentiment instruction + output indicator | Structured classification prompt | 6309–6327 |
+| Paper summarization modular prompt | Component ablation | 6485–6496 |
+| Gigamuru/screeg one-shot | ICL in chat format | 6548–6584 |
+| MindMeld product chain | Multi-prompt pipeline | 6624–6651 |
+| Roger tennis balls CoT | Few-shot reasoning | 6742–6754 |
+| Zero-shot "step-by-step" apples | Zero-shot CoT | 6776–6790 |
+| Multi-expert ToT apples | Single-prompt ToT emulation | 6865–6894 |
+| RPG JSON zero-shot vs one-shot | Format control via examples | 6968–7028 |
+| Phi-3 GGUF JSON grammar | Constrained decoding | 7109–7189 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 6.PE-1 | Table 6-1 matrix | Run same prompt across 4 temp/top_p cells; log variance | 6256–6268 |
+| 6.PE-2 | Lost in the middle | Place key fact at start/middle/end; measure recall | 6385–6389 |
+| 6.PE-3 | Component ablation | Remove one modular block at a time on summarization task | 6479–6496 |
+| 6.PE-3 | Self-consistency vote | 5 samples @ temperature>0; majority on math word problem | 6805–6829 |
+| 6.PE-4 | JSON grammar vs few-shot | Compare valid-json rate: zero-shot, one-shot, llama-cpp grammar | 6968–7189 |
+| 6.PE-5 | Chain vs monolith pitch | Single prompt vs 2-step chain; compare pitch quality + tokens | 6605–6656 |
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 6 is the **hands-on prompt-engineering lab** complementing framework texts:
+
+- **Sampling + template discipline** — prerequisite for Ch. 7 LangChain chains and Ch. 8 RAG prompts
+- **Reasoning prompts** — CoT/self-consistency/ToT preview agent planning in Ch. 7 ReAct
+- **Structured output** — bridges to tool-calling and JSON agents in production stacks
+
+Pair with **ai_engineering_2025 Ch. 5** for defensive prompting and production guardrails; HOTL supplies executable Phi-3 notebooks.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical content. Pattern-portable: abstention prompts, structured output for downstream parsers, PII/ethics validation checklist (6921–6926).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `prompt_engineering_llms_2024` | Dedicated O'Reilly prompt book in canon; HOTL Ch. 6 is integrated tutorial slice |
+| `ai_engineering_2025` Ch. 5 | AIE framework + failure modes; HOTL procedural code |
+| `hands_on_llms_2024` Ch. 5 | Generative topic labels reuse prompting patterns |
+| `hands_on_llms_2024` Ch. 7 | Chain prompting manual version → LangChain automation |
+
+**Dedup rule:** Use this ingest for **Phi-3/transformers/llama-cpp exercises**; defer prompt taxonomy depth to `prompt_engineering_llms_2024` when operator needs dedicated prompt curriculum.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — runnable code throughout |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — ends 7218; Ch. 7 at 7254 |
+| Citation density | High (Brown few-shot, Wei CoT, Wang self-consistency, Yao ToT, Liu lost-in-middle) |
+| Child-skill potential | `scholia.phi3-prompt-template`, `scholia.cot-self-consistency` cards |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | O'Reilly practitioner textbook |
+| Primary-source citation density | **PASS** | Liu 2023, Li EmotionPrompt, Brown/Wei/Kojima/Wang/Yao papers, Kahneman |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Multiple complete code paths |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| LLM reasoning "resembles" human reasoning | 6688–6698 | Author explicitly hedges — pattern matching, not true reasoning |
+| "Let's think step-by-step" generality | 6798–6803 | Phrasing variants help; not universal across models/tasks |
+| Self-consistency always improves | 6805–6829 | Costs n× inference; correlated errors possible |
+| Few-shot guarantees format adherence | 7035–7037 | Model may still deviate — grammar stricter |
+| EmotionPrompt career stimulus | 6500–6502 | Cited as creative tip; reproducibility varies |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — core w1_foundation procedural ingest for prompting; flag reasoning metaphor and model-specific prompt transfer.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Prompt engineering | Designing prompts to elicit useful, evaluable, safe model responses |
+| Temperature | Scales randomness of token selection |
+| top_p | Nucleus sampling — cumulative probability cutoff for candidate tokens |
+| In-context learning | Providing exemplar input-output pairs in the prompt |
+| Chain-of-thought | Prompting model to show intermediate reasoning before answer |
+| Self-consistency | Majority vote over multiple sampled reasoning paths |
+| Tree-of-thought | Branching exploration/pruning of intermediate reasoning states |
+| Constrained sampling | Grammar/rules restrict legal next tokens during generation |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 1–4 (GPT intro, templates from Ch. 2)
+- Forward: Ch. 7 memory/tools/chains (7215–7218); Ch. 12 fine-tuning (6951–6953)
+- External: Guidance, Guardrails, LMQL (7045–7046)
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/hands_on_llms_2024_ch06_SLICE.txt)
+========================================================================
+
+# Text slice — hands_on_llms_2024_ch06_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: hands_on_llms_2024 · chapter: 06
+# hooks: 7 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Hands-On Large Language Models, Chapter 6
+
+| Field | Value |
+|-------|-------|
+| slug | hands_on_llms_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/hands_on_llms_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch06_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Hands-On Large Language Models |
+| authors | Jay Alammar, Maarten Grootendorst |
+| edition | 1st Edition (2024) |
+| ISBN_print | 9781098150952 [corpus manifest] |
+| ISBN_electronic | not stated in chapter slice |
+| publisher | O'Reilly Media |
+| parent_book_title | Hands-On Large Language Models |
+| chapter_number | 6 |
+| chapter_title | Prompt Engineering |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 6 is the **generative-model prompting tutorial** for Phi-3-mini. Within lines 6037–7253:
+
+1. **Model I/O** — Choosing open vs proprietary LLMs; loading `microsoft/Phi-3-mini-4k-instruct` via `transformers` pipeline; chat templates (`<|user|>`, `<|assistant|>`, `<|end|>`).
+
+2. **Sampling controls** — `temperature`, `top_p` (nucleus), `top_k`, `do_sample`; Table 6-1 use-case matrix (brainstorming, email, creative writing, translation).
+
+3. **Prompt structure** — Instruction + data + output indicators; instruction-based prompting for classification, summarization, etc.; specificity, hallucination mitigation ("I don't know"), order/primacy-recency (Lost in the Middle).
+
+4. **Advanced prompting** — Modular components (persona, instruction, context, format, audience, tone, data); in-context learning (zero/one/few-shot); chain prompting (product name → slogan → pitch).
+
+5. **Reasoning techniques** — System 1 vs 2 framing; chain-of-thought (few-shot + zero-shot "Let's think step-by-step"); self-consistency majority voting; tree-of-thought (multi-expert emulation).
+
+6. **Output verification** — Few-shot JSON structure; constrained sampling via Guidance/Guardrails/LMQL; `llama-cpp-python` JSON grammar on GGUF Phi-3.
+
+7. **Chapter close** — Bridge to Ch. 7 external memory and tools. Fine-tuning deferred to Ch. 12. [verified from text, lines 6037–7253]
+
+## key_findings
+
+1. **Open-source default** — Book favors open models for flexibility; start small (Phi-3 3.8B, ≤8 GB VRAM) then scale up. [verified, 6064–6088]
+
+2. **Chat templates are contractual** — `apply_chat_template` reveals training-time format; pipeline hides this but custom templates needed elsewhere (LangChain Ch. 7). [verified, 6137–6156]
+
+3. **Deterministic vs creative generation** — `do_sample=False` → greedy most-likely token; `do_sample=True` enables temperature/top_p stochasticity. [verified, 6189–6224]
+
+4. **Temperature vs top_p** — Temperature reshapes token probability distribution; top_p truncates nucleus by cumulative probability; Table 6-1 pairs them per task (e.g. high temp + low top_p for coherent creativity). [verified, 6195–6268]
+
+5. **Prompt = iterative experiment** — No perfect prompt; components composable; model-specific effectiveness varies. [verified, 6278–6282, 6507–6511]
+
+6. **Instruction prompting tactics** — Specificity reduces drift; hallucination guard via abstention instruction; place critical info at start or end (middle forgotten — Liu et al. 2023). [verified, 6373–6397]
+
+7. **Modular prompt components** — Persona, instruction, context, format, audience, tone, data — add/remove/order iteratively (Figure 6-11/6-12 walkthrough with paper summarization). [verified, 6420–6496]
+
+8. **In-context learning** — Zero/one/few-shot; exemplar "Gigamuru"/"screeg" one-shot via user/assistant turns in chat template. [verified, 6513–6586]
+
+9. **Chain prompting** — Sequential prompts: product name+slogan → sales pitch; enables per-step token budgets and validation passes. [verified, 6593–6672]
+
+10. **Reasoning is mimicked, not guaranteed** — LLM "reasoning" attributed to pattern matching/memorization; prompt engineering emulates System 2 slow thinking. [verified, 6688–6698]
+
+11. **Chain-of-thought** — Few-shot reasoning exemplars improve math; zero-shot trigger "Let's think step-by-step" (Kojima et al.); variant phrases exist. [verified, 6718–6803]
+
+12. **Self-consistency** — Sample multiple CoT paths; majority vote on final answer; n× latency cost. [verified, 6805–6829]
+
+13. **Tree-of-thought** — Explore/prune intermediate thoughts; zero-shot multi-expert prompt emulates multi-call ToT in one generation. [verified, 6831–6898]
+
+14. **Output control triad** — Examples (few-shot structure), grammar (constrained decoding), fine-tuning (Ch. 12); production needs structured/valid/ethical/accurate outputs. [verified, 6900–6953]
+
+15. **JSON via grammar** — `llama_cpp` `response_format={"type": "json_object"}` enforces valid JSON at sampling time vs unreliable zero-shot JSON. [verified, 7079–7193]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener | read | 6037–6054 |
+| Choosing + loading Phi-3 | read | 6056–6116 |
+| Chat template exploration | read | 6124–6165 |
+| Temperature, top_p, top_k | read | 6167–6268 |
+| Intro prompt engineering | read | 6270–6288 |
+| Basic prompt ingredients | read | 6292–6338 |
+| Instruction-based prompting | read | 6344–6397 |
+| Advanced components + iteration | read | 6399–6511 |
+| In-context learning | read | 6513–6591 |
+| Chain prompting | read | 6593–6679 |
+| Reasoning intro (System 1/2) | read | 6681–6716 |
+| Chain-of-thought | read | 6718–6803 |
+| Self-consistency | read | 6805–6829 |
+| Tree-of-thought | read | 6831–6898 |
+| Output verification overview | read | 6900–6953 |
+| Few-shot JSON example | read | 6955–7037 |
+| Grammar / llama-cpp JSON | read | 7039–7193 |
+| Summary + footnotes ¹–¹¹ | read | 7195–7252 |
+| Chapter 7 opener | **deferred** | 7254+ |
+
+- **Lines read:** 6037–7253 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `hands_on_llms_2024.txt`
+
+## pedagogy
+
+### learning_objectives
+
+- Load and invoke a chat-tuned causal LM with correct template
+- Tune temperature/top_p for task-specific creativity vs determinism
+- Compose modular prompts and iterate on component order
+- Apply few-shot and chain-of-thought patterns for reasoning tasks
+- Constrain outputs via few-shot schemas and grammar-based decoding
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Chicken joke + chat template | Pipeline + template inspection | 6124–6149 |
+| Temperature=1 resampling | Stochastic output | 6215–6224 |
+| Sentiment instruction + output indicator | Structured classification prompt | 6309–6327 |
+| Paper summarization modular prompt | Component ablation | 6485–6496 |
+| Gigamuru/screeg one-shot | ICL in chat format | 6548–6584 |
+| MindMeld product chain | Multi-prompt pipeline | 6624–6651 |
+| Roger tennis balls CoT | Few-shot reasoning | 6742–6754 |
+| Zero-shot "step-by-step" apples | Zero-shot CoT | 6776–6790 |
+| Multi-expert ToT apples | Single-prompt ToT emulation | 6865–6894 |
+| RPG JSON zero-shot vs one-shot | Format control via examples | 6968–7028 |
+| Phi-3 GGUF JSON grammar | Constrained decoding | 7109–7189 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 6.PE-1 | Table 6-1 matrix | Run same prompt across 4 temp/top_p cells; log variance | 6256–6268 |
+| 6.PE-2 | Lost in the middle | Place key fact at start/middle/end; measure recall | 6385–6389 |
+| 6.PE-3 | Component ablation | Remove one modular block at a time on summarization task | 6479–6496 |
+| 6.PE-3 | Self-consistency vote | 5 samples @ temperature>0; majority on math word problem | 6805–6829 |
+| 6.PE-4 | JSON grammar vs few-shot | Compare valid-json rate: zero-shot, one-shot, llama-cpp grammar | 6968–7189 |
+| 6.PE-5 | Chain vs monolith pitch | Single prompt vs 2-step chain; compare pitch quality + tokens | 6605–6656 |
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 6 is the **hands-on prompt-engineering lab** complementing framework texts:
+
+- **Sampling + template discipline** — prerequisite for Ch. 7 LangChain chains and Ch. 8 RAG prompts
+- **Reasoning prompts** — CoT/self-consistency/ToT preview agent planning in Ch. 7 ReAct
+- **Structured output** — bridges to tool-calling and JSON agents in production stacks
+
+Pair with **ai_engineering_2025 Ch. 5** for defensive prompting and production guardrails; HOTL supplies executable Phi-3 notebooks.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical content. Pattern-portable: abstention prompts, structured output for downstream parsers, PII/ethics validation checklist (6921–6926).
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `prompt_engineering_llms_2024` | Dedicated O'Reilly prompt book in canon; HOTL Ch. 6 is integrated tutorial slice |
+| `ai_engineering_2025` Ch. 5 | AIE framework + failure modes; HOTL procedural code |
+| `hands_on_llms_2024` Ch. 5 | Generative topic labels reuse prompting patterns |
+| `hands_on_llms_2024` Ch. 7 | Chain prompting manual version → LangChain automation |
+
+**Dedup rule:** Use this ingest for **Phi-3/transformers/llama-cpp exercises**; defer prompt taxonomy depth to `prompt_engineering_llms_2024` when operator needs dedicated prompt curriculum.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — runnable code throughout |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — ends 7218; Ch. 7 at 7254 |
+| Citation density | High (Brown few-shot, Wei CoT, Wang self-consistency, Yao ToT, Liu lost-in-middle) |
+| Child-skill potential | `scholia.phi3-prompt-template`, `scholia.cot-self-consistency` cards |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | O'Reilly practitioner textbook |
+| Primary-source citation density | **PASS** | Liu 2023, Li EmotionPrompt, Brown/Wei/Kojima/Wang/Yao papers, Kahneman |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Multiple complete code paths |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| LLM reasoning "resembles" human reasoning | 6688–6698 | Author explicitly hedges — pattern matching, not true reasoning |
+| "Let's think step-by-step" generality | 6798–6803 | Phrasing variants help; not universal across models/tasks |
+| Self-consistency always improves | 6805–6829 | Costs n× inference; correlated errors possible |
+| Few-shot guarantees format adherence | 7035–7037 | Model may still deviate — grammar stricter |
+| EmotionPrompt career stimulus | 6500–6502 | Cited as creative tip; reproducibility varies |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — core w1_foundation procedural ingest for prompting; flag reasoning metaphor and model-specific prompt transfer.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Prompt engineering | Designing prompts to elicit useful, evaluable, safe model responses |
+| Temperature | Scales randomness of token selection |
+| top_p | Nucleus sampling — cumulative probability cutoff for candidate tokens |
+| In-context learning | Providing exemplar input-output pairs in the prompt |
+| Chain-of-thought | Prompting model to show intermediate reasoning before answer |
+| Self-consistency | Majority vote over multiple sampled reasoning paths |
+| Tree-of-thought | Branching exploration/pruning of intermediate reasoning states |
+| Constrained sampling | Grammar/rules restrict legal next tokens during generation |
+
+## Reciprocal index pointers
+
+- 
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

@@ -1,0 +1,191 @@
+# Chapter ingest — Grokking Algorithms 2e, Chapter 12
+
+| Field | Value |
+|-------|-------|
+| slug | grokking_algorithms_2e_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/grokking_algorithms_2e_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch12_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Grokking Algorithms |
+| authors | Aditya Y. Bhargava |
+| edition | 2nd Edition (2024) |
+| ISBN_print | 9781633438538 [verified from text, line 156] |
+| ISBN_electronic | not stated in text export; corpus manifest lists 9781633438531 [manifest only — not verified in chapter slice] |
+| publisher | Manning Publications |
+| parent_book_title | Grokking Algorithms, Second Edition |
+| chapter_number | 12 |
+| chapter_title | k-nearest neighbors |
+| page_range | ~229–246 [inferred from index entries at lines 8923–8939; print pages not embedded in text export] |
+
+## scope
+
+Chapter 12 introduces **k-nearest neighbors (KNN)** as a first machine-learning algorithm. It progresses from intuitive classification (fruit by size/color) to a Netflix-style collaborative-filtering metaphor, then formalizes **feature extraction** (objects as numeric vectors) and **Euclidean distance**. The chapter covers **regression** (predicting numeric targets by averaging neighbors), **cosine similarity** as an alternative metric (named but not derived), and **feature selection** heuristics. It broadens to an ML survey: OCR, Naive Bayes spam filtering, stock-market prediction limits, and a high-level **train/validate/tune** pipeline. Exercises 12.1–12.3 probe rating normalization, influencer weighting, and choice of *k*. [verified from text, lines 6830–7276]
+
+## key_findings
+
+1. **KNN classification** — Classify a point by majority vote among its *k* closest neighbors in feature space. Introduced via oranges vs. grapefruits (size, redness) and Netflix user similarity. [verified, lines 6841–6871, 6873–6893]
+
+2. **Feature extraction** — Convert items into comparable numeric vectors (fruit: size + color; users: category ratings). Distance generalizes from 2D to *n* dimensions via the same Pythagorean formula. Term **vector** introduced for such arrays. [verified, lines 6900–6975]
+
+3. **Euclidean distance worked example** — Priyanka `(3,4,4,1,4)` vs Justin `(4,4,4,1,4)` distance √2; vs Morpheus `(1,1,1,5,5)` distance √24, showing taste alignment with Justin. [verified, lines 6969–6981]
+
+4. **Regression via KNN** — Predict a numeric value (movie rating, loaves sold) by averaging the target values of *k* nearest neighbors; *k* is a tunable hyperparameter. Bakery example: weekend + good weather → average of four neighbor days ≈ 218.75 loaves. [verified, lines 7012–7066]
+
+5. **Cosine similarity** — Mentioned as preferable when users share taste but differ in rating scale (conservative vs liberal raters); compares vector angles, not distance. Author defers detail: "out of the scope of this book." [verified, lines 7068–7081]
+
+6. **Feature quality** — Good features must correlate with the prediction target and avoid systematic bias (e.g., rating only comedies tells little about action preference). Cat-picture ratings would be a poor proxy for movie taste. [verified, lines 7083–7119]
+
+7. **ML breadth sketch** — OCR as KNN over extracted line/point/curve features; spam as Naive Bayes word probabilities; stock prediction flagged as hard due to non-stationarity and many variables. [verified, lines 7127–7207]
+
+8. **Training pipeline (high level)** — Gather data → clean (remove random raters) → extract features → train model on ~90% → hold out ~10% for validation → evaluate predictions → **parameter tuning** (e.g., try *k*=7 vs *k*=5). [verified, lines 7210–7255]
+
+9. **Exercise answers (Appendix C, within read range)** — 12.1: normalize by user average rating; 12.2: weight influencer neighbors' ratings more heavily; 12.3: *k*=5 too low for millions of users; rule of thumb √N neighbors. [verified, lines 8511–8547]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter 12 opener + learning goals | read | 6830–6839 |
+| Classifying oranges vs. grapefruit | read | 6841–6871 |
+| Building a recommendations system | read | 6873–6893 |
+| Feature extraction (fruit, Netflix vectors) | read | 6900–6991 |
+| Exercises 12.1–12.2 (prompts) | read | 6994–7010 |
+| Regression + bakery example | read | 7012–7066 |
+| Cosine similarity | read | 7068–7081 |
+| Picking good features | read | 7083–7119 |
+| Exercise 12.3 (prompt) | read | 7121–7125 |
+| Introduction to ML (OCR, spam, stocks) | read | 7127–7207 |
+| Training an ML model (overview) | read | 7210–7255 |
+| Recap | read | 7257–7276 |
+| Chapter 13+ (where to go next) | **deferred** | 7278+ (outside Ch12 scope) |
+| Appendices A–B | **deferred** | 7754+ |
+| Appendix C Ch12 answers | read (exercise hooks) | 8511–8547 |
+| Index (KNN entries) | skimmed for page_range | 8923–8939 |
+
+- **Lines read:** 6830–7276 (chapter body); 8511–8547 (Ch12 exercise answers); 8923–8939 (index cross-check)
+- **Parent-requested range:** 6830–9221 — truncated at chapter boundary; content after line 7276 is not summarized as chapter findings
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** All numbered findings above trace to quoted line ranges in `grokking_algorithms_2e_2024.txt`; no training-prior facts without tag
+
+## pedagogy
+
+### learning_objectives
+
+From chapter opener (lines 6834–6839):
+
+- Build a classification system using KNN
+- Understand feature extraction
+- Understand regression (predicting numbers)
+- Know use cases and limitations of KNN
+
+Extended implicit objectives: Euclidean distance in *n* dimensions; collaborative filtering metaphor; ML training/validation/tuning vocabulary; contrast KNN with Naive Bayes at survey level.
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Orange vs. grapefruit (2D plot) | Classification by neighbor vote | 6841–6871 |
+| Netflix Priyanka / Justin / Morpheus | Feature vectors + distance | 6938–6985 |
+| Pitch Perfect rating (5 neighbors) | Regression = average of neighbors | 7025–7031 |
+| Berkeley bakery loaves | KNN regression, *k*=4 | 7038–7066 |
+| Priyanka validation set | Hold-out evaluation | 7230–7246 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Answer anchor |
+|----|----------------|-------------------|---------------|
+| 12.1 | Yogi vs Pinky rating-scale mismatch | Implement per-user mean normalization before distance; compare to cosine similarity | 8513–8527 |
+| 12.2 | Influencer-weighted KNN | Weighted average by neighbor importance; discuss popularity bias | 8529–8539 |
+| 12.3 | Is *k*=5 right for millions of users? | Empirical *k* sweep; √N heuristic vs fixed *k*; latency at scale | 8541–8547 |
+| (inline) | Improve Netflix beyond star ratings | Watch-time, implicit feedback, cold-start — not answered in text | 7108–7111 |
+| (inline) | Bakery good/bad features | Feature engineering worksheet; leakage (advertising → demand) | 7113–7119 |
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 12 is the **canon entry point for instance-based learning and the ML lifecycle vocabulary** used across later titles:
+
+- **Vectors, distance metrics, train/validate/tune** — prerequisite for `hands_on_llms_2024`, `ai_engineering_2025`, and embedding/RAG chapters in `ddia_2e_2026`
+- **Feature engineering emphasis** — bridges to `kaestner_ml_production_2025` (data quality, monitoring) and `designing_ml_systems_2022`
+- **KNN limitations at scale** — motivates indexing (LSH, ANN) touched lightly in Ch13 index but not in Ch12 body
+
+Treat this chapter as **conceptual ML primer**, not production KNN implementation.
+
+### 2. MDCalc alignment
+
+**[none]**
+
+No clinical AI, regulated deployment, agent observability, or trace/eval content. Nearest neighbor ideas are pattern-portable to similarity search over medical embeddings only at a stretch; the text does not discuss healthcare.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `ai_engineering_2025` | AIE will supersede on ML pipeline depth, eval, and production; Ch12 is simpler and cartoon-illustrated |
+| `hands_on_llms_2024` | Embeddings replace hand-crafted feature vectors; cosine similarity named here but not math'd |
+| `designing_ml_systems_2022` / `kaestner_ml_production_2025` | Training/validation split echoed; those books add MLOps, drift, serving |
+| `clrs_4e_2022` | No formal complexity analysis of KNN query cost (*O*(*n*) brute force per query) — gap |
+| Ch11 (same book) | Dynamic programming vs lazy learning contrast; complementary, not redundant |
+
+**Dedup rule:** Keep Ch12 ingest for **pedagogical intuition**; defer production neighbor search and metric learning to later canon.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — fruit, Netflix, bakery, validation narrative |
+| Exercise hooks | Three numbered + two inline open prompts; Appendix C answers usable |
+| Chapter boundary | Clean — Recap at 7257–7276; Ch13 starts 7278 |
+| Anchor density | High for metaphors; low for formulas (distance shown visually, not full code) |
+| Child-skill potential | Good **glossary + exercise bank** slice for a `scholia.knn-intro` reference card |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 2e; within ≤5-year preference |
+| Author authority | **PASS** | Manning textbook; foreword by Daniel Zingaro; widely adopted intro algorithms text |
+| Primary-source citation density | **PARTIAL / FAIL for chapter** | Chapter cites no papers; defers cosine similarity and Naive Bayes without bibliography. Footnote ¹ (Fourier, Ch13) not in Ch12. Acceptable for intro tier but thin for research claims |
+| Contested claims flagged | **PASS (with flags below)** | See contested table |
+| Worked examples (procedural chapter) | **PASS** | Multiple stepped examples with numeric outcomes |
+
+### Contested or oversimplified claims (not smoothed)
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| KNN is good "first try" for classification | 6869–6871 | Heuristic — fails at high dimensionality (curse of dimensionality not mentioned) |
+| Distance in 5D "means" same as 2D similarity | 6961–6965 | Pedagogically OK; can mislead on interpretability and scaling |
+| Cosine similarity "better" for rating scales | 7076–7081 | Stated without derivation or comparison experiment |
+| Stock prediction "almost impossible" with many variables | 7203–7206 | Directionally cautious; contested — quant finance uses ML with heavy caveats |
+| Naive Bayes spam "fairly effective" | 7194–7195 | Oversimplified; modern spam stacks are far more complex |
+| √N neighbors rule of thumb | 8545–8547 | Exercise answer only — not justified in chapter body |
+| Facebook auto-tag "machine learning" | 7167–7168 | True at high level; omits deep learning / consent / error modes |
+| Train 90% / test 10% split | 7225–7228 | Common teaching default; production uses cross-validation, temporal splits |
+
+**TEXTBOOK-Q1 chapter verdict:** **CONDITIONAL PASS** — suitable foundation ingest for track A wave 1; flag citation sparsity and several hand-wavy ML generalizations when cross-linking to clinical or production canon.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| KNN | Algorithm using *k* closest neighbors for classification or regression |
+| Classification | Categorization into a group |
+| Regression | Predicting a numeric response |
+| Feature extraction | Converting an item into a list of comparable numbers |
+| Vector | Array of numeric features |
+| Training | Fitting a model on features so it can perform a task |
+| Validation / evaluation | Testing predictions against held-out data |
+| Parameter tuning | Adjusting hyperparameters (e.g., *k*) after evaluation |
+
+## Reciprocal index pointers
+
+Index entries for this chapter (lines 8923–8939): KNN 229; feature extraction 233–237; regression 238–240; Naive Bayes spam 243; ML overview 241; training overview 244–246.

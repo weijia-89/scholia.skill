@@ -1,0 +1,468 @@
+12_munier_2016_writers_guide_beginnings_ch01_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: munier_2016_writers_guide_beginnings
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/12_munier_2016_writers_guide_beginnings_ch01_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/12_munier_2016_writers_guide_beginnings_ch01.txt)========================================================================
+
+Chapter One
+
+
+In the Beginning Was the Word
+
+
+Anatomy of a First Page
+
+
+“At the beginning of everything is the word.
+
+It is a miracle to which we owe the fact that we are human.
+
+But at the same time it is a pitfall and a test,
+
+a snare and a trial.”
+
+—Vaclav Havel
+
+“The most difficult and complicated part of the writing process is the beginning.”
+
+—A.B. Yehoshua
+
+"Tell me a story."
+
+These are words that have resonated with us from our very beginnings as a species. Story is part of what makes us human; in fact, storytelling is one of the few human traits that occurs in all cultures across our known history.
+
+Since the dawn of man, we’ve gathered around the fire, telling stories to understand the world and our place in it, to process the past and prepare for the future, to entertain and soothe, and, ultimately, to pass on our collective knowledge and wisdom to the next generation. Storytelling is our rage against the darkness, lighting the way for our children and our children’s children.
+
+Our stories live on, to be told again and again and again. This timelessness of story is why storytellers play a sacred role in many cultures, as anointed elders who earn their place by capturing and holding the attention of their people with stories well told from the very first word.
+
+When we answer that call to “tell me a story,” we take on that sacred mantle of storyteller ourselves. So we need to start strong, too, just as our predecessors did. We need to tell our own stories well, from the very first word.
+
+We have our work cut out for us. Unlike the storytellers of old, we do not command the attention of an audience gathered around the only source of light in the village to hear the only stories being told that evening by the only anointed storyteller in the tribe. We must compete with countless points of light, countless stories being told by countless storytellers, in books and at the movies and in our own living rooms—even on our phones.
+
+The competition is fierce—and that’s why your first words must be fierce as well.
+
+“Those who tell the stories rule the world.”
+
+—Hopi Proverb
+
+
+
+
+
+Fierce First Words
+
+
+The best story openings are fierce enough to grab the attention of readers, editors, and agents. This means keeping a lot of balls in the air. Skillful storytellers are master jugglers: They juggle voice, character, premise, setting, dialogue, conflict, point of view, style, and theme in an endless and seamless circle of story. They toss those story balls and knives and flamethrowers around with a fierceness we haven’t quite experienced before. And thus we are compelled to read on.
+
+A tall order.
+
+Once I was in a writer’s group where one of the writers was struggling with her opening. Margaret was a good storyteller, and while her story was solid, her opening did not work. Her first words were unworthy of the rest of her novel, and she knew it. She’d rewritten the first page a dozen times but remained unhappy with the results. She was stumped.
+
+She stayed behind after everyone else had left, and we sat on my sofa and talked about the problem with the opening of her thriller.
+
+“When in doubt,” I said, “look to the masters.” And I jumped up and went to my bookshelf, pulled down the first several thrillers I found, and stacked them on the coffee table.
+
+We took turns reading aloud the first page of each novel. When we were finished, we looked at each other and grinned.
+
+“Thanks,” said Margaret. She went home and wrote a new opening. She published that book and several others since. (Check out Under Fire, Under Oath, and Whitey on Trial at www.margaretmclean.com.)
+
+It worked for Margaret, and it will work for you. No matter what your genre, the quickest way to understand what constitutes a fierce beginning is to read the first words of several best-selling works. So let’s pull seven stories off the shelf and take a hard look at the opening words.
+
+Of course, the selections will be from my bookshelf since I am writing this book. Lucky for you, I have very eclectic tastes, so the odds are good that whatever genre you are writing will be represented somewhere below.
+
+All this happened, more or less. The war parts, anyway, are pretty much true. One guy I knew really was shot in Dresden for taking a teapot that wasn’t his. Another guy I knew really did threaten to have his personal enemies killed by hired gunmen after the war. And so on. I’ve changed all the names.
+
+—Slaughterhouse-Five, by Kurt Vonnegut
+
+The first annoying thing is when I ask Dad what he thinks happened to Mom, he always says, “What’s most important is for you to understand it’s not your fault.” You’ll notice that wasn’t even the question. When I press him, he says the second annoying thing, “The truth is complicated. There’s no way one person can ever know everything about another person.”
+
+Mom disappears into thin air two days before Christmas without telling me? Of course it’s complicated. Just because it’s complicated, just because you think you can’t ever know everything about another person, it doesn’t mean you can’t try.
+
+It doesn’t mean I can’t try.
+
+—Where’d You Go, Bernadette, by Maria Semple
+
+LOG ENTRY: SOL 6
+
+I’m pretty much fucked.
+
+That’s my considered opinion.
+
+Fucked.
+
+Six days into what should be the greatest two months of my life, and it’s turned into a nightmare.
+
+I don’t even know who’ll read this. I guess someone will find it eventually. Maybe a hundred years from now.
+
+For the record … I didn’t die on Sol 6. Certainly the rest of the crew thought I did, and I can’t blame them. Maybe there’ll be a day of national mourning for me, and my Wikipedia page will say, “Mark Watney is the only human being to have died on Mars.”
+
+—The Martian, by Andy Weir
+
+I like to save things. Not important things like whales or people or the environment. Silly things. Porcelain bells, the kind you get at souvenir shops. Cookie cutters you’ll never use, because who needs a cookie in the shape of a foot? Ribbons for my hair. Love letters. Of all the things I save, I guess you could say my love letters are my most prized possession.
+
+I keep my letters in a teal hatbox my mom bought me from a vintage store downtown. They aren’t love letters that someone else wrote for me; I don’t have any of those. These are ones I’ve written. There’s one for every boy I’ve ever loved—five in all.
+
+—To All the Boys I’ve Loved Before, by Jenny Han
+
+April 1962
+
+Porto Vergogna, Italy
+
+The dying actress arrived in his village the only way one could come directly—in a boat that motored into the cove, lurched past the rock jetty, and bumped against the end of the pier. She wavered a moment in the boat’s stern, then extended a slender hand to grip the mahogany railing; with the other, she pressed a wide-brimmed hat against her head. All around her, shards of sunlight broke on the flickering waves.
+
+Twenty meters away, Pasquale Tursi watched the arrival of the woman as if in a dream. Or rather, he would think later, a dream’s opposite: a burst of clarity after a lifetime of sleep.
+
+—Beautiful Ruins, by Jess Walter
+
+All the dying that summer began with the death of a child, a boy with golden hair and thick glasses, killed on the railroad tracks outside New Bremen, Minnesota, sliced into pieces by a thousand tons of steel speeding across the prairie toward South Dakota. His name was Bobby Cole. He was a sweet-looking kid and by that I mean he had eyes that seemed full of dreaming and he wore a half smile as if he was just about to understand something you’d spent an hour trying to explain. I should have known him better, been a better friend. He lived not far from my house and we were the same age. But he was two years behind me in school and might have been held back even more except for the kindness of certain teachers. He was a small kid, a simple child, no match at all for the diesel-fed drive of a Union Pacific locomotive.
+
+—Ordinary Grace, by William Kent Krueger
+
+“We should start back,” Gared urged as the woods began to grow dark around them. “The wildlings are dead.”
+
+“Do the dead frighten you?” Ser Waymar Royce asked with just the hint of a smile.
+
+Gared did not rise to the bait. He was an old man, past fifty, and he had seen the lordlings come and go. “Dead is dead,” he said. “We have no business with the dead.”
+
+“Are they dead?” Royce asked softly. “What proof have we?”
+
+“Will saw them,” Gared said. “If he says they are dead, that’s proof enough for me.”
+
+Will had known they would drag him into the quarrel sooner or later. He wished it had been later rather than sooner. “My mother told me that dead men sing no songs,” he put in.
+
+—A Game of Thrones: Book One of A Song of Ice and Fire, by George R.R. Martin
+
+
+
+Each of these openings draws us in and compels us to read on. Each of these writers sets up the story, juggling voice, character, premise, setting, dialogue, conflict, point of view, style, and theme into that aforementioned seamless circle of story. Kurt Vonnegut does it in only fifty-seven words, but even the longest of these openings—the first paragraph of Krueger’s Ordinary Grace—comes in at only 158 words. That’s craftsmanship. Juggling at its best.
+
+These are all smart writers who play to their strengths:
+
+Kurt Vonnegut relies on the uniqueness of his voice and the authority of his own experience to pull us into Slaughterhouse-Five, his psychedelic World War II classic about the absurdity of war.
+
+Maria Semple uses the irresistible premise of Where’d You Go, Bernadette—an abandoned child determined to find her mother in a world run by dissembling grown-ups—as hook, line, and sinker for us readers. And it works.
+
+Andy Weir serves up The Martian’s high-concept storyline—Cast Away on Mars—with style, and we fall in love with the profane astronaut recording what might be the rest of his brief life.
+
+Jenny Han opens with a lonely-hearted teenage girl who writes her crushes love letters and hides them in a hatbox—but we know that somehow, some day soon, those letters are going to find their way into the wrong hands. We are actively worried about her, and so we keep on turning the pages of To All the Boys I’ve Loved Before.
+
+Jess Walter gives us a picture-perfect setup for sweet suffering in Beautiful Ruins: a dying actress, a village by the sea, a handsome Italian (Walter doesn’t actually say that he’s handsome, but he must be; mustn’t he?), and love at first sight—the kind of story no romantic can resist.
+
+William Kent Krueger goes for broke in his first paragraph of Ordinary Grace, telling us in elegiac prose that “All the dying that summer began with the death of a child”—and setting the stage for our young hero’s wrenching coming of age in this elegant and evocative literary mystery.
+
+George R.R. Martin builds a world readers fall in love with in very few words in his opening to A Game of Thrones, which seduces us with wildlings and lordlings and boys in a darkening woods inhabited by the dead. We aren’t sure yet what it all means, but we are compelled to find out.
+
+
+
+
+
+Jump-Start
+
+
+What are your strengths? How might you use them to your best advantage in the opening of your story? If you’re not sure, exchange first pages with a writer friend. (If you don’t have any writer friends, it’s time to make some, preferably some more experienced and more widely published than you.) Examine each other’s story openings, and discuss how you each might better play to your respective strengths. Revise, and repeat.
+
+
+
+
+
+Deconstructing the First Page
+
+
+“In literature and in life we ultimately pursue, not conclusions, but beginnings.”
+
+—Sam Tanenhaus
+
+In the examples we’ve just seen, not only do the writers grab and keep our attention, they answer the questions every reader asks as a story begins—questions that need to be answered, if the reader is to relax and enjoy the ride.
+
+Think of driving a new automobile for the first time. Sure, you’ve driven a car before; you consider yourself a good driver. Still, in order to relax and enjoy the ride, you need to know a few things about this specific vehicle before you hit the road on a long journey: What kind of car is it? Will it take you where you want to go? Does it have four-wheel drive, automatic transmission, and cruise control? Where are the headlights, the emergency brake, and the turn signals? How worn are the tires?
+
+Before you drive on down the road, you adjust the seat and rearview mirror and check out the controls. You consult a map or turn on the GPS. You find the radio station you prefer or plug in your mp3 player. You put on your seatbelt, turn on the ignition, and look both ways before you pull out into the street. Only then do you hit the gas and go.
+
+Readers approach a new story in the same way. Like drivers, they’re going on a journey, too. But before they settle into the story, they need to know:
+
+What kind of story is this?
+
+What is the story really about?
+
+Who is telling the story?
+
+Which character should they care about most?
+
+Where and when does the story take place?
+
+How should they feel about what’s happening?
+
+Why should they care what happens next?
+
+
+
+Answer these questions, and your readers will relax and enjoy the ride of your story. They’ll read your first fierce words and breathe a sigh of relief and pleasure—that same sigh of relief and pleasure you breathe every time you open to the first page of a new book by your favorite author. You believe you are in good hands because you’ve read this writer before and enjoyed the experience, and you’re looking forward to repeating that reading experience. You read the first fierce words of this new book, and they confirm your belief that this is a writer who knows how to drive. This is a journey worth your time and money.
+
+You, too, can write a fierce beginning worth your readers’ time and money, a beginning that allows your readers to settle in for the long haul as they turn the pages, heading farther down the road and deeper into the journey.
+
+Let’s take a harder look at those questions because these are the questions that, left unanswered or answered insufficiently, can blow your chances of hooking agents and editors, as well as readers.
+
+
+
+
+
+What Kind of Story Is This?
+
+
+If you’re writing science fiction, the story should read like science fiction. Andy Weir makes it perfectly clear on the first page of The Martian that he is writing SF when the main character tells us that people probably think he “is the only human being to have died on Mars.”
+
+Note: If you’re thinking the title The Martian says it all, you’re wrong. Readers (and agents, editors, publishers, and booksellers) hate it when the title sounds like one thing and the book turns out to be something else altogether. That’s the sort of marketplace confusion that can derail a career. Your first words must reinforce the genre identity set by the title, or you’ll lose the reader—and the sale.
+
+Similarly, William Kent Krueger makes it clear in his first words that he’s writing a crime novel: “All the dying that summer began with the death of a child …” Jenny Han writes about teenage girls thinking about teenage boys—what else could it be but a young-adult novel? Jess Walter shows us a man falling in love with a woman far above his station, and we fall in love with another love story. George R.R. Martin drops us into a dark world full of strange creatures, and we know we’re reading a fantasy. Maria Semple gives us a precocious kid who ignores her father’s prevarications and decides to find her mother on her own in classic book-club-best-seller form. Even Kurt Vonnegut makes it clear we’re about to read a story unlike any we’ve read before, a story that defies classification as we know it—memoir, SF, war story, literary fiction, or…whatever it is, it’s good.
+
+
+
+
+
+For Want of a Genre
+
+
+I’ve learned the hard way that it’s very hard to sell any story that doesn’t fit neatly into a known category. I won’t know where or how to sell it, the editor won’t know how to pitch it to her publishing board, the publisher won’t know how to market and/or promote it, the booksellers won’t know where to shelve it, and the readers won’t know where to find it.
+
+“For want of a genre, the sale was lost….”
+
+
+
+
+
+As an agent, when I read a story opening that doesn’t read like the genre the writer claims it to be, I pass—and fast—because I can only assume that the writer doesn’t know his genre well enough to write a story that will appeal to that genre’s readers.
+
+Which means that I can’t sell it.
+
+Unless you’re Kurt Vonnegut. But there’s only one Kurt Vonnegut—and he’s dead. May God rest his beautiful writer’s soul.
+
+If you’re the next Kurt Vonnegut, then you probably don’t need this book. Then again, maybe you do. Either way, I’d like to hear from you.
+
+
+
+
+
+What Is the Story Really About?
+
+
+Think about the last great book you read, the one you recommended to your best friend, your book club, or your writers’ group. And when you did, your BFF/book clubber/writer asked, “What’s it about?” The odds are good that you could answer in fifty words or less.
+
+For me, that great book was The Rosie Project by Graeme Simsion. I recommended it to my friend Susan, who asked me: “What’s it about?” And I said: “It’s a romantic comedy about a genetics professor with Asperger’s in Melbourne, Australia, who decides to use the scientific method to find himself the perfect wife.”
+
+But it just as easily could have been The Martian. In that case I would have said, “It’s a science-fiction novel about an astronaut who gets stranded alone on Mars and how he tries to survive.”
+
+Or Where’d You Go, Bernadette: “It’s a very funny novel about a girl in Seattle whose mother disappears right before Christmas and how she’ll go to the ends of the earth—literally—to find her.”
+
+Or Beautiful Ruins: “It’s a love story about an Italian guy from a remote coastal village who falls for a beautiful actress with a secret.”
+
+Or To All the Boys I’ve Loved Before: “It’s a young-adult novel about a teenage girl yearning for love who writes secret letters to her crushes and then….”
+
+Or Ordinary Grace: “It’s a mystery about a Minnesota boy named Frank whose friend is run over by a train and how his death and the ones that follow affect Frank, Frank’s family, and the whole town.”
+
+Or Slaughterhouse-Five: “It’s a wild story about an American POW in Dresden during World War II. A lot of other crazy stuff happens, too, but I don’t want to ruin it for you.”
+
+Or A Game of Thrones: “It’s like Tolkien’s Lord of the Rings and the Wars of the Roses had a love child—a fantasy about wildlings and lordlings and power and death and dragons and everything, man, just everything.” Okay, okay, so A Game of Thrones is the exception to this rule. As it turns out, A Game of Thrones is the exception to a lot of rules, which we’ll learn more about in chapter five.
+
+The point is, in most of these stories, the opening makes it very clear what the story is about. Readers want to know what they’re reading; they want to know that it’s their kind of story. They don’t want to wander around in a story that doesn’t know what it is. That’s a story going nowhere.
+
+I can’t sell a story going nowhere. Since becoming an agent, I’ve learned that if I can’t say what a story is about in 50 words or less, I can’t sell it. And even when I can describe it, if it isn’t clear what the story is about from the very opening of the story, I still can’t sell it.
+
+
+
+
+
+Who Is Telling the Story?
+
+
+Consider the source. When you’re writing a story, your point-of-view character is the source. So readers need to know right away who this POV character is. The POV character is often the protagonist. In five of our seven examples, the protagonist is telling the story from a first-person point of view.
+
+First-person point of view is often the POV of choice for writers with a strong voice. I admit to being a sucker for a strong voice and thus a sucker for first-person point of view, which demands a strong voice. (Note: I am not alone in this. Agents, editors, and readers alike will follow a strong voice anywhere.)
+
+In stories with multiple points of view, the POV character shifts from one character in one scene to another character in the next. In a mystery, say, the point of view may shift from hero to villain to victim and back again. Both Beautiful Ruins and A Game of Thrones are written in multiple third-person POV. Even so, the authors make it clear who’s telling the story in the opening scene and in every scene thereafter.
+
+We’ll discuss the finer details of point of view in chapter five, but what you need to know now is this: Make it clear from the very beginning who is telling your story.
+
+
+
+
+
+Which Character Should Readers Care About Most?
+
+
+Readers always play favorites. They always prefer one character over all the others—and with any luck, that character is your protagonist. To put it another way, if you do your job right, the character that readers will care about most is your protagonist. They will fall in love with your heroine and follow her through hell and high water to “The End” (and beyond, should you be fortunate and skillful enough to create a series character that readers will pay to spend time with book after book).
+
+The sooner you can make it perfectly clear who your heroine is and why readers should care about her, the better.
+
+As readers, we can’t help but care about an American prisoner of war stuck in Dresden during World War II (Slaughterhouse-Five), a forsaken child determined to find her mother (Where’d You Go, Bernadette), an astronaut marooned on Mars (The Martian), a teenage girl whose secret crushes won’t stay secret for long (To All the Boys I’ve Loved Before), an Italian hotelkeeper destined for a doomed love (Beautiful Ruins), a boy whose friend is mysteriously killed by a train (Ordinary Grace), and a kid who’s seen the dead wildlings for himself and wants to get the heck out of the dark woods, pronto (A Game of Thrones). These are all characters who (1) engage our sympathy and (2) find themselves in situations that command our attention.
+
+Ask yourself why readers should care about your protagonist. What about your story opening will endear your readers to your hero? What about your heroine and/or her situation will evoke empathy on the part of the reader? What will resonate with readers?
+
+One of the most common complaints I hear from editors when they pass on projects is this: “I just didn’t fall in love with the protagonist.” You want everyone who reviews your work—agents, editors, and readers—to fall in love with your hero. The sooner, the better. What you’re aiming for in your story opening is love at first sight.
+
+
+
+
+
+Where and When Does the Story Take Place?
+
+
+Eudora Welty once said, “Every story would be another story, and unrecognizable as art, if it took up its characters and plot and happened somewhere else.” Welty believed that “fiction depends for its life on place.” The life of your story depends on place, too. That’s why it’s critical you ground your story in setting from the very beginning. Think of it as the establishing shot in a film.
+
+Here are the opening settings in our examples:
+
+Dresden, Germany during World War II (Slaughterhouse-Five) Note: If you’re thinking that the setting is really Ilium, New York, 1968…well, fair enough. But the narrator (who may be in Ilium and may or may not be Billy Pilgrim or even Vonnegut himself) is talking about the war, and his imprisonment in Slaughterhouse-Five. It’s complicated (in theory, if not in the reading) but compelling.
+
+Seattle, Present Day, Christmastime (Where’d You Go, Bernadette)
+
+Mars, Sol 6, sometime in the future [2035, according to the readers geeky and obsessed enough to figure it out] (The Martian)
+
+Suburban Charlottesville, Virginia, Present Day (To All the Boys I’ve Loved Before)
+
+Porto Vergogna, Italy, April 1962 (Beautiful Ruins)
+
+New Bremen, Minnesota, Summer of 1961 (Ordinary Grace)
+
+The haunted forest, another time and space (A Game of Thrones)
+
+
+
+Each writer’s approach to setting is as different as the settings themselves. Most are settings that are new to readers, as most of us did not survive the firebombing of Dresden or visit the Ligurian coast in 1962 or spend the summer of 1961 in small-town Minnesota. None of us has braved the haunted forest beyond the Wall in the North or the alien landscape of Mars. That’s why the authors who take us to these places spend more time on setting throughout their stories.
+
+The only settings here that most of us might be familiar with are the city of Seattle and the insular suburban world of the American teenager. So there’s little mention of setting in these short opening excerpts of Where’d You Go, Bernadette and To All the Boys I’ve Loved Before. But within just a few pages of the former, Maria Semple will begin her hilarious satirizing of Seattle’s coffee and Microsoft culture and foreshadow the Antarctic setting that plays such a prominent role later in the story. In the latter, Jenny Han uses the bland homogenous suburban landscape of American adolescence—McMansions and malls, Costcos and drive-thrus, school libraries and gymnasium pools—as a backdrop to the colorful and chaotic emotions of puberty.
+
+What is your setting? How do you ground your story in that setting? What about that setting is unique to that story, and how does that setting help shape your story? Taking readers somewhere they’ve never been before—be it Mars, Antarctica, or New Bremen—is always an attraction, to agents, editors, and readers alike. If you’re sending readers on a journey to somewhere more familiar than Winterfell, then you’ll need to show them your singular view of that familiar place—as Maria Semple does in her farcical take on Seattle—or use that familiarity to highlight contrast, as Jenny Han does while chronicling angst-ridden teenagers in the humdrum of suburbia.
+
+Wherever you place your story and however you distinguish that place, you should aim for creating a setting so well-drawn that it becomes a character as compelling as any other in your story.
+
+
+
+
+
+How Should Readers Feel About What’s Happening?
+
+
+Why do we love stories? Why do we read fiction and memoir? Sure, we want to be entertained; we want to learn about new people and places, but most of all, we want to feel something.
+
+Art is meant to be cathartic—and your story is no different. The best stories are rollercoasters of emotion for the reader, who hopes to be soothed and scared, enlightened and misled, teased and thrilled, angered and delighted, agitated and becalmed, embraced and spurned, reassured and unnerved, saddened, maddened, gladdened, and ultimately, moved.
+
+The sooner you can evoke emotion in your readers, the sooner you draw them into your story. Make ‘em laugh, make ‘em cry, make ‘em scream in fear and joy and surprise.
+
+When the woods darken around Will in A Game of Thrones, we’re afraid for him and what’s to come. In Ordinary Grace, we share Frank’s sympathy for his dead friend, his melancholy and bewilderment at the mysterious death, and his survivor’s guilt. Lara Jean tells us about her secret love letters in To All the Boys I’ve Loved Before, and we remember the angst of our own teenage crushes and worry about what will happen to her when the letters are discovered. When Bee decides to find her mother in Where’d You Go, Bernadette, we feel the pain and confusion of her abandonment, and applaud her determination as we pray that she is not doomed to disappointment, for we have also suffered disappointment at the hands of our parents and we know how much it hurts. We watch Pasquale Tursi fall for the elusive and beautiful actress in Beautiful Ruins, and our hearts ache along with his. In The Martian, we feel as frustrated and frightened as Mark Watney when the weight of his impossible situation sinks in.
+
+And when we read the tragicomic opening of Slaughterhouse-Five, as told by the narrator/Billy Pilgrim/Vonnegut, we feel like laughing and crying and screaming all at the same time.
+
+So it goes.
+
+Identify the emotion you need to evoke in your readers in your fierce first words. Evoke that emotion successfully, and you’ve engaged your readers—and the pull of that emotion will compel them on to the next page, and the next and the next.
+
+“Good writing is supposed to evoke sensation in the reader—not the fact that it is raining—but the feeling of being rained upon.”
+
+—E.L. Doctorow
+
+
+
+
+
+Why Should Readers Care What Happens Next?
+
+
+This is a bigger—and more complicated—question than you may think. This question has to do with: (1) the action happening as the story opens, (2) the premise of the story, and (3) the big idea of the story itself.
+
+These three factors all play into how much your readers will care about what happens next. And if they don’t care what happens next, they won’t read on—and you’ve lost them, possibly forever.
+
+Sometimes, all three factors are the same thing; sometimes they are very different things. Let’s take a look at each in turn.
+
+The action happening as the story opens: One of the main reasons that people stop reading is because nothing happens in those opening pages. Or at least nothing interesting enough happens. The engine of narrative thrust must begin as your story begins and keep running hard until your story ends. Narrative thrust is the tight construction of story, line by line, beat by beat, event by event, pushing the action forward—and the reader with it. A lack of narrative thrust is the most common reason I pass on manuscripts because, as an agent, I know that the basic formula of commercial fiction is this: No narrative thrust equals no sale. Without narrative thrust to drive your plot, you have a story going nowhere. And, at the risk of repeating myself, no one will buy a story going nowhere. (See chapter eight to learn about testing your story for narrative thrust.)
+
+The premise of the story: Premise is the basis, or the starting point, of a plot. Without a strong premise, you can’t get your story off to a good start. You’re grounded before you’ve even begun—a shuttle with no rocket boosters—and the reader is grounded with you. Your premise needs to be compelling enough to blast your story shuttle right into outer space, deep into the unknown territory of your narrative, where readers long to go.
+
+The big idea of the story: This is the idea that sells the story to agents, editors, and readers. It’s the hook, what sets it apart from the competition, what persuades those agents, editors, and readers to invest in this story instead of a story written by one of the best-selling authors they already know and love. The big idea is what everyone is looking for; give me (or any agent) a big idea, and I have a great pitch. And pitching is how I sell books. We’ll talk more in chapter three about how to come up with a big idea, but for now, just know that the bigger the idea is and the sooner it shows up in your story, the better your chance of selling it.
+
+
+
+In Beautiful Ruins, two of these three factors are the same. The story opens with innkeeper Pasquale Tursi watching, mesmerized, as a boat carrying a beautiful and mysterious American actress pulls into the cove at Porto Vergogna. Tursi is smitten, and as a result, the trajectory of his life is forever changed. That’s the opening action and the premise, but the story itself is far more complicated, weaving storylines, spanning decades, and hopping continents in what the New York Times called a “high-wire feat of bravura storytelling.” As Jess Walter says, Beautiful Ruins is “a story about fame and how we all endeavor now to live our lives like movie stars, like celebrities, each of us an eager inner publicist managing our careers and our romances and our fragile self-images (our Facebook pages and LinkedIn profiles).” Or as I would have pitched it: Love Story meets La Dolce Vita—complete with Elizabeth Taylor and Richard Burton. Big idea, indeed.
+
+Yet in A Game of Thrones, all three of these factors are different. The story opens with Will and dead wildlings and ends with a lethal encounter with one of a deadly race of creatures known only as the Others. The premise of the novel, however, is revealed nearly fifty pages later, when Ned Stark is named the Hand of the King, setting off a struggle for power—a game of thrones—that will last five volumes and counting. And the big idea of A Game of Thrones is very big, colossal even: an epic fantasy that, as we’ve said, could best be described—and pitched—as “Lord of the Rings meets the Wars of the Roses.”
+
+Finally, in The Martian, all three of these factors are the same. The story opens with an astronaut alone on Mars, trying to figure out how he can survive. That’s the action of the story opening, the premise, and the big idea.
+
+What happens in your story opening? How does that relate to the premise of your story and the big idea that differentiates your story from all others?
+
+
+
+
+
+Putting It All Together
+
+
+Now that we have discussed what strong story openings do to capture readers—the questions and answers that mark strong story openings—let’s tackle the meat of the opening itself. In chapter two, we’ll explore the most dramatic way to open a story and the mechanism by which you can achieve that drama.
+
+
+
+
+
+Impromptu
+
+
+Consider these same questions from earlier in the chapter, now in relation to your own story:
+
+What kind of story is this?
+
+What is the story really about?
+
+Who is telling the story?
+
+Which character should readers care about most?
+
+Where and when does the story take place?
+
+How should readers feel about what’s happening?
+
+Why should readers care what happens next?
+
+
+
+Set a timer for ten minutes, and write out the answer to each. If you can’t do it in ten minutes, you don’t know enough about your story yet.
+
+
+
+
+
+“There is something delicious about writing the first words of a story. You never quite know where they’ll take you.”
+
+―Beatrix Potter

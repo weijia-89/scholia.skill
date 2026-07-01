@@ -1,0 +1,33 @@
+# corpus_manifest.yaml — template (copy per session)
+
+session: YYYY-MM-DD
+corpus_slug: {slug}
+source_root: operator-supplied-path
+paper_count: 0
+fan_out: none | paper | chapter
+
+# Phase 2 implementation cards (optional — set true only when card fan-out complete)
+# practical_usage_required: false
+# procedure_gap_corpus: false   # set true when phase-2 honest pass yields zero cards (S4 rollback)
+# practical_cards_dir: metadata/practical_cards/  # or literature/metadata/practical_cards/
+
+entries: []
+
+# Example entry (uncomment and duplicate per paper):
+# - slug: author_YYYY_short_title
+#   title: "..."
+#   authors: [Last, First]
+#   year: 2020
+#   source_type: peer_reviewed_article
+#   pdf_path: literature/pdfs/{slug}.pdf
+#   text_path: literature/text/{slug}.txt
+#   ingest_path: literature/ingests/{slug}_ingest.md
+#   ingest_status: none
+#   text_quality: good
+#   equation_density: none
+#   language: en
+#   legal_status: personal_copy
+#   drm: none
+#   epistemic_tag: peer-reviewed
+#   layout_mode: full
+#   doi: 10.xxxx/...

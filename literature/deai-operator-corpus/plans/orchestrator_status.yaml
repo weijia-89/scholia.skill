@@ -1,0 +1,124 @@
+# Orchestrator status — deai-operator-corpus implement wave
+# Scope ID: deai-tic-corpus-wiring-20260627 (skill lane)
+# Scope ID: deai-corpus-pipeline-hardening-20260627 (pipeline lane)
+# Operator: update status + evidence after each worker completes.
+# Orchestrator reads THIS file + incorporation plan only — not primaries.
+
+meta:
+  scope_skill: deai-tic-corpus-wiring-20260627
+  scope_pipeline: deai-corpus-pipeline-hardening-20260627
+  orchestrator_prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/ORCHESTRATOR_deai_tic_corpus.md
+  plan: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/plans/deai_tic_skill_incorporation_plan.md
+  last_updated: 2026-06-27
+  current_lane: chapter_ingest
+
+iron_laws:
+  chatprd_authors_ingests: true
+  composer_implements_from_handoffs: true
+  no_0628_relitigation: true
+  esl_preserve: true
+  attach_max_per_window: 8  # ChatPRD external only
+  worker_read_max: 4  # Cursor agent reads from disk; operator does not @-attach
+
+# Status values: pending | in_progress | done | blocked | skipped
+# blocked_reason: required when status=blocked
+
+skill_lane:
+  worker_01_deai_signals:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_01_deai_signals_patch.md
+    depends_on: []
+    verify:
+      - 'grep -c "61.22" /Users/dubs/.cursor/skills/deai/SKILL.md → expect ≥1'
+      - 'grep "Prompt-Formula" /Users/dubs/.cursor/skills/deai/SKILL.md → expect match'
+    evidence: PASS 2026-06-27
+
+  worker_02_deai_craft_theory_ethics:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_02_deai_craft_theory_ethics.md
+    depends_on: [worker_01_deai_signals]
+    verify:
+      - 'grep "social context model" /Users/dubs/.cursor/skills/deai/craft-theory-reference.md'
+      - 'grep "Liang" /Users/dubs/.cursor/skills/deai/craft-theory-reference.md'
+    evidence: PASS 2026-06-27
+
+  worker_03_tic_message_craft:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_03_tic_message_craft.md
+    depends_on: [worker_01_deai_signals]
+    verify:
+      - 'grep "Non-Deficit Framing" /Users/dubs/.cursor/skills/tic/SKILL.md'
+      - 'grep "Feeling-Attribution Deletion" /Users/dubs/.cursor/skills/tic/SKILL.md'
+    evidence: PASS 2026-06-27
+    note: Cover-letter genre hooks deferred until Baker ch07 + Locker ch08 chapter ingests
+
+  worker_04_tic_voice_enrichment:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_04_tic_voice_enrichment.md
+    depends_on: [worker_03_tic_message_craft]
+    verify:
+      - 'grep "Deliberate Repetition" /Users/dubs/.cursor/skills/tic/SKILL.md'
+      - 'grep "L1-Chinese Syntactic Signature" /Users/dubs/.cursor/skills/tic/SKILL.md'
+    evidence: PASS 2026-06-27
+
+  worker_05_verification_grep:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_05_verification_grep.md
+    depends_on: [worker_01_deai_signals, worker_02_deai_craft_theory_ethics, worker_03_tic_message_craft, worker_04_tic_voice_enrichment]
+    verify:
+      - 'python3 -m pytest /Users/dubs/.cursor/skills/deai/tests/ -q → PASS'
+      - 'grep stale claims scan (see worker prompt checklist)'
+    evidence: PASS 2026-06-27 pytest 73 passed
+
+pipeline_lane:
+  worker_10_scholia_pipeline_docs:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_10_scholia_pipeline_docs.md
+    depends_on: [worker_05_verification_grep]
+    verify:
+      - 'grep "chapter_id" /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/PIPELINE.md'
+      - 'grep "AGENT_01" /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/INDEX.md'
+    evidence: PASS 2026-06-27
+
+  worker_11_piranesi_0630_mirror:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_11_piranesi_0630_mirror.md
+    depends_on: [worker_05_verification_grep]
+    verify:
+      - 'grep scholia /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/ATTACHMENTS.md'
+    evidence: PASS 2026-06-27
+
+  worker_12_ingest_prompt_templates:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_12_ingest_prompt_templates.md
+    depends_on: [worker_10_scholia_pipeline_docs]
+    verify:
+      - 'grep evergreen /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/synth_cursor_implement_brief.md'
+      - 'python3 /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/scripts/generate_chapter_prompts.py (exit 0)'
+    evidence: PASS 2026-06-27
+
+  worker_13_evergreen_mdc_rule:
+    status: done
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/workers/worker_13_evergreen_mdc_rule.md
+    depends_on: []
+    optional: true
+    verify:
+      - 'test -f /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/.cursor/rules/research-context.mdc'
+    evidence: PASS 2026-06-27
+
+chapter_ingest_deferred:
+  baker_ch07:
+    status: pending
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/05_baker_2020_prof_writing_speaking_ch07_ATTACH.txt
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/05_baker_2020_prof_writing_speaking_ch07_ingest.md
+  locker_ch08:
+    status: pending
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/06_locker_2012_prof_writing_w231_ch08_ATTACH.txt
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/06_locker_2012_prof_writing_w231_ch08_ingest.md
+  ginna_ch14:
+    status: deferred
+    note: >
+      Goldman Ch. 14 not in part03 attach (119k truncation tail is opening only).
+      Full essay in separate slice ch14.
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/13_ginna_what_editors_do_ch14_ATTACH.txt
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/13_ginna_what_editors_do_ch14_ingest.md

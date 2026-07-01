@@ -1,0 +1,1741 @@
+05_baker_2020_prof_writing_speaking_ch03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: baker_2020_prof_writing_speaking
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/05_baker_2020_prof_writing_speaking_ch03_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/05_baker_2020_prof_writing_speaking_ch03.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/05_baker_2020_prof_writing_speaking_ch03.txt).
+========================================================================
+
+Chapter 3 • Composing Bus iness Messages                                      Professional Wntln O S akln • 60
+
+
+              Chnpler 3 is broken inlo 1wo main sectfon1i. ,.he fi~1 s«1ion includ~ in1ilruc1ion abou1
+          five nnribu1c:s of well-wriucn documcn1s, 3!1 well ns five u11ribu1c:s of wcll-wriucn parn•
+          gruphs, rhe second scc11on explmns Lhe OAUC wri1ing p:111ern and provides i1b 1ruclion on
+          six different typcll of 1ncss(lgcs you will cm:ou1ucr In your profcs..;;100. Al\c:r llludying bolh
+          sections of Ll111i chapter, you should Ix able to do the following:
+
+          •    b:plnin 1hc five C unribuu:s of effective dc,cumcnir;,
+          •    Ocscnbc live CLOUIJ 1mribu1es or "'-cll-wriucn pnmgmphs.
+          ■    lkscribc 1he 01-\UC message ~ 111cm nnd dcmon1nn11c how 10 write six d1flCrcnt 1ypcs
+               ormesllogL-S.
+
+              Document and Paragraph Attributes
+
+          As you compo1ic. lilrivc to m.nke your \\Tiling (;lear. complete. correct, oon'iidcratc. nnd
+          convincing.. Also, os )'Ou compose cnch parngruph in professional documcnLs. con1iidcr
+          the asp«ts or oohesion, length. order. unity, nnd development Given 1he.se ten aspects of
+          wntmg good documents and pamgmphs. you con see 1hat oomposmg effective documcntll
+          can be .i somewhat complex process. However, guldehncs are explained in the f'bllowing
+          section.,; to help you through the process.
+
+
+          Five C's of Effective Documents
+          l 'hc fi\'cC principles n11ply rcgnrdlL~li of the t)•pe ofmessogc or documcnl you nrc compos•
+          ing. 1-\ long report and a Jihon text message boLh nL"Cd to be clear, uppropriatcly co111plete,
+          correct, consldcralc, and convincing. ~~urther. the scope, leng1h, fornm lily, and r.ubjcct
+          matter nug,ht vary, but the live C's stdl apply.
+
+
+          Clear. Make ycmr n~sagcclcnr, r\ftcr rending your m<:Ssage, lhe audience should undcr-
+          sland whul you ha\'c wriucn nnd wtu11 they should know or do nl\cr rending your mcs,mgc.
+          Various Lncli~ cnn cnhmcc 1he c:lumy of n\esliogC!I, including the: following six.
+
+          L Chunk tbe L'Unlcnt. Break the texl 1t Into .small bite-size dmnk.s. Large masses ortcxl
+            nrc overwhdnung und d1fl'kult ta process. Small chunks arc: much easier.
+          2    Write coherently, Arr.ingc the 1ext n,; l'.I logicnl chnin of thoughts. idem,, or i.tcps, from
+             the li rst sen1cncc co the Inst. Though! A must lend 10 thoughl 0. 1houghl B 101hought C,
+             •ind so forth. The op110s1tc of coherence is mcohcrence- 1111 illogicol 1houg.lu ammge•
+             mcni thal doe:m ' t llow logit:.nlly or ml IonaUy.
+          3. Use approprialt' words. Choose words that the audience will understand and words
+             lhat ha, e an appmpriute level o(prcc1sion. First, u:,.c words lhat .ire n-adily understood
+                      1
+
+
+
+               by .society in gcncml. lk espccmlly cnreful with word choice when writing to people
+               for whom f.nglish ii; not their nati\'c langunge. Prefer simpler. more common words
+               nnd cxprcssionli. su<:h as ··unalyzc,'· m1her thnn ··conduc1 on in\'csligation," Also. OK
+Chapter 3 • Composing Bus iness Messages                                     Professional Wntln O S akln • 61
+
+
+              menlioncd in Chnplcr 2. determine your nudiencc memhrn;' knowledge levcl- gener-
+              nl. knowledgeable. or expen. 'rhen choose 1echnic:11I tc1m11 a11proprimc to the oudiencc
+              1echnical knowledge, or de line new terms 11.s ntcdetl, Second. choose worQ11 tlm1 give
+                        or
+              the level precision npprop1inte for the sinui1ion. for in.-:tom:c. in one situation you
+               nug.ht lL"c the word empforee; m .inolhcr shualion. t,j/1ce 1mrker: in another, datt1 on-
+              t1(1.•11; and in yct anothcr,Jejj'/Jarnes, the name of the acoounllmL
+          4. Give clear dciu:riptionli. Provide bm;ie descriptive inlommlion nnd lhen enhance ii
+             with cxnmplcs, illustmllons, ond cnse histories. For cx11mple1 dcscnbe II product nnd
+             then gh·e an cxnmplc ofhow ii cnn be u11cd e1Tcc1ivcly- or how it can bo m111uscd.
+          S. J'l'cwldc lllu, 1rnU01111. In addition to providmg bu1'ic tc:<tunl descriptionll. use met-
+             uphors. photographs, mind inaps. druwlng.s: with callouLS, and other hclprul '1 isuals
+              {learn more about vlsuuls in L'haptcr 4}. 11eople urc innately visuul learners. so take
+              11d\'an111gc ofl his nulural mentt1I power to kilm frnm image$.
+          6   Us,· ,,hu:1I 11ign1,0Jts. lnsen headin~ 1 include numbered or bulleted lic;t,;, und hold
+              or i1nlicizc importan1 words or terms, Avoid ninsscs of undiffercn1fa1cd 1ex1 th111 can
+              d1scourngc l'C'.lding 11nd hinder learning.
+
+
+             Learn to combine these techniques for i;re.atest communica1ion cll'cc1ivcness. for
+          exumpl-c._to mtroduoe .i new go\'crnment-reporting rcqu1rcmcnl, you could (I ) give the.
+          reason for 1he requirement; (2) exptam the requircmem. (J) break the oonten1 into i ma ll
+          chunks: (4) include II vi1mal dingrnm; (5) give 1111 cxnmple of how ihe requirement will be
+          implemcncc:d in your org.oni1..111ion: i1nd (6) insert headings, Alway, prr,scnl inl'ormr11ion
+          such lhat it will he cosy Lo re~1d, c:J~)' to under,11ond, and caiy to remember.
+
+          Comp/et&. A lwayspm,,idccompktecontent, koepmg in mind the purposcot'the message,
+          lhe charnc1eristics of lhc imdicnce. und the context in which the message will be rccci\'c:d.
+          Make sure the text gi,·cs adequn1e1y unswc:rs Ill all rclcvunl .SW2H quc:.tion'>- who. whnt,
+          when, where. why. how. ond how muoh. For ins111n<.:c, messages unnouncing C\'Cnts might
+          u~c u foil to highlight cmical 5\1/211infom1u1ion:
+
+
+          ■   Who:           All Sales Assodalcs
+          ■   Whal:          Sales 1'rninmg Mceung
+          ■   Wht•n:         Mond.ny. June 3, I0-11 u,m.
+          ■   Whrn::         Mom Conference Room
+
+              AnLici1,;11c Lhc queMions the audience nught ha\'c about the content For ()L~plc in
+          finance, make sure t he text answers atl lhumdul question.-.. for people in hunw.n resource
+          managemcnl ( HR), make sure ii answers all HR 1s..c;ucs. Put yourself in their shoes and sec
+          lhc situ.ilion through their eyes.
+               A\'oid giving 100 much infonn11tion (known aii TMI), As )'OU oonsidcr the nudicncc
+          ~ind con1cxt. identify the informMfon 1ho audience neccb, Then exclude matcriul 1ha1 i11
+          iirehwunt or, in sc11nc cJ1se.s, that dctr11CL~from Lhc message.
+Chapter 3 • Composing Bus iness Messages                                     Professional Wntln O S akln • 62
+
+
+          Correct.      Alway!! provide corrce1 oon1cnt- contcn11hn1 ii. truthful. pro\'ahle. nnd nccu-
+          m10. Avoid writing 1h1u contains fllctual errors, bins, or misleading infornm1ion. Dcscnbc
+          thingK Ill\ 1hc)' really nrc. If you cxprc!ls an opinion. statc it ILi\ nn opinion- not os a fact
+          A\'oid cmbcJllshmc:nt oml c:xal!Semtion. l-01· inst.nncc, m'ilc~d of 1,aying, " \Ve dclinilcly
+          should hire her; I know she will be a fubulmL't addition to our team," stale, ''I ft'oommcnd
+          Lhat we hu-c htt. I believe she will be a good addition to our team."
+               Mnkc: sure your wntmg c1:m111ins no errors in logic, 13blc 3.1 provides examples of
+          illogicnl, non-sc:qui1ur (Latin for ..it docs 001 follow") thinking.
+
+          Table 3.1 Common Logic FaHacies
+           logic Fallacy                  Def1mt1on                               Example
+           Anonymous          Making ctn authoritative statemenl "R(tSearch a.ays thal most
+           authority          without referen~ lo a specific     mergers are likely to fa.ti.·
+                              rellablo SOUfC8.
+           Bandwagon          Arguing thal an Idea is good or       "Everybody Is adoptiflQ this
+           eviOOnoo           bad just because most people          t&ehnology, so we should. too."
+                              believe il to bo ao.
+           Either-or•         Arguing thal thero are only two       "Ifs either SL Louis Of Mom-
+           thinkillg          options or outcomes.                  phis-take y,,ur pid<.''
+           Evolualion by      Arguing thol Oil idea is good         "Qur CEO oala at thot re&lauront.
+           association        because its proponent iS we11         so it musl be gocx:1/
+                              lhought of, and vice versa.
+           False analogy      Arguing that because two lhfng,s   "Her book about social media
+                              are similar in some ways, they are tips was really SU008sslut, so our
+                              also slmilar in other ways         training on soda1 media will aiso
+                                                                 bo successful.·
+           false causalfty Arguing thot because two ltoms           "Evt1r since we hied Isaac In lato
+                           occur togelhOf, one musl be              December, our rel.ail tales have
+                           causing the other.                       been dropping.ff (Retail sales
+                                                                    always drOp alter Christmas.)
+           Hasty              Making sweeping generalizations       "Our new store did well in
+           gonoralizallon     by tolying on ono or just a few       Chloa!)O. so a new &tore should
+                              casos as ovidoncG or proof,           do wol In Golosburg.• [Chicogo
+                                                                    metropolilan area has mRlions or
+                                                                    shoppers; Galesburg's has a few
+                                                                    lhO<Jsand shopper<.]
+           laek of            Arguing that an idea is good be-      "No one has c:ompl.ainod abOut
+           evidence to        cause no ono l\as ptoven It fal&e     tho now policy on telocommuting,
+           the oootnlly       or lhat an idoa is ralae becauao no   so overyone must bo hoppy with
+                              one has proven it llue.               ii."
+           Recency            Arguing thal something is gocxl       UTlli& i& the newest 50ftware
+           persuasion         simply because it is new.             development in the Brnncl X line,
+                                                                    so we ought to got it.•
+           Slippery slope     Arguing to oondemn an idea            "If we change our price on A.
+                              because it might ovenlua!Jy load       thon they wtll want us to change
+                              to an undosirable ond.                out prico on 8 ond C. Therorore,
+                                                                     we had baller not dmnge our
+                                                                     price on A.~
+           Tradition          Arguing 1hat somo action is righl     'We've always processed
+                              or good because of traditional        insurance d aims that way in this
+                              accoptanco or the action.             d9-partment. so there's no reason
+                                                                    to chango now,"
+Chapter 3 • Composing Bus iness Messages                                    Professional Wntln O S            akln • 63
+
+
+              In nddi1ion 10 climinn1ing foully lag1c, 11,·aid dcfnnui1ory or slnnderou, su11emcnl<;: abou1
+          othtf people. Dcfnnmtion is lhc di11scnun111ion of untrue information, rcsul1ing in damage
+          10 imoLhcr pcrson'i 1-cpu101ion. De(omalion con come from both libel ,ind 11lnndcr- libc:I
+                                                                                  or
+          Is wriucn dcf1unn1lon ond i1h1ndcr ts spoken dcfomation. 'J'wo type~-: i1101emen1i1 to tt\'oid
+          include ud homim·m and slrnw-m.an nuacks.
+
+          •    Ad hominrm, A1tnd:111g the pen.on rnlhcr than 1hc argument. ·1'bc people m that
+               dcp.irtment nre just .i hunch of whiners; why should we p.iy ilP)' 1111cn1ion 10 whiu they
+               ,,re su)•ing,!"
+          ■    Sl.rsiw man. Oc:scribmg unothcr person's orgument in u d1i1!or1c-d wuy that makes ii
+               c,aiy 10 reject. "Company X imports products !h)m other oountrics. We shouldn't deal
+               whh L-ompanies that nrc anli-Amencan."
+
+
+               lf yoor writing includc!i quotations or p;irnphmscs from published works. mnke 1mre
+          they ore properly cited. Proper cilruion lclls lhc outhor, lillc. date. and otha publishing
+          inform.1tion dull the reader con use 10 find the 1.mginal wri1ing. II abo gives nppropri111c
+          c:rcllil to the rctil author, so you don't take credit for somethini; you didn't write. When
+          ddng the work oro1.hcrs, c:onsuh un appropnatc style guide. such as Lhc Chlcuso Manual
+          of S1yfc or your orgamzutlon's own style guide (sec Chapter 1) for mon: mfonn.11ion on
+          cicnrion:s;).
+              10 en1mrc co1Tcct wri1ing. avoid the ullc of weasel words-words 1ha1 give II vuguc
+          or ambiguous cltmn that mislead~. Wensel words imply something that is not complete•
+          ly ll'Uthful. When ll~cd in adverti.sin.g. they give the ttllwrti.scr a way to "We1Lo:d out" of
+          rcspons1biht)'. 'l'hc fo llowing bullet list gi\'cS c:tamplcs of weasel word~. l be bracketed
+          questions rcve..il the Oaws in the ambiguous c.laims.
+
+
+          ■    Mnkc up to $J.000 per week ... r0oes this mean I might ulso mo.ke only SS per wccl;.?l
+          ■ /\special offer ofjust S49.9S . . . (What i.s the rcgul.u olY'cr?l
+          • Our product is bcucr . . . [Better than wh:11'/ Compared 10 wh:u'?l
+          ■ Our prices ore lower . . . ILower th.no what? Compnrell to whal'l l
+
+
+               If your inner voice tells you something isn't completely honest, change the content
+          until you nrc n1peucc wuh wh:u you are saying,
+
+
+          Consldorato. Uc considcrutc in your wri1ing. nwking sure the rormnli1y, tone:. und
+          social scn..,itwity of your writing arc a1,pm1uiatc. Remember that formnl langW1gc ill more
+          uppropriutc when you are wnting to someone you don't know well. to someone higher in
+          your organizution h1crnrchy, or lo someone oulsidc your organi.zalion. Less-formal Ian•
+          guuge i-. more apprnprinle when wriling to someone you know well, 10 11 peer or someone
+          lower in your Orgillli1.ation hi«archy, or 10 collc-l1gue:-. within your orgnni1.u1ion. When in
+          doubL,choollc formality over iniomtnlity. Whtn you do choose lllrorm.ali1y. however, don't
+Chapter 3 • Composing Business Messages                                     Professional Wntln O S           akln • 64
+
+
+          bcc:nmc 100 cnsua1 or carcl~ . lnformn1 writing i.huuld i.lill be cnrclillly composed nod
+          11ppropri111cly profclisionnl.
+               Regarding tone. the: scriousnc:s.s nnd imporlnncc of a rncsimgc help dictate wh,11 ill
+          ttpprnprinlc. 1'hmk urthrce. general le\'clil ofLOne.
+
+
+          •   l'm,ilh•t': Wann, cngagmg. nnd cordial
+          •   Neutral: Pac:tunl, logical, and cmot1onlcs-.
+          •   Ncjta1ivc: Cool. pasimis11c. 11nd msc:n~i1ivc
+
+
+             for insl:mcc, 11 po!utwc tone is nppropl'ime for L'Onvcying good news tind routine
+          mcssogcs. A more nculral tone is nppropnate ror serious. 1mpor1ont topics and bad-news
+          messages. Anegauvc: tone is almosl never appm1matc. In ,1II cases, rcmcmba the power of
+          being rci.peciful nnd courteous, wilh words like please: and lhnnk )'OIL
+
+
+
+                                                                                •
+
+          Figure 3.2 Your communications s.houki convey a cordial tono Iha! bullds relab'onships
+         of trust
+
+
+
+              In infomui l electronic mcssAgc:s, you cnn ini.crt cmojis 10 help con\'CY lhe c:rootion or
+         lone of your message:. such as O . D • 11nd O, rcprcscnling pro11i1ivc:. neutral, 11nd ncgauvc:
+         cmo1ion..t:. You can sc:111-ch the internet to lind hundrcdi of c:mojii1 to use, or your sol\warc
+         1,1,•ill autom111ically tum vnnoui1 chamctl'.r paucms into emojis__,a co!Oll, hy11hen, and l'iglu
+          parenthesis typed together will generate .i snuhng-focc emoJt :-).
+              Regarding i.t1eial scnsllivity, avmd \','ords and terms th.at arc socially Insensitive or
+         u1bno. Instead. use euphenusmi. or other more fiQcially acceptable wnrcl$, for lns1uncc1 ynu
+         might say... ll is cmptoymcn1was tc:nnmnted," mther than, "He wns limJ."
+              Considerate wtiling 1'tOccls whal Ill sometimes cnllcdyo11 tmiwtla. Mcllsngcs 1h1.1t have
+         ti you altitude (OL-us on mc:ctin.g the reoder's need!, not just on the writer's. l'tnt 011/t11de
+
+         is the oppoi.ilc or wriling with a me auilude, winch i'ocui.es only on the wril«'s needs.
+         Obviously, a message: should ltllfill both the writer·:, and the rc-<1dcr·s nc:cck Notice the:
+         difference in the fo llowing two mci.$ilsei., the fin;.t one l"bcusing mainly on the wrilcr nnd
+         lhc second cme on the render. 1'be second one conveys the spint of)v,u arti1ml£'.
+Chapter 3 • Composing Business Messages                                        Professional Wntln O S             akln • 65
+
+
+          Mr. Darrington.
+              Wo'ro shipping 20copHJs of tho booklet How to Prepare to, Retirement but we are out
+         of Undorslanding Hoallhcaro for &mlors. Wo won't gal moro copias u11tN 11axt weak,
+
+
+         Mr. Darrington.
+              Thank you for your two booJdel orders. Htm1 Is lhe status ol your order:
+          •   How to Prepare ror Retirement: 20 copjes were shipped to you IOday. to arrive by
+              Saturday.
+          •   Undoratanding Hoallhcwaro for S(lniof's: 20 copios oro on bock ordor. but we oxpec.t
+              them next week. ~ will ship lhom to you as soon as wo racolvo ll1em.
+              PleaSIJ call er email me if ther& ls any problem with your shipmont. Wo apptedau, th&
+         opportunity to S91Ve you.
+
+
+          Convincing. Mokc $1.lfC ym1r mes-.ngcs nrc convincing. Convincing ron1ent nchic\!eli the
+         purposes of mc,umgc-s, Convincing lhc reader is cspccinlly impolinnl fo r persuasive mes•
+         sages. bu t C\'Cn meiuu.,gc-s that 11cck mninly to int'brm or i n.\ll'UCt m ust tllJ)turc the audience
+         incrnbe.n ' nllcntmn nnd convince: lhc1n 10 re.ad your incsllagc. Uus)' lW:hcdulcll, competing
+         mci;i;agei;, and other influences can calL-.e your audience to b)'Pll.Sli your mcsi;age., i;o you
+         must eaui;c your audience- to actually rend.
+              Choose the: best dcli\!c-ry chunncl fur truni;mittmg the mei;sage, whethc-rQml or wnttc-n,
+          in 11erson or dis1ance, ckctronic or pi1pcr. Mnkc suro lhe documcnl give, 11 good visunl
+          imprc11sion, ns you will Icum in Chapter 4. Muko sure lhe dooumcnl is rclovnnt irnd u11cful
+          to the rc-odt-r. Write so the document u cnsy to read and ca~)' lo undcrslnnd, and 1nakc.!IUl'C
+          ii i;ive.i. all the lnfonnatiun ncedctl and wanlctl by Lhc rcude.r. Eliminate- c:ontc.nt that 1s
+          unimporlimt. unncccsi;ary, or distructing.
+               As you attempt to convince, put youri;c-tr in the n:adc-rs' i;hQes and imagine their rc-
+         11e1io11 10 your writing. Think of the: competing pO'iitivc: nnd negative thought,; they have
+         concerning your mc11suge then cmphnsi7..c lho po11itivc nnd downpluy tho ncguth•es. Use
+                                                                                        or
+         upprnpriatc log,cal ond cmo1ion11I appeals. nltcnlling to the thoughts the 111ind and the
+         fcclingit of the hcu11. Use l)ositivc: and negative appealit. acocnt.lng what the 11udic.nec can
+         ga111 by rnmplying with your rcquci;l, as well as what thc-y nughl lose through inacllon.
+         Use 18Clli, ex:amplci;. and evidence appmprmtdy. and muke sure you h..1\ 'C i;olid rc-.1i;oni; to
+         suppon your pmnts of pcrsun,;ion.
+
+          CLOUD Paragraph Structure
+          Mo\ting down lo the p~ragra1)h lcvd of composition. rcnu:mber the attrlbutc.s of cohesion,
+          lc:ni;th. organization, umty, .ind dc, c-lopmcnt (re-membered as CLOUD). Jn almost nJI
+                                                  1
+
+
+
+          shualions, when you tind a paragrnph Onw, ii will pertain to one of these attnbutes. 1'he
+          follo\\~ni; scctioni; disc.·,ui;s these CLOUO ouributcs, bul in n:ven;c order- J) UOLC- for n
+          more notuml oompoi;ini; sequence.
+Chapter 3 • Composing Bus iness Messages                                      Professional Wntln O S akln • 66
+
+
+          Development. Develop 1hc 1opic Qf each p,nrngrnph 10 include nll the informntion the
+          n:ltder nccds.1'hinking of otl the rclcvnnt 5\1/211(who, what. when, where. why. how. how
+          much) infomlation can be helpful. 11fo1icc the difT'crencc in the dcvdopmcnl in the next two
+          parugraphs.
+
+          •    Nn: I 1hink we should implement a system for improving writing within our organiza-
+               tion. for example. we could hnvc a team of wntmg experts in our company to provide
+               ongoing training for everyone.
+          ■    \\"): I think we should implement 1111ys1cm for improving writing w11h111 our org,um:a•
+               tion. For imlloncc. we cnuld ha,1c 110111eonc from c:ieh de1lartment auend a seminar on
+               cffecdvc profcsi1lonal \'lriling. 'l'h<.-so cmployec-s could then sen·e all a company wrhlni:i
+               board and create a stnndardizod training program f'or ull employees. All members of
+               lhc board could then conduct writing tmining in their respective dcpartmcnls und then
+               be ongoing writing consullunt:, for their dcp.1nmcn1s..
+
+
+               lh('i lirst ~rag:ruph 1s undcnlcvclopcd. lroving lhc rcodcr with in11dcc1uate inform.1tion
+          ttbout the writeJ' s idea. The s«ond pamgmph g1vn more ~ubslnntivc content to support the
+          topic scnlcnce. 'l'ablc 3.2 i;ives uddihonal examples of development information.
+
+       Tab/& 3.2 Methods of Conlon/ Dov91opment
+              Method                                             Examples
+       Applications           •Past ·The finance department lried lhis approach last monlh. . .
+                              • Present: "Our Madrid watehouso Is using this process . . . .•
+                              • Future: ·vou could use this method In your loan processing:
+       Evaluations            • Comparl,ons: "Let's compare the two approaohM side by side:
+                              • Ratings or rankings: "Stand X was roted higho.st In the competition."
+       Expt.a nations         • OeffnltJons: "The lni.llals PDF stand  '°' ..:
+                              • Oe1crlptlon: "Hore Is a description of tho new program.~
+                              • Ottaila; "Let ma explain each of these factors in more detail/
+                              · Logic: "Facior X first declined by 46 percent in April; Factor Y also
+                                declined by 22 percent. Therefore, we concluded that . . ."
+       Instances              · Example&: "For example, two employees complained abou1 . , ...
+                              • Stories: "lei me share an experience I had last week.•
+       Authority              ·Statistics: ~In research involving 100 large hospitals, 63 petcent, . ,"
+                              •Testimonial-s: "This was the bast restaurant meal I've had in months."
+                              •Authority opinion: '"The manufacturing manage1 says that .
+                              • Quotation: •.,far1t Twain, lho great American author, slated .
+
+               As you dovclo11 an idci1, don·1 write mo much. There 111 always more you c.an write
+          about nny 1opic, so Ullc )'Our bclll judgment in deciding when you lui\'c wril1cn enough.
+
+
+          Unity. M11ke sure all sentences within each p.1ragraph urc unified; thot 1s, they all pertain
+          to the parngruph topic. t!or cxumple, 1f'1hc topic of u pamgrnph is vucation days. all the
+          parngrnph content should be nbout vncotion clityi.. The parngruph should not contnin infor-
+          mation ubout sick day, . Sick-day infonnntion should be included in ,mother parngruph.
+Chapter 3 • Composing Business Messages                                    Professional Wntln O S akln • 67
+
+
+         Notice the difference: in 1he oontcnl of the fo llowing two p1trnl,.'TTIPh$. The lim parngrnph
+         locks unit)' bc(3usc the con1em w11nderr ii-om 1hc topic of emplo)'cc rilncss progmm11. 'fhc
+         second pnrugruph rcflc:cls good uni1y because ult 11cntcnocs refer 10 the pumgmph 1opic-
+         cmployec Illness.
+
+          ■   Nn: Mnn)' businesses arc rccagni1Jng 1he lmponancc of having cm1lloycc fitness
+              pl'Qgmms, Such progrnms will often include individual filness coochmg by u profes-
+              sional trniner who hel1ls employees nchie\'e pcoonul-fil ne~ gool~. C',cial seumg i~an
+              imporl!mt p11r1 of growth 11nd uch1cvcmcn1. nnd people fee l good uboul 1hcmscl\'es
+              when the)' ore nchic.ving. Obvioll~ly, pmres.1,ionul organizations nl'Cd employees who
+              rue lugh 111:hievcnt.
+          •   \'l'.!i: Many businesses me recognizing the imponancc of h11vlng cmployoe fitness
+              programs, Some companic:,; have an on-site fitness fnc1hty, with wcigh1 rooms, spon
+              couns, and jogging ureas. Other compunies pa)' for members to Cflroll in locn1 liincss
+              programs, Still othtrt reimburse cmployec11 for purchnsing lirncss equipment the)' can
+              u11e in their own homes or arwmmcntlt.
+
+
+         Organization. Aner devdopmg the-cunlent and mokmg sure all sc-ntcm:cs nn: umficd,
+         urmngc the scntcne,cs in II logical sequence, with n topic sentence lc.admi; the way. 1'he-
+         lcading topic set1tcnce applies the dircc1 nppmach1 cxphuncd in Chnptcr 2.Ahhough n 1npic
+         scmence i,i usuully best occ.-isionully the comen1of.i pi,mgmph works better in rtVtl'$C-
+         i1p11ly111g the indirect uppronch. With the indirect approach. the Cinul sentence summarizes
+         1hc pttted111g sentences or i1er\'eSos a culminating though! for the parugru1>h. Supr,oi1c, f'hr
+         c:x11111ple. that you hove surprise info rm.ution to share in n parugroph. You t.'Ould lead with
+         content that bullds up to the surprise, which you give in the final sentence.
+             1'he following parng.mph dlu,;trnlcs the direct approach. Notice thnl the first sentence
+         (1opic sentcm..-c) introducej the body con1ent- 0cxtime nnd comprci;,;cd work schcdulC'S,
+         1ltis p:imgraph also illus1m1cs how II summarizing sentence cim, 111limes, be benelici111 111
+         the end or ll p:tragmph.
+
+          nvo llexlbl9 wDfk arrangemenls-hextlme and compressed-can h9Jp reduce employees'
+          childcare concerns. First, f'6xtime work schedules allow worlcers floxibility in their WDfk
+          times. With this arranr;ement, days aro divided info cor6 time (hours when employe9s mvst
+          1Jt1 at worlt.) and naxti11H1 (the uarlior moming ond rater oftomoon hours when employeos
+         hovo Oox.lb!'lity). Second. comprossad work sdlodulo.s ollow WO<l<.or& to wOrlc more hovrs
+          during some days and fewer or no hOUJS on oth9rs. For exampJ&, a parson could worlt for
+          t9n hours a day Monday through Thursday and lh6n take Friday olf. Both ol lhesrJ flexible
+          arrangements can be beneficial to empk)yoos with dependent children.
+
+
+              Ali you cun sec in the preceding pumgrnph. a lending topic sentence mnkes your writ-
+          ing skimmuble i\1r rcadcr!l- they c.in !il:im quickly lhmugh your document, reading onl)'
+Chapter 3 • Composing Business Messages                                           Professional Wntln O S            akln • 68
+
+
+           1hc tirs1 srntence of pilragmphi;, rind get the mesS11,gc·s moin point withoul f'C{ldi ng the
+           parngrnph detuil.s,
+               lhe nexl pumgmph uses an ind1rL"Ct approach. with the 1opic sentence coming i11 the
+           emL If you read only the firllt ,icntcncc of thu1 pamgroph, you would th111k that lhc paragraph
+           is all about flext1me-, rnlhcr than about Oextune and compressed wod arnmgemcnls help ins
+           workmg purcols wllh thd r ch1ld<.--are concerns.. You sec, therefore, the value al'usmg a topic
+           sentence for 1h11o type ofmlorm111mn,
+
+
+           Ono llaxibro working schedule is call6d noxtimo. whoro days are dMdod fnto core timos
+           (tiours. when omplo)l96s must b6 at work) snd noxtlmo (oa,lior momlng and J.stor aftamoon
+           hou,s whon omplo)l96s have /loxibillty). A second noxlble schedu/o Is compressed wo,J<
+           $Chedules. which alldw workers to work m~ hours during some days and /ewer or no
+           hours on others. For exampfe, a person could work /or Um hours a day Monday through
+           Thursday and then take Fn·day off. T/Nise two flexible worlc arrangements can help provide
+           valuot>lo aptions for 011iployeus with del)6ndont children.
+
+
+           Longth. Oon'1 allow yout pamgmph,i toboL'OIUe too long. I-low can you lc:11 lrn parugraph
+           is too long'! Jusl lrusl your cyes-if n para:;.raph looks long and unlnvit111g, it's too long.
+           Nottco how different your rc-J1ction would he to e~1ch of the lwo texl samplc1o in Figure 3J.
+           'l'h e 1c-x1 on the left is only one pnrng.rnph~ the text on the right shows the same parngrnph
+           broken in10 smnllcr chunks,
+
+                ORIGINAL PARAGRAPH                                          REVISED PARAGRAPH
+          tm•estment.s are presented et la!r wtue The             rnves-1mel'l1S are pre,eoted 3 1 talr Vi.live The fair
+     fair value ot investments Is based on pvbllshed          value o1 lnvestmenl.$ Is bMed on published market
+     maIkot ploo1 and quotations from majo,                   prices and quotation• from major Investment b<okera
+     investment brokers t11 CU'rent exchange rille&           at w rent exchange ratea. fow major factors are
+     Many faictors t11re considered tn anlvlng at thal        conslClered In al'O'Vlng al 1h31valt.1e.
+     vatue. Corporat e debt securities ore value<I bllsed     1 Corporalo dobt socu,11101 were valued bosed on
+     on yields c;.uncntly ,vailablo on GOmP,Hlble                yiotd5 currently avoilablo on compartblo Hc:u,itio,
+     securities of issuers with YTiitar credit ratings,         of issuers wllh similar aedit ratings
+     11.tongages ht11ve been volued on an 3fflOrtiZ.e<S       2 Mortgages '-''e'e valued on an amonlzect co,1 ba•
+     0011basis. which approximates mo,kct or folr               sit. whkm oppI0JCimotos mQtket 01ra1, w1uo.
+     value Tho faS' value of real ntate inve&tment5           3 Real ntate invt1tment value5 were o&timalod
+     has been estimated based on independent                    based on independent appraisals.
+     opp,aisalt . For lnves1.men1s Yi1'ere no readily         4 lndlvldunl Investments, where no readily a,cer.
+     asoo,tainablc 1NIkot value oxistl. management.             taiMble mme1 vatuc OJCiats. wore valued by mon-
+     in oon6ultateon with their investment advssors,            agement in consultation with their investment ad-
+     have determined lhe fair value for lhe individual          visors.
+     !nveat.men11 Appro11.tne.1ety 11 perte('II Of Ir,e ne1     Ot tile ne1 asseIa held !n tru&1 lor the pension ben-
+     anel&hold in oust tor lhe pension benorn.s are           efits. approXJmat&ly 11 petcent aie invoetod in debt
+     invested in deb4 securites of the U.S. Government        secunties of the U.S. GO\•emnenl and its instrumen-
+     an<I Its f'lstrumet11alrl,,et 01the 11p«otnl,            tal!Uet-3 pe-otnt In u $ , Govemmen1 debt BeClJ'I.
+     opp,oxlmately 3 pe,oent aro U S Govemmonl                tics and 6 pcreonI In dol>I MCVfiUOS Of tho U.S. Gov•
+     debt $6Curitics and 8 percent are debt securities 0(     cmment instrumentatibcs. The &y$lems and plans
+     the U.S. Government 1nstrumen1ahbes. The                 have no 10\/fftment, cl any commercial Of induslnal
+     Syttems and plons Mve no lnveslmet1t.s of any
+     00mme,c101or !ndusu1a1 organization whoso                                                    '°'
+                                                              orgonb:orlon whoae morket votue equats 5 perceni or
+                                                              mofo ot the net asset& available benefits.
+                       '°'
+     ma,1<e1 v.11:ut equats 5 perct:nt or mo,e or the net
+     assets available benefits.
+
+          Flguto 3.3 Roadars profar to read shoflor paragmphs, Ilka tho Utxt sample on the rlghl.
+Chapter 3 • Composing Bus iness Messages                                     Professional Wntln O S akln • 69
+
+
+              Shaner ~ •mgmphi; produce more white space in your documents. mnking them lnok
+          easier 10 rend. Rend chrough the 1cx1 in Figure 3.3 11nd you' ll sec 1h11111m11llcr chunks of 1cxt
+          nol only look r1Lliicr to read bul arc cailicr to 1't.1d,
+              You can reduce the length of paragruph!! m ot least lluc-e woys. Pim, find the moM
+          logical brcukmg poml, or poml<;. nnd divide the p.iragraph mto t-wo or more shorter parn•
+          grnphs.
+              Second, eliminate nonesi;cnliul content In ynur effon to clevelc>p the oontc111 ol' each
+          parngrnph. )'Ou might include con1cnt th:u 1i;n·t eri1ic11I, m,minn1c it,
+              Third. write conc111esentcnccs.1-\ concise scntcncc includes only enough word!! to make
+          iL;c point: u wordy iw:-ntcncc uses more words than ncoemtr)' to make ils point. Therefore,
+          c:wn short saucnccs can be wordy and long sentences ran be concise-. The fo llowing five
+          tips can help improve conc1i;ion.
+
+
+          I. U:.c active vtJice.
+              a. Nu: Cu111omcr-scrv1cc training wns gwen by Collene to 13 people, I IOwordsl
+              b. \'l's: Collette guve cu11tomc:r-serv1cc tmming 10 13 people. (8 wor<bl
+          2. l!llmlnotc redundancy.
+             a. No: Our future plani; should ensure that c:-.ieh and every cmpl<>)'CC undcri;tandi; the-
+                  bai;1e fundamentali; ur good CU1ilomcr ser,·1c.e. r18 wordsl
+              b. \'N: Our plnn<; shcmtd ensure thn1 every employee underslnnd:i the fu nclnmcntafli
+                of good Cll~tomer service. f 14 words}
+          3. Reduce mfb1cd phruse.s,
+              a. Nu: At this point in time. ourcmplo)•eei',; haven't oome 10 a comprehension of good
+                    customer servic-e. (16 words]
+              b. \'cs: Cu1Tcn1ly, our cmploycei; don't comprehend good customer se1vu:,c. 18words I
+          4   Omit empty i;ubject5c like ·•if' and ··1here,"
+              a, Nu: 1'berc i~ u need for II cui;tomer-service munuol. and it i'> Collcue who i;hould
+                    write 11. ( 17 wordsl
+             b. \'o: We ncell o customc:r.scrvtce 1nanuul and Collene should w1·itc it. fl I wordsl
+          5. Rctlucc duller. Read cac:h sentence und IL\k yourself, ''Cun l say the some thing with
+              (ewer wordi;'!"
+              a, No: Customers obvioudy aren't totally i;aui.ficd with our i;en·lCc. so we reully
+                    ,;hould implement some type oftraining m CU'>lmncr i;crv1ce so our emplnym will
+                 do belief. [21> word,)
+              b. \'rs: lkcausr of our low 1.,-u111omcr•scrvicie mtings. our employees need cu111omcr-
+                 Sl•rvkc. training. (13 words)
+
+
+              Regarding 11aragruph length, remember that onc-i;cntrnoe p.imgmphi; are act.--cptable In
+          profesi;ionnl wriling, ei;pednlly in short documc.ntr; like emaili; and tex:t messages..
+
+
+          Cohos Ion. Uuild effcc1ivc cohesion in10 euch p11mgroph. Compnrcd 10 coherence. which
+          relates to lhc logicol flow of ideas throughout a me.'-sagc, cohesion pcmumi to 1he use of
+Chapter 3 • Composing Business Messages                                        Professional Wntln O S            akln • 70
+
+
+         specific word:; nnd phm.-.es 1hn1 show how indi\'idunl idei!s relate 1(1 ench 01her, Coherence
+          is more nmcro in its f<x.-u11; cohesion i11 more micro focused,
+                 Cohesion cim fu n1.,1ion in m lc11s1 three ways, l~irs1. i1 con refer to preL-cdmg lcXL, such
+          tit , "Uocausc of lhc foregoing probk 1n, ..." Second, il can forcca~1 upcoming tc:-xt such
+
+         as, "'J'he (ollowmg three l'ac.tors .. ."Third.it l.in show rdat1onsh1ps between and wilh111
+          individual thoughts, usmg such words as, " lhcrctorc," "ahhoug,h,'' and "furlhcnnorc." 'l'hc-
+          followmg bold, itnhcb:cd words illustrate how oohesion re\'cals lhe rdulionships of ,dens
+          in n pnrngrnph. nnd other examples of cohesion worcL-. nnd phrnscs nrc gh·cn in Tnblc: 3.3.
+
+
+          Roughly 60 percent of new bwlnessos fall during the firsl llt/6 years ofoperation. The main
+          reason for /allure Is their lack of ability to gsooral& an adequate cash flew. Even If they
+          have a good product or service, Income is usutJlfy limited and expenses high during
+          these early years. Hir}h adverlising costs, high personnel costs, and high production costs
+          all contribvte to lhis prob/om, Therefor•, businesses need a solid sourct1 of financing lo
+          ondure lhoir first yom of opurotion.
+
+          Table 3.3 Types and Examplus of Cohesion Wonts afld Phrases
+                Typo                                             Exumplo
+          Comparison         Cory worked In sales 81 A&B. Slmllarly. Govin worked In sales 81 E&F.
+
+          Condition          /fweget the Williams contract, then we'll have to hfre three new
+                             engineers.
+          Consequence Deb called in sick k>day. Because of her illness, she will not be
+                      traveling with us to London.
+
+          E.xlenSion         Carry~ an RN, In addition, she has six years of experience. She also
+                             served as a traine-r in her last job.
+          Forecasting        Her outstanding education is complemented by the following three
+                             key experiences.
+          Location           Two our engineers '1ml be attending lhe conference in Raleigh. At the
+                             conference, we can rnview your redesign plant .
+          Numeration         First, provide your name: second, state your d.ate of birth.
+
+          Reference          Last week. management dislfibuted the new policy manu8', Please
+                             review the manual before Friday. It will be the focus of our team
+                             meeting.
+           Sequenoe          We'll oonducl the interview al 11 a.m. After the interview, we'I go lo
+                             luneh.
+
+
+           OABC Writing Pattern and Message Categories
+
+          Now that you have learned aboul documcnt•lcvd and parograph-lcvc:I writmg standards in
+          the lirst section o l' Chapter 3, this second section will tc.nc:h you ubout the 0 1-\HC wriling
+          paucrn nnd six common categories of messages. Leaming how lo tippl)' lhc OABC writing
+          pauern und undcrs1andmg these six m~sagc categories will strengthen )'Ollr confidence
+         mwl i1kill 11.; you encounter differen t ,,,riling si1ua1ionJ.
+Chapter 3 • Composing Business Messages                                      Professional Wntln O S            akln • 71
+
+
+          OABC Message Pattern
+          OADC is II mc11S11gc p:iucrn 1h111con be used in mimy writing 11in111lion11. OAOC s1uncl~ for
+          opening. ngcndu, body. nnd closing. lk ad 1hc two forms of the s11mc mc11suge in Figure
+          3.4 and sec how much easter ii is to rcod the one wi1h the OAUC strueturc. Tbc l'hllowi11g
+          sections wlll teach you how to apply OAUC In your mcssagL-s.
+
+
+                     NOOABC                                                      OABC
+     Dea, ML Malthe\\15'.                                  Dea, Mr. Matthew-s:
+
+          Thonk you lo, your roa.ume ond lotto,               Thank you fOf' your resLNne and ~t1e1
+     e:.presslng iintere,1 in our Recn.uting               expressing interest in our Recruiting Spe,ciallst
+     Specialist postlion. The duties of this               position, The lollO"Mng porog,ophs pI0\llde
+     po1r1ion vary during the year, depending on           information rega,ding lhe (a) knowledge, (b) skills.
+     rOQ'uiling need&, Seoou,o of the,50 chonging          and (c) experience required f« 1hb position.
+     needs, a kncwAe<lge of all &$peels of human               Knowledge. The duties of this position vary
+     te.source management is tequWed. including           d\#lng 1he year. depen4Ing on 1eerulllng need•.
+     HR tew, compenaatlon and benef~•, 1ra!ning            Becau&e of these changilg neectt, a kncwAedge of
+     alld dove10pmen1. atomng, and jot> design,            all aspects ol human resource management fs
+          The posilion requues exceptional people          required. includlng HR. law. compensation and
+     skltls. espoclally In wo1klng 'fflth college-age      be,,elllS, t,otnlng and developmenl, steNlng, end
+     1tuden11. Good written and oral                      jobdeiign,
+     communication &k~5 are eS&ential, including               Skllls. The poslllon requl1e, e:xcepllonal
+     inte1"11lewing and giving presentations.             people sklUs, especially In wotking with oolleg&-
+     Condldates must ha~ t1d\r.lneed tki11in              ago &ludenls GOOd Wfltlen Md Ort!
+     utir)ij prta.en1a1ion 1oftware and «ea1ing           communication skiNs are essential, includilg
+     professional slidcshows. A m1nimum of                lntel"lliewlng and giving presen1a1b ns. Candidate:,
+     three yea r of bus,neas experience in HR k           must have advanced altl In u,!ng prosentotlon
+     roquh d. E,:pe1lon® It al&O helpful in               soflware and CfeatJOQ professional 11de,how1.
+     organliing interview schedules and pt.annlng              Experience. A minimum of ttvee year of
+     feetulting tf'1)s.                                   business experience In HR It reqrn,ed. Experience
+          If your schedule allow!, we wouk:I llke to      i111110 helpful In orgonizlng lntorviow eoho<lulH
+     have an employment tntorvlew with you ot             and planning recrultino ,rips.
+      10 a,m. on April 23 Please call Paula, my                If your schedule allows, we woufd like to have
+     executive a$.ffilant. at (803) 3S7-87XX to           an employment Interview wl1h )'OU et to a,m. on
+     ooNlrm or modify ltd! appoin1m~nt. We look           Ap,il 23. Pf.tose cal Pou11. my execulive anit.tant,
+     lolW8<d to meetlr,g you                              •• (803) 3S7,87XX 10 eonfl<m or modify this
+                                                          appointment We look forward to meeting you.
+     s.-ice,ely,
+                                                           Sincerety,
+     Sydney 8rookbank
+     HR Manager                                            Sydney 81ockbank, HR Manager
+
+
+
+          Figura 3.4 Whk/1 of these two mGSSages would you rathor t9C6/l/6?
+
+
+          Opening, The opening segment or mc11s1agc11 provides 1mpon;ml background 11nd mtro•
+          duetory inform.uiion. Thi11 mntcrial prepares the rclldcr·s mind to receive 1he mam message
+          o f lhe doeumcnL't. 1-'or most business n11.-ssagt'$, like cnu1ils. the opcnmg will obo contain
+                         or
+          lhe key pomt the message. 'J'he. main message 1s to a document llkc a topic sentence 1s
+          to a paragraph. Professmnals arc busy p<'<>plc, and they wanl )'OU to get to the point quid.I)'
+          ilnd then to give i1ppmpriu1c dctnils. ;\s you learned in Chapter 2. this is the direct approach.
+               for example, ifye>u were writing an cmml to 1t ll )'Our cmplo)•ccs nbe>ut n new point-of-
+          salt 11ystcm lO be implemented in your business. you might begin wi1h. "On May I we will
+Chapter 3 • Composing Bus iness Messages                                         Professional Wntln O S             akln • 72
+
+
+          implcmeni Ollr new clicnt-interfnce sys1em:· Mkr giving 1his key point, you could give
+          11dditiont1I relevant infonnntion. such us. " lmplementnlion will begin in Miami and Lhen be
+          rollctl oul 11cross the country throughout the rest of the ~mmmer. 'l'his new S)''1.cm is c1Lli)'
+          to use. provides improved sales rt!ports. i1nd provides uutonmtcd Inventory munagc:1ncn1
+          reahire!i.••
+              1'he beginning of a mt:"S!iage is also lhe bcsl place to pul erilical information, suC'h
+          11$, '·Plen,;e reply to thi!i rcque:-1 by f' ricL.1y o f 1h1!i week,"' Becnu!ic people oRen rend the
+          opening scn1cnce en two 11nd then skim through the re,;1of the mC$sage, lhe infonm11ion
+          you plocc ln1er in o document might bo overlooked.
+               Ahhough the dirttt oppro:-ich is ll~u:'llly bc,it, mu rcw ,iiluution,i tho indirect approach
+          Is better. ~·or cxmnplc:. bud-newt 111es.-:11_gc!i o l\en (hllow Llm1 ind11-cc1 approoch-fir..tg1vin1;i
+          suppon inform.alion and then giving the: bad news.. 1-"or example1 you might write '"We
+          have reviewed your employment npplic-nlion" in p.1raprnph I nnd lhen "We. h;ive oflCrcd
+          lhc positilln 10 someone else"' in the finnl p.1mgmph, Also, in !tome si1ua1ion!i you miglu
+          choo!ie 10 give gcncml infornu11ion lirst. followed by specific infornmtion. such llli, ..Our
+          company VILClllion.dJ1yli policy holi changed," f'bllowcd by rca11ons for the change. 11nd
+          flru,lly followed by, "l lcrc'11 how 1t ttpplic:-s to you."
+
+
+          Agenda. An agenda ts a preview, or forecast, of the body af the mt"SSage. lf you have
+          crcntcd rm outline for your writing, 1hc major scctinni, of lhc outline will trnn::.i1ion ew,ily
+          into im ngcndn. for numy mcss11gcs, you cun inscrl 1111 11gcnd11 righl ufkr the opening,. lk
+          i1wnrc. however. th111 shon messages oficn don't ncod an agenda.
+               When includm~ on agenda. choose from the fo llowing four type~uuntify, identify.
+          or.ganlzc. and !iymboli.1..c. 1'be iOllowmg bullet li~t 1>rovidc.s definitions and example!., with
+          the .issumption that the examples would fallow this opening paragraph:
+
+
+          MNaturaf disasters are a consttmf threat lo all citizens of our community, whether related lo
+          f,ros, chemical spllls. floods. oarthquokes. hu"icDMs. or tomlJdoes. Disasters can occ11r
+          day or night und cun result inn kJss of wolor. gM, 9/actn'c(ty, orinlornet connocllon. nnd csn
+          cause major dlstupbons. For wld6$1JfBad disllslors, restoration of sorvJcas can bo d&layed
+          by several days. Therefore, JndMduals, families, and businesses need to be prepared."
+
+
+          ■   Quanliry (tells how mnny body sections}. ·--the followi ng information descnhc:i- lhrcc
+              steps you con lake 10 prepare for disustcrs:·
+          ■   lckntir)' (label" the body s«tion.li), "Prepare fo r IX>U:ntbl disasters by (11) detenmning
+              the d~k$, (b) developing u plan, and{<:) rchenl'5ing the pion Oil ll regular b1Lds." If you
+              don't wool to be so specific aboul the body sections, you may use a more Kc>.t1ern/
+              identify agenda, such as when giving bad news later in the message-.
+          ■    Ori:ani..:c- (dcscnhe<. the sequence or i.1ruc1t1re of the body section!.), ..The folln\\~ng
+               lext dc!icrilx:s the s1ep•by-s1cp procc._s you !ihlluld fo llow to he prcp11rcd."'
+          ■   Symbc1li1.0 (uses symbolism 10 dcsc-ribc the body i.cctions). •1"he critical llnfel)' steps
+              MC like the three poinl! orn triangle."
+Chapter 3 • Composing Business Messages                                      Professional Wntln O S           akln • 73
+
+
+              for II gh·cn mei;:..nge. )'OU m3ychooi;c 10 u-.e only one type ofog,:ndn or to combine,
+          For example. the i\1llowing senlcncc combines ,111011tif y nnd ;dc111ify ugendus.
+
+          "Th6 following information do&cn'ba& lhroo su~ps you ca11 /ak.o to Pf6pat6 forcfisasl&rs-de•
+          termlne thrt risks. devalop a plan, and reh&arse thrt plan."
+
+
+              Remember 1wo gu1dclinei; when writing ugendai;. firi;t, wrile your agend1L-.. cc;m d:ioely.
+          without ndding unnecessnry words,
+
+
+          ■   Nu: l will now cover du-« moin topics in this email. They ore n.-s follow!!: (n) soc:inl
+              SC(:urlty, (b) hcahh<:orc. and(<:) personal savln~-.. f20 wordsl
+          ■   \'l'.!i: When you plan ror retircme-nt, oonsidcr three importunl foclors. (9 wordi;)
+          ■   \'r:o.: When you plnn for rctiremenl, evnluatc your social i;ccurity, hcalthcnrc1 nnd
+              rcrsonnl suvingli,., P3 word~)
+
+
+              Second. 1111 appropriate. con11ider using 1ypog,rnphic cnh:mccmcm to cmptwsizc the
+          agenda. n 1x:ctally in long docu111cnts like pro1>osals ont:I n:port.s. I hrcc options ore gl\'cn
+          in 'lablc .l.4.
+
+          Tabl• 3.4 Typogtaphic E11hsncomont Options. for Agendas
+                Enhancements                                 Example&
+           Bold or italics (or both )      I wilt explain lhe knowledge, skills, and experience
+                                           requited ror this pos.iUon.
+
+           Alphabetic or numeric           The three sites considered for our next conference are (a)
+           markers                         Copenhagen, (b) Stockholm, and (c) Oslo.
+
+           Vertical listing (most          We di:soovered three major problem areas:
+           appropriate for long            -Improper hiring pra.-ctices
+           repot1s)                        -High turnover
+                                           -Improper safety procodure1
+
+             Agendas arc ll'1elul not only in wriu~n hwdncll5 me,ii1ngl"S. but nlso in oml bui1inc!lll
+         co1mnunlcutlon-1,bonc calls, Interviews. utl"(llng..,;. and formal business prescn1ntlons.
+          f,or ins1anc.c, before making a phone call. jot down the two or thr« ma111 po inti; you need
+          4
+
+
+
+
+         to communicate. 'l'hen when you cnll, you will be well organized- whcthcr )'<>U talk \nth
+         lhc Qthcr Jl('fSOll or lcuve !l voice message.
+             1'hc fo llowing phone mcssugc i,m:rts 1111 ugendu ("two things..) t1l the beginning 11nd
+         lhcn ro11ow11 whh the use or "fir111" und "se<:ond" to mork the two c<mvc1'S.11lion ,icgmcnts.
+         This struc1urcd appmac:h will help Mia e.i~ily undctslnnd ttnd remember the 1nc!IS41gc. nnd
+         she will upprcc1atc how clear and cai;y the mci;sugc is lo follow.
+
+
+          Hi Mia. This is Adrian Silva, Sorry I missed your return call. I nooded lo mention two things
+          to you. First,   rm planning a staffmeeting for neKI Monday al 9 a.m. That's ono hour earlHJr
+          than usual. Second. In that mooting woukJ you givu us o brio/ roporl of lest woel<'s SHRM
+          confarsnce In Dallas? Just tako four or llV<J minutes lohlghllght o few of you, key takeaways
+Chapter 3 • Composing Business Messages                                    Professional Wntln O S           akln • 74
+
+
+          from th& conference. I wotJld really approciat& it, Pleas& give me rt call ,vhen you get t/lis
+         message so I can answer any questions you tmght hltve. Than ks. Bye.
+
+
+              Agcndll'I p1-.:w1dc multiple bcncfllit. Using an ogendu hclp.i: )'OU Mtlc more wcll•orga•
+          mzcd mcssngcs, and more we-II-organized messages arc casic-r fhr )'Our audience to read.
+          f urther, when you requesl a respon.<;e, your uudicncc will oflcn organize their response m
+          a i;imilar well-organized mnnncr,
+
+
+          Body. The body ofa message prcscnlli the con1cnl identified in the outlining procc!ls und
+         tinnouncctl in the ogend.n. For imtnnec. ir the ngenda forctMls three body clement$, the
+         body provides oontcnl about those Lhr« clements, us in the OAUC cxomplc in Hgul'C 3.5.
+          If the .agenda forcoasti; in(onnation ubout two rd cai;c datci; for new sollw1trc upgrades. the
+          body would conluin two sc-gmenti. explaining lhc produe~s to be rcle1L<;cd on the two dates
+          mcnlioned in the agcndn.
+
+
+                     To:      Jackson Millard
+
+                     From: Nora Stewart, Direolor of IT Services
+                     Date: Octobo, 3. 20XX
+                     Re:      POSSYSTEM INSTALLATION
+                                                                                ,-Ope,, ,g
+                     We ore scheduled to Install your new PO$ tennlnol system
+                     al your site on the weekend of Augut't 24. Hern rue three
+                     importonl itum, fo, you to eddtoss in ptoparation for lhis ~do
+                     Installation,
+
+                     First, we need complete access to yout system from 8 a.m.
+                     to 8 p.m. on Sundoy AuQUSI 26 Evon lhough the
+                     lnstallatlon will likely lake only three or four houl'S, ptcasc
+                     plan lo have a knO\~edgeabfe employee ,at your store
+                     during that compJeto 12-hout porlod,
+
+                     Second, please close all rnes, 10!) out, and power do~
+                     your system wtwn your otllco doses on the evening ol                   Thi'<«
+                     August 25. You, systom shOutd bO rtllldY fl)( buslnoss as              moinbody
+                     usual on Monooy morning al 8 a.m,                                      elernenrs
+
+                     Third, W(t v.◄11 provide training for your $lore em~ oyoos
+                     from 7-8 om on Mondoy. August 26. Plt111so havo all
+                     employees present (Of that one-hour period,
+
+                     I wlll contact you again on ThwSday. August 22. to conllJ
+                     that ovo,ytl11ng Is roooy for the tnswllotlon.                    c•-vsing
+                     If you have any questions, please let mo know as soon as
+                     posslblo.
+                     Norn
+
+
+          Figure 3.5 OABC m6Ssages are well s.fructuf9d and easy to follow.
+   Chapter 3 • Composing Business Messages                                      Professional Wntln O S         akln • 75
+
+
+               Closing, Aflcr lhc hody, close 1hc mC'$s:,gc. The clCKing mny sumrn11ri1.c the key points
+               of the me11s.11gc. draw appropriate conclusions. recommend ccnain 1LC1ions, or provide some
+               other closing rdc\'on110 the ili1uaLion.
+                   Remember and opply the OABC wrhlng paucm as appropnatc In cre~11ing messages. h
+               will give you, the wntcr, .i useful slmcture lo follow as you oomposc. m11king your wrillns
+               easier and better. It will also help your audience because It pmv1d~ a dear pathway from
+               1hc beginning of the message lo the end,
+
+
+               Message Categories
+               Most business messages cnn be clas,dficd into one of six d1ffcrcnt cn1cgones. Tobie 3.5
+               gives cxumplc.s of these c:otcgorics and suggests either u d1rcc.1or an ind1r«C approach f()r
+               each- if you expect a positive response, use a dircd .ipprooch; ifyou cxpcd an unroccpllvc
+               response, use un indirocl approach,
+
+Table 3.5 s;x Common Messag& CategoriM
+                  Audren~
+  Message      ~-R!!!~':'~~
+ Categories       Approach                  Examples                                     Guidelines
+Relationship   Receptive          Congratulate, thank, offer       Opening: Main idea.
+buiJding       [);rec;t           condOlences, a,pologite          Agenda: UsualJy omil
+                                                                   Body: Comments ,elated to main ldoa.
+                                                                   Cloalng: Al app,opriato to tho situation.
+Good nows      Receptive          Announce a promotion.            Opening: Main Idea.
+                                  grant a reque,t, give            Agenda: Quantify. identify, or organize, Si approl)fiate.
+               Direct             positive reinforcement,          Body: Details rela!ed to main idea.
+                                  notify of an award               Closlng: Rererenoe to good news, 01 other positive
+                                                                   comment.
+Informative    Generally          Ask for routine information.     Opening: Main idoa. or Ov(M'al purpose of mo,ssage.
+               roceptive          announco an upcoming             Agenda: Quanllfy. identify. or organizo. as approp,iato.
+               Usually direct     meeting, reply to a queslioo,    Body; Apptopriate details consistent with agenda,
+                                  give inslructions, repOtt on a   Closing: As appropriate, related to message purpose.
+                                  project. remind of a meeting
+Easy           Varied, from      Pe,su.ade to comply with a   Opening: Relevant background content. followed by
+porwaslon      u~nt&testod to    pobcy, request ~ nrisslon to main potnt.
+               lnt&rosted        buy a product Of aorvioo 01 Agenda: Quantify. identify. or organlzo, 01 opprop,ioto.
+               ----
+               Direct or sllghUy attend e conference          Body: POSitive inrormation, logical and emotional
+               Indirect                                       perSuasion.
+                                                        _ _..cC~l=    n .g : Action you want lh& reader to take.
+                                                                 o •~l~
+Difficult      Vari&d, from       Request pOficy or procedute      Opening: Framing or issue, without giving th& maln
+ponuaslon      dlspleas9d to      changes. request majoc           polnl
+               agreoable          fundi,..g. make major request    Agenda: Generol ldootity, or other as appropriote.
+                                  wilh negative consequenc-        Body: Logical and emotional reasoning. followed by
+               lndfrect
+                                  es, give tJdvice to modify       the main point. Highlight positives. Minimize negatives.
+                                  bohalliot                        Closing: Relnlorcemont o4 positives. Request for
+                                                                   octlon.
+Bad news       Shocl<od.          Give unw8'como inlonna-          Opening: Cootont relat8d to main klea, without givtng
+               disappointed. or   lion, reject a request. put      lhe bad neW'I.
+               displeased         on probation, give notice of     Agenda: General identity.
+                                  terminaUon, give negative        Body: Reasoning that leads to bad news, followed by
+               Indirect           feedback                         de-emphasized bad news.
+                                                                   Closing: Appropriate oPlions Of other mildly poailivo
+                                                                   content.
+Chapter 3 • Composing Business Messages                                       Professional Wntln O S            akln • 76
+
+
+             ·1ne fo llowing scciion-. provide US("fu l guidelines for writing 1hesc six 1ypcs of nl(S•
+         s11gcll.
+
+          Ralatlonshlp Bulld/ng Massages. Pos1tivc 1'du1lonshlp..~ nre vi1.nl (bl' cO\'Ctivc hu-
+         man interaction, so sl1frc to cstubllsh good rclauonshtps whh your colleagues, customers.,
+         clients, and others. Hu,ldlng and mumlaimng rd u1ionships lcts poople know you care about
+          1hcm. Rclntionsh1ps build social cnpi1a11hn1cnn help you in fi11ure internclion.s with tho:..e
+          rcoplc, Strengthen your rtlntfonlihip wllh others each time you communicate with them,
+              Look for op1>011uni1ies 10 connect with people during umes of sorrow, ns well IL.~ times
+         of joy. Un(bnun::ite situ:mons, such IL.~ injuric!I, tllnL-sS, or death, o!I well m~ fortunate s1tu•
+         n1ions. such ns new employment. prcunu1ions. attd aehlc:vcmcaLs, ore import.ant events in
+          people's lives. A sym~lathy note or a L"-Ong,rntulalory messngc cnn be C$pec1ally meunmsfi.11
+         dunng these times. When wnting rclationship•building mc~uses. rnke a direct approach.
+         lJr.uall)'. nn ngend11 isn·1needed in these mc-<.s:1gcs.
+
+          l. 01m1i11g, l!xprcss your m.iin point tn the lirst sc:ntcnce.
+         2. Agl"11d:11. No ngc11d.a tll n«ded.
+          l . Body. Oivc udditiona.l thou~L'i as uppropnate to the siluat1on.
+         4. O c,sin1,t. Close-as appropriote.
+
+
+             'Ilic rollowmg brief mcs~1gos demonlilruh.: how you can gi\'c Cllngmtubtions und
+         cx1>rcsll condolences.
+
+          Brandon, congratulallMs on your outstanding perlottnance In Jast woolt.o,id's accounting
+          certifteation exams. I know you 1vorl<.ed hard to prepare for th& exams, and your thOrough
+          preparaUon cerlainfy paid off.
+
+
+          Moria, ploaso OCC6pt my sfnceru condo/onces at Iha posslng of your falhur. t know you will
+         miss him doep/y. May you and your family be comfortod during this 6mo of s01T01v.
+
+
+              Remember to write thank-you notes lo others who help you m one way or anothcr.
+         lhese notes can be texl-., emnils, or handwntten notes. Most Lhank•you notes follow n
+         direct apprn;ich rind consist of three clcmcn1s (see ex.ample in Figure 3.6).
+
+              01m1i11g. Tell what you arc 1h11nk111g lhcm for,
+          2. Age11d11. Nu :igcndti 1!1 needed
+          3. Uody. 1'cll why Lhe1r kmdncss meant so much to you.
+         4. 0 11sin1,t. Add un nppmpnnte eond uclin:; statement.
+
+
+              1'hank-you messages, as well as 01hcr cxprtssions of humnn compassion, nre powerful
+          relationship buildcf!I.• Oc:ctmllc such messages urc usuully not expected. people will be
+Chapter 3 • Composing Business Messages                                                Professional Wntln O S akln • 77
+
+
+          impn:11~ 1ha1 you hin·c lnkcn 1imc 10 cxprt"ill 1hc11c kind words. Never unclcrt"ilim..11e
+          1hc power of relationshi1rbuilding mc11sngc11. Mnkc a hubit of renching ou1 in this manner
+          throughou1your life.
+
+
+                                    Ji'N-t,,
+
+                                                     t"°""
+                                    T11..i11l:~1 (-of'       ~e.to review rn11
+                                    S1-'6Show l.il\t WU.I:. I #/f'(t- ~ ~Mlc,11
+                                    om Fl'IMj, i11114 ,,vtr1I 1)(.0flle C,c,"'"'tirt&t Oil
+                                    how 1111d1 ih(, itki h.:fp,U io ~ ""~
+                                    l'\0$$Nj(, itier~s. t 41M~ t1J>l>(Uiillft, ~r
+                                    ...,i~'I! pf4d ,~(f!U fflltt     "°""""sow••~
+                                    ~shPr,,
+                                    Mii.tlljll
+
+
+
+
+          Figure 3.6 Thank-you notes are thoughtful expras&ons that strengt.hen rolatJonships.
+
+
+
+              Ckcalllonally you might need 10 wrile n lcttcl' orapolog)' fot in:ipproprinte bcha\'IOI' OI'
+         .i mistake. If an apology 1s needed, stulc the apolog)' sinc:crd)•, make rcs1itut1on the best
+
+         can, nnd mclicatc whal actton you arc laking, or will take-, to make sure the problem dnc11n't
+          happen agnin.
+
+          LolY, I'm vory SOff'f for missing our 10 o,m, loam mooting this morning. For somo raason,
+          I lallod to road your small obovt lho mHb'ng and schoduJod another sppofntmont at that
+          tlmo. I wlll tty to bo more c/J'l}gent In checking aN my mess.agos 111 the future. Tracy shared
+          with me her m eeting nc>,1es and reviewed the meeting highlights with m8 thi$ t1hernoon.
+
+
+         Good-News Messages. Good-newJ mc:11s.11gc11 nrc wrillen for mony si1uatiorn;, such
+         11s nnnounc:ing promotions, cxpre11sing congm1ul1nions for achicvcmcnls. and m.uking job
+         oO'crs. (iood-ncw!I me!l!loges arc ell")' to write bocnu!lc: you arc providing inrom1111ion the
+         reader will be hnppy to receive. When writing these message$. pul the main ulcn ot the
+          beginning..
+
+          I, Opcnin,:. lk-gin with lhe good news,
+         Z. A)trnd1. As needed. 1nsc11 any oflhc 11gcnd11 l) pes us uppropnatc,
+                                                                        1
+
+
+
+          3. Hody. l}mvtde nddi1ionol rclc\'an1deuiils rcl:ued lo the good ncwll.
+         4. Onslng. Cnncludc wuh a cordial runum:nt. 11 reference buck to the good ncwll, or other
+              appropriate sliltcmcnL
+
+              Herc arc two short 11nmplcll of good--ne\lt':S me11s.i1ge11. Another good-new:. mes11agc: ill
+         shown in Figure 3.7.
+Chapter 3 • Composing Business Messages                                                                Professional Wntln O S                      akln • 78
+
+
+             Hj Mariana.
+                   our firsl..quortflr reports show lhill your sales topped $26,000 for uoch of t/1& throe
+            mont/ls this yoar. My sincera congrotulotions to you,11 have also rooolvad savorul positive
+             comments from clionts who ha\19 WOtkod with you. Thenk. you for your oxcepllonal pot/or.
+            ~                I appreciate your posltJve inHuellCe CNJ out_t•_ _
+                                                                             am.____________
+
+
+            All Systems Analysts,
+                   COngratulations to ow coll&agll'1 Kato who has j11st beon promOlfJd lo Senior Analyst.
+            As you l<now. Kate hos boon with 11s for 18 months, and /lor 1K1rlc d11ring thjs limo hus boen
+             outstanding. I know we an loOk forward to workJng wllh her on many imporlant projects In
+             tho yoors ahoad.
+
+
+
+
+                  l'o:        Janel lk mkr
+                  h x,m        N1ch11l:1s n, r.1111
+                               Vice l'rc:Mdcanl, l'uhl,c k1;ol11lll'll:f
+                 Dal{•'       ("h.'1ohcr J, WXX
+
+                 lk            l'~ll'LOYU'. OF Ill~ \'J.'.Ak                        Olrctt
+                                                                             /'P'"""'
+      O.,Cn,ng(I am plc-.lSCJ to Ulllh'l\lli..'<' thnt you h:1,·..- lx·ct1 s...k'\'."100 11i< ~1ur 20XX k.inployc..- ~)(lhc
+                 Yc:,rl I t't•U,gt!llul.tt" ymi l)U1~ 11111, d)I»\.''' f..11 lh~ ,,,c:itigw~ 111~•:1td. l}l\\bc Mu.I tb,·
+                 foll(IWU1$ l'-,rn{ll\ll)h~t m'l:foll,· lifl )'•"• will 00 11wiuc: ofllkl th:tml\ 1d1tcd It) ft'CCl\'111,S lhl!i
+                 nw11rd
+
+                 ru1>I. )lt•u1t •.Hu\l ...,,II be a1muunc\'\I «• Mo\.:mbc1 13 f1l \,u1a111rnal cniplu)\'t! awf11dJ1
+                                                                                                                          ..,.....
+                                                                                                                    -....... 6tnvot ••nt1fy
+
+
+                 l\'ultflK'I, tu: ld in the: Manfou l(1,1d C',n,nd nallroom. Plc:iic pb11 1(1 tc1W11'I nn l•1x-nin2
+                 1,"Ceplinn tc> h•"k.lf y1•u :11(,·OO pm , 1(1 he folk,w..s,I h)' dlC t,:1m1ucl 111 <1·.'ll r m
+
+        800)' ScoonJ. B11l\'"11lhc1 r,f ou, rubli,;, 1\'hiliM"I .,,1aff -will ton,~ • y,,u ...,,..11, fo, 1111 intct\icv. A
+              , J1,1t1 bioi:r:1phi<,11I sketch will 111\'tl be 1)1\.llG:m l fot tlk' 11rim\·d ,,,,1121:110.
+
+                 Third. om COnll)llllY 1)1)1,t(l~rnrlu,•t " 'tll 1.111110 OITll\gC ft•I' .fl pho10 '1100l m ll,o nc~t CWll
+                  w~:d;i.,
+
+                 I 11.,!!.J iu ~uug.rnlUlu.tc )'(Ml 011 llu~ f•1\•-,l1j!k•ui, 11\l.1ud. V,,u ha\\.' l!cct, SI \alucd \.'Olltllbu1,1r 10) Closlrq
+                 Ollf c,,m1,._11y·~ MK.'i:\....ol for 14 )'~Ill", imd .....~ IW" llllJlf')' f(l h.: ut,)c 1(1 h11n\\f WU 01 llu~
+                  \\'cl)',
+
+
+
+
+             flgure 3.7 Good•n&ws ITHilSSages use a positive, direct approach.
+
+
+             Informative Messages. lni'ommth e mc:s.•mscs cmwcy ini'omwtion Lhat ls rc:-latlvdy
+                                                                           1
+
+
+
+             neulral in tono-neilher positive nor negative. As lhe mime Implies, Lhe goal 1s to provide
+             informnrion or m;;truction needed by. und useful to, lhc rcader.
+                 for infomwl i\'c mcssngcs. put the mnin idc-n 01, or close to. the beginning orinfonnn·
+             1ivc me1m1gcs, Even with 11hort. infom111tionul 1ex1messages, use u di~ct approach, 11uch OK
+Chapter 3 • Composing Bus iness Messages                                           Professional Wntln O S akln • 79
+
+
+          1hc following: ..Julie, I'm 5ony l c1m'1join you for lunch 1oday, I ju'it got ai;signed 10 write
+          11 n<..·ws rclcusc with a 2 p,m. d1:!1ttlinc, llO I need 10 work on llml during lhc lunch hour:·
+                lhe wming pnttern o(info11nntive messages i:1 similur to good•ncwll mcssage:t:.
+
+          l. 01,cni11J,t. State the main pomt of the message.
+          2. AJ,tenda. As appropriate-, m.,;ert an agenda to forccasl the body c.ontcnt
+          3. Uody, Pmv1de relevant de111ils reluted lo the main p<>int,
+          4 C.1n~ins:, Conclude with n forwnrd• looking s1a1cmcn1, a rcii:renoc the main point! or
+              othtr cordk1I comntffll.
+
+               F'l.gurc 3.8 applies these i:;uldchnL'S. 0111i11ing the " gcnda bccausc: of the short length of
+          the message.
+
+
+      Mr Keufmonn.
+      Thank you for your reQuesl aboo1 the r•3Se dale ot our new Whatslt Model LC4336. 11 win\ t>•""'
+      be aval&sblt for &hipping beginning February 1of next year, and yoll' local hardwaie stores) oppf'O(l(k
+      wll havo It In $lock by mlcl-Fel>ruory.
+      Shonly before thal time. you will see the new model featured on our webshe. Tt.$ MW model)
+      wil havo severnl new and improwtd fealtres that we hope you will find beneficial, lncludi'lg a At.lt'Hlnf
+      Olgltol conttot panel, remote cont<ol, and longer bat1ory llfe,                                dcto•I•
+
+      F~I i,oe 10 conl3c1 us with ony odd11,onol qu..tlons. ,
+                                                                    COf'd!ol c.101111"9
+
+
+          ~ gure 3.8 lnformativo messogo.1 use a dlrocl. poslb'v9 spprooe/1.
+
+
+              At times. your informatwc mcsSilges might mcludc mstruct1ons, such as describing
+          procedureli or giving other dircclions. Instructions help the reader complete a task corrcctly
+          nnd cfliciently. As alway5, hilvc -0 clear purpose. nn11ly1.c the knowledge level 1md needs of
+          your audience. ond undcrsumd the context m which tho instructions will be used. Crtutc
+          nn outline nnll ,icqucncc: your in~lrw:1ion.11 logic11lly- m,w1Uy chronologtcally (Stl'I> I, Step
+          2,dc.).
+               Make your wri1ing clear. accurate. and oonci.,;c., pm"idmg enough information. bul nol
+          too much. Use concrete lnnguuge and mdudc examples as appropriate. Use imperative
+          mood, hcginning with II verb. ralh('f tlmn a noun- i;uch IL'> ·"fop the P"titmm~., icon," not
+          "You should 1111l 1hc A·t1h11e.\' icon.··
+               Al the beginning ormsl1-ucuons. 1mwidc o dear tille. such us "llmct"Slltng Croon Clml
+          (tilymcnl~... Ucgin with approprkite bnckg.round and overview in!hr1muion, such ttic why
+          the procedure is important, whut equipment is needed. when and where it is used. .ind .,;o
+          forth. Give uppm1lflatc dclinilioru; orumquc terms. and use tcmis consisten1ly thmughoul
+          the ins1nic1ions-cspednlly ror intcmntionul iJUdicnces.
+               Break down the procci;s into specific steps and include only one sl<:p per i.cntcnoc.
+          Provide 11p1lropri111c wnrnings before lhe lllcps lhlll the wurnings 1111pl)' to. UK if•lhcn•else
+Chapter 3 • Composing Business Messages                                              Professional Wntln O S akln • 80
+
+
+             logic 1.1!> n(;'('.Clili:il f)', i;m:h ns, ··1f A hnppcns, do 1-3. cl-.c (or olherwii;c} do C." Wherever
+             possible, front -load 1hc sentcnctS. putting lhc most imponnnl information 111 1hc beginning
+             of each 11c111enoc, Number it1.mu ror easy rcrcrencc, U5C hending11 und other fo111 variations
+             so readers cnn ~klm your wntln1> and find Lhc in1(1mu11lon they arc scdang.
+                 Include visuals approprlatdy so people can both see and read inslruc.tlons. Use callouts
+             to point to specilie pa11s of the unage. f'or example, take a scroen shot and then create a
+             calloul nrrow to point to a specific 10011, As oppmprintc, crtatc videos to dcmonstrnl'e the
+             proccsi; in nc1ion (,;cc Chap1cr 11 ).
+                    Aller wn tmg the instruc1iuns. perform the lll~k yoursclr. and then pcrfom1 uimbihl)'
+             1e:-.1ing- 1L'-k l'hur or five other people read your mstrucuons and pcrfor1n lhc task- to make
+             sure the insLruc1ions arc clear and accurule.
+                    1b tlllL-.Lrute, assume that you work l'hr the mortgage department of .i credit union.
+             People have asked you how much your credit union will lend them, You decide lu write n
+             sel or instructions people can follow by themi;elvC'li to cletennine thi11 nmount (sec figure
+             3.9). Your instrucuons can 1hen be: po1ncd on 1hc crcdi1 union'11 website,
+
+
+
+     How to Calculate
+     Your Mu lmum Monthly House Paymen1                                - - - - - - Who!'• nudf.<I
+     BelOl"e perfomtklg lhls c.,,loulatlon, you wit! need a C3loulator o, spteadSl,eeL your mot1lhly nel ir'ICOl'ne.
+     and tht tocal amounl ot ell your monthly paymen11 for oiher debtt, w oh at car payments. cr.dlt card
+     poymonts. student loan,. and ao forlh,
+
+     1. Using your calculator, enter your annual income.
+     2. Divide your annual income by 12. This ~ Ids your monthly meome.                                                 ...
+     3. Muhiply your monthly Income by .45, This la 1~ mo,clmum debt amount the flnanclal lns1i1Utlon wl1               f
+        l'lloWyou lOC6Hy.                                                                                 'l
+     4, Add all other monttjy debt paymenlS you must make (e g., car payment .. credil card paymen1•      }
+        student k>al'r$ • olner),                                                                                       .,
+     5. Subtract your 'olher mon1.-.y debt" paymenl.S from lhe ·maximum debl amount." The ,esui. Is the
+        •maximum monthly houte payment."
+
+     The following calculation demonstrate• thi& p<oceu;
+                 A         8        C         0
+         1              SS0,000 Annvol lncomc
+        2     ,0000/ U S 4,167 MOflthlyinlQOM•
+         3    ◄ 1n · A~ $   l,87S Maklnwmcldltamoun1
+        4               $     71S Othtr mo111hly d~ \
+         $    lll') • l'l\ $ l,IGO MlldllWlf'I tllO!!.thly hous. p1ymtt1I
+
+
+
+
+             Figura 3.9 WriU911 insln.telions must be eo1_
+                                                         Yto 11ndfJrsta11d and oasy to follow.
+
+             Easy Persuasion Messages. Wi1h etL,-.)'•p,etsuusion mci;iw1gcs. you request the reader
+             10 dll something after rending your mci;s.ngc, but your reque,;t requires only minor oonvioc-
+Chapter 3 • Composing Bus iness Messages                                      Professional Wntln O S akln • 81
+
+
+          ing, '!='or exnmptc. you mighl write. ..Ile sure to submit ym1r quarterly rq,nrt by F'ndny of
+          this w«k." In this situation. lhc recipients know quarterly rq,ons iu-c: rcc1uircd by com~lft)'
+          policy. so your simple rcmindtr i, Kufficicn1persunsion, 2'1sy-pcrsu11.sion mL"s..;sagcs are
+          much like inl'hnnaLivc mci1sagcs, cxeq,t 1ha1 they oi1k roe o !opcc,fic lt'Jq)Onsc from the
+          reader.
+              Hoc.iusc you as:,,'tlme the rce1pic-nts will com1lly with only minor persuasion, use .i
+          direct approach, giving the request n1 lhe hcginning1 followed by uny relevant detail:;, i:or
+          ini;tnnce, you might write, ..We need to hire someone 10 replace Lily, because she is qui11ing
+          ncxl month and thut will leave 11 \'OCancy on 1hc prodm."1 nsscmbly Imo." In this case. the
+          need to hire someone becomes obvious lo the render when you r.t.ute 1h111LIiy is lea\'ing.
+             •1he btL-.ic structure of c..i.!>)'•pc:C'lluasion messages is as follows:
+
+
+          I. Opcnin1,:. State your nl!lin poini in the opening paragraph.
+          2 . Aj:rn<ht. As appropriu1e, trnni;i1ion to 1hc body wi1h 11n ngcnda.
+          3. Hody. Provide oll n«dc-d 5W/21l dct.uils nnd rciL.;ons relcvnnl LO tho moin mcssnge.
+          4. Ousing. Condudc: with u stutcmcnl approprio1c to 1hc me:ssngc.
+
+
+              ·1he following elL")'•per.masmn mei;sage consists of onl)' four i;enlcnccs~he rcqucsl 1s
+          given tirs1. followed by lhc rcaJi.Cm for the request and II conclusion. No ugcnda is included
+          bccuusc of the i;hort mcli$ug.c length.
+
+          All PorsonMI,
+              Nexl Monday end Tuesday. Augusl f 8-19, please pa,k oil p6rsonsl vahlclos In Patklng
+          Lot B lnst9fJd of Pant.Ing LOI A Lot A I$ scheduled to b6 to$utlacfJd on lhose days. This lot
+          will be availabl& for pa.rl<ing as usual on l-'l ednesday.
+              We apologize /or this inconv&nience, but I know IV9 vlilf all b& happy with lh9 resurfac-
+          ing 1vhen it is complet9d.
+
+              In l•igure 3.10> nn employee is Lrymg to pcr~uudc his manager to ullow hi1n lo attend 11
+          lruming se111inar on gh1in1> efrccLive oral ,,rcsettLUtlon..<:. Bci:.iusc he.worts closely w1tb h1~
+          manage,r, und because requcsL-. for tra\'d fu nds arc common, he uses the direct approach.
+          He knows his manager Willlts more cACcti\1c prcsentattons, und he thinks she might also
+          wis;h she could get similnr training for e\'eryone in her department. However, she will be
+          concerned ubout costli, 1i1110 away from work. 11nd seminar cffcc1ivcness--whethcr it will
+          produce nny real improvement in h111 presenuuion skills. Therefore. in his 11ersu.u~ion. he
+          seeks i1cek to blrcnglben her po~ilive Lhoughts nnd uddrcs., c:ieh of her conoerns.
+              In f igure 3.1 1, the writer is t.'IOmposmg the message lo someone she doesn't know. so
+          she lL-.es a shgh1ly lnd1rcc.t approach, giving general reason..-. (the ..why"), followed by the
+          request {the ..whnl''). She assume<; the render will react pos.ilivcly to the nteiisagc itnd be
+          rclatwcly cnsy 10 persuade, so i;he giv~ only brief"why" infonnation before 1hc rcqucs1.
+          1ltc 5«ond parugruph includes a rorward-looking qunnti1y agcnch
+  Chapter 3 • Composing Business Messages                                            Professional Wntln O S         akln • 82
+
+
+
+
+ HI Eva,
+ Superior Seminar,, Inc. Is offering a one-day training semln$r on "GMng Powerful Presentations,· to-         D rc,t
+ be held'n Denver on March 12. Becausa I tJNe presenlat10n1 AO frequenlty, I would bb to attend.              opprooch
+
+ I am attaching e copy of the training brod'lure, which gives more detail aboul what the training
+
+
+
+                                                                                                           l
+ includes. Alter retummg from the s.eminar. I would be happy lo s.hare whal I have learned with all the kn'-f1ti t""
+ members In our departmenl. Hopefully, !he training would have a positive Impact on all of us. - - - 1kt deport,n111.t
+
+ The semlner would require only two days of absence- the day be10<e and lne day of lhe seminar. I
+ would fly home on an evening flight on the day of the seminar. The timing of the seminar Is perfect fo,
+ my wo1k oycio, boonugc It comes du,lng our normal low lino In bos!nen activity.
+
+ The cosl o( lhe seminar, including air fare. hotel, meals, and seminar fees. would be approximately
+                                                                                                                Rcfolvc rl!A:ldcr
+                                                                                                                conc:err'd
+ S950. Compared with lhc CMI of otht:H' slm1l('lr somlnats hold ,n mo,o dlstMt cities. the coM ol this
+ seminar it very rNtonablt.
+ I am conflden1 that my conten1and delivery skills would be enhan,ced, v.ttlch would Improve my __.,,. MOl'c lxntf•u
+ effectiveneu with both coHeaguffi and clients.. If you would like any additional infonnatlon, please kit
+ me know,
+
+ If you agree Iha! this seminar would be beneficial for our department, I would apPfeciate your
+ f'IPPl'Oval of lhis request so I can regrt.tet for the seminar by Tuesday of nex1 week, _...;,_ _ ~ction cncli,ig
+
+ Brady
+
+
+
+                  Figure 3.10 A direct-approac/1 persuasive message seekinQ funding for a busN'less trip.
+
+
+
+
+                                                                                       Il\di~c-,
+        Mr. Aikin,                                                               /     cpproo.:k
+        fo, our November 13 studenl chapter meeting of Seta ~ ha Psi, we are planning a meeting that
+        focuses on etfe,ctlve employmen1 ,ntervlewlng, F,ve acoounlJl"tg pai-tne,s v.iU give inler.,lewlng advice
+        during the meeting. Wflh your oulstanding experience and expertise, we would like you to be one of _            MoiYI
+        those five partners.                                                                                            poulf
+        The meeting will lndude three 1egmen11: . - .~gcndo
+
+       "• E&c.h of the accounting p:,rtners will t~ke t1b0Yt 10 minutes lo give lntervlew\ng Ups (7:00-8.00
+           p,m)
+
+9cdy    • Each partner wll conduct three 10-mmulc mod( Interviews with BAP students-for a tolal ol 15
+          Interviews (8.00-8:30 p.m.).
+         • After tho individual interview,, tho live partno15, as a panel, wm give in,trnctive feedback, ba50d on
+           lhelr obse,vations In The mock lntef'Vfews (8·30•9:00 pm.)
+       "If you art able 10 panlclpate , plNH lee mt know a1 soon et po11iblt 10 we can send you more
+        dotal1s. a, Wflll 1'13 obtain Information obout you ro, publielZlng lhc cvonl." -
+
+        We look forward to heanng from you.                                             ' - - ~~uc.sf for
+                                           - - - - _ Cordlol                                  r-esponsc
+        Cars1on Schmid!
+                                                     clotng
+
+
+                  Figure 3. 11 Easy-persuasion messa{18S don ·t include a lot of hard-sell content.
+Chapter 3 • Composing Bus iness Messages                                     Professional Wntln O S akln • 83
+
+
+          Dlfficult•Persuaslon        Messages. Wi1h dilYicult pemmsion, you encoun1cr numer-
+          ou!i reasons for people not complymg wi1h your rcc1uc1ils, They may Ix: unin1crc11lc:d in
+          wb111 you hnvc to say or offer, rcsiKUmt to your persunsion t11C1ics. or simply unwilling to
+          co111ply wnh youl' request. Your chnllcnge is to overcome these b.imers ond con\'h.ee your
+          .iudienccs to cumply wiLh )'Our wishes.
+                 Wi1h most difticult-persuus1on messu.gcs, use an indirect approach, giving reasons
+          before the request. In other word-., place the ·-why·· before the "what/' such us . ..Because
+          we get so mnny complmnt!i nbou1 Lukc'11 poor customer service. we nttd to tmnsfcr him to
+          ~lfl flfCII 11wny from CUlllOlllCfll.."
+
+                 In diflicuh-pct:m1L11ion llituation.<. the 0 A8C lll.ructurc b«omes more complex because
+          ii has lo incof'J)tlrutc various clements or persuasion. such as (a) (huning the problem or
+          issue.. (b) explninmg the proposed solution. (c) h1g,hlightmg the benetiL-. or the solution,
+          {d) resolving concerns, ,ind {c) requesting appropriate action. The lirst four elements of
+          rcn•un.~ion arc included in the body; the fi t1h i~ included in lhe closing.
+              The following soc1ion..~ .give exnmplcs of four differen t pcmmsion '°i1u111ion11 dc.iling
+          with L"Onlroct ,1iola1ion. colloctions, suks. uml community ai:Lion.
+
+
+          Contract Vlolatlon Message. Assume that you live ma lar~c ap.inmcnt complex
+          with a swmumns pool. You notice today that lhe pool is closed for repairs- again! This
+          makes IXclays in June and July thnt ii ha,; been clolied for repnir. H.e<:nuse nl'1his rl"<:Urring
+          problem. you decide to move to nnothcr np1111mcn1lhat has o functioning pool. 'fo do so,
+          however. you mu~t break your onc•ycar lcnse. which ends September I. ond pay u penally.
+          You wan1to gc1the up;irtmenl manager to ollow you to break the lc.isc und move withoul
+          penalty. You c.ould approach this d1l11cuh s1tw1tion by sending an cnwU.is follows.
+
+
+          I. 01,cnint:, Cih·e the rcn!:ion for the message, such ns ··1 am wriling 10 rnise an i-.suc
+             caused by the rocurring problcm11 with our swimming fl(>OI...
+          2, Agemh1, Occause ti gcnernl idcnlil'y og~ndu is ulrcady embedded in the opening st11tc•
+             mcm, no further ngenda is ncl"ded.
+          l. IJ.udy, fraiuc the problem or issue. stole your propo!led solutmn, support the solution,
+              and resolve any concerns you think the r<:'.idcr might have t1bout lhc proposed solution.
+
+          l· ramr the ..robh:m ur h!illl'. How you frame the problem i~critical bccnu.,1-c it serves os
+          the basi:. ror your pcrstmsion nnd cs1ablishcs 1hc scope of ) our 11rgumen1. You could frame
+                                                                         1
+
+
+
+          the 111>11r1men1problem 111 one 01'1he three wnys.
+
+
+          A. lhe ap.u1men1pool is nol usable.
+          a. You JlL"t wunt to move.
+          C. 1'he landlord hns not kept his pnrt of the lease contruct.
+
+              If you chooic option A. your orgumcnt would be that if the landlord fixes the pool, the
+          problem would be solved, which is not wlm you want. Choosing opllon B wouhl tog1c111ly
+Chapter 3 • Composing Bus iness Messages                                        Professional Wntln O S akln • 84
+
+
+          lend the landlord to llny1 .. Yes, yllu mn)' move:. bu1)'OUhnvc 10 p;iy a penalty:· ,\gain, this ill
+          nol whi11 you wnnt, Wilh option C, )'OU would orguo 1h111boc11u11c: the landlord has nol kepi
+          hill 1,ar1 ofthe 11grecmfflt, the: t.'(lnlmct is alrcud)' broken and so )'Ou ore nm obligated to sla)'
+          or to pay n pcnnlty. Op1lon C scc1ns to be the bcllt choice.
+
+          Stnlc \'c1ur Pru posed Sulutfo11. ·re-II how you wunt tu solve- the problem. In this case-, you
+          wnnt 10 move on Augu<;t I, C'tlnocl lhc rommct. nnd n01 pay II penalty.
+
+          ~uµJ>ort \'uur Aqzumcof. You miglll s.uy thllt one o f the m11111 rc11son11 you rented lhlll
+          tipa11men1was th.u it has a pool l1ml duu the: eontraet soid the lundlcm.l would nmkc needed
+          repairs in a timely m11nnc-r. Because 1hc pool has nol been muinloinod. you have not been
+          able to lL"e it during 1hc: warmest months of the ya1r. 11te:rc:fore._ you plan to move to
+          another ap.1rtme:nt ,vith n func1ioning pool.
+
+          Hc~oht Conccrnli. Addrc:11.s 1111 thcconec:rns you 1hink tho landlord migh1have imd provide
+          ll rcbuual 10 any counternrgumcn1s. When pcr11u1«.hng othc:r11, they con h,wc both positive
+          ttnd ncg..1tl\'c rcac:tions- why 1hcy should and iihould not comply. Seek to strengthen the
+          pos111vc rc..isons and climlnate or ,vc..ikcn the ncgutin: ones. In this case:, the landlord's
+          reasoning ts as folloYlS.
+
+
+          Why comply, Thll pool h/Js b..n • prob/om, ond you have o..n good aboul paying ronl
+          und keeping o cloan oportmont. Thorofore. parhOfJ$ I should comply with yovr roqvest.
+
+
+          Why not comply. You sig1Jod a one-year contract, and If you lenve, I wNI loSB money and
+          have lo find a new tooant. Also, if I relax the contract requirements for you. olher tenants
+          might ask to do the same thing, Th&refot9, I Shouki not comply wilh your requ&sl.
+
+
+              The ncgu1ivc fhrcc!I seem qui1e compelling. so you need 10 strcng1hcn 1hc reason11
+          the landlord 11houlll c:ompty and wc~1kcn the reason~ nol to c:-0111ply. Therc:rorc. you might
+          WT1tc, "Alletnpl1 to 11x the pool have foi led to resolve: the.p1ubtcm, leaving us w1th nu pool
+          lo enjoy." Also, " lkcause or management's noncomplianc-.e, I plan to move to unolher
+          upar1mcnt without paying a pcnully."
+
+          CJ111;c, lkquc111 lhc action you want In this 11i1uation, you could wn1c. "lkcausc I have: n
+          day oll\vork next 'fhursday, may I mc~I with you 01 10 11.m. in your ollicc 10 c:ompfotc lhlll
+          urrungcn1en1'i J>lease tC'XI or call me at XXX-XXX-XXXX toconl1rm."
+              figure 3. 12 shows how )'Our fi nal pcrsuasivc cm.ail could bC' written.
+              After you send your persunsi\'e message:-, you wait for a response, which will let you
+          know whether your mesllage h.as been succe!lsfol. If the: landlord docsn·1 respond, the
+          non-rc:llponsc: i5!itill n n:spllnse-it lets you know thul you 'II hnve 10 mnkc II sccllnd 111tcmp1
+          10 urmngc: 11 mcc1ing. lf1hc lundlord docs respond, you tnkc the next ll,lc:p us appropriotc for
+          the response.
+   Chapter 3 • Composing Business Messages                                                Professional Wntln O S             akln • 85
+
+
+
+
+          M,, Sn,e(kfrn,
+f'rol'!IC the
+i.uur.
+          As you might rec,11, I mQ\•ed ,nto AmJnment 321 lim ~ptenibe1 I One of 1~ rna1n reasOf'ls I rented in this
+
+
+  l       Jp~11menl comp&e,x is thal it h,11$ o ~w1mmil'IS pool Althovsn I ha\'C enjovefl the pool during much of the 1,~t
+          ye.ar, It has bee,, dosed t« repa r fot 18 days during June.and July-two of the warmest months of the year.
+
+          The JiJdttmftl.t eonttJtt I Slg(ltd 1nd.c.111ld that man.i1gtm.ent would "m11ke d1J netded rep.tl1!. In a tlmetv
+          m1nntr "The attempts to fix the ~ol h-1vt failed to ruo~e ti-it problem. ltavlng us with no pool 10 enjoy.
+          This -" a vlolaoon of our houMg contract
+                                                                              / E•plaln the
+                                                                         /    1ol11t1~n
+          Therefore, I plin 10 move°" Augus.1 l to •notht( apamnent with a pool without paving a penalty. This act1on
+          Is Justified because tht cond 1tions of the conttact have not been met, and all the facil ties of this aparrment
+          complex have not been ma.de available to me and others living here
+
+          Ourine the almost 11 monthsI have lrved here, I ha11e paid my rent on time and complled with all my ~ 5uppcrt
+          contractual ae:ree!lK'nts. Now that the cond tions of the contra,cted ha~ not been met by management. ~~lffl'.Cl'l f
+          howeve,, I feel iustthed In ~toppillfl fu1the1 p,aymenn ;,nd moving without pena lV
+
+          I h,ve, d.:i•tofr wor\: ne.11t Thursday; m.1v I mett with you in vourofhct Ill 10a m. on tl'1Jt d!IY 10 compltlt this
+          lrtO"it!mt-1'111 Pl1M,f;I ('moll QI c,;,1i m~ al (XXX XXX·XXXX"I to corifi1m
+
+                                                                           " - Rcql.lC-lt
+          MeaM W0¢1ri¢h                                                                oc-hon
+
+
+
+
+                 flgure 3.12 Diff, cult•persuasion messages frame lhe issue clearly and then use strong
+                 evidence 10 conv.ll'1ce and mot.tvate action.
+
+
+                      'l'hroughou1your Jl(fliUMicm efforts. you cnn use bolh posi1ivc nod negative stnucgit'S,
+                 Posi1ivc sU\11cgics highlight wh □ I people will gain if 1hc)• coke the m:onuncndcd 11c1ion.
+                 Negative Mmlegil!:S entJ)h.usitt what 1hey will lose if 1hcy llon't mkc 1hc roconunended
+                 11c1lon. lkcau.sc hunmns arc motivated by 11 dc:drc ror personJI gain and by o fear or loss.
+                 both struteg1cs can Ix ci'f'cct1vc.
+                      You may also base your pcrsuusion on logic (11ppctiling to the mmd) or emotion (ap•
+                 pcuhng 10 the hc-nrt), or b01h logic nncl emotion. Table 3.6 gives a vnric1y of logic• nnd
+                 cmo1ion~bascd 111mtcgic: options.
+                      Figure 3.13 shows a difficull•persunsivc mes:wgc wrincn with somewhat asseruvc
+                 l11nguage1 bccuuitc earlier pen:u1L1-1on llllc:mpL4t l"hiled. Now on indirect. slrongcr ntL-ssagc
+                 is used. 'l'he L-onccpt of"rcciprocily, or lair play. is used in this mess.:igc (Le., I paid you fhr
+                 your services, so you now need to do your part). If this appm.1ch fails, the wriler might
+                 have to take- legnl ncti()n to gc1 results.
+   Chapter 3 • Composing Business Messages                                                                            P rofessional Wntln O S                            akln • 86
+
+
+Tab.le 3.6 Lagic-- Md Emotiorr-&s&d Persu.Won Slrategles
+    Category                      Strategy                                                                                           Example
+Logic-based          Analogy strategy compares h\•o somewhat If a oonlractor agrees to paint a house and then fails to do
+strategi&s           similar things.                         so. the homeowner would not be obligated to pay. Neilhe-r
+                                                             shoukl I have to pay f01 service I haven't received.
+                     Cause.and-effect strategy shO\vs how                                    The swimming pool has boon closed 18 days. and -so I
+                     somo cause toads to some otroct                                         wont to movo to another apartment with a functioning
+                                                                                             pool.
+                     Goneranzalion strategy says lhat wtiat                                  A friend of mino had o similar situation in another
+                     happened in one case can be generalized                                 apartment, and she was allowed to move without paying
+                     to other -silualtons.                                                   a penalty.
+                     Legal strategy discusses adherence to                                   You have violated your part of the contract; therefore, the
+                     laws Of contracts.                                                      contract is no longec legally binding.
+EmoUon-based Morality, ethics-based strategy oenters on                                      Ethically. the proper action would be for you to can~I my
+strateglos   fo~ play and doing what Is right and good.                                      contract because of the pool probtem.
+                     Pflde strategy appeals to a pe.-son's ego                               Renie-is app,ecl.ate landlords who are reasonably f\exible
+                     or to o desire to associate with popula,                                when unexpected situations arise.
+                     troodi or popular indivictuala.
+                     R&elptoclty strategy argues lhat because                                I havo paid you my monthly ront falthfu11y, Ix.It you haven't
+                     X has done somelhing for Y, Y should do                                 kept your part of the conlraCL. Therefore, you ihould not
+                     something for X in return.                                              expect me lo pay a penally fOI moving.
+                     Safely and fear strategies appeal to the                                Students avoid renling from landlords who are loo strict
+                     basic human need to avoid risk and to be                                and unbending.
+                     physically and emcllooally safe.
+
+
+                  >.h. S!c,•cn KJlt-..:cr
+                  Hc,1rn:fr,;im \\\'11-\\m'l\lks
+
+
+
+
+                  -~-                                                                                                                          --b
+                  8~)4 Rmm,iJc [)m~
+                  Any,~li.:1c, XX "21t27                                                                                                        EJw1t1ol
+                                                                                                                                               bccl9•01111d
+
+
+                  As )'(l\l f\X'jll. _)\)Ur C(lmp,ny brnlt l'i\\) ht\lll:ca'>C!i     r.,r mv l1ffiCc •h-.101 l\\fl lll(lnd'K ~ ·) Wl1l'f11hc
+                  hi'l.lki:11i.ct, wen: dd l\Cl\.'<I, ii)llr .,r,tic 1bel\'~ b111.t fl.,'IW~. I uw1,,:,;ll,1ld )' ri:clum,..-4 lhe tibcll'C!i I() )"1\1 \,!' lhc
+                  r 1nblc1w11." llM he ,c...,+hed
+                                                                                                                                                                    ,.
+                      Fclf 1111: Mil'•Tkr l,11,l;c.l~. h\Xl 1hclv'-°" hm.1 surl:.Ci; i;cr111chcs IJml c.,uld be rqimri.-..i w1lh !illltdfll$ Ulld
+                      f c.!,l!JU\lllll,
+                      ror 1J1c 1111kt' l\(l(l~Clllol.', two slu:h\"'i Shl)\', ❖:l 1'1\lllc flh)''li\'AI V.'fllln.1t,,11 llcl¥1'«'1\ ll,c fll)'\Hll" l11)'Cll,
+                      llu:s.:- :.heh'C!> eould fll'lt bl.' re1J11ifl'l.1. •;u 1w1• new ,hd \ cs 'tl.'l'fl' 11,."C'dl~I
+
+                    Ullll'H\l).<i tmm dlll'IO!l lbc r u~t ~\\'HI \\-l"Cb I hU\'1.' 11Cl'1)1'Cd Ill )"11ilf'ol(IN Ill o\l: ati~•UI d)e ~ ld \'('i, htll
+                  ~very Im"-! I 3111 t1,ltl, • Wt "II d i~d'. ,+n lh1.-in 1111J l4".'l lu.i: 11• )'Ou •. I hl, 111o11h111Mh,1pp,.'t1~1 I Ill' l:t~I tmll.' I
+          1
+                  :t,cd.~J ,,.,~11bot11,1\hVl ~ u A" tblllll )our !>l 111i: ct..'11. )ll.JJ "hi: wuuW 1.'"All nll." tJ1c ucxt dciy 111wl t..1 u~
+              { l:1.:,w lh\' !ollltlt§ of 1bc \l'M;>hc11-11"l t1~11al. IW(!llC (tllcil
+
+                  \\'be•• Ibo: b,,l()k1.11s,.-,; \,c1c <.khh'f«I, I p111d )XII.' ti>: foll port.I~.: ,..-,co:. cc,mplduig my r urt Qf1bc }
+                  tm1NL-.'lll)II Now I t lll a,klfll )'(IU lt' folhll )\1111 1,m1 ol 1]1,• :.gTCcmen1- ikh \>t:1 111 Ill)' i,llicc 11-..,. l\\ll                )
+                  l\"Jl!ll~d ~lti:l \'I.'► 11nJ lht: IWll 1\1.'\\' \hclV\.~ I dn11·1w11n110 (l~in)' 111,.. mnllcr nny 11,ll.llJ,,'fl
+
+                  l>lcu.,:c d1c1.I. on ll'-"lc ~clh'S 100Uy. fHid Ib1:n call XXX·XXX·XXXX I..i kl ll11.' ltlu,, l'llbi:11)' '4ltc11 I
+                  ,-an ('Xfl~~, dch\'('I'\', I will IIJ'Pl~lll11.' Vf•ur help m «'lllf'll~'11QJ lh1, lrllll'oll~tl(lll .-
+
+                                                                                       -.:,n,•1•n•h•                                          lkt!pNC.1,y
+                   Your 01tcmph                                                                                                                  oppcol
+                   to molvc. tho
+                       probltm
+
+
+
+                  Figpre 3.13 Diff,cull persuasive messaQes contain ~ffJar justification for their requested
+                  acbon.
+Chapter 3 • Composing Bus iness Messages                                       Professional Wntln O S          akln • 87
+
+
+            Collect/on      Message. Somctimci, difficuh-pcrsun1,inn me1,s.ngc11 ore follow-up nl(S•
+           s11ge1110 earlier pcnmasion nlCS.11agcs 1hn1didn't gel the desired results, !-'or example. some
+           organizntions h11vc u collcction•lcucr scric11 with incrc::ising levels of urgency ond prc!lllure
+           to p.,y. Early mcll.sagcJ fall mto 1bc ci1sy-pcrsuJ1$1on tatcgoric!I; lot« tu6sagcs full into
+            Lhc dilYicuh-pcrsuasion category. l!nt·h lcucr gives appropriate dciuU.s of pa)•ment bulunce,
+            umount due1 and dates of due payment-. due to ensure that rttip,cnts understand wh.al 11>
+           expected (l>CC i:'igure 3. 14), 'l"ablc 3.7 highlight$ 1mponnn1 ll'ipects of n collcction-lellcr
+           series.
+
+
+
+   May 1, 20)()(
+                                                                                   OABC C~rd en<Jlng with: 7638
+                                                                        8olon,cond~ Balance: $1,395.46
+                                                                        Gl'!lwnt due. Amount due: S1395,46
+   Oaar Mr. Car!llll:    Of""l"9\
+   M you are e-were, your OA8C c1edlt cerd eocoun1 Is now two monlhs pa$l due. Because we have not
+   recelvt,d payme-nl in response to our previous letters to you. we are concerned th.nl your credit repulatbn
+   wll1 be ctamaged If we don't Mar from you, _ _ _ _ _ _ _ __ _ _ __                         flk9(1tive
+
+   WIii )'OU pler,se take Immediate ftCIJon on yow aocounl In one ot 1wo ways:                persuo••"'"
+   1. Send pa)Tllent by May 15 to make your account current (see amount above).                            (   ::;~r~d
+   2. Contact us by phone (XXX-XXX-XXXX) to discuss how you can bring your account up to date.
+
+   By taking prompt ection, you v,ill be able to conlJnue enjoyi~~~edit privilege., and we wilt avoid the
+   unpleasant task of canceli~oredrl and proceeding lo ~ cl the total balance of your account
+   We look forward to hearing from you.                            Po,ltiv, o,,d
+                          ~ Aetlo,,                                nc.gotivc
+                            ending                                 port\lOI on
+
+
+
+            Figure 3.14 Colfoclion lettm incroase in 11,goncy as dobts g,ow oldflr.
+
+            Table 3.1 s;x Phases of Colloction Mossagos
+               Moasnge                       A&&umptlon                            Tono and Contont
+             Reminder         CustomGt wlll pay but just fotgot.           Warm. rtloodly re-mlnd&t.
+             Inquiry          Something Is p<event.ing payment.            Warm; request for expla-
+                                                                           nation of reason for lato
+                                                                           payment,
+             Appoal           Customo, needs persuasion to pay.            FOlmal: porsuaaion wilh
+                                                                           logic- or emotion-based
+                                                                           strategies. suOh as reciproci-
+                                                                           ty, or fair play.
+             Strong appeal Custome1 fe~s no urgency lo pay.                Finn; pefsuasion v.11h fear of
+                                                                           damaoe to crocht reputation.
+             Urgency          Customer is nol planning lo pay.             Ultimatum; lhfeal of court
+                                                                           Qcilon; last chance to pay
+                                                                           befOf'e liligalion,
+             Ultimatum        Custom9' wilt pay only wllh coor1 o,der, Oe1Di11 of trial.
+    Chapter 3 • Composing Business Messages                                                              Professional Wntln O S akln • 88
+
+
+                           Sales Message. Same pc,ri;unsivc mci;sagci; seek 10 i;cll n produc~ or i;crvicc, Sn1ci;
+                           mc1omges uro some of lhc most crcntivc messages wriucn. bul most have lhc same ba~ic
+                           AIO;\ s1ructure (sec Figure 3. 1S):
+
+
+                           ■    Allenlfon or a\\'arcm.•ss. Capture people':; attention and mo.kc them aware of the.
+                                product or service you arc selling..
+                           •    lntcrci;t. Create in1erest by telling Ihem ahou1 lhe product or i;crvicc.
+                           ■    Ocsin,.\ Uuild n desire by convincing them the pmduc1 or i;crvic:c w1II fill a need or
+                                solve o problem.
+                           ■    Action. J>cnuade Lhcm 10 take oction 10 complcte the purchase.
+
+
+                       Dr. Luc.as R. Joh.,nscn
+                       Faculty Dc-vclopmcnl Dutttor
+                       C't111ml Univcrsi1y
+                       4783 44th A n:nuc                                                    Celf)turr.
+                       Anywhen:-, XX 831>XX                                                 rcode,-':1
+                                                                                            o t l et1 l10I\
+                       Oc:11 Or. Jobru\SCn,
+                       As Oirccwrof Facuhy Dew lop, " ,11)'Our u11ivcrsi1y, )'OU c.11 w cnh:m~ )'Our insm,c1ors· 1exhina
+                       cff~ti\•~ness wi1b GfJRc-:w1-a powerful 1ciehnolo11,y ,1sed mo,•er S1}111.mwe1sities 1h1\'.M.1i bou11hc counuyl
+                       Whcrc-\CI' you h:,'l\'C pcl'fo1'nldl'ICC·bB.SC,I COUNCS, Ct1Rr11c1cn.n 111\l)M\'Ctenchlnetcffcctl\'CllC.$$ and
+                       significnn1ly incrc:isc smdcm lc11mi11g,
+
+                       -Wh11t i.\· (ioRraet? GoReaC't is a rrol-ume, \'idro-base-d pre-scnt:uion-c-oachfog S)'Stem th:il eap1urcs
+              /        pcrfom10.1w:c video :u1d embeds 1imie-si.imped co:iching commcnlS 1hat s1udc:n1s view onllne unnw:dio.tcly
+Pl'OY1dc               nlicr d1cir 1>rcscnu11ions. Fccdbnck can be gh•c11 li,;c. lrucr. or remotely Also. yo.1cnn lcn,e comments :is
+~ntlli!~I              1c-.:1. video. or nudio nll tiinecoded 10 the ex:,c1 moment m 1hc \'ideo,
+if'lfOl"l'l'latlOl'I
+               '- - 1111w ,hws GoR(fUt"f wqrA·J,, a ,•l11~,)r1111111? As a 11udcn1 gi,'l'S a p1,-sc:n1111ion. a Cflmcm captures th<:
+                       j pl"tch and the ini11ruc:1or and student peen l)"PC' fccdbad: coinmcnts on llmr ~Ol)C$ or lapto1,s,       Anc,
+                                                                                                                                 1IM:
+                       prescnu11ion, 1hc prtsentcr i:0C5 onlinc to G0Rt11r1 tLnd views the presentation, nloni with all the scudcnt
+                       and 1e~1chercommcntS7"Crfe(;dy 1i1nc s1,m,pcd 10 appear :u 1hc nQht ,nomcn1in 1hc ,,,doo.
+
+                       - J/!)w N1u~l1 tlfle.~' <;0Rl!f1tr ,·11~,1 GoR(•1u·1is FREE lo i1tSl1\1clOl'S S111dcntS g.,in :ic«ss 10 G0Rc."1c1by
+                       1,a)'ina a 1,omi,1al fee, ai\•ina 1hcm unlimited at(C'(;S ror a full scn,csm, Wi1h CoRe;u•, 1hcrc·s 110
+                       c-:J)CrtSI\-C <:q111p1tX:n110 buy, \'m1 c:m r«ord videos i'llld i 1,-c retdb.1ck \\'ith :iny wcbcam or sma,1ph0t:1c
+                       Alrcad)' O\'et ./ 111tll1(Nt , •t( lr!tl,\ b:we bcim recorded tbrouab 1be C(IRtat·• S)'stcin. ~
+                       GoRt.a<:11.s pc1fcc1 ror
+                       • Communica1ion nnd public spcukini: courses                                                               Rt1olvt-
+                       • T<:achcl' prep~r.nion :ind teticbe,, :iecredi1a1ion J>fOQr:ims
+                       • Fo1•c1~ l:ingu.1sc learning
+                       • Uusincss communication courses
+                       • Nul'sinj alld ,ncdicol t1Qini1111                                          8uild
+                       • Psychotoa.ical counselina courses
+                       • Fme ans eowses
+                       • Sign ltingu.1gc ln\ining
+                       • Sporli and t11hlc1ic 11:1i11iltg
+                       • Swdent ccnific:iuon
+                       nnd more •.
+
+                       CoRnct complies with all government pnvncy la,\ s. such os Fl:.RPA. COPPA •.ind HJPAA. ond 11
+                       inu:g,a1cs easily wi1h all eominon LMS platforms like: 01:.,ckboard, Can\'as. or Moodie.
+
+                                                                                            -                   -
+                           Figure 3.15 &16s letters CtJpture attention. dev8lop interost tHJd des.ks. and persuad(J
+                           roadars to act.
+Chapter 3 • Composing Business Messages                                             Professional Wntln O S akln • 69
+
+
+
+      Mr, Lucas R. Johansen
+      M:in::h 4,   2oxx
+      Page 2
+
+
+      GoRl♦I C I is lo1ulcd wnh s1>ccii:il IC'murcs for l~chcrs. such i:is <us1omi1ablc nibrks.. as wtll ns rcpom
+      :mcl nna1}1ics 101mck srudcn1 lc:imin11, Rend mo,c .lbou1 these ltmurcs (In tho enclosed bl'O¢h11rc,
+
+      I lcrc ls whal itude-nts arc sayi1tg nflcr tJ~y use GoR.l'llt'. I:
+
+      • I IO\'l'd being able to wn1eh mysclr present. I h.ivc never hnd th,11 01>11ortunit)' before. despite bcma
+        in\'olvcd w11h many 1>rci;cm:uion,. J',,ft.ow I cnn be 3 pan of my own 1111d1cncc nnd c,11tua1e how I can         i 1.11ld
+        improi,.e Ill)' skills                                                                                            dctirc
+        CnH.cad hd1>cd me actuolly sec what l was domg from :m nudicncc's pc1'!11)Cctivc.
+      • 1'hc rating sys1cm 1s great I lo, cd bdn.g nblc 10 sec cx11C1ly how well my prescn1.:111ons were being
+                                             1
+
+
+
+
+        rctch'..xi,
+      • CoRt art is simple and C'.lSY 10 use wi1hm11 prior c:<1)CriCnC(
+         The best 1>:irl of the G,, Rcact sys.1cm is 1hc abili1y 10 sive :ind receive ICcdb.lCk from m\1l1iplc 1>ro1>le
+         :ll lbe- same lime du, in.g 1hc prcscm:uion.
+      Call XXX-XXX-XXXX 1od:iy. or ,nil 11101dine at Ja'Q[<:act com. Join 1housands of othcn who h:,vc
+      d1scove~d the advruuage-. o(GoRl'flt't! ~
+
+      Si,m.'ft'lv.                                             ~ Action
+      ~.,..,_ t J ~                                                        o,,dmg
+
+      Su.t:in11e Asbe1oll. Sa.lcs Man.igcr
+       Cnclosures: GoRcnct brochure
+
+          F/gu,. 3.15 Co,1Unued.
+
+
+              As wi1h 01her cnmmunicalion situations, nnnly-i:c tbe audience and con1ext und 1hcn
+          develop a strnlegy opproprinlc for that nudicncc.
+              In mosl cos«. s.nlcs me111mgcs will include lhc following clcmcnui:
+
+           I. ()prnlng. lkgm whh smnc 1ypc o( ..hook.. to calch the render·~ attention.
+          2. AJ:enda. Include a gcncrul 1dcn1tl)• agcndn th.nt moves rwlurnlly from 1he opening to
+             the body.
+          l . Uody. Crca1c interc1>1 os you introduce and dc1>crihc ym1r produL'1 or se1vioe, Dcscnbe
+             the fcnturcs nnd bcnelilS of your produce or 11crvic:c. Build desire by explaining how i1
+             ••ddrc,111cs the l\!adcr's wnnls or ncccb.
+          4. O nslng. Condudc with o rcqucjl for ••ttion by the recipient, such aJ making 11 pur•
+               chnsc. conlacling you for more mfhnnatmn, or v1siling your website.
+
+               Effective ~mies mem1ges hnvc o clcur mnin point, with strong supporting content. 'l'hcy
+          tell abou1 1hc producr s fc111ure11 nnd bcncfils. A fcaturo is 1,omc 1111pcc1 of 1he produc1; o
+          benefit is how 1hc femurc helps those who use the product For example. a mulilionol pencil
+          has nn c1-:1.scr (the fcamrc)~ you can use lhe e1\'lSCJ 10 crnsc 111l,i,takc11 (lhe bcnefi1). Include.
+Chapter 3 • Composing Business Messages                                                   Professional Wntln O S          akln • 90
+
+
+            0th« supporting t'('lnlcnt. such ns l~timoninls. ratings. ocr1if'icaticmi;, cndorscmcnl~, and
+            11cccp111nce dma. Effcell\'C messages can contain bolh logical nnd emotion.ii pcnmnsion
+            sl1\11cgics. such us pricing inccntivrs ond oLhtr special oITenr, Thcycnn olso con1nin vuriou!I
+            em11hasill techniques, such 11s bulleL.;, hcndmgs. and images.
+
+            Community-Action Message. Some JXfSUIL<;ive messages sell an tdca. concc1,1. or
+            principle, hoping 10 convince a lnrgc group of people 10 take a specific action for the good
+            of lhemscl\'cs nnd lhc group, for example. the email m f'1gurc l .16 is selling the concep1
+            lhal nu shots arc imr1orumt. not only for md1viduuls, but also for lhtir company, Occuusc
+            some cmployocs will be easy lo pel'lluudc, bu1 others will not, the writer u11c11 u variel}' of
+            oppcalll--;)OidLivc and nt.·galive, ns well us logical and emotional. She also usc:s 1ypogruph•
+            ic and layoul variations to capture attcnlion .ind persuade the audicm-c to comply with the
+            request. The email's success will be shown by lhc number o f people who will get a llu shol.
+
+      To:     AJI Employees
+      From Amanda rumer
+      Oale Octooe, 1. 20.XX
+                                       ,,,-- lll!l'if""'.'f                                              C4a,,.,.•
+      Rt:     How lo St1y HH llhy
+                                                  .,_.?", I,"•                               /
+                                                                                                 /       Olf.t..,110..,
+
+      The n1.1 Mtc1:Son i$ fast ;ippr03ehlng, ond we ag;:1in face lho potcnliol of pn:,du,riQn dJ1l~ y$ "'" n d by
+      :ibuntoGlmt duo to lllnou, The U.S Cfnle• ,o, Clde&te Conttof end Plevenllon renwl<lt ut or lhe ~                   ly
+      ol 1hi1 <beaae·
+
+              '7he hv Is a contagk,us respiratory INMss ca<JSW by mffuenM viroses lhat mlet:t die nose) Vo".)" .,,111
+              rhro&t, Md Jung! rt c.an cltU&e mlkJ to r•vet• «meu, eoo nt ttmH t an M.!ld to <JHlh. TIit fl'4 '•",
+              be~t ,ray to preVfllit the flu ,s by fl&#,ng a /Ju vaccine Heh year,"
+
+      To he!p ~<ltect e....,yo!\t :igalntt 1he t11.1 Md ma1n1aln a hea!lhy workforce,.,,,, h:we euangoo t0t he&llhe&-re
+      1)(0Vtd«110 oome Md prO\tide flu vecclf\81!on1 for ti eN.,iOVffi. CM C0"4)afl)' pretlden1 wll be 11,e flrll to
+      be vaccinaled on the OC4ober 20, and we &.trongly encourage eV9f)'one to join him in Oll' ·stay Hoa!rhy'
+      campalon
+
+      AA an ~ 11\Centtve, everyoM v.ho panlcipa1es will recetve a frtt "Stay Httl1hy'' T-1htrt and water
+      b ottle. The details are 89 follows:                                              \...., Offtt
+                                          """"-                                                            ,....,,..,.
+      Whal
+      Who;
+                Fe'" vacc,i..,tlon /
+                 ve,ryont      1/
+                                          !~::;~
+      When: October 20, 9 a,m.10 12c00 and 1·30 to 4:30 (algn up for an appointmem OOine al xxxxlxxx xxx)
+      Where: South Conference Room
+      Cott   Fre.-(Overed by \'01.11 h<tt\!th ln81,,irtinot                         E"'plu1s :c.
+                                                                                                     b•11•'•'•
+      Tht u.s Ctf'Cer tor Dile.tie conlTOI Ind PreventiOn l(ftlet: ~ Ung \18CClnt1ed l)'ple&lly (fl<I\J¢il Ille fllk
+      of hamg togo to th& doctor foc lli lTeatment by nearly 50 peroent. Allhough flu vaccinatlOOS cannol protect
+      egalnsl al 1.utlf'II ol nu, lhey do lnoruse you, likeltlOOd of Sltyll'lg wen a1,d help US j)ft\'tnl WOI~ dtll)'f
+      during lhi flu 1&8101\                            ~ - -- - R,-i....
+                                                                           C.Oit:C.rFIS
+      Please note that if you have an allergy toewf"or to any ingredients in the flu vaccine, you should nol g8l a ftu
+      t hol Alto, II Yol.l havt enyothlf concern, l'bOUI you, hto!th lltlt\11 tit reloled to lho nu VICOnt, pfffte tl,I(
+      w~ll your doc1or betore oc,ober 20
+
+      last year'$ l'IJ-suson a.bMJ'lteelsm was better lhan the year befon,. tMJt we hope for even better health lhls
+      yu,, Thonkt to, y04Jt t fk>rlt to do •• you can 10 ho!p in 01.11 c:a,mpalgn,
+
+      Amand.a Turner                                             ~Post!..,_
+                                                                              .......
+            Figure 3.16 You can use a va1iety of persuasion stratogies in persuasivo messagos.
+Chapter 3 • Composing Business Messages                                       Professional Wntln O S             akln • 91
+
+
+         Bad-News Messages. Bad news mesli,llges will u,;unlly be 1hc m{ls1 diOicult of nll
+         mcsimges il1r )'Ou 10 wri1e. because )'Ou know 1he recipient will not ho pkn1-cd. You will
+         be giving unwelcome inform::uion. such as rcjccling a r¢c1ucs1, putting someone on prob11•
+         1ion, ,giving a tcmuru1tion notil1C, or giving neg.a1ivc pcrfor1nam:c rccdbuck. 'f'hcrdbrc. os
+         with dinkult-pcrsuas1on messages, use an indirect approach. giving the ..why" beiOrc the-
+         ..what" (the rc.asuns bctbrc the bad news).
+              Here i-. 11 mndcl you ,~,nfollow wuh bad-new:r. mcsi;agei;,
+
+
+          I. 01mting, Open With content lhal IS rclolcd lo the blid ncw11. but don'1 give lhe bad
+              ncw!I. Use n ncumll tone that docs not i1npl)' cilhcr a l)OSitivc or n ncgntivc outcome.
+              F'or example-, you could wntc, "1'h.unk you for writing nbout the problem you ha\'c had
+              whh )'Our Cum'l'ck 924.''
+         2. A~rnda. Ui;e a gencrnl idc1ui1y agenda thnl docs not rcvc,11 the bad newi; (or om1t the
+            ngcndn ns upproprfate), for cxnmplc, ..Herc is what we found when we di~-.sembled
+              1he product.··
+          J. Hody. l!xplain your reasons l(,r lhe denial. As mueb ,1s possible:, prcsen11hc r

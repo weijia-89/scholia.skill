@@ -1,0 +1,52 @@
+# R-02 practical cards — open-posture (P-AA)
+pillar_moniker: open-posture
+pillar_ids: [P-AA]
+lane: L8
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#open-posture
+
+source_ingests:
+  - research/claims/papers/P10-pnas-expansiveness.yaml
+
+cards:
+  - exercise_name: Postural Expansiveness Behavioral Rubric
+    steps:
+      - Adopt open posture — widespread limbs, stretched torso, occupy space without crowding partner (P10 postural expansiveness construct).
+      - Keep shoulders open and hands visible; reduce contractive closed posture (P10 expansive vs contractive contrast).
+      - Orient torso toward partner; slow fidgeting — log comfort not "yes" rate (pillar P-AA + P10 σ−).
+      - Separate affiliation displays (smiles, nods, laughs) from dominance-only performance — warmth required (P10 mediation note + NONVERBAL-DOMINANCE WARN).
+      - Mirror energy naturally — do not script mimicry (NONVERBAL-MIMICRY WARN).
+    cognitive_frame: Expansiveness signals to perceivers — not an internal power-pose intervention (P10 power_posing_boundary).
+    observables:
+      - Open shoulders and visible hands in seated conversation
+      - Affiliative signals co-occur with expansiveness
+      - Operator logs own comfort level post-interaction
+    contraindications:
+      - crowding partner space as dominance display
+      - coaching outcome promises from OR 1.76 (non-load-bearing per pillar)
+      - power pose without warmth
+    source_anchor: C-G103 · P10-pnas-expansiveness.yaml
+    aletheia_wire: references/model/operator-self-module.md#open-posture
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Affiliation vs Dominance Cue Check
+    steps:
+      - Code your display — expansiveness present? affiliative smiles/nods present? (P10 study_1 joint effects).
+      - Note perceiver pathway — dominance mediates attraction more than openness alone in photo study (P10 study_2b).
+      - If only dominance cues without warmth — adjust toward affiliative displays (concept-and-tone NONVERBAL-DOMINANCE).
+      - Debrief behavior rubric only — do not track match rate as success metric (pillar confidence 60 fragile replication).
+    cognitive_frame: Open posture is behavioral affiliation signal — not a trick to increase yes-rate.
+    observables:
+      - Smiles/nods co-occur with open posture
+      - No intentional intimidation positioning
+    contraindications:
+      - treating speed-dating lab effect as guaranteed app photo hack
+      - gender-exploratory app findings over-generalized (P10 caveat)
+    source_anchor: C-G103 · P10-pnas-expansiveness.yaml study_2b
+    aletheia_wire: references/model/operator-self-module.md#open-posture
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full

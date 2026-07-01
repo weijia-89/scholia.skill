@@ -1,0 +1,908 @@
+grokking_algorithms_2e_2024_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: grokking_algorithms_2e_2024 · chapter: 06
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/grokking_algorithms_2e_2024_ch06_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (grokking_algorithms_2e_2024_ch06_ingest.md)
+========================================================================
+
+# Chapter ingest — Grokking Algorithms 2e · Chapter 6
+
+**Slug:** `grokking_algorithms_2e_2024`  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch06_ingest.md`  
+**Source text:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Grokking Algorithms, 2nd Edition |
+| **authors** | Bhargava, Aditya Y. |
+| **edition** | 2e (2024) |
+| **ISBN_print** | 9781633438538 [verified from text, line 156] |
+| **ISBN_electronic** | 9781633438531 [from corpus_manifest.yaml; not repeated in text slice] |
+| **publisher** | Manning |
+| **parent_book_title** | Grokking Algorithms |
+| **chapter_number** | 6 |
+| **chapter_title** | Breadth-first search |
+| **page_range** | [unverified from text export] — chapter body lines 3431–4003; confirm against PDF |
+
+---
+
+## Scope
+
+Chapter 6 introduces **graphs** as an abstract data structure (nodes + edges) and teaches **breadth-first search (BFS)** as the standard algorithm for unweighted shortest-path and reachability problems. Pedagogy moves from intuitive layer-by-layer expansion (San Francisco bus transfers; Facebook mango-seller search) to concrete Python implementation using adjacency lists (`dict` → neighbor lists), `collections.deque` as a FIFO queue, and a `searched` set for deduplication.
+
+Secondary coverage in the same chapter (not fully implemented):
+
+- **Directed vs undirected graphs** and in-neighbor / out-neighbor terminology
+- **Queues vs stacks** (FIFO vs LIFO) as the ordering discipline that makes BFS shortest-path claims valid
+- **Topological sort** — dependency ordering illustrated by a morning-routine DAG and wedding-planning motivation; exercises only, no sort algorithm code
+- **Trees** — defined informally as graphs where edges never point back; family-tree example; exercise 6.5 identification
+
+Chapter explicitly positions BFS against chapter 1's binary search: BFS runs on graphs, not sorted arrays. It foreshadows chapter 7 (trees, depth-first search).
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged otherwise.
+
+### 1. Two-step problem-solving pattern
+
+Shortest-path problems decompose into: (1) model as a graph; (2) solve with BFS. [text L3504–3509]
+
+> "There are two steps to figuring out how to get from Twin Peaks to the Golden Gate Bridge: 1. Model the problem as a graph. 2. Solve the problem using breadth-first search."
+
+The Twin Peaks → Golden Gate Bridge bus-transfer example establishes **layered expansion**: check 1-step neighbors, then 2-step, then 3-step until the target appears — shortest route found at three transfers. [text L3474–3496]
+
+### 2. BFS answers two question types
+
+| Type | Question | Chapter example |
+|------|----------|-----------------|
+| 1 | Is there a path from A to B? | Mango seller in Facebook network |
+| 2 | What is the shortest path from A to B? | Closest mango seller (fewest hops) |
+
+[text L3557–3559, L3609–3613]
+
+**Contested / scope note:** The chapter states BFS "finds the shortest path" without explicitly restricting to **unweighted** edges. All examples use unit hop cost (one friend = one step; one bus leg = one transfer). Weighted shortest paths are not discussed here; operator should treat unweighted graphs as the implicit scope. [text L3641–3642, L3978–3983]
+
+### 3. Graph vocabulary
+
+- Graph = nodes + edges modeling connections. [text L3516–3536]
+- **Directed graph:** arrows; `rama → adit` means one-way relationship (poker debts). In-neighbor / out-neighbor defined relative to arrow direction. [text L3539–3546, L3750–3751]
+- **Undirected graph:** no arrows; use "neighbor." Two arrowless representations shown as equal. [text L3752–3757]
+- Adjacency representation: Python `dict` mapping node → list of out-neighbors (hash table from ch. 5). Insertion order of dict keys does not matter. [text L3707–3746]
+
+### 4. Queue ordering is load-bearing
+
+BFS radiates outward from the start. First-degree connections must be checked before second-degree; otherwise a farther mango seller may be returned first. [text L3622–3641]
+
+> "You need to search people in the order that they were added. There's a data structure for this: it's called a queue."
+
+Queue = FIFO (`enqueue`/`dequeue`; Python `append`/`popleft` on `deque`). Stack = LIFO — wrong structure for BFS shortest-path guarantee. [text L3653–3671, L3767–3769]
+
+### 5. Implementation skeleton (mango seller)
+
+```python
+from collections import deque
+
+graph = {}  # node -> [out-neighbors]
+# ... populate graph ...
+
+def person_is_seller(name):
+    return name[-1] == 'm'
+
+def search(name):
+    search_queue = deque()
+    search_queue += graph[name]
+    searched = set()
+    while search_queue:
+        person = search_queue.popleft()
+        if not person in searched:
+            if person_is_seller(person):
+                print(person + " is a mango seller!")
+                return True
+            else:
+                search_queue += graph[person]
+                searched.add(person)
+    return False
+```
+
+[text L3723–3887] — `person_is_seller` is acknowledged as silly; chapter invites reader modification.
+
+### 6. Visited-set necessity
+
+Without marking nodes searched:
+
+- Duplicate queue entries (e.g., Peggy reachable via Alice and Bob) cause redundant work. [text L3828–3837]
+- Cycles can cause **infinite loop** (you ↔ Peggy mutual neighbors). [text L3839–3860]
+
+Mark after expanding neighbors, check `not person in searched` before processing. [text L3863–3893]
+
+### 7. Running time
+
+BFS touches each edge at least once and enqueues each vertex: **O(V + E)** (people + edges). [text L3901–3909]
+
+### 8. Topological sort (introductory)
+
+Given a dependency DAG (e.g., can't eat breakfast until brush teeth), a valid linear order lists prerequisites before dependents. Multiple valid orders may exist when tasks are independent (shower vs brush teeth). [text L3917–3940]
+
+> "This is called a topological sort, and it's a way to make an ordered list out of a graph."
+
+Wedding-planning motivation given; **no Kahn's algorithm or DFS-based topo sort code** in this chapter. [text L3950–3955]
+
+### 9. Trees (preview)
+
+Family tree: nodes = people, edges point to parents, all edges go down. **Tree** = special graph where no edge points back. Exercise 6.5 asks which graphs are trees. [text L3957–3974]
+
+### 10. Applications named (not implemented in chapter)
+
+Spellchecker (edit distance as shortest path), doctor-in-network search, search-engine crawler. [text L3451–3456]
+
+---
+
+## Coverage attestation
+
+| Field | Value |
+|-------|-------|
+| **source_path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt` |
+| **lines_read** | 3431–4003 (inclusive) |
+| **chapter_boundary** | Starts `6 Breadth-first search` (L3431); ends before `7 Trees` (L4004) |
+| **wrong_file_flag** | false |
+| **figures** | Present as `[]` placeholders in text export — diagrams not recoverable from slice |
+| **exercise_answers** | Not in slice; answers appear later at L8405+ (appendix) — not ingested this pass |
+
+---
+
+## Pedagogy
+
+### Learning objectives (from "In this chapter" + recap)
+
+1. Model networks as graphs (nodes, edges, directed/undirected).
+2. Run BFS to test reachability (path exists?) on a graph.
+3. Run BFS to find shortest path in **unweighted** hop-count sense.
+4. Implement graphs as adjacency lists and BFS with `deque` + visited set.
+5. Explain why queue FIFO order is required for shortest-path correctness.
+6. State BFS time complexity O(V + E).
+7. Recognize topological ordering of dependencies (conceptual).
+8. Distinguish trees from general graphs (no back-edges).
+
+[text L3435–3441, L3976–4000]
+
+### worked_examples_present
+
+**Y** — Multiple worked narratives and code walkthrough:
+
+- Twin Peaks bus routing (layer expansion)
+- Mango seller social search (algorithm narrative + full Python)
+- Queue FIFO vs stack LIFO diagrams
+- Cycle / duplicate Peggy walkthrough
+- Morning-routine dependency graph → topo sort concept
+- Family tree → tree definition
+
+### exercise_hooks
+
+| ID | Prompt (summary) | Operator hook |
+|----|------------------|---------------|
+| **6.1** | Shortest path length start → finish (diagram) | BFS layer count; answer length 2 in appendix |
+| **6.2** | Shortest path "cab" → "bat" (letter graph) | Unweighted BFS on implicit graph |
+| **6.3** | Validate three proposed morning-routine orderings | Topological order feasibility |
+| **6.4** | Produce valid order for larger dependency graph | Topo sort by hand |
+| **6.5** | Which graphs are trees? | Tree vs DAG vs cyclic graph ID |
+
+Mid-chapter exercises at L3678–3689; dependency exercises at L3911–3974. Answers: text L8405+.
+
+**Suggested drill:** Re-implement `search()` without `searched` set on a graph with a 2-cycle; observe non-termination. Then fix.
+
+**Suggested drill:** Replace `person_is_seller` with a real predicate; measure nodes visited vs BFS with/without dedup on a dense graph.
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 6 is the **graph-algorithms entry point** for the Grokking track and the wider cs-ai-textbook-canon wave-1 foundation stack. It establishes:
+
+- Graph modeling habit (many later problems → graph first)
+- BFS as the O(V+E) unweighted reachability / shortest-hop tool
+- Queue discipline linking ch. 5 hash tables to ch. 7 trees/DFS
+
+Downstream canon dependencies: **CLRS** (formal BFS/DFS), **DDIA 2e** (data flows as graphs — different framing), **Understanding Distributed Systems** (message routing intuition), **AI Engineering** / agent graphs (LangGraph-style state machines are not taught here but graph literacy transfers).
+
+### 2. MDCalc alignment
+
+**[peripheral]**
+
+Content is general CS pedagogy (social networks, morning routines, wedding tasks). No clinical AI, regulated deployment, trace/eval observability, or agent monitoring. Indirect relevance only: graph search underlies some retrieval/routing patterns an operator might later map to RAG or tool-selection graphs — **no employer-stack claims**.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **CLRS 4e** | High (BFS, topo sort, tree defs) | CLRS is formal/proof-oriented; Grokking is intuition + Python. Prefer Grokking for onboarding; CLRS on-demand for rigor. |
+| **Understanding Distributed Systems** | Low–medium | BFS not central; graph thinking for topology/routing may echo. |
+| **DDIA 2e** | Low | Different graph uses (replication, lineage). |
+| **AI Engineering / Hands-On LLMs** | Low | No ML content; graph literacy only. |
+| **Ch. 7 (same book)** | Sequential | DFS + trees extend ch. 6; avoid duplicating tree depth in synthesis — ch. 6 tree section is teaser only. |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — narrative + code + failure modes |
+| Exercise hooks | **Strong** — 5 numbered exercises, two clusters |
+| Chapter boundary | **Good** — natural end at recap; tree/topo material is light enough to stay in ch. 6 ingest without bleeding into ch. 7 DFS |
+| Text export quality | **Degraded** — `[]` figure placeholders; page numbers absent; operator may want PDF open for diagrams 6.1–6.5 |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| Edition currency (≤5y unless classic) | **PASS** | 2e / 2024 per manifest |
+| Author authority (textbook tier) | **PASS** | Manning imprint; foreword by Daniel Zingaro [text L48] |
+| Primary-source citation density | **FAIL (low)** | No papers or external citations in slice; tutorial voice |
+| Contested claims flagged | **PASS (with flags)** | See below |
+| Worked examples (procedural chapter) | **PASS** | Y — see Pedagogy |
+
+### Contested claims (not smoothed)
+
+1. **"Shortest path" without weight caveat** — Correct for unweighted graphs only. Chapter never says "weighted" or names Dijkstra. Flag for synthesis cross-link to later weighted-graph material. [text L3641–3642]
+2. **Topological sort** — Named and exercised but **not algorithmically specified**; reader cannot implement topo sort from this chapter alone.
+3. **Tree definition** — Informal ("no edges point back") vs graph-theory definition (connected acyclic undirected, or rooted tree). Sufficient for pedagogy; insufficient for formal proofs.
+4. **BFS on implicit graphs** — Ex. 6.2 (cab→bat) assumes letter-edit graph exists in reader's head; not built in code.
+
+**Chapter TEXTBOOK-Q1 verdict:** **CONDITIONAL PASS** — excellent procedural pedagogy and examples; low scholarly citation density expected for this tier; operator must enforce unweighted-scope when merging into canon synthesis.
+
+---
+
+## Procedural map (section anchors)
+
+| Section | Text lines | Core idea |
+|---------|------------|-----------|
+| In this chapter | 3433–3441 | Roadmap |
+| Introduction to graphs | 3462–3512 | Bus shortest-path intuition |
+| What is a graph? | 3514–3549 | Nodes, edges, neighbors |
+| Breadth-first search | 3551–3602 | Mango seller; reachability |
+| Finding the shortest path | 3604–3651 | Degree ordering; Claire before Anuj |
+| Queues | 3653–3676 | FIFO requirement |
+| Exercises 6.1–6.2 | 3678–3689 | Practice graphs |
+| Implementing the graph | 3691–3758 | Adjacency dict; directed/undirected |
+| Implementing the algorithm | 3761–3897 | deque, visited set, full code |
+| Running time | 3899–3909 | O(V+E) |
+| Topological sort + trees | 3911–3974 | Dependencies; tree teaser |
+| Recap | 3976–4000 | Bullet summary |
+
+---
+
+## Cross-chapter links (same book)
+
+- **Ch. 1** — Binary search contrast [L3553–3554]
+- **Ch. 5** — Hash tables for adjacency lists [L3699–3746]
+- **Ch. 7** — Trees, DFS [L4004+; foreshadow L3967–3971]
+
+---
+
+*Ingest generated by scholia chapter fan-out · cs-ai-textbook-canon · wave w1_foundation*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/grokking_algorithms_2e_2024_ch06_SLICE.txt)
+========================================================================
+
+# Text slice — grokking_algorithms_2e_2024_ch06_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: grokking_algorithms_2e_2024 · chapter: 06
+# hooks: 6 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+6 Breadth-first search
+
+In this chapter
+
+- You learn how to model a network using a new, abstract data structure:
+  graphs.
+- You learn breadth-first search, an algorithm you can run on graphs to
+  answer questions like, “What’s the shortest path to go to X?”
+- You learn about directed versus undirected graphs.
+- You learn topological sort, a different kind of sorting algorithm that
+  exposes dependencies between nodes.
+
+This chapter introduces graphs. First, I’ll talk about what graphs are
+(they don’t involve an X or Y axis). Then I’ll show you your first graph
+algorithm. It’s called breadth-first search (BFS).
+
+Breadth-first search allows you to find the shortest distance between
+two things. But shortest distance can mean a lot of things! You can use
+breadth-first search to
+
+- Write a spellchecker (fewest edits from your misspelling to a real
+  word—for example, READED → READER is one edit).
+
+- Find the doctor closest to you in your network.
+
+- Build a search engine crawler.
+
+Graph algorithms are some of the most useful algorithms I know. Make
+sure you read the next few chapters carefully—these are algorithms
+you’ll be able to apply again and again.
+
+Introduction to graphs
+
+[]
+
+Suppose you’re in San Francisco, and you want to go from Twin Peaks to
+the Golden Gate Bridge. You want to get there by bus, with the minimum
+number of transfers. Here are your options.
+
+[]
+
+What’s your algorithm to find the path with the fewest steps?
+
+Well, can you get there in one step? Here are all the places you can get
+to in one step.
+
+[]
+
+The bridge isn’t highlighted; you can’t get there in one step. Can you
+get there in two steps?
+
+[]
+
+Again, the bridge isn’t there, so you can’t get to the bridge in two
+steps. What about three steps?
+
+[]
+
+Aha! Now the Golden Gate Bridge shows up. So it takes three steps to get
+from Twin Peaks to the bridge using this route.
+
+[]
+
+There are other routes that will get you to the bridge, too, but they’re
+longer (four steps). The algorithm found that the shortest route to the
+bridge is three steps long. This type of problem is called a
+shortest-path problem. You’re always trying to find the shortest
+something. It could be the shortest route to your friend’s house. Or
+maybe you’re browsing the web. Without you knowing it, the network is
+looking for the shortest path between your computer and a website’s
+server. The algorithm to solve a shortest-path problem is called
+breadth-first search.
+
+There are two steps to figuring out how to get from Twin Peaks to the
+Golden Gate Bridge:
+
+1.  Model the problem as a graph.
+
+2.  Solve the problem using breadth-first search.
+
+Next I’ll cover what graphs are. Then I’ll go into breadth-first search
+in more detail.
+
+What is a graph?
+
+A graph models a set of connections. For example, suppose you and your
+friends are playing poker, and you want to model who owes whom money.
+Here’s how you could say, “Alex owes Rama money.”
+
+[]
+
+[]
+
+The full graph could look something like this.
+
+[]
+
+Graph of people who owe other people poker money
+
+Alex owes Rama money, Tom owes Adit money, and so on. Each graph is made
+up of nodes and edges.
+
+[]
+
+That’s all there is to it! Graphs are made up of nodes and edges. A node
+can be directly connected to many other nodes. Those nodes are called
+in-neighbors or out-neighbors.
+
+Since Alex is pointing to Rama, Alex is Rama’s in-neighbor, and Rama is
+Alex’s out-neighbor. This terminology can be confusing, so here’s a
+diagram to help.
+
+[]
+
+In the graph, Adit isn’t Alex’s in-neighbor or out-neighbor because they
+aren’t directly connected. But Adit is Rama’s and Tom’s out-neighbor.
+
+Graphs are a way to model how different things are connected to one
+another. Now let’s see breadth-first search in action.
+
+Breadth-first search
+
+We looked at a search algorithm in chapter 1: binary search.
+Breadth-first search is a different kind of search algorithm: one that
+runs on graphs. It can help answer two types of questions:
+
+- Question type 1: Is there a path from node A to node B?
+
+- Question type 2: What is the shortest path from node A to node B?
+
+You already saw breadth-first search once when you calculated the
+shortest route from Twin Peaks to the Golden Gate Bridge. That was a
+question of type 2: “What is the shortest path?” Now let’s look at the
+algorithm in more detail. You’ll ask a question of type 1: “Is there a
+path?”
+
+[]
+
+Suppose you’re the proud owner of a mango farm. You’re looking for a
+mango seller who can sell your mangoes. Are you connected to a mango
+seller on Facebook? Well, you can search through your friends.
+
+[]
+
+This search is pretty straightforward.
+
+First, make a list of friends to search.
+
+[]
+
+Now, go to each person in the list and check whether that person sells
+mangoes.
+
+[]
+
+Suppose none of your friends are mango sellers. Now you have to search
+through your friends’ friends.
+
+[]
+
+Each time you search for someone from the list, add all of their friends
+to the list.
+
+[]
+
+This way, you not only search your friends, but you search their
+friends, too. Remember, the goal is to find one mango seller in your
+network. So if Alice isn’t a mango seller, you add her friends to the
+list, too. That means you’ll eventually search her friends—and then
+their friends, and so on. With this algorithm, you’ll search your entire
+network until you come across a mango seller. This algorithm is
+breadth-first search.
+
+Finding the shortest path
+
+As a recap, these are the two questions that breadth-first search can
+answer for you:
+
+- Question type 1: Is there a path from node A to node B? (Is there a
+  mango seller in your network?)
+
+- Question type 2: What is the shortest path from node A to node B? (Who
+  is the closest mango seller?)
+
+You saw how to answer question 1; now let’s try to answer question 2.
+Can you find the closest mango seller? For example, your friends are
+first-degree connections, and their friends are second-degree
+connections.
+
+[]
+
+You’d prefer a first-degree connection to a second-degree connection, a
+second-degree connection to a third-degree connection, and so on. So you
+shouldn’t search any second-degree connections before you make sure you
+don’t have a first-degree connection who is a mango seller. Well,
+breadth-first search already does this! The way breadth-first search
+works is that the search radiates out from the starting point. So you’ll
+check first-degree connections before second-degree connections. Pop
+quiz: Who will be checked first, Claire or Anuj? Answer: Claire is a
+first-degree connection, and Anuj is a second-degree connection, so
+Claire will be checked before Anuj.
+
+Another way to see this is that first-degree connections are added to
+the search list before second-degree connections.
+
+[]
+
+You just go down the list and check people to see whether each one is a
+mango seller. The first-degree connections will be searched before the
+second-degree connections, so you’ll find the mango seller closest to
+you. Breadth-first search not only finds a path from A to B; it also
+finds the shortest path.
+
+Notice that this only works if you search people in the same order in
+which they’re added. That is, if Claire was added to the list before
+Anuj, Claire needs to be searched before Anuj. What happens if you
+search Anuj before Claire, and they’re both mango sellers? Well, Anuj is
+a second-degree contact, and Claire is a first-degree contact. You end
+up with a mango seller who isn’t the closest to you in your network. So
+you need to search people in the order that they’re added. There’s a
+data structure for this: it’s called a queue.
+
+Queues
+
+A queue works exactly like it does in real life. Suppose you and your
+friend are queueing up at the bus stop. If you’re before them in the
+queue, you get on the bus first. A queue works the same way. Queues are
+similar to stacks. You can’t access random elements in the queue.
+Instead, there are only two operations, enqueue and dequeue.
+
+[]
+
+[]
+
+If you enqueue two items to the list, the first item you added will be
+dequeued before the second item. You can use this for your search list!
+People who are added to the list first will be dequeued and searched
+first.
+
+The queue is called a FIFO data structure: first in, first out. In
+contrast, a stack is a LIFO data structure: last in, first out.
+
+[]
+
+Now that you know how a queue works, let’s implement breadth-first
+search!
+
+Exercises
+
+Run the breadth-first search algorithm on each of these graphs to find
+the solution.
+
+  6.1 Find the length of the shortest path from start to finish.
+
+[]
+
+  6.2 Find the length of the shortest path from “cab” to “bat.”
+
+[]
+
+Implementing the graph
+
+First, you need to implement the graph in code. A graph consists of
+several nodes.
+
+[]
+
+And each node is connected to other nodes. How do you express a
+relationship like “you → bob”? Luckily, you know a data structure that
+lets you express relationships: a hash table\!
+
+Remember, a hash table allows you to map a key to a value. In this case,
+you want to map a node to all of its out-neighbors.
+
+[]
+
+Here’s how you’d write it in Python:
+
+    graph = {}
+    graph["you"] = ["alice", "bob", "claire"]
+
+Notice that “you” is mapped to an array. So graph["you"] will give you
+an array of all the out-neighbors of “you.” Remember that the
+out-neighbors are the nodes that the “you” node points to.
+
+A graph is just a bunch of nodes and edges, so this is all you need to
+have a graph in Python. What about a bigger graph like this one?
+
+[]
+
+Here it is as Python code:
+
+    graph = {}
+    graph["you"] = ["alice", "bob", "claire"]
+    graph["bob"] = ["anuj", "peggy"]
+    graph["alice"] = ["peggy"]
+    graph["claire"] = ["thom", "jonny"]
+    graph["anuj"] = []
+    graph["peggy"] = []
+    graph["thom"] = []
+    graph["jonny"] = []
+
+Pop quiz: Does it matter what order you add the key/value pairs in? Does
+it matter if you write
+
+    graph["claire"] = ["thom", "jonny"]
+    graph["anuj"] = []
+
+instead of
+
+    graph["anuj"] = []
+    graph["claire"] = ["thom", "jonny"]
+
+Think back to the previous chapter. Answer: It doesn’t matter. Hash
+tables have no ordering, so it doesn’t matter what order you add
+key/value pairs in.
+
+Anuj, Peggy, Thom, and Jonny don’t have any out-neighbors. They have
+in-neighbors since they have arrows pointing to them, but no arrows
+point from them to someone else. This is called a directed graph: the
+relationship is only one way. An undirected graph doesn’t have any
+arrows. For example, both of these graphs are equal.
+
+[]
+
+If you have an undirected graph, you can forget the terms in-neighbor
+and out-neighbor and use the simpler term neighbor.
+
+[]
+
+Implementing the algorithm
+
+To recap, here’s how the implementation will work.
+
+[]
+
+Note When updating queues, I use the terms enqueue and dequeue. But
+sometimes you’ll see people using different terms. Python uses append
+and popleft instead of enqueue and dequeue.
+
+Make a queue to start. In Python, you use the double-ended queue (deque)
+function for this:
+
+    from collections import deque        
+    search_queue = deque()            ①
+    search_queue += graph["you"]      ②
+
+① Creates a new queue
+
+② Adds all of your out-neighbors to the search queue
+
+Remember, graph["you"] will give you a list of all your out-neighbors,
+like ["alice", "bob", "claire"]. Those all get added to the search
+queue.
+
+[]
+
+Let’s see the rest:
+
+    while search_queue:                           ①
+        person = search_queue.popleft()           ②
+        if person_is_seller(person):              ③
+            print(person + " is a mango seller!") ④
+            return True
+        else:
+            search_queue += graph[person]         ⑤
+    return False                                  ⑥
+
+① While the queue isn’t empty . . .
+
+② . . . grabs the first person off the queue.
+
+③ Checks whether the person is a mango seller
+
+④ Yes, they’re a mango seller.
+
+⑤ No, they aren’t. Add all of this person’s friends to the search queue.
+
+⑥ If you reached here, no one in the queue is a mango seller.
+
+One final thing: you still need a person_is_seller function to tell you
+when someone is a mango seller. Here’s one:
+
+    def person_is_seller(name):
+        return name[-1] == 'm'
+
+This function checks whether the person’s name ends with the letter m.
+If it does, they’re a mango seller. Kind of a silly way to do it, but
+it’ll do for this example. Now let’s see the breadth-first search in
+action.
+
+[]
+
+And so on. The algorithm will keep going until either a mango seller is
+found or the queue becomes empty, in which case there is no mango
+seller.
+
+Alice and Bob share a friend, Peggy. So Peggy will be added to the queue
+twice: once when you add Alice’s friends and again when you add Bob’s
+friends. You’ll end up with two Peggys in the search queue.
+
+[]
+
+But you only need to check Peggy once to see whether she’s a mango
+seller. If you check her twice, you’re doing unnecessary, extra work. So
+once you search a person, you should mark that person as searched and
+not search them again.
+
+If you don’t do this, you could also end up in an infinite loop. Suppose
+the mango seller graph looked like this.
+
+[]
+
+To start, the search queue contains all of your out-neighbors.
+
+[]
+
+Now you check Peggy. She isn’t a mango seller, so you add all her
+out-neighbors to the search queue.
+
+[]
+
+Next, you check yourself. You’re not a mango seller, so you add all your
+out-neighbors to the search queue.
+
+[]
+
+And so on. This will be an infinite loop because the search queue will
+keep going from you to Peggy.
+
+[]
+
+Before checking a person, it’s important to make sure they haven’t been
+checked already. To do that, you’ll keep a set of people you’ve already
+checked.
+
+[]
+
+Here’s the final code for breadth-first search, taking that into
+account:
+
+    def search(name):
+        search_queue = deque()
+        search_queue += graph[name]   
+        searched = set()                          ①
+        while search_queue:
+            person = search_queue.popleft()  
+            if not person in searched:            ②
+                if person_is_seller(person):
+                    print(person + " is a mango seller!")
+                    return True
+                else:
+                    search_queue += graph[person]   
+                    searched.add(person)          ③
+        return False
+            
+    search("you")
+
+① This set is how you keep track of which people you’ve searched before.
+
+② Only search this person if you haven’t already searched them.
+
+③ Marks this person as searched
+
+Try running this code yourself. Maybe try changing the person_is_seller
+function to something more meaningful and see if it prints what you
+expect.
+
+Running time
+
+If you search your entire network for a mango seller, that means you’ll
+follow each edge (remember, an edge is the arrow or connection from one
+person to another). So the running time is at least O(number of edges).
+
+You also keep a queue of every person to search. Adding one person to
+the queue takes constant time: O(1). Doing this for every person will
+take O(number of people) total. Breadth-first search takes O(number of
+people + number of edges), and it’s more commonly written as O(V+E) (V
+for number of vertices; E for number of edges).
+
+Exercises
+
+Here’s a small graph of my morning routine.
+
+[]
+
+It tells you that I can’t eat breakfast until I’ve brushed my teeth. So
+“eat breakfast” depends on “brush teeth.”
+
+On the other hand, showering doesn’t depend on brushing my teeth because
+I can shower before I brush my teeth. From this graph, you can make a
+list of the order in which I need to do my morning routine:
+
+1.  Wake up.
+
+2.  Shower.
+
+3.  Brush teeth.
+
+4.  Eat breakfast.
+
+Note that “shower” can be moved around, so this list is also valid:
+
+1.  Wake up.
+
+2.  Brush teeth.
+
+3.  Shower.
+
+4.  Eat breakfast.
+
+  6.3 For these three lists, mark whether each one is valid or invalid.
+
+[]
+
+  6.4 Here’s a larger graph. Make a valid list for this graph.
+
+[]
+
+You could say that this list is sorted, in a way. If task A depends on
+task B, task A shows up later in the list. This is called a topological
+sort, and it’s a way to make an ordered list out of a graph. Suppose
+you’re planning a wedding and have a large graph full of tasks to do,
+and you’re not sure where to start. You could topologically sort the
+graph and get a list of tasks to do in order.
+
+Suppose you have a family tree.
+
+[]
+
+This is a graph, because you have nodes (the people) and edges.
+
+The edges point to the nodes’ parents. But all the edges go down—it
+wouldn’t make sense for a family tree to have an edge pointing back up!
+That would be meaningless—your dad can’t be your grandfather’s dad!
+
+[]
+
+This is called a tree. A tree is a special type of graph where no edges
+ever point back.
+
+  6.5 Which of the following graphs are also trees?
+
+[]
+
+Recap
+
+- Breadth-first search tells you if there’s a path from A to B.
+
+- If there’s a path, breadth-first search will find the shortest path.
+
+- If you have a problem like “find the shortest X,” try modeling your
+  problem as a graph and use breadth-first search to solve it.
+
+- A directed graph has arrows, and the relationship follows the
+  direction of the arrow (rama → adit means “rama owes adit money”).
+
+- Undirected graphs don’t have arrows, and the relationship goes both
+  ways (ross— rachel means “ross dated rachel and rachel dated ross”).
+
+- Queues are FIFO (first in, first out).
+
+- Stacks are LIFO (last in, first out).
+
+- You need to check people in the order they were added to the search
+  list, so the search list needs to be a queue. Otherwise, you won’t get
+  the shortest path.
+
+- Once you check someone, make sure you don’t check them again.
+  Otherwise, you might end up in an infinite loop.
+
+[]
+
+

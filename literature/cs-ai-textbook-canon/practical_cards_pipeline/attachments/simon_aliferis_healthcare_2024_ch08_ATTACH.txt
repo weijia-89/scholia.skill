@@ -1,0 +1,392 @@
+simon_aliferis_healthcare_2024_ch08_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 08
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch08_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch08_ingest.md)
+========================================================================
+
+# Chapter ingest — Artificial Intelligence and Machine Learning in Health Care (Simon & Aliferis, 2024), Chapter 8
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/simon_aliferis_healthcare_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch08_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Gyorgy J. Simon, Constantin Aliferis (eds.); Chapter 8: Dalton Schutte, Rui Zhang |
+| edition | 1st Edition (2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| publisher | Springer Nature (Health Informatics series) |
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| chapter_number | 8 (selective canon index) |
+| chapter_title | Considerations for Specialized Health AI & ML Modelling and Applications: NLP |
+| book_chapter_doi_suffix | _14 [text export line 39736] |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 8 (text lines **39738–40901**) is a **clinical/biomedical NLP primer** covering: corpus and token terminology; preprocessing (cleaning, stopwords, tokenization, stemming/lemmatization); feature extraction (n-grams, TF-IDF, embeddings via embedding layers, Word2Vec, GloVe); biomedical resources (UMLS, SemMedDB); clinical NLP tasks (NER, concept normalization, relation extraction, text classification, NLG, QA); symbolic tools (MetaMap, SemRep, cTAKES); ML paradigms (supervised, weakly supervised, unsupervised embeddings); deep learning (RNN/LSTM/biLSTM, transformers, BERT and biomedical variants); and graph-based NLP (GNNs, link prediction, edge classification, graph embeddings). Emphasis on starting simple, documenting experiments, and comparing against baselines before scaling to transformers.
+
+Out of scope: full LLM safety/regulatory treatment (forward-referenced elsewhere in volume).
+
+## key_findings
+
+### Background and preprocessing
+
+1. **Clinical corpora** — EHR notes, radiology/pathology reports, PubMed text; documents vs words vs tokens; preprocessing pipeline choice is task-dependent. [verified, 39777–39810]
+
+2. **Cleaning and stopwords** — Character-set normalization, stopword removal justified by low semantic value despite Zipfian frequency (unlike typical ML "keep common signals"). [verified, 39812–39837]
+
+3. **Tokenization** — Whitespace vs subword (WordPiece) for OoV mitigation. [verified, 39839–39853]
+
+4. **Stemming vs lemmatization** — Stemming is fast but error-prone on irregular forms; lemmatization uses vocabulary/morphology. [verified, 39855–39877]
+
+5. **BP 14.1** — Test multiple preprocessing pipelines for each goal. [verified, 39957–39960]
+
+### Features and resources
+
+6. **N-grams** — Word/token/character levels trade morphology vs semantics. [verified, 39888–39914]
+
+7. **TF-IDF** — Weights token importance within document vs corpus. [verified, 39916–39921]
+
+8. **Embeddings** — Embedding layers (task-specific, data-hungry), Word2Vec (CBOW/skip-gram), GloVe (global co-occurrence); reduce sparsity for ML. [verified, 39923–39955]
+
+9. **UMLS** — Metathesaurus, Semantic Network, SPECIALIST Lexicon unify synonymous/hierarchical clinical concepts (CUIs). [verified, 39970–39988]
+
+10. **SemMedDB** — >96M subject-predicate-object predications from SemRep over PubMed; SQL/graph-queryable. [verified, 39990–40013]
+
+### Clinical NLP tasks
+
+11. **Information extraction core** — NER (BIO labeling), concept normalization (lay vs clinical terms), RelEx (requires NER first); text classification at document level; NLG for synthetic notes and answers; QA = NLU + retrieval + generation. [verified, 40015–40157]
+
+12. **Symbolic stack** — MetaMap (NER + normalization via UMLS); SemRep (rule-based RelEx); cTAKES (clinical pipeline including negation, PoS, etc.). [verified, 40159–40211]
+
+13. **Pitfall 14.1** — Do not reimplement preprocessing when spaCy/cTAKES exist. [verified, 40213–40217]
+
+### Machine learning for NLP
+
+14. **Sparse high-dimensional inputs** — 15k unigram bag-of-words impractical without TF-IDF/embeddings. [verified, 40219–40235]
+
+15. **BP 14.2 / Pitfall 14.2** — Document design rationale and log all experiments. [verified, 40237–40246]
+
+16. **Supervised / weakly supervised** — BIO-labeled NER; heuristic/dictionary labels for supplements when gold labels absent. [verified, 40248–40272]
+
+17. **Unsupervised embeddings** — Semantic similarity geometry; subword embeddings reduce OoV rigidity. [verified, 40274–40307]
+
+18. **BP 14.3** — Grid search + k-fold CV for hyperparameters. [verified, 40309–40314]
+
+### Deep learning and graphs
+
+19. **DL rationale** — Language complexity favors high-capacity nonlinear models; capacity vs architectural innovation trends. [verified, 40316–40354]
+
+20. **BP 14.4** — Permutation tests and covariance analysis before deployment. [verified, 40356–40360]
+
+21. **RNN → LSTM → biLSTM** — Sequence modeling; vanishing gradients; bidirectional context preferred for language. [verified, 40362–40390]
+
+22. **Transformers and BERT** — Self-attention encoder-decoder; masked LM pre-training + fine-tuning; biomedical BERT family (Bio-BERT, BioClinical-BERT, PubMed-BERT, Blue-BERT) on Hugging Face. [verified, 40392–40427]
+
+23. **BP 14.5 / Pitfall 14.3** — Always baseline (rules, linear models, vanilla BERT); avoid jumping to SOTA repos without proof of need. [verified, 40429–40445]
+
+24. **Graph NLP** — Nodes (drugs, diseases, proteins), edges (treats, affects); GNN message passing; link prediction for drug repurposing; edge classification for interaction types; Euclidean/hyperbolic graph embeddings. [verified, 40447–40504]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Abstract, background, terminology | read | 39754–39797 |
+| Preprocessing | read | 39799–39877 |
+| Feature extraction | read | 39879–39960 |
+| UMLS, SemMedDB | read | 39962–40013 |
+| Clinical tasks (NER–QA) | read | 40015–40157 |
+| Symbolic NLP (MetaMap, SemRep, cTAKES) | read | 40159–40217 |
+| ML for NLP | read | 40219–40314 |
+| Deep learning (RNN–BERT) | read | 40316–40445 |
+| Graphs and GNN tasks | read | 40447–40504 |
+| Key concepts, pitfalls, BPs, discussion | read | 40506–40704 |
+| References | read | 40723–40894 |
+| Book ch. 15 imaging opener | **deferred** | 40902+ |
+
+- **Lines read:** 39738–40901 (full assigned range)
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Construct a biomedical NLP pipeline: clean → tokenize → featurize (TF-IDF or embeddings)
+- Select UMLS-backed normalization vs lay-language mapping for a given corpus
+- Match task type (NER, RelEx, classification) to tooling (cTAKES/MetaMap vs fine-tuned BERT)
+- Justify baseline-before-transformer model selection with documented metrics
+- Describe graph-based link prediction for drug–supplement interaction discovery
+
+### worked_examples_present
+
+**Y** — BIO labeling walkthroughs, SemRep predication example, supplement weak-supervision scenario, discussion scenarios (surgical notes, drug-repurposing graph).
+
+### exercise_hooks
+
+| ID | Prompt summary | Anchor |
+|----|----------------|--------|
+| 8.PE-1 | Supplement NER: task type, tools, weak supervision | 40578–40606 |
+| 8.PE-2 | Build literature graph for drug repurposing; link prediction baseline | 40610–40680 |
+| 8.PE-3 | Compare TF-IDF+FFNN vs biLSTM on sequential information | 40684–40698 |
+| 8.PE-4 | Trace UMLS → MetaMap → SemRep → SemMedDB relationships | 40700–40704 |
+
+## Operator hooks
+
+### 1. w3_clinical_docs
+
+Foundational **clinical NLP stack map** for EHR note mining, literature IE, and graph-augmented discovery—pairs with NAM generative-AI clinical documentation themes.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — Text classification patterns port to note-based phenotype algorithms; not direct calculator content.
+
+### 3. Redundancy
+
+| Canon title | Relationship |
+|-------------|--------------|
+| `hands_on_llms_2024` | Modern LLM depth; Simon ch08 classical + BERT clinical stack |
+| `prompt_engineering_llms_2024` | Prompting for QA/NLG; Simon covers task taxonomy and baselines |
+| Simon ch07 LLM pitfalls | Cross-read ChatGPT health-risk case studies |
+
+### 4. Scholia fit
+
+Procedural clinical-NLP chapter with explicit BPs 14.1–14.5 and pitfalls 14.1–14.3; strong fit for EHR text-ingest skill cards.
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 |
+| Author authority | **PASS** | UMN clinical NLP researchers |
+| Citation density | **PASS** | Word2Vec, GloVe, BERT, domain BERTs, cTAKES literature |
+| Contested claims | **PASS** | Acknowledges transformers cost vs simpler models |
+| Worked examples | **PASS** | Labeling and tool-chain examples |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS**
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch08_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 08
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Artificial Intelligence and Machine Learning in Health Care (Simon & Aliferis, 2024), Chapter 8
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/simon_aliferis_healthcare_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch08_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Gyorgy J. Simon, Constantin Aliferis (eds.); Chapter 8: Dalton Schutte, Rui Zhang |
+| edition | 1st Edition (2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| publisher | Springer Nature (Health Informatics series) |
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| chapter_number | 8 (selective canon index) |
+| chapter_title | Considerations for Specialized Health AI & ML Modelling and Applications: NLP |
+| book_chapter_doi_suffix | _14 [text export line 39736] |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 8 (text lines **39738–40901**) is a **clinical/biomedical NLP primer** covering: corpus and token terminology; preprocessing (cleaning, stopwords, tokenization, stemming/lemmatization); feature extraction (n-grams, TF-IDF, embeddings via embedding layers, Word2Vec, GloVe); biomedical resources (UMLS, SemMedDB); clinical NLP tasks (NER, concept normalization, relation extraction, text classification, NLG, QA); symbolic tools (MetaMap, SemRep, cTAKES); ML paradigms (supervised, weakly supervised, unsupervised embeddings); deep learning (RNN/LSTM/biLSTM, transformers, BERT and biomedical variants); and graph-based NLP (GNNs, link prediction, edge classification, graph embeddings). Emphasis on starting simple, documenting experiments, and comparing against baselines before scaling to transformers.
+
+Out of scope: full LLM safety/regulatory treatment (forward-referenced elsewhere in volume).
+
+## key_findings
+
+### Background and preprocessing
+
+1. **Clinical corpora** — EHR notes, radiology/pathology reports, PubMed text; documents vs words vs tokens; preprocessing pipeline choice is task-dependent. [verified, 39777–39810]
+
+2. **Cleaning and stopwords** — Character-set normalization, stopword removal justified by low semantic value despite Zipfian frequency (unlike typical ML "keep common signals"). [verified, 39812–39837]
+
+3. **Tokenization** — Whitespace vs subword (WordPiece) for OoV mitigation. [verified, 39839–39853]
+
+4. **Stemming vs lemmatization** — Stemming is fast but error-prone on irregular forms; lemmatization uses vocabulary/morphology. [verified, 39855–39877]
+
+5. **BP 14.1** — Test multiple preprocessing pipelines for each goal. [verified, 39957–39960]
+
+### Features and resources
+
+6. **N-grams** — Word/token/character levels trade morphology vs semantics. [verified, 39888–39914]
+
+7. **TF-IDF** — Weights token importance within document vs corpus. [verified, 39916–39921]
+
+8. **Embeddings** — Embedding layers (task-specific, data-hungry), Word2Vec (CBOW/skip-gram), GloVe (global co-occurrence); reduce sparsity for ML. [verified, 39923–39955]
+
+9. **UMLS** — Metathesaurus, Semantic Network, SPECIALIST Lexicon unify synonymous/hierarchical clinical concepts (CUIs). [verified, 39970–39988]
+
+10. **SemMedDB** — >96M subject-predicate-object predications from SemRep over PubMed; SQL/graph-queryable. [verified, 39990–40013]
+
+### Clinical NLP tasks
+
+11. **Information extraction core** — NER (BIO labeling), concept normalization (lay vs clinical terms), RelEx (requires NER first); text classification at document level; NLG for synthetic notes and answers; QA = NLU + retrieval + generation. [verified, 40015–40157]
+
+12. **Symbolic stack** — MetaMap (NER + normalization via UMLS); SemRep (rule-based RelEx); cTAKES (clinical pipeline including negation, PoS, etc.). [verified, 40159–40211]
+
+13. **Pitfall 14.1** — Do not reimplement preprocessing when spaCy/cTAKES exist. [verified, 40213–40217]
+
+### Machine learning for NLP
+
+14. **Sparse high-dimensional inputs** — 15k unigram bag-of-words impractical without TF-IDF/embeddings. [verified, 40219–40235]
+
+15. **BP 14.2 / Pitfall 14.2** — Document design rationale and log all experiments. [verified, 40237–40246]
+
+16. **Supervised / weakly supervised** — BIO-labeled NER; heuristic/dictionary labels for supplements when gold labels absent. [verified, 40248–40272]
+
+17. **Unsupervised embeddings** — Semantic similarity geometry; subword embeddings reduce OoV rigidity. [verified, 40274–40307]
+
+18. **BP 14.3** — Grid search + k-fold CV for hyperparameters. [verified, 40309–40314]
+
+### Deep learning and graphs
+
+19. **DL rationale** — Language complexity favors high-capacity nonlinear models; capacity vs architectural innovation trends. [verified, 40316–40354]
+
+20. **BP 14.4** — Permutation tests and covariance analysis before deployment. [verified, 40356–40360]
+
+21. **RNN → LSTM → biLSTM** — Sequence modeling; vanishing gradients; bidirectional context preferred for language. [verified, 40362–40390]
+
+22. **Transformers and BERT** — Self-attention encoder-decoder; masked LM pre-training + fine-tuning; biomedical BERT family (Bio-BERT, BioClinical-BERT, PubMed-BERT, Blue-BERT) on Hugging Face. [verified, 40392–40427]
+
+23. **BP 14.5 / Pitfall 14.3** — Always baseline (rules, linear models, vanilla BERT); avoid jumping to SOTA repos without proof of need. [verified, 40429–40445]
+
+24. **Graph NLP** — Nodes (drugs, diseases, proteins), edges (treats, affects); GNN message passing; link prediction for drug repurposing; edge classification for interaction types; Euclidean/hyperbolic graph embeddings. [verified, 40447–40504]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Abstract, background, terminology | read | 39754–39797 |
+| Preprocessing | read | 39799–39877 |
+| Feature extraction | read | 39879–39960 |
+| UMLS, SemMedDB | read | 39962–40013 |
+| Clinical tasks (NER–QA) | read | 40015–40157 |
+| Symbolic NLP (MetaMap, SemRep, cTAKES) | read | 40159–40217 |
+| ML for NLP | read | 40219–40314 |
+| Deep learning (RNN–BERT) | read | 40316–40445 |
+| Graphs and GNN tasks | read | 40447–40504 |
+| Key concepts, pitfalls, BPs, discussion | read | 40506–40704 |
+| References | read | 40723–40894 |
+| Book ch. 15 imaging opener | **deferred** | 40902+ |
+
+- **Lines read:** 39738–40901 (full assigned range)
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Construct a biomedical NLP pipeline: clean → tokenize → featurize (TF-IDF or embeddings)
+- Select UMLS-backed normalization vs lay-language mapping for a given corpus
+- Match task type (NER, RelEx, classification) to tooling (cTAKES/MetaMap vs fine-tuned BERT)
+- Justify baseline-before-transformer model selection with documented metrics
+- Describe graph-based link prediction for drug–supplement interaction discovery
+
+### worked_examples_present
+
+**Y** — BIO labeling walkthroughs, SemRep predication example, supplement weak-supervision scenario, discussion scenarios (surgical notes, drug-repurposing graph).
+
+### exercise_hooks
+
+| ID | Prompt summary | Anchor |
+|----|----------------|--------|
+| 8.PE-1 | Supplement NER: task type, tools, weak supervision | 40578–40606 |
+| 8.PE-2 | Build literature graph for drug repurposing; link prediction baseline | 40610–40680 |
+| 8.PE-3 | Compare TF-IDF+FFNN vs biLSTM on sequential information | 40684–40698 |
+| 8.PE-4 | Trace UMLS → MetaMap → SemRep → SemMedDB relationships | 40700–40704 |
+
+## Operator hooks
+
+### 1. w3_clinical_docs
+
+Foundational **clinical NLP stack map** for EHR note mining, literature IE, and graph-augmented discovery—pairs with NAM generative-AI clinical documentation themes.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — Text classification patterns port to note-based phenotype algorithms; not direct calculator content.
+
+### 3. Redundancy
+
+| Canon title | Relationship |
+|-------------|--------------|
+| `hands_on_llms_2024` | Modern LLM depth; Simon ch08 classical + BERT clinical stack |
+| `prompt_engineering_llms_2024` | Prompting for QA/NLG; Simon covers task taxonomy and baselines |
+| Simon ch07 LLM pitfalls | Cross-read ChatGPT health-risk case studies |
+
+### 4. Scholia fit
+
+Procedural clinical-NLP chapter with explicit BPs 14.1–14.5 and pitfalls 14.1–14.3; strong fit for EHR text-ingest skill cards.
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 |
+| Author authority | **PASS** | UMN clinical NLP researchers |
+| Citation density | **PASS** | Word2Vec, GloVe, BERT, domain BERTs, cTAKES literature |
+| Contested claims | **PASS** | Acknowledges transformers cost vs simpler models |
+| Worked examples | **PASS** | Labeling and tool-chain examples |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS**
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

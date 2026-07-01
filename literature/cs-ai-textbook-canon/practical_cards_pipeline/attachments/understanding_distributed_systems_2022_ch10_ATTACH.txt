@@ -1,0 +1,837 @@
+understanding_distributed_systems_2022_ch10_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 10
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch10_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch10_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 10
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch10_ingest.md |
+| text_lines_read | 2573–3237 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 10 |
+| chapter_title | Replication |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 10 is the **consistency foundations** capstone: **Raft state machine replication** (leader log, AppendEntries, quorum commit, log completeness for elections, backtracking sync on rejection), **consensus** as write-once register / replicated log sequence, coordination services (**etcd**, **ZooKeeper**), **consistency models** (**linearizability**, **sequential consistency**, **eventual consistency**) with read-path tradeoffs, **CAP** and **PACELC** theorems (spectrum not binary; latency vs. consistency even without partitions), and **chain replication** (head/tail topology, control plane for failures, CRAQ dirty/clean reads, data plane vs. control plane split preview Ch.22). Forward: consensus-free replication in Ch.11.
+
+---
+
+## Key findings
+
+1. **Why replicate** (lines 2577–2592): Availability (failover copies), scalability/performance (concurrent reads). Challenge: keep replicas consistent under failures.
+
+2. **State machine replication** (§10.1, lines 2595–2743): Leader broadcasts deterministic ops to followers; same ordered input ⇒ same state. Example: replicated KV store with put/get. Leader elected (Ch.9); only leader mutates state via **log** entries (operation, index, term) (Figure 10.1). Append locally → AppendEntries to followers → quorum ACK → **commit** → apply to state; followers apply only after leader commit notification. Tolerates f failures with 2f+1 nodes. Leader failure: new leader must have all committed entries (vote only for ≥ up-to-date logs; compare last term then length). AppendEntries idempotent; rejected followers trigger backward search to find divergence point and overwrite suffix. Heartbeats via empty AppendEntries.
+
+3. **Consensus** (§10.2, lines 2746–2815): SMR solves **consensus** (agreement, validity, termination). Equivalent to **write-once register** API; Raft log = sequence of consensus instances. Practical uses: leader lease, SMR itself. Don't implement from scratch (Paxos Made Live). **etcd/ZooKeeper:** fault-tolerant hierarchical KV + watches; lease via TTL key create.
+
+4. **Consistency models intro** (§10.3, lines 2819–2876): Replicated reads don't behave like single-threaded memory—follower lag. **Consistency models** formalize observer views.
+
+5. **Linearizability / strong consistency** (§10.3.1, lines 2879–2918): All writes/reads via leader ⇒ single-copy illusion; ops appear atomic between invocation and completion (Figure 10.4). **Real-time** guarantee = **linearizability** (strongest single-object guarantee). Leader must confirm majority leadership before serving read (may have lost leadership)—adds read latency.
+
+6. **Sequential consistency** (§10.3.2, lines 2921–2961): Followers may serve reads; all observers see **same operation order** but not real-time visibility (Figure 10.5). Differs from linearizability by lacking real-time bound. Producer/consumer queue example.
+
+7. **Eventual consistency** (§10.3.3, lines 2964–2988): Client may hit any follower—may see stale then earlier state. Converges when writes stop. Hard to reason; subtle bugs; OK for approximate metrics (page view counters).
+
+8. **CAP theorem** (§10.3.4, lines 2991–3038): On **partition:** choose **availability** (reachable followers) vs. **strong consistency** (fail unreachable reads). "Pick two" really C vs. A given partition tolerance. CAP availability definition (every request eventually responds) too strict for real systems; slow = unavailable. CAP occupies one point on **spectrum**. **PACELC:** under Partition choose A or C; **Else** choose **Latency** or C—consistency vs. latency tradeoff always. Cosmos DB, Cassandra consistency knobs. Coordination amount vs. performance; move coordination off critical path.
+
+9. **Chain replication** (§10.4, lines 3076–3231): Chain topology: writes at **head**, propagate sequentially; **tail** commits and ACK propagates back (Figure 10.6). Reads at tail ⇒ linearizable in failure-free case. **Control plane** removes failed nodes, maintains agreed topology (itself SMR/Raft—tolerates fewer control-plane failures). Failure modes: head crash (uncommitted write invisible—client retry); tail crash (promote predecessor); middle crash (sync missing updates via sequence numbers). Replace failed nodes. Simpler failure modes than quorum—committed write seen by all chain members. Higher write latency (full chain); pipelining helps; **CRAQ** dirty/clean versioning allows distributed linearizable reads with tail confirmation (Figure 10.7). Data plane leaderless on critical path; control plane leader for reconfiguration (Ch.22 pattern). Raft more write-resilient to single slow replica (majority not full chain).
+
+10. **Forward** (lines 3229–3231): Ch.11 explores replication without consensus.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain Raft log replication, commit quorum, and log-matching on recovery.
+2. Relate SMR to consensus and write-once registers.
+3. Distinguish linearizability, sequential consistency, and eventual consistency with read routing.
+4. Interpret CAP and PACELC as spectra, not binaries.
+5. Compare Raft quorum vs. chain replication failure and latency profiles.
+
+### worked_examples_present
+
+**Y** — Replicated KV SMR; Figures 10.1–10.7; etcd/ZK lease pattern.
+
+### exercise_hooks
+
+1. Trace AppendEntries rejection and log backtrack on paper.
+2. Pick consistency level for shopping cart vs. view counter.
+3. Calculate chain vs. quorum write latency for N=5 replicas.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.10 §10.1–10.4 | Read | lines 2573–3237 |
+| Ch.11+ | Deferred | line 3238 onward |
+
+---
+
+## Operator hooks
+
+**Core DDIA pairing** for w2_systems_llm (replication + CAP). Essential for database selection, RAG vector store consistency tiers, and microservice read-your-writes design.
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Raft paper, Jepsen consistency models, CAP/PACELC primary refs; dense theory with figures.
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.9 | Leader election |
+| Ch.11 | Weaker models without total order |
+| Ch.12 | ACID transactions |
+| Ch.22 | Data/control plane split |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| State machine replication | Same ordered ops on deterministic replicas |
+| Quorum | Majority required for commit |
+| Linearizability | Strongest single-object real-time consistency |
+| Eventual consistency | Replicas converge when writes stop |
+| Chain replication | Head-to-tail write pipeline; tail reads |
+| PACELC | CAP + latency/consistency tradeoff without partition |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch10_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch10_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 10
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+
+The expiration time deﬁnes the time to live for a key, after which
+the key expires and is removed from the store unless the expiration
+time is extended. The idea is that each competing process tries
+to acquire a lease by creating a new key with compare-and-swap.
+The ﬁrst process to succeed becomes the leader and remains such
+until it stops renewing the lease, after which another process can
+become the leader.
+
+
+The expiration logic can also be implemented on the client side,
+
+CHAPTER 9. LEADER ELECTION                                               75
+
+
+like this locking library6 for DynamoDB does, but the implemen-
+tation is more complex, and it still requires the data store to offer
+a compare-and-swap operation.
+
+You might think that’s enough to guarantee there can’t be more
+than one leader at any given time. But, unfortunately, that’s not
+the case. To see why suppose multiple processes need to update a
+ﬁle on a shared ﬁle store, and we want to guarantee that only one at
+a time can access it to avoid race conditions. Now, suppose we use
+a lease to lock the critical section. Each process tries to acquire the
+lease, and the one that does so successfully reads the ﬁle, updates
+it in memory, and writes it back to the store:
+
+if lease.acquire():
+      try:
+          content = store.read(filename)
+          new_content = update(content)
+          store.write(filename, new_content)
+      except:
+          lease.release()
+
+The issue is that by the time the process gets to write to the ﬁle, it
+might no longer hold the lease. For example, the operating system
+might have preempted and stopped the process for long enough
+for the lease to expire. The process could try to detect that by com-
+paring the lease expiration time to its local clock before writing to
+the store, assuming clocks are synchronized.
+
+However, clock synchronization isn’t perfectly accurate. On top of
+that, the lease could expire while the request to the store is in-ﬂight
+because of a network delay. To account for these problems, the
+process could check that the lease expiration is far enough in the
+future before writing to the ﬁle. Unfortunately, this workaround
+isn’t foolproof, and the lease can’t guarantee mutual exclusion by
+itself.
+
+To solve this problem, we can assign a version number to each ﬁle
+  6
+    “Building Distributed Locks with the DynamoDB Lock Client,” https://aws.
+amazon.com/blogs/database/building-distributed-locks-with-the-dynamodb-
+lock-client/
+
+CHAPTER 9. LEADER ELECTION                                            76
+
+
+that is incremented every time the ﬁle is updated. The process
+holding the lease can then read the ﬁle and its version number from
+the ﬁle store, do some local computation, and ﬁnally update the
+ﬁle (and increment the version number) conditional on the version
+number not having changed. The process can perform this valida-
+tion atomically using a compare-and-swap operation, which many
+ﬁle stores support.
+If the ﬁle store doesn’t support conditional writes, we have to de-
+sign around the fact that occasionally there will be a race condition.
+Sometimes, that’s acceptable; for example, if there are momentar-
+ily two leaders and they both perform the same idempotent up-
+date, no harm is done.
+Although having a leader can simplify the design of a system as it
+eliminates concurrency, it can also become a scalability bottleneck
+if the number of operations performed by it increases to the point
+where it can no longer keep up. Also, a leader is a single point of
+failure with a large blast radius; if the election process stops work-
+ing or the leader isn’t working as expected, it can bring down the
+entire system with it. We can mitigate some of these downsides
+by introducing partitions and assigning a different leader per par-
+tition, but that comes with additional complexity. This is the solu-
+tion many distributed data stores use since they need to use parti-
+tioning anyway to store data that doesn’t ﬁt in a single node.
+As a rule of thumb, if we must have a leader, we have to minimize
+the work it performs and be prepared to occasionally have more
+than one.
+Taking a step back, a crucial assumption we made earlier is that
+the data store that holds leases is fault-tolerant, i.e., it can tolerate
+the loss of a node. Otherwise, if the data store ran on a single node
+and that node were to fail, we wouldn’t be able to acquire leases.
+For the data store to withstand a node failing, it needs to replicate
+its state over multiple nodes. In the next chapter, we will take a
+closer look at how this can be accomplished.
+
+Chapter 10
+
+Replication
+
+Data replication is a fundamental building block of distributed sys-
+tems. One reason for replicating data is to increase availability. If
+some data is stored exclusively on a single process, and that pro-
+cess goes down, the data won’t be accessible anymore. However,
+if the data is replicated, clients can seamlessly switch to a copy.
+Another reason for replication is to increase scalability and perfor-
+mance; the more replicas there are, the more clients can access the
+data concurrently.
+
+Implementing replication is challenging because it requires keep-
+ing replicas consistent with one another even in the face of fail-
+ures. In this chapter, we will explore Raft’s replication algorithm1 ,
+a replication protocol that provides the strongest consistency guar-
+antee possible — the guarantee that to the clients, the data appears
+to be stored on a single process, even if it’s actually replicated.
+Arguably, the most popular protocol that offers this guarantee is
+Paxos2 , but we will discuss Raft as it’s more understandable.
+
+Raft is based on a mechanism known as state machine replication.
+The main idea is that a single process, the leader, broadcasts op-
+   1
+     “In Search of an Understandable Consensus Algorithm,” https://raft.github.
+io/raft.pdf
+   2
+     “Paxos Made Simple,” https://lamport.azurewebsites.net/pubs/paxos-
+simple.pdf
+
+CHAPTER 10. REPLICATION                                                       78
+
+
+erations that change its state to other processes, the followers (or
+replicas). If the followers execute the same sequence of operations
+as the leader, then each follower will end up in the same state as
+the leader. Unfortunately, the leader can’t simply broadcast oper-
+ations to the followers and call it a day, as any process can fail at
+any time, and the network can lose messages. This is why a large
+part of the algorithm is dedicated to fault tolerance.
+
+The reason why this this mechanism is called stated machine repli-
+cation is that each process is modeled as a state machine3 that tran-
+sitions from one state to another in response to some input (an op-
+eration). If the state machines are deterministic and get exactly the
+same input in the same order, their states are consistent. That way,
+if one of them fails, a redundant copy is available from any of the
+other state machines. State machine replication is a very powerful
+tool to make a service fault-tolerant as long it can be modeled as a
+state machine.
+
+For example, consider the problem of implementing a fault-
+tolerant key-value store. In this case, each state machine repre-
+sents a storage node that accepts put(k, v) and get(k) operations.
+The actual state is represented with a dictionary. When a put op-
+eration is executed, the key-value pair is added to the dictionary.
+When a get operation is executed, the value corresponding to the
+requested key is returned. You can see how if every node executes
+the same sequence of puts, all nodes will end up having the same
+state.
+
+In the next section, we will take a deeper look at Raft’s replication
+protocol. It’s a challenging read that requires to pause and think,
+but I can assure you it’s well worth the effort, especially if you
+haven’t seen a replication protocol before.
+
+
+10.1        State machine replication
+When the system starts up, a leader is elected using Raft’s leader
+election algorithm discussed in chapter 9, which doesn’t require
+  3
+      “Finite-state machine,” https://en.wikipedia.org/wiki/Finite-state_machine
+
+CHAPTER 10. REPLICATION                                             79
+
+
+any external dependencies. The leader is the only process that can
+change the replicated state. It does so by storing the sequence of
+operations that alter the state into a local log, which it replicates
+to the followers. Replicating the log is what allows the state to be
+kept in sync across processes.
+As shown in Figure 10.1, a log is an ordered list of entries where
+each entry includes:
+   • the operation to be applied to the state, like the assignment of
+     3 to x. The operation needs to be deterministic so that all fol-
+     lowers end up in the same state, but it can be arbitrarily com-
+     plex as long as that requirement is respected (e.g., compare-
+     and-swap or a transaction with multiple operations);
+   • the index of the entry’s position in the log;
+   • and the leader’s election term (the number in each box).
+
+
+
+
+    Figure 10.1: The leader’s log is replicated to its followers.
+
+When the leader wants to apply an operation to its local state, it
+
+CHAPTER 10. REPLICATION                                             80
+
+
+ﬁrst appends a new entry for the operation to its log. At this point,
+the operation hasn’t been applied to the local state just yet; it has
+only been logged.
+
+The leader then sends an AppendEntries request to each follower
+with the new entry to be added. This message is also sent out peri-
+odically, even in the absence of new entries, as it acts as a heartbeat
+for the leader.
+
+When a follower receives an AppendEntries request, it appends the
+entry it received to its own log (without actually executing the op-
+eration yet) and sends back a response to the leader to acknowl-
+edge that the request was successful. When the leader hears back
+successfully from a majority of followers, it considers the entry to
+be committed and executes the operation on its local state. The
+leader keeps track of the highest committed index in the log, which
+is sent in all future AppendEntries requests. A follower only applies
+a log entry to its local state when it ﬁnds out that the leader has
+committed the entry.
+
+Because the leader needs to wait for only a majority (quorum) of
+followers, it can make progress even if some are down, i.e., if there
+are 2𝑓 + 1 followers, the system can tolerate up to 𝑓 failures. The
+algorithm guarantees that an entry that is committed is durable
+and will eventually be executed by all the processes in the system,
+not just those that were part of the original majority.
+
+So far, we have assumed there are no failures, and the network
+is reliable. Let’s relax those assumptions. If the leader fails, a
+follower is elected as the new leader. But, there is a caveat: be-
+cause the replication algorithm only needs a majority of processes
+to make progress, it’s possible that some processes are not up to
+date when a leader fails. To avoid an out-of-date process becom-
+ing the leader, a process can’t vote for one with a less up-to-date
+log. In other words, a process can’t win an election if it doesn’t
+contain all committed entries.
+
+To determine which of two processes’ logs is more up-to-date, the
+election term and index of their last entries are compared. If the
+logs end with different terms, the log with the higher term is more
+
+CHAPTER 10. REPLICATION                                                          81
+
+
+up to date. If the logs end with the same term, whichever log is
+longer is more up to date. Since the election requires a majority
+vote, and a candidate’s log must be at least as up to date as any
+other process in that majority to win the election, the elected pro-
+cess will contain all committed entries.
+
+If an AppendEntries request can’t be delivered to one or more fol-
+lowers, the leader will retry sending it indeﬁnitely until a majority
+of the followers have successfully appended it to their logs. Re-
+tries are harmless as AppendEntries requests are idempotent, and
+followers ignore log entries that have already been appended to
+their logs.
+
+If a follower that was temporarily unavailable comes back online,
+it will eventually receive an AppendEntries message with a log en-
+try from the leader. The AppendEntries message includes the index
+and term number of the entry in the log that immediately precedes
+the one to be appended. If the follower can’t ﬁnd a log entry with
+that index and term number, it rejects the message to prevent cre-
+ating a gap in its log.
+
+When the AppendEntries request is rejected, the leader retries the
+request, this time including the last two log entries — this is why
+we referred to the request as AppendEntries and not as AppendEntry.
+If that fails, the leader retries sending the last three log entries and
+so forth.4 The goal is for the leader to ﬁnd the latest log entry where
+the two logs agree, delete any entries in the follower’s log after that
+point, and append to the follower’s log all of the leader’s entries
+after it.
+
+
+10.2       Consensus
+By solving state machine replication, we actually found a solution
+to consensus5 — a fundamental problem studied in distributed sys-
+tems research in which a group of processes has to decide a value
+    4
+      In practice, there are ways to reduce the number of messages required for this
+step.
+    5
+      “Consensus,” https://en.wikipedia.org/wiki/Consensus_(computer_scien
+ce)
+
+CHAPTER 10. REPLICATION                                                              82
+
+
+so that:
+
+    • every non-faulty process eventually agrees on a value;
+    • the ﬁnal decision of every non-faulty process is the same ev-
+      erywhere;
+    • and the value that has been agreed on has been proposed by
+      a process.
+
+This may sound a little bit abstract. Another way to think about
+consensus is as the API of a write-once register6 (WOR): a thread-
+safe and linearizable7 register that can only be written once but can
+be read many times.
+
+There are plenty of practical applications of consensus. For exam-
+ple, agreeing on which process in a group can acquire a lease re-
+quires consensus. And, as mentioned earlier, state machine repli-
+cation also requires it. If you squint a little, you should be able to
+see how the replicated log in Raft is a sequence of WORs, and so
+Raft really is just a sequence of consensus instances.
+
+While it’s important to understand what consensus is and how it
+can be solved, you will likely never need to implement it from
+scratch8 . Instead, you can use one of the many off-the-shelf so-
+lutions available.
+
+For example, one of the most common uses of consensus is for coor-
+dination purposes, like the election of a leader. As discussed in 9.2,
+leader election can be implemented by acquiring a lease. The lease
+ensures that at most one process can be the leader at any time and
+if the process dies, another one can take its place. However, this
+mechanism requires the lease manager, or coordination service, to
+be fault-tolerant. Etcd9 and ZooKeeper10 are two widely used co-
+    6
+      “Paxos made Abstract,” https://maheshba.bitbucket.io/blog/2021/11/15/
+Paxos.html
+    7
+      We will deﬁne what linearizability means in the next section.
+    8
+      nor want to, since it’s very challenging to get right; see “Paxos Made Live - An
+Engineering Perspective,” https://static.googleusercontent.com/media/research.
+google.com/en//archive/paxos_made_live.pdf
+    9
+      “etcd: A distributed, reliable key-value store for the most critical data of a dis-
+tributed system,” https://etcd.io/
+   10
+      “Apache ZooKeeper: An open-source server which enables highly reliable dis-
+tributed coordination,” https://zookeeper.apache.org/
+
+CHAPTER 10. REPLICATION                                             83
+
+
+ordination services that replicate their state for fault-tolerance us-
+ing consensus. A coordination service exposes a hierarchical, key-
+value store through its API, and also allows clients to watch for
+changes to keys. So, for example, acquiring a lease can be imple-
+mented by having a client attempt to create a key with a speciﬁc
+TTL. If the key already exists, the operation fails guaranteeing that
+only one client can acquire the lease.
+
+
+
+10.3     Consistency models
+We discussed state machine replication with the goal of implement-
+ing a data store that can withstand failures and scale out to serve
+a larger number of requests. Now that we know how to build a
+replicated data store in principle, let’s take a closer look at what
+happens when a client sends a request to it. In an ideal world, the
+request executes instantaneously, as shown in Figure 10.2.
+
+
+
+
+     Figure 10.2: A write request executing instantaneously
+
+But in reality, things are quite different — the request needs to
+reach the leader, which has to process it and send back a response
+to the client. As shown in Figure 10.3, these actions take time and
+are not instantaneous.
+
+The best guarantee the system can provide is that the request
+executes somewhere between its invocation and completion time.
+You might think that this doesn’t look like a big deal; after all, it’s
+
+CHAPTER 10. REPLICATION                                            84
+
+
+
+
+Figure 10.3: A write request can’t execute instantaneously because
+it takes time to reach the leader and be executed.
+
+
+what you are used to when writing single-threaded applications.
+For example, if you assign 42 to x and read its value immediately
+afterward, you expect to ﬁnd 42 in there, assuming there is no
+other thread writing to the same variable. But when you deal
+with replicated systems, all bets are off. Let’s see why that’s the
+case.
+
+In section 10.1, we looked at how Raft replicates the leader’s state
+to its followers. Since only the leader can make changes to the state,
+any operation that modiﬁes it needs to necessarily go through the
+leader. But what about reads? They don’t necessarily have to go
+through the leader as they don’t affect the system’s state. Reads
+can be served by the leader, a follower, or a combination of leader
+and followers. If all reads have to go through the leader, the read
+throughput would be limited to that of a single process. But, if any
+follower can serve reads instead, then two clients, or observers, can
+have a different view of the system’s state since followers can lag
+behind the leader.
+
+Intuitively, there is a tradeoff between how consistent the ob-
+servers’ views of the system are and the system’s performance
+and availability. To understand this relationship, we need to
+deﬁne precisely what we mean by consistency. We will do so with
+
+CHAPTER 10. REPLICATION                                             85
+
+
+the help of consistency models11 , which formally deﬁne the possible
+views the observers can have of the system’s state.
+
+
+10.3.1        Strong consistency
+If clients send writes and reads exclusively to the leader, then every
+request appears to take place atomically at a very speciﬁc point in
+time as if there were a single copy of the data. No matter how many
+replicas there are or how far behind they are lagging, as long as the
+clients always query the leader directly, there is a single copy of the
+data from their point of view.
+
+Because a request is not served instantaneously, and there is a sin-
+gle process that can serve it, the request executes somewhere be-
+tween its invocation and completion time. By the time it completes,
+its side-effects are visible to all observers, as shown in Figure 10.4.
+
+
+
+
+Figure 10.4: The side-effects of a strongly consistent operation are
+visible to all observers once it completes.
+
+Since a request becomes visible to all other participants between
+its invocation and completion time, a real-time guarantee must
+  11
+       “Consistency Models,” https://jepsen.io/consistency
+
+CHAPTER 10. REPLICATION                                                       86
+
+
+be enforced; this guarantee is formalized by a consistency model
+called linearizability12 , or strong consistency. Linearizability is the
+strongest consistency guarantee a system can provide for single-
+object requests.13
+
+Unfortunately, the leader can’t serve reads directly from its local
+state because by the time it receives a request from a client, it might
+no longer be the leader; so, if it were to serve the request, the sys-
+tem wouldn’t be strongly consistent. The presumed leader ﬁrst
+needs to contact a majority of replicas to conﬁrm whether it still
+is the leader. Only then is it allowed to execute the request and
+send back a response to the client. Otherwise, it transitions to the
+follower state and fails the request. This conﬁrmation step consid-
+erably increases the time required to serve a read.
+
+
+10.3.2     Sequential consistency
+So far, we have discussed serializing all reads through the leader.
+But doing so creates a single chokepoint, limiting the system’s
+throughput. On top of that, the leader needs to contact a majority
+of followers to handle a read, which increases the time it takes
+to process a request. To increase the read performance, we could
+also allow the followers to handle requests.
+
+Even though a follower can lag behind the leader, it will always
+receive new updates in the same order as the leader. For example,
+suppose one client only ever queries follower 1, and another only
+ever queries follower 2. In that case, the two clients will see the
+state evolving at different times, as followers are not perfectly in
+sync (see Figure 10.5).
+
+The consistency model that ensures operations occur in the same
+order for all observers, but doesn’t provide any real-time guaran-
+tee about when an operation’s side-effect becomes visible to them,
+is called sequential consistency14 . The lack of real-time guarantees is
+  12
+     “Linearizability,” https://jepsen.io/consistency/models/linearizable
+  13
+     For example, this is the guarantee you would expect from a coordination ser-
+vice that manages leases.
+  14
+     “Sequential Consistency,” https://jepsen.io/consistency/models/sequential
+
+CHAPTER 10. REPLICATION                                            87
+
+
+
+
+Figure 10.5: Although followers have a different view of the sys-
+tem’s state, they process updates in the same order.
+
+
+what differentiates sequential consistency from linearizability.
+
+A producer/consumer system synchronized with a queue is an ex-
+ample of this model; a producer writes items to the queue, which
+a consumer reads. The producer and the consumer see the items
+in the same order, but the consumer lags behind the producer.
+
+
+10.3.3    Eventual consistency
+Although we managed to increase the read throughput, we had to
+pin clients to followers — if a follower becomes unavailable, the
+client loses access to the store. We could increase the availability
+by allowing the client to query any follower. But this comes at a
+steep price in terms of consistency. For example, say there are two
+followers, 1 and 2, where follower 2 lags behind follower 1. If a
+client queries follower 1 and then follower 2, it will see an earlier
+state, which can be very confusing. The only guarantee the client
+
+CHAPTER 10. REPLICATION                                                    88
+
+
+has is that eventually all followers will converge to the ﬁnal state if
+writes to the system stop. This consistency model is called eventual
+consistency.
+
+It’s challenging to build applications on top of an eventually con-
+sistent data store because the behavior is different from what we
+are used to when writing single-threaded applications. As a result,
+subtle bugs can creep up that are hard to debug and reproduce.
+Yet, in eventual consistency’s defense, not all applications require
+linearizability. For example, an eventually consistent store is per-
+fectly ﬁne if we want to keep track of the number of users visiting
+a website, since it doesn’t really matter if a read returns a number
+that is slightly out of date.
+
+
+10.3.4     The CAP theorem
+When a network partition happens, parts of the system become
+disconnected from each other. For example, some clients might
+no longer be able to reach the leader. The system has two choices
+when this happens; it can either:
+
+   • remain available by allowing clients to query followers that
+     are reachable, sacriﬁcing strong consistency;
+   • or guarantee strong consistency by failing reads that can’t
+     reach the leader.
+
+This concept is expressed by the CAP theorem15 , which can be sum-
+marized as: “strong consistency, availability and partition toler-
+ance: pick two out of three.” In reality, the choice really is only
+between strong consistency and availability, as network faults are
+a given and can’t be avoided.
+
+Confusingly enough, the CAP theorem’s deﬁnition of availability
+requires that every request eventually receives a response. But in
+real systems, achieving perfect availability is impossible. More-
+over, a very slow response is just as bad as one that never occurs.
+So, in other words, many highly-available systems can’t be con-
+  15
+     “Perspectives on the CAP Theorem,” https://groups.csail.mit.edu/tds/paper
+s/Gilbert/Brewer2.pdf
+
+CHAPTER 10. REPLICATION                                                       89
+
+
+sidered available as deﬁned by the CAP theorem. Similarly, the
+theorem’s deﬁnition of consistency and partition tolerance is very
+precise, limiting its practical applications.16 A more useful way to
+think about the relationship between availability and consistency
+is as a spectrum. And so, for example, a strongly consistent and
+partition-tolerant system as deﬁned by the CAP theorem occupies
+just one point in that spectrum.17
+
+Also, even though network partitions can happen, they are usually
+rare within a data center. But, even in the absence of a network par-
+tition, there is a tradeoff between consistency and latency (or per-
+formance). The stronger the consistency guarantee is, the higher
+the latency of individual operations must be. This relationship is
+expressed by the PACELC theorem18 , an extension to the CAP the-
+orem. It states that in case of network partitioning (P), one has to
+choose between availability (A) and consistency (C), but else (E),
+even when the system is running normally in the absence of parti-
+tions, one has to choose between latency (L) and consistency (C). In
+practice, the choice between latency and consistency is not binary
+but rather a spectrum.
+
+This is why some off-the-shelf distributed data stores come with
+counter-intuitive consistency guarantees in order to provide high
+availability and performance. Others have knobs that allow you
+to choose whether you want better performance or stronger con-
+sistency guarantees, like Azure’s Cosmos DB19 and Cassandra20 .
+
+Another way to interpret the PACELC theorem is that there is a
+tradeoff between the amount of coordination required and perfor-
+mance. One way to design around this fundamental limitation is
+  16
+     “A Critique of the CAP Theorem,” https://www.cl.cam.ac.uk/research/dtg/
+www/files/publications/public/mk428/cap-critique.pdf
+  17
+     “CAP Theorem: You don’t need CP, you don’t want AP, and you can’t have
+CA,” https://www.youtube.com/watch?v=hUd_9FENShA
+  18
+     “Consistency Tradeoffs in Modern Distributed Database System Design,” https:
+//en.wikipedia.org/wiki/PACELC_theorem
+  19
+     “Consistency levels in Azure Cosmos DB,” https://docs.microsoft.com/en-
+us/azure/cosmos-db/consistency-levels
+  20
+     “Apache Cassandra: How is the consistency level conﬁgured?,” https://docs
+.datastax.com/en/cassandra-oss/3.0/cassandra/dml/dmlConfigConsistency.h
+tml
+
+CHAPTER 10. REPLICATION                                                          90
+
+
+to move coordination away from the critical path. For example,
+earlier we discussed that for a read to be strongly consistent, the
+leader has to contact a majority of followers. That coordination tax
+is paid for each read! In the next section, we will explore a differ-
+ent replication protocol that moves this cost away from the critical
+path.
+
+
+10.4       Chain replication
+Chain replication21 is a widely used replication protocol that uses
+a very different topology from leader-based replication protocols
+like Raft. In chain replication, processes are arranged in a chain.
+The leftmost process is referred to as the chain’s head, while the
+rightmost one is the chain’s tail.
+
+Clients send writes exclusively to the head, which updates its lo-
+cal state and forwards the update to the next process in the chain.
+Similarly, that process updates its state and forwards the change
+to its successor until it eventually reaches the tail.
+
+When the tail receives an update, it applies it locally and sends
+an acknowledgment to its predecessor to signal that the change
+has been committed. The acknowledgment ﬂows back to the head,
+which can then reply to the client that the write succeeded22 .
+
+Client reads are served exclusively by the tail, as shown in Fig 10.6.
+In the absence of failures, the protocol is strongly consistent as all
+writes and reads are processed one at a time by the tail. But what
+happens if a process in the chain fails?
+
+Fault tolerance is delegated to a dedicated component, the conﬁg-
+uration manager or control plane. At a high level, the control plane
+monitors the chain’s health, and when it detects a faulty process, it
+removes it from the chain. The control plane ensures that there is a
+  21
+     “Chain Replication for Supporting High Throughput and Availability,” https:
+//www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf
+  22
+     This is slightly different from the original chain replication paper since it’s
+based on CRAQ, an extension of the original protocol; see “Object Storage on
+CRAQ,” https://www.usenix.org/legacy/event/usenix09/tech/full_paper
+s/terrace/terrace.pdf.
+
+CHAPTER 10. REPLICATION                                               91
+
+
+
+
+Figure 10.6: Writes propagate through all processes in the chain,
+while reads are served exclusively by the tail.
+
+
+single view of the chain’s topology that every process agrees with.
+For this to work, the control plane needs to be fault-tolerant, which
+requires state machine replication (e.g., Raft). So while the chain
+can tolerate up to N − 1 processes failing, where N is the chain’s
+length, the control plane can only tolerate 𝐶 2 failures, where C is
+the number of replicas that make up the control plane.
+
+There are three failure modes in chain replication: the head can
+fail, the tail can fail, or an intermediate process can fail. If the head
+fails, the control plane removes it by reconﬁguring its successor to
+be the new head and notifying clients of the change. If the head
+

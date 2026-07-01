@@ -1,0 +1,15 @@
+session: '2026-06-27'
+corpus_slug: deai-operator-corpus
+layout_mode: flat
+attachments_dir: attachments
+source_root: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+piranesi_project: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus
+fan_out: paper
+paper_count: 4
+textbook_count: 9
+lanes_required:
+  - deai_removal
+  - tic_enrichment
+  - both
+esl_operator: Wei Jia
+operator_manifest: manifest.yaml

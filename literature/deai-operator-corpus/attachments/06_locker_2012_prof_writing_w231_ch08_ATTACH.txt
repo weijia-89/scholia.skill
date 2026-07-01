@@ -1,0 +1,1767 @@
+06_locker_2012_prof_writing_w231_ch08_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch08_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch08.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch08.txt).
+========================================================================
+
+Writing Job Application Letters                        411
+
+
+
+HOW TO FIND OUT ABOUT
+EMPLOYERS AND JOBS
+To adapt your letter to a specific organization, you need information both
+about the employer and about the job itself. You'll need to know
+
+ =     Thename and address of the person who should receive the letter. To
+       get this information, check the ad, call the organization, check its web-
+       site, or check with your job search contacts. An advantage of calling is
+   that you can find out what courtesy title (p. 69) the individual prefers
+   and get current information.
+ = What the organization does, and some facts about it. Knowing the
+   organization’s larger goals enables you to show how your specific work
+   will help the company meet its goals. Useful facts can include market
+   share, new products or promotions, the kind of computer or manufac-
+   turing equipment it uses, plans for growth or downsizing, competitive
+   position, challenges the organization faces, and the corporate culture
+   (p. 91).
+ = What the job itself involves. Campus placement offices and web listings
+   often have fuller job descriptions than appear in ads. Talk to friends who
+   have graduated recently to learn what their jobs involve. Conduct informa-
+   tion interviews to learn more about opportunities that interest you.
+
+   The websites listed in Figure 13.1 provide a wide range of information. For
+instance, the Forbes and Money sites have good financial news stories; prars.
+com is a good source for annual reports. As a consumer, you have probably
+already used the Better Business Bureau (bbb.org) site.
+   More specific information about companies can be found on their websites.
+To get specific financial data (and to see how the organization presents itself to
+the public), get the company’s annual report from your library or the web. (Note:
+Only companies whose stock is publicly traded are required to issue annual
+reports. In this day of mergers and buyouts, many companies are owned by
+other companies. The parent company may be the only one to issue an annual
+report.) Recruiting notebooks at your campus placement office may provide
+information about training programs and career paths for new hires. To learn
+about new products, plans for growth, or solutions to industry challenges, read
+business newspapers such as the Wall Street Journal, business magazines such as
+Fortune or Bloomberg BusinessWeek, and trade journals.
+
+ Figure 13.1              Web Sources for Facts about Companies
+
+     Company Facts                            http://www.bbb.org/
+     http://www. jobbankinfo.org/             http://legacy.www.nypl.org/research/sibl/
+     http://www.wetfeet.com/                    company/c2index.htm
+     http://www.forbes.com/                   http://www.lib.berkeley.edu/BUSI/
+     http://www..irin.com/tf/IRIN/            http://online.wsj.com/public/page/news-
+       home?path=/&host=irin.com&               career-jobs.html
+     http://www.corporateinformation.com/     Salary Calculators
+     http://www.vault.com/                    http://salaryexpert.com/
+     http://www.stockmarketyellowpages.com/   _http://www.indeed.com/salary
+     http://www.prars.com/                    http://www.payscale.com/
+     http://money.cnn.com/           r        http://www.salary.com/mysalary.asp
+     http://www.inc.com/inc5000/
+ SR
+PROFESSIONAL WRITING
+
+
+
+
+412                                        Part4    The Job Hunt
+
+
+              Dream Jobs
+                                           TAPPING INTO THE HIDDEN JOB MARKET
+                                           Many jobs are never advertised—and the number rises the higher on the job lad-
+        _ ___ Asurvey of over 6,000
+        7a    employees found that
+              nearly 85% said they
+                                           der you go. In fact, some authorities put the percentage of jobs that are not adver-
+ were not in their dream jobs.             tised as high as 80%.° Many new jobs come not from responding to an ad but
+ According to survey results, having       from networking with personal contacts. Some of these jobs are created especially
+ fun at work was the most impor-           for a specific person. These unadvertised jobs are called the hidden job market.
+ tant characteristic of a dream job        Information and referral interviews are two organized methods of networking.
+ (39%); making a difference in the
+ world was second (17%).                   information Interviews
+   Among the professionals, police
+ and firefighters were the most likely     In an information interview you talk to someone who works in the area you
+ to believe they held dream jobs           hope to enter to find out what the day-to-day work involves and how you can
+ (35%), followed by teachers (32%),        best prepare to enter that field. An information interview can let you know
+ real estate professionals (28%),          whether or not you'd like the job, give you specific information that you can
+ and engineers (25%). Those least          use to present yourself effectively in your résumé and application letter, and
+ likely to believe they held dream
+                                           create a good image of you in the mind of the interviewer. If you present your-
+                                           self positively, the interviewer may remember you when openings arise.
+ jobs were workers in hotel and
+ food services (9%), manufacturing
+ (9%), and retail (10%).
+                                              In an information interview, you might ask the following questions:
+      What is your dream job?
+                                                   How did you get started in this field?
+ Adapted     from    CareerBuilder.com,
+ “National ‘Dream Jobs’ Survey Reveals             What have you been working on today?
+ Four out of Five U.S. Workers Are Still           How do you spend your typical day?
+ Searching for Their Dream Job,” press
+ release, January 25, 2007, http://www             Have your duties changed a lot since you first started working here?
+ .careerbuilder.com/share/aboutus/
+ pressreleasesdetail.aspx?id=pr347&
+                                                   What do you like best about your job? What do you like least?
+ sd=1/25/2007 &ed=12/31/2007.                      What do you think the future holds for this kind of work?
+                                                   What courses, activities, or jobs would you recommend as preparation
+                                                   for this kind of work?
+
+                                              To set up an information interview, you can phone or write an e-mail like
+                                           the one in Figure 13.2. If you do e-mail, phone the following week to set up a
+                                           specific time.
+
+                                            Referral Interviews
+                                            Referral interviews are interviews you schedule to learn about current job
+                                            opportunities in your field. Sometimes an interview that starts out as an infor-
+                                            mation interview turns into a referral interview.
+                                                Areferral interview should give you information about the opportunities cur-
+                                            rently available in the area you're interested in, refer you to other people who can
+                                            tell you about job opportunities, and enable the interviewer to see that you could
+                                            make a contribution to his or her organization. Therefore, the goal of a referral
+                                            interview is to put you face-to-face with someone who has the power to hire you:
+                                            the president of a small company, the division vice president or branch manager
+                                            of a big company, the director of the local office of a state or federal agency.
+                                                Start by scheduling interviews with people you know who may know
+                                            something about that field—professors, co-workers, neighbors, friends, for-
+                                            mer classmates. Use your alumni website to get the names and phone num-
+                                            bers of alumni who now work where you would like to work. Talk to them to
+                                            get advice about improving your résumé and about general job-hunting strat-
+                                            egy, but also to get referrals to other people. In fact, go into the interview with
+                                            the names of people you'd like to talk to. If the interviewer doesn’t suggest
+                                            anyone, say, “Do you think it would be a good idea for me to talk to—?”
+                                               Armed with a referral from someone you both know, you can call peo-
+                                            ple with hiring power, and say, “So-and-so suggested I talk with you about
+                                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                           Chapter 13       Writing Job Application Letters                                413
+
+
+Figure 13.2            E-mail Requesting an Information Interview
+ & Untitled - Message (Rich Text)
+ |= File Edit View    Insert Format   Tools   Actions   Help
+                         <3     | oh 7 TE Attach asAdobe PDF |           Wi& is
+                        mgt?     gas A | B de Ul           j=       =:
+
+
+                                00g
+  fgeeees imaxtempleton@appletown               eee
+  Sa Pec creel
+  a                   na        aa
+           ORD.          ANON 3Cs BeBe adie Neea ee rome
+      Subject:    Informational Interview _
+                  Dear Mr. Templeton:                          ~~    if starting with the request seems too abrupt, ==                 |
+                                                                                work up to it more gradually.
+                   Because your organization has an outstanding reputation as one of the top 10 real
+                   estate agencies in the country, I am interested in setting up an informational interview
+                   with you to learn about real estate finance from Appletown Realty. lam currently
+                   working on my Associate of Arts degree in Financial Management from East Coast
+                   Community College.
+
+        Refer tO your talk last month at ECCC’s sales club got me thinking about how to follow; your                                        |
+        any          ;                            ;         :        :     A                                                                |
+        previous advice to focus. My recent experience working as a financial sales representative
+        contact as led me to want to learn more about real estate and Appletown Reality. I would
+        with the appreciate the opportunity to meet with you briefly and discuss your work, specifically
+        reader, small business acquisition.                                                    Ofennga                                      |
+
+                   During the meeting, I would also like to find out what courses you believe                      eae ese                  |
+                   would be most helpful as preparation to work in the real estate business.                       gigayssion               |
+                   I'm also interested in knowing the skills and qualities you look for                            may make the
+                   in job candidates.                                                                              interview seem
+                                                                                                                   doable for the
+                                                                                                 reader.                                     |
+                   Could we set up a meeting sometime within the next two weeks? I will
+                                                  an appointment . I look forward to meeting you                                             |
+  |                call early next week to set up
+                   and learning more about your insight into real estate.                          Take the
+                                                                                                                     initiative to call.
+
+                   Sincerely,            Even though you shouldn't
+                                         depend on the reader to
+                   Lee Cheng             call you, it's polite to give
+                   732-403-5718          your phone number under                                                                             |
+                                         your name.
+
+
+
+job-hunting strategy.” Even when you talk to the person who could create a job
+for you, you do not ask for a job. But to give you advice about your résumé, the
+person has to look at it. If there’s a match between what you can do and what
+the organization needs, that person has the power to create a position for you.
+
+                 WARNING:       Many businesspeople are cynical about information and
+              referral interviewing; they know the real purpose of such interviews, and they
+      resent the  time needed. Therefore you need to prepare carefully for these interviews.
+      Prepare a list of good questions; know something about the general field or industry;
+      research the specific company.
+PROFESSIONAL WRITING
+
+
+
+
+414                                      Part4    The Job Hunt
+
+
+
+              http://www.google             Always follow up information and referral interviews with personal thank-
+              .com/about/corporate       you letters. Use specifics to show that you paid attention during the interview,
+                                         and enclose a copy of your revised résumé.
+               Many websites give
+
+                                         CONTENT AND ORGANIZATION
+               you all the information
+ you need to write a good job
+ letter. Google’s Corporate
+ Information page under                  FOR JOB APPLICATION LETTERS
+                                         Job letters help show employers why they should interview you instead of other—
+ Everything Google has links to
+ jobs, news, company information
+ and investor relations, where           sometimes hundreds of others—qualified applicants. In your letter, focus on
+ you will find financial information
+ and annual reports. Follow the                  Your qualifications to meet major requirements of the job.
+ “Company” link to learn about
+ topics such as Google's history,                Points that separate you from other applicants.
+ initiatives, and philosophy.                    Points that show your knowledge of the organization.
+                                                 Qualities that every employer is likely to value: the ability to write and
+                                                 speak effectively, to solve problems, to work well with people.
+
+                                             Two different hiring situations call for two different kinds of application let-
+                                         ters. Write a solicited letter when you know that the company is hiring: you’ve
+                                         seen an ad, you've been advised to apply by a professor or friend, you've read
+                                         in a trade publication that the company is expanding. This situation is similar
+                                         to a direct request in persuasion (p. 321): you can indicate immediately that
+                                         you are applying for the position. Sometimes, however, the advertised posi-
+                                         tions may not be what you want, or you may want to work for an organization
+                                         that has not announced openings in your area. Then you write a prospecting
+                                         letter. (The metaphor is drawn from prospecting for gold.) The prospecting
+                                         letter is like a problem-solving persuasive message (p. 323).
+                                             Prospecting letters help you tap into the hidden job market. In some cases,
+                                         your prospecting letter may arrive at a company that has decided to hire but
+                                         has not yet announced the job. In other cases, companies create positions to
+                                         get a good person who is on the market. Even ina hiring freeze, jobs are some-
+                                         times created for specific individuals.
+                                              In both solicited and prospecting letters you should
+
+                                           =     Address the letter to a specific person (a must for a prospecting letter).
+                                           =     Indicate the specific position for which you’re applying.
+                                           =     Be specific about your qualifications.
+                                           =     Show what separates you from other applicants.
+                                           m     Showa knowledge of the company and the position.
+                                           =     Refer to your résumé (which you would enclose with the letter).
+                                           =     Ask for an interview.
+
+                                             The following discussion follows the job letter from beginning to end. The two
+                                          kinds of letters are discussed separately where they differ and together where
+                                          they are the same. Letters for internships follow the same patterns: use a solic-
+                                          ited letter to apply for an internship that has been advertised and a prospecting
+                                          letter to create an internship with a company that has not announced one.
+
+                                          How to Organize Solicited Letters
+                                          When you know the company is hiring, use the pattern of organization in Fig-
+                                          ure 13.3. A sample solicited letter for a graduating senior is shown in Figure 13.4. A
+                                          solicited letter following up from a career fair and requesting an internship is shown
+                                          in Figure 13.7. The job ad for the letter in Figure 13.4 is printed in Exercise 13.20.
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter 13   Writing Job Application Letters                                      415
+
+
+                                                                                                                Passion
+Figure 13.3          How to Organize a Solicited Job Application Letter
+                                                                                                          _     [Lucinda B. Watson,
+1. State that you’re applying for the job (phrase the job title as your source phrased it).             =~     career counselor and
+   Tell where you learned about the job (ad, referral, etc.). Include any reference number                     author of How They
+   mentioned in the ad. Briefly show that you have the major qualifications required by            Achieved: Stories of Personal
+   the ad: a college degree, professional certification, job experience, etc. Summarize            Achievement and Business Suc-
+   your other qualifications briefly in the same order in which you plan to discuss them in        cess, transcribes in her book an
+   the letter.                                                                                     interview with Ted Bell, the former
+2. Develop your major qualifications in detail. Be specific about what you've done; relate         Vice Chairman and Worldwide
+   your achievements to the work you'd be doing in this new job.                                   Creative Director of Young and
+                                                                                                   Rubicam. An excerpt]
+3. Develop your other qualifications, even if the ad doesn’t ask for them. Show what
+                                                                                                   “My advice to young people is to just
+   separates you from the other applicants who will also answer the ad. Demonstrate
+                                                                                                   be passionate about whatever it is you
+   your knowledge of the organization.
+                                                                                                   do. Be the most passionate person in
+4. Ask for an interview; tell when you’ll be available to be interviewed and to begin work.        the room. Not the smartest or the clev-
+   Thank them for considering your application. End on a positive, forward-looking note.           erest, but the most passionate. Total
+rT                                                                                                 passion. Say thank you. Say please.
+                                                                                                   Don't take credit, take the blame. Do
+                                                                                                   all that stuff, that’s good. But if you
+How to Organize Prospecting Letters                                                                are the most passionate person, you'll
+                                                                                                   probably win. Care more about it than
+When you don’t have any evidence that the company is hiring, you cannot                            anybody and you'll be the one that
+use the pattern for solicited letters. Instead, use the pattern of organization in                 wins. People love that. People gravi-
+Figure 13.5. A sample prospecting letter for a student desiring to change fields                   tate toward that.”
+is shown in Figure 13.6.                                                                           Quoted from Lucinda Watson, How
+                                                                                                   They Achieved: Stories of Personal
+
+First Paragraphs of Solicited Letters
+                                                                                                   Achievement and Business Success
+                                                                                                   (New York: John Wiley, 2001), 66.
+
+When you know that the firm is hiring, announcing that you are applying
+for a specific position enables the firm to route your letter to the appropriate
+person, thus speeding consideration of your application. Identify where you
+learned about the job: “the position of junior accountant announced in Sun-
+day’s Dispatch,” “William Paquette, our placement director, told me that you
+are looking for... .”
+   Note how the following paragraph picks up several of the characteristics of
+the ad:
+   Ad:       Business Education Instructor at Shelby Adult Education. Candidate must pos-
+             sess a Bachelor's degree in Business Education. Will be responsible for providing
+             in-house training to business and government leaders. . . . Candidate should have
+             at least one year teaching experience.
+
+   Letter:   | am applying for your position in Business Education that is posted on your
+             school website. In December, | will receive a Bachelor of Science degree from
+             North Carolina A & T University in Business Education. My work has given me two
+             years’ experience teaching word processing and computer accounting courses
+             to adults plus leadership skills developed in the North Carolina National Guard.
+
+   Your summary sentence or paragraph covers everything you will talk
+about and serves as an organizing device for your letter.
+
+   Through my education, | have a good background in standard accounting principles
+   and procedures and a working knowledge of some of the special accounting prac-
+   tices of the oil industry. This working knowledge is enhanced by practical experience
+   in the oil fields: |have pumped, tailed rods, and worked as a roustabout.
+
+
+
+   My business experience, familiarity with DeVilbiss equipment, and communication
+   skills qualify me to be an effective part of the sales staff at DeVilbiss.
+PROFESSION AL WRITING
+
+
+
+
+Figure 13.4 A Solicited Letter from a Graduating Senior
+                                                                                                 831.503.4692
+
+     Jeff Moeller                                                                              51 Willow Street
+                                                                                          San José, CA 95112
+                                                                                           jmoeller@csmb.edu
+               April 4, 2012
+
+               Mr. Richard Grove
+               Telltale Games
+               On Box Gir
+               San Rafael, CA 94912
+
+               Dear Mr. Grove:                           Tell where you learned about the job.
+  In paragraph 1, show you                               If the job has a reference number, provide it.
+  have the |am applying for your Game Designer position posted on your website. As an
+  qualifi- _avid player of Telltale games, | believe that | have all the qualifications to do a
+  cations   great job. With my degree in Computer Science and Information Technology and
+  ithe ad   my experience creating game content, | will be able to apply many skills to the
+  lists.       Game Designer position. My passion for becoming part of the gaming industry, —This summary
+          combined with my oral and written communication skills, makes me a great fit                    sentence
+  Shows _ for the Telltale team.                                                                          forecasts the
+  enthusiasm                   P                     ;       :                     ‘                      structure of
+  forthe     Since | was five, | have had a strong interest in computers and video games,    the rest
+  profession and my interest and knowledge have only increased in recent years. Not only     of the letter.
+  and picks 40 | play video games, | discuss them with others, read news articles about them
+  up on the online, and consider ways to improve or change a specific game. | have also used
+  program- game editors to create my own content in games. When it comes to computers,
+  ming         | have a keen interest in staying current with the latest technology, and | apply
+  experiencemy knowledge hands-on by building systems. These experiences give me an
+  emphasis Understanding of how modern computers and video game systems function.
+  in the job | also have experience with several programming languages, from both
+  aad.       taking courses and learning them on my own. This has increased my eye for
+             detail, a necessary ability for any game designer.                        Provides
+                                                                                                   evidence
+               My passion for creating video games was recognized this year in President           for his
+               Obama's National STEM video game challenge. With a team of students in              achievements
+               Professor Kent Olbernath’s game development class at California State               in the
+               University, | produced “Parrot Villa,” the first level of an immersive game         profession.
+               where players solve mysteries on a unique jungle world. The programming
+               quality and detailed story line helped my team earn second place in the             Relates what
+                                     You can see a demo of “Parrot Villa” at
+               nationwide competition.                                                             he has done
+               www.STEMChallenge.gov/2011_Winners.                                                 to what he
+                                                                                                   could do for
+  ib           Along with my enthusiasm for games, | have strong oral and written                  the company.
+  pees        communication skills. lama confident public speaker, and | have an ability to relay
+  siete       information in a clear and concise manner. More importantly, though, | have
+  ne jee      developed the ability in my creative writing courses to create engaging and     Shows
+  Bical       coherent narratives, which will be a large component of developing new games. familiarity
+  anviee      In addition to my coursework and experience, |have honed my skills online by with
+           writing articles about games. In covering the video game industry for Point         company’s
+              Network, | have reviewed Telltale’s own Tales of Monkey Island.                 products.
+
+                Working in the video game industry is my goal, and | would be a great asset to
+                Telltale Games. | would love to come in for an interview to discuss the position and
+                the contributions | can make. | have always enjoyed playing Telltale’s games, and
+                | look forward to the possibility of working on them one day soon.
+
+                Sincerely,
+               Goff Macller
+                Jeff Moeller
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter 13   Writing Job Application Letters                                           417
+
+
+                                                                                                                       Jocks Rock in the
+Figure 13.5           How to Organize a Prospecting Letter                                                             Workplace
+ee
+                                                                                                                      Some employers are
+ 1. Catch the reader's interest.
+                                                                                                                      seeking athletes to fill
+ 2. Create a bridge between the attention-getter and your qualifications. Focus on what                     jobs because athletes possess
+    you know and can do. Since the employer is not planning to hire, he or she won’t be                     qualities which lead to success
+    impressed with the fact that you’re graduating. Summarize your qualifications briefly in                in the workplace. For example
+    the same order in which you plan to discuss them in the letter. This summary sentence                   Gretchen Tonnesen, former flying
+    or paragraph then covers everything you will talk about and serves as an organizing                     halfback captain for the Princ-
+    device for your letter.                                                                                 eton   University women’s   rugby
+ 3. Develop your strong points in detail. Be specific. Relate what you've done in the past                  team, now works at JP Morgan
+    to what you could do for this company. Show that you know something about the                           Chase & Co. where she exam-
+    company. Identify the specific niche you want to fill.                                                  ines technology, media, and tele-
+                                                                                                            communications companies for
+ 4. Ask for an interview and tell when you'll be available for interviews. (Don’t tell when
+                                                                                                            the investment bank. JP Morgan
+    you can begin work.) Thank them for considering your application. End on a positive,
+                                                                                                            chose her because of her pas-
+    forward-looking note.
+  eee EU ERE NSNSEIIESEENRRRREEERE                                              RRRRERSEREREERERRenErennl   sionate involvement in sports.
+cn
+                                                                                                               Recruiters and employers rec-
+                                                                                                            ognize that college athletes pro-
+First Paragraphs of Prospecting Letters                                                                     vide leadership, competitiveness,
+
+Ina prospecting letter, asking for a job in the first paragraph is dangerous: unless                        and a sharp focus on goals.
+
+the company plans to hire but has not yet announced openings, the reader is
+                                                                                                            Athletes also understand team
+
+likely to throw the letter away. Instead, catch the reader’s interest. Then in the
+                                                                                                             responsibility, time management,
+                                                                                                            and dedication. In addition, ath-
+second paragraph you can shift the focus to your skills and experience, showing                              letes from top schools typically
+how they can be useful to the employer and specifying the job you are seeking.                               have the drive and stamina that
+   Here are some effective first and second paragraphs that provide a transi-                                matches the 80-hour high pres-
+tion to the writer’s discussion of his or her qualifications.                                                sure workweeks found in many
+
+   First two paragraphs of a letter to the director of publications at an oil
+                                                                                                             Wall Street jobs.
+                                                                                                                By the way, Tonnesen got her
+company:                                                                                                     job through the Alumni Athlete
+                                                                                                             Network, founded by a Harvard
+   If scarcity of resources makes us use them more carefully, perhaps it would be a                          basketball captain. The carefully
+   good idea to ration words. If people used them more carefully, internal communica-                        selected students in the Net-
+   tions specialists like you would have fewer headaches because communications                              work’s program have average
+   jobs would be done right the first time.                                                                   GPAs of 3.6 and average SAT
+                                                                                                              scores of 1320.
+   For the last six years | have worked on improving my communications skills, learning                        How can you capitalize on your
+   to use words more carefully and effectively. | have taught business communication                         extracurricular activities to help
+   at a major university, worked for two newspapers, completed a Master’s degree in                          your job search?
+   English, and would like to contribute my skills to your internal communications staff.
+                                                                                                             Adapted from John DeBruicker, “If
+
+First two paragraphs of a letter applying to be a computer programmer for an
+                                                                                                             You're A Jock, You Rock,” Business-
+                                                                                                             Week, September 18, 2006, 67.
+insurance company:
+
+   As you know, merging a poorly written letter with a database of customers just sends
+                                                                                       can
+   out bad letters more quickly. But you also know how hard it is to find people who
+   both program computers and write well.
+                                                                                        my
+   My education and training have given me this useful combination. I’d like to put
+                          computer   technology  and  my  business  experience  writing  to
+   associate’s degree in
+   customers to work in State Farm’s service approach to insurance.
+
+Notice how the second paragraph provides a transition to a discussion of
+qualifications.
+   Questions work well only if the answers aren’t obvious. The computer pro-
+grammer above should not ask this question:
+
+    Do you think that training competent and motivated personnel is a serious concern
+    in the insurance industry?
+PROFESSIONAL WRITING
+
+
+
+
+418                                  Part4   The Job Hunt
+
+
+
+Figure 13.6           A Prospecting Letter from a Career Changer
+
+                                                                                                266 Van Buren Drive
+                  Molly Schooner                                             Molly uses a       Lawrence, KS 66044
+                  www.ukansas.edu/~Schoonerm88/home.htm                      “letterhead”       schoonerm @ ukansas.edu
+                                                                             that hamonizes     785-897-1534 (home)
+                  March 29, 2012                                             with her resume. 785-842-4242 (cell)
+                                                                             (see Figure 12.7)
+                  Mr. Franklin Kohl
+                  PDF Productions
+                  3232 White Castle Road
+                  Minneapolis, MN 85434                In a prospecting letter, open with a sentence which
+                                                       (1) will seem interesting and true to the reader and
+                  Dear Mr. Kohl:                       (2) provides a natural bridge to talking about yourself.
+                  The Wall Street Journal says that PDF Productions is expanding operations into Shows
+                  Kansas, Minnesota, and Nebraska. My experience in technical writing, design, know/edge
+                  and computers would be an asset to your expanding organization.                                 ofthe
+                                                                                                                  organization.
+
+                    While working at a local animal shelter, Iused my technical writing skills to create a
+                    website that allows users to easily access information. To improve the website,
+      Briefly shows
+                    I conducted usability tests which provided useful feedback that I incorporated
+      a variety of
+      reannical     1 modify the overall design. In addition, I was also responsible for writing and
+      writing and editing the shelter's monthly newsletter, which was distributed to roughly
+      computer      1,200 “Friends of the Shelter.” I have extensive computer and design skills,
+      skills.     which I am anxious to put to use for PDF Productions.
+                                                                                                                  Shows how
+                   Course work has also prepared me well for technical writing. Ihave written                     fer course-
+                   technical material on a variety of levels ranging from publicity flyers for the                work /s an
+                   animal shelter to scientific reports for upper-level science courses. My course                asset.
+      Rolates
+      ak          work in statistics has shown me how to work with data and present it accurately
+      she's done for various audiences. Because of my scientific background, I also have a strong
+      to what she vocabulary in both life sciences and chemistry. This background will help me
+                                                                                              Names specific
+      coulddo — get up to speed quickly with clients such as ChemPro and Biostage. My
+      for this    background in science has also taught me just how important specific        clients, showing
+                                                                                                              more knowledge
+      company.     details can be.
+                                                                                                              of company.
+
+                   In May, I will complete my degree from the University of Kansas and will be most
+                   interested in making a significant contribution to PDF Productions. I am available
+                   every Monday, Wednesday, and Friday for an interview (785-897-1534). Thank you
+                   for considering my appliction. I look forward to talking with you about technical
+                   writing I can do for PDF Productions.
+
+                   Sincerely,
+
+                   Wally Fehaanet
+                   Molly Schooner
+                                                 Chapter 13.   Writing Job Application Letters                             419
+
+
+Figure 13.7           Letter Following Up from a Career Fair and Requesting an Internship
+
+
+                                                  Lee Cheng
+                                                  chengl@eccc.edu
+                      Campus Address                                           Panne             Permanent Address
+                      1524 Main Street                                         mndighaainie      2526 Prairie Lane
+                      New Brunswick, NJ 08901                                  FeEtAG:           Middlesex, NJ 08846
+                      732-403-5718                                                               402-442-7793
+
+                      January 23, 2012
+
+                      Ms. Deborah Pascel, HR Department
+                      Prime Financial
+                      401 Prime Park Place
+                      New Brunswick, NJ 08901
+
+                      Dear Ms. Pascel:
+
+    Deshi             Mary Randi at the East Coastal Community College Career Fair suggested I send
+    Bantact           you my résumé for the Sales Advisor internship. My education, combined with
+    immediately.      ™y past work experiences, makes me a strong candidate for Prime Financial.
+
+   eras he has        While working toward my Associate of Arts degree in Financial Management
+   been getting       from East Coastal Community College, I have learned the value of fiscal
+   full value from    responsibility. For example, in my social financial planning course, I developed
+   his schooling.     a strategic plan to eliminate credit card debt for a one-income household with payors io
+                      two children. Moreover, in my business communication course, I improved MYKnowledge
+                      oral communication ability so that I could effectively communicate my plans           gained at
+                      to potential clients. This ability will be an asset to Prime Financial as the         career fair.
+   Paragraphs 2       organization works to maintain the strong relationship with the community
+   and 3 show         and small business owners that Ms. Randi informed me about.
+                                                                                                            Provides
+   he has skills
+                      My financial education, combined with my previous work experiences in                 details
+   hecanuse
+                                                                                                            about his
+   immediately       — sales, will allow me to thoroughly analyze investment opportunities and
+                       establish a strong client base for Prime Financial. For example, I started           sales
+   as anintern.
+                       the A-Plus T-Shirt Company that sold graphic T-shirts to high school                 naa
+                       students; it had a routine client base of over 150 customers. From managing          his reader.
+                       this business, I know what it takes to be reliable and responsive to customer
+                       needs. I am looking forward to learning new approaches from Prime Financial's
+                       internship, particularly new ways to work with small businesses.
+
+                       With my education and experience, I can provide the innovative and competitive
+                       edge necessary to be part of your team. I would welcome an interview to discuss
+                       your internship and the contributions I could make at Prime Financial.
+
+                       Sincerely,
+
+                      Lee Cherg
+                       Lee Cheng
+PROFESSIONAL WRITING
+
+
+
+
+                                        Part4   The Job Hunt
+
+
+            Unfortunate Cover           If the reader says yes, the question will seem dumb. If the reader says no, the
+            Letter Statements           student has destroyed his or her common ground. The computer programmer,
+            a   “Please find my         however, could pose this question:
+                résumé.” Did you
+                look under the             How often do you see a programmer with both strong programming skills and good
+                couch?                     communication skills?
+   “| have integrity so | will not
+   steal office supplies and take       This question would give him or her an easy transition into paragraphs about
+   them home.” Good to know.            his/her programming and communication skills.
+   “Please, please, please hire
+   me for this job. | will be wait-
+   ing by the phone.” Don’t wait        Showing a Knowledge of the Position and the Company
+   too long.
+                                        If you could substitute another inside address and salutation and send out the
+   “What interested me about
+   this job is that it’s with a pres-
+                                        letter without any further changes, it isn’t specific enough. A job application
+   tigious company.” Glad to            letter is basically a claim that you could do a specific job for a particular com-
+   hear it.                             pany. Use your knowledge of the position and the company to choose relevant
+   “After perusing my résumé, |         evidence from what you’ve done to support your claims that you could help
+   am looking forward to hearing        the company. (See Figures 13.4 and 13.6.)
+   from you soon.” If you don’t             The following paragraphs show the writer’s knowledge of the company.
+   mind, we'd appreciate the
+                                           A letter to PricewaterhouseCoopers’s Minneapolis office uses information
+   opportunity to peruse it our-
+   selves before we get back
+                                        the student learned in a referral interview with a partner in an accounting
+   to you.
+                                        firm. Because the reader will know that Herr Wollner is a partner in the Berlin
+                                        office, the student does not need to identify him.
+   “I'm submitting the attached
+   copy of my résumé for your
+   consumption.” Yum.                       While | was studying in Berlin last spring, | had the opportunity to discuss account-
+    “| perform my job with effort-          ing methods for multinational clients of PricewaterhouseCoopers with Herr Fritz
+    less efficiency, effectiveness,         Woliner. We also talked about communication among PricewaterhouseCoopers’s
+    efficacy, and expertise.” And           international offices.
+    an awful lot of alliteration,
+    apparently.                             Herr Wollner mentioned that the increasing flow of accounting information between
+    “The interview you schedule             the European offices—especially those located in Germany, Switzerland, and
+    will undoubtedly reveal my              Austria—and the U.S. offices of PricewaterhouseCoopers makes accurate transla-
+    unmatched talent and suit-              tions essential. My fluency in German enables me to translate accurately; and my
+    ability for the position.” Uh,          study of communication problems in Speech Communication, Business and Pro-
+    don’t count your chickens. . . .        fessional Speaking, and Business and Technical Writing will help me see where
+    “But wait . . . there’s more.           messages might be misunderstood and choose words which are more likely to com-
+    You get all this business               municate clearly.
+    knowledge plus a grasp
+    of finance that is second
+    nature.” If | act now, will you
+                                            A letter to KMPG uses information the student learned in a summer job.
+    throw in a set of kitchen
+    knives?                                 As an assistant accountant for Pacific Bell during this past summer, | worked with
+                                            its computerized billing and record-keeping system, BARK. | had the opportunity
+ Quoted from “Resumania Archive,”
+ Resumania,   accessed March 20,            to help the controller revise portions of the system, particularly the procedures for
+ 2011,    —_http://www.resumania.com/       handling delinquent accounts. When the KMPG audit team reviewed Pacific Bell’s
+ ResumaniaArchive.                          transactions completed for July, | had the opportunity to observe your System 2170.
+                                            Several courses in computer science allow me to appreciate the simplicity of your
+                                            system and its objective of reducing audit work, time, and costs.
+
+
+                                            One or two specific details about the company usually are enough to demon-
+                                         strate your knowledge. Be sure to use the knowledge, not just repeat it. Never
+                                         present the information as though it will be news to the reader. After all, the reader
+                                         works for the company and presumably knows much more about it than you do.
+                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter 13   Writing Job Application Letters                                    421
+
+
+                                                                                                               Study Abroad and
+Showing What Separates You from Other Applicants                                                               Overseas Work
+
+Your knowledge of the company can separate you from other applicants.
+                                                                                                               Programs
+
+You can also use coursework, an understanding of the field, and experience                                     Have you considered
+in jobs and extracurricular events to show that you’re unique. Stress your                                     a studies abroad pro-
+
+accomplishments, not your job responsibilities. Be specific but concise; usu-                      gram or international job?
+
+ally three to five sentences will enable you to give enough specific support-
+                                                                                                     If so, a variety of resources are
+                                                                                                   available. These websites offer
+ing details.                                                                                       assistance for students interested
+   This student uses both coursework and summer jobs to set herself apart                          in study abroad programs:
+from other applicants. Her research told her Monsanto had recently adopted                          http:/Avww.ciee.org/
+new accounting methods for fluctuations in foreign currencies. Therefore, she                       http://studyabroad.com/
+mentions relevant simulations from her coursework.
+                                                                                                    http://iiepassport.org/
+                                                                                                     For information regarding full-
+  My college courses have taught me the essential accounting skills required to
+                                                                                                   time overseas opportunities, visit
+  contribute to the growth of Monsanto. In two courses in international accounting,
+                                                                                                   the following websites:
+  | compiled simulated accounting statements of hypothetical multinational firms
+                                                                                                    http://www.monster.com/geo/
+  in countries experiencing different rates of currency devaluation. Through these
+                                                                                                    siteselection/.
+  classes, | acquired the skills needed to work with the daily fluctuations of exchange
+                                                                                                    http:/Awww.jobsabroad.com/
+  rates and at the same time formulate an accurate and favorable representation of
+                                                                                                    search.cfm
+   Monsanto.
+                                                                                                    http://transitionsabroad.conV
+
+    ‘Both my summer jobs and my coursework prepare me to do extensive record keep-
+     ing as well as numerous internal and external communications. As Office Manager
+ - for the steamboat Julia Belle Swain, | was in charge of most of the bookkeeping and
+     letter writing for the company. | kept accurate records for each workday, and | often
+ ~ entered over 100 transactions in a single day. In business communication | learned
+  ~ how to write persuasive messages and how to present extensive data in reports ina
+   simplified style that is clear and easy to understand.
+
+   In your résumé, you may list activities, offices, and courses. In your letter,
+give more detail about what you did and show how those experiences will
+help you contribute to the employer’s organization more quickly.
+   When you discuss your strengths, don’t exaggerate. No employer will
+believe that a new graduate has a “comprehensive” knowledge of a field.
+Indeed, most employers believe that six months to a year of on-the-job train-
+ing is necessary before most new hires are really earning their pay. Specifics
+about what you've done will make your claims about what you can do more
+believable and ground them in reality.
+
+
+The Last Paragraph
+ In the last paragraph, indicate when you'd be available for an interview. If
+ you're free anytime, you can say so. But it’s likely that you have responsibili-
+ ties in class and work. If you’d have to go out of town, there may be only cer-
+ tain days of the week or certain weeks that you could leave town for several
+ days. Use a sentence that fits your situation.
+
+   November 5-10 I'll be attending the Oregon Forestry Association’s annual meeting
+   and will be available for interviews then.
+
+
+
+   Any Monday or Friday | could come to Memphis for an interview.
+PROFESSIONAL WRITING
+
+
+
+
+                                           Part4    The Job Hunt
+
+
+              Email Horror Story              Should you wait for the employer to call you, or should you call the
+              “| sent a digital resume     employer to request an interview? In a solicited letter, it’s safe to wait to be
+        P&,   and cover letter via         contacted: you know the employer wants to hire someone, and if your letter
+           email to apply for a            and résumé show that you’re one of the top applicants, you'll get an interview.
+              position as a technical      In a prospecting letter, call the employer. Because the employer is not plan-
+writer. Within a few hours, a mes-         ning to hire, you'll get a higher percentage of interviews if you're assertive.
+sage from the director in charge of            If you’re writing a prospecting letter to a firm that’s more than a few hours
+hiring came via email. Full of antici-     away by car, say that you'll be in the area the week of such-and-such and
+pation, | opened the email to find         could stop by for an interview. Companies pay for follow-up visits, but not for
+a terse message: ‘your resume is
+                                           first interviews. A company may be reluctant to ask you to make an expensive
+infected with a virus and has been
+                                           trip when it isn’t yet sure it wants to hire you.
+                                               End the letter on a positive note that suggests you look forward to the inter-
+quarantined.’ A person cannot
+recover from an infected resume. |
+did not pursue the position further.”      view and that you see yourself as a person who has something to contribute,
+                                           not as someone who just needs a job.
+Quoted from “Horror Stories,” ResumeEdge
+com, accessed April 5, 2011, http://
+www. resumeedge.convcontentpartners/             | look forward to discussing with you ways in which | could contribute to The Limited’s
+interviews13.html.                               continued growth.
+
+                                              Do not end your letter with a variation of the negative cliché “Please do not
+                                           hesitate to contact me.” Why do you think they would hesitate? Also avoid
+                                           this other tired cliche: “Thank you for your time.” Using an overworked end-
+                                           ing dumps you right back in the pool with all the other applicants.
+                                              Oh yes, one more thing. Don’t forget to sign your letter—with blue or black
+                                           ink—legibly.
+
+                                            E-MAIL APPLICATION LETTERS
+                                           You will probably e-mail most of your applications. If your application is solic-
+                                           ited, you can paste your traditional letter into your e-mail. If your application
+                                           is prospecting, you need a shorter letter that will catch the reader’s attention
+                                           within the first screen (see Figure 13.8). Your first paragraph is crucial; use it
+                                           to hook the reader.
+                                              Some experts are starting to recommend a shorter letter for both situations,
+                                           but many caution that you need to include enough information to make you,
+                                           not one of the numerous other applicants, the person for the job. Frequently
+                                           that is hard to do in one screen.
+                                              When you submit an e-mail letter with your résumé,
+
+                                                   Include your name as part of the subject line.
+                                             =     Put the job number or title for which you're applying in the first
+                                                   paragraph.
+                                             =     Prepare your letter in a word-processing program. Use a spell checker
+                                                    to make it easier to edit and proof the document; then paste it into the
+                                                    e-mail.
+                                              =     Use   standard    business    letter features:    salutation,    standard    closing,
+                                                    single-spacing with double-spacing between paragraphs.
+                                              =     Keep line length to a maximum of 65 characters, including spaces, so
+                                                    receivers won't get a strange mixture of long and short lines.
+                                                    Don’t put anything in all capital letters.
+                                                    Don’t use smiley faces or other emotions.
+                                              m     Put your name at the end of the message.
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                     Chapter 13   Writing Job Application Letters                          423
+
+
+Figure 13.8           An E-mail with Application Letter and Resumé
+  = Untitled - Message (Rich Text)
+
+
+
+
+       TO...      _pascel@prime.com
+
+                  _cheng]@eccc.edu_
+      8CC.
+                    =
+    Subject: _Résumé—Lee Cheng
+                   Dear Ms. Pascel:                                                                     Uses contact
+                                                                                                        immediately
+                   At the East Coast Community College Fair, Ms. Mary Randi said to e-mail you my
+   | Tell what     résumé for the Sales Advisor internship. I have pasted my résumé below and have
+     format the    also attached it as a PDF. My degree in Financial Management, combined with my
+    attached        past work experiences, makes me a strong candidate for Prime Financial.
+    résumé is in.
+                    My course work honed professional skills. For example, in my social financial planning
+                    course, I developed a strategic plan to eliminate credit card debt for a one-income
+                    household with two children. In my business communication course, I improved        See Cheng’s
+                    my oral communication ability so that I could effectively communicate my            longer letter
+                    plans to potential clients.                                                         in Figurer 13.7.
+
+                    My understanding of clients and their needs derives from my own work experiences.
+    Pick your       I started the A-Plus T-shirt Company that sold graphic T-shirts to high school
+    most        students; it had a routine client base of over 150 customers. From managing this
+    impressive  business, I know what it takes to be reliable and responsive to customer needs.
+    information I can provide the innovative and competitive edge necessary to be part of your
+     for the        team. I would welcome an interview to discuss your internship and the contributions
+    shortened       could make at Prime Financial.
+     version.
+                    Thank you,
+
+
+                    Lee Cheng
+     Send a
+     Word           [Electronic résumé would be pasted here. PDF of résumé would be attached.|
+     document
+     or PDF file
+     only if requested.
+     Many employers will
+     not open them
+     because of viruses.
+
+
+
+
+   Follow all guidelines posted by the company. Do not add attachments
+unless you know doing so is OK. Test your e-mail by sending it to a friend;
+have your friend recheck it for appearance and correctness.
+
+ CREATING A PROFESSIONAL IMAGE
+Every employer wants businesslike employees who understand professional-
+ism. To make your application letter professional,
+PROFESSIONAL WRITING
+
+
+
+
+424                                         Part4     The Job Hunt
+
+
+              You(r) Attitude
+              Matters                        =      Create your letter in a word-processing program so you can use features
+                                                    such as spell check. Use a standard font such as Times New Roman,
+              lf you find getting a
+                                                    Arial, or Helvetica in 12-point type.
+              job difficult, your atti-
+ tude may be the reason. Here                =      Address your letter to a specific person. If the reader is a woman, call the
+ are four common career-blocking                    office to find out what courtesy title she prefers.
+ attitudes and responses to them:            =      Don’t mention relatives’ names. It’s OK to use names of other people
+ Attitude:     | deserve a good job                 if the reader knows those people and thinks well of them, if they think
+               because | went to                    well of you and will say good things about you, and if you have permis-
+               school for four years.               sion to use their names.
+ Response:     Employers are look-           =      Omit personal information not related to the job.
+               ing for who is best
+                                             =      Unless you're applying for a creative job in advertising, use a conserva-
+                                                    tive style: few contractions; no sentence fragments, clichés, or slang.
+               for a job, not who
+               “deserves”a job.
+                                              =     Edit the letter carefully and proof it several times to make sure it’s per-
+                                                    fect. Errors suggest that you’re careless or inept. Double-check the spell-
+ Attitude:      | am open to any job.
+                | have no idea what |
+                want to do.
+                                                    ing of the receiver’s name.
+                Employers want work-
+                                              =     Print on the same paper (both shade and weight) you used for your
+ Response:
+                ers who are focused.
+                                                    résumé. Envelopes should match, too.
+                | don't have experi-
+                                              =     Useacomputer to print the envelope address.
+ Attitude:
+                ence because no one
+                will give me a chance.
+ Response:      Employers    do not         Writing Style
+                employ    people to
+                give them a “chance.”       Use a smooth, concise writing style (Chapter 5). Use the technical jargon of
+                Employers are con-          the field to show your training, but avoid businessese and stuffy words like
+                cerned with what an         utilize, commence, and transpire (for happen). Use a lively, energetic style that
+                applicant can do for        makes you sound like a real person.
+                them.
+                                                Avoid words that can be interpreted sexually. A model letter distributed
+ Attitude:      | am       so   down   on   by the placement office at a midwestern university included the following
+                myself that it’s hard        sentence:
+                to keep looking for a
+
+                                                  I have been active in campus activities and have enjoyed good relations with my
+                job.
+  Response:     Get professional help,            classmates and professors.                                                    :
+                because this attitude
+                is poisonous to your
+                                             Sentences like this get shared for laughs; that’s not the kind of attention you
+                 life as well as your
+                                             want to get!
+                 career.
+                                                Be sure your letter uses the exact language of the job ad and addresses all
+  Adapted from Peter Vogt,“Self-Defeating    items included in the ad. If the ad mentions teamwork, your letter should
+  Attitudes Will Stop Your Job Search        give examples of teamwork; don’t shift the vocabulary to collaboration. Many
+  Cold,” Monster.com, accessed April 8,
+  2011,     http://career-advice.monster
+                                             readers expect their job ad language in applicants’ letters. If the language is
+  .com/job-search/getting-started/self-      not there, they may judge the applicant as not fitting the position. And so may
+  defeating-attitudes-job-search/article     their computer, since the vocabulary of the job ad probably contains crucial
+  .ASpX.
+                                             key words for the computer to find.
+
+
+                                             Positive Emphasis
+                                             Be positive. Don’t plead (“Please give me a chance”) or apologize (“I cannot
+                                             promise that I am substantially different from the lot”). Most negatives should
+                                             be omitted from the letter.
+                                                Avoid word choices with negative connotations (see Chapter 3). Note how
+                                             the following revisions make the writer sound more confident.
+                                                    Negative:        | have learned an excessive amount about writing through courses in jour-
+                                                                     nalism and advertising.
+                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                     Chapter 13   Writing Job Application Letters                        425
+
+
+  Positive:        Courses in journalism and advertising have taught me to recognize
+                   and to write good copy. My profile of a professor was published in the
+                   campus newspaper; | earned an “A +” on my direct mail campaign for
+                   the American Dental Association to persuade young adults to see their
+                   dentist more often.
+
+Excessive suggests that you think the courses covered too much—hardly an
+opinion likely to endear you to an employer.
+  Negative:        You can check with my references to verify what I’ve said.
+  Positive:        Professor Hill can give you more information about my work on his
+                   national survey.
+
+Verify suggests that you expect the employer to distrust what you've said.
+
+
+You-Attitude
+Unsupported claims may sound overconfident, selfish, or arrogant. Create
+you-attitude (Chapter 3) by describing accomplishments and by showing how
+they relate to what you could do for this employer.
+  Lacks you-attitude:        An inventive and improvising individual like me is a necessity in
+                             your business.
+
+  You-attitude:              Building a summer house-painting business gave me the
+                             opportunity to find creative solutions to challenges. At the end
+                             of the first summer, for example, | had nearly 10 gallons of
+                             exterior latex left, but no more jobs. | contacted the home eco-
+                             nomics teacher at my high school. She agreed to give course
+                             credit to students who were willing to give up two Saturdays
+                             to paint a house being renovated by Habitat for Humanity. |
+                             donated the paint and supervised the students. | got a chari-
+                             table deduction for the paint and hired the three best students
+                             to work for me the following summer. | could put these skills in
+                             problem solving and supervising to work as a personnel man-
+                             ager for Burroughs.
+
+Show what you can do for them, not what they can do for you.
+
+   Lacks you-attitude:       A company of your standing could offer the challenging
+                             and demanding kind of position in which my abilities could
+                              flourish.
+   You-attitude:              Omit.
+
+   Remember that the word you refers to your reader. Using you when you
+really mean yourself or “all people” can insult your reader by implying that
+he or she still has a lot to learn about business:
+   Lacks you-attitude:        Running my own business taught me that you need to learn to
+                              manage your time.
+
+   You-attitude:              Running my own business taught me to manage My time.
+
+    Beware of telling readers information they already know as though they do
+ not know it. This practice can also be considered insulting.
+    Lacks you-attitude:       Your company has just purchased two large manufacturing
+                              plants in France.
+
+   You-attitude:              My thrée college French courses would help me communicate
+                              in your newly acquired French manufacturing facilities.
+PROFESSIONAL WRITING
+
+
+
+
+426                    Part4   The Job Hunt
+
+
+                         Since you're talking about yourself, you'll use I in your letter. Reduce the
+                       number of Is by revising some sentences to use me or my.
+                          Under my presidency, the Agronomy Club ...
+                          Courses in media and advertising management gave me a chance to...
+                          My responsibilities as a summer intern included .. .
+                          In particular, avoid beginning every paragraph with I. Begin sentences with
+                       prepositional phrases or introductory clauses:
+                          As my résumé shows, I. . .
+                          In my coursework in media and advertising management, I. . .
+                          Asasummer intern,!...
+                          While I was in Italy, .. .
+
+                       Paragraph Length and Unity
+                       Keep your first and last paragraphs fairly short—preferably no more than four
+                       or five typed lines. Vary paragraph length within the letter; it’s OK to have one
+                       long paragraph, but don’t use a series of eight-line paragraphs.
+                          When you have a long paragraph, check to be sure that it covers only one
+                       subject. If it covers two or more subjects, divide it into two or more paragraphs.
+                          Use topic sentences at the beginning of your paragraphs to make your letter
+                       more readable.
+
+                       Letter Length
+                       Have at least three paragraphs. A short letter throws away an opportunity to
+                       be persuasive; it may also suggest that you have little to say for yourself or
+                       that you aren’t very interested in the job.
+                          Without eliminating content, tighten each sentence (Chapter 5) to be sure
+                       that you're using words as efficiently as possible. If your letter is a bit over a
+                       page, use slightly smaller margins or a type size that’s one point smaller to get
+                       more on the page.
+                          If you have excellent material that will not fit on one page, use it—as long
+                       as you have at least 6-12 lines of body text on the second page. The extra
+                       space gives you room to be more specific about what you've done and to add
+                       details about your experience that will separate you from other applicants.
+                       Employers don’t want longer letters, but they will read them /fthe letter is well
+                       written and ifthe applicant establishes early in the letter that he or she has the
+                        credentials the company needs. Remember, however, that the trend is toward
+                        shorter letters.
+
+
+                        Editing and Proofreading
+                        Be sure you edit and proofread your cover letter. Failure to do so can undo
+                        all the work you put into it. The web abounds with humorous examples
+                        of spelling errors making unintended statements (I’m excellent at spelling
+                        and grammer). In fact, some companies post the best bloopers on their web
+                        sites. For example, Robert Half International maintains Resumania (resuma-
+                        nia.com); Killian Branding, an advertising agency, has “Cover Letters from
+                        Hell” on their website (www.killianbranding.com/cover-letters-from-hell/):
+                        the “poetic” Night-before-Christmas cover letter is amazing.
+                           Check your content one last time to ensure that everything presents you as
+                        a hard-working professional. Make sure you are not revealing any frustration
+                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                   Chapter 13   Writing Job Application Letters                                       427
+
+
+with the job search process in your content or diction. Check your tone to see                                Fatal Spelling Errors
+that it is positive about your previous experiences and yourself. Don’t beg or                                These spelling errors
+show too much gratitude for commonplaces such as reading your letter.                                         occurred     in     actual
+                                                                                                              cover letters:
+
+Follow-Up                                                                                         =   “| feel my rigorous education
+                                                                                                      and subsequent internship
+Follow up with the employer once if you hear nothing after two or three weeks.                        have prepared me for any
+It is also OK to ask once after one week if e-mail materials were received. If                        obstical | might encounter.”
+your job letter was prospecting, it is fine to follow up two or three times. Do                       Except the challenge of find-
+not make a pest of yourself, however, by calling or e-mailing too often; doing                        ing misspelled words.
+so could eliminate you from further consideration.                                                =   “| prefer a fast-paste work
+                                                                                                      environment.” For life’s sticki-
+                                                                                                      est situations.
+APPLICATION ESSAYS                                                                                =   “lam very interested in
+Some jobs and internships, and many scholarship and graduate school appli-                            the newspaper add for
+                                                                                                      the accounting position.”
+cations, ask for an application essay. In a sense, this essay is an extended cover
+                                                                                                      And we're divided on your
+letter, but one written in an essay format rather than letter format. It will detail
+                                                                                                      qualifications.
+your strengths for the job/internship /scholarship/graduate school slot and
+                                                                                                  =   “lam extremely detailori-
+show why you should be chosen instead of other applicants.
+                                                                                                      ented.” I’m afraid we’re not
+   The essay offers you a chance to expand on your best points in more detail                         convinced.
+than does a cover letter. In so doing, you need to capture your readers’ atten-
+                                                                                                  =   Name on letterhead: “Sam
+tion and show that you are exceptional. Frequently this means you need to put                         Mevlin”; Signature: “Sam
+some of your personality into your essay. Here you can spell out with more                            Melvin” Would the real Sam
+interesting details skills you have already acquired from previous experiences                        please come forward?
+and will bring to the new job or internship. Here you can elaborate on your
+academic achievements so you seem worthy of a scholarship or able to thrive                       Robert Half International, “Cover Letter
+                                                                                                  Statements,” accessed March 20, 2011,
+in the rigors of graduate school. You can also expand more on general skills                      http://www.resumania.com/Resumania
+such as communication, critical thinking, and teamwork. Show that you are                         Archive.
+capable, hard working, and interesting.
+   The essay also gives you room to include content that you would not put in
+a cover letter. For instance, you might want to include an anecdote that shows
+something about you as a developing professional (hint: make it interesting
+but not melodramatic). Or you might talk some about future goals. How did
+you arrive at these goals? How would this internship advance your career
+goals? Why do you want to go to graduate school? What do you want to do
+after the internship, scholarship, or graduate career is over?
+
+             WARNING:        Becareful when giving goals for job application essays. You
+              do not want your goals to make the job seem like a quick steppingstone to
+      better opportunities.
+
+
+   Remember to use the good writing techniques you have learned in this
+course and your other communication classes.
+
+  =     Follow the directions, especially word and page limits, precisely. If the
+        essay is to respond to a question, make sure it answers the question.
+  m     Have a focal point for your essay, a unifying theme. This will help pre-
+        vent you from merely listing accomplishments (your résumé did that).
+  =     Start your essay with an interesting paragraph to catch attention. Do not
+        summarize your essay, or your reader may go no further.
+  =     Remember your audience. Show what you can do for this company, or
+        why you want to go to this particular graduate school. But most of all,
+        show what's in it for them if they accept you.
+|   PROFESSIONAL WRITING
+
+
+
+
+    428                    Part4    The Job Hunt
+
+
+
+                               = Use vivid details in the body of the essay. They don’t have to be wildly
+                                 creative for a job essay; showing how you cut production time for the
+                                 department newsletter by 15% will be interesting to your reader if the
+                                 job is a good fit for you.
+                               = Use some unique details. If your sentence could be used in many other
+                                 applications, it is not showing why you should get the internship /job/
+                                 scholarship / graduate school slot.
+                                 Avoid unsupported generalities and clichés.
+                               = Use topic sentences at the beginnings of your paragraphs. Remember
+                                 these essays are frequently read quickly.
+                               = Let your word choice reveal your personal voice. Since the essay is about
+                                   you, it’s fine to use some first person. Avoid thesaurus diction.
+                               =   End with a strong concluding paragraph. Remember, this is their last
+                                   impression of you. Do not waste it on a boring summary of a one-page
+                                   essay.
+
+
+
+
+                           = Résumés differ from letters of application in the following ways:
+                             s The résumé summarizes all your qualifications. The letter expands your
+                                 best qualifications to show how you can help the organization meet its
+                                 needs, how you differ from other applicants, and that you have some
+                                 knowledge of the organization.
+                             = The résumé avoids controversial material. The letter can explain in pos-
+                                 itive ways situations such as gaps in employment history.
+                             = The résumé uses short, parallel phrases and sentence fragments. The
+                                 letter uses complete sentences in well-written paragraphs.
+                           = Information and referral interviews can help you tap into the hidden job
+                             market—jobs that are not advertised. In an information interview you
+                             find out what the day-to-day work involves and how you can best prepare
+                             to enter that field. Referral interviews are interviews you schedule to learn
+                             about current job opportunities in your field.
+                           = When you know that a company is hiring, send a solicited job letter. When
+                              you want a job with a company that has not announced openings, send a
+                              prospecting job letter. In both letters, you should
+                              = Address the letter to a specific person.
+                                  Indicate the specific position for which you’re applying.
+                                  Be specific about your qualifications.
+                                  Show what separates you from other applicants.
+                                  Show a knowledge of the company and the position.
+                                      Refer to your résumé (which you would enclose with the letter).
+                                      Ask for an interview.
+                            =      Use your knowledge of the company, your coursework, your understand-
+                                   ing of the field, and your experience in jobs and extracurricular activities to
+                                   show that you’re unique.
+                            =      Don’t repeat information that the reader already knows; don’t seem to be
+                                   lecturing the reader on his or her business.
+                                                           Business and Administrative Communication,
+                                                                                                  Tenth Edition
+
+
+
+
+                                                  Chapter 13   Writing Job Application Letters                                 429
+
+
+=    Use positive emphasis to sound confident. Use you-attitude by supporting
+     general claims with specific examples and by relating what you’ve done to
+     what the employer needs.
+=    Haveat least three paragraphs in your letter. Most job letters are only one page.
+=    Application essays give you a chance to expand on your best points and
+     show your personality.
+
+                                                                                                 *Go to www.mhhe.com/locker10e for
+      CHAPTER        13          Exercises and P r oblems                                        additional Exercises and Problems.
+
+
+
+
+13.1.      Reviewing the Chapter
+
+1. What are three ways that job letters differ from              4. What are the differences between solicited and pros-
+     résumés? (LO 13-2)                                             pecting letters? (LO 13-2)
+2. What are some ways to research specific employers?            5. What are five tips for writing a job letter that makes
+   (LO 13-1)                                                        you look attractive to employers? (LO 13-2)
+3. What is the difference between information and                6. What are 10 ways to create a professional image
+   referral interviews? (LO 13-1)                                     with your letter? (LO 13-2)
+
+
+
+a3.2       Reviewing Grammar
+
+As you have read, it is crucial that your job letter be          word pairs like affect/effect. Practice choosing the correct
+error-free. One common error in job letters, and one that        word with Exercises B.12, B.13, and B.14 in Appendix B.
+spell-checking programs will not catch, is confusing
+
+
+
+13.3       Analyzing First Paragraphs of Prosp ecting Letters
+
+All of the following are first paragraphs in prospecting              rust-resistant, less expensive finish is a tough ques-
+letters written by new college graduates. Evaluate the                tion. But similar questions must be answered daily
+paragraphs on these criteria:                                         by your salespeople. With my experience in the
+= Is the paragraph likely to interest readers and moti-               electroplating industry, I can contribute greatly to
+    vate them to read the rest of the letter?                         your constant need of getting customers.
+= Does the paragraph have some content that the stu-              5. Whata set of tractors! The new 9430 and 9630 die-
+     dent can use to create a transition to talking about            sels are just what is needed by today’s farmer with
+                                                                     his ever-increasing acreage. John Deere has truly
+    his or her qualifications?
+                                                                     done it again.
+= Does the paragraph avoid asking for a job?
+                                                                  6. Prudential Insurance Company did much to help
+      For the past two and one-half years I have been                my college career as the sponsor of my National
+      studying turf management. On August 1, I will                  Merit Scholarship. Now I think I can give something
+      graduate from         University with a BA in Orna-            back to Prudential. I’d like to put my education,
+      mental Horticulture. The type of job I will seek will          including a BS degree in finance from
+      deal with golf course maintenance as an assistant              University, to work in your investment department.
+      superintendent.                                             7. Since the beginning of Delta Electric Construction
+2. Ann Gibbs suggested that I contact you.                           Co. in 1993, the size and profits have grown steadily.
+ 3. Each year, the Christmas shopping rush makes more                My father, being a stockholder and vice presi-
+      work for everyone at Nordstrom’s, especially for the           dent, often discusses company dealings with me.
+      Credit Department. While working for Nordstrom’s               Although the company has prospered, I understand
+      Credit Department for three Christmas and summer               there have been a few problems of mismanagement.
+      vacations, the Christmas sales increase is just one of         I feel with my present and future qualifications,
+      the credit situations I became aware of.                       I could help ease these problems.
+ 4. Whether to plate a two-inch eyebolt with cadmium
+      for a tough, brilliant shine or with zinc for a
+PROFESSIONAL WRITING
+
+
+
+
+430                                      Part4   The Job Hunt
+
+
+13.4       Improving You-Attitude and Positive Emphasis in Job Letters
+
+Revise each of these sentences to improve you-attitude               5.    Ihave been with the company from its beginning to
+and positive emphasis. You may need to add information.                    its present unfortunate state of bankruptcy.
+1. Iunderstand that your company has had problems                    6.    Iwish to apply for a job at Austin Electronics. I will
+    due to the mistranslation of documents during                          graduate from Florida State in May. I offer you a
+    international ad campaigns.                                            degree in electrical engineering and part-time work
+2. Included in my résumé are the courses in Finance                        at Best Buy.
+      that earned me a fairly attractive grade average.               7.   Iwas so excited to see your opening. This job is
+3.    Iam looking for a position that gives me a chance to                 perfect for me.
+      advance quickly.                                                8.   You will find me a dedicated worker, because I
+4.    Although short on experience, I am long on effort                    really need a job.
+      and enthusiasm.
+
+
+
+13.5       Evaluating Letter Content
+
+Improve the content of these passages from job coverlet-              4. I will be in Boston for a family reunion June 23-25
+ters. You may need to add content.                                       and will drop by your office then for an interview.
+1. My internship gave me lots of experience for this job.             5. I feel any of my bosses would tell you that I try hard
+2. My job duties at Saxon Sport were to create                             and pay attention to to detail.
+      displays, start an employee newsletter, and on                  6.   Iwish to apply for your job as a computer program-
+      weekends I was part of the sales staff.                              mer. I have a computer science minor and two
+3.    While at San Fernando State, I participated in                       summers of sales experience at Best Buy in their
+      lots of activities. I played intramurals in baseball,                computer department.
+      football, basketball, hockey, and volley ball. I was            7.   lama   very hard worker. In fact, I have a reputation
+      treasurer and then president of the Marketing                        for finishing the jobs of other workers.
+      Club. I was in the Gaffers’ Guild, where I made
+      blown-glass creations. I was also in Campus
+      Democrats.
+
+
+
+ 13.6       Evaluating Rough Drafts
+ Evaluate the following drafts. What parts should be
+ omitted? What needs to be changed or added? What
+ parts would benefit from specific supporting details?
+
+            ale
+                     Dear            :
+                     There is more to a buyer’s job than buying the merchandise. And a clothing buyer in
+                     particular has much to consider.
+
+                        Even though something may be in style, customers may not want to buy it. Buyers
+                        should therefore be aware of what customers want and how much they are willing
+                     to pay.
+
+                        In the buying field, request letters, thank-you     letters, and persuasive letters are
+                        frequently written.
+
+                        My interest in the retail field inspired me to read The Gap’s annual report. | saw that a
+                        new store is being built. An interview would give us a chance to discuss how | could
+                        contribute to this new store. Please call me to schedule an interview.
+
+
+                        Sincerely,
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                   Chapter 13.   Writing Job Application Letters                        431
+
+
+                  Dear Sir or Madam:
+
+                   | am taking the direct approach of a personnel letter. | believe you will under stand
+                   my true value in the areas of practical knowledge and promotional capabilities.
+
+                  | am interested in a staff position with Darden in relation to trying to improve the opera-
+                  tions and moral of the Olive Garden Restaurants, which |think that | am capable of doing.
+                  Please take a minute not to read my résumé (enclosed) and call to schedule an interview.
+
+                   Sincerely,
+
+
+                   Dear.         :
+
+                   | would like to apply for the opening you announced for an Assistant Golf Course
+                   Superintendent. | have the qualifications you are asking for.
+
+                    Every year the Superintendent must go before the greens committee to defend its
+                    budget requests. To prepare myself to do this, | took courses in accounting, busi-
+                    ness and administrative writing, and speech.
+
+                    | have done the operations necessary to maintain the greens properly.
+
+                    | look forward to talking with you about this position.
+
+                    Sincerely,
+
+
+
+13.7.     Gathering Information about an Industry
+
+Use six recent issues of a trade journal to report on three      = _b. Summarize your findings in a memo to your instruc-
+or four trends, developments, or issues that are impor-                tor. Include a discussion of how you could use this
+tant in an industry.                                                   information in your job letter and résumé.
+                                                                    c. Present your findings to the class.
+As your instructor directs,
+a.   Share your findings with a small group of other               d. Join with a small group of other students to write a
+                                                                       report summarizing the results of this research.
+     students.
+
+
+13.8      Gathering Information about Companies in Your Career Field
+
+Use five different websites, such as those listed in               b.    Summarize your finding           s to your instruc-
+                                                                                                   in a memo
+Figure 13.1, to investigate three companies in your career               tor. Include a discussion of how you could use this
+field. Look at salary guides for your level of qualifica-                information in your job letter and résumé.
+tions, product/service information, news articles about             c.   Present your findings to the class.
+the companies, mission/vision statements, main com-                gq. Join with a small group of other students to write a
+petitors, annual reports, and financial reports.                       report summarizing the results of this research.
+As your instructor directs,
+a.   Share your findings with a small group of other
+     students.
+
+
+13.9      Gathering Information about a Specific Organization
+
+Gather information about a specific organization, using              ™ Check the organization’s website.
+several of the following methods:                                   @    Read the company’s annual report.
+PROFESSIONAL WRITING
+
+
+
+
+432                                   Part4   The Job Hunt
+
+
+=        Pick up relevant information at the Chamber of                   Summarize your findings in a memo to your instruc-
+         Commerce.                                                        tor. Include a discussion of how you could use this
+                                                                          information in your job letter and résumé.
+=        Read articles in trade publications and the Wall Street
+         Journal or that mention the organization (check the              Present your findings orally to the class.
+         indexes).                                                        Write a paragraph for a job letter using (directly or
+=        Read recruiting literature provided by the company.              indirectly) the information you found.
+
+As your instructor directs,
+a. Share your findings witha       small group of other students.
+
+
+
+
+13.10          Conducting an Information Interview
+
+Interview someone working in a field you're interested               b.   Write up your interview in a memo to your instruc-
+in. Use the questions listed on page 412 or the shorter                   tor. Include a discussion of how you could use this
+list here:                                                                information in your job letter and résumé.
+= How did you get started in this field?                                  Present the results of your interview orally to the
+= What do you like about your job?                                        class.
+= What do you dislike about your job?                                     Write to the interviewee thanking him or her for tak-
+                                                                          ing the time to talk to you.
+= What courses and jobs would you recommend as
+     preparation for this field?
+As your instructor directs,
+    a.    Share the results of your interview with a small
+          group of other students.
+
+
+
+
+    13.11       Conducting a Referral Interview
+
+    a.    Write to a friend who is already in the workforce,                   job search? (Specify any organizations in which
+          asking about one or more of the following topics:                    you're especially interested.)
+          = Are any jobs in your field available in your                   List possible networking contacts from your
+              friend’s organization? If so, what?                          co-workers, classmates, fraternity/sorority mem-
+          = If ajob is available, can your friend provide infor-           bers, friends, family friends, former employers and
+              mation beyond the job listing that will help you             co-workers, neighbors, faculty members, and local
+              write a more detailed, persuasive letter? (Specify           business people. Who would be the most valuable
+              the kind of information you'd like to have.)                 source of information for you? Who would you feel
+                                                                           most comfortable contacting?
+          = Can your friend suggest people in other orga-
+              nizations who might be useful to you in your
+
+
+
+
+     13.12      Writing a Solicited Letter
+    Write a letter of application in response to an announced              ad that specifies the company, not a blind ad. Be sure
+    opening for a full-time job (not an internship) you would              that you are fully qualified for the job.
+    like.                                                                  If you have already worked somewhere, assume
+        Turn in a copy of the listing. If you use option                   that your employer is asking you to apply for full-
+    (a) below, your listing will be a copy. If you choose option           time work after graduation. Be sure to write a fully
+    (b), you will write the listing.                                       persuasive letter.
+    a. Respond to an ad in a newspaper, in a professional
+           journal, in the placement office, or on the web. Use an
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                   Chapter 13   Writing Job Application Letters                           433
+
+
+13.13     Writing a Prospecting Letter
+
+Pick a company you'd like to work for and apply for a            or the area vice president or branch manager of a large
+specific position that is not being advertised. The posi-        company.
+tion can be one that already exists or one that you would           Create a job description; give your instructor a copy
+create if you could to match your unique blend of talents.       of it with your letter.
+   Address your letter to the person with the power to
+create a job for you: the president of a small company,
+
+
+
+13.14      Critiquing a Job Letter
+
+After you have written your job letter for Exercise 13.12        m   Have your classmate reread your job letter and make
+or 13.13, bring it to class and share it with a classmate.           suggestions to enhance it.
+= Read your cover letter aloud to your classmate not-            = Swap letters and go through the exercise again.
+    ing any changes you would like to make and any               Write a memo to your instructor discussing the changes
+     areas that may not sound appropriate.                       you will make to your job letter on the basis of this
+                                                                 exercise.
+
+
+
+13.15      Writing a Rhetorical Analysis of Your Job Letter
+a.   Examine the job letter you wrote for Exercise 13.12 or             =   How did you adapt your tone and style for this
+     13.13 and answer the following questions in a memo                     audience? How did you balance your need to
+     to your instructor:                                                    promote yourself without bragging? Where
+     =    Whois your audience? Identify them beyond                         did you use you-attitude, positive tone, and
+          their name. What will they be looking for?                        goodwill?
+     =    How did you consider this audience when                       = How did you show knowledge of the company
+          selecting information and the level of detail to                  and the position without telling your audience
+          use? What information did you exclude? How                        what they already know?
+          did you shape the information about you to              b.    Review a class member’s cover letter using the same
+          address your audience’s needs?                                questions.
+      =   How did you organize your information for
+          this audience?
+
+
+
+13.16      Applying Electronically
+
+Write an e-mail application letter with a résumé in the
+text of the message.
+
+
+
+13.17      Applying at Google
+
+Using the Google sidebar on page 414, research possible
+jobs at Google. Pick the one most appropriate for you
+and write an electronic job letter to Google.
+
+
+
+ 13.18      Editing a Cover Letter
+
+ In Chapter 12, Exercise 12.13, you critiqued the résumé             letter to improve it. Then write a memo to your instruc-
+ of Jennifer Stanton. Below is her cover letter. Using the           tor discussing the strengths and weaknesses of the letter
+ information about Jennifer from Exercise 12.13, redo her            and explaining why you made the changes you did.
+PROFESSIONAL WRITING
+
+
+
+
+434                                 Part4   The Job Hunt
+
+
+
+                   From:     wildechilde@gmail.com
+
+                   To:       pattersj@micquant.com
+
+                   Date:     13 February, 2012
+
+                   Re:       Job!
+
+                   Dear Ms. Patterson:
+
+                   My name is Jennifer Stanton and | really want to work with you at Quantum National!
+                   Your job looks a whole lot like the one | had at my internship this past summer, so I’m
+                   pretty sure I’d be great at it.
+
+                   | can’t start until this Summer, because I’m finishing up my degree at lowa State. I’m
+                   currently working on a degree in Buisness Management, so I'd be a great manager
+                   at your business. The one thing I’ve learned for sure in college is how to balance
+                   deadlines to get everything done on time. I've had a few classes where we had.to
+                   work in teams, and I’ve been the team leader every time: once | step in, people just
+                   want to follow where | lead.
+
+                   | think my work experience is exactly what you’re looking for, too. At my internship
+                   last summer, | was basically unsupervised, so | had to learn fast! |managed cliet and
+                   department needs, | did the budgets—twice!—and | worked with a sales and mar-
+                   keting team to put together client information packages. | also did the scheduling for
+                   the team the whole time, which was my supervisor's job but she delegated it to me,
+                   because | am trustworthy. | also worked for years at my family’s bookstore, which
+                   shows | can hold down a job.
+
+                   Like | said, I’m really interested in this job. | think that this would be a great place
+                   to start my career, and | know | can do the job! Give me a call on my cell when you
+                   decide who you're interviewing!
+
+                   Thanks,
+                    Jennifer Stanton
+
+
+
+ 13.19    Reviewing Cover Letters
+
+ All-Weather, Inc., invited applications for the position of of All-Weather’s vinyl windows in local markets, includ-
+ Sales Representative (Residential Sales). To be based in _ ing single- and double-hung windows and casement win-
+ Nebraska, this person will be mainly responsible for sales  dows. The job description for the position reads as follows:
+
+                    The Sales Representative (Residential Sales) will be responsible for successful
+                    market penetration of identified market segments. Specifically, the duties include
+                    achieving targeted sales, conducting product demonstrations, contacting customers
+                    and other stakeholders, gathering market intelligence, preparing market and sales
+                    reports, communicating with internal customers, coordinating between customers
+                    and the Service and Installation Group, participating in meetings of trade associa-
+                    tions and government agencies, attending company training events, and performing
+                    other duties assigned by managers. The ideal candidate will be someone with a BS
+                    degree, preferably with a technical major. Additionally, the candidate must have at
+                    least one year of sales experience, preferably in industrial products. Candidates with
+                    experience in brand marketing will also be considered. Among skills for the job, the
+                    candidate must possess computer skills, PR and communication skills, teamwork
+                    skills, and the ability to perform basic mathematical computations.
+                                                 Chapter 13.   Writing Job Application Letters                        435
+
+
+Below are two cover letters received from applicants.           weaknesses of both. Judging just from their cover letter,
+In a memo to your instructor, discuss the strengths and         which applicant would you prefer to hire? Why?
+
+
+
+Figure 1         Antonio Ramirez’s Cover Letter
+
+                  Antonio Ramirez aramirez@bestmail.com 164 Beet St. Houston, TX
+
+
+                  October 12, 2012
+                  Ms. Erin Lenhardt
+                  1210 Polaroid Av.
+                  St. Paul, MN
+
+                  Dear Ms. Lenhardt:
+                  Please consider this letter as my application for the post of Sales Representative
+                  (Residential Sales). | learned about your job from the journal Plastics US (September
+                  issue). | have a bachelor’s degree in chemistry from the University of Austin, Texas,
+                  and have two years of experience selling PVC resin.
+                  The last two years | have been a Sales Executive in Goodman Petrochemicals in
+                  Houston, TX. My responsibilities include selling Goodman’s PVC resin to Houston-
+                  based PVC processors of rigid and flexible applicatons.
+                  As you suggest in your advertisement, my degree in chemistry will help me explain
+                  to customers the important technical attributes of your vinyl windows. My focus dur-
+                  ing my bachelor’s degree was inorganic chemistry, especially hydrocarbons and its
+                  practical applications. Apart from my coursework, | also interned at Bright Fenestra-
+                  tion Products in Austin, TX.
+                  | look forward to discussing my experience and interst in your organization with you
+                  in a face-to-face interview. I’m available for the interview anytime in the next two
+                  weeks at a day’s notice. I’m confident |will meet—and exceed —all your expetations
+                  for this important front line position.
+
+                   Sincerely,
+
+                   Antonio Ramirez
+PROFESSIONAL WRITING
+
+
+
+
+436                              Part4   The Job Hunt
+
+
+Figure 2          Michelle Chang’s Cover Letter
+                                                     Michelle Chang
+                                            4334, Sunset Boulevard, Lincoln, NE
+                                                   mchang@myemail.com
+
+                   October 14, 2012
+                   Ms. Erin Lenharadt
+                   HR Manager
+                   1210 Polaroid Av.
+                   St. Paul, MN
+
+                    Dear Ms. Lenhardt:
+
+                   | wish to apply for the position of Sales Representative (Residential Sales) advertised
+                   through Monster.com. After acquiring a bachelor’s degree in design, | joined Alba-
+                   tross Advertising in November, 2010, as a trainee in the Accounts Department. Cur-
+                   rently, I’m an Account Representative handling three of our most promising brands:
+                   LiteWait vacuum cleaners, Nebraska Furniture Mart, and Chimney Rock Art Gallery.
+
+                    My bachelor’s degree in design with a major in community and regional planning not
+                    only familiarized me with demands of buildings and landscapes in our 21st century
+                    living but also acquainted me with concepts of media and design. | joined Albatross
+                    because | wanted to see if my education has equipped me to inform, persuade, and
+                    help customers with regard to products and brands.
+
+                    During my nearly two-year tenure at Albatross as Account Representative, | have
+                    created and given insightful presentations to clients. As a result of my performance,
+                    the agency has entrusted me with three of its most promising accounts, the ones
+                    that | mention above.
+
+                    | would be delighted at an opportunity for a personal interview to further make my
+                    case for the job. You can contact me at my e-mail address mentioned above.
+
+                    Sincerely,
+
+                    Michelle Chang
+
+
+
+ 13.20    Reviewing a Cover Letter
+
+ In the cover letter in Figure 13.4, Jeff Moeller is respond-   | Games. Using the ad, evaluate Jeff’s letter to see how
+ ing to the following job advertisement from Telltale             well he shows he is qualified for the job.
+
+                    Game Designer
+
+                    Telltale is searching for game designers to work on our growing library of unique
+                    episodic games. The game designer will be responsible for generation of detailed
+                    concepts covering all aspects of gameplay and story, as well as for prototyping,
+                    implementation and polish. Creative writing skills are a plus.
+
+                     m   Responsibilities
+                         m= Work with lead designer to conceive fresh, innovative storytelling games,
+                             consistent with company game philosophy and vision
+                                        Business and Administrative Communication, Tenth Edition
+
+
+
+
+  

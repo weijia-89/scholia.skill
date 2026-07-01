@@ -1,0 +1,68 @@
+# R-02 practical cards — schema-filter (P-H)
+pillar_moniker: schema-filter
+pillar_ids: [P-H]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#schema-filter
+
+source_ingests:
+  - literature/ingests/mckay_2013_act_interpersonal_problems_ch05_chapter_ingest.md
+  - literature/ingests/mckay_2013_interpersonal_problems_workbook_ch05_chapter_ingest.md
+
+cards:
+  - exercise_name: Schema Triggers Worksheet
+    steps:
+      - Map triggers across interpersonal domains — work, friends, family, intimate, parenting, community (B04 Ch5 Schema Triggers Worksheet).
+      - Name recurring dating schema when triggered — defectiveness, abandonment, mistrust (pillar P-H + ten schemas handout).
+      - List usual schema-coping behavior (SCB) in that trigger — people-pleasing, withdrawal, attack (C-B04_CH05-001–002).
+      - Identify SCB as lever — not the schema sentence itself — for next experiment (pillar practical).
+    cognitive_frame: Early schemas filter attention; SCBs temporarily reduce schema pain and keep schema alive — change the behavior loop.
+    observables:
+      - Written trigger → schema → SCB chain before date/message
+      - Operator targets one SCB for trial rather than debating schema truth
+    contraindications:
+      - SCB attack/cling/withdraw as pursuit tactics (σ−)
+      - schema label used to explain partner behavior without observables
+    source_anchor: C-B04_CH05-001 · mckay_2013_act_interpersonal_problems_ch05_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#schema-filter
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Thought Log with Downward Arrow
+    steps:
+      - Record automatic thought during dating trigger (B04 Thought Log).
+      - Ask "what does that mean about me?" repeatedly — downward arrow to core schema belief (B04 technique).
+      - Separate primary schema pain from urge toward SCB (B04 ACT distinction).
+      - Plan one trial without the identified SCB — experiment not purge (pillar crutch-check parallel).
+    cognitive_frame: Schema assessment illuminates pattern — ACT-IP targets SCBs, not schema elimination.
+    observables:
+      - Log completed within 24h of trigger
+      - One named SCB trial scheduled
+    contraindications:
+      - thought log as rumination session
+      - using schema discovery to justify passive withdrawal from all dating
+    source_anchor: C-B04_CH05-003 · mckay_2013_act_interpersonal_problems_ch05_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#schema-filter
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Schema Events Log
+    steps:
+      - After dating event, log schema affect intensity 0–100 (B04 Schema Events Log).
+      - Note which SCB ran — over-pleasing, ghosting, staying in bad match, etc. (pillar safety_moves cross-link).
+      - Check anger — if present, look underneath for core schema emotion (B03 Ch5 anger cover).
+      - Choose values-aligned alternative behavior for similar next trigger (B04 valued intentions).
+    cognitive_frame: Schema machinery runs automatically — logging makes the chain visible for intervention.
+    observables:
+      - Event log with SCB named specifically
+      - Alternative behavior attempted in next similar situation
+    contraindications:
+      - ghosting instead of direct decline framed as schema work
+      - staying in bad match without values review
+    source_anchor: C-B04_CH05-004 · mckay_2013_act_interpersonal_problems_ch05_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#schema-filter
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full

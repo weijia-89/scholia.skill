@@ -1,0 +1,149 @@
+# Text slice — understanding_distributed_systems_2022_ch17_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 17
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+   • A gateway service is required to route requests to the right
+     nodes.
+   • To roll up data across partitions, it needs to be pulled from
+     multiple partitions and aggregated (e.g., think of the com-
+     plexity of implementing a “group by” operation across par-
+     titions).
+
+CHAPTER 16. PARTITIONING                                           156
+
+
+
+
+Figure 16.1: A partitioned application with a gateway that routes
+requests to partitions
+
+
+   • Transactions are required to atomically update data that
+     spans multiple partitions, limiting scalability.
+   • If a partition is accessed much more frequently than others,
+     the system’s ability to scale is limited.
+   • Adding or removing partitions at run time becomes challeng-
+     ing, since it requires moving data across nodes.
+
+It’s no coincidence we are talking about partitioning right after dis-
+cussing CDNs. A cache lends itself well to partitioning as it avoids
+most of this complexity. For example, it generally doesn’t need to
+atomically update data across partitions or perform aggregations
+spanning multiple partitions.
+
+Now that we have an idea of what partitioning is and why it’s
+useful, let’s discuss how data, in the form of key-value pairs, can be
+mapped to partitions. At a high level, there are two main ways of
+doing that, referred to as range partitioning and hash partitioning. An
+important prerequisite for both is that the number of possible keys
+is very large; for example, a boolean key with only two possible
+values is not suited for partitioning since it allows for at most two
+
+CHAPTER 16. PARTITIONING                                           157
+
+
+partitions.
+
+
+
+16.1     Range partitioning
+Range partitioning splits the data by key range into lexicograph-
+ically sorted partitions, as shown in Figure 16.2. To make range
+scans fast, each partition is generally stored in sorted order on disk.
+
+
+
+
+              Figure 16.2: A range-partitioned dataset
+
+The ﬁrst challenge with range partitioning is picking the partition
+boundaries. For example, splitting the key range evenly makes
+sense if the distribution of keys is more or less uniform. If not, like
+in the English dictionary, the partitions will be unbalanced and
+some will have a lot more entries than others.
+
+Another issue is that some access patterns can lead to hotspots,
+which affect performance. For example, if the data is range
+partitioned by date, all requests for the current day will be served
+by a single node. There are ways around that, like adding a
+random preﬁx to the partition keys, but there is a price to pay in
+terms of increased complexity.
+
+When the size of the data or the number of requests becomes too
+large, the number of nodes needs to be increased to sustain the in-
+crease in load. Similarly, if the data shrinks and/or the number
+of requests drops, the number of nodes should be reduced to de-
+crease costs. The process of adding and removing nodes to balance
+
+CHAPTER 16. PARTITIONING                                         158
+
+
+the system’s load is called rebalancing. Rebalancing has to be imple-
+mented in a way that minimizes disruption to the system, which
+needs to continue to serve requests. Hence, the amount of data
+transferred when rebalancing partitions should be minimized.
+
+One solution is to create a lot more partitions than necessary when
+the system is ﬁrst initialized and assign multiple partitions to each
+node. This approach is also called static partitioning since the num-
+ber of partitions doesn’t change over time. When a new node joins,
+some partitions move from the existing nodes to the new one so
+that the store is always in a balanced state. The drawback of this
+approach is that the number of partitions is ﬁxed and can’t be eas-
+ily changed. Getting the number of partitions right is hard — too
+many partitions add overhead and decrease performance, while
+too few partitions limit scalability. Also, some partitions might
+end up being accessed much more than others, creating hotspots.
+
+The alternative is to create partitions on demand, also referred to
+as dynamic partitioning. The system starts with a single partition,
+and when it grows above a certain size or becomes too hot, the
+partition is split into two sub-partitions, each containing approxi-
+mately half of the data, and one of the sub-partitions is transferred
+to a new node. Similarly, when two adjacent partitions become
+small or “cold” enough, they can be merged into a single one.
+
+
+16.2     Hash partitioning
+Let’s take a look at an alternative way of mapping data to par-
+titions. The idea is to use a hash function that deterministically
+maps a key (string) to a seemingly random number (a hash) within
+a certain range (e.g., 0 and 264 − 1). This guarantees that the keys’
+hashes are distributed uniformly across the range.
+
+Next, we assign a subset of the hashes to each partition, as shown
+in Figure 16.3. For example, one way of doing that is by taking the
+modulo of a hash, i.e., hash(key) mod N, where N is the number of
+partitions.
+
+Although this approach ensures that the partitions contain more
+
+CHAPTER 16. PARTITIONING                                                   159
+
+
+
+
+                Figure 16.3: A hash-partitioned dataset
+
+
+or less the same number of entries, it doesn’t eliminate hotspots
+if the access pattern is not uniform. For example, if a single key is
+accessed signiﬁcantly more often than others, the node hosting the
+partition it belongs to could become overloaded. In this case, the
+partition needs to be split further by increasing the total number
+of partitions. Alternatively, the key needs to be split into sub-keys
+by, e.g., prepending a random preﬁx.
+
+Assigning hashes to partitions via the modulo operator can be-
+come problematic when a new partition is added, as most keys
+have to be moved (or shufﬂed) to a different partition because their
+assignment changed. Shufﬂing data is extremely expensive as it
+consumes network bandwidth and other resources. Ideally, if a
+partition is added, only 𝐾
+                         𝑁 keys should be shufﬂed around, where
+𝐾 is the number of keys and 𝑁 is the number of partitions. One
+widely used hashing strategy with that property is consistent hash-
+ing.
+

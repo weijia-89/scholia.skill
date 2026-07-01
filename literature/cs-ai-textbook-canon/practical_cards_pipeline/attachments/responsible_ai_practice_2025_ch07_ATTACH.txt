@@ -1,0 +1,386 @@
+responsible_ai_practice_2025_ch07_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: responsible_ai_practice_2025 · chapter: 07
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/responsible_ai_practice_2025_ch07_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (responsible_ai_practice_2025_ch07_ingest.md)
+========================================================================
+
+# Chapter ingest — `responsible_ai_practice_2025` · Chapter 7
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Responsible AI in Practice |
+| **authors** | Toju Duke, Paolo Giudici |
+| **edition** | 1st Edition (2025, Apress / Springer Nature) |
+
+| Field | Value |
+|-------|-------|
+| **ISBN_print** | 979-8-8688-1165-4 |
+| **ISBN_electronic** | 979-8-8688-1166-1 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 7 |
+| **chapter_title** | Sustainability |
+| **page_range** | Printed pages absent from text export; logical span L4127–4717 |
+| **parent_book_title** | Responsible AI in Practice |
+
+## Scope
+
+Chapter 7 extends the book’s SAFE metrics family to **sustainability**, operationalized through **environmental, social, and governance (ESG)** criteria and their embedding in ML models for finance-sector case studies. The chapter bridges regulatory framing (EU AI Act energy-consumption considerations for systemic-risk GPAI; UN AI Advisory Board SDG alignment) with empirical European corporate-finance examples and introduces **Rank Graduation Sustainability (RGS)** as a model-level metric parallel to RGE (Chapter 4).
+
+**Sections ingested:** ESG definition and sustainable finance · E/S/G dimension features · Environmental sustainability (Agosto et al. 2023 Bayesian ensemble) · Social and governance sustainability (Bosone et al. 2022 gender diversity) · Model sustainability (RGS formula) · Scoring rubric (Table 7-1) · Mitigation (social, economic, environmental) · Chapter summary.
+
+Cross-refs: Chapter 6 (RGP privacy) · Chapter 4 (RGE methodology reused for RGS) · Chapter 8 (SAFE-HAI / human oversight).
+
+## Key findings
+
+All claims **[verified from text]** unless tagged `[contested in chapter]`.
+
+### ESG framing and regulation
+
+- **ESG** screens investments on environment (E), social (S), and governance (G) performance; scores matter for AI applications and appear in regulation (EU AI Act acknowledges environmental benefits but allows supervisors to consider training energy for systemic-risk GPAI; UN AI Advisory Board interim report ties success to SDG achievement). [verified from text, L4146–4166]
+- **Sustainable finance** aims to enhance returns while promoting social/environmental outcomes; long-term investment in sustainable activities. [verified from text, L4175–4180]
+- ESG rating methodology is **not harmonized**; major platforms (Refinitiv, Bloomberg) produce scores that are hard to interpret; **greenwashing** misleads stakeholders. `[contested in chapter]` — authors cite refs 53–54 without reconciling provider disagreement in operational guidance. [verified from text, L4182–4191]
+- E dimension: climate mitigation, pollutants, GHG; most popular ESG pillar. S: inequality, labor, human rights, employee safety. G: board conflicts, gender diversity. [verified from text, L4193–4213]
+
+### Environmental sustainability — Bayesian ESG ensemble (Agosto et al. 2023)
+
+- Case study: **1,382 European companies**; predict Bloomberg **credit rating** (investment grade vs speculative) from ESG scores with environmental focus. [verified from text, L4225–4331]
+- Three provider scores: **MSCI** (0–10), **Refinitiv** (0–100), **S&P Global** (0–100 percentile); pairwise correlations modest (MSCI–S&P 0.372, MSCI–Refinitiv 0.383, Refinitiv–S&P 0.692). [verified from text, L4311–4366]
+- **Bayesian ensemble** weights each provider score by in-sample predictive likelihood of rating partitions (quartile clusters); combined PD = PD(cluster j under P) × P(partition P). Authors claim model is sustainable, fair (averages providers), and explainable (weighted linear combination with interpretable posterior weights). `[contested in chapter]` — causal ESG→rating interpretation from correlational design. [verified from text, L4261–4300]
+- Estimated weights: **MSCI 0.36, Refinitiv 0.37, S&P 0.27**; combined validation accuracy **~61%** vs 59%, 55%, 51% individually; ensemble stronger in extreme low-rating classes; order preserved when controlling for 13 financial ratios + market cap. [verified from text, L4368–4394]
+- ESG score distributions left-skewed (many firms with weak ESG); rating distribution right-skewed (many high ratings) — both hinder predictive accuracy. [verified from text, L4343–4361]
+
+### Social and governance sustainability — gender diversity (Bosone et al. 2022)
+
+- **Female presence** (board %, female directors/executives, CEO, pay-gap indicators) treated as S and G proxy; five-year **default probability (PD)** as long-horizon financial sustainability outcome. [verified from text, L4404–4426]
+- Sample: **>15,000 cross-sectional observations (2020)** from 12 European countries; North (8 countries, 329 firms) vs South (4 countries, 229 firms). [verified from text, L4481–4489]
+- Gender indicators: equal-opportunity policies, health/safety policies, % women on board, female directors/executives, female CEO, gender pay gap breakout, fair remuneration; controls include market cap, ROA, ROE, ROIC, WACC, leverage, analyst rating. [verified from text, L4442–4479]
+- Summary stats: Southern firms lower average 5y PD but higher ESG; more female executives/directors and higher board female % in South; Northern board compensation higher; fair remuneration policy rare (16/329 North, 7/228 South); gender pay gap reported in >half of Southern firms. [verified from text, L4491–4515]
+- Authors warn top-level female representation alone is **partial** view; remuneration fairness and pay-gap reporting carry more signal given 37% EU women in managerial roles. [verified from text, L4517–4522]
+- **Logistic regression:** country (North/South) positively correlated with PD; total ESG weak positive (10% sig); **S and G individually significant** (5% and 1%): +10% S → −0.5% PD, +10% G → −0.9% PD; total ESG +10% → +0.7% PD (offset); net E+S+G +10% each → ~−0.7% PD (~16% relative decrease vs ~4.3% average PD). [verified from text, L4538–4571]
+- **% women on board** negatively correlated with PD; higher female board presence linked to better dialogue, decision quality, innovation. `[contested in chapter]` — correlational; mechanism claims from literature not experimentally isolated in chapter. [verified from text, L4573–4588]
+- Conclusion: E, S, G indicators assess sustainability of firms that produce/deploy/use AI. [verified from text, L4590–4595]
+
+### Model sustainability — RGS metric
+
+- **Rank Graduation Sustainability (RGS)** = Σ(Q′ᵢ − QPᵢ) / Σ(Q′ᵢ − QFᵢ) where Q′ᵢ is dual Lorenz curve, QFᵢ full-model prediction ranks, QPᵢ ranks excluding E, S, or G (or all). Same properties as RGE; Python code deferred to Chapter 4. [verified from text, L4597–4617]
+- **Table 7-1 scoring rubric:** Excellent 75–90%, Good 70–75%, Fair 60–70%, Borderline 40–60%, Poor 0–40%. [verified from text, L4619–4631]
+
+### Mitigation
+
+- **Social:** AI benefits healthcare but risks bias, hallucinations, privacy/human-rights harms, democracy threats, energy use; diverse datasets and development teams recommended. [verified from text, L4642–4658]
+- **Economic:** Gen AI high capex vs uncertain ROI; some pilots shut off; AI should **augment** not replace workers; job-transition skills needed. `[contested in chapter]` — ROI claims anecdotal. [verified from text, L4660–4683]
+- **Environmental:** AI can help environmental NGOs but datacenter/GPU energy for foundation models is high; mitigation via efficient hardware, greener algorithms, smaller models, alternative chip startups. [verified from text, L4685–4701]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt` |
+| **Lines read** | 4127–4717 (inclusive) |
+| **Chapter boundary** | Starts DOI anchor ch.7 (L4127); ends before ch.8 DOI anchor (L4718) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | RGS Python implementation (points to ch.4); forward ref ch.8 HCAI |
+| **Figures** | Fig. 7-1 credit-rating bar chart; Fig. 7-2 ESG histograms — alt-text in export |
+| **Amnesiac rule** | ISBN from L11–13 text header; authors from title page L3–9 |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Define ESG dimensions and relate them to AI sustainability and SDG alignment.
+2. Explain why heterogeneous ESG provider scores complicate measurement and enable greenwashing risk.
+3. Describe the Bayesian ensemble approach for combining ESG scores in credit-rating prediction.
+4. Interpret Bosone et al. findings on S/G scores, gender board presence, and long-horizon default probability.
+5. State the RGS formula and its relationship to RGE.
+6. Apply Table 7-1 rubric bands and articulate social/economic/environmental mitigation themes.
+
+### worked_examples_present
+
+**Y** — Two extended empirical case studies plus metric definition:
+
+| Example | Section | Role |
+|---------|---------|------|
+| 1,382 EU firms ESG → credit rating | Environmental sustainability | Bayesian ensemble weights, validation accuracy |
+| 15k+ firms gender/ESG → 5y PD | Social & governance | Logistic regression, North/South comparison |
+| RGS formula | Model sustainability | Rank-graduation extension of RGE |
+| Table 7-1 rubric | Scoring | Band thresholds |
+
+### exercise_hooks
+
+- No end-of-chapter classroom assignments in text slice.
+- **Instructor hooks `[inferred]`:**
+  - Compare MSCI/Refinitiv/S&P scores for a single firm and discuss ensemble weight rationale.
+  - Critique causal language in ESG→rating correlational studies.
+  - Compute or simulate RGS given ch.4 RGE code on toy E/S/G features.
+  - Draft mitigation checklist for a generative-AI pilot under economic and environmental constraints.
+
+## Operator hooks
+
+### 1. w4_ops_governance — sustainability canon
+
+This chapter is the **ESG + model-sustainability** pillar of the SAFE-HAI book: links corporate ESG measurement to ML model assessment via RGS. Pairs with **rai ch08** (human oversight loop) and **rai ch09** (governance processes). Cross-wave: **Simon healthcare** ELSI/JEDI (medium overlap per prior ingests); **NAM sec05** governance hook per daily wave plan.
+
+### 2. Finance / enterprise alignment
+
+**[medium]** — European credit-rating and default-probability framing portable to vendor risk scoring and procurement ESG due diligence:
+
+- **Provider disagreement:** Ensemble weighting as pragmatic fusion, not ground truth.
+- **Long-horizon outcomes:** Five-year PD aligns ESG with investment horizons.
+- **Operational gap:** RGS defined but worked Python example deferred to ch.4.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **simon_aliferis_healthcare_2024** | Low–medium | ELSI/social impact; Simon is clinical lifecycle depth |
+| **ai_engineering_2025** | Low | No ESG/finance sustainability focus |
+| **designing_ml_systems_2022** | Low | Production cost/efficiency tangential to ESG |
+
+**Dedup:** Treat this ingest as canonical for **ESG-embedded ML + RGS metric** in w4 SYNTHESIS.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — two published empirical studies with variables and coefficients |
+| Exercise hooks | **Weak in text** — instructor hooks inferred |
+| Chapter boundary | **Clean** — single chapter slice |
+| Ingest suitability | **High** — cites primary papers; contested causal/greenwashing claims preserved |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2025 Springer/Apress; w4_ops_governance wave |
+| **Author authority** | **PASS** | Duke (Bedrock AI practitioner); Giudici (University of Pavia professor); builds on Duke 2023 prior book |
+| **Primary-source citation density** | **PASS** | Agosto et al. 2023, Bosone et al. 2022, EU AI Act, UN AI Advisory Board, refs 50–60 |
+| **Contested claims flagged** | **PASS** | Greenwashing, ESG provider heterogeneity, correlational→causal language, gen-AI ROI assertions |
+| **Worked examples** | **PASS** | Bayesian ensemble + logistic regression case studies with numeric results |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| RAI-C07-001 | ESG scores link to AI sustainability and EU/UN regulatory framing | compressed | Duke/Giudici 2025 | ISBN 979-8-8688-1166-1 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md | ESG framing |
+| RAI-C07-002 | Bayesian ensemble weights MSCI/Refinitiv/S&P at 0.36/0.37/0.27 | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_7 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md | Environmental case |
+| RAI-C07-003 | Combined ESG model ~61% accuracy vs lower single-provider scores | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_7 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md | Environmental case |
+| RAI-C07-004 | +10% S/G scores decrease 5y PD by ~0.5%/0.9% in Bosone model | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_7 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md | S/G case |
+| RAI-C07-005 | RGS extends RGE rank-graduation to E/S/G explanatory variables | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_7 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch07_ingest.md | RGS |
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · worker `rai-ingest-ch07-08` · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/responsible_ai_practice_2025_ch07_SLICE.txt)
+========================================================================
+
+# Text slice — responsible_ai_practice_2025_ch07_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: responsible_ai_practice_2025 · chapter: 07
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `responsible_ai_practice_2025` · Chapter 7
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Responsible AI in Practice |
+| **authors** | Toju Duke, Paolo Giudici |
+| **edition** | 1st Edition (2025, Apress / Springer Nature) |
+
+| Field | Value |
+|-------|-------|
+| **ISBN_print** | 979-8-8688-1165-4 |
+| **ISBN_electronic** | 979-8-8688-1166-1 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 7 |
+| **chapter_title** | Sustainability |
+| **page_range** | Printed pages absent from text export; logical span L4127–4717 |
+| **parent_book_title** | Responsible AI in Practice |
+
+## Scope
+
+Chapter 7 extends the book’s SAFE metrics family to **sustainability**, operationalized through **environmental, social, and governance (ESG)** criteria and their embedding in ML models for finance-sector case studies. The chapter bridges regulatory framing (EU AI Act energy-consumption considerations for systemic-risk GPAI; UN AI Advisory Board SDG alignment) with empirical European corporate-finance examples and introduces **Rank Graduation Sustainability (RGS)** as a model-level metric parallel to RGE (Chapter 4).
+
+**Sections ingested:** ESG definition and sustainable finance · E/S/G dimension features · Environmental sustainability (Agosto et al. 2023 Bayesian ensemble) · Social and governance sustainability (Bosone et al. 2022 gender diversity) · Model sustainability (RGS formula) · Scoring rubric (Table 7-1) · Mitigation (social, economic, environmental) · Chapter summary.
+
+Cross-refs: Chapter 6 (RGP privacy) · Chapter 4 (RGE methodology reused for RGS) · Chapter 8 (SAFE-HAI / human oversight).
+
+## Key findings
+
+All claims **[verified from text]** unless tagged `[contested in chapter]`.
+
+### ESG framing and regulation
+
+- **ESG** screens investments on environment (E), social (S), and governance (G) performance; scores matter for AI applications and appear in regulation (EU AI Act acknowledges environmental benefits but allows supervisors to consider training energy for systemic-risk GPAI; UN AI Advisory Board interim report ties success to SDG achievement). [verified from text, L4146–4166]
+- **Sustainable finance** aims to enhance returns while promoting social/environmental outcomes; long-term investment in sustainable activities. [verified from text, L4175–4180]
+- ESG rating methodology is **not harmonized**; major platforms (Refinitiv, Bloomberg) produce scores that are hard to interpret; **greenwashing** misleads stakeholders. `[contested in chapter]` — authors cite refs 53–54 without reconciling provider disagreement in operational guidance. [verified from text, L4182–4191]
+- E dimension: climate mitigation, pollutants, GHG; most popular ESG pillar. S: inequality, labor, human rights, employee safety. G: board conflicts, gender diversity. [verified from text, L4193–4213]
+
+### Environmental sustainability — Bayesian ESG ensemble (Agosto et al. 2023)
+
+- Case study: **1,382 European companies**; predict Bloomberg **credit rating** (investment grade vs speculative) from ESG scores with environmental focus. [verified from text, L4225–4331]
+- Three provider scores: **MSCI** (0–10), **Refinitiv** (0–100), **S&P Global** (0–100 percentile); pairwise correlations modest (MSCI–S&P 0.372, MSCI–Refinitiv 0.383, Refinitiv–S&P 0.692). [verified from text, L4311–4366]
+- **Bayesian ensemble** weights each provider score by in-sample predictive likelihood of rating partitions (quartile clusters); combined PD = PD(cluster j under P) × P(partition P). Authors claim model is sustainable, fair (averages providers), and explainable (weighted linear combination with interpretable posterior weights). `[contested in chapter]` — causal ESG→rating interpretation from correlational design. [verified from text, L4261–4300]
+- Estimated weights: **MSCI 0.36, Refinitiv 0.37, S&P 0.27**; combined validation accuracy **~61%** vs 59%, 55%, 51% individually; ensemble stronger in extreme low-rating classes; order preserved when controlling for 13 financial ratios + market cap. [verified from text, L4368–4394]
+- ESG score distributions left-skewed (many firms with weak ESG); rating distribution right-skewed (many high ratings) — both hinder predictive accuracy. [verified from text, L4343–4361]
+
+### Social and governance sustainability — gender diversity (Bosone et al. 2022)
+
+- **Female presence** (board %, female directors/executives, CEO, pay-gap indicators) treated as S and G proxy; five-year **default probability (PD)** as long-horizon financial sustainability outcome. [verified from text, L4404–4426]
+- Sample: **>15,000 cross-sectional observations (2020)** from 12 European countries; North (8 countries, 329 firms) vs South (4 countries, 229 firms). [verified from text, L4481–4489]
+- Gender indicators: equal-opportunity policies, health/safety policies, % women on board, female directors/executives, female CEO, gender pay gap breakout, fair remuneration; controls include market cap, ROA, ROE, ROIC, WACC, leverage, analyst rating. [verified from text, L4442–4479]
+- Summary stats: Southern firms lower average 5y PD but higher ESG; more female executives/directors and higher board female % in South; Northern board compensation higher; fair remuneration policy rare (16/329 North, 7/228 South); gender pay gap reported in >half of Southern firms. [verified from text, L4491–4515]
+- Authors warn top-level female representation alone is **partial** view; remuneration fairness and pay-gap reporting carry more signal given 37% EU women in managerial roles. [verified from text, L4517–4522]
+- **Logistic regression:** country (North/South) positively correlated with PD; total ESG weak positive (10% sig); **S and G individually significant** (5% and 1%): +10% S → −0.5% PD, +10% G → −0.9% PD; total ESG +10% → +0.7% PD (offset); net E+S+G +10% each → ~−0.7% PD (~16% relative decrease vs ~4.3% average PD). [verified from text, L4538–4571]
+- **% women on board** negatively correlated with PD; higher female board presence linked to better dialogue, decision quality, innovation. `[contested in chapter]` — correlational; mechanism claims from literature not experimentally isolated in chapter. [verified from text, L4573–4588]
+- Conclusion: E, S, G indicators assess sustainability of firms that produce/deploy/use AI. [verified from text, L4590–4595]
+
+### Model sustainability — RGS metric
+
+- **Rank Graduation Sustainability (RGS)** = Σ(Q′ᵢ − QPᵢ) / Σ(Q′ᵢ − QFᵢ) where Q′ᵢ is dual Lorenz curve, QFᵢ full-model prediction ranks, QPᵢ ranks excluding E, S, or G (or all). Same properties as RGE; Python code deferred to Chapter 4. [verified from text, L4597–4617]
+- **Table 7-1 scoring rubric:** Excellent 75–90%, Good 70–75%, Fair 60–70%, Borderline 40–60%, Poor 0–40%. [verified from text, L4619–4631]
+
+### Mitigation
+
+- **Social:** AI benefits healthcare but risks bias, hallucinations, privacy/human-rights harms, democracy threats, energy use; diverse datasets and development teams recommended. [verified from text, L4642–4658]
+- **Economic:** Gen AI high capex vs uncertain ROI; some pilots shut off; AI should **augment** not replace workers; job-transition skills needed. `[contested in chapter]` — ROI claims anecdotal. [verified from text, L4660–4683]
+- **Environmental:** AI can help environmental NGOs but datacenter/GPU energy for foundation models is high; mitigation via efficient hardware, greener algorithms, smaller models, alternative chip startups. [verified from text, L4685–4701]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt` |
+| **Lines read** | 4127–4717 (inclusive) |
+| **Chapter boundary** | Starts DOI anchor ch.7 (L4127); ends before ch.8 DOI anchor (L4718) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | RGS Python implementation (points to ch.4); forward ref ch.8 HCAI |
+| **Figures** | Fig. 7-1 credit-rating bar chart; Fig. 7-2 ESG histograms — alt-text in export |
+| **Amnesiac rule** | ISBN from L11–13 text header; authors from title page L3–9 |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Define ESG dimensions and relate them to AI sustainability and SDG alignment.
+2. Explain why heterogeneous ESG provider scores complicate measurement and enable greenwashing risk.
+3. Describe the Bayesian ensemble approach for combining ESG scores in credit-rating prediction.
+4. Interpret Bosone et al. findings on S/G scores, gender board presence, and long-horizon default probability.
+5. State the RGS formula and its relationship to RGE.
+6. Apply Table 7-1 rubric bands and articulate social/economic/environmental mitigation themes.
+
+### worked_examples_present
+
+**Y** — Two extended empirical case studies plus metric definition:
+
+| Example | Section | Role |
+|---------|---------|------|
+| 1,382 EU firms ESG → credit rating | Environmental sustainability | Bayesian ensemble weights, validation accuracy |
+| 15k+ firms gender/ESG → 5y PD | Social & governance | Logistic regression, North/South comparison |
+| RGS formula | Model sustainability | Rank-graduation extension of RGE |
+| Table 7-1 rubric | Scoring | Band thresholds |
+
+### exercise_hooks
+
+- No end-of-chapter classroom assignments in text slice.
+- **Instructor hooks `[inferred]`:**
+  - Compare MSCI/Refinitiv/S&P scores for a single firm and discuss ensemble weight rationale.
+  - Critique causal language in ESG→rating correlational studies.
+  - Compute or simulate RGS given ch.4 RGE code on toy E/S/G features.
+  - Draft mitigation checklist for a generative-AI pilot under economic and environmental constraints.
+
+## Operator hooks
+
+### 1. w4_ops_governance — sustainability canon
+
+This chapter is the **ESG + model-sustainability** pillar of the SAFE-HAI book: links corporate ESG measurement to ML model assessment via RGS. Pairs with **rai ch08** (human oversight loop) and **rai ch09** (governance processes). Cross-wave: **Simon healthcare** ELSI/JEDI (medium overlap per prior ingests); **NAM sec05** governance hook per daily wave plan.
+
+### 2. Finance / enterprise alignment
+
+**[medium]** — European credit-rating and default-probability framing portable to vendor risk scoring and procurement ESG due diligence:
+
+- **Provider disagreement:** Ensemble weighting as pragmatic fusion, not ground truth.
+- **Long-horizon outcomes:** Five-year PD aligns ESG with investment horizons.
+- **Operational gap:** RGS defined but worked Python example deferred to ch.4.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **simon_aliferis_healthcare_2024** | Low–medium | ELSI/social impact; Simon is clinical lifecycle depth |
+| **ai_engineering_2025** | Low | No ESG/finance sustainability focus |
+| **designing_ml_systems_2022** | Low | Production cost/efficiency tangential to ESG |
+
+**Dedup:** Treat this ingest as canonical for **ESG-embedded ML + RGS metric** in w4 SYNTHESIS.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — two published empirical studies with variables and coefficients |
+| Exercise hooks | **Weak in text** — instructor hooks inferred |
+| Chapter boundary | **Clean** — single chapter slice |
+| Ingest suitability | **High** — cites primary papers; contested causal/greenwashing claims preserved |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2025 Springer/Apress; w4_ops_governance wave |
+| **Author authority** | **PASS** | Duke (Bedrock AI practitioner); Giudici (University of Pavia professor); builds on Duke 2023 prior book |
+| **Primary-source citation density** | **PASS** | Agosto et al. 2023, Bosone et al. 2022, EU AI Act, UN AI Advisory Board, refs 50–60 |
+| **Contested claims flagged** | **PASS** | Greenwashing, ESG provider heterogeneity, correlational→causal language, gen-AI RO
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

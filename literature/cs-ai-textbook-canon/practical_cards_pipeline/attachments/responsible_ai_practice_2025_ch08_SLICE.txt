@@ -1,0 +1,184 @@
+# Text slice — responsible_ai_practice_2025_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: responsible_ai_practice_2025 · chapter: 08
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `responsible_ai_practice_2025` · Chapter 8
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Responsible AI in Practice |
+| **authors** | Toju Duke, Paolo Giudici |
+| **edition** | 1st Edition (2025, Apress / Springer Nature) |
+
+| Field | Value |
+|-------|-------|
+| **ISBN_print** | 979-8-8688-1165-4 |
+| **ISBN_electronic** | 979-8-8688-1166-1 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 8 |
+| **chapter_title** | Human-Centered AI |
+| **page_range** | Printed pages absent from text export; logical span L4718–5093 |
+| **parent_book_title** | Responsible AI in Practice |
+
+## Scope
+
+Chapter 8 presents **human-centered AI (HCAI)** as the oversight layer completing the book’s **SAFE-HAI** framework (Sustainable, Accurate, Fair, Explainable AI under human control). It maps EU AI Act and NIST AI RMF human-oversight requirements to a three-step operational procedure—evaluate metrics, assess risk, improve models—and walks a full **bitcoin price-direction prediction** case study from baseline feed-forward neural network through recurrent alternatives (NNAR, LSTM, GRU).
+
+**Sections ingested:** HCAI / human-in-the-loop framing · Regulatory anchors (EU AI Act, NIST RMF) · Three-step oversight procedure · Evaluating AI (bitcoin FFNN + SAFE metrics) · Assessing AI (probability × severity risk) · Improving AI (NNAR/LSTM/GRU comparison) · Scoring rubric (Table 8-1) · Mitigation · Chapter summary.
+
+Cross-refs: Chapter 7 (sustainability/ESG) · Chapters 2–5 (RGA/RGR/RGE/RGF metrics) · Chapter 10 (second oversight case study) · Giudici & Raffinetti 2023 (financial predictions use case) · Giudici & Abu-Hashish 2021 (bitcoin data).
+
+## Key findings
+
+All claims **[verified from text]** unless tagged `[contested in chapter]`.
+
+### HCAI and regulatory framing
+
+- AI systems should be **tools used and overseen by humans** (“human in the loop” / human oversight). [verified from text, L4739–4742]
+- **EU AI Act:** high-risk systems must allow effective oversight by natural persons during use to prevent/minimize health, safety, and fundamental-rights risks. [verified from text, L4744–4748]
+- **NIST AI RMF:** risk management drives responsible use by prompting critical thinking about context and impacts; establishes correspondence between oversight and risk management. [verified from text, L4750–4757]
+- **SAFE-HAI** = SAFE metrics + human oversight; chapter demonstrates evaluation/assessment/improvement on a financial ML application. [verified from text, L4759–4793]
+
+### Three-step human oversight procedure
+
+1. **Evaluate:** adapt SAFE-HAI to model outputs → compliance metrics (RGA, RGR, RGE, RGF). [verified from text, L4774–4777]
+2. **Assess:** translate metric results into risk management (probability × severity). [verified from text, L4781–4784]
+3. **Improve:** implement actions including new models to raise compliance. [verified from text, L4788–4792]
+- Second oversight use case deferred to Chapter 10. [verified from text, L4796–4797]
+
+### Evaluating AI — bitcoin baseline model
+
+- Data: **Coinbase bitcoin** daily direction (up/down); explanatory series Oil, Gold, S&P500, USD/Yuan, USD/Eur (Giudici & Abu-Hashish 2021); May 18, 2016–Apr 30, 2018; 2018 test set. [verified from text, L4801–4820]
+- Model: **feed-forward NN**, one hidden layer, five hidden units; percentage returns for stationarity. [verified from text, L4822–4828]
+- SAFE metrics on baseline: **RGA = 55%** (low accuracy, expected for speculative asset); **RGR = 81%** (relatively robust); **RGE:** Gold 17%, Oil 6%, USD/Yuan 3%, S&P 3%, USD/Eur 2%; **RGF = 71%** with protected variable = high vs low **trading volume** (vs daily mean). `[contested in chapter]` — trading volume as fairness protected attribute is unconventional vs demographic groups. [verified from text, L4835–4856]
+- Statistical tests: accuracy **not** significantly above random; robustness **is** significant; **Gold only** significant explanatory variable; fairness **not** significantly fair. [verified from text, L4858–4861]
+- Narrative: model partially explainable via “digital gold” story linking bitcoin to gold prices. [verified from text, L4871–4874]
+
+### Assessing AI — risk decomposition
+
+- Harm risk = **probability × severity** (product or convolution). [verified from text, L4880–4882]
+- **Probability mapping:** complement of metric value — e.g. RGA 55% → P(not accurate) 45%; RGR 81% → 19%; RGF 71% → 29%; sum of RGE 31% → P(not explainable) 69%. `[contested in chapter]` — linear complement mapping lacks calibrated justification. [verified from text, L4884–4895]
+- **Severity** (ordinal low/medium/high) requires harm taxonomy and stakeholders (Abercrombie et al. 2024). For bitcoin predictor: low accuracy → **high** severity (financial loss); low explainability → **low** severity (bitcoin opacity known); low robustness → high; low fairness → limited (technical asset). [verified from text, L4897–4914]
+- Dominant risk: **accuracy (model risk)**; recommendation: replace model. [verified from text, L4915–4919]
+
+### Improving AI — recurrent networks
+
+- Baseline FFNN assumes **day independence**; bitcoin decisions often use **past bitcoin prices**. [verified from text, L4929–4937]
+- Alternatives: **NNAR** (p lagged inputs + hidden layer), **LSTM**, **GRU** (fewer computations than LSTM). [verified from text, L4940–5001]
+- **Accuracy (RGA):** NNAR 0.3718 (worse); LSTM 0.8186; GRU **0.8865** (baseline 0.55). NNAR overfits with too many inputs; LSTM/GRU more parsimonious. [verified from text, L5011–5021]
+- **Robustness (RGR):** NNAR 0.7157 (poor); LSTM **0.9607**; GRU 0.9244 (baseline 0.81). [verified from text, L5023–5029]
+- **Explainability (ΣRGE):** baseline ~31%; NNAR 0.63; LSTM 0.56; GRU 0.62. [verified from text, L5031–5036]
+- **Model choice:** prioritize **GRU** for accuracy (primary risk); LSTM trades slight accuracy/explainability for higher robustness. Human oversight conclusion: replace FFNN with **gated recurrent network**. [verified from text, L5038–5048]
+
+### Scoring rubric and mitigation
+
+- **Table 8-1:** improvement ratio (new vs baseline metric delta / baseline) — Excellent 50–100%, Good 30–50%, Fair 20–30%, Borderline 10–20%, Poor 0–10%; values exemplificatory per risk appetite. [verified from text, L5050–5067]
+- Mitigation: increase data and/or change model/algorithm; chapter demonstrated architecture change for accuracy. [verified from text, L5069–5077]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/responsible_ai_practice_2025.txt` |
+| **Lines read** | 4718–5093 (inclusive) |
+| **Chapter boundary** | Starts DOI anchor ch.8 (L4718); ends before ch.9 / Part IV (L5094) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Ch.10 second oversight case study; NNAR/LSTM/GRU math details → Giudici et al. paper |
+| **Figures** | Fig. 8-1 NNAR diagram; Fig. 8-2 LSTM cell; Fig. 8-3 GRU cell — alt-text in export |
+| **Amnesiac rule** | ISBN from L11–13 text header |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Define human-centered AI and relate it to EU AI Act and NIST RMF oversight requirements.
+2. Execute the three-step SAFE-HAI oversight workflow (evaluate → assess → improve).
+3. Apply RGA/RGR/RGE/RGF to a time-series classification model and interpret statistical significance results.
+4. Decompose AI harm risk into probability (metric complements) and severity (ordinal harm taxonomy).
+5. Compare FFNN, NNAR, LSTM, and GRU on SAFE metrics and justify model replacement under risk prioritization.
+6. Use Table 8-1 relative-improvement rubric for post-intervention scoring.
+
+### worked_examples_present
+
+**Y** — Full end-to-end bitcoin oversight walkthrough:
+
+| Example | Section | Role |
+|---------|---------|------|
+| FFNN bitcoin direction baseline | Evaluating AI | SAFE metric baseline + significance tests |
+| Probability × severity risk matrix | Assessing AI | Oversight decision to replace model |
+| NNAR / LSTM / GRU comparison | Improving AI | Metric tradeoffs; GRU selection |
+| Table 8-1 improvement rubric | Scoring | Post-intervention banding |
+
+### exercise_hooks
+
+- No end-of-chapter classroom assignments in text slice.
+- **Instructor hooks `[inferred]`:**
+  - Replicate SAFE metrics on a different asset with ch.2–5 code; document oversight steps.
+  - Debate trading-volume vs demographic protected variables for RGF in finance.
+  - Sensitivity analysis on probability=1−metric mapping vs calibrated risk scores.
+  - Implement LSTM/GRU upgrade and compute Table 8-1 improvement ratios.
+
+## Operator hooks
+
+### 1. w4_ops_governance — HCAI canon
+
+This chapter is the **operational closure** of SAFE-HAI: turns prior metric chapters into a human-gated improvement loop. Mandatory wave pair: **rai ch5/ch8 ↔ Simon ch10 ELSI** (fairness + oversight). Feeds **rai ch09** governance processes and **rai ch10** second case study.
+
+### 2. MLOps / model-risk alignment
+
+**[high]** — Portable oversight pattern for production model review:
+
+- **Metric-agnostic evaluation:** SAFE scores need outputs only, not architecture internals.
+- **Risk-ranked remediation:** Fix highest severity×probability dimension first (here: accuracy).
+- **Architecture iteration:** Documented FFNN→GRU upgrade with quantified metric deltas.
+- **Gap:** Severity taxonomy referenced but not fully instantiated (Abercrombie et al. external).
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **simon_aliferis_healthcare_2024 ch10** | Medium | ELSI/fairness; Simon clinical oversight depth |
+| **ai_engineering_2025** | Medium | Eval/monitoring patterns; RAI adds regulatory HCAI framing |
+| **designing_ml_systems_2022** | Low–medium | Model iteration; less regulatory risk decomposition |
+
+**Dedup:** Treat this ingest as canonical for **SAFE-HAI human oversight procedure + financial time-series remediation** in w4 SYNTHESIS.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — complete evaluate/assess/improve arc with numeric metrics |
+| Exercise hooks | **Weak in text** — instructor hooks inferred |
+| Chapter boundary | **Clean** — single chapter slice |
+| Ingest suitability | **High** — procedural chapter with contested fairness/risk mappings flagged |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2025; w4_ops_governance wave |
+| **Author authority** | **PASS** | Practitioner + academic authors; cites Giudici research lineage |
+| **Primary-source citation density** | **PASS** | EU AI Act, NIST AI RMF, Giudici & Abu-Hashish 2021, Abercrombie et al. 2024, Giudici et al. NNAR/LSTM/GRU paper |
+| **Contested claims flagged** | **PASS** | Trading-volume protected variable, 1−metric probability mapping, correlational harm severity assignments |
+| **Worked examples** | **PASS** | Full bitcoin SAFE-HAI workflow with model comparison tables |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| RAI-C08-001 | SAFE-HAI combines SAFE metrics with human oversight per EU/NIST framing | compressed | Duke/Giudici 2025 | ISBN 979-8-8688-1166-1 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch08_ingest.md | HCAI framing |
+| RAI-C08-002 | Three-step procedure: evaluate metrics, assess risk, improve model | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_8 | literature/cs-ai-textbook-canon/ingests/responsible_ai_practice_2025_ch08_ingest.md | Procedure |
+| RAI-C08-003 | Baseline bitcoin FFNN RGA=55%, RGR=81%, RGF=71%; Gold top RGE | compressed | Duke/Giudici 2025 | 10.1007/979-8-8688-1166-1_8 | literature/cs-ai-textbook-canon/in
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

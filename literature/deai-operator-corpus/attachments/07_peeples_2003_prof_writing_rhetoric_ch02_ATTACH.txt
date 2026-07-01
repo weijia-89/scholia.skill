@@ -1,0 +1,1622 @@
+07_peeples_2003_prof_writing_rhetoric_ch02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: peeples_2003_prof_writing_rhetoric
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/07_peeples_2003_prof_writing_rhetoric_ch02_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/07_peeples_2003_prof_writing_rhetoric_ch02.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/07_peeples_2003_prof_writing_rhetoric_ch02.txt).
+========================================================================
+
+Chapter 2: Definition of Rhetoric; Pisteis, or the Means of
+Persuasion in Public Address; Paradigms, Enthymemes,
+and Their Sources; Common Topics; Eidé and Idia
+
+ 1. Let rhetoric be [defined as] an ability, in each [particular] case, to see the available
+means of persuasion.*+ This is the function of no other art;35 for each of the others3é
+is instructive and persuasive about its own subject: for example, medicine about
+health and disease and geometry about the properties of magnitudes and arithmetic
+about numbers and similarly in the case of the other arts and sciences. But rhetoric
+seems to be able to observe the persuasive about “the given,” so to speak. That, too,
+
+
+first includes the second; but rhétér is “unmarked” and may be interpreted either as any effective speaker or as a
+speaker who uses tricky arguments.
+32 In classical Greek, rhétdr means any public speaker, though often referring to a person who plays a leadership
+role in public debate or is active in the law courts. In the Roman period, rhétér frequently means “rhetorician,
+“teacher of rhetoric.” Latin orator (orig. “envoy”) and thus English “orator,” are translations of rhétdr but take
+on an implication of eloquence not necessarily present in the Greek word.
+33 For some speculations on Aristotle’s objectives, see Lord 1981. Aristotle’s own objective is clearly an under-
+standing of the nature, materials, and uses of rhetoric; but he has pointed out that the art is useful, and as the
+treatise unrolls it will often take on the tone of a prescriptive handbook on how to compose a persuasive
+speech.
+34 Aristotle uses the phrase esto dé, “Let X be. . .” commonly of a working hypothesis rather than a final defini-
+tion and occasionally to resume a definition made earlier. The definition here is anticipated in 1.1.14 on the
+ergon of rhetoric. He identifies the genus to which rhetoric belongs as dynamis: “ability, capacity, faculty.” In
+his philosophical writing dynamis is the regular word for “potentially” in matter or form that is “actualized” by
+an efficient cause. The actuality produced by the potentiality of rhetoric is not the written or oral text of a
+speech, or even persuasion but the art of “seeing” how persuasion may be effected. In Nicomachean Ethics 6.4
+(see Appendix I.B) he defines all art as a reasoned capacity to make something and says that it is concerned
+with the coming-into-being of something that is capable of either being or not being. Art is thus for him not
+the product of artistic skill, but the skill itself. Later rhetoricians often amplify Aristotle's definition by adding
+through speech; the root of the word rhetoric, rhé—, refers specifically to speech. Though he uses poetics to reter to
+arts other than poetry (dance, painting, sculpture), he never uses rhetoric to refer to any art except that of
+speech. As is clear from chap. 3, Aristotle primarily thinks of rhetoric as manifested in the civic context of
+public address; but he often draws examples of rhetoric from poetry or historical writing, and in the Poetics
+(19.1456a-b) the “thought” of a speaker in tragedy is said to be a matter of rhetoric. In each case (peri hekaston)
+refers to the fact that rhetoric deals with specific circumstances (particular individuals and their actions). To
+see translates theorésai, “to be an observer of and to grasp the meaning or utility of.” English theory comes from
+the related noun theoria. The available means of persuasion renders to enkekhomenon pithanon, “what is inherently
+and potentially persuasive” in the facts, circumstances, character of the speaker, attitude of the audience, etc.
+Endekhomenon often means “possible.”
+35 Dialectic comes closest but deals with general questions, not specific cases; and for dialectic the final term,
+means of persuasion (pithanon), would presumably become means of reasoning (syllogismos); see Topics 1.1 in
+Appendix I.C.
+36 Except, of course, dialectic.
+28   Chapter   1 =» What Is Rhetoric?
+
+
+
+           is why we say it does not include technical knowledge of any particular, defined
+           genus [of subjects].
+                2. Of the pisteis, some are atechnic [“nonartistic”], some entechnic [“embodied in
+           art, artistic”].37 [ call atechnic those that are not provided by “us” [i.e., the potential
+           speaker] but are preexisting: for example, witnesses, testimony of slaves taken under
+           torture,?8 contracts, and such like; and artistic whatever can be prepared by method
+           and by “us”; thus, one must use the former and invent?? the latter. [1356a] 3. Of the
+           pisteis provided through speech there are three species: for some are in the character
+           [éthos] of the speaker, and some in disposing the listener in some way, and some in the
+           argument [logos] itself, by showing or seeming to show something.*°
+                4. [There is persuasion] through character whenever the speech is spoken*! in
+           such a way as to make the speaker worthy of credence; for we believe fair-minded
+           people to a greater extent and more quickly [than we do others] on all subjects in
+           general and completely so in cases where there is not exact knowledge but room for
+           doubt.#2 And this should result from speech, not from a previous opinion that the
+           speaker is a certain kind of person; for it is not the case, as some of the technical
+           writers propose in their treatment of the art, that fair-mindedness [epieikeia] on the
+           part of the speaker makes no contribution to persuasiveness;*4 rather, character is al-
+           most, so to speak, the controlling factor in persuasion.
+                5. [There is persuasion] through the hearers when they are led to feel emotion
+           [pathos] by the speech; for we do not give the same judgment when grieved and re-
+           joicing or when being friendly and hostile. To this and only this we said contempo-
+
+
+           37 Later writers sometimes call these extrinsic and intrinsic, respectively. Aristotle discusses atechnic proof in
+           1.15. In 3.16.1 he also refers to the “facts” in a epideictic speech as atechnic.
+           38 In Greek law, the evidence of slaves was only admissible in court if taken under torture. There was much de-
+           bate about its reliability; see 1.15.26.
+           39 Heurein, “to find out”; heuresis becomes the regular word for rhetorical invention.
+           40 Ethos in Aristotle means “character,” esp. “moral character,” and except in 2.21.16 is regarded as an attribute
+           of a person, not of a speech. Aristotle does not use the term in the technical sense of “rhetorical ethos,” the
+           technique or effect of the presentation of character in a discourse. “Disposing the listener in some way” is de-
+           fined in sec. 5 below as leading the hearers to feel emotion (pathos). Again, pathos is an attribute of persons, not
+           of a speech. The shorthand ethos—pathos-—logos to describe the modes of persuasion is a convenience but does
+           not represent Aristotle’s own usage.
+           41 Aristotle is not thinking of style and delivery but of the thought and contents.
+           42 Here and in 1.9.1 and 2.1.5—7 the role of character in a speech is regarded as making the speaker seem trust-
+           worthy. The extended discussion of types of character in 2.12—17 relates to the somewhat different matter of
+           the adaptation of the character of a speaker to the character of an audience. Aristotle’s later treatment of char-
+           acter in rhetoric is in fact somewhat wider than in this initial definition.
+           43 Aristotle thus does not include in rhetorical ethos the authority that a speaker may possess due to his posi-
+           tion in government or society, previous actions, reputation for wisdom, or anything except what is actually
+           contained in the speech and the character it reveals. Presumably, he would regard all other factors, sometimes
+           highly important in the success of rhetoric, as imartistic; but he never says so. One practical reason for stressing
+           character as revealed within the speech was that Greek law required defendants to speak on their own behalf,
+           and they were often lacking in external authority. They could commission a speech from a professional speech-
+           writer (lagographer) and then memorize it for delivery in court. Lysias, in particular, had great success in con-
+           veying a favorable impression or moral character (&thopoiia) in the many speeches he wrote for defendants.
+           44 Some handbook writers perhaps rejected an appearance of fair-mindedness as too mild and favored an un-
+           compromising attitude. Aristotle’s point is that an appearance of fair-mindedness gives the speaker an initial
+           advantage.
+                                                                     Aristotle    = Excerpts from Book I, Rhetoric     29
+
+
+rary technical writers try to give their attention. The details on this subject will be
+made clear when we speak about the emotions.‘
+     6. Persuasion occurs through the arguments [logoi] when we show the truth or the
+apparent truth from whatever is persuasive in each case.
+     7. Since pisteis come about through these [three means], it is clear that to grasp
+an understanding of them is the function of one who can form syllogisms and be ob-
+servant about characters and virtues and, third, about emotions (what each of the
+emotions is and what are its qualities and from what it comes to be and how). The re-
+sult is that rhetoric is a certain kind of offshoot [paraphues] or dialectic and of ethical
+studies (which it is just to call politics).4 (Thus, too, rhetoric dresses itself up#? in the
+form of politics, as do those who pretend to a knowledge of it,48 sometimes through
+lack of education, sometimes through boastfulness and other human causes.)
+Rhetoric is partly [morion ti] dialectic, and resembles it, as we said at the outset; for
+neither of them is identifiable with knowledge of any specific subject, but they are
+distinct abilities of supplying words. Concerning their potentiality and how they re-
+late to each other, almost enough has been said.
+     8. In the case of persuasion through proving or seeming to prove something, just
+as in dialectic [1356b] there is on the one hand induction [epagégé] and on the other
+the syllogism and the apparent syllogism, so the situation is similar in rhetoric; for the
+paradeigma [“example”] is an induction, the enthymema a syllogism. I call a rhetorical
+syllogism an enthymeme, a rhetorical induction a paradigm.*? And all [speakers] pro-
+duce logical persuasion by means of paradigms or enthymemes and by nothing other
+than these. As a result, since it is always necessary to show something either by syllo-
+gizing or by inducing (and this is clear to us from the Analytics),°° it is necessary that
+each of these be the same as each of the others.>! 9. What the difference is between a
+
+45 In 2.2-11. Aristotle’s inclusion of emotion as a mode of persuasion, despite his objections to the handbooks,
+is a recognition that among human beings judgment is not entirely a rational act. There are morally valid emo-
+tions in every situation, and it is part of the orator’s duty to clarify these in the minds of the audience. On this
+question in general, see Johnstone 1980; 1-24.
+46 In calling rhetoric an antistrophos ofdialectic in 1.1.1, and an offshoot of dialectic and ethical studies here,
+and “partly dialectic” and like it in the next sentence, Aristotle avoids use of the formal categories of genus and
+species. He cannot very well call rhetoric a species ofdialectic, since it contains elements—the persuasive ef-
+fect of character and emotion in particular—that are not proper to dialectic; but at the same time he stresses
+the logical side of rhetoric and thus its relationship to dialectic. He does not entertain the possibility that di-
+alectic should be regarded as a species of rhetoric, perhaps because dialectic deals with universals, rhetoric with
+specifics; dialectic is logically prior. Also, to make rhetoric the more general term would lead to the celebration
+of it as the most characteristic and worthwhile human activity, as Isocrates regarded it. For Aristotle, that
+honor belongs to philosophy—hence his attempt to find metaphors to describe rhetoric as a mixture of logical,
+political, and ethical elements. In Nicomachean Ethics 1.2.4-6 he says that politics is an “architectonic” subject,
+of which generalship, economics, and rhetoric are parts.
+4? Hypoduetai, an echo of Plato, Gorgias 464c.
+48 Gorgias, Polus, Isacrates, and their followers.
+49 Aristotle will discuss the paradigm at greater length in 2.20 and the enthymeme in 2.22. The first three sen-
+tences of this paragraph, found in all manuscripts, are double-bracketed by Rudolf Kassel in his Berlin 1976
+edition of the Greek text, which is Kassel’s way of indicating passages that he regarded as later additions by
+Aristotle to the otherwise completed treatise. These are interesting suggestions, but essentially subjective in
+each case.
+50 Prior Analytics 2.23; Posterior Analytics 1.1.
+51 Not identical, in which case there would be no need for two sets of terms, but essentially the same in their
+30   Chapter 1 # What Is Rhetoric?
+
+
+
+           paradigm and an enthymeme is clear from the Topics (for ari account was given there
+           earlier of syllogism and induction):52 to show on the basis of many similar instances
+           that something is so is in dialectic induction, in rhetoric paradigm; but to show that if
+           some premises are true, something else [the conclusion] beyond them results from
+           these because they are true, either universally or for the most part, in dialectic is
+           called syllogism and in rhetoric enthymeme. 10. And it is also apparent that either
+           species of rhetoric®? has merit (what has also been said in the Methodics* is true in
+           these    cases    too);     for some       rhetorical      utterances       are    paradigmatic,        some       en-
+           thymematic; and similarly, some orators are paradigmatic, some enthymematic.
+           Speeches using paradigms are not less persuasive, but those with enthymemes excite
+           more favorable audience reaction. 11. The cause—and how each should be used—we
+           shall explain later;55 now we shall explain these things themselves more clearly.
+                Since the persuasive is persuasive to someone (and is either immediately plausi-
+           ble and believable in itself or seems to be shown by statements that are so) and since
+           no art examines the particular—for example, the art of medicine does not specify
+           what is healthful for Socrates or for Callias but for persons of a certain sort (this is
+           artistic, while particulars are limitless and not knowable)—neither does rhetoric the-
+           orize about each opinion—what may seem so to Socrates or Hippias—but about what
+           seems true to people of a certain sort, as is also true with dialectic.5® For the latter
+           does not form syllogisms from things at random (some things seem true even to mad-
+           men) but from that [which seems true] to people in need of argument, and rhetoric
+           [forms enthymemes] from things [that seem true] to people already accustomed to de-
+           liberate among themselves.*? [1357a] 12. Its function [ergon] is concerned with the
+           sort of things we debate and for which we do not have [other] arts and among such
+           listeners as are not able to see many things all together or to reason from a distant
+           starting point. And we debate about things that seem to be capable for admitting two
+           possibilities; for no one debates things incapable of being different either in past or
+           future or present, at least not if they suppose that to be the case; for there is nothing
+           more [to say]. 13. It is possible to form syllogisms and draw inductive conclusions ei-
+           ther from previous syllogisms or from statements that are not reasoned out but require
+           a syllogism [if they are to be accepted] because they are not commonly believed
+           [endoxa]; but the former of these |i.e., a chain of syllogism] is necessarily not easy to
+           follow because of the length [of the argument] (the judge is assumed to be a simple
+
+
+           underlying structure. In formal logic an induction consists of a series of particular observations from which a
+           general conclusion is drawn; in rhetoric it takes the form of a particular statement supported by one or more
+           parallels, with the universal conclusion left unstated. Similarly, an enthymeme rarely takes the full syllogistic
+           form of major premise, minor premise, and conclusion; more often a conclusion is offered and supported by a
+           reason, as in the first sentence of the Rhetoric. On the logic of this passage see Schrdder 1985. Schréder does
+           not agree with Kassel’s view that it is a later addition.
+           52 There is some discussion of syllogism in Topics 1.1, and 1.12 offers a definition of induction with an example:
+           “Tf the skilled pilot is best, and [similarly] the charioteer, then in general the skilled is the best in each thing.”
+           53 The species using example or that using enthymeme.
+           °4 A lost logical work by Aristotle of which the extant On Interpretation may have been a part; see Rist 1989,
+           84.
+           55 In 2.20-24.
+           °6 Dialectic builds its proof on the opinions of all, the majority, or the wise; cf. Topics 1.1 in Appendix I.C.
+           5? Translating the text as conjectured by Kassel.
+                                                                     Aristotle     = Excerpts from Book I, Rhetoric   31
+
+
+person),*> and the latter is not persuasive because the premises are not agreed to or
+commonly believed. Thus, it is necessary for an enthymeme and a paradigm to be
+concerned with things that are for the most part capable of being other than they
+are—the paradigm inductively, the enthymeme syllogistically—and drawn from few
+premises and often less than those of the primary syllogism; for if one of these is
+known, it does not have to be stated, since the hearer supplies it: for example, [to
+show] that Dorieus has won a contest with a crown it is enough to have said that he
+has won the Olympic games, and there is no need to add that the Olympic games
+have a crown as the prize; for everybody knows that.®
+     14. Since few of the premises from which rhetorical syllogisms are formed are
+necessarily true (most of the matters with which judgment and examination are con-
+cerned can be other than they are; for people deliberate and examine what they are
+doing, and [human] actions are all of this kind, and none of them [are], so to speak,
+necessary) and since things that happen for the most part and are possible can only
+be reasoned on the basis of other such things, and necessary actions [only] from ne-
+cessities (and this is clear to us also from the Analytics),®! it is evident that [the
+premises] from which enthymemes are spoken are scmetimes necessarily true but
+mostly true [only] for the most part. Moreover, enthymemes are derived from proba-
+bilities [eikota] and signs [sémeia], so it is necessary that each of these be the same as
+each [of the truth values mentioned];® 15. for a probability [eikos] is what happens for
+the most part, not in a simple sense, as some define it, but whatever, among things
+that can be other than they are, is so related to that in regard to which it is probable
+as a universal is related to a particular. [1357b] 16. In the case of signs [sémeia],
+some are related as the particular to the universal, some as the universal to the partic-
+ular. Of these, a necessary sign is a tekmerion, and that which is not necessary has no
+distinguishing name. 17. Now | call necessary for those from which a [logically valid]
+syllogism can be formed; thus, | call this kind of sign a tékmerion; for when people
+think it is not possible to refute a statement, they think they are offering a tekmérion,
+as though the matter were shown and concluded [peparasmenon]. (Tekmar and peras
+
+
+58 By judge (krités) Aristotle means a member of the assembly or of a jury. In Athenian legal procedures there
+were no professional judges in the modern sense. The democratic juries of the Athenian courts ranged in size
+from 201 to 5,001, drawn by lot from the male citizen body.
+59 The fully expressed syllogism that is logically inherent in the enthymeme.
+60 Later writers (see Appendix I.F) often regard an enthymeme as an abbreviated syllogism in which one
+premise, usually the major, is not expressed but is assumed, e.g., “Socrates is mortal, for he is a man,” assuming
+“all men are mortal.” Aristotle notes that this is often the case, but it is not a necessary feature of the en-
+thymeme. The real determinant of an enthymeme in contrast to a syllogism is what a popular audience will un-
+derstand. Aristotle regards rhetoric, and thus the enthymeme, as addressed to an audience that cannot be as-
+sumed to follow intricate logical argument or will be impatient with premises that seem unnecessary steps in
+the argument. The underlying logical structure should, however be present.
+61 Prior Analytics 1.8, 1.12-14, 1.27; Posterior Analytics 1.6, 1.30, 2.12.
+62 [.e., probabilities correspond to things true for the most part, signs to things necessarily true. But Aristotle
+will modify this in what follows: some signs are necessary, others only probable. Both probabilities and signs are
+stateraents about human actions, though they may be based on physical manifestations, as the following exam-
+ples show.
+63 Grimaldi (1980-88, 1:62) instances “Children love their parents”: it is a “probability” because a general ob-
+servation—universal in form, probably, but not necessarily true in particular instances. “Some” may refer to
+handbook writers who discussed argument from probability.
+32   Chapter 1   #® What Is Rhetoric?
+
+
+
+           (limit, conclusion”] have the same meaning in the ancient form of [our] language.)
+           18. An example of signs [sémeia] related as the particular to the universal is if some-
+           one were to state that since Socrates was wise and just, it is a sign that the wise are
+           just. This is indeed a sign, but refutable, even if true in this case; for it is not syllogis-
+           tically valid. But if someone were to state that there is a sign that someone is sick, for
+           he has a fever, or that a woman has given birth, for she has milk, that is a necessary
+           sign. Among signs, this is only true of a tekmérion; for only it, if true, is irrefutable. It
+           is an example of the relation of the universal to the particular if someone said that it
+           is a sign of fever that someone breathes rapidly. This, too, is refutable, even if true [in
+           some case]; for it is possible to breathe rapidly and not be feverish. Thus, what proba-
+           bility is and what sign and tekmérion are and how they differ has now been explained.
+           In the Analytics®4 they are defined more clearly, and the cause explained why some
+           are not syllogistic and others are.
+                 19. It has been explained that a paradigm is an induction and with what kinds of
+           things it is concerned. It is reasoning neither from part to whole nor from whole to
+           part but from part to part, like to like, when two things fall under the same genus but
+           one is better known than the other.®> For example, [when someone claims] that
+           Dionysius is plotting tyranny because he is seeking a bodyguard; for Peisistratus also,
+           when plotting earlier, sought a guard and after receiving it made himself tyrant, and
+           Theagenes [did the same] in Megara, and others, whom the audience knows of, all be-
+           come examples of Dionysius, of whom they do not yet know whether he makes his
+           demand for this reason. All these actions fall under the same [genus]: that one plot-
+           ting tyranny seeks a guard.©
+                [1358a] The sources of pisteis that seem demonstrative [apodeiktikai] have now
+           been explained. 20. But in the case of enthymemes, a very big difference—and one
+           overlooked by almost everybody—is one that is also found in the case of syllogisms in
+           dialectical method; for some [enthymemes] are formed in accord with the method of
+           rhetoric, just as also some syllogisms are formed in accord with the method of dialec-
+           tic, while others accord with [the content of] other arts and capabilities, either those
+           in existence or those not yet understood.*’ Hence, [the differences] escape notice of
+           the listeners; and the more [speakers] fasten upon [the subject matter] in its proper
+           sense, [the more] they depart from rhetoric or dialectic.68 This statement will be
+           clearer if explained in more detail.
+
+           64 Prior Analystics 2.27.
+           65 There is an “unmeditated inference,” or unspoken recognition of the universal proposition. See Hauser 1985,
+           171-79.
+           66 It could be argued that seeking a bodyguard is a “sign” of intent to establish a tyranny, and certainly para-
+           digms and signs have some similarity; but Aristotle seems to think of a paradigm as useful in indicating motiva-
+           tion or the probable course of events that the audience might not otherwise anticipate, whereas a sign is usu-
+           ally an existing fact or condition that anyone might recognize. More important to him, however, is the logical
+           difference that the paradigm moves from the particular premises to a particular conclusion, with the universal
+           link not necessarily expressed (just as the universal major premise of an enthymeme need not be expressed),
+           whereas the sign moves either from universal to particular or particular to universal.
+           67 t is characteristic of Aristotle to feel that there were other subjects not yet systematically studied.
+           68 This passage is regarded as textually corrupt by the editors. Kassel indicates that something has been lost af-
+           ter listeners; Ross rejects the more. The basic thought is that people do not realize that rhetoric and dialectic,
+           though they have a method, lack content or facts and must borrow these from other disciplines, such as politics
+           or ethics. Enthymemes are rhetorical strategies but also usually substantive arguments; and the more the argu-
+                                                                      Aristotle     = Excerpts from Book I, Rhetoric     33
+
+The “Topics” of Sylogisms and Enthymemes
+
+Topos literally means “place,” metaphorically that location or space in an art where a
+speaker can look for “available means of persuasion.” Rhetoric itself can be said to
+operate in civic space. Although the word accords with Aristotle’s fondness for visual
+imagery, he did not originate its use in the sense of “topic”; Isocrates, early in the
+fourth century, had so used it, and probably others did before him. In Isocrates’
+Encomium of Helen (section 4) topos refers to forms of eristical argument, such as fact
+or possibility—what Aristotle will call koina. In the same speech (section 38) topos
+refers to the use of an ancient witness, Theseus’ opinion of Helen—what Aristotle re-
+gards as “nonartistic” pistis. The word may also already have been used in mnemonic
+theory of the physical setting against which an object or idea could be remembered.
+Neither in Topics nor in Rhetoric does Aristotle give a definition of topos, another sign
+that he assumed the word would be easily understood; he does, however, give his own
+special twist to its meaning, usually distinguishing it from koina and idia and using it
+primarily of strategies of argument as discussed in 2.23. See Sprute 1982, 172-82.
+     21. I am saying that dialectical and rhetorical syllogisms are those in which we
+state topoi, and these are applicable in common [koinéi] to questions of justice and
+physics and politics and many different species [of knowledge]; for example, the topos
+of the more and the less;® for to form syllogisms or speak enthymemes from this
+about justice will be just as possible as about physics or anything else, although these
+subjects differ in species.’ But there are “specifics””! that come from the premises of
+each species and genus [of knowledge]; for example, in physics there are premises
+from which there is neither an enthymeme nor a syllogism applicable to ethics; and
+in ethics [there are] others not useful in physics. It is the same in all cases. The former
+[the common topoi} will not make one understand any genus; for they are not con-
+cerned with any underlying subject. As to the latter [the specifics], to the degree that
+someone makes better choice of the premises, he will have created knowledge differ-
+ent from dialectic and rhetoric without its being recognized; for if he succeeds in hit-
+ting on first principles [arkhai], the knowledge will no longer be dialectic or rhetoric
+but the science of which [the speaker] grasps the first principles.7? 22. Most en-
+
+ment comes from the premises of politics, ethics, or other subjects, the more the enthymeme becomes an argu-
+ment of that discipline and the less it is purely rhetorical. In practice, the limits are never reached; any argu-
+ment has some strategy (what Aristotle will call “topics” in 2.23) and some content (what he will call idia and
+discuss in 1.4-14 and 2.1-17). Some possible implications of this passage are discussed by Garver 1988, but he
+twists the meaning of some of Aristotle’s words (metabaind, tynkhané, etc.) to create problems that perhaps do
+not exist.
+6) To be discussed in 2.23.4 (the chapter on topics).
+70 The topos does not tell one anything about these subjects but can be applied to each; for example, “If it is just
+to punish offenses, it is more just to punish great offenses,” “If a small force will move a body, a larger force will
+move it as well” and “If public revenues will support a large army, they will support a smaller army.”
+71 Idia (n. pl. of the adj. from eidos), “specificities, specific or particular things.” The word is chosen to denote
+things characteristic of the species. Aristotle here does not call these specifics topics, but he does so refer to
+them in 1.15.19; and in sec. 22, as well as in 1.61, he speaks of them as stoikheia, which he says later (2.22.13,
+2.26.1) are the “same” as topics. Thus, many rhetoricians have found it convenient to speak of “special, spe-
+cific-particular, material” topics belonging to the separate disciplines, in contrast to “common” or “formal” top-
+ics, which are rhetorical or dialectical strategies of argument.
+72 For the concept of “first principles” see note on 1.7.12. Part or all of a discourse may be thought of as falling
+in a spectrum, varying from the most general and popular to the most technical. A speech in a law court, for
+example, will become less “rhetorical” and more “jurisprudential” as it undertakes detailed discussion of the
+34   Chapter 1 #    What Is Rhetoric?
+
+
+
+          thymemes are derived from these species that are’particular and specific, fewer from
+          the common [topics]. Just as in the case of topoi, so also in the case of enthymemes,
+          a distinction should be made between the species and the topoi from which they are
+          to be taken. By “species” ] mean the premises specific to each genus [of knowledge],
+          and by topoi those common to all. But let us take up first the genera [gene] of rhetoric
+          so that having defined how many there are, we may separately take up their ele-
+          ments’4 and premises.”
+
+          Chapter 3: The Three Species of Rhetoric:
+          Deliberative, Judicial, and Epideictic
+           1. The species [eidé] of rhetoric are three in number; for such is the number [of classes]
+           to which the hearers of speeches belong. A speech [situation] consists of three things:
+           a speaker and a subject on which he speaks and someone addressed,” [1358b] and the
+           objective [telos] of the speech relates to the last (J mean the hearer). 2. Now it is nec-
+           essary for the hearer to be either a spectator [theoros] or a judge [krités], and [in the lat-
+          ter case] a judge of either past or future happenings. A member of a democratic assem-
+          bly is an example of one judging about future happenings, a juryman an example of
+          one judging the past. A spectator is concerned with the ability [of the speaker].77 3.
+          Thus, there would necessarily be three genera of rhetorics;’8 symbouleutikon [“delibera-
+           tive”, dikanikon [“judicial”], epideiktikon [“demonstrative”]. Deliberative advice is ei-
+
+
+           law. In terms of valid proof it is desirable to do this, but too technical a speech will not be comprehensible to
+           the judges.
+           3 This is because of the need for “content”: rhetoric constantly employs the special knowledge of other arts,
+           such as politics or ethics.
+           74 Elements (stoikheia) are the same as topics; see 2.22.13, 2.26.1.
+           15 Aristotle’s use of genos, eidos, and idia in this passage may make it somewhat difficult to follow; but he is
+           probably not seeking to make a logical statement about the relationship of genus and species. In a general way
+           he can be said to view knowledge as a genus of which particular forms, (e.g., physics, politics, and ethics) are
+           species (eid@). The premises of the eidé are their idia. In the concluding sentence he also calls the kinds of
+           rhetoric gené (genera), but in the first sentence of the next chapter will call them eidé (species) and in 3.3 re-
+           verts to gené. See n. 78.
+           76 Eighteenth-century rhetoricians add the occasion to Aristotle’s three factors in the speech situation, and mod-
+           ern authorities have suggested other approaches, e.g., “addresser, message, addressee, context, common code,
+           and contact” (Roman Jakobson).
+           71 This sentence is rejected by Kassel as an insertion into the text by a later reader, perhaps rightly. The audi-
+           ence in epideictic is not called upon to take a specific action, in the way that an assemblyman or juryman is
+           called upon to vote; but epideictic may be viewed as an oratorical contest, either with other speakers or previ-
+           ous speakers (cf., e.g., lsocrates, Panegyricus 1), and in 2.18.1 Aristotle notes that the spectator also is in this
+           sense a judge. The definition of epideictic has remained a problem in rhetorical theory, since it becomes the
+           category for all forms ofdiscourse that are not specifically deliberative or judicial; later ancient rhetoricians re-
+           garded it as including poetry and prose literature, and since Renaissance times it has sometimes included other
+           arts like painting, sculpture, and music as well. Aristotle, however, thinks of epideictic only as a species of ora-
+           tory as he knew its forms in Greece, including funeral orations like that by Pericles in Thucydides’ History of the
+           Peloponnesian War (2.35—46) and the Encomia of Helen by Gorgias and Isocrates. In such speeches, praise cor-
+           rects, modifies, or strengthens an audience’s belief about civic virtue or the reputation of an individual.
+           78 The appearance here of “rhetorics” in the plural is very unusual in Greek and probably results from the use of
+           gené in the plural. Aristotle may use gené here of the kinds of rhetorics earlier called eidé because in the next
+           sentence he is going to divide them further into species.
+                                                                      Aristotle     = Excerpts from Book I, Rhetoric    35
+
+
+ther protreptic [“exhortation”] or apotreptic [“dissuasion”]; for both those advising in
+private and those speaking in public always do one or the other of these. In the law
+court there is either accusation [katégoria] or defense [apologial; for it is necessary for
+the disputants to offer one or the other of these. In epideictic, there is either praise
+[epainos] or blame [psogos]. 4. Each of these has its own “time”: for the deliberative
+speaker, the future (for whether exhorting or dissuading he advises about future
+events); for the speaker in court, the past (for he always prosecutes or defends con-
+cerning what has been done); in epideictic the present is the most important; for all
+speakers praise or blame in regard to existing qualities, but they often also make use of
+other things, both reminding [the audience] of the past and projecting the course of
+the future.’? 5. The “end”8° of each of these is different, and there are three ends for
+three [species]: for the deliberative speaker [the end] is the advantageous
+[sympheron]*! and the harmful (for someone urging something advises it as the better
+course and one dissuading dissuades on the ground that it is worse), and he includes
+other factors as incidental: whether it is just or unjust, or honorable or disgraceful; for
+those speaking in the law courts [the end] is the just [dikaion] and the unjust, and they
+make other considerations incidental to these; for those praising and blaming [the
+end] is the honorable [kalon] and the shameful, and these speakers bring up other
+considerations in reference to these qualities. 6. Here is a sign that the end of each
+[species of rhetoric] is what has been said: sometimes one would not dispute other fac-
+tors; for example, a judicial speaker [might not deny] that he has done something or
+done harm, but he would never agree that he has [intentionally] done wrong; for [if
+he admitted that,] there would be no need of a trial. Similarly, deliberative speakers
+often grant other factors, but they would never admit that they are advising things
+that are not advantageous [to the audience] or that they are dissuading [the audience]
+from what is beneficial; and often they do not insist that it is not unjust to enslave
+neighbors or those who have done no wrong. And similarly, those who praise or
+blame do not consider whether someone has done actions that are advantageous or
+harmful [to himself] [1359a] but often they include it even as a source of praise that
+he did what was honorable without regard to the cost to himself; for example, they
+praise Achilles because he went to the aid of his companion Patroclus knowing that
+he himself must die, though he could have lived. To him, such a death was more hon-
+orable; but life was advantageous.
+
+
+79 In practice, as in funeral orations, speakers usually praise past actions but with the intent of celebrating time-
+less virtues and inculcating them as models for the future.
+80 Telos, the final objective of the speaker and his art, which is actualized in the persuasion of an audience.
+Later rhetoricians sometimes called these “final headings.” Each telos often becomes a specific topic in a speech;
+see, for example, the discussions of expedience and justice in the speeches of Cleon and Diodotus in the
+Mytilenian debate in Thucydides 3.37—-48.
+81 Sympheron is often translated “expedient”; literally, it means whatever “brings with it” advantage (Lat.
+utilitas). Later rhetoricians were troubled by the moral implication and sought to modify what they saw as
+Aristotle’s focus on expediency in political discourse; see esp. Quintilian 3.8.1-3. Since Aristotle has said in
+1.1.12 that we must not persuade what is bad, he would presumably recommend that a speaker seek to identify
+the enlightened, long-term advantage to the audience. “Advantageous” or “beneficial” seems the best transla-
+tion. In sec. 6 Aristotle recognizes that in practice deliberative speakers are often indifferent to the question of
+the injustice to others of some action.
+36   Chapter   1   #   What Is Rhetoric?
+
+
+
+           Propositions Common             to All Species of Rhetoric
+
+           No technical term appears in this chapter to denote the four subjects of propositions
+           described here, but in 2.18.2 they are called koina, “common things,” “commonalties,”
+           in contrast to idia, “specifics.” They are discussed in greater detail in 2.19. Since the
+           koinon “greater and smaller” discussed in section 9 seems similar to the topic of “the
+           more and the less” mentioned in 1.2.21, these koina have often been called “topics” or
+           “common topics.” Grimaldi (1980-88, 1:85-86) objects to this, with some reason,
+           though in 3.19.2 Aristotle speaks of “topics” of amplification and seems to be referring
+           to 2.19. Generally, however, Aristotle keeps them distinct: the topic of “the more and
+           the less,” discussed separately in 2.23.4, is a strategy of argument, always involving
+           some contrast, whereas “greater and smaller,” discussed in 1.7, 14 and 2.19.26—27, are
+           arguments about the degree of magnitude (that term occurs in 2.18.4) or importance of
+           something and are analogous to such questions as whether something is possible or has
+           actually been done. Whether something is possible, actually true, or important are
+           fundamental issues in any speech; and thus Aristotle mentions them immediately after
+           identifying the basic issues of the advantageous, the just, and the honorable.
+                7. It is evident from what has been said that it is first of all necessary [for a speaker]
+           to have propositions [protaseis] on these matters.8? (Tekméria and probabilities and
+           signs are rhetorical propositions. A syllogism is wholly from propositions, and the en-
+           thymeme is a syllogism consisting of propositions expressed.        )® 8. And since impossi-
+           bilities cannot be done nor have been done, but possibilities [alone can be done or
+           have been done], it is necessary for the deliberative, judicial, and epideictic speaker to
+           have propositions about the possible and the impossible and [about] whether some-
+           thing has happened or not and [about] whether it will or will not come to be. 9.
+           Further, since all speakers, praising and blaming and urging and dissuading and prose-
+           cuting and defending, not only try to show what has been mentioned but that the
+           good or the evil or the honorable or the shameful or the just or the unjust is great or
+           small, either speaking of things in themselves or in comparison to each other, it is
+           clear that it would be necessary also to have propositions about the great and the small
+           and the greater and the lesser, both generally and specifically; for example, [about]
+           what is the greater or lesser good or injustice or justice, and similarly about other qual-
+           ities.°4 The subjects about which it is necessary to frame propositions have [now] been
+           stated. Next we must distinguish between each in specific terms; that is, what deliber-
+           ation, and what epideictic speeches, and thirdly, what lawsuits, are concerned with.
+
+           DEVELOPING YOUR UNDERSTANDING
+               1. Aristotle argues that the function of rhetoric is not to persuade but to discover the avail-
+                  able means of persuasion. Explain how “persuasion” and “discovering the means of per-
+                  suasion” are distinct. Then, explain how the distinction affects the scope and purpose of
+                  the rhetor’s/professional writer's work?
+
+
+           82 The advantageous, the just, the honorable, and their opposites.
+           83 The propositions inherent in the underlying syllogism are not necessarily all expressed in the related en-
+           thymeme; some may be assumed.
+           *4 The subjects of propositions common to all species of rhetoric are thus the possible and impossible, past fact
+           (or its nonexistence), future fact (or its nonexistence), and degree of magnitude or importance. These are dis-
+           cussed further in 2.19.
+                       Aristotle   = Excerpts from      “Book VI, Intellectual Virtue” in Nicomachean Ethics                               37
+
+
+   2. According to Aristotle's characterization, rhetoric is a generalizable art that, when applied
+      to particular situations, helps guide speaking/writing. Briefly explain this characterization of
+      rhetoric. Then, discuss what professional writers gain from an art of rhetoric, as well as the
+      limitations such an art poses for professional writers.
+   3. Aristotle argues that “rhetoric is a certain kind of offshoot [paraphues] of dialectic and of
+      ethical studies (which it is just to call politics).” Referring to this passage, found in Chapter
+      2, section 7, as well as others, summarize the relationship that Aristotle builds between
+      rhetoric and other arts, sciences, and practices.
+   4. Identify and explain the functions of rhetoric as argued by Aristotle. Refer to specific passages.
+
+
+
+    FOCUSING ON KEY TERMS AND CONCEPTS
+    Focus on the following terms and concepts while you read through this selection.
+    Understanding these will not only increase your understanding of the selection that fol-
+    lows, but you will find that, because most of these terms or concepts are commonly used
+    in professional writing and rhetoric, understanding them helps you get a better sense of
+    the field itself.
+    1. science
+    2. induction
+    3. syllogism
+    4. art
+    5. the variable
+    6. the invariable
+    7. practical wisdom
+    8. deliberation
+    9. virtue
+
+ DOSER   SHORE   HER    SSSIGEYREHREHFIHOHERGTHUHOBALHASERCEAHO   ASE OUEAAHEHAETHO          OHHH   TRE   THEHARESHOHCHRIFHDHHHHBORE
+
+
+
+   lnseapaen aS FROM                           Lysavers VI, nee
+    VIRTUE” IN NICOMACHEAN                                                 ETHICS:
+    THE CHIEF INTELLECTUAL                                            VIRTUES
+   BORDER        ERFEREREESAREDER
+                          SEH AEHMERSEDRAOTSESHHEHEHEHE              DHE   ROROEHE   OH EH    HHO HOHE    EHSHHR   HEHE   RESHE HHO   EY
+
+
+
+    ARISTOTLE translated by DAVID ROSS
+
+SCIENCE—DEMONSTRATIVE                                    KNOWLEDGE                            OF THE
+NECESSARY AND ETERNAL
+3. Let us begin, then, from the beginning, and discuss these states once more. Let it
+be assumed that the states by virtue of which the soul possesses truth by way of affir-
+mation or denial are five in number, i.e. art, scientific knowledge, practical wisdom,
+philosophic wisdom, intuitive reason; we do not include judgment and opinion be-
+cause in these we may be mistaken.
+     Now what scientific knowledge is, if we are to speak exactly and not follow mere
+similarities, is plain from what follows. We all suppose that what we know is not even
+
+Source: From The Nicomachean Ethics by Aristotle, translated by David Ross (World's Classics, 1980), pp. 140-143.
+Reprinted by permission of Oxford University Press.
+38   Chapter 1 #® What Is Rhetoric?
+
+
+
+           capable of being otherwise; of things capable of being otherwise we do not know,
+           when they have passed outside our observation, whether they exist or not. Therefore
+           the object of scientific knowledge is of necessity. Therefore it is eternal; for things
+           that are of necessity in the unqualified sense are all eternal; and things that are eter-
+           nal are ungenerated and imperishable. Again, every science is thought to be capable
+           of being taught, and its object of being learned. And all teaching starts from what is
+           already known, as we maintain in the Analytics alsc; for it proceeds sometimes
+           through induction and sometimes by syllogism. Now induction is the starting-point
+           which knowledge even of the universal presupposes, while syllogism proceeds from
+           universals. There are therefore starting-points from which syllogism proceeds, which
+           are not reached by syllogism; it is therefore by induction that they are acquired.
+           Scientific knowledge is, then, a state of capacity to demonstrate, and has the other
+           limiting characteristics which we specify in the Analytics, for it is when a man be-
+           lieves in a certain way and the starting-points are known to him that he has scientific
+           knowledge, since if they are not better known to him than the conclusion, he will
+           have his knowledge only incidentally.
+               Let this, then, be taken as our account of scientific knowledge.
+
+
+           ART—KNOWLEDGE                OF HOW TO MAKE THINGS
+           4. In the variable are included both things made and things done; making and acting
+           are different (for their nature we treat even the discussions outside our school as reli-
+           able); so that the reasoned state of capacity to act is different from the reasoned state
+           of capacity to make. Hence too they are not included one in the other; for neither is
+           acting making nor is making acting. Now since architecture is an art and is essentially
+           a reasoned state of capacity to make, and there is neither any art that is not such a
+           state nor any such state that is not an art, art is identical with a state of capacity to
+           make, involving a true course of reasoning. All art is concerned with coming into be-
+           ing, i.e. with contriving and considering how something may come into being which
+           is capable of either being or not being, and whose origin is in the maker and not in
+           the thing made; for art is concerned neither with things that are, or come into being,
+           by necessity, nor with things that do so in accordance with nature (since these have
+           their origin in themselves). Making and acting being different, art must be a matter
+           of making, not of acting. And in a sense chance and art are concerned with the same
+           objects; as Agathon says, “art loves chance and chance loves art.” Art, then, as has
+           been is a state concerned with making, involving a true course of reasoning, and lack
+           of art on the contrary is a state concerned with making, involving a false course of
+           reasoning; both are concerned with the variable.
+
+
+           PRACTICAL WISDOM—KNOWLEDGE OF HOW
+           TO SECURE THE ENDS OF HUMAN LIFE
+           5. Regarding practical wisdom we shall get at the truth by considering who are the
+           persons we credit with it. Now it is thought to be the mark of a man of practical
+           wisdom to be able to deliberate well about what is good and expedient for himself,
+           not in some particular respect, e.g. about what sorts of things conduce to health or
+           to strength, but about what sorts of thing conduce to the good life in general. This
+               Aristotle   = Excerpts from “Book VI, Intellectual Virtue” in Nicomachean Ethics      39
+
+
+is shown by the fact that we credit men with practical wisdom in some particular
+respect when they have calculated well with a view to some good end which is one
+of those that are not the object of any art. It follows that in the general sense also
+the man who is capable of deliberating has practical wisdom. Now no one deliber-
+ates about things that are invariable, nor about things that it is impossible for him
+to do. Therefore, since scientific knowledge involves demonstration, but there is no
+demonstration of things whose first principles are variable (for all such things
+might actually be otherwise), and since it is impossible to deliberate about things
+that are of necessity, practical wisdom cannot be scientific knowledge nor art; not
+science because that which can be done is capable of being otherwise, not art be-
+cause action and making are different kinds of things. The remaining alternative,
+then, is that it is a true and reasoned state of capacity to act with regard to the
+things that are good or bad for man. For while making has an end other than itself,
+action cannot; for good action itself is its end. It is for this reason that we think
+Pericles and men like him have practical wisdom, viz. because they can see what is
+good for themselves and what is good for men in general; we consider that those
+can do this who are good at managing households or states. (This is why we call
+temperance (sophrosune) by this name; we imply that it preserves one’s practical
+wisdom (sozousa tan phronsin). Now what it preserves is a judgment of the kind we
+have described. For it is not any and every judgment that pleasant and painful ob-
+jects destroy and pervert, e.g. the judgment that the triangle has or has not its an-
+gles equal to two right angles, but only judgments about what is to be done. For the
+originating causes of the things that are done consist in the end at which they are
+aimed; but the man who has been ruined by pleasure or pain forthwith fails to see
+any such originating cause—to see that for the sake of this or because of this he
+ought to choose and do whatever he chooses and does; for vice is destructive of the
+originating cause of action.)
+    Practical wisdom, then, must be a reasoned and true state of capacity to act with
+regard to human goods. But further, while there is such a thing as excellence in art,
+there is no such thing as excellence in practical wisdom; and in art he who errs will-
+ingly is preferable, but in practical wisdom, as in the virtues, he is the reverse. Plainly,
+then, practical wisdom is a virtue and not an art. There being two parts of the soul
+that can follow a course of reasoning, it must be the virtue of one of the two, i.e. of
+that part which forms opinions; for opinion is about the variable and so is practical
+wisdom. But yet it is not only a reasoned state; this is shown by the fact that a state of
+that sort may forgotten but practical wisdom cannot.
+
+DEVELOPING YOUR UNDERSTANDING
+  1. Prepare a table or matrix that captures the distinctions between science, art, and practical
+    wisdom as outlined by Aristotle, and be prepared to discuss your table/matrix in class.
+  2. Characterize what rhetoric would be if it were categorized as a science, an art, and a prac-
+     tice/action. Then, compare and contrast the three depictions, drawing out the key simi-
+     larities and differences.
+  3. Aristotle used the variable and invariable as one set of features to distinguish the virtues.
+     Referring to other readings in this chapter, and perhaps sources outside this book with
+     which you are familiar, argue whether you consider rhetoric to be concerned with the
+     variable or the invariable, and explain the impact you see such a distinction making on
+     what rhetoric is and is not.
+40   Chapter 1 #® What Is Rhetoric?
+
+
+            SOCRGPSSTSHEHHHEREHOELTRS         evans                        SERVES    RERESOTHT   TH LOHRVSRGHEHHTHETERFEHHEHELEECHHHRLEHE
+                                                                                                                                        DE
+
+
+                 FOCUSING ON KEY TERMS AND CONCEPTS
+                 Focus on the following terms and concepts while you read through this selection.
+                 Understanding these will not only increase your understanding of the selection that fol-
+                 lows, but you will find that, because most of these terms or concepts are commonly used
+                 in professional writing and rhetoric, understanding them helps you get a better sense of
+                 the field itself.
+                 1. epideictic
+                 2. deliberative
+                 3. judicial
+                 4. invention
+                 5. arrangement
+                 6. style
+                 7. memory
+                 8. delivery
+                 9. six parts of discourse
+
+            ee                                                     SHOE   THESE   LEAOOSAHHH     KOREA   HHOERISSSSEHESTHERFHESEHRHETHRTZES
+
+
+
+                 EXCERPTS FROM1 BooK I, RHETORICA
+             AD HERENNIUM
+                       HERE   ESEHEBE   ARH EKREHR OES   HGAGHEH   OTE               eee          SHOVELS   SHARE   ERE   SeePeoensteaweteres
+
+
+
+            ~ MARCUS TULLIUS CICERO Trent eG ee
+              HARRY CAPLAN
+
+           BOOK I
+           1 |. My private affairs keep me so busy that I can hardly find enough leisure to devote
+           to study, and the little that is vouchsafed to me | have usually preferred to spend on
+           philosophy. Yet your desire, Gaius Herennius, has spurred me to compose a work on
+           the Theory of Public Speaking, lest you should suppose that in a matter which con-
+           cerns you | either lacked the will or shirked the labour. And I have undertaken this
+           project the more gladly because I knew that you had good grounds in wishing to learn
+           rhetoric, for it is true that copiousness and facility in expression bear abundant fruit,
+           if controlled by proper knowledge and a strict discipline of the mind.
+                   That is why I have omitted to treat those topics which, for the sake of futile self-
+           assertion, Greek writers? have adopted. For they, from fear of appearing to know too
+           little, have gone in quest of notions irrelevant to the art, in order that the art might
+           seem more difficult to understand. I, on the other hand, have treated those topics
+           which seemed pertinent to the theory of public speaking. I have not been moved by
+           hope of gain? or desire for glory, as the rest have been, in undertaking to write, but
+
+           Source: Reprinted by permission of the publishers and Trustees of the Loeb Classical Library from Cicero: Volume | ~
+           Rhetorica and Herenium, Loeb Classical Library Volume L 403, translated by Harry Caplan, Cambridge, Mass: Harvard
+           University Press, 1954, pp. 3-11. The Loeb Classical Library ® is a registered trademark of the President and Fellows of
+           Harvard College.
+           4 The beginning of Book 4 further sets forth the author's attitude to the Greek writers on rhetoric (who these
+           are specifically is uncertain); cf. also 3. xxiii. 38. For his attitude to philosophical studies see the end of Book 4.
+           5 Apparently textbooks on public speaking sold well; see Theodor Birt, Rhein. Mus. 72 (1917/18). 311-16.
+                                                     Cicero     ® Excerpts from Book I, Rhetorica Ad Herennium                41
+
+
+have done so in order that, by my painstaking work, I may gratify your wish. To avoid
+prolixity, I shall now begin my discussion of the subject, as soon as | have given you
+this one injunction: Theory without continuous practice in speaking is of little avail;
+from this you may understand that the precepts of theory here offered ought to be ap-
+plied in practice.
+     2 II. The task of the public speaker is to discuss capably those matters which law
+and custom have fixed for the uses of citizenship, and to secure as far as possible the
+agreement of his hearers.* There are three kinds! of causes which the speaker must
+treat: Epideictic, Deliberative, and Judicial.¢ The epideictic kind is devoted to the
+praise or censure of some particular person. The deliberative consists in the discus-
+sion of policy and embraces persuasion and dissuasion.‘ The judicial is based on legal
+controversy, and comprises criminal prosecution or civil suit, and defence.s
+     Now I shall explain what faculties the speaker should possess, and then show the
+proper means of treating these causes.)
+     3 The speaker, then, should possess the faculties of Invention, Arrangement,
+Style, Memory, and Delivery.! Invention is the devising of matter, true or plausible,
+that would make the case convincing.) Arrangement is the ordering and distribution
+of the matter, making clear the place to which each thing is to be assigned. Style is
+the adaptation of suitable words and sentences to the matter devised. Memory is the
+
+
+
+
+© The definition is that of Hermagoras, to whom the function (epyov) of the perfect orator is TO TeBEV
+TOMtiKOV Cyto Siat1Becbon Kate 10 evbexOuEVOV MELOTLKDS . See Sextus Empiricus, Adv. Rhet. 62,
+ed. Fabricius, 2. 150. Cf. Cecero, De Inv. 1. v. 6.
+d yévn.
+© &TlSELKTIKOV, OVEBOVAEDTLKOV, SUKHVIKOV. The scheme is Aristotelian (rhet. 1. 3, 1358b) but in essence
+older. The author’s emphasis in the first two books, on the judicial kind, is characteristically Hellenistic (e.g.,
+Herrnagorean). The better tradition indicates that originally rhetoric was concerned with the judicial kind, and
+was later extended to the other two fields. For a study of the three genera see D. A. G. Hinks, Class. Quarterly 30
+(1936). 170-6. Cf. Cicero, De Inv. 1. v. 7.
+f tpoTpORH avd &oTpONT.
+8 KOLTIYOPTG,, SK], aTOAOYa.
+h 2. ii. 2 below.
+‘ evpeoic, TaEIC or olKovoptar, A€EIG or EpuNveta or HpGorE, Lv{UN, DmoKpLOLG. The pre-Aristotelian
+rhetoric, represented by the Rhet. Ad Alexandrum, treated the first three (without classifying them); Aristotle
+would add Delivery (Rhet. 3. 1, 1403b), and his pupil Theophrastus did so (see note on 3. xi. 19 below). When
+precisely in the Hellenistic period Memory was added as a fifth division by the Rhodian or the Pergamene
+school, we do not know. These faculties (res; see also 1. ii. 3) are referred to in 2. i. 1 below (cf. 1.iii.4) as the
+speaker’s functions (officia = epyo. TOV pNtOpOS). Quintilian, 3. 3. 11ff., considers them as departments or con-
+stituent elements of the art (paries rhetorices) rather than as opera (= officia); so also here at 3. i. 1, 3. viii. 15, 3.
+xvi. 28, and Cicero, De Invi. 1. vii. 9. epyov is an Aristotelian concept (cf. the definition of rhetoric in Rhet. 1.
+1-2, 1355b), and Aristotle was the first to classify the (major) functions. Our author here gives the usual order
+of the divisions; so also Cicero, De Oratore 1. 31. 142. Diogenes Laertius, 7. 43, presents the Stoic scheme:
+Invention, Style (pdo1c), Arrangement, and Delivery. A goodly number of rhetorical systems were actually
+based on these epyot (e.g., in most part Cicero’s and Quintilian’s); others were based on the divisions of the dis-
+course (Opto. AGyou). See K. Barwick, hermes 57 (1922). 1 ff.; Friedrich Solmsen, Amer. Journ. Phiolo. 62
+(1941). 35-50, 169-90. Our author conflates the two schemes he has inherited; see especially 1. ii. 3-iii. 4, 2. i.
+ 1-ii. 2, and the Introduction to the present volume, p. xviii.
+i The concept goes back at least as far as Plato (e.g., Phaedrus 236 A); see Aristotle, Rhet. 1. 2 (1355b), on find-
+ing artistic proofs.
+42   Chapter 1 #® What Is Rhetoric?
+
+
+
+           firm retention in the mind of the matter, words, and arrangement. Delivery is the
+           graceful regulation of voice, countenance, and gesture.
+                All these faculties we can acquire by three means: Theory, Imitation, and
+           Practice.‘ By theory is meant a set of rules that provide a definite method and system
+           of speaking. Imitation stimulates us to attain, in accordance with a studied method,
+           the effectiveness of certain models in speaking. Practice is assiduous exercise and ex-
+           perience in speaking.
+               Since, then, I have shown what causes the speaker should treat and what kinds of
+           competence he should possess, it seems that | now need to indicate how the speech
+           can be adapted to the theory of the speaker’s function.
+               4 ]II. Invention is used for the six parts of a discourse: the Introduction,
+           Statement of Facts, Division, Proof, Refutation, and Conclusion.! The Introduction
+           is the beginning of the discourse, and by it the hearer’s mind is prepared™ for atten-
+           tion. The Narration or Statement of Facts sets forth the events that have occurred or
+           might have occurred." By means of the Division we make clear what matters are
+           agreed upon and what are contested, and announce what points we intend to take up.
+           Proof is the presentation of our arguments, together with their corroboration.°
+
+           k téyvn (also nafdeta, emotiun, UGOnot<, scientia, doctrina), u{unotc, Youvaocra (also GOKNOIG, HEAETN,
+           eumeipta, ovvnGer0., declamatio). The usual triad, Nature (votc, nature, ingenium, facultas), Theory, and
+           Practice, can be traced back to Protagoras, Plato (Phaedrus 269 D), and Isocrates (e.g., Antid. 187; Adv. Soph.
+           14-18, where Imitation is also included). Cf. also Aristotle in Diogenes Laertius 5. 18; Cicero, De Inv. 1. i. 2.
+           De Oratore 1. 4. 14; Dionysius Halic. in Syrianus, Scholia Hermog., ed. Rabe, 1. 4-5; Tacitus, Dialog. de Orator.,
+           ch. 33; Plutarch, De liberis educ. 4 (2 A); and see Paul Shorey, Trans. Am. Pilol. Assn. 40 (1909). 185-201.
+           Imitation is presumed to have been emphasized in the Pergamene school of rhetors under Stoic influence.
+           Quintilian, 3. 5. 1, tells us that it was classed by some writers as a fourth element, which he yet subordinates to
+           Theory. On Imitation cf. Antonius in Cicero, de Oratore 2. 21. 89 ff.; Dionysius halic., De Imitat. (Opuscula 2.
+           197-217, ed. Usener-Rader-macher); Quintilian, 10. 1. 20 ff.; Eduard Stemplinger Das Plagiat in der Griech.
+           Lit., Leipzig and Berlin, 1912, pp. 81 ff.; Kroll, “Rhetorik”, coll. 1113 ff.; Paulus Otto, Quaestiones selectae ad li-
+           bellum qui est TEP1 VYOUG spectantes, diss. Kiel, 1906, pp. 6-19; G. C. Fiske, Lucilius and Horace, Madison,
+           1920, ch. 1; J. F. D’Alton, Roman Literary Theory and Criticism, Longon, New York, and Toronto, 1931, pp. 426
+           ff. Richard McKeon, “Literary Criticism and the Concept of Imitation in Antiquity,” Mod. Phiol. 34, 1 (1936).
+           1-35, and esp. pp. 26 ff.; D. L. Clark, “Imitation : Theory and Practice in roman Rhetoric,” Quart. Journ.
+           Speech 37, 1 (1951). 11-22. “Exercise” refers to the progymnasmata, of which our treatise and Cicero’s De Inv.
+           show the first traces in Latin rhetoric, and to the “suasoriae” (deliberations) and “controversiae” (causae) in
+           which the treatise abounds. See also 4. xliv. 59 (Refining). The divorce between praeexercitamenta and
+           exercitations belongs to the Augustan period.
+           ''The author’s treatment of the parts of a discourse differs from that of Aristotle, who, in Rhet. 3. 13 (1414a) ff.,
+           discusses them—Proem, Statement of Facts, Proof, and Conclusion—with all three kinds of oratory in view,
+           not only the judicial, under Arrangement. Note that Invention is applied concretely to the parts of the dis-
+           course; in 1. xi. 18 ff. below the Issues are subjoined to Proof and Refutation. Cf. Cicero, De Inv. 1. xiv. 19.
+           The Stoic scheme included Proem, Statement of Facts, Replies to Opponents, and Conclusion (Diogenes
+           Laertius 7. 43).
+           ™ rapacKkevacetar.The concept if Isocratean. Cf. Rhet. Ad Alex., ch. 29 (1436a); Dionysius Halic., De Lys.
+           17; Anon. Seg. 5 and 9 (Spengel-Hammer | [2]. 353-4); Rufus 4 (Spengel-Hammer 1 [2]. 399); Anon., in
+           Rabe, Proleg. Sylloge, p. 62.
+           » This definition is translated directly from a Greek original; see Hermogenes, Progymn. 2 (ed. rabe, p. 4),
+           Syrianus, Scholia Hermog. (ed. Rabe, p. 4), Syrianus, Scholia Hermog. (ed. Rabe 2. 170), Theon 4 (Spengel 2.
+           78). Cf. Cicero, De Inv. 1. xix. 27.
+           ° Cf. Cicero, De Inv. 1. xxiv. 34.
+           P Cf. Cicero, De Inv. 1. xlii. 78 (reprehensio).
+                                        Cicero   = Excerpts from Book I, Rhetorica Ad Herennium   43
+
+
+
+Refutation is the destruction of our adversaries’ arguments.? The Conclusion is the
+end of the discourse, formed in accordance with the principles of the art.
+     Along with the speaker’s functions, in order to make the subject easier to under-
+stand, | have been led also to discuss the parts of a discourse, and to adapt these to the
+theory of Invention.    It seems, then, that | must at this juncture first discuss the
+Introduction.4
+
+DEVELOPING YOUR UNDERSTANDING
+  1. Referring to the pages you have from Book | of Rhetorica Ad Herennium, summarize the
+     function and scope of rhetoric. Compare and contrast what Rhetorica Ad Herennium puts
+     forward with what Aristotle’s Rhetoric puts forward.
+  2. Using the little bit of Rhetorica Ad Herennium you have available here and any other
+     sources from this chapter, support, contend with, or modify how Foss, Foss, and Trapp (in
+     the first reading from the chapter) represent Roman rhetoric.
+  3. Summarize the way Rhetorica Ad Herennium states rhetoric can be learned. Locate if and
+     how other sources from this chapter identify how rhetoric can be learned, comparing and
+     contrasting these sources with Rhetorica Ad Herennium. Finally, explain how what you
+     discover about the education of the rhetor can be applied to your own education.
+
+
+4 MPOAGYOG, probably.
+                  CHAPTER            1
+
+                  Projects
+          1. Chapter 6 of Professional Writing and Rhetoric argues that professional writing is defined, in
+             great part, by its focus on readers or users; that is, professional writing and rhetoric is user-
+             or reader-centered. Using the readings from Chapter 1, as well as other primary and sec-
+             ondary rhetorical sources you find through independent research, examine (meaning sup-
+              port, contend with, and/or modify) the following claim: Rhetoric is an audience-, reader-, or
+              user-centered art.
+            . Despite the fact that rhetoric is one of the oldest disciplines and was traditionally one of the
+              core liberal arts, you will probably find yourself in many situations where you are asked to
+              explain what rhetoric is. Your family will probably ask you, as they wonder what it is you are
+              studying in this course. Interviewers will probably ask you, as they wonder what rhetoric
+              adds to you as a potential employee. And if you happen to mention “rhetoric” to people at
+              work, they will probably ask you what it is, also.
+     EHASHHOHHEHHOSHHOHEHSHFHESGHSHHAOHOTOSHETAESHEREHEEED
+     COMETS
+
+              Construct a scenario in which you might be asked to define rhetoric for someone. For this
+              scenario, develop a text that defines the discipline. Since several scenarios that might call for
+              a definition of rhetoric would not also typically call for a written document (i.e., they would
+              call for a verbal response), you should approach this project creatively. Consider a variety of
+              “texts” (maybe a movie-short, a children’s book, a cartoon, or a taped dramatic dialogue)
+              you could produce.
+            . Obviously, four selected readings have not covered the entire discipline of rhetoric. There re-
+              main numerous issues/topics, rhetoricians, theoretical approaches, and histories that have
+              not been represented, or represented well enough by the readings in this chapter.
+              As a class, and with the help of your instructor, develop a list of issues/topics, rhetoricians,
+              theoretical approaches, and/or histories that you could research further. Individually or in
+              small groups, choose a research area, develop a research question into which you will in-
+              quire, and write a research plan to help guide your inquiry. Your aim should be to develop,
+              as a Class, a set of oral and written reports that you can bring back to the class in order to
+              develop a more robust sense of rhetoric. The written reports should be published (in either
+              print or online form) and incorporated into the class as additional readings/resources.
+
+
+
+
+44
+eesoeeures
+
+e
+e
+2
+>
+e
+°
+e
+
+
+
+
+           WhatIs the
+2
+e
+®
+@
+2
+e
+®
+e
+°
+
+
+
+           Relationship Between
+s
+e
+2
+e
+°
+2
+.
+
+
+
+
+           Professional Writing
+e
+2
+.
+°
+e
+°
+@
+
+
+
+
+           and Rhetoric?
+°
+.
+2
+2
+2
+7
+2
+a
+°
+e
+*
+
+
+
+
+    INTRODUCTION
+    The title of this book, Professional Writing and Rhetoric, can be read in one of two
+    ways. You might read the title and think the book is about two different fields that are
+    telated: professional writing as one field and rhetoric as a separate but related field.
+    Or, you might read it and think it is about an interdisciplinary field: professional writ-
+    ing and rhetoric as integrally joined in a way that forms a new field of study and work.
+    The readings in Chapter 2, together, examine some of the relationships between pro-
+    fessional writing and rhetoric.
+         Questions you should consider as you read these selections are as follows:
+
+        ¢ How is professional writing affected when writing is understood as socially situ-
+          ated or contextualized?
+        ¢ How is professional writing affected when writing is understood as a practice?
+        © How is professional writing affected when writing is understood as a productive
+          art?
+        ® How is professional writing affected when the writer is understood to be a
+          rhetor and an author?
+        ° How is professional writing affected when it is understood as organizationally
+          situated authorship?
+
+    Each of these questions arises when professional writing is considered a rhetorical
+    practice and art.
+         One of the concerns of rhetoric is understanding the relationship between com-
+    munication and specific situations, what we often refer to as the rhetorical situation.
+    Some, for instance, have argued that rhetorical situations are external realities that
+    rhetors walk into, realities that create moments for rhetorical action. In other words,
+    rhetorical situations exist prior to speaking or writing. Others have argued that
+
+                                                                                                 45
+46   Chapter 2     *   What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+           thetorical situations are “invented” in rhetors’ speeches or texts. According to this
+           position, audiences and readers enter into whatever rhetorical situations the rhetor
+           creates for them. In other words, rhetorical situations do not precede speaking or
+           writing; they are created through speaking and writing. Lester Faigley, in
+           “Nonacademic Writing: The Social Perspective,” examines this issue as it relates to
+           professional writing.
+                Another issue within rhetoric questions whether rhetoric is a productive art—a
+           way of making texts—or if it is better understood as a practice—a way of doing ox act-
+           ing. In Chapter 1, you read about how Aristotle defined rhetoric in terms of produc-
+           tive art and practice, and though Aristotle seems to argue that rhetoric is a produc-
+           tive art, his works, as well as others within the rhetorical tradition, seem to suggest
+           that rhetoric is also a form of practice. Is professional writing one or the other, or a
+           combination of the two? Such a question has great impact on what professional writ-
+           ers are, do, and are responsible for. Carolyn Miller, in “What’s               Practical about
+           Technical Writing?” examines some of the ways this issue affects how we understand
+           who professional writers are, what they do, and what they should do.
+                A third issue that has been central to rhetoric over the ages is defining what it
+           means to be a rhetor or a writer. When we think about rhetors and/or writers, a great
+           range of terms can be used to define such people, each with varying degrees of author-
+           ity: scribe, orator, poet(ess), stenographer, scholar, wordsmith,          leader, editor, pub-
+           lisher, document specialist, and author are just some of the terms we might conjure.
+           Which one of these is best suited to the professional writer? And once we choose one,
+           in what ways does the term affect what we consider part of the writer’s expertise?
+           These are some of the issues taken up by Susan Regli in “Whose Ideas?: The
+           Technical Writer's Expertise in Inventio” and Jennifer Slack, David Miller, and
+           Jeffrey Doak in “The Technical Communicator as Author: Meaning, Power,
+           Authority.”
+                The issues and questions that have been part of the long history of rhetoric, thus,
+           have a great deal of relevance to professional writing. These few selected readings offer
+           only a glimpse at how the two fields are related, but when examined together, they
+           point to a field of professional writing and rhetoric that can be defined as “organiza-
+           tionally situated authorship.” As you read the selections in this chapter, reflect on this
+           one broad question: “How would you define organizationally situated authorship?”
+
+
+
+
+                 Focus on the following terms and concepts while you read through this selection.
+                 Understanding these will not only increase your understanding of the selection that fol-
+                 lows, but you will find that, because most of these terms or concepts are commonly used
+              in professional writing and rhetoric, understanding them helps you get a better sense of
+              the field itself.
+                 1. communicative chains
+                 2. writing as a social act
+                 3. discourse community
+                                                       Faigley   » Nonacademic           Writing: The Social Perspective      47
+
+
+
+ NoONA ACADEMIC                                 WRITING:
+     THE SOCIAL PERSPECTIVE
+ SOROS   OT   STEHT   RDE   SSCR SEES   ESOS   ORED   SERESGCOS HERSHRESE
+                                                                 HOCH AHSHE SER TH SP RORHHEOHRELKE
+                                                                                      HAHHAS                           RAED
+
+
+    LESTER FAIGLEY
+    University of Texas at Austin
+
+
+d bs past several years have seen a great deal of interest in the writing people do as
+     part of their work. As other chapters in this book will indicate, this job-related
+writing is worthy of our interest and serious study. In exploring this sort of writing, re-
+searchers can take one or a combination of three major theoretical perspectives—the
+textual perspective, the individual perspective, and the social perspective. In this chap-
+ter I discuss the foundations of the social perspective and how it might contribute to
+research in nonacademic writing. Although the social perspective is least well estab-
+lished, I will argue that it can be a fruitful perspective from which to study nonacade-
+mic writing. To illustrate the three theoretical perspectives, I will refer to the follow-
+ing four examples of writing situations in nonacademic settings.
+
+       ¢ An editor working for a major publisher in New York neglects to answer a
+         query from an editor in another division. A few days later she writes a brief
+         memo on the company’s memo stationery, apologizing for her failure to re-
+         spond. She uses the excuse that the request became buried on her desk. She
+         follows the company’s memo format, but she adds a letterlike closing that says:
+         “Excavatingly yours.”
+      ¢ A supervisor of bank examiners in Colorado has the responsibility of teaching
+         newly hired examiners how to write reports. Since examiners travel exten-
+         sively and are not well paid, his staff is young and turns over rapidly. The su-
+         pervisor is now revising an examiner’s report on a small bank in southwestern
+         Colorado that has made several questionable loans. In the margins he notes
+         several problems with the report: the lack of reasons for several conclusions,
+         the omission of important factual details, and general wordiness. At the end he
+         explains to the young examiner why the overall tone is inappropriate for an ex-
+         aminer’s report. He reminds the examiner that the report will be read at a board
+         of directors’ meeting and that it will be the basis for any reform in the bank’s man-
+         agement. He tells him to stick to the specific regulations that were violated and
+         to avoid derogatory remarks about the practices of rural banks.
+      @ A nurse in Boston changes jobs and begins work at a psychiatric hospital. At
+         his previous job at a large general hospital, the nurse’s section of a patient’s
+         chart was a checklist. The psychiatric hospital, however, requires discursive
+         notes on the chart. The nurse photocopies a few examples during his first day
+         on the new job. He uses these examples as models when writing the chart for a
+         schizophrenic patient. He observes that the notes are written in phrases and
+
+
+Source: Faigley, Lester. “Nonacademic Writing: The Social Perspective." Writing in Nonacademic Settings, ed. Lee Odell and
+Dixie Goswami, 1985, pp. 231-248. Copyright 1985 by The Guilford Press. Reprinted with permission.
+48   Chapter 2 =   What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+                   that certain abbreviations occur frequently, such as pt. for patient. He begins
+                   describing his patient’s behavior:
+                       Very anxious and agitated, seclusive to room except when preoccupied with
+                       phone. Poor personal hygiene. With much coaxing, pt. finally took a bath but re-
+                       fused to wash hair. Pt. very paranoid. States “Someone is trying to burn down my
+                       trailer.”
+
+                   A wildlife biologist works for an environmental engineering firm in Houston.
+                   She serves as project manager for an ecological survey of the proposed site for a
+                   liquefied natural-gas terminal on Matagorda Bay in Texas. She is part of a team
+                   that is preparing an environmental-impact statement for a major oil company,
+                   and she is composing on a computer the final report on terrestrial ecology. This
+                   report will be submitted with other reports on aquatic ecology and hydrology.
+                   Major subsections of the report include (1) wildlife habitats, (2) checklists of
+                   species, (3) endangered species, and (4) commercially important species. In
+                   writing the “checklists of species” subsection, the biologist relies on several
+                   master checklist files stored on computer diskettes. She loads the master check-
+                   list file for birds, a file that includes all species known to the Texas coast. She
+                   edits the file using her field notes on the birds she sighted while visiting the
+                   site, marking either “present,” “absent,” or “probable” beside each species. The
+                   biologist knows that the Environmental Protection Agency (EPA) gives spe-
+                   cial attention to endangered flora and fauna, and she includes in the report a
+                   separate subsection for habitats of endangered species. She documents her own
+                   findings with independently published sightings.
+
+
+           PERSPECTIVES FOR RESEARCH
+           Each of the writing situations just described—the editor’s memo, the bank examiner’s
+           report, the nurse’s notes, and the environmental-impact statement—differs substan-
+           tially from typical classroom writing tasks. An overriding question for researchers of
+           nonacademic writing is how these differences might best be understood and de-
+           scribed. The three perspectives mentioned at the beginning of this chapter represent
+           general lines of research that attempt to answer this question. They are, in fact, col-
+           lections of approaches, collapsed and simplified here for purposes of comparison.
+
+           The Textual Perspective
+           The primary concerns of linguistics and literary criticism during much of the twenti-
+           eth century have been the description of formal features in language and texts.
+           Following from the assumptions of these traditions, much writing research has ana-
+           lyzed features in texts. This line of inquiry has long been dominant in the study of
+           business and technical writing. One goal of this research has been to describe features
+           that typify particular genres, such as what elements appear in the introduction of a
+           marketing forecast. Another goal has been to produce more “readable” texts.
+           Readability has been defined traditionally in terms of quantifiable linguistic features
+           such as sentence length and word length—the basis for the popular readability for-
+           mulas of Flesch and Gunning (reviewed in Selzer, 1983). Only recently have discus-
+                                            Faigley   = Nonacademic   Writing: The Social Perspective   49
+
+
+     sions of readability included factors such as the suitability of texts for potential read-
+     ers (see Redish, et al., chapter 3, this volume).
+          If researchers who take the textual perspective were asked to examine the four
+     situations I cited at the beginning, they would collect and analyze the texts the writ-
+     ers produce. They might, for example, compared the specialized vocabularies of the
+     environmental-impact statement, the examiner's report, and the nurse’s notes. They
+     might compute T-unit length and clause length for each example. They might ana-
+     lyze the topics of individual sentences and determine how these sentence topics form
+     topical progressions. They might, for example, study documents’ tables of contents in
+     order to identify conventions of organization. They might look at errors in the nurse’s
+     writing and measure “improvement.” And they might comment on stylistic varia-
+     tions such as the closing of the editor’s memo. Results of these studies would be used
+     to make generalizations about specific kinds of texts—generalizations that are some-
+     times stated prescriptively as rules for style and format.
+
+     The Individual Perspective
+     This perspective has been strongly influenced by recent theory and research in psy-
+     chology. For much of this century, linguistics and psychology in the United States
+     were dominated by behaviorism, which declared mental strategies to be unobservable
+     and beyond scientific investigation. During the 1950s and 1960s, however, behavior-
+     ist assumptions encountered serious objections. In linguistics, Noam Chomsky argued
+     persuasively that behaviorist theory could not account for the complexity of human
+     language acquisition, and thereby changed the direction of American linguistic re-
+     search. In psychology, further challenges arose from several sources, two of which
+     later became important in the study of writing. The European cognitive-developmen-
+     tal tradition—best known through the work of Jean Piaget—influenced American re-
+     searchers studying the development of the thinking reflected in children’s writing. A
+     second tradition of cognitive psychology in the United States engaged researchers in
+     creating general theoretical models of the reasoning that attends the writing process.
+     Both these new lines of inquiry in psychology directed the attention of some writing
+     researchers to strategies writers use in composing. For example, Emig (1971) tried to
+     identify some of the strategies high school students used when they composed. Emig’s
+     work was followed by numerous other studies of the composing processes of elemen-
+     tary, secondary, and college students. The 1970s movement toward process-oriented
+     inquiry into how children and young adults learn to write eventually led to studies of
+     how nonacademic writers compose (e.g., Gould, 1980).
+          For researchers who take the individual perspective, a text is not so much an ob-
+     ject as an outcome of an individual’s cognitive processes. The primary attention shifts
+     away from the text to an individual writer’s emerging conception of the writing task.
+     Researchers taking the individual perspective would likely examine how writers make
+ certain choices during composing. They would inquire about writers’ goals in compos-
+ ing, either by retrospective interviews or by asking writers to voice their thoughts
+ while they composed. They would consider how an individual's formulation of a writ-
+ ing task directs the production of the resulting text. For example, researchers might
+ observe how the biologist divides the task of writing the environmental impact state-
+ ment into segments and what she hopes to accomplish in each section. They might
+ee
+50   Chapter 2 * What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+           observe how the editor at a publishing house goes about creating a persona as she
+           writes the memo and how she understands that persona to fulfill a larger purpose—in
+           this case, gaining the reader’s acceptance of an oversight. They might study protocols
+           of the nurse’s composing or consider the time he devotes to each stage of writing (e.g.,
+           Does he ever revise?). They might take the bank examiner’s case as an example of fail-
+           ure to develop an appropriate sense of audience. One goal of these studies would be to
+           describe the processes that are effective and those that are ineffective so that effective
+           strategies can be taught to ineffective writers.
+
+           The Social Perspective
+           The social perspective also focuses on the process of composing, but this perspective
+           understands process in far broader terms. In the social perspective, writing processes
+           do not start with “prewriting” and stop with “revising.” Researchers taking a social
+           perspective study how individual acts of communication define, organize, and main-
+           tain social groups. They view written texts not as detached objects possessing mean-
+           ing on their own, but as links in communicative chains, with their meaning emerging
+           from their relationships to previous texts and the present context. The social perspec-
+           tive, then, moves beyond the traditional rhetorical concern for audience, forcing re-
+           searchers to consider issues such as social roles, group purposes, communal organiza-
+           tion, ideology, and finally theories of culture.
+                If we consider the examples at the beginning of the chapter, we see that neither
+           the textual perspective nor the individual perspective gives us a way to understand
+           how a wildlife biologist learns to write an environmental-impact statement, or why
+           the nurse’s section of a patient’s chart at one hospital would not require any writing,
+           or how the supervisor’s editing of the bank examiner’s report affects the audit of the
+           bank and its consequences, or even why the editor’s closing is funny. These questions
+           all involve social relations, tensions, or conflicts that go beyond the text as a
+                                                                                     physical
+           object and the writer as an isolated strategist. To ask these questions is to assume that
+           writing, like operating a jackhammer, arguing a lawsuit, or designing an office build-
+           ing, is a social act that takes place in a structure of authority, changes constantly as
+           society changes, has consequences in the economic and political realms, and shapes
+           the writer as much as it is shaped by the writer. Questions like these could be avoided
+           as long as researchers studied student compositions, but they arise as soon as we leave
+           the academic setting with which we are familiar. Consequently, a writing researcher
+           taking the social perspective needs not only new methods of research, but also a the-
+         ~ ory that explains how we can participate daily in an all-encompassing social world
+           and yet still see the structure of that world. Before turning to questions of research
+           methodology from the social perspective, | first will look at how such a theory might
+           be constructed.
+
+
+           FOUNDATIONS FOR A SOCIAL THEORY OF WRITING
+           A central tenet of the social perspective is that communication is inextricably Pound
+           up in the culture ofa4 particular socIg Dy Piles Be                       writir
+                                          Faigley    = Nonacademic     Writing: The Social Perspective   51
+
+
+Nystrand, 1982). For those of us who have been trained to appreciate literary texts as
+works of solitary artistic genius rather than expressions of a culture, the task of de-
+scribing a society seems formidable—if not impossible. There is some comfort, how-
+ever, in knowing that others ill equipped in theory and method have stumbled onto
+vast social questions concerning language and have not only survived but even
+      ged basic n¢     s about how we communicate. One such group of explorers—an
+appropriate meee here—were anthropological linguists who attempted to de-
+scribe the languages of Africa and Asia during the years following World War II.
+They found that traditional definitions of language and methods of linguistic analysis
+were no better suited for the astonishing diversity of language in newly emerging na-
+tions than was the wool clothing earlier explorers wore to the trophics. These lin-
+guists met speakers of the “same” language living a few villages apart who could not
+understand each other. In many small villages they found that everyone was fluent in
+two languages or dialects, and that a speaker’s choice of one of them often conveyed
+the social standing of the speaker or listener.
+     To cope with this diversity, linguists developed the notion ofa sp
+CHS genet Pa                defines as “any      human aggregate   characteriz       reg larand
+
+aperegates by significant ieee in poets — eh 114). This notion of a
+speech community became a basis for the new soe ees, of s
+
+
+small ——          sureaes all residents Oke both Bokmal, one of the two forms
+of standard Norwegian, and a local dialect. They found that choices between the two
+dialects varied among speakers within the community. In some cases, choices be-
+tween the two dialects signaled certain attitudes and beliefs. A similar phenomenon
+occurs in my neighborhood in Austin, Texas, where most residents are bilingual in
+English and Spanish. My neighbors typically greet each other in Spanish, then often
+switch to English if they wish to engage in prolonged conversation, then signal the
+conclusion of the conversation by returning to Spanish. Differences in language use
+can establish social identity even among speakers of the same language (cf. Hymes,
+1972). For example, speakers of English would likely understand the literal meaning
+of utterances of inner-city blacks such as “Your momma             so black, she sweat choco-
+late,” but they might not understand that such insults comprise a form of verbal play
+called the “dozens” (Labov, 1972).
+      Although the notion of a speech community offers us some insights into the so-
+cial dimensions of writing, the concept of a community connected by writing must be
+defined by different criteria. Many of the linguistic markers of speech communities
+(e.g., differences nin pronunciation) do not have simple parallels in written language.
+Further, written language     is actually a collection    of genres. Written language is com-
+posed in and comes      to us through   many     forms—in     shopping lists, in newspapers, in
+dictated letters, in scripted  newscasts,   in signs,  in receipts.  As many commentators on
+literacy have noted, written     language  can    be understood     outside  the writer’s immedi-
+ate community or outside the writer’s         lifetime   (which   is also  true for electronically
+recorded spoken language).
+     We need, therefore, an alternative concept to accommodate some of the special
+circumstances of written language—a concept we might label a discourse community.
+52   Chapter 2 « What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+           In one sense, all persons literate in a language constitute a discourse community. But
+           few, if any, texts are written for everyone who is capable of deciphering the words.
+           Texts are almost always written for persons in restricted groups (cf. Bazerman, 1979).
+           Persons in these groups may be connected primarily by written texts, as is the case
+           with scholars on different continents who participate in a scholarly debate. Or they
+           may belong to the same organization that has an in-house language and certain local
+           discourse conventions. The key notion is that within a language community, people
+           acquire specialized kinds of discourse competence that enable them to participate in
+           specialized groups. Members know what is worth communicating, how it can be com-
+           municated, what other members of the community are likely to know and believe to
+           be true about certain subjects, how other members can be persuaded, and so on.
+                 Scholars for a long time have recognized that academic disciplines are a type of
+           discourse community, each with its own language, subject matters, and methods of ar-
+           gument. In this seminal book, The Use of Argument, Toulmin (1958) theorizes that
+           although arguments have basic structural similarity, they also are distinguished by
+           fields. He offers academic disciplines as examples of fields, pointing out that patterns
+           of arguments in fields such as physics are very different from those in disciplines such
+           as history or law. Willard (1983) broadens Toulmin’s account of a field to include in-
+           stances of ordinary discourse. In addition to academic disciplines, which Willard calls
+           normative fields, Willard distinguishes encounter fields (communication among
+           strangers), relation fields (communication among associates, friends, and spouses), and
+           issue fields (schools of thought that often cross disciplines such as Freudianism).
+           Willard describes fields as rhetorical in operation. Fields sanction what knowledge is
+           accepted, what subjects might be investigated, and what kinds of evidence and
+           rhetorical appeals are permitted.
+                The academic discourse communities receiving the most study to date have been
+           the sciences, with most attention coming from an extensive research program in the
+           sociology of science (reviewed in Bazerman, 1983). Following Merton’s (1957) obser-
+           vation that the growth of scientific knowledge reflects its social organization, many
+           researchers have examined groups, subgroups, and hierarchies among scientists.
+           Researchers have considered how scientific articles serve the social organization as
+           both a means of communication and a means of earning rewards. Hagstrom (1965)
+           drew the analogy of the scientific article as a form of primitive “gift giving,” where the
+           scientist offers the “gift” with the expectation of receiving some sort of later recogni-
+           tion from the community. Latour and Woolgar (1979) argue for a different model,
+           where scientists publish to earn credibility, which in turn furthers their interest in the
+           “game” of science. Another issue in this research program is the nature of scientific
+           knowledge. The old notion of an independent and rational body of scientific knowl-
+           edge has collided with many demonstrations of the human construction of scientific
+           facts (e.g., Feyerabend, 1975; Toulmin, 1972), and “new” scientific knowledge has
+           been shown to emerge from an agreed-on body of old knowledge (e.g., Price, 1963).
+                It is tempting to import wholesale the research issues raised in the sociology of
+           science for the study of nonacademic writing. But before any such ambitious research
+           program can begin, certain questions of definition must be addressed. One of the
+           most crucial is how to differentiate academic and nonacademic writing. In examining
+           nonacademic writing, we find many overlapping communities. For example, the biol-
+                                         Faigley   * Nonacademic    Writing: The Social Perspective   53
+
+
+ogist writing an environmental-impact statement abides not only by certain discipli-
+nary conventions in biology, certain legal forms determined by the Environmental
+Protection Agency, and certain unstated and stated conventions particular to her
+company, but also by a complex set of conventions of political language (consider the
+use of the term endangered species). If the notion of discourse communities is to be il-
+luminating, it must not be used without attending to how such communities might be
+identified and defined and how communities shape the form and content of specific
+texts. Chapter 9 by Miller and Selzer in this volume suggests how analyses of texts
+written in specific communities might proceed.
+      In the case of academic or professional discourse, it is relatively easy to see writ-
+ing as a social activity. It is more difficult to see how a “private” act of writing, such as
+an entry in a diary, might be construed as a social act. Take an extreme example,
+where the writer of a diary encodes her entries in a cipher that only she knows.
+Theoreticians of the social perspective, such as Lev Vygotsky, would argue that such a
+coded diary entry would be no less a social act than the environmental-impact state-
+ment. Vygotsky (1962) contends that there is no such thing as “private” language, or
+even “private” thought:
+     Thought development is determined by language, i.e., by the linguistic tools of thought,
+     and by the sociocultural experiences of the child ... The child’s intellectual growth is
+     contingent on his mastering the social means of thought, that is, language .. . Verbal
+     thought is not an innate, natural form of behavior but is determined by a historical-cul-
+     tural process [p. 51].
+
+The historical-cultural process to which Vygotsky refers is simply that children do
+not learn words from a dictionary but through hearing them uttered in social situa-
+tions to convey specific intentions and to achieve specific ends (see Bizzell, 1982).
+Words carry the contexts in which they have been used. Granted, Vygotsky does dis-
+cuss “inner speech,” but his conception of inner speech is not the same as private lan-
+guage. Although inner speech is not voiced, it consists of fragments of speech the
+speaker has drawn from the community in which he or she lives. More important, in-
+ner speech takes the form of a dialogue, which implies the continuous presence of an
+“other.”
+      Vygotsky’s contemporary, M. M. Bakhtin, applied these same notions to written
+texts. It is not clear whether Bakhtin and Vygotsky knew each other or influenced
+each other. (Bakhtin remains mysterious in other ways as well. Apparently some of
+his works were published under the names of his associates.) In Marxism and the
+Philosophy of Language, originally published under the name V. N. VoloSinov in 1929,
+Bakhtin claims the textual perspective (which he calls “abstract objectivism”) dis-
+torts the nature of written language by separating a text from its context. Bakhtin
+goes on to say that the textual perspective mistakenly assumes that meaning can be
+separated from a specific situation, that the textual approach inevitably emphasizes
+parts at the expense of the whole. He also faults approaches that center on the indi-
+vidual; these approaches he claims, miss the nature of language. Like Vygotsky, he in-
+sists that language is dialogic, that a text is not an isolated, monologic utterance, but
+“a moment in the continuous process of verbal communication” [VoloSinov, 1973, p.
+95]. A text is written in orientation to previous texts of the same kind and on the
+54   Chapter 2   =   What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+           same subjects; it inevitably grows out of some concrete situation; and it inevitably
+           provokes some response, even if it is simply discarded. In short, the essence of a
+           text—any text—is inextricably tied up in chains of communication and not in the
+           linguistic forms on the page or in the minds of individual writers.
+
+
+
+           RESEARCH ON WRITING FROM THE SOCIAL PERSPECTIVE
+           A broadly defined research program that explores writing from the social perspective
+           would first examine what constitutes a discourse community. It would probe the fluid
+           and multiple nature of discourse communities, and how communities overlap and
+           change. Such a research program would examine how a particular discourse commu-
+           nity is organized by its interactions and by the texts it produces (see chapter 8 by
+           Paradis et al. in this volume). It would examine what subjects are considered appro-
+           priate in that community and how those subjects are determined. It would examine
+           how genres evolve within a community. Finally, it would investigate how a commu-
+           nity sanctions certain methods of inquiry.
+                Such a research program would integrate considerations of individual writers
+           and particular texts into a broader view of the social functions of writing. It would
+           explore how individual writers come to know the beliefs and expectations of other
+           members of the community, and how individuals can alter the community’s beliefs
+           and expectations. It would consider how individuals cope with texts—how they
+           learn to read texts and how to make meaning in texts in a particular community. It
+           would investigate how conventions shape and are shaped by the processes of writing
+           and reading. It would examine not only how individuals learn to represent them-
+           selves in a text, but how that representation emerges in response to a specific situa-
+           tion. In addition to the familiar aspects of the composing process, this research pro-
+           gram would consider how all language is interaction, how all texts entail contexts,
+           and how texts accomplish interactions between writers and readers rather than em-
+           bodying meaning entirely by themselves. Consequently, this research program
+           would not only examine an individual’s composing processes, but would also follow
+           the completed text, examining how it is disseminated, who has access to it, who
+           reads it and who doesn’t, what is read, what actions people take upon reading it, and
+           how it influences subsequent texts.
+                Moreover, this research program would not separate the study of texts from the
+           study of technologies used to create texts. These technologies include not only writ-
+           ing implements, but also symbol systems and the knowledge to interpret those sys-
+           tems. New technologies arise in response to needs, and members of discourse commu-
+           nities must know how to apply new technologies to existing functions for writing (see
+           chapter 4 by Halpern in this volume; see also Faigley & Miller, 1982; Halpern &
+           Liggett, 1984; Williams, 1981). For example, in writing the endangered-species sub-
+           section of the environmental-impact statement, the biologist uses computer software
+           to form a pie chart that illustrates the percentages of wildlife habitat affected on the
+           proposed site. The knowledge that readers use to interpret the pie graph is as critical
+           a technology to this particular writing act as the technology that led to the develop-
+           ment of the computer hardware and software.
+                                       Faigley   = Nonacademic   Writing: The Social Perspective   55
+
+
+    The central questions for research taking the social perspective are ones that
+concern the contexts in which texts are written and read. These questions will be ad-
+dressed in theoretical, historical, and empirical research. Theoreticians who adopt
+the social perspective can look to a long tradition of scholarship in rhetoric and more
+recent work in semiotics (e.g., Barthes, 1968); literary criticism (e.g., Fish, 1980); the
+philosophy of science (e.g., Popper, 1963); social psychology (e.g., Vygotsky, 1962);
+and cultural anthropology (e.g., Geertz, 1983). Historians can examine the functions
+of writing in small communities or the effects of literacy on large ones. Empirical re-
+searchers must be able to connect theoretical approaches to the mundane writing
+events of everyday life.
+
+
+
+POSSIBILITIES FOR EMPIRICAL RESEARCH
+In the social study of language, two major lines of empirical inquiry have emerged—
+one quantitative and the other qualitative. Both quantitative and qualitative ap-
+proaches can be valuable in studying nonacademic writing. The quantitative ap-
+proach is exemplified by work in sociolinguistics, such as Labov’s (1966) findings that
+certain linguistic features are stratified by social class. The qualitative approach is ex-
+emplified by research in anthropology that is collectively known as ethnography (see
+chapter 14 by Doheny-Farina and Odell in this volume). Because qualitative research
+offers the potential for describing the complex social situation that any act of writing
+involves, empirical researchers are likely to use qualitative approaches with increas-
+ing frequency.
+      But if researchers take a qualitative approach, what do they examine? Let us con-
+sider again the situations posed at the beginning of this chapter. In the case of the ed-
+itor, researchers might begin with the apparent tension between the constraints of
+the memo form and the tone sought by the editor—a tension that prompts innova-
+tion. Examining the causes of this tension leads to issues of the use of language by
+those whose business is the production of language, the use of language between two
+people at the same level of the corporate structure, and the use of language to person-
+alize an apparently impersonal form. For example, researchers might collect instances
+of personalization (e.g., handwritten additions, capitalization or underlining, second-
+person address, private references) and ask writers why they chose to make personal
+additions.
+    In the case of the bank examiner, researchers might observe, over the course of a
+year, the supervisor’s interaction with three or four trainees. In teaching the trainees
+how to write examiners’ reports, the supervisor must also teach the trainees about the
+social organization of a bank. By understanding the social organization, examiners
+can help to correct the problems they uncover. To study how this social knowledge is
+transmitted, researchers would record the oral as well as the written communication
+between the supervisor and the trainees. They likely would interview trainees at dif-
+ferent times to discover how social understanding evolves, and they would be sensi-
+tive to the reactions of bankers to the examiners’ reports.
+     The case of the nurse also concerns the way writers under someone else’s author-
+ity learn the conventions of a community. At one hospital, nurses are allowed only a
+56   Chapter 2 =   What Is the Relationship Between Professional Writing and Rhetoric?
+
+
+
+          checklist. At the other, they can—and must—write; but at the same time, they must
+           use certain conventions associated with the practice of psychiatric medicine and with
+           the particular hospital. Researchers should be interested in how nurses acquire and
+           internalize these conventions. Researchers might also wish to observe how these
+           written reports are used by physicians in diagnosing and treating patients.
+                In the case of the environmental-impact statement, a researcher who takes the
+           social point of view might try to identify the sources of the set format for such docu-
+           ments. One might also want to consider the effects of this format on the kinds of in-
+          formation that can and cannot be considered. Ohmann (1976), for instance, has an-
+           alyzed the conventions of the Pentagon papers and their effect on U 'S. policies in
+           the Vietnam War. Or one might consider ways in which a specific report differs from
+           the conventional format of the environmental-impact statement. Is there a tension,
+           traceable in the structure of the statement, between the format and the issues of the
+           particular case? For instance, is one section much longer than usual? Is the tone of the
+           opening different from previous statements? What is revised in the course of writing,
+           and by whom? What cannot be revised?
+                All these lines of inquiry spring from three general questions:
+                1. What is the social relationship of writers and readers, and how does the text
+                   function in this social relationship?
+                2. How does this kind of text change over time?
+                3. How does the perspective of the observer define and limit the observation of
+                   this text?
+           This last question forces researchers to consider what it means to observe and what it
+           means to interpret. Debates over these issues have occupied cultural anthropologists
+           for the past two decades. Anthropologists have developed two broad notions of
+           ethnography: an older notion concerned with observation and a newer notion con-
+           cerned with interpretation. Both notions are important to the study of nonacademic
+           writing.
+                The older notion is useful for its focus on how to observe. One anthropologist says
+           that ethnography involves the attempt to “record and describe the culturally signifi-
+           cant behaviors of a particular society” (Conklin, 1968, p. 172). He goes on to say that
+
+               ideally, this description, an ethnography, requires a long period of intimate study and resi-
+               dence in a small, well-defined community, knowledge of the spoken language, and the
+               employment of a wide range of observational techniques including prolonged face-to-face
+               contacts with members of the local group, direct participation in some of that group’s ac-
+               tivities, and a greater emphasis on intensive work with informants than on the use of doc-
+               umentary or survey data [p. 172].
+
+           In a traditional conception of ethnography, an anthropologist lives (usually for a year
+           or longer) in the culture being studied (usually a technologically primitive culture)
+           and collects copious data by observing, interviewing, charting patterns, and collect-
+           ing case studies. Although not every method might be used, the ethnographer will
+           surely use more than one method in collecting data, and the chief data source will be
+           the ethnographer’s diary. The ethnographer tries to avoid value judgments and aban-
+           dons assumptions from his or her own culture. Hymes (1980) says that ethnographic
+           investigation is always open-ended.
+                                       Faigley   * Nonacademic    Writing: The Social Perspective   57
+
+
+    The newer notion of ethnography is sometimes called interpretative anthropology.
+One of its chief practitioners is Geertz, whose essay, “Thick Description: Toward an
+Interpretative Theory of Culture” (in Geertz, 1973), argues that a culture can be
+“read” not by starting with abstract concepts but by first microscopically examining
+the culture’s most salient activities. Geertz’s famous essay on the Balinese cockfight
+(1973) demonstrates how a'single event can provide “a metasocial commentary upon
+the whole matter of assorting human beings into fixed hierarchical ranks and then or-
+ganizing the major part of collective existence around the assortment” (p. 448). The
+function of the cockfight “is interpretative; it is the Balinese reading of Balinese ex-
+perience, a story they tell themselves about themselves” (p. 448). In a similar way a
+researcher of nonacademic writing can “read” in a manager’s striking out the formal
+salutation “Dear Mr. Wittenburg:” and inserting by hand “Kent—” in a memo to a
+subordinate a great deal about how the community of the workplace is socially orga-
+nized and maintained. As Geertz says, “Small facts speak to large issues” (p. 23).
+     The potential for qualitative research i

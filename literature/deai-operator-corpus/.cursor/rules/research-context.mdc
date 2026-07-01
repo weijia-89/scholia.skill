@@ -1,0 +1,23 @@
+---
+description: Governs behavior when ChatPRD research context documents are referenced
+globs:
+  - "docs/ai-context/**/*.md"
+alwaysApply: false
+---
+
+When files matching docs/ai-context/**/*.md are in context:
+
+1. Treat DIRECTIVE lines as hard constraints. Do not deviate without explicit user override in the current prompt.
+
+2. Treat ANTI-PATTERN blocks as prohibitions. If your planned implementation matches an anti-pattern, halt and report the conflict before proceeding.
+
+3. Use YAML key-value anchors as source-of-truth for any referenced values. Do not infer or round these values.
+
+4. If a research context file contains a stale_after date that has passed, warn the user before applying its directives.
+
+5. When multiple research files conflict:
+   - technical.md overrides market.md on architecture decisions
+   - risks.md overrides execution.md on timeline assumptions
+   - User's current prompt overrides all research context
+
+6. Do not summarize or paraphrase research context. Quote specific directives when referencing them.

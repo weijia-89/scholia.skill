@@ -1,0 +1,214 @@
+# Text slice — hands_on_llms_2024_ch09_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: hands_on_llms_2024 · chapter: 09
+# hooks: 7 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `hands_on_llms_2024` · Chapter 9
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** hands_on_llms_2024 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch09_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Hands-On Large Language Models |
+| **authors** | Jay Alammar, Maarten Grootendorst |
+| **edition** | 1e (First Edition, September 2024) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-15095-2 [corpus manifest] |
+| **ISBN_electronic** | 9781098150969 [verified from text, line 118 — errata URL; manifest cites 9781098150952] |
+| **chapter_number** | 9 |
+| **chapter_title** | Multimodal Large Language Models |
+| **page_range** | Not present in text export; logical span `Chapter 9. Multimodal Large Language Models` (line 9487) through `Summary` + footnotes before Part III (line 10484) |
+
+---
+
+## scope
+
+Chapter 9 bridges **vision and language** for LLM practitioners: Vision Transformer (ViT) patch tokenization, multimodal embedding models (CLIP/OpenCLIP), and multimodal text generation via BLIP-2 with hands-on captioning and visual QA.
+
+**Major arcs within assigned slice (lines 9487–10484):**
+
+1. **Multimodality framing** — modalities as input/output types; emergent capabilities may grow with multimodal reasoning (lines 9487–9521).
+2. **Transformers for Vision (ViT)** — image patches as pseudo-tokens; linear embedding; encoder treats patches like text tokens; 16×16 patches in original paper (lines 9523–9599).
+3. **Multimodal embedding models** — shared vector space for text and images; CLIP contrastive training (image/text encoders, cosine similarity, positive/negative pairs); use cases: zero-shot classification, clustering, search, image generation conditioning (lines 9601–9717).
+4. **OpenCLIP walkthrough** — `CLIPTokenizerFast`, `CLIPProcessor`, `CLIPModel`; 512-dim embeddings; 224×224 resize; similarity matrix demo; sentence-transformers `clip-ViT-B-32` shortcut (lines 9719–9933).
+5. **Multimodal text generation** — BLIP-2 Q-Former bridging frozen ViT + frozen LLM; two-stage training (contrastive/matching/generation objectives → soft visual prompts); LLaVA, Idefics 2 as similar architectures (lines 9935–10065).
+6. **BLIP-2 preprocessing and use cases** — `Blip2ForConditionalGeneration`; image squaring/distortion warning; GPT2Tokenizer `Ġ` space artifact; captioning (supercar, Rorschach inkblot); visual QA and ipywidgets chatbot (lines 10067–10422).
+7. **Summary + forward** — Part III preview: Ch. 10 embedding training (lines 10424–10484).
+
+**Prerequisites cited:** Ch. 1 (encoder/tokenizer), Ch. 2 (tokenizers), Ch. 4 (cosine similarity), prior embedding chapters.
+
+**Manifest note:** Procedural complement to foundation theory — pairs with `ai_engineering_2025` on deployment decisions, not multimodal depth.
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Multimodality and ViT
+
+- Models accepting multiple modalities (text, image, audio, video, sensors) are **multimodal**; input modality ≠ output modality (lines 9489–9500).
+- ViT generalizes Transformer success from NLP to vision; outperforms default CNNs on image recognition (Dosovitskiy et al. 2020) (lines 9525–9534).
+- Images tokenized by **patching** (e.g., 16×16); patches linearly embedded; encoder treats patch embeddings like textual tokens — no architectural difference after embedding (lines 9554–9591).
+- ViT commonly used to make language models multimodal, especially during embedding-model training (lines 9593–9595).
+
+### CLIP and OpenCLIP
+
+- CLIP (Radford et al. 2021): dual encoders on image-caption pairs; **contrastive learning** maximizes cosine similarity for matched pairs, minimizes for mismatched; negatives essential (lines 9640–9717).
+- CLIP enables zero-shot classification (image vs class-description embeddings), clustering, cross-modal search, and conditioning generative models (e.g., Stable Diffusion) (lines 9648–9663).
+- OpenCLIP workflow: separate text/image preprocessing; `get_text_features` / `get_image_features` → same 512-dim shape; normalize then dot product for similarity (lines 9721–9893).
+- CLIP uses `<|startoftext|>` / `<|endoftext|>`; [CLS] represents image embedding in CLIP tokenizer design (lines 9804–9807).
+- sentence-transformers `clip-ViT-B-32` reduces CLIP usage to encode + `util.cos_sim` (lines 9912–9932).
+
+### BLIP-2 and visual LLMs
+
+- Text-only LLMs (Llama 2, ChatGPT) cannot natively reason about images; multimodal embeddings and bridges extend capability (lines 9935–9948).
+- BLIP-2 (Li et al. 2023): **Q-Former** is sole trainable bridge between frozen ViT and frozen LLM — avoids training billions of image-text pairs from scratch (lines 9962–10051).
+- Stage 1 Q-Former tasks: image-text contrastive, image-text matching (binary), image-grounded text generation — jointly optimize visual representations from frozen ViT (lines 10006–10028).
+- Stage 2: learnable embeddings → linear projection → **soft visual prompts** conditioning LLM (lines 10030–10051).
+- LLaVA (visual instruction tuning), Idefics 2 (Mistral 7B): same pattern — CLIP-like encoder + LLM projection (lines 10057–10065).
+- BLIP-2 example model: `Salesforce/blip2-opt-2.7b`; processor resizes to 224×224 squares — wide/tall images may distort (lines 10077–10132).
+- Captioning: `model.generate(**inputs)` → decode; domain-specific images (cartoons, imaginary) may fail on public-data training (lines 10193–10247).
+- Visual QA: prompt template `Question: ... Answer:`; multi-turn chat by concatenating prior Q/A in prompt; ipywidgets interactive chatbot (lines 10287–10422).
+- Chat example: cost follow-up yields highly specific but unreliable answer (`$1,000,000`) — illustrates hallucination risk in VQA (lines 10340–10357).
+
+### Chapter close
+
+- Multimodality enables captioning, search, chat-based image reasoning; Ch. 10 covers contrastive embedding training in depth (lines 10424–10454).
+
+---
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener + multimodality framing | read | 9487–9521 |
+| Transformers for Vision (ViT) | read | 9523–9599 |
+| Multimodal embedding models | read | 9601–9638 |
+| CLIP theory + contrastive training | read | 9640–9717 |
+| OpenCLIP code walkthrough | read | 9719–9910 |
+| sentence-transformers CLIP shortcut | read | 9912–9933 |
+| Multimodal text generation intro | read | 9935–9960 |
+| BLIP-2 Q-Former two-stage training | read | 9962–10065 |
+| BLIP-2 load + image preprocessing | read | 10067–10132 |
+| BLIP-2 text preprocessing (GPT2Tokenizer) | read | 10134–10191 |
+| Use Case 1: Image captioning | read | 10193–10285 |
+| Use Case 2: Multimodal chat / VQA | read | 10287–10422 |
+| Summary + footnotes ¹–⁸ | read | 10424–10481 |
+| Part III / Ch. 10 opener | **deferred** | 10483+ (outside scope) |
+
+- **Lines read:** 9487–10484 (full parent-requested range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `hands_on_llms_2024.txt`
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+Implicit from chapter arc:
+
+- Explain ViT patch tokenization and why encoders treat image patches like text tokens
+- Describe CLIP contrastive training and cross-modal similarity use cases
+- Run OpenCLIP or sentence-transformers CLIP for image-text embedding comparison
+- Explain BLIP-2 Q-Former two-stage training and soft visual prompts
+- Implement BLIP-2 captioning, visual QA, and simple multimodal chat
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| ViT 3×3 vs 16×16 patching | Image-as-tokens intuition | 9584–9586 |
+| CLIP training 3-step diagram | Contrastive alignment | 9675–9709 |
+| OpenCLIP puppy + caption similarity | End-to-end CLIP embed | 9726–9893 |
+| 3×3 image-caption similarity matrix | Relative score interpretation | 9900–9910 |
+| BLIP-2 supercar caption | `generate` captioning | 10210–10240 |
+| Rorschach inkblot caption | Model limits on subjective images | 10249–10285 |
+| Car VQA + cost follow-up | Multi-turn visual prompting | 10299–10357 |
+| ipywidgets BLIP-2 chatbot | Interactive multimodal UI | 10360–10416 |
+
+### exercise_hooks
+
+Chapter has **no numbered end-of-chapter exercises**. Operator extensions:
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 9.VIT-1 | Patch size ablation | Compare 8×8 vs 16×16 patch count for fixed 512×512 image | 9584–9586 |
+| 9.CLIP-1 | Zero-shot classifier | Build 5-class text prompts; rank CLIP scores for held-out images | 9648–9651 |
+| 9.CLIP-2 | Cross-modal retrieval | Given text query, retrieve top-k images from local folder | 9624–9630 |
+| 9.BLIP-1 | Aspect-ratio stress | Compare caption quality on wide vs square crops after 224×224 resize | 10116–10132 |
+| 9.BLIP-2 | VQA failure audit | Ask factual questions BLIP-2 cannot know; log hallucination patterns | 10340–10357 |
+| 9.BLIP-3 | Domain gap | Test on medical/schematic images; compare to stock-photo performance | 10245–10247 |
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 9 is the **canon hands-on entry for multimodal LLMs** in the cs-ai-textbook-canon stack:
+
+- **ViT + CLIP** — prerequisite mental model for any vision-RAG or image-search pipeline
+- **BLIP-2 pattern** — frozen encoder + bridge + LLM is the default architecture template for visual chat
+- **Pairs with Ch. 10** — CLIP foreshadows contrastive embedding training covered next
+
+Treat as **procedural tutorial** per manifest; defer go/no-go and production safety to `ai_engineering_2025`.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical deployment content. Pattern-portable: de-identification/NER (Ch. 11) is the regulated-workflow neighbor; multimodal imaging pipelines would need separate clinical validation.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `hands_on_llms_2024` Ch. 4 | Cosine similarity used in CLIP training recap |
+| `hands_on_llms_2024` Ch. 10 | CLIP contrastive learning deepened in embedding chapter |
+| `ai_engineering_2025` | AIE lacks multimodal notebook depth; no direct chapter overlap |
+| `ai_engineering_2025` Ch. 6–7 | RAG/embedding theory; Ch. 9 adds vision modality |
+
+**Dedup rule:** Use this ingest for **multimodal code paths**; use AIE for retrieval/eval architecture when building production RAG.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — full OpenCLIP + BLIP-2 notebooks |
+| Exercise hooks | Operator extensions only |
+| Chapter boundary | Clean — ends 10481; Part III at 10483 |
+| Citation density | Moderate (ViT, CLIP, BLIP-2, LLaVA, Idefics 2) |
+| Child-skill potential | `scholia.clip-zero-shot`, `scholia.blip2-vqa` reference cards |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | O'Reilly; Alammar (Cohere), Grootendorst (clinical data science / BERTopic) |
+| Primary-source citation density | **PASS** | Wei emergent abilities; Dosovitskiy ViT; Radford CLIP; Rombach diffusion; Li BLIP-2 |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples (procedural chapter) | **PASS** | Multiple runnable notebooks |
+
+### Contested or oversimplified claims (not smoothed)
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Multimodal input unlocks new emergent capabilities | 9506–9514 | `[contested]` — speculative; Wei et al. cited for general emergence |
+| ViT beats CNNs generally | 9532–9534 | Task/dataset dependent |
+| CLIP similarity 0.33 "high" | 9900–9910 | Relative to 3×3 matrix only; no calibrated threshold |
+| BLIP-2 chat cost answer | 10352–10357 | Illustrates unreliability, not factual pricing |
+| Rorschach person
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

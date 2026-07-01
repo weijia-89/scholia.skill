@@ -1,0 +1,178 @@
+# Text slice — ai_engineering_2025_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ai_engineering_2025 · chapter: 08
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `ai_engineering_2025` · Chapter 8
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** ai_engineering_2025 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch08_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | AI Engineering |
+| **authors** | Chip Huyen |
+| **edition** | 1e (First Edition, December 2024 release) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-16630-4 [verified from text, line 116] |
+| **ISBN_electronic** | 9781098166298 [from corpus_manifest.yaml; errata URL cites 9781098166304, line 96] |
+| **chapter_number** | 8 |
+| **chapter_title** | Dataset Engineering |
+| **page_range** | Not present in text export; logical span from `Chapter 8. Dataset Engineering` through `Summary` before Ch. 9 |
+
+---
+
+## scope
+
+Chapter 8 is the **data spine** of Huyen's AI-engineering framework: how application developers curate, acquire, synthesize, verify, and process training data for **post-training** (instruction finetuning, preference finetuning, reward models), with selective pre-training lessons. The chapter argues that as foundation models commoditize, **data differentiation** becomes the primary lever for product performance—and that dataset work is mostly **toil** despite automation tooling.
+
+**Major arcs:**
+
+1. **Data-centric vs model-centric AI** — benchmarks and competitions (Ng 2021, DataComp, DataPerf, dcbench) shift focus from architecture to dataset quality.
+2. **Data curation** — format requirements per training phase; hard behaviors (CoT, tool use, multi-turn); unlearning via data removal; **quality / coverage / quantity** trio (cooking metaphor).
+3. **Data acquisition & annotation** — application data flywheel; mix-and-match public sources; annotation guidelines as hardest pipeline step (ties to Ch. 4 evaluation).
+4. **Augmentation & synthesis** — rule-based, simulation, AI-powered; instruction synthesis (Self-Instruct, Alpaca, UltraChat, reverse instruction, Llama 3 coding pipeline); verification; limitations (imitation, model collapse, lineage).
+5. **Model distillation** — synthetic data as teacher→student transfer; license caveats.
+6. **Data processing** — inspect, deduplicate, clean/filter, format (chat templates, prompt simplification after SFT).
+
+**Prerequisites cited in chapter:** Ch. 3 (preference judging, similarity), Ch. 4 (evaluation-driven development, factual consistency), Ch. 5 (CoT prompting, chat templates), Ch. 10 (user feedback flywheel, forward ref).
+
+**Out of scope (stated or implied):** full pre-training corpus construction; hands-on code labs; legal deep-dive on copyright (mentioned as risk); inference (Ch. 9).
+
+**Manifest note:** Framework spine — tag chapters needing **Hands-On LLMs** complement for procedural depth.
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Framing: why dataset engineering matters
+
+- Model quality depends on training data; infinite compute cannot rescue bad data (lines 16190–16194).
+- Dedicated data roles (labelers, dataset creators, data quality engineers) are now standard in AI companies (lines 16201–16204).
+- Chapter focuses **post-training** data; pre-training lessons included when insightful (lines 16218–16226).
+- Honest posture: data work is "mostly just toil, tears, and sweat" despite best practices and tools (lines 16228–16230).
+
+### Data-centric vs model-centric AI
+
+- **Model-centric:** improve architectures, scale, training techniques (lines 16237–16240).
+- **Data-centric:** improve processing and high-quality datasets for better models with fewer resources (lines 16242–16245).
+- Benchmark shift: ImageNet-era model-centric → competitions optimizing datasets for fixed models (DataComp CLIP 2023; LM scales 2024; DataPerf; dcbench) (lines 16253–16266).
+- Division is pedagogical; real progress needs both (lines 16268–16270).
+
+### Curation: formats and hard behaviors
+
+| Training phase | Data format |
+|----------------|-------------|
+| Self-supervised finetuning | Sequences |
+| Instruction finetuning | (instruction, response) |
+| Preference finetuning | (instruction, winning, losing) |
+| Reward model | Same as preference or ((instruction, response), score) |
+
+(lines 16288–16295)
+
+- **CoT:** finetuning data must include step-by-step responses; Chung et al. (2024) shows near-doubling accuracy on some CoT tasks; CoT annotations are scarce (lines 16303–16333).
+- **Tool use:** domain experts + observation needed; human-efficient actions ≠ model-efficient (API vs browser); simulations common; Llama 3 multi-message chat format with headers/destinations (lines 16335–16373).
+- **Single-turn vs multi-turn:** single-turn easier; multi-turn needed for clarification loops and corrections (lines 16375–16387).
+- **Unlearning:** remove bad-behavior examples (arrogant unsolicited rewrites) and add counterexamples (lines 16389–16402).
+
+### Quality, coverage, quantity
+
+**Quality — six characteristics:** relevant, aligned with task requirements, consistent, correctly formatted, sufficiently unique, compliant (lines 16441–16502).
+
+- 10K curated instructions beat hundreds of thousands noisy (Yi, Young et al. 2024) (lines 16419–16423).
+- LIMA: 1K curated prompts → 43% human preference vs GPT-4 on 65B Llama; less robust than product models (Zhou et al. 2023) (lines 16425–16430).
+- Llama 3: human annotations error-prone on safety → AI-assisted annotation tools (lines 16432–16435).
+
+**Coverage / diversity:**
+
+- Match real usage distributions (typos, instruction length, languages, topics) (lines 16510–16533).
+- Nemotron: task + topic + instruction diversity (Adler et al. 2024) (lines 16537–16540).
+- `[contested]` Shen et al. (2024): more heterogeneous data can **worsen** performance (lines 16541–16543).
+- Llama 3 gains "primarily" from data quality/diversity + scale, not architecture (lines 16545–16553).
+- **Table 8-1:** domain mix differs across pre-training, SFT, preference phases; math+code ~half in pre-train/SFT but ~13% in preference (lines 16565–16591).
+- Annealing on small high-quality code/math boosts reasoning benchmarks (lines 16581–16587).
+- Zhou et al. experiment: diverse **and** high-quality beats either alone (Figure 8-1) (lines 16603–16614).
+
+**Quantity:**
+
+- Range: single-example finetune (Howard/Whitaker) to millions of examples (lines 16618–16622).
+- Llama 2/3 pre-training: 2T / 16T tokens vs finetune scale (lines 16624–16628).
+- **Ossification:** heavy finetune data may underperform training from scratch when pre-training freezes weights; smaller models more susceptible (Hernandez et al. 2021) (lines 16632–16641).
+- PEFT needs less data than full finetuning; task complexity and base-model proximity matter (lines 16646–16666).
+- OpenAI guide pattern: advanced models win at 100 examples; all models converge at 550K (Figure 8-2) (lines 16668–16677).
+- Start with ~50 well-crafted examples before scaling; plateau vs steep curves on subset experiments (Figure 8-3) (lines 16683–16749).
+- Chung et al. (2022): task diversity 9→282 tasks large gains; plateaus beyond (Figure 8-4) (lines 16751–16769).
+- Budget tradeoff: annotation cost vs compute (lines 16771–16776).
+
+**Tip — staged finetuning:** self-supervised→supervised, less-relevant→relevant, synthetic→real (with coordination risk) (lines 16698–16730).
+
+### Acquisition and annotation
+
+- **Application data flywheel** is ideal source—matches production distribution (lines 16789–16798).
+- Six-step mix-and-match curation example: public set → filter → manual responses → synthetic gap-fill → re-annotate (lines 16805–16837).
+- Public dataset repositories listed (HF, Kaggle, Google Dataset Search, Data.gov, ICPSR, UCI, OpenML, AWS Open Data, lm-evaluation-harness, SNAP) — always inspect and check licenses (lines 16839–16880).
+- Annotation guidelines among hardest parts; same as evaluation guidelines (Ch. 4); LinkedIn anecdote (lines 16882–16904).
+
+### Augmentation and synthesis
+
+- **Augmentation** derives from real data; **synthesis** mimics real properties (lines 16910–16925).
+- Five synthesis motivations: quantity, coverage (adversarial, imbalance), quality (tool use, math, preferences), privacy, distillation (lines 16954–17027).
+
+**Traditional:**
+
+- Rule-based templates (Faker, transaction templates, AlphaGeometry 100M synthetic examples) (lines 17049–17081).
+- Image/text perturbation; gender-swap augmentation (Table 8-2); one-pixel attacks → adversarial training (lines 17083–17148).
+- Simulation: CARLA, robotics pour-coffee, Sim2Real, rare events (finance, manufacturing, climate) (lines 17157–17200).
+
+**AI-powered:**
+
+- API simulation (StableToolBench); self-play (OpenAI Dota, AlphaGo); paraphrase/translate (MetaMath 15K→400K); back-translation QA; code translation (Llama 3); Cosmopedia synthetic textbooks (lines 17207–17288).
+- Preference synthesis: swap order to mitigate position bias (NVIDIA 2024) (lines 17290–17299).
+- Instruction synthesis: topic/subtopic trees (UltraChat), seed→52K (Alpaca/Self-Instruct), **reverse instruction** from long human content (Köksal, Li, Chen); iterative weak-model bootstrap (lines 17304–17367).
+- Long-context SFT: chunk documents → Q/A pairs with full doc as context (lines 17369–17381).
+- **Llama 3 coding pipeline:** generate problems → solutions with CoT → parser/linter → AI-generated unit tests → self-correct (~20% fix rate) → translate → back-translate docs → **2.7M** synthetic coding examples (lines 17383–17436).
+
+### Verification and limitations
+
+- Verify like other AI outputs: functional correctness (code execution) or AI judges (lines 17438–17465).
+- Creative filters: AI-detector distinguishability, NeurIPS accept classifier, topic filter, anomaly detection, Self-Instruct heuristics (lines 17471–17502).
+- Ultimate test: does synthetic data improve model performance (lines 17504–17508).
+
+**Limitations `[contested]`:**
+
+| Risk | Source | Note |
+|------|--------|------|
+| Superficial imitation | Gudibande et al. 2023 | Style without reasoning; teaches hallucinated "solutions" |
+| Model collapse | Shumailov et al. 2023 | Recursive synthetic training degrades; mitigated by mixing real data (Gerstgrasser et al. 2024) — no fixed ratio |
+| Counter-evidence | Li et al. 2024; Nemotron 98% synthetic | Single-iteration experiments |
+| Bias amplification | Taori & Hashimoto 2023 | Model outputs in training loop |
+| Obscure lineage | — | Copyright contamination, benchmark leakage |
+
+(lines 17510–17604)
+
+### Model distillation
+
+- Student mimics teacher (Hinton et al. 2015); DistilBERT −40% size, 97% capability; Alpaca 7B from davinci-003 (lines 17612–17632).
+- **License warning:** many models prohibit training competitors on outputs (lines 17634–17638).
+- Not all synthetic training = distillation; Nemotron-340B student > Mixtral teacher with verified synthetic data (lines 17646–17666).
+- Llama 3: indiscriminate self-generated data degrades; verified self-data can improve (lines 17660–17666).
+
+### Data processing
+
+- Order steps for time/compute; trial runs; keep originals (lines 17677–17699).
+- **Inspect:** distributions (tokens, lengths, topics, languages); manual 15-minute stare (Brockman quote); inter-annotator disagreement (lines 17701–17762).
+- **Deduplicate:** bias + test contamination; 0.1% data repeated 100× ≈ halved effective model size (Anthropic/Hernandez 2022); exact/fuzzy/semantic, MinHash, Bloom (Ch. 3, Ch. 6); libraries listed (lines 17764–17841).
+- **Clean/filter:** strip HTML/Markdown (−60% tokens, +20% accuracy per Databricks anecdote); PII/toxic removal (Ch. 4); fatigue heuristic (Kern 2024); active learning / importance sampling / data pruning (Sorscher 2022) (lines 17843–17879).
+- **Format:** match tokenizer + chat template (Ch. 5); convert few-shot prompts to (input, output) pairs; deployment prompts must match training format exactly (lines 17881–17951).
+
+### Summary (chapter-auth
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

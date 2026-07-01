@@ -1,0 +1,210 @@
+# Text slice — grokking_algorithms_2e_2024_ch03_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: grokking_algorithms_2e_2024 · chapter: 03
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Grokking Algorithms 2e · Chapter 3: Recursion
+
+| Field | Value |
+|-------|-------|
+| slug | grokking_algorithms_2e_2024 |
+| parent_book_title | Grokking Algorithms |
+| edition | 2nd Edition (2024) |
+| authors | Aditya Y. Bhargava |
+| foreword | Daniel Zingaro |
+| publisher | Manning |
+| ISBN_print | 9781633438538 [verified from text, line 156] |
+| ISBN_electronic | not stated in text export; manifest lists 9781633438531 — reconcile against physical PDF copyright page |
+| chapter_number | 3 |
+| chapter_title | Recursion |
+| page_range | not recoverable from text export (no page markers in slice); PDF TOC lists sections: Recursion · Base case and recursive case · The stack |
+| source_type | textbook_chapter |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/grokking_algorithms_2e_2024.pdf |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch03_ingest.md |
+| track | A (w1_foundation) |
+| corpus_role | core |
+
+---
+
+## scope
+
+Chapter 3 introduces **recursion** as a coding technique and conceptual bridge to divide-and-conquer (chapter 4). The chapter is procedural and metaphor-driven: nested boxes and a missing key motivate two equivalent search strategies (iterative pile vs recursive self-call); a broken countdown demonstrates missing base cases; sticky-note stacks introduce push/pop; a multi-function `greet`/`greet2`/`bye` trace explains the **call stack**; factorial recursion shows how the stack substitutes for an explicit “pile” in the key-search story; the chapter closes on **memory cost** of deep stacks, optional loop rewrite, and a brief pointer to tail recursion (out of scope). No new asymptotic analysis; performance is explicitly deprioritized relative to clarity.
+
+---
+
+## key_findings
+
+All findings below are `[verified from text]` unless tagged otherwise. Line anchors refer to `grokking_algorithms_2e_2024.txt`.
+
+### KF-1 — Chapter intent and reader advice
+
+The chapter positions recursion as a building block for later algorithms and advises running code and pen-and-paper tracing of at least one recursive function (e.g. factorial). Pseudocode is used as “high-level description … closer to human speech” (lines 1750–1774).
+
+> “Recursion is a coding technique used in many algorithms. It’s a building block for understanding later chapters in this book.” (1750–1752)
+
+### KF-2 — Iterative vs recursive key search (equivalence, clarity motive)
+
+Two algorithms search nested boxes for a key:
+
+1. **Iterative:** maintain a pile; `while pile is not empty`, grab a box, push nested boxes onto the pile (lines 1796–1828).
+2. **Recursive:** `look_for_key(box)` loops items; if item is a box, call `look_for_key(item)` (lines 1810–1838).
+
+Both accomplish the same task; author prefers recursive formulation for clarity. **No performance benefit** is claimed for recursion; loops may win on runtime.
+
+> “Recursion is used when it makes the solution clearer. There’s no performance benefit to using recursion; in fact, loops are sometimes better for performance.” (1842–1844)
+
+**Contested / nuanced claim (flagged, not smoothed):** The Leigh Caldwell Stack Overflow quote frames recursion as a “performance gain for your programmer” vs loops for the program (1845–1848). This is anecdotal authority, not empirical measurement in-chapter.
+
+### KF-3 — Base case and recursive case (countdown)
+
+A naive `countdown(i)` that prints and calls `countdown(i-1)` runs forever (1868–1883). Correct structure requires:
+
+- **Recursive case:** function calls itself (`countdown(i-1)` when `i > 1`).
+- **Base case:** stop recursing (`if i <= 1: return`) (1885–1900).
+
+> “Every recursive function has two parts: the base case and the recursive case.” (1886–1888)
+
+### KF-4 — Stack ADT (push/pop, LIFO)
+
+Before the call stack, the chapter defines a **stack** via barbecue sticky notes: insert only at top (**push**), read/remove only top (**pop**) — simpler than arbitrary insert/delete on a general to-do list (1918–1938).
+
+> “So your to-do list has only two actions: push (insert) and pop (remove and read).” (1927–1928)
+
+### KF-5 — Call stack mechanics (non-recursive trace)
+
+Function calls allocate memory “boxes” stacked LIFO. Example chain: `greet("maggie")` → `greet2("maggie")` → return pops top → resume `greet` partially completed → `bye()` → unwind (1945–2009).
+
+Core invariant:
+
+> “When you call a function from another function, the calling function is paused in a partially completed state. All the values of the variables for that function are still stored on the call stack.” (1992–1995)
+
+Author simplifies trace by omitting internal `print` calls from the illustrated stack (1962–1963).
+
+### KF-6 — Factorial on the call stack
+
+`fact(x)` returns `1` at base `x == 1`, else `x * fact(x-1)` (2029–2033). Stepped diagrams show each activation gets its own `x`; you “can’t access a different function’s copy of x” (2043–2044). Return values propagate as frames pop.
+
+### KF-7 — Recursion hides the “pile” in the call stack
+
+Revisiting key search: iterative version keeps an explicit pile; recursive version has “no pile” at source level — but half-finished calls on the stack encode remaining work (2046–2073).
+
+> “The ‘pile of boxes’ is saved on the stack! This is a stack of half-completed function calls, each with its own half-complete list of boxes to look through.” (2069–2071)
+
+### KF-8 — Memory cost and mitigations
+
+Deep recursion consumes stack memory per frame; when the stack is “too tall,” options are rewrite with a loop or **tail recursion** (advanced, language-dependent, **out of scope for this book**) (2075–2085).
+
+Infinite recursion fills the stack until program exit — exercise 3.2 answer (in appendix, lines 8287–8289): **stack-overflow error** after exhausting call-stack space.
+
+### KF-9 — Recap bullets (chapter closure)
+
+Lines 2096–2105 restate: recursion = self-call; base + recursive cases; stack push/pop; all calls on call stack; large stack → high memory use.
+
+### KF-10 — Forward link
+
+Divide-and-conquer (chapter 4) is named as the strategy that builds on base/recursive case structure (1753–1755).
+
+---
+
+## coverage_attestation
+
+| Check | Status |
+|-------|--------|
+| Correct source file | PASS — `grokking_algorithms_2e_2024.txt` |
+| Wrong-file flag | none |
+| Lines read (primary) | 1746–2108 (chapter body through recap; ends before ch. 4 heading) |
+| Lines read (appendix answers only) | 8262–8289 (exercises 3.1–3.2 answers — not in primary slice; cited for exercise resolution only) |
+| Sections in slice | In this chapter · Recursion · Base case and recursive case · The stack · The call stack · The call stack with recursion · Exercise 3.1 · Exercise 3.2 · Recap |
+| Sections deferred | Chapter 4+; exercise figures/diagrams (text shows `[]` placeholders — illustrations not in export) |
+| Code listings captured | `look_for_key` (iter + recur), `countdown` (broken + fixed), `greet`/`greet2`/`bye`, `fact(x)` |
+| External citations in chapter | 1 — Stack Overflow URL for Leigh Caldwell quote |
+
+**Attestation:** Single-chapter sub-agent read; no monolith ingest. Diagram content inferred only where prose explicitly describes behavior; figure pixels not available in text export.
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+After this chapter, a reader should be able to:
+
+1. Define recursion and identify when a function calls itself.
+2. Distinguish **base case** vs **recursive case** and fix non-terminating recursion.
+3. Implement equivalent iterative (explicit stack/pile) and recursive solutions to nested-structure search.
+4. Explain **push/pop** stack semantics and LIFO ordering.
+5. Trace multi-level function calls and recursive calls on the **call stack**, including pause/resume of callers.
+6. Relate implicit “remaining work” in recursion to stack frames (key-in-boxes narrative).
+7. Recognize stack depth/memory tradeoffs and name **stack overflow** as failure mode for unbounded recursion.
+8. State that tail recursion is mentioned but not taught here.
+
+### worked_examples_present
+
+**Y**
+
+Evidence: full pseudocode for key search (both variants); runnable-style Python for countdown, greet chain, factorial; line-by-line stack evolution for `fact(3)` and `greet("maggie")`; pen-and-paper tracing explicitly assigned.
+
+### exercise_hooks
+
+| ID | Prompt (chapter) | Hook for scholia / operator |
+|----|------------------|----------------------------|
+| 3.1 | Given a call stack diagram (`greet` → `greet2`), what can you infer? (2013–2017) | **Stack-reading drill:** derive call order, suspended caller, current frame, parameter bindings (`name = maggie`). Appendix answer lists five concrete inferences (8268–8280). |
+| 3.2 | Infinite recursive function — what happens to the stack? (2089–2092) | **Failure-mode link:** connects to production stack limits; appendix: stack grows until **stack-overflow error** (8287–8289). Portable to agent runtimes with recursion/depth limits. |
+
+**Suggested extensions (not in source):** trace `look_for_key` depth vs box nesting; convert `fact` to iterative; measure stack depth in Python with intentional overflow (operator-local, safety-gated).
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 3 is the **canonical recursion + call-stack foundation** for Track A wave 1. It establishes mental models required before:
+
+- **Grokking ch. 4** — divide-and-conquer (quicksort) explicitly builds on base/recursive case (1753–1755).
+- **CLRS / advanced DS&A** — recurrence thinking and stack-based execution traces.
+- **Any later graph/tree traversal** in the same book (DFS flavor aligns with recursive key search).
+
+Prerequisite assumed from ch. 2: arrays/lists and memory intuition; stack chapter connects back to “to-do list” from arrays/lists discussion (1923–1928).
+
+### 2. MDCalc alignment
+
+**[none]** for clinical AI safety, regulated deployment, or agent trace/eval observability.
+
+**[peripheral]** only in the abstract: call-stack depth and stack-overflow mirror **bounded execution / depth limits** patterns useful when reasoning about agent tool-call chains or recursion caps — no clinical content, no observability tooling, no eval frameworks in-chapter.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Delta / defer to |
+|-------------|---------|------------------|
+| CLRS 4e | Call stacks, recursion, recurrences | CLRS for formalism, Master theorem, tight analysis — Grokking stays intuitive |
+| Philosophy of Software Design 2e | “Deep call chains” as complexity | Ousterhout: API/design depth; Grokking: mechanical stack — complementary, low prose overlap |
+| AI Engineering 2025 / Hands-on LLMs | None in this chapter | — |
+| Understanding Distributed Systems / DDIA | “Stack” word collision only | Those stacks ≠ call stack |
+
+**Verdict:** Keep as **primary intuitive recursion ingest** for w1_foundation; do not duplicate full treatment in CLRS unless operator requests proof-heavy chapter ingest.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — multiple traces and listings |
+| Exercise hooks | Two end-of-section exercises with appendix answers; diagram-dependent 3.1 weakened in text-only export |
+| Chapter boundary | Clean — ends at recap; ch. 4 starts line 2109 |
+| Anchor quality | High for code/prose; low for figures (`[]` placeholders) |
+| TEXT link-forward | Explicit to divide-and-conquer |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency (≤5y unless classic) | **PASS** | 2e / 2024 per manifest and copyright block |
+| Author authority (textbook tier) | **PASS** | Manning imprint; established pedagogical title; foreword by Daniel Zingaro |
+| Primary-source citation density | **LOW / FLAG** | One Stack Overflow anecdote (1845–1848); no papers, no complexity citations —
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

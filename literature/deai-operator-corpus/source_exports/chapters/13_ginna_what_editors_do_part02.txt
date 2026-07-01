@@ -1,0 +1,1085 @@
+THE BOOK’S JOURNEY
+
+
+NANCY S. MILLER*
+
+After acquisition, editor and author embark on a journey that takes the proposal or first-draft manuscript to a finished book.
+
+To be a book editor is to work at the intersection of art and commerce. Editors are passionate about reading, about books—and yet their job involves not only falling in love with an author’s work and working with that author to make the best book possible, but also selling the book to colleagues and to the world, making sure it finds a readership, publishing it. Publishing is a business. Without the commerce part of the equation, the most beautiful book in the world is like the proverbial tree falling in the forest with no one to hear, which is why most editors embrace the aspects of their job that involve selling. But it is the editing, the work with their authors, the birthing of new books, that brings many editors the greatest pleasure.
+
+Despite the commonly heard lament that editors just don’t edit anymore, editors pour their heart and soul and weekends and evenings into the task. Editing is time-consuming, labor-intensive work—work that often cannot be done in the office, where days can be consumed by meetings, emails, preparing materials for sales or marketing meetings, and communicating with those in other departments. The editing process can take a year or much more from the time the first draft of a manuscript is delivered until publication. But it is at the heart of an editor’s job, and most editors find it tremendously rewarding, both because of the satisfaction of seeing a book achieve its potential and because of the gratification that can come with the close work involved in the author–editor relationship.
+
+Essential as it is, the labor of editing is only one part of the book’s journey from writer to reader. That journey is not just an artistic collaboration but the creation of a physical or digital product. Every book passes through many stages and is touched by many people in a publishing house before it reaches the marketplace.
+
+This chapter gives an overview of what is involved in turning a manuscript into a finished book, from the earliest developmental stages and a completed first draft through to “setting copy” delivered to a typesetter, and thence to page proofs and a printer-ready file or e-book. The publication process is the same whether the finished product is a hardcover, a paperback, or an e-book.
+
+Many editors work on only nonfiction or only fiction, and some work exclusively on narrower categories within those two divisions—say sports books or thrillers. Some editors have more eclectic lists that may include novels, stories, memoirs, and narrative histories. Some may work on books that are more literary, some on books that are more commercial, others on academic texts. Whatever the category, the editor’s work follows similar paths to publication.
+
+
+
+
+
+DEVELOPMENTAL EDITING
+
+
+Fiction and nonfiction books often begin their journey to publication at different points. Depending on whether a book is nonfiction or fiction, it can be a long road from acquisition to the delivery of a first-draft manuscript. While editors tend to acquire fiction on the basis of a complete first-draft manuscript, they acquire most nonfiction books on the basis of a book proposal consisting of a brief overview, a detailed outline, and one or two sample chapters. An author might take months or even years to deliver a nonfiction manuscript, depending on the due date specified in the contract.
+
+And yet even if the editor has only an outline and sample material in hand at the time of acquisition, the editing process can begin immediately, sometimes even before the book is acquired, in the first meeting or exchange between author and editor. The editor might start the editorial conversation at this early stage by discussing, for example, any questions about the proposal, issues with how the book is conceived, or problems with the organization. The editor will want to address these issues straightaway so that the author can set forth with a vision for the book that author and editor agree upon from the beginning.
+
+Once the editor has the first-draft manuscript in hand, either upon acquisition if the work is fiction or upon the author’s delivery if the work is nonfiction, she can focus on developmental editing. At this stage the editor tackles such big-picture matters as structure, focus, pacing, plotting, shaping an argument, gaps in the narrative, believability of characters, enhancing or cutting subplots, excising extraneous material, and interweaving strands into a cohesive whole—all this in order to get the “bones” of the book in their proper shape. Depending on the publisher and the needs of the manuscript, this type of editing may instead be handed off to a separate developmental editor, either on staff or freelance.
+
+This is a moment when the editor may want to focus on the book’s title and subtitle as well. Does the title best convey what the book is? Does the subtitle amplify and clarify the title?
+
+From the editor’s perspective, the developmental editing stage involves the most intellectually challenging tasks of the process. Each time an editor edits a manuscript, she or he must grapple with a fundamental question: what makes a good book? There are no absolutes of course, although stellar writing and a great conceit are always a good start. A novel has to have a beginning, a middle, and an end; believable, memorable characters; a compelling narrative arc. A nonfiction book has to have an engaging core idea, a framework that makes sense, a well-shaped argument. But at its most basic, a book has to have a reason to exist—and it’s the editor’s job to make sure that reason is evident to the reader on every page.
+
+As curious as it might be to consider, there is no real training for this editorial work. In a 1982 talk on the education of an editor, legendary editor Robert Giroux stressed the intuitive aspect of editing. “There are three qualities that cannot be taught and without which a good editor cannot function—judgment, taste, and empathy. Judgment is the ability to evaluate a manuscript and its author. Taste is subjective and difficult to define, but we all recognize it when we encounter it. Empathy is the capacity not only to perceive what the author’s aims are, but to help in achieving their realization to the fullest extent.”1
+
+It is empathy that is perhaps the quality most crucial to the editing process: the ability to help an author make the book the best book it can be—via comments, suggestions, queries, notes, and rewrites—while keeping in mind that it is always the author’s book. This means the editor must always be prepared for an author to find his or her own solutions to any issues raised.
+
+There’s a problem-solving aspect to the editing process that can feel almost like doing a crossword or jigsaw puzzle, complete with the satisfaction of seeing things ultimately fall into place. It’s a mysterious process, and even when a first draft requires heavy rewriting and seems a complete mess, when the finished product shines in the end, a good editor usually feels the achievement is the writer’s.
+
+A manuscript may require two, three, four, or even five rounds with an author—or it may be nearly pristine and require only one round of light edits. Either can result in a terrific book.
+
+
+
+
+
+LINE EDITING
+
+
+After receiving a revised draft of the manuscript from the author which satisfactorily addresses most of the general issues raised in the developmental editing stage, the editor tackles the next stage: line editing. In practice, these stages often overlap, as many editors can’t help themselves from line editing at the same time they are puzzling through larger problems and questions in a first draft. Line editing addresses such issues as phrasing, word choice, and syntax on the sentence level. When line editing, the editor may
+
+• suggest deleting or transposing words or phrases or entire paragraphs
+
+• query the chronology or any inconsistencies of style, tone, or content, or (with fiction) whether dialogue rings true
+
+• ask the author to clarify material that confuses or to add needed information
+
+• note transitions that need work
+
+• suggest rewrites on the sentence level
+
+• correct punctuation, spelling, and grammar, and make sure tenses agree (primarily the responsibility of the copyeditor, but many editors reflexively correct such errors)
+
+
+
+The editor must always respect the author’s voice when making line-editing suggestions that pertain to style, while adhering to the goal of making the book the best it can be.
+
+The editor usually marks up line edits on the manuscript itself—whether in pencil on a hard copy or electronically via a change-tracking tool—by suggesting rewrites directly in the text and adding comments and queries in the margins. If the editor is editing on hard copy, the editor marks up the manuscript using the editing symbols (e.g., carats) and terminology (e.g., “stet”) found in the Chicago Manual of Style. Whatever the technology—whether pencil or computer—the essence of what an editor does is the same.
+
+
+
+
+
+COMMUNICATING WITH THE AUTHOR
+
+
+For each draft of the manuscript, the editor will usually send the author an editorial letter laying out general thoughts, suggestions, comments, and queries. Such a letter often begins with praise for what the author is trying to achieve and for what is working in the manuscript, and then brings up general developmental issues that need to be addressed. The editor may also refer to line-editing issues in the editorial letter.
+
+Depending on how much developmental work the author needs to do in each draft, the editor may or may not send an edited manuscript along with the editorial letter—with suggestions for rewrites and deletions marked on the page and comments and queries in the margins, and perhaps with line edits as well. Here too, an editor must remember that his or her job involves being not only a critic but also a cheerleader. A few positive comments here and there in the margins can go a long way.
+
+There are times when an author will disagree with an editor’s comments or suggestions. Often a back-and-forth can find common ground. If not, the editor must decide whether the issue being raised is important enough to continue pressing the point. Making sure the author recognizes that the editor is the author’s advocate is key. The editor must be skilled at conveying criticism in a supportive, positive way. The bond between editor and author can be a strong one, with the editor taking on the role of friend, adviser, confidant, parent, and therapist over the course of a manuscript’s journey to finished book.
+
+It can often be helpful as well to have a discussion with the author by phone or in person to go over some of the developmental issues and even some of the line-editing questions. An author may be wedded to phrasing something a particular way, and talking this through can help both author and editor understand the other’s intent. Again, the author–editor relationship is based on trust, and clearly communicating respect and admiration for an author’s work while conveying the issues that need to be addressed is a delicate task that if handled well can help strengthen and reinforce that bond.
+
+
+
+
+
+PERMISSIONS AND LEGAL VETTING
+
+
+The editor acts as a safety net for the author, not only in terms of the actual writing but also in terms of legal issues. At the developmental editing stage, the editor must call to the author’s attention any quoted material that might need permission (anything not considered “fair use”) from the rights holder—whether epigraphs, lines from songs or poems, or long excerpts from other works. Illustrations (artwork or photographs) need permissions from rights holders as well—and the process of seeking clearance for these can be even more laborious. Often the editor will help guide the author through the permissions-seeking process, though the responsibility for clearing and paying for permissions usually rests with the author. It’s important to begin this process early, as clearing permissions from rights holders can take some time and the task must be completed before the book is ready to go to press so that sources can be credited in the finished book. Permissions charges for using lines from songs or poems can be steep; the author may decide to delete the lines rather than pay an expensive charge. This is another reason permissions should be sought early; it’s best to make any text deletions before the book is set into type.
+
+The editor must also judge at this early stage whether the manuscript will need a legal vetting. Might there be any legal issues with the manuscript? Did the author base a particular character in a novel on a real-life ex-boyfriend who may sue? Should the author’s relatives in a memoir be disguised? Could the way a sentence is phrased be deemed libelous? If there are concerns, the editor will engage a lawyer to vet the final edited manuscript. If the publishing house does not have an in-house lawyer, the editor will usually need to get approval from higher-ups before sending the manuscript to an outside lawyer, as a legal vetting can be expensive. Sometimes the entire manuscript will have to be vetted; occasionally only a section of the manuscript will need to be looked at. The legal vetting takes place while (if not before) the manuscript is being copyedited, and any changes the lawyer suggests are usually incorporated into the manuscript before it is typeset. (To incorporate them later increases typesetting costs and also the danger of unvetted text circulating outside the house, when early galley proofs go out for publicity and promotion.)
+
+
+
+
+
+THE “TRANSMITTAL” MANUSCRIPT
+
+
+Once the back-and-forth between author and editor has produced a manuscript that is “satisfactory”—the word used to describe an acceptable manuscript in most publishing contracts, though it’s certainly a bit tepid (most editors aim higher than mere “satisfaction” in what they publish)—the editor prepares to “transmit” the manuscript to the managing editorial or production editorial department.
+
+In order to do so, the editor must create a transmittal manuscript that contains all the elements that will appear in the finished book. These elements include front matter (the material—such as the title page, copyright page, and contents page, and a dedication or epigraph, if desired—that appears before the actual text of the book begins) and back matter (the material, such as a bibliography, notes, or appendices—that might follow the actual text of the book). An index, if necessary, is usually prepared by a professional indexer, or by the author, later in the process, from the first round of page proofs.
+
+If there are images to be included in the book, either throughout the text or to appear in one or more inserts, the editor will at this stage supply an art log. The art log indicates where the images are to be placed, any captions (from the author), and the camera-ready artwork (again, from the author). Each publishing house will have its own requirements for creating an art log.
+
+The editor may have some special instructions to the copyeditor (“watch out for repetitions”; “double-check the chronology”). The editor should convey these to the managing editor at the time the manuscript is transmitted.
+
+The editor, consulting with an art director, may also need to make some design decisions before transmitting the manuscript. For example, will there be running heads at the top of each page? If so, what information (chapter or book title, author, page numbers) should appear where? Should chapters always begin on a right-hand page? If there are illustrations, will they be grouped into inserts or placed throughout the text? (In the case of full-scale illustrated titles—whether a coffee-table art book or a picture-heavy cookbook—the design process begins very early, even at the conception of the project, and can involve page-by-page discussion of each layout.)
+
+At some publishing houses, transmitting the manuscript is the final interaction the editor will have with the text; the managing editor will shepherd things along from here. At most houses, though, the editor will continue to be involved at least to some extent with the next stages: the copyedited manuscript and page proofs.
+
+After the manuscript has been transmitted, the managing editor will give the transmittal manuscript to a designer, who will take into consideration the editor’s design requests and generate sample designed interior text pages. The editor will often share the sample designed text pages with the author and may convey any comments the author has to the designer.
+
+The managing editor will also send the transmittal manuscript to the copyeditor, who may be either on staff or a freelancer.
+
+
+
+
+
+COPYEDITING
+
+
+The copyeditor corrects spelling and grammar and punctuation. In addition, the copyeditor makes further line-editing suggestions, checks for consistency, makes sure that timelines make sense, that there aren’t repetitions, and that any proper nouns are correct, and queries anything that doesn’t quite make sense. Copyeditors are not fact checkers—publishers as a rule do not employ fact checkers—but the best ones often catch factual errors. The copyeditor usually works with an electronic version of the manuscript, using change-tracking software.
+
+The copyeditor spends a few weeks reviewing the manuscript. Once the copyedits are completed, the copyedited text will be sent to the author—again, usually electronically. The author will have one to several weeks to review the copyeditor’s work, approving or stetting any changes and answering any queries. Sometimes the original editor goes over the copyedits with the author; sometimes it’s the managing editor who does this. This is often the last chance for the author to make any substantial changes in the manuscript, as making significant changes after the manuscript is typeset can be expensive. If the author does substantially revise the copyedited text, the editor and managing editor will review the revisions.
+
+
+
+
+
+SETTING COPY AND PAGE PROOFS
+
+
+When the author has answered all the copyeditor’s queries and has responded to all the copyeditor’s changes and any legal changes have been incorporated into the text, and the manuscript has been marked up with design specs, the manuscript goes to the compositor for typesetting. This version of the manuscript is known as the setting copy, and it’s at this stage that the manuscript really starts “becoming a book.”
+
+The compositor, or typesetter, usually needs at least two to three weeks to produce the first round of typeset page proofs, sometimes referred to as first pass pages or galleys. Author and editor now have a chance to read the typeset pages, which can allow them to view the text with a fresh eye. A proofreader should also review the first pass pages, reading them carefully against the setting copy to check for any errors—including typographical errors, “widowed” lines, and bad line breaks. (Bound galleys or advance reading copies are often produced from first pass pages to be sent out to media, reviewers, and potential blurbers—well-known authors, celebrities, acknowledged authorities on the topic, or other public figures who might lend the book some of their own renown—in advance of finished books.)
+
+Once the first pass pages are marked up with corrections from the author and the proofreader (and perhaps the editor), they are returned to the compositor, who creates a corrected version of the text in the form of second pass pages. The author and editor often don’t review second pass pages unless there have been major changes or corrections made to the first pass pages, but the proofreader or someone from the production editorial department will carefully review the second pass pages to check for further errors. Any corrections will again be sent on to the compositor, who will now generate a third pass. This will continue until the text is (theoretically) without errors, at which point the book will be ready to go on press, if a hardcover or paperback—or if also an e-book, to be transformed into digital files suitable for the many electronic reading platforms.
+
+
+
+
+
+SCHEDULE
+
+
+Throughout the book’s journey from manuscript to finished book, the editor has to keep in mind the schedule in terms of the production process: will there be time for editing, copyediting, typesetting, proofreading, corrections, printing and binding, shipping—and creating e-book files and uploading them—in order to meet the publication date? Once the book has been transmitted, the managing editor can create a realistic production schedule for the book with dates for when the copyedited manuscript and then first pass pages can be expected; when the book is scheduled to be on press; and when finished copies will reach the publisher’s warehouse.
+
+At the same time that the book is chugging along the production track, it is also moving on a parallel route through the sales and marketing process, and so there is another schedule the editor must keep in mind: the “selling” schedule. Having materials such as sample chapters or even a finished manuscript for sales and marketing colleagues many months ahead of publication, and sometimes a year or more, has become a necessity in some areas of publishing. A comfortable production schedule for a book from finished manuscript to publication can be as little as nine months, but the sales and marketing schedule typically exceeds a year. Of course there are exceptions. Faced with a dramatic news event or a timely celebrity bio, a publisher may opt to “crash” a book on an abbreviated schedule. The editor’s work from draft manuscript to transmittal manuscript may then be telescoped into a matter of days or weeks.
+
+Even while the book is still in the editing stage, the marketing machinery of the house is beginning to turn to the rhythm of a seasonal publishing cycle that applies to all the books on a publisher’s list. While the production schedule for each book is uniquely tailored to that project, for practical reasons houses group titles together in “seasons” of three to six months, putting out catalogs that list all their books for that period. These lists help make the unceasing river of titles manageable not just for workers in-house but for people downstream—distributors, booksellers, and media.
+
+It’s the editor’s job both to supply information to sales and marketing colleagues about each title—via tipsheets, catalog copy, launch meetings, and databases (meeting the deadlines for that season’s publishing schedule)—and at the same time to generate excitement by sharing sample material from the manuscript, soliciting and circulating blurbs, calling attention to news pegs, writing to booksellers, buttonholing colleagues in the hallway, and so on. The editor must help to “position” the book relative to other ones on the publisher’s list and the marketplace at large. Because positioning is so important, the fate of a book can be decided, or nearly so, even before the final draft manuscript is delivered. The editor’s contribution to this process may be just as important as—or more important than—her shaping of the manuscript, no matter how brilliantly she edits.
+
+
+
+
+
+JACKET AND COVER COPY
+
+
+Some publishers have copywriting departments that handle writing jacket and cover copy. At most publishing houses, however, it is the editor’s responsibility to write jacket copy (for hardcover books) and cover copy (for paperback books). Writing copy is part of an editor’s job as chief cheerleader and salesperson for the book; the copy is meant to persuade prospective readers to buy it.
+
+For hardcover books, the editor must prepare jacket copy for the flaps and the back of the dust jacket; this may share space with the author’s photo or blurbs—endorsements from noteworthy early readers. For paperbacks, all copy must fit within the confines of the back cover, though the editor may also prepare “quote pages” featuring blurbs or excerpts from reviews to appear at the front of the book. The editor will usually make sure the author has a chance to weigh in on jacket and cover copy and suggest changes—a process that, with finicky writers, can become a tricky negotiation.
+
+Jacket and cover copy is usually due several months before the book’s publication, to allow time for the jacket or cover to be designed with the text in place. But back-cover quotes are often “TK” (to come) at the time copy is due, so copy for the back usually comes in just a few weeks before the book goes to press.
+
+
+
+
+
+AT LAST: PUBLICATION
+
+
+Finished books usually arrive at the publisher’s office (and warehouse) four to six weeks before the official publication date. E-books generally become available on retail sites on publication date.
+
+The finished book represents a true collaboration between author and editor, who can take tremendous pleasure in seeing all of their hard work come to fruition. This is a time for celebration and anticipation as the book now begins a new journey—into the hands and, with luck, the hearts of readers.
+
+
+
+
+
+6
+
+
+WHAT LOVE’S GOT TO DO WITH IT
+
+
+THE AUTHOR–EDITOR RELATIONSHIP
+
+
+BETSY LERNER*
+
+Once a middle-aged man at a writer’s conference asked me how editors know when a manuscript is good. He seemed without guile or agenda. It was a simple question, but no one had ever asked it of me. I fumbled an answer, saying something about experience, taste, and conviction. “But how do they know?” he repeated, and this time I could hear behind the question the desperation and frustration of an aspiring writer whose work had met with a fair amount of rejection. “Isn’t it all subjective?” His voice was now mixed with disgust and accusation.
+
+Another writer weighed in that she couldn’t stand it when rejection letters said “I just didn’t love it,” “I didn’t fall in love,” or “Alas, I wanted to love this . . .” The woman looked wounded and irritated at the same time: “Why can’t they just say no instead of bringing love into it?” What’s love got to do with it? I saw her point. To the writer it sounds disingenuous and weirdly upbeat. More, wouldn’t it be better to be rejected on practical terms than to be rejected like a girl at a dance sitting alone near the punch bowl?
+
+Thing is, editors don’t acquire books that they think are pretty good or good enough. Acquisitions editors are in it for the high, for the feeling that something amazing is happening when they start to read fresh pages. Pheromones might even be involved. No matter how many manuscripts an editor reads, it is always there: the hope. This could be the book that hits the best-seller list, or wins a Pulitzer Prize, or, rarest of all, changes someone’s life.
+
+The author–editor relationship begins on the page. The first sentence. The first paragraph. Does it hold up twenty pages in? Fifty? A hundred? Is it quirky or elegant, funny or baleful, familiar or just strange enough? Is it deceptively simple or brilliantly complex? Does it move you?
+
+I’ve met many writers who disagree with me. They believe editors choose manuscripts on the basis of the bottom line, the author’s track record, or what’s fashionable or trendy. Publishers only want to pluck young things out of MFA programs or sign the next comic with a special on HBO. They don’t believe their pages are as important as their “platform.” And who can blame them, when the writing-industrial complex has been bludgeoning writers with the same questions: how many Facebook friends do you have, how many Twitter followers? In this climate the author–editor relationship often seems like the smallest part of the equation. Plus writers can self-publish with a few keystrokes. Editors might go the way of dodos.
+
+And yet.
+
+No matter how disenchanted writers may become, every one I’ve ever met has what I call the Maxwell Perkins fantasy—hoping for the editor who will pluck you from obscurity, who will lend you money when you drink away your advance, who is brilliant with a blue pencil, and who has launched the writers we will still be reading decades from now. In fact, fantasy infuses almost every idea an author has about getting published. After all, that’s when you go from being a writer to an author, when you finally win the respect of friends and family, when you allow yourself just enough hope to believe in a writing career and giving up the day job. The Maxwell Perkins fantasy doesn’t stop there: Your editor is handsome, picks up the checks, introduces you to fancy writers, and throws you a publication party in his apartment overlooking the Hudson River, lights twinkling across the way in distant New Jersey. Your editor peppers your manuscript with compliments and has a light touch. Contract in hand, you now dream of riding atop the best-seller list, donning your tux for the National Book Awards. The next day, still high from your win, you’re on NPR, chatting with Terry Gross.
+
+Terry: Thanks for being on the show.
+
+You: Thanks for having me.
+
+
+
+Most writers feel the one thing standing between them and their dream of publication is the editor. For the writer, having your work rejected is like being told you have an ugly baby or being broken up with. Behind every rejection looms the question why? Why didn’t they fall in love? Why that book and not mine? No one wants to be told that his book isn’t ready, that it’s at least six drafts away. No one wants to hear scrap this one, start over. Or take a writing class.
+
+It takes tenacity, endurance, and years of work for a writer to hone his craft, to find his story, to develop his voice. And then he has to figure out how to market himself, perhaps engage an agent’s services, which in itself can be a brutal process. And getting an agent doesn’t guarantee finding a publisher. Every rejection is like a referendum on his life.
+
+Editors are not ogres. Yes, they are gatekeepers, yes they hold the purse strings, and yes they have the power of rejection. Are they aloof, or do they only seem it? Do they get off on rejecting manuscripts? Do they enjoy killing hopes and dreams? Do they love writers or resent them? Are they in competition with them, either overtly or unconsciously? Are they, as some suggest, failed writers themselves? Does the Woody Allen quip apply: “Those who can’t do, teach. Those who can’t teach, teach gym”?
+
+How does one become an arbiter of taste? What makes an editor believe that just because he loves a book others will too? There are no licenses, courses, guidebooks, or manuals. There is some mentoring but no real supervision where editing is concerned. Sometimes a great editor on the page has no bedside manner. Sometimes the most charming editor has no discernible skill with sentence structure. Editors need clout to acquire, a proven track record of successful books. Young editors have to work even harder than their older, more experienced counterparts. They have to prove their case, implore the editor in chief to take a chance on younger writers. In order to acquire books, they need to diplomatically campaign among the different departments and research comparison titles with strong sales figures. They need to come up with “handles,” elevator pitches that make the book sound salable. Godzilla meets The Help. And they need to schmooze agents, and impress writers, and navigate the politics of publishing. Although editors seem to have all the power, they too, like the author, are caught in their own Darwinian struggle to get the best books and launch them into the world. It takes passion, perseverance, smarts, savvy. In fact, love really isn’t enough. Is it ever?
+
+
+Another writer at another conference asked: “Do you think there are extraordinary novels out there that will never be published, that will remain in someone’s drawer?” The “great lost novel” theory is in reality another veiled condemnation of editors who clearly “miss” the great projects. In this version, the world isn’t unfair to writers, it’s blind. If we believe that great work, maybe even the best work, is going undiscovered, then it stands to reason that maybe our own rejected novel just might be that work of genius. I might be Emily Dickinson! And there are enough stories in publishing lore to keep this fantasy alive. In fact, it’s a badge of honor for an editor to find the diamond in the rough. Or stick with a project left for dead that ends up winning a major prize. Writers and editors have this in common: they are underdogs. The editor desperately wants to discover the next great novel. The novelist is desperate to be discovered.
+
+
+Back on earth, editors don’t always return calls or emails promptly, sometimes they take months to read manuscripts and provide comments, sometimes they provide feedback that can be helpful and astute or, just as easily, withering and vexing. Some make an author feel welcome, plenty of room at the inn. Some are like the little old lady who lived in the shoe: there doesn’t seem to be any room left over for you. Some are hurried, hassled, and distracted. Others are such good listeners that authors feel as if they should pay by the hour.
+
+For some author–editor relationships, unfortunately, it’s all downhill after the acquisition. These editors are all about the chase. Once they have acquired a book, they’re on to the next one. Sometimes the writer finds himself vying for the editor’s attention. The author is automatically cast in a sibling situation with fellow writers on his editor’s roster. Who does Mommy love the most? How important am I in the scheme of things? Writers frequently ask editors with terrific nonchalance, “What else are you working on?” It’s a loaded question: Where am I in the pecking order? Which author will get the most marketing money? Whose writing is the best? Not that I’m competitive.
+
+When it works best, it’s the back-and-forth on the page that defines the author–editor relationship. It’s the perfect tennis match where each player brings out the other’s best game. It’s the golf coach saying Keep your head down, eye on the ball, follow through. It’s working in synchronicity like figure skaters, ballroom dancers: you lead, I follow. There is no greater feeling for me than when a writer takes my notes, then ups the ante, making the passage or paragraph not just better but brilliant. Author and editor form a mutual appreciation society. The author feels inspired and inspires in return. Email exchanges are delightful, hysterically funny. I hate to use that word again, but it’s a love fest.
+
+I always felt that there was nothing more intimate than working on a writer’s pages. The writer is extremely vulnerable. All of his hopes are in the editor’s hands. The writer hopes this person understands and appreciates his work in both the most general and the subtlest way possible. Similarly, the editor hopes the writer is challenged, inspired, and buoyed by the editing. That the editorial letter in tandem with a line edit convinces the writer to make whatever changes are necessary: plot restructuring, killing off a character, changing the point of view, turning short stories into a novel or changing the ending. Just before she died, Harper Lee revealed that it was her editor who suggested she rewrite To Kill a Mockingbird from Scout’s point of view as a girl. Good call. The editor fights the author’s battle inside the company and shepherds every aspect of the physical book. It’s not a baby, but you made it together.
+
+
+There’s a flipside, too. Sometimes the work on the page does not go well, or the chemistry is just wrong. Communication can break down when a writer feels misunderstood, when his editor rips into his pages and requests a new version, or worse, takes months to respond. Editors become beleaguered by authors who never stop revising, handing in new drafts every day, or who return the manuscript with only cursory attention to the editorial advice, sending the process back to square one.
+
+Editors often feel underappreciated and undervalued. Sometimes an editor is on a losing streak. She has lost every book she’s tried to acquire to another publishing house. Sometimes an editor has a string of books that utterly fail in the marketplace. No sales, no reviews, no recognition whatsoever. Editors are not impervious to pain or fear of job loss. They are the closest possible person to the writer, and they are inextricably bound up in his defeats and victories. In the olden days, editors were known for sticking with authors for five, six, seven books even if they didn’t particularly sell. The rope is no longer quite as long, and most authors are cut loose after just one or two books if they fail to sell well. Conversely, sometimes an author will leave his editor/publisher just as his work begins to take off, believing another publisher can do a better job with marketing, sales, or distribution.
+
+Some years ago when I was still an editor, I heard a colleague in the next office sobbing at her desk. I poked my head in to see if she was all right. Her most beloved author was moving to a new publisher with her next project. The editor was inconsolable. She had discovered this writer, helped her grow from a tiny acorn to a mighty oak. She had called in every favor she had to help promote the writer, finding blurbers, setting up readings, sending galleys to her media contacts. She gave up vacations to work on her manuscripts. She had loaned the author money when she cried poverty. She even gave her a room in her own apartment to write in . . . the Max Perkins fantasy come to life.
+
+“I’m such a fool,” she said. “What did I do it for?”
+
+The question hung in the air.
+
+Love?
+
+........
+
+If writers sometimes act like babies or belligerent toddlers, it is often because they have been infantilized by the publisher. When I was an editor, it became clear to me that publishers largely felt that the less the authors knew the better. Things like marketing and sales were kept from them like state secrets. At two publishing houses where I worked, even the editors were excluded from the sales and marketing meetings. Authors were deemed the least likely to know what a good title, subtitle, or jacket would be for their book, as if they were surgeons who dare not operate on themselves. (Social media is changing all this. Some writers are geniuses at building or reaching their own constituency; some are even better at it than the publishers. It’s no small thing when a writer can fill a bookstore via a post on Facebook or generate enough Amazon preorders to land the book on the best-seller list the week it launches.)
+
+Writers are a lot of things: depressed, funny, paranoid, anxious, competitive, compulsive, surly, sorry, ambitious, brilliant, insightful, perceptive, intense, psychologically acute, dreamy, and indefatigable. They love to fight and seek forgiveness. They want to be alone and loved by all. They will push an editor to the edge and then over it. They love to procrastinate. They love to send emails in the middle of the night. They need to make sure you are thinking about them. Writers cry, complain, gnash. Authors let their freak flags fly. They are insecure because everything about their lives is insecure. Make a living writing? Put their life’s work in the hands of publishers? Even the most successful writer lives out on a limb. It’s a deeply risky and precarious way to live. It can be equally thrilling and demoralizing. It’s life on a high wire and there is nothing like it: creating original work. Making something out of nothing, pulling rabbits from hats. However much power it feels like the publisher has, it’s the writer, ultimately, who has the power to create.
+
+
+In my final days as an editor before I became an agent, I hoped to acquire a new project by an author I had worked with on three previous books of nonfiction. I was usually drawn to brash writers who were emotionally volatile and exciting, their lives a perpetual rollercoaster and their prose high-octane. This woman was reserved. She was incredibly strong and smart, but her affect was gentle and soft-spoken. I marveled at her keen eye, her surprising descriptive details, and the way she let character reveal itself incrementally. I loved her writing! I loved her! When it came time to acquire her next book, I was called into an acquisition meeting. Until that point, all I’d had to do in order to acquire a book was tell my boss how much I loved it, and he would let me make an offer. Only now there was a new regime that ushered in a publishing board comprising people from the sales, marketing, and publicity departments. These meetings, as far as most editors were concerned, were the death of publishing. In the olden days, editorial passion for a project was the only imperative. Now market forces and bean counters were influencing acquisitions.
+
+I looked around the conference room at what I expected to be friendly faces, but it was more like a tribunal than a meeting. I took my seat, my folder in front of me, numbers crunched, reviews xeroxed, book proposal shiny and new. Before I could say anything, the publisher asked who had read the proposal. Hands went up. He called on a woman to give her opinion. She was in charge of selling to the national chains, and her opinion had sway. She tried to smile, but her lips turned down as if a moldy smell was coming off the pages.
+
+“Well,” she said, “I don’t see it.”
+
+Then she glanced at me and shrugged as if to say, Don’t be mad.
+
+A marketing manager chimed in: “Who’s going to buy it?”
+
+And the final stake through the heart of the project came from the editor-in-chief, supposedly my ally: “It seems more like a magazine article.”
+
+This was bad. I wanted to put my head on the table. I loved this author and I had stumbled before getting out of the gate. It was all going south before I had a chance to make my case, the skirt of my stupid little Ann Taylor suit was crinkled into accordion pleats, and I felt the backs of my pumps digging into my heels. This wasn’t even me in this getup, rather someone I thought the publisher wanted me to be. Everyone was looking at me, possibly taking pity on me. I realized then that it had all been decided. This was a puppet court.
+
+“What do you want to do?” the publisher asked me in a tone that implied Wrap it up.
+
+Did I have a choice?
+
+Against my better judgment, I launched into my presentation as if I were a defense attorney and it was my turn to sway the jury—my author’s life in the balance. I read some of the wonderful review quotes that showcased her as an up-and-coming writer. I spoke about the idea for this new book and how I believed that universal themes ran through it. I was emboldened by an anecdote from Maxwell Perkins’s biography about how he fought to keep Fitzgerald, upbraiding the powers that be for failing to grow new talent.
+
+It wasn’t exactly a filibuster, but I’m sure I annoyed the publisher with my tireless enthusiasm, my stubborn belief. Finally, when I was finished, he said, “If you really want it, you can beg.”
+
+I’m not saying my soul died that day, but I said, “Okay, I’ll beg, I’m an editor.”
+
+I was authorized to make a bid so low the agent screamed at me. He sold the book to another publisher, and a few months later I quit my beloved profession and became an agent.
+
+
+As an author myself, I’ve had three editors. The first one took three months to read my manuscript. I was a mess, every fingernail shredded, my face a splotch of anxiety. When her notes came, they blew my mind and not in a good way. She seemed to hate the book, large loopy handwriting saying as much in the margins until her notes ended in a crescendo of frustration, “Who would want to read this, it’s so negative!!!” It took a while to be resuscitated, but I realized she was right. The book was an ironic take on publishing wrapped in a sardonic point of view. I rewrote it, balanced the negativity with hope and encouragement. She was right and the book so much better for it. Love hurts.
+
+My second editor was polite. She was younger than I—that might have had something to do with it. She was extremely respectful and an excellent line editor, but she didn’t say very much about the most revealing scenes, which left me feeling a bit uncertain.
+
+My third editor wasn’t afraid to push me. Maybe her method provides the best definition I can come up with in the end: a good editor asks the right questions, makes you better than you are, or more willing to stretch even when you resist. It’s a known fact that the comments you hate the most are the most important to grapple with.
+
+
+As I was leaving a conference, I was bombarded by three participants who kind of scared me. One woman trapped me in the ladies’ room and demanded to know why I never answered her query letter. Out in the hallway, a man with bulging eyes and sweat soaking his denim shirt lowered his voice to tell me he was working on a book about meth labs in rural Oklahoma, from what appeared to be firsthand experience. Another woman told me a terrible tale of how her mother fell out of a Ferris wheel and plummeted to her death; could I help her write her story?
+
+I packed my bags and headed out. As I was crossing the quad, the rollers on my suitcase thunking over the brick pavers, I spotted a young woman in overalls sitting under a tree writing in a notebook. She must have felt me looking at her, because she glanced up. I wondered what she was writing.
+
+
+
+
+
+7
+
+
+THE OTHER SIDE OF THE DESK
+
+
+WHAT I LEARNED ABOUT EDITING WHEN I BECAME A LITERARY AGENT
+
+
+SUSAN RABINER*
+
+When I made the move to agenting after more than three decades as an editor, I presumed that the editorial skills and judgment calls that made for a successful editor would make for a successful agent. I was right—but only to a point. There were important editorial questions that editing hadn’t prepared me for but that agenting required I figure out. Strangely, the most important would make me not only a better agent but a much wiser editor.
+
+As an ex-editor, I knew immediately when an author hadn’t really addressed all the questions editors need to have answered in a proposal or when authors were confused about which audience their book was addressing. These issues were easy to identify, if not always easy to fix. But I was neither prepared nor particularly skilled at dealing with what soon became the key editorial issue of agenting: is this project convincingly conceptualized?
+
+What’s “conceptualization”?
+
+It’s the value added by the author to what is essentially a set of facts, stories, and commentary in search of a larger meaning. To conceptualize is to link these facts, stories, and commentary to a compelling point. A successful book proposal offers to take the reader on a journey. It may be one he has taken, in some form, many times before. An author’s concept for the book is her promise is that with the benefit of new research, new stories, new insights, and her authorial guiding vision, the reader will see new things on the journey and arrive at a new destination—and even, at the end, be changed by the experience.
+
+Conceptualization goes back to the very simple idea that we read books to make us think, or feel, or question our understanding of ourselves or our universe, or to shake us out of our complacent notions. Facts, stories, even ideas do not, cannot, in and of themselves do that. Only an author can magically transform that raw material into something meaningful. If in doing so the author suggests an exciting journey and good payoff at the end, the book is on its way to publication. If not, it’s likely to be stillborn.
+
+It will be clear in this essay that I’m speaking of nonfiction, the field in which I have always worked. The issue of conceptualization doesn’t arise in fiction in the same way. But fiction editors and agents would tell you that some of the same lessons apply in their field: a novel must also take the reader on a journey, one that is different from any journey the reader has taken before. If the novel is going to find a publisher, the author must convey what will make this story unique and have a clear structure for it in mind. And as with nonfiction, this critical thought process usually takes place before the book ever reaches the editor’s desk.
+
+You might think that as a longtime editor, I had thought long and hard about conceptualization, but I’m not sure the word entered my vocabulary as an editor. My colleagues and I spent little time discussing or thinking about the issue, because we didn’t have to. If a project came my way that didn’t define its journey in a way I found seductive, I just moved on.
+
+Nor did editing manuscripts force me to learn. While I and most other editors will cheerfully work incredibly hard to identify and fix a good manuscript that falters at times, even if it falters repeatedly, once I sensed a systemic conceptual problem with a manuscript, my editing stopped. Early in my career I had been trained: once that happened, you put down your pencil and shipped the manuscript and the problem back to the two people whose problem it was at the beginning and must once again become—the agent and the author.
+
+But now I was the agent. Even if my own sense of pride had not made it impossible for me to send out a poorly conceptualized project, the practical consequences of doing so would soon have jolted me to my senses. For the price of coming up short can be very high. A critical section of any publishing contract is the “acceptance” clause—a misnomer if ever there was one, because the clause deals with the very harsh consequences of nonacceptance. If the editor sends the manuscript back to the author and the latter can’t satisfy her with a revision, the author (and agent) must return the advance. Best to prevent that from happening by making sure any conceptualization problems were worked out before I let go of a project.
+
+This proved to be a difficult and time-consuming task, because a surprisingly large number of good potential authors queried me with proposals that had been written before they had any real idea what their book would say. They knew their subject matter, but not necessarily what point they wanted to make with this material. The “draftiness” of these initial submissions was just stunning. You could feel the wind rushing through canyon-size holes in both argument and narrative as you read. I found myself asking basic questions I had never asked before, like “What is the story you want to tell?” because I had no idea what the pages and pages of facts added up to. Or “Whose story is it?” when a memoir author was trying to combine her story with a parallel narrative and it wasn’t clear how the two melded. Even “Aren’t you telling the wrong story?” when a dual-character book came in and the author chose to tell the story from the perspective of the character who left more written documentation, rather than focus on the person who made it an interesting and counterintuitive tale.
+
+These authors hadn’t sent me these drafty proposals because they were lazy. They just didn’t understand how much thinking has to go into a book before it is ready to be shown to editors. Part of the problem is that we have all been trained to think about crafting books in terms of writing. Conceptualization is about thinking.
+
+After a couple of bad decisions on my part, I realized I needed to develop a way to sort out those authors who had a vision but didn’t know how to express it from those who didn’t. And that meant that I had to steel myself against the allure of other factors.
+
+For an agent, it is very easy to trick yourself into taking on a project by counting up a series of “pluses”—fabulous author credentials, tantalizing bits and pieces of what seems like an unbelievably good story, exceptional command of a topic you just know the public is interested in hearing more about. As those pluses mount up, your initial editorial skepticism somehow weakens, and you talk yourself into the idea that you can always figure out the conceptual part later. But the truth was I often couldn’t. And more important, I shouldn’t.
+
+I finally came to understand that there is one question every author must be able to answer in order for me to work with him or her: Why do you want to write this book?
+
+You might think that those authors who went silent in response to this question, or who scrunched up their faces the way we all do when we realize we don’t have a good answer, were the ones I walked away from. Or that the very smart author who slyly looked up at me and asked, “Does my book actually have to say something?” was an automatic reject. Ditto the very talented writer who replied, “You tell me. Why do I want to write this book?”
+
+To the contrary. These turned out to be the authors I stayed with. Why? Because they took the question seriously. The ones I walked away from were those who started rat-a-tat-tat blurting this answer and that, defensive the whole time and hoping to hit upon one that satisfied me. They never got that this exercise wasn’t about me.
+
+Of course, in order to get to a satisfactory answer, very often I had to walk these authors through a series of other questions that would retrace their own journey of discovery. The discussion went something like this. “You are not the first person to have looked at this issue. Think back to what troubled you about the accepted view of this time and place and caused you to question it. What exactly was it you questioned? And what was it you learned on your journey of discovery? Now explain why that journey is going to be as meaningful and compelling to me as it was for you.” Or as I sometimes put it, “I get why you want to write this book. Tell me why I want to read it.”
+
+Did all the authors eventually come back to me with satisfactory answers? Alas, no. But that was in its own way just as helpful. Why? Because that questioning process did a very good job of selecting those who really had something to say and a compulsion to say it. As important, it took power out of the hands of the agent and put it into the hands of the writer. And it made me much more comfortable asking authors to revise and re-revise their proposals, knowing that the end result would be worth the effort.
+
+Here are a few other editorial insights I have gained from agenting.
+
+
+Editors rarely talk about genre, but when they evaluate proposals they are subconsciously aware of it in a way that I never understood while I was still an editor.
+
+By “genre” I don’t mean some obscure literary taxonomy created by some French writer whose name no one remembers. Nor do I mean broad catchall categories like “literary fiction” or “travel.” To me, speaking of genre is a way of saying that there must be a tight match between the sensibilities of the writer and the preferences of her audience in terms of how the project is executed.
+
+Editors rarely even use the word genre. I’ve never had an editor write back to me about a project I submitted that the proposal was “out of genre”—but that doesn’t mean they’re not aware of it. I’ve come to realize that editors carefully scrutinize every proposal they read to see if the author truly understands what readers who read this type of book want (for example, do they want to get inside the head of a character, or do they prefer a finely grained dissection of an issue?) and, even more so, how they want their stories told (for example, through an omniscient third-person voice, or the more personal “I” voice, or the points of view of the various characters).
+
+When a proposal makes an editor nervous about the author’s feel for his readers’ preferences, she is going to be very cautious about bidding on the project—and many won’t bid at all, because if the concerns are real, the manuscript is likely to have systemic problems. And systemic problems, as I’ve already said, can’t be resolved through editing.
+
+What editors don’t realize—but I have become very aware of as an agent—is how many would-be authors are truly clueless about the need to work within the rules of a genre. “Who are you trying to talk to?” I have often asked these authors, because the material they sent me didn’t seem to be speaking to any audience I could define. The editor version of this question is “What is this? I don’t get it.”
+
+People often ask me why the process of who gets published and who doesn’t seems to be so opaque. As I tell them, it’s because subconscious concerns influence how editors think. It was only agenting that revealed to me that genre was one of those concerns—rarely discussed or defined as such, but nonetheless determinative.
+
+
+Content matters, more than editors admit—and “filler” is not content.
+
+When I first became an agent, all I heard from the editors was the same line over and over again: I only want to see the work of really good writers. A-list writers. It’s all about the writing. I believed them—until I started to make submissions, only to learn that when they made that decision to bid or not to bid, what drove the decision and the level of their bids was not the fluency, wit, or eloquence of the prose but the power of the content. I will never forget the editor who called me to say, “We don’t frequently see proposals as well written as this one,” and then proceeded to turn it down. You’d never know from the way editors talk that this is a content-driven industry. I’m not saying that they will buy a poorly written manuscript--no one wants that. But substance matters.
+
+To put this another way, “good writing” means compelling ideas clothed in words. Writing that is merely eloquent, or entertaining, but that does not further the message of the book or feed the storyline or develop the characters is not going to work. Why, you ask, isn’t this apparent to most authors? Because of the lure of what I call “filler.”
+
+Filler, again, is not an industry term. It is my way of describing proposal material that is very nicely written but devoid of real content. It’s there because the author is trying to write his way out of the fact that he doesn’t yet know what he wants to say.
+
+Let me acknowledge that filler has an honored place among all kinds of writing. I write tons of it. It’s what you produce when you can’t abide staring at an empty screen one second longer but you can’t get your brain into deep thinking mode. So you tell an anecdote or make a big deal out of some little point, or say the same thing two or three different ways, just to feel productive while your real thoughts are a jumbled mess. And because what you put down on the page is, shall we say, content light, it flows easily and reads well.
+
+And therein lies the problem.
+
+Filler charms. It relaxes. It’s likely salted with a dramatic or humorous episode or two, and because the author isn’t struggling with both content and language, it’s often the best-written part of the proposal. What a pleasure, you think initially. But eventually the content bug bites you. For the agent, it might not happen until you have to write the cover letter to editors and you find that you can’t articulate what this author wants to say. Or it might not happen until editors pass on the project en masse, saying things like “I just don’t know why I’m not more excited about this project. The topic is terrific, the writing is great, but there is just something not compelling me here.”
+
+So what began as charming eventually leaves a bad aftertaste. And if an author doesn’t have enough to say to fill up a twenty-something-page proposal, how is that author ever going to have enough to say to fill up a book?
+
+
+Chronology is not narrative. This is why I will never again give short shrift to a fully developed table of contents.
+
+Every compelling book tells a story—and this is just as true for nonfiction as for fiction, even for academic works of ideas. This notion is confusing, or even disturbing, to many academic authors. They think of “story” as the domain of fiction, books that focus on people rather than ideas or events. Or they say, “My book is full of anecdotes—why are you telling me it needs more of a narrative?”
+
+But as already noted, a book has to take the reader on a journey. In a history, it may be from one point in time to another when the world has changed—and also from an old explanation of that event to a new one. In a book on parenting, it may be from one understanding of what children need to a better one. In a political book on inequality, it might be from one model for what causes inequality to a new one based on new data. Each of these journeys is a story.
+
+The table of contents shows how that story unfolds. While the conceptualization laid out in the proposal has to promise an exciting destination and lay out the high and low points on the journey, the table of contents has to demonstrate in a much deeper way that the journey itself will be an exciting, powerful experience. The reader needs to gain a sense of momentum, almost of inevitability, as the book moves toward a conclusion. A series of anecdotes, no matter how entertaining, or of ideas, no matter how original, doesn’t make a story unless it builds from one to the next. And in order to achieve that, the author needs to understand point by point, chapter by chapter, how he is going to move the reader along the road.
+
+It is only by having an author write a long, thick table of contents that an agent can see that structure developing and ideally identify problems with it up front, so that they won’t hobble the author when it’s time to write the book. I now ask all my authors to think in terms of a table of contents of around fifty pages, with each chapter summarized in five to ten pages. Writing clarifies thinking, never more so than in a table of contents.
+
+
+It’s not a business decision for editors; it’s personal.
+
+It took becoming an agent for me to understand something that always makes me smile now. In the end, no matter how hard management tries to turn publishing into a business, it remains an affair of the heart. Editors are passionate people, not statheads or game theorists. They wouldn’t pass Negotiation Strategy 101. Why do I say this? You would think that when an editor loves a project, the last thing he would do is reveal this to the agent. He should hold his cards close to his chest to keep down the price of the book, right? But the opposite happens. If a project has a powerful emotional impact, editors will email us to say that the material “made me cry,” or “It’s so uplifting,” or “Oh my god, a book with new ideas.”
+
+Similarly, if a proposal raises editors’ hackles—if, for instance, an author comes across as petty or smug—you’ll hear about it. “I don’t even like this author,” as one editor put it to me. And woe to the author whose ideas rub editors the wrong way: then I’m on the receiving end of incredibly long and detailed letters arguing with the author, when the easiest response would have been to just write the standard platitude, “Sorry, not for me.”
+
+All of which is to say that the single most important piece of advice I give to would-be editors is this: Don’t go into publishing cynically. And once in, don’t do it cynically.
+
+Here’s what agenting has made even clearer to me than all my years editing. Books remain the last bastion of the truly reflective mind. In the age of social media, there are endless opportunities for those who want to rant to do so. There is now a free and universally available way to access any bit of information you want, rehash any event or experience. But there is only one reason to write books or publish them: to go on that journey of discovery, and to share it with other people who will care about it the way you do—if you have told your story well.
+
+
+
+
+
+8
+
+
+OPEN-HEART SURGERY, OR JUST A NIP AND TUCK?
+
+
+DEVELOPMENTAL EDITING
+
+
+SCOTT NORTON*
+
+As an acquiring editor, your day is filled with a plethora of distractions. You’re playing phone tag with an agent who’s closing the bidding today on a major trade book; your edits to the online seasonal catalog are overdue; a new financial policy requires you to update all of your profit-and-loss statements; one of your authors has had an allergic reaction to her copyediting and must be administered some verbal antihistamines. In the midst of all this activity, it can be hard enough to find the time to give a new proposal your full attention, let alone think strategically about how the project should be developed to ensure a successful book.
+
+Yet if you’re like most acquiring editors, development is at the heart of your sense of vocation. You got into publishing because you love books: how they can immerse you in stories of subtle complexity or lead you through a thicket of evidence to yield illuminating insights. And your authors, when submitting a proposal for your consideration, are planning to devote hundreds of hours to writing in the hope that they will achieve the enlightening effects of their own favorite books.
+
+Elsewhere I’ve defined developmental editing as “significant structuring or restructuring of a manuscript’s discourse” and mapped out a detailed process for extracting a publishable book from a completed manuscript that has structural flaws.1 And I’ve provided a synopsis of those procedures for new academics revising their dissertations into first books.2 Acquiring editors use the same basic techniques. But because you often first engage with a project as a proposal or partial draft, you have an opportunity to shape the book in a way that is especially intimate and satisfying.
+
+In some sectors of the book industry, the acquiring editor can rely on help with developmental editing. In textbook publishing, for example, full-time in-house developmental editors work with authors to ensure their books remain competitive in the marketplace and meet state curriculum mandates. Developmental specialists also play strong roles in the publishing of medical, technical, legal, public policy, and major reference works. But in trade and academic publishing, most developmental editing takes place at the hands of either the acquiring editor or—when schedule requires and budget allows—a freelance professional.
+
+In this chapter I distill the hard-won wisdom of four accomplished colleagues from the Acquisitions Department at the University of California Press: Naomi Schneider, editor in sociology; Niels Hooper, history; Maura Roessner, criminal justice; and Blake Edgar, science and wine. Their areas of subject expertise are diverse, their editorial styles highly individual—yet they all follow the same basic tenets when guiding an author from proposal to finished manuscript.
+
+
+
+
+
+THE EDITOR’S ROLE
+
+
+Effective editors bring three main assets to bear: subject expertise, to ensure that they see where an author is coming from; market knowledge, to allow them to understand the interests and needs of a book’s target audience; and the tenacity and tact to hash out solutions when an author’s preferences and the market’s needs are in conflict.
+
+Maintaining subject expertise is an ongoing commitment. Many acquiring editors have academic degrees in the subject areas in which they publish, but they must keep up their knowledge base postgraduation to remain effective. Just as you wouldn’t want to have bridgework done by a dentist whose methods are decades old, an author seeks an editor who has kept abreast of news in the field. In academic publishing this means reading journals and competitors’ books, following online blogs and chats, and attending meetings; in trade publishing it can mean following a current-affairs topic in the media and attending summits or protests. For an editor acquiring in general-interest trade, this mandate is equally important, if more elusive: such editors log many armchair hours earning the epithet “widely read.”
+
+Marketing knowledge also requires constant maintenance. This insight can come from some of the same sources as subject expertise—conferences, periodicals, online conversations—but the wise editor supplements these resources for specific projects by consulting expert readers and surveying the market (see “Conducting Market Research,” below).
+
+When an author’s vision for her book conflicts with your knowledge of the audience’s needs, you must “stick to your guns,” says Hooper. These conflicts are often about leaving content in or out: if the content you wish to excise represents an author’s laborious research or emotionally charged personal narrative, she may have a difficult time parting with it. During these tough moments, it is important for you to constantly demonstrate to the author your enthusiasm for the project, your investment in its message, and your commitment to the book’s success. “Often,” says Hooper, “authors later realize you were right.”
+
+
+
+
+
+THE AUTHOR’S MOTIVES
+
+
+Roessner ticks off a list of markers that you should look for to gauge an author’s likely receptiveness to developmental editing: she has “writing chops”; she’s a “known commodity”—that is, ideally you’ve worked with her previously; she has “fantastic raw material”; and she’s interested in “getting out of her own head to reach a targeted audience.” This last factor is key: most authors will say they’re open to constructive feedback, but once they’re being prepped for the open-heart surgery that is developmental editing, they have second thoughts.
+
+If an author demonstrates lack of openness to development, you must make a judgment call about whether to pursue the matter further. Usually it’s best to “avoid pleas of desperation,” Roessner says. Edgar agrees that you have to know when to give up on a project—sometimes an author is so enthralled with her raw material that she cannot see the need to articulate a clear point of view. But he avers that he usually tries “to break down that barrier, rather than just throw up my hands.”
+
+With significant trade projects there’s usually a third dance partner in the mix: the agent. In proposals presented by agents, it can sometimes be difficult to distinguish the agent’s agenda from the author’s. Agents bring a whole set of additional concerns to the process, such as whether a blockbuster movie on the author’s topic is in production in Hollywood. Orchestrating three-way project development can be nerve racking for all, especially when you throw in the publisher’s marketing and sales directors and other key stakeholders. Some agents will step aside once they’ve clinched the deal and earned their percentage of the advance on royalties, but others won’t.
+
+It’s worth noting that some “highly invested” agents are themselves talented editors who add value to the development process, often serving as the editor’s ally by helping to manage the author’s expectations. Either way, you do well to make a candid assessment of the agent’s motives along with the author’s before investing time in development.
+
+
+
+
+
+THE PUBLISHER’S INVESTMENT
+
+
+As an acquiring editor, you are steward of your employer’s most valuable resource: your time. In trade publishing it is generally assumed that you will spend time developing nearly every book you sign, but in other parts of the industry you will probably need to use your judgment. Before deciding how much developmental effort to invest in a project, it’s important to do a cost-benefit analysis. Think “quantitatively,” Roessner says. She asks herself, Do I think I can expand a book’s sales potential enough to warrant the investment of time that development would require? In some cases this means enlarging the book’s audience from a narrower group of aficionados or specialists to a broader trade audience made up of those elusive creatures we publishers call “general-interest readers.”
+
+For a book to have trade potential, the topic must be “zeitgeisty,” says Schneider. Edgar seconds this observation but also notes the importance of author cachet and timing. “We tend to hang a lot on platform now,” he says, referring to whether the author has cultivated a public following in print, radio, television, and social media. “But that’s not as important as credibility and addressing the right topic at the right time.”
+
+Some editors believe in spending a small amount of time on development even for books with limited sales potential as a way to cement an author–editor relationship. “The idea is to earn the loyalty of a promising author by engaging directly with her work,” Roessner explains. “Then, hopefully, the author comes back to you with her big trade book.” But she notes this approach is hard to sustain while meeting your signing goals and can become a point of contention in the publishing house.
+
+All four of our editors ask a few key questions about everything that comes across their desks: Does this proposal articulate a clear argument? Does the table of contents support that argument? Does the author’s writing style engage the reader? For most projects, this mild level of review, resulting in minor feedback, can be all that’s needed and can free up time for the few projects on which they lavish deeper attention.
+
+
+
+
+
+COACHING VERSUS MODELING
+
+
+Pressed for time, acquiring editors provide their developmental feedback using a combination of two basic approaches: coaching and modeling. “I can’t imagine doing only one or the other,” Roessner says.
+
+Coaching involves providing summary feedback about suggestions for improvement. Usually coaching begins with a written overview of the proposal’s strengths and weaknesses, along with some specific suggestions for improvement. This initial step can be executed quickly because it makes no attempt to work out solutions in the text; and it can cement an early bond between the editor and an author anxiously awaiting feedback. “I skim a lot,” Schneider says. “I try to get back to my authors in three or four days, to build momentum.”
+
+As the revision plan takes shape, coaching often moves from email to the telephone. A lot of context gets lost in written communication, Roessner says: “Brainstorming sessions can really help.” She has had more than one “very intense whirlwind developmental romance,” receiving and making phone calls at odd hours from airport gates and hotel lobbies.
+
+Modeling allows the acquiring editor to demonstrate what she’s looking for. Sometimes the rewriting is limited to the table of contents; other times it’s used to demonstrate the desired writing style in the main text. Roessner “plays ghostwriter in Track Changes” in Word for a few sentences and then says, “Please do more of this.”
+
+Edgar coauthored several books before joining UC Press as an editor. His preferred mode is to give detailed feedback on individual chapters or clusters of chapters as they are drafted. He attributes his developmental ability to having learned this rhythm of collaboration in the scientific research setting, but he has had to adapt his process to the quicker pace of publishing. “Now I push the guidance upstream,” he says—that is, before the full manuscript has been written. “I focus on providing input at the proposal stage, fleshing out an outline, and making sure the plan holds together before I invest any more time.”
+
+Throughout the process, remember to lavish praise on your author. Roessner recalls walking toward several authors chatting at a conference and overhearing them discussing—admiringly but apprehensively—her “tough love” style. She says she battles a tendency to skip acknowledging the strengths of a manuscript and “dive right into the problems,” which can shake the confidence of authors, who think they’re being asked to start over from scratch. “Tough love is fine,” Roessner says, “but only if you don’t forget to show them the love. Remind them that you wouldn’t be spending all this time on their project if you didn’t believe in it deeply.” One simple rule: use change-tracking software to remark on nice phrasing and effective passages.
+
+
+
+
+
+DEPLOYING EXTERNAL REVIEWS
+
+
+In academic publishing, external reviews from experts in the author’s field are required as part of the vetting process. But seeking other readers can be valuable in any sector of the industry. “Any author should try to get some feedback from the type of person he’s envisioning as the end reader,” Edgar says, “especially if his book is intended for a general audience.”
+
+External reviews can usefully augment the developmental process. They can alert you to the weak portions of a proposal or manuscript, validate your intuition that a project is worth pursuing, and bolster your revision plan with the author. Reviews can give your advice more credibility: “There is strength in numbers,” Edgar says.
+
+But reviews can also backfire. Precisely because reviewers are usually also experts in the author’s field, they can grandstand for their own theories and methods or misinterpret the author’s thesis in light of their prejudices. More dangerously, reviewers can succumb to reputational bias, fawning over proposals by authors who are influential in their fields but not necessarily gifted writers. “Some reviewers say, ‘I would read anything this author wrote, even if it was on a napkin,’” Roessner warns. “But as editor, I have to veto that endorsement if I see that the writing needs work.” Yet even wrongheaded reviews can be useful, because they give you an opportunity to demonstrate to the author that you’re not blindly siding with your reviewers.
+
+To harness the power of external reviews as a developmental tool, be sure to find reviewers that appreciate the discursive form in which the author is writing. If the text is a polemic, find reviewers who appreciate the role of polemics in public discourse. “Choose reviewers who are going to enhance your vision for the book,” Hooper advises.
+
+
+
+
+
+CONDUCTING MARKET RESEARCH
+
+
+Sometimes there’s nothing inherently deficient in a project, yet marketing analysis reveals the need for development. If there are other comparable books in the field, the acquiring editor must explore whether there’s enough distinguishing the proposed work from its competitors. How are we going to position this one? Edgar asks himself. He cites the example of a guide to an emerging wine region: the authors initially proposed a first-person travelogue, but when a competing volume came out using that approach, they successfully switched to a reference format.
+
+In textbook publishing the market research process can be baroque. The acquiring editor (or her assistant) may send out each chapter as it is drafted to a large number of instructors, who teach the chapter in their classes and provide feedback, which is then collated on an extensive grid. This empirical approach maximizes the potential for the text to be adopted, but it also results in the lowest common denominator in terms of pedagogical sophistication, says Hooper. At UC Press, a publisher known for works of progressive cultural politics, “we tell our authors that they can have a point of view that may not appeal to creationists in Texas.”
+
+Roessner points out a beneficial side effect of this type of market research that is not developmental per se. “The marketing check is on a rolling basis”—that is, chapters are sent out to reviewers as they are drafted—“because you want to build your eventual market by having people invest in it early on,” she says. “They become your early adopters.”
+
+But many works of nonfiction can be developed for the classroom without such labor-intensive research. “We do little SurveyMonkey things,” Schneider says of herself and her assistant, referring to quick online surveys of course instructors. These surveys can elicit responses to the author’s entire proposal, or they can gauge general interest in a proposed table of contents with a one-page project description. The surveys often ask three key questions: As outlined, would you consider using this book in one or more of the courses you teach? If yes, which courses? If no, can you recommend any changes to the author’s approach?
+
+Some books can become core texts—books around which an instructor builds her syllabus—simply by having the author map the content of known courses onto the book’s structure. Other books, if kept short, can stimulate classroom discussion as supplemental reading.
+
+One widespread concern about developing core and supplemental texts in the digital age is whether they are still relevant. In the early 2000s many publishers assumed that the first generation of students born during the internet era would prefer online learning environments in the classroom and began investing heavily in building out that new technology. But our four editors are finding that the death of the print textbook has been heralded prematurely. “Even digital natives prefer print for learning,” says Hooper. “This is as true on the state campuses as at the elite universities.” Edgar adds that “you have to plan for the eventuality that the audience preference may ultimately shift. And there are a lot of digital opportunities that you can get an early start on.” These may include teaching students to mine Big Data online.
+
+Like textbook publishing, professional publishing requires a large investment in developmental editing. Readers expect a series of professional handbooks to present its information in a consistent format, and the subject experts who serve as authors rarely have the skills to adapt their prose to series specifications. Thus these franchises often have in-house developmental editors.
+
+In professional publishing a franchise may require intensive developmental coordination, says Roessner, who worked in this arena at Oxford University Press. For instance, a series on cognitive behavioral therapy may require a treatment sequence for anxiety in children that includes a clinician’s workbook, a homework guide for the child, a parent’s guide, and a school psychologist component. Not all of these works would be produced on the same timeline, but all would need to have the same look and feel, requiring an integrated approach to developmental editing. Once a sequence like this has been established, “you replicate that little ecosystem for different topics,” Roessner explains.
+
+
+
+
+
+REVISING THE PROPOSAL
+
+
+Once a project’s developmental needs have been identified via marketing research and external review, the revision process begins. Usually the acquiring editor’s first task is to work with the author to devise a “resonant” thesis, says Schneider. “You can’t just cobble together your blog entries, no matter how many ‘likes’ they got,” she says. “If you don’t have a thesis, the reader asks, ‘What is this book trying to do and why should I care about it?’” Even a biography needs a thesis, she points out: the reader wants to know what key insights she can take away from the subject’s life.
+
+An author can have such an overabundance of experience in the field, or have interviewed so many people, that she struggles to draw out a singular argument from her raw material. This is a common problem among anthropologists and qualitative sociologists, who rely heavily on case studies: the book cannot “just be a march through sob stories,” Roessner says. An author needs to analyze her case studies: “it can feel like an impossible task to theorize that misery, but it’s what the author has to do.”
+
+Other times the thesis is present but not sufficiently highlighted. “For some projects, all I do is supply a new title,” says Hooper. This limited intervention can be critical to the book’s success, positioning it correctly in the marketplace or forestalling criticism that the book overstates its case.
+
+With a sharp thesis and piquant working title in hand, author and editor can get down to the business of reworking the table of contents. The chapters must be arranged so they build the central argument: some editors draft a new table of contents, while others prefer to broadly sketch an approach and let the author refine it. Either way, it is important for the editor to invite the author into the process so that she feels personally invested in the resulting plan.
+
+Sometimes revising the TOC reveals gaps in the author’s research that send her back into the field. This new research can be revelatory—Hooper notes one case that yielded an archival finding that became international news. But sometimes additional research can get out of hand: another of his authors returned from the field with three times the amount of content and wanted to publish it in three volumes.
+
+Authors’ enthusiasm for their subject often results in overwriting. “People write too many chapters. For most books, I don’t want more than five or six chapters,” Schneider says, by which she means chapters of eight to ten thousand words. “Most subjects just aren’t big enough for a longer book; you end up with padding.” She finds that most of her developmental efforts involve cutting entire chapters or combining chapters and boiling them down to a reasonable length.
+
+
+
+
+
+FINDING THE AUTHOR’S VOICE
+
+
+An author’s writing style, or voice, can be bound up in her manuscript’s structural flaws. In first drafts, many authors have not sufficiently synthesized their raw material; in these cases, development involves “pushing toward describing the gist and greatly reducing the amount of direct quotation,” Hooper says. In books with broad narratives involving many characters, the author may have trouble deciding which characters to foreground and might inadvertently allow a crowd of competing voices to drown out her own. The editor’s job then is to “make the author’s statement sing through the stories” of her subjects, Roessner says, “but not let the subjects just speak for themselves.”
+
+This drive toward synthesis must be calibrated to avoid dumbing down a sophisticated argument. Pushing specialists to write trade books can be risky: the author’s technical voice may put off general-interest readers, while her attempt to simplify the argument may put off other specialists, prompting negative reviews in the media. That said, Hooper admits that he cannot always tell when synthesis has gone too far: a text that seems “dumbed down” to him may draw reviews from instructors who say it’s still written over the heads of their students.
+
+When time is limited for detailed line-by-line editing, focus on chapter openings and closings, Schneider says. These “have a responsibility to engage you, to show you how each chapter builds on the last.”
+
+Finally, when coaching an author to find the right tone for her manuscript’s voice, furnish examples of published books that are written at a level that speaks effectively to her audience. These models should be realistic, written by others who share your author’s degree of skill and experience. Your author needs “to aspire to being that person,” Schneider explains. “Not Malcolm Gladwell.”
+
+
+
+
+
+WORKING WITH A TEAM
+
+
+Acquiring editors tend to prefer to do their own developmental editing. But sometimes an exciting project surfaces when the editor is up to her neck in previous obligations; in those situations she may consider outsourcing the development to a freelancer. This arrangement can have advantages: a freelancer may have time to generate three or four scenarios for an author and publisher to choose from, itemizing the level of investment involved in each. And many DEs have the ability—often handled as a separate, in-house function by textbook and professional reference publishers—to develop online components for books, coordinating them closely with the main text.
+
+Of course, the success of outsourcing depends entirely on the skills of the freelancer. Edgar advises against allowing authors to pick their own DEs: these may be friends or relatives who don’t have sufficient experience with book content, leaving a lot of mop-up work for you to do. Make an effort to identify a small pool of trusted DEs, and keep their contact information handy.
+
+Another collaborator who can help with the developmental process is a series editor, the best of whom can bring to their series not only leads on promising projects but also a guiding vision to shape each project so it makes an original contribution. Schneider looks for these sterling attributes in a series editor: they are productive, deadline oriented, and collaborative, with a knack for networking and a strong organizational mind. In these partnerships the series editor usually represents the specialist audience’s needs, while you champion the general-interest reader’s point of view.
+
+A book’s production team, too, can make crucial contributions to project development. Edgar remembers one meeting in which he, a designer, and a production editor sat around a jumbled pile of photographs and constructed a sequence for a color insert that told the author’s story visually in a compelling way. “What a worthwhile meeting!” he recalled. He has since made a practice of involving the designer and project editor in many of his books’ illustration programs. Production editors also frequently help by rationalizing subheads in the text. “I can be looking at the manuscript from a pretty macro level, and they have the ability to dig into the details,” he says. Illustrations, signposting—these elements may seem trivial in comparison to the work of reshaping an argument, but in actuality they highlight the work you’ve done on the argument.
+
+Finally, a critical member of the acquiring editor’s team is the editorial assistant. Schneider’s assistant “keeps the trains running,” she says, giving her time to focus on project development. “I want her to be the front line with most authors. She does a lot of the logistical stuff like finding blurbs and working with authors to format the manuscript.” Even so, with many contracts to negotiate, Schneider finds herself doing a lot of developmental editing on her own time.
+
+
+When all is said and done, you’ll be most effective as an acquiring editor when you cultivate a clear sense of your own readership. Knowing your target audience well can guide your choices about which projects to sign and which to invest in. This is not the same as being a “taste-maker,” Roessner points out. “It’s not about me: it’s about putting the market first and foremost,” she says.
+
+A good developmental editor has humility toward both a book’s audience and an author’s intentions. “Nobody taught me how to be an acquisitions editor,” Hooper says. “I felt so fake for a very long time.” Part of his way of dealing with that anxiety was to tell himself, I’m really just providing a first read. But humility notwithstanding, the successful acquiring editor must ultimately trust his own editorial instincts, his own vision for a project’s potential. That first reading, in which you stand in for the readers who will follow, can be crucial to sharpening the author’s thesis, helping to build her argument, and clarifying her voice.
+
+
+
+
+
+9
+
+
+THIS NEEDS JUST A LITTLE WORK
+
+
+ON LINE EDITING
+
+
+GEORGE WITTE*
+
+Very. Really. Actually. Vaguely. Badly (as in felt and written).
+
+Truth be told. Without a doubt. Be that as it may. When all is said and done.
+
+He was the one who. It was at this moment that. Five years ago had been when.
+
+An entire manuscript in which she was / they were walking, was/were driving, was/were doing whatever she/they was/were doing.
+
+Very unique.
+
+Line editing is much more than nitpicking, but many writers and would-be editors perceive it as such. In fact, the line editor can restructure a novel or a work of nonfiction; ask crucial questions about plot points, assertions, conclusions, and other matters; meticulously clean up sentences and paragraphs and shape text so that a muddy manuscript gains clarity and flow; and, yes, search and destroy the clichés, imprecise adjectives, and passive verb constructions that might mar an otherwise strong book.
+
+What do line editors do, and how do they learn? The answer to the latter question explains why the former is difficult to define. There is, in fact, no specific training path for professional editors of books. Most people who become editors are self-trained, some of them benefiting—as I did—from generous and knowledgeable mentoring, but many finding their own ways through trial and error, and developing different skill sets.
+
+Editors all have one thing in common: we are helpless, passionate, hungry, lifelong readers, and we gravitate toward editing the books we most enjoy reading. Many of us began as critical readers in high school or college; with the guidance of smart teachers, we learned to read not just for pleasure. We learned to ask, How did he surprise me with that revelation? or Why did she choose to tell the story in first person, and what did she gain or lose by that choice? or even Why am I bored although I’m supposed to like this book? Many editors worked on school newspapers or college literary magazines, or as researchers for professors; some were aspiring writers and worked through draft after draft of material. Some studied areas that had nothing to do with literature: business, or science, or another discipline. And once in publishing, some were taught by skilled senior editors, then given manuscripts to edit, and through practice and repeated evaluation learned the trade.
+
+While there are academic courses on line editing, most such courses focus on copyediting, a distinct procedure usually applied to a fully edited manuscript that has been accepted for publication. People who don’t work in publishing often mistake copyediting for line editing, and with good reason; many copyeditors do the work that line editors should have done. The job of a copyeditor is to prepare a manuscript to be set in type; all professional copyeditors are trained to apply a set of printer’s marks (or today, electronic codes) to the pages of a manuscript.
+
+But good copyeditors often save an inattentive or poorly trained editor’s proverbial bacon. They correct grammar and spelling but also can do significant work on tightening sentences and reshaping paragraphs that have gone astray. They query facts, register confusion when a manuscript is unclear, and police internal consistency in the work; and in some cases they aggressively root out clichés and awkward constructions. Most copyeditors, however, will not undertake a full, top-to-bottom edit of every line of every page, nor will they suggest significant structural changes to a book.
+
+Those larger changes, if necessary, are the job of the line editor to identify and work with the author to address—because most large changes require not just editing but rewriting. That relationship with the author is the crucial difference between a line editor and a copyeditor. Copyeditors don’t necessarily have direct contact with an author; their work is done on the manuscript itself, and the author addresses their work on the page. But the line editor typically is the acquiring editor of the book, and as such is the author’s primary relationship in his or her working life: the source of money, the point of contact, the guide through the publishing process, the cheerleader, the writer’s advocate, the person to cry to or, perhaps, to complain about, the lunch or drinks companion, sometimes the friend, and above all the most attentive and most honest reader of an author’s work. The line editor is supposed to be a book’s ideal reader, the one who asks all the questions and heads off all the problems in a book so that it is satisfying—rather than maddening, confusing, or just a little too dull to finish—to other readers.
+
+Does that mean that there are different kinds of editing for different authors? Yes. And the line editor needs to learn what different authors need and will tolerate, rather than imposing a standard of editing that might damage the relationship with the author or even harm the author’s ability to write. It’s the author’s book, not the editor’s; the editor should be working to help the author write and revise the best book that he or she means to write. The editor should not impose a voice, a vision, a point of view, an agenda, or a too-aggressive critical approach that leaves no room for praise and disables the author’s confidence and creativity. You want Roger Federer to play the match without looking at the coach’s box for approval after every point.
+
+Some writers will accept no editing whatsoever. In my experience, those authors are usually the least professional: people who will write only one book (a memoir, for example) or people who are successful in another field (most often business), where they are used to having their own way. And yes, there are some very grand authors who will brook no editing; they deliver the manuscript, the editor gently conveys it down to production, a light copyedit for printing purposes is applied, and the book is set in type. Without citing examples, I will say that authors who claim they need no editing, do.
+
+Some writers will accept modest editing: corrections to grammar and spelling, minor marginal queries that address specifics and might help clarify certain questions, and perhaps suggestions to make key points more dramatic, more memorable, more telling within the context of the book.
+
+Some writers don’t merely accept but need and ask for significant editing: a line-by-line grind through a 160,000-word manuscript to get it down to 100,000 words, for example. Or exchanging many hundreds of passive verb constructions for active forms in order to enliven a flaccid manuscript. A line editor doing this kind of work might get through ten pages in two eye-straining hours, cutting sentences, shortening paragraphs, weaving stray threads, and trimming excess words.
+
+Some writers don’t need line editing as much as a sounding board for plot ideas, or general book direction, or maybe special attention to the beginnings and endings of chapters within the dramatic structure of the story being told.
+
+When can an editor make the most difference to a given book?
+
+The answer depends on the author, of course, but also on the book in question: fiction or nonfiction, literary or genre novel, how-to or history, “voice driven” or “plot driven,” and dozens of other distinctions. There is no one-size-fits-all approach to editing, just as there is no single way to tell a story. That said, editors can most affect the quality and, perhaps, the sales of a book in a few general areas.
+
+
+
+
+
+MICRO
+
+
+On the level of diction, a careful editor can help an author identify when given words or habitual constructions are being overused. I recently finished editing a powerful debut novel which needed some work on the plot but also required close attention to the line-by-line writing because the author had the habit of leaning on certain words. Dark, for example, or darkly: dark clouds, dark shades, dark water, dark eyes, darkly thinking, darkly imagining, and so on. To my eye and ear, dark is an imprecise adjective; it’s a young writer’s fallback, and I’ve read many a short story or poem (and written a few myself) where that word is used to suggest a larger profundity imbuing whatever is described. So when editing this manuscript, I marked dark, darkly, black, and blackly over and over, along with other words that seemed to me inexact, or overused, or showy, or just plain bad. (On one occasion rain fell “wetly”—we cut that.) Other words that can fall before the pencil with no loss to quality and considerable gain to clarity and punch, when multiplied by five, ten, and more occasions over a book-length manuscript: very, vague or vaguely, really, generally, mostly, nearly, pretty, pretty much, beautiful, ugly, and other words that do no work. I have an aversion to clouds “scudding,” since they seem to do so in nearly every poem and literary novel I read, but maybe that’s just me.
+
+Ditto clichés: even the best writers fall back on the old familiars, and a sharp editor can help freshen up a book by calling them out. If it reads like the wind, writes like an angel, flies like a bird, squeals like a pig (except in Deliverance, where James Dickey deliberately makes the cliché terrifying) . . . , the editor should groan like a door and cut accordingly.
+
+
+
+
+
+MID-MICRO
+
+
+On the level of sentences, an editor can help an author vary the length and structure of sentences in order to enhance a manuscript’s dramatic flow. Most people think of drama as a function of plot and story, but there is drama inherent in the rhythm and movement of lines and sentences. I might be a bit more attuned to this dramatic potential than most; as a poet, I know that poems find momentum not by structuring events or fulfilling a reader’s expectations but by deploying meter, rhyme, enjambment, and varying lengths of lines and phrases and sentences. Prose writers, especially young ones, often fall into habitual sentence structures that can have a cumulatively soporific effect. Subject-verb-predicate for paragraphs on end. Single-sentence paragraphs, meant to heighten a dramatic moment or frame an argument or announce a revelation, that become gimmicks through overuse. Sentences beginning with “And,” intended to create momentum at the ends of paragraphs in order to propel the reader to the next, deployed so often that they lose effectiveness. Overly complex sentences with multiple dependent clauses that slow pace and obscure information, as often occurs in nonfiction books. In my experience, nonfiction books tend to need more sentence work than novels, perhaps because many nonfiction books are written by people who have less training in writing than the typical fiction author.
+
+
+
+
+
+MACRO
+
+
+On a more general level, an editor can dramatically improve a piece of writing by focusing on certain structural areas that most manuscripts have in common. Beginnings and endings, of the book and each individual chapter, are areas of particular focus.
+
+Does a manuscript begin with a dramatic moment? Not all do, or should, but every manuscript needs to begin strongly enough so that the reader will want to turn the page and keep reading. That long dream sequence, or complicated flashback explaining reams of backstory (before the actual plot has begun), or pages of lovingly detailed landscape evocation that conclude with . . . well, not much? The line editor may ask an author to cut those passages entirely, or put them somewhere else, or (in the case of landscape) parcel out those details in smaller doses in the course of telling the story, and make them germane to its purpose rather than a static clump of description.
+
+Does the manuscript end on the right note? It doesn’t have to end with “a bang,” and in fact that dramatic high point may come several pages before the end, but the end should feel like a conclusion, not a trailing off or a too-extended running of the credits. In particular, an editor might warn a novelist against what my mentor Tom McCormack called “serial resolution,” where plotlines are wrapped up in a plodding series of consecutive scenes, rather than one scene that ties together the novel’s central stories.
+
+Paragraphs, too, have their own dramatic function, and editors work to ensure that paragraphs serve individually and collectively within a book’s dramatic movement to keep the reader turning pages, advance the story being told, complicate or clarify issues as they are explored, and develop characters. When editing, if I find myself bored or confused, I pause to ask myself: What did this paragraph just do? Did it do anything? If not, why not? Why was it a paragraph in the first place? What is supposed to be happening here, and where has the story or the point being made gone astray? The reader should be getting something from every paragraph, and if a given book is lagging, it often means that paragraphs are taking up space without having a purpose.
+
+In fiction, purposeless paragraphs often mean that time is spent getting people from one place to another when they simply need to be there. Or that backstory is told in undigested form, rather than informing the overall story and being revealed as characters grow and change through the entire narrative. Ditto long descriptive passages about landscape or interiors, the details of which are necessary but need to be doled out gradually. In nonfiction, purposeless paragraphs—and therefore behemoth books, often described as “exhaustive” by reviewers—usually derive from an author’s unwillingness to cut researched material. It’s there because the author can’t bear to leave it out: it happened, it’s true, there’s this great stuff that nobody knows about, I have it on tape, wait, there’s a photograph, it’s really important, etc. The line editor needs to identify what must stay and what can be sacrificed.
+
+Transitions—the beginnings and endings of chapters or sections—also are places where an editor can help an author improve a book. Many manuscripts arrive with too few chapters or lack section breaks within long chapters. In those cases, the editor’s job is to help the author identify opportunities to start and end scenes, so that the reader feels a sense of shape and momentum. What is a given chapter meant to accomplish in the overall dramatic structure of the book? And how do the scenes within that chapter contribute to that purpose? If a chapter begins on an irresolute note—with no connection to the previous chapter’s end and no sense of dramatic promise—then the line editor might suggest adding a sentence (or two) that establishes direction, or perhaps cutting an extraneous descriptive opening and focusing on a character’s point of view. Or if a chapter ends by trailing off in a welter of details, the editor might suggest that the author find a cleaner cut: a way to close off the chapter and move to the next, rather than cluttering a transition point that should be more dramatic.
+
+Example: I work with an author of genre fiction who sometimes concludes scenes and chapters with the characters taking their time in exiting the premises. Let’s say two cops have just been chewed out by a supervisor. They leave his office and get some coffee in the squad room, one takes milk, the other doesn’t, they go out the door, close it behind them, walk out to the parking lot, notice it’s sunny outside, get in their patrol car, roll down the windows, and finally exchange a line of dialogue that flips off said supervisor. I would suggest ending the chapter in the supervisor’s office, with his last words booting them out and into the next sequence, where the action picks up; or, if we need that clever line of flip-off dialogue, then cut quickly to the patrol car by writing “Two minutes later . . .” and get rid of all the stage business in between. We don’t need to see routine to-and-fro taking up space and sapping momentum; we need to get to the next scene.
+
+
+
+
+
+WAR STORIES
+
+
+I’ve edited hundreds of books over a thirty-year career, fiction and nonfiction, across more categories than I can recall. Here are some examples of dos and don’ts that I hope will be instructive.
+
+The very first book I acquired and edited was a novel by a woman who grew up in the South. She was a natural storyteller but an untrained writer. Her first novel was written in thick first-person dialect and recounted the story of a young white girl and an older black man who lived on the outskirts of her small town. Fresh out of graduate school and full of self-importance, fancying myself an authority on southern literature since I had studied with the leading scholar of the region, I wrote her a long editorial letter. I recommended lightening up the dialect (because, being from New Jersey, I knew all about how white and black folks in rural Georgia in the 1940s talked) and also suggested dozens of plot changes, dramatic twists, and a more upbeat ending.
+
+A few weeks of silence followed my letter. One afternoon the phone rang, as phones did in those days before email chimed its perpetual arrival. It was my author, and she wanted to talk. For once, maybe because my mother had told me to respect my elders, I listened. She patiently explained why her characters spoke as they did, and said she couldn’t lighten their dialect because then she couldn’t hear them in her head. As for the plot changes, she said, “You know, George, I appreciate everything you have suggested, but . . . it just didn’t happen that way.” And then I knew: this book was her life, she was the narrator, and that was that. The novel was published, found its way into the world, and eventually became a successful made-for-TV movie. So did her second novel, which I also published—and didn’t suggest changing a word. Sometimes an editor needs to leave well enough alone.
+
+A very different challenge came from a businessman, a sales/marketing guy and an expert in his field, writing a how-to book for others seeking success. It was the kind of book a young editor acquires: a proposal by a novice author who promised—and delivered—a full-bore campaign that would sell his book and tap his client base. A year later the manuscript arrived in a massive box. He’d written it himself, at great length; the manuscript was seventy thousand words too long, loaded with extraneous material. It began with a potted autobiography, from grade school to high school to college, including summers, then a blow-by-blow account of his career, before getting to the heart of the book: the how-to-succeed techniques, which really were unusual and demonstrably effective.
+
+The author wanted to come in and meet me for an editorial conversation. I girded myself, knowing this would be a tough one. He arrived with a strange light in his eyes, reminding me of Coleridge’s Ancient Mariner, as if tormented by visions that no one else could or should perceive. I began as my wise boss had told me to approach such conversations, with praise for the book, how illuminating it was, how instructive and valuable it would be, and how much more so we would make it together with just a bit of work. When he realized that “just a bit” meant we needed to take it down by seventy thousand words, nearly all of it the autobiographical material, he began to cry. Really cry. I mean, weep and wail—as if he had lost a loved one. His shoulders heaved, he could hardly speak. Finally he sobbed out, “Do we really have to cut it?” I said yes, we did, but that we’d make it a bestseller by doing so. The tears abruptly stopped. “Do what you have to do, that’s all I care about.” I cut the seventy thousand words—an easy task, in fact, because most of them came in one clump—and we ended up with a pretty good self-help book that sold to international publishers in several languages and stayed in print for many years. Nota bene: It didn’t best-sell. More tears. If you become an editor, never make that promise.
+
+One of my most challenging edits was a very long biography of a writer I intensely admired. In this case, the writer in question had enjoyed a comfortable and not terribly interesting childhood but led a colorful adult life, in particular the ten to twelve years during which he was the best in his field, bar none. The last twenty-five years of his life and work were a period of long and mostly sad decline, with flashes of the old brilliance and some personal drama that bore telling.
+
+The biography’s author and I had agreed that we didn’t want a doorstop book; in order to achieve that goal, we would highlight the best work and the most relevant stories from the man’s life and would fast-forward through the weaker work and the everyday details. In this case, “everyday” meant just that: what the book’s subject ate for breakfast, lunch, and dinner; dull conversations recounted in excruciating detail, to no purpose; the to-and-fro of a writer’s life from teaching to conferences to awards ceremonies; books written, published, reviewed, and returned; and so on, and on, until the manuscript topped two hundred thousand words and thirteen hundred–plus pages, and weighed more than my leg.
+
+I set about a meticulous and challenging edit. Biography and history can be difficult to cut, because every sentence is part of a chronology. I excised chunks of text and suggested compressing chapters from a year-to-year accounting into periods of time, especially when not much was happening. (The phrase “Three inconsequential years passed” would have saved everyone some time.) I also made myself trim at least three lines from every manuscript page, which reduced the whole by 125–50 pages. I minimized the scholarly analysis of obscure or less important writing—since this wasn’t meant to be an academic book—and reduced what had become a prosecutorial recounting of the author’s bad behavior to salient examples.
+
+Nearly every one of the cuts somehow made its way back into the manuscript—in a different place, or rewritten, or added to the burgeoning notes section, or justified as crucial. In the end, as I said earlier, it’s the author’s book, and as an editor you can’t impose your will on an author. The only whip you have is the word count in the book contract, and while some editors will insist that the author hew absolutely to that count under penalty of cancellation, it’s hard to enforce that threat when an author has spent years on research and writing. In any event, the biography never became the lean model of its kind that it might have been. Sometimes you can only do so much.
+
+Finally, every so often an editor reads a book that seems, well, perfect. When that happens, I find myself wondering: Am I getting lazy? Not doing my job? Reading with complacent acquiescence rather than attention? Surely there must be something wrong with this thing! Recently I had the pleasure—the honor—of acquiring a novel by an acclaimed literary author, one with a long career behind him and still ahead. On first read, the book seemed impeccable; second read too. I had nothing to say, and almost nothing to mark with my pencil. The author and I spoke by phone, and the most I could come up with was the simple suggestion that maybe the book could be a little longer and round out its story a bit more. What did that even mean? Beats me. I could hear Tom McCormack growling in my right ear, because he hated that kind of editor: the old-boy, indifferent but charming, gracefully-faking-it kind of fine fellow, a minor character from a Fitzgerald novel, utterly useless to all but the most talented writers.
+
+Well, this was one of those writers; he heard me, understood that something was missing at the end, and went to work. A few weeks later the final draft arrived, rewritten at the end and arriving at exactly the right place. If I had come up with suggestions, details, plot points to be resolved, energetic interventions, and other tools in my kit, I might have ruined the book (or, perhaps, been ignored by my wise and experienced author). Lesson learned: talk to your authors, get to know them and understand how they work, and edit accordingly.
+
+Can a line editor transform a book? In some cases, yes—Gordon Lish’s work as an editor was transformative, albeit painfully, for certain authors, changing their voices and rendering their sentences down to the essence of what they had been. Maxwell Perkins did heroic work in carving coherent novels from Thomas Wolfe’s massive rough drafts; more recently, Robert Weil did the same in editing Henry Roth. In less extreme examples, an editor’s best work can be in helping the author develop over many years, book by book; the editor’s role might combine line editing with guidance about story ideas that will enhance a given author’s talent. There are many instances where an editor has helped a capable author grow into a bestseller, where editing and loyal support and productive collaboration over several books create the conditions for an author to find a large audience.
+
+But most editor-author relationships have a different balance of power, and even with vigorous give-and-take over several drafts of a difficult process, the line editor can hope to improve a given manuscript just incrementally—perhaps lifting a C+ to a publishable B, or in the happiest cases taking an A– to an A.
+
+Having done both, I’ll say that the former helped me learn my craft—and taught me to respect those who practice it with more talent than I do. The best editing I’ve done has been on manuscripts in desperate need of it, where every page—and on some pages every line—requires the ministrations of the pencil. In such cases I’m fully immersed in the book for days, even weeks on end, and emerge squinting against the painful light of dawn. Sometimes that work has been worth the time (as measured by both the quality of the book and the sales); sometimes it hasn’t, but even then I learn something new about editing and hope my author will do the same.
+
+The A books come across one’s desk just a few times over a career. Whether you’re a writer, a reader, or an editor helping one to find the other, those are the books you live for.
+
+
+
+
+
+10
+
+
+TOWARD ACCURACY, CLARITY, AND CONSISTENCY
+
+
+WHAT COPYEDITORS DO
+
+
+CAROL FISHER SALLER*
+
+
+
+
+
+WHAT COPYEDITING IS
+
+
+Anyone who looks critically at someone else’s writing—as a job, as a favor, or just to meddle—is probably about to copyedit, which means scrutinizing every inch of that document for grammar, spelling, punctuation, capitalization, and good expression. Professional copyeditors do this for publishers, corporations, nonprofits, small businesses, web startups, law firms, and so on, whether on staff or freelance. But anyone who evaluates or tweaks the writing of someone else may be said to copyedit, and that includes teachers, administrative assistants, interns, writing partners, bosses, moms and dads, and perhaps (since you’re reading this) you.
+
+Some copyeditors do much more than copyedit: they develop projects, write or rewrite, or do production work. Many copyeditors email and talk on the phone with writers; they hire and supervise assistants and freelance editors. Freelance copyediting amounts to running a small business, which entails bookkeeping, marketing, writing estimates, and chasing down payments from clients.
+
+
+
+
+
+THE COPYEDITOR IN THE BOOK PUBLISHING PROCESS
+
+
+Publishers come in all shapes and sizes, and their procedures vary to fit the end product: newspapers, magazines, websites, financial reports, coloring books. Copyeditors, too, have many different job descriptions. In one organization they do nothing but copyedit; in another, they might wear a few more hats. Some copyeditors move on to become managing editors and production editors, sometimes while continuing to copyedit as well. And the various titles given to in-house editors are fluid and overlapping.
+
+In book publishing, however, a copyeditor typically is given an assignment by a managing editor (sometimes called production editor,1 assigning editor, or supervising editor). The managing editor has probably already evaluated the manuscript (a term still more widely used in the industry than typescript) for the amount of editing needed and has set the editing schedule and deadline. Managing editors assess material by skimming through it and reading any accompanying notes or files, and they set a schedule and choose a copyeditor based on the complexity of the work and the requested publication date. They might also do an initial cleanup of the document, apply typesetting codes or styles, negotiate the fee (if the copyeditor is not on staff), write up instructions and deadlines for the copyeditor, and let the writer know what to expect as the project moves into copyediting.
+
+While the copyeditor is working, the managing editor monitors progress, advises or updates when necessary, and keeps the author up to date (unless the copyeditor has taken over with that). After copyediting, the manager looks over the work, checks the manuscript against design specifications, and completes any paperwork required for sending the project to production. Managing editors typically work with several or even many copyeditors simultaneously, whether in-house or freelance. They also keep departmental statistics (budget, workloads, attendance, etc.), hire and pay freelancers, and liaise with other departments. Managing editors sometimes copyedit as well.
+
+In addition to editing, copyeditors are sometimes asked to take on publishing tasks normally done by managers. The copyeditor might
+
+• check that all illustrations are present and ready for production
+
+• check permissions and credits for illustrations
+
+• apply for ISBNs and Library of Congress Cataloging-in-Publication data
+
+• compare a document to a graphic design to make sure the design is complete
+
+• arrange for proofreading
+
+• convey corrections to the typesetter and check the revisions
+
+• arrange for indexing
+
+• check marketing and catalog copy
+
+
+
+
+
+WHY COPYEDIT?
+
+
+Publishers who hire copyeditors obviously believe they are worth the expense. That’s because editing amounts to the quality-control phase of a product. No publisher (or hospital, investment company, university, or department store) wants its books (or newsletters, quarterly reports, donor appeals, or online shopping cart) to have typos and grammar goofs. Sloppy publications cast doubt on a venture’s legitimacy and on the author’s intelligence, judgment, and resources.
+
+For the same reason, writers trying to sell their work do well to have it copyedited before submitting (though this doesn’t preclude the need for further copyediting down the line). Although a professional-looking document can’t hide inferior content, the reverse is often true: an editor faced with a mountain of submissions may reject good work that is poorly presented before reading far enough to find what’s good about it.
+
+
+
+
+
+THE COPYEDITOR AT WORK
+
+
+The actual task of copyediting, no matter what project or client is involved, means sitting with a document in front of you with the goal of improving its writing and presentation. It might be helpful to consider copyediting as five categories of things to monitor, starting with the essential tasks and then moving on to some that are more optional.
+
+
+
+
+
+Spelling, Grammar, and Style
+
+
+Checking even the simplest document for grammar, spelling, and style requires knowledge, restraint, and editorial judgment. If a first-grader writes “I am 6, I have a dog Spot,” does that pass your test? How about if your boss writes “Hopefully, each accountant will submit their summary on time” or a poet writes of “a quiver filled with eros”? In copyediting, the right answer is often a surprising “That depends.”
+
+Each publisher follows its own guidelines, and some contexts may permit divergence from formal English. To the surprise of many self-proclaimed experts, not even punctuation is set in stone. In a dictionary, a word may be spelled two equally correct ways. Rules that govern “style” (such as when to capitalize, hyphenate, spell out, or abbreviate) are quite variable and often negotiable. Grammar and usage rules tend to be more lasting and more universally followed than style rules, but even they evolve (when did you last hear someone use thee or thou or doth?), and even up-to-date formal grammar would be out of place in many contexts.
+
+The reason there are so many different style manuals and dictionaries is that different kinds of writing call for different rules. For instance, the conventional style for book, magazine, and movie titles is italics (Out of the Dust, Dirty Dancing, Barron’s), but newspapers traditionally eschew italics, so the Associated Press Stylebook puts book and movie titles in quotation marks (“Out of the Dust,” “Dirty Dancing”) and leaves magazine titles with merely caps (Barron’s). Scholarly journals that feature science articles with lots of statistics tend to adopt science-oriented stylebooks (such as Scientific Style and Format) that advocate using numerals to express numbers, as opposed to more humanities-oriented guides like The Chicago Manual of Style that advise spelling out numbers in the text.
+
+Here are a few examples of styles that vary depending on which guide you follow (at the time of this writing). Notice differences in capitalization, italics, quotation marks, numerals and abbreviations versus spelled-out words, and the presence or absence of hyphens, commas, and periods:
+
+Chicago Manual of Style
+
+
+
+Associated Press Stylebook
+
+
+
+
+
+eighty-five cents
+
+
+
+85 cents
+
+
+
+
+
+Senator Barbara Mikulski
+
+
+
+Sen. Barbara Mikulski
+
+
+
+
+
+(D-MD)
+
+
+
+(D-Md.)
+
+
+
+
+
+bread, milk, and cheese
+
+
+
+bread, milk and cheese
+
+
+
+
+
+cofounder
+
+
+
+co-founder
+
+
+
+
+
+BA, PhD
+
+
+
+B.A., Ph.D.
+
+
+
+
+
+Gone with the Wind (book)
+
+
+
+“Gone With the Wind” (book)
+
+
+
+
+
+Unlike style guidelines, grammar and usage rules tend to be fairly standard. Writers, however, are not always proficient. Here are a few examples of grammar and usage issues a copyeditor must keep an eye on:
+
+• agreement (subject-verb, pronoun-antecedent, etc.)
+
+• verb tenses, moods, and voices (ran or had run? was or were?)
+
+• pronoun cases (I or me? who or whom?)
+
+• articles (a or an?)
+
+• position of adverbs and adjectives
+
+• dangling modifiers (after working out, the pie was gone)
+
+• preposition and conjunction issues (like or as? or or nor? contrast to or contrast with?)
+
+• parallel sentence structure
+
+
+
+When you think of the many, many style manuals besides Chicago and AP, plus myriad dictionaries, you begin to see what a copyeditor faces when styling a manuscript. And you can easily understand how one source of trouble between writers and copyeditors is the mistaken belief that there is a single “correct” way to render a piece of writing.
+
+Given all the choices, editors must cope by aiming to attain appropriateness and consistency in spelling, grammar, and style within a given document. This kind of editing is sometimes called line editing, and it may overlap with the close textual editing that, in many houses, acquiring editors do before the manuscript passes to the copyediting stage. Professional copyeditors follow a designated style manual and dictionary, and they record any editing decisions that depart from those guidelines on a style sheet, which they might later share with the author or (even later) with a proofreader or typesetter. A single style sheet might also be developed for a series of related projects. A successful style sheet might evolve into a company style manual. (The now-famous thousand-page Chicago Manual of Style got its start in exactly that way at the University of Chicago Press.)
+
+Rigid consistency in following a style manual, however, is rarely a worthy goal, and an obsession with it can get in the way of thoughtful and economical editing. Good writing allows for reasonable variation—and sometimes requires it. Copyeditors must develop editorial judgment, and it takes time and practice to acquire knowledge of the various options, keep that knowledge up to date, and learn how to apply it with flexibility.
+
+
+
+
+
+Accuracy
+
+
+A sentence can be flawless in spelling, grammar, and style, and yet be untrue. Detailed fact-checking is not automatically a part of copyediting (something that should be clarified at the start of a project), but routine editing tasks such as confirming the spelling of names and places and historical events can overlap with fact-checking. Copyeditors are expected to flag suspicious statements for the author to check. They point out flaws in logic and outright contradictions. They inspect the data in tables for logic and readability; they might check the display and “grammar” of equations; they confirm simple calculations. They also flag potential libel and plagiarism if they spot it.
+
+Even copyeditors of fiction must check for accuracy, although in nonrealistic fiction this may primarily amount to keeping track of internal consistencies. A style sheet for a mystery novel or fantasy can become complex, as it must include a timeline of events down to the time of day, character traits (everything from eye color to political affiliation), and any number of arbitrary distinctions and invented places and histories.
+
+Editing for accuracy also involves a great deal of cross-checking within a manuscript: the table of contents against chapter heads and subheads, captions against illustrations, note citations against bibliography, abbreviations against a list, and any other elements that cross-reference another part of the document, such as figure numbers.
+
+In some fields, inaccuracy could become a matter of life and death. Medical and legal texts, for example, require special care and are usually handled by editors with special training and access to specialized reference works.
+
+
+
+
+
+Structure
+
+
+Checking the structure of a manuscript involves looking at its organization somewhat mechanically to ensure that headings and subheadings are correctly formatted (bold, italic, caps, etc.) or labeled (A, B, 1.2, 1.2.1, or whatever) and that all elements other than straight text are identified or coded (title, author, epigraph, bulleted list, etc.) well enough to make their relationship to each other clear for the designer, typesetter, and eventual reader. For materials that will be typeset, this used to mean putting labels in the margin with a blue pencil (A for an A head, CT for a chapter title, EXT for a block quote); these days, typesetting codes specified by the publisher or client are usually applied electronically. The editor either types them in or applies styles from a menu.
+
+
+
+
+
+Logic
+
+
+One of the tricks a copyeditor must learn is how to switch constantly from little-picture to big-picture issues. Many rookies read everything at least twice: once for structure and logic, and once for mechanical editing (spelling, punctuation, grammar, and expression).
+
+Bad logic shows up in non sequiturs, inconsistencies, exaggerations, misrepresentations, repetition, and other gaffes that result from fuzzy thinking. Editors look for these problems at the sentence level and at the argument level, and they address them either by querying the author or by rewriting, depending on their instructions and on how confident they are that they understand the author’s intentions and can convey them accurately in the right tone.
+
+
+
+
+
+Elegance
+
+
+Finally, copyeditors monitor the appropriateness and consistency of a writer’s voice. They point out or tweak unwarranted changes in tone or complexity. They keep an eye on prose rhythms, word choice, syntax, transitions, and everything that contributes to graceful writing. This is copyediting at a high level—a level that many projects don’t allow time and money for, but one that editors can aspire to and find joy in.
+
+
+
+
+
+WHAT COPYEDITING ISN’T
+
+
+Proofreading
+
+
+Proofreading is the reading of typeset copy (“proof “) that was already copyedited (usually by someone else) before it was typeset. The object of proofreading is to check that copy was set correctly, not to evaluate or edit the content—although proofreaders who spot what appear to be copyediting errors should flag them. In the old days, proofreading required two people: one to read the edited copy aloud and another to listen and check the proof. More typically today, a proofreader is given the edited copy for reference but is not expected to read the proofs closely against it. A “cold” or “blind” reading without benefit of the copy is not uncommon.
+
+The word proofreading may also refer more casually to any final, last-check reading of copy, even if it’s not being typeset. Copyeditors sometimes accept proofreading jobs on the side or proofread their own work or the work of others as part of a copyediting job. Among nonspecialists, proofreading and copyediting are often conflated or confused, which makes it important for both editors and hirers to state expectations clearly at the beginning of a project.
+
+
+
+
+
+Creative Writing
+
+
+Bad writers make bad copyeditors, but the inverse is not necessarily true. The opportunity to improve someone else’s prose is not an invitation to make it one’s own. Copyediting means stifling one’s own voice in favor of the writer’s and honoring the type and purpose of the document.
+
+
+
+
+
+Rewriting
+
+
+A copyeditor’s “improvements” should not be excessive. If a text truly needs rewriting, the copyeditor should go back to the author or assigning editor to either redefine the assignment or reassign it to a developmental editor.
+
+
+
+
+
+Doing Lunch
+
+
+There is no glamour in copyediting. There are times when a copyeditor’s contribution is so great that it would seem to merit coauthor status, but that is rare; anonymity is the norm, though the copyeditor might be mentioned in the author’s acknowledgments. Anyone considering a career in copyediting who has illusions of martinis with writers, expense accounts, and jetting to New York or Frankfurt is in the wrong chapter of this book. It’s important to examine your temperament and leanings when considering a copyediting career: if it strikes you as an exciting alternative to the monastery or tuna factory, you’re on the right track.
+
+
+
+
+
+BECOMING A COPYEDITOR
+
+
+Anyone can claim to be a copyeditor, and the field abounds with incompetents. But according to the Editorial Freelancers Association’s annual surveys, the main source of editing jobs for freelancers is word-of-mouth referrals from clients—which means it literally pays to be good. Many hirers require applicants to take an editing test. But few copyeditors have formal training—after all, you can’t get a degree in it. So how to learn? There are several traditional paths.
+
+If you are literate and lucky, on the strength of your aptitude you might land an entry-level job where you can learn copyediting by trial and error and by close supervision by a mentor. This was a common scenario before the availability of editing classes and certificates. Today such classes are everywhere, and if you find that you need to learn one or more of the major styles (Chicago, MLA, AP, etc.) in order to get work, a class might be your best bet.
+
+If that’s not a possibility, there are plenty of online resources at hand: distance-learning courses, electronic emailing lists and forums, chat rooms, blogs, and social media offer information, advice, and community. The websites of the Editorial Freelancers Association and the American Copy Editors Society are good places to start.
+
+There’s also plenty you can do on your own. While you’re wading into the world of copyediting, start reading the manual of the style you want to learn first. If you want to edit books, read The Chicago Manual of Style. If you want to work for a newspaper or magazine, read the The Associated Press Stylebook. Read The Bluebook to learn legal editing, the AMA Manual of Style for medical editing, or the Council of Science Editors’ Scientific Style and Format for work in the sciences. Browsing a style manual will tell you almost instantly whether you really want to be a copyeditor, so pay attention to your gut reaction. If your eyes glaze over, it might not be for you.
+
+But if your heart whispers I love this stuff and you decide to pursue work as a copyeditor, here are some ways to proceed.
+
+
+
+
+
+Learning and Practicing
+
+
+Proofreading is a good way to immerse yourself in a given style without having to have a thorough knowledge of it. Proofreaders are usually told what manual or style sheet was followed during editing. If you are proofreading against copy that shows the editing marks, you can learn a great deal by studying the editor’s corrections and suggestions and the author’s responses. If you can afford it, do a few projects for free and consider it an investment in your training and future. Almost any organization that depends on volunteers might welcome an offer to proofread its publicity, grant proposals, or reports. If you do a good job, ask your contact to recommend you for paid jobs.
+
+Meanwhile, study a style manual, take a class, and test yourself with online quizzes—all to prepare yourself to apply for a copyediting job. Volunteer copyediting offers the same opportunities as volunteer proofreading, so consider doing that. Copyedit someone’s dissertation or novel or family memoir. Apply for internships, paid and unpaid, where you will benefit from on-the-job mentoring. Accumulate feedback and references.
+
+
+
+
+
+Taking the Typographic Oath
+
+
+The first rule for editors, sometimes called the Typographic Oath, is Do no harm. Editors do harm in two basic ways: they edit where it isn’t needed, and they fail to edit where it is needed. New editors err overwhelmingly in the first way. They wade in, determined to slash away, confident they know what the author does not, and they introduce all manner of errors and blemishes on copy that was just fine to begin with. Two ways to avoid doing harm:
+
+• Never change someone’s copy unless you can cite to yourself the justification from a style manual, dictionary, or other up-to-date authoritative source. (Grammar you learned in high school doesn’t count.)
+
+• Never challenge a writer’s spelling or expression without looking it up first or knowing that you have looked it up before.
+
+
+
+Over my years at the University of Chicago Press, I have supervised many of the brightest possible young editors, and not one of them could resist breaking those two rules repeatedly, and to some humiliation, in the first year of their apprenticeship, if not longer. New editors, even impressively educated ones, haven’t necessarily been exposed to the jargon, antiquated expressions, and allusions that veteran readers are familiar with. I’m not ashamed to admit that I have many deep pockets of ignorance, but my trust that most authors know what they’re talking about (added to the ease of typing an unfamiliar phrase into Google) continues to save me from embarrassing myself and wasting everyone’s time with stupid queries.
+
+
+
+
+
+Building a Career
+
+
+Given the potluck nature of getting your first copyediting job, added to the way word-of-mouth referrals tend to lead to work of the same type, there’s a danger of becoming specialized without intending to, stuck in a field you wouldn’t have chosen for yourself. With that in mind, aim to find proofreading or copyediting work that reflects your own interests, passions, or skills. If you start by volunteering or applying for unpaid internships, you can more easily choose the general direction you wish to go.
+
+Specializing can benefit you in several ways. You will acquire expertise faster than if you were spreading your learning out over many different kinds of editing; you will make connections that lead to more work of the same kind; and you will build a résumé faster.
+
+
+
+
+
+Staying Current
+
+
+Once you’re up and running as a copyeditor, remember that language trends and styles change. The tools of editing change even faster. To best serve readers and give value to clients, continue to educate yourself. Online articles and social media provide an excellent, economical way to do this. Follow language writers and authoritative editors on Twitter and at their blogs, and their posts will give you an idea of what’s currently being debated or invented. If you paste the URLs of your favorite sites into an aggregator like Feedly or Netvibes, anytime you have a few minutes you can go there for a list of the sites that have updated since you last checked. Scan the headlines and excerpts, and click through to any that look interesting. It’s like reading a newspaper that focuses entirely on your business.
+
+By following your interests and continuing to educate yourself, you can build a copyediting career—in book publishing or elsewhere—thoughtfully and with purpose.
+
+
+
+
+
+PART THREE
+
+
+
+Publication
+
+
+
+
+
+BRINGING THE BOOK TO THE READER
+
+
+
+
+
+11
+
+
+THE FLIP SIDE OF THE PIZZA

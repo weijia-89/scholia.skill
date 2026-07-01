@@ -1,0 +1,1485 @@
+06_locker_2012_prof_writing_w231_ch02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch02_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch02.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch02.txt).
+========================================================================
+
+Adapting Your Message to Your Audience                                       29
+
+
+  adopted. Her boss, who must approve the plan before it is submitted to the client, is                   Reading Levels
+  the gatekeeper. Her office colleagues who read her plan are her auxiliary audience.                     One of the most rel-
+      Joe works in the information technology department of a large financial institu-                   evant     demographic
+  tion. He must write a memo explaining a major software change. His boss is the                          measures for writers
+  gatekeeper; the software users in various departments are the primary audience.            is the literacy level of your audi-
+  The secondary audience includes the tech people who will be helping the primary            ence.    Unfortunately,    even   in
+  audience install and adjust to the new software. The auxiliary audience includes           advanced economies you have
+  department program assistants who forward the memo to appropriate people in                to ask how well your audience
+  each department. A watchdog audience is the board of directors.                            can read and put information to
+                                                                                             use. In the United States, the
+
+WAYS TO ANALYZE YOUR AUDIENCE                                                                answer may be “not very well.”
+                                                                                                The National Assessment of
+The most important tools in audience analysis are common sense and empa-                     Adult Literacy (NAAL), conducted
+thy. Empathy is the ability to put yourself in someone else’s shoes, to feel with            by the US Department of Educa-
+that person. Use what you know about people and about organizations to pre-                  tion, found that 14% of adults
+                                                                                             had difficulty reading well enough
+dict likely responses.
+                                                                                             to follow simple instructions (such
+                                                                                             as when to take medication), 12%
+Analyzing Individuals                                                                        struggled to use simple forms
+                                                                                              (deciding where to sign their
+When you write or speak to people in your own organization and in other
+                                                                                              name on a form), and 22% had
+organizations you work closely with, you may be able to analyze your audi-                   trouble working with numbers
+ence as individuals. You may already know them, or can probably get addi-                     (simple addition tasks). NAAL
+tional information easily. You may learn that one manager may dislike phone                   also found that 5% of adults were
+calls, so you will know to write your request in an e-mail. Another manager                   nonliterate—their language skills
+may have a reputation for denying requests made on a Friday, so you will                      weren’t strong enough to partici-
+know to get yours in earlier.                                                                 pate in the assessment.
+   A useful schema for analyzing people is the Myers-Briggs Type Indicator.®                   Overall,   that    translates    into
+This instrument uses four pairs of dichotomies to identify ways that people                   30 million adults in the United
+differ.' One of these dichotomies is well known: Extroversion-Introversion,                   States with “below basic” read-
+
+measuring how individuals prefer to focus their attention and get energy.
+                                                                                              ing and comprehension levels,
+                                                                                              and another 63 million with only
+Extroverted types are energized by interacting with other people. Introverted                 “basic” literacy levels. For business
+types get their energy from within.                                                           writers, this poses a challenge.
+    The other three dichotomies in Myers-Briggs® typology are Sensing-                        When composing a message for
+Intuition, Thinking-Feeling, and Judging-Perceiving. The Sensing-Intuition                    a broad audience of employees or
+dichotomy measures the way an individual prefers to take in information.                      customers, you may have to use
+Sensing types gather information through their senses, preferring what is real                short sentences, simple words,
+and tangible. Intuitive types prefer to gather information by looking at the big              and clarifying graphics. What
+picture, focusing on the relationships and connections between facts.                         other techniques might you use to
+   The Thinking-Feeling dichotomy measures the way an individual makes                        ensure that audiences with lower
+
+decisions. Thinking types prefer to use thinking in decision making to con-                   literacy levels can understand and
+                                                                                              use your message?
+sider the logical consequences of a choice or action. Feeling types make deci-
+sions based on the impact to people, considering what is important to them                    Adapted from Mark Kutner, Elizabeth
+and to others involved.                                                                      _ Greenberg, and Justin Baer, “National
+
+   The Judging-Perceiving dichotomy measures how individuals orient them-
+                                                                                               Assessment of Adult Literacy (NAAL):
+                                                                                               A First Look at the Literacy of Amer-
+selves to the external world. Judging types like to live in a planned, orderly                 ica's Adults in the 21st Century,”
+way, seeking closure. Perceiving types prefer to live ina flexible, spontaneous                American Institutes for Research,
+                                                                                               National Center for Education Sta-
+way, enjoying possibilities.                                                                  tistics, U.S. Department of Educa-
+   The descriptors on each of the scales’ dichotomies represent a preference,                 tion, 2006, http://nces.ed.gov/NAAL/
+just as we have a preference for using either our right or our left hand to write.            PDF/2006470.PDF.
+
+If necessary, we can use the opposite style, but we have less practice in it and
+use it less easily.
+   You can find your own personality type by taking the Myers-Briggs Type
+Indicator® instrument at your college’s counseling center or student services
+office. Some businesses administer the Myers-Briggs Type Indicator® instru-
+ment to all employees to assist with team building and/or personal growth
+and development.
+PROFESSIONAL WRITING
+
+
+
+
+30                                       Part1    The Building Blocks of Effective Messages
+
+
+Figure 2.1             Using Personalities in Communication
+
+     if your
+     audience is      Use this strategy                                              Because
+
+ Extraverting         Try out ideas orally.                                          Extraverts like to develop ideas by talking; they are
+                                                                                        energized by people.
+     Introverting     Communicate in writing so the audience can                     Introverts like to think before they communicate.
+                        think about your message before responding.                     Written messages give them their thinking time.
+
+     Sensing           Present all of the needed facts, and get them                  Sensing people are good at facts, and expect others
+                         right. Present your reasoning step by step.                    to be, also. They trust their own experience more
+                         Stress practicalities.                                         than someone else’s account.
+
+     Intuiting         Focus on the big picture and underlying patterns _ Intuitive people like new possibilities and innovation;
+                         first. Save details for later. Use metaphors and     they enjoy problem solving and creative endeavors.
+                         analogies in explanations.     Stress  innovation.   They    can be impatient with details, routine, and
+                                                                               repetition.
+
+     Thinking          Use logic and principles of consistency and          Thinking people make decisions based on logic and
+                         fairness rather  than  emotion    or personal         abstract principles. They are often uncomfortable
+                         circumstances.                                        with emotion or personal revelations.
+
+     Feeling           Stress positives. Show how your ideas value the —_Feeling people care about other people and their
+                          people needs of the organization. Use tactful        feelings. They are empathetic and desire harmony.
+                          language.
+     Judging           Make your communications very organized.                       Judging people are eager to make decisions, so they
+                                                                                        may not seek out additional information. They        2
+                         Provide all needed information. Follow
+                         company procedures. Schedule work in                           prefer a structured, orderly work life.
+                         advance; provide time frames for various tasks.
+     Perceiving        Provide alternatives. Ask for action or a decision           _ Perceiving people like to gather lots of information
+                          by a specific date.                                           before making decisions, and they like to keep all
+                                                                                         options open as long as possible.
+ a
+ Source: People Types and Tiger Stripes, 4e 2009 Gordon Lawrence. Used with permission. CAPT, Inc.
+
+
+                                             As Figure 2.1 suggests, you'll be most persuasive if you play to your audi-
+                                          ence’s strengths. Indeed, many of the general principles of business communi-
+                                          cation appeal to the types most common among managers. Putting the main
+                                          point up front satisfies the needs of judging types, and some 75% of US man-
+                                          agers are judging. Giving logical reasons satisfies the needs of the nearly 80%
+                                          of U.S. managers who are thinking types.”
+
+                                           Analyzing Members of Groups
+                                           In many organizational situations, you'll analyze your audience not as indi-
+                                           viduals but as members of a group: “taxpayers who must be notified that
+                                           they owe more income tax,” “customers who use our accounting services,”
+                                           or “employees with small children.” Focus on what group members have
+                                           in common. Although generalizations won’t be true for all members of the
+                                           group, generalization is necessary when you must appeal to a large group of
+                                           people with one message. In some cases, no research is necessary: It’s easy to
+                                           guess the attitudes of people who must be told they owe more taxes. In other
+                                           cases, databases may yield useful information. In still other cases, you may
+                                           want to do original research.
+                                               Databases enable you to map demographic and psychographic profiles of
+                                           customers or employees. Demographic characteristics are measurable fea-
+                                           tures that can be counted objectively: age, sex, race, religion, education level,
+                                           income, and so on.
+                                               Sometimes demographic information is irrelevant; sometimes it’s impor-
+                                            tant. Does education matter? Well, the fact that the reader has a degree from
+                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                       Chapter 2   Adapting Your Message to Your Audience                                      31
+
+
+                                                                                                        One Huge Audience
+                                                                                                         Baby boomers num-
+                                                                                                         ber 76 million and
+                                                                                                         account for about half
+                                                                                            of total U.S. consumer spending.
+                                                                                            They are expected to spend an
+                                                                                            additional $50 billion over the next
+                                                                                            decade. So businesses are subtly
+                                                                                            beginning to accommodate the
+                                                                                            needs of this major audience.
+                                                                                              Subtle is a key word: boom-
+                                                                                            ers do not like to be reminded
+                                                                                            that they are aging. For instance,
+                                                                                            many boomers dislike having
+                                                                                            people talk slowly to them, so
+                                                                                            ADT Security Services trains new
+                                                                                            operators to talk quickly and get
+                                                                                            to the point. CVS stores have
+                                                                                            installed carpeting to reduce slip-
+                                                                                            ping. Arm & Hammer sharpened
+Group membership sometimes gives clues about your audience.                                 the color contrast on its cat litter
+                                                                                            packaging and increased font
+                                                                                            size 20%.
+Eastern State rather than from Harvard may not matter, but how much the                        Euphemisms abound. ADT's
+reader knows about accounting may. Does family structure matter? Some-                       medical-alert Systems are now
+times. Some hotels and resorts offer family packages that include baby-sitting,             “companion services”; bathroom-
+multiple bedrooms, and children’s activities.                                               fixture manufacturer Kohler has
+   Age certainly matters. Mutual funds are aiming for young investors by low-                “belay” bars instead of grab bars
+ering the minimum investment to less than the cost of an iPod, and simplify-                for showers; and Kimberly-Clark’s
+                                                                                             Depends are sometimes labeled
+ing choices.?                                                                                as underwear. Small packages of
+   One aspect of age that gets much press is the differences between genera-                 Depends look like underwear and
+tions in the office. Many older people believe younger workers have a sense of               hang on hooks rather than being
+entitlement, that they expect great opportunities and perks without working                  stacked on shelves like diapers.
+for them. On the other hand, many younger workers see their older colleagues
+as rigid and hostile. Figure 2.2 shows some of the frequently mentioned age                  Adapted from Ellen Byron, “How to
+                                                                                             Market to an Aging Boomer: Flattery,
+differences. While awareness of generational differences may help in some                    Suberfuge, and Euphemism,” Wall
+communication situations, such lists are also a good place to attach mental                  Street Journal, February 5, 2011, A1.
+warnings against stereotypes. Plenty of baby boomers also like frequent posi-
+tive feedback, and almost everyone likes a chance to make a difference.
+   For most companies, income is a major demographic characteristic. In 2011,
+Walmart quietly returned to its “everyday low prices” after experimenting
+with low-priced sale products balanced by slightly higher prices elsewhere.
+The new pricing had not appealed to Walmart’s financially strapped custom-
+ers. The chain also returned shotguns and rifles to the shelves of many of its
+stores in an attempt to attract more male customers.”
+   Location is yet another major demographic characteristic. You can prob-
+ably think of many differences between regional audiences, or urban/rural
+audiences, in the United States. See Chapter 7 for more information on cross-
+cultural audiences.
+   Psychographic characteristics are qualitative rather than quantitative: val-
+ues, beliefs, goals, and lifestyles. Knowing what your audience finds impor-
+tant allows you to choose information and benefits that the audience will
+find persuasive. The Choice and Gaylord hotel groups use semantic analysis
+software on their customer satisfaction surveys. Results can be connected to
+specific hotels, departments, shifts, employees, and rooms, allowing manag-
+ers to track trends and respond to problems. Digital marketing companies are
+combining consumers’ web surfing records with personal off-line data from
+sources such as the Census Bureau, consumer research firms such as Nielsen,
+PROFESSIONAL WRITING
+
+
+
+
+32                                           Part1   The Building Blocks of Effective Messages
+
+
+              Chinese Internet               Figure 2.2              Some Generational Differences in the Office
+              Companies
+                                                                             Baby Boomers                           Generation X and Millenials
+            Chinese        Internet
+            companies are best-               Birth Dates                     Between 1946 and 1964                 1964 and on
+            ing their American                                                Long hours in office                  Productivity counts, not hours
+                                              Work ethic
+counterparts for Chinese users,                                                                                        at office
+and part of the reason is that they
+                                              Values                          Hard work; consistency;               Work-life balance; flexibility;
+analyze their audience and give
+                                                                                hierarchy; clearly defined             autonomy, informality; variety of
+them what they want.
+                                                                                roles; serious about                   challenges; the workplace can
+     Baidu’s Internet search domi-                                                                                     be fun
+                                                                                work
+     nates Google's. One reason is
+     that early on, Baidu’s search             Preferred channels             Face-to-face, e-mail                  Texting, social networks
+     bar was longer and wider                  Motivators                     Duty to company                       Why a task is important; what's in
+     than Google’s, an important                                                                                      it for them
+     difference because Chinese
+                                               Communication style          |Through channels and                    Freely offer opinions, both laterally
+     characters are more complex
+                                                                                 hierarchy; accept annual               and upward; want great
+     than English letters, and
+                                                                                 evaluation                             amounts of attention and praise;
+     the larger bar makes them
+                                                                                                                        want faster feedback
+     clearer.
+     Tencent Holdings popularized              Decorum                        Follow basic business                  May need to be reminded about
+     instant messaging in China by                                               decorum                             basic business decorum
+     pairing it with blogging and            nn                                                                           neat aE InnInSEIIINESSnSES SEER
+                                                                                                                                                      Piper Fogg,
+     online gaming, both highly              Sources: Ron Alsop, “The ‘Trophy Kids’ Go to Work,” Wall Street Journal, October 21, 2008, D1, D4; and
+     popular in China. Now it has            “When Generations Collide,” Chronicle of Higher Education, July 18, 2008, B18.
+     a bigger market value than
+     Yahoo.                                  credit card and shopping histories, and real estate and motor vehicle records.
+     Alibaba e-commerce site Tao-            The combined data allow marketers to reach narrowly defined audiences,
+     bao added instant messaging             especially convenient for cable TV ads.°
+     to allow buyers and sellers
+     to haggle over prices, just as
+     business is done off-line in             Analyzing the Organizational Culture
+     China. eBay couldn’t com-                and the Discourse Community
+     pete and closed its website in
+     China.                                   Be sensitive to the culture in which your audiences work and the discourse
+                                              community of which they are a part. Organizational culture is a set of values,
+ Adapted from Loretta Chao, “Some-            attitudes, and philosophies. An organization’s culture is revealed verbally in
+                                              the organization’s myths, stories, and heroes, as well as in documents such as
+ thing Borrowed . . . ,” Wall Street Jour-
+ nal, November 16, 2009, R4.
+                                              employee manuals. It is revealed nonverbally through means such as dress
+                                              codes, behavior standards, or the allocation of space, money, and power. A
+                                              discourse community is a group of people who share assumptions about
+                                              what channels, formats, and styles to use for communication, what topics to
+                                              discuss and how to discuss them, and what constitutes evidence.
+                                                 In an organization that values equality and individualism, you can write
+                                              directly to the CEO and address him or her as a colleague. In other companies,
+                                              you'd be expected to follow a chain of command. Some organizations prize
+                                              short messages; some expect long, thorough documents. Messages that are
+                                              consistent with the organization’s culture have a greater chance of succeeding.
+                                                 You can begin to analyze an organization’s culture by asking the following
+                                              questions:
+
+                                                =    Is the organization tall or flat? Are there lots of levels between the CEO
+                                                     and the lowest worker, or only a few?
+                                                =    How do people get ahead? Are the organization’s rewards based on
+                                                     seniority, education, being well-liked, saving money, or serving cus-
+                                                     tomers? Are rewards available only to a few top people, or is everyone
+                                                     expected to succeed?
+                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                          Chapter 2   Adapting Your Message to Your Audience                                   33
+
+                                                                                                          Write Your Way
+                                                                                                          into Your New Job
+
+                                                                                                          You can learn a bit
+                                                                                                           about your organiza-
+                                                                                               tion's discourse community by
+                                                                                               listening to people and read-
+                                                                                               ing the documents that other
+                                                                                               people write. But the best way
+                                                                                               to learn is to write. The feed-
+                                                                                               back you get from your supervi-
+                                                                                               sor will show you how to adapt
+                                                                                               your writing for the particular
+                                                                                               organization. To make the feed-
+                                                                                               back most useful, categorize the
+                                                                                               comments and generalize. Are
+                                                                                               you being asked to provide spe-
+                                                                                               cific supporting details? To write
+                                                                                               so that people can understand
+                                                                                               what you say without having to
+                                                                                               reread? To use a more or less
+                                                                                        Sia    formal style? To include lots of
+                                                                                 e             charts or none at all?
+Some companies are beginning to accept visible body art and long hair in traditional             Learning to adapt your con-
+workplace cultures.                                                                            tent, structure,   and style to
+                                                                                               the organization will make you
+                                                                                               a more effective writer and a
+                                                                                               more effective worker. And that
+
+ =    Does the organization value diversity or homogeneity? Does it value                       means that more often you'll be
+      independence     and creativity or being a team player and following                      able to get what you want in the
+                                                                                                organization.
+      orders?
+ =    What stories do people tell? Who are the organization’s heroes and
+      villains?
+ =    How important are friendship and sociability? To what extent do work-
+      ers agree on goals, and how intently do they pursue them?
+ =    How formal are behavior, language, and dress?
+ =    What does the work space look like? Do employees work in offices,
+      cubicles, or large rooms?
+ =    What are the organization’s goals? Making money? Serving cus-
+      tomers and clients? Advancing knowledge? Contributing to the
+      community?
+
+   To analyze an organization’s          discourse community,          ask the following
+questions:
+
+  =   What media, formats, and styles are preferred for communication?
+  =   What do people talk about? What topics are not discussed?
+  =   What kind of and how much evidence is needed to be convincing?
+
+
+CHOOSING CHANNELS TO REACH YOUR
+AUDIENCE
+A communication channel is the means by which you convey your message.
+Communication channels vary in speed, accuracy of transmission, cost, num-
+ber of messages carried, number of people reached, efficiency, and ability to
+PROFESSIONAL WRITING
+
+
+
+
+34                                                Part1    The Building Blocks of Effective Messages
+
+
+                      A Channel Pro               promote goodwill. Depending on the audience, your purposes, and the situa-
+                                                  tion, one channel may be better than another.
+                      Virgin   Atlantic    Air-
+                   p) lines    (VAA)      uses
+                                                     A written message makes it easier to
+               ~      multiple channels to
+              support its branding                        Present extensive or complex data.
+ as a fun, innovative, honest, car-                       Present many specific details.
+ ing, and value-offering airline.
+                                                          Minimize undesirable emotions.
+       The most-read portion of
+       its Facebook page contains
+                                                          Track details and agreements.
+       travel tips from crew mem-
+       bers, communication that                      Oral messages make it easier to
+       comes across as honest and
+       caring.             &                              Use emotion to help persuade the audience.
+        Its website contains a “rapid                     Focus the audience’s attention on specific points.
+        response” link to Twitter and
+                                                          Resolve conflicts and build consensus.
+        Facebook for up-to-date
+        communications during                             Modify plans.
+        crises.                                           Get immediate action or response.
+        Its Vtravelled site allows cus-
+        tomers to exchange travel                    Choosing the right channel can be tricky sometimes. Even in the office, you
+        information and advice.
+                                                  will have to decide if your message will be more effective as an e-mail, text
+        Its Facebook Flight Status                message, phone call, visit, or sticky note posted on a colleague’s computer. In
+        app was a first for any airline,
+                                                  nonstandard situations, choosing a channel can be challenging. If you are the
+                                                  head of a small, nonprofit literacy agency which helps adults learn to read,
+        as was its iPhone app, Flight
+
+                                                  how do you reach your clients? You cannot afford TV ads, and they cannot
+        Tracker, which includes real-
+        time aircraft positions.
+                                                  read print channels such as flyers. If you are asafety officer for a manufacturer,
+        In response to suggestions
+        from its online community,
+                                                  how do you send out product recall notifications? How many people file the
+        it launched an airport taxi-
+        sharing service.
+       VAA's head of e-business says,
+     “Twitter is no more than a sound                                        Geneon)
+                                                                                CO CROP Cams
+     bite. Facebook can be an article.
+     The website is for in-depth detail.                                           A sweet idea to grow your bottom line.
+     They all need to signpost each
+     other.”
+
+     Adapted from Patrick Barwise and
+     Sean Meehan, “The One Thing You
+     Must Get Right When Building a
+     Brand,” Harvard Business Review 88,
+     no. 12 (December 2010): 83-84.
+
+
+
+
+                                                                            @                  FREE LOGO SETUP
+                                                                                  ~                ASIOOV   !
+
+
+
+
+                                                   M&M candies offer a sweet communication channel to organizations.
+                                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                       Chapter 2        Adapting Your Message to Your Audience                                                 35
+
+
+contact-information cards when they purchase an item? If you are the ben-                                                            Trolling for Plaintiffs
+efits manager in a large manufacturing plant, how will you get information                                                          Law firms are spend-
+about your new benefits plan out to the thousand people on the floor? They                                                          ing millions to develop
+don’t use computers at work and may not have computer access at home.                                                               their online presence—
+    Businesses are becoming ever more savvy about using the array of chan-                                               and to get new clients. And this
+nels. Ad money has been moving out of print and TV channels and into online                                              online spending is replacing more
+                                                                                                                         traditional spending for yellow
+advertising, which totaled $25 billion in 2010. Of those billions, $2 billion were
+                                                                                                                         pages, TV, and radio ads.
+spent on social media sites, Facebook in particular.®
+                                                                                                                           Many of these online sites look
+   Businesses use Twitter, YouTube, and Flickr to highlight new products and
+                                                                                                                         like community forums or news
+services. Many companies have interactive websites and forums where cus-                                                 boards. They are publicized on
+tomers can get product information and chat about products; Amazon is the                                                forums such as Facebook and
+prime example. Diaper companies are giving perks to “mommy” bloggers to                                                  Twitter. Many firms, knowing that
+talk about their products; car companies are using strong social media influ-                                            people generally trust material
+encers     to post their opinions online.” Nonprofits advertise                                 events, connect          they find in electronic searches
+with volunteers, and schedule volunteer service on their Facebook pages. And                                             far more than they trust ads, are
+all that social network chatter can now be mined by software which performs                                              also adding content so that their
+semantic analyses providing feedback to advertisers about both products and                                              sites appear early in a Google
+                                                                                                                         search.
+audiences.
+                                                                                                                            The marketing officer for one
+    Even traditional paper channels are moving online. Publishers are making                                             such law firm told the Wall Street
+their travel books into e-books and cell phone apps. Newspapers are expand-                                              Journal that people reaching the
+ing from print to blogs, podcasts, and chatrooms. In fact, Warren Buffet himself                                         firm through social media were
+warned the Washington Post, on whose board he served, that the paper-only                                                twice as likely to become clients
+model would no longer work.’ In 2010, 41% of Americans got their national                                                as those who made contact
+and international news from the Internet, surpassing newspapers (40%) for                                                through television or print.
+the first time, and online advertising surpassed print newspaper advertising                                             Adapted from Nathan Koppel, “Using
+for the first time.”                                                                                                     Social Networking as Legal Tool: Law
+   The big three TV network newscasts are facing similar problems. Accord-                                               Firms Say They Are Turning to the
+ing to the Pew Research Center, network evening news audiences have been                                                 Web to Develop Evidence for Suits
+                                                                                                                         and Market Themselves to Potential
+on a downward               trend for three decades. Staffers have been cut, as have                                     Clients,” Wall Street Journal, June 15,
+bureaus and offices. Audience median age is now over 50.'° In response to                                                2010, B4.
+declining viewership, networks are posting news in online stories and vid-
+eos, as well as blogs.
+
+
+
+
+                                 Heartlanders
+
+
+
+
+                                                        1      atte
+
+                                                      Young Digerati
+
+
+
+
+                                Greenbelt Sports      Blue-Chip Blues       Close-In Couples   |
+
+
+ Market research firm Claritas, Inc., combines demographic and psychographic data to identify 66 lifestyle segments,
+ including “Young Digerati” (tech-savvy young adults), “Close-In Couples" (older, African-American couples), and
+                                                                                                                    of
+ “Blue-Chip Blues” (young families with well-paying blue-collar jobs). PRIZM is a trademark or registered trademark
+ The Nielsen Company (US), LLC.
+PROFESSIONAL WRITING
+
+
+
+
+36                                       Part1    The Building Blocks of Effective Messages
+
+
+              Is It the Black Abyss         Creative uses of channels are appearing everywhere (for more on electronic
+              for the White              channels, see Chapters 4 and 9):
+              Pages?
+
+                                                 Intel is using electronic billboards in New York’s Penn Station to pro-
+     Wer    = White     pages    may
+       4      become a relic as
+                                          =
+ more and more telecommunica-
+                                                 mote its Smart TV technology. People with the appropriate mobile app
+ tion companies       cease   to print
+                                                 will be personally greeted by the signs.’
+ paper copies.                            =      Popular bands such as Phish have developed their own apps, with fea-
+   As land lines steadily decrease,              tures such as remixing tools and games, for their fates
+ more and more people rely solely
+                                           =     Toy maker Mattel is using Facebook, Twitter, and a series of eight webi-
+ on their cell phones, whose num-
+                                                 sodes to celebrate the 50th birthday of Barbie’s boyfriend Ken. The webi-
+                                                 sodes allow Mattel to extend the audience to teenagers and adults who
+ bers usually are not in the white
+
+                                                 have an emotional tie with the toy and may be collectors.'*
+ pages. Furthermore, those cell
+ phones store frequently used
+ numbers. For numbers not in               =     Dunkin’ Donuts quickie contest for people to submit pictures of them-
+ their cell phones, most consum-                 selves drinking iced coffee in the winter generated 140 submissions and
+ ers now check the Internet.                     3.9 million product plugs through posts and status updates.’
+   Telecommunication companies
+                                           =     Digital book store Wowio is selling ads on e-books readers download
+ tout the change as an environ-
+                                                 from its site.’°
+ mentally friendly one. Verizon
+ notes a savings of 17,000 tons of         =     Bill Cosby recorded a hip-hop album to help carry his message of edu-
+ paper annually by switching to In-              cation and self-respect to new audiences. To sell its cleaning products,
+ ternet listings in its 12-state area            Clorox put out an album, “The Blue Sky Project: A Clorox Charity Col-
+ of operation.                                   lection.” Companies such as Procter & Gamble and Allstate also offer
+                                                 full-length versions of tunes used in their ads. In regions such as the
+                                                 United Kingdom and Asia, original songs featured in ads often become
+ Adapted from Michael Felberbaum,
+ “It's Looking Dark for White Pages of
+ Phone Books,” Des Moines Register,              quite popular.'®
+ November 12, 2010, 1A.
+                                           =     Vienna, Austria, raised money for the main public library with a phone
+                                                 sex hotline. Pay by the minute and you got to hear a famous Austrian
+                                                 actress reading passages from the library’s collection of erotic fiction
+                                                 from the 18th through 20th centuries.'”
+
+                                             Creative channels abound. Ads are appearing on hotel shower curtains, the
+                                          bellies of pregnant women, airport luggage conveyor belts, grocery check-
+                                          out conveyors, sidewalks, and toilet stall doors. Ads inside subway tunnels
+                                          appear to be in motion as trains ride by. One company prints ads on cardboard
+                                          shirt hangers which are distributed free to cleaners. The hangers are touted as
+                                          a good way to reach male consumers.'®
+                                               As consumers become ever more savvy about ways to ignore advertising,
+                                          one channel that has received publicity is the vivistitial: ads that take advan-
+                                          tage of more receptive times in consumers’ lives. One much talked about
+                                          example is the elevator ad. Captivate offers video programming, such as news
+                                          headlines and weather, in elevators. The programming is not intrusive: screens
+                                          are not huge and the video does not have sound. Recall of Captivate ads is two
+                                          to four times higher than that of TV ads.’
+
+
+                                          USING AUDIENCE ANALYSIS TO ADAPT
+                                          YOUR MESSAGE
+                                          Zeroing in on the right audience with the right message is frequently a for-
+                                          mula for success. If you know your audience well and if you use words
+                                          well, much of your audience analysis and adaptation will be unconscious.
+                                          If you don’t know your audience or if the message is very important, take
+                                          the time to analyze your audience formally and to revise your message with
+                                          your analysis in mind. The questions in Figure 2.3 will help guide a careful
+                                          analysis.
+                                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter 2    Adapting Your Message to Your Audience                                         37
+
+
+                                                                                                                          A Zappos Channel
+Figure 2.3            Analyzing Your Audience
+                                                                                                                          [According    to Tony
+  These questions will help you analyze your audience:                                                              “wm   Hsieh, founder and
+     4. How will the audience initially react to the message?                                                             CEO      of    Zappos,
+     2. How much information does the audience need?                                                                    the popular Internet
+                                                                                                            footwear business], “There’s a lot
+     3. What obstacles must you overcome?
+                                                                                                            of buzz these days about ‘social
+     4. What positive aspects can you emphasize?                                                            media’ and ‘integration market-
+     5. What are the audience’s expectations about the appropriate language, content,                       ing.’ As unsexy and low-tech as
+        and organization of messages?                                                                       it may sound, our belief is that
+     6. How will the audience use the document?                                                             the telephone is one of the best
+                                                                                                            branding devices out there. You
+                                                                                                            have the customer's         undivided
+                                                                                                            attention for five to ten minutes,
+   As you answer these questions for a specific audience, think about the orga-                             and ifyou get the interaction right,
+nizational culture in which the person works. At every point, your audience’s                               what we've found is that the cus-
+reaction is affected not only by his or her personal feelings and preferences                               tomer remembers the experience
+but also by the political environment of the organization, the economy, and                                 for a very long time and tells his
+current events.                                                                                             or her friends about it.
+
+                                                                                                               “At Zappos, we don’t measure
+1. How Will the Audience Initially React to the Message?                                                     call times (our longest phone call
+
+a. Will the audience see this message as important? Audiences will                                          was almost six hours long}). . . .
+                                                                                                            We don’t have scripts because
+read and act on messages they see as important to their own careers; they may                               we trust our employees to use
+ignore messages that seem unimportant to them.                                                              their best judgment when dealing
+   When the audience may see your message as unimportant, you need to                                       with each and every customer. . . .
+                                                                                                            We're trying to build a lifelong re-
+ =     Usea subject line or first paragraph that shows your reader this message                             lationship with each customer one
+       is important and relevant.                                                                           phone call at a time.”
+
+ =     Make the action as easy as possible.                                                                  Quoted from Tony Hsieh, Delivering
+                                                                                                             Happiness: A Path to Profits, Passion,
+       Suggest a realistic deadline for action.                                                              and Purpose (New York: Business
+ =     Keep the message as short as possible.                                                                Plus, 2010), 143-45. With permission
+                                                                                                             from Central Grand Publishing.
+
+
+
+ STONE SOUP                                                                                                               BY JAN ELIOT
+
+
+
+
+ STONE SOUP © 2006 Jan Eliot. Reprinted with permission of UNIVERSAL UCLICK. Alll rights reserved.
+PROFESSIONAL WRITING
+
+
+
+
+38                                       Part1    The Building Blocks of Effective Messages
+
+
+             Customer Analysis           b. How will the fact that the message is from you affect the audience’s
+            According to Harvey
+                                         reaction? Theaudience’s experience with you and your organization shapes
+            Mackay, author of the        the way they respond to this new message. Someone who thinks well of you
+            business __ bestseller       and your organization will be prepared to receive your message favorably;
+Swim with the Sharks without             someone who thinks poorly of you and the organization will be quick to find
+Being Eaten Alive, the Golden            fault with what you say and the way you say it.
+Rule of sales is Know Your Cus-             When your audience has negative feelings about your organization, your
+ tomer.   Your customers     are not     position, or you personally, you need to
+ companies, but rather the indi-
+ viduals at companies who decide
+ whether or not to buy your goods         =      Make a special effort to avoid phrases that could seem condescending,
+ or services. To analyze these                   arrogant, rude, hostile, or uncaring.
+ buyers, he has developed a
+                                          =      Use positive emphasis (Chapter 3) to counteract the natural tendency to
+ 66-question customer profile, the
+ Mackay 66.
+                                                 sound defensive.
+   The profile includes questions         =      Develop logic and benefits fully.
+ about such topics as the individ-
+ ual’s education, spouse, children,
+ politics, religion, activities, hob-
+ bies, vacations, cars, personal-        2. How Much Information Does the Audience Need?
+ ity, personal goals, and business
+ goals. In addition to typical ques-     a. How much does the audience already know about this subject? It’s
+ tions you might expect, such as         easy to overestimate the knowledge an audience has. People outside your own
+ employment record, the profile          immediate unit may not really know what it is you do. Even people who once
+ also asks about                         worked in your unit may have forgotten specific details now that their daily
+ =   Status symbols in office.           work is in management. People outside your organization won’t know how
+ =   Sensitive items to be avoided.      your organization does things.
+ =   Subjects arousing strong                  When some of your information is new to the audience, you need to
+     feelings.
+ =   Favorite conversation topics.
+                                           ™ Make a special effort to be clear. Define terms, explain concepts, use
+   Mackay uses the information in
+                                             examples, avoid acronyms.
+ these profiles to meet the needs
+ of his customers. (He says he also        = Link new information to old information that the audience already
+ guards it with his life, because he         knows.
+ knows how sensitive it is.)               = Use paragraphs and headings to break up new information into related
+ Adapted from Harvey Mackay, “Know-
+                                             chunks so that the information is easier to digest.
+ ing Your Customer Is Key,” Des Moines     m Test a draft of your document with your reader or a subset of your
+ Register, November 29, 2010, 6E.            intended audience to see whether the audience can understand and use
+                                             what you've written.
+
+
+
+                                         b. Does the audience’s knowledge need to be updated or
+                                         corrected? Our personal experience guides our expectations and actions,
+                                         but sometimes needs to be corrected. If you’re trying to change someone’s
+                                         understanding of something, you need to
+
+
+                                           =     Acknowledge the audience’s initial understanding early in the
+                                                 message.
+                                           =     Use examples, statistics, or other evidence to show the need for the
+                                                 change, or to show that the audience’s experience is not universal.
+                                           =     Allow the audience to save face by suggesting that changed circum-
+                                                 stances call for new attitudes or action.
+                                                          Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                        Chapter 2   Adapting Your Message to Your Audience                                       39
+
+
+c. What aspects of the subject does the audience need to be aware of                                      Tiny Marketing
+to appreciate your points? When the audience must think of background                                      In its goal of attract-
+or old information to appreciate your points, you can                                                      ing 1 billion additional
+                                                                                                           consumers,       Procter
+
+ =       Preface information with “As you know” or “As you may remember”                                   & Gamble is adding
+
+         to avoid suggesting that you think the audience does not know what                  new marketing techniques to
+                                                                                             its arsenal. Since most of these
+         you're saying.                                                                      potential customers are poor
+ =       Put old or obvious information in a subordinate clause.                             women in developing countries
+                                                                                             who buy single-use packets of
+                                                                                             products such as shampoo,
+3. What Obstacles Must You Overcome?                                                         soap, and detergent, P&G is
+a. Is your audience opposed to what you have to say? People who                              packaging its products in small
+                                                                                             portions. The small packages
+have already made up their minds are highly resistant to change. When the                    also please the tiny mom-and-
+audience will oppose what you have to say, you need to                                       pop stores, many just kiosks or
+                                                                                             closet-sized stores, which serve
+ = Start your message with any areas of agreement or common ground that                      these customers. These stores
+   you share with your audience.                                                              aggregated are P&G's largest
+
+ m Make a special effort to be clear and unambiguous. Points that might be                    customer, larger even than Wal-
+                                                                                              Mart. To attract owners, P&G
+   clear to a neutral audience can be misinterpreted by someone opposed                       employs local agents who tidy
+   to the message.                                                                            and price P&G in-store products,
+ = Make a special effort to avoid statements that will anger the audience.                    distribute promotional items, and
+ = Limit your statement or request to the smallest possible area. If parts of                 stock shelves—sparing owners
+   your message could be delivered later, postpone them.                                      trips to distributors.
+                                                                                                 P&G is also developing spe-
+ = Show that your solution is the best solution currently available, even                     cial products just for these mar-
+   though it isn’t perfect.                                                                   kets. One example is feminine
+                                                                                              hygiene       products.      Because
+b. Will it be easy for the audience to do as you ask?                Everyone has a set      ‘many customers lack the money
+of ideas and habits and a mental self-image. If we’re asked to do something                   and privacy to change pads fre-
+that violates any of those, we first have to be persuaded to change our attitudes             quently, P&G developed a low-
+or habits or self-image—a change we’re reluctant to make.                                     priced, extra-absorbent           pad,
+   When your request is time-consuming, complicated, or physically or psy-                    which is now the leading prod-
+                                                                                               uct in Mexico.
+chologically difficult, you need to
+                                                                                                 What unique marketing prac-
+                                                                                              tices have you noticed in other
+ =     Make the action as easy as possible.                                                    countries?
+ =     Break down complex actions into a list, so the audience can check off                  Adapted from Ellen Byron, “P&G's
+       each step as it is completed. This list will also help ensure complete                 Global Target: Shelves of Tiny Stores:
+       responses.                                                                             It Woos Poor Women Buying Single
+
+     = Show that what you ask is consistent with some aspect of what the audi-
+                                                                                              Portions; Mexico’s ‘Hot Zones,’” Wall
+                                                                                              Street Journal, July 16, 2007, A1.
+       ence believes.
+     = Show how the audience (not just you or your organization) will benefit
+       when the action is completed.
+
+4. What Positive Aspects Can You Emphasize?
+ a. From the audience’s point of view, what are the benefits of your
+ message?    Benefits help persuade the audience that your ideas are good ones.
+ Make the most of the good points inherent in the message you want to convey.
+
+     m    Put good news first.
+     =    Use audience benefits that go beyond the basic good news.
+PROFESSIONAL WRITING
+
+
+
+
+40                                          Part1    The Building Blocks of Effective Messages
+
+
+             Customer Service               b. What experiences, interests, goals, and values do you share with
+ve           Channels                       the audience? A sense of solidarity with someone can be an even more
+             “If you think the privacy      powerful reason to agree than the content of the message itself. When
+   =         of your medical infor-         everyone in your audience shares the same experiences, interests, goals, and
+ mation has been compromised,               values, you can
+ you can file a complaint with the
+ Office for Civil Rights. A brochure
+ distributed by this office tells            =      Consider using a vivid anecdote to remind the audience of what you
+ people they can call and ‘ask for
+                                                    share. The details of the anecdote should be interesting or new; other-
+ a civil-rights or privacy-complaint                wise, you may seem to be lecturing the audience.
+ form.                                       =      Use asalutation and close that remind the audience of their membership
+     “But you can’t really ask for                  in this formal or informal group.
+ anything, because when you Call
+ the number, you can’t get a per-
+ son on the line.                           5. What Are the Audience’s Expectations about the
+   “An automated voice thanks               Appropriate Language, Content, and Organization
+ you for calling and then breaks
+ the news:
+                                            of Messages?
+   “We're sorry, a Staff person is          a. What style of writing does the audience prefer? Good writers adapt
+ not able to receive your call. This        their style to suit the reader’s preferences. A reader who sees contractions as
+ number is not able to receive              too informal needs a different style from one who sees traditional business
+ messages.’
+                                            writing as too stuffy. As you write,
+   “Callers are directed to a web-
+ site to file a complaint. Twice.
+ And if you don’t have a com-                 =     Use what you know about your reader to choose a more or less formal,
+ puter, . . . [t]he voice tells you . . .           more or less friendly style.
+ ‘most local libraries have com-              =     Use the reader’s first name in the salutation only if both of you are com-
+ puters available that residents
+                                                    fortable with a first-name basis.
+ can use to access the Internet at
+ no extra cost.’”*
+    Is this an ethical way to distrib-      b. Are there hot buttons or “red flag” words that may create an
+ ute information? What groups               immediate negative response?           You don’t have time to convince the
+ of people does this channel dis-           audience that a term is broader or more neutral than his or her understanding.
+ criminate against? Do you know             When you need agreement or approval, you should
+ of other organizations that com-
+ municate only through the web?
+                                              =     Avoid terms that carry emotional charges for many people: for example,
+ *Quoted from “Not Exactly a Model for              criminal, un-American, feminist, fundamentalist, liberal.
+ Customer Service,” Des Moines Reg-
+ ister, August 23, 2008, 14A.                 =     Use your previous experience with individuals to replace any terms that
+                                                    have particular negative meanings for them.
+
+                                            c. How much detail does the audience want? A message that does
+                                            not give the audience the amount of or kind of detail they want may fail.
+                                            Sometimes you can ask your audience how much detail they want. When you
+                                            write to people you do not know well, you can
+
+                                              =     Provide all the detail they need to understand and act on your message.
+                                              =     Group chunks of information under headings so that readers can
+                                                    go directly to the parts of the message they find most interesting and
+                                                    relevant.
+                                              =     Be sure that a shorter-than-usual document covers the essential points;
+                                                    be sure that a longer-than-usual document is free from wordiness and
+                                                    repetition.
+
+                                             d. Does the audience prefer a direct orindirectorganization?   Individual
+                                             personality or cultural background may lead someone to prefer a particular
+                                             kind of structure. You'll be more effective if you use the structure and
+                                             organization your audience prefers.
+                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                        Chapter2   Adapting Your Message to Your Audience                                      41
+
+
+                                                                                                      Audience Is Not a
+6. How Will the Audience Use the Document?                                                            Mystery for Her
+a. Under what physical conditions will the audience use the,                                  Every year,     mystery
+document?      Reading a document in a quiet office calls for no special care. But            writer  Mary     Higgins
+suppose the audience will be reading your message on the train commuting                      Clark sells 3.7 million
+home, or on a ladder as he or she attempts to follow instructions. Then the        copies of her books; in fact, she
+physical preparation of the document can make it easier or harder to use.          has sold over 100 million copies
+   When the reader will use your document outside an office,                       in the United States alone.
+                                                                                              Perhaps the biggest factor in
+                                                                                            her success is her careful audi-
+ =     Use lots of white space.                                                             ence analysis; she gives her audi-
+ =     Make the document small enough to hold in one hand.                                  ence what they want. In her case,
+ =     Number items so the reader can find his or her place after an interruption.          this means intelligent women in
+                                                                                            danger who unravel sinister plots
+                                                                                            and often help engineer their own
+b. Will the audience use the document as a general reference? As a                          escapes. Her heroines tend to be
+specific guide? Understanding how your audience will use the document                       self-made professionals.
+will enable you to choose the best pattern of organization and the best level of               Because her novels are always
+detail.                                                                                     “G-rated” (no cursing, no living
+      If the document will serve as a general reference,                                    together before marriage, no
+                                                                                             explicit depictions of violence),
+                                                                                            they are a favorite of mother—
+ = Use a specific subject line to aid in filing and retrieval. If the document               daughter book clubs and sell
+   is online, consider using several keywords to make it easy to find the                    heavily for Mother's Day, the third
+   document in a database search program.                                                    biggest book-selling holiday of
+                                                                                             the year (Father’s Day and Christ-
+ = Use headings within the document so that readers can skim it.                             mas are bigger).
+ = Give the office as well as the person to contact so that the reader can get
+   in touch with the appropriate person some time from now.                                  Adapted from Alexandra Alter, “The
+                                                                                             Case of the Best-Selling Author: How
+ = Spell out details that may be obvious now but might be forgotten in a year.               a Former Pan-Am Stewardess Has
+                                                                                             Stayed at the Top of the Publishing
+                                                                                             Game Since 1975,” Wall Street Jour-
+                                                                                             nal, March 25, 2011, D1.
+      If the document will be a detailed guide or contain instructions,
+
+
+  =     Check to be sure that all the steps are in chronological order.
+  =     Number steps so that readers can easily see which steps they’ve
+        completed.
+  =     Group steps into five to seven categories if there are many individual
+        steps.
+  =     Put any warnings at the beginning of the document; then repeat them
+        just before the specific step to which they apply.
+
+
+
+ AUDIENCE ANALYSIS WORKS
+ Audience analysis is a powerful tool. Amazon.com tracks users’ online his-
+ tories to make suggestions on items they might like. Nintendo believes that
+ much of its success is extending its concept of audience. An important part of
+ its audience is hard-core gamers, a very vocal group—they love to blog. But
+ if Nintendo listened just to them, they would be the only audience Nintendo
+ had. Instead, Nintendo extended its audience by creating the Wii, a new sys-
+ tem that the hard-core gamers had not imagined and one that is collecting
+ new users who never imagined owning a system at all.2° With the introduc-
+ tion of Wii Fit, Nintendo is expanding its audience to more women and even
+ senior citizens.
+    Best Buy uses its extensive customer feedback to tweak its private-label elec-
+ tronics. The company noticed, for instance, that many portable DVD players
+PROFESSIONAL WRITING
+
+
+
+
+42                                         Part1   The Building Blocks of Effective Messages
+
+
+             Audience Analysis
+             at the Front Line
+
+     i       Some      major busi-
+             nesses    are sending
+their executives out to the front
+lines for a day or more to increase
+awareness of both clients’ and
+employees’ needs. Such stints
+are bringing changes to the
+front lines. A Loews executive
+who served as a bellhop, pool
+attendant, and housekeeper at a
+Florida hotel sweated so much in
+his polyester uniform that he had
+both the style and material of the
+uniforms altered. Executives at
+DaVita, a firm that runs kidney                                                             YOU HAVE THE VISION TO IMPROVE YOUR COMMUNITY.
+                                                                                            NOW.HERE’S YOUR OPPORTUNITY TO BRING IT TO LIFE.
+dialysis centers, learn that patient
+needs must come first, even
+before company paperwork.
+   Other companies which send
+executives out to be low-level
+workers include Walt Disney,
+ Continental Airlines, Sysco, and
+ Amazon.com.
+   What do you think executives
+ learn on the front lines at these
+ companies? Can you think of
+                                           The U.S. Census Bureau prepared over 100 posters, similar to this one, to reach various
+ other companies that would ben-           segments of its audience.
+ efit from similar programs for their                                                 United States Census    2010,   http://2010.census.gov/partners/materials/
+                                           Source: “Posters,” U.S. Census   Bureau:
+ executives?                               posters-materials.php.
+
+ Adapted from Joann S. Lublin, “Top
+ Brass Try Life in the Trenches: To Pro-   were purchased for young children. So they developed a spill-resistant model
+ mote Understanding, Firms Require
+ Executives to Perform Entry-Level
+                                           with rubberized edges that became a top seller.”
+ Jobs,” Wall Street Journal, June 25,         Tesco PLC, Britain's largest retailer, signs up customers for its Clubcard.
+ 2007, B1, B3.                             The card gives customers discounts, and it gives Tesco audience data. When
+                                           Tesco added Asian herbs and ethnic foods in Indian and Pakistani neighbor-
+                                           hoods, the data showed the products were also popular with affluent white
+                                           customers, so Tesco expanded its roll-out. When customers buy diapers the
+                                           first time, they get coupons for usual baby products such as wipes and toys.
+                                           They also get coupons for beer, because the data show that new fathers buy
+                                           more beer.
+
+                                            AUDIENCE BENEFITS
+                                            Use your analysis of your audience to create effective audience benefits,
+                                            advantages that the audience gets by using your services, buying your prod-
+                                            ucts, following your policies, or adopting your ideas. In informative mes-
+                                            sages, benefits give reasons to comply with the information you announce and
+                                            suggest that the information is good. In persuasive messages, benefits give
+                                            reasons to act and help overcome audience resistance. Negative messages do
+                                            not use benefits.
+
+                                            Characteristics of Good Audience Benefits
+                                            Good benefits meet four criteria. Each of these criteria suggests a technique for
+                                            writing good benefits.
+                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                            Chapter 2   Adapting Your Message to Your Audience                                       43
+
+
+
+
+                                                                                                 “
+                                                                                                              Witness.org: Sharing
+1. Adapt benefits to the audience.              When you write to different audiences,
+                                                                                                              Evidence of Human
+you may need to stress different benefits. Suppose that you manufacture a                                     Rights Abuses
+product and want to persuade dealers to carry it. The features you may cite in ads
+directed toward customers—stylish colors, sleek lines, convenience, durability,                               “For the past 16 years
+
+good price—won’t convince dealers. Shelf space is at a premium, and no dealer                      Witness has provided video cam-
+                                                                                                   eras to carefully selected activists
+carries all the models of all the brands available for any given product. Why                      and community leaders in more
+should the dealer stock your product? To be persuasive, talk about the features                    than 100 countries. The group
+that are benefits from the dealer’s point of view: turnover, profit margin, the                    has amassed one of the largest
+national advertising campaign that will build customer awareness and interest,                     existing collections of human-
+the special store displays you offer that will draw attention to the product.                      rights-abuse footage and has
+                                                                                                   shown its videos to policy mak-
+2. Stress intrinsic as well as extrinsic motivators.                  Intrinsic motivators         ers and human-rights groups
+come automatically from using a product or doing something. Extrinsic                              around the world.”
+motivators are “added on.” Someone in power decides to give them; they do                             The graphic and disturbing
+not necessarily come from using the product or doing the action. Figure 2.4                         nature of these videos make
+gives examples of extrinsic and intrinsic motivators for three activities.                         them difficult to distribute to pub-
+   Intrinsic motivators or benefits are better than extrinsic motivators for two                    lic forums (such as YouTube),
+                                                                                                   where user guidelines prevent
+reasons:
+                                                                                                    anyone from sharing violent or
+                                                                                                    sexually explicit material. Instead,
+ =      There just aren’t enough extrinsic motivators for everything you want                       Witness created their own ver-
+        people to do. You can’t give a prize to every customer every time he or                     sion    of YouTube—http://hub.
+        she places an order or to every subordinate who does what he or she is                     witness.org/—where            anyone
+        supposed to do.                                                                             can submit video clips of human
+                                                                                                    rights abuses, and anyone can
+ m      Research shows that extrinsic motivators may actually make people less                      log in and view the evidence.
+        satisfied with the products they buy or the procedures they follow.                           Witness’ video evidence has
+                                                                                                    led to war crimes prosecutions
+   In a groundbreaking study of professional employees, Frederick Herz-                             and put pressure on govern-
+berg found that the things people said they liked about their jobs were all                         ments to change their policies.
+intrinsic motivators—pride in achievement, an enjoyment of the work itself,                           How does Witness’ approach
+responsibility. Extrinsic motivators—pay, company policy—were sometimes                             demonstrate a keen understand-
+mentioned as things people disliked, but they were never cited as things that                       ing of audience analysis? What
+motivated or satisfied them. People who made a lot of money still did not                           “audience benefits” does their
+mention salary as a good point about the job or the organization.”                                  website address? What ethical
+
+   Steak ‘n Shake restaurant chain wanted to find out what motivated its                            concerns might there be about
+
+employees to do their best at work. The company learned that what employ-
+                                                                                                    publishing graphic video evi-
+                                                                                                    dence on a public website?
+ees want more than money is respect and the feeling that management listens
+to them and values their input.                                                                     Quoted and adapted from David
+                                                                                                    Kushner, “In Your Eyes: Peter Gabri-
+
+3. Prove benefits with clear logic and explain them in adequate                                     els Human-Rights Group Embraces
+                                                                                                    Social Media. A YouTube for Unseen
+detail. Anaudience benefit is a claim or assertion that the audience will benefit                   Atrocities,” Fast Company, November
+if they do something. Convincing the audience, therefore, involves two steps:                       2008, 80-2.
+making sure that the benefit really will occur, and explaining it to the audience.
+
+
+ Figure 2.4            Extrinsic and Intrinsic Motivators
+  Activity                             Extrinsic motivator                    Intrinsic motivator
+
+                                       Getting a commission                   Pleasure in convincing someone; pride in using
+     Making a sale
+                                                                                your talents to think of a strategy and execute it
+  Turning in a suggestion to a         Getting a monetary reward when         Solving a problem at work; making the work
+       company suggestion system         the suggestion is implemented           environment a little more pleasant
+
+     Writing a report that solves an   Getting praise, a good performance     Pleasure in having an effect on an organization;
+        organizational problem            appraisal, and maybe a raise          pride in using your skills to solve problems;
+                                                                                solving the problem itself
+ U
+ aa NI E
+PROFESSIONAL WRITING
+
+
+
+
+44                     Part1     The Building Blocks of Effective Messages
+
+
+                         If the logic behind a claimed benefit is faulty or inaccurate, there’s no way to
+                       make that particular benefit convincing. Revise the benefit to make it logical.
+                             Faulty logic:         Moving your account information into Excel will save you time.
+                             Analysis:             If you have not used Excel before, in the short run it will probably take
+                                                   you longer to work with your account information using Excel. You may
+                                                   have been pretty good with your old system!
+
+                             Revised benefit:      Moving your account information into Excel will allow you to prepare
+                                                   your monthly budget pages with a few clicks of a button.
+
+                          If the logic is sound, making that logic evident to the audience is a matter of
+                       providing enough evidence and showing how the evidence proves the claim
+                       that there will be a benefit. Always provide enough detail to be vivid and con-
+                       crete. You'll need more detail in the following situations:
+
+                                The audience may not have thought of the benefit before.
+                         =      The benefit depends on the difference between the long run and the
+                                short run.
+                         =      The audience will be hard to persuade, and you need detail to make the
+                                benefit vivid and emotionally convincing.
+
+                          The apparel industry, which is actively seeking a middle-aged and baby
+                       boomer audience, is using details to attract them. Slacks may offer slimming
+                       panels, and jeans may offer stretch waists and room for padded hips and
+                       thighs. Tops may cover upper arms. The potential market is huge. Women
+                       over 35 bought over half the annual $100 billion spent on women’s apparel
+                       purchases.”
+
+
+
+
+                        Until recently, Islamic women who wanted to go swimming had a problem. To meet their
+                        customers’ needs, the Australian company Ahiida now makes hooded full-bodied bathing
+                        suits, called Burqinis, for Muslim women who wish to go swimming while still maintain-
+                        ing the Islamic customs of full body coverage.
+                         Source: Lisa Miller, “Belief Watch: Surf's Up!” Newsweek,   January 29, 2007, 15.
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                          Chapter 2   Adapting Your Message to Your Audience                                        45
+
+
+4. Phrase benefits in you-attitude.       If benefits aren’t worded with you-                                No Substitute for
+                                                                                                             Face Time
+attitude (Chapter 3), they’ll sound selfish and won't be as effective as they
+could be. It doesn’t matter how you phrase benefits while you're brainstorming                                 In the face of global-
+and developing them, but in your final draft, check to be sure that you've used                                ization and remote
+you-attitude.                                                                                                  video feeds that simul-
+                                                                                                taneously connect workers and
+  Lacks you-attitude:   We have the lowest prices in town.                                      clients all around the world, face-
+  You-attitude:         At Havlichek Cars, you get the best deal in town.                       to-face meetings are still critical
+                                                                                                in global business. Culturally, the
+                                                                                                world is still incredibly diverse, and
+Ways to Identify and Develop Audience Benefits                                                  to make global coalitions, such as
+                                                                                                launching a Coca-Cola bottling
+Brainstorm lots of benefits—perhaps twice as many as you'll need. Then you                      plant in Albania a few years ago,
+can choose the ones that are most effective for your audience, or that you can                  meeting the right people in person
+develop most easily. The first benefit you think of may not be the best.                        was crucial for Coke’s CEO.
+   Sometimes benefits will be easy to think of and to explain. When they are                       Another example is MTV in the
+harder to identify or to develop, use the following steps to identify and then                   center of Islamic nations. Would it
+develop good benefits.                                                                           be possible to enter MTV into the
+                                                                                                 Arabian market without offend-
+
+4. Identify the needs, wants, and feelings that may motivate your
+                                                                                                 ing the religious institutions of this
+                                                                                                 region? Not without many carefully
+audience.         All of us have basic needs, and most of us supplement those
+                                                                                                 planned, face-to-face meetings.
+needs with possessions or intangibles we want. We need enough food to                            The chief of MTV Networks Inter-
+satisfy nutritional needs, but we may want our diet to make us look sexy. We                     national managed to accomplish
+need basic shelter, but we may want our homes to be cozy, luxurious, or green.                   the establishment of MTV Arabia
+And our needs and wants are strongly influenced by our feelings. We may feel                     by convincing the mayor of Mecca
+safer in a more expensive car, even though research does not show that car as                    that the new station would pro-
+being safer than cheaper models.                                                                 vide educational opportunities and
+                                                                                                 would not show skin.
+2. Identify the objective features of your product or policy that could                             Collaborative         technologies
+
+meet the needs you've identified.               Sometimes just listing the audience’s             such as videoconferencing may
+
+needs makes it obvious which feature meets a given need. Sometimes several
+                                                                                                 be convenient and less expensive
+                                                                                                 than frequent flying, but technol-
+features together meet the need. Try to think of all of them.                                    ogy simply cannot take the place
+   Suppose that you want to persuade people to come to the restaurant you                        of physically sitting down with a
+manage. It’s true that everybody needs to eat, but telling people they can                       colleague or client to solve prob-
+satisfy their hunger needs won't persuade them to come to your restaurant                        lems and form alliances.
+rather than going somewhere else or eating at home. Depending on what fea-
+tures your restaurant offered, you could appeal to one or more of the follow-
+                                                                                                 Adapted from Tom Lowry et al., “It's
+                                                                                                 All About the Face-to-Face,” Busi-
+ing subgroups:                                                                                   nessWeek, January 28, 2008, 48-51.
+
+    Subgroup                           Features to meet the subgroup’s needs
+    People who work                    A quick lunch; a relaxing place to take
+    outside the home                   clients or colleagues
+    Parents with small                 High chairs, children’s menus, and toys to
+    children                           keep the kids entertained while they wait
+                                       for their order
+    People who eat out a lot           Variety both in food and in decor
+    People on tight budgets            Economical food; a place where they don’t
+                                       need to tip (cafeteria or fast food)
+    People on special diets            Low-sodium and low-carb dishes;
+                                       vegetarian food; kosher food
+    People to whom                     Music or a floor show; elegant
+    eating out is part of an            surroundings; reservations so they can get
+    evening’s entertainment             to a show or event after dinner; late hours
+                                        so they can come to dinner after a show or
+                                        game
+PROFESSIONAL WRITING
+
+
+
+
+46                                       Part1     The Building Blocks of Effective Messages
+
+
+             A Song Becomes a               Whenever you’re communicating with customers or clients about features
+             Star Channel                that are not unique to your organization, it’s wise to present both benefits of
+              Wavin'’ Flag, a song       the features themselves and benefits of dealing with your company. If you talk
+              by Somali-Canadian         about the benefits of the new healthy choices in children’s menus but don’t
+              hip-hop artist K’naan,     mention your own revised menu, people may go somewhere else!
+became a World Cup anthem
+and top iTunes hit in 17 coun-
+                                         3. Show how the audience can meet their needs with the features of
+                                         the policy or product. Features alone rarely motivate people. Instead, link
+tries. It also was the centerpiece
+ of Coca-Cola's largest marketing
+ campaign,    which reached 160
+                                         the feature to the audience’s needs—and provide details to make the benefit
+ countries.
+                                         vivid.
+   Coke liked K’naan’s multina-                Weak:     You get quick service.
+ tional upbringing and the song's
+ melody and chorus.           K’naan           Better:   If you only have an hour for lunch, try our Business Buffet. Within minutes, you
+ recorded versions of the song                           can choose from a variety of main dishes, vegetables, and a make-your-Own-
+ with various multinational pop                          sandwich-and-salad bar. You’ll have a lunch that’s as light or filling as you want,
+ stars to increase its appeal.                           with time to enjoy it—and still be back to the office on time.
+   Coke put the profits from the
+ sale of Wavin’ Flag downloads
+ into its Replenish Africa Initiative,
+ a $30 million effort to provide
+                                         AUDIENCE BENEFITS WORK
+ clean water and better sanitation       Appropriate audience benefits work so well that organizations spend much
+ on that continent.                      time and money identifying them and then developing them.
+ Adapted from Duane D. Stanford,
+ “Coke’s World Cup Song Hits the           =  Procter & Gamble increased the market share of Gain detergent, and
+ High Notes,” Bloomberg Business-
+ week, July 19, 2010, 24-25.
+                                              saw annual sales of over a billion dollars, by focusing on a benefit their
+                                              audience considered important: the scent.”
+                                           = Hotels study which benefits are worth the money, and which are not.
+                                              Holiday Inn keeps restaurants and bars in all their hotels, even though
+                                              they are not money makers, but does not have bellhops. Staybridge
+                                              Suites cleans less often but has “Sundowner receptions” which give
+                                              guests a free meal and a chance to socialize.””
+                                           = The Daily Sun, a South African tabloid, is gaining market share, when
+                                              other newspapers are losing it, by focusing on stories—soccer, sex, soap
+                                              operas, local witches, supernatural events like evil flying tortoises—its
+                                              audience wants to read. This audience, primarily newly enfranchised
+                                              black Africans, has given the paper an audited paid circulation of over a
+                                              half million.”
+                                           = Many companies offer their employees health benefits, an arrangement
+                                              that benefits both the company and employee. Meredith Corporation,
+                                              publisher of magazines such as Better Homes and Gardens, Family Cir-
+                                              cle, and Parents, pays for employee health screenings. Employees who
+                                              accept the offer get $300 off their health insurance cost; Meredith gets a
+                                              decrease in corporate health care costs.”?
+                                            = Companies branching out into servicing their products find that they
+                                               are more successful if they offer benefits in addition to cost saving. One
+                                               truck company offers its customers fleet-management services, includ-
+                                               ing monitoring fuel consumption and showing drivers how to increase
+                                               their gas mileage. This service in turn helps its customers appeal to envi-
+                                                  ronmentally concerned clients such as government agencies.
+
+
+                                             Remember that audience benefits must be appropriate for the audience
+                                          before they work. Tylenol tried a new ad campaign that said, “We put our
+                                          love into Tylenol.” Upset customers who remembered the Tylenol cyanide
+                                          poisonings wrote in saying they didn’t want anyone putting anything into
+                                          their Tylenol.)
+                                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                      Chapter 2     Adapting Your Message to Your Audience                                                    47
+
+
+                                                                                                                                     Localizing Incentive
+                                                                                                                                     Programs
+
+
+                                            Now That’s Fast Food                                                                     Incentive      programs
+                                                                                                                                    are employee ben-
+                                                                                                                                    efits aimed to reward
+                                            To pump up business 24/7, McDonald's has sped up
+                                                                                                                        good work performances. Glo-
+                                            its new-product introductions. Here's its secret recipe:
+                                                                                                                        balization has complicated such
+                                                                                                                        programs, because what works
+                                            Make it easy                         :Make it easy                          in one country may not work in
+                                            to eat                                to prepare                            another.
+                                            McDonald’s does more than half : McDonald's restaurant crews                   In the United States, top per-
+                                            its business at drive-through      turn over entirely within a year,        formers     might be rewarded
+                                            windows. That means it needs       on average. To maintain                  with an expensive luxury item
+                                            snacks and meals that can be       consistency amid this churn,             such as a watch. In China or
+                                            held in one hand while the other : tasks must be simple to learn            India, a moped might be more
+                                            is on the steering wheel.          and repeat.
+                                                                                                                        appropriate.
+                                                                                                                           Travel awards may also differ.
+                                             Make it                              Make what the -                       US employees generally prefer
+                                             quick                                customers want                        unstructured, leisurely vacations,
+                                             It's called fast food for a         McDonald's prowls the market           such as those offered by beach
+                                             reason. McDonald's tests all        for new products and then               resorts. Europeans tend to prefer
+                                             new products for cooking times      spends months in carefully              more adventurous trips, perhaps
+                                             so customers don’t have to wait     monitored field tests to ensure         including a strenuous mountain
+                                             even a second longer than           that people will buy its new
+                                                                                                                         hike or rafting trip. Many Chinese
+                                             absolutely necessary.               concoctions.
+                                                                             L
+                                                                             EOE
+                                                                             EES
+                                                                             ESEEHERESEHHEHETEHH
+                                                                              LTTE
+                                                                              EE
+                                                                              CER
+                                                                              POORER
+                                                                                                                   ae    prefer highly structured tours with
+                                                                                                                         carefully planned itineraries.
+McDonald’s plans menu items to meet the needs and expectations of customers, employ-                                        Religion can also be a factor.
+ees, and franchise owners.
+                                                                                                                         Many U.S. employees would
+Source: From Michael Arndt, “Special Report: McDonald's,” Reprinted from the February 5, 2007 issue of BusinessWeek.     appreciate a trip to Las Vegas,
+Used with permission of Bloomberg L. P. Copyright © 2011. All rights reserved.
+                                                                                                                         with a complimentary bottle of
+                                                                                                                         champagne in their room. But
+                                                                                                                         many religious people in the Mid-
+   Sometimes it is hard to know what your audience wants. A classic example                                              dle East or Asia would not want
+is “feature creep” in electronic goods. Unfortunately, consumers seem to want                                            the gambling or the alcohol.
+lots of features in their electronics when they buy them, but then become frus-                                             What     are some      employee
+trated trying to use them and return the devices. In the United States, product                                           incentives you can name that
+
+returns cost $100 billion.** Research has shown that over half the wares are in                                          would be appropriate in one
+                                                                                                                          country but not another? What
+complete working order; consumers just cannot operate them.°*?                                                            are some ways large firms can
+                                                                                                                          work with these differences?
+
+WRITING OR SPEAKING TO MULTIPLE                                                                                          Adapted from Irwin Speizer, “Good Inten-
+
+AUDIENCES WITH DIFFERENT NEEDS
+                                                                                                                         tions, Lost in Translation,”   Workforce
+                                                                                                                         Management, November 21, 2005,
+                                                                                                                         http://www.workforce.com/archive/
+Many business and administrative messages go not to a single person but to a                                             feature/benefits-compensations/good-
+larger audience. When the members of your audience share the same interests                                              intentions-lost-translatiorvindex.php.
+
+and the same level of knowledge, you can use the principles outlined above
+for individual readers or for members of homogeneous groups. But often dif-
+ferent members of the audience have different needs.
+   Researcher Rachel Spilka has shown that talking to readers both inside and
+outside the organization helped corporate engineers adapt their documents
+successfully. Talking to readers and reviewers helped writers involve read-
+ers in the planning process, understand the social and political relationships
+among readers, and negotiate conflicts orally rather than depending solely on
+the document. These writers were then able to think about content as well as
+about organization and style, appeal to common grounds (such as reducing
+waste or increasing productivity) that multiple readers shared, and reduce the
+number of revisions needed before documents were approved.
+   When it is not possible to meet everyone’s needs, meet the needs of gate-
+keepers and decision makers first.
+PROFESSIONAL WRITING
+
+
+
+
+48                     Part1       The Building Blocks of Effective Messages
+
+
+                                As you write for multiple audiences, consider these strategies:
+
+                        Content and number of details
+
+                        =         Provide an overview or executive summary for readers who want just
+                                  the main points.
+                        =         In the body of the document, provide enough detail for decision makers
+                                  and for anyone else who could veto your proposal.
+                        =         Ifthe decision makers don’t need details that other audiences will want,
+                                  provide those details in appendices—statistical      tabulations,   earlier
+                                  reports, and so forth.
+
+                         Organization
+                        =         Use headings and a table of contents so readers can turn to the portions
+                                  that interest them.
+                         =        Organize your message based on the decision makers’ attitudes toward it.
+                            Level of formality
+                            =     Avoid personal pronouns. You ceases to have a specific meaning when
+                                  several different audiences use a document.
+                            =     If both internal and external audiences will use a document, use a
+                                  slightly more formal style than you would in an internal document.
+                            =     Use amore formal style when you write to international audiences.
+                            Technical level
+
+                            =     Inthe body of the document, assume the degree of knowledge that deci-
+                                  sion makers will have.
+                            =     Put background and explanatory information under separate headings.
+                                  Then readers can use the headings and the table of contents to read or
+                                  skip these sections, as their knowledge dictates.
+                            =     If decision makers will have more knowledge than other audiences, pro-
+                                  vide a glossary of terms. Early in the document, let readers know that
+                                  the glossary exists.
+
+
+
+
+                        =        The primary audience will make a decision or act on the basis of your
+                                 message. The secondary audience may be asked by the primary audience
+                                 to comment on your message or to implement your ideas after they’ve
+                                 been approved. The auxiliary audience encounters the message but does
+                                 not have to interact with it. A gatekeeper controls whether the message
+                                 gets to the primary audience. A watchdog audience has political, social,
+                                 or economic power and may base future actions on its evaluation of your
+                                 message.
+                        =        A communication channel is the means by which you convey your mes-
+                                 sage to your audience.
+                        =        The following questions provide a framework for audience analysis:
+                                  1. What will the audience’s initial reaction be to the message?
+                                 2. How much information does the audience need?
+                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                           Chapter2   Adapting Your Message to Your Audience                                    49
+
+
+      3. What obstacles must you overcome?
+      4. What positive aspects can you emphasize?
+      5. What expectations does the audience have about the appropriate lan-
+          guage, contents, and organization of messages?
+      6. How will the audience use the document?
+=     Audience benefits are advantages that the audience gets by using your
+      services, buying your products, following your policies, or adopting your
+      ideas. Benefits can exist for policies and ideas as well as for goods and
+      services.
+=     Good benefits are adapted to the audience, based on intrinsic rather than
+      extrinsic motivators, supported by clear logic, explained in adequate
+      detail, and phrased in you-attitude. Extrinsic benefits simply aren’t avail-
+      able to reward every desired behavior; further, they reduce the satisfaction
+      in doing something for its own sake.
+=     Tocreate audience benefits,
+       1. Identify the feelings, fears, and needs that may motivate your
+           audience.
+       2. Identify the features of your product or policy that could meet the
+           needs you've identified.
+       3. Show how the audience can meet their needs with the features of the
+           policy or product.
+=      When you write to multiple audiences, use the primary audience to deter-
+       mine level of detail, organization, level of formality, and use of technical
+       terms and theory.
+
+
+                                                                                                  *Go to www.mhhe.com/locker10e for
+
+           CHAPTER 2                Exercises and Problems ©                                      additional Exercises and Problems.
+
+
+
+
+2.1            Reviewing the Chapter
+
+    1. Who are the five different audiences your message             7. What kinds of electronic channels seem most useful
+       may need to address? (LO 2-1)                    

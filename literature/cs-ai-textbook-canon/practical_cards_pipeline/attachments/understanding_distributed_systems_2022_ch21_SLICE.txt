@@ -1,0 +1,402 @@
+# Text slice — understanding_distributed_systems_2022_ch21_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 21
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+tps://www.youtube.com/watch?v=LwkS82zs65g
+
+CHAPTER 19. DATA STORAGE                                                   189
+
+
+sistency is hardly noticeable13 for many applications. That, com-
+bined with the fact that perfect 100% availability is not possible
+anyway (availability is deﬁned in 9s), has spurred the drive to
+build storage systems that can scale but favor consistency over
+availability in the presence of network partitions. CockroachDB14
+and Spanner15 are well-known examples of NewSQL data stores.
+
+
+
+
+  13
+     “NewSQL database systems are failing to guarantee consistency, and I blame
+Spanner,” https://dbmsmusings.blogspot.com/2018/09/newsql- database-
+systems-are-failing-to.html
+  14
+     “CockroachDB,” https://github.com/cockroachdb/cockroach
+  15
+     we talked about Spanner in section 12.4
+
+
+Chapter 20
+
+
+Caching
+
+Suppose a signiﬁcant fraction of requests that Cruder sends to its
+data store consists of a small pool of frequently accessed entries.
+In that case, we can improve the application’s performance and re-
+duce the load on the data store by introducing a cache. A cache is a
+high-speed storage layer that temporarily buffers responses from
+an origin, like a data store, so that future requests can be served
+directly from it. It only provides best-effort guarantees, since its
+state is disposable and can be rebuilt from the origin. We have al-
+ready seen some applications of caching when discussing the DNS
+protocol or CDNs.
+
+For a cache to be cost-effective, the proportion of requests that can
+be served directly from it (hit ratio) should be high. The hit ratio
+depends on several factors, such as the universe of cachable objects
+(the fewer, the better), the likelihood of accessing the same objects
+repeatedly (the higher, the better), and the size of the cache (the
+larger, the better).
+
+As a general rule of thumb, the higher up in the call stack caching
+is used, the more resources can be saved downstream. This is why
+the ﬁrst use case for caching we discussed was client-side HTTP
+caching. However, it’s worth pointing out that caching is an opti-
+mization, and you don’t have a scalable architecture if the origin,
+
+CHAPTER 20. CACHING                                                192
+
+
+e.g., the data store in our case, can’t withstand the load without the
+cache fronting it. If the access pattern suddenly changes, leading
+to cache misses, or the cache becomes unavailable, you don’t want
+your application to fall over (but it’s okay for it to become slower).
+
+
+
+20.1     Policies
+When a cache miss occurs, the missing object has to be requested
+from the origin, which can happen in two ways:
+
+   • After getting an “object-not-found” error from the cache, the
+     application requests the object from the origin and updates
+     the cache. In this case, the cache is referred to as a side cache,
+     and it’s typically treated as a key-value store by the applica-
+     tion.
+   • Alternatively, the cache is inline, and it communicates
+     directly with the origin, requesting the missing object on
+     behalf of the application. In this case, the application only
+     ever accesses the cache. We have already seen an example
+     of an inline cache when discussing HTTP caching.
+
+Because a cache has a limited capacity, one or more entries need to
+be evicted to make room for new ones when its capacity is reached.
+Which entry to remove depends on the eviction policy used by the
+cache and the objects’ access pattern. For example, one commonly
+used policy is to evict the least recently used (LRU) entry.
+
+A cache can also have an expiration policy that dictates when an
+object should be evicted, e.g., a TTL. When an object has been in the
+cache for longer than its TTL, it expires and can safely be evicted.
+The longer the expiration time, the higher the hit ratio, but also the
+higher the likelihood of serving stale and inconsistent data.
+
+The expiration doesn’t need to occur immediately, and it can be de-
+ferred to the next time the entry is requested. In fact, that might be
+preferable — if the origin (e.g., a data store) is temporarily unavail-
+able, it’s more resilient to return an object with an expired TTL to
+the application rather than an error.
+
+CHAPTER 20. CACHING                                                      193
+
+
+An expiry policy based on TTL is a workaround for cache invali-
+dation, which is very hard to implement in practice1 . For exam-
+ple, if you were to cache the result of a database query, every time
+any of the data touched by that query changes (which could span
+thousands of records or more), the cached result would need to be
+invalidated somehow.
+
+
+20.2        Local cache
+The simplest way to implement a cache is to co-locate it with the
+client. For example, the client could use a simple in-memory hash
+table or an embeddable key-value store, like RocksDB2 , to cache
+responses (see Figure 20.1).
+
+
+
+
+                       Figure 20.1: In-process cache
+
+Because each client cache is independent of the others, the same
+objects are duplicated across caches, wasting resources. For exam-
+ple, if every client has a local cache of 1GB, then no matter how
+many clients there are, the total size of the cache is 1 GB. Also, con-
+  1
+      “Cache coherence,” https://en.wikipedia.org/wiki/Cache_coherence
+  2
+      “RocksDB,” http://rocksdb.org/
+
+CHAPTER 20. CACHING                                                      194
+
+
+sistency issues will inevitably arise; for example, two clients might
+see different versions of the same object.
+
+Additionally, as the number of clients grows, the number of
+requests to the origin increases. This issue is exacerbated when
+clients restart, or new ones come online, and their caches need to
+be populated from scratch. This can cause a “thundering herd”
+effect where the downstream origin is hit with a spike of requests.
+The same can also happen when a speciﬁc object that wasn’t
+accessed before becomes popular all of a sudden.
+
+Clients can reduce the impact of a thundering herd by coalescing
+requests for the same object. The idea is that, at any given time,
+there should be at most one outstanding request per client to fetch
+a speciﬁc object.
+
+
+
+20.3      External cache
+An external cache is a service dedicated to caching objects, typi-
+cally in memory. Because it’s shared across clients, it addresses
+some of the drawbacks of local caches at the expense of greater
+complexity and cost (see Figure 20.2). For example, Redis3 or Mem-
+cached4 are popular caching services, also available as managed
+services on AWS and Azure.
+
+Unlike a local cache, an external cache can increase its throughput
+and size using replication and partitioning. For example, Redis5
+can automatically partition data across multiple nodes and repli-
+cate each partition using a leader-follower protocol.
+
+Since the cache is shared among its clients, there is only a single
+version of each object at any given time (assuming the cache is not
+replicated), which reduces consistency issues. Also, the number of
+times an object is requested from the origin doesn’t grow with the
+number of clients.
+  3
+    “Redis,” https://redis.io/
+  4
+    “Memcached,” https://memcached.org/
+  5
+    “Redis cluster tutorial,” https://redis.io/topics/cluster-tutorial
+
+CHAPTER 20. CACHING                                              195
+
+
+
+
+                 Figure 20.2: Out-of-process cache
+
+
+Although an external cache decouples clients from the origin, the
+load merely shifts to the external cache. Therefore, the cache will
+eventually need to be scaled out if the load increases. When that
+happens, as little data as possible should be moved around (or
+dropped) to avoid the cache degrading or the hit ratio dropping
+signiﬁcantly. Consistent hashing, or a similar partitioning tech-
+nique, can help reduce the amount of data that needs to be shufﬂed
+when the cache is rebalanced.
+
+An external cache also comes with a maintenance cost as it’s yet
+another service that needs to be operated. Additionally, the latency
+to access it is higher than accessing a local cache because a network
+call is required.
+
+If the external cache is down, how should the clients react? You
+would think it might be okay to bypass the cache and directly hit
+the origin temporarily. But the origin might not be prepared to
+withstand a sudden surge of trafﬁc. Consequently, the external
+
+CHAPTER 20. CACHING                                          196
+
+
+cache becoming unavailable could cause a cascading failure, re-
+sulting in the origin becoming unavailable as well.
+To avoid that, clients could use an in-process cache as a defense
+against the external cache becoming unavailable. That said, the
+origin also needs to be prepared to handle these sudden “attacks”
+by, e.g., shedding requests; we will discuss a few approaches for
+achieving that in the book’s resiliency part. What’s important to
+remember is that caching is an optimization, and the system needs
+to survive without it at the cost of being slower.
+
+Chapter 21
+
+Microservices
+
+If Cruder is successful in the market, we can safely assume that
+we will continue to add more components to it to satisfy an ever-
+growing list of business requirements, as shown in Figure 21.1.
+
+
+
+
+Figure 21.1: A monolithic application composed of multiple com-
+ponents
+
+The components will likely become increasingly coupled in time,
+causing developers to step on each other’s toes more frequently.
+Eventually, the codebase becomes complex enough that nobody
+
+CHAPTER 21. MICROSERVICES                                      198
+
+
+fully understands every part of it, and implementing new features
+or ﬁxing bugs becomes a lot more time-consuming than it used to
+be.
+
+Also, a change to a component might require the entire applica-
+tion to be rebuilt and deployed. And if the deployment of a new
+version introduces a bug, like a memory or socket leak, unrelated
+components might also be affected. Moreover, reverting a deploy-
+ment affects the velocity of every developer, not just the one that
+introduced a bug.
+
+One way to mitigate the growing pains of a monolithic application
+is to functionally decompose it into a set of independently deploy-
+able services that communicate via APIs, as shown in Figure 21.2.
+The APIs decouple the services from each other by creating bound-
+aries that are hard to violate, unlike the ones between components
+running in the same process.
+
+
+
+
+Figure 21.2: An application split into independently deployable
+services that communicate via APIs
+
+Each service can be owned and operated by a small team. Smaller
+teams collaborate more effectively than larger ones, since the com-
+
+CHAPTER 21. MICROSERVICES                                                        199
+
+
+munication overhead grows quadratically1 with the team’s size.
+And because each team controls its own codebase and dictates its
+own release schedule, less cross-team communication is required
+overall. Also, the surface area of a service is smaller than the whole
+application, making it more digestible to developers, especially
+new hires.
+
+Each team is also free in principle to adopt the tech stack and hard-
+ware that ﬁts their speciﬁc needs. After all, the consumers of the
+APIs don’t care how the functionality is implemented. This makes
+it easy to experiment and evaluate new technologies without af-
+fecting other parts of the system. As a result, each service can have
+its own independent data model and data store(s) that best ﬁt its
+use cases.
+
+This architectural style is also referred to as the microservice archi-
+tecture. The term micro is misleading, though — there doesn’t have
+to be anything micro about services.2 If a service doesn’t do much,
+it only adds operational overhead and complexity. As a rule of
+thumb, APIs should have a small surface area and encapsulate a
+signiﬁcant amount of functionality.3
+
+
+
+21.1       Caveats
+To recap, splitting an application into services adds a great deal
+of complexity to the overall system, which is only worth paying if
+it can be amortized across many development teams. Let’s take a
+closer look at why that is.
+
+Tech stack
+
+While nothing forbids each microservice to use a different tech
+stack, doing so makes it more difﬁcult for a developer to move
+   1
+     “The Mythical Man-Month,” https://en.wikipedia.org/wiki/The_Mythica
+l_Man-Month
+   2
+     A more appropriate name for the microservices architecture is service-oriented
+architecture, but unfortunately, that name comes with some baggage as well.
+   3
+     This idea is described well in John Ousterhout’s A Philosophy of Software Design,
+which I highly recommend.
+
+CHAPTER 21. MICROSERVICES                                          200
+
+
+from one team to another. And think of the sheer number of li-
+braries — one for each language adopted — that need to be sup-
+ported to provide common functionality that all services need, like
+logging.
+
+It’s only reasonable, then, to enforce a certain degree of standard-
+ization. One way to do that, while still allowing some degree of
+freedom, is to loosely encourage speciﬁc technologies by provid-
+ing a great development experience for the teams that stick with
+the recommended portfolio of languages and technologies.
+
+Communication
+
+Remote calls are expensive and introduce non-determinism. Much
+of what is described in this book is about dealing with the com-
+plexity of distributed processes communicating over the network.
+That said, a monolith doesn’t live in isolation either, since it serves
+external requests and likely depends on third-party APIs as well,
+so these issues need to be tackled there as well, albeit on a smaller
+scale.
+
+Coupling
+
+Microservices should be loosely coupled so that a change in one
+service doesn’t require changing others. When that’s not the case,
+you can end up with a dreaded distributed monolith, which has all
+the downsides of a monolith while being an order of magnitude
+more complex due to its distributed nature.
+
+There are many causes of tight coupling, like fragile APIs that re-
+quire clients to be updated whenever they change, shared libraries
+that have to be updated in lockstep across multiple services, or the
+use of static IP addresses to reference external services.
+
+Resource provisioning
+
+To support a large number of independent services, it should be
+simple to provision new machines, data stores, and other commod-
+ity resources — you don’t want every team to come up with their
+own way of doing it. And, once these resources have been provi-
+sioned, they have to be conﬁgured. To pull this off efﬁciently, a
+
+CHAPTER 21. MICROSERVICES                                            201
+
+
+fair amount of automation is needed.
+
+Testing
+
+While testing individual microservices is not necessarily more chal-
+lenging than testing a monolith, testing the integration of microser-
+vices is a lot harder. This is because very subtle and unexpected
+behaviors will emerge only when services interact with each other
+at scale in production.
+
+Operations
+
+Just like with resource provisioning, there should be a common
+way of continuously delivering and deploying new builds safely
+to production so that each team doesn’t have to reinvent the wheel.
+
+Additionally, debugging failures, performance degradations, and
+bugs is a lot more challenging with microservices, as you can’t
+just load the whole application onto your local machine and step
+through it with a debugger. This is why having a good observabil-
+ity platform becomes crucial.
+
+Eventual consistency
+
+As a side effect of splitting an application into separate services,
+the data model no longer resides in a single data store. However,
+as we have learned in previous chapters, atomically updating data
+spread in different data stores, and guaranteeing strong consis-
+tency, is slow, expensive, and hard to get right. Hence, this type
+of architecture usually requires embracing eventual consistency.
+
+So to summarize, it’s generally best to start with a monolith and de-
+compose it only when there is a good reason to do so4 . As a bonus,
+you can still componentize the monolith, with the advantage that
+it’s much easier to move the boundaries as the application grows.
+Once the monolith is well matured and growing pains start to arise,
+you can start to peel off one microservice at a time from it.
+
+  4

@@ -1,0 +1,184 @@
+# Chapter ingest — `simon_aliferis_healthcare_2024` · Chapter 1
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Artificial Intelligence and Machine Learning in Health Care |
+| **authors** | Gyorgy J. Simon, Constantin Aliferis |
+| **edition** | 1st Edition (2024) |
+| **ISBN_print** | 978-3-031-39354-9 |
+| **ISBN_electronic** | 978-3-031-39355-6 |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 1 (Part I: Foundations) |
+| **chapter_title** | Foundations and Properties of AI/ML Systems |
+| **page_range** | Printed page numbers absent from text export; logical span L3067–7261 |
+| **parent_book_title** | Artificial Intelligence and Machine Learning in Health Care |
+
+## Scope
+
+Chapter 1 is the **theoretical foundation layer** for the entire Simon/Aliferis health-AI canon. It establishes how formal properties—not heuristics alone—should guide design and appraisal of biomedical AI/ML.
+
+**Part 1 — Theoretical properties and formal vs. heuristic systems.** Opens with computability and Gödel incompleteness: non-trivial mathematical systems cannot be both complete and consistent; non-computable functions mirror non-provable statements. Turing-Church thesis (axiomatic, widely accepted) equates human inferential capacity with computable systems. Defines computational complexity at program, algorithm, and problem levels; space vs. time; worst/average/best case; exact vs. asymptotic (Big-O). Table 1 demonstrates exponential costs exceed physical universe scale by input size ~100—Moore's Law and parallelization cannot rescue intractable problems (Pitfalls 2.1–2.3; Best Practices 2.1–2.4). Cook-Karp reduction methodology assigns problem classes without known algorithms (P, NP, NP-Complete, NP-Hard). Table 2 catalogs eleven formal property dimensions used throughout the book: representation power, semantic clarity/transparency, soundness, completeness, computational and space complexity (learning vs. inference), cost functions, sample complexity, probability/decision-theoretic consistency. Heuristic systems sit on a continuum with formal ones but lack guarantees—treated as pre-scientific/high-risk. Perplexity for LLM grammar learning explicitly **not** treated as clinically load-bearing.
+
+**Part 2 — Foundations of AI.** Symbolic vs. non-symbolic AI: symbolic = ontologically rich (rules, semantic networks, FOL KBs); non-symbolic = shallow I/O mappings (connectionist, probabilistic, RL, LLMs)—**deep learning is ontologically shallow** despite many layers. Propositional and First-Order Logic with knowledge engineering, forward/backward chaining, resolution; health ontologies and common data models cross-ref Ch. 5. Decision Analysis and Maximum Expected Utility (MEU) with seven DA best practices (patient utilities, data-driven probabilities, sensitivity analysis). Bayesian Networks: nine use cases including causal reasoning, influence diagrams, Markov Boundary link; rigorous DAG + JPD + Markov Condition definitions; warns against mislabeled "BN" graphs in literature. AI search as unifying analytical framework across symbolic/non-symbolic divides.
+
+**Part 3 — Foundations of Machine Learning Theory.** ML as applied epistemology. ML-as-search tuple `<L, MF, DD, S, MLS, GM>` and inductive bias: must be neither too open (NFLT randomness) nor too restrictive; data-generating procedure DD is co-determinant of success. Geometric/optimization view (SVM hyperplane example). COLT: PAC and VC bounds; VC dimension ≠ parameter count; learning feasible when p >> n with right algorithms—contrasts classical stats breakdown. Feature selection theory (Kohavi-John wrappers, Markov Boundary). Optimal Bayes Classifier, NFLT (misapplication Pitfall 2.8), Universal Function Approximation (UAF over-interpretation Pitfall 2.10), generative vs. discriminative models, bias-variance decomposition. Best Practices 2.7–2.12: inductive bias match, data design, cross-validation, clustering not for predictive modeling, post-hoc clustering utility, generative/discriminative choice.
+
+**Sections ingested:** Abstract · Theoretical AI/ML Properties · Complexity classes · Table 2 properties · Symbolic/non-symbolic AI · Logics · DA/MEU · Bayesian Networks · AI search · ML theory (search, COLT, FS, NFL, UAF, bias-variance) · Conclusions · Pitfalls/Best Practices 2.1–2.12.
+
+Cross-refs: Ch. 2 (method labels), Ch. 3 (development workflow), Ch. 4 (causal ML), Ch. 5+ (data design, lifecycle).
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested in chapter]` or `[inferred]`.
+
+### Computability, complexity, tractability
+
+- Gödel incompleteness: formal systems complete **or** consistent, not both; non-computable functions exist per system. [verified from text, L3134–3164]
+- Turing-Church thesis: human inference ⊆ computer inference; axiomatic, neuroscience-supported per authors. [verified from text, L3170–3177]
+- Intractable problems: exponential cost at size 100 comparable to atoms in universe; Moore's Law needs ~280 years for 2¹⁰⁰; parallel CPUs needed exceed universe. [verified from text, L3280–3376]
+- Parallelization and Moore's Law **cannot** make NP-Hard worst-case tractable—only algorithmic strategies trading solution quality can. [verified from text, L3388–3413]
+- Cook-Karp reductions establish problem complexity without known solving algorithm. [verified from text, L3423–3476]
+- P tractable (small degree); NP-Complete/NP-Hard considered practically intractable worst-case. [verified from text, L3482–3507]
+- Modern ML routinely handles >10⁶ variables on exponential worst-case problems via mitigation strategies (approximation, heuristics with known tradeoffs). [verified from text, L3415–3418]
+
+### Formal property framework (Table 2)
+
+- Eleven property dimensions anchor all subsequent method appraisal; properties without practical health-AI relevance excluded (e.g., network centrality for prediction). [verified from text, L3516–3534, L3552–3598]
+- Heuristic/ad hoc systems lack known properties → pre-scientific, high failure risk. [verified from text, L6550–6554, L6624–6627]
+- LLM perplexity measures grammar learning, not clinical error severity. [verified from text, L3531–3534]
+
+### Symbolic vs. non-symbolic; logics; uncertainty
+
+- Symbolic AI = structured domain representation; non-symbolic = shallow I/O; **deep nets are ontologically shallow**. [verified from text, L4075–4107]
+- FOL KB declarative advantage: ontology + axioms enable inference without new procedural code. [verified from text, L4236–4246]
+- DA pitfalls: wrong probabilities, provider vs. patient utilities, wrong population, incomplete problem structure. [verified from text, L6629–6658]
+- BN nine use cases span classification, MEU, causal discovery, feature selection; strict DAG+JPD+Markov Condition required. [verified from text, L4659–4720]
+- Not every probabilistic graph is a BN—literature confusion flagged. [verified from text, L4707–4712]
+
+### ML theory
+
+- ML architecture tuple `<L, MF, DD, S, MLS, GM>`; inductive bias = model-family preference; dual search (hyperparameters + parameters). [verified from text, L5509–5601]
+- Wrong inductive bias or mismatched DD → failure regardless of algorithm sophistication. [verified from text, L5655–5684]
+- COLT PAC/VC bounds: generalization error bounded; VC dimension can be low despite many parameters; learning possible when variables >> samples. [verified from text, L5741–5803]
+- NFLT: all optimizers equal on average across all problems—**not** license to ignore method choice for specific tasks. `[contested in chapter]` [verified from text, L6668–6669]
+- UAF: representation power ≠ tractable learnability. [verified from text, L6676–6681]
+- Clustering should not be used for predictive modeling; post-hoc clustering can be useful. [verified from text, L6774–6778]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| **Lines read** | 3067–7261 (inclusive) |
+| **Chapter boundary** | Starts `Foundations and Properties of AI/ML Systems` (L3067); ends before Ch. 2 `An Appraisal...` (L7262) |
+| **Wrong-file flag** | `false` — slug matches `simon_aliferis_healthcare_2024` |
+| **Sections deferred** | Detailed BN inference algorithms; Ch. 4 causal discovery depth; LLM-specific treatment (forward refs only) |
+| **Figures** | Tables 1–2, Figs. on complexity/VC/SVM referenced; image data `[]` in export |
+| **Amnesiac rule** | No claims from training prior; ISBN from L53–55 and corpus manifest |
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Explain computability limits (Gödel, non-computable functions) and why tractability analysis precedes deployment.
+2. Distinguish problem vs. algorithm vs. program complexity; interpret P/NP/NP-Complete classes.
+3. Apply Table 2 property dimensions to appraise any health-AI method.
+4. Contrast symbolic (ontologically rich) vs. non-symbolic (shallow) AI including deep learning terminology trap.
+5. Describe ML-as-search, inductive bias, and the role of data-generating design.
+6. Interpret PAC/VC bounds and why p >> n learning can be theoretically justified.
+7. State DA/MEU and BN prerequisites for clinical decision support design.
+
+### worked_examples_present
+
+**Y** — Worked complexity table, PL clinical sentence, FOL KB chaining, SVM 2-gene cancer separation, VC bound formula, truth-table/Modus Ponens examples.
+
+| Example | Section | Role |
+|---------|---------|------|
+| Table 1 exponential vs. quadratic cost | Complexity | Tractability intuition |
+| PL Disease1 diagnosis sentence | Propositional logic | Clinical logic encoding |
+| Forward chaining A→C, C∧B→D | FOL inference | Rule activation |
+| 2-gene SVM hyperplane (Fig. 4) | ML geometry | Diagnostic separation |
+| VC confidence term formula | COLT | Generalization bound |
+| Ramsey Theory 6-people | Problem definition | Scientific apophenia link (Ch. 3 foreshadow) |
+
+### exercise_hooks
+
+- End-of-chapter classroom assignments referenced in Ch. 3 cross-refs; Ch. 1 embeds Pitfalls 2.1–2.10 and Best Practices 2.1–2.12 as discussion prompts.
+- **Instructor / self-study hooks `[inferred]`:**
+  - Classify three deployed clinical AI tools on Table 2 property dimensions.
+  - Argue for/against Turing-Church thesis using a non-computable diagnostic rule example.
+  - Map a MEU tree for treatment choice; identify Pitfall 2.5 failure modes.
+  - Explain why a 1M-parameter net can have low VC dimension (cite Ch. 1 bound).
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 1 is **w3_clinical_docs theoretical canon**—prerequisite for all Simon/Aliferis selective ingests and the clinical/regulatory track in `cs-ai-textbook-canon`. Establishes vocabulary (Table 2 properties, inductive bias, tractability, formal vs. heuristic) that Ch. 2–12 assume. For MDCalc-adjacent clinical AI engineering, this chapter is the **properties-before-performance** counterweight to leaderboard-driven model selection. Index before Ch. 2 method labels or Ch. 3 development workflow. Pairs with **designing_ml_systems_2022** on slice/eval mechanics at the systems layer; Simon Ch. 1 owns **health-specific formal property taxonomy**.
+
+### 2. MDCalc alignment
+
+**[high]** — Directly load-bearing for regulated clinical-adjacent AI without substituting for clinical validation:
+
+- **Tractability gate**: Clinical decision tools with intractable worst-case inference cannot be validated at scale—relevant to combinatorial rule engines and exhaustive guideline traversal.
+- **Table 2 appraisal**: Representation power, soundness, completeness, sample complexity map to SaMD performance/safety evidence expectations better than raw AUC alone.
+- **DA/MEU + BN**: Decision-support architecture (Warner/Bayes lineage in foreword) aligns with probabilistic clinical calculators; patient (not clinician) utility elicitation is explicit Best Practice 2.6.
+- **Inductive bias + data design**: Custom eval sets and cohort definition precede algorithm choice—mirrors calculator validation on intended population.
+- **Heuristic/LLM caution**: Ontologically shallow systems (including LLMs) flagged pre-scientific without property disclosure—applies to generative clinical documentation/advisory features.
+- **No employer-stack claims**; no specific EHR vendor APIs cited.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025** Ch. 4 | Medium | AIE owns EDD + private eval pipeline + leaderboard skepticism for **generative** AI; Simon Ch. 1 owns **formal property taxonomy + COLT + health DA/BN**—complementary not duplicate |
+| **designing_ml_systems_2022** | Medium | DMS owns production ML slicing/monitoring; Simon Ch. 1 owns computability + Table 2 + health ontology context |
+| **grokking_algorithms_2022** | Low | Complexity classes superficial overlap; Simon depth on NP reductions + health pitfalls |
+| **hands_on_llms_2024** | Low | LLM mentioned as shallow non-symbolic; no implementation detail |
+| **responsible_ai_practice_2025** | Low–medium | Fairness/governance vs. formal properties—different axis |
+
+**Dedup guidance:** Treat **simon_aliferis_healthcare_2024 Ch. 1** as canonical for **Table 2 properties + tractability + health symbolic/probabilistic foundations** in SYNTHESIS; reference **ai_engineering_2025 Ch. 4** for generative eval pipeline design, not for repeating EDD mechanics here.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — complexity table, logic, SVM geometry, VC bounds |
+| Exercise hooks | **Moderate** — pitfalls/best practices embedded; classroom sets in later chapters |
+| Chapter boundary quality | **Clean** — Conclusions + consolidated Pitfalls/BP list at L6548–6780 |
+| Ingest suitability | **High** — dense, citation-backed, contested views preserved (Turing-Church, NFLT misuse, LLM shallowness) |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | Springer 2024 OA; CC BY 4.0; session Jun 2026 |
+| **Author authority** | **PASS** | UMN Institute for Health Informatics editors; Warner/Buchanan lineage; peer Springer Health Informatics series |
+| **Primary-source citation density** | **PASS** | Gödel, Cook, Karp, Pearl, Tsamardinos/Aliferis FS work, COLT refs, clinical DA literature |
+| **Contested claims flagged** | **PASS** | Heuristic vs. formal continuum, NFLT misapplication, UAF limits, deep learning ontological shallowness |
+| **Worked examples (procedural/conceptual)** | **PASS** | Multi-part theory with tables, formulas, clinical logic |
+
+**Overall TEXTBOOK-Q1:** **PASS** — core w3 foundation-track ingest; treat complexity-class examples as **pedagogical** not deployment guarantees.
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| SIM-C01-001 | Intractable complexity cannot be rescued by Moore's Law or parallelization alone | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | Computational complexity |
+| SIM-C01-002 | Table 2 eleven property dimensions govern method appraisal | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | Table 2 |
+| SIM-C01-003 | Deep learning networks are ontologically shallow despite many layers | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | Symbolic vs non-symbolic |
+| SIM-C01-004 | ML success requires matched inductive bias and data-generating design | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | ML as search |
+| SIM-C01-005 | COLT/VC bounds justify learning when variables exceed sample size | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | COLT |
+| SIM-C01-006 | Heuristic systems without established properties are high-risk | compressed | AI/ML in Health Care 1e | ISBN 978-3-031-39354-9 | literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch01_ingest.md | Conclusions |
+
+---
+
+*Ingest generated by scholia chapter fan-out · worker `simon-ingest-ch01-03` · corpus `cs-ai-textbook-canon` · word cap ≤4500*

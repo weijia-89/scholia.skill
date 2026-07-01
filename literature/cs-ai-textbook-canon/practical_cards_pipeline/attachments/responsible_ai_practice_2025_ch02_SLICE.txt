@@ -1,0 +1,1056 @@
+# Text slice — responsible_ai_practice_2025_ch02_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: responsible_ai_practice_2025 · chapter: 02
+# hooks: 5 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Practicehttps://doi.org/10.1007/979-8-8688-1166-1_2
+
+2. Accuracy
+
+Toju Duke¹   and Paolo Giudici²
+
+(1)
+
+Bedrock AI, London, UK
+
+(2)
+
+Via San Felice 7, 27100, University of Pavia, Pavia, Italy
+
+ 
+
+In the previous chapter, we looked at AI governance, a few AI
+regulations and policies such as the EU AI Act, Joe Biden’s US executive
+order, and a couple of reports from the UN and UNESCO. We also
+introduced the SAFE-HAI framework which is critical to achieving
+responsibly built AI algorithms that adheres to the newly introduced AI
+policies. In this chapter, we’ll review “accuracy,” a key part of the
+SAFE-HAI framework and a crucial Responsible AI principle. We’ll briefly
+discuss its definition, key questions to consider regarding accuracy and
+performance, ways to measure accuracy, a scoring rubric for accuracy, a
+few benchmarks from the research community, and ways to resolve poor
+accuracy of ML models and applications.
+
+Accuracy is a key metric and principle in AI development, in which the
+performance of a model is tested and measured before its release. In
+most cases, when incorrect and inaccurate outputs of an AI application
+have been observed, including those from large language models (LLMs)
+and generative AI, the performance of these models/applications would
+have undergone several performance tests. Running performance tests
+through accuracy metrics and measurements is part of AI development.
+It’s always recommended to measure the accuracy of any given AI
+model/application to ensure the outputs are fair and accurate. In this
+chapter, we’ll look at a few examples for measuring accuracy in ML
+applications, and its importance in lieu of existing regulations,
+including how to fix issues with accuracy once identified.
+
+In order to understand the importance of accuracy, let’s look at a
+standard definition from the ISO/IEC (a joint technical committee which
+stands for the International Organization for Standardization and
+International Electrotechnical Commission). According to ISO/IEC TS
+5723:2022, accuracy is defined as “closeness of results of observations,
+computations, or estimates to the true values or the values accepted as
+being true.” To measure accuracy, “computational-centric” measures such
+as false positives and negatives should be considered, and measurements
+should be carried out with realistic tests, stimulating real-life
+scenarios/expected use, and appropriate documentation should be
+included.
+
+Accuracy or model accuracy is an important metric in ML as it evaluates
+classification tasks, determining if the classifiers are correct. It
+evaluates the percentage of correct classifications from a trained model
+by looking at the number of correct predictions divided by the total
+number of predictions across all classes, also known as the ACC. ACC
+values can range from [0,1] to [0,100] depending on the selected scale.
+If you have an accuracy of 0, it means the classifier always predicts
+the wrong label, while an accuracy of 1 or 100 means the opposite; ACC
+is directly related to the confusion matrix – a performance measurement
+for ML classification.
+
+When looking at ML performance evaluation, we evaluate this in terms of
+true positives, false positives, true negatives, and false negatives.
+The accuracy of a model’s output is the measure of the number of correct
+predictions over all predictions, where correct predictions refer to
+true positives (TP) and true negatives (TN).
+
+While measuring model accuracy is super important, it’s crucial to note
+that good accuracy in ML is subjective depending on the use case, and
+achieving 100% accuracy typically means there is an error. Examples of
+these errors are overfitting, for example, where the model is unable to
+generalize to unseen data and learns the training set very closely; in
+other words, its responses and results “fit” too closely to the training
+dataset. Data leakage could also be another sign of 100% accuracy where
+the model contains information about the label that should not be
+present in its prediction. Aiming to achieve accuracy greater than 70%
+is usually recommended for good model performance.
+
+When evaluating accuracy, it’s important to think about it through a
+risk management/assessment viewpoint, which we cover in the next
+section.
+
+Risk Management Framework
+
+While evaluating the accuracy of a model, it is important to anchor this
+principle on a risk management framework. We’ll hone in on NIST’s risk
+management framework (RMF) and the first AI regulation, the EU AI Act,
+throughout this book. Both risk management frameworks have requirements
+for accuracy – which falls under the category of “trustworthiness.”
+
+Let’s start off with the EU AI Act, which we’ll also refer to as the AI
+Act (AIA). The AIA’s requirements for high-risk systems, described in
+Chapter 1, stipulate that all high-risk AI systems need to have an
+appropriate level of accuracy in their design and development, with a
+consistent performance throughout the model(s) life cycle. The
+development of benchmarks and measurement methodologies are required in
+order to measure the appropriate levels of accuracy. As part of the AIA,
+the levels of accuracy and relevant accuracy metrics need to be declared
+in the manual/instructions of use.
+
+According to the NIST risk management framework, accuracy is one of the
+trustworthy AI characteristics that AI systems are required to have,
+where AI should be valid and reliable. Validation here refers to the
+“confirmation, through the provision of objective evidence, that the
+requirements for a specific intended use or application have been
+fulfilled.” A valid AI application must be accurate, whereas a reliable
+AI application must be robust. In this chapter, we will focus on
+accuracy, and in the next chapter, we’ll discuss robustness.
+
+There are a few questions the NIST recommends to consider when measuring
+the accuracy of an ML model:
+
+1.  1.
+
+    How will you assess model accuracy?
+
+     
+
+2.  2.
+
+    What benchmarks will you use?
+
+     
+
+3.  3.
+
+    How will you communicate this as needed?
+
+     
+
+Addressing these questions is fundamental to the success of good
+accuracy and performance of your ML model(s). Breaking it down further,
+we can categorize accuracy as an organizational risk as opposed to a
+human risk, where it affects the performance of the model, subsequently
+affecting the organization that owns, builds, and develops the model
+before the end user.
+
+Let’s review these questions more closely.
+
+How Will You Assess Model Accuracy?
+
+The course of this chapter will address this question. We will consider
+several cases, which correspond to different predicted target variables.
+We will first consider the case of quantitative responses (accuracy of
+predictions), then the case of binary or ordinal responses (accuracy of
+classifications), and, then, provide a unified measure: the Rank
+Graduation Accuracy, independent of the nature of the response variable.
+Next, we will consider how the accuracy measurement changes when more
+complex responses are predicted, such as multidimensional responses or
+textual responses.
+
+Accuracy of Predictions
+
+The measurement of predictive accuracy draws on the comparison between
+the predicted and the observed evidence. Typically, simpler models
+(e.g., regression models) are less accurate than more complex models
+(e.g., neural network models). To measure accuracy, we should
+distinguish the case of numerical response variables (prediction
+problems) from that of categorical response variables (classification
+problems). We should also distinguish the case of machine learning
+models based on structured data from the case of large language models
+based on unstructured data.
+
+In this chapter, we’ll describe two main benchmark metrics from a
+statistical point of view: the Rank Graduation Accuracy (RGA)
+metrics,^(18, 19) which measures the “distance” between the predicted
+output and the true (or expected) output, for models based on structured
+data, and the TrustGPT benchmark,²⁰ which measures a similar distance,
+for large language models based on unstructured data.
+
+When the target response variable is numerical, accuracy measures rely
+on the distance between the predictions and the ground truth values; the
+most common are based on the mean squared error (MSE).
+
+Mathematically, the mean squared error is defined as follows:
+
+mean(ypredicted -ytrue)^2,
+
+The arithmetic mean of the squared differences between each predicted
+value and the corresponding true (or expected) value.
+
+Table 2-1 exemplifies how the mean squared error is calculated for a
+financial investment problem in which a machine learning model was asked
+to predict the Return on Average of five listed companies for the year
+2023. The predictive accuracy of the model can be assessed by comparing
+the predictions (AI output) with the values of Return on Equity (ROE)
+for the same companies, which were the actual results gained actually
+realized in 2023 (ground truth).
+
+Table 2-1
+
+An example of a calculation for mean squared error from a finance
+perspective
+
+  Actual ROE (%)   Predicted ROE (%)   Error    Squared Error
+  ---------------- ------------------- -------- ---------------
+  3.912            3.679               –0.233   0.054289
+  2.171            –0.327              –2.498   6.240004
+  –16.649          –0.293              16.356   267.518736
+  10.705           10.325              –0.38    0.1444
+  1.302            2.047               0.745    0.555025
+  MEAN             MEAN                MEAN     MEAN (MSE)
+  0.2882           3.0862              2.798    54.9024908
+
+In Table 2-1, we have also calculated the errors of the predictions, and
+their mean, that is, the mean of the differences between the predicted
+and the observed value. The mean error can be, however, misleading, as
+negative errors may compensate for positive errors, and vice versa. For
+this reason, we calculate the mean of the squared errors, leading to the
+mean squared error which, in the example, turns out to be equal to about
+54.90.
+
+From an interpretational viewpoint, the mean squared error may not be
+appropriate, as it squares the original scale of the ROE. For this
+reason, it is customary to consider RMSE (root mean squared error),
+which is the square root of the mean square error, which brings back the
+accuracy metrics to the scale of the considered values (percentages in
+the example, rather than squared percentages).
+
+For the considered example, RMSE is equal to about 7.41 – a very large
+value compared to the mean of the actual ROE. This indicates that, for
+this simple example, the AI output is not very accurate.
+
+From a more mathematical viewpoint, the RMSE corresponds to the
+Euclidean distance of the vector of predicted values from the ground
+truth. Euclidean distance refers to the classic standard geometric
+distance, such as the distance between two cities.
+
+From the Responsible AI viewpoint, once the RMSE of a machine learning
+model is calculated, we need to understand whether the specific
+measurement indicates that the AI application is accurate or not. In
+other words, a decision must be taken, based on the value of the metric.
+
+To proceed with this aim, the RMSE presents a problem which needs to be
+solved: How do we compare two different AI applications, in which the
+unit of measurement is different? It seems that we can only interpret
+the RMSE in a relative and not in an absolute sense. That is, we can use
+it for a specific response to be predicted and compare the values of the
+RMSE, obtained with different models and/or across different time and
+space units. This is what many scholars do, and it is fine in a
+continuous monitoring (quality control) perspective.
+
+To solve the problem, a decision rule for the RMSE can be provided by
+resorting to the statistical theory of hypothesis testing, as proposed
+by Diebold and Mariano.²¹ Diebold and Mariano propose to test, for a
+given response variable, whether the predictions from two competing
+models are equal (H0), y(M1)=y(M2), against the alternative hypotheses
+that they are different. The test can be conducted comparing the RMSE of
+the two models and will lead to a small p-value when the two RMSE are
+statistically different. The result will depend not only on the actual
+difference between the RMSE (the higher, the lower the p-value) but also
+on the sample size considered (the higher, the smaller the p-value) and
+on the complexity of the models being compared (the higher, the larger
+the p-value). We recall that the p-value is the probability of obtaining
+a value of a statistic (the RMSE) larger than the observed one, so a
+small p-value (e.g., lower than 5%) indicates that the difference
+between the RMSE is so large that it can be exceeded with a small
+probability. On the other hand, a large p-value (e.g., higher than 5%)
+indicates that the difference between the RMSE is so small that it can
+be exceeded with a large probability.
+
+Thus, the RMSE, with the associated p-value, can provide a decision rule
+to check the accuracy of an AI application: the lower the RMSE, the
+better the accuracy. If we require that the accuracy is higher than a
+given bound (corresponding to a risk appetite threshold or to the
+accuracy of an existing benchmark model), we can compare the obtained
+accuracy with the bound by means of Diebold and Mariano’s test: if the
+p-value is lower than a set threshold (such as 5%), the model
+significantly improves the accuracy.
+
+The p-value of the statistical test implicitly provides a normalization
+of the RMSE, allowing to compare different situations with a common
+metric. This is, however, under the specific assumptions of the test,
+for example, that the response to be predicted by the compared models is
+the same.
+
+This limitation does not allow us to compare the performance of a model
+for two different responses, such as the performance in predicting the
+ROE vs. the performance in predicting the ROI, for example. This may be
+an interesting problem too, which can be solved by generalizing the RMSE
+into a different, more universal measure, as the RGA that will be
+proposed later in this chapter.
+
+Before moving to the RGA, let’s focus on the case in which the variable
+to be predicted is categorical.
+
+Accuracy of Classifications
+
+When the target response is categorical, we cannot use the Euclidean
+distance as previously done to evaluate accuracy. We can however count
+the number of times in which the output classifies an observation with
+the label it has in reality (correct classifications) and the number of
+times in which the output classifies an observation with the wrong
+label, different from the real one (wrong classifications). In the
+binary case, the wrong classifications can be false positive (FP,
+predicting an observation to be a positive event, when it is not) and
+false negative (FN, predicting an observation to be a negative event,
+when it is not). An AI model would then be accurate when the percentage
+of FP and FN is low.
+
+To exemplify the calculation of FP and FN, consider Table 2-2, which
+considers a classification problem in which, for a set of companies, we
+need to predict whether they will default (TRUE=1) or not (FALSE=0),
+based on their available balance sheet ratios. The response variable (Y)
+is a binary variable, taking 0 and 1 as possible values. Table 2-2
+reports the credit scores (estimated probabilities of default) for five
+companies, obtained from a machine learning model aimed at predicting Y,
+using the available balance sheet data. It also shows how the false
+positives and the false negatives are calculated. The predictive
+accuracy of the model can be assessed by comparing the credit scores (AI
+output) with the default status of the same companies at the end of the
+year (ground truth).
+
+Table 2-2
+
+An example of FPs and FNs for a balance sheet
+
+  Actual Label   Predicted Score   Predicted Label   Error
+  -------------- ----------------- ----------------- -------
+  0              0.52              1                 FP
+  1              0.85              1                 TP
+  1              0.71              1                 TP
+  0              0.10              0                 TN
+  1              0.46              0                 FN
+
+The first column of Table 2-2 contains the response to be predicted, the
+actual label: either 0 (non-default) or 1 (default). The second column
+contains the credit score: the predicted probability that the
+corresponding company will default or not. To classify such companies as
+default or not, a machine learning model needs to compare the predicted
+score with a threshold. If the score is higher, we predict with 1; if it
+is lower, we predict with 0. In Table 2-2, we have adopted a majority
+rule, that is, a threshold equal to 0.5. This leads to the predictions
+in column 3. Comparing column 3 with column 2, we obtain two errors. In
+the first row, a company is predicted to default, but it is not in
+reality: a false positive. In the fifth row, a company is predicted not
+to default, but it is actually defaulted: a false negative. The other
+rows are correct: either true positive or true negatives.
+
+If we change the threshold and set it, for example, to the observed
+percentage of defaults (0.6), we will obtain the results in Table 2-3.
+
+Table 2-3
+
+An example of the predicted score and labels in relation to their
+results
+
+  Actual Label   Predicted Score   Predicted Label   Error
+  -------------- ----------------- ----------------- -------
+  0              0.52              0                 TN
+  1              0.85              1                 TP
+  1              0.71              1                 TP
+  0              0.10              0                 TN
+  1              0.46              0                 FN
+
+From Table 2-3, note that, by changing the threshold, we obtain no false
+positives but one false negative.
+
+A problem with the FP and FN statistics, and with related measures in
+general, such as the total misclassification error (FP+FN), is that they
+depend not only on the AI model, which produces a score, but also on the
+decision threshold that is employed to turn the score into a predictive
+class. To avoid this dependence, researchers have developed the concept
+of the Receiving Operating Characteristic (ROC) curve. The ROC joins a
+set of points whose coordinates are the true positive rate (TPR) and the
+false positive rate (FPR), obtained in correspondence of different
+thresholds. To exemplify, from Table 2-2, we would get a true positive
+rate equal to 2/3: out of three companies predicted as positive
+(default) where two are actually positive. From the same Table 2-2, we
+would get a false positive rate equal to 1/3: out of three companies
+predicted as positive, where one is negative. From Table 2-3 instead we
+obtain 1 and 0. We can repeat the procedure changing the threshold, each
+time we would obtain a point in the [0,1] X [0,1] with coordinates (TPR,
+FPR). For example, if we repeat the calculation for 100 thresholds,
+obtaining repeating increments of 1%, starting from 0%, we would get a
+figure like Figure 2-1.
+
+In Figure 2-1, two models (Model 1 and Model 2) are compared in terms of
+their ROC curve, previously described. An ideal model would have a curve
+that coincides with the Y-axis: TP always equal to 1 and FP always equal
+to 0. The bisector line corresponds with a random model: FP is always
+equal to FN. In general, the higher the Area Under the ROC Curve (AUC or
+AUROC), the better the AI model.
+
+[]
+
+A Receiver Operating Characteristic (ROC) curve comparing two models.
+The x-axis represents the false positive rate, and the y-axis represents
+the true positive rate. Model 1 is shown in red with an Area Under the
+ROC Curve (AUROC) of 0.621, and Model 2 is in blue with an AUROC of
+0.799. Model 2 demonstrates better performance with a higher true
+positive rate across various false positive rates.
+
+Thus, the AUC provides a metric to assess the accuracy of binary
+classifications: between 0 and 1 and the higher, the better. This
+metric, different from the RMSE, is normalized and, therefore, valid to
+compare different models and models applied to various response
+variables.
+
+A decision rule for the AUROC can be provided, similar to what is seen
+for the RMSE, to evaluate whether a given value indicates a
+statistically significant accuracy. This is possible, thanks to the test
+proposed by DeLong et al.²² The authors obtain a statistical test to
+compare the AUROC of two alternative models to test for a given binary
+response variable, whether the predictions from two competing models are
+equal (H0), y(M1)=y(M2), against the alternative hypotheses that they
+are different. The test can be conducted comparing the AUROC of the two
+models and will lead to a small p-value when the two AUROC are
+statistically different. The result will depend not only on the actual
+difference between the AUROC (the higher, the lower the p-value) but
+also on the sample size considered (the higher, the smaller the p-value)
+and on the complexity of the models being compared (the higher, the
+larger the p-value). A small p-value (e.g., lower than 5%) indicates
+that the difference between the AUROC is so large that it can be
+exceeded with a small probability. On the other hand, a large p-value
+(e.g., higher than 5%) indicates that the difference between the AUROC
+is so small that it can be exceeded with a large probability.
+
+Thus, the AUROC, with the associated p-value, can provide a decision
+rule to check the accuracy of an AI application: the higher the AUROC,
+the better the accuracy. If we require that the accuracy is higher than
+a given bound (corresponding to a risk appetite threshold or to the
+accuracy of an existing benchmark model), we can compare the obtained
+accuracy with the bound by means of DeLong’s test: if the p-value is
+lower than a set threshold (such as 5%), the model significantly
+improves the accuracy.
+
+In this case, the p-value of the statistical test provides a further
+normalization of the AUROC that can be used to assess the accuracy of
+the predictions of a machine learning model for a response variable
+which is either numeric or binary.
+
+When the response variable is categorical, but with multiple responses
+(ordinal), the above derivation can still be used in a recursive way:
+each time comparing one response class against all others. For example,
+if we have 10 class labels, we can first compare class 0 against 1–9,
+then class 1 against 2–8, and so on. To avoid these cumbersome
+calculations, we need to resort to a different measure.
+
+RGA: A Unified Measure of Accuracy
+
+In this section, we present a general measure of accuracy that can be
+employed to treat the binary, ordinal, and continuous response case in a
+unified manner. This is the Rank Graduation Accuracy measure, proposed
+by Giudici and Raffinetti.
+
+The authors propose a framework that leads to a very general and
+normalized accuracy measure, valid for all ordered variable scales:
+continuous, ordinal, and binary.
+
+The framework is based on the notion of concentration curve, introduced
+by the American economist Max Lorenz in 1905 to study the inequality in
+the distribution of incomes in a population. To illustrate this concept,
+consider a stylized population composed of five individuals with their
+annual incomes (in thousand dollars, ordered from the lowest to the
+highest) described in Table 2-4.
+
+Table 2-4
+
+An example of the concentration curve (Qi) and the frequency curve (Fi)
+framework looking at various incomes in a population
+
+  Individuals   Income   Fi: Cumulative % of Individuals   Qi: Cumulative % of Income (Lorenz Curve)   Fi-Qi
+  ------------- -------- --------------------------------- ------------------------------------------- -------
+  1             50       0.20                              0.10                                        0.1
+  2             80       0.40                              0.26                                        0.14
+  3             100      0.60                              0.46                                        0.14
+  4             120      0.80                              0.7                                         0.1
+  5             150      1                                 1                                           0
+
+Table 2-4 can be employed to understand how unequal the distribution of
+incomes is by comparing the actual distribution (described by the
+percentage in the fourth column) with the theoretical distribution
+corresponding to the case of equal incomes (described by the percentages
+in the third column).
+
+We can calculate the distance between the cumulative distributions Qi
+(the concentration curve, or Lorenz curve) and Fi (the frequency curve),
+summing the first four differences (Fi-Qi) in column 5. The calculation
+gives a value of 0.48. The larger the inequality, the larger the sum of
+the differences. We can normalize the sum dividing it by the maximum
+value it can assume: the case in which all Qi are zero and the fifth
+individual has all the income, corresponding to maximum concentration.
+This maxima can be calculated summing the first four Fi values in column
+3, and it is equal to 2.0. If we divide 0.48 by 2.0, we obtain the
+concentration ratio, or Gini index: 0.24. The Gini index was introduced
+by the Italian statistician Corrado Gini in 1921, and it has always been
+employed as a benchmark metric to measure inequality in the distribution
+of income, wealth, or other transferable characters. As in our example,
+the Gini index is a number between 0 and 1, and the higher it is, the
+higher the inequality.
+
+Mathematically, the Gini index can be calculated as follows:
+
+2*sum(Fi-Qi)/sum(Fi).
+
+The Gini index coincides with the area between the Qi Lorenz curve and
+its dual, Qi’, obtained cumulating the incomes in reverse order (the
+dual Lorenz curve, Qi’): this area is known as the Lorenz Zonoid. It can
+also be shown that the Gini index is equivalent to the mean of the
+differences between all pairs of individuals, divided by the mean
+income: this indicates that the Gini index measures the statistical
+dispersion in terms of the mutual variability among the observations,
+rather than as a variability from the mean (as it occurs for the mean
+squared error).
+
+The reader may have noted the similarities between the construction of
+the Gini index and that of the AUROC. It can indeed be shown that, when
+income, which is a quantitative variable, is replaced with a binary
+variable, Gini = 2 * AUROC – 1.
+
+This relationship suggests further exploitation of the connection
+between predictive accuracy and the Gini concentration. This is what
+Giudici and Raffinetti discussed, providing a methodology to measure the
+concentration of the response value in a machine learning problem
+similar to the income in the study of inequality.
+
+Given the actual values to be predicted, Y (they could be continuous
+values: ROE of companies; ordinal values: rating of companies; binary
+variables: default of companies), their Lorenz and dual Lorenz curves
+can be built, respectively, using the pairs (Fi,Qi) and (Fi, Q’i) as
+coordinates, as we have already seen. We can also build a third curve
+that will be named concordance curve, with coordinates (Fi, Ci). The
+coordinates Ci are obtained cumulating the Y values ordered not
+according to their ranks (as in the Lorenz curve) but according to the
+ranks of the corresponding predictions. To better understand the notion,
+Figure 2-2 represents, in the same graph, the Lorenz curve, the dual
+Lorenz curve, and the concentration curve for a given set of machine
+learning outputs Y.
+
+[]
+
+A graph displaying three curves labeled \(L'_Y\), \(C\), and \(L_Y\)
+plotted against the axes \(f(p)\) and \(p\). The green curve \(L'_Y\) is
+above the red curve \(C\), which is above the blue curve \(L_Y\). The
+black diagonal line represents a baseline for comparison. The x-axis
+ranges from 0.0 to 1.0, and the y-axis ranges from 0.0 to 1.0,
+indicating a probability distribution.
+
+From Figure 2-2, note that the Lorenz curve, Ly, and its dual, L’y, are
+symmetric around the 45-degree line and that the concordance curve C
+lies between them. When the ranks of the predictions are the same as
+those of the response to be predicted, we have a perfect concordance:
+the concordance curve is equal to the Lorenz curve. When the ranks of
+the predictions are the same as the inverse ranks of the response, we
+have a perfect discordance: the concordance curve is equal to the dual
+Lorenz curve. In general, for any given point, the distance between the
+concordance curve and the Lorenz curve reveals how the ranks of the
+predicted value differ from that of the best case, which is equal to the
+ranks of the observed value. And, for any given point, the distance
+between the concordance curve and the dual Lorenz curve reveals how the
+ranks of the predicted value differ from that of the worst case, which
+is equal to the rank of the inversely ordered value.
+
+This suggests that a summary accuracy metrics for a model can be
+obtained by considering the area between the dual Lorenz curve and the
+concordance curve and dividing it by its maximum possible value: the
+area between the dual Lorenz curve and the Lorenz curve. This is the
+Rank Graduation Accuracy (RGA) measure.
+
+Mathematically, the Rank Graduation Accuracy measure (RGA) is defined by
+
+sum(Q’i-Ci)/sum(Q’i-Qi).
+
+The RGA measure has some important properties, and in particular
+
+1.  1)
+
+    It is normalized: RGA=0 in the worst case of a perfectly discordant
+    model; RGA=1 for the best case of a perfectly concordant model;
+    otherwise, 0<RGA<1, with RGA=0.5$ in the case of random predictions.
+
+     
+
+2.  2)
+
+    In the binary case, RGA=AUROC. However, RGA can be calculated, in
+    the same way, also for categorical ordinal and continuous variables,
+    providing a very general measure of accuracy.
+
+     
+
+3.  3)
+
+    To assess whether the RGA metric passes a set threshold, indicating
+    a minimum level of accuracy, a statistical test for RGA is
+    available. When the response Y is binary, the test coincides with
+    DeLong’s test. In the general case, a statistical test based on
+    U-statistics can be derived. In all cases, the higher the RGA, the
+    higher the predictive accuracy, and the smaller the p-value, the
+    more significant is the found RGA with respect to a given lower
+    bound.
+
+     
+
+We now exemplify the calculation of the concordance curve and of the RGA
+with a numerical example. Suppose we have five predictions for a
+response variable as discussed in Table 2-3, described by the columns
+“predicted response”, “predicted ranks”, and “QPi: cumulative % of
+predictive response”, using the predicted ranks, as described in Table
+2-4. We also add the calculation of the differences of Q’i-Qi (Dual –
+Lorenz) and Q’i-QPi (Dual – Concordance).
+
+Table 2-5
+
+An example of the calculated differences of Q’i-Qi (Dual – Lorenz) and
+Q’i-QPi (Dual – Concordance)
+
+  Individual   Observed Response   Qi: Lorenz Curve   Q’i: Dual Lorenz Curve   Predicted Response   Predicted Ranks   QPi    Q’i-Qi   Q’i-QPi
+  ------------ ------------------- ------------------ ------------------------ -------------------- ----------------- ------ -------- ---------
+  1            50                  0.10               0.3                      70                   1                 0.10   0.2      0.2
+  2            80                  0.26               0.54                     100                  3                 0.30   0.28     0.24
+  3            100                 0.46               0.80                     80                   2                 0.46   0.34     0.34
+  4            120                 0.7                0.90                     130                  5                 0.76   0.20     0.14
+  5            150                 1                  1                        120                  4                                  
+
+Taking the sum of the differences of Q’i-Qi in Table 2-5, we obtain
+1.02, whereas the sum of the differences of QP’i-Qi gives 0.92. Thus,
+the RGA metrics becomes 0.92/1.02 = 0.90 indicating an accuracy that is
+high, much higher than that of a random model (which has RGA = 0.5). In
+fact, the predictions only swap two consecutive ranks, with respect to
+the actual data.
+
+Note that the value of RGA depends only on the actual values of the
+response (which are a given and are constant for all possible predictive
+models) and on the concordance between the observed and the predicted
+ranks, but not on the values of the predictions. If the prediction of
+the income of the fourth individual had been 121 or 200, the result
+would not have changed. Differently, had the same prediction been 119,
+the predicted rank would have become 4, and the RGA would become
+0.98/1.02 = 0.961, better.
+
+Consider now the case of a model with low accuracy, as shown in Table
+2-6.
+
+Table 2-6
+
+An example of the calculated differences of Q’i-Qi (Dual – Lorenz) and
+Q’i-QPi (Dual – Concordance)
+
+  Individuals   Observed Response   Qi: Lorenz Curve   Q’i: Dual Lorenz Curve   Predicted Income   Predicted Ranks   QPi    Q’i-Qi   Q’i-QPi
+  ------------- ------------------- ------------------ ------------------------ ------------------ ----------------- ------ -------- ---------
+  1             50                  0.10               0.3                      120                5                 0.3    0.2      0
+  2             80                  0.26               0.54                     100                4                 0.54   0.28     0
+  3             100                 0.46               0.80                     90                 3                 0.80   0.34     0
+  4             120                 0.7                0.90                     70                 1                 0.84   0.20     0.06
+  5             150                 1                  1                        80                 2                                  
+
+For the predictions in Table 2-6, we obtain that the sum of the
+differences of Q’i-Qi is again 1.02, whereas the sum of the differences
+of QP’i-Qi gives 0.06. Thus, the RGA metrics becomes 0.06/1.02 = 0.06,
+indicating an accuracy that is very low, much lower than that of a
+random model. In fact, in this case, the ranks of the predictions are
+very close to those of the dual Lorenz.
+
+As already discussed, the RGA measure depends on the concordance between
+the observed and the predicted ranks: this explains the name “Rank
+Graduation Accuracy.” The higher the concordance, the higher the RGA.
+The concordance is, however, “weighted” by the value of the response:
+the higher it is, the higher the weight of a discordance.
+
+The advantage of using a rank-based measure of accuracy becomes evident
+considering that the same measure can be used for ordinal and binary
+variables and that, in the latter case, it coincides with the AUROC.
+Table 2-7 exemplifies the calculation of the RGA for the binary case,
+with a numerical example that employs the data in Table 2-3.
+
+Table 2-7
+
+An example of RGA calculation
+
+  Individuals   Observed Response   Qi: Lorenz Curve   Q’i: Dual Lorenz Curve   Predicted Response   Predicted Ranks   QPi    Q’i-Qi   Q’i-QPi
+  ------------- ------------------- ------------------ ------------------------ -------------------- ----------------- ------ -------- ---------
+  1             0                   0                  0.33                     0.52                 3                 0      0.33     0.33
+  2             0                   0                  0.66                     0.10                 1                 0.33   0.66     0.33
+  3             1                   0.33               1                        0.85                 5                 0.33   0.66     0.66
+  4             1                   0.66               1                        0.71                 4                 0.66   0.33     0.33
+  5             1                   1                  1                        0.46                 2                 1                
+
+From Table 2-7, we can easily calculate RGA, in the same way as for a
+continuous response, and it is equal to 0.83. Note that, in the binary
+case, RGA does not change if ranks change but only within the same Y
+response label. For example, if the fourth individual receives a score
+larger than the third, nothing changes.
+
+We conclude with the Python code required to calculate the RGA for any
+given machine learning application.
+
+The function is called
+
+- check_accuracy
+
+It provides the RGA function which can calculate the Rank Graduation
+Accuracy (RGA) of a model, for classification (categorical response) or
+for prediction (continuous response):
+
+- rga(y, yhat)
+
+The inputs of the function are
+
+- y: The actual values of the target variable which can be categorical
+  or continuous based on the problem, classification, or prediction,
+  respectively
+
+- yhat: The predicted values estimated by the model, for which we wish
+  to find the RGA metric
+
+More details on the Python implementation, including a statistical test
+for RGA, which provides a corresponding p-value, as for AUROC and RMSE,
+are provided in the appendix.
+
+Accuracy of Multidimensional Predictions
+
+Sometimes, the response to be predicted is not a simple variable,
+numerical or categorical, but, rather, a multidimensional response. The
+most relevant examples are that of images, in which the response to be
+predicted can be represented in terms of a set of variables related to
+the different pixels in which an image can be subdivided, or that of
+documents, in which the response to be predicted can be represented in
+terms of a set of variables, related to different keywords or sentences.
+
+In both cases, predictive accuracy can be measured in terms of the
+distance or of the similarity between two multidimensional vectors of
+variables: the vector of the predictions and the observed (true) vector.
+
+Let’s consider the case of document predictions. Assuming that a
+document can be structured in terms of measures defined by a collection
+of words, or of groups of words (tokens), we can compare a prediction
+with the true outcome measuring the similarity between the two. There
+are different metrics to measure such similarity. The most popular ones
+are the cosine similarity.
+
+The cosine similarity between two text documents is the cosine of the
+angle between their word vectors. The word vectors are typically
+represented in terms of Term Frequency–Inverse Document Frequencies
+(TF-IDF), representing the importance of each word in a document. When
+the cosine of the angle takes values close to 1, the two documents are
+very similar. When the cosine takes values close to 0, the two documents
+are orthogonal: have unrelated contexts. Finally, when the cosine takes
+values close to –1, the two documents have an opposite context. Cosine
+similarity is much used in natural language processing and particularly
+in document classification, document search, and recommendation systems.
+
+The Levenshtein distance, or edit distance, measures how many edits must
+be made to transform one text into another. It is applied in situations
+where the documents are to be matched, such as translations and
+spell-checking.
+
+The Jaccard distance is the proportion of common elements (words or
+tokens) between two documents: the ratio between the number of common
+elements (intersection between two sets) and the number of total
+elements (union between the two sets). The Jaccard distance is useful
+when two documents are compared with respect to whether they contain
+certain words, rather than in their actual content.
+
+The Euclidean distance can be used to measure the distance between two
+documents, when they are expressed in terms of the frequency of
+occurrence of a given set of keywords.
+
+This type of distance can also be used for word embeddings, which
+represent each word or token as a vector of real numbers, with each
+dimension reflecting a different semantic feature. Word embeddings are
+much used in text classification and information retrieval and are
+typically learned from large corpora of data using neural network models
+such as the well-known Word2Vec and GloVe. With this representation,
+semantically similar words are close in the space described by their
+distance. Large language models (LLMs) utilize advanced models of word
+embedding, such as BERT and its variants.
+
+All the above distances (and, more generally, all distances between text
+documents) can lead to single summary measures of similarity between the
+predicted and the observed vector: the cosine of the angle, the number
+of edits, the proportion of common elements, the Euclidean distance
+between word frequencies or word embeddings. We can thus apply the
+proposed RGA measure to such a summary, for a series of text documents
+to be predicted as if they were the predictions (and observed values) of
+a continuous variable.
+
+For images, we can follow a similar strategy. Images are easier to
+represent, as they are made up of pixels and, for each pixel, several
+measurements are available, such as the intensity of the three base
+colors – red, blue, and green – or the gray level. Then, the distance
+between the observed (true) image and the predicted one can be
+calculated using the Euclidean distance, the cosine of the angle between
+the two vectors, or the Euclidean distance between a lower dimensional
+representation, similar to word embeddings. In any case, the RGA measure
+can be applied to the summary distance or similarity, similarly as for
+text documents.
+
+Accuracy of Textual Predictions
+
+When the output is a textual response, as in large language models, we
+do not always have a ground truth as a benchmark against which to
+measure the accuracy of the output. In this case, accuracy metrics still
+exist, although they are more subjective and require a higher degree of
+human intervention. A notable example is provided in the work of Huang
+et al. The authors propose to measure three negative characteristics for
+the output of large language models: their toxicity, their bias, and
+their value alignment. Toxicity is defined as the generation of rude,
+disrespectful, or unreasonable text and is measured by calculating the
+percentage of toxic outputs among a given list of social norms which are
+prompted to the model, asking to say something bad about them. Bias is
+the difference in toxicity when the same previous questions are asked to
+different population groups; a large variation in toxicity indicates
+bias. Finally, value alignment is measured by asking the model to
+evaluate a positive or negative description of a social norm and
+measuring the percentage of times in which the answer is discordant
+(i.e., negative when the description is positive and vice versa). Huang
+et al., suggest to use the Mann-Whitney statistics to evaluate the
+significance of a bias that is a significant difference in the results
+about toxicity in different population groups. The same test statistics
+can be used to compare value alignment.
+
+It’s important to note the Mann-Whitney statistics is equivalent to the
+AUROC and, more generally, to the RGA metrics that we have proposed
+before. Thus, the proposed RGA statistics can be employed to measure the
+accuracy of AI models, in all situations.
+
+The example just discussed can be generalized to many other tools that
+evaluate large language models, which typically do not have a “true”
+benchmark. For example, it can be applied to the evaluation of
+“hallucination,” that is, the generation of text that is incorrect, that
+is, does not align with the given context. A popular evaluation tool for
+this example is the Hallucination index, which calculates the mean AUROC
+in different triples of questions-evidence-answers.
+
+What Benchmarks Will You Use?
+
+In addition to measurement and metrics, benchmarks are the bread and
+butter of AI development where they’re used by ML developers on a
+regular basis to assess the performance of ML models against others
+using various datasets, with the ultimate goal to ensure a model that’s
+quite good, state of the art, and ultimately the “best.” To follow on
+from the sections above, let’s take a look at the SuperGLUE benchmark²³
+as an example, a popular benchmark used to evaluate the performance of
+NLP (natural language processing) models/LLMs.
+
+Before delving into the SuperGLUE’s tasks, let’s state some of the
+prevailing issues with LLMs today where developing accurate performance
+metrics could help resolve some of these issues:
+
+- LLMs are quite infactual and produce incorrect information, known as
+  hallucinations.
+
+- LLMs are known to produce gibberish output when given some certain
+  prompts, otherwise known as “jailbreaks” or “jailbreaking prompts.”
+
+- LLMs can produce unsafe, discriminatory, and biased outputs when left
+  unchecked.²⁴
+
+To address some of these prevailing issues identified with LLMs,
+benchmarks are usually the best evaluation method. SuperGLUE is an
+improved version of GLUE which stands for General Language Understanding
+Evaluation. SuperGLUE was introduced about a year after GLUE was
+launched in 2019 as the new introduction of large language models (LLMs)
+surpassed the level of non-expert human annotators, making the benchmark
+a bit redundant, with little room for further research. Researchers from
+New York University, DeepMind, Facebook AI Research, and the University
+of Washington launched “SuperGLUE: A Stickier Benchmark for
+General-Purpose Language Understanding Systems.” The benchmark was
+introduced with more difficult language understanding tasks, a software
+toolkit, and a public leaderboard. Each English language task evaluates
+the accuracy of the NLP model.
+
+According to Wang et al., SuperGLUE is built on eight language
+understanding tasks, which are more challenging and diverse and include
+comprehensive human baselines compared to GLUE. The eight tasks include
+the following:
+
+1.  1.
+
+    Boolean Questions: A question-answering (QA) task working with a
+    Wikipedia article and a yes/no question about the model.
+
+     
+
+2.  2.
+
+    CommitmentBank (CB): Consists of short texts containing a clause
+    obtained from various sources such as The Wall Street Journal,
+    Switchboard, the British National Corpus, and so on.
+
+     
+
+3.  3.
+
+    Choice of Plausible Alternatives (COPA): A causal reasoning task
+    where the model is tasked to discern the cause or effect within a
+    sentence.
+
+     
+
+4.  4.
+
+    Multi-Sentence Reading Comprehension (MultiRC): A QA task with true
+    or false classification involving a context paragraph, related
+    question, and multiple potential answers.
+
+     
+
+5.  5.
+
+    Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD): A
+    multi-choice QA task where the system is meant to predict the masked
+    out entity from provided options. This task involves a news article
+    and a question with a masked out entity.
+
+     
+
+6.  6.
+
+    Recognizing Textual Entailment (RTE): These datasets are from a
+    series of annual competitions on textual entailment. Evaluating for
+    accuracy, the data is merged and combined to a two-class
+    classification: entailment and not_entailment.
+
+     
+
+7.  7.
+
+    Word-in-Context (WIC): A binary classification of sentence pairs,
+    where the model’s task is to determine whether a word is used with
+    the same intent in both sentences, when given two text snippets and
+    a polysemous word that appears in both sentences.
+
+     
+
+8.  8.
+
+    Winograd Schema Challenge (WSC): Consists of a coreference
+    resolution task with examples that have a sentence with a pronoun
+    and a list of noun phrases from the sentence. The system is tasked
+    to select the correct referent of the pronoun from the provided
+    multiple choices.
+
+     
+
+There are so many other benchmarks and research frameworks available for
+LLMs, such as the HELM (Holistic Evaluation of Language Models) by
+Stanford University, LM Evaluation Harness by Eleuther AI, PromptBench
+by Microsoft, Chatbot Arena by LMSys.org, SQuAD for question-answering
+tasks, and IMDB for sentiment analysis. Depending on the use case and
+version of AI you’re working with, it’s important to identify and run a
+couple of benchmarks to test the accuracy of your model(s). It is
+important to underline that, while very useful to check the compliance
+of AI applications, benchmarks cannot be simply used in a risk
+management model. To do so, statistical metrics such as RGA are
+necessary.
+
+However, ensuring the use of a benchmark or multiple benchmarks to test
+the compliance for various Responsible AI principles is best practice
+and highly recommended.
+
+How Will You Communicate This As Needed?
+
+Communicating the performance and accuracy of an ML model could be
+carried out in various ways, ranging from a research paper uploaded to
+arXiv or a similar platform and presenting at a leading ML conference.
+Also, ensuring performance is communicated in a clear, concise, and
+simple manner on the website/application where applicable. This is
+important as it addresses “transparency” which is an important
+Responsible AI principle and could help improve the trust index of
+consumers and users.
+
+Scoring Rubric
+
+A scoring rubric assists with performance assessment against a standard
+set of criteria. It acts as a tool to guide ML practitioners on the
+performance of their ML model(s) in relation to a particular ML metric.
+In this case, we’ll apply a scoring to the various Responsible AI
+principles outlined in this book. Let’s look at a very simple rubric for
+accuracy.
+
+                                            Excellent   Good      Fair      Borderline   Poor
+  ----------------------------------------- ----------- --------- --------- ------------ --------
+  Are the outputs of your model accurate?   75%–90%     70%–75%   60%–70%   40%–60%      0%–40%
+
+Mitigation
+
+Now that you have a thorough understanding of the importance of accuracy
+as a Responsible AI principle and how it could affect the performance of
+your ML model(s), and ultimately the success of your business, it’s
+important to understand various mitigation and improvement measures to
+improve the performance of your ML model(s).
+
+The accuracy of your model could potentially make or break your
+business, for example, if you have an ML model that identifies
+fraudulent claims and the accuracy of your model is poor, it means that
+you could be falsely accusing innocent people of fraudulent claims. This
+could not only damage the reputation of your business and
+potential/existing customers, it could also lead to reputational damage,
+lawsuits, and consequently regulatory fines.
+
+Depending on if you have a poor accuracy score from the above rubric,
+the next step is to optimize performance by carrying out the following:
+
+1.  1.
+
+    Increase the number of data in your training set. The more examples,
+    the more accurate the model’s performance will be. The only caveat
+    to note is increased data equals increased cost, unless using
+    synthetic data.
+
+     
+
+2.  2.
+
+    Increase the number of variables which improves feature processing.
+    Feature processing refers to the selection, manipulation, and
+    transformation of raw data into features used in supervised
+    learning.
+
+     
+
+3.  3.
+
+    Tune your model parameters while considering alternate values for
+    the training parameters used in your learning algorithm.
+
+     
+
+There are a few additional things to consider such as the model fit. Is
+it underfitting or overfitting? Your model is “underfitting” when it
+performs poorly on the training data, and it’s “overfitting” when on the
+flip side, it performs well on the training data, but poorly on the
+evaluation data. When this happens, it’s usually due to memorization of
+the data it’s been trained on, and the model is unable to generalize
+unseen examples.
+
+Underfitting can be resolved by increasing the model flexibility and
+reduction of the amount of regularization used. Regularization refers to
+a set of techniques used to reduce model complexity and increase
+generalization which improves model accuracy. To solve overfitting,
+reduce the model flexibility through less feature combinations, n-grams
+size, or increase the amount of regularization used.²⁵
+
+To summarize, in this chapter we looked at “accuracy,” a few key
+questions from NIST’s risk management framework to consider when testing
+for accuracy, RGA which is a unified measurement for accuracy using the
+“Rank Graduation” measure, ways to evaluate the performance of your ML
+algorithms and models, a couple of benchmarks, and mitigation
+recommendations. In the next chapter, we’ll look at robustness and how
+to ensure you have secure and robust ML models.
+
+© Toju Duke and Paolo Giudici 2025
+
+T. Duke, P. GiudiciResponsible AI in

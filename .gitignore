@@ -1,0 +1,6 @@
+localonly/
+literature/**/study_guide/.venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+.DS_Store

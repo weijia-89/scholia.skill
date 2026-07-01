@@ -1,0 +1,357 @@
+ai_engineering_2025_ch10_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: ai_engineering_2025 · chapter: 10
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/ai_engineering_2025_ch10_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (ai_engineering_2025_ch10_ingest.md)
+========================================================================
+
+# Chapter ingest — `ai_engineering_2025` · Chapter 10
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** ai_engineering_2025 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch10_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | AI Engineering |
+| **authors** | Chip Huyen |
+| **edition** | 1e (First Edition, December 2024 release) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-16630-4 [verified from text, line 116] |
+| **ISBN_electronic** | 9781098166298 [from corpus_manifest.yaml] |
+| **chapter_number** | 10 |
+| **chapter_title** | AI Engineering Architecture and User Feedback |
+| **page_range** | Not present in text export; logical span from `Chapter 10. AI Engineering Architecture and User Feedback` through `Summary` before Epilogue (21648) |
+
+---
+
+## scope
+
+Chapter 10 is the **systems-integration capstone** of Huyen's AI-engineering framework: how to assemble prior techniques (RAG, guardrails, routing, caching, agents, observability, orchestration) into a production architecture, and how to design **user feedback** as both product signal and proprietary training data for the data flywheel (Ch. 8).
+
+**Major arcs:**
+
+1. **Progressive architecture** — start query→model→response; add context construction, guardrails, router/gateway, system caches, agent loops/write actions (Figs. 10-1 through 10-10).
+2. **Monitoring & observability** — MTTD/MTTR/CFR; metrics/logs/traces; drift (prompt, user behavior, underlying model); evaluation↔monitoring loop.
+3. **Pipeline orchestration** — component definition + chaining; parallel routing/PII; LangChain/LlamaIndex et al.; warning vs Airflow/Metaflow.
+4. **User feedback** — explicit vs implicit; conversational NL feedback signals; when/how to collect; biases and degenerate feedback loops.
+
+**Prerequisites cited:** Ch. 3 (semantic similarity), Ch. 4 (quality metrics), Ch. 5 (prompt attacks, defenses), Ch. 6 (RAG, agents, write actions), Ch. 8 (data flywheel), Ch. 9 (KV/prompt caching, inference latency).
+
+**Out of scope (stated or implied):** full traditional observability treatise; tool-gateway pattern (noted as uncommon); executable production deployment; legal deep-dive on feedback consent.
+
+**Slice boundary note:** Requested lines 19896–23108 include Epilogue, Index, and Colophon after chapter Summary (21645); ingest content stops at chapter-authored Summary + footnotes ¹–¹² (21600–21646).
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Framing
+
+- Only user exposure validates whether an application achieves its goal (lines 19909–19911).
+- User feedback is doubly critical for AI: product guidance **and** model-improvement data source; conversational UI eases giving feedback but complicates signal extraction (19911–19918).
+- Architecture validated across multiple companies as general; individual apps may deviate (19926–19928).
+- Component order is pedagogical, not mandatory (19958–19960).
+
+### Progressive architecture (five steps + observability + orchestration)
+
+| Step | Addition | Core idea |
+|------|----------|-----------|
+| 0 | Baseline | Query → Model API → response; no context/guardrails (19930–19940) |
+| 1 | Context | RAG + tools = "feature engineering" for FMs; provider support varies (19967–19999) |
+| 2 | Guardrails | Input (PII leak, bad prompts); output (quality + security failures); retry/parallel/human fallback (20001–20176) |
+| 3 | Router + gateway | Intent routing; unified multi-vendor interface; access control, cost, fallback (20178–20348) |
+| 4 | Caches | Exact + semantic system caching; leakage warning for personalized answers (20356–20468) |
+| 5 | Agents | Loops, parallel/branching, write actions (email, orders, transfers) (20470–20504) |
+
+**Context construction (Step 1):** Providers differ in document limits, retrieval algorithms, chunk sizes, tool types, parallel function execution, long-running jobs (19984–19993). Context construction ≈ feature engineering for foundation models (19977–19980).
+
+**Guardrails (Step 2):**
+
+- **Input risks:** employee pasting secrets; system-prompt internal data; tools retrieving private DB fields (20017–20029). Mitigate via sensitive-data detection (PII, faces, IP keywords); block or mask with reverse-PII map for unmasking in responses (20031–20056).
+- **Output failures:** empty responses; malformatted JSON; hallucinations; bad quality; toxic/PII/remote-execution/brand-risk content (20067–20097). Track **false refusal rate** alongside security failures (20098–20102).
+- **Retry policy:** probabilistic models → retry on empty/malformed; parallel duplicate calls trade cost for latency (20104–20117). Human transfer on phrases, sentiment anger, or turn-count loops (20119–20126).
+- **Trade-offs:** latency vs reliability; streaming complicates output guardrails (20130–20143). Third-party APIs supply built-in guardrails; self-hosting reduces external-leak input needs (20145–20151).
+- **OTS tools:** Purple Llama, NeMo Guardrails, PyRIT, Azure filters, Perspective API, OpenAI moderation (20160–20167).
+
+**Router (Step 3):** Specialized/cheaper models per intent; out-of-scope stock declines; ambiguity clarification ("Freezing" example) (20183–20220). Next-action predictors for agents and memory hierarchy (20222–20231). Classifiers often GPT-2/BERT/Llama-7B or smaller scratch models—fast/cheap (20233–20238). Context truncation vs reroute when retrieval exceeds target model window (20240–20246). Routing often **before** retrieval; pattern: routing → retrieval → generation → scoring (20252–20258).
+
+**Gateway (Step 3):** Unified wrapper (illustrative Flask/OpenAI+Gemini code, 20284–20315); centralized tokens; per-user/app model ACL; rate-limit/cost monitoring; fallback on API failure (20317–20331). Also load balancing, logging, analytics, caching, guardrails (20333–20336). Examples: Portkey, MLflow AI Gateway, Wealthsimple LLM Gateway, TrueFoundry, Kong, Cloudflare (20338–20341).
+
+**Caching (Step 4):**
+
+- **Exact:** reuse identical queries; embedding-search cache; multi-step/expensive actions benefit; LRU/LFU/FIFO eviction; classifier for cache-worthiness; avoid caching user-specific or time-sensitive queries (20367–20397).
+- **Leakage warning:** membership-dependent return policy cached for wrong user (20401–20408).
+- **Semantic:** embedding similarity threshold; higher hit rate but performance risk; components fragile; vector-search cost (20410–20458). Author: value "more dubious" than exact cache—evaluate before adopting (20442–20458).
+
+**Agents (Step 5):** Response fed back for more retrieval (loop); write actions increase capability and risk (20487–20494). Complexity → more failure modes (20496–20500).
+
+### Monitoring and observability
+
+- Goal = evaluation goal: mitigate risks, discover opportunities (failures, attacks, drift, cost savings) (20518–20524).
+- **DevOps trio:** MTTD, MTTR, CFR—high CFR implies pre-deploy evaluation gap (20526–20546). Evaluation metrics should translate to monitoring; monitoring issues feed evaluation pipeline (20540–20546).
+- **Monitoring vs observability:** monitoring watches outputs without guaranteeing diagnosability; observability assumes internal state inferable from external outputs + instrumentation (20548–20569).
+- **Metrics:** design around failure modes, not vanity scores (20573–20587). Format failures easiest; open-ended → factual consistency, conciseness, AI judges; safety/toxicity/refusal rates; conversational signals (stop-generation, turns, token lengths, output diversity) (20598–20631). Per-component metrics (RAG context relevance/precision; vector DB storage/query time) (20637–20641). Correlate to north-star (DAU, session duration, subscriptions) (20643–20650). Latency: TTFT, TPOT, total; per-user scaling (20652–20664). Costs: queries, token volumes, TPS, rate-limit headroom (20666–20670). Spot vs exhaustive checks; slice by user, release, prompt version, time (20672–20682).
+- **Logs:** append-only events; log configs, prompts, queries, outputs, tools, timings, tags/IDs; "log everything" with AI log analysis (20684–20725). **Manual daily production inspection** changes developer perception of good/bad (Shankar et al. 2024) (20727–20733).
+- **Traces:** link events into request timeline (LangSmith example, Fig. 10-11); pinpoint failure step (20735–20751).
+- **Drift:** system-prompt changes (template/typo edits); user behavior adaptation (Google query framing, self-driving bullying, Liu et al. 2020); silent underlying model updates—Chen et al. 2023 GPT-4/3.5 Mar vs Jun benchmarks; Voiceflow 10% drop GPT-3.5-turbo-0301→1106 (20757–20797).
+
+### AI pipeline orchestration
+
+- **Components definition** + **chaining** (function composition): process query → retrieve → prompt → generate → evaluate → human route if bad (20801–20835).
+- Orchestrator passes data, validates step I/O, alerts on mismatch (20837–20841).
+- **≠ workflow orchestrator** (Airflow, Metaflow) (20843–20846). Parallelize independent steps (routing + PII removal) under latency pressure (20848–20851).
+- Tools: LangChain, LlamaIndex, Flowise, Langflow, Haystack; many RAG/agent frameworks double as orchestrators (20853–20856).
+- **Start without orchestrator**—external tools add abstraction/debug cost (20858–20862). Evaluate: integration/extensibility, complex pipelines (branch/parallel/errors), ease/performance/scale; avoid hidden API calls (20864–20895).
+
+### User feedback
+
+- Dual role: evaluate performance + inform development; proprietary data = competitive advantage; enables Ch. 8 flywheel (20897–20911). Early launch → data moat (20909–20911). Privacy/consent obligations (20913–20916). Open-source deploys hinder feedback collection (footnote ⁷).
+
+**Explicit vs implicit:**
+
+- Explicit: thumbs, stars, "did we solve your problem?"—standard, sparse, biased (20920–20926, 21157–21162).
+- Implicit: inferred from actions; FM apps expand genres (20928–20933). Conversational UI blends feedback into dialogue (20935–20940).
+
+**Uses:** evaluation metrics, model development/training, personalization (20966–20973).
+
+**Natural language feedback signals:**
+
+| Signal | Interpretation |
+|--------|----------------|
+| Early termination | User stops generation, exits, says stop, leaves agent hanging | 21001–21007 |
+| Error correction | "No…", "I meant…", rephrasing | 21009–21021 |
+| Action correction | "Bill is suspect not victim"; agent nudges ("check GitHub") | 21023–21033 |
+| Confirmation requests | "Are you sure?", "Check again"—detail/trust gap | 21035–21040 |
+| User edits | Strong wrong signal; preference pair (losing=original, winning=edited) | 21042–21052 |
+| Complaints | Wrong/irrelevant/toxic/lengthy—Table 10-1 FITS clusters (Xu 2022; Yuan 2023) | 21054–21082 |
+| Sentiment | Frustration without explicit reason; call-center voice loudness analogy | 21084–21093 |
+| Model refusals | High refusal rate → unhappy users | 21095–21098 |
+
+**Other conversational feedback:** regeneration (satisfaction vs options vs consistency check; usage-billing weakens idle regenerate); post-regen comparative prompts (Fig. 10-13); delete/rename/share/bookmark; turn count (positive for companions, negative for support); dialogue diversity vs loop detection (21105–21155).
+
+**Explicit vs implicit tradeoff:** explicit easier to interpret, sparse, biased; implicit abundant, noisy—contextualize (e.g., share can be mistake-showcase or useful) (21157–21171). Combine signals (rephrase after share) (21173–21177).
+
+### Feedback design
+
+**When to collect:**
+
+- **Onboarding:** calibration (face ID, voice wake word, skill level)—optional where not required (21195–21207).
+- **On failure:** downvote, regenerate, model switch; conversational corrections; human handoff; inpainting as human–AI collaboration (DALL-E example) (21209–21234).
+- **Low confidence:** side-by-side summaries; partial vs full display (Gemini)—reliability unsettled (footnote ¹⁰) (21236–21263). Google Photos "same person?" confirmation (21265–21272).
+- **On success:** thumbs up/share—Apple HIG warns against soliciting positive feedback; some PMs want enthusiastic positive signals for feature focus; sample 1% to limit clutter/bias (21274–21298).
+
+**How to collect:**
+
+- Integrate into workflow; easy to ignore; incentives (21300–21305).
+- **Midjourney:** 4 images → upscale (strong +), variations (weak +), regenerate (none good) (21307–21324).
+- **Copilot:** gray draft, Tab accept vs keep typing reject (21330–21337).
+- **Standalone chatbots** lack downstream outcome signal (email actually sent) vs integrated Gmail (21339–21345).
+- Feedback needs **5–10 turn context** for root-cause analysis; consent/terms/donation flows (21347–21362). Explain use (personalize vs aggregate vs train) (21364–21368).
+- Don't ask impossible comparisons (stats preference vote); add "I don't know" (21371–21376). Tooltips; avoid ambiguous UI (Luma angry-emoji placement bug) (21382–21400).
+- **Public vs private feedback** affects candor vs discoverability (X private likes 2024) (21402–21413).
+
+### Feedback limitations
+
+| Bias | Mechanism | Mitigation hints |
+|------|-----------|------------------|
+| Leniency | Avoid conflict/extra work; Uber 4.8 avg, <4.6 risk | Distribution analysis; descriptive labels vs 1–5 stars | 21428–21465 |
+| Randomness | Side-by-side fatigue | — | 21467–21474 |
+| Position | First option clicked more | Randomize positions; position-aware success model | 21476–21487 |
+| Preference | Length bias; recency in comparisons | — | 21489–21496 |
+
+**Degenerate feedback loop:** feedback only on shown items; predictions influence feedback influence model—exposure/popularity bias, filter bubbles (21502–21521). Cat-photo amplification (or racism/sexism/explicit content) (21523–21530). RLHF-style training → **sycophancy**—models tell users what they want vs what's accurate (Stray 2023; Sharma et al. 2023) `[contested mechan
+
+[TRUNCATED at 14000 chars — full ingest on disk]
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/ai_engineering_2025_ch10_SLICE.txt)
+========================================================================
+
+# Text slice — ai_engineering_2025_ch10_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ai_engineering_2025 · chapter: 10
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `ai_engineering_2025` · Chapter 10
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** ai_engineering_2025 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ai_engineering_2025_ch10_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | AI Engineering |
+| **authors** | Chip Huyen |
+| **edition** | 1e (First Edition, December 2024 release) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-16630-4 [verified from text, line 116] |
+| **ISBN_electronic** | 9781098166298 [from corpus_manifest.yaml] |
+| **chapter_number** | 10 |
+| **chapter_title** | AI Engineering Architecture and User Feedback |
+| **page_range** | Not present in text export; logical span from `Chapter 10. AI Engineering Architecture and User Feedback` through `Summary` before Epilogue (21648) |
+
+---
+
+## scope
+
+Chapter 10 is the **systems-integration capstone** of Huyen's AI-engineering framework: how to assemble prior techniques (RAG, guardrails, routing, caching, agents, observability, orchestration) into a production architecture, and how to design **user feedback** as both product signal and proprietary training data for the data flywheel (Ch. 8).
+
+**Major arcs:**
+
+1. **Progressive architecture** — start query→model→response; add context construction, guardrails, router/gateway, system caches, agent loops/write actions (Figs. 10-1 through 10-10).
+2. **Monitoring & observability** — MTTD/MTTR/CFR; metrics/logs/traces; drift (prompt, user behavior, underlying model); evaluation↔monitoring loop.
+3. **Pipeline orchestration** — component definition + chaining; parallel routing/PII; LangChain/LlamaIndex et al.; warning vs Airflow/Metaflow.
+4. **User feedback** — explicit vs implicit; conversational NL feedback signals; when/how to collect; biases and degenerate feedback loops.
+
+**Prerequisites cited:** Ch. 3 (semantic similarity), Ch. 4 (quality metrics), Ch. 5 (prompt attacks, defenses), Ch. 6 (RAG, agents, write actions), Ch. 8 (data flywheel), Ch. 9 (KV/prompt caching, inference latency).
+
+**Out of scope (stated or implied):** full traditional observability treatise; tool-gateway pattern (noted as uncommon); executable production deployment; legal deep-dive on feedback consent.
+
+**Slice boundary note:** Requested lines 19896–23108 include Epilogue, Index, and Colophon after chapter Summary (21645); ingest content stops at chapter-authored Summary + footnotes ¹–¹² (21600–21646).
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Framing
+
+- Only user exposure validates whether an application achieves its goal (lines 19909–19911).
+- User feedback is doubly critical for AI: product guidance **and** model-improvement data source; conversational UI eases giving feedback but complicates signal extraction (19911–19918).
+- Architecture validated across multiple companies as general; individual apps may deviate (19926–19928).
+- Component order is pedagogical, not mandatory (19958–19960).
+
+### Progressive architecture (five steps + observability + orchestration)
+
+| Step | Addition | Core idea |
+|------|----------|-----------|
+| 0 | Baseline | Query → Model API → response; no context/guardrails (19930–19940) |
+| 1 | Context | RAG + tools = "feature engineering" for FMs; provider support varies (19967–19999) |
+| 2 | Guardrails | Input (PII leak, bad prompts); output (quality + security failures); retry/parallel/human fallback (20001–20176) |
+| 3 | Router + gateway | Intent routing; unified multi-vendor interface; access control, cost, fallback (20178–20348) |
+| 4 | Caches | Exact + semantic system caching; leakage warning for personalized answers (20356–20468) |
+| 5 | Agents | Loops, parallel/branching, write actions (email, orders, transfers) (20470–20504) |
+
+**Context construction (Step 1):** Providers differ in document limits, retrieval algorithms, chunk sizes, tool types, parallel function execution, long-running jobs (19984–19993). Context construction ≈ feature engineering for foundation models (19977–19980).
+
+**Guardrails (Step 2):**
+
+- **Input risks:** employee pasting secrets; system-prompt internal data; tools retrieving private DB fields (20017–20029). Mitigate via sensitive-data detection (PII, faces, IP keywords); block or mask with reverse-PII map for unmasking in responses (20031–20056).
+- **Output failures:** empty responses; malformatted JSON; hallucinations; bad quality; toxic/PII/remote-execution/brand-risk content (20067–20097). Track **false refusal rate** alongside security failures (20098–20102).
+- **Retry policy:** probabilistic models → retry on empty/malformed; parallel duplicate calls trade cost for latency (20104–20117). Human transfer on phrases, sentiment anger, or turn-count loops (20119–20126).
+- **Trade-offs:** latency vs reliability; streaming complicates output guardrails (20130–20143). Third-party APIs supply built-in guardrails; self-hosting reduces external-leak input needs (20145–20151).
+- **OTS tools:** Purple Llama, NeMo Guardrails, PyRIT, Azure filters, Perspective API, OpenAI moderation (20160–20167).
+
+**Router (Step 3):** Specialized/cheaper models per intent; out-of-scope stock declines; ambiguity clarification ("Freezing" example) (20183–20220). Next-action predictors for agents and memory hierarchy (20222–20231). Classifiers often GPT-2/BERT/Llama-7B or smaller scratch models—fast/cheap (20233–20238). Context truncation vs reroute when retrieval exceeds target model window (20240–20246). Routing often **before** retrieval; pattern: routing → retrieval → generation → scoring (20252–20258).
+
+**Gateway (Step 3):** Unified wrapper (illustrative Flask/OpenAI+Gemini code, 20284–20315); centralized tokens; per-user/app model ACL; rate-limit/cost monitoring; fallback on API failure (20317–20331). Also load balancing, logging, analytics, caching, guardrails (20333–20336). Examples: Portkey, MLflow AI Gateway, Wealthsimple LLM Gateway, TrueFoundry, Kong, Cloudflare (20338–20341).
+
+**Caching (Step 4):**
+
+- **Exact:** reuse identical queries; embedding-search cache; multi-step/expensive actions benefit; LRU/LFU/FIFO eviction; classifier for cache-worthiness; avoid caching user-specific or time-sensitive queries (20367–20397).
+- **Leakage warning:** membership-dependent return policy cached for wrong user (20401–20408).
+- **Semantic:** embedding similarity threshold; higher hit rate but performance risk; components fragile; vector-search cost (20410–20458). Author: value "more dubious" than exact cache—evaluate before adopting (20442–20458).
+
+**Agents (Step 5):** Response fed back for more retrieval (loop); write actions increase capability and risk (20487–20494). Complexity → more failure modes (20496–20500).
+
+### Monitoring and observability
+
+- Goal = evaluation goal: mitigate risks, discover opportunities (failures, attacks, drift, cost savings) (20518–20524).
+- **DevOps trio:** MTTD, MTTR, CFR—high CFR implies pre-deploy evaluation gap (20526–20546). Evaluation metrics should translate to monitoring; monitoring issues feed evaluation pipeline (20540–20546).
+- **Monitoring vs observability:** monitoring watches outputs without guaranteeing diagnosability; observability assumes internal state inferable from external outputs + instrumentation (20548–20569).
+- **Metrics:** design around failure modes, not vanity scores (20573–20587). Format failures easiest; open-ended → factual consistency, conciseness, AI judges; safety/toxicity/refusal rates; conversational signals (stop-generation, turns, token lengths, output diversity) (20598–20631). Per-component metrics (RAG context relevance/precision; vector DB storage/query time) (20637–20641). Correlate to north-star (DAU, session duration, subscriptions) (20643–20650). Latency: TTFT, TPOT, total; per-user scaling (20652–20664). Costs: queries, token volumes, TPS, rate-limit headroom (20666–20670). Spot vs exhaustive checks; slice by user, release, prompt version, time (20672–20682).
+- **Logs:** append-only events; log configs, prompts, queries, outputs, tools, timings, tags/IDs; "log everything" with AI log analysis (20684–20725). **Manual daily production inspection** changes developer perception of good/bad (Shankar et al. 2024) (20727–20733).
+- **Traces:** link events into request timeline (LangSmith example, Fig. 10-11); pinpoint failure step (20735–20751).
+- **Drift:** system-prompt changes (template/typo edits); user behavior adaptation (Google query framing, self-driving bullying, Liu et al. 2020); silent underlying model updates—Chen et al. 2023 GPT-4/3.5 Mar vs Jun benchmarks; Voiceflow 10% drop GPT-3.5-turbo-0301→1106 (20757–20797).
+
+### AI pipeline orchestration
+
+- **Components definition** + **chaining** (function composition): process query → retrieve → prompt → generate → evaluate → human route if bad (20801–20835).
+- Orchestrator passes data, validates step I/O, alerts on mismatch (20837–20841).
+- **≠ workflow orchestrator** (Airflow, Metaflow) (20843–20846). Parallelize independent steps (routing + PII removal) under latency pressure (20848–20851).
+- Tools: LangChain, LlamaIndex, Flowise, Langflow, Haystack; many RAG/agent frameworks double as orchestrators (20853–20856).
+- **Start without orchestrator**—external tools add abstraction/debug cost (20858–20862). Evaluate: integration/extensibility, complex pipelines (branch/parallel/errors), ease/performance/scale; avoid hidden API calls (20864–20895).
+
+### User feedback
+
+- Dual role: evaluate performance + inform development; proprietary data = competitive advantage; enables Ch. 8 flywheel (20897–20911). Early launch → data moat (20909–20911). Privacy/consent obligations (20913–20916). Open-source deploys hinder feedback collection (footnote ⁷).
+
+**Explicit vs implicit:**
+
+- Explicit: thumbs, stars, "did we solve your problem?"—standard, sparse, biased (20920–20926, 21157–21162).
+- Implicit: inferred from actions; FM apps expand genres (20928–20933). Conversational UI blends feedback into dialogue (20935–20940).
+
+**Uses:** evaluation metrics, model development/training, personalization (20966–20973).
+
+**Natural language feedback signals:**
+
+| Signal | Interpretation |
+|--------|----------------|
+| Early termination | User stops generation, exits, says stop, leaves agent hanging | 21001–21007 |
+| Error correction | "No…", "I meant…", rephrasing | 21009–21021 |
+| Action correction | "Bill is suspect not victim"; agent nudges ("check GitHub") | 21023–21033 |
+| Confirmation requests | "Are you sure?", "Check again"—detail/trust gap | 21035–21040 |
+| User edits | Strong wrong signal; preference pair (losing=original, winning=edited) | 21042–21052 |
+| Complaints | Wrong/irrelevant/toxic/lengthy—Table 10-1 FITS clusters (Xu 2022; Yuan 2023) | 21054–21082 |
+| Sentiment | Frustration without explicit reason; call-center voice loudness analogy | 21084–21093 |
+| Model refusals | High refusal rate → unhappy users | 21095–21098 |
+
+**Other conversational feedback:** regeneration (satisfaction vs options vs consistency check; usage-billing weakens idle regenerate); post-regen comparative prompts (Fig. 10-13); delete/rename/share/bookmark; turn count (positive for companions, negative for support); dialogue diversity vs loop detection (21105–21155).
+
+**Explicit vs implicit tradeoff:** explicit easier to interpret, sparse, biased; implicit abundant, noisy—contextualize (e.g., share can be mistake-showcase or useful) (21157–21171). Combine signals (rephrase after share) (21173–21177).
+
+### Feedback design
+
+**When to collect:**
+
+- **Onboarding:** calibration (face ID, voice wake word, skill level)—optional where not required (21195–21207).
+- **On failure:** downvote, regenerate, model switch; conversational corrections; human handoff; inpainting as human–AI collaboration (DALL-E example) (21209–21234).
+- **Low confidence:** side-by-side summaries; partial vs full display (Gemini
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

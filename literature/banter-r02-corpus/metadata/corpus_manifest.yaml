@@ -1,0 +1,14 @@
+session: 2026-06-26
+corpus_slug: banter-r02-corpus
+track: R-02
+mirror: true
+consumer_ssot: /Users/dubs/Projects/aletheia.skill/research/scholia/banter-r02-corpus
+scholia_mirror_root: /Users/dubs/Projects/scholia.skill/literature/banter-r02-corpus
+output_mode: reference-library
+stakes: L3
+consumer_bridge: aletheia
+practical_usage_required: true
+fan_out: chapter
+book_count: 38
+chapter_fan_out_total: 577
+mirror_note: Ingests not copied — see ingests/README.md and CONSUMER_MIRROR.md

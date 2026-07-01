@@ -1,0 +1,435 @@
+# Text slice — understanding_distributed_systems_2022_ch18_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 18
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+With consistent hashing1 , a hash function randomly maps both the
+partition identiﬁers and keys onto a circle, and each key is assigned
+to the closest partition that appears on the circle in clockwise order
+(see Figure 16.4).
+
+Now, when a new partition is added, only the keys that now map
+   1
+     “Consistent Hashing and Random Trees: Distributed Caching Protocols for Re-
+lieving Hot Spots on the World Wide Web,” https://www.cs.princeton.edu/cours
+es/archive/fall09/cos518/papers/chash.pdf
+
+CHAPTER 16. PARTITIONING                                          160
+
+
+
+
+Figure 16.4: With consistent hashing, partition identiﬁers and keys
+are randomly distributed around a circle, and each key is assigned
+to the next partition that appears on the circle in clockwise order.
+
+
+to it on the circle need to be reassigned, as shown in Figure 16.5.
+The main drawback of hash partitioning compared to range par-
+titioning is that the sort order over the partitions is lost, which is
+required to efﬁciently scan all the data in order. However, the data
+within an individual partition can still be sorted based on a sec-
+ondary key.
+
+CHAPTER 16. PARTITIONING                                         161
+
+
+
+
+Figure 16.5: After partition P4 is added, the key ’for’ is reassigned
+to P4, but the assignment of the other keys doesn’t change.
+
+
+Chapter 17
+
+
+File storage
+
+Using a CDN has signiﬁcantly reduced the number of requests hit-
+ting Cruder’s application server. But there are only so many im-
+ages, videos, etc., the server can store on its local disk(s) before
+running out of space. To work around this limit, we can use a man-
+aged ﬁle store, like AWS S31 or Azure Blob Storage2 , to store large
+static ﬁles. Managed ﬁle stores are scalable, highly available, and
+offer strong durability guarantees. A ﬁle uploaded to a managed
+store can be conﬁgured to allow access to anyone who knows its
+URL, which means we can point the CDN straight at it. This allows
+us to completely ofﬂoad the storage and serving of static resources
+to managed services.
+
+
+
+17.1      Blob storage architecture
+Because distributed ﬁle stores are such a crucial component of
+modern applications, it’s useful to have an idea of how they work
+underneath. In this chapter, we will dive into the architecture of
+
+  1
+    “Amazon Simple Storage Service,” https://aws.amazon.com/s3/
+  2
+    “Azure Blob Storage,” https://azure.microsoft.com/en-us/services/storage/
+blobs/#overview
+
+CHAPTER 17. FILE STORAGE                                             164
+
+
+Azure Storage3 (AS), a scalable cloud storage system that provides
+strong consistency. AS supports ﬁle, queue, and table abstractions,
+but for simplicity, our discussion will focus exclusively on the ﬁle
+abstraction, also referred to as the blob store.
+AS is composed of storage clusters distributed across multiple re-
+gions worldwide. A storage cluster is composed of multiple racks
+of nodes, where each rack is built out as a separate unit with re-
+dundant networking and power.
+At a high level, AS exposes a global namespace based on domain
+names that are composed of two parts: an account name and a ﬁle
+name. The two names together form a unique URL that points to
+a speciﬁc ﬁle, e.g., https://ACCOUNT_NAME.blob.core.windows.
+net/FILE_NAME. The customer conﬁgures the account name, and
+the AS DNS server uses it to identify the storage cluster where the
+data is stored. The cluster uses the ﬁle name to locate the node
+responsible for the data.
+A central location service acts as the global control plane in charge
+of creating new accounts and allocating them to clusters, and also
+moving them from one cluster to another for better load distribu-
+tion. For example, when a customer wants to create a new account
+in a speciﬁc region, the location service:
+      • chooses a suitable cluster to which to allocate the account
+        based on load information;
+      • updates the conﬁguration of the cluster to start accepting re-
+        quests for the new account;
+      • and creates a new DNS record that maps the account name
+        to the cluster’s public IP address.
+From an architectural point of view, a storage cluster is composed
+of three layers: a stream layer, a partition layer, and a front-end
+layer (see Figure 17.1).
+The stream layer implements a distributed append-only ﬁle system
+in which the data is stored in so-called streams. Internally, a stream
+  3
+    “Windows Azure Storage: A Highly Available Cloud Storage Service with
+Strong Consistency,” https://sigops.org/s/conferences/sosp/2011/current
+/2011-Cascais/printable/11-calder.pdf
+
+CHAPTER 17. FILE STORAGE                                          165
+
+
+
+
+  Figure 17.1: A high-level view of Azure Storage’s architecture
+
+
+is represented as a sequence of extents, where the extent is the unit
+of replication. Writes to extents are replicated synchronously using
+chain replication4 .
+
+The stream manager is the control plane responsible for assigning
+an extent to a chain of storage servers in the cluster. When the
+manager is asked to allocate a new extent, it replies with the list of
+storage servers that hold a copy of the newly created extent (see
+Figure 17.2). The client caches this information and uses it to send
+future writes to the primary server. The stream manager is also
+responsible for handling unavailable or faulty extent replicas by
+creating new ones and reconﬁguring the replication chains they
+are part of.
+
+The partition layer is where high-level ﬁle operations are translated
+  4
+      we discussed chain replication in section 10.4
+
+CHAPTER 17. FILE STORAGE                                           166
+
+
+
+
+Figure 17.2: The stream layer uses chain replication to replicate
+extents across storage servers.
+
+
+to low-level stream operations. Within this layer, the partition man-
+ager (yet another control plane) manages a large index of all ﬁles
+stored in the cluster. Each entry in the index contains metadata
+such as account and ﬁle name and a pointer to the actual data in
+the stream service (list of extent plus offset and length). The parti-
+tion manager range-partitions the index and maps each partition
+to a partition server. The partition manager is also responsible for
+load-balancing partitions across servers, splitting partitions when
+they become too hot, and merging cold ones (see Figure 17.3).
+
+The partition layer also asynchronously replicates accounts across
+clusters in the background. This functionality is used to migrate
+accounts from one cluster to another for load-balancing purposes
+and disaster recovery.
+
+Finally, the front-end service (a reverse proxy) is a stateless service
+that authenticates requests and routes them to the appropriate par-
+tition server using the mapping managed by the partition man-
+ager.
+
+Although we have only coarsely described the architecture of AS,
+it’s a great showcase of the scalability patterns applied to a con-
+crete system. As an interesting historical note, AS was built from
+the ground up to be strongly consistent, while AWS S3 started of-
+
+CHAPTER 17. FILE STORAGE                                                167
+
+
+
+
+Figure 17.3: The partition manager range-partitions ﬁles across
+partition servers and rebalances the partitions when necessary.
+
+
+fering the same guarantee in 20215 .
+
+
+
+
+   5
+     “Diving Deep on S3 Consistency,” https://www.allthingsdistributed.com/2
+021/04/s3-strong-consistency.html
+
+
+Chapter 18
+
+
+Network load balancing
+
+By ofﬂoading requests to the ﬁle store and the CDN, Cruder is able
+to serve signiﬁcantly more requests than before. But the free lunch
+is only going to last so long. Because there is a single application
+server, it will inevitably fall over if the number of requests directed
+at it keeps increasing. To avoid that, we can create multiple appli-
+cation servers, each running on a different machine, and have a
+load balancer distribute requests to them. The thinking is that if one
+server has a certain capacity, then, in theory, two servers should
+have twice that capacity. This is an example of the more general
+scalability pattern we referred to as scaling out or scaling horizon-
+tally.
+
+The reason we can scale Cruder horizontally is that we have pushed
+the state to dedicated services (the database and the managed ﬁle
+store). Scaling out a stateless application doesn’t require much ef-
+fort, assuming its dependencies can scale accordingly as well. As
+we will discuss in the next chapter, scaling out a stateful service,
+like a data store, is a lot more challenging since it needs to repli-
+cate state and thus requires some form of coordination, which adds
+complexity and can also become a bottleneck. As a general rule of
+thumb, we should try to keep our applications stateless by push-
+ing state to third-party services designed by teams with years of
+
+CHAPTER 18. NETWORK LOAD BALANCING                                            170
+
+
+experience building such services.
+
+Distributing requests across a pool of servers has many beneﬁts.
+Because clients are decoupled from servers and don’t need to know
+their individual addresses, the number of servers behind the load
+balancer can increase or decrease transparently. And since multi-
+ple redundant servers can interchangeably be used to handle re-
+quests, a load balancer can detect faulty ones and take them out of
+the pool, increasing the availability of the overall application.
+
+As you might recall from chapter 1, the availability of a system is
+the percentage of time it’s capable of servicing requests and do-
+ing useful work. Another way of thinking about it is that it’s the
+probability that a request will succeed.
+
+The reason why a load balancer increases the theoretical availabil-
+ity is that in order for the application to be considered unavailable,
+all the servers need to be down. With N servers, the probability
+that they are all unavailable is the product of the servers’ failure
+rates1 . By subtracting this product from 1, we can determine the
+theoretical availability of the application.
+
+For example, if we have two servers behind a load balancer and
+each has an availability of 99%, then the application has a theoret-
+ical availability of 99.99%:
+
+
+                        1 − (0.01 ⋅ 0.01) = 0.9999
+
+Intuitively, the nines of independent servers sum up.2 Thus, in
+the previous example, we have two independent servers with two
+nines each, for a total of four nines of availability. Of course, this
+number is only theoretical because, in practice, the load balancer
+doesn’t remove faulty servers from the pool immediately. The for-
+mula also naively assumes that the failure rates are independent,
+which might not be the case. Case in point: when a faulty server is
+   1
+     “AWS Well-Architected Framework, Availability,” https://docs.aws.amazon.
+com/wellarchitected/latest/reliability-pillar/availability.html
+   2
+     Another way to think about it is that by increasing the number of servers lin-
+early, we increase the availability exponentially.
+
+CHAPTER 18. NETWORK LOAD BALANCING                                      171
+
+
+removed from the load balancer’s pool, the remaining ones might
+not be able to sustain the increase in load and degrade.
+
+In the following sections, we will take a closer look at some of the
+core features offered by a load balancer.
+
+Load balancing
+
+The algorithms used for routing requests can vary from round-
+robin to consistent hashing to ones that take into account the
+servers’ load.
+
+As a fascinating side note, balancing by load is a lot more chal-
+lenging than it seems in a distributed context. For example, the
+load balancer could periodically sample a dedicated load endpoint
+exposed by each server that returns a measure of how busy the
+server is (e.g., CPU usage). And since constantly querying servers
+can be costly, the load balancer can cache the responses for some
+time.
+
+Using cached or otherwise delayed metrics to distribute requests
+to servers can result in surprising behaviors. For example, if a
+server that just joined the pool reports a load of 0, the load bal-
+ancer will hammer it until the next time its load is sampled. When
+that happens, the server will report that it’s overloaded, and the
+load balancer will stop sending more requests to it. This causes the
+server to alternate between being very busy and not being busy at
+all.
+
+As it turns out, randomly distributing requests to servers without
+accounting for their load achieves a better load distribution. Does
+that mean that load balancing using delayed load metrics is not
+possible? There is a way, but it requires combining load metrics
+with the power of randomness. The idea is to randomly pick two
+servers from the pool and route the request to the least-loaded one
+of the two. This approach works remarkably well in practice3 .
+
+Service discovery
+   3
+     “The power of two random choices,” https://brooker.co.za/blog/2012/01/1
+7/two-random.html
+
+CHAPTER 18. NETWORK LOAD BALANCING                                       172
+
+
+Service discovery is the mechanism the load balancer uses to dis-
+cover the pool of servers it can route requests to. A naive way to
+implement it is to use a static conﬁguration ﬁle that lists the IP ad-
+dresses of all the servers, which is painful to manage and keep up
+to date.
+
+A more ﬂexible solution is to have a fault-tolerant coordination
+service, like, e.g., etcd or Zookeeper, manage the list of servers.
+When a new server comes online, it registers itself to the coordina-
+tion service with a TTL. When the server unregisters itself, or the
+TTL expires because it hasn’t renewed its registration, the server
+is removed from the pool.
+
+Adding and removing servers dynamically from the load
+balancer’s pool is a key functionality cloud providers use to
+implement autoscaling4 , i.e., the ability to spin up and tear down
+servers based on load.
+
+Health checks
+
+A load balancer uses health checks to detect when a server can no
+longer serve requests and needs to be temporarily removed from
+the pool. There are fundamentally two categories of health checks:
+passive and active.
+
+A passive health check is performed by the load balancer as it
+routes incoming requests to the servers downstream. If a server
+isn’t reachable, the request times out, or the server returns a
+non-retriable status code (e.g., 503), the load balancer can decide
+to take that server out of the pool.
+
+Conversely, an active health check requires support from the down-
+stream servers, which need to expose a dedicated health endpoint
+that the load balancer can query periodically to infer the server’s
+health. The endpoint returns 200 (OK) if the server can serve re-
+quests or a 5xx status code if it’s overloaded and doesn’t have more
+capacity to serve requests. If a request to the endpoint times out,
+it also counts as an error.
+   4
+     “Autoscaling,” https://docs.microsoft.com/en-us/azure/architecture/best-
+practices/auto-scaling
+
+CHAPTER 18. NETWORK LOAD BALANCING                                    173
+
+
+The endpoint’s handler could be as simple as always returning 200
+OK, since most requests will time out when the server is degraded.
+Alternatively, the handler can try to infer whether the server is
+degraded by comparing local metrics, like CPU usage, available
+memory, or the number of concurrent requests being served, with
+conﬁgurable thresholds.
+
+But here be dragons5 : if a threshold is misconﬁgured or the health
+check has a bug, all the servers behind the load balancer may fail
+the health check. In that case, the load balancer could naively
+empty the pool, taking the application down. However, in prac-
+tice, if the load balancer is “smart enough,” it should detect that a
+large fraction of the servers are unhealthy and consider the health
+checks to be unreliable. So rather than removing servers from the
+pool, it should ignore the health checks altogether so that new re-
+quests can be sent to any server.
+
+Thanks to health checks, the application behind the load balancer
+can be updated to a new version without any downtime. During
+the update, a rolling number of servers report themselves as un-
+available so that the load balancer stops sending requests to them.
+This allows in-ﬂight requests to complete (drain) before the servers
+are restarted with the new version. More generally, we can use this
+mechanism to restart a server without causing harm.
+
+For example, suppose a stateless application has a rare memory
+leak that causes a server’s available memory to decrease slowly
+over time. When the server has very little physical memory avail-
+able, it will swap memory pages to disk aggressively. This con-
+stant swapping is expensive and degrades the performance of the
+server dramatically. Eventually, the leak will affect the majority of
+servers and cause the application to degrade.
+
+In this case, we could force a severely degraded server to restart.
+That way, we don’t have to develop complex recovery logic when
+a server gets into a rare and unexpected degraded mode. More-
+over, restarting the server allows the system to self-heal, giving its
+  5
+    “Implementing health checks,” https://aws.amazon.com/builders-library/
+implementing-health-checks/
+
+CHAPTER 18. NETWORK LOAD BALANCING                                       174
+
+
+operators time to identify the root cause.
+
+To implement this behavior, a server could have a separate back-
+ground thread — a watchdog — that wakes up periodically and
+monitors the server’s health. For example, the watchdog could
+monitor the available physical memory left. When a monitored
+metric breaches a speciﬁc threshold for some time, the watchdog
+considers the server degraded and deliberately crashes or restarts
+it.
+
+Of course, the watchdog’s implementation needs to be well-tested
+and monitored since a bug could cause servers to restart contin-
+uously. That said, I ﬁnd it uncanny how this simple pattern can
+make an application a lot more robust to gray failures.
+
+
+
+18.1        DNS load balancing
+Now that we are familiar with the job description of a load bal-
+ancer, let’s take a closer look at how it can be implemented. While
+you won’t have to build your own load balancer given the abun-
+dance of off-the-shelf solutions available, it’s important to have a
+basic knowledge of how a load balancer works. Because every re-
+quest needs to go through it, it contributes to your applications’
+performance and availability.
+
+A simple way to implement a load balancer is with DNS. For ex-
+ample, suppose we have a couple of servers that we would like
+to load-balance requests over. If these servers have public IP ad-
+dresses, we can add those to the application’s DNS record and
+have the clients pick one6 when resolving the DNS address, as
+shown in Figure 18.1.

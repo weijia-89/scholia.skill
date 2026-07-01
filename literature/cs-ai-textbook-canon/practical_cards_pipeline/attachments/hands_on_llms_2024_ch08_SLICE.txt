@@ -1,0 +1,226 @@
+# Text slice — hands_on_llms_2024_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: hands_on_llms_2024 · chapter: 08
+# hooks: 8 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Hands-On Large Language Models, Chapter 8
+
+| Field | Value |
+|-------|-------|
+| slug | hands_on_llms_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/hands_on_llms_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch08_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Hands-On Large Language Models |
+| authors | Jay Alammar, Maarten Grootendorst |
+| edition | 1st Edition (2024) |
+| ISBN_print | 9781098150952 [corpus manifest] |
+| ISBN_electronic | not stated in chapter slice |
+| publisher | O'Reilly Media |
+| parent_book_title | Hands-On Large Language Models |
+| chapter_number | 8 |
+| chapter_title | Semantic Search and Retrieval-Augmented Generation |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 8 is the **search + RAG procedural spine** (lines 8327–9486):
+
+1. **Industry context** — BERT in Google Search / Bing; semantic search vs keyword; hallucinations → RAG (Lewis et al. 2020).
+
+2. **Three categories** — Dense retrieval (embedding k-NN), reranking (cross-encoder relevance scores), RAG (retrieve + grounded generation with citations).
+
+3. **Dense retrieval walkthrough** — Cohere embed Interstellar Wikipedia sentences; FAISS `IndexFlatL2`; semantic vs BM25 keyword search; similarity thresholds; hybrid search recommendation; domain shift caveat; chunking strategies (one vs multi-vector per doc, overlap, title context).
+
+4. **Scale** — NumPy for small indexes; Annoy/FAISS ANN at millions; vector DBs (Weaviate, Pinecone) for incremental updates/filters; retrieval fine-tuning with pos/neg query-doc pairs (Ch. 10 depth).
+
+5. **Reranking** — Cohere Rerank API; BM25→rerank pipeline; monoBERT cross-encoder; MIRACL nDCG@10 boost 36.5→62.8 cited; Sentence Transformers local path.
+
+6. **Evaluation** — MAP / average precision / mean average precision; nDCG for graded relevance; test suite = corpus + queries + judgments.
+
+7. **RAG implementations** — Cohere `co.chat` with documents + span citations; local LangChain `RetrievalQA` + FAISS + `thenlper/gte-small` + Phi-3 GGUF prompt template.
+
+8. **Advanced RAG** — Query rewriting, multi-query, multi-hop, query routing, agentic RAG; Ragas + LLM-as-judge metrics (faithfulness, answer relevance, citation precision/recall per Liu et al. 2023).
+
+9. **Chapter close** — Forward to Ch. 9 multimodal. [verified from text, lines 8327–9486]
+
+## key_findings
+
+1. **Semantic search = embedding proximity** — Query and documents embedded to same space; nearest neighbors are results; may need similarity threshold when corpus lacks answers. [verified, 8414–8449, 8664–8686]
+
+2. **Dense beats lexical on meaning** — "how precise was the science" retrieves accuracy sentence without shared keywords; BM25 favors "science fiction" opener. [verified, 8583–8657]
+
+3. **Chunking is a design parameter** — Transformer context limits require splits; multi-vector per document preferred over single averaged vector; sentence vs paragraph vs overlapping chunks (Figures 8-7–8-10). [verified, 8707–8794]
+
+4. **FAISS baseline** — `IndexFlatL2` exact search fine for small corpora; `input_type` distinction `search_document` vs `search_query` in Cohere API. [verified, 8528–8578]
+
+5. **Hybrid search advised** — Dense retrieval weak on exact phrase match; combine with keyword (BM25). [verified, 8688–8692]
+
+6. **Domain generalization limit** — Retrieval models trained on web/Wikipedia degrade on out-of-domain legal text without domain training data. [verified, 8694–8698]
+
+7. **Reranker role** — Second-stage cross-encoder scores query+doc jointly; shortlist 100–1000 from stage-1 then rerank top-k; monoBERT = classification 0–1 relevance. [verified, 8863–9007]
+
+8. **BM25 + rerank demo** — Reranker elevates scientifically relevant sentence above lexical false positive. [verified, 8925–8974]
+
+9. **MAP intuition** — Rewards ranking relevant docs higher; mean over queries → MAP for system comparison; nDCG handles graded relevance. [verified, 9013–9128]
+
+10. **RAG = search + grounded generation** — Retrieve top docs → prompt LLM with context; enables chat-with-data, reduces hallucination (not eliminates). [verified, 9130–9168]
+
+11. **Managed RAG with citations** — Cohere chat returns `ChatCitation` spans tied to `document_ids`; local Phi-3 RAG loses span citations. [verified, 9178–9311]
+
+12. **LangChain RAG stack** — `HuggingFaceEmbeddings` + `FAISS.from_texts` + custom Phi-3 template + `RetrievalQA` chain_type `stuff`. [verified, 9226–9311]
+
+13. **Advanced patterns** — Query rewrite for verbose chat; multi-query for comparisons; multi-hop sequential searches; route by datasource (HR vs CRM); agentic RAG delegates planning to capable models (Command R+ cited). [verified, 9316–9409]
+
+14. **RAG eval axes** — Fluency, perceived utility, citation recall/precision (Liu et al. 2023); Ragas automates faithfulness and answer relevance. [verified, 9411–9447]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener (Google/Bing BERT) | read | 8327–8352 |
+| Three-category overview | read | 8354–8406 |
+| Dense retrieval theory | read | 8414–8457 |
+| Cohere + FAISS example | read | 8459–8602 |
+| BM25 comparison | read | 8604–8657 |
+| Dense retrieval caveats | read | 8664–8698 |
+| Chunking strategies | read | 8707–8794 |
+| ANN + vector DBs | read | 8796–8820 |
+| Retrieval fine-tuning | read | 8822–8861 |
+| Reranking theory + Cohere | read | 8863–8913 |
+| BM25+rerank pipeline | read | 8915–8977 |
+| Sentence Transformers note | read | 8979–8985 |
+| monoBERT cross-encoder | read | 8987–9011 |
+| MAP / nDCG evaluation | read | 9013–9128 |
+| RAG intro (Lewis 2020) | read | 9130–9168 |
+| Cohere grounded generation | read | 9178–9213 |
+| Local LangChain RAG | read | 9215–9314 |
+| Advanced RAG techniques | read | 9316–9409 |
+| RAG evaluation + Ragas | read | 9411–9447 |
+| Summary + footnotes ¹–² | read | 9449–9486 |
+| Chapter 9 opener | **deferred** | 9487+ |
+
+- **Lines read:** 8327–9486 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `hands_on_llms_2024.txt`
+
+## pedagogy
+
+### learning_objectives
+
+- Build dense retrieval with embeddings + FAISS and compare to BM25
+- Explain when to add reranking and hybrid search stages
+- Design chunking strategy for a document corpus
+- Implement basic RAG with managed API and local LangChain stack
+- Name advanced RAG patterns (rewrite, multi-query, multi-hop, routing, agentic)
+- Apply MAP/nDCG framing and Ragas-style RAG metrics
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Interstellar Wikipedia chunk+embed | End-to-end dense retrieval | 8494–8597 |
+| BM25 vs dense same query | Lexical vs semantic failure modes | 8604–8657 |
+| Irrelevant query (moon mass) | Threshold / false retrieval | 8672–8686 |
+| Cohere rerank top-3 | Second-stage relevance | 8887–8907 |
+| BM25→rerank 10→3 | Two-stage pipeline | 8925–8974 |
+| MAP toy systems 1 vs 2 | IR evaluation intuition | 9027–9112 |
+| Cohere chat RAG + citations | Grounded generation | 9187–9213 |
+| LangChain RetrievalQA local | Offline RAG | 9226–9311 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 8.DR-1 | Science precision query | Run dense, BM25, hybrid; log MRR@3 manually | 8583–8657 |
+| 8.DR-2 | Moon mass false positive | Set distance threshold; measure empty-result rate | 8672–8686 |
+| 8.CH-1 | Chunk sweep | sentence vs paragraph vs overlap on same corpus | 8771–8794 |
+| 8.RR-1 | Stage-1 size | Vary BM25 candidates 10/50/100 before rerank | 8910–8922 |
+| 8.RG-1 | Cohere vs local RAG | Same query both stacks; compare citation availability | 9178–9311 |
+| 8.RG-2 | Query rewrite | Verbose dolphin essay → rewritten query retrieval | 9321–9337 |
+| 8.EV-1 | Ragas smoke test | Score faithfulness on 5 QA pairs from local RAG | 9434–9447 |
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 8 is the **primary HOTL procedural complement** to `ai_engineering_2025` Ch. 6 RAG/agents:
+
+| AIE Ch. 6 owns | HOTL Ch. 8 owns |
+|----------------|-----------------|
+| Retriever taxonomy (term/dense/hybrid/RRF) | Cohere/FAISS/BM25 runnable notebooks |
+| Chunking, contextual retrieval, cost | Sentence-split Interstellar walkthrough |
+| Agent loops, memory hierarchy | LangChain RetrievalQA + advanced RAG menu |
+| Production failure-mode checklists | MAP demo + Ragas citation axes |
+
+**Read order:** AIE Ch. 6 for architecture and trade-offs → HOTL Ch. 8 to implement dense→rerank→RAG pipeline → HOTL Ch. 7 for agentic RAG bridge.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical deployment. Pattern-portable: citation recall/precision for evidenced answers, hybrid search for exact drug codes + semantic queries, thresholding when corpus lacks answer.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `ai_engineering_2025_ch06_ingest` | **Primary cross-link** — AIE framework spine; HOTL procedural complement (manifest `ingest_note`) |
+| `ai_engineering_2025` Ch. 3 | Embeddings/vector search theory; HOTL adds Cohere API + FAISS code |
+| `hands_on_llms_2024` Ch. 3–5 | Embeddings, classification, BERTopic reranking foreshadow (Ch. 5) |
+| `hands_on_llms_2024` Ch. 7 | LangChain RetrievalQA extends Ch. 7 chains; ReAct → agentic RAG |
+| `ddia_2e_2026` | Vector DB persistence/replication; HOTL application-layer |
+| `prompt_engineering_llms_2024` | RAG prompt templates overlap; HOTL is integrated tutorial |
+
+**Dedup rule:** Use **AIE Ch. 6 ingest** for system design, hybrid RRF, agent planning debates, and cost anecdotes; use **this ingest** for notebook reproduction (Cohere embed/rerank/chat, FAISS, LangChain RAG). Do not duplicate AIE architecture prose in HOTL-derived skills—link and delegate.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — API + local stacks |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — ends 9477; Ch. 9 at 9487 |
+| Citation density | High (Lewis RAG, Liu verifiability, IR textbooks, monoBERT) |
+| Child-skill potential | `scholia.dense-bm25-rerank-pipeline`, `scholia.langchain-rag-phi3` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | O'Reilly; dual authorship on industry search + BERTopic |
+| Primary-source citation density | **PASS** | Lewis 2020, Liu 2023, Manning IR, monoBERT paper |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Full Cohere + LangChain paths |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| RAG reduces hallucinations | 8348–8352, 9144–9146 | Mitigates, not eliminates; retrieval can be wrong |
+| Dense always better than keyword | 8600–8602 | Hybrid recommended (8688–8692) |
+| MIRACL nDCG boost 36.5→62.8 | 8975–8977 | Benchmark-specific; API reranker |
+| Agentic RAG needs largest models | 9406–9409 | Snapshot; Command R+ cited — recency risk |
+| Cohere free tier | 8474–8476 | Vendor policy may change |
+| Sentence-as-chunk granularity | 8771–8772 | May be too fine — domain dependent |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — essential w1_foundation procedural RAG ingest; pair with AIE Ch. 6 for canon completeness.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Semantic search | Search by meaning via embeddings, not just keywords |
+| Dense retrieval | k-NN in embedding space over document/chunk vectors |
+| Reranker | Mod
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

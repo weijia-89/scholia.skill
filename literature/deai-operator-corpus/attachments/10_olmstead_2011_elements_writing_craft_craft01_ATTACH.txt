@@ -1,0 +1,126 @@
+10_olmstead_2011_elements_writing_craft_craft01_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: olmstead_2011_elements_writing_craft
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/10_olmstead_2011_elements_writing_craft_craft01_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/10_olmstead_2011_elements_writing_craft_craft01.txt)========================================================================
+
+OPENING WITH THE STORYTELLER
+
+READING
+
+Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.
+
+FROM THE NOVEL MOBY DICK, BY HERMAN MELVILLE
+
+LESSON
+
+Melville begins Moby Dick with the character Ishmael talking to the reader. Imagine that Ishmael has come up to you and has begun to tell you this story. At the outset, his presence is commanding. He tells you what to call him, not what his name is. He makes it clear that when the story happened is not important, that he had no money and no interests on shore. He is denying you this information. He is directing your curiosity, but he makes up for it by saying, in so many words, that he is a thinking sort of person and capable of being precise and particular. He gives and he takes, all for the purpose of spinning his yarn. He entices you with his appearance of honesty.
+
+WRITING POSSIBILITIES
+
+1. How do people introduce themselves? How do they say their names and also let you know what they want to be called? Perhaps a nickname? Here are four examples: My name is; My friends call me; I am called; Her name was.
+
+Open a story of your own this way. Write a paragraph in which you introduce a character to begin a story.
+
+2. Sometimes we introduce ourselves by saying who and what we are not. Listen for these. For example: My name is John. I'm not what you'd call rich; My name is Hemingway, but no relation to the writer; My name is Jane. Not much of a name really.
+
+Now try an opening paragraph in which the character introduces himself by saying who he is not.
+
+3. Think about how we meet and greet each other. What do we do in those small instances? We shake hands. We wave. In the military, people salute. In Europe, people kiss cheeks. The distance between people is important. As you open with a character, think about how intimate you want that voice to be to the listener, about the relationship you want between your character and your reader. Is the reader sitting across the table from the character? Is the character whispering to the reader? Do you want your character to have an arm around your reader's shoulder? Don't forget—Ishmael does not tell us his name; he tells us what he wants to be called. Write a paragraph in which characters meet and greet each other and try to characterize the relationship by the type of greeting.
+
+4. Without taking the time to think, can you say how you usually introduce yourself to a stranger? Can you answer such a question on the spur of the moment? Now think back to the last time you introduced yourself. Have a character use your method, introducing himself to another character, a stranger. Write a few lines of dialogue for each character. Then, in a new scene, have a character use a method completely different from yours. Create a dialogue for this set of characters as well.
+
+OPENING IN ILLNESS, NONFICTION
+
+READING
+
+It starts in my sleep, a partly dreamed memory of being young and about to wake to the life of a young man. This morning I was playing basketball with Michael Jordan, and I was as big as he was, or bigger. What a mass of roles, of personae, is mixed in when one is ill, alongside the self-loathing and self-protection, the recurring simplicity and the terror. My identity is a raft skidding or gliding, borne on a flux of feelings and frights, including the morning's delusion (which lasts ten minutes sometimes) of being young and whole.
+
+FROM THE ESSAY “THIS WILD DARKNESS,” BY HAROLD BRODKEY
+
+LESSON
+
+To be a writer and to know the imminence of your death … Where do you turn? What do you do? You take up your pen and address the impending darkness. Somewhere in the ink is a cure, or at least something akin to meaning and purpose to hold in your head. These are the questions we as writers are often most curious about: What is it like to die, to be born, to take a life?
+
+Brodkey begins It starts in my sleep. … He is talking about this particular half-dream of being young once again. But consider the phrase. It is bold and old-fashioned and mythic, demonstrating the writer's prerogative always to say where a story begins and ends. This quote is an opening into a life, a mind, a youth, an illness. In these few lines he remembers, he speculates, he declares, he recounts, he reveals, and he makes wisdom. In these few words we have indication of what is to come: a mind, however afflicted, still urging itself to make sense where there is none. Harold Brodkey died January 26, 1996.
+
+WRITING POSSIBILITIES
+
+Start your own personal history. In the following exercises, let's work down through the sentences in Brodkey's essay, maintaining similar word counts within the parentheses.
+
+1. Where might it start for you, the thinking on your life? Use the following frame to begin: It starts _____, a partly (dreamed, imagined, made-up?) memory of _____.
+
+2. In the second sentence, Brodkey makes a simple declaration. Use the following frame yourself: This morning I was _____.
+
+3. Sentences one and two are the foundation. From the basis of these two sentences, the writer is poised to comment, to make wisdom. Continue: What a _____, of _____, is mixed in when one is _____, alongside the _____ and _____, the _____ and the _____.
+
+4. The fourth sentence returns to the intention of the second sentence. This declarative sentence takes flight and then returns to itself as it concludes. Note how a reference is made to the dream and also how there is a parenthetical comment as to its duration. Fill in this sentence: My identity is a _____ _____ or _____, borne _____, including (make a reference back to the experience in sentence one) of being _____ and _____.
+
+5. As you have been working through the exercises, you have been learning your own opening. Combine exercises one through four, and as you do, make the rewrites you feel necessary, including those that bring the words closer to your own. Perhaps one rewrite is to exchange the word begins for the word starts. Maybe you'd like to change the first sentence to past tense. Make these changes. You now have a beginning.
+
+OPENING IN CRISIS
+
+READING
+
+We fought. When my mother and I crossed state lines in the stolen car, I'd sit against the window and wouldn't talk. I wouldn't even look at her. The fights came when I thought she broke a promise. She said there'd be an Indian reservation. She said that we'd see buffalo in Texas. My mother said a lot of things. We were driving from Bay City, Wisconsin, to California, so I could be a child star while I was still a child.
+
+“Talk to me,” my mother would say.
+
+“If you're upset, tell me.” But I wouldn't. I knew how to make her suffer. I was mad. I was mad about a lot of things. Places she said would be there, weren't. We were running away from family. We'd left home.
+
+Then my mother would pull to the side of the road and reach over and open my door.
+
+“Get out, then,” she'd say, pushing me.
+
+FROM THE NOVEL ANYWHERE BUT HERE, BY MONA SIMPSON
+
+LESSON
+
+This novel begins with a two-word sentence—a subject and a verb. It tells what has been happening between the narrator and her mother from the narrator's point of view. These two words give conditions. They create a complicated dynamic, yet one that is easy to understand. It is not a drama taking place before your eyes, but still a drama that was and is constant. The word would maintains the past tense. Would is the past tense of will and indicates habitual action, in this case, the relentlessness of the fighting.
+
+In the second sentence we find out their car is stolen. But this information comes to us through an adjective inside a prepositional phrase inside a clause. That the car is stolen is made to be much less important than that they are fighting. Nevertheless, we are told the car is stolen, and it isn't mentioned again in this passage. Simply put, this information is revealed in an adjective, not in a statement of fact, as the fighting is.
+
+Another statement of fact is I was mad. Notice how each time the narrator makes a statement of fact, she follows it with an example, reason or detail. The thinking is personal and childlike. Sometimes it doesn't make sense. But more important, it appears to make sense. The narrator's strength is in her thinking. This is why the mother's behavior in the fourth paragraph is so striking. It has consequence. Knowing the car is stolen now comes back to haunt us. The crisis is enlarged. However dangerous we thought the situation, we find we misjudged.
+
+WRITING POSSIBILITIES
+
+1. Open with a two-word sentence. Come up with ten possibilities. For example: We argued. We left. He cried.
+
+2. Choose a two-word sentence from exercise one to open your story and follow it with a paragraph in the conditional, using the word would. Give the customs of the action defined in your two-word sentence. For example: We argued. When the bills came, I would tell him that money was the problem, or I wouldn't tell him anything at all. But money was the problem, at least one of them. … (Continue.)
+
+3. Hide an adjective inside a sentence the way Simpson does with the word stolen. For example: She lied. When she and I went to bed in her boyfriend's apartment, I stared at the wall and wouldn't talk.

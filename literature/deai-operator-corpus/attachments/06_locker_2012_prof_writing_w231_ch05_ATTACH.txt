@@ -1,0 +1,1627 @@
+06_locker_2012_prof_writing_w231_ch05_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch05_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch05.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch05.txt).
+========================================================================
+
+Planning, Composing, and Revising                                     119
+
+
+
+=       Brainstorming information to include in the document.                                               MBAs Can‘t Write
+
+=       Gathering the information you need—from the message you're answering,                               The writing and pre-
+        a person, printed sources, or the web.                                                              sentation    skills of
+
+=       Selecting the points you want to make, and the examples, data, and argu-                            MBAs      have __ long
+                                                                                                been a complaint of employers.
+        ments to support them.
+                                                                                                Too many words, employers say,
+=       Choosing a pattern of organization, making an outline, creating a list.                 and too many big words. Gradu-
+                                                                                                ates are particularly inept at
+                                                                                                preparing short persuasive com-
+        Writing
+                                                                                                munications or writing for mul-
+=       Putting words on paper or a screen. Writing can be lists, possible headings,            tiple audiences.
+        fragmentary notes, stream-of-consciousness writing, incomplete drafts,                     Now MBA programs are act-
+        and ultimately a formal draft.                                                          ing on the complaints. The
+                                                                                                Wharton School of Business
+                                                                                                now requires 12 communication
+        Revising                                                                                classes, twice what it required
+=        Evaluating your work and measuring it against your goals and the require-               before. Other business schools
+         ments of the situation and audience. The best evaluation results from                   are adding writing coaches,
+         re-seeing your draft as if someone else had written it. Will your audience              and having the writing coaches
+         understand it? Is it complete? Convincing? Friendly?                                    assign writing grades to papers
+                                                                                                 for other courses.
+=        Getting feedback from someone else. Is all the necessary information
+         there? Is there too much information? Is your pattern of organization                  Adapted from Diana Middleton, “Stu-
+
+         appropriate? Does a revision solve an earlier problem? Are there obvious               dents Struggle for Words,” Wall Street
+                                                                                                Journal, March 3, 2011, B8.
+         mistakes?
+=        Adding, deleting, substituting, or rearranging. Revision can be changes in
+         single words or in large sections of a document.
+
+        Editing
+    =    Checking the draft to see that it satisfies the requirements of standard Eng-
+         lish. Here you’d correct spelling and mechanical errors and check word
+         choice and format. Unlike revision, which can produce major changes in
+         meaning, editing focuses on the surface of writing.
+    =    Proofreading the final copy to see that it’s free from typographical errors.
+      Note the following points about these activities:
+    = The activities do not have to come in this order. Some people may gather
+       data after writing a draft when they see that they need more specifics to
+       achieve their purposes.
+    = You do not have to finish one activity to start another. Some writers plan
+         a short section and write it, plan the next short section and write it, and so
+       on through the document. Evaluating what is already written may cause a
+       writer to do more planning or to change the original plan.
+    = Most writers do not use all activities for all the documents they write.
+       Youll use more activities when you write more complex or difficult docu-
+       ments about new subjects or to audiences that are new to you.
+      For many workplace writers, pre-writing is not a warm-up activity to get
+    ready to write the “real” document. It’s really a series of activities designed to
+                                                                             and
+    gather and organize information, take notes, brainstorm with colleagues,
+    plan a document before writing a complete draft. And for many people, these
+    activities do not include outlining. Traditional outlining may lull writers into
+    a false sense of confidence about their material and organization, making it
+    difficult for them to revise their content and structure if they deviate from the
+    outline developed early in the process.
+PROFESSIONAL WRITING
+
+
+
+
+120                                      Part2    The Communication Process
+
+
+                Overcoming Writer's
+                Block
+
+        7 ia- According to psychol-
+             ogist Robert Boice,
+who has made a career study of
+writer's block, these actions help
+overcome writer’s block:
+ 1. Prepare for writing. Collect
+    and arrange material. Talk to
+      people; interact with some
+      of your audiences. The more
+      you learn about the company,
+      its culture, and its context,
+      the easier it will be to write—
+      and the better your writing
+      will be.
+ 2. Practice writing regularly
+      and in moderation. Try to          Not all writing has to be completed in office settings. Some people work better outside, in
+      write almost daily. Keep ses-      coffee shops, or from home.
+      sions to a moderate length;
+      Boice suggests an hour to an
+      hour and a half.                   USING YOUR TIME EFFECTIVELY
+ 3. Talk positively to yourself:
+                                         To get the best results from the time you have, spend only one-third of your
+                                         time actually “writing.” Spend at least another one-third of your time ana-
+    “| can do this.” “If |keep
+        working, ideas will come.” “It
+        doesn't have to be perfect; |
+                                         lyzing the situation and your audience, gathering information, and organiz-
+        can make it better later.”       ing what you have to say. Spend the final third evaluating what you've said,
+ 4. Talk to other people about
+                                         revising the draft(s) to meet your purposes and the needs of the audience and
+    writing. Value the feedback          the organization, editing a late draft to remove any errors in grammar and
+    you get from them. Talking to        mechanics, and proofreading the final copy.
+    other people expands your                   Do realize, however, that different writers, documents, and situations may
+    repertoire of strategies and          need different time divisions to produce quality communications, especially if
+        helps you understand your         documents are produced by teams. Geographic distance will add even more
+        writing community.                time to the process.
+  Adapted from Robert Boice, Advice
+  for New Faculty Members: Nihil
+  Nimus (Boston: Allyn & Bacon, 2000),
+                                          BRAINSTORMING, PLANNING, AND ORGANIZING
+  ati     t2:                             BUSINESS DOCUMENTS
+                                          Spend significant time planning and organizing before you begin to write. The
+                                          better your ideas are when you start, the fewer drafts you'll need to produce a
+                                          good document. Start by using the analysis questions from Chapter 1 to identify
+                                          purpose and audience. Use the strategies described in Chapter 2 to analyze audi-
+                                          ence and identify benefits. Gather information you can use for your document.
+                                          Select the points you want to make—and the examples and data to support them.
+                                             Sometimes your content will be determined by the situation. Sometimes,
+                                          even when it’s up to you to think of information to include in a report, you'll
+                                          find it easy to think of ideas. If ideas won’t come, try the following techniques:
+
+                                            =     Brainstorming. Think of all the ideas you can, without judging them.
+                                                  Consciously try to get at least a dozen different ideas before you stop.
+                                                  Good brainstorming depends on generating many ideas.
+                                            =     Freewriting.? Make yourself write, without stopping, for 10 minutes or
+                                                  so, even if you must write “I will think of something soon.” At the end
+                                                  of 10 minutes, read what you’ve written, identify the best point in the
+                                                  draft, then set it aside, and write for another 10 uninterrupted minutes.
+                                                  Read this draft, marking anything that’s good and should be kept, and
+                                                          Business and Administrative Communication, Tenth Ed ition
+
+
+
+
+                                             Chapter5    Planning, Composing, and Revising                                    121
+
+
+
+
+  then write again for another 10 minutes. By the third session, you will
+  probably produce several sections that are worth keeping—maybe even
+  a complete draft that’s ready to be revised.
+= Clustering.’ Write your topic in the middle of the page and circle it. Write
+  down the ideas the topic suggests, circling them, too. (The circles are
+  designed to tap into the nonlinear half of your brain.) When you  ve filled
+  the page, look for patterns or repeated ideas. Use different colored pens
+  to group related ideas. Then use these ideas to develop your content.
+= Talk to your audiences. As research shows, talking to internal and exter-
+  nal audiences helps writers to involve readers in the planning process
+  and to understand the social and political relationships among readers.
+  This preliminary work helps reduce the number of revisions needed
+  before documents are approved.’
+
+   Thinking about the content, layout, or structure of your document can also
+give you ideas. For long documents, write out the headings you'll use. For
+short documents, jot down key points—information to include, objections to
+answer, benefits to develop. For an oral presentation, a meeting, or a docu-
+ment with lots of visuals, try creating a storyboard, with a rectangle represent-
+ing each page or unit. Draw a box with a visual for each main point. Below the
+box, write a short caption or label.
+
+
+WRITING GOOD BUSINESS
+AND ADMINISTRATIVE DOCUMENTS
+Good business and administrative writing is closer to conversation and less
+formal than the style of writing that has traditionally earned high marks in
+college essays and term papers. (See Figure Dal:)
+   Most people have several styles of talking, which they vary instinctively
+depending on the audience. Good writers have several styles, too. An e-mail to
+
+Figure 5.1        Different Levels of Style
+                         Conversational style           Good business style              Traditional term paper style
+ Feature
+
+                         Highly informal                Conversational; sounds           More formal than conversation
+                                                        like a real person talking       would be, but retains a human voice
+
+                         Many contractions              OK to use occasional             Few contractions, if any
+                                                        contractions
+
+                         Uses first- and second-        Uses first- and second-           First- and second-person
+                                                        person pronouns                   pronouns kept to a minimum
+                         person pronouns
+
+                         Friendly                       Friendly                          No effort to make style friendly
+
+                         Personal; refers to            Personal; may refer to reader   — Impersonal; may generally refer
+                         specific circumstances         by name; refers to specific       to readers but does not name them
+                         of conversation                circumstances of audiences        or refer to their circumstances
+
+                          Short, simple words;          Short, simple words but           Many abstract words; scholarly,
+                          slang                         avoids slang                      technical terms
+
+                          Incomplete sentences;         Short sentences and               Longer sentences and paragraphs
+                          no paragraphs                 paragraphs
+
+                          Can be ungrammatical          Uses standard English             Uses more formal standard English
+
+                          Not applicable                Attention to visual impact.       No particular attention to visual
+                                                        of document                       impact
+PROFESSIONAL WRITING
+
+
+
+
+122                                     Part 2    The Communication Process
+
+
+            To Clarify or Not to        your boss about the delays from a supplier will be informal, perhaps even chatty;
+            Clarify                     a letter to the supplier demanding better service will be more formal.
+      7 ia Former Federal Board            Reports tend to be more formal than letters and memos, since they may
+             Chair Alan Greenspan       be read many years in the future by audiences the writer can barely imag-
+was known for his lack of clar-         ine. Reports tend to avoid contractions, personal pronouns, and second per-
+ity. After one speech, a headline       son (since so many people read reports, you doesn’t have much meaning). See
+in the Washington Post read             Chapter 18 for more about report style.
+“Greenspan Hints Fed May Cut                Keep the following points in mind as you choose a level of formality for a
+Interest Rates,” while the cor-
+                                        specific document:
+responding headline in the New
+York Times read “Doubt Voiced
+by Greenspan on a Rate Cut.”              =      Usea friendly, informal style to someone you've talked with.
+Even his wife joked that he had to        =      Avoid contractions, slang, and even minor grammatical lapses in paper
+propose twice before she under-                  documents to people you don’t know. Abbreviations are OK in e-mail
+stood what he was saying.                        messages if they’re part of the group’s culture.
+   His replacement, Ben Bernanke,
+has a different style. As he aims
+                                          =      Pay particular attention to your style when you write to people you fear
+for more transparent communica-                  or when you must give bad news. Research shows our style changes in
+tions, he is trying to make the Fed              stressful contexts. We tend to rely on nouns rather than on verbs and
+clearer about goals for economic                 deaden our style when we are under stress or feel insecure.° Confident
+growth.                                          people are more direct. Edit your writing so that you sound confident,
+                                                 whether you feel that way or not.
+ Adapted from Greg Ip, “‘Transparent’
+ Vision: New Fed Chairman Hopes to
+ Downplay Impact of His Words,” Wall          More and more organizations are trying to simplify their communications.
+ Street Journal, September 6, 2006,
+ A1; and Daniel Kadlec, “5 Ways the     Alan Greenspan, former chair of the Federal Reserve, was infamously known
+ New Fed Chairman Will Be Different,”   for his lack of clarity in communications, but his successor is striving to bring
+ Time, November 7, 2005, 49-50.         about new clarity in the board’s communications (see sidebar on this page).
+                                            In the financial world, the US Securities and Exchange Commission’s A Plain
+                                        English Handbook: How to Create Clear SEC Disclosure Documents asks for short
+                                        sentences, everyday words, active voice, bullet lists, and descriptive headings.
+                                        It cautions against legal and highly technical terms. Warren Buffett wrote the
+                                        preface, saying that the handbook was good news for him, because too often
+                                        he had been unable to decipher the documents filed by public companies. He
+                                        offers his own writing tip: write to a specific person. He says he pretends he is
+                                        writing to his sisters when he writes his Berkshire Hathaway annual reports.
+                                        The SEC has more recently applied the handbook standards to the brochures
+                                        investment advisers give to clients and has urged them on hedge funds.°
+                                            In 2010, the Plain Writing Act became law. It requires all federal agencies
+                                        to use clear prose that the public can readily understand. PlainLanguage.gov
+                                        explains the law, provides a 112-page manual to help agencies use plain lan-
+                                        guage, and offers examples of good federal communication.
+                                            Of course, the news is full of examples where these efforts have failed. The
+                                        same negative examples, however, also show the great need for clear, simple
+                                        style. A major factor in the subprime mortgage disaster was documents writ-
+                                        ten in prose so complex that even experts couldn’t understand it. Many home-
+                                        owners who signed adjustable rate mortgages and subsequently lost their
+                                        homes claim they did not understand all the consequences of what they were
+                                        signing. Experts outside the mortgage business agree with the homeowners
+                                         that the language was too complex for most people to understand.”
+                                            Communication consultants like Gerard Braud urge clients to simplify their
+                                         prose. He warns, “All communication affects [the] bottom line. .. . When a
+                                         reader, listener, viewer or member of a live audience has to take even a nano-
+                                         second to decipher what you are saying because you are making it more com-
+                                         plicated than it needs to be, you may lose that person.”®
+                                            Good business style allows for individual variation. Figure 5.2 shows the
+                                         opening paragraphs from Warren Buffett’s letter to shareholders in Berkshire
+                                         Hathaway’s 2010 annual report. Buffett’s direct style suggests integrity and
+                                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                              Chapter5      Planning, Composing, and Revising                                                123
+
+
+Figure 5.2              Opening Paragraphs of Warren Buffett’s 2010 Letter to Shareholders
+
+
+
+
+                                                                    BERKSHIRE HATHAWAY INC.
+
+
+
+                        To the Shareholders of Berkshire Hathaway Inc.:
+
+                                                                                                                                  46 years
+                           The per-share book value of both our Class A and Class B stock increased by 13% in 2010. Over the last
+         .<    jerret         eee                                                           from $19 to $95,453, a rate of 20.2% compound-
+ guttet®                (that is, since present management took over), book value has grown
+  erat wiih nea         ed annually.* |                            aA:
+                                                                                                                                        even
+   gnort 08         A       The highlight of 2010 was our acquisition of Burlington Northern Santa Fe, a purchase that’s working out
+                                                               that owning this railroad will increase Berkshire’s “normal” earning power
+    urine - oe          better than I expected. It now appears
+                                                                                                                                 by 6% and
+    “he past ye         by nearly 40% pre-tax and by well over 30% after-tax. Making this purchase increased our share count
+                                                                                                                               have turned
+                        used $22 billion of cash. Since we’ve quickly replenished the cash, the economics of this transaction
+                        out very well.
+                                                                                                                   of Berkshire and my            Hee        ne
+                            A “normal year,” of course, is not something that either Charlie Munger, Vice Chairman
+                                                                                                                              earning power, we ro)      .
+                        partner, or I can define with anything like precision. But for the purpose of estimating our current
+                                                                                                                             climate somewhat      gosum
+                        are envisioning a year free of a mega-catastrophe in insurance and possessing a general business
+                                                                                                                        several others that I will 0"
+                        better than that of 2010 but weaker than that of 2005 or 2006. Using these assumptions, and
+                                                                                                                              currently own is
+                        explain in the “Investment” section, I can estimate that the normal earning power of the assets we
+                                                                                                                           day Charlie and I think
+                        about $17 billion pre-tax and $12 billion after-tax, excluding any capital gains or losses. Every
+                        about how we can build on this base.
+                                                                                                                    environmental
+                            Both of us are enthusiastic about BNSF’s future because railroads have major cost and
+                                                                                                             freight it carried a record
+               efits    advantages over trucking, their main competitor. Last year BNSF moved each ton of
+                                                                                                                 than trucking is, which means
+  societ nee            500 miles on      a single gallon of diesel fuel. That’s three times more fuel-efficient
+                                                                                                                gains because of
+                        our railroad owns an important advantage in operating costs. Concurrently, our country
+                                                                                                               travels by rail, society                  :
+                        reduced greenhouse emissions and a much smaller need for imported oil. When traffic
+                        benefits.                                                                                                                      ys
+                                                                                                                                                       xa”
+                            are
+                                                                                                                           Commentators today
+                            Money will always flow toward opportunity, and there is an abundance of that in America.
+                                                                                                             October 18, 1987, and September
+                        often talk of “great uncertainty.” But think back, for example, to December 6, 1941,
+                         10, 2001. No matter how serene today may be, tomorrow is always uncertain.
+                                                                                                                    have constantly moaned
+                             Don’t let that reality spook you. Throughout my lifetime, politicians and pundits
+                                                                                                                      times better than when
+                         about terrifying problems facing America. Yet our citizens now live an astonishing six
+                                born. The  prophets  of doom  have overlooked the all-important factor  that  is certain: Human potential is
+                         I was
+                                                                                                            system that has worked wonders
+                         far from exhausted, and the American system for unleashing that potential—a
+                                                                                                             Civil War—remains alive and
+                         for over two centuries despite frequent interruptions for recessions and even a
+                         effective.
+                                                                                                                  work harder. But look around
+          you anit           We are not natively smarter than we were when our country was founded nor do we
+                                                                                                   1776, 1861, 1932 and 1941, America’s best
+  \NOY de “snes?         you and see a world beyond the dreams of any colonial citizen. Now, as in
+   ne used               days lie ahead.
+    gatee"
+                         Performance
+
+                                                                                                                  establish performance goals at
+                                                                                                                                                 cao!gnot
+                             Charlie and I believe that those entrusted with handling the funds of others should                                  mets  a
+                                                          Lacking such  standards,  managements are tempted  to shoot  the arrow of performance
+                         the onset of their stewardship.
+                         and then paint the bull’s-eye  around wherever   it lands.
+
+
+                         —————————————
+                                                                                                              for the B shares are 1/1500th of those
+                         * All per-share figures used in this report apply to Berkshire’s A shares. Figures
+                         shown for A.
+
+
+
+
+ Source: Copyrighted material. Reprinted with permission of the author.
+PROFESSIONAL WRITING
+
+
+
+
+124                                   Part2    The Communication Process
+
+
+           Evaluating “Rules”         clarity. Later in the letter, Buffett adds some of the colorful prose for which he
+           about Writing              is famous:
+fe         Some “rules” are gram-
+           matical   conventions.      m      We're prepared. Our elephant gun has been reloaded, and my trigger
+For example, standard edited Eng-             finger is itchy.
+lish requires that each sentence
+have a subject and verb, and that
+                                       =      [Deriding those who dismiss important facts as anomalies] I always love
+the subject and verb agree. Busi-             explanations of that kind: The Flat Earth Society probably views a ship’s
+ness writing normally demands                 circling of the globe as an annoying, but inconsequential, anomaly.
+standard grammar, but exceptions       =      The fundamental principle of auto racing is that to finish first, you must
+exist. Promotional materials such             first finish.
+as brochures, advertisements, and
+                                       =      Credit is like oxygen. When either is abundant, its presence goes unno-
+sales letters may use sentence
+                                              ticed. When either is missing, that’s all that is noticed.’
+fragments to mimic the effect of
+speech.
+   Other “rules” may be conven-
+tions adopted by an organiza-
+                                      HALF-TRUTHS ABOUT BUSINESS WRITING
+tion so that its documents will       Many generalizations about business writing are half-truths and must be
+be consistent. For example, a         applied selectively, if at all.
+company might decide to capi-
+talize job titles (e.g., Production
+Manager) even though grammar
+                                      Half-Truth 1: “Write as You Talk.”
+doesn’t require the capitals.         Most of us use a colloquial, conversational style in speech that is too informal
+   Still other “rules” are attempts   for writing. We use slang, incomplete sentences, and even grammatical errors.
+to codify “what sounds good.”            Unless our speech is exceptionally fluent, “writing as we talk” can create
+“Never use /” and “use big words”
+                                      awkward, repetitive, and badly organized prose. It’s OK to write as you talk to
+are examples of this kind of
+“rule.” To evaluate these “rules,”
+                                      produce your first draft, but edit to create a good written style.
+you must consider your audi-
+ence, purposes, and situation. If     Half-Truth 2: “Never Use /.”
+you want the effect produced by
+                                      Using I too often can make your writing sound self-centered; using it unneces-
+an impersonal style and polysyl-
+ labic words, use them. But use
+                                      sarily will make your ideas seem tentative. However, when you write about
+them only when you want the
+                                      things you’ve done or said or seen, using I is both appropriate and smoother
+ distancing they produce.             than resorting to awkward passives or phrases like this writer.
+
+                                      Half-Truth 3: “Never Use You.”
+                                      Certainly writers should not use you in formal reports, as well as other situ-
+                                      ations where the audience is not known or you may sound too informal. But
+                                      you is widely used in situations such as writing to familiar audiences like our
+                                      office mates, describing audience benefits, and writing sales text.
+
+                                      Half-Truth 4: “Never Begin a Sentence with And or But.”
+                                      Beginning a sentence with and or also makes the idea that follows seem like an
+                                      afterthought. That’s OK when you want the effect of spontaneous speech in a
+                                      written document, as you may ina sales letter. If you want to sound as though
+                                      you have thought about what you are saying, put the also in the middle of the
+                                      sentence or use another transition: moreover, furthermore.
+                                         But tells the reader that you are shifting gears and that the point which fol-
+                                      lows not only contrasts with but also is more important than the preceding
+                                      ideas. Presenting such verbal signposts to your reader is important. Beginning
+                                      a sentence with but is fine if doing so makes your paragraph read smoothly.
+
+                                       Half-Truth 5: “Never End a Sentence with a Preposition.”
+                                       Prepositions are those useful little words that indicate relationships: with, in,
+                                       under, to, at. In job application letters, reports, and important presentations,
+                                                     Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                          Chapter5   Planning, Composing, and Revising                                 125
+
+
+                                                                                                  Building a Better
+avoid ending sentences with prepositions. Most other messages are less for-                       Style
+mal; it’s OK to end an occasional sentence with a preposition. Noting excep-
+tions to the rule, Sir Winston Churchill famously scolded an editor who had                   *   To improve your style,
+presumptuously corrected a sentence ending with a preposition, “This is the                Try telling someone what you
+kind of impertinence up with which I will not put.”1° Analyze your audi-                   really mean. Then write the
+ence and the situation, and use the language that you think will get the best              words.
+results.                                                                                   Try reading your draft out
+                                                                                           loud to someone sitting about
+                                                                                           three feet away—about as far
+Half-Truth 6: “Big Words Impress People.”                                                  away as you'd sit in casual
+Learning an academic discipline requires that you master its vocabulary. After             conversation. If the words
+
+you get out of school, however, no one will ask you to write just to prove                 sound awkward, they’ll seem
+
+that you understand something. Instead, you'll be asked to write or speak to
+                                                                                           awkward to a reader, too.
+
+people who need the information you have.                                                  Ask someone else to read
+
+   Sometimes you may want the sense of formality or technical expertise that
+                                                                                           your draft out loud. Readers
+                                                                                           stumble because the words
+big words create. But much of the time, big words just distance you from your              on the page aren’t what they
+audience and increase the risk of miscommunication. If you feel you need to                expect to see. The places
+use big words, make sure you use them correctly. When people misuse big                    where that person stumbles
+words, they look foolish.                                                                  are places where your writing
+                                                                                           can be better.
+Half-Truth 7: “Never Have a Sentence with More than 20                                      Read widely and write a /ot.
+
+Words, or a Paragraph with More than 8 Lines.”                                              Use the 10 techniques start-
+                                                                                            ing on this page to polish
+While it is true that long sentences and paragraphs may sometimes be hard                   your style.
+to read, such is not always the case. Long sentences with parallel clauses
+(see pages 134-135) may be quite clear, and a longer paragraph with a bul-
+leted list may be quite readable. Your audience, purpose, and context should
+guide length decisions. Instructions for complicated new software may need
+shorter sentences and paragraphs, but an instruction paragraph on the six
+criteria for legitimate travel expenses may be longer than eight lines and still
+quite clear.
+   If your audience, however, believes in rigid guidelines, then you should
+follow them also.
+
+ TEN WAYS TO MAKE YOUR WRITING
+ EASIER TO READ
+ Direct, simple writing is easier to read. One study tested two versions of a
+ memo report. The “high-impact” version had the “bottom line” (the purpose
+ of the report) in the first paragraph, simple sentences in normal word order,
+ active verbs, concrete language, short paragraphs, headings and lists, and
+ first- and second-person pronouns. The high-impact version took 22% less
+ time to read. Readers said they understood the report better, and tests showed
+ that they really did understand it better.'’ Another study showed that high-
+ impact instructions were more likely to be followed.”
+
+ As You Choose Words
+ The best word depends on context: the situation, your purposes, your audi-
+ ence, the words you have already used.
+
+ 4. Use words that are accurate, appropriate, and familiar. Accurate
+ words mean what you want to say. Appropriate words convey the attitudes
+ you want and fit well with the other words in your document. Familiar words
+ are easy to read and understand.
+PROFESSIONAL WRITING
+
+
+
+
+126                                    Part2    The Communication Process
+
+
+            What's in a Name              Sometimes choosing the accurate word is hard. Most of us have word pairs
+            (1): Quirky Job Titles     that confuse us. Grammarian Richard Lederer tells Toastmasters that these 10
+              Have you noticed the     pairs are the ones you are most likely to see or hear confused."
+             fun job titles at some
+              companies lately? A
+                                             Affect/Effect                             Disinterested / Uninterested
+ mortgage company with a Wealth              Among/Between                             Farther / Further
+ Creation Specialist, a chamber of           Amount/Number                             Fewer/Less
+ commerce with a Director of First           Compose /Comprise                         Imply /Infer
+ Impressions (receptionist)?
+   McLellan Marketing Group—
+                                             Different from/Different than             Lay/Lie
+ headed by Top Dog, of course—         For help using the pairs correctly, see Appendix B.
+ has a Duchess of Details (project
+                                          Some meanings are negotiated as we interact one-on-one with another per-
+ manager) and a Warden (accoun-
+                                       son, attempting to communicate. Individuals are likely to have different ideas
+ tant). The Top Dog says the titles
+ give customers an immediate
+                                       about value-laden words like fair or empowerment. The Wall Street Journal notes
+ impression of the company so
+                                       that the Securities and Exchange Commission has upped the ante on the defi-
+ they can judge compatibility.         nition of rich as it regulates the net worth requirement for those eligible to
+   Even national companies have        invest in hedge funds. That definition is important because it often becomes
+ joined in the retitling craze. Best   the government's definition of rich:
+ Buy’s      computer-help       Geek
+ Squad employs Special Agents,               The SEC. . . . says investors need to have investible assets of at least $2.5 million,
+ Field Marshals,       and Mission           excluding equity in any homes or businesses, to be eligible to sign on a hedge fund’s  ~
+ Controllers. Build-a-Bear (stores           dotted line. That’s a huge jump from the current requirement, which says individuals _
+ where you choose, stuff, and                have to have a net worth of at least $1 million, including the value of primary resi- _
+ dress your own teddy bear) has              dences, or an annual income of $200,000 for the previous two years for individuals
+ its Chief Executive Bear and
+                                             or $300,000 for couples.”                                                          ee
+  Database Adminbearstrator.
+    Experts say the new titles work
+                                             Some word choices have legal implications.
+ when they fit the corporate cul-
+ ture and company clients.
+                                         =     Confusion about the definition of wetlands has reduced these natural
+ Adapted from Patt Johnson, “Quirky
+ Names Try to Better Match What Peo-
+                                               resources by more than half.’°
+ ple Do,” Des Moines Register, March     =     Some employees, such as assistant managers in small franchises, are
+ 10, 2008, 1D.                                 working to be reclassified as nonprofessionals. The word choice affects
+                                               the workers’ paychecks, because under labor laws employers are
+                                               exempt from paying extra when professionals and administrators work
+                                               overtime.
+                                         =     Medicare dropped its opposition to defining obesity as an illness, thus
+                                               allowing Medicare to cover the payment for some treatments. !”
+
+                                          As the last example indicates, some word choices have major health repercus-
+                                       sions. Smokers have sued tobacco companies for duping them into believing
+                                       that “light” cigarettes were less harmful. Recall, when used in warnings about
+                                       defective pacemakers and defibrillators, causes patients to ask for replacements,
+                                       even though the replacement surgery is riskier than the defective device. For
+                                       this reason, some physician groups prefer safety advisory or safety alert.'®
+
+                                        Accurate denotations To be accurate, a word’s denotation must match the
+                                        meaning the writer wishes to convey. Denotation is a word’s literal or diction-
+                                        ary meaning. Most common words in English have more than one denotation.
+                                        The word pound, for example, means, or denotes, a unit of weight, a place
+                                        where stray animals are kept, a unit of money in the old British system, and
+                                        the verb to hit. Coca-Cola spends millions each year to protect its brand names
+                                        so that Coke will denote only that brand and not just any cola drink.
+                                             When    two people use the same word or phrase to mean, or denote, dif-
+                                        ferent things, bypassing occurs. For example, a large mail-order drug com-
+                                        pany notifies clients by e-mail when their prescription renewals get stopped
+                                        because the doctor has not verified the prescription. Patients are advised to
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                Chapter5   Planning, Composing, and Revising                          127
+
+
+call their doctors and remind them to verify. However, the company’s website
+posts a sentence telling clients that the prescription is being processed. The drug
+company means the renewal is in the system, waiting for the doctor’s verifica-
+tion. The patients believe the doctor has checked in and the renewal is moving
+forward. The confusion results in extra phone calls to the company’s customer
+service number, delayed prescriptions, and general customer dissatisfaction.
+    Problems also arise when writers misuse words.
+
+      The western part of Pennsylvania was transferred from Columbus to Philadelphia.
+
+      (Pennsylvania did not move. Instead, a company moved responsibility for
+sales in western Pennsylvania.)
+
+_     Three major divisions of Stiners Corporation are poised to strike out in opposite
+    _ directions.
+
+      (Three different directions can’t be opposite each other.)
+
+     - Stiners has grown dramatically over the past five years, largely by purchasing
+    _ many smaller, desperate companies.
+
+This latter statement probably did not intend to be so frank. More likely, the
+writer relied on a computer’s spell checker, which accepted desperate for dispa-
+rate, meaning “fundamentally different from one another.”
+Appropriate connotations Words are appropriate when their connotations,
+    that is, their emotional associations or colorings, convey the attitude you want.
+    A great many words carry connotations of approval or disapproval, disgust or
+    delight. Words in the first column below suggest approval; words in the sec-
+    ond column suggest criticism.
+       Positive word                  Negative word
+       assume                         guess
+        curious                       nosy
+        cautious                      fearful
+        firm                          obstinate
+        flexible                      wishy-washy
+        A supervisor can “tell the truth” about a subordinate’s performance and yet
+    write either a positive or a negative performance appraisal, based on the con-
+    notations of the words in the appraisal. Consider an employee who pays close
+     attention to details. A positive appraisal might read, “Terry is a meticulous team
+     member who takes care of details that others sometimes ignore.” But the same
+     behavior might be described negatively: “Terry is hung up on trivial details.”
+        Advertisers carefully choose words with positive connotations.
+
+      =   Inthis youth-conscious society, hearing aids become personal communi-
+          cation assistants.'?
+                                                                                  or
+      =   Expensive cars are never used; instead, they’re pre-owned, experienced,
+          even previously adored.”°
+                                                                            your
+      =   Insurers emphasize what you want to protect (your home, your car,
+          life), rather than the losses you are insuring against (fire damage, auto
+          accident, death).
+      =   Credit card companies tell about what you can do with the card (charge
+          a vacation), not the debt, payments, and fees involved.
+PROFESSIONAL WRITING
+
+
+
+
+128                                       Part2    The Communication Process
+
+
+            What's in a Name (2):             Words may also connote categories. Some show status. Both salesperson and
+ve          How Local Is “Local”?         sales representative are nonsexist job titles. But the first sounds like a clerk in a
+             Some consumers prefer        store; the second suggests someone selling important items to corporate cus-
+  =          to purchase food pro-        tomers. Some words connote age: adorable generally connotes young children,
+duced locally on the assumption           not adults. Other words, such as handsome or pretty, connote gender.
+that the food will be fresher and             Connotations change over time. The word charity had acquired such nega-
+contain fewer chemicals. But what         tive connotations by the 19th century that people began to use the term welfare
+does local mean? One woman in
+                                          instead. Now, welfare has acquired negative associations. Most states have pub-
+Washington, D.C., found “local”
+                                          lic assistance programs instead.
+strawberries whose packaging
+indicated they were actually grown
+                                          Ethical implications of word choice How positively can we present some-
+in California.
+                                          thing and still be ethical? Pressure-treated lumber sounds acceptable. But nam-
+  Some       states   and _ retailers
+have established definitions for
+                                          ing the material injected under pressure—arsenic-treated lumber—may lead the
+what qualifies as locally grown:
+                                          customer to make a different decision. We have the right to package our ideas
+Vermont says within state or 30           attractively, but we have the responsibility to give the public or our superiors
+miles of sales place; Walmart             all the information they need to make decisions.
+says local means produce came                Word choices have ethical implications in other contexts as well. When
+from the state where it is being          scientists refer to 100-year floods, they mean a flood so big that it has a 1%
+sold. However, definitions vary           chance of happening in any given year. However, a “1% annual chance flood”
+widely, and, given the diversity of       is awkward and has not become standard usage. On the other hand, many
+crops and their growing regions,          nonscientists believe a 100-year flood will happen only once every hundred
+a nationwide standard is unlikely.
+                                          years. After a 100-year flood swamped the Midwest in 1993, many people
+   So, despite the economic boon
+                                          moved back into flood-prone homes; some even dropped their flood insur-
+ to retailers of labeling a product
+ as locally produced, the advan-
+                                          ance. Unfortunately, both actions left them devastated by a second 100-year
+ tage to consumers is not always          flood in 2008.7
+ clear.                                      Perhaps one of the best-known examples of ethical implications deals with
+                                          the interrogation technique of waterboarding. President Bush’s attorney gen-
+ Adapted from “Locally Grown Pro-         eral said waterboarding was not torture; President Obama’s attorney general
+ duce? It All Depends on How You
+ Define It,” Des Moines Register, April   said it was.”
+ 2, 2011, 8A.
+                                          Familiar words         Use familiar words, words        that are in almost everyone’s
+                                          vocabulary. Use the word that most exactly conveys your meaning, but when-
+                                          ever you can choose between two words that mean the same thing, use the
+                                          shorter, more common one. Try to use specific, concrete words. They’re easier to
+                                          understand and remember.”
+                                             A series of long, learned, abstract terms makes writing less interesting, less
+                                          forceful, and less memorable. When you have something simple to say, use
+                                          simple words.
+                                             The following list gives a few examples of short, simple alternatives:
+                                                Formal and stuffy              Short and simple
+                                                ameliorate                     improve
+                                                commence                       begin
+                                                enumerate                      list
+                                                finalize                       finish, complete
+                                                prioritize                     rank
+                                                utilize                        use
+                                                viable option                  choice
+                                                There are some exceptions to the general rule that “shorter is better”:
+
+                                            =     Use a long word if it is the only word that expresses your meaning
+                                                  exactly.
+                                            =     Use a long word—or phrase—if it is more familiar than a short word: a
+                                                  word in another language for a geographic place or area is better than exonym.
+                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                            Chapter5    Planning, Composing, and Revising                                   129
+
+
+                                                                                                        DUTA [Don’t Use
+ =   Usea long word if its connotations are more appropriate. Exfoliate is bet-                         That Acronym]
+     ter than scrape off dead skin cells.                                                              Used properly, acro-
+ =   Usea long word if your audience prefers it.                                                       nyms can be both
+                                                                                            convenient and powerful. Mar-
+
+2. Use technical jargon sparingly; eliminate business jargon. There
+                                                                                            keters in Washington, D.C., for
+                                                                                            example, use mostly unknown
+are two kinds of jargon. The first is the specialized terminology of a technical            acronyms in their subway and
+field. Many public figures enjoy mocking jargon. Even the Wall Street Journal               billboard advertising to target
+does its share, mocking quotes like this one from a computer industry press                 government employees at spe-
+release announcing a new “market offering”:                                                 cific agencies. It doesn’t matter
+                                                                                            that most people have no idea
+ [The] offerings are leading-edge service configuration assurance capabilities              what the ads are about; the signs
+  that will help us to rapidly deploy high-demand IP services, such as level 3              are targeted for government pro-
+                              multi-cast and quality of service over our IP/MPLS            curement agents and program
+i virtual private networks,
+                                                                                            managers.
+ ~ network.”4                                                                                  But acronyms can fail when
+                                                                                            the intended audience doesn't
+   A job application letter is one of the few occasions when it’s desirable to               understand what an acronym
+use technical jargon: using the technical terminology of the reader’s field                  stands for or when a single
+helps suggest that you're a peer who also is competent in that field. In other               acronym has multiple meanings,
+kinds of messages, use technical jargon only when the term is essential and                  sometimes even within the same
+known to the reader. If a technical term has a “plain English” equivalent, use               organization. In Washington D.C.,
+the simpler term.                                                                            even some of the bureaucrats
+
+   The second kind of jargon is the businessese that some writers still use: as              in the intended audience don’t
+
+per your request, enclosed please find, please do not hesitate. None of the words in
+                                                                                             understand the ads.
+
+this second category of jargon are necessary. Indeed, some writers call these
+                                                                                               To look up the definition of
+                                                                                             an   acronym, try using www
+terms deadwood, since they are no longer living words. If any of the terms in                .AcronymFinder.com, an acronym
+the first column of Figure 5.3.show up in your writing, replace them with more               dictionary used by businesses,
+modern language.                                                                             lawyers, students, and savvy writ-
+                                                                                             ers seeking acronym definitions.
+                                                                                             The site has over 1 million visitors
+As You Write and Revise Sentences                                                            and 4 million page views a month.
+
+At the sentence level, you can do many things to make your writing easy to read.
+                                                                                             In May 2011, the site listed more
+                                                                                             than 750,000 acronyms, includ-
+
+3. Use active voice most of the time.               “Who does what” sentences with           ing 90 SAFEs, 147 FASTs, and
+                                                                                             202 CATs. No wonder acronyms
+ active voice make your writing more forceful.                                                can be confusing.
+    A verb is in active voice if the grammatical subject of the sentence does
+ the action the verb describes. A verb is in passive voice if the subject is acted            Adapted from Thomas Catan, “To
+
+ upon. Passive voice is usually made up of a form of the verb to be plus a past
+                                                                                              Understand Washington Ads, You've
+                                                                                              Got to Be a Code Breaker,” Wall
+ participle. Passive has nothing to do with past. Passive voice can be past, pres-            Street Journal, March 7, 2011, A1.
+ ent, or future:
+     were received                (in the past)
+     is recommended               (in the present)
+     will be implemented          (in the future)
+    To spot a passive voice, find the verb. If the verb describes something
+                                                                            verb
+ that the grammatical subject is doing, the verb is in active voice. If the
+ describes somethin g that is being done to the grammati cal subject, the verb is
+ in passive voice.
+      Active Voice                                Passive Voice
+      The customer received 500                   Five hundred widgets were
+      widgets.                                    received by the customer.
+      I recommend this method.                    This method is recommended by me.
+      The state agencies will implement           The program will be implemented
+      the program.                                by the state agencies.
+142,   PROFESSIONAL WRITING
+
+
+
+
+       130                                       Part 2    The Communication Process
+
+
+       Figure 5.3              Getting Rid of Business Jargon
+        Instead of                                                                                     Because
+
+        At your earliest convenience                             The date you need a response          lf you need it by a deadline, say so. It
+                                                                                                       may never be convenient to respond.
+        As per your request; 65 miles per hour                   As you requested; 65 miles an hour    Per is a Latin word for by or for each.
+                                                                                                       Use per only when the meaning is
+                                                                                                       correct; avoid mixing English and Latin.
+         Enclosed please find                                    Enclosed is; Here is                  An enclosure isn’t a treasure hunt. If
+                                                                                                       you put something in the envelope, the
+                                                                                                       reader will find it.
+
+         Hereto, herewith                                        Omit                                  Omit legal jargon.
+         Please be advised; Please be informed                   Omit—simply start your response       You don’t need a preface. Go ahead
+                                                                                                       and start.
+
+         Please do not hesitate                                  Omit                                  Omit negative words.
+         Pursuant to                                             According to; or omit                 Pursuant does not mean after. Omit
+                                                                                                       legal jargon in any case.
+        This will acknowledge receipt of your                    _Omit—start your response             lf you answer a letter, the reader knows
+        letter.                                                                                        you got it.
+        Trusting this is satisfactory, we remain                 Omit                                  Eliminate-ing endings. When you are
+                                                                                                       through, stop.
+       cos ne
+
+
+
+                     Menu Word Choice            To change from passive voice to active voice, you must make the agent the
+                  \ Some restaurants use         new subject. If no agent is specified in the sentence, you must supply one to
+                     humorous names for          make the sentence active.
+                     their dishes so patrons
+                     will talk about them to
+                                                       Passive Voice                                  Active Voice
+                     their friends.
+        =    Sticky Fingers RibHouses, a               The request was approved by the                The plant manager approved
+             South Carolina—based chain,               plant manager.                                 the request.
+             calls its onion appetizer                 A decision will be made next month.            The committee will decide
+             Git-R-D’onions.                                                                          next month..
+                                                       No agent in sentence.
+        =    David Burke at Blooming-
+             dales, New York, offers Angry             A letter will be sent informing the            [You] Send the customer a letter
+             Roasted Hen-in-Law: a                     customer of the change. No agent in            informing her about the change.
+             roasted chicken which comes               sentence.
+             with a knife in its back.
+        =    Spy City Café, next to Wash-
+                                                 Passive voice has at least three disadvantages:
+             ington’s Spy Museum, serves
+             Disguise Dogs, hotdogs
+             which come with a selection           =      If all the information in the original sentence is retained, passive voice
+             of 15 toppings (“disguises”).                makes the sentence longer. Passive voice takes more time to understand.”
+        Adapted from Judy Mandell, “Name
+                                                   =      If the agent is omitted, it’s not clear who is responsible for doing the
+        That Dish: Menu Writing Gets Cre-                 action.
+
+        ate, ie iad               nti        8     =      Using much passive voice, especially in material that has a lot of big
+                                                          words, can make the writing boring and pompous.
+
+                                                  Passive voice is desirable in these situations:
+                                                  a. Use passive voice to emphasize the object receiving the action, not the
+                                                        agent.
+                                                            Your order was shipped November 15.
+
+                                                        The customer’s order, not the shipping clerk, is important.
+                                                                  Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter5   Planning, Composing, and Revising                                          131
+
+
+
+b. Use passive voice to provide coherence within a paragraph. A sentence is
+                                                                                                                  What's in a Name
+                                                                                                                  (3): Medicine Names
+   easier to read if “old” information comes at the beginning of a sentence.
+                                                                                                                   “Prozac. Viagra. Lipitor.
+   When you have been discussing a topic, use the word again as your subject                                         “The names of these
+   even if that requires passive voice.                                                                            incredibly popular med-
+           The bank made several risky joans in the late 1990s. These loans were written off as      icines don’t have defined meanings.
+           “uncollectible” in 2001.                                                                  But millions of dollars are spent
+                                                                                                     creating just the right sound and
+   Using loans as the subject of the second sentence provides a link between                         image.                                  ,
+   the two sentences, making the paragraph as a whole easier to read.                                   “Research shows letters with a
+c. Use passive voice to avoid assigning blame.                                                       hard edge like P, T or K convey
+                                                                                                     effectiveness. X seems scientific.
+           The order was damaged during shipment.                                                     L, R or S provides a calming or
+   Active voice would require the writer to specify who damaged the order.                            relaxing feel. Z means speed. . . .
+The passive voice is more tactful here.                                                                 “Most companies prefer a name
+
+   According to PlainLanguage.gov, changing writing to active voice is the
+                                                                                                     that says something about the
+                                                                                                      drug, like Allegra, which alludes
+most powerful change that can be made to government documents.” But even                              to the allergy relief it provides. . . .
+the self-proclaimed prescriptivist style editor Bill Walsh, a copy chief at the                         “The name cannot make a
+Washington Post, admits that sometimes passive voice is necessary—although                            claim about a drug. The hair-loss
+not as often as many writers think.””                                                                 treatment Rogaine, for instance,
+                                                                             Put                      was originally called Regain until
+4. Use verbs—not nouns—to carry the weight of your sentence.                                          the FDA rejected it... .
+the weight of your  sentence in the verb to make   your sentences more  forceful
+                                                                                                        “The FDA rejects 35 percent
+and up to 25% easier to read.2 When the verb is a form of the verb to be, revise                      to 40 percent of the brands it
+the sentence to use a more forceful verb.                                                             reviews. In Europe, the rejection
+                                                                                                      rate approaches 50 percent.”
+   Weak:      The financial advantage of owning this equipment instead of leasing itis 10% after
+              taxes.                                                                                  Quoted from Tom Murphy, “Starts
+
+              Owning this equipment rather than leasing it will save us 10% after taxes.
+                                                                                                      with P, T, K? Payoff Big for Right Drug
+   Better:                                                                                            Name: Companies Spend Millions of
+   Nouns ending in -ment, -ion, and -al often hide verbs.                                             Dollars on Processing a Winning Med-
+                                                                                                      icine Brand,” Des Moines Register,
+   Weak                                Better                                                         January 18, 2008, 6D.
+
+   make an adjustment                  adjust
+   make a payment                      pay
+   make a decision                     decide
+   reach a conclusion                  conclude
+   take into consideration             consider
+   make a referral                     refer
+   provide assistance                  assist
+ Use verbs to present the information more forcefully.
+   Weak:       We will perform an investigation of the problem.
+    Better:    We will investigate the problem.
+   Weak:       Selection of a program should be based on the client's needs.
+    Better:    Select the program that best fits the client's needs.
+
+ 5 Eliminate wordiness. Writing is wordy if the same idea can be expressed
+                                                                     reader,
+ in fewer words. Unnecessary words increase writing time, bore your
+ and make your meaning more difficult to follow, since the reader must hold
+ all the extra words in mind while trying to understand your meaning. Don
+                                                                    s the most
+ Bush, the “friendly editor” columnist for intercom, calls wordines
+ obvious fault of technical writing.”
+                                                                             may be
+    Good writing is concise, but it may still be lengthy. Concise writing
+                it is packed with ideas. In  Chapter   3, we saw   that revisions   to
+ long because
+                                                    to  develop  benefits  were   fre-
+ create you-attitude and positive emphasis and
+                                                                            ion not
+ quently longer than the originals because the revision added informat
+ given in the original.
+PROFESSIONAL WRITING
+
+
+
+
+132                                         Part2    The Communication Process
+
+
+               Meaningless                    Sometimes you may be able to look at a draft and see immediately how to
+               Sentences                    condense it. When the solution isn’t obvious, try the following strategies to
+           {Editor Bill Walsh of            condense your writing:
+           the Washington Post
+           gives these examples
+                                            a. Eliminate words that add nothing.
+of meaningless sentences]                   b. Combine sentences to eliminate unnecessary words.
+=     A donation of your car, truck         c. Put the meaning of your sentence into the subject and verb to cut the num-
+      or boat is tax-deductible to             ber of words.
+      the maximum extent of the
+      law.
+                                                You eliminate unnecessary words to save the reader’s time, not simply to
+  In other words, you're allowed            see how few words you can use. You aren’t writing a telegram, so keep the
+to deduct it as much as you’re              little words that make sentences complete. (Incomplete sentences are fine in
+ allowed to deduct it. Good                 lists where all the items are incomplete.)
+ news: Your toenail clippings are               The following examples show how to use these methods.
+ also deductible to the maximum
+ extent of the law.                         a. Eliminate words that add nothing. Cut words if the idea is already clear
+ =     You  can use this scholarship        from other words in the sentence. Substitute single words for wordy phrases.
+       at any participating school in
+                                               Wordy:       Keep this information on file for future reference.
+       the world,
+   | have no doubt that this is                Better:      Keep this information for reference.
+ true. But it raises one major                 Or:          File this information.
+ question. ...
+                                               Wordy:       Ideally, it would be best to put the billing ticket just below the monitor and above
+ = Area schools will be back in
+                                                            the keyboard.
+   session Monday, disappoint-
+   ing thousands of children                    Better:    _ |f possible, put the billing ticket between the monitor and the keyboard.
+   who would rather stay home
+                                                Phrases beginning with of, which, and that can often be shortened.
+   and watch John Wayne
+   movies.                                     Wordy:       the question of most importance
+      No, they wouldn’t. (How old are           Better:     the most important question
+ you, anyway?)
+                                                Wordy: _ the estimate which is enclosed
+ Quoted from Bill Walsh, The Elephants
+                                                Better:     the enclosed estimate
+ of Style: A Trunkload of Tips on the Big
+ Issues and Gray Areas of Contempo-             Wordy:      We need to act on the suggestions that our customers offer us.
+ rary American English (New York:
+ McGraw-Hill, 2004), 140, 149.                  Better:     We need to act on customer suggestions.
+
+                                                Sentences beginning with There are or It is can often be tighter.
+                                                Wordy:       There are three reasons for the success of the project.
+                                                Tighter:     Three reasons explain the project’s success.
+                                                Wordy:       It is the case that college graduates advance more quickly in the company.
+                                                Tighter:     College graduates advance more quickly in the company.
+
+                                              Check your draft. If you find these phrases, or any of the unnecessary words
+                                            shown in Figure 5.4, eliminate them.
+
+                                            b. Combine sentences to eliminate unnecessary words. In addition to sav-
+                                            ing words, combining sentences focuses the reader’s attention on key points,
+                                            makes your writing sound more sophisticated, and sharpens the relationship
+                                            between ideas, thus making your writing more coherent.
+                                                Wordy:       | conducted this survey by telephone on Sunday, April 21. | questioned two
+                                                             groups of upperclass students—male and female—who, according to the Stu-
+                                                             dent Directory, were still living in the dorms. The purpose of this survey was to
+                                                             find out why some upperclassstudents continue to live in the dorms even though
+                                                             they are no longer required by the University to do so. | also wanted to find out if
+                                                             there were any differences between male and female upperclass students in their
+                                                             reasons for choosing to remain in the dorms.
+                                                                Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                   Chapter5    Planning, Composing, and Revising                           133
+
+
+Figure 5.4         Words to Cut
+                                                                                  Substitute a single word for a wordy
+ Cut the following words             Cut redundant words                          phrase
+
+
+
+
+                                                                                             to
+  Tighter:   On Sunday, April 21, | phoned upperclass men and women living in the dorms
+             find out (1) why they continue to live in the dorms even though they are no longer
+             required to do so, and (2) whether men and women gave the same reasons.
+
+
+c. Put the meaning of your sentence into the subject and verb to cut the
+number of words. Put the core of your meaning into the subject and verb of
+your main clause.
+   Wordy:     The reason we are recommending the computerization of this process is because
+              it will reduce the time required to obtain data and will give us more accurate data.
+   Better:   |Computerizing the process will give us more accurate data more quickly.
+                                                                                             benefit
+   Wordy:     The purpose of this letter is to indicate that if we are unable to mutually
+                       seller/buyer relationship , with satisfactory material and satisfactory  pay-
+              from our
+                                                                                               other
+              ment, then we have no alternative other than to sever the relationship. In
+                                                                                                 our
+              words, unless the account is handled in 45 days, we will have to change
+              terms to a permanent COD basis.
+                                                                                                pay-
+   Better:    A good buyer/seller relationship depends upon satisfactory material and
+                                                                                          clear your
+              ment. You can continue to charge your purchases from us only if you
+              present balance in 45 days.
+
+
+ 6. Vary sentence length and sentence structure.          Readable prose mixes
+ sentence lengths and varies sentence structure. A really short sentence (under
+                                                                              or
+ 10 words) can add punch to your prose. Really long sentences (over 30
+ 40 words) are  danger signs. The first-place Golden  Gobbledy  gook  Award,  in
+                                                                      in an
+ the Legalese Hall of Shame, goes to a four-page, 1,000-word sentence
+ indictment filed in Oklahoma.”
+    You can vary sentence patterns in several ways. First, you can mix simple,
+ compound, and complex sentences. (See Appendix B for more information on
+ sentence structure.) Simple sentences have one main clause:
+   We will open a new store this month.
+                                                                              or
+    Compound        sentences have two main clauses joined with and, but, or,
+ another conjunction. Compound sentences work best when the ideas in the
+ two clauses are closely related.
+PROFESSIONAL WRITING
+
+
+
+
+134                                     Part2      The Communication Process
+
+
+             What's in a Name              We have hired staff, and they will complete their training next week.
+             (4): Names Influence
+                                              We wanted to have a local radio station broadcast from the store during its grand opening,
+             Eating Behaviors
+                                              but the Dus were already booked.
+              Can renaming a food
+ make it more appealing? Can the          Complex sentences have one main and one subordinate clause; they are
+ name make you eat more? Well,          good for showing logical relationships.
+ yes, especially if you're dieting.           When the stores open, we will have specials in every department.
+   Researchers called Jelly Belly
+ candies “fruit chews” or “candy              Because we already have a strong customer base in the northwest, we expect the new
+ chews.” Dieters rated “candy                 store to be just as successful as the store in the City Center Mall.
+ chews” as being less tasty than
+                                           You can also vary sentences by changing the order of elements. Normally
+ “fruit chews.” In addition, dieters
+ consumed 70% more jelly beans
+                                        the subject comes first.
+ when the candies were called                 We will survey customers later in the year to see whether demand warrants a third store
+ “fruit chews” than they did when             on campus.
+ the candies were called “candy
+ chews.”                                   To create variety, occasionally begin the sentence with some other part of
+                                        the sentence.
+ Adapted from Christopher Shea,
+ “Salad Is a Magic Word,” Wall Street         Later in the year, we will survey customers to see whether demand warrants a third store
+ Journal, April 28-24, 2011, C4.
+                                              on campus.
+                                              Use these guidelines for sentence length and structure:
+
+                                          =      Always edit sentences for conciseness. Even a short sentence can be
+                                                 wordy.
+                                          =      When your subject matter is complicated or full of numbers, make a spe-
+                                                 cial effort to keep sentences short.
+                                          =      Use longer sentences to show how ideas are linked to each other, to
+                                                 avoid a series of short, choppy sentences, and to reduce repetition.
+                                          =      Group the words in long and medium-length sentences into chunks that
+                                                 the reader can process quickly.
+                                          =      When you use a long sentence, keep the subject and verb close together.
+
+                                        Let’s see how to apply the last three principles.
+                                              Use long sentences to show how ideas are linked to each other, to avoid
+                                        a series of short, choppy sentences, and to reduce repetition. The following
+                                        sentence is hard to read not simply because it is long but because it is shapeless.
+                                        Just cutting it into a series of short, choppy sentences doesn’t help. The best
+                                        revision uses medium-length sentences to show the relationship between ideas.
+                                              Too long:    It should also be noted in the historical patterns presented in the summary,
+                                                           that though there were delays in January and February which we realized were
+                                                           occurring, we are now back where we were about a year ago, and that we are
+                                                           not off line in our collect receivables as compared to last year at this time, but
+                                                           we do show a considerable over-budget figure because of an ultraconservative
+                                                           goal on the receivable investment.
+                                               Choppy:     There were delays in January and February. We knew about them at the time.
+                                                           We are now back where we were about a year ago. The summary shows this.
+                                                           Our present collect receivables are in line with last year’s. However, they exceed
+                                                           the budget. The reason they exceed the budget is that our goal for receivable
+                                                           investment was very conservative.
+
+                                                Better:    As the summary shows, although there were delays in January and February (of
+                                                           which we were aware), we have now regained our position of a year ago. Our
+                                                           present collect receivables are in line with last year’s, but they exceed the bud-
+                                                           get because our goal for receivable investment was very conservative.
+                                                                   Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                    Chapter5       Planning, Composing, and Revising                          135
+
+
+  Group the words in long and medium-length sentences into chunks. The
+“better” revision above has seven chunks. At 27 and 24 words, respectively,
+these sentences aren’t short, but they’re readable because no chunk is longer
+than 10 words. Any sentence pattern will get boring if it is repeated sentence
+after sentence. Use different sentence patterns—different kinds and lengths of
+chunks—to keep your prose interesting.
+   Keep the subject and verb close together. Often you can move the subject
+and verb closer together if you put the modifying material in a list at the end
+of the sentence. For maximum readability, present the list vertically.
+  Hard to read:     Movements resulting from termination, layoffs and leaves, recalls and rein-
+                    states, transfers in, transfers out, promotions in, promotions out, and pro-
+                    motions within are presently documented through the Payroll Authorization
+                    Form.
+   Better:          The Payroll Authorization Form documents the following movements:
+                    mg Termination
+                    m Layoffs and leaves
+                    m Recalls and reinstates
+                    m Transfers in and out
+                    mg Promotions in, out, and within
+
+
+
+7. Use parallel structure.           Parallel structure puts words, phrases, or clauses
+in the same grammatical and logical form. In the following faulty example,
+by reviewing is a gerund, while note is an imperative verb. Make the sentence
+parallel by using both gerunds or both imperatives.
+   Faulty:          Errors can be checked by reviewing the daily exception report or note the
+                    number of errors you uncover when you match the lading copy with the file
+                    copy of the invoice.
+  Parallel:         Errors can be checked by reviewing the daily exception report or by noting
+                    the number of errors you uncover when you match the lading copy with the
+                    file copy of the invoice.
+   Also             To check errors, note
+   parallel:         1. The number of items on the daily exception report.
+                     2. The number of errors discovered when the lading copy and the file copy
+                        are matched.
+
+Note that a list in parallel structure must fit grammatically into the umbrella
+sentence that introduces the list.
+   Faulty:           The following suggestions can help employers avoid bias in job interviews:
+                     1. Base questions on the job description.
+                     2. Questioning techniques.
+                     3. Selection and training of interviewers.
+   Parallel:         The following suggestions can help employers avoid bias in job interviews:
+                     1. Base questions on the job description.
+                     2. Ask the same questions of all applicants.
+                     3. Select and train interviewers carefully.
+   Also parallel:   |Employers can avoid bias in job interviews by
+                     1. Basing questions on the job description.
+                     2. Asking the same questions of all applicants.
+                     3. Selecting and training interviewers carefully.
+PROFESSIONAL WRITING
+
+
+
+
+136                                                 Part 2   The Communication Process
+
+
+              Limerick Law                             Words must also be logically parallel. In the following faulty example,
+           Federal Judge Ronald                     juniors, seniors, and athletes are not three separate groups. The revision groups
+           Leighton thought a                       words into nonoverlapping categories.
+           465-page lawsuit (the
+                                                       Faulty:             | interviewed juniors and seniors and athletes.
+           title alone was eight
+ pages) was too long. In a limer-                      Parallel:           | interviewed juniors and seniors. In each rank, | interviewed athletes and
+ick, he demanded a “short and                                              nonathletes.
+plain” statement of allegations:
+                                                       Parallel structure is a powerful device for making your writing tighter,
+      Plaintiff has agreat deal to say,
+                                                    smoother, and more forceful. As Figure 5.5 shows, parallelism often enables
+      But it seems he skipped                       you to tighten your writing. To make your writing as tight as possible, elimi-
+            Rule 8(a).
+                                                    nate repetition in parallel lists; see Figure 5.6.
+      His Complaint istoo long, —
+      Which renders
+                itwrong,                            8. Put your readers in your sentences.         Use second-person pronouns (you)
+      Please rewrite
+                  andrefile today.                  rather than third-person (he, she, one) to give your writing more impact. You is
+et:     ;                Me        Liat   ee        both singular and plural; it can refer to a single person or to every member of
+‘Adapted from “Nobles& Knaves,”                     your organization.
+B02.                          ee               Nr       Third-person:      Funds in a participating employee’s account at the end of each six
+                                                                           months will automatically be used to buy more stock unless a “Notice
+                                                                           of Election Not to Exercise Purchase Rights” form is received from the
+                                                                           employee.
+                                                        Second-person:     Once you begin to participate, funds in your account at the end of each
+                                                                           six months will automatically be used to buy more stock unless you turn
+                                                                           in a “Notice of Election Not to Exercise Purchase Rights” form.
+
+                                                    Be careful to use you only when it refers to your reader.
+                                                        Incorrect:         My visit with the outside sales rep showed me that your schedule can
+                                                                           change quickly.
+                                                        Correct:           My visit with the outside sales rep showed          me that schedules can
+                                                                           change quickly.
+
+
+                                                     Figure 5.5            Use Parallelism to Tighten Your Writing.
+
+
+
+
+                                                                          Faulty                                             Parallel
+
+
+                                                     Figure 5.6             Eliminate Repeated Words in Parallel Lists.
+
+
+
+
+                                                                          Wordy                                              Concise
+                                                               Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                  Chapter5    Planning, Composing, and Revising                           137
+
+
+As You Write and Revise Paragraphs
+Paragraphs are visual and logical units. Use them to chunk your sentences.
+
+9. Begin most paragraphs with topic sentences. A good paragraph has
+unity; that is, it discusses only one idea, or topic. The topic sentence states the
+main idea and provides a scaffold to structure your document. Your writing
+will be easier to read if you make the topic sentence explicit and put it at the
+beginning of the paragraph.*!
+   Hard to read             In fiscal 2012, the company filed claims for refund of federal income
+   (no topic                taxes of $3,199,000 and interest of $969,000 paid as a result of
+   sentence):               an examination of the company’s federal income tax returns by the
+                            Internal Revenue Service (IRS) for the years 2008 through 2010. It
+                            is uncertain what amount, if any, may ultimately be recovered.
+   Better (paragraph        The company and the IRS disagree about whether the company is
+   starts with topic        responsible for back taxes. In fiscal 2012, the company filed claims
+   sentence):               for a refund of federal income taxes of $3,199,000 and interest of
+                            $969,000 paid as a result of an examination of the company’s fed-
+                            eral income tax returns by the Internal Revenue Service (IRS) for the
+                            years 2008 through 2010. It is uncertain what amount, if any, may
+                            ultimately be recovered.
+
+   A good topic sentence forecasts the structure and content of the paragraph.
+
+Plan B also has economic advantages.
+
+   (Prepares the reader for a discussion of B’s economic advantages.)
+
+: We had several personnel changes in June.
+
+   (Prepares the reader for a list of the month’s terminations and hires.)
+
+ - Employees have complained about one part of our new policy on parental leaves.
+
+   (Prepares the reader for a discussion of the problem.)
+   When the first sentence of a paragraph is not the topic sentence, readers
+who skim may miss the main point. If the paragraph does not have a topic
+sentence, you will need to write one. If you can’t think of a single sentence that
+serves as an “umbrella” to cover every sentence, the paragraph probably lacks
+unity. To solve the problem, either split the paragraph into two or eliminate
+the sentence that digresses from the main point.
+
+10. Use transitions to link ideas. Transition words and sentences signal
+the connections between ideas to the reader. Transitions tell whether the next
+sentence continues the previous thought or starts a new idea; they can tell
+whether the idea that comes next is more or less important than the previous
+thought. Figure 5.7 lists some of the most common transition words and phrases.
+   These sentences use transition words and phrases:
+   Kelly wants us to switch the contract to Ames Cleaning, and | agree with her. (continuing
+   the same idea)
+   Kelly wants us to switch the contract to Ames Cleaning, but | prefer Ross Commercial.
+   (contrasting opinions)
+   As a result of our differing views, we will be visiting both firms. (showing cause and effect)
+PROFESSIONAL WRITING
+
+
+
+
+138                                        Part2     The Communication Process
+
+
+
+Figure 5.7              Transition Words and Phrases
+a
+      To show addition or                 To introduce an example            To show that the contrast         To show time
+        continuation of the                 for example (e.g.)                 is more important than            after
+        same idea                           for instance                       the previous idea                 as
+
+        and                                 indeed                                 but                           before
+                                            to illustrate                          however                       in the future
+        also
+        first, second, third                namely                                 nevertheless                  next
+        in addition                         specifically                           on the contrary               then
+        likewise                          To contrast                            To show cause and effect        until
+        similarly                           in contrast                            as a result                   when
+                                            on the other hand                      because                       while
+      To introduce another
+                                            or                                     consequently                To summarize or end
+        important item
+                                                                                   for this reason               finally
+        furthermore                                                                                              in conclusion
+                                                                                   therefore
+        moreover
+                                                                                                                                 ———
+ee
+
+
+
+                Writing for                      These are transitional sentences:
+                International
+                Audiences                        Now that we have examined the advantages of using Ames Cleaning, let’s look at potential
+                                                 disadvantages. (shows movement between two sections of evaluation)
+                When you're writing
+                for readers in another           These pros and cons show us three reasons we should switch to Ross Commercial. (shows
+ country, be careful to adjust                   movement away from evaluation sections; forecasts the three reasons)
+ your writing style to the new cul-
+ ture. Even the English language
+ changes when you leave the                ORGANIZATIONAL PREFERENCES FOR STYLE
+ United States. American spelling
+ in documents for audiences who            Different organizations and bosses may legitimately have different ideas about
+ have learned British English can          what constitutes good writing. If the style doesn’t seem reasonable, ask. Often
+ be annoying to readers. Remem-            the documents that end up in files aren’t especially good; later, other workers
+  ber that spelling is cultural, so        may find these and copy them, thinking they represent a corporate standard.
+  adjust your writing to suit your         Bosses may in fact prefer better writing.
+  readers, even if that means writ-           Recognize that a style may serve other purposes than communication. An
+  ing grey, analyse, colour, centre,
+                                           abstract, hard-to-read style may help a group forge its own identity. Research-
+  and familiarise. Adjusting your
+  style and your spelling for inter-
+                                           ers James Suchan and Ronald Dulek have shown that Navy officers preferred
+  national audiences demonstrates
+                                           a passive, impersonal style because they saw themselves as followers. An air-
+  respect for their cultures.              craft company’s engineers saw wordiness as the verbal equivalent of backup
+    lf you’re adapting your text           systems. A backup is redundant but essential to safety, because parts and sys-
+  for an international audience,           tems do fail.
+  go beyond a dictionary. Local-              Building a good style takes energy and effort, but it’s well worth the work.
+  ize your document by asking a            Good style can make every document more effective; good style can help
+  native speaker from your target          make you the good writer so valuable to every organization.
+  country (or countries) to read the
+  document and note any prob-
+  lematic words, phrases, images,           REVISING, EDITING, AND PROOFREADING
+  or examples.
+                                            Once you have your document written, you need to polish it.
+  Adapted from James Calvert Scott,            A popular myth is that Abraham Lincoln wrote the Gettysburg address,
+  “American     and   British Business-
+  Related Spelling Differences,” Busi-
+                                            perhaps the most famous American presidential speech, on the back of an
+  ness Communication Quarterly 67,          envelope on the train as he traveled to the battlefield’s dedication. The reality
+  no. 3 (2004): 153-67.                     is that Lincoln wrote at least a partial draft of the speech before leaving for the
+                                            trip and continued to revise it up to the morning of its delivery. Furthermore,
+                                            the speech was on a topic he passionately believed in, one he had been pon-
+                                            dering for years.
+                                                          Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                               Chapter5   Planning, Composing, and Revising                                    139
+
+
+     Like Lincoln, good writers work on their drafts; they make their documents                            When Words Hurt
+
+better by judicious revising, editing, and proofreading.                                      Fa           In the    summer     of
+                                                                                                 Sess      2006, a large, mid-
+ =    Revising means making changes in content, organization, and tone that                                 western state univer-
+                                                                                              sity was gearing up to host the
+      will better satisfy your purposes and your audience.
+                                                                                              first national Special Olympics,
+ =    Editing means making surface-level changes that make the document                       a competition featuring people
+      grammatically correct.                                                                  with intellectual disabilities. Visi-
+ =    Proofreading means checking to be sure the document is free from typo-                  tors would be arriving from all
+      graphical errors.                                                                       over the country, and the small
+                                                                                              university town wanted to put on
+                                                                                              its best face for the crowds. The
+What to Look for When You Revise                                                              student newspaper created a
+                                                                                               14-page, full-color visitors’ guide
+When you're writing to a new audience or have to solve a particularly difficult               to the town and inserted it into
+problem, plan to revise the draft at least three times. The first time, look for              the campus paper. Unfortunately,
+content and clarity: Have I said enough and have I said it clearly? The second                they named it “[Name of Town]
+time, check the organization and layout: Have I presented my content so it can                for Dummies” after the popular
+be easily absorbed? Finally, check style and tone: Have I used you-attitude?                   book series.
+The Thorough Revision Checklist summarizes the questions you should ask.                         The editor-in-chief quickly apol-
+   Often you'll get the best revision by setting aside your draft, getting a blank             ogized for the insensitive word
+page or screen, and redrafting. This strategy takes advantage of the thinking                  choice, while the newspaper
+
+you did on your first draft without locking you into the sentences in it.                      removed the inserts and replaced
+
+   As you revise, be sure to read the document through from start to finish.                   them with reprinted publications
+                                                                                               featuring a new headline.
+This is particularly important if you’ve composed in several sittings or if
+you've used text from other documents. Such documents tend to be choppy,                      Adapted from Lisa Rossi, “Olympics
+repetitious, or inconsistent. You may need to add transitions, cut repetitive                 Section Goof Sends Paper Running,”
+
+parts, or change words to create a uniform level of formality throughout the
+                                                                                              Des Moines Register, July 1, 2006,
+                                                                                              1A, 4A.
+document.
+   If you're really in a time bind, do a light revision, as outlined in the Light
+Revision Checklist. The quality of the final document may not be as high as
+with a thorough revision, but even a light revision is better than skipping revi-
+sion altogether.
+
+
+
+
+ Nic                           BE:                   >        e            ae
+ Sometimes revising and proofreading is more pleasant if done in an informal setting.
+PROFESSIONAL WRITING
+
+
+
+
+140                                       Part2   The Communication Process
+
+
+               Revisioning a
+               Novel
+
+      i        Michael       Chabon                TIAT, “SWING THE
+                                                   GULL-PURN HORSE
+              is a Pulitzer Prize                  THIEF FROM THE
+                                                    NEAREST TREE ;
+author. And his novel, The Yid-                    \NOUL? NEED
+                                                    CLRRIFICATON,,
+dish Policemen's Union, had a
+blurb in his publisher's sales cata-
+log plus an on-sale date when his
+editor made him revise it.
+   He spent eight months rework-
+                                          NON SEQUITUR © 2010        Wiley Ink, Inc., Dist. By UNIVERSAL UCLICK. Reprinted with permission. All rights reserved.
+ing the entire book, adding a
+flashback structure and paring
+
+
+                                          Achecksist GEMS NSS
+down the language.
+   Altogether, he spent five years
+and four drafts working on the
+novel. In the process, he moved           Content and clarity
+to a different plot and changed            O Does your document meet the needs of the organization and of the reader —and make
+from a first-person to a third-per-           you look good?
+son narrator. His editor sent him          CO Have you given readers all the information they need to understand and act on your
+detailed notes in the margins of              message?
+the drafts. On the final draft, she         C1 Is all the information accurate and clear?
+went over the manuscript page
+                                            U1 Is the message easy to read?
+by page with him.
+   The novel won both Hugo and              C1 Is each sentence clear? Is the message free from apparently contradictory statements?
+ Nebula awards, science fiction’s           C1 Is the logic clear and convincing? Are generalizations and benefits backed up with
+ highest awards.                               adequate supporting detail?
+
+ Adapted     from   Sam _ Schechner,      Organization and layout
+ “Chabon’s Amazing Rewrite Adven-          C1 Is the pattern of organization clear? Is it appropriate for your purposes, audience, and
+ tures,” Wall Street Journal, April 27,       context?
+ 2007, WS.
+                                           C Are transitions between ideas smooth? Do ideas within paragraphs flow smoothly?
+                                           C Does the design of the document make it easy for readers to find the information they
+                                              need? Is the document visually inviting?
+                                           C1 Are the points emphasized by layout ones that deserve emphasis?
+                                            OO Are the first and last paragraphs effective?
+
+                                          Style and tone
+                                            1 Does the message use you-attitude and positive emphasis?
+                                            CJ Is the message friendly and free from sexist language?
+                                            1 Does the message build goodwill?
+
+
+
+                                          checklist                     Light Revision Checklist
+                                            1 Have you given readers all the information they need to understand and act on your
+                                               message?
+                                            C1 Is the pattern of organization clear and helpful?
+                                            C1 Is the logic clear and convincing? Are generalizations and benefits backed up with
+                                               adequate supporting detail?
+                                            C1 Does the design of the document make it easy for readers to find the information they need?
+                                            0 Are the first and last paragraphs effective?
+
+
+
+                                           What to Look for When You Edit
+                                           Even good writers need to edit, since no one can pay attention to surface
+                                           correctness while thinking of ideas. Editing should always follow revision.
+                                           There’s no point in taking time to fix a grammatical error in a sentence that
+                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                 Chapter5   Planning, Composing, and Revising                                          141
+
+
+may be cut when you clarify your meaning or tighten your style. Some writ-                                     Résumé
+                                                                                                               Proofreading Errors
+ers edit more accurately when they print out a copy of a document and edit
+the hard copy.                                                                                                 = “Position Desired:
+                                                                                                               Profreader.” It doesn’t
+   Check your material to make sure you have acknowledged all informa-
+                                                                                                               look good. . .
+tion and opinions you have borrowed from outside the organization (see                          s     “Skills: Familiar with all fau-
+Chapter 18 for help on documentation). Using material from outside the                                cets of accounting.” Accoun-
+organization without acknowledging the source is plagiarism. Even when                                tant by day, plumber by night.
+you use company information, you may need to acknowledge the source                             =     “Resume Section Title: Edu-
+if your audience is skeptical or generally not aware of the existence of the                          catio” You’re “n” trouble.
+information.                                                                                    =     “Experience: Detailed-ori-
+   Check your communication to make sure your sentences say what you                                  ented saleman.” We have our
+intend.                                                                                               doubts.
+
+  Not: Take a moment not to sign your policy.                                                   =      “Experience: Demonstrated
+                                                                                                       ability in multi-tasting.” You'll
+  But: Take a moment now to sign your policy.
+                                                                                                       love our vending machine.
+  Not: | wish to apply for the job as assistant manger.                                         =      “Carrier Objective: To become
+  But: | wish to apply for the job as assistant manager.                                               a manager.” A man on the
+                                                                                                       move.
+   An extra “not” caused Arkansas to accidentally pass a law allowing its                       m      “Languages: Speak English
+citizens of any age, even children, to marry if their parents agreed. The unin-                        and Spinach.” Must be what
+tended law said this:                                                                                  they teach at the culinary
+                                                                                                       academy.
+  In order for a

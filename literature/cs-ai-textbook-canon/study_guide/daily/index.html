@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS + AI Foundation</title>
+<link rel="stylesheet" href="style.css">
+<script src="notes.js" defer></script>
+</head>
+<body>
+<main>
+
+<div id="server-banner" class="callout callout--info server-banner" hidden>
+  <span class="callout__label">Notes backend</span>
+  <p id="server-banner-msg">Checking backend...</p>
+  <div class="server-banner__cmd">
+    <code id="server-banner-cmd">python3 /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/study_guide/scripts/notes_server.py</code>
+    <button type="button" class="server-banner__copy" data-copy-target="server-banner-cmd">copy</button>
+  </div>
+  <p class="server-banner__detail">Then open <code>http://localhost:8765/</code> for notes that persist to markdown.</p>
+</div>
+<header class="hero">
+  <div class="hero__category">CS + AI Foundation</div>
+  <h1 class="hero__title">2 weeks, 10 weekdays</h1>
+  <p class="hero__subtitle">Grokking Algorithms 2e, Ousterhout 2e, AI Engineering 2025. Open each weekday morning; router sends you to today's lesson.</p>
+  <div class="hero__meta">
+    <span><strong>Start</strong> 2026-06-30</span>
+    <span><strong>End</strong> 2026-07-11</span>
+    <span><strong>Cadence</strong> weekdays</span>
+  </div>
+</header>
+<div id="router-status"></div>
+<h2>All 10 days</h2>
+<div class="toc"><a href="day-01.html" data-idx="0">D1<small>W1 D1</small></a><a href="day-02.html" data-idx="1">D2<small>W1 D2</small></a><a href="day-03.html" data-idx="2">D3<small>W1 D3</small></a><a href="day-04.html" data-idx="3">D4<small>W1 D4</small></a><a href="day-05.html" data-idx="4">D5<small>W1 D5</small></a><a href="day-06.html" data-idx="5">D6<small>W2 D1</small></a><a href="day-07.html" data-idx="6">D7<small>W2 D2</small></a><a href="day-08.html" data-idx="7">D8<small>W2 D3</small></a><a href="day-09.html" data-idx="8">D9<small>W2 D4</small></a><a href="day-10.html" data-idx="9">D10<small>W2 D5</small></a></div>
+<h2>Corpus</h2>
+<ul>
+  <li><a href="guide.html">Full Study Guide</a> - 5 parts + appendices A-D (pedagogy)</li>
+  <li><a href="exams.html">Practice Checks</a> - Mock A (Day 5) and Mock B (Day 10)</li>
+  <li><a href="glossary.html">Glossary</a> - 50+ terms</li>
+</ul>
+<h2 id="notes-tools">Notes tools</h2>
+<p id="notes-tools-summary" class="hero__subtitle">Loading...</p>
+<div class="notes-tools">
+  <button type="button" id="notes-export" disabled>Export browser notes</button>
+  <label class="notes-tools__import">Import markdown
+    <input type="file" id="notes-import" accept=".md,text/markdown,text/plain">
+  </label>
+  <button type="button" id="notes-clear-ls" disabled>Clear browser notes</button>
+</div>
+<script>
+const START = "2026-06-30";
+function todayIdx() {
+  const [y,m,d] = START.split("-").map(Number);
+  const start = new Date(y,m-1,d); start.setHours(0,0,0,0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  if (today < start) return -1;
+  let n = 0; const cur = new Date(start);
+  while (cur < today) {
+    cur.setDate(cur.getDate()+1);
+    if (cur.getDay() !== 0 && cur.getDay() !== 6) n++;
+  }
+  if (today.getDay() === 0 || today.getDay() === 6) return -2;
+  return n;
+}
+const idx = todayIdx();
+const status = document.getElementById("router-status");
+if (idx === -1) {
+  status.innerHTML = '<div class="callout callout--info"><span class="callout__label">Not started</span><p>Start 2026-06-30. <a href="day-01.html">Preview Day 1</a>.</p></div>';
+} else if (idx === -2) {
+  status.innerHTML = '<div class="callout callout--ok"><span class="callout__label">Rest day</span><p>Weekend. Light glossary review or extra mock.</p></div>';
+} else if (idx >= 10) {
+  status.innerHTML = '<div class="callout callout--ok"><span class="callout__label">Program complete</span><p><a href="day-10.html">Day 10</a> | Appendix C checklist in guide.</p></div>';
+} else {
+  document.querySelector('.toc a[data-idx="'+idx+'"]')?.classList.add('today');
+  status.innerHTML = '<div class="callout callout--info"><span class="callout__label">Today is day '+(idx+1)+'</span><p>Redirecting... <a href="day-'+String(idx+1).padStart(2,"0")+'.html">Go now</a></p></div>';
+  setTimeout(() => { if (status.style.display !== "none") location.href = 'day-'+String(idx+1).padStart(2,"0")+'.html'; }, 3000);
+}
+</script>
+
+</main>
+</body>
+</html>

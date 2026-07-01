@@ -1,0 +1,71 @@
+# R-02 practical cards — prediction-trial (P-C)
+pillar_moniker: prediction-trial
+pillar_ids: [P-C]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#prediction-trial
+
+source_ingests:
+  - literature/ingests/antony_2017_shyness_sa_workbook_ch11_chapter_ingest.md
+  - literature/ingests/antony_2017_shyness_sa_workbook_ch14_chapter_ingest.md
+
+cards:
+  - exercise_name: Exposure Prediction Trial
+    steps:
+      - Write prediction before ask or date — what you think will happen, worst case included (pillar P-C practical step 1 + B01 Ch8).
+      - Stay through agreed end point — not until fear vanishes (Craske et al. 2014 design principle; pillar step 2).
+      - Log outcome vs prediction immediately after — behavioral evidence review (Antony Ch8 post-exposure cognitive review).
+      - After rejection — return to approach on sane timeline; ask out ≠ persistence after no (C-B01_CH08-005 σ−).
+    cognitive_frame: Each approach is a prediction test — learn what you need to learn, not wait for fear to zero out (pillar ELI15).
+    observables:
+      - Written prediction before exposure
+      - Operator stayed through end point without escape at peak
+      - Post-log compares actual to predicted
+    contraindications:
+      - formal fear hierarchy required as homework (operator path drops ladder)
+      - persistence after explicit no labeled as exposure return
+      - chasing same person after clear boundary
+    source_anchor: C-B01_CH08-003 · antony_2017_shyness_sa_workbook_ch11_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#prediction-trial
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Social Mishap Exposure
+    steps:
+      - Choose low-stakes mishap experiment — spill, stumble, minor embarrassment (Antony Ch8 mishap exposures).
+      - Predict catastrophic social consequence in writing (Antony behavioral experiments).
+      - Execute mishap deliberately in safe context — stay until anxiety decreases or catastrophe disconfirmed (Antony Ch8 rule 1).
+      - Post-exposure review — update beliefs with behavioral evidence (Antony Ch8 finding 6).
+    cognitive_frame: Mishap exposures test catastrophizing — separate from pursuit-after-no experiments.
+    observables:
+      - Prediction written before mishap
+      - Operator remained in situation after mishap
+      - Belief update noted in log
+    contraindications:
+      - mishap performed at partner expense or as humiliation prank
+      - using mishap to justify inappropriate persistence
+    source_anchor: C-B01_CH08-004 · antony_2017_shyness_sa_workbook_ch11_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#prediction-trial
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Return-to-Situation After Setback
+    steps:
+      - After negative social outcome — note urge to avoid long-term (Antony Ch11 relapse prevention).
+      - Return to similar situation type quickly — not same person after no (Antony Ch11 finding 5 + σ−).
+      - Apply cognitive reframing with behavioral evidence from prediction trial log (Antony Ch11).
+      - Schedule maintenance exposure — frequency predicts outcome (Antony Ch11 homework dosage).
+    cognitive_frame: Setbacks are normal — resume strategies rather than avoid dating pool entirely (pillar P-I parallel).
+    observables:
+      - Return exposure scheduled within sane timeline
+      - Distinguishes return-to-dating from protest persistence
+    contraindications:
+      - returning to same thread after she said no
+      - long avoidance after single rejection
+    source_anchor: C-B01_CH11-004 · antony_2017_shyness_sa_workbook_ch14_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#prediction-trial
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full

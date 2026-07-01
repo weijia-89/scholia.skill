@@ -1,0 +1,1664 @@
+06_locker_2012_prof_writing_w231_ch07_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch07_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch07.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch07.txt).
+========================================================================
+
+Delivering Negative Messages                                     279
+
+
+                                                                                                           Delivering Cancer
+                                                                                                           News
+                                                                                                  =        Oncologists, idocters
+                                                                                                           who specialize in treating
+                                                                                                cancer, have one of the toughest
+                                                                                                jobs when it comes to delivering
+                                                                                                negative news. These doctors
+                                                                                                often inform patients that they
+                                                                                                have a difficult battle to face or
+                                                                                                that there is almost no hope and
+                                                                                                death may be imminent.
+                                                                                                  Some medical schools now
+                                                                                                insist that students learn how
+                                                                                                to deliver bad news to patients,
+                                                                                                particularly those suffering from
+Sometimes corporations earn more bad publicity by keeping quiet about negative events           cancer. These medical programs
+than they would by explaining them. Rolls-Royce received much negative publicity when           have added classes where stu-
+it delayed responding to the failure of one of its engines on an Airbus A380 superjumbo jet.    dents learn to give the negative
+                                                                                                news through verbal and non-
+      Secondary purposes:                                                                       verbal forms of communication.
+                                                                                                Some of these schools also use
+                                                                                                role-playing with patient actors.
+ =     To maintain, as much as possible, a good image of the communicator
+                                                                                                The medical students have to
+       and the communicator’s organization.
+                                                                                                inform the actors of an unwanted
+ =     To reduce or eliminate future communication on the same subject so the                   diagnosis and appropriately deal
+       message doesn’t create more work for the sender.                                         with the actor's response. Some
+                                                                                                studies suggest that the manner
+                                                                                                 in which bad news is presented
+      In many negative situations, the communicator and audience will continue                  to a patient has significant effects
+to deal with each other. Even when further interaction is unlikely (for exam-                    on their overall health.
+ple, when a company rejects a job applicant or refuses to renew a customer’s                        As an additional resource for
+insurance), the firm wants anything the audience may say about the company                       doctors to be upfront with their
+to be positive or neutral rather than negative.                                                  patients, the American Society
+   Some messages that at first appear to be negative can be structured to cre-                   of Clinical Oncology has devel-
+
+ate a positive feeling: a decision that may be negative in the short term may be                 oped a booklet. It helps patients
+
+shown to be a positive one in the long term; or the communication of a prob-
+                                                                                                 understand their options when
+                                                                                                 they learn they have cancer.
+lem can be directly connected to an effective solution.                                          The goal is to help improve their
+   Even when it is not possible to make the audience happy with the news we                      quality of life, maximize their
+must convey, we still want the audience to feel that                                              remaining time, and plan for end-
+                                                                                                 of-life care. The society believes
+  =     They have been taken seriously.                                                          that currently less than 40% of
+                                                                                                  patients have conversations with
+  =     Our decision is fair and reasonable.                                                      their doctors about their options.
+  =     If they were in our shoes, they would make the same decision.
+                                                                                                 Adapted from Dawn Sagario, “Doctors
+                                                                                                 Learn to Convey Facts in Appropri-
+                                                                                                 ate, Thoughtful Way,” Des Moines
+
+ ORGANIZING NEGATIVE MESSAGES                                                                    Register, October 17, 2006, E1, E2;
+                                                                                                 “Oncology Group Promotes Candor
+                                                                                                 on End-of-Life-Care,” Des Moines
+ The best way to organize a negative message depends on your audience and on                     Register, February 8, 2011, 6A.
+ the severity of the negative information. This chapter presents several possible
+ patterns and connects them with their most likely contexts. Be sure to always
+ consider your particular situation when choosing an organizing pattern.
+
+ Giving Bad News to Clients and Customers
+ When you must give bad news to clients and customers, you need to be clear,
+ but you also need to maintain goodwill. People are increasingly skeptical and
+ have a hard time trusting organizations. One study found that in order to
+PROFESSIONAL WRITING
+
+
+
+
+280                                  Part3   Basic Business Messages
+
+
+Figure 10.1            How to Organize Negative Messages
+
+  Negative messages                             Negative messages                                   Negative messages to peers
+  to clients and customers                      to superiors                                        and subordinates
+
+  1. When you have a reason that                1. Describe the problem.                            1. Describe the problem.
+      the audience will understand                 Tell what’s wrong, clearly and                       Tell what’s wrong, clearly and
+      and accept, give the reason                  unemotionally.                                       unemotionally.
+
+      before the refusal.                       2. Tell how it happened.                            2. Present an alternative
+      A good reason prepares the                    Provide the background. What                        or compromise, if one is
+      audience to expect the refusal.               underlying factors led to this specific             available.
+  2. Give the negative information                  problem?                                            An alternative not only gives the
+     or refusal just once, clearly.                                                                     audience another way to get
+                                                3. Describe the options for fixing it.
+     Inconspicuous refusals can be                                                                      what they want but also suggests
+                                                   If one option is clearly best, you may
+     missed altogether, making it                                                                       that you care about them and
+                                                   need to discuss only one. But if your
+      aga        tes yiag      eee                  superiors will think of other options,              Hele     tat meet et Weces
+                         ;                          or if different people will judge the           3. If possible, ask for input
+  3. Present an alternative or                      options differently, describe all the              or action.
+     compromise, if one is available.               options, giving their advantages and               People in the audience may be
+      ee                mo           ee             disadvantages.                                      able to AES solutions. And
+       u
+      they want but also feels that              4. Recommend a solution and ask                        ees pM ps iro to
+      you care about them and helping               for action.                                          accept the consequences.
+                                                    Ask for approval so that you can
+      them meet their needs.
+                                                    make the necessary changes to fix
+  4. End with a positive, forward-
+                                                    the problem.
+     looking statement.
+a                                                                                            a UEaaESSEEIDE IIEAINSRnSSESE SRARIIESEEEERRERRRREnERREERE
+
+
+
+                                     accept a message as true, more than 70% of people need exposure to it more
+                                     than three times.* Compromises or alternatives can help you achieve clarity
+                                     and goodwill. See the first column in Figure 10.1 for a way to organize these
+                                     messages.
+                                         Figure 10.2 illustrates another basic pattern for negative messages. This let-
+                                     ter omits the reason for the policy change, probably because the change bene-
+                                     fits the company, not the customer. Putting the bad news first (though pairing
+                                     it immediately with an alternative) makes it more likely that the recipient will
+                                     read the letter. If this letter seemed to be just a routine renewal, or if it opened
+                                     with the good news that the premium was lower, few recipients would read
+                                     the letter carefully, and many would not read it at all. Then, if they had acci-
+                                     dents and found that their coverage was reduced, they’d blame the company
+                                     for not communicating clearly. Emphasizing the negative here is both good
+                                     ethics and good business.
+
+
+                                        Giving Bad News to Superiors
+                                        Your superior expects you to solve minor problems by yourself. But some-
+                                        times, solving a problem requires more authority or resources than you have.
+                                        When you give bad news to a superior, also recommend a way to deal with
+                                        the problem. Turn the negative message into a persuasive one. See the middle
+                                        column in Figure 10.1.
+
+
+                                        Giving Bad News to Peers and Subordinates
+                                        When passing along serious bad news to peers and subordinates, many peo-
+                                        ple use the organization suggested in the last column in Figure 10.1.
+                                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                     Chapter 10   Delivering Negative Messages                                  281
+
+
+Figure 10.2              A Negative Letter
+
+
+
+
+        Vickers
+              Insurance Company                                                                                     3373 Forbes Avenue
+                                                                                                                    Rosemont, PA 19010
+                                                                                                                          215) 572-0100
+                                                                 e     ey:
+                                                             Liability Coverage                     neg™
+                                                                                                           ive
+                                                                                                                         get
+                   Negative information highlighted                                       re
+                   cp reader wont ignoremess2a°           Tg Being Discontinued—
+                                                          Here's How to Replace It! arvana
+
+              Dear Policyholder:
+   Negative
+              When your auto insurance is renewed, it will no longer include liability coverage
+              unless you select the new Assurance Plan. Here's why.                                                            Positive
+                                                                                                                                informavion
+                                            5         5      ‘
+              Liability coverage is being discontinued. It, and the part of the premium which paid for it, dered
+                Shea                   H
+
+              will be dropped from all policies when they are renewed.                                     for emphasi?
+
+              This change could leave a gap in your protection. But you can replace the old Liability
+              Coverage with Vickers' new Assurance Plan.                                     No reason is given. The change
+                                                                                                                                     probably
+   Alternative
+                                                                                                                 benefits
+              With the new Assurance Plan, you receive benefits for litigation or awards arising from an              ee
+              accident—regardless of who's at fault. The cost for the Assurance Plan at any level   is based on company
+              the ages of drivers, where you live, your driving record, and other factors. If these change         rather
+              before your policy is renewed, the cost of your Assurance Plan may also change. The actual        psa
+              cost will be listed in your renewal statement.                                                       soitis
+                                                                                                                                     omitted.
+
+              To sign up for the Assurance Plan, just check the level of coverage you want on the enclosed
+              form and return it in the postage-paid envelope within 14 days. You'll be assured of the
+              coverage you select.
+      Forward-looking
+      ending emphasizes
+      reader's choice
+              Sincerely,
+
+              Ch. Ign
+               C.J. Morgan
+               President
+     Alternative
+               PS. The Assurance Plan protects you against possible legal costs arising from an accident. Sign
+               up for the plan today and receive full coverage from Vickers.
+
+
+
+
+   No serious negative (such as being downsized or laid off) should come
+as a complete surprise, nor should it be delivered by e-mail. Researchers
+Timmerman and Harrison note that managers may be inclined to use elec-
+tronic forms of communication to deliver bad news, but they should resist
+the temptation in most situations. Their study outlines four factors that
+should be considered when choosing a medium for delivering bad news: the
+PROFESSIONAL WRITING
+
+
+
+
+282                    Part3   Basic Business Messages
+
+
+
+
+                       When Chrysler cut 25% of its dealers, it sent the bad news the same day it went public
+                       with the list of cut dealerships. Thus, many dealers first heard about their cuts on the
+                       news, not from Chrysler’s letter, and created even more bad press for Chrysler.
+
+
+
+                       severity of the message, the complexity of the explanation, the type of expla-
+                       nation, and the relationship between the superior and subordinates. Timmer-
+                       man and Harrison suggest managers must always juggle the efficiency of
+                       delivering the message with its impact on receivers. Typically, managers who
+                       deliver bad news in face-to-face settings are more appreciated and accepted
+                       by employees.°
+                          Managers can prepare for possible negatives by giving full informa-
+                       tion as it becomes available. It is also possible to let the people who will
+                       be affected by a decision participate in setting the criteria. Someone who
+                       has bought into the criteria for retaining workers is more likely to accept
+                       decisions using such criteria. And in some cases, the synergism of groups
+                       may make possible ideas that management didn’t think of or rejected as
+                       “anacceptable.”
+                          Some workplaces incorporate employee suggestion systems to help reduce
+                       excess costs and improve organizational effectiveness. Nokia, for example,
+                       runs a BlogHub and Sphere. Both are social media sites that employees can
+                       use to critique products, rant about the company, and ask questions. Mangers
+                       hope that these sites, which allow employees to give anonymous honest opin-
+                        ions, will spawn new ideas and innovations.°
+                           When the bad news is less serious, as in Figure 10.3, try using the pattern
+                        in the first column of Figure 10.1 unless your knowledge of the audience sug-
+                        gests that another pattern will be more effective. The audience’s reaction is
+                        influenced by the following factors:
+
+                               Do you and the audience have a good relationship?
+                               Does the organization treat people well?
+                               Has the audience been warned of possible negatives?
+                               Has the audience bought into the criteria for the decision?
+                               Do communications after the negative decision build goodwill?
+                                                                  Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                          Chapter10    Delivering Negative Messages                          283
+
+
+Figure 10.3             A Negative Memo to Subordinates
+
+
+
+
+                                                                                        FIRST BANK
+                                                                                        Great Plains, Nebraska
+
+                                                                                                             Memo
+
+                    Date:    January 10, 2012
+                    To:      All Employees
+                    From:    Floyd E. Mattson Fem
+
+                     Subject: Group Dental Insurance
+
+                     First Bank is always seeking to provide employees with a competitive benefits package
+                     that meets their needs.
+
+                  In response to many requests, the Human Resource Department solicited bids for expanded
+       eagon      dental coverage. At this time none of the responses from insurers serving our area are
+   given beforé \ affordable for us. We continue to negotiate, but with costs rising at 20% per year, success
+     negate          seems unlikely. Other banks in the area are ina similar situation, so our current benefits
+                  bepackage matches or exceeds what they offer.
+     Positive
+
+                    First Bank continues to offer enrollment in an employee-funded group plan with ABC
+   Alternatives      Dental. The coverage includes 37 dentists in our county and pays 50 percent of allowable
+                     fees. Many of our employees have found this coverage helpful. Employees also may use
+                     their medical savings account for dental care. Consider one of these options for the present,
+     Positive     ey and First Bank will continue to investigate new opportunities for expanded coverage.
+       close
+
+
+
+
+THE PARTS OF A NEGATIVE MESSAGE
+This section provides more information about wording each part of a negative
+message.
+
+Subject Lines
+Many negative messages put the topic, but not the specific negative, in the
+subject line.
+
+   Subject: Status of Conversion Table Program
+
+ Other negative message subject lines focus on solving the problem.
+
+   Subject: Improving Our Subscription Letter
+PROFESSIONAL WRITING
+
+
+
+
+284                                       Part3   Basic Business Messages
+
+
+              How to Tell a Partner          Use a negative subject line in messages when you think readers may ignore
+Pa            about an STD                what they believe is a routine message. Also use a negative subject line when
+              “Datin         etiquette    the reader needs the information to make a decision or to act.
+  =                    is
+            demands it—and so
+                               :
+ does public health. If you have a           Subject: Elevator to Be Out Friday, June 17
+ sexually transmitted disease, you
+ need to tell your partner.
+   But finding the right moment for
+                                          Many people do not read all their messages, and a neutral subject line may
+ that awkward conversation isn’t
+                                          lead them to ignore the message.
+ easy. Whether out of fear, shame,
+ or anger, people diagnosed with
+                                          Buffers
+ STDs often fail to tell.
+   So how about sending an                Traditionally, textbooks recommended that negative messages open with buf-
+ e-card? That's an approach               fers. A buffer is a neutral or positive statement that allows you to delay the
+ developed in part by the San             negative. Some research suggests that buffers do not make readers respond
+ Francisco Department of Public           more positively,” and good buffers are hard to write. However, in special situ-
+ Health. Called the inSPOT pro-
+                                          ations, you may want to use a buffer. The first sentence in the First Bank letter
+ gram, it lets you send special-
+                                          (Figure 10.3) is a buffer.
+ ized STD alert e-cards to break
+ the news. Since its launch a few
+                                             To be effective, a buffer must put the reader in a good frame of mind, not
+ years ago, more than 30,000              give the bad news but not imply a positive answer either, and provide a natu-
+ people have sent more than               ral transition to the body of the letter. The kinds of statements most often used
+ 49,500 cards. Considering the            as buffers are good news, facts and chronologies of events, references.to enclo-
+ 19 million new STD cases diag-           sures, thanks, and statements of principle.
+ nosed each year in the U.S.,
+ that’s a drop in the bucket, but         1. Start with any good news or positive elements the letter contains.
+ it’s certainly a step in the right
+ direction.                                   Starting Thursday, June 26, you'll have easier access to your money 24 hours a day
+      E-cards come in various designs,
+                                              at First National Bank.
+ and the sender can choose a spe-
+ cific STD from a pull-down menu.
+ One message reads: ‘It’s not what            Letter announcing that the drive-up windows will be closed for two days while new
+ you brought to the party, it's what          automatic teller machines are installed
+ you left with. | left with an STD.
+ You might have, too. Get checked          2. State a fact or provide a chronology of events.
+ out soon.’ It then directs recipients
+ to testing centers in their area.
+ The e-cards can be sent anony-
+                                              As aresult of the new graduated dues schedule—determined by vote of the Delegate
+ mously, and according to inSPOT,             Assembly last December and subsequently endorsed by the Executive Council—
+ it doesn’t collect data about site           members are now asked to establish their own dues rate and to calculate the total
+ users or card recipients.”                   amount of their remittance.
+
+ Copyright 2009 Dr. Ranit Mishori. Ini-
+ tially published in Parade magazine.
+                                              Announcement of a new dues structure that will raise most members’ dues
+ All rights reserved.
+                                           3. Refer to enclosures in the letter.
+
+
+                                              A new sticker for your car is enclosed. You may pick up additional ones in the office
+                                              if needed.
+
+                                              Letter announcing increase in parking rental rates
+
+                                           4. Thank the reader for something he or she has done.
+
+                                              Thank you for scheduling appointments for me with so many senior people at First
+                                              National Bank. My visit there March 14 was very informative.
+
+
+                                              Letter refusing a job offer
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                     Chapter10    Delivering Negative Messages                          285
+
+
+5. State a general principle.
+
+  Good drivers should pay substantially less for their auto insurance. The Good Driver
+ Plan was created to reward good drivers (those with five-year accident-free records)
+  with our lowest available rates. A change in the plan, effective January 1, will help
+ keep those rates low.
+
+
+  Letter announcing that the company will now count traffic tickets, not just accidents, in
+  calculating insurance rates—a change that will raise many people’s premiums
+
+   Some audiences will feel betrayed by messages whose positive openers delay
+the central negative point. Therefore, use a buffer only when the audience (indi-
+vidually or culturally) values harmony or when the buffer serves another purpose.
+For example, when you must thank the reader somewhere in the letter, putting
+the “thank you” in the first paragraph allows you to start on a positive note.
+   Buffers are hard to write. Even if you think the reader would prefer to be let
+down easily, use a buffer only when you can write a good one.
+
+Reasons
+Research shows that audiences who described themselves as “totally sur-
+prised” by negative news had many more negative feelings and described
+their feelings as being stronger than did those who expected the negative.® A
+clear and convincing reason prepares the audience for the negative, resulting
+in people who more easily accept it.
+   The following reason is inadequate.
+   Weak reason:     The goal of the Knoxville CHARGE-ALL Center is to provide our customers
+                    faster, more personalized service. Since you now live outside the Knoxville
+                    CHARGE-ALL service area, we can no longer offer you the advantages of
+                    a local CHARGE-ALL Center.
+
+   If the reader says, “I don’t care if my bills are slow and impersonal,” will
+the company let the reader keep the card? No. The real reason for the nega-
+tive is that the bank’s franchise allows it to have cardholders only in a given
+geographic region.
+   Real reason:     Each local CHARGE-ALL center is permitted to offer accounts to custom-
+                    ers in a several-state area. The Knoxville CHARGE-ALL center serves cus-
+                    tomers east of the Mississippi. You can continue to use your current card
+                    until it expires. When that happens, you'll need to open an account with a
+                    CHARGE-ALL center that serves Texas.
+
+   Don’t hide behind “company policy”: your audience will assume the policy
+is designed to benefit you at their expense. If possible, show how your audi-
+ence benefits from the policy. If they do not benefit, don’t mention policy at all.
+   Weak reason:     | cannot write an insurance policy for you because company policy does
+                    not allow me to do so.
+
+   Better reason:   Gorham insures cars only when they are normally garaged at night. Stan-
+                    dard insurance policies cover a wider variety of risks and charge higher
+                    fees. Limiting the policies we write gives Gorham customers the lowest
+                    possible rates for auto insurance.
+
+    Avoid saying that you cannot do something. Most negative messages exist
+ because the communicator or company has chosen certain policies or cutoff
+ points. In the example above, the company could choose to insure a wider
+ variety of customers if it wanted to do so.
+PROFESSIONAL WRITING
+
+
+
+
+286                                     Part3      Basic Business Messages
+
+
+             Waiting Impacts               As a middle manager, you will often enforce policies that you did not
+             Business                   design and announce decisions that you did not make. Don’t pass the buck by
+      ==    The longer customers        saying, “This was a terrible decision.” Carelessly criticizing your superiors is
+           wait, the more annoyed       never a good idea.
+ they can become. A team of mar-           If you have several reasons for saying no, use only those that are strong
+ keting professors examined the         and watertight. If you give five reasons and the audience dismisses two of the
+ waiting experiences of 844 cus-        them, the audience may feel that they’ve won and should get the request.
+ tomers at banks, hair salons, res-
+                                           Weak reason:                         You cannot store large bulky items in the dormitory over
+ taurants, and oil change shops.
+                                                                                the summer because moving them into and out of storage
+ The researchers identified five
+ pieces of advice that affect how                                               would tie up the stairs and the elevators just at the busiest
+ customers respond to waiting.                                                  times when people are moving in and out.
+ 1. Give customers a focus other        If students say they will move large items before or after the two days when most
+    than the wait: If customers
+                                        people are moving in or out, you are still not going to grant the request, because
+    are doing something, they are
+                                        you do not have the storage room. If you do not have a good reason, omit the
+                                        reason rather than use a weak one. Even if you have a strong reason, omit it if it
+    less focused on how long the
+    wait lasts.
+                                        makes the company look bad.
+ 2. Try to reduce anxiety of wait-
+      ing: Providing wait estimates            Reason that hurts company:       Our company is not hiring at the present time because prof-
+      or music can help reduce                                                  its are down. In fact, the downturn has prompted top man-
+      customer anxiety.                                                         agement to reduce the salaried staff by 5% just this month,
+ 3. Show fairness in waiting: If                                                with perhaps more reductions to come.
+      customers are waiting, they
+                                               Better:                           Our company does not have any openings now.
+      don’t want to see (or per-
+      ceive) other people getting
+      special treatment.                Refusals
+ 4. Create a relaxed environment:
+    Make sure seating, tempera-         Deemphasize the refusal by putting it in the same paragraph as the reason,
+    tures, and noise levels are all     rather than in a paragraph by itself.
+    appropriate when customers             Sometimes you may be able to imply the refusal rather than stating it
+    wait.                               directly.
+ 5. Support regular customers.                 Direct refusal:    | You cannot get insurance for just one month.
+ Adapted from David Elbert, “Waiting           Implied refusal:    The shortest term for an insurance policy is six months.
+ Warps Customers’ Sense of Time,
+ Raises Dander,” Des Moines Register,       Be sure the implication is crystal clear. Any message can be misunderstood,
+ November 29, 2009, ID, 2D.              but an optimistic or desperate audience is particularly unlikely to understand
+                                         a negative message. One of your purposes in a negative message is to close the
+                                         door on the subject. You do not want to have to send a second message saying
+                                         that the real answer is no.
+
+                                         Alternatives
+                                         Giving your audience an alternative or a compromise, if one is available, is a
+                                         good idea for several reasons:
+
+                                           ®      It offers the audience another way to get what they want.
+                                           =      It suggests that you really care about your audience and about helping
+                                                  to meet their needs.
+                                           =      It enables your audience to reestablish the psychological freedom you
+                                                  limited when you said no.
+                                           =      It allows you to end ona positive note and to present yourself and your
+                                                  organization as positive, friendly, and helpful.
+
+                                            When you give an alternative, give your audience all the information they
+                                         need to act on it, but don’t take the necessary steps. Let your audience decide
+                                         whether to try the alternative.
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                   Chapter 10   Delivering Negative Messages                                       287
+
+
+
+   Negative messages limit your audience’s freedom. People may respond toa                                    Disgruntled
+                                                                                                              Customer with a
+limitation of freedom by asserting their freedom in some other arena. Sharon                                  Hammer
+and Jack Brehm calls this phenomenon psychological reactance.” Psychologi-                     Biss}
+
+
+cal reactance is at work when a customer who has been denied credit no lon-                            7       Providing good cus-
+ger buys even on a cash basis, a subordinate who has been passed over for                        tomer service should be a goal
+
+a promotion gets back at the company by deliberately doing a poor job, or                        of any business. When it’s not,
+                                                                                                 customers get angry and can
+someone who has been laid off sabotages the company’s computers.                                 exert their frustrations in negative
+   Analternative allows your audience to react in a way that doesn’t hurt you.                   ways.
+By letting your audience decide for themselves whether they want the alterna-                       In Bristow, Virginia, Mona Shaw,
+tive, you allow them to reestablish their sense of psychological freedom.                        a 75-year-old woman who wanted
+   The specific alternative will vary depending on the circumstances. In                         phone, Internet, and cable service
+Figure 10.4, the company suggests using a different part. In different circum-                   installed, vented her frustrations
+stances, the writer might offer different alternatives.                                          with Comcast by going to their
+                                                                                                 office and smashing a keyboard,
+                                                                                                  monitor, and telephone . . . with a
+Endings                                                                                           hammer.
+                                                                                                    She claims her frustration was
+If you have a good alternative, refer to it in your ending: “If you can use A515                 the result of poor customer ser-
+grade 70, please let me know.”                                                                    vice. She waited for an installa-
+    The best endings look positively to the future.                                               tion technician who showed up
+                                                                                                  two days late. Once there, he
+  Wherever you have your account, you'll continue to get all the service you’ve learned           never finished the job. To top
+to expect from CHARGE-ALL, and the convenience of charging items at over a mil-                   things off, two days later Com-
+ lion stores, restaurants, and hotels in the United States and abroad-and in Knoxville,           cast cut all her services. The tip-
+  too, whenever you come back to visit!                                                           ping point came when she waited
+                                                                                                  two hours to talk to a Comcast
+                                                                                                  manager before being informed
+   Letter refusing to continue charge account for a customer who has moved                        he had left for the day.
+                                                                                                    For her brash response, Shaw
+   Avoid endings that seem insincere.                                                             received a fine and three-month
+                                                                                                  suspended sentence. She is also
+   We are happy to have been of service, and should we be able to assist you in the future,       forbidden to go near the Com-
+   please contact us.                                                                             cast office. She eventually got her
+
+This ending lacks you-attitude and would not be good even in a positive mes-
+                                                                                                   phone, Internet, and cable work-
+
+sage. In a situation where the company has just refused to help, it’s likely to
+                                                                                                   ing, but with different providers.
+
+sound sarcastic.                                                                                   Adapted from “Woman, 75, Fined for
+                                                                                                   Smashing Comcast Office with Ham-
+                                                                                                   mer in Customer Service Dispute,”
+APOLOGIES                                                                                          Associated Press Archive, October
+                                                                                                   19, 2007.
+Apologizing is never an easy task, but it’s something most of us do. New
+research suggests that people, on average, say they're sorry four times a week.
+And most people have an easier time saying they're sorry to friends and
+strangers than they do family members or partners. :
+   Organizations have to routinely offer apologies, too. The news frequently has
+stories of corporations providing apologies. Southwest Airlines CEO offered
+an apology to customers and safety regulators for poor maintenance measures
+ in an effort to restore a tarnished reputation.’ Descriptions of other apologies
+ from JetBlue and the Los Angeles Times can be found in sidebars in this chapter.
+    Timing is crucial for apologies. After Toyota vehicles had an issue with
+ sticking gas pedals that forced a recall of about 6 million cars, they issued full
+ page pledges in most major newspapers to their customers on how they’re fix-
+ ing the situation. The president of Toyota, Akio Toyoda, also issued a formal
+ apology. However, some critics were upset that Toyota Motors sent an Ameri-
+ can sales executive, Jim Lentz, to initially handle questions rather than Toyado
+ himself as the face of the company. Others believe that Toyota mishandled the
+ situation by offering a slow response, minimizing the problem, and delaying
+ the recall.’
+PROFESSIONAL WRITING
+
+
+
+
+288                                   Part3   Basic Business Messages
+
+
+Figure 10.4            A Refusal with an Alternative
+
+                                                                 yp
+
+                                                     creel Fabrication
+                                               “Serving the needs of America since 1890"
+                             1800 Olney Avenue * Philadelphia, PA 19140 * 215*555*7800 » Fax: 215°555*9803
+
+
+                 April 27, 2012
+
+                 Mr. H. J. Moody
+                 Canton Corporation
+                 2407 North Avenue
+                 Kearney, NE 68847
+
+                 Subject: Bid Number 5853, Part Number D-40040
+
+
+                  Dear Mr. Moody:
+
+           puller. Thank you for requesting our quotation on your Part No. D-40040.
+
+      cessor      Your blueprints call for flame-cut rings 1/2" thick AS16 grade 70. To use that grade, we'd
+                  have to grind down from 1" thick material. However, if you can use A515 grade 70, which
+                  we stock in 1/2" thick, you can cut the price by more than half.
+
+                  Quantity         Description                          Gross Weight       — Price/Each
+
+                  75               Rings Drawing D-40040,               12 Ibs.              $15.08
+                                   A516 Grade 70 1" thick                                                  Alternative
+                                   ¥ 6 O.Die.6 Ll:                                                        (Dependingon
+                                   ground to .5" thick,                                                   circumstances,
+                                                                                                             different
+                  75                Rings Drawing D-40040,               6 lbs.               $6.91       alternatives
+                                                                                                                    may
+                                    A515 Grade 70 1/2"                                                        exist.)
+                                    thick x 6" O.D. x 2.8" LD.
+                                                                                     Leaves decision up toreader to
+                  If you can use A515 grade 70, please let me know,                re-establish psycholagical freeaom
+
+                  Sincerely,
+                      f°
+                  / ater       i
+                               fbn
+                               /
+
+                  Valerie Prynne
+
+                  VP:we
+      GO         Ba
+
+
+
+
+                                           Not all negative messages, however, need to include apologies. In business
+                                        documents, apologize only when you are at fault. If you need to apologize,
+                                        do it early, briefly, and sincerely. Do so only once, early in the message. Do
+                                        not dwell on the bad things that have happened. The reader already knows
+                                        this negative information, Instead, focus on what you have done to correct the
+                                        situation,
+                                                                Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                         Chapter10   Delivering Negative Messages                                      289
+
+
+                                                                                                                 Star Apology
+                   ~
+                                                                           ff
+                                                                      <<                                           The     Los     Angeles
+                                                                                                                   Times ran an article
+
+             We fell.Wegot up. End of apology                                                                      that implied associates
+                                                                                                       of rapper Sean Combs (a.k.a.
+                                                                                                       “Diddy’) carried out the 1994
+                                                                                                       robbery and shooting of rapper
+                                                                                                       Tupac Shakur, and that Combs
+                                                                                                       knew about it ahead of time. The
+                                                                                                       Times initially reported that FBI
+                                                                                                       records, interviews   with people at
+                                                                                                       the crime scene, and statements
+                                                                                                       to the FBI by an informant      were
+                                                                                                       the source of the article. How-
+                                                                                                       ever, none were actually named
+                                                                                                       in the article.
+                                                                                                          Combs and his lawyers were
+                                                                                                        outraged about the attacks on
+Schwinn needed a new product line to attract sophisticated cyclists. This apology for                   his character and stated that
+its old, boring line moves quickly to a discussion of its new technology. By evoking an                 he had no involvement in the
+experience every cyclist has had, the headline also suggests that falling is a minor event.             murder.
+                                                                                                         After The Smoking Gun website
+   No explicit apology is necessary if the error is small and if you are correct-                      posted doubt about the validity
+                                                                                                       of the FBI documents, the Times
+ing the mistake.
+                                                                                                       ran its own investigation. The
+   Negative:    We're sorry we got the nutrition facts wrong in the recipe.                            Smoking Gun noted the docu-
+                                                                                                       ments   appeared  to be written on
+   Better:      You're right. We’re glad you made us aware of this. The correct amounts are
+                                                                                                       a typewriter, not a computer,  and
+                2 grams of fat and 4 grams of protein.
+                                                                                                       contained unusual blacked-out
+   Do not apologize when you are not at fault. The phrase “I’m sorry” is gener-                        sections.  These  investigations of
+ally interpreted to mean the sorry person is accepting blame or responsibility.                        the sources of the article led the
+
+When you have done everything you can and when a delay or problem is due                               Times to eventually retract its
+
+to circumstances beyond your control, you aren’t at fault and don't need to
+                                                                                                       story and offer a public apology.
+
+apologize. It may, however, be appropriate to include an explanation so the
+                                                                                                         Public apologies   are never easy
+                                                                                                       but sometimes    are necessary.
+reader knows you weren’t negligent. In the previous example acknowledging
+an error, the writer might indicate the source of the error (such as a reference                        Adapted from “LA Times Apologizes,
+
+book or a government website). If the news is bad, put the explanation first. If                        Says Documents Used for Tupac
+                                                                                                        Shakur Story Likely Fabricated,”
+you have good news for the reader, put it before your explanation.                                      Associated Press Archive, March 27,
+                                                                                                        2008.
+   Negative:                       I'm sorry that | could not answer your question sooner.
+                                   | had to wait until the sales figures for the second quarter
+                                   were in.
+   Better (neutral or bad news):   We   needed     the sales figures for the second      quarter to
+                                   answer     your question.   Now   that they're in, | can tell you
+                                   nat ...%
+    Better (good news):            The new advertising campaign is a success. The sales fig-
+                                   ures for the second quarter are finally in, and they show
+                                   that. . ..
+
+    If the delay or problem is long or large, it is good you-attitude to ask the
+ audience whether they want to confirm the original plan or make different
+ arrangements.
+    Negative:    I'm sorry that the chairs will not be ready by August 25 as promised.
+    Beiter:      Because of a strike against the manufacturer, the desk chairs you ordered will
+                                                                                           like
+                 not be ready until November. Do you want to keep that order, or would you
+                 to look at the models available from other suppliers?
+PROFESSIONAL WRITING
+
+
+
+
+290                                       Part3        Basic Business Messages
+
+
+                  JetBlue’s Nightmare
+                                                                                                            SS
+                  On February 14, 2007,
+     . A    JetBlue    attempted
+                                                                                                                 APDLOGIANG NEVER TASHENSD GOD?
+            to continue    opera-
+ tions during an ice storm. They
+ boarded passengers and rolled
+ planes to runways for de-icing,
+ betting that planes would be able                                                 “ear
+ to take off as the storm subsided.                                                  Sos
+      Other planes were subsequently                                                     ies.
+ parked at terminal gates, prevent-
+ ing JetBlue planes from returning
+ to the gates to unload passen-
+ gers. Hundreds of passengers
+ were held aboard planes, some for
+ as long as 11 hours. Thousands
+ more        passengers    and   mounds
+ of baggage were stranded at the
+ terminal.
+   JetBlue’s problems were exac-
+ erbated by the company’s poor
+ communication:
+ =      Posting delays for flights
+        instead of cancellations kept
+        passengers waiting for hours.
+  ms Passengers stranded on
+     planes reported they were
+     not given information about
+        their status because the          This cereal box mocks the accelerating trend for apologies in the workplace.
+        flight crews
+                 4
+                     were not being       Source: The Denver Post and The Flip Side Staff, “Eating Crow,” Columbus Dispatch, September 8, 2004, F8.
+        ee
+        informed.
+
+  =     The JetBlue phone number
+        was overloaded. Callers
+        experienced lengthy holds,              Sometimes you will be in a fortunate position where you can pair your
+        and many could not get             apology with an appropriate benefit.
+        through at all.
+
+  = The airline's computer system           = When the Hallmark Flowers web site stopped taking orders the week
+    Biel Fog Cor  UME core                    before Mother’s Day, Hallmark sent an e-mail asking customers to try
+        ware were inadequate for the                         :                     .              Pea       pe                       13
+                                                            ain an                Trin           hippin                  a       é
+        task of scheduling crews after                 ag            d offe     ee Ae    8 Hee
+                                                                                             1:
+        the storm, slowing the return       =          When Apple sharply cut the price on the iPhone a few months after it
+        forrilcanices                                  came on the market, Steve Jobs offered an apology to earlier buyers and
+       JetBlue publicly apologized and         provided them with a $100 Apple store credit.
+     offered refunds, free fight vouch-      ™ Many airlines now have computer programs that generate apology let-
+     ers, and penalty-free rebooking.          ters for customers on flights with lengthy delays or other major prob-
+     Besides the damage to the com-            lems; the letters frequently offer additional frequent-flyer miles or
+     pany’s reputation, estimated costs                discount vouchers for future trips.
+     to JetBlue included $14 million in
+     customer refunds, $16 million in              f                          :                         ;                    .                    ;
+     vouchers, and $4 million in staff            Sincere apologies go hand in hand with efforts to rectify the problem.
+      overtime.                            Some hospitals have found that disclosing medical errors, apologizing, and
+                       '                   quickly offering a financial settlement to the victims actually reduces litiga-
+      Sache Peniawiel eetfea               tion and prevents future mistakes. After a program was established at the
+      Jet Blew It” Newsweek, March 6,      University of Illinois Medical Center in Chicago to help communicate with
+      2007, 26; and Jesus Sanchez and      wronged patients, the number of lawsuits declined 40% in four years, even
+                                                                                                   mistakes happen,
+      oeBae PhotCoat  Wiesel es            though the number of procedures increased by 23%. When
+                 February 19,2007,
+      Chicago Tribune,                     the hospital also tries to establish new protocols to avoid similar problems
+                                           in the future.!°
+                                                                Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                       Chapter 10    Delivering Negative Messages                                        291
+
+
+                                                                                                                Workplace Violence
+
+                                                                                                                An increasing number
+                                                                                                                of people respond vio-
+                                                                                                                lently to bad news.
+                                                                                                      In August 2010, a man killed
+                                                                                                    nine people at a distributor in
+                                                                                                    Hartford, Connecticut, after he
+                                                                                                    signed a resignation letter as
+                                                                                                    the result of disciplinary action.
+                                                                                                    He brought two handguns, which
+                                                                                                    he used to shoot his victims, to
+                                                                                                    work in a red metal lunchbox.
+                                                                                                       In another incident in July 2010,
+                                                                                                    a former employee of Emcore,
+                                                                                                    a fiber optics company in Albu-
+It’s easy to get angry in negative situations; avoid that temptation.                               querque, New Mexico, killed
+                                                                                                    two co-workers and himself and
+                                                                                                    injured four more.
+
+TONE IN NEGATIVE MESSAGES                                                                              These workplace incidents are
+                                                                                                    only a few of many that routinely
+
+Tone—the implied attitude of the author toward the reader and the subject—                          occur in businesses. In fact, the
+                                                                                                     Bureau of Labor Statistics reports
+is particularly important when you want readers to feel that you have taken                         that in 2008, the year with the
+their requests seriously. Check your draft carefully for positive emphasis and                       most recent statistics, 421 work-
+you-attitude (see Chapter 3), both at the level of individual words and at the                       ers nationwide were homicide
+level of ideas. In many situations, empathizing with your audience will help                         victims. Typically, workplace vio-
+you create a more humane message.                                                                   lence ensues when a person
+   Figure 10.5 lists some of the words and phrases to avoid in negative mes-                        feels mistreated or betrayed
+sages. Figure 3.3 in Chapter 3 suggests more negative words to avoid.                               by an organization. Many busi-
+   Even the physical appearance and timing of a message can convey tone. An                         nesses now have formal work-
+obvious form rejection letter suggests that the writer has not given much con-                      place procedures to cope with
+sideration to the reader’s application. An immediate negative suggests that                         these incidents.
+
+the rejection didn’t need any thought. A negative delivered just before a major                     Adapted   from     Ross Arrowsmith,
+holiday seems especially unfeeling.                                                                 “Gunman Came Prepared to Con-
+                                                                                                    necticut Shooting,” Workplace Vio-
+                                                                                                    lence News, August 4, 2010, http://
+ALTERNATIVE STRATEGIES FOR NEGATIVE                                                                  workplaceviolencenews.com/2010/08/
+                                                                                                     04/gunman-came-prepared-to-
+SITUATIONS                                                                                           connecticut-shooting/, Ben Cassel-
+                                                                                                     man, “Albuquerque Shooting Leaves
+Whenever you face a negative situation, consider recasting it as a positive or                       3 Dead,” Wall Street Journal, July 13,
+
+persuasive message. Southwest Airlines, the low-cost airline, is famous for
+                                                                                                     2010, http://online.wsj.convVarticle/SB1
+                                                                                                     00014240527487042882045753631
+saying no to its customers. It says no to such common perks as reserve seats,                        33284257738.html; and U.S. Bureau
+                                                                                                     of Labor Statistics, “Workplace Shoot-
+                                                                                                     ings,” July 2010, http:/Avww.bls.gov/iif/
+                                                                                                     oshwe/cfoi/osar0014.htm.
+
+Figure 10.5            Avoid These Phrases in Negative Messages
+  Phrase                Because
+
+  | am afraid that      You aren't fearful. Don’t hide behind empty phrases.
+     we cannot
+  | am sorry that we    You probably are able to grant the request; you simply choose not
+     are unable           to. If you are so sorry about saying no, why don’t you change
+                          your policy and say yes?
+  | am sure you will    Don’t assume that you can read the reader’s mind.
+     agree that
+  Unfortunately         Unfortunately is negative in itself. It also signals that a refusal is
+                          coming.
+ SnSn T
+      D U
+PROFESSIONAL WRITING
+
+
+
+
+292                                        Part3   Basic Business Messages
+
+
+              International Firing         meals, and interairline baggage transfers. But it recasts all those negatives
+              “When doing busi-
+                                           into its two biggest positives, low-cost fares and conveniently scheduled fre-
+              ness in another coun-        quent flights.’
+              try, it is often easy to
+assume that things there are the           Recasting the Situation as a Positive Message
+same as in your country. . . . It
+is wise to know the proper way
+                                           If the negative information will directly lead to a benefit that you know readers
+to dismiss an employee when                want, use the pattern of organization for informative and positive messages:
+working with other cultures. This             Situation:                Your airline has been mailing out quarterly statements of frequent-
+is a difficult task to perform in a                                     flier miles earned. To save money, you are going to stop mailing
+familiar territory but it is especially
+                                                                        statements and ask customers to look up that information at your
+tricky when one is in a foreign
+                                                                        website.
+country and does not always fully
+understand the local culture. An              Negative:                 Important     Notice:   This is your last Preferred        Passenger     paper
+American manager stationed in                                           statement.
+Indonesia reportedly discovered
+                                              Positive emphasis:      |New, convenient online statements will replace this quarterly mailing.
+this when he tried to fire an oil-
+                                                                       Now you can get up-to-the-minute statements of your miles earned.
+rig employee. Rather than notify-
+                                                                       Choose e-mail updates or round-the-clock access to your state-
+ing the employee privately of this
+                                                                       ment at our website, www.aaaair.com. It’s faster, easier, and more
+dismissal, the manager publicly
+told the timekeeper to send the                                         convenient.
+ man ‘packing.’ In Indonesia, this
+                                              After Taco Bell had a law firm voluntarily withdraw a suit that questioned
+ public dismissal was considered
+ unacceptable ‘loss of face’ which
+                                           the amount of meat in their ground beef, the company turned the negative
+ offended both the dismissed man
+                                           situation into a positive. Taco Bell bought full pages in the Wall Street Journal
+ and his friends. So, rather than          and New York Times and ran advertisements with a headline, “Thank you for
+ leave quietly, the man grabbed            suing us.” They used the rest of the space to discuss the ingredients in their
+ fire axes and ran after the Ameri-        ground beef and to avoid a public relations scandal.'”
+ can manager. Reportedly, the
+ American was barely rescued in            Recasting the Situation as a Persuasive Message
+ time. Obviously, it is dangerous to
+ ignore local management prac-             Often a negative situation can be recast as a persuasive message. If your organi-
+ tices and customs!”                       zation has a problem, ask the audience to help solve it. A solution that workers
+                                           have created will be much easier to implement.
+ Quoted from David A. Ricks, Blun-
+ ders in International Business, 4th ed.
+                                               When the Association for Business Communication raised dues, the Execu-
+ (Malden, MA: Blackwell Publishing,        tive Director wrote a persuasive letter urging members to send in renewals
+ 2006), 105.                               early so they could beat the increase. The letter shared some of the qualities of
+
+
+
+
+                                            After an alligator escaped from his cage at the Los Angeles Zoo, a spokesperson recast the
+                                            negative situation as a positive by telling reporters that the escape proved the alligator
+                                            was smart and healthy.
+                                            Source: Justin Scheck and Ben Worthen, “When Animals Go AWOL, Zoos Try to Tame Bad PR,” Wall Street Journal,
+                                            January 1, 2008, A1, A10.
+                                                      Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                              Chapter 10   Delivering Negative Messages                                      293
+
+
+any persuasive letter: using an attention-getting opener, offsetting the nega-                       Turning Tables on
+tive by setting it against the benefits of membership, telling the reader what Pa                    Complaints
+to do, and ending with a picture of the benefit the reader received by acting.  SS
+                                                                                                      While consumers have
+More recent increases, however, have been announced directly.                                         many     avenues     for
+                                                                                          complaining, the organizations
+   If you are criticizing someone, your real purpose may be to persuade the
+                                                                                          that are complained about may
+reader to act differently. Chapter 11 offers patterns for problem-solving per-
+                                                                                          feel a bit powerless. However,
+suasive messages.                                                                         the Alamo Drafthouse, a movie
+                                                                                          theater in Austin, Texas, found
+VARIETIES OF NEGATIVE MESSAGES                                                            a way to turn the tables on one
+                                                                                          complainer.
+Some of the most common negative messages are claims and complaints. Three                   The movie theater has one sim-
+of the most difficult kinds of negative messages to write are rejections and              ple rule: don’t text or use a phone
+refusals, disciplinary notices and negative performance appraisals, and layoffs           during the movie. One woman
+and firings.                                                                              broke this simple rule and was
+                                                                                           kicked out of the theater. She
+                                                                                          then called the theater to com-
+Claims and Complaints                                                                     plain about the situation; she
+                                                                                          believed they were ripping her off.
+Claims and complaint messages are needed when something has gone wrong:                     The theater now uses this
+you didn’t get the files you needed in time for the report; the supplier didn’t           woman's      ridiculous     message
+send enough parts; the copy machine breaks down daily. Many claims and                    as a public service announce-
+complaints are handled well with a quick phone call or office visit, but some-            ment that shows before all mov-
+times you will need a paper trail.                                                        ies begin to remind movie goers
+   Technology has certainly influenced the way complaints are processed.                  of the one simple rule. In other
+United Airlines stopped their customer relations phone service. Complaint                 words, instead of allowing the
+responses are now handled by United representatives through e-mail and let-               customer, who was clearly in the
+
+ters. The company believes customers will get a better quality of feedback.”              wrong, to create negative public-
+                                                                                          ity, the theater owners created a
+Delta Air Lines has a team of customer service agents who monitor social                  positive situation for their busi-
+media applications like Twitter for real-time complaints. When travelers com-             ness. You can watch the video
+plain about the company, the agents try to solve problems before they go viral            at the web address in the source
+by offering updated gate information or rebooking details. Sometimes they                 below.
+even bend the rules to null complaints in the Twittersphere. In one instance, a              In another instance, a pizza
+passenger got frequent flier miles that she wasn’t entitled to receive because            shop in New York turned the
+she posted complaining tweets about Delta.”                                               tables by printing T-shirts for
+   A lot of consumers are angry these days, and organizations should be respon-            employees with the negative
+sive to their complaints. According to the Edelman Trust Barometer, people                 reviews they received online
+
+believe negative news about an organization with a low trust level after one               at Yelp. The strategy helped
+
+or two encounters, while people believe positive news only after four or five.
+                                                                                           increase business and create
+                                                                                           more loyal customers.
+   Organizations, like Delta, need fast response times in handling complaints                What do you think? Are the
+before a situation tarnishes their brand. The speed of complaints is growing               actions of these businesses justi-
+faster with websites exclusively dedicated to the issue. Sites such as Angie’s             fied? How else can organizations
+List, Consumer Affairs, Planet Feedback, Ripoff Report, Tello, and Yelp offer              gain more power in this electronic
+forums for disgruntled customers. Many of these sites also have smartphone                 age when it is so easy for anony-
+applications that allow consumers to report incidents almost instantaneously.              mous consumers to complain?
+To stay on top of the reviews, new electronic tools are emerging that help orga-           Adapted from Lani Rosales, “Austin
+nizations scan for key words and monitor reviews related to their brand.                   Business Proves That Social Media Cuts
+   When writing a claim or complaint, you generally will use a direct organi-              Both Ways,” AGBeat, June 6, 2011,
+zation: put a clear statement of the problem in the first sentence. An indirect            http://agentgenius.com/real-estate-
+                                                                                           technology-new-media/austin-
+ approach, such as starting with a buffer, may be interpreted as a weak claim.             business-proves-that-social-media-
+    Give supporting facts—what went wrong, the extent of the damage. Give                  cuts-both-ways/.
+
+identifiers such as invoice numbers, warranty codes, and order dates. If this is
+a claim, specify what is necessary to set things right (be realistic!). Avoid anger
+and sarcasm; they will only lessen your chances of a favorable settlement. In
+particular, avoid saying you will never use the company, service, machine again.
+Such a statement may eliminate your audience's will to rectify the problem. See
+Figure 10.6 for the Wall Street Journal’s suggestions for e-mail claims to airlines.
+PROFESSIONAL WRITING
+
+
+
+
+294                    Part3   Basic Business Messages
+
+
+                       Figure 10.6              Airline Complaint Tips
+                       ES
+                        These tips can improve your chances of a favorable response from an airline:
+                        e Ask for the compensation you want.
+                        ° Be realistic. You will not get compensation for a routine delay.
+                        ¢ Be direct and short. Do provide flight, reservation, and frequent-flyer numbers.
+                        ¢ Don’t threaten. Particularly don’t say you will never fly with them again.
+                        e Write to Customer Service. Your complaint will eventually end up there no matter where
+                           you send it.
+                       en
+                       Source: Scott McCartney, “What Airlines Do When You Complain,” Wall Street Journal, March 20, 2007, D1.
+
+
+
+                       Rejections and Refusals
+                       When you refuse requests from people outside your organization, try to give
+                       an alternative if one is available. For example, you may not be able to replace
+                       for free an automotive water pump that no longer is on warranty. But you may
+                       be able to offer your customer a rebuilt one that is much less expensive than a
+                       new pump.
+                          Politeness and length help. In two different studies, job applicants preferred
+                       rejection letters that said something specific about their good qualities, that
+
+
+
+
+                                              TE PEOPLE ASK WHY
+                                                    youfe WEARING 2
+                                                |                                    Bar 4
+                                                                                          (2)
+
+                                                               ©                      ix
+                                                                                          HEAD
+                                                                                        aND
+                                                                             © ReneMe
+
+                                                                   ApS               Teyeo/-NUPY:
+                                                                         you ird3 (2.
+
+
+
+                        Hallmark has expanded their line of cards to address the health concerns many people are
+                        experiencing. The inside of this card says, “They'll have no follow-up questions.”
+                                                                     Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                            Chapter10    Delivering Negative Messages                                               295
+
+
+phrased the refusal indirectly, that offered a clear explanation of the proce- Po                                         Dumpster Diving
+dures for making a hiring decision, that offered an alternative (such as another                                          Anyone?
+position the applicant might be qualified for), and that were longer.”! Further-                                          Northwest           Airlines,
+more, businesses that follow this pattern of organization for rejection letters                                           which filed for bank-
+will retain applicants who still view the organization favorably, who will rec- _ ™uptey and underwent reorga-
+ommend the organization to others interested in applying there, and who will      "ation Poe eran awi)
+not file lawsuits.                                                                Delta, sent out a handbook
+
+    Double-check the words in a refusal to be sure the reason can’t backfire                               OE SNES ee
+if it is applied to other contexts. The statement that a plant is too dangerous                            ee O 1, area
+for a group tour could be used as evidence against the company in a work-—                                 qga and anne er
+er’s compensation claim. Similarly, writing resignation letters for a variety Of  offered employees some use-
+reasons—leaving a job, opting out of a fellowship—can be a delicate practice      ful information about retirement
+and can have serious future implications. Many audiences will see the letter as _ benefits and résumé assistance.
+a statement that their organization is not good enough. The best letters try to   However, the handbook also
+neutralize these feelings. A negative and poorly worded resignation letter can    Offered some unconventional
+impact your chances for receiving a positive recommendation or reference in                                assistance, such as a listing of
+                                                                                                           “401 Ways to Save Money.”
+the future.
+   When you refuse requests within your organization, use your knowledge                                        ee             eEAMe         By ioc
+                                                                                                           quoted        lis
+of the organization’s culture and of the specific individual to craft your mes-                            =     Buy spare parts for your car
+sage. Some organizations share more negative information than others. Some ,                                     at the junkyard
+individuals prefer a direct no; others may find a direct negative insulting. The                           =     Get hand-me-down clothes
+sample problem at the end of this chapter is a refusal to someone within the                                     and toys for your kids from
+op ally:                                                                                                         family and friends
+  a:                                                    ‘                                                  = Buy old furniture at yard sales
+Disciplinary Notices and Negative                                                                            and refinish it yourself
+Performance Appraisals                                                                                     # Hang clothes out to dry
+                                    :                       of   8                   :            aA              B            d       for a big   night
+                   4      :                                                                                                        ated
+Performance appraisals, discussed in detail in Chapter 11, will be positive                                r meoi oe
+when they are designed to help a basically good employee improve. But when                                   shop
+an employee violates company policy orfails to improve after repeated Nega-                                = _Don'tbe shy about pulling
+tive appraisals, the company may discipline the employee or build a dossier to                                    something you like out of a
+support firing him or her.                                                                                       dumpster
+   Present disciplinary notices and negative performance appraisals directly,                                   Northwest employees                were
+with no buffer. A buffer might encourage the recipient to minimize the mes-                                appalled by this list of outrageous
+sage’s importance—and might even become evidence in a court case that the       suggestions. The vice president
+employee had not been    told to shape up  “or else.” Cite quantifiable obser-  for  ground operations quickly
+vations of the employee’s behavior, rather than generalizations or inferences — apologized, and the chief execu-
+based on it.                                                                                               tive officer sent a letter of apology
+                                                                                                           to the affected employees who
+                                            work.                                                          received the handbook.
+   Weak:       Lee   is apathetic   about
+
+
+   Better:     Lee was absent 15 days and late by one hour 6 days in the quarter beginning                 Adapted        and quoted from Michelle
+               January 1.                                                                                  Singletary, “Dumpster-Diving Advice
+           ;          :              F              j                                                          Doesn’t     Fly,”   Washington      Post,
+   Weak:       Vasu is careless with her written documents.                                                August 24, 2006, D2.
+
+   Better:     Vasu had multiple spelling errors in her last three client letters; a fourth letter omit-
+               ted the date of the mandatory federal training seminar.
+
+   Not all disciplinary notices are as formal as performance                              appraisals.
+Blanchard and Johnson, of One Minute Manager fame, present what they call
+the One Minute Reprimand. Much of the effectiveness of these reprimands
+comes from the fact that supervisors tell their employees from the beginning,
+before any reprimands are needed, that there will be explicit communication
+ about both positive and negative performances. The reprimand itself is to
+ come immediately after negative behavior and specify exactly what is wrong.
+ It distinguishes between positive feelings for the employee and negative feel-
+ ings for his or her performance in the specific situation. 2
+PROFESSIONAL WRITING
+
+
+
+
+296                                       Part3   Basic Business Messages
+
+
+             Effective Negative           Layoffs and Firings
+             Letters
+                                          If a company is in financial trouble, management needs to communicate the
+                                          problem clearly. Sharing information and enlisting everyone’s help in finding
+ls           Researcher    Catherine
+            Schryer asked      writ-
+ ers at an insurance company to           solutions may make it possible to save jobs. Sharing information also means
+ evaluate the firm’s letters deny-        that layoff notices, if they become necessary, will be a formality; they should
+ ing claims. She found four differ-       not be new information to employees.
+ ences between the letters judged            Give the employee an honest reason for the layoff or firing. Based on
+ effective and the letters judged         guidance from your organization’s human resource experts, state the rea-
+ ineffective:                             sons in a way that is clear but does not expose the organization to legal
+      Good letters were easier to         liabilities.
+      read. Poor letters contained           Show empathy for affected employees; think about how you would feel if
+      more jargon; longer words           you were losing your job. Show how the company will help them with sever-
+      and sentences; and stiff,           ance pay and other aid, such as job search advice. Remember that many stud-
+      awkward phrasing.
+                                          ies show that layoffs may temporarily help the bottom line, but they rarely
+      Good letters gave fuller rea-       provide long-term savings. They also hurt the productivity of remaining
+      sons for the rejection. Poor
+                                          employees.”
+                                              Firings for unsatisfactory performance have always been a part of
+      letters often used boilerplate
+      and did not explain terms.
+                                          business. Now, however, as technology blurs the line between work and
+      Good letters were less
+                                          home, firings are also happening for personal reasons, even if the behav-
+                                          ior is not tied to work and occurs off-site. The CEO of HBO was asked to
+      likely to talk about the
+      reader's emotions (“angry,”
+      “disappointed’).                    resign after he was accused of assaulting his girlfriend in a parking lot.
+      Good letters were more likely
+                                          Kaiser Aluminum’s CFO had to resign because of a personal relationship
+      to portray the writer and           with another employee, as did Boeing’s former president and CEO Harry
+      reader as active agents.            Stonecipher.”
+                                             Information about layoffs and firings is normally delivered orally but
+ Adapted from Catherine Schryer,          accompanied by a written statement explaining severance pay or unemploy-
+ “Walking a Fine Line: Writing Negative
+ Letters in an Insurance Company,”
+                                          ment benefits that may be available. RadioShack made negative headlines
+ Journal of Business and Technical        when it fired 400 employees with a two-sentence e-mail.
+ Communication 14 (October 2000):
+ 445-97.
+
+                                           SOLVING A SAMPLE PROBLEM
+                                          Solving negative problems requires careful analysis. The checklist at the end
+                                          of the chapter can help you evaluate your draft.
+
+
+                                           Problem
+                                           You’re Director of Employee Benefits for a Fortune 500 company. Today, you
+                                           received the following memo:
+
+                                              From: Michelle Jagtiani
+                                              Subject: Getting My Retirement Benefits
+
+                                              Next Friday will be my last day here. | am leaving [name of company] to take a posi-
+                                              tion at another firm.
+                                              Please process a check for my retirement benefits, including both the deductions
+                                              from my salary and the company’s contributions for the last six and a half years. |
+                                              would like to receive the check by next Friday if possible.
+
+
+                                              You have bad news for Michelle. Although the company does contribute
+                                           an amount to the retirement fund equal to the amount deducted for retire-
+                                           ment from the employee’s paycheck, employees who leave with less than
+                                           seven years of employment get only their own contributions. Michelle will
+                                                     Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                             Chapter 10   Delivering Negative Messages                                      297
+
+
+get back only the money that has been deducted from her own pay, plus 412%                           www.useit.com/
+
+interest compounded quarterly. Her payments and interest come to just over               @           alertbox/20000123
+                                                                                                      html
+$17,200; the amount could be higher depending on the amount of her last
+paycheck, which will include compensation for any unused vacation days                   General guidelines for saying
+and sick leave. Furthermore, since the amounts deducted were not consid-                 no can be applied to specific
+
+ered taxable income, she will have to pay income tax on the money she will               situations. Web guru Jakob
+                                                                                         Neilsen explains how to tell users
+receive.                                                                                 that your website can’t do what
+   You cannot process the check until after her resignation is effective, so you         they want. Neilsen suggests
+will mail it to her. You have her home address on file; if she’s moving, she             telling users “no” upfront
+needs to let you know where to send the check. Processing the check may take             when your website cannot do
+                                                                                         something. Otherwise, users will
+two to three weeks.                                                                      spend too much time looking for
+   Write a memo to Michelle.                                                             the desired feature, and in the
+                                                                                         process will develop negative
+                                                                                         feelings for the site.
+Analysis of the Problem                                                                      He also suggests if your site
+Use the analysis questions in the first chapter to help you solve the problem.           cannot meet a user's needs,
+                                                                                         that you direct them to another
+1. Who is (are) your audience(s)?                                                        site that will. This referral builds
+                                                                                         goodwill and will make your
+     Michelle Jagtiani. Unless she’s a personal friend, I probably wouldn’t              site the starting point for the
+      know why she’s leaving and where she’s going.                                      customer’s next search. If an
+           There’s a lot I don’t know. She may or may not know much about                item will be available reasonably
+      taxes; she may or may not be able to take advantage of tax-reduction               soon, you can allow customers
+                                                                                         to preorder or provide their
+      strategies. I can’t assume the answers because I wouldn’t have them in             e-mail for notification when the
+      real life.                                                                         product or service becomes
+                                                                                         available.
+2. What are your purposes in communicating?                                                   Log onto Neilsen’s site and
+      To tell her that she will get only her own contributions, plus 4’4% inter-         read the rest of his advice for
+      est compounded quarterly; that the check will be mailed to her home                telling users no. Can you think
+       address two to three weeks after her last day on the job; and that the            of other ways to tell website
+                                                                                         users “no” that Neilsen hasn’t
+       money will be taxable as income.                                                  suggested?
+           To build goodwill so that she feels that she has been treated fairly
+       and consistently. To minimize negative feelings she may have.
+           To close the door on this subject.
+3. What information must your message include?
+      When the check will come. The facts that her check will be based on
+       her contributions, not the employer’s, and that the money will be tax-
+       able income. How lump-sum retirement benefits are calculated. The fact
+       that we have her current address on file but need a new address if she’s
+       moving.
+4. How can you build support for your position? What reasons or benefits
+   will your audience find convincing?
+       Giving the amount currently in her account may make her feel that she
+       is getting a significant sum of money. Suggesting someone who can give
+       free tax advice (if the company offers this as a fringe benefit) reminds
+       her of the benefits of working with the company. Wishing her luck with
+       her new job is a nice touch.
+5. What aspects of the total situation may be relevant?
+       Since this is right after taxes are due, she may be particularly interested
+       in the tax advice. With the weak economy, she may have been count-
+       ing on the extra money. On the other hand, most people take another
+       job to get more money, so maybe she is too. I don’t know for sure.
+       Since she and I don’t know each other, I don’t know about her special
+        circumstances.
+PROFESSIONAL WRITING
+
+
+
+
+298                                                  Part3          Basic Business Messages
+
+
+                                                     Discussion of the Sample Solutions
+                                                     The solution in Figure 10.7 is not acceptable. The subject line gives a bald neg-
+                                                     ative with no reason or alternative. The first sentence has a condescending
+                                                     tone that is particularly offensive in negative messages; it also focuses on what
+                                                     is being taken away rather than what remains. Paragraph 2 lacks you-attitude
+                                                     and is vague. The memo ends with a negative. There is nothing anywhere in
+                                                     the memo to build goodwill.
+                                                         The solution in Figure 10.8, in contrast, is effective. The policy serves as a
+                                                     buffer and explanation. The negative is stated clearly but is buried in the para-
+                                                     graph to avoid overemphasizing it. Paragraph 2 emphasizes the positive by
+                                                     specifying the amount in the account and the fact that the sum might be even
+                                                     higher.
+                                                         Paragraph 3 contains the additional negative information that the amount
+                                                     will be taxable but offers the alternative that it may be possible to reduce taxes.
+                                                     The writer builds goodwill by suggesting a specific person the reader could
+                                                     contact.
+                                                         Paragraph 4 tells the reader what address is in the company files (Michelle
+                                                     may not know whether the files are up-to-date), asks that she update
+                                                     it if necessary, and ends with the reader’s concern: getting her check
+                                                     promptly.
+                                                         The final paragraph ends on a positive note. This generalized goodwill is
+                                                     appropriate when the writer does not know the reader well.
+
+
+
+ Figure 10.7                          An Unacceptable Solution to the Sample Problem
+      3 Untitled             Message {Rich Text)
+      ? Bile Edt             View Insert Format             Iools    Actions   Help
+      £ Sagend|bed ch                      3, Bh | ll ttach
+                                                         osAdobe P
+      ? Times
+          New Roman
+
+
+
+      FES,                      WENT S11) en                                      ce oe           re              Serene                        eee                      za
+             From...         _| Lisa Nia         2                                                                       ESS                                         —
+
+             Bcc...
+
+        seni                    Denial of Matching Funds _                                Negative subject line          a
+                      Give                 No salutation                                                                                            negative tone
+
+                 reason             You cannot receive a check the last day of work and you will get only your own and diction
+                  before            contributions, not a matching sum from the company, because you have not worked for the
+                  refusal           Company for at least seven full years.                           Better to be specific
+
+       This io lifted |Your payments and interest come to just over $17,200; the amount could be higher
+       straight from depending on the amount of your last paycheck, which will include compensation for any M
+        ;             bent          unused vacation days and sick leave. Furthermore, since the amounts deducted were not                                           Om
+        as:ées                : considered taxable income, you will have to pay income tax on the money you receive.                                          negatives |
+        The languag
+        inproblem®                  The check will be sent to your home address. If the address we have on file is incorrect,
+        is often                    please correct it so that your check is er                      hate Negative
+            negative and             Sey
+                                                              No signature or         g                ;                     t you hhave on file?
+            stuffy; information IS                             contact information               How will reader know edfoe as you have it.
+                    ani ed.
+            ,disorganiz                                                                          Better to give curren
+                                                   use your          own word 5 to
+            Think about        the situat iion and
+                                             message
+            create a satisfactory
+                                                 5     “+
+                                i     ,;
+            cae
+                                                                  Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                          Chapter10   Delivering Negative Messages                           299
+
+
+
+
+                              +Alene nenanS
+      To.. | Michelle Jagtiani
+                  April 21,2012                                                                      .
+
+
+
+     —            _Receiving Employee Contributions from.Retirement Accounts _a
+|             Dear Ms. Jagtiani:
+    scavte    Employees who leave the company with at least seven full years of employment are entitled both
+                                                                                                        to
+ | -egsoni’ to the company contributions and the retirement benefit paycheck deductions contributed
+                                                                                                 years of
+ |chird-pe™2" retirement accounts. Those employees who leave the company   with  less than seven
+       to bee employment will receive the employee paycheck contributions made to their retirement accounts.
+ 1    ae é                               Good to be specific
+       n  ~ You now have $17,240.62 in your account which includes 4.5% interest compounded quarterly. The
+            amount you receive could be even higher since you will also receive payment for any unused
+            leave and vacation days.
+   Goode    Because you now have access to the account, the amount you receive will be considered
+ | chowho” income for tax purposes. Beth Jordan in Employee Financial Services can give you information
+ compa"     about possible tax deductions and financial investments which can reduce or defer payment of
+ _canhelP         your income taxes.
+     Good vo ve   The check will be sent to your home address on May 16. The address we have on file is 2724
+       speci¢     Merriman Road, Akron, Ohio 44313. If your address changes, please let us know so you can
+                                                                                                   receive.
+                                          Positive emphasis
+                  Good luck with your new job!
+                                       Forward-looking ending.
+                  Lisa Niaz
+                  Director of Employee Benefits
+                  760-1477 Ext. 986
+
+
+
+
+ C1 Is the subject line appropriate?
+ C1 Is the organization and content appropriate for the audience?
+ C Ifa buffer is used, does it avoid suggesting either a positive or a negative response?
+ C1 Is the reason, if it is given, presented before the refusal? Is the reason watertight, with
+      no loopholes?
+ C1 Is the negative information clear?
+ C1 Is an alternative given if a good one is available? Does the message provide all the
+    information needed to act on the alternative but leave the choice up to the audience?
+ C1 Does the last paragraph avoid repeating the negative information?
+ — Is tone acceptable—not defensive, but not cold, preachy, or arrogant either?
+Originality in a negative message may come from
+ Cl An effective buffer, if one is appropriate.
+ OJ Aclear, complete statement of the reason for the refusal.
+ CA good alternative, clearly presented, which shows that you're thinking about what the
+   audience really needs.
+ C Adding details that show you're thinking about a specific organization and the specific
+   people in that organization.
+                                              errr               earner                  Vn
+een                   Ree
+PROFESSIONAL WRITING
+
+
+
+
+300        :                     Part3   Basic Business Messages
+
+
+
+
+                                 =   Ina negative message, the basic information is negative; we expect the
+                                     audience to be disappointed or angry.
+                                 =   A good negative message conveys the negative information clearly while
+                                     maintaining as much goodwill as possible. The goal is to make the audi-
+                                     ence feel that they have been taken seriously, that the decision is fair and
+                                     reasonable, and that they would have made the same decision. A second-
+                                    ary purpose is to reduce or eliminate future communication on the same
+                                    subject.
+                                 = The best way to organize negative messages depends on the particu-
+                                    lar audiences and situations involved. Figure 10.1 suggests possible
+                                    organizations.
+                                 = A buffer is a neutral or positive statement that allows you to delay the
+                                    negative message. Buffers must put the audience in a good frame of mind,
+                                    not give the bad news but not imply a positive answer either, and provide
+                                    a natural transition to the body of the message. Use a buffer only when the
+                                    audience values harmony or when the buffer serves a purpose in addition
+                                    to simply delaying the negative.
+                                 = A good reason prepares the audience for the negative and must be water-
+                                    tight. Give several reasons only if all are watertight and are of compa-
+                                    rable importance. Omit the reason for the refusal entirely if it is weak
+                                    or if it makes your organization look bad. Do not hide behind company
+                                    policy.
+                                 = Make the refusal crystal clear.
+                                 m Giving the audience an alternative or a compromise
+                                    = Offers the audience another way to get what they want.
+                                    = Suggests that you really care about the audience and about helping to
+                                         meet their needs.
+                                    = Allows you to end on a positive note and to present yourself and your
+                                         organization as positive, friendly, and helpful.
+                                  = When you give an alternative, give the audience all the information they
+                                     need to act on it, but don’t take the necessary steps for them. Letting the
+                                     audience decide whether to try the alternative allows the audience to rees-
+                                     tablish a sense of psychological freedom.
+                                  = Many negative situations can be redefined as informative, positive, or per-
+                                     suasive messages.
+
+
+
+                                                                                                 *Go to www.mhhe.com/locker10e for
+                           and Problems acthna Backes aie
+           AO Oe Exercises
+        TR 10
+   CHAPTER
+ CHAP            AE ID OEE        a    eae
+ 10.1.         Reviewing the Chapter
+
+ 1.   What are the reasons behind the patterns of organi-          4.   When should you not apologize? (LO 10-2)
+      zation for negative messages in different situations         5.   What are some ways you can maintain a caring tone
+      (Figure 10.1)? (LO 10-1)                                          in negative messages? (LO 10-3)
+ 2.   What are the parts of negative messages? How may             6.   What are some different varieties of negative mes-
+      those parts be changed for different contexts?                    sages? What are some examples from the chapter
+      (LO 10-2)                                                         text and sidebars? (LO 10-4)
+ 3.   When should you not use a buffer? (LO 10-2)
+                                                             Business and Administrative Communication,
+                                                                                                     Tenth Edition
+
+
+
+
+                                                     Chapter 10    Delivering Negative Messages                          301
+
+
+10.2     Reviewing Grammar
+
+Negative news is frequently placed in dependent clauses             modifiers. Do the exercise from Appendix B on improv-
+to help de-emphasize it. Unfortunately, some depen-               . ing modifiers (B.6) to help you learn to recognize this
+dent clauses and phrases are dangling or misplaced                  error.
+
+
+10.3     Letters for Discussion—Credit Refusal
+
+As director of customer service at C’est Bon, an upscale            which he’s made just the minimum payment for the last
+furniture store, you manage the store’s credit. Today               three months.
+you are going to reject an application from Frank Steele.              The following letters are possible approaches to giv-
+Although his income is fairly high, his last two pay-               ing him the news. How well does each message meet the
+ments on his college loans were late, and he has three              criteria in the checklist for negative messages?
+bank credit cards, all charged to the upper limit, on
+
+           Ls     Dear Mr. Steele:
+
+                  Your request to have a C’est Bon charge account shows that you are a discriminat-
+                  ing shopper. C’est Bon sells the finest merchandise available.
+
+                  Although your income is acceptable, records indicate that you carry the maximum
+                  allowable balances on three bank credit cards. Moreover, two recent payments on
+                  your student loans have not been made in a timely fashion. If you were given a C’est
+                  Bon charge account, and if you charged a large amount on it, you might have dif-
+                  ficulty paying the bill, particularly if you had other unforeseen expenses (car repair,
+                  moving, medical emergency) or if your income dropped suddenly. If you were unable
+                  to repay, with your other debt you would be in serious difficulty. We would not want
+                  you to be in such a situation, nor would you yourself desire it.
+
+                   Please reapply in six months.
+
+                   Sincerely,
+
+
+
+                   Dear Frank:
+
+
+                   No, you can’t have a C’est Bon credit card—at least not right now. Get your financial
+                   house in order and try again.
+
+                   Fortunately for you, there’s an alternative. Put what you want on layaway. The furni-
+                   ture you want will be held for you, and paying a bit each week or month will be good
+                   self-discipline.
+
+                   Enjoy your C’est Bon furniture!
+
+                   Sincerely,
+
+
+
+                    Dear Mr. Steele:
+
+
+                    Over the years, we’ve found that the best credit risks are people who pay their bills
+                    promptly. Since two of your student loan payments have been late, we won’t extend
+                    store credit to you right now. Come back with a record of six months of on-time pay-
+                    ments of all bills, and you’ll get a different answer.
+PROFESSIONAL WRITING
+
+
+
+
+302                           Part3   Basic Business Messages
+
+
+                 You might like to put the furniture you want on layaway. A $50 deposit holds any item
+                 you want. You have six months to pay, and you save interest charges.
+
+                 You might also want to take advantage of one of our Saturday Seminars. On the first
+                 Saturday of each month at 11 AM, our associates explain one topic related to furni-
+                 ture and interior decorating. Upcoming topics are
+
+                        How to Wallpaper a Room                 February 5
+
+                        Drapery Options                         March 6
+
+                        Persian Carpets                         April 1
+
+                 Sincerely,
+
+
+
+
+10.4     E-Mails for Discussion—Saying No to a Colleague
+
+A colleague in another state agency has e-mailed you          The following messages are possible approaches to
+asking if you would like to use the payroll software her _ giving her the news. How well does each message meet
+agency developed. You wouldn’t. Switching to a new _ the criteria in the checklist for negative messages?
+program would take a lot of time, and what you have
+works well for you.
+
+
+            

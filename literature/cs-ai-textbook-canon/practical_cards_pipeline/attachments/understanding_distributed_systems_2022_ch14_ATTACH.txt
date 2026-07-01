@@ -1,0 +1,355 @@
+understanding_distributed_systems_2022_ch14_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 14
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch14_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch14_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 14
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch14_ingest.md |
+| text_lines_read | 4817–4963 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 14 |
+| chapter_title | HTTP caching |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Client-side HTTP caching (Cache-Control, ETag, 304) for static assets; immutable URL versioning; CQRS read/write split; reverse proxies as shared server-side cache bridging to CDN.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Client cache flow** (4827–4879): GET/HEAD only; TTL + ETag; fresh vs stale conditional If-None-Match.
+2. **Immutable deploy** (4886–4902): New URLs force fetch; atomic website version cutover.
+3. **CQRS** (4904–4909): Optimize read path separately from writes.
+4. **Reverse proxy** (4918–4955): Shared cache; auth, compress, rate-limit, LB; commoditized by CDN.
+
+---
+
+## Section digest (anchored)
+
+### §14 client cache (4827–4909)
+
+Figures 14.1–14.2; CQRS mention.
+
+### §14.1 Reverse proxies (4918–4955)
+
+Figure 14.3; NGINX/HAProxy.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Explain http caching role in Cruder scale path.
+2. Apply patterns to operator cloud stack.
+
+### worked_examples_present
+
+**Y** — Cruder narrative + figures cited in text.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Design hook:** Apply HTTP caching to one operator static-asset path.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.14 full slice | Read | 4817–4963 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 4817–4963 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+First Part III read-path optimization on Cruder static assets.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | Medium — parallel themes at data layer |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (figures).
+- **Chapter boundary:** Clean.
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Primary papers and vendor docs in footnotes |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Cruder + cloud refs |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Next UDS ch | Scale path continues |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 4817–4963 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| HTTP | HTTP caching per chapter |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch14_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch14_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 14
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+
+Over the last few decades, the number of people with access to the
+internet has steadily climbed. In 1996, only 1% of people world-
+wide had access to the internet, while today, it’s over 65%. In
+turn, this has increased the total addressable market of online busi-
+nesses and led to the need for scalable systems that can handle
+millions of concurrent users.
+
+For an application to scale, it must run without performance degra-
+dations as load increases. And as mentioned in chapter 1, the only
+long-term solution for increasing the application’s capacity is to
+architect it so that it can scale horizontally.
+
+In this part, we will walk through the journey of scaling a simple
+CRUD web application called Cruder. Cruder is comprised of
+a single-page JavaScript application that communicates with
+an application server through a RESTful HTTP API. The server
+uses the local disk to store large ﬁles, like images and videos,
+and a relational database to persist the application’s state. Both
+the database and the application server are hosted on the same
+machine, which is managed by a compute platform like AWS EC2.
+Also, the server’s public IP address is advertised by a managed
+DNS service, like AWS Route 5314 .
+ 14
+      “Amazon Route 53,” https://aws.amazon.com/route53/
+
+                                                                140
+
+
+Users interact with Cruder through their browsers. Typically, a
+browser issues a DNS request to resolve the domain name to an
+IP address (if it doesn’t have it cached already), opens a TLS con-
+nection with the server, and sends its ﬁrst HTTP GET request to it
+(see Figure 13.2).
+
+
+
+
+                Figure 13.2: Cruder’s architecture
+
+Although this architecture is good enough for a proof of concept,
+it’s not scalable or fault-tolerant. Of course, not all applications
+need to be highly available and scalable, but since you are reading
+this book to learn how such applications are built, we can assume
+that the application’s backend will eventually need to serve mil-
+lions of requests per second.
+
+And so, as the number of requests grows, the application server
+will require more resources (e.g., CPU, memory, disk, network)
+and eventually reach its capacity, and its performance will start
+to degrade. Similarly, as the database stores more data and serves
+more queries, it will inevitably slow down as it competes for re-
+sources with the application server.
+
+The simplest and quickest way to increase the capacity is to scale
+up the machine hosting the application. For example, we could:
+
+   • increase the number of threads capable of running simulta-
+
+                                                                 141
+
+
+     neously by provisioning more processors or cores,
+   • increase disk throughput by provisioning more disks
+     (RAID),
+   • increase network throughput by provisioning more NICs,
+   • reduce random disk access latency by provisioning solid-
+     state disks (SSD),
+   • or reduce page faults by provisioning more memory.
+
+The caveat is that the application needs to be able to leverage the
+additional hardware at its disposal. For example, adding more
+cores to a single-threaded application will not make much differ-
+ence. More importantly, when we’ve maxed out on the hardware
+front, the application will eventually hit a hard physical limit that
+we can’t overcome no matter how much money we are willing to
+throw at it.
+
+The alternative to scaling up is to scale out by distributing the ap-
+plication across multiple nodes. Although this makes the appli-
+cation more complex, eventually it will pay off. For example, we
+can move the database to a dedicated machine as a ﬁrst step. By
+doing that, we have increased the capacity of both the server and
+the database since they no longer have to compete for resources.
+This is an example of a more general pattern called functional decom-
+position: breaking down an application into separate components,
+each with its own well-deﬁned responsibility (see Figure 13.3).
+
+As we will repeatedly see in the following chapters, there are other
+two general patterns that we can exploit (and combine) to build
+scalable applications: splitting data into partitions and distribut-
+ing them among nodes (partitioning) and replicating functionality
+or data across nodes, also known as horizontal scaling (replication).
+In the following chapters, we will explore techniques based on
+those patterns for further increasing Cruder’s capacity, which re-
+quire increasingly more effort to exploit.
+
+Chapter 14 discusses the use of client-side caching to reduce the
+number of requests hitting the application.
+
+Chapter 15 describes using a content delivery network (CDN), a
+geographically distributed network of managed reverse proxies,
+
+                                                                 142
+
+
+
+
+Figure 13.3: Moving the database to its own dedicated machine is
+an example of functional decomposition
+
+
+to further reduce the number of requests the application needs to
+handle.
+
+Chapter 16 dives into partitioning, a technique used by CDNs, and
+pretty much any distributed data store, to handle large volumes of
+data. The chapter explores different partitioning strategies, such as
+range and hash partitioning, and the challenges that partitioning
+introduces.
+
+Chapter 17 discusses the beneﬁts of ofﬂoading the storage of large
+static ﬁles, such as images and videos, to a managed ﬁle store. It
+then describes the architecture of Azure Storage, a highly available
+and scalable ﬁle store.
+
+Chapter 18 talks about how to increase the application’s capacity
+by load-balancing requests across a pool of servers. The chapter
+starts with a simple approach based on DNS and then explores
+more ﬂexible solutions that operate at the transport and applica-
+tion layers of the network stack.
+
+Chapter 19 describes how to scale out the application’s relational
+database using replication and partitioning and the challenges that
+
+                                                                 143
+
+
+come with it. It then introduces NoSQL data stores as a solution
+to these challenges and recounts their evolution since their initial
+adoption in the industry.
+Chapter 20 takes a stab at discussing caching from a more general
+point of view by diving into the beneﬁts and pitfalls of putting a
+cache in front of the application’s data store. Although caching is a
+deceptively simple technique, it can create subtle consistency and
+operational issues that are all too easy to dismiss.
+Chapter 21 talks about scaling the development of the application
+

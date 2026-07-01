@@ -1,0 +1,2238 @@
+simon_aliferis_healthcare_2024_ch10_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: simon_aliferis_healthcare_2024 · chapter: 10
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/simon_aliferis_healthcare_2024_ch10_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (simon_aliferis_healthcare_2024_ch10_ingest.md)
+========================================================================
+
+# Chapter ingest — Simon & Aliferis (2024) · Selective Ch.10 (Book Ch.16: Regulatory ELSI)
+
+| Field | Value |
+|-------|-------|
+| slug | simon_aliferis_healthcare_2024 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/simon_aliferis_healthcare_2024_ch10_ingest.md |
+| text_lines_read | 41849–43887 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Artificial Intelligence and Machine Learning in Health Care and Medical Sciences |
+| authors | Johnson, Steven G.; Simon, Gyorgy; Aliferis, Constantin |
+| edition | 1st (Springer Health Informatics, 2024) |
+| ISBN_print | 978-3-031-39354-9 |
+| ISBN_electronic | 978-3-031-39355-6 |
+| DOI | https://doi.org/10.1007/978-3-031-39355-6 |
+| chapter_number | 10 (selective) / 16 (book) |
+| chapter_title | Regulatory Aspects and Ethical Legal Societal Implications (ELSI) |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Book chapter 16 closes the **clinical deployment and governance** arc: how AI/ML models enter regulated care workflows (CDS Hooks, EHR execution environments), how **ISO 14971** risk management frames benefit-vs-harm tradeoffs across the device lifecycle, how **FDA** classifies clinical decision support (21st Century Cures Act → 2022 Final Guidance four non-device criteria), how **Good Machine Learning Practice (GMLP)** ten principles map to prior book chapters, and how emerging **EU AI Act** and **NIST AI RMF 1.0** frameworks sit alongside U.S. regulation. The second half pivots to **biomedical AI ethics**: measurable in-consent harms (effectiveness, equity) vs traditional out-of-consent privacy risks; NIH definitions of minority health, health equity, and health disparity; survey of fairness literature; and technical tools for bias detection—**causal-path-to-outcomes**, equivalence-class modeling, and system-level resource allocation ethics. Best Practices 16.1–16.10 codify lifecycle risk planning, non-maleficence, disparity reduction, ethics culture, data design for equity, model auditing, bias-revealing models, equitable access, and multi-model system optimization.
+
+Out of scope in this slice: reporting standards (ch.17, selective ch.11); synthesis chapter (ch.18); appendices; index.
+
+---
+
+## Key findings
+
+All claims **[verified from text]** from lines 41849–43887 unless tagged `[inferred]`.
+
+1. **CDS deployment context** (lines 41897–41943). Model impact requires workflow integration; CDS Hooks enables vendor-agnostic external model servers. Post-deployment monitoring is mandatory—input data drift (population, terminology, documentation) and model drift (practice changes from outputs) both require eventual retraining. Performance metrics must match the clinical problem (cross-ref Evaluation chapter).
+
+2. **ISO 14971 risk management** (lines 41945–42126). Central thesis: expected benefits must outweigh potential harms. Medical device definition encompasses AI/ML CDS. Five-step process: (i) intended use and foreseeable misuse; (ii) hazard identification and risk estimation; (iii) risk evaluation (acceptability); (iv) risk control with residual-risk iteration; (v) post-production monitoring and re-evaluation. Pitfall 16.1: ISO 14971 mandates actions but not implementation methods. Best Practice 16.1: consider risks across all lifecycle phases. Patient-specific CDS risk-benefit and pure business decisions are excluded from scope.
+
+3. **FDA CDS regulation** (lines 42134–42289). 21st Century Cures Act (2016) created ambiguity; 2022 Final Guidance abandoned draft risk-based IMDRF approach in favor of four criteria—if **all four** met, software is non-device CDS. Criterion 1: no medical image/signal/pattern analysis. Criterion 2: displays/analyzes accepted medical information. Criterion 3: supports (not replaces) HCP recommendations; time-critical specificity triggers regulation. Criterion 4: HCP can independently review basis (six disclosure elements: intended use, inputs, population, algorithm summary, validation evidence, patient-specific context). Only ~521 AI devices FDA-approved over 25 years (mostly radiology); guidance is non-binding—enforcement TBD.
+
+4. **GMLP ten principles** (lines 42291–42479). FDA/Health Canada/MHRA joint principles (2021) are high-level only—book cross-references each to prior chapters: multidisciplinary expertise; software engineering/security; representative data; train/test independence; reference datasets; model tailored to data and use; human-AI team performance; clinically relevant testing; clear user information (links to Reporting Standards ch.17); deployed-model monitoring and retraining risk management.
+
+5. **Additional regulatory frameworks** (lines 42481–42542). EU AI Act: high-risk health AI, regulatory sandboxes, open-source developer obligations. NIST AI RMF 1.0: voluntary; socio-technical risk framing; govern/map/measure/manage functions. Landscape is fluid—compliance readiness required.
+
+6. **ELSI paradigm shift** (lines 42544–42570). Traditional ELSI emphasized out-of-consent privacy breaches (hard to quantify). Health AI/ML adds **in-consent** measurable risks: under-performance, group-specific harm, interpretability and governance failures—potentially measurable and addressable via best practices.
+
+7. **Health equity definitions** (lines 42572–42650 approx.). Minority health (OMB racial/ethnic groups); health equity as social justice in health (Whitehead: avoidable, unnecessary, unjust inequalities); health disparity as adverse differences in outcomes, care, coverage, or quality for disadvantaged populations; health determinants include SDOH intertwined with disparities.
+
+8. **Literature synthesis on fairness** (lines 42700–42894). Multiple authors converge: engage marginalized communities; collect audit data on protected groups; report intersectional performance; set disparity thresholds; post-market surveillance (e.g., [32]); diverse teams and preanalysis plans (Chen et al.); avoid over-automation and biased training data (Gianfrancesco); critique "neutral" equal-output models when biology justifies differences (McCradden)—focus on downstream patient effects not metrics alone.
+
+9. **Causal-Path-to-Outcomes Principle** (lines 42896–42979). Paradigmatic example: race → differential healthcare access → treatment intensity → outcomes creates spurious past-expenditure predictors; purely predictive models may drop race yet embed bias. **Rule:** causal paths from race/minority indicators to medical decisions affecting outcomes without medical justification indicate unethical bias requiring remediation in modeling and/or practice.
+
+10. **Equivalence classes and Pitfall 16.3** (lines 42981–43011). Predictively optimal model families may swap race for information-equivalent proxies—collinearity insufficient for detection. System-level ethics (lines 43013–43078): locally optimal ICU admission models may collectively exceed capacity; solutions include operations-research integration, ground-up multi-objective design, or hybrid approaches (Best Practice 16.10).
+
+11. **Best Practices 16.3–16.10** (lines 43150–43260). Non-maleficence; disparity reduction mandate; ethics-equity culture (training, community engagement, accountability); data design supporting equity (SDOH collection, adequate minority representation); model development/evaluation equity audits with interpretable/causal methods; use AI to **reveal** bias (do not "sterilize" bias-capturing audit models); equitable access; system-level multi-model optimization.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Map ISO 14971 lifecycle steps to a clinical ML model deployment plan.
+2. Apply FDA four-criterion test to classify CDS as device vs non-device.
+3. Cross-reference GMLP principles to concrete book chapters for implementation.
+4. Distinguish traditional privacy ELSI from in-consent performance/equity harms.
+5. Apply Causal-Path-to-Outcomes and equivalence-class reasoning to bias audits.
+6. Recognize system-level resource conflicts across multiple deployed models.
+
+### worked_examples_present
+
+**Y** — Causal diagrams for racial bias in treatment allocation (Figs. 2–4); ISO 14971 walkthrough; FDA criterion examples (ECG patterns, heart-failure scores, sepsis alerts); pulmonary ICU capacity scenario.
+
+### exercise_hooks
+
+1. Draft risk management plan outline for a sepsis prediction CDS.
+2. Classify three hypothetical CDS products under FDA four criteria.
+3. Build causal graph for a disparity scenario and identify spurious predictors.
+4. Exercise 7: surrogate model for provider decision bias (lines 43551–43594).
+
+---
+
+## Coverage attestation
+
+| Field | Value |
+|-------|-------|
+| source_path | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/simon_aliferis_healthcare_2024.txt` |
+| lines_read | 41849–43887 (inclusive) |
+| section_boundary | Starts `Regulatory Aspects and Ethical Legal Societal Implications`; ends before `Reporting Standards, Certification/Accreditation, and Reproducibility` (43888) |
+| wrong_file_flag | false |
+| deferred | Book ch.17–18; appendices A–C; index |
+| book_chapter_map | Selective ch.10 = book ch.16 |
+
+---
+
+## Operator hooks
+
+**w3_clinical_docs regulatory spine.** Pair with NAM sec03 (risks) and sec04 (readiness) for governance framing; AIE ch.10 for production guardrails. **MDCalc `[relevant]`:** FDA CDS classification and GMLP monitoring map to algorithmovigilance and HOTL disclosure patterns—do not cite as clearance policy.
+
+### Redundancy
+
+| Canon | Overlap | Distinction |
+|-------|---------|-------------|
+| NAM GenAI 2025 | Governance, equity, bias | Simon = technical depth on FDA/ISO/causal bias detection |
+| responsible_ai_practice_2025 | Fairness frameworks | Simon = health-specific causal-path principle |
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Primary-source regulatory citations (ISO 14971, FDA Final Guidance, GMLP, EU AI Act, NIST AI RMF); contested fairness claims flagged (race-in-model heuristics, neutral-model critique); worked causal examples; Pitfalls 16.1–16.3 explicit.
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Book ch.4 | Clinical-grade lifecycle |
+| Book ch.7 | Evaluation, decision curves |
+| Book ch.8 | Lessons learned / historical bias |
+| Selective ch.11 | Reporting Standards (TRIPOD, GMLP principle 9) |
+| NAM sec01–06 | Consensus governance complement |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| CDS Hooks | Vendor-agnostic FHIR-based CDS integration standard |
+| ISO 14971 | Medical device risk management lifecycle standard |
+| GMLP | FDA/Health Canada/MHRA Good Machine Learning Practice principles |
+| Health disparity | Adverse health difference for disadvantaged populations |
+| Causal-Path-to-Outcomes | Bias signal when race causally affects decisions without medical justification |
+| Equivalence class | Set of predictively equivalent models that may hide proxy bias |
+
+---
+
+*Ingest agent: simon-ingest-ch10-12 · selective ch10 · lines 41849–43887 · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/simon_aliferis_healthcare_2024_ch10_SLICE.txt)
+========================================================================
+
+# Text slice — simon_aliferis_healthcare_2024_ch10_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: simon_aliferis_healthcare_2024 · chapter: 10
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+Regulatory Aspects and Ethical Legal Societal Implications (ELSI)
+
+Steven G. Johnson¹  , Gyorgy Simon¹ and Constantin Aliferis¹
+
+(1)
+
+Institute for Health Informatics, University of Minnesota, Minneapolis,
+MN, USA
+
+ 
+
+ 
+
+Steven G. Johnson
+
+Email: joh06288@umn.edu
+
+Abstract
+
+This chapter reviews the context of regulating AI/ML models, the risk
+management principles underlying international regulations of clinical
+AI/ML, the conditions under which health AI/ML models in the U.S. are
+regulated by the Food and Drug Administration (FDA), and the FDA’s Good
+Machine Learning Practice (GMLP) principles. The GMLP principles do not
+offer specific guidance on execution, so we point the Reader to the
+parts of the book that discuss bringing these principles to practice via
+concrete best practice recommendations. Intrinsically linked with
+regulatory aspects are the Ethical, Legal, Social Implications (ELSI)
+dimensions. The chapter provides an introduction to the nascent field of
+biomedical AI ethics covering: general AI ELSI studies, AI/ML racial
+bias, and AI/ML and Health equity principles. Contrary to conventional
+risks/harms (data security and privacy, adherence to model use as stated
+in consent), ethical AI/ML involves model effectiveness and harms that
+can exist within the intended scope of consent. On the positive side, in
+the case of biomedical AI, these risks are in principle measurable and
+knowable compared to hard-to-quantify risks/harm due to data breaches.
+The chapter discusses (and gives illustrative examples) of the
+importance of causality and equivalence classes for practical detection
+of racial bias in models. The chapter concludes with a series of
+recommended best practices for promoting health equity and reducing
+health disparities via the design and use of health AI/ML.
+
+Keywords
+
+AI/ML Risk managementISO 14971FDA’s AI GuidanceHealth
+equitydisparitiesRacial bias and the Causal-Path-to-Outcomes
+PrincipleELSI factors for health AI/ML
+
+Model Implementation in the Context of Regulation
+
+Model predictions, in order to have an impact on healthcare outcomes,
+must be deployed in patient care settings and used by clinicians so that
+they affect their decisions or actions. The results of models can be
+presented to clinicians in the form of a report, as part of a real-time
+dashboard or within worklists that get updated frequently. But the best
+method, clinical decision support (CDS), is to present the information
+from the model at the precise time during a clinical workflow when it is
+most useful to the clinician and patient.
+
+Clinical Decision Support provides clinicians, staff, patients, or other
+individuals with knowledge and person-specific information,
+intelligently filtered or presented at appropriate times, to enhance
+health and health care.[1]
+
+The best CDS addresses the following 5 “rights”: The right information,
+to the right person, in the right format, through the right channel, at
+the right time in the workflow.[2]
+
+EHR vendors have historically provided their own proprietary methods for
+implementing CDS within clinical workflows, but there are standards that
+are slowly being adopted that could make model implementation easier and
+more portable across systems. CDS Hooks has emerged as a vendor-agnostic
+way to implement models.[3] The architecture supports the AI/ML models
+running on a server external to the EHR itself, which allows more
+flexibility in the maintenance and sharing of the model. The AI/ML model
+itself must be written in the programming language it was developed with
+and run in a suitable environment. EHR vendors are starting to create
+model execution environments (i.e. Epic Nebula, Cerner Project Apollo),
+but they are not currently very interoperable.
+
+Once models are implemented within production clinical workflows, they
+must be monitored and their performance evaluated (chapter
+“Characterizing, Diagnosing and Managing the Risk of Error of ML & AI
+Models in Clinical and Organizational Application”). It is also
+important to select the appropriate performance metrics that depend on
+the problem the CDS models are solving (chapter “Evaluation”). Model
+performance in production may not match the performance estimated during
+model development. Model performance may also change over time due to
+input data drifts, and model drifts. Data drifts occur when the data
+distribution in the application population changes, or when additional
+terminology codes are adopted, or EHR documentation methods change
+thereby potentially changing input data expectations. Model drifts occur
+as a result of model outputs causing practice changes leading to changes
+in the validity of the models. In both of these cases, model retraining
+eventually becomes necessary.
+
+ISO 14971 Standard on Risk Management of Medical Devices
+
+After an AI or ML model has been fit, its performance is evaluated in
+controlled conditions, and the model is refined according to
+clinical-grade model technical criteria of performance and reliability,
+as described in chapter “The Development Process and Lifecycle of
+Clinical Grade and Other Safety and Performance-Sensitive AI/ML Models”,
+after it is implemented in care. There are several regulations that
+govern clinical grade AI/ML models and systems. This chapter describes
+current regulatory requirements.
+
+While the exact rules and regulations surrounding the use of clinical
+decision support tools may change, regulations in many countries,
+including the USA, European Union, Canada, and Australia, are informed
+by the ISO 15971 standard [4]. Conversely, several revisions to the
+standard were made to better align it with regional law. This standard,
+entitled “Application of risk management to medical devices”, describes
+the process of risk management for medical devices throughout its entire
+life cycle. After reading this section, the Reader should be able to
+define key concepts related to risk management, be familiar with the
+related terminology, describe risk management in broad strokes, and
+understand the key decisions to make.
+
+The ISO 14971 standard describes the process of risk management for
+medical devices through their entire life cycle.
+https://​www.​iso.​org/​standard/​72704.​html
+
+The central thesis of risk management is that the expected benefits from
+using the device must outweigh the risk of potential harms.
+
+To expand on this central thesis, we have to establish some definitions.
+
+A medical device is defined as ”an instrument, apparatus, implement,
+machine, implant, software, or related article to be used alone or in
+combination for the diagnosis, prevention, treatment, monitoring or
+alleviation of disease, injury”, or for supporting or sustaining life.
+
+ISO 14971 provides a broad definition of a medical device with an
+extensive open-ended list of potential purposes. Given the context of
+this book, the medical device will most commonly be an AI/ML model
+assisting with or making clinical decisions, for example in the form of
+a risk or prognostic model, or as a decision support tool estimating
+risks under various treatment options.
+
+An AI model is not a medical device if it is running as part of a
+device.
+
+- Benefit is defined as the positive impact or desirable outcome
+  stemming from the use of the medical device in question.
+
+- Harm is injury or damage to the health of people, property or
+  environment.
+
+- Risk quantifies harm. It has two components: the probability of risk
+  and the severity of said harm.
+
+- Risk management is a process that consists of (i) establishing the
+  intended use and foreseeable misuse of a medical device, (ii)
+  identifying potential sources of harm and estimating the associated
+  risks, (iii) determining whether the risks are acceptable, (iv) taking
+  measures to reduce these risks, and (v) monitoring the device during
+  the remainder of its life cycle and repeating the risk assessment as
+  needed.
+
+Let us look at these steps in more detail. Phrases in quotation marks
+are the terminology used by the standard.
+
+1.  (i)
+
+    The process starts by establishing the intended use and the
+    foreseeable misuse of the device. The “intended use” (also known as
+    “intended purpose” in the EU) provides a description of how the
+    device is intended to be used, including its purpose, the
+    description of the target patient population, as well as a
+    description of the users of the device, of the environment in which
+    it will be used, and of the process of how the device is to be used.
+    Moreover, the standard mandates that characteristics (quantitative
+    as well as qualitative) that can affect the safety of the device be
+    considered and limits need to be defined on these characteristics
+    for safe use.
+
+     
+
+2.  (ii)
+
+    Next, potential sources of harm (“hazards”) are identified.
+    Sequences or combinations of events that could lead to harm should
+    be considered and documented. For each source of harm, the
+    associated risks, both their probabilities and their severities, are
+    estimated. This step is referred to as “risk analysis” in the
+    standard, which consists of “risk assessment”, where the potential
+    sources of harm are identified and “risk estimation” where the risk
+    probabilities and severities are estimated.
+
+     
+
+Best Practice 16.1
+
+Consider all relevant risks in different phases of the life cycle. Risks
+can change over time, e.g., the probability or severity of risk can
+change due to advancements in treatments or due to patient population
+drift.
+
+As far as the scope of risk analysis is concerned, risks related to data
+and system security are explicitly included, as are risks stemming from
+the malfunction of the device.
+
+Risks are not always estimable. For example if a set but very rare
+sequence of operations causes a fault deterministically, its risk may be
+hard to estimate with certainty. Similarly, some harms, such as the
+emergence of antibiotic-resistant pathogens caused by antibiotic
+overuse, may be impractical to estimate (quantify) in the context of
+infection risk models. In such cases, the potential harms themselves
+should be listed (without quantified risks).
+
+1.  (iii)
+
+    The next step is called “risk evaluation”. In this step, it is
+    determined whether the risks are acceptable.
+
+     
+
+Under some circumstances, the risk from using the device cannot be
+reduced to acceptable levels. In such cases a “risk-benefit analysis”
+can be carried out, proving that the expected benefit outweighs (the
+high) risk. For example, the use of a life-support device could fall
+into this category. In case of a “risk-benefit analysis”, the benefits
+cannot include economic or business advantages (cost-benefit analysis
+can serve that purpose).
+
+Risk evaluation for clinical decision support, that is when the device
+is applied to a particular patient, is excluded from the scope, because
+the tradeoff between the benefits and risks is very patient-dependent.
+Business decision making is also excluded from the scope.
+
+1.  (iv)
+
+    If the risks are not acceptable (too high), then “risk control” is
+    performed. As part of risk control, measures to reduce risk are
+    developed, implemented, and verified. After the implementation and
+    verification of these risk reduction measures, the remaining risk
+    (“residual risk”) is evaluated. If it is still deemed unacceptably
+    high, further risk reduction measures are implemented and the
+    residual risks are re-evaluated. These steps are repeated until the
+    residual risk becomes acceptable.
+
+     
+
+If, in spite of all the risk control measures, the residual risk remains
+too high, the device may be abandoned, or the device itself or its
+intended use may be revised and the whole risk management process must
+be repeated from the beginning.
+
+If the residual risk is acceptable and the expected benefits outweigh
+the potential harms, then a risk management report is produced detailing
+the above steps.
+
+The “verification” of a measure is the provision of objective evidence
+proving that the measure successfully meets certain pre-defined
+objectives. This refers to distinct processes: proving that the measure
+is actually implemented and also proving that the measure reduced the
+risk. The level of effort should be commensurate with the level of risk.
+
+Note that the risk control measures themselves can introduce new and
+different risks.
+
+1.  (v)
+
+    The device enters the post-production phase of its life cycle and
+    post-production monitoring of the device commences. Information
+    about the use and misuse of the device is collected, and a decision
+    is made whether the risk evaluation should be repeated. This may
+    lead to the need for additional risk control measures and
+    re-evaluation of the residual risks.
+
+     
+
+Pitfall 16.1
+
+The ISO 14971 is not an implementation standard. It mandates that
+certain actions be taken but does not prescribe exactly how they will be
+carried out.
+
+Best Practice 16.2
+
+The rationale for the risk management plan is that having a plan
+produced ahead of time makes it less likely that a risk management step
+is overlooked or accidentally skipped.
+
+FDA Regulation of AI/ML Use
+
+In this section, we will focus on the regulatory framework developed by
+the United States Food and Drug Administration (FDA) for the regulation
+of Clinical Decision Support Software.[5] We will review a history of
+the evolution of the regulations and examine characteristics for what
+the FDA considers a medical device and therefore what needs to go
+through the FDA regulatory approval process. These regulations and
+processes will likely evolve over time and the information in this
+section may eventually be out of date. But the underlying reasons for
+the regulatory review should still be valid and it is important that
+these reasons are considered during the development of an AI/ML model.
+
+The US Congress passed the 21st Century Cures Act in December of 2016
+[6]. The Cures Act exempted certain software from regulation as long as
+(1) the healthcare provider could independently review the basis of the
+recommendation and (2) they didn’t rely on it to make a diagnostic or
+treatment decision. But it wasn’t very clear about which types of
+medical software could be exempted. In this timeframe, health systems
+developed algorithms and CDS, and they generally didn’t seek FDA
+approval.
+
+The FDA has monitored the evolution of how software was being used in
+medical decisions, and especially how software was developed, how AI/ML
+algorithms were trained on new data and how they evolved over time. In
+2019, the FDA released a draft guidance on CDS software [7] in which it
+proposed a risk-based approach based on the International Medical Device
+Regulators Forum (IMDRF) Framework which could be used to categorize CDS
+as a medical device CDS or a non-device CDS. Based on feedback and
+comments, the FDA released its Final Guidance on September 22, 2022 [5].
+This guidance abandoned the risk-based approach and provides a more
+detailed definition of which types of CDS are considered devices and
+should therefore be regulated. To clarify: the decision, whether a model
+needs to be regulated or not is no longer based on risks, however, risk
+management is still the central tenet of regulation (for the devices
+that need to be regulated).
+
+The FDA’s Final Guidance defined four criteria and if the CDS meets all
+four criteria, then it is not considered a device CDS and is not
+regulated by the FDA [5]. If the model fails to meet any one (or more)
+of these criteria, then it is subject to FDA regulations. The four
+criteria are as follows:
+
+1.  1.
+
+    the model is not intended to acquire, process, or analyze a medical
+    image or a signal from an in vitro diagnostic device or a pattern or
+    signal from a signal acquisition system;
+
+     
+
+2.  2.
+
+    the model is intended for the purpose of displaying, analyzing, or
+    printing medical information about a patient or other medical
+    information (such as peer-reviewed clinical studies and clinical
+    practice guidelines);
+
+     
+
+3.  3.
+
+    the model is intended for the purpose of supporting or providing
+    recommendations to a health care professional about prevention,
+    diagnosis, or treatment of a disease or condition; and
+
+     
+
+4.  4.
+
+    the model is intended for the purpose of enabling such health care
+    professional (HCP) to independently review the basis for such
+    recommendations that such software presents so that it is not the
+    intent that such health care professional rely primarily on any of
+    such recommendations to make a clinical diagnosis or treatment
+    decision regarding an individual patient.
+
+     
+
+The Final Guidance provides a detailed explanation for each of the
+criteria and uses examples to illustrate what is and is not considered a
+medical device.
+
+Criterion 1: the FDA makes it clear that any software that analyzes
+medical images or device signals is a device. Then it goes further to
+define a pattern as multiple, sequential, or repeated measurements of a
+signal. They specifically give examples of patterns as
+electrocardiograms (ECG), continuous glucose monitors (CGM) and next
+generation sequencing (NGS). Examples of software that do not meet
+Criterion 1 and are therefore devices, include software that uses CT
+images to estimate fractional flow reserve, software that performs image
+analysis for diagnostically differentiating between ischemic and
+hemorrhagic stroke and software that analyzes multiple signals (e.g.,
+perspiration rate, heart rate, eye movement, breathing rate) from
+wearable products to monitor whether a person is having a heart attack.
+But software that uses physiologic signals for biometric identification
+(i.e. retinal scan) is not a medical device since it is not being used
+for a medical purpose.
+
+Criterion 2: the FDA describes medical information about a patient to be
+“the type of information that normally is, and generally can be,
+communicated between health care professionals in a clinical
+conversation…”. The information’s relevance to a clinical decision must
+be well understood and accepted. Other medical information includes
+“information such as peer-reviewed clinical studies, clinical practice
+guidelines, and information that is similarly independently verified and
+validated as accurate, reliable…”. By this definition a single glucose
+measure (lab result) is medical information about a patient, but
+multiple glucose measurements over a period of time would be considered
+a pattern. Examples of non-devices are providing order sets, displaying
+evidence-based practice guidelines, drug-drug interactions and reminders
+for preventive care. Examples of a regulated device is software that
+analyzes patient-specific medical information (e.g., daily heart rate,
+SpO₂, blood pressure, etc.) to compute a score that predicts heart
+failure hospitalization because the score is not generally communicated
+between health care professionals and its relevance to a clinical
+decision is not well understood.
+
+Criterion 3, addresses providing recommendations to HCPs. In particular,
+the FDA considers that if the software provides a specific diagnosis or
+treatment or provides a time-critical recommendation, then it may
+replace the HCPs clinical judgement (because the HCP is not given enough
+time to consider the recommendation and they are not given alternatives
+with supporting evidence). In that case, the CDS should be regulated. If
+a HCP is given a list of preventative, diagnostic or treatment options
+or a list of next steps (as long as it is not done in a time-critical
+manner), then that is allowable non-device CDS. On the other hand,
+examples of device CDS include software the predicts opioid addiction
+(it is a specific diagnosis) or software that alerts to potential for a
+patient to develop sepsis (requires a time-critical response). The FDA
+also considers automation bias, in which an HCP may rely too much on the
+output of the software for their decisions since it is coming from a
+(presumed infallible) computer.
+
+Criterion 4, lastly, seeks to ensure that the HCP can review the basis
+for the recommendations so that they do not solely rely on the
+recommendation but use their clinical judgement. In support of this, the
+FDA recommends that the software (1) labels its intended use; (2)
+describes all inputs, their relevance and expected data quality; (3)
+lists applicable patient population; (4) provides a summary of the
+algorithm logic and methods; (5) presents results from clinical studies
+and validations to evaluate the model performance and (6) shows relevant
+patient-specific information and any missing, corrupted, or unexpected
+inputs that will enable the HCP to independently review the basis for
+the recommendations. The Final Guidance gives examples of software that
+provide recommendations (i.e. mammography treatment plan, depression
+treatment options) in a non time-critical manner but that do not provide
+all six aspects described above. Therefore, they are considered devices
+and should be regulated.
+
+Over the past 25 years, only 521 AI software devices have been approved
+by the FDA, mostly in radiology[8]. The Final Guidance has only recently
+been published and it explicitly states that it is a non-binding
+recommendation. It remains to be seen how the FDA will enforce these
+recommendations and what actions the CDS and health AI/ML community will
+take to comply.
+
+FDA’s “Good ML Practice”
+
+The U.S. Food and Drug Administration (FDA), Health Canada, and the
+United Kingdom’s Medicines and Healthcare products Regulatory Agency
+(MHRA) have jointly identified 10 guiding principles that can inform the
+development of Good Machine Learning Practice (GMLP) [9]. These
+principles are primarily meant for clinical AI/ML models that will
+influence the health of patients. However, some of these guidelines are
+broader in scope, and are also applicable to knowledge discovery or
+healthcare operations and business models.
+
+Caution: The GMLP principles are just that—principles; they offer no
+concrete guidance on best practices that can help satisfy these
+principles.
+
+In order to help with converting the principles to action, in this
+section, we will present the ten GMLP principles, quote from FDA’s
+commentary about the principles and cross-reference with the chapters in
+the current book that discuss best practices that relate to each GMLP
+principle.
+
+FDA GMLP 1. Multi-Disciplinary Expertise Is Leveraged Throughout the
+Total Product Life Cycle.
+
+This principle advocates for “in-depth understanding of a model’s
+intended integration into clinical workflow, and the desired benefits
+and associated patient risks, can help ensure that ML-enabled medical
+devices are safe and effective and address clinically meaningful needs
+over the lifecycle of the device.” (The quoted text is directly adopted
+from the FDA document.) This resonates with our BP practice
+recommendations in chapter “Principles of Rigorous Development and of
+Appraisal of ML and AI Methods and Systems”, which advocate for having a
+concrete clinically-motivated problem formulation; our best practice
+recommendations in chapter “Evaluation” help with the evaluation of the
+model in terms of clinical effectiveness; and chapter “Characterizing,
+Diagnosing and Managing the Risk of Error of ML & AI Models in Clinical
+and Organizational Application” helps with risk characterization and
+management.
+
+FDA GMLP 2. Good Software Engineering and Security Practices Are
+Implemented.
+
+“Model design is implemented with attention to the `fundamentals’: good
+software engineering practices, data quality assurance, data management,
+and robust cybersecurity practices.”
+
+Data management and quality assurance are addressed in chapter “Data
+Preparation, Transforms, Quality, and Management” and good software
+engineering principles are described in chapters “Principles of Rigorous
+Development and of Appraisal of ML and AI Methods and Systems”, “The
+Development Process and Lifecycle of Clinical Grade and Other Safety and
+Performance-Sensitive AI/ML Models” and “Characterizing, Diagnosing and
+Managing the Risk of Error of ML & AI Models in Clinical and
+Organizational Application” (i.e., relevant to method and model
+development, and mitigating the risks associated with clinical ML/AI).
+Although cyberattacks can cause damage and disruption through ML/AI
+models, we note that cybersecurity requires a holistic approach on the
+healthcare institution’s part and the onus of defending a system from
+cyberattacks should not, under typical circumstances, be placed
+exclusively on ML/AI developers.
+
+FDA GMLP 3. Clinical Study Participants and Data Sets Are Representative
+of the Intended Patient Population.
+
+We extensively covered the concept of generalization/validity in the
+chapter on “Data Design” as inferring knowledge from the study sample
+through the available population about the target population.
+
+FDA GMLP 4. Training Data Sets Are Independent of Test Sets.
+
+The model performance estimators (leave out validation,
+cross-validation, bootstrap, external validation) in chapter
+“Evaluation” and the guidelines for avoiding over-fitting, under-fitting
+and model over/under confidence errors in chapter “Overfitting,
+Underfitting and General Model Overconfidence and Under-Performance
+Pitfalls and Best Practices in Machine Learning and AI” follow and
+elaborate on this principle.
+
+FDA GMLP 5. Selected Reference Datasets Are Based Upon Best Available
+Methods.
+
+Accepted, best available methods for developing a reference dataset
+(that is, a reference standard) ensure that clinically relevant and well
+characterized data are collected and the limitations of the reference
+are understood. If available, accepted reference datasets in model
+development and testing that promote and demonstrate model robustness
+and generalizability across the intended patient population are used.
+Chapters “Principles of Rigorous Development and of Appraisal of ML and
+AI Methods and Systems”, “The Development Process and Lifecycle of
+Clinical Grade and Other Safety and Performance-Sensitive AI/ML Models”,
+and especially “Data Design” address the issue of proper data for
+development and validation.
+
+FDA GMLP 6. Model Design Is Tailored to the Available Data and Reflects
+the Intended Use of the Device.
+
+Selecting the best modeling algorithms for the task and data is a
+fundamental tenet of this book. In earlier chapters, we drew attention
+to the perils of ignoring the vast selection of existing methods in
+favor of some particularly popular methods. Chapters “Foundations and
+Properties of AI/ML Systems”, “An Appraisal and Operating
+Characteristics of Major ML Methods Applicable in Healthcare & Health
+Science”, “Foundations of Causal ML” explained the characteristics of
+commonly used and state-of-the-art methods so that they can best be
+matched to the clinical problem at hand. Chapter “The Development
+Process and Lifecycle of Clinical Grade and Other Safety and
+Performance-Sensitive AI/ML Models” discusses the importance of deeply
+understanding and formally describing the clinical problem to be solved,
+as well as the capabilities of available algorithms, so that models can
+be developed that serve the intended use. Chapter “Data Design”
+describes how the training data can be designed and sampled so that it
+supports these needs. Finally, chapters “Evaluation”, “Overfitting,
+Underfitting and General Model Overconfidence and Under-Performance
+Pitfalls and Best Practices in Machine Learning and AI” provide detailed
+guidance on how the model can be evaluated both in terms of performance,
+risk and other factors related to the intended use.
+
+FDA GMLP 7. Focus Is Placed on the Performance of the Human-AI Team.
+
+“Where the model has a ‘human in the loop,’ human factors considerations
+and the human interpretability of the model outputs are addressed with
+emphasis on the performance of the Human-AI team, rather than just the
+performance of the model in isolation.” Chapter “Foundations and
+Properties of AI/ML Systems” places semantic clarity and model
+interpretability/explainability as a major desired property. Chapters
+“Foundations and Properties of AI/ML Systems”, “An Appraisal and
+Operating Characteristics of Major ML Methods Applicable in Healthcare &
+Health Science”, “Foundations of Causal ML” discuss interpretability of
+many AI/ML models and algorithms. Chapters “Principles of Rigorous
+Development and of Appraisal of ML and AI Methods and Systems”, “The
+Development Process and Lifecycle of Clinical Grade and Other Safety and
+Performance-Sensitive AI/ML Models” and “Characterizing, Diagnosing and
+Managing the Risk of Error of ML & AI Models in Clinical and
+Organizational Application” discuss the role of explainable AI and
+interpretable ML methods. Finally, chapter “From ‘Human versus Machine’
+to ‘Human with Machine’” describes human cognitive biases as they
+related to decision making and computer interaction, and discusses ways
+to effectively combine the strengths of human and computer decisions
+while minimizing their weaknesses.
+
+FDA GMLP 8. Testing Demonstrates Device Performance during Clinically
+Relevant Conditions.
+
+“Statistically sound test plans are developed and executed to generate
+clinically relevant device performance information independently of the
+training data set. Considerations include the intended patient
+population, important subgroups, clinical environment and use by the
+Human-AI team, measurement inputs, and potential confounding factors.”
+
+This principle is addressed in the evaluation methods, and error
+management material in chapters “Evaluation”, “Overfitting, Underfitting
+and General Model Overconfidence and Under-Performance Pitfalls and Best
+Practices in Machine Learning and AI” and “Characterizing, Diagnosing
+and Managing the Risk of Error of ML & AI Models in Clinical and
+Organizational Application”.
+
+FDA GMLP 9. Users Are Provided Clear, Essential Information.
+
+FDA Principle 9 is that “users are provided ready access to clear,
+contextually relevant information that is appropriate for the intended
+audience (such as health care providers or patients) including: the
+product’s intended use and indications for use, performance of the model
+for appropriate subgroups, characteristics of the data used to train and
+test the model, acceptable inputs, known limitations, user interface
+interpretation, and clinical workflow integration of the model. Users
+are also made aware of device modifications and updates from real-world
+performance monitoring, the basis for decision-making when available,
+and a means to communicate product concerns to the developer.”
+
+Chapter “Reporting Standards, Certification/Accreditation, and
+Reproducibility” describes the latest minimal information reporting
+standards for health AI/ML and related models, critically reviews gaps,
+and proposes that additional information across the range of best
+practices in the book is included in such reporting.
+
+FDA GMLP 10. Deployed Models Are Monitored for Performance and
+Re-training Risks are Managed.
+
+Specifically that: “deployed models have the capability to be monitored
+in “real world” use with a focus on maintained or improved safety and
+performance. Additionally, when models are periodically or continually
+trained after deployment, there are appropriate controls in place to
+manage risks of overfitting, unintended bias, or degradation of the
+model (for example, input data drift) that may impact the safety and
+performance of the model as it is used by the Human-AI team.” Monitoring
+the real-world performance of models, re-training them, and the known
+risks of continuous model training are discussed in chapter
+“Characterizing, Diagnosing and Managing the Risk of Error of ML & AI
+Models in Clinical and Organizational Application”.
+
+Additional Regulatory Frameworks and Initiatives of Relevance
+
+Recently, governments in the United States, European Union, and other
+countries have sought to create policy and legal frameworks governing
+the deployment and the use of AI/ML models and systems. The goal of
+these regulatory frameworks is to expand the digital economy while
+providing safety, quality, and ethical use standards for software that
+is employed for all high-risk purposes, including clinical decision
+support and other purposed affecting health [10, 11].
+
+The AI Act is a landmark EU legislation to regulate Artificial
+Intelligence based on its capacity to harm people [12]. Among other
+provisions, it enforces an obligation for each EU country (or groups of
+countries) to set up at least one regulatory sandbox, a controlled
+environment, where AI technology could be tested safely. One of the ways
+for an AI to fall into the high-risk category is if it is used in one of
+the sectors listed under AIA Annex III, such as health, and would “pose
+a risk of harm to the health, safety or fundamental rights of natural
+persons in a way that produces legal effects concerning them or has an
+equivalently significant effect”.
+
+The final definition of AI in the AIA will have immense consequences as
+to which systems are regulated and which can bypass regulation [13].
+
+Moreover under the EU’s draft AI Act, open source developers would have
+to adhere to guidelines for risk management, data governance, technical
+documentation and transparency, as well as standards of accuracy and
+cybersecurity (reinforcing the commentary in the present volume related
+to the risks associated with open source code) [14].
+
+The US National Institute of Standards and Technology (NIST) following a
+direction from the US Congress, issued recently [15, 16], the Artificial
+Intelligence Risk Management Framework(AI RMF 1.0), a guidance document
+for voluntary use by organizations designing, developing, deploying or
+using AI systems to help manage the many risks of AI technologies.
+
+NIST points out that this is a “voluntary framework aiming to help
+develop and deploy AI technologies in ways that enable the United
+States, other nations and organizations to enhance AI trustworthiness
+while managing risks”. Also that “AI systems are ‘socio-technical’ in
+nature, meaning they are influenced by societal dynamics and human
+behavior. AI risks can emerge from the complex interplay of these
+technical and societal factors, affecting people’s lives in situations
+ranging from their experiences with online chatbots to the results of
+job and loan applications.”
+
+The AI RMF is divided into two parts. The first part discusses how
+organizations can frame the risks related to AI and outlines the
+characteristics of trustworthy AI systems. The second part, the core of
+the framework, describes four specific functions—govern, map, measure,
+and manage—to help organizations address the risks of AI systems in
+practice. These functions can be applied in context-specific use cases
+and at any stages of the AI life cycle.
+
+In addition, NIST plans to launch a Trustworthy and Responsible AI
+Resource Center to help organizations put the AI RMF 1.0 into practice.
+
+In general, the landscape of AI/ML policy and law, both broadly and in
+health sciences and healthcare, is fluid, rapidly evolving and
+organizations should closely monitor relevant developments and develop
+compliance readiness for adhering to laws and regulations, and for
+aligning with voluntary frameworks promoting safe and accountable AI/ML.
+
+Concepts of Ethical and Social Implications of Health AI/ML
+
+We open this section with the observation that traditional Ethical,
+Legal and Social Implications (ELSI) concerns, related to advanced Big
+Data technologies, emphasized the risks associated with the use of data
+for secondary research outside the scope of informed consent. Data
+privacy risks in particular (e.g. because of unauthorized uses, or data
+breaches [17]) describe an out-of-consent scope set of problems where
+potential harm to patients is often hard to quantify or predict and may
+even be unknowable in some cases.
+
+As AI/ML is becoming more poised to affect human patients’ well-being, a
+new set of ELSI challenges has emerged related to the performance,
+efficiency, risk, interpretability, governance, and acceptance of this
+technology. Models may under-perform or have high margins of error, or
+preferentially benefit or harm a group of individuals, or create a set
+of risks that may exist within the scope of consent and intended use. As
+we will see in this section, some of these newer risks are, at least in
+principle, directly measurable and addressable. Significant challenges
+exist, however, in formulating the goals of ethical AI/ML as it relates
+to problems of bias and equity, and in operationalizing it.
+
+Overall the emerging field of ethical health AI/ML represents a fruitful
+ground of scientific collaboration between ethicists, policy scholars,
+patient/group advocates, and biomedical data scientists, where best
+practices can eliminate ethical and social risks in systematic,
+measurable and controllable ways.
+
+Important Definitions & Concepts Related to Ethical Social Justice Implications of Health AI/ML
+
+Definition: Minority health (MH) “refers to the distinctive health
+characteristics and attributes of racial and/or ethnic minority groups,
+as defined by the U.S. Management and Budget Office (OMB), that can be
+socially disadvantaged due in part to being subject to potential
+discriminatory acts” [18, 19]
+
+Definition: Minority Health Populations. NIH uses the racial and ethnic
+group classifications determined by the OMB. Currently the minority
+racial and ethnic groups are American Indian or Alaska Native, Asian,
+Black or African American, and Native Hawaiian or other Pacific
+Islander. The ethnicity used is Latino or Hispanic. Although these five
+categories are minimally required, the mixed or multiple race category
+should be considered in analyses and reporting, when available.
+Self-identification is the preferred means of obtaining race and ethnic
+identity [18, 19].
+
+Definition. Health equity means social justice in health (i.e., no one
+is denied the possibility to be healthy for belonging to a group that
+has historically been economically/socially disadvantaged) [20].
+Margaret Whitehead defined health inequalities as health differences
+that are avoidable, unnecessary, and unjust [21, 22].
+
+Definition. Health Disparity. A health disparity (HD) is a health
+difference that adversely affects disadvantaged populations, based on
+one or more of the following health outcomes:
+
+- Higher incidence and/or prevalence and earlier onset of disease.
+
+- Higher prevalence of risk factors, unhealthy behaviors, or clinical
+  measures in the causal pathway of a disease outcome.
+
+- Higher rates of condition-specific symptoms, reduced global daily
+  functioning, or self-reported health-related quality of life using
+  standardized measures.
+
+- Premature and/or excessive mortality from diseases where population
+  rates differ.
+
+- Greater global burden of disease using a standardized metric [18, 19].
+
+Health disparities are the metric we use to measure progress toward
+achieving health equity. A reduction in health disparities (in absolute
+and relative terms) is evidence that we are moving toward greater health
+equity. Moving toward greater equity is achieved by selectively
+improving the health of those who are economically/socially
+disadvantaged, not by a worsening the health of those in advantaged
+groups [20, 21].
+
+Definition. Populations with Health Disparities. For NIH, populations
+that experience health disparities include:
+
+- Racial and ethnic minority groups.
+
+- People with lower socioeconomic status (SES).
+
+- Underserved rural communities.
+
+- Sexual and gender minority (SGM) groups.
+
+Definition. Health Determinants. Factors that impact an individual’s
+health and the risk of experiencing health disparities. Each of these
+health determinants plays an important role in health disparities and
+interacts in complex ways to impact an individual’s health. Health
+Determinants capture areas that go beyond the social determinants and
+include factors, such as individual behaviors, lifestyles, and social
+responses to stress; biological processes, genetics, and epigenetics;
+the physical environment; the sociocultural environment; social
+determinants; and clinical events and interactions with the health care
+and other systems [18, 19].
+
+General Studies on ELSI for Health AI/ML
+
+The ELSI literature on health AI is nascent but growing rapidly. Among
+other efforts, various factors have been studied and used in order to
+establish parameters for the ethical use of health AI/ML. We will
+highlight here a few studies as being indicative of this emerging
+scholarship.
+
+Cartolovni et al. [23] conducted a scoping review that included 94 AI
+ELSI related publications. They identified four “main clusters of
+impact”: AI algorithms, physicians, patients, and healthcare in general.
+The most prevalent issues were found to be patient safety, algorithmic
+transparency, lack of proper regulation, liability & accountability,
+impact on patient-physician relationship, and governance of AI empowered
+healthcare.
+
+Guan et al. [24] identified ethical risk factors of AI decision making
+from the perspective of qualitative research, constructed a risk-factor
+model of AI decision making ethical risks using rooting theory, and
+explored risk management strategies. They point to technological
+uncertainty, incomplete data, and management errors as the main sources
+of ethical risks in AI decision making and find that the intervention of
+risk governance elements can effectively block the social risks. Guan,
+in a different study, [25] highlighted the importance of the roles of
+governments in ethical auditing and the responsibilities of stakeholders
+in an ethical governance system of health AI.
+
+Price et al. [26] focused on privacy in the context of Big Data related
+medical innovation. They discuss how to define health privacy; the
+importance of equity, consent, and patient governance in data
+collection; discrimination in data uses; and how to handle data
+breaches.
+
+Martinez-Martin et al. [27] investigates the ethical aspects of ambient
+intelligence, a fast growing area of AI involving the use of contactless
+sensors and contact-based wearable devices embedded in health-care (or
+home) settings to collect data (e.g., images of physical spaces, audio
+data, or body temperature). These sensors and devices are coupled with
+machine learning algorithms to efficiently and effectively interpret
+these data. These researchers point to ethical challenges around
+privacy, data management, bias, fairness, and informed consent as
+prerequisites for acceptance of the field and success of its goals.
+
+In another study Martinez-Martin et al. [28] examine the ethical
+challenges presented by direct-to-consumer (DTC) digital psychotherapy
+services that do not involve oversight by a professional mental health
+provider. They found that there is inadequate regulation in this area
+that exacerbates concerns over safety, privacy, accountability, and
+other ethical obligations to protect an individual in therapy. The types
+of DTC services that present ethical challenges include apps that use a
+digital platform to connect users to minimally trained nonprofessional
+counselors, as well as services that provide counseling steered by
+artificial intelligence and conversational agents.
+
+Parviainen et al. [29] address the timely issues surrounding the
+health-related use of chatbots. Such technology is not sufficiently
+mature to be able to replace the judgements of health professionals. The
+COVID-19 pandemic, however, has significantly increased the utilization
+of health-oriented chatbots, for instance, as a conversational interface
+to answer questions, recommend care options, check symptoms, and
+complete tasks such as booking appointments.
+
+They suggest the need for new approaches in professional ethics as the
+large-scale deployment of artificial intelligence may revolutionize
+professional decision-making and client-expert interaction in healthcare
+organizations.
+
+Racial Bias and AI/ML
+
+In a case that attracted national attention (see also chapter “Lessons
+Learned from Historical Failures, Limitations and Successes of AI/ML In
+Healthcare and the Health Sciences. Enduring Problems, and the Role of
+Best Practices” as a case study of AI/ML failures) a model was used to
+decide which patients have high severity of illness so that more
+resources would be allocated to their treatment. The underlying
+operating principle of allocating more resources to more seriously ill
+patients and less resources to patients with non-serious disease is
+generally sound. Unfortunately, the developers of the model decided to
+use health expenditures (“cost”) as a proxy for the severity. Because
+expenditures/cost are driven not only by severity (through intensity of
+treatment) but also by access to healthcare, which itself is driven by
+racial disparities in health, using cost as a proxy for severity led to
+prioritizing less seriously ill patients of one racial group with better
+access to care over another racial group with less access to care. The
+analysis of [30] demonstrates the importance of not carelessly
+substituting important variables with correlates, because this can lead
+to systematic harm to populations of a particular race (or other
+characteristic that should not be linked to the quality of care
+received).
+
+In a study aiming at revealing racial biases [31] the investigators
+examined whether a ML model’s decisions were sensitive to the inclusion
+of race as a predictive variable and found no biases in the examined
+model. Without challenging the results of [31] (which would require
+re-analysis of the data), we take the opportunity to point out a general
+pitfall: the strategy employed for racial bias detection is fraught with
+pitfalls and is not recommended for broad use. This is because of at
+least three reasons:
+
+Pitfall 16.2
+
+Using race variable’s effect on model decision as a flawed criterion for
+detecting racial bias:
+
+1.  1.
+
+    Race may have no effect in a model because other variables have the
+    same information content as race. In other words, this bias
+    detection strategy can systematically generate false negatives in
+    certain distributions.
+
+     
+
+2.  2.
+
+    Race may be a justifiable predictor variable if biological reasons
+    (or, more broadly, well-justified standard of care) suggest its
+    appropriateness. For example, if members of a racial group carry a
+    genetic mutation that increases risk for a disease, then a
+    diagnostic or risk model for that disease should use race (in the
+    absence of genotyping information) without this being a negative
+    bias. In other words this bias detection strategy can also generate
+    systematic false positives.
+
+     
+
+3.  3.
+
+    The Berkson bias (see chapter “Data Design”) can induce spurious
+    correlations if in the hospital (or other selected) populations,
+    race correlates with diagnosis, treatment, and/or other decisions
+    that influence outcomes. In such cases, diagnosis, treatment, etc.
+    models may benefit (improve in accuracy) from the inclusion of race,
+    but this is a reflection of selection bias of the hospitalized
+    population, rather than racial bias. This is another systematic
+    false positive scenario for the race variable inclusion-exclusion
+    strategy.
+
+     
+
+It is useful to illustrate the importance of incorporating race in AI/ML
+models with the following example in Fig. 1. As demonstrated by this
+example, it is generally a good idea to incorporate race (or other
+group) variables in the models and optimize decisions for each group
+separately.
+
+[]
+
+3 graphs with a positively correlating line. Left. Mixture of groups 1
+and 2. All blue positives above, and red positives and negatives with
+blue negatives on the other. Center and Right. Groups 1 and 2 separately
+have positives and negatives grouped on either side.
+
+Principles of Health Equity and AI/ML
+
+The literature on AI/ML and health equity is growing. The current crop
+of studies is pointing to several important common themes, but, as we
+will see, it is occasionally not precise or technical enough to be
+readily operationalized.
+
+For example, [32] found that various AI/ML reporting standards do not
+mention or do not have provisions for reporting how “fairness” is
+achieved in AI/ML models. These authors also proposed a set of
+recommendations:
+
+- Engage members of the public and, in particular, members of
+  marginalized communities in the process of determining acceptable
+  fairness standards.
+
+- Collect necessary data on vulnerable protected groups in order to
+  perform audits of model function (e.g., on race, gender).
+
+- Analyze and report model performance for different intersectional
+  subpopulations at risk of unfair outcomes.
+
+- Establish target thresholds and maximum disparities for model function
+  between groups.
+
+- Be transparent regarding the specific definitions of fairness that are
+  used in the evaluation of a machine learning for healthcare (MLHC)
+  model.
+
+- Explicitly evaluate for disparate treatment and disparate impact in
+  MLHC clinical trials.
+
+- Commit to post-market surveillance to assess the ongoing real-world
+  impact of MLHC models.
+
+Chen et al. [33] provide a social-justice based framework and analysis
+of all stages of ML creation and deployment. They make the following
+recommendations:
+
+  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1.   Problems should be tackled by diverse teams and using frameworks that increase the probability that equity will be achieved. Further, historically understudied problems are important targets to practitioners looking to perform high-impact work.
+  2.   Data collection should be framed as an important front-of-mind concern in the ML modeling pipeline, clear disclosures should be made about imbalanced datasets, and researchers should engage with domain experts to ensure that data reflecting the needs of underserved and understudied populations are gathered.
+  3.   Outcome choice should reflect the task at hand and should preferably be unbiased. If the outcome label has ethical bias, the source of inequity should be accounted for in ML model design, leveraging literature that attempts to remove ethical biases during preprocessing, or with use of a reasonable proxy.
+  4.   Reflection on the goals of the model is essential during development and should be articulated in a preanalysis plan. In addition to technical choices like loss function, researchers must interrogate how, and whether, a model should be developed to best answer a research question, as well as what caveats are included.
+  5.   Audits should be designed to identify specific harms and should be paired with methods and procedures. Harms should be examined group by group, rather than at a population level. ML ethical design checklists are one possible tool to systematically enumerate and consider such ethical concerns prior to declaring success in a project.
+  ---- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gianfrancesco et al. [34] identify several potential problems in
+implementing machine learning algorithms in health care systems with a
+strong focus on equity and propose suggested solutions as follows:
+
+- Problem1: Overreliance on Automation
+
+  Solution:
+  - Ensure interdisciplinary approach and continuous human involvement.
+
+  - Conduct follow-up studies to ensure results are meaningful.
+
+- Problem 2: Algorithms Based on Biased Data
+
+  Solution:
+  - Identify the target population and select training and testing sets
+    accordingly.
+
+  - Build and test algorithms in socioeconomically diverse health care
+    systems.
+
+  - Ensure that key variables, such as race/ethnicity, language, and
+    social determinants of health, are being captured and included in
+    algorithms when appropriate.
+
+  - Test algorithms for potential discriminatory behavior throughout
+    data processing.
+
+  - Develop feedback loops to monitor and verify output and validity.
+
+- Problem 3: Non-clinically Meaningful Algorithms
+
+- Solution:
+  - Focus on clinically important improvements in relevant outcomes
+    rather than strict performance metrics.
+
+  - Impose human values in algorithms at the cost of efficiency.
+
+McCradden et al. [35] provide recommendations for ethical approaches to
+issues of bias in health models of machine learning. These authors
+sharply criticize efforts to impose equal outputs of ML models
+(“neutral” models; e.g. [36]) given that underlying medical reasons may
+warrant such differences (see also Pitfall 16.1 (2) above). These
+authors also stress the importance of model transparency, model
+development transparency, good model goals and data design, model
+auditing post-deployment and “engaging diverse knowledge sources”. The
+last recommendation means that “Ethical analysis should consider
+real-world consequences for affected groups, weigh benefits and risks of
+various approaches, and engage stakeholders to come to the most
+supportable conclusion. Therefore, analysis needs to focus on the
+downstream effects on patients rather than adopting the presumption that
+fairness is accomplished solely in the metrics of the system”.
+
+Some Technical Observations on the Importance of Causal Modeling, Equivalence Classes, and System-Level Thinking
+
+Causal modeling for detecting and correcting racial bias. Prosperi et
+al. [37] emphasize the importance of using causal modeling for health
+AI. We will use an example motivated by the general parameters of the
+racial bias case study incident analyzed in [30]. This example
+demonstrates the generally-applicable suitability of causal approaches
+for avoiding and detecting racial bias (also discussed in section
+“General Studies on ELSI for Health AI/ML” and chapter “Lessons Learned
+from Historical Failures, Limitations and Successes of AI/ML In
+Healthcare and the Health Sciences. Enduring Problems, and the Role of
+Best Practices”). Figure 2 shows the scenario where a racial group has
+limited access to healthcare compared to other groups. In that (socially
+unjust) environment, race determines health access. The differential
+access to care, for the same level of illness severity, leads to less
+treatment intensity received than other groups who have better access.
+Treatment intensity determines health expenditures (cost incurred by the
+health care provider). The left side of the graph depicts recent history
+and on the right side, present time where decisions have to be made
+about allocating scarce resources (i.e., the treatment intensity
+variable). Present-time treatment intensity is affected by severity of
+illness and determines health expenditure/cost. Severity of illness and
+treatment intensity determine medical outcomes.
+
+[]
+
+A flow diagram includes race, health access, treatment intensity, health
+expenditure, and illness severity over a historical time period. Present
+time continues with illness severity and includes treatment intensity,
+medical outcomes, and health expenditure.
+
+Figure 3 now switches attention to the same scenario with some variables
+unobserved (as commonly happens in real-life modeling). It also shows
+how a spurious correlation develops between past health expenditure and
+present severity of illness (through past severity of illness).
+
+[]
+
+A flow diagram includes race, health access, treatment intensity, health
+expenditure, illness severity, treatment intensity, medical outcomes,
+and health expenditure. The health expenditure and illness severity of
+historical times, and illness severity of present time are outlined as a
+group.
+
+Finally, Fig. 4 shows how the present day picture (with several
+variables unobserved) looks to the analyst. A striking characteristic of
+the model is that race causally influences treatment intensity. There is
+no medical reason for this to happen, and thus this should alert the
+analyst to investigate why such a racial bias exists in the process that
+generated the data. Moreover, past health expenditure will be flagged by
+latent variable detection algorithms as confounded or possibly
+confounded and is not detected as definitively causal for medical
+outcomes. Using past health expenditures as proxy for the severity of
+illness (which is causal) will therefore not be warranted by the model.
+
+[]
+
+A graph depicting the present time begins with a race that points with
+an exclamation mark to treatment intensity. Race also points to past
+health expenditure, which further points to medical outcomes with a
+question mark. Treatment intensity points to medical outcomes and health
+expenditure.
+
+By comparison, if the same analyst builds a (optimally predicitve and
+compact) predictive model for medical outcomes, such a model would look
+like a function of {Past Health expenditures, and current intensity of
+treatment}. Race would most likely drop out of such a model because it
+is independent of medical outcomes given past expenditures and treatment
+intensity. The model would also tend to predict medical outcomes well.
+The analyst would be blinded by a purely predictive model to the role of
+race and may also be led to falsely believe that such a model can be
+used to guide health resource allocation (treatment intensity) to the
+patient who need it the most and expect that outcomes will improve.
+
+This example is paradigmatic of a general rule useful for applied
+analysis which exploits algorithmic detection of causal paths to reveal
+racial biases and inequitable practices.
+
+Causal-Path-to-Outcomes Principle of Bias Detection: If there are one or
+more causal paths from race or other minority, marginalized or
+underserved population indicator variables to medical decisions that
+affect outcomes and they are not medically justified, this indicates an
+unethical bias that should be addressed (in the modeling, and/or in the
+practice that the model captures).
+
+Ethical implications of equivalence class modeling for racial and other
+bias detection. If a large equivalence class exists for predictively
+optimal models, it is entirely possible for measured factors indicative
+of racial or other bias to escape detection by being replaced in the
+model by information equivalent variables. This can happen maliciously
+or accidentally, if the equivalence class is large and algorithms used
+cannot model the equivalence class but instead choose a random member.
+
+To illustrate, consider a data distribution where race (or any other
+variable indicative of bias) is equivalent with many proxy variables
+with respect to its influence to an important decision or outcome. Then
+it is entirely possible for modelers and auditors to miss that a
+seemingly innocuous feature (or set of features) are information
+equivalent with race or encapsulate its information with respect to the
+outcome.
+
+Pitfall 16.3
+
+Standard statistical practices such as measuring collinearity are not
+sufficient solutions for detecting information equivalence, since
+collinearity measures whether variable set S is highly correlated with
+race (or other bias factor) rather than whether race and S have the same
+information content with respect to sensitive decisions and outcomes.
+
+For more information on equivalence classes refer to chapter “Lessons
+Learned from Historical Failures, Limitations and Successes of AI/ML In
+Healthcare and the Health Sciences. Enduring Problems, and the Role of
+Best Practices” (and for algorithms capable of discovering them in
+chapters “An Appraisal and Operating Characteristics of Major ML Methods
+Applicable in Healthcare & Health Science” and “Principles of Rigorous
+Development and of Appraisal of ML and AI Methods and Systems”).
+
+Ethical implications of system-level thinking when designing AI/ML
+models. Oftentimes, AI/ML models are created within a narrow context and
+without having access to the “big picture” of a health system. For
+example, consider a hypothetical model designed to calculate risk of
+death for patients with acute pneumonia if admitted or not admitted in
+the Pulmonary ICU of a hospital. Assume that the model is highly
+accurate and can identify all patients that will receive significant
+benefit from the ICU and those who will not. Further assume that for the
+target population of this model the expected admissions (if the model’s
+recommendation is followed) will not exceed ICU capacity. Unfortunately,
+the model cannot be deployed on those grounds alone, if we consider that
+other patients’ needs may “compete” for the same pulmonary ICU beds,
+such as patients with acute asthma or other life-threatening pulmonary
+diseases. Assume further that a second model is built to decide who
+should be admitted from this second class of patients and is similarly
+accurate. However, it may well be the case that the combined recommended
+admissions by the two models now exceed the ICU’s capacity. This
+scenario points to an obvious incongruity between the two models. Like
+any scarce resource allocation problem that may affect patient’s
+welfare, this scenario is paradigmatic of serious ethical dilemmas that
+must be managed carefully and responsibly.
+
+In a complex health system much more numerous, complex and subtle such
+interactions may combine and sabotage successful deployment and use of
+the health system’s AI/ML ecosystem.
+
+To use an electrical engineering analogy, the ML models function as
+components of a larger system that presently lacks protections against
+overloading the system. Well-designed electrical devices are engineered
+in such a way that their input and output obeys specifications ensuring
+that a system of interconnected such units will function properly.
+
+What are the protections that can be enforced to make a complex system
+of AI/ML and human processes work harmoniously with one another?
+Technical approaches to solving this problem include:
+
+1.  (a)
+
+    Develop models for locally optimized decisions and then use
+    operations research, multi-objective optimization, and other
+    integrative planning and management optimization frameworks to
+    optimize their combined outputs [38–40]. AI/ML planning and ML
+    systems can also help in optimizing such higher-level systems [41].
+
+     
+
+2.  (b)
+
+    Build in the AI/Ml models, from the ground up, the interactions
+    among the various components of the health system so that the models
+    are aware of, and are designed to satisfy, the higher level
+    “objective functions”.
+
+     
+
+3.  (c)
+
+    Pursue a hybrid approach where some problem solving areas are
+    narrowly addressed and others jointly.
+
+     
+
+In general, the first approach is more modular and scalable, assuming
+that interactions can be managed by the subsequent
+combination/optimization. The second approach can capture important
+decision interactions that may be invisible at a higher level. These
+distinctions are analogous to stacking individual model outputs versus
+building combined models (chapter “An Appraisal and Operating
+Characteristics of Major ML Methods Applicable in Healthcare & Health
+Science”). The third approach is more flexible and should be
+advantageous, if implemented correctly.
+
+Non-technical approaches, include:
+
+1.  (a)
+
+    Appropriate governance and oversight of the AI/ML that has the
+    large-scale view of the role and function of the AI/ML models in a
+    system context.
+
+     
+
+2.  (b)
+
+    Initiating the creation of AI/ML by not only local problems (e.g.,
+    the needs of a small specialty unit), but these same local problems
+    informed by larger perspectives and considerations, as well. Or
+    conversely initiating large-scale goals for the AI/ML that is then
+    addressed in a divide-and-conquer focused-model/system manner.
+
+     
+
+Guidelines for Ethical Health AI/ML (with a Focus on Health Equity)
+
+We will conclude this chapter with recommended guidelines toward the
+overarching goals of using AI to create benefit to individuals and
+populations and not harm. A particular focus here will be on use of
+health AI/ML to reduce disparities and improve health equity.
+
+Within these general directions we differentiate between AI/ML modeling
+that seeks to understand weaknesses and areas of improvement in the
+healthcare system and health science research (i.e., models geared
+toward uncovering and detecting factors compromising health or health
+equity), versus models for optimizing decisions, changing practices,
+individualizing decisions, and influencing policy.
+
+We will call the first type of models Models for Understanding and the
+latter category, Action Models. As the guidelines show, these two models
+require different treatment. We will also interleave rationale for some
+of the recommendations (when such rationale is not obvious from prior
+discussion).
+
+Best Practice 16.3
+
+Health AI/ML should strive to always benefit and never cause harm to any
+individual or group of individuals. Do not design, develop or deploy
+models that make unnecessary and avoidable errors, or are grossly
+inefficient, or harmful in any way to any individual or group of
+individuals.
+
+This book has described, across many chapters, many recommended
+practices toward implementing the above goal. In the remainder we will
+present best practices that support the above goal but specifically
+strengthen it for health equity, fairness and social justice.
+
+Best Practice 16.4
+
+AI should strive to decrease, and ensure that it does not increase
+health disparities. Do not design, develop or deploy models that may
+increase health disparities or systematically benefit or harm specific
+groups over others. Whenever possible seek to design, develop or deploy
+models that increase health equity.
+
+Best Practice 16.5
+
+Importance of an ethical, equity and social justice-sensitive culture of
+health AI/ML.
+
+1.  1.
+
+    Cultivate a culture promoting health equity values and is broadly
+    ethics-sensitive within the data science team.
+
+     
+
+2.  2.
+
+    Ensure proper training in health equity and overall biomedical
+    ethics of all data scientists working on the project.
+
+     
+
+3.  3.
+
+    Participate in organizational efforts to build and sustain an
+    organizational culture promoting strong biomedical ethics values.
+
+     
+
+4.  4.
+
+    Seek advice and active involvement from ethics experts, patients,
+    patient advocates, and community representatives regarding possible
+    harm of the contemplated AI/ML work to individuals, and threats to
+    health equity. Seek to obtain insights, guidance and community
+    support on how the AI/ML work can lead to reduction of disparities.
+
+     
+
+5.  5.
+
+    Hold yourself and others accountable to the above principles and
+    aims.
+
+     
+
+Best Practice 16.6
+
+Data Design must support health equity. Always collect data on health
+determinants especially those intertwined with health disparities and
+use them in modeling along with all other data relevant to the problem
+at hand. Ensure that representation of underserved and minority groups
+is adequate and well-aligned with ethical and health justice principles.
+
+Best Practice 16.7
+
+Model development and evaluation must support health equity.
+
+1.  1.
+
+    Always, during problem formulation, data design, and model
+    development, validation and deployment stages, consider and actively
+    pursue modeling that does not compromise (and ideally benefits)
+    equity.
+
+     
+
+2.  2.
+
+    Analyze the model decisions with respect to health determinant
+    variables. Use interpretable/explainable models, causal modeling,
+    and equivalence class modeling in order to develop a robust
+    understanding of how the model’s output may affect health equity and
+    what related biases the model may exhibit. Fix problems related to
+    bias.
+
+     
+
+3.  3.
+
+    If medical outcomes are not part of the model, and only intermediate
+    proxies are modeled, examine their suitability. Also examine how
+    model decisions affect outcomes post model deployment. Study how
+    health determinants affect outcomes via the model’s function.
+
+     
+
+Best Practice 16.8
+
+Revealing racial bias and discriminatory practices. Use AI/ML to reveal
+harmful biases in health care, and health science practices (in
+aggregate and individually). Use the models to flag such biases and
+suggest ways to remove them. Models that reveal biases in order to
+correct them, by necessity capture the bias variables, their effects and
+interactions. “Sterilizing” these models from the bias they model,
+defeats the purpose of their existence and their value.
+
+The “Causal-Path-to-Outcomes Principle of Bias Detection”. If there are
+one or more causal paths from race or other minority population
+indicator variables, to outcomes and they are not medically justified,
+this indicates an ethical bias that should be addressed (either in the
+modeling, or in the practice that the model captures).
+
+Best Practice 16.9
+
+Equitable access to beneficial AI. Ensure that all who would benefit
+from an AI/ML model have access to it.
+
+Best Practice 16.10
+
+System-level interactions and their ethical implications. AI/ML models,
+when deployed, will not operate in a vacuum. Different models designed
+for different populations when optimized separately for the individual
+populations, may be non-enforceable because they may “hit a wall” of
+limited resources. In such cases, system-level planning, goal-setting,
+and technical solutions must be brought to bear to optimize
+multi-objective functions and systems of local AI/ML respecting ethical
+principles and factors.
+
+Key Concepts Discussed in This Chapter
+
+Clinical Decision Support
+
+ISO 14971 standard for risk management for medical devices
+
+Medical Device
+
+Benefit, Harm, Risk, Risk management
+
+FDA’s Final Guidance for AI-based clinical decision support
+
+Minority health
+
+NIH Minority health populations
+
+Health equity, health inequity, health disparity
+
+Populations with health disparities
+
+Health determinants
+
+Causal-Path-to-Outcomes Principle of bias detection
+
+Pitfalls Discussed in This Chapter
+
+Pitfall 16.1. The ISO 14971 is not a implementation standard. It
+mandates that certain actions to be taken but does not prescribe exactly
+how they will be carried out.
+
+Pitfall 16.2. Using race variable’s effect on model decision as a flawed
+criterion for detecting racial bias:
+
+1.  1.
+
+    Race may have no effect in a model because other variables have the
+    same information content as race. In other words, this bias
+    detection strategy can systematically generate false negatives in
+    certain distributions.
+
+     
+
+2.  2.
+
+    Race may be a justifiable predictor variable if biological reasons
+    (or, more broadly, well-justified standard of care) suggest its
+    appropriateness. For example, if members of a racial group carry a
+    genetic mutation that increases risk for a disease, then a
+    diagnostic or risk model for that disease should use race (in the
+    absence of genotyping information) without this being a negative
+    bias. In other words this bias detection strategy can also generate
+    systematic false positives.
+
+     
+
+3.  3.
+
+    The Berkson bias (see chapter “Data Design”) can induce spurious
+    correlations if in the hospital (or other selected) populations,
+    race correlates with diagnosis, treatment, and/or other decisions
+    that influence outcomes. In such cases, diagnosis, treatment, etc.
+    models may benefit (improve in accuracy) from the inclusion of race,
+    but this is a reflection of selection bias of the hospitalized
+    population, rather than racial bias. This is another systematic
+    false positive scenario for the race variable inclusion-exclusion
+    strategy.
+
+     
+
+Pitfall 16.3. Standard statistical practices such as measuring
+collinearity are not sufficient solutions for detecting information
+equivalence, since collinearity measures whether variable set S is
+highly correlated with race (or other bias factor) rather than whether
+race and S have the same information content with respect to sensitive
+decisions and outcomes.
+
+Best Practices Discussed in This Chapter
+
+Best Practice 16.1. Consider all relevant risks in different phases of
+the life cycle. Risks can change over time, e.g., the probability or
+severity of risk can change due to advancements in treatments or due to
+patient population drift.
+
+Best Practice 16.2. The rationale for the risk management plan is that
+having a plan produced ahead of time makes it less likely that a risk
+management step is overlooked or accidentally skipped.
+
+Best Practice 16.3. Health AI/ML should strive to always benefit and
+never cause harm to any individual or group of individuals. Do not
+design, develop or deploy models that make unnecessary and avoidable
+errors, or are grossly inefficient, or harmful in any way to any
+individual or group of individuals.
+
+Best Practice 16.4 AI should strive to decrease, and ensure that it does
+not increase health disparities. Do not design, develop or deploy models
+that may increase health disparities or systematically benefit or harm
+specific groups over others. Whenever possible seek to design, develop
+or deploy models that increase health equity.
+
+Best Practice 16.5. Importance of an ethical, equity and social
+justice--sensitive culture of health AI/ML.
+
+1.  1.
+
+    Cultivate a culture promoting health equity values and is broadly
+    ethics-sensitive within the data science team.
+
+     
+
+2.  2.
+
+    Ensure proper training in health equity and overall biomedical
+    ethics of all data scientists working on the project.
+
+     
+
+3.  3.
+
+    Participate in organizational efforts to build and sustain an
+    organizational culture promoting strong biomedical ethics values.
+
+     
+
+4.  4.
+
+    Seek advice and active involvement from ethics experts, patients,
+    patient advocates, and community representatives regarding possible
+    harm of the contemplated AI/ML work to individuals, and threats to
+    health equity. Seek to obtain insights, guidance and community
+    support on how the AI/ML work can lead to reduction of disparities.
+
+     
+
+5.  5.
+
+    Hold yourself and others accountable to the above principles and
+    aims.
+
+     
+
+Best Practice 16.6 Data Design must support health equity. Always
+collect data on health determinants especially those intertwined with
+health disparities and use them in modeling along with all other data
+relevant to the problem at hand. Ensure that representation of
+underserved and minority groups is adequate and well-aligned with
+ethical and health justice principles.
+
+Best Practice 16.7 Model development and evaluation must support health
+equity.
+
+1.  1.
+
+    Always, during problem formulation, data design, and model
+    development, validation and deployment stages, consider and actively
+    pursue modeling that does not compromise (and ideally benefits)
+    equity.
+
+     
+
+2.  2.
+
+    Analyze the model decisions with respect to health determinant
+    variables. Use interpretable/explainable models, causal modeling,
+    and equivalence class modeling in order to develop a robust
+    understanding of how the model’s output may affect health equity and
+    what related biases the model may exhibit. Fix problems related to
+    bias.
+
+     
+
+3.  3.
+
+    If medical outcomes are not part of the model, and only intermediate
+    proxies are modeled, examine their suitability. Also examine how
+    model decisions affect outcomes post model deployment. Study how
+    health determinants affect outcomes via the model’s function.
+
+     
+
+Best Practice 16.8. Revealing racial bias and discriminatory practices.
+Use AI/ML to reveal harmful biases in health care, and health science
+practices (in aggregate and individually). Use the models to flag such
+biases and suggest ways to remove them. Models that reveal biases in
+order to correct them, by necessity capture the bias variables, their
+effects and interactions. “Sterilizing” these models from the bias they
+model, defeats the purpose of their existence and their value.
+
+The “Causal-Path-to-Outcomes Principle of Bias Detection”. If there are
+one or more causal paths from race or other minority population
+indicator variables, to outcomes and they are not medically justified,
+this indicates an ethical bias that should be addressed (either in the
+modeling, or in the practice that the model captures).
+
+Best Practice 16.9. Equitable access to beneficial AI. Ensure that all
+who would benefit from an AI/ML model have access to it.
+
+Best Practice 16.10. System-level interactions and their ethical
+implications. AI/ML models, when deployed, will not operate in a vacuum.
+Different models designed for different populations when optimized
+separately for the individual populations, may be non-enforceable
+because they may “hit a wall” of limited resources. In such cases,
+system-level planning, goal-setting, and technical solutions must be
+brought to bear to optimize multi-objective functions and systems of
+local AI/ML respecting ethical principles and factors.
+
+Questions and Discussion Topics in This Chapter
+
+1.  1.
+
+    Explain the relationship between “intended use” and the concepts of
+    target population, accessible population, study sample, inclusion
+    and exclusion criteria from chapter “The Development Process and
+    Lifecycle of Clinical Grade and Other Safety and
+    Performance-Sensitive AI/ML Models”.
+
+     
+
+2.  2.
+
+    What is the difference between risk assessment, risk estimation,
+    risk evaluation, and risk control?
+
+     
+
+3.  3.
+
+    Consider the risk model (from chapter “Data Design in Biomedical
+    AI/ML”) used in diabetic patients that helps assess patients’ risk
+    of major cardiac events. The risk assessed by this model can be used
+    for determining whether the patient should receive more aggressive
+    treatment.
+    1.  (a)
+
+        What are the potential benefits?
+
+         
+
+    2.  (b)
+
+        What are the potential harms?
+
+         
+
+    3.  (c)
+
+        Are the risks of these harms estimable? If so, how would you
+        estimate them?
+
+         
+
+     
+
+4.  4.
+
+    What potential problems can you think of when AI models are used for
+    risk evaluation?
+
+     
+
+5.  5.
+
+    The ISO standard requires “risk evaluation”, which is the step that
+    determines whether a risk is acceptable, but does not provide
+    guidance on how to perform this step. Explain how measures of
+    clinical utility from chapter “Evaluation” relate to “risk
+    evaluation”. Explain how the decision curve (chapter “Evaluation”)
+    can be used for “risk evaluation”.
+
+     
+
+6.  6.
+
+    Risk assessment includes the malfunction of models in its scope.
+    1.  (a)
+
+        Can you think of malfunctions that an AI-based prognostic model
+        could experience?
+
+         
+
+    2.  (b)
+
+        More generally, what kind of malfunctions can AI-based models
+        experience?
+
+         
+
+     
+
+7.  7.
+
+    Describe how you would go about using ML to model a care provider’s
+    decisions in such a way that the model may reveal biased treatment
+    of certain groups of patients. Use ideas from explanation methods
+    described in chapter “The Development Process and Lifecycle of
+    Clinical Grade and Other Safety and Performance-Sensitive AI/ML
+    Models” and the “Causal-Path-to-Outcomes Principle of Bias
+    Detection”. In particular, such a model can be thought as “global
+    surrogate model” for a black box AI (which is the human care
+    provider in this case).
+    1.  (a)
+
+        What kind of data would you need?
+
+         
+
+    2.  (b)
+
+        What would be the technical challenges and pitfalls in creating
+        such a model?
+
+         
+
+    3.  (c)
+
+        What would it mean for such a model to be high fidelity?
+
+         
+
+    4.  (d)
+
+        Assuming that an accurate model is created, how would you put it
+        in practice to alert against biased care provider decisions or
+        actions.
+
+         
+
+    5.  (e)
+
+        How would you use the model to help in the education of the care
+        provider?
+
+         
+
+     
+
+8.  8.
+
+    This is a self-introspective exercise – no need to report to class.
+    What are your personal knowledge, attitudinal, or experiential gaps
+    regarding a better understanding and practice of health equity and
+    other ethical issues that once addressed will make a you a better
+    health care or health sciences professional?
+
+     
+
+9.  9.
+
+    This is a self-reflective exercise – no need to report to class.
+    Going back to prior work of yours, what limitations do you see in
+    light of this chapter in terms of ELSI dimensions? How would you
+    improve past work if you would do it anew today?
+
+     
+
+[Creative Commons]
+
+Open Access This chapter is licensed under the terms of the Creative
+Commons Attribution 4.0 International License
+(http://​creativecommons.​org/​licenses/​by/​4.​0/​), which permits use,
+sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s)
+and the source, provide a link to the Creative Commons license and
+indicate if changes were made.
+
+The images or other third party material in this chapter are included in
+the chapter's Creative Commons license, unless indicated otherwise in a
+credit line to the material. If material is not included in the
+chapter's Creative Commons license and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder.
+
+References
+
+1.  1.
+
+    Osheroff JA, Teich JM, Middleton B, Steen EB, Wright A, Detmer DE. A
+    roadmap for national action on clinical decision support. J Am Med
+    Inform Assoc. 2007;14:141–5.Crossref
+
+2.  2.
+
+    Campbell RJ. The five rights of clinical decision support: CDS tools
+    helpful for meeting meaningful use. J AHIMA. 2013;84:42–7. (web
+    version updated February 2016)
+
+3.  3.
+
+    McCallie D, Mandel J, Shekleton K, Strasberg H, Narus S, Marshall P,
+    DeVault P, Vetter I. Beyond SMART remote decision support with CDS
+    hooks. AMIA annual symposium proceedings 2016; 2016.
+
+4.  4.
+
+    ISO 14971:2019, Medical devices—application of risk management to
+    medical devices. Paragraph 3.10
+
+5.  5.
+
+    FDA. Clinical decision support software guidance for Industry and
+    Food and Drug Administration Staff. In: U.S. Food and Drug
+    Administration; 2022. https://​www.​fda.​gov/​media/​109618/​download.
+    Accessed 12 Dec 2022.
+
+6.  6.
+
+    21st Century Cures Act. H.R. 34, 114th Congress; 2016.
+    https://​www.​gpo.​gov/​fdsys/​pkg/​BILLS-114hr34enr/​pdf/​BILLS-114hr34enr.​pdf.
+    Accessed 12 Dec 2022
+
+7.  7.
+
+    FDA. Clinical decision support software; draft guidance for Industry
+    and Food and Drug Administration Staff; 2019.
+    https://​www.​federalregister.​gov/​documents/​2019/​09/​27/​2019-21000/​clinical-decision-support-software-draft-guidance-for-industry-and-food-and-drug-administration.
+    Accessed 12 Dec 2022.
+
+8.  8.
+
+    FDA. Artificial intelligence and machine learning (AI/ML)-enabled
+    medical devices; 2022.
+    https://​www.​fda.​gov/​medical-devices/​software-medical-device-samd/​artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices.
+    Accessed 12 Dec 2022.
+
+9.  9.
+
+    FDA, Health Canada, UK MHRA. Good machine learning practice for
+    medical device development: guiding principles; 2021.
+    https://​www.​fda.​gov/​medical-devices/​software-medical-device-samd/​good-machine-learning-practice-medical-device-development-guiding-principles
+
+10. 10.
+
+    AI Act: co-rapporteurs seek closing high-risk classification,
+    sandboxes. Euractiv.​com.
+    https://​www.​euractiv.​com/​section/​artificial-intelligence/​news/​ai-act-co-rapporteurs-seek-closing-high-risk-classification-sandboxes/​
+
+11. 11.
+
+    Online collection of all of the official EU AI Act documents.
+    https://​artificialintell​igenceact.​eu/​documents/​
+
+12. 12.
+
+    European Commission: proposal for a regulation laying down
+    harmonised rules on artificial intelligence; 21 April 2021.
+    https://​digital-strategy.​ec.​europa.​eu/​en/​library/​proposal-regulation-laying-down-harmonised-rules-artificial-intelligence
+
+13. 13.
+
+    Bryson JJ. Europe is in danger of using the wrong definition of AI.
+    Wired Magazine; 2022.
+    https://​www.​wired.​com/​story/​artificial-intelligence-regulation-european-union/​
+
+14. 14.
+
+    Engler A. The EU’s attempt to regulate open-source AI is counter
+    productive. Brookings.edu; 2022.
+    https://​www.​brookings.​edu/​blog/​techtank/​2022/​08/​24/​the-eus-attempt-to-regulate-open-source-ai-is-counterproductiv​e/​
+
+15. 15.
+
+    NIST risk management framework aims to improve trustworthiness of
+    artificial intelligence. NIST Januray 26, 2023.
+    https://​www.​nist.​gov/​news-events/​news/​2023/​01/​nist-risk-management-framework-aims-improve-trustworthiness-artificial
+
+16. 16.
+
+    AI Risk Management Framework. NIST.
+    https://​www.​nist.​gov/​itl/​ai-risk-management-framework
+
+17. 17.
+
+    U.S. Department of Health and Human Services Office for Civil
+    Rights. Breach portal.
+    https://​ocrportal.​hhs.​gov/​ocr/​breach/​breach_​report.​jsf
+
+18. 18.
+
+    National Institute on Minority Health and Health Disparities.
+    Minority health and health disparities: definitions and parameters.
+    https://​www.​nimhd.​nih.​gov/​about/​strategic-plan/​nih-strategic-plan-definitions-and-parameters.​html
+
+19. 19.
+
+    Executive Office of the President, U.S. Management and Budget
+    Office. Standards for maintaining, collecting, and presenting
+    federal data on race and ethnicity; 2016.
+    https://​www.​federalregister.​gov/​documents/​2016/​09/​30/​2016-23672/​standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity
+
+20. 20.
+
+    Braveman P. What are health disparities and health equity? We need
+    to be clear. Public Health Reports. 2014;129(1_suppl2):5–8.Crossref
+
+21. 21.
+
+    Whitehead M, Dahlgren G. Concepts and principles for tackling social
+    inequities in health: Levelling up Part 1. World Health
+    Organization: Studies on social and economic determinants of
+    population health, 2, pp. 460–474; 2006.
+
+22. 22.
+
+    Whitehead M. The concepts and principles of equity and health.
+    Health Promotion Int. 1991;6(3):217–28.Crossref
+
+23. 23.
+
+    Čartolovni A, Tomičić A, Mosler EL. Ethical, legal, and social
+    considerations of AI-based medical decision-support tools: a scoping
+    review. Int J Med Inform. 2022;161:104738.Crossref
+
+24. 24.
+
+    Guan H, Dong L, Zhao A. Ethical risk factors and mechanisms in
+    artificial intelligence decision making. Behav Sci.
+    2022;12(9):343.Crossref
+
+25. 25.
+
+    Guan J. Artificial intelligence in healthcare and medicine:
+    promises, ethical challenges and governance. Chin Med Sci J.
+    2019;34(2):76–83.
+
+26. 26.
+
+    Price WN, Cohen IG. Privacy in the age of medical big data. Nat Med.
+    2019;25(1):37–43.Crossref
+
+27. 27.
+
+    Martinez-Martin N, Luo Z, Kaushal A, Adeli E, Haque A, Kelly SS,
+    Wieten S, Cho MK, Magnus D, Fei-Fei L, Schulman K. Ethical issues in
+    using ambient intelligence in health-care settings. Lancet Digital
+    Health. 2021;3(2):e115–23.Crossref
+
+28. 28.
+
+    Martinez-Martin N, Kreitmair K. Ethical issues for
+    direct-to-consumer digital psychotherapy apps: addressing
+    accountability, data protection, and consent. JMIR Mental Health.
+    2018;5(2):e9423.Crossref
+
+29. 29.
+
+    Parviainen J, Rantala J. Chatbot breakthrough in the 2020s? An
+    ethical reflection on the trend of automated consultations in health
+    care. Med Health Care Philos. 2022;25(1):61–71.Crossref
+
+30. 30.
+
+    Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial
+    bias in an algorithm used to manage the health of populations.
+    Science. 2019;366(6464):447–53.Crossref
+
+31. 31.
+
+    Kostick-Quenet KM, Cohen IG, Gerke S, Lo B, Antaki J, Movahedi F,
+    Njah H, Schoen L, Estep JE, Blumenthal-Barby JS. Mitigating racial
+    bias in machine learning. J Law Med Ethics.
+    2022;50(1):92–100.Crossref
+
+32. 32.
+
+    Gichoya JW, McCoy LG, Celi LA, Ghassemi M. Equity in essence: a call
+    for operationalising fairness in machine learning for healthcare.
+    BMJ Health Care Inform. 2021;28(1)
+
+33. 33.
+
+    Chen IY, Pierson E, Rose S, Joshi S, Ferryman K, Ghassemi M. Ethical
+    machine learning in healthcare. Annu Rev Biomed Data Sci.
+    2021;4:123–44.Crossref
+
+34. 34.
+
+    Gianfrancesco MA, Tamang S, Yazdany J, Schmajuk G. Potential biases
+    in machine learning algorithms using electronic health record data.
+    JAMA Intern Med. 2018;178(11):1544–7.Crossref
+
+35. 35.
+
+    McCradden MD, Joshi S, Mazwi M, Anderson JA. Ethical limitations of
+    algorithmic fairness solutions in health care machine learning.
+    Lancet Digital Health. 2020;2(5):e221–3.Crossref
+
+36. 36.
+
+    Fletcher RR, Nakeshimana A, Olubeko O. Addressing fairness, bias,
+    and appropriate use of artificial intelligence and machine learning
+    in global health. Front Artif Intellig. 2021;3:561802.Crossref
+
+37. 37.
+
+    Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, He X, Rich S, Wang
+    M, Buchan IE, Bian J. Causal inference and counterfactual prediction
+    in machine learning for actionable healthcare. Nat Mach Intellig.
+    2020;2(7):369–75.Crossref
+
+38. 38.
+
+    Winston WL. Operations research: applications and algorithms.
+    Cengage Learning; 2022.
+
+39. 39.
+
+    Rais A, Viana A. Operations research in healthcare: a survey. Int
+    Trans Operat Res. 2011;18(1):1–31.Crossref
+
+40. 40.
+
+    Marler RT, Arora JS. Survey of multi-objective optimization methods
+    for engineering. Struct Multidiscip Optimiz. 2004;26:369–95.Crossref
+
+41. 41.
+
+    Pianykh OS, Guitron S, Parke D, Zhang C, Pandharipande P, Brink J,
+    Rosenthal D. Improving healthcare operations management with machine
+    learning. Nat Mach Intellig. 2020;2(5):266–73.Crossref
+
+© The Author(s) 2024
+
+G. J. Simon, C. Aliferis (eds.)Artificial Intelligence and Machine
+Learning in Health Care and Medical SciencesHealth
+Informaticshttps://doi.org/10.1007/978-3-031-39355-6_17
+
+

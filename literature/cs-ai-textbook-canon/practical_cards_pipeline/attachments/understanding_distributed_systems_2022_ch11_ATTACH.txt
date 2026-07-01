@@ -1,0 +1,740 @@
+understanding_distributed_systems_2022_ch11_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 11
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch11_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch11_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 11
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch11_ingest.md |
+| text_lines_read | 3238–3811 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 11 |
+| chapter_title | Coordination avoidance |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 11 pursues **coordination avoidance**: replication without **total order broadcast** (equivalent to consensus). Covers **broadcast protocols** (best-effort, reliable/eager, gossip probabilistic, total order), **CRDTs / strong eventual consistency** (semilattice merge, LWW and multi-value registers), **Dynamo-style quorum stores** (N/W/R, read-repair, Merkle-tree gossip anti-entropy), **CALM theorem** (monotonic programs ⇒ coordination-free consistent implementation; consistency of program output not linearizability), and **causal consistency** (weaker than strong, stronger than eventual; **COPS** causal+ with LWW registers and dependency dictionaries). Practical knob: Cosmos DB consistency levels. Closes Part II consistency foundations before Ch.12 transactions.
+
+---
+
+## Key findings
+
+1. **SMR reframed** (lines 3242–3257): Needs fault-tolerant **total order broadcast** + deterministic update function. Total order ⇒ consensus bottleneck + unavailable under partition (CAP).
+
+2. **Broadcast protocols** (§11.1, lines 3277–3345): Unicast TCP → multicast built on point-to-point. **Best-effort:** deliver if sender doesn't crash (Figure 11.1)—sender crash mid-send loses recipients. **Reliable:** eventual delivery to all non-faulty even if sender crashes; **eager** retransmit on first delivery (N² messages, Figure 11.2). **Gossip:** retransmit to random subset (Figure 11.3)—probabilistic, tunable. Reliable broadcast doesn't order messages; **total order broadcast** adds same order everywhere—requires consensus.
+
+3. **CRDTs / strong eventual consistency** (§11.2, lines 3349–3513): Skip total order; any replica accepts writes; temporary divergence OK if **eventual delivery** + **convergence**. **Strong eventual consistency** adds **strong convergence** (same updates ⇒ same state immediately after apply). Requires **semilattice** states + **merge** = least upper bound (idempotent, commutative, associative)—**CRDTs**. Integer max-merge example. Reliable broadcast optional; **anti-entropy** periodic merge suffices. **LWW register:** Lamport timestamp + replica ID; merge max timestamp (Figure 11.5)—concurrent writes pick latest time (may be wrong semantically). **Multi-value register:** vector clock tags; merge = union of concurrent values returned to app (Figures 11.6). CRDTs compose (dict of registers → Dynamo-style).
+
+4. **Dynamo-style stores** (§11.3, lines 3517–3592): Any replica accepts reads/writes; parallel write to N replicas, wait for **W** acks; read wait for **R** replies, return latest. **W+R>N** ⇒ quorum intersection (Figure 11.7) but not linearizability alone (partial write failure leaves inconsistency—needs atomic transaction Ch.12). W/R usually majority; tunable for read-heavy (small R) vs. consistency (W+R>N). W=R=1 max perf, weak consistency. **Read-repair:** client writes latest to stale replicas on read. **Replica sync:** background Merkle-tree gossip anti-entropy. Model = best-effort broadcast + anti-entropy.
+
+5. **CALM theorem** (§11.4, lines 3595–3652): Program has consistent coordination-free distributed implementation **iff monotonic** (new inputs only refine output). Set union monotonic; variable assignment not. CRDTs monotonic. CALM **consistency** = same program output regardless of order/conflicts—not read/write linearizability ("Building on Quicksand"). LWW/MV make assignment monotonic via logical clocks.
+
+6. **Causal consistency** (§11.5, lines 3655–3788): Eventual insufficient for happened-before ordering (photo upload then gallery reference). **Causal consistency:** agree on causally related order; concurrent ops may disagree. Strongest model still **available under partition** (provably). **COPS causal+:** LWW registers prevent permanent disagreement on concurrent ops. Client tracks **dependency dictionary** (key→version); writes carry dependencies; local replica applies immediately; async broadcast; receiver waits until dependencies committed locally (Figure 11.8). Replica failure OK; risk: commit locally before broadcast → acceptable data loss tradeoff for low-latency geo writes.
+
+7. **Practical summary** (§11.6, lines 3791–3811): Consistency vs. availability/performance tradeoff universal; **Cosmos DB** five consistency levels as example knob.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain why total order broadcast requires consensus.
+2. Contrast best-effort, reliable, gossip, and total-order broadcast.
+3. State CRDT convergence conditions and compare LWW vs. MV registers.
+4. Compute Dynamo quorum intersection and describe read-repair/anti-entropy.
+5. Define CALM monotonicity and its consistency meaning.
+6. Trace COPS dependency tracking for causal+ consistency.
+
+### worked_examples_present
+
+**Y** — Figures 11.1–11.8; integer max CRDT; COPS walkthrough; Cosmos DB reference.
+
+### exercise_hooks
+
+1. Choose W/R/N for read-heavy vs. write-heavy SLA.
+2. Identify monotonic vs. non-monotonic ops in a feature spec.
+3. Design causal dependency dict for two related API writes.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.11 §11.1–11.6 | Read | lines 3238–3811 |
+| Ch.12+ | Deferred | line 3812 onward |
+
+---
+
+## Operator hooks
+
+**Part II consistency capstone** for w2_systems_llm. Direct **DDIA** ch5/9 overlap (replication, CRDTs, Dynamo). Informs NoSQL/Cassandra/Cosmos selection and **AI Engineering** multi-region session stores.
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Dynamo paper, COPS SOSP, CALM arXiv, Microsoft CRDT research video.
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.10 | Strong consistency / CAP |
+| Ch.12 | Atomic transactions for quorum writes |
+| Ch.16 | Partitioning (COPS simplification) |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| Total order broadcast | Reliable + same delivery order everywhere |
+| CRDT | Conflict-free replicated data type |
+| Strong eventual consistency | Eventual delivery + strong convergence |
+| Quorum | W/R replica ack thresholds |
+| CALM | Consistency iff monotonic (coordination-free) |
+| Causal consistency | Preserve happened-before order |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch11_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch11_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 11
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+committed a write to its local state but crashed before forwarding it
+downstream, no harm is done. Since the write didn’t reach the tail,
+the client that issued it hasn’t received an acknowledgment for it
+yet. From the client’s perspective, it’s just a request that timed out
+and needs to be retried. Similarly, no other client will have seen
+the write’s side effects since it never reached the tail.
+
+If the tail fails, the control plane removes it and makes its prede-
+cessor the chain’s new tail. Because all updates that the tail has
+received must necessarily have been received by the predecessor
+as well, everything works as expected.
+
+If an intermediate process X fails, the control plane has to link X’s
+predecessor with X’s successor. This case is a bit trickier to handle
+
+CHAPTER 10. REPLICATION                                              92
+
+
+since X might have applied some updates locally but failed before
+forwarding them to its successor. Therefore, X’s successor needs
+to communicate to the control plane the sequence number of the
+last committed update it has seen, which is then passed to X’s pre-
+decessor to send the missing updates downstream.
+
+Chain replication can tolerate up to N − 1 failures. So, as more
+processes in the chain fail, it can tolerate fewer failures. This is why
+it’s important to replace a failing process with a new one. This can
+be accomplished by making the new process the tail of the chain
+after syncing it with its predecessor.
+
+The beauty of chain replication is that there are only a handful of
+simple failure modes to consider. That’s because for a write to
+commit, it needs to reach the tail, and consequently, it must have
+been processed by every process in the chain. This is very different
+from a quorum-based replication protocol like Raft, where only a
+subset of replicas may have seen a committed write.
+
+Chain replication is simpler to understand and more performant
+than leader-based replication since the leader’s job of serving client
+requests is split among the head and the tail. The head sequences
+writes by updating its local state and forwarding updates to its suc-
+cessor. Reads, however, are served by the tail, and are interleaved
+with updates received from its predecessor. Unlike in Raft, a read
+request from a client can be served immediately from the tail’s lo-
+cal state without contacting the other replicas ﬁrst, which allows
+for higher throughputs and lower response times.
+
+However, there is a price to pay in terms of write latency. Since
+an update needs to go through all the processes in the chain be-
+fore it can be considered committed, a single slow replica can slow
+down all writes. In contrast, in Raft, the leader only has to wait for
+a majority of processes to reply and therefore is more resilient to
+transient degradations. Additionally, if a process isn’t available,
+chain replication can’t commit writes until the control plane de-
+tects the problem and takes the failing process out of the chain. In
+Raft instead, a single process failing doesn’t stop writes from be-
+ing committed since only a quorum of processes is needed to make
+
+CHAPTER 10. REPLICATION                                           93
+
+
+progress.
+
+That said, chain replication allows write requests to be pipelined,
+which can signiﬁcantly improve throughput. Moreover, read
+throughput can be further increased by distributing reads across
+replicas while still guaranteeing linearizability. The idea is for
+replicas to store multiple versions of an object, each including
+a version number and a dirty ﬂag. Replicas mark an update
+as dirty as it propagates from the head to the tail. Once the
+tail receives it, it’s considered committed, and the tail sends an
+acknowledgment back along the chain. When a replica receives
+an acknowledgment, it marks the corresponding version as clean.
+Now, when a replica receives a read request for an object, it will
+immediately serve it if the latest version is clean. If not, it ﬁrst
+contacts the tail to request the latest committed version (see Fig
+10.7).
+
+
+
+
+Figure 10.7: A dirty read can be served by any replica with an ad-
+ditional request to the tail to guarantee strong consistency.
+
+As discussed in chapter 9, a leader introduces a scalability bottle-
+neck. But in chain replication, the data plane (i.e., the part of the
+system that handles individual client requests on the critical path)
+doesn’t need a leader to do its job since it’s not concerned with
+failures — its sole focus is throughput and efﬁciency. On the con-
+trary, the control plane needs a leader to implement state machine
+replication, but that’s required exclusively to handle the occasional
+failure and doesn’t affect client requests on the critical path. An-
+
+CHAPTER 10. REPLICATION                                             94
+
+
+other way to think about this is that chain replication reduces the
+amount of coordination needed for each client request. In turn,
+this increases the data plane’s capacity to handle load. For this
+reason, splitting the data plane from the control plane (i.e., the con-
+ﬁguration management part) is a common pattern in distributed
+systems. We will talk in more detail about this in chapter 22.
+You might be wondering at this point whether it’s possible to repli-
+cate data without needing consensus23 at all to improve perfor-
+mance further. In the next chapter, we will try to do just that.
+
+
+
+
+ 23
+      required for state machine replication
+
+Chapter 11
+
+Coordination avoidance
+
+Another way of looking at state machine replication is as a system
+that requires two main ingredients:
+
+    • a broadcast protocol that guarantees every replica receives the
+      same updates in the same order even in the presence of faults
+      (aka fault-tolerant total order broadcast),
+    • and a deterministic function that handles updates on each
+      replica.
+
+Unsurprisingly, implementing a fault-tolerant total order broad-
+cast protocol is what makes state machine replication hard to solve
+since it requires consensus1 . More importantly, the need for a to-
+tal order creates a scalability bottleneck since updates need to be
+processed sequentially by a single process (e.g., the leader in Raft).
+Also, total order broadcast isn’t available during network parti-
+tions as the CAP theorem applies2 to it as well3 .
+
+In this chapter, we will explore a form of replication that doesn’t
+    1
+      Total order broadcast is equivalent to consensus, see “Unreliable Failure Detec-
+tors for Reliable Distributed Systems,” https://www.cs.utexas.edu/~lorenzo/cor
+si/cs380d/papers/p225-chandra.pdf
+    2
+      “Perspectives on the CAP Theorem,” https://groups.csail.mit.edu/tds/paper
+s/Gilbert/Brewer2.pdf
+    3
+      Consensus is harder to solve than implementing a linearizable read/write reg-
+ister, which is what the CAP theorem uses to deﬁne consistency.
+
+CHAPTER 11. COORDINATION AVOIDANCE                                 96
+
+
+require a total order but still comes with useful guarantees. But
+ﬁrst, we need to talk about broadcast protocols.
+
+
+11.1     Broadcast protocols
+Network communication over wide area networks, like the inter-
+net, only offers point-to-point (unicast) communication protocols,
+like TCP. But to deliver a message to a group of processes, a broad-
+cast protocol is needed (multicast). This means we have to some-
+how build a multicast protocol on top of a unicast one. The chal-
+lenge here is that multicast needs to support multiple senders and
+receivers that can crash at any time.
+
+A broadcast protocol is characterized by the guarantees it provides.
+Best-effort broadcast guarantees that if the sender doesn’t crash, the
+message is delivered to all non-faulty processes in a group. A sim-
+ple way to implement it is to send the message to all processes in
+a group one by one over reliable links (see Fig 11.1). However, if,
+for example, the sender fails mid-way, some processes will never
+receive the message.
+
+
+
+
+                 Figure 11.1: Best-effort broadcast
+
+Unlike best-effort broadcast, reliable broadcast guarantees that the
+message is eventually delivered to all non-faulty processes in the
+group, even if the sender crashes before the message has been fully
+
+CHAPTER 11. COORDINATION AVOIDANCE                                       97
+
+
+delivered. One way to implement reliable broadcast is to have
+each process retransmit the message to the rest of the group the
+ﬁrst time it is delivered (see Fig 11.2). This approach is also known
+as eager reliable broadcast. Although it guarantees that all non-faulty
+processes eventually receive the message, it’s costly as it requires
+sending the message 𝑁 2 times for a group of 𝑁 processes.
+
+
+
+
+                   Figure 11.2: Eager reliable broadcast
+
+The number of messages can be reduced by retransmitting a mes-
+sage only to a random subset of processes (e.g., 2 as in Fig 11.3).
+This implementation is referred to as a gossip broadcast protocol4 as
+it resembles how rumors spread. Because it’s a probabilistic pro-
+tocol, it doesn’t guarantee that a message will be delivered to all
+processes. That said, it’s possible to make that probability negligi-
+ble by tuning the protocol’s parameters. Gossip protocols are par-
+ticularly useful when broadcasting to a large number of processes
+where a deterministic protocol just wouldn’t scale.
+
+Although reliable broadcast protocols guarantee that messages are
+delivered to all non-faulty processes in a group, they don’t make
+any guarantees about their order. For example, two processes
+could receive the same messages but in a different order. Total
+order broadcast is a reliable broadcast abstraction that builds upon
+the guarantees offered by reliable broadcast and additionally
+  4
+      “Gossip protocol,” https://en.wikipedia.org/wiki/Gossip_protocol
+
+CHAPTER 11. COORDINATION AVOIDANCE                               98
+
+
+
+
+                  Figure 11.3: Gossip broadcast
+
+
+ensures that messages are delivered in the same order to all
+processes. As discussed earlier, a fault-tolerant implementation
+requires consensus.
+
+
+
+11.2     Conﬂict-free replicated data types
+Now, here’s an idea: if we were to implement replication with a
+broadcast protocol that doesn’t guarantee total order, we wouldn’t
+need to serialize writes through a single leader, but instead could
+allow any replica to accept writes. But since replicas might receive
+messages in different orders, they will inevitably diverge. So, for
+the replication to be useful, the divergence can only be temporary,
+and replicas eventually have to converge to the same state. This is
+the essence of eventual consistency.
+
+More formally, eventual consistency requires:
+
+   • eventual delivery — the guarantee that every update applied
+     at a replica is eventually applied at all replicas,
+   • and convergence — the guarantee that replicas that have ap-
+     plied the same updates eventually reach the same state.
+
+Using a broadcast protocol that doesn’t deliver messages in the
+same order across all replicas will inevitably lead to divergence
+
+CHAPTER 11. COORDINATION AVOIDANCE                                   99
+
+
+(see Fig 11.4). One way to reconcile conﬂicting writes is to use con-
+sensus to make a decision that all replicas need to agree with.
+
+
+
+
+Figure 11.4: The same object is updated simultaneously by differ-
+ent clients at different replicas, leading to conﬂicts.
+
+
+This solution has better availability and performance than the one
+using total order broadcast, since consensus is only required to rec-
+oncile conﬂicts and can happen off the critical path. But getting the
+reconciliation logic right isn’t trivial. So is there a way for replicas
+to solve conﬂicts without using consensus at all?
+
+Well, if we can deﬁne a deterministic outcome for any potential
+conﬂict (e.g., the write with the greatest timestamp always wins),
+there wouldn’t be any conﬂicts, by design. Therefore consensus
+wouldn’t be needed to reconcile replicas. Such a replication strat-
+egy offers stronger guarantees than plain eventual consistency,
+i.e.:
+
+   • eventual delivery — the same guarantee as in eventual consis-
+     tency,
+   • and strong convergence — the guarantee that replicas that
+     have executed the same updates have the same state (i.e.,
+     every update is immediately persisted).
+
+This variation of eventual consistency is also called strong even-
+
+CHAPTER 11. COORDINATION AVOIDANCE                                          100
+
+
+tual consistency5 . With it, we can build systems that are available,
+(strongly eventual) consistent, and also partition tolerant.
+
+Which conditions are required to guarantee that replicas strongly
+converge? For example, suppose we replicate an object across N
+replicas, where the object is an instance of some data type that sup-
+ports query and update operations (e.g., integer, string, set, etc.).
+
+A client can send an update or query operation to any replica, and:
+
+    • when a replica receives a query, it immediately replies using
+      the local copy of the object;
+    • when a replica receives an update, it ﬁrst applies it to the lo-
+      cal copy of the object and then broadcasts the updated object
+      to all replicas;
+    • and when a replica receives a broadcast message, it merges
+      the object in the message with its own.
+
+It can be shown that each replica will converge to the same state if:
+
+    • the object’s possible states form a semilattice, i.e., a set that
+      contains elements that can be partially ordered;
+    • and the merge operation returns the least upper bound be-
+      tween two objects’ states (and therefore is idempotent, com-
+      mutative, and associative).
+
+A data type that has these properties is also called a convergent
+replicated data type6 , which is part of the family of conﬂict-free repli-
+cated data types (CRDTs). This sounds a lot more complicated than
+it actually is.
+
+For example, suppose we are working with integer objects (which
+can be partially ordered), and the merge operation takes the maxi-
+mum of two objects (least upper bound). It’s easy to see how repli-
+cas converge to the global maximum in this case, even if requests
+are delivered out of order and/or multiple times across replicas.
+   5
+     “Strong Eventual Consistency and Conﬂict-free Replicated Data Types,” https:
+//www.microsoft.com/en-us/research/video/strong-eventual-consistency-and-
+conflict-free-replicated-data-types/
+   6
+     “Conﬂict-free Replicated Data Types,” https://hal.inria.fr/inria-00609399v1
+/document
+
+CHAPTER 11. COORDINATION AVOIDANCE                                                   101
+
+
+Although we have assumed the use of a reliable broadcast protocol
+so far, replicas could even use an unreliable protocol to implement
+broadcast as long as they periodically exchange and merge their
+states to ensure that they eventually converge (aka an anti-entropy
+mechanism, we will see some examples in section 11.3). Of course,
+periodic state exchanges can be expensive if done naively.
+
+There are many data types that are designed to converge when
+replicated, like registers, counters, sets, dictionaries, and graphs.
+For example, a register is a memory cell storing some opaque se-
+quence of bytes that supports an assignment operation to over-
+write its state. To make a register convergent, we need to deﬁne a
+partial order over its values and a merge operation. There are two
+common register implementations that meet these requirements:
+last-writer-wins (LWW) and multi-value (MV).
+
+A last-writer-wins register associates a timestamp with every up-
+date to make updates totally orderable. The timestamp could be
+composed of a Lamport timestamp to preserve the happened-before
+relationship among updates and a replica identiﬁer to ensure there
+are no ties. When a replica receives an update request from a client,
+it generates a new timestamp and updates the register’s state with
+that and the new value; ﬁnally, it broadcasts the state and times-
+tamp to all replicas. When a replica receives a register state from
+a peer, it merges it with its local copy by taking the one with the
+greater timestamp and discarding the other (see Fig 11.5).
+
+The main issue with LWW registers is that conﬂicting updates
+that happen concurrently are handled by taking the one with
+the greater timestamp, which might not always make sense. An
+alternative way of handling conﬂicts is to keep track of all concur-
+rent updates and return them to the client application, which can
+handle conﬂicts however it sees ﬁt. This is the approach taken
+by the multi-value register. To detect concurrent updates, replicas
+tag each update with a vector clock timestamp7 and the merge
+   7
+     In practice, version vectors are used to compare the state of different replicas that
+only keep track of events that change the state of replicas, see “Detection of Mutual
+Inconsistency in Distributed Systems,” https://pages.cs.wisc.edu/~remzi/Class
+es/739/Fall2017/Papers/parker83detection.pdf.
+
+CHAPTER 11. COORDINATION AVOIDANCE                         102
+
+
+
+
+             Figure 11.5: Last-writer wins register
+
+
+
+
+operation returns the union of all concurrent updates (see Fig
+11.6).
+
+
+
+
+               Figure 11.6: Multi-value register
+
+
+
+The beauty of CRDTs is that they compose. So, for example, you
+can build a convergent key-value store by using a dictionary of
+LWW or MV registers. This is the approach followed by Dynamo-
+style data stores.
+
+CHAPTER 11. COORDINATION AVOIDANCE                                      103
+
+
+11.3      Dynamo-style data stores
+Dynamo8 is arguably the best-known design of an eventually
+consistent and highly available key-value store. Many other data
+stores have been inspired by it, like Cassandra9 and Riak KV10 .
+In Dynamo-style data stores, every replica can accept write and
+read requests. When a client wants to write an entry to the data
+store, it sends the request to all N replicas in parallel but waits for
+an acknowledgment from just W replicas (a write quorum). Simi-
+larly, when a client wants to read an entry from the data store, it
+sends the request to all replicas but waits just for R replies (a read
+quorum) and returns the most recent entry to the client. To resolve
+conﬂicts, entries behave like LWW or MV registers depending on
+the implementation ﬂavor.
+When W + R > N, the write quorum and the read quorum must
+intersect with each other, so at least one read will return the lat-
+est version (see Fig 11.7). This doesn’t guarantee linearizability on
+its own, though. For example, if a write succeeds on less than W
+replicas and fails on the others, replicas are left in an inconsistent
+state, and some clients might read the latest version while others
+don’t. To avoid this inconsistency, the writes need to be bundled
+into an atomic transaction. We will talk more about transactions
+in chapter 12.
+Typically W and R are conﬁgured to be majority quorums, i.e., quo-
+rums that contain more than half the number of replicas. That
+said, other combinations are possible, and the data store’s read and
+write throughput depend on how large or small R and W are. For
+example, a read-heavy workload beneﬁts from a smaller R; how-
+ever, this makes writes slower and less available (assuming W +
+R > N). Alternatively, both W and R can be conﬁgured to be very
+small (e.g., W = R = 1) for maximum performance at the expense
+of consistency (W + R < N).
+  8
+     “Dynamo: Amazon’s Highly Available Key-value Store,” https://www.allthi
+ngsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+   9
+     “Cassandra: Open Source NoSQL Database,” https://cassandra.apache.org/
+  10
+     “Riak KV: A distributed NoSQL key-value database,” https://riak.com/pro
+ducts/riak-kv/
+
+CHAPTER 11. COORDINATION AVOIDANCE                                104
+
+
+
+
+        Figure 11.7: Intersecting write and read quorums
+
+
+One problem with this approach is that a write request sent to
+a replica might never make it to the destination. In this case,
+the replica won’t converge, no matter how long it waits. To
+ensure that replicas converge, two anti-entropy mechanisms are
+used: read-repair and replica synchronization. So another way to
+think about quorum replication is as a best-effort broadcast com-
+bined with anti-entropy mechanisms to ensure that all changes
+propagate to all replicas.
+
+Read repair is a mechanism that clients implement to help bring
+replicas back in sync whenever they perform a read. As mentioned
+earlier, when a client executes a read, it waits for R replies. Now,
+suppose some of these replies contain older entries. In that case,
+the client can issue a write request with the latest entry to the out-
+
+CHAPTER 11. COORDINATION AVOIDANCE                                     105
+
+
+of-sync replicas. Although this approach works well for frequently
+read entries, it’s not enough to guarantee that all replicas will even-
+tually converge.
+
+Replica synchronization is a continuous background mechanism
+that runs on every replica and periodically communicates with
+others to identify and repair inconsistencies. For example, sup-
+pose replica X ﬁnds out that it has an older version of key K than
+replica Y. In that case, it will retrieve the latest version of K from
+Y. To detect inconsistencies and minimize the amount of data
+exchanged, replicas can exchange Merkle tree hashes11 with a
+gossip protocol.
+
+
+11.4      The CALM theorem
+At this point, you might be wondering how you can tell whether
+an application requires coordination, such as consensus, and when
+it doesn’t. The CALM theorem12 states that a program has a con-
+sistent, coordination-free distributed implementation if and only
+if it is monotonic.
+
+Intuitively, a program is monotonic if new inputs further reﬁne
+the output and can’t take back any prior output. A program that
+computes the union of a set is a good example of that — once an
+element (input) is added to the set (output), it can’t be removed.
+Similarly, it can be shown that CRDTs are monotonic.
+
+In contrast, in a non-monotonic program, a new input can
+retract a prior output. For example, variable assignment is a
+non-monotonic operation since it overwrites the variable’s prior
+value.
+
+A monotonic program can be consistent, available, and partition
+tolerant all at once. However, consistency in CALM doesn’t refer
+to linearizability, the C in CAP. Linearizability is narrowly focused
+on the consistency of reads and writes. Instead, CALM focuses on
+  11
+   “Merkle tree,” https://en.wikipedia.org/wiki/Merkle_tree
+  12
+   “Keeping CALM: When Distributed Consistency is Easy,” https://arxiv.org/
+pdf/1901.01930.pdf
+
+CHAPTER 11. COORDINATION AVOIDANCE                                          106
+
+
+the consistency of the program’s output13 . In CALM, a consistent
+program is one that produces the same output no matter in which
+order the inputs are processed and despite any conﬂicts; it doesn’t
+say anything about the consistency of reads and writes.
+For example, say you want to implement a counter. If all you have
+at your disposal are write and read operations, then the order of
+the operations matters:
+write(1), write(2), write(3) => 3
+
+but:
+write(3), write(1), write(2) => 2
+
+In contrast, if the program has an abstraction for counters that sup-
+ports an increment operation, you can reorder the operations any
+way you like without affecting the result:
+increment(1), increment(1), increment(1) => 3
+
+In other words, consistency based on reads and writes can limit
+the solution space14 , since it’s possible to build systems that are
+consistent at the application level, but not in terms of reads and
+writes at the storage level.
+CALM also identiﬁes programs that can’t be consistent because
+they are not monotonic. For example, a vanilla register/variable
+assignment operation is not monotonic as it invalidates whatever
+value was stored there before. But, by combining the assignment
+operation with a logical clock, it’s possible to build a monotonic
+implementation, as we saw earlier when discussing LWW and MV
+registers.
+
+
+11.5      Causal consistency
+So we understand now how eventual consistency can be used to
+implement monotonic applications that are consistent, available,
+  13
+     Consistency can have different meanings depending on the context; make sure
+you know precisely what it refers to when you encounter it.
+  14
+     “Building on Quicksand,” https://dsf.berkeley.edu/cs286/papers/quicksan
+d-cidr2009.pdf
+
+CHAPTER 11. COORDINATION AVOIDANCE                                          107
+
+
+and partition-tolerant. Unfortunately, there are many applications
+for which its guarantees are not sufﬁcient. For example, even-
+tual consistency doesn’t guarantee that an operation that happened-
+before another is observed in the correct order by replicas. Suppose
+you upload a picture to a social network and then add it to a gallery.
+With eventual consistency, the gallery may reference the image be-
+fore it becomes available, causing a missing image placeholder to
+appear in its stead.
+
+One of the main beneﬁts of strong consistency is that it preserves
+the happened-before order among operations, which guarantees that
+the cause happens before the effect. So, in the previous example,
+the reference to the newly added picture in the gallery is guaran-
+teed to become visible only after the picture becomes available.
+
+Surprisingly, to preserve the happened-before order (causal order)
+among operations, we don’t need to reach for strong consistency,
+since we can use a weaker consistency model called causal consis-
+tency15 . This model is weaker than strong consistency but stronger
+than eventual consistency, and it’s particularly attractive for two
+reasons:
+

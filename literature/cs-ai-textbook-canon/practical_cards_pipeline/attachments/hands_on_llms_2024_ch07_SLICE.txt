@@ -1,0 +1,216 @@
+# Text slice — hands_on_llms_2024_ch07_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: hands_on_llms_2024 · chapter: 07
+# hooks: 7 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Hands-On Large Language Models, Chapter 7
+
+| Field | Value |
+|-------|-------|
+| slug | hands_on_llms_2024 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/hands_on_llms_2024.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/hands_on_llms_2024.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch07_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Hands-On Large Language Models |
+| authors | Jay Alammar, Maarten Grootendorst |
+| edition | 1st Edition (2024) |
+| ISBN_print | 9781098150952 [corpus manifest] |
+| ISBN_electronic | not stated in chapter slice |
+| publisher | O'Reilly Media |
+| parent_book_title | Hands-On Large Language Models |
+| chapter_number | 7 |
+| chapter_title | Advanced Text Generation Techniques and Tools |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 7 extends Ch. 6 prompting with **LangChain-orchestrated LLM systems** (lines 7254–8326):
+
+1. **Model I/O** — GGUF quantized Phi-3 via `LlamaCpp`; quantization intuition (≥4-bit rule of thumb); `invoke` requires explicit Phi-3 template.
+
+2. **Chains** — `prompt | llm` pipe syntax; reusable `PromptTemplate`; sequential `LLMChain` story pipeline (title → character → story).
+
+3. **Memory** — Stateless LLM problem; `ConversationBufferMemory`, `ConversationBufferWindowMemory` (k=2), `ConversationSummaryMemory` with secondary summarization LLM; Table 7-1 trade-offs.
+
+4. **Agents** — ReAct loop (Thought / Action / Observation); tool inventory (DuckDuckGo search, `llm-math` calculator); `create_react_agent` + `AgentExecutor`; GPT-3.5 required for reliable agent demo (Phi-3 insufficient).
+
+5. **Framework context** — LangChain as primary; DSPy and Haystack noted; retrieval deferred to Ch. 8.
+
+6. **Chapter close** — Agents + tools foundation for semantic search / RAG (Ch. 8). [verified from text, lines 7254–8326]
+
+## key_findings
+
+1. **No fine-tuning required** — Chapter continues inference-time techniques (prompting, orchestration) before Ch. 12 training. [verified, 7256–7272]
+
+2. **LangChain composition model** — Model I/O, memory, agents, chains as modular blocks; combined performance exceeds isolated use. [verified, 7274–7304]
+
+3. **Quantization for local inference** — GGUF compresses Phi-3; FP16 example; 4-bit minimum recommended; 2–3 bit degrades vs smaller higher-precision model. [verified, 7311–7351]
+
+4. **Template gap in raw invoke** — `llm.invoke` without template returns empty; chains attach Phi-3 `<s><|user|>…<|assistant|>` template. [verified, 7378–7504]
+
+5. **Sequential chains** — `title | character | story` LLMChains pass outputs as inputs; decomposes complex generation (Figure 7-7/7-8). [verified, 7542–7667]
+
+6. **Memory = prompt injection** — Buffer memory appends full `chat_history` to prompt; windowed buffer drops older turns beyond k. [verified, 7673–7881]
+
+7. **Summary memory trade-off** — Extra LLM call per turn summarizes history; compresses tokens but may lose explicit facts (age forgotten while name inferred). [verified, 7888–8018]
+
+8. **Memory comparison (Table 7-1)** — Buffer: no loss within window but token-heavy; window: bounded but drops early context; summary: long conversations possible but summarization quality + latency. [verified, 8020–8062]
+
+9. **Agents vs fixed chains** — Agents let LLM choose actions/tools/order; ReAct merges reasoning and tool use (Yao et al. 2022). [verified, 8064–8157]
+
+10. **ReAct template** — Question → Thought → Action → Action Input → Observation loop until Final Answer; MacBook USD→EUR example with search + calculator. [verified, 8136–8287]
+
+11. **Agent reliability warning** — Autonomous intermediate steps lack human-in-the-loop; answers may be wrong despite impressive traces; suggest URL logging or step confirmation. [verified, 8292–8300]
+
+12. **Compute constraint** — Small local Phi-3 inadequate for ReAct; GPT-3.5 used; field may catch up. [verified, 8166–8191]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener + LangChain overview | read | 7254–7304 |
+| Quantization + GGUF load | read | 7306–7378 |
+| ChatGPT alternative note | read | 7399–7406 |
+| Chains intro | read | 7408–7424 |
+| Single chain + Phi-3 template | read | 7432–7520 |
+| Reusable product-name template | read | 7522–7540 |
+| Sequential story chains | read | 7542–7667 |
+| Memory intro (stateless LLM) | read | 7673–7715 |
+| ConversationBufferMemory | read | 7717–7806 |
+| ConversationBufferWindowMemory | read | 7808–7881 |
+| ConversationSummaryMemory | read | 7888–8018 |
+| Table 7-1 memory pros/cons | read | 8020–8062 |
+| Agents intro | read | 8064–8099 |
+| ReAct framework | read | 8106–8157 |
+| ReAct LangChain implementation | read | 8159–8287 |
+| Agent reliability note | read | 8292–8300 |
+| Summary + ReAct footnote ¹ | read | 8302–8325 |
+| Chapter 8 opener | **deferred** | 8327+ |
+
+- **Lines read:** 7254–8326 (full assigned range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** Numbered findings trace to line ranges in `hands_on_llms_2024.txt`
+
+## pedagogy
+
+### learning_objectives
+
+- Load quantized GGUF models in LangChain with correct chat template chains
+- Build sequential multi-step generation pipelines with `LLMChain`
+- Implement buffer, windowed, and summary memory patterns
+- Explain ReAct thought/action/observation loop and tool binding
+- Diagnose when local models are insufficient for agent tasks
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Phi-3 GGUF `LlamaCpp` load | Quantized local inference | 7363–7378 |
+| `prompt \| llm` basic chain | Template chaining | 7485–7503 |
+| Funny business name template | Parameterized prompts | 7530–7535 |
+| Story title→character→story | Sequential chains | 7595–7665 |
+| Name memory buffer | ConversationBufferMemory | 7683–7797 |
+| Window k=2 age forgetting | Windowed memory limits | 7837–7878 |
+| Summary memory first question | ConversationSummaryMemory | 7966–7990 |
+| ReAct MacBook price agent | Search + calculator agent | 8264–8287 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 7.LC-1 | Empty invoke vs chain | Demonstrate template requirement; log token diff | 7378–7503 |
+| 7.LC-2 | Story chain extract | Assert `title` key available mid-pipeline vs monolithic prompt | 7667–7671 |
+| 7.MEM-1 | Buffer vs window | 5-turn convo; measure when early fact drops at k=2 | 7837–7878 |
+| 7.MEM-2 | Summary fidelity | Inject rare token early; test recall after 10 turns | 7984–7990 |
+| 7.AG-1 | ReAct trace audit | Log Thought/Action/Observation; flag search without URL | 8271–8300 |
+| 7.AG-2 | Tool removal ablation | Run agent without calculator; compare math task failure | 8241–8246 |
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 7 is the **procedural orchestration layer** between prompting (Ch. 6) and retrieval (Ch. 8):
+
+- **LangChain patterns** — chains, memory, agents — map directly to production agent middleware
+- **ReAct** — same loop family as `ai_engineering_2025` Ch. 6 agents (framework vs notebook)
+- **Memory table** — operationalizes AIE memory hierarchy (FIFO/window/summary) with code
+
+Manifest tags HOTL as tutorial complement to AIE framework spine.
+
+### 2. MDCalc alignment
+
+**[none]** — No clinical workflows. Pattern-portable: human-in-the-loop before autonomous tool actions (8297–8300), memory windowing for long consult transcripts.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `ai_engineering_2025` Ch. 6 | AIE agents/RAG/memory design + failure modes; HOTL LangChain ReAct tutorial |
+| `hands_on_llms_2024` Ch. 6 | Manual chain prompting → LangChain automation |
+| `langgraph_fault_tolerance_snapshot` | Production agent durability not covered here |
+| DSPy / Haystack | Named as alternatives; not demonstrated |
+
+**Dedup rule:** Use this ingest for **LangChain chain/memory/agent notebooks**; defer system design checklists and hybrid RAG architecture to AIE Ch. 6.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — complete LangChain flows |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — ends 8322; Ch. 8 at 8327 |
+| Citation density | Moderate (ReAct paper; quantization visual guide reference) |
+| Child-skill potential | `scholia.langchain-react-agent`, `scholia.memory-buffer-vs-summary` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | O'Reilly; practitioner LangChain walkthrough |
+| Primary-source citation density | **PASS** | Yao ReAct; forward refs Ch. 12 quantization |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Runnable LangChain + OpenAI agent path |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| LangChain as "complete framework" | 7298–7299 | DSPy/Haystack alternatives noted; API churn risk [RECENCY RISK] |
+| FP16 labeled "8-bit variant" discussion | 7342–7343 | Text conflates bit-width examples; operator should verify GGUF filename |
+| GPT-3.5 required for agents | 8166–8191 | Snapshot claim; smaller models improving |
+| Agent answer correctness | 8292–8295 | MacBook price illustrative only — no verification |
+| Summary memory privacy claim in model output | 7972–7974 | Model-generated disclaimer, not framework guarantee |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — procedural agent/memory ingest; flag LangChain API version drift and OpenAI dependency in agent demo.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Chain | LangChain composition linking prompts, LLMs, tools, memory |
+| Quantization | Reducing parameter bit-width for faster/smaller inference |
+| ConversationBufferMemory | Full chat history injected into prompt |
+| ConversationSummaryMemory | LLM-compressed rolling summary of history |
+| Agent | LLM system that selects tools and action order |
+| ReAct | Reasoning + Acting via Thought/Action/Observation cycles |
+| AgentExecutor | LangChain runtime executing agent steps with tools |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 6 prompting, chat templates, chain prompting concept
+- Forward: Ch. 8 semantic search / RAG (8319–8322)
+- External: Open LLM Leaderboard (7396–7397); Grootendorst quantization visual guide (7340–7341)
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

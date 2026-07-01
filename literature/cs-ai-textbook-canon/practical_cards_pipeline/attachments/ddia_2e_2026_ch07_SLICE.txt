@@ -1,0 +1,207 @@
+# Text slice — ddia_2e_2026_ch07_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ddia_2e_2026 · chapter: 07
+# hooks: 6 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 7
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch07_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 |
+| ISBN_electronic | 9781098119065 |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 7 |
+| chapter_title | Sharding |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 7 covers **sharding (partitioning)** when data exceeds one machine (lines 11679–12807). Combines conceptually with Ch. 6 replication but treats sharding independently for clarity. Major arcs:
+
+1. **Terminology** — Shard vs partition vs region/tablet/vnode; PostgreSQL partition-on-one-machine vs cross-machine sharding.
+
+2. **Goals** — Even load spread; avoid skew/hot shards/hot keys; rebalance on cluster membership change.
+
+3. **Key-range sharding** — Sorted ranges; efficient range scans; hot spots on adjacent keys (timestamp anti-pattern); split/merge rebalance.
+
+4. **Hash sharding** — Hash partition; consistent hashing; fixed shard count; virtual nodes; destroys range query locality.
+
+5. **Composite keys** — Partition key prefix + sort suffix for range-within-shard.
+
+6. **Multitenancy** — Shard-per-tenant vs pooled tenants.
+
+7. **Secondary indexes** — Local (scatter-gather reads) vs global (multi-shard writes); ties to Ch. 4 inverted indexes/Elasticsearch routing.
+
+8. **Request routing** — Coordinator; ZooKeeper/etcd cluster membership.
+
+Multi-shard transactions deferred to unavailable later chapters. [verified, lines 11679–12807]
+
+## key_findings
+
+1. **Two distribution modes** — Replication (same data, many nodes) vs sharding (split data). [verified, 11701–11710]
+
+2. **One shard per record** — Record belongs to exactly one shard; replication still copies shard. [verified, 11712–11722]
+
+3. **Replication + sharding combo** — Per-shard leaders/followers (Figure 7-1). [verified, 11724–11733]
+
+4. **Naming proliferation** — Kafka partition, Cockroach range, Cassandra vnode, etc. [verified, 11740–11754]
+
+5. **Even distribution goal** — 10 nodes → ~10× capacity; rebalance on add/remove. [verified, 11915–11924]
+
+6. **Skew / hot shard / hot key** — Celebrity problem; single busy node bottleneck. [verified, 11926–11932]
+
+7. **Key-range sharding** — Encyclopedia volume analogy; non-uniform ranges; manual (Vitess) or automatic (Bigtable, HBase, MongoDB, CockroachDB). [verified, 11941–11969]
+
+8. **Range scan advantage** — B-tree/SSTable within shard; sensor timestamp example. [verified, 11971–11979]
+
+9. **Timestamp hot spot** — Monthly shard gets all writes; fix with sensor-ID prefix sacrificing cross-sensor range query. [verified, 11981–11996]
+
+10. **Range rebalance** — Pre-splitting; split on size/throughput; merge on delete. [verified, 11998–12015]
+
+11. **Hash sharding** — Even spread; loses ordering; consistent hashing (Karger et al.); Java hashCode not safe distributed [16]. [verified, 12039+]
+
+12. **Fixed shards on nodes** — Move whole shards; virtual nodes; Cassandra token algorithms. [verified, 12100+ range]
+
+13. **Warehouse partitioning** — Different from OLTP; parallel aggregate across shards [Link to Come]. [verified, 12185+]
+
+14. **Local secondary indexes** — Index only within shard; write one shard; read all shards (scatter-gather). [verified, 12437–12479]
+
+15. **Global secondary indexes** — Separate sharding of index; multi-shard writes; single-shard postings read. [verified, 12480+]
+
+16. **DIY secondary index warning** — Race conditions cause drift; ties to Ch. 4 postings lists. [verified, 12481–12488]
+
+17. **Routing** — Coordinator tracks shard→node map. [verified, summary 12642–12644]
+
+18. **Cross-shard writes** — Partial failure problem; forward to Ch. 8+ **[unavailable]**. [verified, 12646–12650]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Opener + replication combo | read | 11679–11739 |
+| Sharding and Partitioning terminology | read | 11740–11825 |
+| Sharding for Multitenancy | read | 11826–11912 |
+| Sharding of Key-Value Data | read | 11913–12436 |
+| Key range + hash + rebalance | read | 11941–12184 |
+| Warehouse partitioning note | read | 12185–12436 |
+| Sharding and Secondary Indexes | read | 12437–12585 |
+| Summary + references | read | 12586–12807 |
+| Chapter 8+ transactions | **unavailable** | 12646–12650 forward ref |
+| Chapters 8–13 | **unavailable** | early release TOC ends ch7 |
+
+- **Lines read:** 11679–12807 (end of available early-release text)
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Choose key-range vs hash sharding for a workload
+- Diagnose hot keys/shards and mitigation strategies
+- Compare local vs global secondary index costs
+- Explain rebalance via shard split/move
+- Combine sharding mental model with replication from Ch. 6
+
+### worked_examples_present
+
+**Y** — Encyclopedia key-range figure; used-car color/make local index (Figure 7-9); sensor timestamp hot spot; celebrity hot key references.
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 7.SHARD-1 | Timestamp key anti-pattern | Benchmark write skew monthly shard | 11981–11996 |
+| 7.SHARD-2 | Sensor-ID prefix | Measure write spread vs range query cost | 11989–11996 |
+| 7.SHARD-3 | Consistent hash ring | Add/remove node; count keys moved | 12039+ |
+| 7.SHARD-4 | Local vs global index | Color search: count shards touched read/write | 12437–12585 |
+| 7.RAG-1 | Vector collection sharding | Map embedding shard routing to retrieval recall | 12437+ |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm)
+
+Chapter 7 is **scale-out data placement** for large corpora and vector stores:
+
+- **Hot keys** — celebrity RAG queries / popular doc IDs
+- **Secondary indexes** — global search indexes on sharded vector DBs (Elasticsearch routing)
+- **Tenant isolation** — multitenant RAG SaaS shard strategies
+
+Pair with **DDIA Ch. 4** (postings lists) and **DDIA Ch. 6** (per-shard replication) and **AIE Ch. 6** (vector DB cost at scale).
+
+### 2. MDCalc alignment
+
+**[none]** — Pattern-portable: tenant isolation for PHI; hot-spot monitoring.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `understanding_distributed_systems_2022` | UDS partitioning chapters overlap; DDIA deeper on secondary indexes |
+| `ai_engineering_2025` Ch. 6 | AIE vector DB cost 20–50% anecdote; DDIA sharding fundamentals |
+| `hands_on_llms_2024` | HOTL Ch. 8 FAISS single-node; DDIA when to shard |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong skew/rebalance narratives |
+| Corpus boundary | **Last available DDIA 2e chapter** in early release |
+| Child-skill potential | `scholia.hot-key-mitigation`, `scholia.global-secondary-index-rag` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result |
+|-----------|--------|
+| Edition currency | **PASS** |
+| Author authority | **PASS** |
+| Citation density | **PASS** — Vitess, DynamoDB, Karger consistent hashing, Kleppmann hashCode |
+| Contested claims | **PASS** |
+| Worked examples | **PASS** |
+
+### Contested claims
+
+| Claim | Flag |
+|-------|------|
+| Hash sharding fixes skew | Hot keys can persist if key space skewed |
+| Consistent hashing minimal moves | Implementation-dependent |
+
+**TEXTBOOK-Q1 verdict:** **PASS** — terminal ingest for available DDIA 2e slice.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Shard / partition | Subset of data on one node |
+| Hot shard | Shard with disproportionate load |
+| Hot key | Key with very high access rate |
+| Key-range sharding | Contiguous key intervals per shard |
+| Hash sharding | Hash function determines shard |
+| Consistent hashing | Minimal key movement on node changes |
+| Local secondary index | Index covers only records in same shard |
+| Global secondary index | Index sharded separately from primary |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 4 indexes/postings, Ch. 6 replication
+- Forward: Ch. 8 transactions **[unavailable]**, Ch. 11 parallel analytics **[unavailable]**
+- **Corpus end:** line 12807 is early-release terminus before About the Authors
+- Chapters 8–13 marked unavailable in TOC (lines 92–102)
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

@@ -1,0 +1,132 @@
+# Ingest inventory — deai-operator-corpus (operator SSOT)
+# Updated: 2026-06-27 extraction wave. Do not implement skills from raw ingests until refine + evidence digest gate.
+
+meta:
+  project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+  returns_dir: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns
+  scope_id: deai-corpus-extraction-wave-20260627
+  last_updated: 2026-06-28T16:16Z
+
+prompt_chain:
+  contract: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/CORPUS_SYNTH_CONTRACT.md
+  contract_version: v0.2
+  research_scratchpad: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/research/opus46-synthesis-scratchpad.md
+  frozen_restore: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/scripts/restore_legacy_ingest_prompts.py
+  regen_skip: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/scripts/completed_ingest_slugs.py
+  refine: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/synth_refine_per_source.md
+  evidence_digest: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/synth_corpus_evidence_digest.md
+  skill_brief: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/synth_corpus_skill_brief.md
+  cursor_handoff: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/synth_cursor_implement_brief.md
+  kickoff: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/KICKOFF_ORCHESTRATOR_corpus_extraction_wave.md
+  pipeline: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/PIPELINE.md
+  orchestrator: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/ORCHESTRATOR_deai_tic_corpus.md
+
+sorted_20260628:
+  count: 25
+  refined_batches:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/refined_batch_baker_ginna_henry_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/refined_batch_munier_olmstead_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/refined_batch_peeples_ranade_liu_terk_20260628.md
+  adversarial:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/adversarial_reviews/locker_2012_w231_scope_conflict_20260628.md
+
+pipeline_rebuilt_20260627:
+  terk_lesson07:
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/08_terk_prof_writing_skills_lesson07_ATTACH.txt
+    chapter_slice: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/source_exports/chapters/08_terk_prof_writing_skills_lesson07.txt
+    ingest_prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/08_terk_prof_writing_skills_lesson07_ingest.md
+    ingest_status: done
+    return: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/terk_prof_writing_skills_lesson07_20260628_ingest.md
+    fix: start_pattern body slice (~276983), not 196512 cross-ref
+
+long_2018_portable_mentor:
+  note: >
+    Part V (part05) is revision PROCESS — lower deai_removal value than Parts I–IV prose craft.
+    Prioritize Part III (sentence/paragraph) for deai lane.
+  part05:
+    ingest_status: existing_prompt_low_priority_deai
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part05_ATTACH.txt
+    ingest_priority: low_deai
+  priority_pending_ingests:
+    - chapter_id: part03
+      title: Part III — Art of the Sentence and Paragraph
+      lane: deai_removal
+      ingest_priority: p0_deai
+      attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part03_ATTACH.txt
+      prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part03_ingest.md
+    - chapter_id: part01
+      title: Part I — Your Move
+      lane: both
+      ingest_priority: high
+      attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part01_ATTACH.txt
+      prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part01_ingest.md
+    - chapter_id: part04
+      title: Part IV — Honing, Deepening, Stretching
+      lane: both
+      ingest_priority: high
+      attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part04_ATTACH.txt
+      prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part04_ingest.md
+    - chapter_id: part02
+      title: Part II — Finding a Structure
+      lane: tic_enrichment
+      ingest_priority: medium
+      attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part02_ATTACH.txt
+      prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part02_ingest.md
+      truncation_note: attach may truncate at 119k; full slice on disk
+
+sorted_20260628_wave2:
+  count: 9
+  from_downloads: 2026-06-28
+  ingests:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/baker_2020_prof_writing_speaking_ch01_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/baker_2020_prof_writing_speaking_ch03_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/corpus_3375627_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/ginna_what_editors_do_ch14_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/ginna_what_editors_do_ch15_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/locker_2012_prof_writing_w231_ch03_20260628_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/long_2018_portable_mentor_part02_20260628_ingest.md
+  duplicates_archived:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_ch01_monolith_20260627_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_ch01_monolith_v2_20260627_ingest.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/four_source_batch_composer_ready_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/locker_ch08_docx_export_20260628.md
+  notes:
+    locker_ch08: existing md kept; docx export archived (duplicate of wave1 ch08)
+    four_source_batch: duplicate of four_source_batch_composer_ready_20250629.md
+    corpus_3375627: raw S1 ingest; refined also at 01_corpus_3375627_refined_ingest.md
+
+sorted_20260628_wave3:
+  count: 1
+  from_downloads: 2026-06-28
+  ingests:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/chatprd_returns/terk_prof_writing_skills_lesson07_20260628_ingest.md
+  duplicates_archived:
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/terk_lesson07_prereq_monolith_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/ginna_ch15_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/ginna_ch14_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_ch01_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_ch03_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/long_part02_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/locker_ch03_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/corpus_3375627_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/four_source_batch_downloads_duplicate_wave3_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_monolith_downloads_duplicate_20260628.md
+    - /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/localonly/sorted_duplicates/baker_monolith_downloads_duplicate_v2_20260628.md
+  notes:
+    terk_lesson07_prereq: wrong scope (lessons 5–7 monolith); canonical return is lesson07-only slice
+
+still_pending_chatprd:
+  - slug: long_2018_portable_mentor_part01
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part01_ingest.md
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part01_ATTACH.txt
+  - slug: long_2018_portable_mentor_part03
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part03_ingest.md
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part03_ATTACH.txt
+    priority: p0_deai
+  - slug: long_2018_portable_mentor_part04
+    prompt: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/prompts/11_long_2018_portable_mentor_part04_ingest.md
+    attach: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/attachments/11_long_2018_portable_mentor_part04_ATTACH.txt
+
+skipped:
+  - path: /Users/dubs/Downloads/Roborock Qrevo Pro - Not Charging Troubleshooting Guide _Refurbished Unit_.md
+    reason: not corpus scope

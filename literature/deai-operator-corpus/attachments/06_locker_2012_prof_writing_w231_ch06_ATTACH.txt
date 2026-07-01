@@ -1,0 +1,1718 @@
+06_locker_2012_prof_writing_w231_ch06_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch06_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch06.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch06.txt).
+========================================================================
+
+Building Résumés
+
+Chapter Outline
+A Time Line for Job Hunting                        Education      -
+                                                   Honors and Awards
+Evaluating Your Strengths and Interests
+                                                   Experience
+Using the Internet in Your Job Search              Other Skills
+sevoleelmiclarel lars]                             Activities
+                                              B®   Portfolio
+Networking
+                                            References
+A Caution about Blogs, Social Networking
+Sites, and Internet Tracking                What Not to Include in a Résumé
+
+Using an Internship as a Job Hunting Tool   Dealing with Difficulties
+How Employers Use Résumés                     @    “| Don’t Have Any Experience.”
+                                              @    "All My Experience Is in My Family's
+Guidelines for Résumés
+                                                   Business.”
+   ® Length                                   @  “| Want to Change Fields.”
+     Emphasis                                 @  “I’ve Been Out of the Job Market for a
+     Details                                     While.”
+     Writing Style                             @ “| Was Laid Off.”
+     Key Words                                 @ “| Was Fired.”
+   ® Layout and Design
+                                            Electronic Résumés
+Kinds of Résumés
+                                               B® Sending Your Résumé Electronically
+What to Include in a Résumé                    ®   Posting Your Résumé on the Web
+   ® Name and Contact Information           Honesty
+   ® Career Objective
+                                            Summary of Key Points
+   ® Summary of Qualifications
+                                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+NEWSWORTHY                        COMMUNICATION
+
+Changing Channels
+
+
+
+
+          hannels for job documents are changing _affinities—you can join to help you make connections.
+          so rapidly that newspapers and business You can attach your résumé, pack your profile with
+          magazines are running articles on the sub- _key words that make you easy to find, connect to your
+ject. In 2010, Fortune ran an                                                   blog and Twitter account, and
+
+eight-page story on LinkedIn,                                                   US Se              ee ae eae
+                                      “Fortune says that LinkedIn is the
+“How LinkedIn Will Fire Up                     es                               on your work (and approve all
+                                      only social site that matters for            x           scelegs
+                                                                                comments before they appear
+Your Career.” Calling it Face-
+book for grownups, Fortune SAMA ek                                              on your profile).
+pavtoatlinkedinisdheonly.. 9                | 0                 pe ig              Your profile will be in good
+social site that matters for careers.                       company. The average member is college-educated
+    The numbers for LinkedIn are impressive. The and makes $107,000. Every Fortune 500 company is
+site has over 60 million profiles and more than a half                          represented.
+million groups—based on companies, schools, and                                    You do have your profile there, right?
+
+Source: Jessi Hempel, “How LinkedIn Will Fire Up Your Career,” Fortune, April 2010, 74-82.
+PROFESSIONAL WRITING
+
+
+
+
+368                    Part4   The Job Hunt
+
+
+                       Learning Objectives
+                       After studying this chapter, you will know how to
+
+                                     Prepare a detailed time line for your job search.
+
+                                     Prepare a résumé that makes you look attractive to employers.
+                                     Deal with common difficulties that arise during job searches.
+                                     Handle the online portion ofjob searches.
+                                     Keep your résumé honest.
+
+
+
+                       You will probably change jobs many times during your career. Although no
+                       longitudinal study has ever been completed, the U.S. Bureau of Labor Statis-
+                       tics has started one, the National Longitudinal Survey of Youth. It shows that
+                       the average person born in the latter years of the baby boom held an aver-
+                       age of 11 jobs from age 18 to age 44. In fact, 25% of them have held 15 jobs or
+                       more. Even in middle age, when job changing slows down, 68% of jobs ended
+                       in fewer than five years. This means that you should keep your résumé up
+                       to date.
+                           A résumé is a persuasive summary of your qualifications for a job with a
+                       specific employer. If you’re on the job market, having a résumé is a basic step
+                       in the job hunt. When you’re employed, having an up-to-date résumé makes
+                       it easier to take advantage of opportunities that may come up for even better
+                       jobs. If you’re several years away from job hunting, preparing a résumé now
+                       will help you become more conscious of what to do in the next two or three
+                       years to make yourself an attractive candidate.
+                           This chapter covers paper and electronic résumés. Job application letters
+                       (sometimes called cover letters) are discussed in Chapter 13. Chapter 14 dis-
+                       cusses interviews and communications after the interview. All three chapters
+                       focus on job hunting in the United States. Conventions, expectations, and cri-
+                       teria differ from culture to culture: different norms apply in different countries.
+                           All job communications should be tailored to your unique qualifications and
+                       the specifications of the job you want. Adopt the wording or layout of an example
+                       if it’s relevant to your own situation, but don’t be locked into the forms in this
+                       book. You've got different strengths; your résumé will be different, too.
+
+
+                       A TIME LINE FOR JOB HUNTING [kre]
+                       Many employers consider the way you do your job hunt to be evidence of the
+                       way you will work for them. Therefore, you should start preparing yourself
+                       several years ahead of your formal applications.
+                          Informal preparation for job hunting should start soon after you arrive
+                       on campus. Check out the services of your college placement and advising
+                       offices. Join extracurricular organizations on campus and in the community to
+                       increase your knowledge and provide a network for learning about jobs. Find
+                       a job that gives you experience. Note which courses you like—and why you
+                       like them. If you like thinking and learning about a subject, you're more likely
+                       to enjoy a job in that field. Select course projects and paper topics that will
+                       help you prepare for a job—and look good on your résumé.
+                          Once you have selected a major, start reading job ads, particularly those
+                       posted on your professional organization’s website. What kinds of jobs are
+                                                      Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                         Chapter12   Building Résumés                                      369
+
+
+available? Do you need to change your course selections to better fit them?                          What Employers
+                                                                                                     Want, |
+What kinds of extras are employers seeking? Do they want communication
+skills? Extra statistics courses? International experience? Learn this informa-                     You can increase your
+tion early while you still have time to add to the knowledge and skill sets you                     odds of getting an
+are acquiring. Attend job seminars and job fairs. Join your professional asso-           interview by understanding what
+                                                                                         hiring managers are thinking
+ciation and its listserv.
+   Formal preparation for job hunting should begin a full year before you begin
+                                                                                         while they evaluate your résumé.
+                                                                                         The following are questions man-
+interviewing. Enroll for the services of your campus placement office. Ask friends       agers ask themselves:
+who are on the job market about their experiences in interviews; find out what
+kinds of job offers they get. Check into the possibility of getting an internship or     Can this applicant fill the needs
+
+a co-op job that will give you relevant experience before you interview.                 of the company? Your résumé
+                                                                                         should stress all of your most rel-
+   The year you interview, register with your Placement Office early. An active
+                                                                                         evant skills and experience which
+job search takes significant chunks of time, so plan accordingly. If you plan to         match the position opening. Rather
+graduate in the spring, prepare your résumé and plan your interview strategy             than submitting a generic résumé
+early in the fall. Initial campus interviews occur from October to February for          for every position you apply for, cre-
+May or June graduation. In January or February, write to any organization                ate a customized résumé based on
+you'd like to work for that hasn’t interviewed on campus. From February to               your review of the job opening.
+April, you're likely to visit one or more offices for a second interview.                Will this applicant stay with the
+   Try to have a job offer lined up before you get the degree. People who don’t          company long term? Managers
+need jobs immediately are more confident in interviews and usually get better            seek employees who are most
+job offers. If you have to job-hunt after graduation, plan to spend at least 30          likely to stay with a company long
+hours a week on your job search. The time will pay off in a better job that you           term because the hiring process is
+find more quickly.                                                                        long, difficult, and costly. The cost
+                                                                                          of replacing an employee averages
+                                                                                          $13,355    according    to a study
+EVALUATING YOUR STRENGTHS AND INTERESTS                                                   conducted by the Employment
+                                                                                          Policy Foundation. To avoid costly
+A self-assessment is the first step in producing a good résumé. Each person               turnover, managers look at your
+could do several jobs happily. Richard Bolles, a nationally recognized expert             résumé to see if you have a stable
+in career advising for over a third of a century and author of the What Color             work history.
+Is Your Parachute books, says most people who don’t find a job they like fail             Will this applicant be profes-
+because they lack information about themselves.” Personality and aptitude                 sional? Your résumé represents
+tests can tell you some of your strengths, but you should still answer for your-          your ability to communicate. Unfor-
+self questions like these:                                                                tunately, managers will eliminate
+                                                                                          résumés for the slightest problems
+  =   Whatskills and strengths do you have?                                               since they may receive hundreds
+                                                                                          of résumés for one position. Make
+  =   What achievements have given you the most satisfaction? Why did you                 sure your résumé is easy to fol-
+      enjoy them? What jobs would offer these kinds of satisfactions?                     low and does not contain typos or
+  =   What work conditions do you like? Would you rather have firm dead-                  grammatical mistakes.
+      lines or a flexible schedule? Do you prefer working independently or
+      with other people? Do you prefer specific instructions and standards for
+                                                                                          Adapted from Robert Half Interna-
+                                                                                          tional, “What Employers Think When
+      evaluation or freedom and uncertainty? How comfortable are you with                 They Read Your Résumé,” Career-
+      pressure? How much challenge do you want?                                           Builder, September, 23, 2008, http://
+                                                                                          www.careerbuilder.com/Article/
+  =   What kind of work/life balance do you want? Are you willing to take                 CB-427-Resumes-Cover-Letters-
+      work home? To work weekends? To travel? How important is money to                   What-Employers-Think-When-They-
+
+      you? Prestige? Time to spend with family and friends?
+                                                                                          Read-Your-R%C3%A9sUM%C3%AI/.
+
+
+  =   How fast do you want to move up? Are you willing to pay your dues for
+      several years before you are promoted?
+  =   Where do you want to live? What features in terms of weather, geogra-
+      phy, cultural and social life do you see as ideal?
+  =    Isit important to you that your work achieve certain purposes or values,
+       or do you see work as just a way to make a living? Are an organization’s
+       culture and ethical standards important to you? If so, what values will
+       you look for?
+PROFESSIONAL WRITING
+
+
+
+
+370                                           Part4   The Job Hunt
+
+
+                 What Employers                  Once you know what is most important to you, check to see what businesses
+                 Want, Il                     are looking for (see Figure 12.4). Then analyze the job market to see where you
+                 Careerbuilder.com            could find what you want. Each possibility will require somewhat different
+            asked hiring manag-               training and course selection, underscoring the need for you to begin consider-
+ers what the top five attributes are          ing your job search process early in your college career.
+when they hire new graduates.
+ HE Relevant experience: Man-
+    agers look for a candidate's
+                                              USING THE INTERNET IN YOUR JOB SEARCH
+      ability to make his/her job             The Internet is a crucial tool for job seekers as well as employers.
+      experience relevant to the                 Probably the most common use of the Internet for job candidates is to search
+      company— and find this abil-
+                                              for openings (see Figure 12.1). In addition to popular job boards like Monster
+      ity lacking. Most managers
+                                              and CareerBuilder job candidates typically search for jobs posted on organiza-
+      say they view volunteer activi-
+                                              tions’ Facebook pages, LinkedIn sites, and Twitter (TwitJobSearch.com). They
+      ties as relevant experience.
+                                              also check electronic listings in local newspapers and professional societies.
+  . Professionalism during the
+                                              However, you do need to be careful when responding to online ads. Some
+    interview: Managers want
+                                              of them turn out to be pitches from career or financial services firms, or even
+    to see candidates who dress
+    professionally, who have
+                                              phishing ads—ploys from identity thieves seeking your personal information.
+    researched the company, and                  Phishing ads often look like real postings; many have company names and
+      who are prepared to answer              logos nearly identical to those of real employers. People behind phishing ads
+      standard interview questions.           may even e-mail job candidates to build up trust. Privacy experts caution job
+  . Fit within the company
+                                              candidates to be particularly careful with job postings that lack details about
+      culture: Managers want can-             the hiring company or job description, and ads that list a large salary range.°
+      didates whose personalities                In addition to searching for ads, every job candidate should check the Inter-
+      and work styles fit well.               net for information about writing résumés and application letters, researching
+  . Education: Managers con-
+                                              specific companies and jobs, and preparing for interviews. Many comprehen-
+    sider the school, degree,                 sive sites give detailed information that will help you produce more effective
+      major, GPA, and relevant                documents and be a better-prepared job candidate.
+      courses.                                   As you search the Web, remember that not all sites are current and accurate.
+  . Enthusiasm: Managers want
+                                              In particular, be careful of .com sites: some are good, others are not. Check your
+    candidates who are clearly                school’s career site for help. Check the sites of other schools: Stanford, Berkeley,
+    interested in the job and                 and Columbia have particularly excellent career sites. And even good sources
+    show the energy they would                can have advice that is bad for you. Figure 12.2 lists some of the best sites.
+    bring to their work.                         A relatively new use of the Internet for job searchers is online job fairs. At
+                                              online fairs, you can browse through virtual booths, leave your résumé at
+Adapted from Laura Morsch, “Five
+                                              promising ones, and sometimes even apply on the spot, all without leaving
+Must-Haves    for New Grads,” Experience,
+Inc. , accessed April 3, 2011, http:/Aribe.   your home. Other advantages of online job fairs are their wide geographic and
+experience.convValumnus/article?channel_      24-hour access.
+id=career_management&source_
+ page=additional_articles&article_id=
+ article_1 156346148348.                      Figure 12.1            Job Listings on the Web
+
+
+                                               America’s Job Bank                              Monster.com
+                                               www.jobbankinfo.org                             www.monster.com
+                                               CareerBuilder.com                               MonsterTrak
+                                               www.careerbuilder.com                           http://college.monster.com
+                                               Careers.org
+                                               Wwww.careers.org                                Job listings from the Chicago
+                                                EmploymentGuide.com                            Tribune, Detroit News, Los Angeles
+                                                                                               Times, Miami Herald, Philadelphia
+                                               www.employmentguide.com
+                                                                                               Inquirer, San Jose Mercury News,
+                                                Federal Jobs Career Central                    and other city newspaper's websites.
+                                                www.fedjobs.com
+                                                Indeed.com
+                                                www.indeed.com
+                                                   Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                       Chapter 12   Building Résumés                                     371
+
+
+                                                                                                   Rebranding Yourself
+Figure 12.2         Comprehensive Web Job Sites Covering the Entire
+                    Job Search Process                                                             Whether you are look-
+                                                                                                    ing to advance in your
+  About.com (Part of New York Times      Monster.com                                                career or to change
+  Company)                                                                             careers entirely, you may need to
+                                           www.monster.com
+                                                                                       do some personal rebranding.
+     http://jobsearch.about.com          MonsterCollege
+                                                                                       Rebranding is the effort you make
+  Campus Career Center                     http://college.monster.com/?wtime_          to change other people’s percep-
+     www.campuscareercenter.com          n=monstertrak                                 tions about who you are and what
+                                         OWL (Purdue Online Writing Lab)               you do well. But it is not always an
+  CareerBuilder
+                                           http://owl.english.purdue.edu               easy process. Here are five tips to
+     www.careerbuilder.com
+                                         Quintessential Careers                        help you with your rebranding:
+  Career Rookie
+                                           www.quintcareers.com                        1. Set your goals. Who do you
+     www.careerrookie.com                                                                 want to be? What skills will
+                                         The Riley Guide
+  College Central                                                                         you need to get there?
+                                            www.rileyguide.com
+     www.collegecentral.com                                                            2. Define your points of dif-
+                                         Spherion Career Center
+  College Grad Job Hunter                   www.spherion.com/corporate/ret-     -         ference. What makes you
+     www.collegegrad.com                                                                  special? How can your dif-
+                                            registered .jsp
+                                                                                          ferences help you be noticed
+  The Five O’Clock Club                  wetfeet
+                                                                                          and connected with your new
+     www. fiveoclockclub.com               www.wetfeet.com/undergrad                      brand?
+  JobHuntersBible.com (Dick Bolles)      Vault                                         3. Develop a narrative. How
+     www.jobhuntersbible.com                www.vault.com                                 do your past experiences and
+ne EEEEEE EERIE EIEEENENSSESS REE!                                                        skills strengthen your new
+                                                                                          career?
+                                                                                       4. Reintroduce yourself. How
+                                                                                          will you tell your friends and
+   As you do all this research for your job hunt, you will probably begin to              co-workers about your new
+find conflicting advice. When evaluating suggestions, consider the age of the             brand?
+advice; what was true five years ago may not be true today, because the job             5. Prove your worth. How can
+
+search process is changing so. Also consider your industry; general advice                 you show that you will be a
+
+that works for most may not work for your industry. Above all, consider what               contributing member of your
+
+advice helps you present yourself as favorably as possible.
+                                                                                           new field?
+                                                                                          These five steps will help you
+                                                                                        on your path to a new personal
+                                                                                        brand.
+PERSONAL BRANDING
+                                                                                        Adapted from Dorie Clark, “Reinventing
+A specialized use of the Internet is for personal branding, a popular term              Your Personal Brand,” Harvard Busi-
+for marketing yourself, including job searching. It covers an expectation that          ness Review, 89, no. 3 (2011): 78-81.
+
+you will use various options, from the traditional résumé and cover letter to
+social media, to market your expertise. According to one recent survey, 83%
+of employers use social media to find new employees. Of those, 89% use
+LinkedIn, 28% use Facebook, and 14% use Twitter.* As has always been true
+of job searches, you will use these tools to show your value (what do you offer
+employers?) and quality (why should they hire you instead of other candi-
+dates?). These are some of the most popular tools:
+
+ = LinkedIn: This site allows you to include useful information beyond
+   your résumé, and, unlike your web page, it has a powerful search engine
+   behind it.
+ = Personal web page: Your web page allows you to connect to examples
+   of your professional work.
+ = Blogs: A blog in particular can contribute to your professional image if
+   it focuses on your professional specialty and current issues in your field.
+   However, keeping a blog up to date is time-consuming work during an
+   already stressful period.
+  PROFESSIONAL WRITING
+
+
+
+
+                                                   Part4    The Job Hunt
+
+
+                        Digital Dirt
+                                                    m      Facebook: Keep content professional. Avoid inappropriate language
+                        Do you wonder if your
+                                                           and all content involving alcohol, other drugs, and incomplete attire.
+            -%          employer can find out
+                        if you committed a
+                                                           Remember that Facebook has a history of making personal information
+                        crime,   experienced               public.
+  financial difficulties, really attended           =      Twitter: Share useful information such as thoughtful comments about
+  college, or received a driving ticket?                   news in your field as you work to build up your Twitter network. Aim
+  According to a survey of executive                       for quality, not numbers. Also, follow companies you would like to work
+  recruiters by ExecuNet, an execu-                        for.
+  tive job-search and networking
+                                                    =      Professional forums: Participate thoughtfully: doing so enables peo-
+  organization, 75% of recruiters use
+  search engines to uncover informa-
+                                                           ple to recognize your name favorably when your application arrives.
+  tion about job candidates.                        =      Cover letter: Still an excellent tool for personal branding. It gives you
+    Prospective employers can use                          more room to provide supporting details about your value and quality.
+  employment screening services to
+  obtain records from private, state
+  and federal agencies. Employers
+  also check social networking sites                            WARNING:          Select your tools carefully; you probably do not have time to
+  such as Facebook, and Google                                  use successfully all the tools on this list. Stay professional in all venues; avoid
+  names to find blogs and personal                      negative comments about people, your school, and your employers. In addition to
+  websites.                                             content, writing (grammar, coherence, style, logic, spelling) will be judged by potential
+    Remember that nothing on the                        employers. The list of candidates rejected after a basic web search grows daily.
+  Web is private. Do not post or
+  write anything on the Internet that
+  you do not want a prospective
+  employer to see—starting today.
+    How can you clean up your
+                                                   NETWORKING
+  reputation online?                               Many experts now consider networking to be THE most important factor in
+  =   Google yourself. If you find                 finding a job. It is important for entry-level work, and becomes even more cru-
+      something you would rather                   cial as you advance in your career.
+      your prospective employer                        Networking starts with people you know—friends, family, friends of your
+      did not see, contact the                     parents, classmates, teammates, gym mates, colleagues—and quickly expands
+      website and ask for it to be
+                                                   to electronic contacts in the social media noted above. Let people know you
+      removed.
+                                                   are looking for a job, and what your job assets are. Use social media to empha-
+  =   Clean up your Facebook or
+                                                   size your field knowledge and accomplishments. Join your school’s alumni
+      personal website. Remove
+                                                   association to find alumni in businesses that interest you.
+      any pictures that may not
+      present a professional image
+                                                       The secret to successful networking is reciprocity. Too many people network
+      or may be misunderstood by                   just for themselves, and they quickly gain a “one-way” reputation that hurts
+      an outsider, especially pic-                 further networking. Good networkers work for a “two-way” reputation; to
+      tures showing you drinking or                earn it, they look for ways to reciprocate. They help their contacts make fruit-
+      dressed inappropriately.                     ful connections. They share useful information and tips. Successful networks
+_ &   Cover negative information                   are not just for finding jobs: they are vital for career success.
+      by increasing your positive
+      online presence, including
+      creating a professional web                  A CAUTION ABOUT BLOGS, SOCIAL
+      page with many links to your
+      accomplishments.
+                                                   NETWORKING SITES, AND INTERNET TRACKING
+                                                   Most employers routinely Google job candidates, and many report they are
+  Adapted        from    Jared   Flesher,   “How
+  to Clean up Your Digital Dirt before It
+                                                   totally turned off by what they find—especially on personal blogs and web
+  Trashes Your Job Search,” Wall Street            pages and social networking sites such as Facebook. If you have a personal
+  Journal, January 12, 2006, http://online.        blog, web page, or other electronic presence, check sites carefully before you
+  wsj.com/article/C601 12FLESHER. html.
+                                                   go on the job market.
+
+                                                    =      Remove any unprofessional material such as pictures of you at your
+                                                           computer with a beer in your hand or descriptions of your last party.
+                                                    =      Remove negative comments about current or past employers and teach-
+                                                           ers. People who spread dirt in one context will probably do so in others,
+                                                           and no one wants to hire such people.
+                                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                                 Chapter12       Building Résumés                       373
+
+
+
+=     Remove political and social rants. While thoughtful, supported opinions
+      can show both education and logic, emotional or extreme statements
+   will turn off most employers.
+ = Remove any personal information that will embarrass you on the job. If
+   you blog about romance novels, but don’t want to be teased about your
+   choice in literature on your new job, make ruthless cuts on your blog.
+ m Remove inappropriate material posted by friends, relatives, and
+   colleagues.
+ = Check your blog for writing aptitude. Many employers will consider
+   your blog an extended writing sample. If yours is full of grammatical
+   and spelling errors, obviously you are not a good writer.
+
+Even if you take your blog off-line while you are job searching, employers
+may still find it in cached data on search engines. The best advice is to plan
+ahead and post nothing unprofessional on the web.
+
+
+             WARNING:            According to a 2010 report on research commissioned by Micro-
+            soft, a quarter or more of recruiters also check photo- and video-sharing sites,
+     gaming sites, virtual world sites, and classifieds and auction sites such as Craigslist,
+     Amazon, and eBay.°
+
+
+
+USING AN INTERNSHIP AS A JOB HUNTING TOOL
+Internships are becoming increasingly important as ways to find out about
+professions, employers, and jobs. Many companies use their internships to find
+full-time employees. GE, for example, makes about 80% of its new-graduate
+hires from students who held summer internships with the company; in 2010
+PricewaterhouseCoopers offered a full-time job to 90% of its eligible summer
+interns. A Wall Street Journal survey of college recuriters found 25% reporting
+that more than 50% of their new-graduate hires came from their intern pools.
+The National Association of Colleges and Employers found in its 2010 survey
+of internships that 57% of interns became full-time hires (see Figure 12.3)5In
+fact, some industry experts are predicting that within the next few years intern
+recruiting will largely replace entry-level recruiting.°
+
+
+Figure 12.3                 Percentage of Interns Offered Full-Time Jobs
+
+
+    Entertainment/media                                                                                 85
+    Oil and gas extraction                                                                              81
+
+    Construction                                                                                        80
+
+    Accounting                                                                                          19
+
+    Food and beverage                                                                                   71
+
+    Retail                                                                                              70
+    Finance/insurance/real estate                                                                       67
+
+    Engineering                                                                                         67
+
+    Computer and electronics              .                                                             64
+
+    Chemical/pharmaceutical                                                                         ,   61
+ EL
+                                                                                    June 8, 2010, D7.
+ Source: Joe Walker, “Getting Creative to Land an Internship,” Wall Street Journal,
+ PROFESSIONAL WRITING
+
+
+
+
+374                     Part4    The Job Hunt
+
+
+                           Even if your internship does not lead to a full-time job, it can still give you
+                        valuable insight into the profession, as well as contacts you can use in your job
+                        search. An increasingly important side benefit is the work you do in your intern-
+                        ship, which can become some of the best items in your professional portfolio.
+
+
+                        HOW EMPLOYERS USE RESUMES
+                        Understanding how employers use résumés will help you create a résumé
+                        that works for you.
+                        1. Employers use résumés to decide whom to interview. See Figure 12.4.
+                           (The major exceptions are on-campus interviews, where the campus place-
+                           ment office has policies that determine who meets with the interviewer.)
+                           Since résumés are used to screen out applicants, omit anything that may
+                           create a negative impression.
+                        2. Résumés are scanned or skimmed. At many companies, résumés are
+                             scanned electronically. Only résumés that match key words are skimmed
+                             by a human being. A human may give a résumé 10 to 30 seconds before
+                             deciding to keep or toss it. You must design your résumé to pass both the
+                             “scan test” and the “skim test” by emphasizing crucial qualifications.
+                        3. Employers assume that your letter and résumé represent your best work.
+                           Neatness, accuracy, and freedom from typographical errors are essential.
+                           Spelling errors will probably cost you your chance at a job, so proofread
+                           carefully.
+                        4. After an employer has chosen an applicant, he or she submits the applicant's
+                           résumé to people in the organization who must approve the appointment.
+                           These people may have different backgrounds and areas of expertise. Spell out
+                           acronyms. Explain awards, Greek-letter honor societies, unusual job titles, or
+                             organizations that may be unfamiliar to the reader.
+
+
+
+                        Figure 12.4                Employers Want Colleges to Place More Emphasis
+                                                   on These Skills
+
+
+                          Effective communication, both oral and written                                                          89
+                          Critical thinking and analytical reasoning                                                              81
+                          Application of knowledge to the work world, through internships                                         79
+                             and other hands-on experiences
+                          Ability to analyze and solve complex problems                                                           UD)
+                          Teamwork                                                                                                fas
+                          Innovation and creativity                                                                               70
+                          Understanding of basic concepts and new developments in science                                         70
+                            and technology
+                          Ability to locate, organize, and evaluate information from multiple                                     68
+                             sources
+                          Understanding of global contexts and developments                                                       67
+                          Ability to work with numbers and understand statistics                                                  63
+
+                        Source: Hart Research Associates, Raising the Bar: Employers’ Views on College Learning in the Wake of the Economic
+                        Downturn: A Survey among Employers Conducted on Behalf of the Association of American Colleges and Universities,
+                        January 20, 2010, http://www.aacu.org/leap/documents/2009_EmployerSurvey.pdf.
+                                                     Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                        Chapter12   Building Résumés                                         375
+
+
+
+GUIDELINES FOR RESUMES                                                                 cee
+                                                                                            \        Increasing
+                                                                                                     §=6©6-EXpectations
+Writing a résumé is not an exact science. What makes your friend look good             ill WES       for Employees
+does not necessarily help you. If your skills are in great demand, you can vio-                      A survey conducted for
+late every guideline here and still get a good job. But when you must compete           the Association of American Col-
+against many applicants, these guidelines will help you look as good on paper           leges and Universities found that
+as you are in person.                                                                   employers really are expecting more
+                                                                                        of their employees. You are not just
+                                                                                        imagining the change. Compared
+Length                                                                                  to past expectations, 88% to 91%
+                                                                                        expected employees to
+A one-page résumé is sufficient, but do fill the page. Less than a full page sug-
+                                                                                        =   Take on more responsibilities.
+gests that you do not have very much to say for yourself.
+   If you have more good material than will fit on one page, use a second page.         =   Use a broader skills set.
+
+A common myth is that all résumés must fit on one page. According to surveys            ®   Coordinate more with other
+conducted by international staffing firm Accountemps of executives at the 1,000             departments.
+largest companies in this country, approval of the two-page résumé is increas-          =   Acquire more learning and
+ing ifcandidates have sufficient good material that relates to the posted job.” An          skills.
+experiment that mailed one- or two-page résumés to recruiters at major account-         =   Deal with more complex
+ing firms showed that even readers who said they preferred short résumés were               challenges.
+more likely to want to interview the candidate with the longer résumé.® The             How does your résumé              reflect
+longer résumé gives managers a better picture of how you will fit in.                   these new realities?
+   If you do use more than one page, the second page should have at least 10            Adapted from Hart Research Associ-
+to 12 lines. Use a second sheet of paper; do not print on the back of the first         ates, Raising the Bar: Employers’ Views
+page. Leave less important information for the second page. Put your name               on College Leaming in the Wake of the
+                                                                                        Economic Downtum: A Survey among
+and “Page 2” on the page. If the pages are separated, you want the reader to            Employers Conducted on Behaif of the
+know whom the qualifications belong to and that the second page is not your             Association of American Colleges and
+whole résumé.                                                                           Universities, January 20, 2010, http://
+                                                                                        www.aacu.org/leap/documents/2009_
+                                                                                        EmployerSurvey.pdf.
+
+Emphasis
+Emphasize the things you've done that (a) are most relevant to the position for
+which you’re applying, (b) show your superiority to other applicants, and (c)
+are recent (in the last three to five years). Whatever your age at the time you
+write a résumé, you want to suggest that you are now the best you've ever been.
+   Show that you’re qualified by giving relevant details on course projects,
+activities, and jobs where you've done similar work. Be brief about low-level
+jobs that simply show dependability. To prove that you're the best candidate
+for the job, emphasize items that set you apart from other applicants: pro-
+motions, honors, achievements, experience with computers or other relevant
+equipment, foreign languages, and so on.
+   You can emphasize material by putting it at the top or the bottom of a page,
+by giving it more space, and by setting it off with white space. The begin-
+ning and end—of a document, a page, a list—are positions of emphasis. When
+you have a choice (e.g., in a list of job duties), put less important material in
+the middle, not at the end, to avoid the impression of “fading out.” You can
+also emphasize material by presenting it in a vertical list, by using informative
+headings, and by providing details. Headings that name skills listed in the job
+ad, or skills important for the job (e.g., Managerial Experience) also provide
+emphasis and help set you apart from the crowd.
+
+Details
+Details provide evidence to support your claims, convince the reader, and
+separate you from other applicants. Numbers make good details. Tell how
+many people you trained or supervised, how much money you budgeted or
+saved. Describe the interesting aspects of the job you did.
+ PROFESSIONAL WRITING
+
+
+
+
+376                     Part4   The Job Hunt
+
+
+                           Too vague:        Sales Manager, The Daily Collegian,      University Park, PA, 2010-2012.
+                                             Supervised staff; promoted ad sales.
+                           Good details:     Sales Manager, The Daily Collegian, University Park, PA, 2010-2012.
+                                             Supervised 22-member sales staff; helped recruit, interview, and select
+                                             staff; assigned duties and scheduled work; recommended best performers
+                                             for promotion. Motivated staff to increase paid ad inches 10% over previ-
+                                             ous year’s sales.
+                           Omit details that add nothing to a title, that are less impressive than the title
+                        alone, or that suggest a faulty sense of priorities (e.g., listing hours per week
+                        spent filing). Either use strong details or just give the office or job title without
+                        any details.
+
+                        Writing Style
+                        Without sacrificing content, be as concise as possible.
+                           Wordy:    Member, Meat Judging Team, 2008-09
+                                     Member, Meat Judging Team, 2009-10
+                                     Member, Meat Judging Team, 2010-11
+                                     Captain, Meat Judging Team, 2011-12
+                           Tight:    |Meat Judging Team, 2008-12; Captain 2011-12
+                           Wordy:    Performed foundation load calculations
+                           Tight:   |Calculated foundation loads
+
+                           Résumés normally use phrases and sentence fragments. Complete sentences
+                        are acceptable if they are the briefest way to present information. To save space
+                        and to avoid sounding arrogant, never use I in a résumé. Me and my are accept-
+                        able if they are unavoidable or if using them reduces wordiness.
+                           Verbs or gerunds (the ing form of verbs) create a more dynamic image of
+                        you than do nouns, so use them on résumés that will be read by people instead
+                        of scanning programs. In the following revisions of job responsibilities, nouns,
+                        verbs, and gerunds are in bold type:
+                           Nouns:     Chair, Income Tax Assistance Committee, Winnipeg, MB, 2011-2012. Respon-
+                                      sibilities: recruitment of volunteers; flyer design, writing, and distribution for
+                                      promotion of program; speeches to various community groups and nursing
+                                      homes to advertise the service.
+                          Verbs:    — Chair, Income Tax Assistance Committee, Winnipeg, MB, 2011-2012. Recruited
+                                      volunteers for the program. Designed, wrote, and distributed a flyer to pro-
+                                      mote the program; spoke to various community groups and nursing homes to
+                                      advertise the service.
+                          Gerunds:      Chair, Income Tax Assistance Committee, Winnipeg, MB, 2011-2012. Respon-
+                                        sibilities included recruiting volunteers for the program; designing, writing,
+                                        and distributing a flyer to promote the program; and speaking to various com-
+                                        munity groups and nursing homes to advertise the service.
+
+                        Note that the items in the list must be in parallel structure (p. 135).
+
+
+                                    WARNING:         All spelling and grammar should be perfect. If they are not your
+                                      strong suits, pay an editor. In these days of massive responses to job postings,
+                                      don't give recruiters an easy elimination of your résumé through careless errors.
+                           Remember that spell checks will not catch all errors, as all those store “mangers”
+                           will tell you.
+                                                      Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                         Chapter12   Building Résumés                            377
+
+
+
+Key Words
+Now that electronic résumé scans are common, all résumés, but particularly
+electronic résumés, need to use key words—words and phrases the employer
+will have the computer seek. Key words are frequently nouns or noun phrases:
+database management, product upgrades, cost compilation/analysis. How-
+ever, they can also be adjectives such as responsible. Key words are frequently
+the objects of all those action verbs you are using in your résumé; conducted
+publicity campaigns, wrote weekly division newsletter.
+   Key words may include
+
+     Software program names such as Excel.
+     Job titles.
+     Types of degrees.
+     College or company names.
+     Job-specific skills, buzzwords, and jargon.
+     Professional organizations (spell out the name and then follow it with its
+     abbreviation in parentheses to increase the number of matches).
+     Honor societies (spell out Greek letters).
+     Personality traits, such as creativity, dependability, team player.
+ =   Area codes (for geographic narrowing of searches).
+
+   To find the key words you need in your job search, look through job ads and
+employer job sites for common terminology. If many ads mention “communi-
+cation skills,” your résumé should too.
+   Some key words are widely popular. A survey of over 3,000 hirers con-
+ducted for CareerBuilder reported these key words as ones searched for most
+often:
+
+     Problem-solving and decision-making skills (50%)
+     Oral and written communications (44%)
+     Customer service or retention (34%)
+     Performance and productivity improvement (32%)
+     Leadership (30%)
+     Technology (27%)
+     Team-building (26%)
+     Project management (20%)
+     Bilingual (14%)
+
+   In addition to using popular key words, you should double-check to make
+certain your résumé uses the language of the particular job ad to which you
+are responding. If the ad uses “software engineers” instead of “computer pro-
+grammers,” then your résumé should also use “software engineers.” If the ad
+talks about “collaboration,” you will use that word instead of “teamwork”
+when you discuss your group work experience.
+   Use key words liberally in your Summary of Qualifications section. How-
+ever, to get an interview, your résumé will usually need to put key words
+into a context proving you have the skills or knowledge. This means that key
+words will also have to appear in the rest of your résumé, too. Since you will
+not know exactly what key words are desired, it makes sense to use some
+synonyms and similar terms: manager and management, Excel and spreadsheets,
+creative and creativity.
+ae   PROFESSIONAL WRITING
+
+
+
+
+     378                    Part4    The Job Hunt
+
+
+                            Layout and Design
+                            The layout and design of your résumé will be vital to catch the eye of the
+                            employer who is spending only 10 seconds on each document.
+
+                                        WARNING:        Do not use résumé templates that come with word-processing
+                                        software. Many employers see so many résumés from these templates that
+                                        they learn to recognize—and discount—them.
+
+
+                            Almost certainly, you can create a better résumé by adapting a basic style you
+                            like to your own        unique qualifications. Experiment with layout, fonts, and
+                            spacing to get an attractive résumé. Consider creating a letterhead that you
+                            use for both your résumé and your application letter.
+                               Decide what are your best selling points and promote them early. Since
+                            most résumés will be put into electronic formats (discussed later in chapter),
+                            make sure the first screen of information about you is strong, tempting readers
+                            to look further.
+                               One of the major decisions you will make is how to treat your headings.
+                            Do you want them on the left margin, with text immediately below them, as
+                            in Figure 12.5? Do you want them alone in the left column, with text in a col-
+                            umn to the right, as in Figure 12.7? Generally, people with more text on their
+                            résumés use the first option. Putting headings in their own column on the left
+                            takes space and thus helps spread a thinner list of accomplishments over the
+                            page. But be careful not to make the heading column too wide, or it will make
+                            your résumé look unbalanced and empty.
+                               Work with fonts, bullets, and spacing to highlight your information. Do be
+                            careful, however, not to make your résumé look “busy” by using too many
+                            fonts. Generally three fonts should be the top limit, and you should avoid
+                            unusual fonts. Keep fonts readable by using at least 10-point type for large
+                            fonts such as Arial and 11-point for smaller fonts such as Times New Roman.
+                            Use enough white space to group items and make your résumé easy to read,
+                            but not so much that you look as if you’re padding.
+                               Use color sparingly, if at all. Colored text and shaded boxes can prevent
+                            accurate scanning. Similarly, white 8%- by 11-inch paper is standard, but do
+                            use a good-quality paper.
+                               All of these guidelines are much more flexible for people in creative fields
+                            such as advertising and design.
+
+
+                            KINDS OF RESUMES
+                            Two basic categories of résumés are chronological and skills. A chronological
+                            résumé summarizes what you did in a time line (starting with the most recent
+                            events, and going backward in reverse chronology). It emphasizes degrees,
+                            job titles, and dates. It is the traditional résumé format. Figures 12.5 and 12.8
+                            show chronological résumés.
+                              Use a chronological résumé when
+
+                             =      Your education and experience are a logical preparation for the position
+                                    for which you're applying.
+                             =      You have impressive job titles, offices, or honors.
+
+                               A skills résumé, also called a functional résumé, emphasizes the skills
+                            you've used, rather than the job in which you used them or the date of the
+                            experience. Figure 12.7 shows a skills résumés. Use a skills résumé when
+                                                            Business and Administrative Communication, Tenth Edition    las
+
+
+
+
+                                                               Chapter12   Building Résumés                             379
+
+
+Figure 12.5     A Community College Chronological Résumé to Use for Career Fairs and Internships
+
+
+                                                                                                          nt
+
+                                                                                                   ee
+                                                                                                   al       gizeinf0!
+                                                      Lee Cheng                                Use ano
+                                                          chengl@eccc.edu                       reading
+
+               Campus Address                        using 98508                              Permanent Address
+               1524 Main Street                  both adr ntinuoue                            2526 Prairie Lane
+               New Brunswick, NJ 08901            ensures “formato”                           Middlesex, NJ 00846
+               732-403-5718                        contact                                     732-404-7793
+
+               Education
+               East Coast Community College
+               AA in Financial Management, June 2012
+               GPA: 3.0/4.0 Give your grade average if
+                                    it’s 3.0 or higher.
+               Summary of Qualifications                                                                Sus
+                                                                                          List 3-7 qualifications.
+                    9    Self-motivated, detail-minded, results-oriented
+    Use key words
+     employers might a Consistently successful track record in sales
+     seek.
+                     a Effectively developed and operated entrepreneurial business
+
+               Sales Experience
+               Financial Sales Representative, ABC Inc., New Brunswick, NJ, February 2011—present
+                     o Establish client base
+                     a Develop investment strategy plans for clients
+                     a Research and recommend specific investments
+
+               Other Experience
+                   Entrepreneur, A-Plus T-Shirt Company, Middlesex, NJ, September 2008—January 2011
+     One way '0          | Created a saleable product (graphic T-shirts)
+     handle              Oo Secured financial support
+                   ment.
+      self-employ’          Located a manufacturer
+                            Supervised production
+                            Sold T-shirts to high school students
+                         Bo Realized a substantial profit to pay for college expenses
+                         eo
+
+
+
+
+               Cook, Hamburger Shack, Seaside Heights, NJ, Summers 2007-2008
+                     a Learned sales strategies
+                     a   Ensured customer satisfaction
+                     a   Collaborated with a team of 25
+
+                Collector and Repair Worker, ACN, Inc., Middlesex, NJ, Summer 2005-2006
+                     a Collected and counted approximately $10,000 a day Specify large sums of money.
+                     a Assisted technicians with troubleshooting and repairing coin mechanisms
+
+                Other Skills
+                Computer:       Word, Excel, InDesign, WordPress, Outlook
+                Language:       Fluent in Spanish Many employers
+                                                          appreciate a
+                                                          second language.
+PROFESSIONAL WRITING
+
+
+
+
+380                                       Part4     The Job Hunt
+
+
+              What Happens to
+              Your Résumé?                 =      Your education and experience are not the usual route to the position for
+                                                  which you're applying.
+       oi     Each year, technology
+            giant Siemens Global           m      You're changing fields.
+hires more than 10,000 employees           =      You want to combine experience from paid jobs, activities, volunteer
+out of over 780,000 applicants.                   work, and courses to show the extent of your experience in administra-
+One civil engineering position had                tion, finance, public speaking, and so on.
+187 applications,     but only three
+made it through to the face-to-
+face interview. How does Siemens
+                                             The two kinds differ in what information is included and how that informa-
+find the right people? CNNMoney           tion is organized. You may assume that the advice in this chapter applies to
+found four key steps:                     both kinds of résumés unless there is an explicit statement that the two kinds
+1. Hire internally. Like many             of résumés would handle a category differently.
+   corporations, Siemens adver-
+   tises positions both internally
+   and externally, but hires 40%          WHAT TO INCLUDE IN A RESUME
+   of open positions from inside
+   the company.
+                                          Although the résumé is a factual document, its purpose is to persuade. In a
+                                          job application form or an application for graduate or professional school, you
+2. Use the web. Siemens posts
+   jobs on Monster and Career-
+                                          answer every question even if the answer is not to your credit. In a résumé, you
+      Builder. Recruiters also use        cannot lie, but you can omit some information that does not work in your favor.
+      LinkedIn both to eliminate             Résumés commonly contain the following information. The categories
+      candidates and to recruit           marked with an asterisk are essential.
+      people who may not be look-
+      ing for a job.                              Name and Contact Information*
+3. Use computers to scan appli-
+                                                  Career Objective
+      cations and find applicants
+      who match job requirements.                 Summary of Qualifications
+4. Conduct initial interviews by                  Education*
+   phone. Only after applicants                   Honors and Awards
+   pass this step can they be                     Experience*
+   sent on to the hiring manager.
+                                                  Other skills
+  For large corporations, using
+technology and recruiters to                      Activities
+screen applicants is vital to find-               Portfolio
+ing the right people for jobs.
+
+Adapted     from   Tami   Luhby,   “The       You may choose other titles for these categories and add categories that are
+Secret Life of a Resumé,” CNNMoney,       relevant for your qualifications, such as computer skills or foreign languages.
+May 18, 2011, http://money.cnn.com/
+fdcp?unique= 1305728467379.
+                                              Education and Experience always stand as separate categories, even if you
+                                          have only one item under each head. Combine other headings so that you
+                                          have at least two long or three short items under each heading. For example,
+                                          if you’re in one honor society and two social clubs, and on one athletic team,
+                                          combine them all under Activities and Honors.
+                                              If you have more than seven items under a heading, consider using sub-
+                                          headings. For example, a student who had a great many activities might
+                                          divide them into Campus Activities and Community Service.
+                                              Put your strongest categories near the top and at the bottom of the first
+                                          page. If you have impressive work experience, you might want to put that
+                                          category first and Education second.
+
+
+                                          Name and Contact Information
+                                          Use your full name, even if everyone calls you by a nickname. You may use an ini-
+                                          tial rather than spelling out your first or middle name. Put your name in big type.
+                                              If you use only one address, consider centering it under your name. If you
+                                          use two addresses (office and home, campus and permanent, until                   ye
+                                          after        ) set them up side by side to balance the page visually. Use either
+                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                  Chapter12   Building Résumés                                          381
+
+
+                                                                                                                Résumé Blunders
+
+                                                                                                                CareerBuilder.com’s
+                                                                                                                survey of hiring manag-
+                                                                                                                ers found these resumé
+                                                                                                                howlers:
+                                                                                                    =   Candidate listed God as a
+                                                                                                        reference. (Alas, the candi-
+                                                                                                        date didn’t include a phone
+                                                                                                        number.)
+                                                                                                    =   Candidate's e-mail address
+                                                                                                        had “lovesbeer” in it.
+                                                                                                    =   Candidate listed “Master of
+                                                                                                        Time and Universe” under his
+                                                                                                        experience.
+                                                                                                    =   Candidate's condition for
+                                                                                                        accepting the position was
+                                                                                                        being allowed to bring his pet
+                                                                                                        monkey to the workplace.
+                                                                                                    =   Candidate sent a 24-page
+                                                                                                        résumé for a five-year career.
+                                                                                                    =   Candidate put a picture of her
+           ae                      eal                                                                  cat on top of her résumé.
+
+A résumé is your most important document at career fairs.                                           Bullets quoted from Mary Lorenz, “The
+                                                                                                    Candidate Tried to Hypnotize Me!’ and
+                                                                                                    More: Hiring Managers Share Their
+                                                                                                    Strangest Resume Stories,” Career-
+post office (two-letter, full caps, no period) abbreviations for the state or spell                 Builder: The Hiring Site, September 15,
+out the state name, but do be consistent throughout your résumé.                                    2010, http://thehiringsite.careerbuilder
+                                                                                                    .com/2010/09/1 5/hiring-managers-
+  Urbana, IL 61801                                                                                  share-strangest-resumes/.
+
+  Wheaton, Illinois 60187
+
+   Give a complete phone number, including the area code. Some job candidates
+give both home and cellphone numbers. Do provide a phone number where
+you can be reached during the day. Employers usually call during business
+hours to schedule interviews and make job offers. Do not give lab or dorm
+phone numbers unless you are sure someone there will take an accurate
+message for you at all times. Also, be sure that all answering machines have
+a professional-sounding message.
+   If you have a web page, and you are sure it looks professional (both content
+and writing), you may wish to include its URL. Be sure your web page does
+not reveal personal information—such as marital status, ethnicity, religious
+beliefs, or political stance—that could work against you. Be particularly care-
+ful of photographs.
+   Provide an e-mail address. Some job candidates set up a new e-mail address
+just for job hunting. Your e-mail address should look professional; avoid sexy,
+childish, or illicit addresses. List your LinkedIn site, if you have one.
+
+
+Career Objective
+Career objective statements should sound like the job descriptions an employer
+might use in a job listing. Keep your statement brief—two lines at most. Tell
+what you want to do, what level of responsibility you want to hold. The best
+career objectives are targeted to a specific job at a specific company.
+   Ineffective career objective:   To offer a company my excellent academic foundation in hos-
+                                   pital technology and my outstanding skills in oral and written
+                                   communication
+PROFESSIONAL WRITING
+
+
+
+
+382                                       Part4   The Job Hunt
+
+
+              Objectionable                  Better career objective:           Hospital and medical sales for Rand Medical requiring experi-
+              Objectives                                                        ence with state-of-the-art equipment
+              {These job objectives
+              did not help their
+                                             Good career objectives are hard to write. If you talk about entry-level work, you
+              writers:]                   won't sound ambitious; if you talk about where you hope to be in 5 or 10 years,
+a     "Ajob.” Any one will do.
+                                          you won’t sound as though you’re willing to do entry-level work. When you're
+=     "To obtain a position that
+                                          applying for a job that is a natural outgrowth of your education and experience,
+      will allow me to utilize my
+                                          you may omit this category and specify the job you want in your cover letter.
+      strengths and reinforce my              Often you can avoid writing a career objective statement by putting the job
+      weaknesses.” Are you sure           title or field under your name:
+      that’s a good idea?
+                                             Joan Larson Ooyen                  Terence Edward Garvey            David R. Lunde
+=     "To become a billionier.” A
+      candidate who's not on the                       Marketing                   Technical Writer        Corporate Fitness Director
+      money.
+                                          Note that you can use the field you’re in even if you're a new college graduate.
+=     "| am seeking a permanent
+      position to get out of debt.”
+                                          To use a job title, you should have some relevant work experience.
+      Will we get anything out of
+                                             If you use a separate heading for a career objective, put it immediately after
+      the deal?                           your contact information, before the first major heading (see Figure 12.7). The
+=     "To obtain a position that will
+                                          résumé in Figure 12.5 does not use a Career Objective because it is being used
+      enable me to utilize my pro-        for various jobs offered at a career fair. If you were particularly interested in
+      fessional skills and knowledge      several jobs there, you would make targeted résumés for those companies.
+      in a capacity that demon-           More and more experts are advising that objectives be clarified in the cover
+      strates me intelligence.” My,       letter rather than wasting valuable space at the top of the résumé.
+      oh, my.
+=     "To work for XYZ Company.”
+      We'll forward your résumé to        Summary of Qualifications
+      them.
+                                          A section summarizing the candidate’s qualifications seems to have first
+=     ”My dream job would be as a
+                                          appeared with scannable résumés, where its key words helped increase the
+      professional baseball player,
+      but since | can’t do that, |’ll
+                                          number of matches a résumé produced. But the section proved useful for
+      settle on being an accoun-          human readers as well and now is a standard part of many résumés. The best
+      tant.” Your enthusiasm is           summaries show your knowledge of the specialized terminology of your field
+      overwhelming.                       and offer specific, quantifiable achievements.
+=     "To learn new skills and gain          Weak:        Staff accountant
+      training which will help me
+      develop my new business.”              Better:      Experience with accounts payable, accounts receivable, audits, and month end
+      Your dedication is touching.                        closings. Prepared monthly financial reports.
+                                             Weak:        Presentation skills
+From     Robert     Half International,
+“Resumania Archive,” http://www              Better:      Gave 20 individual and 7 team presentations to groups ranging from 5 to 100
+.resumania.com/arcindex.html.
+                                                          people.
+Reprinted with permission of Robert
+Half International.
+                                            Some career advisers believe a summary is too repetitious of other sections
+                                          on a one-page résumé. They believe the space is better used by listing your
+                                          achievements that set you apart from other candidates.
+
+
+                                          Education
+                                          Education can be your first major category if you’ve just earned (or are about
+                                          to earn) a degree, if you have a degree that is essential or desirable for the
+                                          position you're seeking, or if you can present the information briefly. Put your
+                                          Education section later if you need all of page 1 for another category or if you
+                                          lack a degree that other applicants may have (see Figure 12.7).
+                                             Under Education, provide information about your undergraduate and
+                                          graduate degrees, including the location of institutions and the year you
+                                          received or expect your degree, if these dates are within the last 10 years.
+                                             Use the same format for all schools. List your degrees in reverse chronological
+                                          order (most recent first).
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                              Chapter12   Building Résumés                            383
+
+
+
+    Master of Accounting Science, May 2012, Arizona State University, Tempe, AZ
+    Bachelor of Arts in Finance, May 2010, New Mexico State University, Las Cruces, NM
+
+
+    BS in Industrial Engineering, May 2012, lowa State University, Ames, IA
+    AS in Business Administration, May 2010, Des Moines Area Community College,
+    Ankeny, IA
+
+     When you're getting a four-year degree, include community college only
+ if it will interest employers, such as by showing an area of expertise different
+ from that of your major. You may want to include your minor, emphasis, or
+ concentration and any graduate courses you have taken. Include study abroad,
+ even if you didn’t earn college credits. If you got a certificate for international
+ study, give the name and explain the significance of the certificate. Highlight
+ proficiency in foreign or computer languages by using a separate category.
+     To punctuate your degrees, do not space between letters and periods:
+    AS. in Office Administration
+    B.S. in Accounting
+    Ed.D. in Business Education
+’ Current usage also permits you to omit the periods (BS, MBA), but be consis-
+  tent with the usage you choose.
+     Professional certifications can be listed under Education or in a separate
+ category.
+    If your GPA is good and you graduated recently, include it. If your GPA is
+ under 3.0 ona    4.0 scale, use words rather than numbers: “B- average.” If your
+ GPA isn’t impressive, calculate your average in your major and your average
+ for your last 60 hours. If these are higher than your overall GPA, consider
+ using them. The National Association of Colleges and Employers, in its Job
+ Outlook 2010 survey, found that 75% of employers do screen job applicants by
+ GPA." If you leave your GPA off your résumé, most employers will automati-
+ cally assume that it is below a 3.0. If yours is, you will need to rely on intern-
+ ships, work experience, and skills acquired in activities to make yourself an
+ attractive job candidate.
+    After giving the basic information (degree, field of study, date, school, city,
+  state) about your degree, you may wish to list courses, using short descrip-
+  tive titles rather than course numbers. Use a subhead like “Courses Related to
+  Major” or “Courses Related to Financial Management” that will allow you to
+  list all the courses (including psychology, speech, and business communica-
+  tion) that will help you in the job for which you're applying. Don’t say ekel-
+  evant Courses,” as that implies your other courses were irrelevant.
+
+     Bachelor of Science in Management, May 2012, Illinois State University, Normal, IL
+     GPA: 3.8/4.0 ©
+     Courses Related to Management:
+           Personnel Administration           Business Decision Making
+           Finance                            International Business
+           Management | and II                Marketing
+           Accounting | and II                Legal Environment of Business
+           Business Report Writing            Business Speaking
+
+     Listing courses is an unobtrusive way to fill a page. You may also want
+  to list courses or the number of hours in various subjects if you’ve taken an
+  unusual combination of courses that uniquely qualify you for the position for
+  which you're applying.
+PROFESSIONAL WRITING
+
+
+
+
+384                                       Part4    The Job Hunt
+
+
+             The Value of “Soft
+             Skills”                           BS in Marketing, May 2012, California State University at Northridge
+                                                     30 hours in marketing
+             What     are   MBA    pro-
+                                                     15 hours in Spanish
+            grams teaching? Soft
+                                                     9 hours in Chicano studies
+skills—lessons in teamwork, lead-
+ership, and communication. Spe-
+cifically, students are working on             If your course list is similar to that of others in your major, you should use
+listening, teamwork, interpersonal        the space for material that better shows your uniqueness. In that case, another
+communication,        presentations,      way to fill the page is to include a Projects section, in which you highlight
+and sensitivity to others. Why?           some course projects relevant to the jobs you are seeking.
+Businesses are requesting MBA               As you advance in your career, your education section will shrink until
+graduates with strong soft skills         finally it probably will include only your degrees and educational institutions.
+because they believe these stu-
+dents will be employees who can
+lead, communicate, and negotiate.         Honors and Awards
+  In response,      schools such as
+the Stanford Graduate School of           It’s nice to have an Honors and Awards section, but not everyone can do so.
+Business are requiring all first-year     If you have fewer than three and therefore cannot justify a separate heading,
+students to take personality tests,       consider a heading Honors and Activities to get that important word in a posi-
+participate in teamwork exercises,        tion of emphasis.
+and examine their people skills.             Include the following kinds of entries in this category:
+At Tuck, professors designed a
+program which places students
+in teams of five to work together          =      Academic honor societies. Specify the nature of Greek-letter honor soci-
+throughout their program.                         eties (i.e., journalism honorary) so the reader doesn’t think they’re just
+   Recruiters note that job candi-                social clubs.
+dates need to present their soft
+                                           =      Fellowships and scholarships, including honorary scholarships for
+skills in language appropriate for
+the particular job they are seeking.
+                                                  which you received no money and fellowships you could not hold
+                                                  because you received another fellowship at the same time.
+Adapted from Phred Dvorak, “M.B.A.         =      Awards given by professional societies.
+Programs Hone ‘Soft Skills," Wall
+Street Journal, February 12, 2007, B3;     =      Major awards given by civic groups.
+and Dana Mattioli, “Hard Sell on ‘Soft’
+Skills Can Primp a Résumé: Experience
+                                           =      Varsity letters; selection to all-state or all-America teams; finishes in
+with Facebook, Class Project, Juggling            state, national, or Olympic meets. (These could also go under Activities
+Activities Can Impress Employers,” Wail           but may look more impressive under Honors. Put them under one cat-
+Street Journal, May 15, 2007, B6.
+                                                  egory or the other—not both.)
+
+
+                                              Identify honor societies (“national journalism honorary,” WM “campus honor-
+                                          ary for top 2% of business majors”) for readers who are not in your discipline.
+                                          If your fellowships or scholarships are particularly selective or remunerative,
+                                          give supporting details:
+                                               Clyde Jones Scholarship: four-year award covering tuition, fees, room,
+                                               and board.
+                                               Marilyn Terpstra Scholarship: $25,000 annually for four years.
+                                               Heemsly Fellowship: 50 awarded nationally each year to top Information
+                                               Science juniors.
+                                          Be careful of listing Dean’s List for only one or two semesters. Such a list-
+                                          ing reminds readers that in these days of grade inflation you were off the list
+                                          many more times than you were on it. Omit honors like “Miss Congeniality”
+                                          or “Muscle Man Star” that work against the professional image you want your
+                                          résumé to create.
+                                              As a new college graduate, try to put Honors on page 1. In a skills résumé,
+                                          put Honors on page 1 if they’re major (e.g., Phi Beta Kappa, Phi Kappa Phi).
+                                          Otherwise, save them until page 2—Experience will probably take the whole
+                                          first page.
+                                                              Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                 Chapter12   Building Résumés                                   385
+
+
+Experience                                                                                                 Altruism and Jobs
+
+You may use other headings   if they P work better: Work Experience, Summer Faz Mere                   pels
+                                                                                              reat to inves-
+                                                                                       more graduates
+                      ens                           5        2            z
+          .
+and Part-Time Jobs, Military Experience, Marketing Experience. In a skills             ieee ond eo
+résumé, headings such as “Marketing Experience” allow you to include         causes. And many ofthese grads
+accomplishments from activities and course projects. Headings that reflect                       find they ike makingadifference.
+skills mentioned in the job ad are particularly effective.                                         Teach for America, the nonprofit
+                             .     ;         :                   A      nA    ag                 that trains top college grads for
+          .                                                                                      teaching in poverty school dis-
+What to include Under this section in a chronological résumé, include the
+following information for each job you list: position or job title, organization,                _tricts, saw applications jump 42%
+city and state (no zip code), dates of employment for jobs held during the last 10               in 2009. The Peace Corps had
+to 15 years, and other details, such as full- or part-time status, job duties, special           16% more applications.
+responsibilities, or the fact that you started at an entry-level position and were     —Allof these opportunities provide
+promoted. Use strong verbs      such as the ones in Figure 12.6 to brainstorm what — experience    and leadership skills
+you've done. Try to give supporting details for highly valued attributes such                    valuable on the job market. They
+as communication skills and leadership experience. Include any internships                       28° pee              eno
+and co-ops0 you have had. : Also, include unpaid jobs and self-employment  if                    ee
+                                                                                                 Increased competition for these
+                                           aes                 .         :
+they provided relevant skills (e.g., supervising people, budgeting, planning,            eine ears thet aopioants
+persuading). Experience information  for skills résumés   is  discussed  on  page   387. should   highlight business experi-
+   Normally, go back as far as the summer after high school. Include earlier             ence, language skills (especially
+jobs if you started working someplace before graduating from high school but __gpanish and French), and volun-
+continued working there after graduation, or if the job is pertinent to the one _ teer experience.
+you are applying for. If you worked full-time after high school, make that clear.          Will you make a difference?
+   The details you give about your experience are    some     of the most  vital  infor- ss         som Kyle Stock, “Jobl
+mation   on your  résumé.  As you provide  these  details,   use  bulleted  lists  (easy ae             ee soe eretaes
+to read) rather than paragraphs which are harder to read and may be skipped _ profits See a Flood of Applications
+over. Remember that items in lists need to have parallel      structure; see page _ with Business and Legal Know Pow’
+                                                      :                             Wall Street Journal, June 9, 2009, D6.
+135 for a refresher. Focus on results rather than duties; employers are far more
+interested in what you accomplished than in what you had to do. Use num-
+bers to support your results wherever possible:
+   Supervised crew of 15
+   Managed $120,000 budget; decreased expenses by 19%.
+   Wrote monthly electronic newsletter; increased hits by 12%.
+Emphasize accomplishments that involve money, customers, teamwork, lead-
+ership, computer skills, and communication.
+
+ Figure 12.6         Action Verbs for Résumés
+nnnEEE EEEyEEEEEESESS                                                        ESSE
+
+  analyzed                directed               led                         reviewed
+
+  budgeted                earned                 managed                     revised
+
+  built                   edited                 motivated                   saved
+
+ chaired                  established             negotiated                 scheduled
+
+  coached                 evaluated               observed                   simplified
+
+  collected               examined                organized                  sold
+
+  conducted               helped                  persuaded                  solved
+
+  coordinated             hired                   planned                    spoke
+
+  counseled               improved                presented                  started
+
+  created                 increased               produced                   supervised
+
+  demonstrated            interviewed             recruited                  trained
+
+  designed                introduced              reported                   translated
+
+  developed               investigated            researched                 wrote
+ Se SDSS
+    n    OIEEIOE n
+PROFESSIONAL WRITING
+
+
+
+
+386                                      Part4   The Job Hunt
+
+
+               | Do Good Work               Use past tense verbs for jobs you held in the past, and present tense verbs for
+               [Create an “| Do Good     jobs you still have. Do not list minor duties such as distributing mail or filing
+           Work” folder to] back         documents. If your duties were completely routine, say, at your summer job at
+           up your claims of top         McDonald’s, do not list them. If the jobs you held in the past were low-level
+performance with solid evidence.         ones, present them briefly or combine them:
+  Before you leave the office this
+Friday,     write   down   five things      2008-2012 Part-time and full-time jobs to finance education
+you—not necessarily others—
+believe you did well this week,
+even if they represent common
+                                            If as an undergraduate you've earned a substantial portion of your college
+tasks. Perhaps you returned all          expenses with jobs and scholarship, say so in a separate statement under either
+phone calls, leaving no loose            Experience or Education. (Graduate students are expected to support themselves.)
+ends to tie at the end of the week.
+Or maybe the details you provide            These jobs paid 40% of my college expenses.
+in your sales reports enabled you
+to find additional product fits for
+the client. Any letters from happy
+customers or e-mails thanking
+                                            Paid for 65% of expenses with jobs, scholarships, and loans.
+you for solving a problem should
+go right in your folder. . . .           Paying for school expenses just with loans is generally not considered noteworthy.
+  Tuck that list away and con-
+tinue this weekly exercise for the
+                                         Formats for setting up Experience           There are two basic ways to set up the
+entire month. At the end of the
+month, narrow the four or five
+                                         Experience section of your résumé. In indented format, items that are logically
+lists to 10 accomplishments that         equivalent begin at the same space, with carryover lines indented. Indented
+stand out to you. At the end of          format emphasizes job titles. It provides work information in this order:
+the year, review the 120 items              Job title, name of organization, city, state, dates. Other information.
+and cull them to 25. Formal-
+ize the language that describes             Experience
+those 25 achievements and print               Engineering Assistant, Sohio Chemical Company, Lima, Ohio, Summers 2011
+them out in an organized manner               and 2012.
+. . along with your references.
+                                              e Tested wastewater effluents for compliance with Federal EPA standards
+   “When someone asks, ‘What
+                                              e Helped chemists design a test to analyze groundwater quality and seepage
+do you bring to this organiza-
+tion?’ you won't merely reply, ‘I’m
+                                                around landfills
+good with people,’ you'll hand                e Presented weekly oral and written progress reports to Director of Research and
+that sales manager or HR person                 Development
+proof,” says professional trainer             Animal Caretaker, Animalcare, Worthington, Ohio, Summers 2008-2010.
+Carol Price.
+
+Quoted from Julie Sturgeon, “All
+                                             Two-margin or block format frequently can be used to emphasize when
+About You,” Selling Power, September     you worked, if you’ve held only low-level jobs. Don’t use two-margin format
+2000, 57.                                if your work history has gaps.
+
+                                            EXPERIENCE
+                                            Summers, 2010-12       Repair worker, Bryant Heating and Cooling, Providence, RI
+                                            2010-11                Library Clerk, Boston University Library, Boston, MA. Part-
+                                                                   time during school year                                     ,
+                                            2008-10                Food Service Worker, Boston University, Boston, MA. Part-
+                                                                   time during school year
+                                            Summer, 2009           Delivery person, Domino’s Pizza, Providence, RI
+
+                                            The left column can also emphasize steadily increasing job titles.
+
+                                            Experience at Gene Elton, Miami, Florida
+                                            Intern
+                                            Computer Programmer
+                                            Systems Analyst
+                                                           Business and Administrative Communication, Tenth Edition            ae
+
+
+
+
+                                                              Chapter12   Building Résumés                                      387
+
+
+The right column would list duties and dates.                                                            Job Skills Checklist
+   Use a hyphen to join inclusive dates:                                                      <          Gaaagumunenden:
+
+  March-August, 2012 (or write out March to August, 2012)                                                oe       your      skills?
+                                                                                                             ib          Purdue's
+  2009-2012 or 2009-12                                                                        Online Writing Lab, has an excel-
+If you use numbers for dates, do not space before or after the slash:                         lent list to help get you going.
+                                                                                              Connect   the skills you     identify
+   10/10-5/11
+                                                                                              to experiences in your life that
+                                                                                              demonstrate  the skills; then
+Skills résumés Skills résumés stress the skills you have acquired rather                                          Le
+                                                                                              put the best material into your
+than specific jobs you have held. They show employers that you do have the                     Bes
+desired skill set even if you lack the traditional einen background.                          ho eae eh               eee
+They allow you to include skills acquired from activities and course projects in              _purdue.edu/ow/resource/626/1/.
+addition to jobs. On the other hand, they are also a clue to employers that you
+do lack that traditional background, or that you have gaps in your job history,
+so you will need to make your skill set convincing.
+    Inaskills résumé, the heading of your main section usually changes from “Expe-
+rience” to “Skills.” Within the section, the subheadings will be replaced with the
+skills used in the job you are applying for, rather than the title or the dates of the jobs
+you've held (as in a chronological résumé). For entries under each skill, combine
+experience from paid jobs, unpaid work, classes, activities, and community service.
+   Use headings that reflect the jargon of the job for which you’re applying:
+logistics rather than planning for a technical job; procurement rather than pur-
+chasing for a job with the military. Figure 12.7 shows a skills résumé for some-
+one who is changing fields.
+   A job description can give you ideas for headings. Possible headings and
+subheadings for skills résumés include
+                 Administration           Communication
+                 Budgeting                Editing
+                 Coordinating             Fund-Raising
+                 Evaluating               Interviewing
+                 Implementing             Negotiating
+                 Negotiating              Persuading
+                 Planning                 Presenting
+                 Supervising              Writing
+   Many jobs require a mix of skills. Try to include the skills that you know
+will be needed in the job you want. You need at least three subheadings in
+a skills résumé; six or seven is not uncommon. Give enough detail under each
+subheading so the reader will know what you did. Put the most important
+category from the reader’s point of view first.
+   In a skills résumé, list your paid jobs under Work History or Employment
+Record near the end of the résumé (see Figure 12.7). List only job title, employer,
+city, state, and dates. Omit details that you have already used under Skills.
+
+ Other Skills
+ You may want a brief section in a chronological résumé where you highlight
+ skills not apparent in your work history. These skills may include items such as
+ foreign languages or programming languages. You might want to list software
+ you have used or training on expensive equipment (electron microscopes,
+ NMR machines). As always on your résumé, be completely honest: “two years
+ of high school German,” or “elementary speaking knowledge of Spanish.”
+ Any knowledge of a foreign language is a plus. It means that a company desir-
+ ing a second language in its employees would not have to start from scratch in
+ training you. Figure 12.8 lists skills in its Qualifications section.
+eek   PROFESSIONAL WRITING
+
+
+
+
+      388                                     Part4   The Job Hunt
+
+
+      Figure 12.7                    A Skills Résumé for Someone Changing Fields
+
+
+                                                                               my     have 4             266 Van Buren Drive
+                                                                               avy Nes
+                                                                                   cA  gional W    \D
+                    Molly Schooner                                             profession     6          Lawrence, KS 66044
+                                                                                nad                      schoonerm@ukansas.edu
+                www.ukansas.edu/~Schooner88/home.htm                            ne URI                   785-897-1534 (home)
+
+                                                                                                         785-842-4242 (cell)
+
+                    Objective             To contribute my enthusiasm for writing as a Technical Writer at PDF
+                                          Productions
+
+                    Skills                Computer
+                              Care        ¢ Designed a web page using Dreamweaver
+              7        C. allows YOU           www.lawrenceanimalshelter.com                                company
+            okllS     " jerienc°"e           Used a variety of Macintosh and PC platform programs and languages:
+            to mor and class                   Aspects(online discussion forum)                    Adobe Professional
+             from WO"                          Dreamweaver CS5                                     HTML                      Specily
+                                               PageMaker                                           Java Script               computer
+                                               XML                                                 Photoshop CS5             programs
+                                                                                                                              vou know
+                                          Design and Writing                                                                  ‘ vel
+                                                                                                                                vell
+                                          e Designed a quarterly newsletter for local animal shelter
+                                          e Developed professional brochures
+                                          e Wrote a variety of professional documents: letters, memos, and reports
+                                          e Edited internal documents and promotional materials
+                                          e Proofread seven student research papers as a tutor
+
+                                          Organization and Administration
+                                          ¢ Coordinated program schedules
+                                          e Developed work schedules for five employees
+                                          e Led a 10-member team in planning and implementing sorority
+                                            philanthropy program
+                                          ¢ Created cataloging system for specimens
+                                          ¢ Ordered and handled supplies, including live specimens
+
+                Employment              — Technical Writer, Lawrence Animal Shelter, Lawrence, KS, 2010—present
+                History                   Undergraduate Lab Assistant, Department of Biology,
+                     sed to                     University of Kansas, Lawrence, KS, 2010-present                       Uses reverse
+                                          Tutor, University of Kansas, Lawrence, KS, 2009-2010                         chronology
+
+
+                Education                 Bachelor of Arts, May 2012
+                                          University of Kansas, Lawrence, KS
+                                          Major: Animal Ecology
+                                          Minor: Chemistry               Give minor        when
+                                                                                         helpful
+                                          GPA: 3.4/4.0                    it can be
+
+
+                Honors                    Phi Kappa Phi Honor Society
+                                          Alpha Lambda Delta Honor Society, Ecology Honorary
+                                          Dean’s List, 2007 — present                                            explail
+                                          Raymond Hamilton Scholarship, 2010-2011                                 reader ™
+                                                    ($5,000 to a top ecology student in Kansas)
+                                                       Business and Administrative Communication, Tenth Edition
+
+
+
+
+Figure 12.8       A One-Page Chronological Resume
+
+
+
+                                                                                                       831.503.4692
+                                                                                                     51 Willow Street
+     Jeff      Moeller                                                                           San José, CA 95112
+                                                              Use job title
+                                                              ae company name in                  jmoeller@csmb.edu
+
+   Career Objective                                            Career Objective
+   To bring my attention to detail and love for computer/video games to Telltale Games as a Game Designer
+
+
+   Qualifications
+     e Experienced in JavaScript, Lua, and Python
+     : Intermediate proficiency with Visual Studio; high proficiency with Source
+     e                                                                           Safe Highlights
+                                                                                      qualifications
+     e Excellent communication, interpersonal, and collaboration skills               specific to the job.
+       Advanced knowledge of computers
+     e Love of video games
+
+
+   Education
+   California State University Monterey Bay                                   Keeps Education
+   August 2008-May 2012 (expected)                                            section simple to
+   Bachelor of Science in Computer Science and Information Technology         @/)phasize
+                                                                              experience.
+
+   Experience
+   Online Marketing     Consultant —Self-Employed          Lists job titles
+   October 2009-present                                    on separate lines.
+     e Manage multiple-client Google Adwords accounts
+     e Install web software and implement designs for fast turnarounds
+     e Interface with clients using Basecamp
+
+
+   Editor-in-Chief —Point Network LLC                ee             ae
+   June 2007- present                                    you are doing the job now.
+     e Write and edit for several LucasArts-related gaming news websites
+     e Design and code websites using Wordpress
+     e Manage and administrate the LucasForums.com community
+
+                                                                     Use past tense fo
+    Online Marketing Assistant—Hayfield Group                       jobs that are Nar
+    May 2010-August 2010; May 2010-August 2011
+      e Managed all client Google Adwords accounts
+      e Assisted in or managed planning and executing PPC and SEO campaigns
+      e Coded the company website and integrated the Drupal CMS
+      e Prepared website analytics reports using Google Analytics and other analytics suites
+
+
+    Community Manager —Praise Entertainment, Inc.
+    April 2009-September 2011
+                                                                          online forum owners
+      e Managed the community at AdminFusion.com, a website geared toward
+       e Organized and ran a monthly contest for community members
+
+                                 Close with strong
+    Honors and Activities seciion.
+      e Member of the gaming press for E3 2010 and 2011
+      * Member of second place team in 2011 National STEM Video Game challenge
+         (see demo, “Parrot Villa” at www.STEMChallenge.gov/201 1_winners)
+                                                                                   Include activities that employer
+                                                                                   might value
+PROFESSIONAL WRITING
+
+
+
+
+390                                   Part4    The Job Hunt
+
+
+            What to Know
+            about Job
+                                      Activities
+            References                Employers may be interested in your activities if you’re a new college graduate
+    Zz        Many job reference      because they can demonstrate leadership roles, management abilities, and social
+myths exist that may undermine        skills as well as the ability to juggle a schedule. If you’ve worked for several
+your job search:                      years after college or have an advanced degree (MBA, JD), you can omit Activi-
+Myth: | don’t have to mention         ties and include Professional Activities and Affiliations or Community and
+a job that didn’t work out,           Public Service. If you went straight from college to graduate school but have
+especially if |worked there only a    an unusually strong record demonstrating relevant skills, include this category
+short while.                          even if all the entries are from your undergraduate days.
+Fact: Employers check jobs                Include the following kinds of items under Activities:
+through Social Security, and
+they will believe the worst of
+                                       =      Volunteer work. Include important committees, leadership roles, com-
+omissions.
+                                              munication activities, and financial and personnel responsibilities.
+Myth: Companies are not
+legally allowed to give damaging
+                                       =      Membership in organized student activities. Include important subcom-
+information about applicants.                 mittees, leadership roles. Include minor offices only if they’re directly
+Fact: Although many companies
+                                              related to the job for which you’re applying or if they show growing
+have formal policies of providing             responsibility (you held a minor office one year, a bigger office the fol-
+only bare-bones data, many                    lowing year). Include so-called major offices (e.g., vice president) even if
+employees within those                        you did very little. Provide descriptive details if (but only if) they help
+organizations still engage in                 the reader realize how much you did and the importance of your work,
+providing additional, negative                or if they demonstrate usable job skills.
+information about applicants.          =      Membership in professional associations. Many of them have special
+Voice tone, or mentioning that
+                                              low membership fees for students, so you should join one or more.
+you may not be eligible for rehire,
+may speak volumes.                     =      Participation in varsity, intramural, or independent athletics. However,
+Myth: References do not matter
+                                              don’t list so many sports that you appear not to have had adequate time
+once you are hired.                           to study.
+Fact: References may still be          =      Social clubs, if you held a major leadership role or if social skills are
+checked after you are hired and               important for the job for which you’re applying.
+can be used for grounds for
+termination.                          As you list activities, add details that will be relevant for your job. Did you
+Myth: References are not              handle a six-figure budget for your Greek organization? Plan all the road trips
+needed after you have ajob.           for your soccer club? Coordinate all the publicity for the campus blood drive?
+Fact: Stay in contact with your       Design the posters for homecoming? Major leadership, financial, and creative
+references. You never know when       roles and accomplishments may look more impressive if they’re listed under
+you may want to change jobs.          Experience instead of under Activities.
+
+                                      Portfolio
+                                      If you have samples of your work available, you may want to end your résumé
+                                      by stating “Portfolio (or writing samples) available on request.” or by giving
+                                      the URL for your work.
+
+                                      REFERENCES
+                                      References are generally no longer included on résumés. Nor do you say “Ref-
+                                      erences Available on Request,” since no job applicant is going to refuse to sup-
+                                      ply references. However, yo

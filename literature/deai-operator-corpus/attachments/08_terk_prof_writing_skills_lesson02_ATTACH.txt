@@ -1,0 +1,1387 @@
+08_terk_prof_writing_skills_lesson02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: terk_prof_writing_skills
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/08_terk_prof_writing_skills_lesson02_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/08_terk_prof_writing_skills_lesson02.txt)========================================================================
+
+In Lesson 2 you will learn to use your writing plan to write a first draft. You'll see that once you
+have completed the six planning steps, you've already done most of the work. Only the final
+shaping is left.
+58   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+                                                                                                   59
+
+
+
+
+                                             WRITE THE FIRST DRAFT
+
+
+INTRODUCTION
+
+When you have completed your writing plan, the first draft almost writes itself. You’ve already
+done the hard work—deciding what you want to accomplish, finding the right words to express
+your main points, and selecting and organizing the facts and ideas you need to influence or in-
+form readers.
+
+The next step is to use that plan to write a first draft.
+
+OBJECTIVES
+
+
+In this lesson, you'll learn to write a professional and effective first draft by:
+         ™   Reviewing your writing plan and revising it as needed to make sure it is sound
+         m   Writing an opening that catches readers’ attention and clearly states what you are
+             writing about
+         ™   Using transitions to link points, paragraphs, and sections smoothly
+         ™   Using lists to present information so readers can grasp it quickly
+             Writing a closing that sums up points as needed and tells readers clearly what
+             happens next
+
+WHAT    YOU NEED
+
+         =   ‘Two or three samples of your writing
+         m@ The writing plan that you completed in Lesson 1
+
+REVIEW YOUR WRITING PLAN
+
+Before starting the first draft, take a few moments to review your writing plan. There are two
+reasons for doing this:
+         m   If there are any inconsistencies in the plan, it's important to correct them before
+             you begin the first draft.
+         ™   This review helps you keep your plan in mind when you start writing—particu-
+             larly if time has passed since you finished planning.
+60   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL GUIDE
+
+
+
+
+Here are some questions to ask as you review your writing plan:
+
+             Have I considered my readers’ point of view?
+             Have I correctly identified my primary purpose?
+             Does my key sentence accomplish my primary purpose?
+             WRITING TO INFLUENCE
+                        Explain why readers should do what I want them to do?
+             WRITING TO INFORM
+                        Introduce and/or summarize what readers need to know?
+             Have I eliminated unnecessary information?
+             Have I included all necessary information?
+             Have I organized the information logically and effectively—from the reader's
+             point of view?
+
+If you answer “No” to any of these questions, take a closer look at your writing plan. Before you
+start the first draft, be sure the plan accurately expresses what you intend to say.
+                                                                  LESSON   2   WRITE   THE FIRST DRAFT   61
+
+
+
+
+WRITE AN INVITING OPENING
+
+Why do you think that openings are important? Write down a few reasons here:
+
+
+
+
+The first few lines of any piece of writing are extremely important. It is in the opening paragraph
+that you must catch your readers’ attention, set the right tone, and make it clear what you are
+writing about.
+
+Read these two openings. Which opening makes you want to continue?
+
+E-MAIL 1      This is in reference to your recent e-mail which was passed to this department for
+              review. Unfortunately, the information you requested is not available at this point
+              in times
+
+E-MAIL 2.     Thank you for asking about the August 5 computer class. I am sorry that we do not
+              yet know the instructor’s name or the location, but we should be able to send you
+              all the details by July 15.
+
+You probably preferred the opening of E-Mail 2. E-Mail 1’s opening uses a lot of clichés such as,
+“This is in reference to... .” It communicates little specific information.
+
+The opening of E-Mail 1, in contrast, was clearly written by one person to another. It responds
+directly to specific questions. The writer gets to the point quickly and provides details.
+
+Here are the criteria for an effective opening:
+        m   It establishes a personal contact with the reader and sets the right tone—particu-
+            larly important tasks when your primary purpose is to influence
+        m   It catches the reader's attention
+        m   It includes a key sentence that tells the reader what you are writing about
+        ™   It is no more than three or four sentences long
+62   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+Here are some examples of openings. In each set, put an X next to the opening you think best
+meets the criteria.
+
+
+            A) We hereby acknowledge receiving your message dated April 20. Your complaint
+               has been taken under advisement.
+
+            B) Thank you for telling us about the missing parts in the equipment you recently
+                purchased. We will be happy to replace the parts, but we need the following
+                information ....
+
+
+
+            A) Per your recent inquiry concerning delivery of your car, a fax was sent to the at-
+               tention of the manufacturer. We are pleased to provide you with a photocopy of
+               the response we received.
+
+            B) Weare happy to say that your car will arrive in port on Wednesday, August 1.
+               You can pick it up any time after noon on Thursday, August 2.
+
+
+If you preferred Opening B in each set, then you recognize an effective opening.
+
+One quick way to improve openings is to avoid overused phrases like these:
+
+
+       With reference to ...                                      Regarding your recent communication ...
+       Pursuant to ...                                        We are in receipt of your message ...
+       Enclosed, please find ...                                  On the above date and time ...
+       Please be advised ...                                  This is in regards to ...
+       Attached herewith ...                                      Per your request ...
+       | am writing to inform you ...
+                                                              LESSON   2   WRITE THE FIRST DRAFT   63
+
+
+
+
+Here are some examples of how to replace overused phrases with simple, direct language:
+
+
+
+    Per your request for shipping                 As you asked, here are the instructions
+    instructions ...                              for preparing your shipment.
+
+    Please be advised that your                   Unfortunately, your shipment has been
+    shipment has been delayed.                    delayed.
+    Enclosed, please find copies of your          | have enclosed copies of your last three
+    last three invoices.                          invoices.
+
+                                                  | am sending copies of your last three
+                                                  invoices.
+
+                                                  Here are copies of your last three
+                                                  invoices.
+
+    | am writing to inform you that your          We have found your shipment.
+    shipment has been located.
+    This is in regards to your recent             Thank you for telling us that you appreci-
+    communication regarding our                   ated our customer service team’s quick
+    service.                                      response to your questions about our
+                                                  software.
+
+    We are in receipt of your message in          As you asked, we are happy to send
+    regards to the vacant position.               you an application for the position of
+                                                  Community Relations Director.
+64   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+EXERCISE
+
+Using your imagination to fill in missing details, revise the following openings so they cover the
+following points:
+         @   make a personal contact with the reader,             Hint    tt will be easier to revise
+             set the right tone, and catch the reader's           the openings if you look
+             attention                                               at the message from the
+         ™ include a key sentence that tells the reader                   reader's point of view.
+             what you are writing about
+         ™   are no more than three or four sentences long
+
+OPENING 1
+
+              Please be advised that your comments on the proposed Computer
+              Training Program, received by this office on June 3, have been
+              reviewed and, where appropriate, incorporated into the program.
+
+
+
+
+OPENING 2
+
+              | am writing to inform you that payment has not yet been received for
+              the current month. The conditions of your note specify that payment
+              be made no later than the first day of each month. It is imperative that
+              payment be received within 10 days of the date of this message.
+                                                               LESSON   2   WRITE   THE   FIRST DRAFT   65
+
+
+
+
+OPENING 3
+
+           Attached please find a copy of the Assistant Director’s message to
+           Acme Products. Also attached is a copy of the message to Alex Stein
+           from Acme’s CEO, as well as a copy of the Test Plan form, which was
+           written by Bill Jordan.
+
+
+
+
+ANSWERS
+
+Here are the kinds of changes you might have made.
+
+                                          OPENING 1
+
+ORIGINAL     Please be advised that your comments on the proposed Computer Training
+             Program, received by this office on June 3, have been reviewed and, where appro-
+             priate, incorporated into the program.
+
+REVISION     ‘Thank you for your comments on the proposed Computer Training Program.
+             We have incorporated the suggested changes listed below.
+
+                                          OPENING 2
+
+ORIGINAL     | am writing to inform you that payment has not yet been received for the current
+             month. The conditions of your loan specify that payment be made no later than
+             the first day of each month. It is imperative that payment be received within 10
+             days of the date of this message.
+
+REVISION     We have not yet received the loan payment that was due on April 1. Please make
+             sure we receive it no later than April 25.
+
+                                          OPENING 3
+
+ORIGINAL     Attached please find a copy of the Assistant Director’s message to Acme Products.
+             Also attached is a copy of the message to Alex Stein from Acme’s CEO, as well as a
+             copy of the Test Plan form, which was written by Bill Jordan.
+
+REVISION     I’m enclosing copies of the following:
+             ¢ the Assistant Director’s message to Acme Products
+             ¢ the Acme CEO’s message to Alex Stein
+             ¢ Bill Jordan’s Test Plan form
+66    PROFESSIONAL WRITING SKILLS: A WRITE IT WELL GUIDE
+
+
+
+
+                                               SUMMARIES
+
+
+     When youre writing a report, business plan, or proposal, consider including asummary
+     for your reader. Summaries, also known as report summaries and executive summaries,
+     serve a different purpose from introductions or background statements.
+
+     Under most circumstances, an introduction or background statement is read by people
+     who will read the rest of the document. The purpose is to establish a context for what
+     people are going to read.
+
+     On the other hand, a summary might be read by people who will never see—or never
+     read—the entire document. Summaries are designed for people who need to know your
+     most important message and the key facts you have included to inform or influence your
+     reader about that important message.
+
+     It’s a good idea to write the summary after you've developed the writing plan. Then you
+     can use the summary statements from the writing plan to develop your report or executive
+     summary.
+
+     Keep the following points in mind when you write summaries:
+           ¢ Always state your most important message at the beginning of the summary
+           ¢ Put the summary at the beginning of the document
+           ¢ Keep the summary short (between half a page and a full page is ideal; some
+             experts say that a summary should be no longer than one tenth of the entire
+             document)
+
+           ¢ Make sure that the summary covers all the main points and that they are in the
+             same order as in the main document
+           ¢ Focus on the most important points—remember that readers can turn to the
+             main document if they want or need more details
+                                                                    LESSON   2   WRITE   THE FIRST DRAFT   67
+
+
+
+
+TRANSITIONS
+
+To make your writing more readable, use transitions to connect your ideas. A transition is a
+word, phrase, or sentence that relates a new topic to the previous one, smoothly connecting the
+parts of a piece of writing.
+
+Transitions are rather like the cartilage and tendons that hold your bones together. They form a
+connective tissue that links your ideas to one another. In writing, transitions show readers how
+your ideas fit together, help you achieve continuity, and help readers follow your points easily.
+
+Read this e-mail. Notice how the boldfaced words and phrases serve as transitions, helping the
+reader see the connection between points.
+
+            Alex:
+
+            Thanks for calling yesterday to ask about this year’s sales conference.
+            The Planning Committee is running a little behind schedule, but I’m
+            happy to tell you what we know so far.
+
+            Despite the problem we had with meeting space last year, we’ve de-
+            cided to give Lazy Acres another try. Everyone rates the other facili-
+            ties very highly. In particular, people like the tennis courts and exer-
+            cise equipment. Also, the guest rooms are spacious, SO we can use
+            them for small group meetings.
+
+            Although the date is still under discussion, we’re looking at the sec-
+            ond week in August. We are, however, also considering September;
+            for one thing, the August date might interfere with people’s vacation
+            plans.
+
+            Unless we run into a snag, we hope to have firm plans by the end of
+            the month. I'll let you Know what | know as soon as | know it. Until
+            then, feel free to pass this information on to your staff.
+68     PROFESSIONAL WRITING SKILLS:   A WRITE IT WELL GUIDE
+
+
+
+
+Here are examples of words and phrases you can use to link points, sections and paragraphs:
+ADDITIONS                               CONTRASTS                COMPARISONS
+again                                   although                 equally
+also                                    but                      in the same way
+and also                                despite                  similarly
+as well as                              however
+as you asked                            nevertheless             EMPHASIS
+
+equally important                       unless                   above all
+for one thing                           until                    certainly
+further                                                          especially
+furthermore                             RESULT                   indeed
+in addition                             accordingly              in fact
+moreover                                as a consequence         in other words
+next                                    as a result              in particular
+now                                     consequently             of course
+                                        for that reason
+                                        thus                     SUMMARY
+                                                                 finally
+                                                                 on the whole
+                                                                 to sum up
+                                                                    LESSON   2   WRITE THE FIRST DRAFT   69
+
+
+
+
+PRACTICE
+
+Underline the transitions in this message. Notice how they help link the points and improve the
+tone.
+            Dear Frieda:
+
+               As you asked, | am happy to suggest a marketing consultant
+            for your new project. The person | recommend most highly is Kate
+            Jackson.
+
+                | worked with Kate for two years at Vision West. Although we were
+            in different departments, we worked together on at least five projects.
+            She was reliable and pleasant. Best of all, she seemed to have a nev-
+            er-ending store of creative ideas, although she never tried to impose
+            them on the group. In fact, she was quite willing to drop any plan that
+            didn’t seem workable.
+
+               Unless Kate’s situation has changed since | last spoke to her in
+            May, | suspect she will be very interested in your position. She will, of
+            course, want to know something about the opportunities it offers for
+            advancement.
+
+               | hope Kate works out for you. If not, give me a call and I'll keep
+            my eyes open for someone else.
+7O   PROFESSIONAL   WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+Did you underline these transitions?
+
+              Dear Frieda:
+
+                 As you asked, | am happy to suggest a marketing consultant
+              for your new project. The person | recommend most highly is Kate
+              Jackson.
+
+                  | worked with Kate for two years at Vision West. Although we were
+              in different departments, we worked together on at least five projects.
+              She was reliable and pleasant. Best of all, she seemed to have a nev-
+              er-ending store of creative ideas, although she never tried to impose
+              them on the group. In fact, she was quite willing to drop any plan that
+              didn’t seem workable.
+
+                 Unless Kate’s situation has changed since | last spoke to her in
+              May, | suspect she will be very interested in your position. She will, of.
+              course, want to know something about the opportunities it offers for
+              advancement.
+
+                 | hope Kate works out for you. If not, give me a call and |’ll keep
+              my eyes open for someone else.
+
+
+USING LISTS
+
+How do you read business documents? Chances are, you don't linger over the words the way
+youd linger over a novel. Instead, you probably scan the document to pick out the main points
+and the details you need.
+
+Taking the reader’s point of view, it’s easy to see that paragraphs are not always the best way to
+present information. The more technical or complicated the information, the more likely it is to
+be lost when it’s presented in paragraph form.
+
+Your goal as a writer is to help readers find information as quickly as possible. To show consider-
+ation and speed things up for your reader, look for opportunities to present information in lists.
+
+Read the examples on the next two pages. They both present the same information, but look
+how much easier this information is to scan when it’s in list form.
+                                                       LESSON   2   WRITE   THE   FIRST DRAFT   hal
+
+
+
+
+Dear Ms. Fratelli:
+
+    To process your loan application, we need the following informa-
+tion and documents as soon as possible.
+
+   In item 12A, please enter the name and address of the lender who
+holds your second deed of trust. The current balances on all your
+credit cards and outstanding loans should be entered in items 16B
+and 16C, except for your automobile loans (item 16D).
+
+   The name and address of your previous employers should be en-
+tered in Item 6C if you have been at your current job for less than two
+years. Include an explanation of any gap in employment during the
+past ten years.
+
+   List the balances on your bank accounts in item 4A. Include the
+name and address of the institution and the account number. Use
+items 4B, C, and D for certificates of deposit, stocks, etc., as shown.
+
+   The purpose of the loan should be entered in item 3, along with the
+amount requested. Finally, be sure to sign and date the form in item
+23. The completed form should be sent to the loan processor along
+with copies of your last two years’ tax returns and copies of your
+most recent pay stubs.
+
+   Please let me know if you have questions.
+
+                      Sincerely,
+72   PROFESSIONAL   WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+REVISION
+
+              Dear Ms. Fratelli:
+
+                 To process your loan, we need a completed application as soon
+              as possible. Please send the completed form to the loan processor
+              along with copies of the following two documents:
+
+                     Your last two years’ tax returns
+
+                     Your most recent pay stubs
+
+              On the application form, please complete the following items:
+
+                     Describe the purpose of the loan and enter the amount requested.
+
+                     List the balances on your bank accounts (4A). Enter the name and ad-
+                     dress of the institution and the account number. List any certificates of
+                     deposit, stocks, etc., as shown (4B, 4C, and 4D).
+
+                     If you have been at your current job for less than two years, enter the
+                     name and address of your previous employers (6C). Include an explana-
+                     tion of any gap in employment during the past ten years.
+
+                     Enter the name and address of the lender who holds your second deed
+                     of trust (12A).
+
+                     List the current balances on all your credit cards (16B), outstanding
+                     loans (16C), and automobile loans (16D).
+
+                     Sign and date the form (Item 23).
+
+              Please let me know if vou have questions.
+
+                                          Sincerely,
+                                                                     LESSON   2   WRITE   THE   FIRST DRAFT   73
+
+
+
+
+GUIDELINES FOR USING LISTS
+
+You can use a list in business writing—and, often, you should use a list—whenever you present
+three or more related pieces of information. Lists are more effective than long paragraphs be-
+cause they
+         @   communicate information quickly
+         ™@ save valuable writing time
+         m   reduce the chance of grammar and punctuation errors
+
+To make sure your lists are easy to read, follow the five guidelines below. Full illustrations of each
+of these guidelines follow the list.
+
+
+    1. Introduce the list. Every list needs an introductory statement, if only a few words, that
+       tells readers what the list is about and puts the list items in context. Make sure that you
+       leave a space between the introductory statement and the first list item.
+
+    2. Make sure that all items belong on the list. All items on the list should relate directly
+       to the introductory statement.
+
+    3.   Be consistent with initial capitalization, sentence structure, and end punctuation.
+
+         m   If you capitalize the first word of one line, capitalize the first word in every line.
+         ™   Items in any single list should all be complete sentences, or all be sentence frag-
+             ments. List items that are sentence fragments should not end in periods, and do
+             not have to begin with capital letters (unless the first word is a proper noun).
+         =   For lists of complete sentences, end punctuation (periods or question marks) is
+             only necessary for each item if any item contains more than one sentence. In any
+             list of complete sentences, you must use end punctuation after all the list’s items if
+             even one list item has end punctuation.
+
+    4.   Keep the list parallel in form. For example, if one item begins with an -ing verb tense,
+         then all items should begin with -ing verbs.
+
+    5.   Organize the list for your readers. Lists that include more than five or six items can be
+         difficult to follow. Make lists easier to read by organizing the items into main points and
+         subpoints.
+74   PROFESSIONAL    WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+Here are examples to illustrate the five guidelines for lists that you just read.
+
+     1.   Introduce the list.
+
+          A list should never stand alone: it needs an introductory statement. The first item in a list
+          cant introduce the list itself.
+
+          WITHOUT AN INTRODUCTION
+
+              e      We offer several thank-you gifts
+
+              e      A10% discount on purchases during May
+
+              e      Adiscount coupon for the Milano Ristorante
+
+              e      Acomplimentary bottle of our best olive oil
+
+
+          WITH AN INTRODUCTION
+
+              To express our appreciation for your business, we would like to offer
+              you a choice of the following thank-you gifts:
+
+              e      A10% discount on purchases during May
+
+              e      Adiscount coupon for the Milano Ristorante
+
+              e      Acomplimentary bottle of our best olive oil
+
+     2. Make sure that all items belong on the list. All items on the list should relate directly
+        to the introductory statement.
+
+          NOT ALL ITEMS RELATE TO THE INTRODUCTORY                          STATEMENT
+
+              To prepare the room for training, please do the following:
+
+              e     Set up the tables in a U shape
+
+              e     Put two flipcharts in the front of the classroom
+
+              e     Place the projector on the table in the corner
+
+              e     Make sure that there are lots of exercises and opportunities to practice
+                                                             LESSON   2   WRITE   THE FIRST DRAFT   75
+
+
+
+
+ALL ITEMS RELATE TO THE INTRODUCTORY                         STATEMENT
+
+    When training is over, please do the following things:
+
+    e   Recycle used flipchart pages
+
+    e   Turn off the projector and store it in the closet
+
+    e   Put the tables and chairs back the way you found them
+
+    e   Give the completed evaluations to Melissa
+
+Be consistent with initial capitalization, sentences or sentence fragments, and end
+punctuation.
+
+
+Use end punctuation only when at least one item contains more than one complete
+sentence. In paragraphs, sentences’ end punctuation (periods and question marks) tells
+readers when one sentence stops and another starts. In lists, end punctuation is only
+necessary if an item contains more than one sentence. That’s because the format of a list
+clearly shows where one item stops and another begins. It’s not wrong to use end punctu-
+ation for single sentences in a list. But if you use end punctuation for one item, you must
+use it for all items.
+
+END PUNCTUATION            UNNECESSARY
+
+    We are unable to meet the original deadline for the following reasons:
+
+    ¢   Two team members resigned in October and we have been unable to re-
+        place them
+
+    e   The client expanded the project scope
+
+    e   Three weeks of heavy rain made it impossible to complete our investigation
+
+END PUNCTUATION            NECESSARY
+
+    Here is a Summary of our findings:
+
+    e   The costs of moving to a new location will be higher than we originally
+        estimated.
+
+    e   According to the most current figures, the total cost will exceed $150,000.
+76   PROFESSIONAL       WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+              e     If we delay the move for five years, we will need an additional 10,000
+                    square feet of space.
+
+              e     Only 30 percent of our employees say they would be willing to move out of
+                    California. Over 60 percent, however, would be willing to consider a move
+                    within the northern area of the state.
+
+          The following list is hard to read because its format is inconsistent.
+
+          INCONSISTENT
+
+              We are unable to meet the original deadline for the following reasons:
+
+                    ¢    Two team members resigned in October. We have been unable to re-
+                         place them.
+
+                    ®    expanded project scope
+
+                    e    Three weeks of heavy rain made it impossible to complete our
+                         investigation
+
+
+          The periods in the first item are inconsistent with the complete sentence in the third
+          item, which has no period. The uncapitalized sentence fragment is distracting because its
+          form is inconsistent with the other two items. As a general rule, start bulleted items with
+          a capital; it looks more professional.
+
+          Here’s the same list in a consistent format.
+
+
+          CONSISTENT
+
+              We are unable to meet the original deadline for the following reasons:
+
+                    ¢    Two team members resigned in October and we have been unable to
+                         replace them
+
+                    e    The client expanded the project scope
+
+                    e    Three weeks of heavy rain made it impossible to complete our
+                         investigation
+
+     4.   Keep the list parallel in form.
+          The items in a list must be parallel—presented in the same forms. For example, if one
+          item begins with a verb, all the items must begin with verbs. If one item is a complete
+          sentence, all the items must be complete sentences.
+                                                                LESSON   2   WRITE   THE FIRST DRAFT   77
+
+
+
+
+     NOT PARALLEL
+
+         The agenda for the March meeting includes the following:
+
+               Discussion of the new health plan, which will be available to all perma-
+               nent full-time employees
+
+               Whether to revise the procedures manual
+
+               Early-retirement policy
+
+
+     PARALLEL
+
+         At the March meeting, we will do the following:
+
+               Discuss the new health plan, which
+               will be available to all permanent full-
+                ;                                          For more about parallel struc-
+               time employees
+                                                           ture, see Lesson 5: Use Correct
+               Decide whether to revise the proce-         Grammar, page 137.
+               dures manual                                                      -
+
+               Draft an early-retirement policy
+
+5.   Organize the list for your reader.
+     As a general rule, keep lists short. There should be no more than five or six items on your
+     list. When long lists are necessary, reorganize them as two or more shorter lists. Make
+     long lists easier for your readers to scan by organizing the items into main points and
+     subpoints.
+
+     TOO MANY       ITEMS
+
+         Please supply the following for the conference that begins on
+         October 22:
+
+               30 writing tablets for each meeting room
+
+               Five laptops for the community room
+
+               An overhead projector for each meeting room
+
+               Coffee, tea, and pastry in the foyer each morning
+
+               Four round tables for each meeting room
+
+              At least five telephones with outside lines in the community room
+
+              A basket of fruit for each table in the meeting rooms
+
+              A registration table in the foyer
+78   PROFESSIONAL       WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+         ITEMS ORGANIZED                   WITH SUBPOINTS
+
+              Please supply the following for the conference that begins on
+              October 22:
+
+              In each meeting room:
+
+                    ¢    30 writing tablets
+
+                    e    An overhead projector
+
+                    e    Four round tables
+
+                    e A basket of fruit for each table
+
+              In the community room:
+
+                    e    Five laptops
+
+                    e    At least five telephones with outside lines
+
+              In the foyer:
+
+                    ¢    Coffee, tea, and pastry each morning
+
+                    e Aregistration table
+                                                                 LESSON   2   WRITE   THE   FIRST DRAFT   79
+
+
+
+
+TRY IT
+
+
+Use the space below or a blank sheet of paper to rewrite this paragraph in list format. Remember
+to include an introductory statement that tells readers what the list is about and establishes the
+context. Remember to follow the guidelines on page 73.
+
+            The task force found that the customer service representatives need
+            training in how to respond to problems and complaints. There is
+            widespread unhappiness about the quality of food in the cafeteria,
+            indicating the need to find another vendor. How to implement flexible
+            hours without creating logistical problems requires additional study.
+            Finally, field representatives need more powerful laptops, which have
+            not been included in this year’s budget. These are the primary areas
+            of concern the members of the task force believe they need to ad-
+            dress during the next six months.
+80   PROFESSIONAL       WRITING   SKILLS:   A WRITE   IT WELL   GUIDE
+
+
+
+
+Here are two ways to revise that paragraph into a list:
+
+REVISION      1
+
+              Below are the primary areas of concern the members of the task force
+              believe they need to address during the next six months:
+
+                    e The customer service representatives need training in how to respond to
+                      problems and complaints
+
+                    e There is widespread unhappiness about the quality of food in the cafete-
+                      ria, indicating the need to find another vendor
+
+                    e Additional study is needed to determine how to implement flexible hours
+                      without creating logistical problems
+
+                    e    Field representatives need more powerful laptops, which have not been
+                         included in this year’s budget
+
+
+REVISION 2
+
+              The task force members believe they must do the following during the
+              next six months:
+
+                    e    Train customer service representatives to respond to problems and
+                         complaints
+
+                    e    Search for a new vendor who will improve the quality of food in the
+                         cafeteria
+
+                    e    Study ways to implement flexible hours without creating logistical
+                         problems
+
+                    e    Find funds to provide field representatives with the more powerful lap-
+                         tops they need
+                                                                  LESSON   2   WRITE   THE   FIRST DRAFT   81
+
+
+
+
+                                                                                                 paragraph
+TRYIT       Use the space below or a blank sheet of paper to rewrite and reformat this
+seeeeeees   3 alist.
+
+                      To help us update our database, please review the enclosed
+                      listings and notify us of any changes. First, proofread each
+                      listing and indicate any necessary corrections. Then please
+                      enter the best address for clients to reach you and at the
+                      same time verify that the telephone and fax numbers and e-
+                       mail addresses are correct. Finally, if you wish, you may add
+                       a maximum of two lines of explanation to each listing.
+82   PROFESSIONAL       WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+REVISION
+
+Here's one way to present the information more effectively. Your version might differ.
+
+             To help us update our database, please review the enclosed listings
+             and notify us of any changes:
+
+                    e    Proofread each listing and indicate any necessary corrections
+
+                    e    Enter the best address for clients to reach you
+
+                    e    Verify that telephone and fax numbers and e-mail addresses are correct
+
+                    e    If you wish, add a maximum of two lines of explanation to each listing
+                                                                   LESSON   2   WRITE   THE FIRST DRAFT   83
+
+
+
+
+USING HEADINGS
+
+Can you think of any reasons to use headings in your documents?
+
+
+
+
+                                    The Benefits of Headings
+        ™   Headings make it easier for people to find information. At work, people don't read
+            every word of every document.
+        ™   Headings make a document more attractive by creating an organized visual lay-
+            out. Research shows that long, dense paragraphs are the most difficult and dis-
+            couraging way to present information to your readers. Headings are a good way to
+            break up dense text.
+        ™   Headings force you to group relevant facts and information together. This makes
+            your document easier for readers to follow.
+
+Headings make your documents easier to understand by presenting your reader with concise
+themes. Headings are essential if your document is long or complicated, or contains technical
+information. The planning process itself helps you come up with the headings: once you group
+information into categories, the headings practically identify themselves.
+
+Here's a single e-mail without headings, and then with them.
+
+WITHOUT     HEADINGS
+
+            Ali:
+
+            Hope you can come to the meeting this summer. The annual presi-
+            dents’ circle sales meeting will be held at the Hilton in San Francisco
+            and you should bring your updated presentations and spreadsheets.
+            You can make travel arrangements yourself or Pam can help you.
+            We’ll have one day of learning with workshop leaders including Jamie
+            Hartwell, Linda Lou, and Peter Panino, and one day to look internally
+            at our processes with Jack Deiner.
+
+            We’re going to Alcatraz. It will be three days long with an optional din-
+            ner on Tuesday night. Sally is no longer available to help with travel
+            arrangements. Another agenda will be sent out. You can come on
+            Wednesday morning or Tuesday night but make sure that you’re there
+            till Friday morning. Bring comfortable walking shoes. If you make the
+            travel arrangements yourself, use billing code 55789. You don’t need
+84   PROFESSIONAL     WRITING   SKILLS: A WRITE   IT WELL GUIDE
+
+
+
+
+              to bring anything else. You were selected because you did a great
+              job.
+
+
+
+
+WITH HEADINGS
+
+              Subject: Annual Presidents’ Circle Sales Meeting, July 14-17, 2009
+
+              Ali:
+
+              Because of the great job you did this year, you’ve been invited to
+              the Presidents’ Circle Sales Meeting in San Francisco this summer.
+              Following is all the information you'll need to make your travel ar-
+              rangements. We’ll send you a more detailed agenda by May 1.
+
+                                         Meeting Dates and Location
+
+              The meeting will be held in the San Francisco Hilton from Tuesday,
+              July 14th, through Friday, July 17th, 2009.
+
+                                             Travel Arrangements
+
+              The travel process has changed; Sally is no longer available to help.
+              You can make arrangements yourself using your company credit card
+              and billing code 55789, or ask Pam to help.
+
+                                                   What to Bring
+
+              Please bring your updated spreadsheets and presentations. Also,
+              bring comfortable walking shoes for an outing to Alcatraz on Friday
+              morning. We’ll provide everything else you need.
+
+                                                      Agenda
+
+              e Tuesday: meet for dinner at the hotel restaurant at 7 p.m. (optional)
+
+              e      Wednesday: meetings 9-5 with Jamie Hartwell, Linda Lou, and Peter
+                     Panino, followed by dinner at Aziza
+
+              e      Thursday: meetings 9-5 with Jack Deiner followed by dinner at La Mar
+                     Cebicheria
+
+              e      Friday: morning excursion to Alcatraz; meeting convenes at 1 p.m.
+
+             That’s it! Please let me know if you have any questions. I’ll send out a
+             detailed agenda by May 1st. Thanks, and congratulations!
+                                                                    LESSON   2   WRITE   THE FIRST DRAFT   85
+
+
+
+
+CLOSING PARAGRAPHS
+
+A strong closing achieves the following goals:
+        @   makes a final personal contact with readers (a crucial factor when you're writing
+            to influence)
+
+        @   wraps up any loose ends
+        ™   tells readers clearly what happens next
+        ™   uses specific language
+
+A closing paragraph might also do the following:
+        ™   restate what readers should do
+        m@ restate what readers should know
+
+Compare these two closings. Which do you prefer?
+
+CLOSING 1           It would be appreciated if this situation could be rectified in a timely manner.
+                    Any questions can be addressed to this writer at the above address.
+
+CLOSING 2           Please find the missing file by June 15. If I can help in any way, please call me
+                    at (510) 655-6477.
+
+
+You probably preferred Closing 2. The first closing is impersonal and vague. The second is spe-
+cific to the situation and conveys useful information.
+
+Here are examples of the kinds of clichés that sound tired—as if they were produced by a ma-
+chine rather than by a person.
+
+        Please contact the undersigned regarding time constraints on this policy.
+
+        Your assistance and cooperation will be greatly appreciated.
+
+        Do not hesitate to contact this writer should you require additional information.
+
+
+Minor changes can transform those closings by making them specific to the piece of writing.
+86   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+                    INSTEAD        OF ...                                       TRY THIS «.:
+     Please contact the above regarding time                  Please call John Alcotts about the expiration
+     constraints on this policy.                              date on this policy.
+
+
+
+     Your assistance and cooperation will be                  | will be grateful for any help you can give me in
+     greatly appreciated.                                     tracking down the correct phone number.
+
+
+
+     Do not hesitate to contact this writer                   If you need a map or specific directions, please
+     should you require additional information.               let me know.
+                                                                 LESSON   2   WRITE   THE FIRST DRAFT   87
+
+
+
+
+PRACTICE
+
+Write a closing for this message.
+
+
+
+
+             Dear Mr. Hogan:
+
+             Thank you for asking about our new Flexible Loan Program. I’m
+             happy to send a brochure that describes the program and includes an
+             application.
+
+             We designed this program after many discussions with customers
+             about what types of lending arrangements they wanted. | think you’ll
+             find it offers some unique ways of meeting your financial needs.
+
+
+
+
+             Turn the page to see an example of a closing you might have written.
+88   PROFESSIONAL WRITING SKILLS: A WRITE IT WELL GUIDE
+
+
+
+
+ANSWER
+
+
+Here's one possible conclusion for the message.
+
+
+
+              Dear Mr. Hogan:
+
+             Thank you for asking about our new Flexible Loan Program. I’m
+             happy to send a brochure that describes the program and includes an
+             application.
+
+             We designed this program after many discussions with customers
+             about what types of lending arrangements they wanted. | think you'll
+             find it offers some unique ways of meeting your financial needs.
+
+             Please let me know if you have questions about this loan pro-
+             gram. If | haven’t heard from you, I’ll call in two weeks to see if
+             you’d like to apply for a loan under this new program.
+                                                                              LESSON    2   WRITE   THE FIRST DRAFT   89
+
+
+
+
+REVIEW
+
+Fill in the blanks with the correct word or phrase. If you're not sure what to write, turn to the
+page number in the parentheses to the right of the sentence.
+
+    1. Before starting to write the first draft, always
+                                                                      your writing plan.        (59)
+
+    2. An effective opening:
+        MG cstablishes.ec- et
+                           5 oe                                .contact-with thes.
+        Mire          otc neciie Tene! Gee. oa          eee                SS
+        M@ includes a key sentence that tells the reader what you are
+
+
+        Mi no mnored Nan =
+                         eee                                                           OF
+        eeeS                                      Sentenecs. lone   (61)
+
+    37 Wse tramsijonsiones Soh oe syourddeds,
+                            se 24                                                (67)
+
+    4. A strong closing:
+         @           makes a final
+         a                                                                 with readers
+         aia                  fee    FO Se Oe oe                           the mam pomt
+         @           wraps up any
+
+         @           tells readers clearly what
+         Bibtic or          Oval ve Ss SA         DY Pie                                       language       455)
+
+
+
+
+                                       Now turn the page for an assignment.
+90   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+It's time to try out everything you've learned in this lesson.
+
+You will draft a document, using the writing plan you completed at the end of Lesson 1.
+
+OPTION: _ If you wish, you may start with a new situation. But be sure to use a new Writing
+          Worksheet to develop a new writing plan. Don’t ignore everything you’ve
+          learned so far by starting a draft without a plan!
+                                                                   LESSON   2   WRITE   THE FIRST DRAFT   91
+
+
+
+
+                                   WRITING WORKSHEET
+
+SUBJECT:
+
+
+   1.   LOOK AT WHAT YOU'RE GOING TO WRITE FROM YOUR READERS’ POINT OF
+        VIEW.
+
+        Name or describe reader(s):
+
+
+        Think about your readers’ needs, interests, and concerns. Then check the appropriate
+        boxes:
+
+        IS YOUR READER ...
+        ™   expecting to hear from you?
+        @   familiar with the subject?
+        m@ already interested in what you have to say?
+        m@ likely to consider you an authority on the subject?
+        m   likely to find what you have to say useful?
+        ™   familiar with your views on the subject?
+        m@ already committed to a point of view?
+        m   likely to agree with your point of view?
+        @   likely to find your message uncomfortable?
+        ™   (other needs, interests, and concerns)
+
+   2.   DECIDE ON YOUR PRIMARY PURPOSE:
+
+                              L]   INFLUENCE              L]   INFORM
+
+   3.   COMPOSE A KEY SENTENCE THAT EXPRESSES YOUR MOST IMPORTANT
+        MESSAGE:
+
+        I want my reader(s) to do or to know:
+92   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+     4.    LIST THE FACTS AND IDEAS TO INCLUDE:
+
+
+
+
+          Continue on another page if necessary.
+                                                  LESSON   2   WRITE THE FIRST DRAFT   93
+
+
+
+
+5.   GROUP POINTS INTO CATEGORIES (Key points):
+
+
+
+
+6.   WRITE A SUMMARY STATEMENT OF ONE TO THREE SENTENCES FOR EACH
+     CATEGORY, AND PUT THEM IN ORDER.
+
+
+
+
+     Continue on another page if necessary.
+94   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+                                          WRITING WORKSHEET
+
+SUBJECT:
+
+     1.   LOOK AT WHAT YOU’RE GOING TO WRITE FROM YOUR READERS’ POINT OF
+          VIEW.
+
+          Name or describe reader(s):
+
+          Think about your readers’ needs, interests, and concerns. Then check the appropriate
+          boxes:
+
+          IS YOUR READER            ...
+
+          ™   expecting to hear from you?
+          @   familiar with the subject?
+          ™   already interested in what you have to say?
+          m   likely to consider you an authority on the subject?
+          @   likely to find what you have to say useful?
+          ™   familiar with your views on the subject?
+          m™ already committed to a point of view?
+          m@ likely to agree with your point of view?
+          @   likely to find your message uncomfortable?
+          ™   (other needs, interests, and concerns)
+
+     2.   DECIDE ON YOUR PRIMARY PURPOSE:
+
+                                    L]    INFLUENCE               L]   INFORM
+
+     3.   COMPOSE A KEY SENTENCE THAT EXPRESSES YOUR MOST IMPORTANT
+          MESSAGE:
+
+          I want my reader(s) to do or to know:
+                                               LESSON   2   WRITE   THE   FIRST DRAFT   95
+
+
+
+
+4.   LIST THE FACTS AND IDEAS TO INCLUDE:
+
+
+
+
+      Continue on another page if necessary.
+96   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+     5.   GROUP POINTS INTO CATEGORIES (Key points):
+
+
+
+
+     6.   WRITE A SUMMARY STATEMENT OF ONE TO THREE SENTENCES FOR EACH
+          CATEGORY, AND PUT THEM IN ORDER.
+
+
+
+
+          Continue on another page if necessary.
+                                                                  LESSON   2   WRITE   THE   FIRST DRAFT   97
+
+
+
+
+                                     WRITING WORKSHEET
+
+SUBJECT:
+
+
+   1.   LOOK AT WHAT YOWRE GOING TO WRITE FROM YOUR READERS’ POINT OF
+        VIEW.
+
+        Name or describe reader(s):
+
+
+        Think about your readers’ needs, interests, and concerns. Then check the appropriate
+        boxes:
+
+        IS YOUR READER         ...
+
+        ™   expecting to hear from you?
+        @   familiar with the subject?
+        ™   already interested in what you have to say?
+        m@ likely to consider you an authority on the subject?
+        m@ likely to find what you have to say useful?
+        ®™ familiar with your views on the subject?
+        m@ already committed to a point of view?
+        m   likely to agree with your point of view?
+        ®   likely to find your message uncomfortable?
+        ™   (other needs, interests, and concerns)
+
+   2.   DECIDE ON YOUR PRIMARY PURPOSE:
+
+                              L]     INFLUENCE           L]   INFORM
+
+   3.   COMPOSE A KEY SENTENCE THAT EXPRESSES YOUR MOST IMPORTANT
+        MESSAGE:
+
+        I want my reader(s) to do or to know:
+98   PROFESSIONAL   WRITING   SKILLS; A WRITE   IT WELL   GUIDE
+
+
+
+
+     4.    LIST THE FACTS AND IDEAS TO INCLUDE:
+
+
+
+
+          Continue on another page if necessary.
+                                                      LESSON   2   WRITE   THE FIRST DRAFT   99
+
+
+
+
+    5.   GROUP POINTS INTO CATEGORIES (Key points):
+
+
+
+
+    6.   WRITE A SUMMARY STATEMENT OF ONE TO THREE SENTENCES FOR EACH
+         CATEGORY, AND PUT THEM IN ORDER.
+
+
+
+
+Continue on another page if necessary.
+100   PROFESSIONAL   WRITING   SKILLS: A WRITE   IT WELL   GUIDE
+
+
+
+
+WHAT?’S NEXT?
+
+The next four lessons give you tools to shape the final language of your document. In

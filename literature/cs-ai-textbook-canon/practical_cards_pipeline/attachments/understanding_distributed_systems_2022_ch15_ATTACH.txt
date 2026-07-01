@@ -1,0 +1,329 @@
+understanding_distributed_systems_2022_ch15_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 15
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch15_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch15_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 15
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch15_ingest.md |
+| text_lines_read | 4964–5085 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 15 |
+| chapter_title | Content delivery networks |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+CDNs as geo-distributed reverse-proxy overlay networks: BGP limitations, edge placement, global DNS LB, multi-tier caching, DDoS shielding.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Overlay > cache** (4981–5047): BGP optimizes hops not latency; edge clusters + IXPs; TCP connection pools.
+2. **Dynamic frontend** (5049–5052): CDN shields non-cacheable API; DDoS protection.
+3. **Cache tiers** (5055–5085): Hit ratio vs edge count trade-off; intra-cluster partitioning → ch16.
+
+---
+
+## Section digest (anchored)
+
+### §15.1 Overlay (4981–5052)
+
+Figure 15.1 RTT reduction.
+
+### §15.2 Caching (5055–5085)
+
+Edge + intermediate tiers.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Explain content delivery networks role in Cruder scale path.
+2. Apply patterns to operator cloud stack.
+
+### worked_examples_present
+
+**Y** — Cruder narrative + figures cited in text.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **Design hook:** Apply Content delivery networks to one operator static-asset path.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.15 full slice | Read | 4964–5085 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 4964–5085 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+Edge delivery stack; pairs S3 ch17 + CDN for static/media.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | Medium — parallel themes at data layer |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (figures).
+- **Chapter boundary:** Clean.
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Primary papers and vendor docs in footnotes |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Cruder + cloud refs |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Next UDS ch | Scale path continues |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 4964–5085 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Content | Content delivery networks per chapter |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch15_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch15_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 15
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+across multiple teams by decomposing it into independently de-
+ployable services. Next, it introduces the concept of an API gate-
+way as a means for external clients to communicate with the back-
+end after it has been decomposed into separated services.
+Chapter 22 describes the beneﬁts of separating the serving of client
+requests (data plane) from the management of the system’s meta-
+data and conﬁguration (control plane), which is a common pattern
+in large-scale systems.
+Chapter 23 explores the use of asynchronous messaging channels
+to decouple the communication between services, allowing two
+services to communicate even if one of them is temporarily un-
+available. Messaging offers many other beneﬁts, which we will
+explore in the chapter along with its best practices and pitfalls.
+
+
+Chapter 14
+
+HTTP caching
+
+Cruder’s application server handles both static and dynamic
+resources at this point. A static resource contains data that usually
+doesn’t change from one request to another, like a JavaScript or
+CSS ﬁle. Instead, a dynamic resource is generated by the server
+on the ﬂy, like a JSON document containing the user’s proﬁle.
+
+Since a static resource doesn’t change often, it can be cached. The
+idea is to have a client (i.e., a browser) cache the resource for some
+time so that the next access doesn’t require a network call, reducing
+the load on the server and the response time.1
+
+Let’s see how client-side HTTP caching works in practice with a
+concrete example. HTTP caching is limited to safe request meth-
+ods that don’t alter the server’s state, like GET or HEAD. Suppose
+a client issues a GET request for a resource it hasn’t accessed be-
+fore. The local cache intercepts the request, and if it can’t ﬁnd the
+resource locally, it will go and fetch it from the origin server on
+behalf of the client.
+
+The server uses speciﬁc HTTP response headers2 to let clients
+know that a resource is cachable. So when the server responds
+  1
+   This is an example of the replication pattern in action.
+  2
+   “HTTP caching,” https://developer.mozilla.org/en-US/docs/Web/HTTP
+/Caching
+
+CHAPTER 14. HTTP CACHING                                           146
+
+
+with the resource, it adds a Cache-Control header that deﬁnes for
+how long to cache the resource (TTL) and an ETag header with a
+version identiﬁer. Finally, when the cache receives the response,
+it stores the resource locally and returns it to the client (see Figure
+14.1).
+
+
+
+
+Figure 14.1: A client accessing a resource for the ﬁrst time (the Age
+header contains the time in seconds the object was in the cache)
+
+Now, suppose some time passes and the client tries to access the
+resource again. The cache ﬁrst checks whether the resource hasn’t
+expired yet, i.e., whether it’s fresh. If so, the cache immediately
+returns it. However, even if the resource hasn’t expired from the
+client’s point of view, the server may have updated it in the mean-
+time. That means reads are not strongly consistent, but we will
+safely assume that this is an acceptable tradeoff for our applica-
+tion.
+
+If the resource has expired, it’s considered stale. In this case, the
+
+CHAPTER 14. HTTP CACHING                                        147
+
+
+cache sends a GET request to the server with a conditional header
+(like If-None-Match) containing the version identiﬁer of the stale
+resource to check whether a newer version is available. If there is,
+the server returns the updated resource; if not, the server replies
+with a 304 Not Modiﬁed status code (see Figure 14.2).
+
+
+
+
+          Figure 14.2: A client accessing a stale resource
+
+Ideally, a static resource should be immutable so that clients can
+cache it “forever,” which corresponds to a maximum length of a
+year according to the HTTP speciﬁcation. We can still modify a
+static resource if needed by creating a new one with a different
+URL so that clients will be forced to fetch it from the server.
+
+Another advantage of treating static resources as immutable is that
+we can update multiple related resources atomically. For example,
+if we publish a new version of the application’s website, the up-
+dated HTML index ﬁle is going to reference the new URLs for the
+JavaScript and CSS bundles. Thus, a client will see either the old
+
+CHAPTER 14. HTTP CACHING                                           148
+
+
+version of the website or the new one depending on which index
+ﬁle it has read, but never a mix of the two that uses, e.g., the old
+JavaScript bundle with the new CSS one.
+
+Another way of thinking about HTTP caching is that we treat
+the read path (GET) differently from the write path (POST, PUT,
+DELETE) because we expect the number of reads to be several
+orders of magnitude higher than the number of writes. This is a
+common pattern referred to as the Command Query Responsibility
+Segregation3 (CQRS) pattern.4
+
+To summarize, allowing clients to cache static resources has re-
+duced the load on our server, and all we had to do was to play
+with some HTTP headers! We can take caching one step further
+by introducing a server-side HTTP cache with a reverse proxy.
+
+
+
+14.1        Reverse proxies
+A reverse proxy is a server-side proxy that intercepts all commu-
+nications with clients. Since the proxy is indistinguishable from
+

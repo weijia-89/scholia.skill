@@ -1,0 +1,251 @@
+# Curated chapter fan-out for deai-operator-corpus (deai_removal | tic_enrichment | both)
+# Split markers verified against source_exports/*.txt on 2026-06-27.
+# Papers 01–04: no fan-out (full attach).
+
+papers_no_fanout:
+  - 01_corpus_3375627
+  - 02_jones_2015_jslw
+  - 03_s00146_2024_ai_writing
+  - 04_s40979_2024_ai_writing
+
+books:
+  - prefix: 05_baker_2020_prof_writing_speaking
+    slug: baker_2020_prof_writing_speaking
+    title: Professional Writing and Speaking (5th ed.)
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: ch01
+        title: Managing with Communication
+        lanes: [tic_enrichment]
+        start_offset: 11628
+        rationale: Audience, management communication foundations; baseline tic register.
+      - chapter_id: ch03
+        title: Composing Business Messages
+        lanes: [tic_enrichment]
+        start_offset: 199179
+        rationale: OABC pattern, message structure — core tic craft.
+      - chapter_id: ch05
+        title: Reviewing and Revising
+        lanes: [both]
+        start_offset: 436272
+        rationale: Revision passes overlap deai signal removal and tic polish.
+      - chapter_id: ch06
+        title: Communicating with Social Media
+        lanes: [tic_enrichment]
+        start_offset: 502522
+        rationale: Short-form professional tone; platform norms [recency risk].
+      - chapter_id: ch07
+        title: Communicating for Employment
+        lanes: [tic_enrichment]
+        start_offset: 693216
+        rationale: Cover letters, employment genres — direct tic lane.
+
+  - prefix: 06_locker_2012_prof_writing_w231
+    slug: locker_2012_prof_writing_w231
+    title: Professional Writing (W231)
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: ch02
+        title: Adapting Your Message to Your Audience
+        lanes: [tic_enrichment]
+        start_offset: 236546
+        rationale: Audience analysis — tic voice priming.
+      - chapter_id: ch03
+        title: Building Goodwill
+        lanes: [tic_enrichment]
+        start_offset: 388937
+        rationale: Goodwill strategies; feeling-attribution contrast (deai cross-ref).
+      - chapter_id: ch05
+        title: Planning, Composing, and Revising
+        lanes: [both]
+        start_offset: 693722
+        rationale: Revision workflow — deai + tic overlap.
+      - chapter_id: ch06
+        title: Building Résumés
+        lanes: [tic_enrichment]
+        start_offset: 870525
+        rationale: Résumé genre craft.
+      - chapter_id: ch07
+        title: Delivering Negative Messages
+        lanes: [both]
+        start_offset: 1077939
+        rationale: Negative message structure; hedging vs directness.
+      - chapter_id: ch08
+        title: Writing Job Application Letters
+        lanes: [tic_enrichment]
+        start_offset: 1247252
+        rationale: Cover letter models — primary tic deliverable.
+
+  - prefix: 07_peeples_2003_prof_writing_rhetoric
+    slug: peeples_2003_prof_writing_rhetoric
+    title: Professional Writing and Rhetoric
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: ch02
+        title: Definition of Rhetoric
+        lanes: [tic_enrichment]
+        start_offset: 117451
+        rationale: Rhetorical foundations for professional voice.
+      - chapter_id: ch06
+        title: Professional Writers Produce User-Centered Documents
+        lanes: [tic_enrichment]
+        start_offset: 1007703
+        rationale: User-centered design of workplace documents.
+
+  - prefix: 08_terk_prof_writing_skills
+    slug: terk_prof_writing_skills
+    title: Professional Writing Skills
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: lesson02
+        title: Write the First Draft
+        lanes: [tic_enrichment]
+        start_offset: 99418
+        rationale: Drafting process.
+      - chapter_id: lesson03
+        title: Lesson 3
+        lanes: [both]
+        start_offset: 151910
+        rationale: Concise writing — deai verbosity + tic clarity.
+      - chapter_id: lesson04
+        title: Lesson 4
+        lanes: [tic_enrichment]
+        start_offset: 168730
+        rationale: Professional message forms.
+      - chapter_id: lesson07
+        title: Email — Write Effective E-Mail
+        lanes: [tic_enrichment]
+        start_pattern: "LESSON\\s+7\\s+WRITE\\s+EFFECTIVE\\s+E-MAIL"
+        start_min_offset: 250000
+        rationale: Email genre — high operator use. Body starts ~276983 (not 196512 cross-ref).
+
+  - prefix: 09_henry_2000_writing_workplace
+    slug: henry_2000_writing_workplace
+    title: Writing Workplace Cultures
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: part02
+        title: Part Two — Workplace Writing
+        lanes: [tic_enrichment]
+        start_offset: 14193
+        rationale: Workplace genre survey.
+      - chapter_id: ch06
+        title: Representing Discursive Work
+        lanes: [tic_enrichment]
+        start_offset: 394176
+        rationale: Discursive features in organizational writing.
+
+  - prefix: 10_olmstead_2011_elements_writing_craft
+    slug: olmstead_2011_elements_writing_craft
+    title: Elements of the Writing Craft
+    lane_hint: both
+    chapters:
+      - chapter_id: craft01
+        title: Opening with the Storyteller
+        lanes: [tic_enrichment]
+        start_offset: 5412
+        rationale: Sentence-level craft from masters' excerpts.
+      - chapter_id: craft02
+        title: Opening with a History
+        lanes: [tic_enrichment]
+        start_offset: 14749
+        rationale: Voice and observation exercises.
+      - chapter_id: craft03
+        title: Opening with an Encounter (Nonfiction)
+        lanes: [both]
+        start_offset: 21285
+        rationale: Revision and word choice — deai symptom overlap.
+
+  - prefix: 11_long_2018_portable_mentor
+    slug: long_2018_portable_mentor
+    title: The Writer's Portable Mentor
+    lane_hint: both
+    # split_mode: epub_spine when inbox EPUB present; byte offsets verified on export 2026-06-27
+    chapters:
+      - chapter_id: part01
+        title: Part I — Your Move
+        lanes: [both]
+        start_offset: 25683
+        ingest_priority: high
+        rationale: >
+          Daily writing + working with language / gathering words — diction foundations
+          for deai_removal and tic habit.
+      - chapter_id: part02
+        title: Part II — Finding a Structure
+        lanes: [tic_enrichment]
+        start_offset: 124539
+        ingest_priority: medium
+        rationale: Structural analysis for documents; exceeds 119k attach — full text on disk.
+        slice_boundary_note: >
+          Part II slice ~196k chars; attach truncates at 119k. Prefer full chapter path for
+          Cursor reads. Not the sentence-craft core (see part03).
+      - chapter_id: part03
+        title: Part III — Art of the Sentence and Paragraph
+        lanes: [both]
+        start_offset: 320413
+        ingest_priority: p0_deai
+        rationale: >
+          PRIMARY deai lane — sentence mechanics, diction, paragraph craft. Higher value than
+          Part V revision process for prose-level signal removal.
+      - chapter_id: part04
+        title: Part IV — Honing, Deepening, Stretching
+        lanes: [both]
+        start_offset: 415863
+        ingest_priority: high
+        rationale: Metaphor, simile, deepening — deai symptom patterns (hedging, cliché).
+      - chapter_id: part05
+        title: Part V — Getting the Work into the World
+        lanes: [both]
+        start_offset: 451455
+        ingest_priority: low_deai
+        rationale: >
+          Revision/submission process scaffolding — keep but LOWER priority than Parts I–IV
+          for deai_removal prose craft (process not diction core).
+
+  - prefix: 12_munier_2016_writers_guide_beginnings
+    slug: munier_2016_writers_guide_beginnings
+    title: A Writer's Guide to Beginnings
+    lane_hint: tic_enrichment
+    chapters:
+      - chapter_id: ch01
+        title: In the Beginning Was the Word
+        lanes: [tic_enrichment]
+        start_offset: 12002
+        rationale: Opening hooks — cover letter / memo leads.
+      - chapter_id: ch02
+        title: Chapter Two
+        lanes: [tic_enrichment]
+        start_offset: 45948
+        rationale: First-page craft.
+
+  - prefix: 13_ginna_what_editors_do
+    slug: ginna_what_editors_do
+    title: What Editors Do
+    lane_hint: both
+    chapters:
+      - chapter_id: part02
+        title: Part II — The Editing Process
+        lanes: [both]
+        start_offset: 138212
+        rationale: Line and developmental editing essays (Part II).
+      - chapter_id: part03
+        title: Part III — Publication
+        lanes: [tic_enrichment]
+        start_offset: 278125
+        rationale: Editor-as-manager and publication machinery.
+        slice_boundary_note: >
+          Historically part03_ATTACH truncated at 119k and included the opening of Ch. 14
+          (Goldman) at the tail. Slice now ends at Part IV boundary — Ch. 14 is excluded.
+          Ingest Goldman only via chapter_id ch14.
+      - chapter_id: ch14
+        title: Ch. 14 — Listening to the Music (Erika Goldman)
+        lanes: [both]
+        start_offset: 353202
+        rationale: Part IV literary-fiction editing essay; separate slice (not part03).
+        ingest_status: deferred
+      - chapter_id: ch15
+        title: Ch. 15 — Dukes, Deaths, and Dragons (Diana Gill)
+        lanes: [both]
+        start_offset: 371576
+        rationale: Part IV genre-fiction editing; bounds ch14 slice end.
+        ingest_status: deferred

@@ -1,0 +1,63 @@
+# Orchestrator status — cs-ai practical cards phase 2
+# Scope ID: scholia/cs-ai-textbook-canon/phase-2-practical-cards
+# Operator: update status + evidence after each batch.
+# Regenerate batches: refresh_pipeline.sh
+
+meta:
+  scope: scholia/cs-ai-textbook-canon/phase-2-practical-cards
+  orchestrator_prompt: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/prompts/ORCHESTRATOR_cs_ai_practical_cards.md
+  curriculum: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/card_curriculum.yaml
+  consumer: /Users/dubs/Projects/local-rag-linux-setup
+  pilot_cards_preserve:
+    - sandwich-prompt-refocus
+    - quorum-read-write
+    - two-phase-commit-trace
+    - genai-chart-summarization-efficacy
+  last_updated: 2026-06-26
+
+iron_laws:
+  manifest_flag_after_cards: true
+  trainer_verify_before_done: true
+  batch_max_parallel: 16
+
+# Status: pending | in_progress | done | blocked | skipped
+
+hardening_lane:
+  h01_review_loop_pass:
+    status: pending
+    verify:
+      - bash /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/scripts/run_practical_cards_review_loop.sh
+      - bash /Users/dubs/Projects/scholia.skill/scripts/verify_practical_cards_pipeline.sh --summary
+    evidence: ""
+
+  h01b_consumer_wire:
+    status: pending
+    depends_on: [wave_lane complete, h01_review_loop_pass]
+    verify:
+      - bash /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/scripts/run_practical_cards_consumer_wire.sh
+    evidence: ""
+
+  h02_curriculum_generated:
+    status: pending
+    depends_on: []
+    verify:
+      - test -f .../card_curriculum.yaml
+      - test -d .../prompts/dispatch
+    evidence: ""
+
+wave_lane:
+  # Populated after refresh_pipeline.sh — operator sets first batch pending → in_progress on kickoff phase 2
+  # Example key: w1_foundation_fan-out_01
+  _placeholder:
+    status: skipped
+    note: Run refresh_pipeline.sh then copy batch keys from card_curriculum.yaml into this section
+
+consumer_lane:
+  c01_rag_wire:
+    status: pending
+    depends_on: [h01_review_loop_pass]
+    trigger_phrase: kickoff wire
+    verify:
+      - bash /Users/dubs/Projects/local-rag-linux-setup/scripts/check_cs_ai_rag.sh --no-sync
+      - bash /Users/dubs/Projects/local-rag-linux-setup/scripts/rag_query.sh "What are the steps for sandwich prompt refocus?"
+    evidence: ""

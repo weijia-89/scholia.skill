@@ -1,0 +1,1767 @@
+05_baker_2020_prof_writing_speaking_ch01_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: baker_2020_prof_writing_speaking
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/05_baker_2020_prof_writing_speaking_ch01_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/05_baker_2020_prof_writing_speaking_ch01.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/05_baker_2020_prof_writing_speaking_ch01.txt).
+========================================================================
+
+Chapter 1 • Man aging with Communication                                      Professional Writin        S eakln • 2
+
+
+          ii rei;ult, )'Our communicn1ion !ikills wdl grca1ly influence your 11dvnnccmcnt1 your :mlary,
+          11nd your job scL-urit)'. Comnmnicntion affects everything in your cnr«r.
+               lhe lirst rwm or this chapter discusse11 imponnnt interpersonal knowledge ond skilh1
+          you need for l'juocotdm.g in professional organ11.auon,. 'l'hc second piut or this clmptcr
+          eonecnlmtcli on the-nuina;;cmcnl skill:; you need for gelling result:; through other:;.
+              After you have sludied this chapter, you i;hould be able to do the followlng:
+
+
+          •    Ocmonsmue cffccli\'C !iociul skills. including convc.nwilion, listening. .:md ne1working
+               skills.
+          •    Dcmonstrutc commonly cxpcctc-d nwnncu and profcsi1ioru1I c1iqucuc.
+          ■    Apply your knowledge .ind abililles in working with nnd achieving success 1hrough
+               othoo;.
+
+
+              Interpersonal          and Social Effectiveness
+
+          emplo)•crs consis1cntly role interpersonal ell"ccu\ 1cncs11 us n high 1niori1y in hiring new
+          employees. Interpersonal effectiveness Is critical 111 till levels of an org..1nh:111ion. 1 hiii
+          section d1scu..,scs the 1m1x,rtaooe of sc,c111I intdhgenoe-. trust. convers.ilion and hstcnlng,
+          networking, and manners nnd etiquette.
+
+
+          Social Intelligence
+          1'hc oeadcmfo nnd 1cchmeal knowledge )'<>u gi1in 111 college is impon11n1 ror performing
+          your bpce1fic lallks. but the relationship aspcc1 of your work mus1 never be O\'etlooked. In
+          Caci. Goleman (1995) states 1hut inlcrpcrsom1Iand social skills will hove a i:;rc11tcr impacl on
+          bu.,incs.~ i;uc.ccss than academic knowledge. Further. Oardnc--r ( 1993) suggests four abilities
+          to be socially cffcctl\'c-sdf abili1ics, including s,c.lf-11wnrcness nnd sclf-mnn11gcmcnt. and
+          othCT 11bilitici;, including sociul 3w11rcncsi; nnd rclatillnship monngcmcnt (sec ·ruble I.I), In
+          othCT words, you need to be aware ofimd man □gc yourself and 10 be uwore ofund manage
+          your rclauoniihip~ with othcN.
+
+                     T1bl• 1, 1 Gardner's Fottr Socio/ Eff6Clivaness Factors
+
+
+
+                                                                 Relationship managemont
+
+
+          Salf Abllltlos . 1'he "~If' row 1n the matrix indicatcll thllt you should be aware of your
+          own emotmns and nutnage them appropriately. For inslaoc<.\ 1f you're- in a meeting und
+          somoone cri1kizcs an idea you have llfoposed, your natural tendency is to become angry
+          and 1i1<;h back nl the person. Hut )'OIi cnn·1do thnl wilhout social conscqucnc-C$. lnstc:ad,jus1
+          suy 10 yourself. ··1know r m ungry right oow. but I must su1y culm and net mtionall)'... B)·
+          being uwnrc of your own cmouon11 nnd ketping lhcm under conlrol, you prevent ncgo11vc
+          eonscquencc.s nnd enhanec your credibility with your pc.tu.
+Chapter 1 • Managing with Communication                                          Professional Writin OS eakin • 3
+
+
+              You should ill-.o be IIWilre of how wtll )'OUnrc: pc:rfonning your work. Most c:ompnnics
+          have II formalized cmployce-cvahmtion 11rocess 10 gh c: conslmcti\'c employee fc:cdb.ic:k.
+                                                                      1
+
+
+
+          If your company docs not ha\·e such a process. rnqucst 1,cr(oinlance fc~dblll'k from your
+          manager, from two or du-cc peers whmic opinions you respect. ond from your ,ub<)l'thlUlle<S.
+          Ask about wh.al )'OU are domg wc:11 and how )'OU could imllm\'C. If Lhc foc:dbm:k isn't
+          forthC'.aming or ls loo general to be of much \'aluc, ask more spcclt'ic qursuons. such as, ·'In
+          1he pmJccts I have been working on during the: lns1 three mon1hs. what do you thmk I have:
+          done well and whal 0ould I do bc:11cr,"
+              When the f«dback comes. be rcceplh·c. Oon't become dcfen.m•c. After obtninmg the
+          feedback, onal)'1.C it. Docs it seem true? I-love you no1iec:d the ~me obsc:ivntiom: yoursdf/
+          Is thttc consistency across the cunuucntll mode by t:liffc:rcnl rcvlcwc:rs'! After analyzing the
+          informndon, list the improvements you want to make and then work on Lhem.
+               In addition 10 fonunl verbal feccl bnc:k, watch for subtle nonverbal feedback. When
+          you 111tk, do QlhCI'$ lis1c:n nod seem 10 value your inpu1? Arc ym1 included in important
+          meetings and discussions'? L>o othc:n1 a~k for your opinions? These und other 11pont1111couJ1
+          cuell provide usdul feedback, Wa1ch ond listen closely to 1hesc cues and then wmt to
+          bc:tome heller. '!'he ability to ,c1f..J1SlleSi nnd improve i~ vital to your pro(ellsional sucCCllll.
+
+          Other Abilities. 'rhe olhcrs row 111 the precedmg mnlrix indicates thot you should be
+          awnre of oihc:r people in your social settmg .incl rc<ipond to 1hcm 111,pmpnntely. ·ro wQrk
+          c1Tc:c1ively with other people. you must be able 10 empathize: 1bu1 is. 10 underslnnd whnl
+          lhC)' arc thinkmg .ind to sense whal they ILi\': feeling-to r1u1 yourself in 1hdr shoes nnd
+          feel wlm they u,c reeling. 'Ihen you mu,1 know how to respond appmpnatcly. If someone
+          Is happy. ffln1-c in the happiness. If.someone is unhappy. listen and find out the reason. If
+          someone is angry, allow them to vent thdr anger and then ex1m.·ss unde.rst.nnding.
+                  Some people lnck the ability to sen~ and inlerprct 1he socinl messages nround them.
+          1'hcy may talk 100 much, 1nlk only nbou11hemscl\'es, mnke socially cmhmrnssing IX!m·
+          111en1s. osk im1pproprlu1e personal qucslions. or seem oblivious 10 hints gi\fc:n by othcn1
+          to end a convcri1atio11. 'l'hcir in11cn,1tivi1y can !iprcnd to ocher ll,pc:c,s or their work nll
+          wcll- slnnding 100 dose in a coiwersi1tlon, ,pe.ikmg too loudly in a pubhc plac:e, laughins
+          inappropriatc:ly, and commhtmg other social blunders that mnkc: their peers um:omrortahle.
+          l:J.c:-cnuse subtle hints don·t wort wtth these people, you ma)' have to be more bold in giving
+          cues nncl helping them mnnngc: their behavior.
+              One way to build and slrc:nglhc:n rdnlionshipll 1s 10 work on being mol\': other•onentcd,
+          mth« thnn more self-oriented. Everyone: hns II natural tendency 10 be egocentric. to focus
+          on :,elf. bul those who can ri.'k above thill notural sclfishnclls lind great sntlsfoeiion in
+          bringing out the best mothers. When they do. they find that they also brlng oul the best in
+          themselves. Herc arc fi\tc lips lo hdll you hocomc more other-oncnled.
+
+          I. Consicler cvciyonc: to be cqm,I to you in 1cm1s ofimponanec: in lhc: organirntion. in-
+             cluding cus1odiol people. groundsktcpCI'$, und evc,yonc who helps your org..1ni1,111ion
+             in any way. Be kind and rcspL-cl(\d 10 everyone.
+Chapter 1 • Managing with Communication                                      Professional Writin OS eakln • 4
+
+
+          2. Notioc n1heJ people 1md 1nkc lime 10 speak with 1hem. Ask qut"'itioni; abou11hings th111
+              11re imponan110 them. Then just li1nen: don'1 ll)' 10 eclipse their comments with com•
+              mcncsof your own.
+          J. In sociul c.onvcrsa1101111, make conunenls th.nt end with a lwr,k. for instance, ll'wmcone
+             usks you a question, imswcr the question und then turn the rocui; bad on them with a
+             qucstionor s1alemenl like, "'l'ell me whal you thmk about that"
+          4 . Complimcm olhcn; hui avoid sug.ory-swcet oomphntl'nts th,11sound msincere. lni;tend,
+             sincerely compliment their nccomplishmcn1s and ch:uac1cr quulitics. He cauiiou.s ahou1
+             comphmcntmg on tippcomncc.
+          5. Avoid gos11ip--<:lon'1 SU)' thing.~ you wouldn'I !Ill)' 1f lhc person you're lulkin~ aboul
+             were lhcrc to listen.
+
+
+
+
+              Com·crsdy. n number of sd f-oricnled actions c.an cause scrious problems in bu~iness.
+          1'hc following 1ac1ion~ will produce bad rcsulls:
+
+
+          •   Ignoring and not U1lking to miters, nlso known ns .N011t!\l'alllng.
+          •   l::ldng discourteous, cmlci1.mg, mtd putting olhcrs down.
+          ■   lidng prideful and arrogant
+          •   Showing impallencc, fmstmtlon, and angcr.
+          •   Always rnlking abou1yciursdf and your .iccomplishmcnl1',
+          •   u,ing Oauery os o means of nch1eving your own ambitions.
+
+              Ihe Pcnonnl Aunbutcll Chari in Tobie 1.2 hig.hlightll 10 pcrsonol auribulcs tlmt are
+          valued in mosl organizations. Score )'Ourself on each one to idcntit'y where you an: strong
+          and where-you need work. Higher ratings (4-6) indicate agreement wilh i1 statement; lower
+          ratings (0- 2} indica1e disngr«men1 wi1h a slutcmenl. A neutral mting i:-; 3. Ralings in the
+          4-6 mnge sugges11h11111 pet'SOn il> more emotionally well adj us1cd. Ratings bclow 4 suggcsl
+          ~• need for improvanen1. To 1m1>rovo, set long-1em1 goals ond cslublish spocilic pluns ror
+Chapter 1 • Managing with Communication                                             Professional Writin OS eakln • 5
+
+
+              impro\'enwnt. Check )'e>ursclf ollcn 10 cn'iurC tlmt pmgres:; is being m~dc. Rcmembcr th111
+              1hc most imponant clement in improvement i.s u desire 10 impro\'C,
+
+   Table 1.2 Persona/Attributes Chart
+       Agroo              Noutrnt   Olaagroo                                Ton Attributes
+   6      5           4       3     2          Thoughtful and careful r-alho, than lfT¥1ulsive and impetuous
+   6      5           4       3     2          Extroverted mther than lntrovetted
+   6      5           4       3     2          Calm and composed rather than anxious aoo nel'\loUS
+   6      5           4       3     2          Oplimi:stic rather ttwn pessimistic
+   6      5           4       3     2          Respectful and sensitive ralher than dis.respectful and fnsensitive
+   6      5           4       3     2          Open and flexible rather than defensive and clos€KI
+   6      5           4       3     2          Pallant rolhor thon impatient
+   6      5           4       3     2          Teachable ralhor than ptoud and arrogant_ _
+   6      5           4       3     2          Self-confident aoo socure rathM that1 Insecure aoo appteho-nslve
+   6      5           4       3     2          Honest and forthright rather than devious and hidden
+
+
+
+              Trust
+              l!vc:-rything that happens within and hclw«n orgnmzatlons 1s based on some lypc orrda-
+              tloru;hip. and the more the partiClpanls can be:- h1Jsted, the better the relatlonshi1t will he.
+          'l'h e following clescnp1ion-. upply te> those who ment the highest levels of1rus1.
+
+
+              ■   1'hey tell the lruth, even when lhc tru1h 1s unpopular, They ovoid e.xaggcr111ing und
+                  embellishing the fuel<-.
+              •   •1hey c:-.in .ilways be t.'Ounted on le> fullill their rQiponsibilitic:s and to complete: wh.a1
+                  they say they wdl do.
+              •   1'hey do htgh•quality work.
+              •   'l'hcy wolt for the good of 1hc team or organirntion. not jus1 for 1hcir own selfish
+                  intcrtSL'i.
+                  0
+              •    1hey mJke sound dcdllion11 ~ 1st."tl on earcful thinlcing.
+              •   •1hey o<:t in a socially upproprbtc: manner, rcgardlcllS or lhe setting., and nlwayi keep
+                  thd r emntions under control.
+              •   1'hey arc sensitive to the fcehng.-. of others.
+
+
+                   People who arc trusted arc chosen 10 work: on imponanl pmjcc1s, chosen 10 work: on
+              lttims, nnd dmsen for promouons, l hercforc. wo1t to cum and mamuiin the trust ofothel'll
+              throughout )'Our life. Ucm.g trustworthy wdl ¥1Vc.you mnny opponunitici to be nn innucnce
+          for good m your proi'cssion, m your community. and in your home. Never bc:--Lray the lrusl
+          o f others, bccau:,.c trlL-.t, once lost._is diflicult to rcguin.
+                   Ethic~ is one pa11icularly impo11nnt aspecl of earning tmst. l'eoplc will not trus1 ind1-
+              \'iduals who nrt unethical and hick integrity. Ethics are principlc--hll-.cd s1nndnrd~or cocks
+          of bcha\'ior. They exis1 to help c:nsurt thm individui1ls, and businesses, operate in o fuir,
+Chapter 1 • Managing with Communication                                          Professional Writin OS eakln • 6
+
+
+          legul. nnd mC1ml fal\hinn, When ethic.ii hehi!vior il\ consi,;lcnlly pmcticcd between tw(l
+          par1ies. o strong bond of 1rust develops, When i1i)I not. u feeling of dis1rus1undcnnincs ull
+          lrunsuctions bctwcc:n the panics,
+              1b prevent employees from ucling uncthu:ully, mlny organizations dc\+clOp o c0tle of
+          conduct that rcllL-c,Lc; their commhmml to cthu:nl bc:havmr. S1alcmc-nts hkc the l'hllowins
+          nrc typicul l"or companies' codes of conduct:
+
+
+          we promote the i111erosls or our clients and never J)flrfonn worl( for competing clients
+          without disdosvre.
+
+
+          We treat fairly all employees Br>d cllonts, tega«Jloss ofll'IBlt race, relJglon. gender. disabllJty.
+          ago, nationality, or sexutM orientation.
+
+
+          We honor the confrdenliality of our client and emploYfHIS, di-s<ilOSing sensitive information
+          only 1Wth their consent or because of a logo! requktJmBnt to do so.
+
+
+          We advortJss our products 8/'/d servlc6s ltuthfully and avoid maWng false statamoms about
+          our competitors.
+
+
+          We refuse giffs or other favors that may compromise integrity and damage credibility.
+
+
+              Ju~t 01 companies and organizu1iom1 wri1c: codes of c:lhicol bcha\+ior. some: individuabi
+          do the: s1unc. You migttl consider writing your own code 10 guide your perwru1I and pl'O•
+          fcssiorual work 1hroughou1 your life. You c.un find many cx.implc:s of 111dh•idual oodcs of
+          conduct on the mlcrnet
+
+
+          Conversation and Listening
+          1bday's pmfc:s.~ionals comnontly engage: in di.scus.11ions and convc:niation11, from t.:>nnnl to
+          inform;il, so c:on.11illc:r your own conversnlion und lb,tenmg habil.!t. ~I hcse intcr11ction.11 can
+          happen in the hallway during work hours1 in a parting loi after work, or during lunch. 'lb
+          some people, these convcrsulions may seem lo be Just time fillcrs, bu! they .ire much more
+          than that. Your abili1y to convcrsc: easily will leave a strong impression m the mmds of
+          nth(fs, so work to develop lhis ahili1y. i he following guidelines w1II be helpful:
+
+
+          ■   Anes, thl' 1mr1,o.se. 11udicncc, nnd conlul c,r ucll t o1wen:111ion. Uc sensuivc: to the
+              dill'cren~c between simple chJttlng ont:I disms ...ing a specific: busincs11 issue. Be: aware
+              of the pcr<:cptions of those who might hear your conversation.
+          ■   S hc,w inlcrcst in thl' comnu.•nb nr i,thc-n. Eye contac.t, non\'crba1 admowkdg:mcnl,
+              nnd parnphrasing nre all good wnys to show you cnrc about wha1 othcn; $11)' unrl how
+              1hcy fccl.
+Chapter 1 • Managing with Communication                                        Professional Writin OS eakln • 7
+
+
+          ■   nr n:11pcrtf11I, Vahle other people's commcntl; and mnkc npprnpriolc validnting tr1m•
+              mcn1s when they finish, such ~•s. ··Th111·ii inccrcsting." or ··1think 1h11t·ii im imponanl
+              point." Avoid put-downll like. "l don't chink that'll very imJ)onnnt." li)•Ou mulll dis•
+              .ugrcc. do le tactfully- find .ugrccmcnl on sc11nc poinl and lhen talk t'lbout 1hc related
+                                                                                         or
+               point where you disagree. Also. make-sure you under..tand the 111lcnl the mcsS;agc. 111
+              addition lo the words. You might lind th.at you c.an bulld on the intent and not have to
+              disagree so dircc1ly with the words.
+          •    Hl• op1imi11tic. Avoid ncg111i"c commcn1s nbou1 others. lJ,;c humor cnrel\illy. C1Spcci11lly
+               with people you don·1 know well, ,\..,oid commt'nts or jokes that ore in poor lll~tc.
+          •   Ile 1pproprhltdy assC'rtiw lr1 gh•ing your ciwn <'Oll1rnrnti. A1111ertivmcll11 ill not being
+              ugg.ressh·c or ubr1Lo;ive. Rother. it is c:onlidently spe-.akmg up so your own mlcrci.ts und
+              pcrspcct1v~ rue uppmi:>riatcly considered.
+          •   Hdp keep the ccm,•crntlfon i:nin~ Ask "SW2H qucstioa,;" (who, what, where, when,
+              why. how. and how much). f'pr insti111oc. you might nsk. "Who nrc the n1hcr mcmbctl'
+              of your tcain1" ''\I/hot ore you working on now?.. ··1 1ow arc you dculing with Lhi11
+              iS!IUC?°'
+
+          ■   l-lel1> C'll§Ul't' llPJH'OJH'fatr turn htkh1g, Involve othcn in the c:on\'ersation. Oon'I allow
+              one person lo dominate the conversntton. Al\er your own commc-ntli or oomm cnlli by
+              othctli, 11,;k another person who ha.,; been silc-nt. "Wh.at are your thought,; about tlu,;
+              topic'?"
+
+
+
+
+          F;gure 1.2 Be res.pon$/vft when you tJre listening. Show int918sl in the comments of olhers.
+
+
+              As you p.1ruc1pmc 111 eonvcrsnltons. d1scus.~1onll. und mccungs. be o good listener.
+          Remember the (bllowing five guidelines os you practice cn·cctivc listening:
+
+
+          l. kt<aUy liMcn. Avoid fake lii,ienmJ::,--pretcndmg to listen while thinking about some•
+              thing else. Give the ,;penkcr your full mtcntion. Be prcr.cnt, both phy,;ieatly und men•
+              rally. Lis.1en for fnn,; us well us feeling,;. Abo. don't interrupt people while they arc
+              miking.
+Chapter 1 • Managing with Communication                                       Professional Writin OS eakin • 8
+
+
+          2. n0 n.~pon11in.• when you 11rr li11tcnin~ People will i;pe.ik longer ond mme completely
+             if the li~tcner dcmonslmtcs nonve1t>nl ond verbal responsiveness. Mukc commcms like
+             " I sec." " I undcrstnnd.'' or ··That's a g.ood point."
+          J. 01·lcnt yuur l.lody townrd th~1pc:akc1·. Lean ('orword II bit hl show attentiveness. m~un•
+              t.nln eye oont.od with Lhc spcakc-r, or nod your head to indicate that you unde.rstand.
+          4 . l•ay altrntiun to both verbal and nun,•ubal mcssa,:.t-s. To get Lhe foll meaning, use
+              your Cilrs as well ilS your eyes. With )'Out can., listen t<> the words and to \'Oice \'nrin•
+              lions; with your eyes. obser\'C the spcakcr'li cyc:s. focc. gC'SlurC's , m d body movcmcn1.
+          S. Tc111 for u11clcrsll1nding. ARcr the 11pt.1kcr mnkts a 11ubst1mt1vc comment, 11,m1phmsc
+             what you think the speaker i$ trying to ill)' 10 you. 1'hii11eehn ique Is culled l'efloctive
+             lb,tcning or aciivc listening. Paraphrases and questions for elorilkatlon can address
+             both L"Onle-nt (facts and opinions) and fcdmgs (emotions).
+
+
+          So you·ro saying Pol waSJ'l't ve,y rvceptive to your id911s? (Response 10 content. }
+
+
+          In othor words. you'ro fooling much mo,o opllmlstlc about tho soles p,o}octlons lhis month?
+          /Rosponso to loollngs.J
+
+
+              After you parnphmse, the speaker either affinns that your under..111nding ts correct or
+          clorifics as needed.
+
+
+          Social Networking
+          Your conversation nnd listening skills will help you in another ll.\pcct of profcs~ioual
+          lifc- sodu/ 11chw,·ld11g. Oc\'doping II good sodal network cnablc:-s )'OU lo c:<lend your
+          social reach und to leverage your mtlucnce far beyond the people you know personally. for
+          instance-, if 15-fl people ore in your network, nnd C.ilCh o f those people has 150 contact$, you
+          h1wc thO\l~nncl,; of people 10 cull on for as11is111ncc (sec 'f igure 1.3).
+
+
+
+
+          Figura 1.3 n-10 nvmbor of poopfe in o social nulworl< incronses expononliaNy with each
+          Jevet of contacts.
+Chapter 1 • Managing with Communication                                         Professional Writin OS eakin • 9
+
+
+              Social nciworks con,;ist of1wo clements-people 1md rcln1inn,;hips. People: in your nel•
+          work can be wilhin )'Our org•mb:ation or in dinCrcnt organizmions. nnd your rd111ionships
+          cnn be based on pcOional. professional, cuhurnl} rrhgiou.s. poli1icol, or 01hrr oonncclion:t
+              •1he vnlue of i1odol nc~wc>l'kll is thot they can be cnllcd on for in(ornmmn, ror influ-
+          <.'ftce, or for hdp, such as rcques·1ing assislancc m lindingncw employment. However, these
+          networks arc not Just to help you. You 1m: also expected to help others. 'rhcrd b n:, approach
+          social nc1working from the stnndpoint of whnt you cnn give as well ni; what you cnn get,
+              1-iow do you cs111bli~h u good i;c>einl nc1work? Firsl. consider oll evcnls or go1hcrings ns
+          ~m opponuni1y to network- workshops. conl"'crenocs. community events. religious evcn1s.
+          or social g.nthering,oe. E,tnblish new ticqu:iintanec, at every cvc,nt you attend. Don't as11od•
+          n.1cjui;t w11h people ybu already know, but n1w gel aC'quainted wtth people you don'l know.
+              Second. work on yourco1wcrs.alion skills, and stay cu1Tcn1on lopic.s l)'pically d1sclL'ised
+          in interpersonal se1ting.s-locnl. regfonnl. national, and international i:iSucs and events;
+          movies nnd cn11:r1ainmcn1; industr)' isi;uci;: nnd !ipllrt1i and olhtr topics of inlertlil 10 people
+          )'Ou'II be 1t1lking with.
+              lhird. be as11cru\1c- g1ttt people 11nd then introduce you~lr. Gel peOJ)lc l.lllking by
+          tis.king open-ended quc,tfoni tbat l'lU1 't be iinswcrcd with n i1implc )'e.t or ,w. Ffir inst.once,
+          .isk about where the.y work, whal type of work !hey do, where they ni in thdr org.imzalton.
+          und what their eurrenl projec.L'i enlail. Sh.are infonn nlion aboul yoursclt: such as where you
+          work 11nd whn1 type of woli: you do. Enguge in 1un1-1aking so you 11ncl the n1hcr pcn;on
+          have 11dcqun1c oppor1uni1y for input.
+              Fourth, exchunge busmess cards wi1h others so you will hnve their conu1c1111ibmu11ion.
+          Cu.rry u few eards wuh you wherever you go. Keep your cards eu1reni, mdudlngyour nome,
+          position. company name and logo, and cont.act infhrma11on. You nrny also mdude a hlil of
+          products or sen·ices and a QR code ai; appropriate. Present your card face up and oriented
+          so the other person can read it. Ai; you tuke the other person's c.ird, take time to look a1 i1
+          nod rend i1, pronounce 1hc person's mum:. if uni;ure. and commenl on some positi\'C aspect
+          of their org.mb:alion. Aller calking with 1hc pe™m, wrilc II memory-jogging note on the
+          bu.i;incu cnrd, i1uch as whttc and when you met the pcnion nnd any othl"r mfc,rmauon you
+          wnnt to 1-cml,mbcr. AO.erward. i1dd the person lo your digital co111nct lisL
+              finh. when socmhzmg In !urge groups, don't stay w11h one person or group 100 long.
+          Afier 11 tCW minutes, excuse yoursclrwnh a comment like, ··Well, ii was nice mectmg you,"
+          ond 1hen gC) vi,;it with nno1her person or grnnp. took for mdividunl:i" s11tnding nlonc or for
+          pcopk in 1111111lt groups. As you join wnh a group. hsten for n few minu1c11 10 capture the
+          essence of'wlm they're u&lkmg11bou1nnd then ndd 11ppropri.i1c oommcnls of your own.
+              Finally. using appropnatc oilline soclol mC'db (c.J .. Facebook ot Linke.din). cMabli.sh
+          an onhne network. l::.nler )'Our own informalion, mcludiug your nnmc, bui;incsi;, position,
+          and other rcle.\'anl informnlton. Link with others you know 1iO you can maint.ain contac.l
+          nnd communica1c with 1hcm pcriodicully. Use your nctwon'. for announcing job opening.._,
+          findingcmploymcnt. sending updatci; nbll\U your own employment s.ituntion. k1.-cping track
+          of 1he bu sines..~ 11c1ivilfo11 or others. nnd cong,ratulnting others on 1hc1r oc:complishmcnl~.
+Chapter 1 • Managing with Communication                                       Professional Wntln        <.S     akln • 10
+
+
+          Manners and Etiquette
+          Societies 1hroughou1 1hc world huvc developed diffcrtnl socinl s1undmxb of behavior thm
+          cni:omp:is~ good m:mncrs 1uld ctic1ucuc, Whethtt 1hcsc standards and cxpcctauons are
+          fonnally c_x,prcliscd or not, you nre cxpc-ctod to nbldc by thc,n. l'nllun: to do w will rt:!,uh in
+          n loss of credlbillty and trust. 'J'o beg111 wilh, understand what social behavior ts ex1,cctcd
+          in )'Our own countiy. 1'hcn as )'OUtrltvcl to other countries, cons-ult onlmc sources to teach
+          you ubout those countries, The following guiddmei. ore generally uccq,tcd thmughou1the
+          United S1ntcs,
+
+          Go11orol. 'Ihe li.)llowing guidcline!l a11ply many types of )ituationll:
+
+          ■   He on time (or social gatherings.
+          ■   Be courteous and respect fill; put the needs of others before your own, Open doors for
+              01hcrs.
+          •   11uink others whenever 1hcy do something for you. Write thank-you no1cs when othcn1
+              ha\'c helped you.
+          ■   Control your d ecttmuc devices in 111cctmgll and other soda! gathnmg11. Turn off or
+              silence your phone and avmd usmg devices when they wtll dislracl others. If you musl
+              answer u phone call dunng a mecung, le.ave the room to do so. When tulkins on your
+              phone inn public nrcn, lower your voice r.c;l 01hcrs cnn·t hem yourconvc11>nlion,
+          •   A\·oid nll t)'J)('S ofscxuril hamssmcnt. sexunl remarks, unwelcome scxuril ml"nncts, 11nd
+              nll gender-based d1scnminauon. Think c~1rcfully before getting Involved in workphP.<:e
+              romances.
+
+          Meeting People. 1'hc followmg guidelines help when ntceling people-:
+
+
+          •   When )'OU llrs1 meet people. lis1cn c.ircfutly to their nnmc and then thint ofa way to
+              remember it.
+          ■   If 11 111 soeblly 11ppro1matc, shake thdr hand with approprintc Ormnes,i (nol too much
+              nnd not too Huie).
+
+
+          Dress and Grooming. ·1he fo llowing guidelines will help w1thdrcssingand grooming:
+
+
+          ■   Drcu approprk1tcly ibr profcssiom,I cvcn111, never ks11 formnlly than 01hc1-s, Look
+              shnrp. even when the dress is "'business cosuat··
+          ■   Avoid c:<cc11.slvc jewelry or fadd111h hair ond drc11s styles that druw attention 10 you.
+
+          Table Manners. 1'hc fo llowing guidelines help with behavior related to meats:
+
+
+          •   Observe what 01hcrs arc doing, ·rnkc cues from the leader or host. Wait un1il yC1ur ho1il
+              i~s.:uicd (or invites you 111 be 11cotcd) before )'OUsi1 down.
+Chapter 1 • Managing with Communication                                        Professional Writin OS eakln • 11
+
+
+          ■   When you sit down. notice the 1oble setting (sec exnmple in F'igurc 1,4). Use 1hc tnen•
+              sits propcrl)'. Por multiple utensils, such os two forks. gcncrally use those forthcs1 from
+              the plutc firs1 and then woit inwurd tuwtml the plate iLS the meal progresses, Al\cr using
+              .u utensil, leave it on the plotc: don't put it buck on the Utblc.
+
+
+
+
+                                         BREAD            DESSERT
+                                                          UTENSIL DRINK
+                                                                         soe       Q
+
+                                                                                     ~
+                                                                                     ~
+               NAPKIN
+
+                                                        MAIN                                      z
+                                                       COURSE                                    8
+                                                                                                 0..
+                                                                                                 (/)
+                                                                                                 0..
+                                                                                                 :,
+                                                                                                 5l
+          Figure 1.4 ProfeS&onals must understand th& rules of etiquette rsfated to ;, formal tsblu
+          selling.
+
+
+          ■   When cutting meat. hold your utensils oon-cctly. depending on Amcriconor Con1incn1ul
+              .style. With American-style eatmg. hold the kni(c in your nglu hand and the fork in your
+               Id\, with the tines facmg down. Hold the meat wilh the fo11t and cut it with the kmfc.
+              lhcn place the knitb ne.ar the top of the-plate, with the blade fodn:; m. 1'hen switch
+              lhc fork lo lhc right htmd, pick up the IOod, bring it lo your mouth, With Continenlnl
+              (or liurope.1n) s-iylc cnling, culling the mcnt is the snme. but the fort.: rcmnins in the
+              lcn h:.,nd t.:>r KpC!lring the food 1md bringing ii to your moulh, with the tines s1ill focing
+              down. At the c:onc.:lui1ion of the meul, plac:e your fo1·k and knifo in !he flvc o'clock
+              p~ition on your plate lo signal to the.waiter that you arc finished.
+          ■   ll' you must lcn,•c the table during the meal. place the mtpkinon the scat of your ch.air.
+              After the meal, leave the napkm on the table (you don't need to retbld the napkin).
+          ■   7ltc i;erver will i;cr\!e you fmm your tel\ nnd remove usc..-d plates from your right. In
+              tight qm1rters. )'<>u might be n:,kcd 10 help pass an item 10 someone siumg m !he back
+              o f the coble. Make sure cvc1yonc al )'Our table is inkcn ou1-c ot-:.,_pass the wmer 1ntchcr,
+              suit nnd pcpper, dressing. rolls. :ind other ilems a!I needed.
+          •   In self-serve bufrct scttmgs. take smnller portions at 11rst. Make sure everyone has
+              <00ugh rood.
+          ■   Before you eu11 wait for the host Qr guesl of honor le> begin. In a no-host r.ituation, wni1
+              until cvc:rytme hns been served heforc you begin.
+Chapter 1 • Managing with Communication                                     Professional Wntln OS            akln • 12
+
+
+          ■   Chew with your mouth dosed, 11nd don·1 tnlk with )'Our mouth full, If you encounter
+              food you c11nnot ,wnllow. tho general rule is 10 in1.-on~picuously remove i1 from your
+              mouth the ,mme wny it went lO your mouth (with n fhrk or spoon) imd ploce it 111 the
+              edge oi your plJtc. If others ha\'Ca pl'Oblcm with food, ptcte1\d not 10 notice. Don't be
+              u fussy cater or complufo about the-food.
+          ■   In restauranL.,, remember to leave a tip. In addition to upping. exprcss thanks to thc-
+              5cn:cn.-.
+          ■   When )'OU le,11ve. push your ch:ur back to the 111blc,
+
+              Mnny people have i1pcci11I dietary tL"qUil'emcnti or rci11ricuoni1, b1L-.cd on pcnioru1I
+          llfcs1yle chmccs, religious rcstrktloa-., c,r medical c-0nd1tluns. For these people. ea1ing with
+          othcrs in public can be a challenge, but step.-; can be ltlkcn to minimize that dinkulty. for
+          those who host or direct event<; thut involve euting, they should nsk p1u1icipants in advance
+          whether they have 11ny i.pcciol dietary requirements. for those who have dietary rc,1uirc-
+          mcnts. chcy c-.nn make 1hcir rtquin:mcn111 known long enough bcforchnnd so nppropriolc
+          l1ecommoda1ions c-an be made,
+
+
+
+
+               When cnting out with a grour . people with s-pccinl dic1ary ncccb can persunde the
+          group to go to rcstaunuus whose menus arc more in line with their dict111y n«ds. For
+          cxnmpk. a grou11 with one or more vcg~1ns or \'cgcu1ri:m.-. could go lO Mexican. Cluncsc.
+          1'tu. Indian, Ethiop,nn, or Mcdite1tanc:in rcst.ourontll where more option!! arc oO'crcd. In
+          othcr rcstoura.nts. people with special requirements could ru;k the d1cf to modify one of the
+          standard oACrings to meet 1hc1r needs, such as pasta with only vegetables and no meals.
+          Regardlci.s of the situntion, those mnking special rcques1s should dn :,;o wi1hc,u1 c.1using
+          commo1ion, They i;hould nc,1 mokc others feel unoomfo1111blc1 nnd others shouldn't make
+          1hcm feel uncomfonoblc.
+Chapter 1 • Managing with Communication                                        Professional Wntln OS              akln • 13
+
+
+              Management Effectiveness
+
+          Mnny of your workplace tllc;ks will require you to mom1gc and get results 1hrough othcr:s.
+          1'hc follow ing scction.oi discuss conununkodon skills th.tit will cnh.iu\cc your managc:1ncn1
+          d l"cctivc::ncss.
+
+          Understanding Management Basics
+          Mnnugcrs work 10 11ch1c\'e orgnnin11ionnl objec1i\'es while s1riving to minimize resource
+          use nnd maxinuzc rcsuhs. Mminm:mg resource use 1s refcn-cd to us being cffidcm:
+          maximt:r.mg rcsulLii it referred to m~ being cOC't'th·c. Oh\tiously, uc:hie\ting cOC't'tivcne1.11
+          noel cni.dc.ncy re-quires delicate balancing und tradc-ofllt. SometmtL'S effid enc:ic-s musl be
+          sacrrnooo to m:hil.•\ e dfccli\'COCSS.
+                              1
+
+
+
+              Manngcrs arc a1so expected lo lend und ms,,irc people to follow them in achieving
+          organin11ionol gonls. l>iffercn1 thinking ii, reqmrcd for leadership and m1umgemcn1 at•
+          li\·itics. On 1he one hond. k~1ders look 111 the larger picture, m1crprct cum:ni conditions,
+          prcthct future conditions. 1111d crcllli\'cly chart II course bused on ,heir be1il pereeJ)tion of lhc
+          future. Leaders develop a vision fo t the org.nnization. On the other hond. managets foL'U!I
+          on orgunlzuhonal opcrntions- on processes and soquenecs, inpulo; und outputs, feedback
+          reports and system ildJustmcnts, predictabiltl)' and stability. and efficiency.
+               As you lciut and mnnagc other,;, you can obinin oomplmncc through both rormal power
+          t1nd personal influence. Formlll power comes fmm your orgnmzational pollilion. which
+          gives you the outhorily to make nnd enf'orcc dcc1siomt f.ormlll power nlso places you m n
+          po~ition to rcwrml othcri t'ir 10 abuse your power through coercion or three. If you obusc.
+          your formal power, you nught get short-term eompliance, but you will reap long-term
+          problems. l'c-rsonal lntluencc is more subtle than power. It comes from hu\!ing important
+          knowledge and from lru:;t 1ha1 you cum. When you have importnnt knowledge and high
+          1m,;t, people will iOllow.
+               Mnru1gcrs tll'C cxpCC'lcd to nchio\•e optimum performance nnd produc1i"hy from C\'ery
+          rcJource, espcc,olly from people. In per(hrinmg inanl'lgemenl and leadership func1ions.
+          man::igcN mullt b::ilaDL-c thdr (()cui; on the 1osk (gculng the JOb done) and rdatmn!ihlp
+          (nu1intaming good rdu11onshi1,s whh people) aspccL,; of the job. Managers who urc too t11Sk
+          oriented have problems with cmplo)•ec morale, while managcrs who arc too relauonsh1p
+          nricmcd fo il to llt"tomplish 1he 1nsk :w11isfnetorily. Effi:ctive mam,gen. b.1lance thcirc:onc:cm
+          for 1ask 11nd their concern for people.
+
+          Management Functions
+          Fourbu.,;1e functions ofmanagcmcnl include planmng, orgumzmg, monitoring. and lc::idiug.
+          Communicalion is criticnl in nll these areas.
+
+          •    Planning. Re pronc1i\'C, Ccmlinunlly inno\lntc and imprO\'C. Set gonls, lnvol\te cm•
+               ployccs in planning und d«ision mnking. panicularly when the 1:lc0i11ion oliccts them,
+Chapter 1 • Man aging with Communication                                      Professional Wntln O S            akln • 14
+
+
+              when buy-in is imponn111. when they hnve useful kOC1wledge to con1nbu10, or when the
+              experience would be useful for their development.
+          •   Org11nb;ing. Identify unitll of work und assemble nce-dcd rcllourccll. Identify roles und
+              lt'Jq)Ons1blli1tcs tt.nd ddcg..11c effoclivcly. Expluln how 1tnd when to rcpol'I back. Oivt'
+              a~ much latitude us approprintt'. Standard17.c policies and procedures, wuhoul stt0mg
+              creativity. Show tmsl; don't mkronuinai;c. Provide regular truimng and development
+              Foster oontinunu-. improvement
+          •   Monilorinjt, Identify nnd communicnu:: nll performnncc-evnlunthm mclL.'-\1rts. Hold
+              regular perfo1m11ncc mlcrvicws. Oi.scus..i rt'Sponsib1l11ics, highlight 11chicvemcn1s. 11.nd
+              l1gn:c on objccti\'cs. Give c:lcor 1tnd honc:sl fc:,c,dbl1ck. Rl'!iolvc perfor1n:mec viobtio1K
+              Solve problemli without damaging rda1ionsh1ps or 111orule. Show interest m your buh-
+              ord1rwtes. Visit Lhc1r work sttcs. Listen to thd r concerns.
+          •   Lc-adinjt, Clarify your orgnni7.nlionnl mission. Keep employe($ infonned abou1
+              compnny pcrfonnancc. Ile honest nnd build 1m-.t wilh employees. Crcn1c a supportive
+              environment 1hm fosters growth, 11roductivi1y. 11.nd c:.xccllcncc. Empower emplo)•<:cs
+              10 take ncedc:tt actionll within appropriotc guidclincll. Gh•e frequent recognition 11.nd
+              p~iti\'c rc:infoti:cmcnt. Cc:lebrnlc acc.ompllshmcntll.
+
+              In all managcmenl fo ncttons. don't forget .ibnut your oblign1ions to your own man.ager
+          nnd to peers nnd other5 in the ~nsnnh:ntion, f-'irs1, clarify your nmnngcr·~ t'Xpctlnlion,; of
+          you. Second. kec11 your manag« inibnnod 11bou1 whul you are doing. Third, be hon<.-st.
+          Give truthful opinions, but ulwoys be 1J1c1fu l. P'ounh. be sensitive to your nuinager·s bmi)'
+          schedule. 1k cOicicnl with your rumrnunicotionJ so the time your manogcr ,ipcnds 1'C1uling
+          your cm.nils. rc\'iewins your work, and answcdng your questions is minimized. f'ift.h, give
+          appropriule compliments and expressions of apprcc111tion, both in pc:cson and in public..
+              kcgarding nll nthcrs in 1hc organization, become sufficiently ocqtwintcd with lhcm
+          so they know you nnd know your responsibilities. Keep them uppropriu1cly t1ppriscd of
+          whnt you un, doing. <:!ipocinll)' rcg,.,rding 11c1ivitics lhat olY'ccc their organizational unitll
+          in one way or 11no1hcr- no Ont' likcli sur1m!ic onnounc.cmcn1s th:u rc-ciuin: 1hcir 11111c or
+          rcsourc-cs. finally, ulwoys tc-..!opcct the orgunlza1lon's line of i1ulhul'i1y. Ncvcr talk (1mdully
+          with anyone- oulsidc- your orgnnizut1onal unit wi1hout first getung permission from their
+          managers, and never talk oflidull)' with your manager's manager wi1hout going through
+          your mnnagcr.
+               Now. a word of cuu1ion. ,\s a gc:ncrnl rule. don't talk ncgni-ivcly obout your mnnagc:r.
+          because your nt'gauvc l'()mmen1s mig,lu be f'WIS.f;od through the grapevine ond get back
+          to your muna~cr. Il<>WC\'Cr. ,f your manager is i!Cling in an unt'thical or d1scrlminutory
+          mannc-r. you an: nol obligated to remain silent ur comply. L>on't let fc:nr. poe.r pn:ssure,
+          desire to gc-t along. desire lo get ahead, or ttn)' mere ion from )'<>Ur manager c-~msc you to go
+          ,1long wi1h the improper activi1y. lf)•ou do. you'll never be at pence \\~lh your~clf nnd you
+          could pince yourself in lcgnl 1mublc, Not complying migh1 be the unpopular thing 10 do.
+Chapter 1 • Man aging with Communication                                        Professional Wntln OS              akln • 15
+
+
+          bul it 1s the ri,gh1 1hing to do. Coni.idcr YllUr nltcrnntiv~, from politely ~ll)'ing r,o to filing ti
+          fonn11I complain!, 11nd lhen 10ke the oppropriu1e oction, even if it means linding II new job.
+          In ony c1L.;e, create your own privtitc documentotion or the munagcr's bad behavior in c:ose
+          you arc ever cnllcd upon 10 give cvi<lencc in II court of klw or other lcgul dispute.
+
+
+          Communication Barriers
+          Cc,mmunienting wi1h others sounds easy~ but i1 becomes comrticatcd when i1 involves
+          lurgc numbers of people in complex organir.itions, Be aware of six 1ypcs of ba1Tiers to
+          communicution.
+
+          Organlzatlonal        Barrlors.      l'hc greater the number of employees in .an orgunization,
+          the greater the need l'hr commumcauon to kccp cvcryone informed. Unfortunately, the
+          grcntcr the number of employees, 1he grea1er the difficulty in communicnting, r'.very time
+          informntion is relayed from one pen.on 101mo1her, 1hc chnncc nftmns-mission error incrC41s-
+          tS. lhus, give critic.DI mcs,mges din.-clly, not rtl11yod thmugh oihcrs.
+
+
+          Physical Banlors.           Nol~)' fan!, nolsy pwplc-. di~lante from 1hc spcoker, light on ,,
+          proJcctmn screen. talking by cc:11 phone on a noisy street. and other problems can prc-\'cnl
+          u person from heanng or sed ng Important informnlion. Make uppmpnate changes m the.
+          physical i;eumg to cl1minnte or minimize physicnl barriers,
+
+
+          Tochnotoglcal         Borr/ors. Somctamc-s mcJ1s11gell ore sent but not received because of
+          u problem related to tcchnolo~. Thl'l'Cforc, for cri1icul i:ommunicntions, obt.uin veri(i.cation
+          that sent messages hove been rcceh·ed. In the following cxmnplc. a request for a rc-i,ponsc
+          is made at the end of the message.
+
+
+          Rick. can you ottond a mooting wHh our senior accounl executive$ rH1xl Tuesday at 3
+          p,m. in the Orchnrd Viow Co11feronce Room? In lhot mooting I would like you to tako five
+          mfnutas to da$Ulba your analysis of our latest SEO da/o, Pleasa lat mo know if you csn
+          attend.
+
+
+          Language and Cultural              Barriers.     Many lungungcs and cultures arc represented
+          in 1odny·s wnrkplacc, and people ipeaking or hstc:ning 10 a i.eooncl language don't com-
+          prehend the lunguagc: hkc nmi\'c s11c.1kcn1 do. To funhcr complic.11c: m.11tc:rs. s11c:c1ti c word
+          meaning 01111 change according 10 lhc: contc,u m which i1 is used, 'lb help otcommoW:110
+          non.native l::lnguagc ~eukcrg, lmmilate written m:-itcriah1 and a1tange (hr interprctctll :I!!
+          nl-ocssar)' so people can read and hear in thdr own lnngW1gc (sec Figure 1.6). Also, take.
+          a momcnl 10 give uddillonul cxplnnation as nttded and do wtwlever else is appro1uiatc lo
+          help them undcr..tnnd.
+Chapter 1 • Managing with Communication                                        Professional Wntln OS          akln • 16
+
+
+
+                      bok         ahoj
+                                                  salve               h o la            ciao
+                           •       Halla                ]'Wpl,l                         01~1<1
+
+                        merhaba                   Hej             crl'1{!rl
+                                  c'ltc'lli
+                      ~          yi,re                  hello
+                                       GutenTag                     tcre       ,r
+                                                    bonjour                                  Ii
+                                              saltJ\O                 Y e o.
+                                                          j/J;~
+                                              I
+
+                                                                       l
+                                                                               '-
+          Figura 1.0 Languago bar,ro,s must bo olimfnoled ivOOn communlcDtlng with jntomotlonaNy
+          diverse audi&nc.es,
+
+
+          Physlologlcal Bbrrlors. Communicotion problems arise when a perwn muy he h:ud
+          of hearing or visually imp.ii.red or when t1 spcakcr docs nut speak clearly. Take needed
+          uelion to accommodate such communic.ition bamers.
+
+
+          Log/col and Psychological Barriers. 'Inc hum~m mind cuuscs major communi•
+          co1iun b.1mers. both logicolly t1nd psychologicolly. Ono logicul ba111cr is prro1.a.-u~11ion.
+          couscll when li~1cnc1-s ore thinking obout other mailers ond shut out mcoming messages.
+          Another logical ba1T1er ill c4!ch person's unique frame of n:forcnc:e, resulting in cnch pc.·nion
+          interpreting mcs.,;ui;cs in lus or her own private way. Thus, when you use a spl"Cific word
+          like ..ml"Cting," ten people will think of the word in ten diffcrc:n1 ways-showing 1tu11
+          menning exisL,; in the human mind. 110 1 in worcl,; themscl\'CS. Ye1 11no1hc:r logicill b11rrier
+          is 1h11t people manufocuirc infornu11ion m lill in mis11ing infonnntion, Thercl';:)l'c, if mrin•
+          11gemc:nt doesn't explain lhe reason behind a new policy, c:inploy«s will c1'«:"lc thdr own
+          tt~,um1ulon..-: of why the change was m.11dc.
+              Psycholot;Jcal barricrs can ab;o interfere w1lh el'fc:ctivearg.umzaltonal communm1tlon.
+          for exumple. human emotions can cause people to be e/{ncentric and sclf•SC1Ving, pu1ting
+          their inicrcsts ii head of others' ini«e:m~. Emotions c:nn at~ genern1e pride und dcfcni;ive-
+          ncss, causing people to focus on preserving their own self-esteem. rather thun on doing
+          what Ill best fo r everyone. F11rlhcr. emotional and mental llltCllS cun cause people co make
+          lllo~ical dcdMons. S1ill othn cinotlons t.'.in cuuse people to withdraw ond b:iek away from
+          human intcrnclion. 10 iU.rther cmnplic..itc matters, people's emotmns arc c-0ntai;,ious-onc
+          person's bad attitude c.un calL,;e others to have a bad attitude. Howe\ cr..the reverse is ulso
+                                                                                    1
+
+
+
+          tn1e-one pcri;on's good aui1udc: can cau~ others to ha\'e 11 good attttudc:.
+              As a prnfessiorwl. )'OUmust he scnsilive 10 people's logical nnd psychological well·
+          being. from o logical 11111ndpoint, kcc:p othtrll inlOm100 11nd provide tht-m with ull the
+          information lhey ncl'd in 1he1r work. From l• p~ycholog1cul pcupcttivc, re1ncmbcr ttwl
+Chapter 1 • Managing with Communication                                      Professional Wntln OS             akln • 17
+
+
+           people can become prideful nnd defcnsi\'e, human n:httian'ihipli can be severely dnmngcd,
+          11nd morn le can be deinroyed. Therefore. wort 10 create a safe. 110sitivc chmnlc, using your
+          own emotional optimism and inOucncc to enhance the emotions of 01hm1.
+
+
+          Managing a Team
+          Uuring your car«f, you will have multiple occasions to work whh teams, some Involving
+          only n fe wpeople and some. m.nnymore. Some of your teilms will be in the $lime dcp11rtmcn1
+          nnd work fncc to face, 01hcrs will be eross-functmnnl tenmi; from different dcpnnmcn1s.
+          ~ind still others will be virlual 1c.1ms workmg ucross d11Tcrcnt umc ,::ones 11nd in multiple
+          countl'ics wuh din'crcnt t ulturci. Careful nuinagemc111is required (hr tt.".4un succc!ls. Simply
+          assigning n team 10 work on a project doc.s 1101 gw.m1ntcc good rcsulti.
+               1C3ms typically navigate through four s1agcs of devclopmcnl: fom1ing. storming,
+          nom1ing, und pcrfam1ing (Tuckmnn I965), f igure I.7 idcnlilics these four mnin stu,gcs nnd
+          summnrizeti what happens in c11ch stage.
+
+         Team Development Stages
+          (BruceTuckman, 1961)
+
+
+
+
+           Forming                   Storming                  Norming                 Performing
+        fvtryone 11 new,          Tom btgml taekktlg        Ttam elarl!H             Tt-a.m ptffo1m; al a
+        ptople 1ft polite itlld   tht Ink, il'ldr.td\1111   lnd,,.,du,I ,oiu. l..m   hlgl, "•nd•d. ..
+ C      cons.idtfllt , ~t         begin txtrtlng lMlf'      ,c1!1tv1-1 con1tn1ut     mtmbtt1 wo,k In
+  0     (IUIJOutll'ld             lf'l"Utnet. conftiet      l190ld1og poliCltl •nd   hOlfflOOy 1Ggt1htr • II
+ :;::
+ a.     gua,dld fett.ngt art      anHI Ml p0Wfl and         p!'OCt dUll'tl,          1ummtmbt1t
+ ·;:    somtwtiil ttnH,           p-octdUIH. n•liYt         ttandard.s ot            undt11tand, accept
+ 0      tnd1Yldu.OI and ltam      emotion• come 10 the      ptffo,manct art          Ind perfo1m lht11
+ 1/)
+ Q)     tXptClahOfll •rt          1uff1Ct                   cl1,-1d ltld 1grttd      indMdull lHkt
+        uncltlW
+ 0
+        Ttam leadM helps by
+                                  Team 6eade, Mlps by
+                                  iden1,dywig conftlct
+                                                            """'
+                                                            Tum leader htlpt
+                                                                                     Team leader backs
+                                                                                     oft' and allows the
+        itmoducing mtmbfft.       poin11 h111ning to        tum wo,tc 1ogt1htr to    1um 10 opertlt 11
+        condiK:ting gel•          conctms, and giacing      dMlop policitt and       auconomouily as
+        acqua.nted actMtiH,       team towa,d sol1.11ions   p,ocedt.-es that all     possible.
+        and clanfymg roles                                  can agree to
+
+          EJ..gure 1.1 roams l!!J!!Jt9SS ttJtO~ four st~s of d9volcome11t.
+Chapter 1 • Managing with Communication                                      Professional Wntln OS             akln • 18
+
+
+                    ,o sclce1 memben; for u team, look for pcoptc wi1h the following types orskills
+          Forming . ~
+          11nd attributes:
+
+          ■   Thr right knowledge 1111d $kill, for the tusk. 'l'hesc capJbihties andude knllWl«lgc
+              of the company history, culture, and pohttcs, and skills related lo unalys1s, p-rohlcm
+              solving. schedule keeping, and commumcation (wmmg and speaking).
+          ■   A $Iron~ inten:~t in lhc specific ta:\'k to be rnmplck<I. t llis m1ercs1 U!iSt1ring a s1mng
+              ('fllOlionul 1.-ommi1men1. Effec1ive 1e11ms, cspecinll)• vimml tenms, need people who arc
+              sclf-mouvu ltd.
+          ■   1'1u~ 1·lght pC'l'!IOnal ,ittributes. Successful teams roquirt open, honest inpul; therefore,
+              members need 10 be scns1t1Ve to the fccling.s ofench other and gel along well wl1h each
+              other. A cooperalive attitude, a determination to stay on schedule. and the ability to
+              endure hnrd limes arc also critical.
+
+
+              Al1cr team members arc sclcctcd. gel them t0gethcr for on initi11I meeting.;.\ iilcc,.10-
+          Cuoe mceLing is helpful e"en for vinual tcarns, because communicalion is more difficuh
+          when people h:wc never met. With no oppol1unhy 1hr face~to-fiwc i11tcm1cdon, virtw1I
+          teams m.ay become too ta.s;k driven. which may produce less crc-.ativh)•, less mot1v.ition,
+          lower team cohesion and morn le, nnd an overall less satisfying ICJllll expericmce.
+              At lhe fin.t mceling, beg.i n the prQCess of developing good rehnions;hips. Invite mem-
+          bers to give II dcluilcd self-in1roducl1C1n. S1111c why 1hc team h1L.~ been crca1cd and what ii is
+          10 accomplish. Wri1c the team purpose in a document 1hnLcan prO\•ide ongo111g gmd.nnce.
+          such ns the following:
+
+          Our leam wilf establish pO(ic ies andproceduros for using SOGial media to markel our health-
+          care products and services, including producl research, producl introductkm, and product
+          lood~acl<.
+
+
+              Ocscnbc communicntion _procell.$C$1 including how to llend f\)IJtine mwag.c$, how to
+          share dc>1.-umc:ntll, nnd how 10 hold lean\ meetings. IC,:iuL.~ workmg In dose: proximity can
+          ha\!c frequent l'ac.c-to-facc intl·mcuon. cxpcrie-ncmg the normal give-and-take conversadon
+          that is vital m group worio:. Virtual tcan1.s; can lL'>e services hkc Zoom, Sk)'pe, orGo10Meci-
+          ing, and slmre documems on sates hkc Google Dnvc or DntpUe>x,
+               Discuss work procedures- who will do who1 work, where the wort will be done. when
+          lhc lllllks mxd to be c-~>mplcted. how the qu:ili1y wm be assessed. ond how 1c11m progress
+          wHI be rcponcd. In some c~1s!>cs, man::igcinc1U will 111:ike lhcse dcebuon~; 1n other cm1es, the
+          learn members themselves decide. Pooplc arc general!)• more supportive ol' polkics and
+          procedures the)' themselves help de\!clop.
+             Onoe team gonl:i, procedures, nnd stnncLmls nrt ugrecd upon, consider crcnling .i team
+          chnncr. 1\ chnncr s1111es the mis:sion. goabi. nnd objectives of the 1enm- why the team
+          exists 11nd whul It is 1m1>poscd 10 nccomplish. A charter nlso describes the duticll of the team
+          lcndl•r ond tncmbnll. It uplainll critical procedures such IL.I; 1x:nal1ies for nonpcrform.ancc,
+Chapter 1 • Managing with Communication                                          Professional Wntln OS              akln • 19
+
+
+          procedures for appoiming new members, procedures go"cming 1e..1m meetings nnd crm1-
+          munic111ion bc1wc:cn n1et1ings. imd procedures for processing und C\'llhmting work. Tenm
+          cb1111crii should be living doc um.cats and be revised os netc.fod.
+
+
+          Storming. 'l'he tcnm mm·cs into the slormins stu:;c as it begins lo work un the proJet.1.
+          At this stage, the group members begm to tCC-1comfortuble wilh each olhcr, and some indt·
+          v1duals nw,y begin to cumpcte for power, Stress the impommcc of being socinlly sensihve
+          wi1h Clnc 11nC11her. Teanu: th.ill don·1gc1 nlong well never achieve their full po1e1ui.il. 'l'hrc:c
+          gencrnl co1egorics of L-C>nnict con emerge.
+
+          1   Ccmtcnt connlct foc uses on how well the learn is :1chie\tln~ 11s asslgn<.-<l purpose:. 'rlus
+              type: ol' conllu:.t is css.c:ntial in achieving 1he best outcome possible-. Successfol le.ams
+              welcome diffcrmg opinions, ,ind members vnice dH'fenng opinions w11hout rdntion-
+              ship conOict. Members know 1hey won·1 alwnys get their wny. nnd lhcy dnn·1 become
+              o ffended or defensive when their idcus arc not adopted, Through opc:n dialogue. !luc~
+              ccs.l!ful ccams mukc docision!I everyone can ,;:11pr1011. They focus on wliat ill righl. no1
+              ll'ho Is righL
+          2   l'rocedurt' cnnflicl mvulves L-oncems aboul whal processes to follow. Procedure dcc.1•
+              s1ons arc best mnde by dialogue. Regarding decision making, the most clY'ecllve te.11ns
+              usually don'I make decisions by vc,1ing. Instead, lhcy oon1inuc m dialogue until !hey
+              reach II solu1ion everyone con support. All members may no1 be cquully aHhusiostic
+              ••bout 1he decision. but they ugrc:c to support u. With 11uc1.>tssful 11:~1m11. i1 i11 not a mutter
+             of my way 1<e1'.\'IU' J't>III' way. hul rather ow· "'"Y·
+          3. Rdati11n11hlp ctmOk lcan result from d11Tercnces in personality. culhire. polillc:11 pref.
+              crcnccs. or gender differcnc.c:s. Rda1ionship problems are dcstructwe and must be dcah
+              wi1h carefully. ldcnlly, rclnlionship conflicL'i arc prevented by selecting compatible
+              people to work logethcr and by clarifying; ni;sig_nmcnls. When problems urisc, hllwevcr,
+              deal with them with a colm. pro fessional demcunor.
+
+              1b solve rd ation..l!hip problems. one opllon is to scpJratc and rc1uslgn lhe ptoplc. f.or
+          more sc.riom• problems, inter\'iew the people to find oul the r<:'.usun for their fmslmtions.
+          Second, bminstonn for solu1ion.,;. Ask lhe individuals for 1hcir rcl'Ommcndauons. come up
+          wi1h ideas of your own, nnd get input fmm 01hcn; who know abou1the problem. Third,
+          cvalume all po.,.sible solu11on11, mnkt tt 1cm1>omry decision. and prc11cnt lhc ideo 10 each of
+          lhe indi\•1duab involved, Aflcr gcuing their inpul. fine lune the decision nll needed. F'ourth,
+          i111plcmcn1die llccillion and follow up U> nu1kc !I.Ure 1hc llhuntion is resolved. If rda1ion11hip
+          problems b«ome so serious thnt the two warring individuals will never ui;rce, replace one
+          or both on the team.
+
+
+          Norming. After s1om1ing oonlCS 1he norming s111gc. where the le-um develops efficicnl
+          ~ind cfl'bc1ivc ways 10 work tt1gt1hcr. EO'ecuve no1ming cncomp;issc11 1hc following task.
+          procedure. and rctauon~hip factors.
+Chapter 1 • Managing with Communication                                       Professional Wntln O S            akln • 20
+
+
+          ■   'fod.;,;, 'l'c,1m membcr:i realize the imporluncc of open, honel\t disc:u$Shm aboul
+              1hcir msks. and their mccting11 hove a 11oic mmosphcro in which differing opinion11
+              11rc welcomed and \'Oluc-d. Members 11re not afraid 10 disagree. und the)' do so in u
+              non-<onfrontntlonul manner.
+          ■   l'rocedurt'~. Members dc-\'dop effective procedures for working togethe r-who is to
+              do wtwl, when ass1gnm1mts arc to be completed, and how members• work quality will
+              be evnhm«:d.
+          ■   Rch11ion~hip5, Members ncccp1 the vnnous team peoonnlitics nnd not only lt\'Oid
+              rcla11on11hip conll1ct. but nlllo cnjo)' being together and working eollocti\'cly on II ULtik
+              they fee l strongly aboul.
+
+          Performing. Once norms arc de,,ctoped for working together. the team enters the pcr-
+          fonn stnge where tt becomes most cffoc1ive. As a uniled bndy, the memberswn aecompli-;h
+          ou1s111nding rcsuhs. Memherl\ feel imfe nround eich 01hcr and speak openly and hones'lly.
+          Diverse opinions nre aoceptcd and welcomed. Effective procedures cnublc the 1eam 10
+          pcrfhnn cffitientl)' and clT'ectivcly. Qunli1y ~tandards me nccepu:d nnd self-cnf'brccd.
+          Sc:lf-11mtlvatlon is e\'lde1\I In 11II 111cmbcr11. a sense of tc11111 pride prc\+nil$, nnd !he time
+          needed to oversee the team ls minimal.
+              Occasionally teams ma)' become too cohtsi\!c, too c-.onccmcd about group conscn.-;us,
+          or dcm1ina1cd by a sm;mg, opinionn1ed leader. Such teams o ft en fall \'ICtim co a phcnnm-
+          mon called J(l'Ollptlu'J1k (Janis 1972). When group1hink occurs, members hc11i1ate to m,sc
+          oppo.1,111g views becnusc they don·, wnnt 10 nppcar unsupponive. they fear ncgn1ivc peer
+          pressure. or they hu\+e too much trust in the team lcoder or other tc,:im members. If ten
+          unehcckcd, groupthiuk e~m pmc.luce dm1slmus dedsmns. Oroupthink cun he prevented or
+          resolved by muintaming an environment In whic.h all opinions arc encouraged and vali-
+          dated. by methndicall)' cxumining ull viable options, and b)' con1mlling domimint team
+          member,;' influence.
+
+
+          Managing Diversity
+          Today's workforce Is l l rich mix.lute of people from nil walks of hfe-<l11Tcrcnt genders,
+          d1f(crent races, tltfrcrm t ages, different rchglons, different nalionalittcs, and different Ian•
+          guage and cultures. An advnntnge of this hctcrogcncily is thal lnpul from such a mixture
+          provides a well-rounded pcn;pec1ivc. t\ di-;udvuntage 1s thnl some people tind 11 difficult to
+          ncccpl people nnd idc:.is different from their own.
+              As II manager, you mu111 ri$C nbon: this cypc ol' 11l11tudc and ttcul everyone fuirl)' t1nd
+          e1hkally. For example, 111:ikc hiring and udvunoemcnt oppo1tun11ies available to nil wtm
+          arc 1111ercs1cd, and select people at.'\OOrdini:; lo lhm ub,lity lo produoe Lhe work- not on
+          arbilmr)' factors or prejudices related to their nntmnuhty, religion, cthnici1y. race, age,
+          gender, or sexu,11 oricnlution.
+              In munaging diversity. n:alb:c !hat different people use diffcrcnl 11ppm11chcs Ill uchic\'C
+          1hc desired rcsuhs. for example. a wom.nn mighl be more rtla1ionship oricnlcd and u 1111111
+          more 1.11.sk ot1entcd in Lhe wny thl')' m:magc u tcum. yet bo1h may achieve the de.sired gonls.
+Chapter 1 • Man aging with Communication                                     Professional Wntln O S           akln • 21
+
+
+          Avoid becoming 100 rigid in yoor thinking, because in mc,1,1 mnnngcment si11.1ation1, Ihere ili
+          no one right way. Drmg oul people's 1alcnts nnd nbilitic11 so the people und the org..1ni1.111ion
+          uchicvc the best rcsulL'i pos11iblc.
+               You mu.'1.1 nlr,o be scnsuh•c to the uniquc conuuunlc.ition nc.ctls of individuals. both
+          those within your 1,kwardslup and tho1,c with whom you de.ii as c:u1itomer1> or chcnls.
+          'lwo type1> of commumc.allon needs arc those perlnimns to people with dis.ab1h1ics and
+          international 1mdienccs-pcc)plc from diftCrcnt an:·-11$ of lhe world.
+
+
+          Poop/11 with 0/Sl)bl/ltlos, Oc sen11i1ivc 10 1hosc who huve special communicrnion
+          ehullcngL"S. sueh a!I visuul or hcnring 1mpu1rmcnl!I. In the United Stutc.-s, the 1-\mcrkuns
+          with Oisabilitlc:s Act (ADA) of 19'1)0 prohibhi. discrinurua1ion bused on dis;ubility. ·1he leg-
+          islnLmn to he-Ip anyone who ha1, "a phy1,ical or mental mtpumnent that 1,ub1>t.onllally lilmtli
+          one or more mnjor life uctivilier." ( IJepanmcnt of Ju1>tice 2003). 'the following quotation1>
+          highlight the critical clcmcnls ofthii. lcgi~l111ion rcgurding rommunkation-rclnled aspects
+          of work.
+
+              'l&tlc I of lhc AOI-\ roquirc~ employers with 15 or ,non: employees to provide quulifl«I
+              indh·1duul1, with d11,ab1Bt1c1> an equal opporluml)' lo benefit lrom the full range of cm•
+              ploymcnt-rclntcd opportuni1ies avuilabte 1o othcr1>. for example. 1t prohibttli disc nm•
+              ina11on in rcc1t1itmcn1, luring, promcuion-.. training. p.iy, liQci!II activi1ies1 11nd other
+              privileges of employment, h rcslric1s qucsuon111h11t cun be miked about un applicon1·s
+              d1sobility before a j ob offer 1s nu1dc. , . •
+                        Scc1ion 2S! ond Sec1ion 2S l(u)(2) of the Conununkaumu1 Act of IQJ4, O!I
+              mncndctl b)• Lhc Tc:-lc:eommunications Act of 1996, req uire manufm:turc--rit of tclceom-
+              mumc1111on1> equ1pme111 and provide.rs or tclocommumcations 1>cn ic:cs to m 1>ure th.al
+                                                                                      1
+
+
+
+              such equipment nnd sc:rv1oes arc acces1>ihlc to and u.-.uble by persons wilh di ..uhiliticr.,
+              if m1dily nchicvahlc (Dq>1111mcn1of Justice 2003),
+
+
+              1-\s you wo1·k with individuals qualifying under the AOA, some nwy need sp«inl
+          eo1nmunlcutlon ocoonuuodatlotL-i (i.cc Hgurc 1.8). With visually impaired workers. (()r
+          in1>tancc-, you may ha\'C to u._e bmllle. Wilh hearing-impaired workers, you may lm c to    1
+
+
+
+          .arrange fhr n sign-language: intcrprc:tcr. Whenever II new pcrsnn with dis.ub1huc1> is hired,
+          n~k 11hou1ac,oommodation~1h111 will be needed,
+
+
+
+
+          flr,ure 1.8 Strive to meet t/le communication needs of employees with disabilities.
+Chapter 1 • Man aging with Communication                                    Professional Wntln O S           akln • 22
+
+
+          International      Audiences. You nlliO need u, ncccunmod,11c lhc oommunica1ion needs
+          ofpooplc fmm different orc~1s of the world. Be scnsili\'c 10 their cullurnl differences, non•
+          verbal conunumc11tion differcm:cs, und longuiigc d1fY'crcncc11.
+
+
+          Cuhurnl Uiflcrt'nct's. Cultural \'artaltons l'.tn be observed In d1frcre-nt naltonahties, ethnic
+          groups. and geographic rcgiom;. When workmg with an lnternotlOnal orgumzauon or \nth
+          pcQple fro m Qthcr countries. consult vanous ro-.ourcci. availuble on the internet, such ns
+          www.c\'cryculture.com. nnd learn nbout mfonn111ion like the fo llowin3;
+
+
+          •   lb <'kgrou11d: Gcogmphy1 land. chnutte. and hiMory
+          ■   Dtuu.grapbio: Populallon. lunguagc, religion, oconomk fac1ors, education. and
+              cmplormcnt. and general statistics
+          •   Customs and Courte3iir-s, Introductions, greetings, soc ml closenei.s, gestures, visiting,
+              persuading, huildmg rcln1ion..,;hips, giving gifts (bribe,;), eating. gender mies. decision
+              making. and dress
+          •   Me.11nli or l:xc.b1111ge.1)·pc of monc)', exchange rates. dcetmnic purchuscs. sy~tem of
+              wclglus and mc-.isures
+          ■   Lifestyle-. 1-amil)'. dutmg and mamage, diet. recreation. bolida)'S, and commerce
+          ■   Socil·ty. Govemmc-nt, polilics., transportation, oomnmnicauon, und heuhh
+
+
+             By becoming more cullurally nwnrc:. )'Ou can overcome ethnocentrism nnd lcmn why
+          people from di1Teren1cultun!s behave hkc ,hey do. F'or exnmplc. people from Asua may
+          prefer to first e.!>tablish relationship!! and then move on to the tad:.. People from the United
+          Stutes und Europe mcwc more directly to the tns.k. People from Asta and the norlhcm und
+          castem urc;as of l:'.uropc arc more fonnal in their communication than people f'rom the-
+          United States and Southern Europe. Also, Asiun people arc more c-0ncc-med about their
+          organin11ionol nnd sociol rank 1h11n people from the Uni1cd $1a1os.
+
+
+          N1>11\erb11I t'mnmunicotlon Oirfon:nct!I. Ncmverbal eonunwucation v1uic:$ !lignificantly
+          from culture hl culture. For example, many forms of )>Clioturc, posture. social ~pace, lind
+          e.ye contact mean one thmg in one- culture- but somelhing different In nnothcr. for example,
+          children from many Lalin American uncl Asian cultures show respc-cl by avoiding eye
+          con1nct with an au1hori1y figure. In lhe U1111cd S1n1cs, thi~behavior might he m1crprttcd l'.lli
+          ti sign of d1srcspct1. F'u11hcr, in nrcus of the Middle Eu,;t and Sou1h 1\mcrica. people suind
+          close 10 cuch other when talking,. Pooplc from the Uni1cd Su11cs prcfrr more di,tancc when
+          1hcy mtemct
+              Some- hand und finger gestures used ma Uni1cd St.utcs culture arc obscene- and taboo in
+          othcrcuhurcs. 1'hc-rcfore,just remember thnt the open palm is a safe gesture in all cultures;
+          ii can be used in 11II international scuinss.
+Chapter 1 • Man aging with Communication                                       Professional Wntln O S             akln • 23
+
+
+          L:tnj,:ua~c L>iffcn·ncl'"•BccMeful in writing mei.i.agCl> IO he rend by people whoi;e pnmnry
+          l11ngu11gc is differcn l from )'our11. In lhcse sium1ions. simplify )'Our wri1ing and ex11l11n11•
+          1ions, 'l'he fo llowing guidelines will hdp you simplify for 1hcsc varied audiences.
+              At the word le\'cl, use simple. eoncretc worch:; !l\'Oid abs1ruct wotdi i1nd lengthy com-
+          pound words. Use the :1c1ivc \'Oice whh strong subjects, •il\'id vc:rbs, and smtplc verb tenses.
+          Use tcrms oons1stcntl)' throughout each docume-nt. ~·or 1n.<;t11nce. use the word in111.mc1io11
+          1hroughou1 a documen11 mther than swi1chmg bnc.k .ind fonh nmong s,milnr tc1ms like dtml
+          or ,,rran,:c~mem, Avoid shmg, puni;, nbbreviutions, 11nd cuhurnlly S)'mbolic l:mg11agc, i:or
+          inlilancc. o worker from the United Suuc:s hkcly will underslund wh1u a wi/d,g005e cluuc
+          is. hul II per!lon fro,n 8ra:dl will not.
+               At the llenlence ond parugruph level, use simple scn1cnce construction. Be L'arcful wiLh
+          ques'lion marks ('!) and ampcrsnncls (&). which are used differently in other hmguages.
+          Alsn, keep p11rngraphs s.hon.
+              Regarding vimals. use internationally m:og.ni;,;L-d icons and nvoid nny symbolisms nnd
+          c:olor,11h111 mean diflbmH 1hings in different cultures (e.g.. black is the dominant color (or
+          United States funcmls: white i!i the domin:.1nl color for fu nel\lls in Chinn). Crc111e \1isuab
+          that ean be e.asdy understood e\'en without a strong eonunand of 1hc.l1nglish 1Jn.gw1gc.
+              Al\cr your writing is complete. pH01 tcsl 11 with II few people from thul second-lan-
+          guage audience then rev1i;c ii ;1s needed. 'rhe extra ume and expense wtll heir pre.vent
+          cmh:urassmg problem-.,
+
+          Conducting Meetings
+          Cri1ical bu.:incss communication 01:cun in meetings. Ikrc e111ployec.s engage in prcscnling,
+          proposing.., listening. qucstlonmg. ddmtling, ood rc;1soning. and thc eommumc.atlon h.tab1ts
+          and behavior ot' all p.1rtictpmns are pla)·od oul in public view. Those who pm.en! their
+          ideus well, rtaiwm logically, and help bring out lhe best lhinking of the g.mur cum good
+          rcpu1aticmi; th.ii work 10 their ndv11111age in nll ii1ccts of Iheir jobs.
+              Those who don't prcS(flt lhc1r idcu!i well, who don't rc1L11on logicnlly. or who gc1upse1
+          when 1lung,1 don't go their wny develop a bad rc11utaLion. fbcir sociol cupunl nodc!l llhll
+          they tu'C exduded frnm cri11cal os..,;1gnmcnts and p.1ssctl over for promotions and p11y mises.
+          lherefore, be on your best bdwvmr m mectmgs-slrive always to m.ake substantive rnm•
+          ments, and don't do an)'thing that detracts from the quahty meetings.
+              Ali n m::muger, lenm how 10 conduc1 m«:ling,~ th111bring out the best m the pnrtieipnnts
+          tind thnl gencm1c 1hc best rt11uh11. 1'o hll\'C e1Tc:c1ive meeting$, 1K1y aucnlion 10 the de111ils of
+          plunnmg. conducting. and (ollowing up 110er the mccung.
+
+
+          Plan tha Mooting. Meeting..<; can (ail bemuse of II bad 111c:c1Jns time or place, havmg the
+          wrnng people attending, or having an unclear pu.rposc or no agenda. Good meetings begin
+          with good planning. firs1. clnrify the mcc1in1, purpur.c. Prcpure nn approprinte agenda.
+          Arrnngc: ngcndn items in an approprinte sequence. und make sure ndcqunle time is 11ll011ed
+          for ucnu llm need significnn1discuJision,
+Chapter 1 • Managing with Communication                                        Professional Wntln O S            akln • 24
+
+
+              Armngc an appropriu1c ume and plucc 10 m«;, Consider people's schedules nnd work
+          demonds. Choose a room thn1 i.s uppro1niatc in size nnd thal equipped with np1noprio1c
+          1cchnolog.y. A.s needed, use \ irtunl-mce1ing 1cchnolog)' (e.g., www.go1ornce1ing,com,
+                                            1
+
+
+
+          WW\\'.Z(1<)111.coi", .,,ww.$kype.co111, or www.mcetgoogle.L-om). 'fhL•n use screen sharing
+          .ind any olhl·r appropriate enhancements to enable all participanls lo sec and hear.
+               Notil)' all parttdpsnts. Announce 1he mccting as 13r m advance as appmpnate and give
+          all rclcvunt agenda information so aucndccs can plan nnd prcp.,,rc, For remote meeting,\,
+          explain lhc dccailcd proccdurts for muking phone or web conncttions,
+                Com11lc1c i1ddi1ionnl 11lnnning. such us prq,nring rclcv,mt handouts or 11lideshow ma•
+          1mal11, manging f'hr equipment armnging for someone to take minutes, and 1ut11nging f'hr
+          l'llod. Develop a d1cckllst to ensure that nll planning details arc complck-<l.
+
+
+          Conduct the Meeting. Meciing..-. can fai l because ofnal followingnn agenda orofhnv•
+          ing 100 much or 100 liulc pa11idp1uion. When ym1conduct a mceling, ITIO\'C mC1hodic11lly
+          1hrough the tigenda, paying attcncion to 1hrcc parnllcl mLCk!I of activi1y- u1sk. procedure.
+          i1nd l'tlationship. 'l'he tallk 1r11ck rocu11cs on the busine11s hems to be: covered. such ns 1he
+          (ollowmg..
+
+          wo·vo seen a 15 percent incrsaso in producl rejects in this part of the plant
+
+
+          What if wo merge these lwO units and have Rob manogo them both?
+
+
+             'Ihe procedure Lrnck roc:ui1c:s on 11genda sequence, \'oting procedures, time m11ru1ge•
+          mcnt. and othc1' related issues. Procedural factors may be: addressed whcnc\·cr it seems
+          appropriale. Commcnls like !he following arc common in 1he procedure 1rack:
+
+
+          Lei's go around the room snd /law evwyone staI11 their key concems about this strategy,
+
+
+          Lot's nOl VOio on th(s today. J th(nk. wo need some lime to think about II.
+
+
+          Let's li'rst mak& sure 1YS underSUmd the cauSBs of the probl&m and then gel into brain-
+          storming.
+
+
+               1'he rehu,onship lrnck roe-uses on pcoplc'11 feelings. Conflic1ing opinions ore 11p1nopri•
+          me in the tll~k 11\1ck, bu1L'Onnic1 i11 destructive 111 lhc rel111ionship track. Members mu111 lcorn
+          l() interact in a non-ubrasivc manner. If they duu·1. people get oO'cndctt, refuse to go along
+          whh group docislons, <ll' sometimes even work against the group. Positive relationship
+          commenls vulidate both the person and the ideus they share, such as the fo llowing:
+
+          8011, how are you feeNng sbout the direction we're going?
+
+
+          n 1S11k1, Samantha. That's a1J fnsigtJtluJ comment
+Chapter 1 • Man aging with Communication                                        Professional Wntln O S            akln • 25
+
+
+                 Some rcnuirt.:s migh1 cmss two or more trucks, 1mch as, ..Ryan, you·rc alwnyr. well
+           organized: will )'OU be our limckc:cper 101:lay?'" l'hi.s comment compliments Ryan (rcla•
+           1ionship l1\1ck) ond imJ)lcmc:11u1 a timc-m.11nagcmen1clement (procedure: 1mck) 1111hc same:
+           1i111e. 1'ablc 1.3 1llu.-~1m1cs these tracks tmd llsL,; d1lrcren1types of actions 1ha1me 1yplL~1I of
+           each track.
+
+   Table 1.3 ThroB Mooting Tmcks
+             Task Examples                          Procedure Examples                 Relationship Examples
+     • Oefirlo8 problem                       •State agenda                         • Validate a commoot
+     •8ralRStorm                              •As.s.;gn speaking sequ&nce           •Para,ptvase a comment
+     • Evaluate options                       •Ro-soquonco agondo                   •Ofaw out a quiet person
+     •Develop ,1rategy                        •Oalermine closing lime               •Check on a peraon·a reolings
+     •Prei8nl rQ$$8tCh
+
+                One of your major meeling tasks 1s l u fi1cili1111e. In skillfully guide the group through
+           ii r roccs~ of problem solving 1lmt nchievcs the hes1 rosi;iblc outcome. The following lis1
+
+            highlight!I 5even fnciliui1ion responsibilities:
+
+            l. Uc objecth-~ Be objective in dealing with opinions. foc:is, nnd ideas. Suppn:i1s your
+                bias nnd stress lhc importance of obJcctinty.
+           z. Mon.· lhc dii1cui1sicm forward...'ollow 1111 cfficlrnt procedure to launch topics, obtam
+                commems, snmmari1.e feelings. nnd mo\'C the group ulong. r>o your bc,;1to stick with
+              the schedule and s1uy on nme. bu1 don't be so rigid 1lmt you 111hibi1 imponunt discus•
+              smn. To ensure Ihm ench agenda item 111 properly handled. some miulagcf!I follow n
+              dtllClL'-H lcc1de--dclcgate pJllctn-nn item is discusiied. u dcd.sion iii made, nnd app1'<)·
+              prl111c tasks arc ddcsatcd, specifying (11) who (b) will do wh,11 (c) h>• when.
+           3. f'ustcr approJJrialc divc,xent and conn.·11tent thinkin~ fncouragc members to ex•
+              prcsi; con1rnry points of view1 and use bminstonning 10 help people be crca1ive and
+              think OUl"-idc the nonu. When suflicicnl divergenl discu-.i;ion has occurred, m(IVC the
+              group to convergent lhmking th111 lcacl" 10 consensus.
+           4. Creulc a JJS)'l.'holngkaH)' safe c11\'ln111mcnt tl111t t ntourugt!I ,u mcmbt•N to c1111•
+              tl'lbulc. 1'0 gc.1 full par11dpatmn, ur.c tcclmlqucs like a strutturcd go--oround, where
+                e.w ry pl'rson m tum makes commcnL,; about the topic. llnng out the best thinking from
+                cve1yane.
+           5. Ccmtrol di~ru111ions, 1\ll« 1ing d isnipt1ons can be cau$Cd by cell phones. long-winded
+              lolkcrs. off-top1c: humor. nnd more. ,\I the beginning of the meeting, allk membcrt to
+              tun1 1cchnology on~keep comments rdcvnnt 10 lhe u1sk. and kctp commc:nu1 concise
+              so all cnn pJrtidpotc. Remind 011 needed during the 111cctmg.
+           6. t nsurt understanding. Summanzc each member's comments to make-sure yuu have
+                understood corrocdy. l'criodtcally summarize the temn's comments lo be sure you arc
+                nccumtdy ai;..-.ei.sini; their ideas and feeling.'i,
+           7. c~1pturr c:riticnl idr111. u~ a Oip t han or oomputcr with projector 10 record mcmbc:fs ·
+              input. Make the text hu-ge and legible so everyone: cimsco and read the commcnL'i, U1e
+              eolou, unc.lcrlining, and simple graphics 10 highligt11 key infom1111ion (iicc Figure 1.9).
+Chapter 1 • Managing with Communication                                                           Professional Wntln O S   akln • 26
+
+
+
+
+             Figure 1.9 Uso a whlteboatd, llipchatl. or computer wllh ptOjec.tor to capture momber·s
+             input.
+
+
+                When the ngendu is completed or time nms out, close lhc mee,ing. A.s ynu ooncludc,
+             summarize the rcsuhs nf 1hc mee1ing, r~ 1111c as:;ignmcnts given, •ind thunk the 1111cndccs
+              for their 11an1cipmion.
+
+              Follow UpA(tor tha Moet/ng. Mcctlni;,t can full hocnusc of havlns no nunutcj dis-
+              Lnhutcd or having .iss1gnmcnts not carried out. As soon as possible after 1he meeting. dis-
+              Lnhutc meeting minutes wilh uctiun items highlighlcd {c.g,., highlight md1vidu.1I members'
+              a:;..iiig.nments in )'Cllow). 'l'hcn follow up on 11s:.ignmcn11- to make imrc lhcy arc completed.
+              Figure 1.10 provides 11n example of highliglucd mmmcs.
+
+                                                         Sl;hool Rcl:1dous Commitlre
+                                                Mitnllt'S orM«ting: Held 011Scp1embcr 12. 20XX
+
+      ,fm""'"'il; And)• 8;H1on, Ch+1ir; fnbio Fcrl':lri; Kmh)' Rogc~; Mich:t:1 Willi:11n1; Cindy Wani: '1.lcc,an
+      W:ucrson
+
+      Andy mcnooncd tb:11our schoal-<:on1:1cL rosier,, out or d:"1tc.
+      com.m 111fon11.111on ror }(H.11 ,1.hoob bLSq)tc111~, I 10 Ku1b
+
+      Bmokt)'n School will be holdinµ, its :1nnu:il Business le:idcrs Round1nhle on September 26 from 'J•I I
+      :1.m. And~·. h 1b10, ~hch:1el., 11nd Mc •.tn will 11ttct1d. Yoo 11COO to ,1rmc 111Ilic schoo X \11 a.111 to
+      , -.,"\'Cl\ ~ lhlill J!)lll I\IIH:lll l
+
+
+      Rod rcpor1cd 1hn1Asluon School w11n1s 10 l1old II cu.sc-pn:scnuuion compn11ion ror its 1tmd11u1111p scntOrs
+      Thcx,!i:wc asked 1ha1w~ f)l'O\'ide C3~ ll\.'llCfi als for lhCCOflll)C!ition \rnd, \\ ill n~ our f!XCIII marl
+      C\J)llns1on pro cc · S, :1bas is for 111:11cas.c :md prcscm il :11 our nc:-,1 mcc:-1111.;;.
+
+      Tlwcc sc11Jors from 0:1.sJd11Hci,glus Comnnrnhy College then g:1i.c p1cS'!nt:11ions on 1hch s111nmcr
+      imcrnships 111 onr com11an)'. All duce rcponed 1h:11 they h11d b«n very pleased wi1h 1hcir cx()('ricncc 111kl
+      would s1,ongly rccom,1,c,,d a repe;u oppor11rnily (or 1h,~c mort s1udcn1s nC'II )'C.\r
+      Aflcr lhc -SelllOl'l WCI'\' e.'ICUScd. I.he group d1.~·usscd lbdr lcchugs .tbout lhc iutc111stups. E\'Cl)'.911C
+      COUCUITCJ ,,~11 u,ls p1Qgr11111 , hould be contl11ucd. MM!Jlllllp. bU:ilness hcahh all0\\S. l-..,1thi. ntU pul lhl
+      11~m OIi the II '(lldJ ro, J.mU,l f\'          Y.C CUii be 'Ill the n:-i;rui11nc111 pro-:~, f..)J ne\t :iUtnmcr
+
+      Our 11cx1 ,ncc1!1t.t1, will be October 11, Ill a Ill. 111 the Couny.,rd Co11fere11ce Room.
+
+             Figure 1.10 HighJjghted mooting minutes S81V9 as a useful reminder of assignments.
+Chapter 1 • Managing with Communication                                       Professional Wntln O S akln • 27
+
+
+               When you conduct \lirtm,I meetings, remember a few cxtru guidelines. fi ri.1. i;ch«Me
+          11nd ormngc for oll nccc11si1ry lcchnology. '!'hen on the dny of 1he conicrmcc. double check
+          the rquipnmn m mokc 11u1-c i1 is working. O111ablc pop•ups und other syslcm items ttull
+          might appeal' on your $Crccn ,luring Lhc mocling. Be Wl'C to st.on nnd c:1\d on tune. At the
+          bet;inninsof the moctiug. tnke time.to introduce )'Ourself and C:\leryone else who is m\'Olved
+          in the mectlng,. f'mally. make sure everyone has an opportumty t<> make c.ammcnts.
+
+
+          Conducting Interviews
+          ln1crv1ews ore like mmi•n1tt1ings. and many meeting guidelines: apply to mtervic\VS, in•
+          d uding planning~ conducting. and followmg up. lntervie"-s cnn be hdd for 1nany rcn,oni,
+          including the following.
+
+
+          •   io consider a person for employment
+          •   10 ob111in int( mrmtion nbout II problem in the org:aniu11ion
+          ■   10 set II prog:rclis rcpon on o project
+
+              fi rst, cl11t1f)' )'OUI' purpose. Lisi the ilenu you n«d to dlsc:uiS. Arm11ge the itc111s in ,,
+          logical sequence. Arrange for mectins 11111c and place and no1iry the mtCTViewcc. Decide.
+          how to record the informnlion you will oblmn in the mter.•lCw.
+               Ar. the intcr\ticw bcgini;, b:ilnnoe both foci seeking nnd rcta11oni;h1p building.. Engage
+          imually 11111 b11 ofinrom1ul com•ersotion 10 rclu,c the utmos1lhcrc. Then md,cute the purpose
+          of the in1cn•iew. Give adequate ~1ckground mfonn11lion und cxploin the general 111n1c1urc
+          of the imcr\•lcw 1Lt1 needed.
+               Begin the questioning nnd use approprlnle questions to obtain the iniOmwtlon you
+          necd. A\'oid disingenuous. leading questions thal compd the interviewee to answer the way
+          you wnnt. rnther thnn the wny he or i;he really fed!:i. f or example, nn appropriote question
+          might he. ··How do you feel nbout Jenny's proposnl'f' l his que!:ition does not divulge your
+          fccling11 and docs not lead the person 10 nn11wer lhc wuy )'OUwant I lowever. if you phmsc
+          Lhe qucsuon m any of the following WU)'$, 1he intcr\licwcc wdl nol fed oomlb11•1ble in
+          being totally open and hon~t.
+
+          lin not in favor o/ Jenny's proposal. How do you feel about it?
+
+
+          How much of a disr11ptio,1w,11 Jonny·, so,..c;aN-ad cost-cutting proposal cause in your clfJpart•
+          mont ?
+
+
+          Don 1 you agree that we should b& cautious tlboul Jtmrty·s proposal so we don't add m~
+          stress to our budget during this economic dOwntum?
+
+
+             Jus-1 as the wording or question-. cnn lead a peracin 10 respond in n ccrt~1in wny. your
+          nonverbul communic111ions (fnciol expressions or tone of voice) cnn do the snmc. Doth
+          whnt you say nnd how you say ii arc impol'Lluu in ob1aming honest communicotion.
+Chapter 1 • Managing with Communication                                       Professional Wntln O S            akln • 28
+
+
+               As the in1mricwcc 1s tillking. be rt"'iponsi\'e, optn. encournging. ond nrntjudgmcnl!tl.
+          1'his will help bring out all che rclcvnnt infom1.111ion lhe r,trlion h1l~ lo give. 'lb cn.~ure thm
+          you understand Lhe othcr person. paruphrusc Lhc content and feelings from umc to time.
+          such os, "So what I hear you saying It . . :· or "So you feel trapped be1wccn . . ."
+               Avoid letting the Interview gel bogged down 111 unproductive-side tnps or m;cless de-
+          tails. Keep the discussion productive, providing you wllh the informauon you .ire seekins
+          and moving forward to a good condusion.
+               When you feel th111 )'Ou have nchit\'td the purpose of the in1«view, thunk 1he per.ion
+          ~ind close the intc1v1cw. If fu rther work or communic111ion 111 needed. chu·ify who will
+          do what by when. At the L'Ondusion of the lnLerview. record all fuels and feeling.< thm
+          will be important in the Cuture. If you have taken notes durins the interview. type them
+          immcdiatdy so you don't forget the dcuuls.
+
+
+          Negotiating
+          Ncgo1io1ion is an impor1on1 comnmnicotion pr<>ees11 in husine-ss. I lowovc:r, i1 is o11cn
+          nu,1unders1ood ns a 11roccss involvmg conllict betwctn two parties, with one emerging os
+          11 winner and the other. ti loser. A more uscfol perception 111 to think l'lr11 ns nn mtc:ructivt'
+
+          process of gcttmg what you want from someone else. It docs not necessarily mvoln: con-
+          fhct, and u is not ii debate, but ruthcr a conversalion. 1-'unher, it does not nlways involve
+          money; mlher i1cnn involve r.,omethmg u.s simple ali ncgo1ia1ing with your boss- to reassign
+          one of your proj«ts 10 someone dse {sec figure 1.11 ),
+
+
+
+
+          Figure 1.11 Negotlntlon Is an Interactive process of getting what you want from somoono
+          else.
+
+
+              Remember four principles u.nd processes J'or successful ncgotiatmn.
+
+          I. O nri(y yuur i;:cml. Decide specifically what you wnnt lo nchicvc. Stntc: ytrur goal cnrty
+             so ii can he nn anchoring poin1for the rest of the con\'crsntion. Using this din:ct ap·
+              proach gels your dcmand11 out early. which influencc11 oll subsequent di11cm1sion. Male~
+Chapter 1 • Managing with Communication                                       Professional Wntln O S            akln • 29
+
+
+              your gn:il sufficiently high. bcc.nuse if you hnvc high expectations. 1hc outcome will
+              be higher. Conversely. if your goal reflects low cxp«tn1ions. you will usually get less
+              Lhan you could,
+          2. OcC'ldt what you will nol agrct' to--)c1ut ,teal breilkt!r. 11c>I' example, Ir you wum l1
+              prospeL1l\'c cm1>l<>)'Cr to g.ive you .nn add1t1onaJ SS,000 on your s.u..lnry, you nugh t de-
+              cide that anything less th.an $2.0()0 wdl be u deal brc.akcr. Do not dl\lulgc your brcak-
+              dcnl point dunng lhc ncgo1intion. bccnuse thi-. will weaken yQUr case. Mowcvcr. do try
+              10 fi nd out 1he 01hcr person's brCilk·dcnl point.
+          3. Ccmsidrr 111tcr11111in-syou tnn turn to i()'OII uni 1111sucttll.d11I i11 ob111inJngyn11rgonl.
+              for instance, iryou have two job offcr. 11. )'OU e:in trike the iiccond offer i(your prefc1tcd
+              offer Isn't satlsfa c~my. Mcnlmning your second option gi\'c~ you add1donal leverage,
+              bec-ausc the prd«rcd employe.r knows you have anothe.r optton i( your expectations
+              i:1rcn't met. Hnving a good alternative gives you leveraging rowa . However, don·1
+               use i1 ns P threat. Also, during 1he ton\'ers111ion, IOCus most of your comment~ on your
+              desired go.ii. and hold the olternJlivc in reserve un1il other 011cmp1s to pcrsuridc have
+              failed.
+          4. Under!lhmd the ll('Nl!I of LIit' olher p:arty :and then uM' th111 kuowlrdgc.• to friam(' e,•.
+              crythinjt ln their hl-sl lntcrt'!ll!t Think o t'nc,go1fodon as ge-tting whal you want for their
+              reasons. 1 hmughout the process, try to frame all requests m a way that w1II uchicvc
+              lhe 01her pnny's interests.. for ln:s,1nncc, a~ume Ihat you hnvc acccp1ed ujoh offer und
+              wnnt your new employer to pay ror u house•l1U111ing uip to the city where you will
+              be rclocoung,. Mention thut 11incc you plun 10 11,Luy with 1hc employer ror II long time
+              (which ism the einploycr'ii bc11,I intcte.i.t), you w11nt to find the riglu ht'lrne where your
+              family will be hnppy.
+
+              If 1hc other person won't budge or is making unreusnnahlc demands during a neg.otiu•
+          lion. ym1can always call a lime out 10 m:onsidcr wh111 i~ happening. Suue something like,
+          "Thul is diffcrtnt frorn whnt I hod been hoping for. so I'II need 11omc 1ime 10 chink 11bou1
+          ii. Let me call you b11ck in two or 1hrl"C d.uyi1." You t:J1n think more ru1ioniilly while you arc
+          in the fac:e-to-1:lce context, wluch ~ves you 1he opportunity Lt'l prepare your.w:11' better tu
+          :address the hems you arc concerned about.
+               In all your negotiu1ion discussion \.,·ith the other person. slay focused on what you
+          wnnt, con1inuc 10 cngngc m rat1cmal di-.cussion1 keep your cmolion:s, under control, und
+          uvoid conOic:c.
+
+
+          Holding Difficult              Conversations
+          As a manager, you will occ-11Slonally need to tu1vc d1flicuh convcrsalions that you would
+          rather avoid. UIO'icuh conversations arc never easy, no matter how nuin)' times you have
+          1hcm . for example, the situution migh1 in\'olvc giving feedback to ii subordmnle wholi-C'
+                                                         •in
+          pcrfonnnncc is subi.1and11rd or 1;ilking with employee whose bchnvior is causing r rob·
+          lemK. Your go:11, o f ooursc. is to achieve II positive mucomc. bu1this sometimes just doc11n'1
+Chapter 1 • Managing with Communication                                             Professional Wntln O S         akln • 30
+
+
+              happen. In fi)ct, somctintC1> difficult convcrr.mion" mnkc 111011cri; wol':iC, rather thnn bc11cr.
+              1'hc following information may help inc reuse your clmnccs of success in your own difficuh
+              convrrsntions.
+
+              Factors Involved In Dlffic.ult                Conversations . 'J\rn rundnmcnt.al factors arc
+              involved m most d11'!icult conversations-the .i1ti1ucle-and the behavior of 1he two people
+              involved. 'l'hc 1wo-by-1wo grid in ftgure 1.12 i;hows how lhesc lwo fbctQI'$ affect the
+              convcnwilion.
+
+
+                                      Attitude/Behavior Grid
+                               -                       -                                   -
+
+                 Positive
+                                             ·---·--►
+                                      Positive attitude                  Positive attitude
+                                                                                           •
+                                   Inappropriate behavior              Appropriate behavior         e vou
+                                                                              ;"1                   e Other
+        Q)                                                               /
+       "C                                                          /
+        ::,
+       ·'=                                                     •
+       =
+       ~
+                                                        /
+
+
+
+                Negative
+                                             -=--- /
+
+                                      Negative a11I1ude
+                                   Inappropriate behavior
+                                                                   --➔
+                                                                        Negative anltude
+                                                                       Appropriate behavior
+
+
+
+
+                                                                                               -
+                                     Inappropriate                           Appropriate
+                                                        Behavior
+              figure 1.12 Focut OIi changing lhe behavior rather than changing tho porson.
+
+
+                  Firs.t, as the red dn1 mdicntcs. maininin II positive nttitt.1dc ahoul the olher person. Even
+              though 1hc ix·uon has behoved ina11propriotdy, don·t 1hink of the person as bcmg bad or
+              having ball mo1ivc11. R.111hcr. focll.; on changing lhe behu\'ior. not on changing the person,
+              Furlhcr. olways beha\'c in a calm manner, never ollowing younielf to become angry 0 1·
+              dt'fcns1vc or to make-ncgalivc, dcmc..imng rnmments.
+                   1able 1.4 lists examples of negative nnd positive commumca110ns thnt can occur In
+              difficuh converr.n1ion\, Beeau'ie difticult oonversntions often invol\ C heightened emmion:r.,
+                                                                                       1
+
+
+
+              bolh you nnd lhc other pcri;on can easily !ilip into the ncga1ivc column and become anSI)'
+              or drfcn11ivc.
+Chapter 1 • Managing with Communication                                      Professional Wntln O S akln • 31
+
+
+          Table 1.4 NegatiV9 and Positive Attitudes and Behaviors in Difficuft Conversations
+                          Negative                                         Po&1t1ve
+           Nonverbal communication                          Nonverbal communication
+           •Ang8f                                            •Calmness
+           •Frustration                                      •Optimism
+           • Defensiveness                                   •Operi mindedness
+
+           Verbal c.ommunlcotlon                            Verbal communication
+            •Negative commenls.-5arcasm, blame.              •SuppC)flivo comments--encowagemont,
+             put downs, etc.                                  compliments, etc.
+            •Altitude-oriented comments                      • Behavior-oriented comments
+            •lectwlng about bad behavior                     • Questions to seek facts and ree!lhgs
+            •Closed-tnlnd&d 6.stening                        • Opon<rlndod II stoning
+            • Interruptions                                  • Paraphrasing to lost for undorslanding
+            •Focus on the negative past                      • Focus on a bettor future
+            •Doubtful comments                               • Hopeful comments
+
+              Second. the blue dot~ in Figure 1.1'2 $how Ihat lhe oth« person bringi. 10 the con\'Cl'$11·
+           lion e1thtr ti posi1ive or negative attitude. With a positive attitude. 1he person mighl chnngc
+          ju111 by being made nwu.rc of 1hc inappropnate behavior. Wilh n negative attitude. however,
+          your c:halle.nge is much grcah!I'. Althou~ you wdl want n change in attitude and u du1nge
+          in beha\1ior, you might get only a change In beha\1tor. In fact. )'OU might get neither a
+          behav1ornl nor an atutude change.
+
+
+          The Olfflcult Conversation Process. Stnn the converi111ion by thanking the
+          person for mking tho cime to \fisi1 wi1h you. 1'htn cxploin, ·'Thcre·s a little C()ncern 1tu11
+          I'd like to 1olk nbout Imlay." Describe the context )Ulte yourobjocti\'ell, and cxplnin your
+          observntions in bdwvioml terms: "'r1,t' issut' has to do with our weekly lllnff nt<.-clin£,S.
+          As manager of this group, I 'm trymg to create a feeling of openness that will encourage
+          pa11id pation from you and e\'eryonc else in the group. What I sec as n problem is that in our
+          meetingi., rm 1101 getting the benefit of cVC"ryonc's input I'm wondering if i1bccnui;c you
+          frequently make nlOlil of the ccunmel\lli and other people ore hc11i1an110 give 1hcir idcus."
+              fmme the problem in a wny thnl it will lead to the out~me you wanl. f:oeu!I on the
+          peoon·s bdu1v1or and he careful llll l lo judge the person's attitude or charuetcr. Ob\'lously,
+          you would not say, " You Lo.lk so much m our meetings th.al )'OU don't g.ive anyone else a
+          chance to say an)•thing!" Sui:h charui:1er assassmalion wdl only muke a s1tualion worse.
+               After you h11vc explained lhe oontcx1. the bdmvior1 and the problem cau$Cd by the
+          bchnv1or. usk IOr u re11ponse: ''I'd hkc 10 heur how )'Ou ft-ti about tho situn1ion: · As the
+          person respond11. listen ourt full)' 10 both focts nnd iCclings. Then p1lmphrnse to test your
+          undcri,tund111g: " If I'm hearing )'OU correctly. you sense thJ1I lhc 01hers tire hcsitnn1 to
+          pa11kipatc, so )'OU It'd a need to respond more; ls that corroct'! " Condnuc: m opcn-mmded
+          dialogue aboul the problem until )'OU and the other person unders-tund each other.
+               At lhis poin1. res1atc yourcnrticr objcc1ivc: "As l mcnli()ncd curlier. my goal is lo crc.11e
+          11 feeling of openness thnt will cnoourngc p.articip.11ion from you nnd C\'cryone clSt in the
+          group." 'rhcn move on 10 c-rcatc un action pl □n 1h111cells whm you and the other person will
+Chapter 1 • Managing with Communication                                      Professional Wntln O S           akln • 32
+
+
+          do: -11 seems to me thut one wuy lo l"C!IOl\'C thh: siluaticm is for you IP hold olfo hi! cm your
+          c:onunenls rind for mo 10 u11e n structured go-around to mnkc sure everyone commenL.°',··
+          1'hen ask t'()r the other person's rcs1x>nsc: "Ilow would you reel 11bou1that'?" Agnin. listC!n
+          to the person'ii oommentii and p;iraphmsc to 16 1for undcri1undii,g and buy-in: "So you red
+          comrortable proceed In:; with 1111:; approach in our ii.I lure meetings'!" As needed. engage 111
+          uddi1ion.al dialogue to refine the-plun.
+               When you feel ii 1i; 1ime to conclude, thnnk the other pen.cm and exprcsi; your optimi,;m
+          nbcmt lhc pion's clTcct1vcness: ·"'l'hnnk~ very much, I really npprccintc your rnking the time
+          10 u&lk about this s1tuution, I think w(l'II sec some nice improvements 11s u rc,ult,"
+
+          Additional Guldallnos. Before i;cbl"duling di01cuh com·ersations. plan care-fully.
+          Clarify your purpose, unalyze the pc-rson and the context, and dc\'dop a strntcg)'· Make
+          a record of the critical fnct!I, induding 5W2H elemcnl~ (who1 what. where, when. why,
+          how. nnd how much). and write the: purpose IL.'> a clear senlcnce. Writing this sentence
+          will embed it clenrly in your mind nnd help ii 10 be an anchor during tho c:onvcrs.111ion,
+          Rc-rcr to your wrincn no1es IL" n«dcd durmg ,he oonversulion to make sure you cover ull
+          imporumt points. lkcnusc difficult convcrsa1lons ran smncllmes slmy ofl'thc topic, resu11c
+          Lhe purpose to :;et b.ick on track: "As I menltoncd my goal 1s to . . . so I'd like to get back
+          lo llddrci;smg that more i;pocifically."
+              Alway:; m.nke i;urc: your motive:; ore s;ood and m11111ally bc:ncfic1ul, not jus1 i;crving
+          your ncccl-., At first, the other person may tlunk you arc i11111ck111g him or her as a person,
+          l-1owc:vcr. through constunlly 11ccking for what i11: mutuully bcnclicial, the other person may
+          begin to sec th:u your motives Mc sincere.
+              As needed during the: convers11tion, c:Unurullc or mimmizc ccm1111umc:atlon barriers.
+          Apologi7..c: ir the person point,; out something you have s.aid or done that oflbndOO the
+          pc11,on, Also, addrei;i; and 1ry to rL-s11lve any mnccunue concerns the oiher p,eti;on has abou1
+          )'OU, An e:u1mplc follows:
+
+
+          I'm so,ry I offB1Jdad you wllh my earN6rcomment I wosn'l ssy,'ng your input wssnY voJu.
+          ab/9. I was Just saying lhal I want 10 make suro we gol as many viBwpoinls t1s possible and
+          nol overlook crilical lnput lhal olhers should $/!are.
+
+
+               Keep y®r emottons under conirol. no m111ter wtw1- ,w mnlff'1' 1rlint/ Even if the
+          other person bL-con1CS 11ngry. keep your emocions: under control. Bo calm. be prorc11sion11L
+          tind continue to move 1he conveunuon fo1wnrd in ti c:nhn, confident and controlled way.
+          Don't let yourscl(bc drnwn into 1hc other pcrllon',i ncgauvc emo1ion$. tr you find yoursctr
+          slipping, however, c-all a time oul and reschedule Lhc com crsatmn (or another day so you
+                                                                        1
+
+
+          don'l lose control.
+              1'hroughou1the conv«i;ati()n. maintnin a supportive environment in which the other
+          pcrslln feel$ s.nfo in being open and hom~t. Bccm1,;c diflicuh oon\'crsntiom• 1111k the other
+          person to change, lhis implic11 that the pcnon wns wrong. 11nd thi-. cnn damogc his or her
+Chapter 1 • Man aging with Communication                                       Professional Wntln O S            akln • 33
+
+
+          sd f-cs1cem, Therefore. seek for woys h) heir 1he other penwon inve fncc: ··1 11rprccin10 the
+          good quality of your comment~. and I know we can work togclhcr 10 increase the panicipa•
+          1ion by others in the fu ture," A'!t much as possible. mokc lhc convcrsnuon II positive C\fent,
+          ruthct lhM ll rcprunomL Seek to build sdf-e!ltccm. not to destroy it.
+               When you must g.ivc ncgnlivc inl'ornmlion, Ji sure out a way to sandwich it in between
+          po:s111ve c.ammcnL'i as follows:
+
+          Question: How did you fHI about my presentation t/lis morning?·
+          Re,pons,: I likod it oJot. I thought you did on ospocially gOOd job discussing the nood fo,
+          th& proposal. At on& polnl I wond&red If tho finance peopla might hava wantad a bit moro
+          datall in the budgel analysis. but avetything olse I thoughl it was exc&#e11t. How dkl you
+          feel about it?·
+
+
+              1·wo final points should be remembered. First. he cmdul in gi"ing negative fmlh.id: to
+          people who ilrc not under your stewardship. In most c11sc11., ncg111ivc feedback should come
+          from the pcrson'i1 maru1ger. the one who has organiza1ion11I authority nnd rcspons1bili1y to
+          gwe feedback to the pel'M.ltt. Second, ot any point m ,1d1flkuh convc™1tion )'OUcan call ,1
+          time out li' no prog.rcss Is bemg made, or t'or any olhcr reason, you can sa)' something llkc,
+          " I think I need snme extra time to consider whal wc'\fc lnlked about so for. Let's end our
+          discu-.liion for 1oclay nnd gc1 back 1ogether on ·nmrsday.··
+
+           Chapter Summary
+
+          Communica1ion is the means by which managc1'S manage. As a TL-Sult, your communlcolion
+          skills will grc~1lly inllucnccyour advancement, your sal11iy, and your job sccunty. Commu-
+          nication nffect...,. everything in your career. ·rwo critical areas of managcmcnl dfcctivcn~
+          focui; ( 1) on monnging yllun.clf nnd your rclntion-.hipli wi1h 01her$ and (2) munaging othel'$,
+                Regarding sclf-man.igemcnt, socinl enCctivcncss iscritical nt 1111 lcvel~of an organiza•
+          lion. Your social intelligence includes being 11wnrc of your own cmo1ion11 and 1bc cmmion11
+          of 01hers. ILi; well O!i the ability to marwge your own cll\nllotL-i and your 1-clJtlonship with
+          othcrs. 'J'rust is a cntienl pan of mterpersona.l cffocth·cnes..,.. t>cople-who are lmstcd are dm•
+          sc::n to work on import.ant proJeCL'i , chosen to work on teums, and chosen for promotions.
+          Ethi1.--s i:. 11 particulnriy imponnnt a!ipCCI of earning trust. Companit':i wrile codes ofconduc1
+          to help ensure thui employees live according 10 high stondards of ethics.
+                lkvclop your nbility 10 panicipatc efl"bc1ivcly in discussions ,inll convcrsauon!I. from
+          (hnnal to infbrmal. A11 you partid1,:itc in these iutcmetion11, be o good li!!tencr. Al!I<>. lcom
+          about and apply general!)' accepted sodnl stand11rds of behavior, including good m11nners
+          and etiquette. U1ilizc nclworkmg to increase the length of your social reach and influence.
+               kcgarcling the nianngcmcnt of 01hm, num11ger.; work to achieve orgnnizalionnl objoc-
+          livcs while litriving 10 minimi1.e resource use nnd mnximi;,c rcsuhs. Minimizing re~cmrcc
+          use is referred to IL..; being cnicicnt: maximizing n:11ults i11 referred 10 1L..; being cfl'bctivc.
+Chapter 1 • Managing with Communication                                        Professional Wntln O S akln • 34
+
+
+          In pcrfom1ing munagcmcni and lcadcr,;hip f\mclion-.1 munagcr1i 11101,1 b.1lnncc thdr focu1i
+          on lhc u11ik11 (getting 1he job done) and rclution~hips (mointaining good rclo1ion1ihips with
+          people) alipccts o f lhc job,
+              Oul'ing youtcarccr. you will hiivc muluplcoccasion.s to "-ork with 1cmns, so111c lnvolv•
+          ing only a few poople and some. many more--. As a manager._)'OU mu1>I help teu1m ruw1guk
+          through four stugc1, of development: forming. storming, norming, und pcrfonnmg. You
+          mu-.t 11!1>0 le-am to mnnagc a d1v«1>c wortforce Qf people from all walk.Ji of life, including
+          1hosc wi1h di5,Ubilitics and tho1ic from diffcrcn l c-uhur(l'i'. nnd omuurics.
+              As o professional, you will conduce numerous meetings. and you'll need to know how
+          to conduct mccling, that b1'ing oul the bc"t in 1hc-pa11kipanb. nnd gcncrute the best rcsuh:s.
+          huc.·rvicws nre like minl•mectm_gs, and many of the s.1mc guldchncs npply. Including pkin•
+          ntng, conducting, and following up. You will also nttd to huvc d1fficu ltconvcrsations l'mm
+          lime to time: . ·rwo fu ndamental factors arc invo1vcd in most diflirult conveTS11ticms: the
+          i111itude nnd the bdwvior of the 1wo people inrnlvc:d. focu-. your cffortl\ on ch11nging the
+          bchovior. nither 1han on changing the pcrlion.
+
+
+           References
+
+          (ioleman, IJanic:L Jt111mi011al l11telli~e11ce. New York: Hnnlnm Hooks, 199S, p. 34.
+          ( inrdner, Mownrd, M1,ltiple J11tl'l/igcr1ce:;: 1'hc 1'/umry ir, Pn,ctice. New York : Halik l:k,ok$,
+              19')3. ll, 9. cited in Goleman. Daniel. Emmimml h11elli1:c•t1ce. New York: llnn111111
+              I.looks, 1995. p. 39.
+          Tuc:km.an, Un.u:c. Del'i1fopmt1111al Seqmmce ft1 Smull Grrmps, Psychologkul Bulletin 63.
+              I965: 384-99.
+          Jnms, Irving L. Victims ,,j'(im11ptl1i11k, Hoston: Houghton Mitllin. 1972.
+
+
+           Chapter Questions
+
+          I. l 1) I four nb1litics thlil Gardner 110~ nre cs11en1ial to sodnl e1Teo1Jvcnc!l11.
+          2. Wh:11 is S!Oncwnlllng'/
+          3. Ltsl l'our aspccL'i ol'trus.t..
+          4. Ltst three wuys to improve your convcrsatmn abili1y.
+          S Ciivc: 11n example ofu 5W2H queslion.
+          6. Whnl iii a comment wi1h u hook?
+          7. Whnl Ill tum tnkmg?
+          8. Wlu,11s rcOectivc listening?
+          9. List two guidchncs for nc-tworkmg.
+          10. List five rules of cliquc:uc: in the U111ted St.1tcs.
+          l I. Whn1 i1, the dtffcrcnoe hclwcen Amcricun und Contincntul styles Qf eatmg'?
+          12, Whn1 is the diffcrcncc between cniciency and cffccti\'encss? Give nn c~amplc of each.
+          13, Whn1 docs task nnd n:lotionship balan<:c h11vc to do with monugemcnt?
+Chapter 1 • Managing with Communication                                    Professional Wntln O S akln • 35
+
+
+          14. Whnl is the diffcrrooc hc:1ween mannging und lei,ding'?
+          I.S. Who1 ore the i\1ur su1gc11 of1cum dt\'Clopmcnt?
+          16. Whn1 i11 the difl'crtncc be1wccn 1ask tonOict und relu1ionship conflict'?
+          l7. Whal ill grouplhink'! Ilow can you prcvcnl II ln tc:uus and groups'}
+          18. Whal 1s the AOA'/ How docs II apply to btL-.111c:s.-.'!
+          L9. Whnl 1s the-one safe way to sesturc in all cultures?
+          20. Whal arc the three major aclivity tracki. th111 occur In mcc1ing,,.'!
+          21. List three n"Uijor fodl11a110n rcspcmsib1litics yC1u have when conducting mcclings,
+          22. Whn111111 k,1ding qucsuon?
+          2l Wh:·11 Ill nc.go1i111ion?
+          24. Wlml 1s a break-deal IX)int in negotiation'?
+          2S. Whal two major factors are involved In difiicuh con,,ersalions'!
+
+              Chapter Activities
+
+          l. Listen cure fully 10 11 conve1"S111ion nmong your friends. analyze it, and wrilc a report
+             about It. D1scusl1 tum taking and other conversatmn guidelines g.iven m lhill ehnptcr.
+          2. Complete lhe Personal Attributes Chan. In a sm.all•group discussion with sc\'cral of
+             your classmates, tell aboul one of your highesl• and lowest-sconng sodnl 1111rihu1es.
+             Share an experience: in which lhe:;e auributes were exh1bi1cd. Describe in wntmg two
+             or 1hr« attributes that you w11n110 improve.
+          J. 1'hink orn 11cnon you lrust. Wmc a paragraph m which you explain whut that pcrMon
+             has done to earn your ll'Ulll
+          4. Write 11 code of prnfcsslorwl conduct for yourself.
+          S. (.io oul lo dinner with a group of friends and practice good ctiqucttc. Write .i shon re•
+             pon ahmn your experience.
+          6, If you have 1101 already dllne :.o, sign up wilh Linkcdln Sll )'OU can begin building an
+               onlinc nctwo~.
+          7. Ocsign n business curd for yourie:·lf (dci1ign guidrlines arc gi"cn in Ctwpter 11 ).
+          8. Your mannger has to tmvcl 10 11 dlm~rent cou1ury and has oske.d you lt'I rcsc-arch ttwt
+               country. Wnte a one•p.igc memo that summarizes the mosl Important informauon you
+               find. Conduct research on a country of your choice and wntc the memo. (S-c,e me.mo
+               fom1111 in Appendix B.)
+          9    Write fi\'c sentences in which )'OUuse II figure ohpccch that migh1be misunderstood
+               by i1omconc irom ti diffc: n:nl culture. Then rewrite the 11cntcnoe11, using wording 1tu11
+               would be understood. for example, ,,..I he bouo1n line is th:u we should :idopt the new
+               game plan" could be changed to, "Our oondusion is that we should adopt the new
+               plan."
+          LO. {n1erview two or three people who are orii:;mnll)' fmm cliffcrcn1countries. Ask them to
+              descrihc the problem,; 1hcy encounim:d when the)' first came to your rounl1)'. \Vrile n
+               summary of 1hcir rcsr1onS<::1.
+Chapter 1 • Managing with Communication                                      Professional Wntln O S           akln • 36
+
+
+          ll. Pmct1ce reflccli\'e lislening in u conversation with 11no1hcr pcr\ian, Wrile II summary
+              11nulysi~of your experience.
+          12. Analyze your classroom and list Lhc communica1ion bamcrs you find,
+          l3. 1.ksc:r1bc o negative experience you have hJ1d as 11 1ncmbcr or II team {,.uch ml o i1port~
+             learn or an organizational team). hplnln why ii was nc:;.ativc and Lcll what you think
+             could have prcvcmtcd the problem.
+          l-1. Annl),./.C o nmc when you hnvc ncga1i111ed with $0mconc. Write a summnry analysis
+               of your experience .:md cxploin what you would do d1ffc:nm1ly if yllu could do 1t 11g..:1in.
+          15, Anulytc: 11 difficult convorsn1ion you hove bttn mvolvc:d in, 1CII what wtnl well 11nd
+               cxpbln what you would do din'crcnLly iryou could do it again.
+               Planning and
+            Organizing Content
+     lanning is a vital pan of work in oll profc...sions.
+P    ;\ irplanc pilot:; file a nigh1plun hcforc they Oy, Ar·
+chitecls c:reu1c bluc1>rin1s before o building iscon..,;truc1cd.
+Coaches dc\ldo1111 game plnn for their teams before they
+play. Working wilhoul 11 pion inviles disorganization nnd
+c-hnos.
+    Planning is also one of the most import.ant aspects of
+\l/llting ,ind spcnldng, Ju,;t ai; o roach develops a unique
+game 11lnn ror CJ1ch opponent )'<>u should develop n wri1•
+ing or !!peaking pion for each of your mtSsagcs.
+      In thb1 ch:ipter you'll learn two nwjor ski Iii:
+
+■   How to use the l'ACS planning model.
+•   How 10 create and orgnni·zc the content of your                Fig ure 2.1 Creating plans i$
+    mcsimgcs,                                                      importtmt In all prc,!essions.
+Chapter 2 • Planning and Organlzlng Content                                  Professional Wntln O S akln • 38
+
+
+              Plan the Writing
+
+          As you 1m.:pare to write an email, repon. proposal}or ony other type of mcs,oge. remember
+          four basic planning ~tcps. Pim, determine Lhc purpose or your message. Second, analy-1.c
+          Lhc audience. Third, analyze the come~! In which your communication will occur. Founh,
+          de\!clop a strategy. Remember this four-slep planning process with the acronym IJACS
+          ( Purpose, Audience, Con1cx1, and Strategy).
+
+
+          Determine the Purpose
+          Busine,s mes~gcs usually 11rc wri1ten f'hr onc or more or llucc 111:,jor purposes: (I) to in•
+          fonn or 1ru.truct. (2) tu persuade or t.'OnYU\t."<=, or (3) to build or maintain Lrustmg relation•
+          ship.-;. For mstuncc. if you send a note.canoclling u luncheon appomtmcnL, your mam pur-
+          pose is 10 infonn. However, you wonder if your me-.sagc might dmnagc your relationship
+          ot' trust, so you decide 10 include something 10 strengthen the rclalillnship. such as, .. May
+          we reschedule for nexl Thursday·1 1·11 buy!"' Tublc 2.1 provides more information 11bou1
+          lhcse j1Ul'l)OSCS,
+
+           Tabl• 2.1 Thntt:I Major Purposes of Businuss Messages
+                    PurpoaH                      Quo1Uon1                  How to Aehtovo Purpotofl
+              lnformf"°'struct        What do I want the audience        Provide IIJ)PtCj)rialo
+                                      to know7                           Information thal the audience
+                                                                         understands.
+           Persuade/c;onvince         Whal do I wanl the audience        Provide coovincing
+                                       to do?                            fnformation that prompts the
+                                                                         audience lo do what I want
+                                                                         thomtodo.
+           8uildlmalnt.ain             How do I want lhe audience        Se g&surine and honest and
+           rolalionshlps               to 10.n                           communicate in such a woy
+                                                                         that lhe audiellOU lfU'SIS me.
+
+
+
+
+          Analyze the Audience
+          Once you ldcn11i)' your con1111unicat10n purposes. analyze your 1tudic,11cc (lhe people who
+          will rcc:.d vc your mes.-.ai;c) so you can tailor your mcssugc for them. Of\cn )'Our mcssai;cs
+          will have multiple audiences, such as the-fo ll0\,'mg:
+                                                             1
+
+
+
+
+          •      l'rimnry 1t1 udh:nc:c:. Your mnin imcndcd audu:ncc:. thc: ·~10 .. pc:011lc: in on email.
+          ■      Sccn11d1111• 11udh'11c0, Your second.ury uumdcd uudicnccli. such IL.~ people you CC or
+                 BCC by cm:iil.
+          ■      'lt'rtiary audkncl'. Your unintended audience. such IL" pooplc who receive the infor-
+                  mation without your knowledge; the informnlion mu)' be forwarded by primary- or
+                 secondary-nndicnoe member$,
+
+
+              Consider lhis cxnmplc. Scon Bellini is 1hc brunch mnnager of a rcgiom1I aocoun1ing
+          firm and sh:,res m.uny of the mcssagei1 he receives. Scou is trying 10 develop nn onhnc
+Chapter 2 • Planning and Organlzlng Content                                       Professional Wntln O S akln • 39
+
+
+          library ot' mticfci; rch11ed 10 s1u1c LtC tax fowi;, i;o he ll!ik~ Hriunno Nad« ifshc will wri1e
+          one of the 1111iclcs. Briunnn wrilcs the tll1iclc 1111d lhcn !lends lhc 11rticlc 10 Scott (lhc primory
+          ,,udicm.,-c). S1.-ou !ihtll"Cli the nrlick wi1h 1hc Managing PorLncr. Kclll Sowcf!I (lhc !lcoondary
+          1mdicncc), and Kc,u forwards the attic le to other pl•rtncl'$ ond senior uu1na~m1 In the lirm
+          {the tcr11ary audience}.
+              As you plan your mei;i;agci;, keep all your uud1encci; m mmd, and be careful what you
+          S11y. Alway-$ asi;umc )'Out mci;1w1gci; will be i;hurcd wi1h others (lice figure 2.2).
+
+
+
+
+                                       •
+                                                 / t•
+                                               To: Primary
+                                                            .F.~n.-:~•~---fflt
+                                   •
+
+                                   Y~ U ~ \
+                                           /
+
+                                                     +. tttt
+                                                   Audience
+
+                                                             f.~n.-'.~.!~...
+
+                                                     f.
+                                                  Secondary
+                                                             f.2n.-:~.i~ ...   M
+                                                                                Tertiary
+                                                  Audience                     Audlonco
+
+          flgure 2.2 Messages Cttn have multiple audiences,
+
+
+              All 11coplc view the world from 1hc1r own unique pcrspcc1ivc. or rrumc of rcrert-ncc.
+          and Lhc better you undcrswnd people's perspective. the beucr you can predict how they will
+          react to your mcs..o;ugc. 'J'hc next two sections dcsc:ribe two types of infor111a1jon- de1110-
+          grnphic and psychogr.tph10-thu1can hdp you bcuer und«stand your audience.
+
+          

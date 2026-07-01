@@ -1,0 +1,91 @@
+# R-02 practical cards — guest-thought (P-E)
+pillar_moniker: guest-thought
+pillar_ids: [P-E]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#guest-thought
+
+source_ingests:
+  - literature/ingests/fleming_2013_mindfulness_sa_workbook_ch06_chapter_ingest.md
+  - literature/ingests/kolakowski_2015_single_shy_love_ch04_chapter_ingest.md
+  - literature/ingests/mckay_2013_interpersonal_problems_workbook_ch04_chapter_ingest.md
+  - literature/ingests/mckay_2013_act_interpersonal_problems_ch09_chapter_ingest.md
+
+cards:
+  - exercise_name: Thank You Mind
+    steps:
+      - Notice the anxious or judging thought as a mental event, not a command (McKay B03/B04 defusion sequence).
+      - Silently or quietly say "Thank you, Mind" to the thought without arguing with its content (Exercise 11.1 Thank You, Mind).
+      - Return attention to the present situation and choose the next values-aligned action (McKay four key questions — willingness).
+      - Record whether fusion decreased and what action you took anyway (Defusion Skills handout).
+    cognitive_frame: Thoughts are guests, not orders — thanking the mind acknowledges the thought without obeying it.
+    observables:
+      - Brief pause before reacting to rejection or awkwardness thoughts
+      - Operator proceeds with planned action despite anxious cognitions
+      - No verbal argument with self in front of partner
+    contraindications:
+      - using defusion to justify persistence after explicit no
+      - thought-suppression or positive-affirmation replacement (B15 σ−)
+    source_anchor: C-B03_CH09-003 · mckay_2013_interpersonal_problems_workbook_ch04_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#guest-thought
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: "I'm having the thought that…"
+    steps:
+      - Catch a fused socially anxious thought (fortune-telling, mind reading, shoulding) (B15 Ch6 taxonomy).
+      - Prefix aloud or internally — "I'm having the thought that…" — before the thought content (B15 Ch6 core defusion).
+      - Name the thinking process if helpful — "I'm mind-reading" or "I'm fortune-telling" (B15 Ch6 naming the process).
+      - Choose next action aligned with values rather than thought-driven avoidance (B15 Part 1 capstone).
+    cognitive_frame: Adding the prefix creates distance — the thought may be present without being treated as fact or obligation.
+    observables:
+      - Operator labels thought type under stress
+      - Reduced immediate escape from conversation
+      - Continues engagement after internal relabel
+    contraindications:
+      - using labeling to dismiss partner's stated boundary
+      - fusion with "she definitely thinks X" without checking
+    source_anchor: C-B15_CH06-001 · fleming_2013_mindfulness_sa_workbook_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#guest-thought
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full
+
+  - exercise_name: Exercise 6.2 Awareness of Thinking
+    steps:
+      - Sit comfortably and notice thoughts arising without engaging content (B15 Ch6 observer metaphors).
+      - Watch thoughts as if on a movie screen, leaves on a stream, or clouds passing (B15 Exercise 6.2).
+      - When hooked by a thought, gently note "thinking" and return to watching (B15 Defusing worksheet).
+      - End session by identifying one values step to take in a social situation today (B15 Part 1 → Part 2 bridge).
+    cognitive_frame: The observing self watches thoughts; thoughts are chess pieces, not the board (McKay observer-self handout).
+    observables:
+      - Calmer re-entry after internal practice before a date or message
+      - Less verbal rumination aloud post-interaction
+      - Operator references "noticing thoughts" in debrief
+    contraindications:
+      - using meditation to avoid necessary exposure
+      - rumination disguised as "processing" after clear rejection
+    source_anchor: C-B15_CH06-002 · fleming_2013_mindfulness_sa_workbook_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#guest-thought
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Thanking Your Mind
+    steps:
+      - Identify a dating-related fused thought (rejection prediction, shame story, mind-reading) (Kolakowski Ch4).
+      - Thank your mind for trying to protect you — "Thank you, Mind" — without debating content (Kolakowski hook Thanking Your Mind).
+      - Label self-conscious postmortem thoughts as mental events, not verdicts on worth (Kolakowski Labeling Self-Conscious Thoughts).
+      - Take one small contact or engagement action despite the thought remaining (Kolakowski Practicing Making Contact).
+    cognitive_frame: Anxious cognitions are expected guests in dating re-entry — gratitude reduces struggle without believing the story.
+    observables:
+      - Operator initiates or responds when thought says withdraw
+      - Post-event review focuses on behavior taken, not thought accuracy alone
+    contraindications:
+      - chase or double-text escalation after slow reply
+      - persistence-after-no framed as values action
+    source_anchor: C-B02_CH04-001 · kolakowski_2015_single_shy_love_ch04_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#guest-thought
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full

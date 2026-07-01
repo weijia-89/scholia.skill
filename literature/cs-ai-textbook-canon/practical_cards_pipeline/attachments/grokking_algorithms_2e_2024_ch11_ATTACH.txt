@@ -1,0 +1,990 @@
+grokking_algorithms_2e_2024_ch11_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: grokking_algorithms_2e_2024 · chapter: 11
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/grokking_algorithms_2e_2024_ch11_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (grokking_algorithms_2e_2024_ch11_ingest.md)
+========================================================================
+
+# Chapter ingest — Grokking Algorithms 2e, Chapter 11: Dynamic Programming
+
+**slug:** `grokking_algorithms_2e_2024`  
+**ingest_id:** `grokking_algorithms_2e_2024_ch11_ingest`  
+**corpus:** cs-ai-textbook-canon  
+**text_anchor:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt` lines 6144–6829
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Grokking Algorithms, 2nd Edition |
+| **authors** | Aditya Y. Bhargava |
+| **edition** | 2e (2024) |
+| **ISBN_print** | 9781633438538 [verified from text, copyright page line 156] |
+| **ISBN_electronic** | not listed separately in text export; Manning liveBook edition shares print ISBN per publisher practice — operator confirm from PDF colophon if needed |
+| **publisher** | Manning |
+| **parent_book_title** | Grokking Algorithms |
+| **chapter_number** | 11 |
+| **chapter_title** | Dynamic programming |
+| **page_range** | not recoverable from pdftotext/Marker export (no page markers); TOC section spans knapsack revisited → recap; text lines 6144–6829 |
+
+**ISBN note:** `corpus_manifest.yaml` lists `9781633438531`; copyright page in text export reads `9781633438538`. Ingest follows on-disk text; operator reconcile against physical PDF.
+
+---
+
+## Scope
+
+Chapter 11 introduces **dynamic programming (DP)** as an optimization technique for problems with constraints. It revisits the **0/1 knapsack problem** from chapter 10 (brute force O(2^n) vs approximate greedy), then teaches the tabular DP method via a worked grid (guitar, stereo, laptop; later iPhone). A **Knapsack FAQ** section covers row order, column order, fractional items (greedy instead), dependent items (DP fails), multi-item combinations, and unfilled knapsacks.
+
+The chapter maps knapsack to **travel itinerary optimization** (time budget), then generalizes DP design heuristics (grid axes, cell values, subproblems). Two string problems follow: **longest common substring (LCS)** for spell-check disambiguation (`hish` → `fish` vs `vista`) and **longest common subsequence (LCSq)** to distinguish `fosh` → `fish` vs `fort`. Real-world mentions: DNA similarity / MS research, `git diff`, Levenshtein distance. Three exercises (11.1–11.3) and a recap close the chapter.
+
+**Out of scope (explicit in text):** fractional knapsack via DP; dependent subproblems (Paris/London example); general closed-form DP recipe — author stresses experimentation (“Feynman algorithm”).
+
+---
+
+## Key findings [verified from text]
+
+### DP definition and applicability
+
+- DP solves hard problems by solving **subproblems first** and building up (lines 6148–6151, 6189–6195).
+- Use DP when optimizing under a **constraint** and when subproblems are **discrete and independent** (lines 6598–6603, 6814–6818).
+- Every DP solution in this chapter involves a **grid**; cell values are what you optimize; each cell is a subproblem (lines 6206–6217, 6608–6615, 6820–6825).
+- **No single formula** for all DP problems — framework + experimentation (lines 6677–6693, 6827–6828).
+
+### 0/1 knapsack (tabular DP)
+
+- Brute force: O(2^n) — “very, very slow” (lines 6174–6177).
+- Grid: **rows = items**, **columns = knapsack capacities 1…W** (lines 6210–6213).
+- Per cell: compare **value if you take current item** (item value + best value for remaining weight from prior rows) vs **value if you skip** (carry forward cell above) (lines 6361–6371).
+- Walkthrough result for 4 lb, items guitar (1 lb, $1500), stereo (4 lb, $3000), laptop (3 lb, $2000): **$3500 = guitar + laptop** (lines 6356–6359).
+- Adding iPhone (1 lb, $2000) raises 4 lb max to **$4000** (iPhone + 3 lb subproblem) (lines 6415–6422).
+- **Column values never decrease** — always store current max estimate (lines 6427–6434).
+- **Row order does not change final answer** (lines 6441–6451).
+- **Fractional items:** DP cannot handle; use **greedy** by value-per-pound (lines 6472–6498).
+- **Dependent items** (e.g., Paris travel cost shared across sights): DP cannot model — subproblems must not depend on each other (lines 6526–6549).
+- Best solution may involve **nested sub-knapsacks** (combine two at a time recursively) (lines 6551–6557).
+- Knapsack need not be **fully filled** (diamond example) (lines 6561–6571).
+
+### String DP
+
+**Longest common substring** (`hish` vs `fish` / `vista`):
+
+```text
+if word_a[i] == word_b[j]:
+  cell[i][j] = cell[i-1][j-1] + 1
+else:
+  cell[i][j] = 0
+```
+(lines 6718–6721)
+
+- Answer is **largest value in grid**, not necessarily last cell (lines 6731–6734).
+- `hish`/`fish` share substring length **3** (`ish`); `hish`/`vista` share **2** → spell-check picks `fish` (lines 6736–6740).
+
+**Longest common subsequence** (`fosh` vs `fish` / `fort`):
+
+```text
+if word_a[i] == word_b[j]:
+  cell[i][j] = cell[i-1][j-1] + 1
+else:
+  cell[i][j] = max(cell[i-1][j], cell[i][j-1])
+```
+(lines 6781–6784)
+
+- Subsequence allows non-contiguous matches — `fosh` closer to `fish` than substring metric alone (lines 6744–6758).
+
+### Production / research mentions (secondary citations in chapter)
+
+- Biologists: LCS on DNA; MS cure research cited without primary paper (lines 6793–6796).
+- `git diff` uses DP (lines 6798–6800).
+- Levenshtein distance uses DP; spell-check and copyright detection (lines 6802–6805).
+
+---
+
+## Coverage attestation
+
+| Check | Result |
+|-------|--------|
+| **source_path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt` |
+| **lines_read** | 6144–6829 (inclusive); next chapter heading `12 k-nearest neighbors` at line 6830 |
+| **wrong_file_flag** | false |
+| **figures** | Present as `[]` placeholders in export — grid walkthroughs described in prose only; operator may consult PDF for diagrams |
+| **exercises_in_slice** | 11.1, 11.2, 11.3 present; solutions derived below where chapter gives answer or grid logic |
+| **completeness** | Full chapter through Recap; no truncation before ch12 |
+
+---
+
+## Pedagogy
+
+### learning_objectives
+
+After this chapter, a reader should be able to:
+
+1. Contrast brute-force knapsack O(2^n) with tabular DP and explain why sub-capacity columns are required.
+2. Build and fill a 0/1 knapsack DP grid; apply the take-vs-skip recurrence using prior-row subproblem values.
+3. State when DP **fails** (fractional items, dependent subproblems) and which alternative applies (greedy).
+4. Recognize knapsack-isomorphism in scheduling (time budget vs weight capacity).
+5. Design grid axes and cell semantics for a new DP problem.
+6. Implement LCS substring and LCS subsequence recurrences; know answer location differs (max cell vs bottom-right).
+7. Connect DP to diff, Levenshtein distance, and biological sequence alignment at a conceptual level.
+
+### worked_examples_present
+
+**Y** — Extensive worked examples:
+
+- Full knapsack grid row-by-row (guitar → stereo → laptop) with dollar values (lines 6220–6359).
+- iPhone row extension (lines 6380–6425).
+- Travel itinerary grid setup and fill (lines 6500–6524).
+- LCS substring grid + formula for `hish`/`fish` (lines 6634–6740).
+- LCS subsequence grid + formula for `fish`/`fosh` (lines 6760–6788).
+- FAQ walkthroughs: row reorder, necklace granularity, quinoa greedy, Paris dependency, diamond unfilled knapsack.
+
+### exercise_hooks
+
+| ID | Prompt (compressed) | Hook type | Suggested verification |
+|----|---------------------|-----------|------------------------|
+| **11.1** | Add mechanical keyboard (1 lb, $1000) to ch10 knapsack set — steal it? | extension / negative result | Fill 4th grid row; 4 lb max stays **$3500** (guitar+laptop); keyboard does not beat incumbent |
+| **11.2** | 6 lb camping knapsack: Water(3,10), Book(1,3), Food(2,9), Jacket(2,5), Camera(1,6) | full DP practice | Optimal value **25**: Water + Food + Camera (or Water + Food + Book) |
+| **11.3** | LCS **substring** grid for `blue` vs `clues` | string DP drill | Max substring length **3** (`lue`) |
+
+**Scholia drill extensions (not in book):** implement bottom-up knapsack in Python; reproduce `git diff`-style LCS on two commit messages; compare greedy vs DP on fractional knapsack from FAQ.
+
+---
+
+## Section map (procedural index)
+
+| Section | Text lines (approx) | Core idea |
+|---------|---------------------|-----------|
+| Chapter intro | 6146–6151 | DP = subproblems first |
+| Knapsack revisited | 6153–6185 | O(2^n) brute force; need optimal |
+| Dynamic programming | 6187–6371 | Grid construction + recurrence |
+| Knapsack FAQ | 6375–6571 | Edge cases, limits of DP |
+| Travel itinerary | 6500–6524 | Knapsack isomorphism |
+| Dependent items | 6526–6549 | DP precondition violated |
+| Multi-sub-knapsack / unfilled | 6551–6571 | Algorithm generality |
+| Takeaways + tips | 6593–6615 | Grid heuristics |
+| Longest common substring | 6617–6740 | 2D string grid, max in table |
+| Longest common subsequence | 6742–6788 | Mismatch → max of left/top |
+| Real-world uses | 6790–6805 | DNA, diff, Levenshtein |
+| Exercises + recap | 6807–6828 | Consolidation |
+
+---
+
+## Algorithms and recurrences (reference card)
+
+**0/1 knapsack** (columns w = 1…W, rows items i = 1…n):
+
+- `K[i][w] = max( K[i-1][w], value_i + K[i-1][w - weight_i] )` if `weight_i ≤ w`, else `K[i-1][w]`.
+- Chapter presents this via narrative grid, not this notation (lines 6361–6371).
+
+**LCS substring:** match extends diagonal; mismatch → 0.
+
+**LCS subsequence:** match extends diagonal; mismatch → `max(left, top)`.
+
+**Contested / simplified claims (flagged, not smoothed):**
+
+- “LCS being used to find a cure for multiple sclerosis” — author assertion without citation (line 6796); treat as motivational, not evidence.
+- “Diff uses dynamic programming” — standard and correct at high level; chapter does not specify algorithm variant (Myers vs classic LCS).
+- Feynman algorithm joke — pedagogy about trial-and-error, not a real algorithm (lines 6675–6687).
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Chapter 11 is the **canonical optimization capstone** for Track A wave-1 (`grokking_algorithms_2e_2024`). It formalizes techniques foreshadowed in ch10 (greedy knapsack approximation) and depends on ch2–3 (recursion), ch4–5 (divide/conquer intuition), and ch10 (greedy, approximation). It directly prepares **ch12 k-NN** and **ch13 ML overview** (distance/similarity, feature tradeoffs) and underpins later canon topics: sequence alignment in bio/clinical NLP, edit distance in eval harnesses, and DP-flavored parsing in compiler/LLM tooling. For **CLRS** on-demand reads, this chapter maps to introductory DP (not replacement for CLRS depth).
+
+### 2. MDCalc alignment
+
+**[none]** — No agents, trace/eval observability, clinical AI safety, or regulated deployment content. String similarity mentions (spell-check, copyright) are generic CS; DNA/MS reference is biology motivation only. Pattern-portable at most: edit-distance metrics could inform fuzzy clinical string matching, but chapter does not discuss healthcare.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **grokking ch10** | Same knapsack story; ch11 gives exact DP where ch10 gave greedy ~2 approximation |
+| **CLRS 4e** | DP, LCS, knapsack treated rigorously with pseudocode and proofs — Grokking is intuitive grid-only |
+| **AI Engineering / Hands-On LLMs** | No direct overlap; distant link via diff/Levenshtein for eval text comparison |
+| **DDIA / distributed** | none |
+| **Philosophy of Software Design** | none |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — multiple full grids |
+| Exercise hooks | **Three** numbered exercises; 11.2 is best standalone lab |
+| Chapter boundary | **Clean** — ends at recap; ch12 starts k-NN at line 6830 |
+| Diagram dependency | **Medium** — grids are central; text export loses figures (`[]`) |
+| Procedural skill yield | **High** for knapsack + LCS templates |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Pass/Fail | Notes |
+|-----------|-----------|-------|
+| **Edition currency** | **PASS** | 2e 2024; ≤5 years; foundational algorithms text |
+| **Author authority** | **PASS** | Manning textbook tier; foreword Daniel Zingaro; not blog content |
+| **Primary-source citation density** | **FAIL (low)** | Chapter cites no papers, RFCs, or textbooks for DP origin; real-world bullets (DNA, MS, diff, Levenshtein) are assertive without references |
+| **Contested claims flagged** | **PASS** | MS cure, diff internals, ISBN mismatch flagged in this ingest |
+| **Worked examples (procedural chapter)** | **PASS** | Multiple full grid walkthroughs + pseudocode for both string problems |
+
+**TEXTBOOK-Q1 overall:** **CONDITIONAL PASS** — pedagogically strong for procedural DP introduction; weak on primary citations. Suitable as **intuition layer** in reference-library; pair with CLRS or similar for proofs and citation-backed treatment.
+
+---
+
+## Provenance rows (sample)
+
+| claim-id | claim | relation | source | anchor |
+|----------|-------|----------|--------|--------|
+| GA2E11-C01 | 0/1 knapsack DP max for 4 lb guitar/stereo/laptop is $3500 | quoted | Grokking Algorithms 2e ch11 | text L6356–6359 |
+| GA2E11-C02 | Brute-force knapsack is O(2^n) | quoted | Grokking Algorithms 2e ch11 | text L6174–6177 |
+| GA2E11-C03 | DP cannot handle fractional knapsack; use greedy | quoted | Grokking Algorithms 2e ch11 | text L6478–6485 |
+| GA2E11-C04 | LCS substring mismatch cell = 0 | quoted | Grokking Algorithms 2e ch11 | text L6718–6721 |
+| GA2E11-C05 | LCS subsequence mismatch cell = max(left, top) | quoted | Grokking Algorithms 2e ch11 | text L6781–6784 |
+| GA2E11-C06 | LCS used in MS cure research | compressed | Grokking Algorithms 2e ch11 | text L6793–6796; **uncited — low confidence** |
+
+---
+
+## Paths
+
+| Role | Path |
+|------|------|
+| Ingest | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/grokking_algorithms_2e_2024_ch11_ingest.md` |
+| Text export | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/grokking_algorithms_2e_2024.txt` |
+| PDF | `/Use
+
+[TRUNCATED at 14000 chars — full ingest on disk]
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/grokking_algorithms_2e_2024_ch11_SLICE.txt)
+========================================================================
+
+# Text slice — grokking_algorithms_2e_2024_ch11_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: grokking_algorithms_2e_2024 · chapter: 11
+# hooks: 4 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+11 Dynamic programming
+
+In this chapter
+
+- You learn dynamic programming, a technique to solve a hard problem by
+  breaking it up into subproblems and solving those subproblems first.
+- Using examples, you learn how to come up with a dynamic programming
+  solution to a new problem.
+
+The knapsack problem (revisited)
+
+Let’s revisit the knapsack problem from chapter 10. You’re a thief with
+a knapsack that can carry 4 lb of goods.
+
+[]
+
+You have three items that you can put into the knapsack.
+
+[]
+
+What items should you steal so that you steal the maximum money’s worth
+of goods?
+
+The simple solution
+
+The simplest algorithm is this: you try every possible set of goods and
+find the set that gives you the most value.
+
+[]
+
+This works, but it’s really slow. For 3 items, you have to calculate 8
+possible sets. For 4 items, you have to calculate 16 sets. With every
+item you add, the number of sets you have to calculate doubles! This
+algorithm takes O(2n) time, which is very, very slow.
+
+[]
+
+That’s impractical for any reasonable number of goods. In chapter 10,
+you saw how to calculate an approximate solution. That solution will be
+close to the optimal solution, but it may not be the optimal solution.
+
+So how do you calculate the optimal solution?
+
+Dynamic programming
+
+Answer: With dynamic programming! Let’s see how the dynamic programming
+algorithm works here. Dynamic programming starts by solving subproblems
+and builds up to solving the big problem.
+
+For the knapsack problem, you’ll start by solving the problem for
+smaller knapsacks (or sub-knapsacks) and then work up to solving the
+original problem.
+
+[]
+
+Dynamic programming is a hard concept, so don’t worry if you don’t get
+it right away. We’re going to look at a lot of examples.
+
+I’ll start by showing you the algorithm in action. After you’ve seen it
+in action once, you’ll have a lot of questions! I’ll do my best to
+address every question.
+
+Every dynamic programming algorithm starts with a grid. Here’s a grid
+for the knapsack problem.
+
+[]
+
+The rows of the grid are the items, and the columns are knapsack weights
+from 1 lb to 4 lb. You need all of those columns because they will help
+you calculate the values of the sub-knapsacks.
+
+The grid starts out empty. You’re going to fill in each cell of the
+grid. Once the grid is filled in, you’ll have your answer to this
+problem! Please follow along. Make your own grid, and we’ll fill it out
+together.
+
+The guitar row
+
+I’ll show you the exact formula for calculating this grid later. Let’s
+do a walkthrough first. Start with the first row.
+
+[]
+
+This is the guitar row, which means you’re trying to fit the guitar into
+the knapsack. At each cell, there’s a simple decision: Do you steal the
+guitar or not? Remember, you’re trying to find the set of items to steal
+that will give you the most value.
+
+The first cell has a knapsack of capacity 1 lb. The guitar is also 1 lb,
+which means it fits into the knapsack! So the value of this cell is
+$1,500, and it contains a guitar.
+
+Let’s start filling in the grid.
+
+[]
+
+Like this, each cell in the grid will contain a list of all the items
+that fit into the knapsack at that point.
+
+Let’s look at the next cell. Here you have a knapsack with a capacity of
+2 lb. Well, the guitar will definitely fit in there!
+
+[]
+
+The same is true for the rest of the cells in this row. Remember, this
+is the first row, so you have only the guitar to choose from. You’re
+pretending that the other two items aren’t available to steal right now.
+
+[]
+
+At this point, you’re probably confused. Why are you doing this for
+knapsacks with a capacity of 1 lb, 2 lb, and so on, when the problem
+talks about a 4 lb knapsack? Remember how I told you that dynamic
+programming starts with a small problem and builds up to the big
+problem? You’re solving subproblems here that will help you to solve the
+big problem. Read on, and things will become clearer.
+
+At this point, your grid should look like this.
+
+[]
+
+Remember, you’re trying to maximize the value of the knapsack. This row
+represents the current best guess for this max. So right now, according
+to this row, if you had a knapsack of capacity 4 lb, the max value you
+could put in there would be $1,500.
+
+[]
+
+You know that’s not the final solution. As we go through the algorithm,
+you’ll refine your estimate.
+
+The stereo row
+
+Let’s do the next row. This one is for the stereo. Now that you’re on
+the second row, you can steal the stereo or the guitar. At every row,
+you can steal the item at that row or the items in the rows above it. So
+you can’t choose to steal the laptop right now, but you can steal the
+stereo and/or the guitar. Let’s start with the first cell, a knapsack of
+capacity 1 lb. The current max value you can fit into a knapsack of 1 lb
+is $1,500.
+
+[]
+
+Should you steal the stereo or not?
+
+You have a knapsack of capacity 1 lb. Will the stereo fit in there?
+Nope, it’s too heavy! Because you can’t fit the stereo, $1,500 remains
+the max guess for a 1 lb knapsack.
+
+[]
+
+The same thing is true for the next two cells. These knapsacks have a
+capacity of 2 lb and 3 lb. The old max value for both was $1,500.
+
+[]
+
+The stereo still doesn’t fit, so your guesses remain unchanged.
+
+What if you have a knapsack of capacity 4 lb? Aha! The stereo finally
+fits! The old max value was $1,500, but if you put the stereo in there
+instead, the value is $3,000! Let’s take the stereo.
+
+[]
+
+You just updated your estimate! If you have a 4 lb knapsack, you can fit
+at least $3,000 worth of goods in it. You can see from the grid that
+you’re incrementally updating your estimate.
+
+[]
+
+The laptop row
+
+Let’s do the same thing with the laptop! The laptop weighs 3 lb, so it
+won’t fit into a 1 lb or a 2 lb knapsack. The estimate for the first two
+cells stays at $1,500.
+
+[]
+
+At 3 lb, the old estimate was $1,500. But you can choose the laptop
+instead, and that’s worth $2,000. So the new max estimate is $2,000!
+
+[]
+
+At 4 lb, things get really interesting. This is an important part. The
+current estimate is $3,000. You can put the laptop in the knapsack, but
+it’s only worth $2,000.
+
+[]
+
+Hmm, that’s not as good as the old estimate. But wait! The laptop weighs
+only 3 lb, so you have 1 lb free! You could put something in this 1 lb.
+
+[]
+
+What’s the maximum value you can fit into 1 lb of space? Well, you’ve
+been calculating it all along.
+
+[]
+
+According to the last best estimate, you can fit the guitar into that 1
+lb space, and that’s worth $1,500. So the real comparison is as follows.
+
+[]
+
+You might have been wondering why you were calculating max values for
+smaller knapsacks. I hope now it makes sense! When you have space left
+over, you can use the answers to those subproblems to figure out what
+will fit in that space. It’s better to take the laptop + the guitar for
+$3,500.
+
+The final grid looks like this.
+
+[]
+
+There’s the answer: the maximum value that will fit in the knapsack is
+$3,500, made up of a guitar and a laptop!
+
+Maybe you think I used a different formula to calculate the value of
+that last cell. That’s because I skipped some unnecessary complexity
+when filling in the values of the earlier cells. Each cell’s value gets
+calculated with the same formula. Here it is.
+
+[]
+
+You can use this formula with every cell in this grid, and you should
+end up with the same grid I did. Remember how I talked about solving
+subproblems? You combined the solutions to two subproblems to solve the
+bigger problem.
+
+[]
+
+Knapsack problem FAQ
+
+Maybe this still feels like magic. This section answers some common
+questions.
+
+What happens if you add an item?
+
+Suppose you realize there’s a fourth item you can steal that you didn’t
+notice before! You can also steal an iPhone.
+
+[]
+
+Do you have to recalculate everything to account for this new item?
+Nope. Remember, dynamic programming keeps progressively building on your
+estimate. So far, these are the max values.
+
+[]
+
+That means for a 4 lb knapsack, you can steal $3,500 worth of goods. You
+thought that was the final max value. But let’s add a row for the
+iPhone.
+
+[]
+
+Turns out you have a new max value! Try to fill in this new row before
+reading on.
+
+Let’s start with the first cell. The iPhone fits into the 1 lb knapsack.
+The old max was $1,500, but the iPhone is worth $2,000. Let’s take the
+iPhone instead.
+
+[]
+
+In the next cell, you can fit the iPhone and the guitar.
+
+[]
+
+For cell 3, you can’t do better than take the iPhone and the guitar
+again, so leave it as is.
+
+For the last cell, things get interesting. The current max is $3,500.
+You can steal the iPhone instead, and you have 3 lb of space left over.
+
+[]
+
+Those 3 lb are worth $2,000! $2,000 from the iPhone + $2,000 from the
+old subproblem: that’s $4,000. A new max\!
+
+Here’s the new final grid.
+
+[]
+
+Question: Would the value of a column ever go down? Is this possible?
+
+[]
+
+Think of an answer before reading on.
+
+Answer: No. At every iteration, you’re storing the current max estimate.
+The estimate can never get worse than it was before!
+
+Exercise
+
+11.1 Suppose you can steal another item: a mechanical keyboard player.
+It weighs 1 lb and is worth $1,000. Should you steal it?
+
+What happens if you change the order of the rows?
+
+Does the answer change? Suppose you fill the rows in this order: stereo,
+laptop, guitar. What does the grid look like? Fill out the grid for
+yourself before moving on.
+
+Here’s what the grid looks like.
+
+[]
+
+The answer doesn’t change. The order of the rows doesn’t matter.
+
+Can you fill in the grid column-wise instead of row-wise?
+
+Try it for yourself! For this problem, it doesn’t make a difference. It
+could make a difference for other problems.
+
+What happens if you add a smaller item?
+
+Suppose you can steal a necklace. It weighs 0.5 lb, and it’s worth
+$1,000. So far, your grid assumes that all weights are integers. Now you
+decide to steal the necklace. You have 3.5 lb left over. What’s the max
+value you can fit in 3.5 lb? You don’t know! You only calculated values
+for 1 lb, 2 lb, 3 lb, and 4 lb knapsacks. You need to know the value of
+a 3.5 lb knapsack.
+
+Because of the necklace, you have to account for finer granularity, so
+the grid has to change.
+
+[]
+
+Can you steal fractions of an item?
+
+Suppose you’re a thief in a grocery store. You can steal bags of lentils
+and rice. If a whole bag doesn’t fit, you can open it and take as much
+as you can carry. So now it’s not all or nothing—you can take a fraction
+of an item. How do you handle this using dynamic programming?
+
+Answer: You can’t. With the dynamic programming solution, you either
+take the item or not. There’s no way for it to figure out that you
+should take half an item.
+
+But this case is easily solved using a greedy algorithm! First, take as
+much as you can of the most valuable item. When that runs out, take as
+much as you can of the next most valuable item, and so on.
+
+For example, suppose you have these items to choose from.
+
+[]
+
+Quinoa is more expensive per pound than anything else. So, take all the
+quinoa you can carry! If that fills your knapsack, that’s the best you
+can do.
+
+[]
+
+If the quinoa runs out and you still have space in your knapsack, take
+the next most valuable item, and so on.
+
+Optimizing your travel itinerary
+
+Suppose you’re going to London for a nice vacation. You have two days
+there and a lot of things you want to do. You can’t do everything, so
+you make a list.
+
+[]
+
+For each thing you want to see, you write down how long it will take and
+rate how much you want to see it. Can you figure out what you should
+visit based on this list?
+
+It’s the knapsack problem again! Instead of a knapsack, you have a
+limited amount of time. And instead of stereos and laptops, you have a
+list of places you want to go. Draw the dynamic programming grid for
+this list before moving on.
+
+Here’s what the grid looks like.
+
+[]
+
+Did you get it right? Fill in the grid. What places should you end up
+visiting? Here’s the answer.
+
+[]
+
+Handling items that depend on each other
+
+Suppose you want to go to Paris, so you add a couple of items to the
+list.
+
+[]
+
+These places take a lot of time because first you have to travel from
+London to Paris. That takes half a day. If you want to do all three
+items, it will take 4.5 days.
+
+Wait, that’s not right. You don’t have to travel to Paris for each item.
+Once you’re in Paris, each item should only take a day. So it should be
+one day per item + half a day of travel = 3.5 days, not 4.5 days.
+
+If you put the Eiffel Tower in your knapsack, the Louvre becomes
+“cheaper”—it will only cost you a day instead of 1.5 days. How do you
+model this in dynamic programming?
+
+You can’t. Dynamic programming is powerful because it can solve
+subproblems and use those answers to solve the big problem. Dynamic
+programming only works when each subproblem is discrete—when it doesn’t
+depend on other subproblems. That means there’s no way to account for
+Paris using the dynamic programming algorithm.
+
+Is it possible that the solution will require more than two
+sub-knapsacks?
+
+It’s possible that the best solution involves stealing more than two
+items. The way the algorithm is set up, you’re combining two knapsacks
+at most—you’ll never have more than two sub-knapsacks. But it’s possible
+for those sub-knapsacks to have their own sub-knapsacks.
+
+[]
+
+Is it possible that the best solution doesn’t fill the knapsack
+completely?
+
+Yes. Suppose you could also steal a diamond.
+
+[]
+
+This is a big diamond: it weighs 3.5 pounds. It’s worth a million
+dollars, way more than anything else. You should definitely steal it!
+But there’s half a pound of space left, and nothing will fit in that
+space.
+
+Exercise
+
+11.2 Suppose you’re going camping. You have a knapsack that will hold 6
+lb, and you can take the following items. Each has a value, and the
+higher the value, the more important the item is:
+
+- Water, 3 lb, 10
+
+- Book, 1 lb, 3
+
+- Food, 2 lb, 9
+
+- Jacket, 2 lb, 5
+
+- Camera, 1 lb, 6
+
+What’s the optimal set of items to take on your camping trip?
+
+Longest common substring
+
+You’ve seen one dynamic programming problem so far. What are the
+takeaways?
+
+[]
+
+- Dynamic programming is useful when you’re trying to optimize something
+  given a constraint. In the knapsack problem, you had to maximize the
+  value of the goods you stole, constrained by the size of the knapsack.
+
+- You can use dynamic programming when the problem can be broken into
+  discrete subproblems, and they don’t depend on each other.
+
+It can be hard to come up with a dynamic programming solution. That’s
+what we’ll focus on in this section. Some general tips follow:
+
+- It’s often useful to picture a dynamic programming problem as a grid.
+
+- The values in the cells are usually what you’re trying to optimize.
+  For the knapsack problem, the values are the value of the goods.
+
+- Each cell is a subproblem, so think about how you can divide your
+  problem into subproblems. That will help you figure out what the axes
+  are.
+
+Let’s look at another example. Suppose you’re running dictionary.com.
+Someone types in a word, and you give them the definition.
+
+[]
+
+But if someone misspells a word, you want to be able to guess what word
+they meant. Alex is searching for fish, but he accidentally put in hish.
+That’s not a word in your dictionary, but you have a list of words that
+are similar.
+
+[]
+
+(This is a toy example, so you’ll limit your list to two words. In
+reality, this list would probably be thousands of words.)
+
+Alex typed hish. Which word did Alex mean to type: fish or vista?
+
+Making the grid
+
+What does the grid for this problem look like? You need to answer these
+questions:
+
+- What are the values of the cells?
+
+- How do you divide this problem into subproblems?
+
+- What are the axes of the grid?
+
+In dynamic programming, you’re trying to maximize something. In this
+case, you’re trying to find the longest substring that two words have in
+common. What substring do hish and fish have in common? How about hish
+and vista? That’s what you want to calculate.
+
+Remember, the values for the cells are usually what you’re trying to
+optimize. In this case, the values will probably be a number: the length
+of the longest substring that the two strings have in common.
+
+How do you divide this problem into subproblems? You could compare
+substrings. Instead of comparing hish and fish, you could compare his
+and fis first. Each cell will contain the length of the longest
+substring that two substrings have in common. This also gives you a clue
+that the axes will probably be the two words. So the grid probably looks
+like this.
+
+[]
+
+If this seems like black magic to you, don’t worry. This is hard
+stuff—that’s why I’m teaching it so late in the book! Later, I’ll give
+you an exercise so you can practice dynamic programming yourself.
+
+Filling in the grid
+
+Now you have a good idea of what the grid should look like. What’s the
+formula for filling in each cell of the grid? You can cheat a little
+because you already know what the solution should be—hish and fish have
+a substring of length 3 in common: ish.
+
+But that still doesn’t tell you the formula to use. Computer scientists
+sometimes joke about using the Feynman algorithm. The Feynman algorithm
+is named after the famous physicist Richard Feynman, and it works like
+this:
+
+1.  Write down the problem.
+
+2.  Think real hard.
+
+3.  Write down the solution.
+
+[]
+
+Computer scientists are a fun bunch!
+
+The truth is that there’s no easy way to calculate the formula here. You
+have to experiment and try to find something that works. Sometimes
+algorithms aren’t an exact recipe. They’re a framework that you build
+your idea on top of.
+
+Try to come up with a solution to this problem yourself. I’ll give you a
+hint—part of the grid looks like this.
+
+[]
+
+What are the other values? Remember that each cell is the value of a
+subproblem. Why does cell (3, 3) have a value of 2? Why does cell (3, 4)
+have a value of 0?
+
+Read on after you’ve tried to come up with a formula yourself. Even if
+you don’t get it right, my explanation will make a lot more sense.
+
+The solution
+
+Here’s the final grid.
+
+[]
+
+Here’s my formula for filling in each cell.
+
+[]
+
+Here’s how the formula looks in pseudocode:
+
+    if word_a[i] == word_b[j]:       ①
+      cell[i][j] = cell[i-1][j-1] + 1
+    else:                            ②
+      cell[i][j] = 0 
+
+① The letters match.
+
+② The letters don’t match.
+
+Here’s the grid for hish vs. vista.
+
+[]
+
+One thing to note: for this problem, the final solution may not be in
+the last cell! For the knapsack problem, this last cell always had the
+final solution. But for the longest common substring, the solution is
+the largest number in the grid—and it may not be the last cell.
+
+Let’s go back to the original question: Which string has more in common
+with hish? hish and fish have a substring of three letters in common.
+hish and vista have a substring of two letters in common.
+
+Alex probably meant to type fish.
+
+Longest common subsequence
+
+Suppose Alex accidentally searched for fosh. Which word did he mean:
+fish or fort?
+
+Let’s compare them using the longest-common-substring formula.
+
+[]
+
+They’re both the same: two letters! But fosh is closer to fish.
+
+[]
+
+You’re comparing the longest common substring, but you really need to
+compare the longest common subsequence: the number of letters in a
+sequence that the two words have in common. How do you calculate the
+longest common subsequence?
+
+Here’s the partial grid for fish and fosh.
+
+[]
+
+Can you figure out the formula for this grid? The longest common
+subsequence is very similar to the longest common substring, and the
+formulas are pretty similar, too. Try to solve it yourself—I give the
+answer next.
+
+Longest common subsequence—solution
+
+Here’s the final grid.
+
+[]
+
+Here’s my formula for filling in each cell.
+
+[]
+
+And here it is in pseudocode:
+
+    if word_a[i] == word_b[j]:             ①
+      cell[i][j] = cell[i-1][j-1] + 1
+    else:                                  ②
+      cell[i][j] = max(cell[i-1][j], cell[i][j-1])
+
+① The letters match.
+
+② The letters don’t match.
+
+Whew! You did it! This is definitely one of the toughest chapters in the
+book. So is dynamic programming ever really used? The answer is yes:
+
+- Biologists use the longest common subsequence to find similarities in
+  DNA strands. They can use this to tell how similar two animals or two
+  diseases are. The longest common subsequence is being used to find a
+  cure for multiple sclerosis.
+
+- Have you ever used diff (like git diff)? Diff tells you the
+  differences between two files, and it uses dynamic programming to do
+  so.
+
+- We talked about string similarity. Levenshtein distance measures how
+  similar two strings are, and it uses dynamic programming. Levenshtein
+  distance is used for everything from spell-check to figuring out
+  whether a user is uploading copyrighted data.
+
+Exercise
+
+11.3 Draw and fill in the grid to calculate the longest common substring
+between blue and clues.
+
+Recap
+
+- Dynamic programming is useful when you’re trying to optimize something
+  given a constraint.
+
+- You can use dynamic programming when the problem can be broken into
+  discrete subproblems.
+
+- Every dynamic programming solution involves a grid.
+
+- The values in the cells are usually what you’re trying to optimize.
+
+- Each cell is a subproblem, so think about how you can divide your
+  problem into subproblems.
+
+- There’s no single formula for calculating a dynamic programming
+  solution.
+
+

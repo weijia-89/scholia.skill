@@ -1,0 +1,60 @@
+# Text slice — understanding_distributed_systems_2022_ch07_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 07
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+   • The arbitrary-fault model assumes that a process can deviate
+     from its algorithm in arbitrary ways, leading to crashes or
+     unexpected behaviors caused by bugs or malicious activity.
+     For historical reasons, this model is also referred to as the
+     “Byzantine” model. More interestingly, it can be theoretically
+     proven that a system using this model can tolerate up to 31 of
+     faulty processes1 and still operate correctly.
+   • The crash-recovery model assumes that a process doesn’t de-
+     viate from its algorithm but can crash and restart at any time,
+     losing its in-memory state.
+   • The crash-stop model assumes that a process doesn’t deviate
+     from its algorithm but doesn’t come back online if it crashes.
+     Although this seems unrealistic for software crashes, it mod-
+     els unrecoverable hardware faults and generally makes the
+     algorithms simpler.
+
+The arbitrary-fault model is typically used to model safety-critical
+systems like airplane engines, nuclear power plants, and systems
+where a single entity doesn’t fully control all the processes (e.g.,
+digital cryptocurrencies such as Bitcoin). These use cases are out-
+side the book’s scope, and the algorithms presented here will gen-
+erally assume a crash-recovery model.
+
+Finally, we can also model timing assumptions:
+
+   • The synchronous model assumes that sending a message
+     or executing an operation never takes more than a certain
+     amount of time. This is not very realistic for the type
+     of systems we care about, where we know that sending
+     messages over the network can potentially take a very long
+
+   1
+     “The Byzantine Generals Problem,” https://lamport.azurewebsites.net/pubs
+/byz.pdf
+
+CHAPTER 6. SYSTEM MODELS                                                     59
+
+
+     time, and processes can be slowed down by, e.g., garbage
+     collection cycles or page faults.
+   • The asynchronous model assumes that sending a message or
+     executing an operation on a process can take an unbounded
+     amount of time. Unfortunately, many problems can’t be
+     solved under this assumption; if sending messages can take
+     an inﬁnite amount of time, algorithms can get stuck and
+     not make any progress at all. Nevertheless, this model is
+     useful because it’s simpler than models that make timing
+     assumptions, and therefore algorithms based on it are also
+     easier to implement2 .
+   • The partially synchronous model assumes that the system be-
+     haves synchronously most of the time. This model is typi-
+     cally representative enough of real-world systems.
+In the rest of the book, we will generally assume a system model
+with fair-loss links, crash-recovery processes, and partial syn-

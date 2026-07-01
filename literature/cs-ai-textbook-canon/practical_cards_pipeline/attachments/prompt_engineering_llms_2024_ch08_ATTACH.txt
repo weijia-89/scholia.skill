@@ -1,0 +1,356 @@
+prompt_engineering_llms_2024_ch08_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: prompt_engineering_llms_2024 · chapter: 08
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/prompt_engineering_llms_2024_ch08_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (prompt_engineering_llms_2024_ch08_ingest.md)
+========================================================================
+
+# Chapter ingest — `prompt_engineering_llms_2024` · Chapter 8
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Prompt Engineering for LLMs |
+| **authors** | John Berryman, Albert Ziegler |
+| **edition** | 1st Edition (2025 copyright; first release 2024-11-04 per revision history) |
+| **ISBN_print** | 978-1-098-15615-2 |
+| **ISBN_electronic** | 978-1-098-15615-2 (single ISBN in export; O'Reilly online edition) |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 8 |
+| **chapter_title** | Conversational Agency |
+| **page_range** | Printed page numbers absent from text export; logical span Ch. 8 opening through Conclusion (before Ch. 9) |
+| **parent_book_title** | Prompt Engineering for LLMs |
+
+## Scope
+
+Chapter 8 opens Part III with **conversational agency**: chat assistants that reach into the world via tools, reason more deliberately, and manage long interaction context. Agency is defined as self-directed task completion; conversational agency adds human-in-the-loop dialogue.
+
+**Tool Usage** motivates tools for hidden/private knowledge, up-to-the-moment data, math reliability, and real-world actions. **LLMs Trained for Tool Usage** walks through OpenAI-style function calling: JSON schema tools, `process_messages` loop (Examples 8-1/8-2), multi-turn thermostat demo (get_room_temp → set_room_temp → user-facing summary). **Under the hood**: tool calling is fine-tuned document completion—ChatML system block with TypeScript-style `# Tools` namespace; invocations as `<|im_start|>assistant to=functions.name` + JSON args; tool role for results; hierarchical token-by-token "classification" steps (who speaks, need tool, which tool, which arg, value, done). **Now, You Try!** prompts reverse-engineering other providers' internal formats.
+
+**Guidelines for Tool Definitions**: limit tool count; partition domain; meaningful camelCase names; simplify vs copy full web API; lean on familiar public API shapes (GitHub Copilot code-search example); JSON schema types/enums; OpenAI 1106+ drops some schema modifiers in prompt; long text args escape poorly (Anthropic XML contrast); **argument hallucination** (`my-org` placeholders)—remove args, defaults, or instruct to ask; contextual error messages; **dangerous tools** require application-layer user sign-off, not prompt-only guardrails.
+
+**Reasoning**: models lack internal monologue—surface reasoning via **Chain-of-Thought** (Wei et al. 2022; StrategyQA 69.4%→75.6%; GSM8K ~20%→60%); **zero-shot** "Let's think step-by-step" (Kojima et al. 2022); pause tokens (Goyal et al. 2023). **ReAct** (Yao et al. 2022): Search/Lookup/Finish tools on HotpotQA; think-act-observe loops; fine-tuning 3k examples flips performance (Figure 8-1); ALFWorld 71% vs Act 45%. **Beyond ReAct**: plan-and-solve, **Reflexion** (verbal RL), branch-solve-merge.
+
+**Context for Task-Based Interactions**: preamble (system rules + tools + few-shot), prior conversation + artifacts, current exchange (user message, artifacts, tool calls/responses); Table 8-1 travel-assistant anatomy. **Selecting and Organizing Context**: drop unused tools; artifact inclusion strategies (all vs model-selected); XML/markdown attachment; elastic snippet/RAG for large artifacts; `details()` unfurl pattern; conversation truncation heuristics—evaluate constantly (Ch. 10 forward ref).
+
+**Building a Conversational Agent**: `run_conversation` wraps `process_messages`; sequence diagram Figure 8-2; Table 8-2 thermostat dialogue (common sense, prior-conversation rollback). **User Experience**: spinner, tool-call pills, expandable tool inspection, user-editable args + regenerate-from-point, authorization UI (Figure 8-4), artifact visibility.
+
+**Sections ingested:** Tool Usage (trained tools, under hood, guidelines, dangerous tools) · Reasoning (CoT, ReAct, extensions) · Context · Building Agent · UX · Conclusion.
+
+Cross-refs: Ch. 3 (chat as completion), Ch. 5–6 (context/RAG), Ch. 9 (workflows vs agents), Ch. 10 (evaluation).
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested in chapter]` or `[inferred]`.
+
+### Tools
+
+- Chat models alone cannot access private/real-time data or act in world; tools address knowledge, math, and action gaps. [verified from text, lines 6906–6947]
+- Tool calling = fine-tuned completion + API syntactic sugar (parallel to chat). [verified from text, lines 7188–7196]
+- Internal OpenAI tool defs as TypeScript in system message; named JSON args reduce errors. [verified from text, lines 7211–7259]
+- Limit tools; avoid copying complex web APIs into prompt. [verified from text, lines 7401–7409]
+- Never rely on prompt-only "ask user first" for dangerous tools—intercept in application. [verified from text, lines 7502–7517]
+
+### Reasoning
+
+- LLMs predict likely tokens without mental review; externalize reasoning via CoT/ReAct. [verified from text, lines 7521–7530]
+- CoT few-shot raised StrategyQA accuracy 69.4%→75.6% (PaLM 540B); GSM8K ~20%→60%. [verified from text, lines 7575–7587]
+- ReAct underperforms until fine-tuned (~3k examples); then beats larger vanilla models. [verified from text, lines 7700–7717]
+- ReAct reasoning critical in ALFWorld (71% vs 45% act-only). [verified from text, lines 7729–7750]
+
+### Context and agent loop
+
+- Agent context = preamble + prior conversation/artifacts + current exchange. [verified from text, lines 7826–7867]
+- Too much context confuses; too little starves task—no universal recipe. [verified from text, lines 8013–8022]
+- `run_conversation` + `process_messages` = minimal complete agent; prior conversation enables rollback behaviors. [verified from text, lines 8165–8173]
+
+### UX
+
+- Expose tool activity, allow arg correction and re-run, require authorization for mutating tools. [verified from text, lines 8219–8255]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt` |
+| **Lines read** | 6877–8295 (inclusive) |
+| **Chapter boundary** | Starts `Chapter 8. Conversational Agency` (L6877); ends before `Chapter 9. LLM Workflows` (L8296) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Provider-specific tool formats beyond OpenAI reconstruction |
+| **Figures** | Figs. 8-1–8-4, Tables 8-1–8-2; image placeholders in export |
+| **Amnesiac rule** | Citations from chapter text only |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain why bare chat models need tools and how the application executes tool loops.
+2. Reconstruct OpenAI-style internal tool representation and invocation syntax.
+3. Apply tool-definition guidelines (naming, schema simplicity, error handling, safety intercept).
+4. Implement CoT, zero-shot step-by-step, and ReAct-style think-act-observe patterns.
+5. Assemble agent context (preamble, prior conversation, artifacts, current exchange).
+6. Design UX affordances for tool transparency, correction, and authorization.
+
+### worked_examples_present
+
+**Y** — Full Python `process_messages`/`run_conversation`, thermostat multi-turn trace, ReAct HotpotQA trace, Table 8-1 context layout, Table 8-2 dialogue.
+
+### exercise_hooks
+
+- "Now, You Try!" — reverse-engineer provider internal prompts; Jupyter notebook with custom tools.
+- **Instructor hooks `[inferred]`:** count tools until confusion threshold; compare JSON vs XML tool providers on long args.
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Ch. 8 is **w2_systems_llm agent canon**—first Part III chapter; prerequisite for Ch. 9 workflows and Ch. 10 eval of multi-turn loops. Complements **ai_engineering_2025** Ch. 6 (RAG/agents) and **hands_on_llms_2024** tool tutorials.
+
+### 2. MDCalc alignment
+
+**[moderate]** — Dangerous-tool intercept and human authorization patterns apply to any mutating LLM action in regulated settings; no clinical validation claims.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025** | Medium | Agents/RAG eval upstream |
+| **llmops_aryan_2025** | Low–medium | Agent ops |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — runnable code |
+| Exercise hooks | **Present** — Now You Try sections |
+| Chapter boundary | **Clean** |
+| Ingest suitability | **High** |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2024–2025; GPT-4o examples |
+| **Author authority** | **PASS** | Copilot tool-calling practitioners |
+| **Citation density** | **PASS** | CoT, ReAct, Reflexion papers cited |
+| **Contested claims** | **PASS** | Reconstructed OpenAI internals flagged as best-effort |
+| **Worked examples** | **PASS** | End-to-end agent code |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| PE-C08-001 | Tool calling is document completion under ChatML sugar | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Take a look under the hood |
+| PE-C08-002 | Dangerous tools need application-layer user sign-off | quoted | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Executing dangerous tools |
+| PE-C08-003 | ReAct gains lead after ~3k fine-tune examples | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | ReAct |
+| PE-C08-004 | Agent context layers: preamble, prior, current exchange | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Table 8-1 |
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · word cap ≤4500*
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/prompt_engineering_llms_2024_ch08_SLICE.txt)
+========================================================================
+
+# Text slice — prompt_engineering_llms_2024_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: prompt_engineering_llms_2024 · chapter: 08
+# hooks: 1 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `prompt_engineering_llms_2024` · Chapter 8
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **title** | Prompt Engineering for LLMs |
+| **authors** | John Berryman, Albert Ziegler |
+| **edition** | 1st Edition (2025 copyright; first release 2024-11-04 per revision history) |
+| **ISBN_print** | 978-1-098-15615-2 |
+| **ISBN_electronic** | 978-1-098-15615-2 (single ISBN in export; O'Reilly online edition) |
+
+## Chapter identification
+
+| Field | Value |
+|-------|-------|
+| **chapter_number** | 8 |
+| **chapter_title** | Conversational Agency |
+| **page_range** | Printed page numbers absent from text export; logical span Ch. 8 opening through Conclusion (before Ch. 9) |
+| **parent_book_title** | Prompt Engineering for LLMs |
+
+## Scope
+
+Chapter 8 opens Part III with **conversational agency**: chat assistants that reach into the world via tools, reason more deliberately, and manage long interaction context. Agency is defined as self-directed task completion; conversational agency adds human-in-the-loop dialogue.
+
+**Tool Usage** motivates tools for hidden/private knowledge, up-to-the-moment data, math reliability, and real-world actions. **LLMs Trained for Tool Usage** walks through OpenAI-style function calling: JSON schema tools, `process_messages` loop (Examples 8-1/8-2), multi-turn thermostat demo (get_room_temp → set_room_temp → user-facing summary). **Under the hood**: tool calling is fine-tuned document completion—ChatML system block with TypeScript-style `# Tools` namespace; invocations as `<|im_start|>assistant to=functions.name` + JSON args; tool role for results; hierarchical token-by-token "classification" steps (who speaks, need tool, which tool, which arg, value, done). **Now, You Try!** prompts reverse-engineering other providers' internal formats.
+
+**Guidelines for Tool Definitions**: limit tool count; partition domain; meaningful camelCase names; simplify vs copy full web API; lean on familiar public API shapes (GitHub Copilot code-search example); JSON schema types/enums; OpenAI 1106+ drops some schema modifiers in prompt; long text args escape poorly (Anthropic XML contrast); **argument hallucination** (`my-org` placeholders)—remove args, defaults, or instruct to ask; contextual error messages; **dangerous tools** require application-layer user sign-off, not prompt-only guardrails.
+
+**Reasoning**: models lack internal monologue—surface reasoning via **Chain-of-Thought** (Wei et al. 2022; StrategyQA 69.4%→75.6%; GSM8K ~20%→60%); **zero-shot** "Let's think step-by-step" (Kojima et al. 2022); pause tokens (Goyal et al. 2023). **ReAct** (Yao et al. 2022): Search/Lookup/Finish tools on HotpotQA; think-act-observe loops; fine-tuning 3k examples flips performance (Figure 8-1); ALFWorld 71% vs Act 45%. **Beyond ReAct**: plan-and-solve, **Reflexion** (verbal RL), branch-solve-merge.
+
+**Context for Task-Based Interactions**: preamble (system rules + tools + few-shot), prior conversation + artifacts, current exchange (user message, artifacts, tool calls/responses); Table 8-1 travel-assistant anatomy. **Selecting and Organizing Context**: drop unused tools; artifact inclusion strategies (all vs model-selected); XML/markdown attachment; elastic snippet/RAG for large artifacts; `details()` unfurl pattern; conversation truncation heuristics—evaluate constantly (Ch. 10 forward ref).
+
+**Building a Conversational Agent**: `run_conversation` wraps `process_messages`; sequence diagram Figure 8-2; Table 8-2 thermostat dialogue (common sense, prior-conversation rollback). **User Experience**: spinner, tool-call pills, expandable tool inspection, user-editable args + regenerate-from-point, authorization UI (Figure 8-4), artifact visibility.
+
+**Sections ingested:** Tool Usage (trained tools, under hood, guidelines, dangerous tools) · Reasoning (CoT, ReAct, extensions) · Context · Building Agent · UX · Conclusion.
+
+Cross-refs: Ch. 3 (chat as completion), Ch. 5–6 (context/RAG), Ch. 9 (workflows vs agents), Ch. 10 (evaluation).
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested in chapter]` or `[inferred]`.
+
+### Tools
+
+- Chat models alone cannot access private/real-time data or act in world; tools address knowledge, math, and action gaps. [verified from text, lines 6906–6947]
+- Tool calling = fine-tuned completion + API syntactic sugar (parallel to chat). [verified from text, lines 7188–7196]
+- Internal OpenAI tool defs as TypeScript in system message; named JSON args reduce errors. [verified from text, lines 7211–7259]
+- Limit tools; avoid copying complex web APIs into prompt. [verified from text, lines 7401–7409]
+- Never rely on prompt-only "ask user first" for dangerous tools—intercept in application. [verified from text, lines 7502–7517]
+
+### Reasoning
+
+- LLMs predict likely tokens without mental review; externalize reasoning via CoT/ReAct. [verified from text, lines 7521–7530]
+- CoT few-shot raised StrategyQA accuracy 69.4%→75.6% (PaLM 540B); GSM8K ~20%→60%. [verified from text, lines 7575–7587]
+- ReAct underperforms until fine-tuned (~3k examples); then beats larger vanilla models. [verified from text, lines 7700–7717]
+- ReAct reasoning critical in ALFWorld (71% vs 45% act-only). [verified from text, lines 7729–7750]
+
+### Context and agent loop
+
+- Agent context = preamble + prior conversation/artifacts + current exchange. [verified from text, lines 7826–7867]
+- Too much context confuses; too little starves task—no universal recipe. [verified from text, lines 8013–8022]
+- `run_conversation` + `process_messages` = minimal complete agent; prior conversation enables rollback behaviors. [verified from text, lines 8165–8173]
+
+### UX
+
+- Expose tool activity, allow arg correction and re-run, require authorization for mutating tools. [verified from text, lines 8219–8255]
+
+## Coverage attestation
+
+| Check | Status |
+|-------|--------|
+| **Source path** | `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/prompt_engineering_llms_2024.txt` |
+| **Lines read** | 6877–8295 (inclusive) |
+| **Chapter boundary** | Starts `Chapter 8. Conversational Agency` (L6877); ends before `Chapter 9. LLM Workflows` (L8296) |
+| **Wrong-file flag** | `false` |
+| **Sections deferred** | Provider-specific tool formats beyond OpenAI reconstruction |
+| **Figures** | Figs. 8-1–8-4, Tables 8-1–8-2; image placeholders in export |
+| **Amnesiac rule** | Citations from chapter text only |
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain why bare chat models need tools and how the application executes tool loops.
+2. Reconstruct OpenAI-style internal tool representation and invocation syntax.
+3. Apply tool-definition guidelines (naming, schema simplicity, error handling, safety intercept).
+4. Implement CoT, zero-shot step-by-step, and ReAct-style think-act-observe patterns.
+5. Assemble agent context (preamble, prior conversation, artifacts, current exchange).
+6. Design UX affordances for tool transparency, correction, and authorization.
+
+### worked_examples_present
+
+**Y** — Full Python `process_messages`/`run_conversation`, thermostat multi-turn trace, ReAct HotpotQA trace, Table 8-1 context layout, Table 8-2 dialogue.
+
+### exercise_hooks
+
+- "Now, You Try!" — reverse-engineer provider internal prompts; Jupyter notebook with custom tools.
+- **Instructor hooks `[inferred]`:** count tools until confusion threshold; compare JSON vs XML tool providers on long args.
+
+## Operator hooks
+
+### 1. Foundation layer
+
+Ch. 8 is **w2_systems_llm agent canon**—first Part III chapter; prerequisite for Ch. 9 workflows and Ch. 10 eval of multi-turn loops. Complements **ai_engineering_2025** Ch. 6 (RAG/agents) and **hands_on_llms_2024** tool tutorials.
+
+### 2. MDCalc alignment
+
+**[moderate]** — Dangerous-tool intercept and human authorization patterns apply to any mutating LLM action in regulated settings; no clinical validation claims.
+
+### 3. Redundancy
+
+| Canon title | Overlap | Notes |
+|-------------|---------|-------|
+| **ai_engineering_2025** | Medium | Agents/RAG eval upstream |
+| **llmops_aryan_2025** | Low–medium | Agent ops |
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | **Strong** — runnable code |
+| Exercise hooks | **Present** — Now You Try sections |
+| Chapter boundary | **Clean** |
+| Ingest suitability | **High** |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Evidence |
+|-----------|--------|----------|
+| **Edition currency** | **PASS** | 2024–2025; GPT-4o examples |
+| **Author authority** | **PASS** | Copilot tool-calling practitioners |
+| **Citation density** | **PASS** | CoT, ReAct, Reflexion papers cited |
+| **Contested claims** | **PASS** | Reconstructed OpenAI internals flagged as best-effort |
+| **Worked examples** | **PASS** | End-to-end agent code |
+
+**Overall TEXTBOOK-Q1:** **PASS**
+
+## Provenance (load-bearing claims)
+
+| claim-id | claim | relation | source-title | DOI/URL/ISBN | ingest-path | section-anchor |
+|----------|-------|----------|--------------|--------------|-------------|----------------|
+| PE-C08-001 | Tool calling is document completion under ChatML sugar | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Take a look under the hood |
+| PE-C08-002 | Dangerous tools need application-layer user sign-off | quoted | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Executing dangerous tools |
+| PE-C08-003 | ReAct gains lead after ~3k fine-tune examples | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | ReAct |
+| PE-C08-004 | Agent context layers: preamble, prior, current exchange | compressed | Prompt Engineering for LLMs 1e | ISBN 978-1-098-15615-2 | literature/cs-ai-textbook-canon/ingests/prompt_engineering_llms_2024_ch08_ingest.md | Table 8-1 |
+
+---
+
+*Ingest generated by scholia chapter fan-out · corpus `cs-ai-textbook-canon` · word cap ≤4500*
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+
+

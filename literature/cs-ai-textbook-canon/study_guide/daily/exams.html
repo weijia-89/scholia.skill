@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Practice Checks</title>
+<link rel="stylesheet" href="style.css">
+<script src="notes.js" defer></script>
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <div class="hero__category">CS + AI Foundation corpus</div>
+  <h1 class="hero__title">Practice Checks</h1>
+  <p class="hero__subtitle">Mock A (Day 5) and Mock B (Day 10). Open-book with sources.</p>
+</header>
+<nav class="daynav" style="margin-top:0;border-top:none;padding-top:0;">
+  <a href="index.html">&larr; Daily index</a>
+  <span class="daynav__meta">PRACTICE_EXAMS.md</span>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Top</a>
+</nav>
+<p><strong>Format:</strong> Open-book against your EPUB/PDF + study guide. Time-boxed retrieval practice (no AI assistant during the mock).</p>
+<hr />
+<h2 id="mock-a-track-a-day-5-90-minutes" data-notable-anchor="corpus-exams-mock-a-track-a-day-5-90-minutes">Mock A - Track A (Day 5) · 90 minutes</h2>
+<h3 id="section-1-algorithms-45-min">Section 1: Algorithms (45 min)</h3>
+<ol>
+<li>
+<p><strong>Binary search precondition.</strong> State the requirement on the input list. Walk through finding a name in a 240,000-entry phone book: how many steps worst case? Show the halving logic in your own words.<br />
+<em>Source: Grokking ch1 - &quot;you can only perform binary searches on sorted lists.&quot;</em></p>
+</li>
+<li>
+<p><strong>Big O trap.</strong> Bob claims binary search is &quot;15 times faster&quot; at 1B items because 1B/240k ≈ 4000 and log scales slowly. Why is that reasoning wrong? What does log₂(1B) ≈ 32 actually mean?<br />
+<em>Source: Grokking ch1 NASA/Bob anecdote.</em></p>
+</li>
+<li>
+<p><strong>Arrays vs linked lists.</strong> When is insert-in-middle cheaper? When is random access cheaper? Tie to one real API design choice.<br />
+<em>Source: Grokking ch2.</em></p>
+</li>
+<li>
+<p><strong>Recursion.</strong> Write base case + recursive case for summing a list. What structure records unfinished calls?<br />
+<em>Source: Grokking ch3.</em></p>
+</li>
+<li>
+<p><strong>Quicksort vs merge sort.</strong> When might quicksort degrade? What does &quot;random pivot&quot; buy you in practice vs worst case?<br />
+<em>Source: Grokking ch4 - contested average-case claim flagged in ingest.</em></p>
+</li>
+<li>
+<p><strong>Hash tables.</strong> Why does the author call O(1) lookup a &quot;white lie&quot;? What is load factor?<br />
+<em>Source: Grokking ch5.</em></p>
+</li>
+<li>
+<p><strong>BFS vs Dijkstra.</strong> One uses edge count; one uses total weight. Give a 3-node counterexample where they pick different paths.<br />
+<em>Source: Grokking ch6, ch9.</em></p>
+</li>
+<li>
+<p><strong>Greedy failure.</strong> Why does value-greedy fail 0/1 knapsack? What chapter introduces the fix?<br />
+<em>Source: Grokking ch10-11.</em></p>
+</li>
+</ol>
+<h3 id="section-2-software-design-45-min">Section 2: Software design (45 min)</h3>
+<ol start="9">
+<li>
+<p><strong>Define complexity</strong> in Ousterhout's practical sense. List three symptoms and two causes.<br />
+<em>Quote anchor: &quot;anything that makes software harder to understand and modify.&quot;</em></p>
+</li>
+<li>
+<p><strong>Deep vs shallow module.</strong> Contrast Unix <code>open()</code> with Java's three-stream file open. Which is deeper and why?</p>
+</li>
+<li>
+<p><strong>Information leakage.</strong> Give one HTTP/course-project example from ch5. How do you fix leakage vs back-door leakage?</p>
+</li>
+<li>
+<p><strong>Pull complexity down.</strong> Why is &quot;expose every config parameter&quot; often wrong? Use the retry-interval example.</p>
+</li>
+<li>
+<p><strong>Clean Code debate.</strong> Summarize Ousterhout's position on small functions (ch9). When is splitting harmful?</p>
+</li>
+<li>
+<p><strong>From Appendix principles (ch22).</strong> Pick any <strong>3 of 16</strong> design principles and explain each in one sentence without looking, then verify.</p>
+</li>
+</ol>
+<p><strong>Scoring guide:</strong> 70%+ = ready for week 2. Misses go to Appendix B miss patterns in the study guide.</p>
+<hr />
+<h2 id="mock-b-track-b-day-10-120-minutes" data-notable-anchor="corpus-exams-mock-b-track-b-day-10-120-minutes">Mock B - Track B (Day 10) · 120 minutes</h2>
+<h3 id="section-1-foundations-models-30-min">Section 1: Foundations &amp; models (30 min)</h3>
+<ol>
+<li>
+<p>Why does Huyen call post-2020 AI <strong>&quot;scale&quot;</strong>? Name two consequences of scaling.<br />
+<em>Quote: &quot;If I could use only one word to describe AI post-2020, it'd be scale.&quot;</em></p>
+</li>
+<li>
+<p>Define <strong>foundation model</strong> and three adaptation strategies named in ch1.</p>
+</li>
+<li>
+<p><strong>Self-supervision</strong> vs manual labels: why did it unlock LLM scaling?</p>
+</li>
+<li>
+<p>Name three ways AI engineering differs from traditional ML engineering (ch1 table).</p>
+</li>
+<li>
+<p><strong>Sampling:</strong> what do temperature and top-p control? Why does that create inconsistency?</p>
+</li>
+</ol>
+<h3 id="section-2-evaluation-35-min">Section 2: Evaluation (35 min)</h3>
+<ol start="6">
+<li>
+<p>Why is FM evaluation harder than classic ML? List <strong>four</strong> structural difficulties (ch3).</p>
+</li>
+<li>
+<p>When is perplexity useful vs misleading?</p>
+</li>
+<li>
+<p><strong>AI-as-judge:</strong> name three biases and one mitigation.</p>
+</li>
+<li>
+<p><strong>EDD four buckets</strong> from ch4 (domain, generation, instruction-following, cost/latency).</p>
+</li>
+<li>
+<p>Why should you distrust public leaderboards for your product decision?</p>
+</li>
+</ol>
+<h3 id="section-3-context-adaptation-35-min">Section 3: Context &amp; adaptation (35 min)</h3>
+<ol start="11">
+<li>
+<p><strong>RAG vs long context:</strong> give two reasons RAG persists even as context windows grow.</p>
+</li>
+<li>
+<p><strong>Compound accuracy:</strong> if each agent step is 95% accurate, what is 10-step success rate?</p>
+</li>
+<li>
+<p><strong>Finetune vs RAG:</strong> &quot;facts vs form&quot; heuristic (Ovadia). Apply to a customer-support tone scenario.</p>
+</li>
+<li>
+<p><strong>Prompt injection:</strong> indirect vs direct; one defensive pattern from ch5.</p>
+</li>
+<li>
+<p><strong>Dataset engineering:</strong> name three data-quality dimensions from ch8.</p>
+</li>
+</ol>
+<h3 id="section-4-production-20-min">Section 4: Production (20 min)</h3>
+<ol start="16">
+<li>
+<p><strong>TTFT vs TPOT</strong> - which matters more for chat UX vs batch?</p>
+</li>
+<li>
+<p><strong>Architecture stack (ch10):</strong> order these layers: guardrails, semantic cache, router, raw context.</p>
+</li>
+<li>
+<p><strong>Observability:</strong> metrics vs logs vs traces - one example each for an LLM app.</p>
+</li>
+<li>
+<p><strong>Feedback loops:</strong> why can RLHF-style training increase sycophancy?</p>
+</li>
+<li>
+<p><strong>MDCalc-pattern (no employer claims):</strong> which two ch10 patterns matter for regulated/clinical-adjacent deployments? (guardrails, human escalation, PHI in cache - pick and justify.)</p>
+</li>
+</ol>
+<p><strong>Scoring guide:</strong> 75%+ = wave-1 foundation complete. Review ingests for missed chapters.</p>
+<hr />
+<h2 id="daily-retrieval-drills-510-min-each-evening" data-notable-anchor="corpus-exams-daily-retrieval-drills-510-min-each-evening">Daily retrieval drills (5-10 min each evening)</h2>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Drill</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>Recite binary search steps; define change amplification</td>
+</tr>
+<tr>
+<td>D2</td>
+<td>Write quicksort partition pseudocode; define tactical vs strategic</td>
+</tr>
+<tr>
+<td>D3</td>
+<td>Hash collision example; define information hiding</td>
+</tr>
+<tr>
+<td>D4</td>
+<td>Dijkstra 4 steps; define pass-through method</td>
+</tr>
+<tr>
+<td>D5</td>
+<td>One greedy success + one failure; recite 3 red flags from ch22</td>
+</tr>
+<tr>
+<td>D6</td>
+<td>Draw three-layer AI stack from memory</td>
+</tr>
+<tr>
+<td>D7</td>
+<td>List eval biases; one custom eval metric you'd ship</td>
+</tr>
+<tr>
+<td>D8</td>
+<td>Sketch RAG pipeline boxes; define ReAct loop</td>
+</tr>
+<tr>
+<td>D9</td>
+<td>LoRA in one sentence; define &quot;decide what matters&quot;</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>Walk memory palace once; TTFT/TPOT definitions</td>
+</tr>
+</tbody>
+</table>
+
+</main>
+</body>
+</html>

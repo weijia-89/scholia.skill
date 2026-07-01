@@ -1,0 +1,68 @@
+# R-02 practical cards — nma-bridge (P-JJ)
+pillar_moniker: nma-bridge
+pillar_ids: [P-JJ]
+lane: L3
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#nma-bridge
+
+source_ingests:
+  - literature/ingests/hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+  - literature/ingests/paterson_2022_assertiveness_workbook_ch01_chapter_ingest.md
+
+cards:
+  - exercise_name: Body-First Label
+    steps:
+      - Notice bodily sensation before constructing story about her intent (pillar P-JJ strategy 1).
+      - Name sensation specifically — "tight chest," "heat in face" — before "she's mad at me" narrative (Hanks emotion labeling Ch6).
+      - Use Emotion Wheel or nonjudgmental labeling to reduce intensity (Hanks Emotion_Wheel_Chart hook).
+      - Only after body label — consider whether a clarifying question is needed (UNDERSTAND-HER lens).
+    cognitive_frame: NMA restricts emotional vocabulary — body-first labeling builds access before story fusion (C-G006-NMA cap 65).
+    observables:
+      - Operator reports body sensation in debrief before mind-reading story
+      - Fewer accusatory attributions in conflict
+    contraindications:
+      - body label used to dismiss partner's stated feeling
+      - skipping to story without somatic check
+    source_anchor: C-G006-NMA · r02-foundational-guidance-pillars.md P-JJ
+    aletheia_wire: references/model/operator-self-module.md#nma-bridge
+    operator_fit_tags: [dating-IRL, partner-read]
+    quality_level: full
+
+  - exercise_name: I-Feel / I-Think Sentence Stem
+    steps:
+      - Complete stem "I feel ___" with emotion word — not "I feel that she…" (Hanks Ch8 I_Feel_I_Think_Sentence_Stem).
+      - Complete stem "I think ___" with interpretive content separately (Hanks Ch8).
+      - Deliver feedback using split stems — non-blaming assertive format (Hanks Ch8 finding).
+      - Use soft start-up — appreciation or inquiry before critique when difficult (Hanks Gottman soft start-up).
+    cognitive_frame: Separating feeling from interpretation reduces alexithymic collapse into blame or withdrawal.
+    observables:
+      - Operator uses emotion words in debrief or repair attempt
+      - Distinguishes feeling from story about partner intent
+    contraindications:
+      - "I feel you should…" disguised as I-feel statement
+      - monologue instead of micro-disclosure rep
+    source_anchor: C-EXTB02_CH08-001 · hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#nma-bridge
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Micro-Disclosure Reps
+    steps:
+      - Choose one feeling plus one context — journal or trusted person (pillar P-JJ strategy 2).
+      - Keep rep brief — one sentence feeling, one sentence situation (Paterson assertiveness self-control frame).
+      - After conflict — one explicit feeling plus one request, not monologue (pillar strategy 4 after-conflict repair).
+      - Lantern stance — state view while leaving room for hers (Hanks C-EXTB02_CH02-004).
+    cognitive_frame: Restricted expression correlates with lower satisfaction — reps build capacity without performance (Karakis & Levant 2012 cross-sectional cap 55).
+    observables:
+      - Operator names one feeling in repair message or conversation
+      - Request is single and clear — DESO-compatible
+    contraindications:
+      - trauma-dump as leverage (MANIP-VULNBAIT)
+      - emotional monologue without request or pause for her response
+    source_anchor: C-G006-NMA · paterson_2022_assertiveness_workbook_ch01_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#nma-bridge
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full

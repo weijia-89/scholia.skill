@@ -1,0 +1,401 @@
+understanding_distributed_systems_2022_ch20_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 20
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch20_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch20_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 20
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| pdf_path | [not in corpus; operator: literature/cs-ai-textbook-canon/pdfs/understanding_distributed_systems_2022.pdf] |
+| text_path | /Users/dubs/Projects/scholia.skill//Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch20_ingest.md |
+| text_lines_read | 6193–6375 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| ISBN_print | [not found in text export] |
+| ISBN_electronic | [not found in text export] |
+| publisher | Self-published (Roberto Vitillo) |
+| chapter_number | 20 |
+| chapter_title | Caching |
+| part | Part III — Scalability |
+| page_range | [not present in text export; operator: confirm from PDF TOC] |
+
+---
+
+## Scope
+
+Application/data caching: hit ratio, side vs inline cache, LRU/TTL, invalidation difficulty, local vs external (Redis/Memcached), thundering herd, consistent-hash rebalance, cache-down cascade.
+
+---
+
+## Key findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+1. **Fundamentals** (6198–6227): Cache buffers origin; higher stack = more savings; origin must survive cache loss.
+2. **Policies** (6231–6271): Side vs inline; LRU eviction; TTL staleness trade-off; serve expired if origin down; invalidation impractical → TTL.
+3. **Local cache** (6274–6310): Duplication; thundering herd on cold start; request coalescing per key.
+4. **External cache** (6314–6375): Redis/Memcached shared; partition+replicate; consistent hashing rebalance; cache down may cascade — local fallback + shedding.
+
+---
+
+## Section digest (anchored)
+
+### §20.1 Policies (6231–6271)
+
+Side/inline, LRU, TTL.
+
+### §20.2 Local (6274–6310)
+
+Figure 20.1 thundering herd.
+
+### §20.3 External (6314–6375)
+
+Figure 20.2 Redis cluster.
+
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+After this chapter, a reader should be able to:
+
+1. Distinguish side vs inline cache.
+2. Mitigate thundering herd.
+3. Plan cache rebalance.
+4. Design cache-down degradation.
+
+### worked_examples_present
+
+**Y** — Redis/Memcached managed services; hot-key scenario.
+
+### exercise_hooks
+
+No end-of-chapter exercises in source. Operator-derivable hooks:
+
+1. **TTL stale-serve:** SLA when origin down.
+2. **Singleflight:** Coalesce hot key fetches.
+3. **Cache-down:** Fallback + shedding plan.
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| §20.1 | Read | 6231–6271 |
+| §20.2 | Read | 6274–6310 |
+| §20.3 | Read | 6314–6375 |
+
+**Attestation:** Single-file read of `understanding_distributed_systems_2022.txt` lines 6193–6375 only.
+
+---
+
+## Operator hooks
+
+### 1. w2_systems_llm (Part III — Scalability)
+
+DB read optimization after ch19; stacks ch14 HTTP + ch15 CDN.
+
+### 2. MDCalc alignment
+
+**[peripheral]** — No clinical content; HA/scale patterns port indirectly to regulated services.
+
+### 3. Redundancy
+
+| Canon title | Overlap |
+|-------------|---------|
+| **DDIA 2e** | Medium — caching chapter |
+
+### 4. Scholia fit
+
+- **Worked examples:** Y (policy + failure modes).
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | v2.0.0 March 2022 |
+| Author authority | **PASS** | Practitioner (Mozilla data platform, Microsoft SaaS) |
+| Citation density | **PASS** | Primary papers and vendor docs in footnotes |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Failure mode emphasis |
+
+### Contested or oversimplified claims
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Cache is optimization not proof of scale | 6218–6227 | Origin must stand alone |
+
+**TEXTBOOK-Q1 verdict:** **PASS**
+
+---
+
+## Cross-references (forward pointers)
+
+| Reference | Topic |
+|-----------|-------|
+| Part IV ch28 | Load shedding |
+
+---
+
+## Provenance notes
+
+- Claims trace to lines 6193–6375 of `understanding_distributed_systems_2022.txt`.
+- `[inferred]` used for cross-canon redundancy judgments.
+- Part III scalability arc: Cruder narrative thread (Ch.14–23).
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per chapter |
+|------|------------------------|
+| Thundering herd | Simultaneous cache miss spike |
+| Request coalescing | One in-flight fetch per key |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch20_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch20_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 20
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+helps maintain data integrity. If a piece of data is duplicated in multiple places,
+then to update it, we have to make sure it gets updated everywhere. In contrast, if
+the data is normalized, we only need to update it in one place.
+
+CHAPTER 19. DATA STORAGE                                                    185
+
+
+19.3       NoSQL
+These early solutions didn’t support SQL and more generally only
+implemented a fraction of the features offered by traditional rela-
+tional data stores. White papers such as Bigtable5 and Dynamo6
+revolutionized the industry and started a push towards scalable
+storage layers, resulting in a plethora of open source solutions in-
+spired by them, like HBase and Cassandra.
+
+Since the ﬁrst generation of these data stores didn’t support SQL,
+they were referred to as NoSQL. Nowadays, the designation is mis-
+leading as NoSQL stores have evolved to support features, like
+dialects of SQL, that used to be available only in relational data
+stores.
+
+While relational databases support stronger consistency models
+such as strict serializability, NoSQL stores embrace relaxed consis-
+tency models such as eventual and causal consistency to support
+high availability.
+
+Additionally, NoSQL stores generally don’t provide joins and rely
+on the data, often represented as key-value pairs or documents
+(e.g., JSON), to be unnormalized. A pure key-value store maps an
+opaque sequence of bytes (key) to an opaque sequence of bytes
+(value). A document store maps a key to a (possibly hierarchi-
+cal) document without a strictly enforced schema. The main dif-
+ference from a key-value store is that documents are interpreted
+and indexed and therefore can be queried based on their internal
+structure.
+
+Finally, since NoSQL stores natively support partitioning for scal-
+ability purposes, they have limited support for transactions. For
+example, Azure Cosmos DB currently only supports transactions
+scoped to individual partitions. On the other hand, since the data
+is stored in unnormalized form, there is less need for transactions
+or joins in the ﬁrst place.
+   5
+     “Bigtable: A Distributed Storage System for Structured Data,” https://static
+.googleusercontent.com/media/research.google.com/en//archive/bigtable-
+osdi06.pdf
+   6
+     we talked about Dynamo in section 11.3
+
+CHAPTER 19. DATA STORAGE                                                 186
+
+
+Although the data models used by NoSQL stores are generally not
+relational, we can still use them to model relational data. But if we
+take a NoSQL store and try to use it as a relational database, we will
+end up with the worst of both worlds. If used correctly, NoSQL can
+handle many of the use cases that a traditional relational database
+can7 , while being essentially scalable from day 1.8
+
+The main requirement for using a NoSQL data store efﬁciently is to
+know the access patterns upfront and model the data accordingly;
+let’s see why that is so important. Take Amazon DynamoDB9 , for
+example; its main abstraction is a table that contains items. Each
+item can have different attributes, but it must have a primary key
+that uniquely identiﬁes an item.
+
+The primary key can consist of either a single attribute, the parti-
+tion key, or of two attributes, the partition key and the sort key. As
+you might suspect, the partition key dictates how the data is par-
+titioned and distributed across nodes, while the sort key deﬁnes
+how the data is sorted within a partition, which allows for efﬁcient
+range queries.
+
+DynamoDB creates three replicas for each partition and uses state
+machine replication to keep them in sync10 . Writes are routed to
+the leader, and an acknowledgment is sent to the client when two
+out of three replicas have received the write. Reads can be either
+eventually consistent (pick any replica) or strongly consistent
+(query the leader). Confusingly enough, the architecture of Dy-
+namoDB is very different from the one presented in the Dynamo
+paper, which we discussed in chapter 11.3.
+
+At a high level, DynamoDB’s API supports:
+
+   • CRUD operations on single items,
+   7
+     “AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Pat-
+terns for DynamoDB (DAT401),” https://www.youtube.com/watch?v=HaEPX
+oXVf2k
+   8
+     On the other hand, while we certainly can ﬁnd ways to scale a relational
+database, what works on day 1 might not work on day 10 or 100.
+   9
+     “Amazon DynamoDB,” https://aws.amazon.com/dynamodb/
+  10
+     “AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a
+Hyper-Scale Database (DAT321),” https://www.youtube.com/watch?v=yvBR7
+1D0nAQ
+
+CHAPTER 19. DATA STORAGE                                          187
+
+
+   • querying multiple items that have the same partition key (op-
+     tionally specifying conditions on the sort key),
+   • and scanning the entire table.
+There are no join operations, by design, since they don’t scale well.
+But that doesn’t mean we should implement joins in the applica-
+tion. Instead, as we will see shortly, we should model our data so
+that joins aren’t needed in the ﬁrst place.
+The partition and sort key attributes are used to model the table’s
+access patterns. For example, suppose the most common access
+pattern is retrieving the list of orders for a speciﬁc customer sorted
+by date. In that case, it would make sense for the table to have the
+customer ID as the partition key, and the order creation date as the
+sort key:
+
+ Partition Key     Sort Key      Attribute         Attribute
+ jonsnow           2021-07-13    OrderID: 1452     Status: Shipped
+ aryastark         2021-07-20    OrderID: 5252     Status: Placed
+ branstark         2021-07-22    OrderID: 5260     Status: Placed
+
+
+Now suppose that we also want the full name of the customer in
+the list of orders. While, in a relational database, a table contains
+only entities of a certain type (e.g., customer), in NoSQL, a table
+can contain entities of multiple types. Thus, we could store both
+customers and orders within the same table:
+
+Partition Key    Sort Key       Attribute                Attribute
+jonsnow          2021-07-13     OrderID: 1452            Status: Shipped
+jonsnow          jonsnow        FullName: Jon Snow       Address: …
+aryastark        2021-07-20     OrderID: 5252            Status: Placed
+aryastark        aryastark      FullName: Arya Stark     Address: …
+
+
+
+Because a customer and its orders have the same partition key, we
+can now issue a single query that retrieves all entities for the de-
+sired customer.
+
+CHAPTER 19. DATA STORAGE                                                 188
+
+
+See what we just did? We have structured the table based on the
+access patterns so that queries won’t require any joins. Now think
+for a moment about how you would model the same data in nor-
+malized form in a relational database. You would probably have
+one table for orders and another for customers. And, to perform
+the same query, a join would be required at query time, which
+would be slower and harder to scale.
+
+The previous example is very simple, and DynamoDB supports
+secondary indexes to model more complex access patterns — local
+secondary indexes allow for alternate sort keys in the same table,
+while global secondary indexes allow for different partition and
+sort keys, with the caveat that index updates are asynchronous and
+eventually consistent.
+
+It’s a common misconception that NoSQL data stores are more ﬂex-
+ible than relational databases because they can seamlessly scale
+without modeling the data upfront. Nothing is further from the
+truth — NoSQL requires a lot more attention to how the data is
+modeled. Because NoSQL stores are tightly coupled to the access
+patterns, they are a lot less ﬂexible than relational databases.
+
+If there is one concept you should take away from this chapter, it’s
+this: using a NoSQL data store requires identifying the access pat-
+terns upfront to model the data accordingly. If you want to learn
+how to do that, I recommend reading “The DynamoDB Book”11 ,
+even if you plan to use a different NoSQL store.
+
+As scalable data stores keep evolving, the latest trend is to combine
+the scalability of NoSQL with the ACID guarantees of relational
+databases. These new data stores are also referred to as NewSQL12 .
+While NoSQL data stores prioritize availability over consistency in
+the face of network partitions, NewSQL stores prefer consistency.
+The argument behind NewSQL stores is that, with the right de-
+sign, the reduction in availability caused by enforcing strong con-
+
+  11
+    “The DynamoDB Book,” https://www.dynamodbbook.com/
+  12
+    “Andy Pavlo — The ofﬁcial ten-year retrospective of NewSQL databases,” ht
+

@@ -1,0 +1,393 @@
+understanding_distributed_systems_2022_ch08_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 08
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch08_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch08_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 8
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch08_ingest.md |
+| text_lines_read | 2119–2352 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 8 |
+| chapter_title | Time |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 8 addresses **ordering events** without a shared global clock. **Physical clocks:** quartz drift/skew; atomic clocks for sync reference; **NTP** estimates skew but causes wall-clock jumps (breaks timestamp ordering); **monotonic clocks** measure elapsed time on one node only. **Logical clocks:** **Lamport clocks** (counter rules on local ops and message send/receive; happened-before ⇒ lower timestamp; ties broken arbitrarily; timestamp order ≠ causality); **vector clocks** (array per process; partial order comparison guarantees true happened-before; concurrent ops incomparable; storage O(n processes); dotted version vectors as scale alternative). Physical clocks OK for debug logs only.
+
+---
+
+## Key findings
+
+1. **No global clock** (lines 2128–2139): Distributed processes concurrent; need order of operations for correctness.
+
+2. **Physical clocks limitations** (§8.1, lines 2142–2190): Quartz **drift** and **skew**; NTP sync over unpredictable latency; clock jumps invert apparent order. **Monotonic clock** forward-only, same-node elapsed time only—not cross-node comparable. Cannot depend on wall time for cross-node ordering → **logical clocks**.
+
+3. **Happened-before and Lamport clocks** (§8.2, lines 2202–2265): Causal bond from single-thread sequencing and message **synchronization points**. Rules: init 0; +1 before local op; +1 and attach on send; merge max on receive then +1. If O1 happened-before O2, ts(O1) < ts(O2) (Figure 8.1 D<F). Equal timestamps possible for unrelated ops (A and E both 1)—break ties by process ID for total order. **Timestamp order does not imply causality** (E vs. C in Figure 8.1). Crash-stop assumed; crash-recovery via persisting counter.
+
+4. **Vector clocks** (§8.3, lines 2272–2337): Array of counters per process; update rules parallel Lamport but per-index merge. **Partial order:** T1 ≤ T2 element-wise with strict inequality somewhere ⇒ O1 happened-before O2 (Figure 8.2 B before C). Incomparable timestamps ⇒ **concurrent** (E and C). Storage grows with process count; **dotted version vectors** mitigate. Forward apps later in book.
+
+5. **Practical guidance** (lines 2347–2352): Physical timestamps for debug logs may suffice; logical clocks for causal reasoning.
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Explain clock drift, skew, NTP jumps, and monotonic clock scope.
+2. Implement Lamport clock update rules on a message diagram.
+3. State Lamport limitation: timestamp order ≠ causal order.
+4. Compare vector clock partial order to Lamport total-ish order.
+5. Identify concurrent operations from vector timestamps.
+
+### worked_examples_present
+
+**Y** — Figures 8.1 (Lamport) and 8.2 (vector clocks); email synchronization analogy.
+
+### exercise_hooks
+
+1. Trace Lamport timestamps on a 3-process message diagram.
+2. Determine concurrency vs. happened-before with vector clocks.
+3. When would LWW register timestamps (Ch.11) inherit Lamport rules?
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.8 §8.1–8.3 | Read | lines 2119–2352 |
+| Ch.9+ | Deferred | line 2353 onward |
+
+---
+
+## Operator hooks
+
+Prerequisite for **Ch.11 CRDTs/LWW/MV registers** and **causal consistency (COPS)**. Core **DDIA** ordering material at algorithmic depth. Relevant to event-sourced LLM agent traces.
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — Lamport 1978, Fidge vector clocks, primary literature cited.
+
+---
+
+## Cross-references
+
+| Reference | Topic |
+|-----------|-------|
+| Ch.11 | LWW/MV registers use logical timestamps |
+| Ch.11.5 | Causal consistency |
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| Clock drift | Rate difference between clocks |
+| Clock skew | Offset between clocks at an instant |
+| Lamport clock | Logical counter capturing send/receive order |
+| Vector clock | Per-process counter array for causal order |
+| Happened-before | Causal precedence relation |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch08_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch08_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 08
+# hooks: 3 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+chrony. If you are curious and want to learn more about other
+system models, “Introduction to Reliable and Secure Distributed
+Programming”3 is an excellent theoretical book that explores
+distributed algorithms for a variety of models not considered in
+this text.
+But remember, models are just an abstraction of reality4 since they
+don’t represent the real world with all its nuances. So, as you read
+along, question the models’ assumptions and try to imagine how
+algorithms that rely on them could break in practice.
+
+
+
+
+   2
+     “Unreliable Failure Detectors for Reliable Distributed Systems,” https://ww
+w.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf
+   3
+     “Introduction to Reliable and Secure Distributed Programming,” https://ww
+w.distributedprogramming.net/
+   4
+     “All models are wrong,” https://en.wikipedia.org/wiki/All_models_are_w
+rong
+
+
+Chapter 7
+
+Failure detection
+
+Several things can go wrong when a client sends a request to a
+server. In the best case, the client sends a request and receives a
+response. But what if no response comes back after some time?
+In that case, it’s impossible to tell whether the server is just very
+slow, it crashed, or a message couldn’t be delivered because of a
+network issue (see Figure 7.1).
+
+In the worst case, the client will wait forever for a response that
+will never arrive. The best it can do is make an educated guess,
+after some time has passed, on whether the server is unavailable.
+The client can conﬁgure a timeout to trigger if it hasn’t received
+a response from the server after a certain amount of time. If and
+when the timeout triggers, the client considers the server unavail-
+able and either throws an error or retries the request.
+
+The tricky part is deciding how long to wait for the timeout to trig-
+ger. If the delay is too short, the client might wrongly assume the
+server is unavailable; if the delay is too long, the client might waste
+time waiting for a response that will never arrive. In summary, it’s
+not possible to build a perfect failure detector.
+
+But a process doesn’t need to wait to send a message to ﬁnd out
+that the destination is not reachable. It can also proactively try to
+maintain a list of available processes using pings or heartbeats.
+
+CHAPTER 7. FAILURE DETECTION                                       62
+
+
+
+
+Figure 7.1: The client can’t tell whether the server is slow, it
+crashed or a message was delayed/dropped because of a network
+issue.
+
+
+A ping is a periodic request that a process sends to another to check
+whether it’s still available. The process expects a response to the
+ping within a speciﬁc time frame. If no response is received, a time-
+out triggers and the destination is considered unavailable. How-
+ever, the process will continue to send pings to it to detect if and
+when it comes back online.
+A heartbeat is a message that a process periodically sends to another.
+If the destination doesn’t receive a heartbeat within a speciﬁc time
+frame, it triggers a timeout and considers the process unavailable.
+But if the process comes back to life later and starts sending out
+heartbeats, it will eventually be considered to be available again.
+Pings and heartbeats are generally used for processes that interact
+with each other frequently, in situations where an action needs to
+be taken as soon as one of them is no longer reachable. In other cir-
+cumstances, detecting failures just at communication time is good
+enough.
+
+Chapter 8
+
+Time
+
+Time is an essential concept in any software application; even more
+so in distributed ones. We have seen it play a crucial role in the net-
+work stack (e.g., DNS record TTL) and failure detection (timeouts).
+Another important use of it is for ordering events.
+
+The ﬂow of execution of a single-threaded application is simple to
+understand because every operation executes sequentially in time,
+one after the other. But in a distributed system, there is no shared
+global clock that all processes agree on that can be used to order
+operations. And, to make matters worse, processes can run con-
+currently.
+
+It’s challenging to build distributed applications that work as in-
+tended without knowing whether one operation happened before
+another. In this chapter, we will learn about a family of clocks that
+can be used to work out the order of operations across processes
+in a distributed system.
+
+
+8.1    Physical clocks
+A process has access to a physical wall-time clock. The most com-
+mon type is based on a vibrating quartz crystal, which is cheap but
+not very accurate. Depending on manufacturing differences and
+
+CHAPTER 8. TIME                                                            64
+
+
+external temperature, one quartz clock can run slightly faster or
+slower than others. The rate at which a clock runs faster or slower
+is also called clock drift. In contrast, the difference between two
+clocks at a speciﬁc point in time is referred to as clock skew.
+
+Because quartz clocks drift, they need to be synced periodically
+with machines that have access to higher-accuracy clocks, like
+atomic ones. Atomic clocks1 measure time based on quantum-
+mechanical properties of atoms. They are signiﬁcantly more
+expensive than quartz clocks and accurate to 1 second in 3 million
+years.
+
+The synchronization between clocks can be implemented with a
+protocol, and the challenge is to do so despite the unpredictable
+latencies introduced by the network. The most commonly used
+protocol is the Network Time Protocol (NTP2 ). In NTP, a client esti-
+mates the clock skew by receiving a timestamp from a NTP server
+and correcting it with the estimated network latency. With an es-
+timate of the clock skew, the client can adjust its clock. However,
+this causes the clock to jump forward or backward in time, which
+creates a problem when comparing timestamps. For example, an
+operation that runs after another could have an earlier timestamp
+because the clock jumped back in time between the two operations.
+
+Luckily, most operating systems offer a different type of clock that
+is not affected by time jumps: a monotonic clock. A monotonic clock
+measures the number of seconds elapsed since an arbitrary point
+in time (e.g., boot time) and can only move forward. A monotonic
+clock is useful for measuring how much time has elapsed between
+two timestamps on the same node. However, monotonic clocks
+are of no use for comparing timestamps of different nodes.
+
+Since we don’t have a way to synchronize wall-time clocks across
+processes perfectly, we can’t depend on them for ordering oper-
+ations across nodes. To solve this problem, we need to look at it
+from another angle. We know that two operations can’t run con-
+  1
+    “Atomic clock,” https://en.wikipedia.org/wiki/Atomic_clock
+  2
+    “RFC 5905: Network Time Protocol Version 4: Protocol and Algorithms Speci-
+ﬁcation,” https://datatracker.ietf.org/doc/html/rfc5905
+
+CHAPTER 8. TIME                                                               65
+
+
+currently in a single-threaded process as one must happen before
+the other. This happened-before relationship creates a causal bond
+between the two operations, since the one that happens ﬁrst can
+have side-effects that affect the operation that comes after it. We
+can use this intuition to build a different type of clock that isn’t
+tied to the physical concept of time but rather captures the causal
+relationship between operations: a logical clock.
+
+
+8.2      Logical clocks
+A logical clock measures the passing of time in terms of logical op-
+erations, not wall-clock time. The simplest possible logical clock is
+a counter, incremented before an operation is executed. Doing so
+ensures that each operation has a distinct logical timestamp. If two
+operations execute on the same process, then necessarily one must
+come before the other, and their logical timestamps will reﬂect that.
+But what about operations executed on different processes?
+
+Imagine sending an email to a friend. Any actions you did before
+sending that email, like drinking coffee, must have happened be-
+fore the actions your friend took after receiving the email. Simi-
+larly, when one process sends a message to another, a so-called
+synchronization point is created. The operations executed by the
+sender before the message was sent must have happened before
+the operations that the receiver executed after receiving it.
+
+A Lamport clock3 is a logical clock based on this idea. To implement
+it, each process in the system needs to have a local counter that
+follows speciﬁc rules:
+
+   • The counter is initialized with 0.
+   • The process increments its counter by 1 before executing an
+     operation.
+   • When the process sends a message, it increments its counter
+     by 1 and sends a copy of it in the message.
+   • When the process receives a message, it merges the counter
+  3
+    “Time, Clocks, and the Ordering of Events in a Distributed System,” http://la
+mport.azurewebsites.net/pubs/time-clocks.pdf
+
+CHAPTER 8. TIME                                                   66
+
+
+      it received with its local counter by taking the maximum of
+      the two. Finally, it increments the counter by 1.
+
+
+
+
+Figure 8.1: Three processes using Lamport clocks. For example,
+because D happened before F, D’s logical timestamp is less than
+F’s.
+
+Although the Lamport clock assumes a crash-stop model, a crash-
+recovery one can be supported by e.g., persisting the clock’s state
+on disk.
+
+The rules guarantee that if operation 𝑂1 happened-before opera-
+tion 𝑂2 , the logical timestamp of 𝑂1 is less than the one of 𝑂2 . In
+the example shown in Figure 8.1, operation D happened-before F,
+and their logical timestamps, 4 and 5, reﬂect that.
+
+However, two unrelated operations can have the same logical
+timestamp. For example, the logical timestamps of operations
+A and E are equal to 1. To create a strict total order, we can
+arbitrarily order the processes to break ties. For example, if we
+used the process IDs in Figure 8.1 to break ties (1, 2, and 3), E’s
+timestamp would be greater than A’s.
+
+Regardless of whether ties are broken, the order of logical times-
+tamps doesn’t imply a causal relationship. For example, in Figure
+8.1, operation E didn’t happen-before C, even if their timestamps
+appear to imply it. To guarantee this relationship, we have to use
+
+CHAPTER 8. TIME                                                                    67
+
+
+a different type of logical clock: a vector clock.
+

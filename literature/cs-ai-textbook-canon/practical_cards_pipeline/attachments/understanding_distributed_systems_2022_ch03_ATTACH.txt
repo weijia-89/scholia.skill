@@ -1,0 +1,323 @@
+understanding_distributed_systems_2022_ch03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-07-01
+Slug: understanding_distributed_systems_2022 · chapter: 03
+Project: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/chatprd/understanding_distributed_systems_2022_ch03_card_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: cs-ai-textbook-canon · phase 2 practical cards
+ROOT: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/
+PIPELINE: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/phase2-cs-ai/
+CONSUMER: /Users/dubs/Projects/local-rag-linux-setup (RAG wire — not aletheia)
+OPERATOR: Wei Jia · L3 closed corpus · cs-ai-foundation study
+PLATFORM: ChatPRD · Opus 4.8 (card extract) · Cursor (merge + verify + RAG wire)
+
+CLOSED-CORPUS IRON LAW (scholia)
+- Phase 1 ingests are claims SSOT; phase 2 extracts procedures only from attached slice + ingest.
+- No invented steps — efficacy without protocol → procedure_gap: true, steps: [].
+- No send-ready scripts in cards (σ−).
+- Amnesiac: every step traces to ingest or text slice anchor.
+
+CHATPRD EXTERNAL IRON LAW (operator-path-output + piranesi attach packs)
+- Max 8 uploaded files per ChatPRD window — use one self-contained *_ATTACH.txt per chapter.
+- Paste prompt only — never upload prompts/ to ChatPRD.
+- No README or sync scripts inside upload/attach folders.
+- Full paths in operator tables; flat chatprd_returns/*.yaml saves only.
+
+SCHEMA: /Users/dubs/Projects/scholia.skill/references/practical-usage-schema.md
+CANON: /Users/dubs/Projects/piranesi.skill/research-projects/0628-scholia-practical-ingest/returns/scholia_practical_ingest_decision_canon_20260626.md
+CONTEXT_TAGS: cs-ai-foundation, practical-card, distributed-systems, eval-harness, prompt-engineering, clinical-ai
+
+========================================================================
+PHASE-1-INGEST (understanding_distributed_systems_2022_ch03_ingest.md)
+========================================================================
+
+# Chapter ingest — Understanding Distributed Systems (2e) · Chapter 3
+
+| Field | Value |
+|-------|-------|
+| slug | understanding_distributed_systems_2022 |
+| source_type | textbook |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/understanding_distributed_systems_2022.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/understanding_distributed_systems_2022_ch03_ingest.md |
+| text_lines_read | 979–1153 |
+| wrong_file_flag | false |
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| parent_book_title | Understanding Distributed Systems |
+| authors | Roberto Vitillo |
+| edition | Version 2.0.0 (March 2022) |
+| chapter_number | 3 |
+| chapter_title | Secure links |
+| page_range | [not in text export] |
+
+---
+
+## Scope
+
+Chapter 3 layers **TLS** on TCP to protect bytes in transit. TLS provides **encryption** (asymmetric key exchange → symmetric bulk encryption, periodic renegotiation), **authentication** (digital signatures, certificate chains, CAs, trust stores), **integrity** (HMAC beyond TCP checksum weakness), and the **handshake** (cipher suite negotiation, shared secret, server cert verification; TLS 1.2 ≈2 RTT, TLS 1.3 ≈1 RTT). Operational emphasis: use TLS everywhere; automate cert renewal to avoid expiry outages.
+
+---
+
+## Key findings
+
+1. **TLS role** (lines 983–990): Runs on TCP; obfuscates channel for HTTP (HTTPS). Three guarantees: encryption, authentication, integrity.
+
+2. **Encryption** (§3.1, lines 993–1021): Initial **asymmetric** exchange creates shared secret never sent on wire (elliptic-curve math). Then fast **symmetric** encryption for bulk data; shared key periodically renegotiated. CPU cost negligible on modern hardware with crypto instructions → **TLS for all communications**, including internal.
+
+3. **Authentication** (§3.2, lines 1024–1092): Server signs messages with private key; client verifies with public key. Public key authenticity via **certificates** (entity, expiry, public key, issuer signature). **Certificate chain** ends at self-signed **root CA** (Figure 3.1). Client trust store must contain chain ancestor. Chain sent server→client on connect; reverse verification from trusted anchor. **Common failure:** expired certificates → connection failures → automate monitor/renew (Let's Encrypt cited).
+
+4. **Integrity** (§3.3, lines 1095–1122): Middleman could tamper even if encrypted. TLS **HMAC** (secure hash) detects tampering/corruption. TCP checksum alone unreliable (~1 error per 16 GB–10 TB for 1 KB packets per cited study).
+
+5. **Handshake** (§3.4, lines 1125–1153): Negotiate **cipher suite** (key exchange, signature, symmetric cipher, HMAC algorithms); create shared secret; verify server cert (optional client cert). Order optimized in modern stacks. New connection cost → geographic proximity + connection reuse (recurring Part I theme).
+
+---
+
+## Pedagogy
+
+### Learning objectives
+
+1. Name TLS's three guarantees and how they map to attack types.
+2. Contrast asymmetric vs. symmetric encryption usage in TLS.
+3. Explain certificate chain verification and expiry risk.
+4. Articulate why HMAC supplements TCP checksums.
+5. Compare TLS 1.2 vs. 1.3 handshake RTT cost.
+
+### worked_examples_present
+
+**Y** — Certificate chain diagram (Figure 3.1); handshake step list. No coding lab.
+
+### exercise_hooks
+
+1. Runbook: cert expiry monitoring checklist.
+2. Trace a TLS failure from browser error to root cause class (expiry vs. untrusted CA vs. hostname mismatch).
+
+---
+
+## Coverage attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Ch.3 §3.1–3.4 | Read | lines 979–1153 |
+| Ch.4+ | Deferred | line 1154 onward |
+
+---
+
+## Operator hooks
+
+Pairs with **DDIA** security discussion and production **AI Engineering** deployments (API keys in transit). Cert expiry as classic unknown-unknowns outage class (Ousterhout Ch.2 lens).
+
+---
+
+## TEXTBOOK-Q1 verdict
+
+**PASS** — RFC 8446, operational guidance, clear procedural content.
+
+---
+
+## Glossary
+
+| Term | Definition |
+|------|------------|
+| TLS | Transport Layer Security on TCP |
+| CA | Certificate authority issuing signed certificates |
+| HMAC | Keyed hash for message authentication |
+| Cipher suite | Agreed algorithms for secure channel |
+
+
+========================================================================
+TEXT-SLICE (/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/practical_cards_pipeline/attachments/understanding_distributed_systems_2022_ch03_SLICE.txt)
+========================================================================
+
+# Text slice — understanding_distributed_systems_2022_ch03_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: understanding_distributed_systems_2022 · chapter: 03
+# hooks: 2 · route: inline
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+geographically close to the clients.
+
+
+2.5     Custom protocols
+TCP’s reliability and stability come at the price of lower band-
+width and higher latencies than the underlying network can
+deliver. If we drop the stability and reliability mechanisms that
+TCP provides, what we get is a simple protocol named User
+Datagram Protocol6 (UDP) — a connectionless transport layer
+protocol that can be used as an alternative to TCP.
+Unlike TCP, UDP does not expose the abstraction of a byte stream
+to its clients. As a result, clients can only send discrete packets
+with a limited size called datagrams. UDP doesn’t offer any relia-
+bility as datagrams don’t have sequence numbers and are not ac-
+knowledged. UDP doesn’t implement ﬂow and congestion control
+either. Overall, UDP is a lean and bare-bones protocol. It’s used
+to bootstrap custom protocols, which provide some, but not all, of
+the stability and reliability guarantees that TCP does7 .
+   5
+     “Bandwidth-delay product,” https://en.wikipedia.org/wiki/Bandwidth-
+delay_product
+   6
+     “RFC 768: User Datagram Protocol,” https://datatracker.ietf.org/doc/html/
+rfc768
+   7
+     As we will later see, HTTP 3 is based on UDP to avoid some of TCP’s short-
+comings.
+
+CHAPTER 2. RELIABLE LINKS                                        24
+
+
+For example, in multiplayer games, clients sample gamepad
+events several times per second and send them to a server that
+keeps track of the global game state. Similarly, the server samples
+the game state several times per second and sends these snapshots
+back to the clients. If a snapshot is lost in transmission, there is
+no value in retransmitting it as the game evolves in real-time; by
+the time the retransmitted snapshot would get to the destination,
+it would be obsolete. This is a use case where UDP shines; in
+contrast, TCP would attempt to redeliver the missing data and
+degrade the game’s experience.
+
+Chapter 3
+
+Secure links
+
+We now know how to reliably send bytes from one process to an-
+other over the network. The problem is that these bytes are sent in
+the clear, and a middleman could intercept the communication. To
+protect against that, we can use the Transport Layer Security1 (TLS)
+protocol. TLS runs on top of TCP and encrypts the communica-
+tion channel so that application layer protocols, like HTTP, can
+leverage it to communicate securely. In a nutshell, TLS provides
+encryption, authentication, and integrity.
+
+
+3.1      Encryption
+Encryption guarantees that the data transmitted between a client
+and a server is obfuscated and can only be read by the communi-
+cating processes.
+
+When the TLS connection is ﬁrst opened, the client and the server
+negotiate a shared encryption secret using asymmetric encryption.
+First, each party generates a key pair consisting of a private and
+public key. The processes can then create a shared secret by ex-
+changing their public keys. This is possible thanks to some math-
+  1
+    “RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3,” https:
+//datatracker.ietf.org/doc/html/rfc8446
+
+CHAPTER 3. SECURE LINKS                                                     26
+
+
+ematical properties2 of the key pairs. The beauty of this approach
+is that the shared secret is never communicated over the wire.
+
+Although asymmetric encryption is slow and expensive, it’s only
+used to create the shared encryption key. After that, symmetric en-
+cryption is used, which is fast and cheap. The shared key is peri-
+odically renegotiated to minimize the amount of data that can be
+deciphered if the shared key is broken.
+
+Encrypting in-ﬂight data has a CPU penalty, but it’s negligible
+since modern processors have dedicated cryptographic instruc-
+tions. Therefore, TLS should be used for all communications,
+even those not going through the public internet.
+
+
+3.2     Authentication
+Although we have a way to obfuscate data transmitted across the
+wire, the client still needs to authenticate the server to verify it’s
+who it claims to be. Similarly, the server might want to authenti-
+cate the identity of the client.
+
+TLS implements authentication using digital signatures based on
+asymmetric cryptography. The server generates a key pair with a
+private and a public key and shares its public key with the client.
+When the server sends a message to the client, it signs it with its
+private key. The client uses the server’s public key to verify that
+the digital signature was actually signed with the private key. This
+is possible thanks to mathematical properties3 of the key pair.
+
+The problem with this approach is that the client has no idea
+whether the public key shared by the server is authentic. Hence,
+the protocol uses certiﬁcates to prove the ownership of a public
+key. A certiﬁcate includes information about the owning entity,
+expiration date, public key, and a digital signature of the third-
+party entity that issued the certiﬁcate. The certiﬁcate’s issuing
+   2
+     “A (Relatively Easy To Understand) Primer on Elliptic Curve Cryptography,”
+https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-
+curve-cryptography/
+   3
+     “Digital signature,” https://en.wikipedia.org/wiki/Digital_signature
+
+CHAPTER 3. SECURE LINKS                                                        27
+
+
+entity is called a certiﬁcate authority (CA), which is also represented
+with a certiﬁcate. This creates a chain of certiﬁcates that ends with
+a certiﬁcate issued by a root CA, as shown in Figure 3.1, which
+self-signs its certiﬁcate.
+
+For a TLS certiﬁcate to be trusted by a device, the certiﬁcate, or one
+of its ancestors, must be present in the trusted store of the client.
+Trusted root CAs, such as Let’s Encrypt4 , are typically included in
+the client’s trusted store by default by the operating system ven-
+dor.
+
+
+
+
+Figure 3.1: A certiﬁcate chain ends with a self-signed certiﬁcate
+issued by a root CA.
+
+When a TLS connection is opened, the server sends the full cer-
+tiﬁcate chain to the client, starting with the server’s certiﬁcate and
+  4
+      “Let’s Encrypt: A nonproﬁt Certiﬁcate Authority,” https://letsencrypt.org/
+
+CHAPTER 3. SECURE LINKS                                                  28
+
+
+ending with the root CA. The client veriﬁes the server’s certiﬁcate
+by scanning the certiﬁcate chain until it ﬁnds a certiﬁcate that it
+trusts. Then, the certiﬁcates are veriﬁed in reverse order from that
+point in the chain. The veriﬁcation checks several things, like the
+certiﬁcate’s expiration date and whether the digital signature was
+actually signed by the issuing CA. If the veriﬁcation reaches the
+last certiﬁcate in the path (the server’s own certiﬁcate) without er-
+rors, the path is veriﬁed, and the server is authenticated.
+
+One of the most common mistakes when using TLS is letting a
+certiﬁcate expire. When that happens, the client won’t be able to
+verify the server’s identity, and opening a connection to the re-
+mote process will fail. This can bring an entire application down
+as clients can no longer connect with it. For this reason, automa-
+tion to monitor and auto-renew certiﬁcates close to expiration is
+well worth the investment.
+
+
+3.3     Integrity
+Even if the data is obfuscated, a middleman could still tamper
+with it; for example, random bits within the messages could be
+swapped. To protect against tampering, TLS veriﬁes the integrity
+of the data by calculating a message digest. A secure hash function
+is used to create a message authentication code5 (HMAC). When a
+process receives a message, it recomputes the digest of the message
+and checks whether it matches the digest included in the message.
+If not, then the message has either been corrupted during trans-
+mission or has been tampered with. In this case, the message is
+dropped.
+
+The TLS HMAC protects against data corruption as well, not just
+tampering. You might be wondering how data can be corrupted if
+

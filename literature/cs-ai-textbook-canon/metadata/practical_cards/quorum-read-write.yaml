@@ -1,0 +1,26 @@
+topic_slug: quorum-read-write
+claim_ids: []
+wire_status: pending
+generated: 2026-06-26
+source_ingests:
+  - ingests/ddia_2e_2026_ch06_ingest.md
+cards:
+  - exercise_name: Quorum Read-Write Overlap Check
+    steps:
+      - Identify replica count n and chosen write quorum w and read quorum r for the leaderless configuration under review (DDIA Ch6 quorums).
+      - Verify the overlap condition w + r > n so a read and write set must share at least one replica (DDIA Ch6 quorum math).
+      - Trace what happens when a leader dies with async replication — list writes not yet replicated that could be lost (DDIA Ch6 sync vs async).
+      - For a named user session, specify whether reads route to the leader or a follower to satisfy read-your-writes under lag (DDIA Ch6 replication lag).
+    cognitive_frame: Consistency is a design choice with explicit trade-offs — name the guarantee before tuning w and r.
+    observables:
+      - Operator writes n, w, r and shows w+r>n arithmetic
+      - Operator distinguishes replication from point-in-time backups
+      - Staleness risk documented when reads hit followers
+    contraindications:
+      - assuming last-write-wins resolves all multi-leader conflicts without merge logic
+      - treating eventual consistency as a single well-defined guarantee
+    source_anchor: "[read:body] ddia_2e_2026_ch06_ingest.md §Quorums / replication lag"
+    consumer_wire: null
+    context_tags: [distributed-systems, rag-staleness]
+    quality_level: full
+    procedure_gap: false

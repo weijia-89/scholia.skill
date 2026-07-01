@@ -1,0 +1,245 @@
+# Text slice — hands_on_llms_2024_ch11_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: hands_on_llms_2024 · chapter: 11
+# hooks: 7 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — `hands_on_llms_2024` · Chapter 11
+
+**Corpus:** cs-ai-textbook-canon · **Slug:** hands_on_llms_2024 · **Wave:** w1_foundation  
+**Ingest path:** `/Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch11_ingest.md`
+
+---
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| **parent_book_title** | Hands-On Large Language Models |
+| **authors** | Jay Alammar, Maarten Grootendorst |
+| **edition** | 1e (First Edition, September 2024) |
+| **publisher** | O'Reilly Media |
+| **ISBN_print** | 978-1-098-15095-2 [corpus manifest] |
+| **ISBN_electronic** | 9781098150969 [verified from text, line 118] |
+| **chapter_number** | 11 |
+| **chapter_title** | Fine-Tuning Representation Models for Classification |
+| **page_range** | Not present in text export; logical span `Chapter 11. Fine-Tuning Representation Models for Classification` (line 11981) through `Summary` + footnotes before Ch. 12 (line 13221) |
+
+---
+
+## scope
+
+Chapter 11 covers **fine-tuning encoder/representation models** (not generative): full BERT classification, layer freezing ablations, SetFit few-shot, continued pretraining via MLM, and token-level NER — all with Hugging Face `Trainer`.
+
+**Major arcs within assigned slice (lines 11981–13221):**
+
+1. **Supervised classification** — joint fine-tune BERT + classification head vs Ch. 4 frozen models (lines 12001–12170).
+2. **Freezing layers** — classifier-only F1 0.63; partial freeze (blocks 0–9) F1 0.80; full fine-tune F1 0.85; Figure 11-7 early-layer training near full performance (lines 12172–12351).
+3. **SetFit few-shot** — 16 samples/class → 1,280 pairs; `all-mpnet-base-v2`; F1 0.836 on Rotten Tomatoes; zero-shot via synthetic label sentences (lines 12353–12592).
+4. **Continued pretraining (MLM)** — domain-adapt `bert-base-cased` on movie reviews; fill-mask shifts from generic to movie terms; 10 epochs in `TrainingArguments` (text also mentions 20 epochs — inconsistency) (lines 12594–12806).
+5. **NER** — CoNLL-2003; BIO tagging; subword label alignment (`align_labels`); `AutoModelForTokenClassification`; seqeval F1; pipeline inference (lines 12808–13171).
+6. **Summary** — forward to Ch. 12 generative fine-tuning (lines 13173–13221).
+
+**Prerequisites cited:** Ch. 2 (frozen classifier head), Ch. 4 (frozen pretrained classification), Ch. 10 (contrastive learning for SetFit).
+
+**Manifest note:** Encoder fine-tune procedural path; generative SFT/PEFT deferred to Ch. 12 + `ai_engineering_2025` Ch. 7 framework.
+
+---
+
+## key_findings
+
+All claims below are **[verified from text]** unless tagged `[contested]` or `[inferred]`.
+
+### Supervised BERT classification
+
+- Ch. 4 used frozen pretrained models; this chapter **updates BERT weights + classification head jointly** (lines 12017–12042).
+- Dataset: Rotten Tomatoes — 5,331 positive + 5,331 negative reviews (lines 12046–12055).
+- Model: `bert-base-cased`; `AutoModelForSequenceClassification`; `DataCollatorWithPadding`; F1 via `load_metric` (lines 12066–12114).
+- Training: lr 2e-5, batch 16, 1 epoch, weight_decay 0.01 → **eval F1 0.849** vs Ch. 4 task-specific **0.80** (lines 12127–12169).
+- Fine-tuning "only costs a couple of minutes" on example hardware (lines 12169–12170).
+
+### Layer freezing ablations
+
+| Configuration | eval F1 | Notes |
+|---------------|---------|-------|
+| Full fine-tune | 0.849 | Baseline |
+| Classifier head only | 0.633 | Faster training |
+| Freeze encoder blocks 0–9 (index < 165) | 0.800 | Partial update |
+| Figure 11-7 | ~full with 5 blocks | Diminishing returns |
+
+(lines 12172–12344)
+
+- Frozen layers should be followed by trainable layers (lines 12225–12227).
+- Multi-epoch training amplifies freeze vs full gap (lines 12346–12351).
+
+### SetFit few-shot
+
+- SetFit (Tunstall et al. 2022): 3 steps — pair sampling, contrastive embedding fine-tune, classifier on embeddings (lines 12367–12465).
+- In-class pairs: n·(n−1)/2 positives; cross-class negatives (lines 12408–12417).
+- 16 samples × 2 classes = 32 docs → **1,280 unique pairs** (20 iterations × 2 polarities) (lines 12477–12541).
+- `all-mpnet-base-v2` base; 3 contrastive epochs → **F1 0.836** on full test set (lines 12488–12575).
+- Zero-shot SetFit: synthetic sentences from label names (e.g., "The example is happy") (lines 12585–12592).
+
+### Continued pretraining (MLM)
+
+- Three-step genealogy: pretrain → **continue MLM on domain** → task fine-tune (BioBERT pattern) (lines 12606–12639).
+- `AutoModelForMaskedLM`; `DataCollatorForLanguageModeling` mlm_probability=0.15; token vs whole-word masking trade-off (lines 12649–12700).
+- Fill-mask before domain adapt: "horrible idea/dream/day"; after: "horrible movie/film/comedy" (lines 12759–12791).
+- Load continued model: `AutoModelForSequenceClassification.from_pretrained("mlm")` (lines 12797–12806).
+- Ch. 10 cross-ref: MLM as domain adaptation before embedding training (lines 11437–11443).
+
+### Named-entity recognition
+
+- Token-level classification; CoNLL-2003 ~14k training samples; BIO labels (B-PER, I-PER, B-ORG, etc.) (lines 12810–12914).
+- Subword alignment: first subtoken gets B-, continuations I-; special tokens labeled -100 (lines 12966–13031).
+- `AutoModelForTokenClassification`; `DataCollatorForTokenClassification`; seqeval overall F1 (lines 13031–13084).
+- Pipeline: `"My name is Maarten."` → B-PER/I-PER on subtokens (lines 13137–13171).
+- NER useful for **de-identification and anonymization** of sensitive data (lines 12814–12815).
+
+---
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Chapter opener | read | 11981–11999 |
+| Supervised classification (full fine-tune) | read | 12001–12170 |
+| Freezing layers ablations | read | 12172–12351 |
+| Few-shot / SetFit theory | read | 12353–12465 |
+| SetFit training example | read | 12467–12592 |
+| Continued pretraining MLM | read | 12594–12806 |
+| NER theory + CoNLL data | read | 12808–12914 |
+| align_labels + tokenization | read | 12925–13045 |
+| NER training + pipeline | read | 13086–13171 |
+| Summary + footnotes ¹–⁵ | read | 13173–13220 |
+| Chapter 12 opener | **deferred** | 13222+ (outside scope) |
+
+- **Lines read:** 11981–13221 (full parent-requested range)
+- **wrong_file_flag:** false
+- **Amnesiac attestation:** F1 scores and procedures trace to `hands_on_llms_2024.txt`
+
+---
+
+## pedagogy
+
+### learning_objectives
+
+Implicit from chapter arc:
+
+- Fine-tune BERT end-to-end for document classification with Hugging Face Trainer
+- Ablate layer freezing for compute/quality trade-offs
+- Run SetFit few-shot classification with minimal labels
+- Continue-pretrain BERT with MLM for domain adaptation
+- Fine-tune and deploy token-level NER with BIO alignment
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Rotten Tomatoes full fine-tune F1 0.85 | Joint BERT+head training | 12127–12169 |
+| Classifier-only freeze F1 0.63 | Head-only baseline | 12233–12283 |
+| Partial freeze blocks 0–9 F1 0.80 | Compute compromise | 12295–12329 |
+| SetFit 32-label F1 0.836 | Few-shot pipeline | 12477–12575 |
+| MLM fill-mask domain shift | Continued pretraining evidence | 12759–12791 |
+| NER Maarten subtoken B-PER/I-PER | Inference pipeline | 13137–13171 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 11.FT-1 | Freeze sweep | Replicate Figure 11-7 freeze curve on operator GPU budget | 12336–12344 |
+| 11.FT-2 | Epoch scaling | Compare 1 vs 3 epochs full vs frozen-head training time | 12346–12351 |
+| 11.SET-1 | Label budget | Sweep 4/8/16/32 samples per class; plot F1 vs labels | 12477–12575 |
+| 11.MLM-1 | Domain corpus | MLM on operator domain; fill-mask before/after | 12759–12791 |
+| 11.NER-1 | Custom entities | Fine-tune on wnut_17 or mit_movie_trivia per tips | 12853–12861 |
+| 11.NER-2 | De-id audit | Run NER pipeline on synthetic PHI; measure miss rate | 12814–12815 |
+
+---
+
+## Operator hooks
+
+### 1. Foundation layer (w1_foundation)
+
+Chapter 11 is the **encoder fine-tuning procedural canon**:
+
+- **Full vs frozen** — default full fine-tune when data sufficient; partial freeze when VRAM-bound
+- **SetFit** — few-label classification without full BERT fine-tune cost
+- **MLM domain adapt** — bridge between general BERT and task-specific vocab (clinical, legal)
+- **NER** — token classification pattern for PII/entity extraction pipelines
+
+### 2. MDCalc alignment
+
+**[pattern-portable]** — NER section explicitly cites de-identification/anonymization (lines 12814–12815). No MDCalc-specific workflows. Operator must validate NER on regulated corpora with clinical NLP governance; SetFit few-shot is not sufficient alone for PHI handling.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `hands_on_llms_2024` Ch. 4 | Frozen vs fine-tuned classification; Ch. 11 updates weights |
+| `hands_on_llms_2024` Ch. 10 | SetFit uses contrastive embedding fine-tune from Ch. 10 |
+| `ai_engineering_2025` Ch. 7 | **AIE Ch. 7 = finetune decision framework, memory math, LoRA theory, merge tactics; Ch. 11 = BERT/SetFit/MLM/NER hands-on code — no LoRA generative path here** |
+| `ai_engineering_2025` Ch. 8 | Instruction data strategy; Ch. 11 MLM is representation-domain adapt only |
+
+**Dedup rule:** Use **AIE Ch. 7** for go/no-go, PEFT economics, and QLoRA theory; use **HOTL Ch. 11** for encoder classification notebooks and SetFit; use **HOTL Ch. 12** for generative QLoRA execution.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong Y — Trainer patterns with reported F1 |
+| Exercise hooks | Operator extensions |
+| Chapter boundary | Clean — ends 13220; Ch. 12 at 13222 |
+| Citation density | Moderate (BERT, SetFit, CoNLL, domain MLM) |
+| Child-skill potential | `scholia.setfit-few-shot`, `scholia.ner-bio-align` |
+
+---
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Edition currency | **PASS** | 2024 1e |
+| Author authority | **PASS** | Hugging Face ecosystem practitioners |
+| Primary-source citation density | **PASS** | Devlin BERT, Tunstall SetFit, Sun domain fine-tune, CoNLL NER |
+| Contested claims flagged | **PASS** | See table |
+| Worked examples | **PASS** | Full Trainer workflows |
+
+### Contested or oversimplified claims (not smoothed)
+
+| Claim | Text anchor | Flag |
+|-------|-------------|------|
+| Fine-tuning always beats frozen pretrained | 12166–12169 | Dataset/size dependent |
+| SetFit F1 0.836 ≈ full-data logistic regression | 12577–12582 | Different training regimes |
+| MLM num_train_epochs 10 vs "20 epochs" prose | 12707–12730 | **Source inconsistency** in text |
+| Five encoder blocks ≈ full performance | 12336–12344 | Rotten Tomatoes only; 1 epoch |
+
+**TEXTBOOK-Q1 chapter verdict:** **PASS** — encoder fine-tune procedural canon; explicit AIE Ch. 7 split for generative PEFT.
+
+---
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| Representation model | Encoder-only model (e.g., BERT) producing contextual embeddings |
+| Classification head | Feedforward layer on pooled encoder output for task labels |
+| Freezing layers | Set `requires_grad=False` to skip updating selected parameters |
+| SetFit | Few-shot framework: pair generation → contrastive embed fine-tune → classifier |
+| Continued pretraining | Further MLM on domain text before task fine-tune |
+| MLM | Masked language modeling — predict masked tokens |
+| NER | Named-entity recognition — classify tokens as person/org/loc/etc. |
+| BIO tagging | Begin-Inside-Outside scheme for multi-token entities |
+| seqeval | Evaluation library for sequence labeling metrics |
+
+---
+
+## Reciprocal index pointers
+
+- **Prerequisites:** Ch. 2 (BERT, frozen head), Ch. 4 (classification without fine-tune), Ch. 10 (contrastive for SetFit)
+- **Forward:** Ch. 12 (generative SFT + preference tuning + QLoRA)
+- **AIE pair:** Ch. 7 finetune framework vs this c
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

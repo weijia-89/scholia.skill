@@ -1,0 +1,1793 @@
+12_munier_2016_writers_guide_beginnings_ch02_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: munier_2016_writers_guide_beginnings
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/12_munier_2016_writers_guide_beginnings_ch02_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/12_munier_2016_writers_guide_beginnings_ch02.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/12_munier_2016_writers_guide_beginnings_ch02.txt).
+========================================================================
+
+Chapter Two
+
+
+The End Is Where We Start From
+
+
+Scene One
+
+
+“What we call the beginning is often the end.
+
+And to make an end is to make a beginning.”
+
+—T.S. Eliot
+
+“In the long run, I write novels. In the short run, I write scenes.”
+
+—Timothy Hallinan
+
+The most important thing your opening needs to do is this: Keep the reader reading.
+
+As someone who reads thousands of story openings every year—and no, I’m not exaggerating—I can tell you that surprisingly few keep the reader reading. At our agency, we ask writers to include the first ten pages of their stories in their query letters. We do that because we need to see the story itself—not just the pitch for the story.
+
+I receive some ten-thousand queries a year. I also read the work of hundreds of writers I meet at conferences, workshops, boot camps, and of course, that of my own clients and friends, as well as best-selling authors. No matter how you do the math, that’s a lot of story openings. More often than not, I do not keep reading. Here’s why: I’m not engaged, entertained, or enlightened. I’m mostly bored. And so I put that story down and move on to the next. And the next. And the next.
+
+When I first started at the agency and found myself overwhelmed by the sheer volume of the queries in my inbox—over a thousand during my very first week on the job—our founder, Gina Panettieri, told me not to stress over it.
+
+“For every two-hundred queries you receive,” Gina said, “you’ll only find one or two story openings compelling enough to prompt you to request the rest of the manuscript.”
+
+As it turns out, Gina was right (about that and nearly everything else related to the job, she says with humility). I only request a handful of complete manuscripts every month. These are the ones that work, the ones that capture my attention and hold it, the ones that answer the questions we talked about in chapter one.
+
+Just as important, the story openings good enough to stand out from the rest of the slush pile are those that avoid the common mistakes that sink the others. The most significant of which is this: Nothing happens.
+
+Too many writers open with backstory or description or inner monologue—which means that nothing is happening. The opening falls flat on its face, felled by its own static weight. Or something is happening, but it’s something that we’ve seen a million times before—and don’t care to see again. Or something is happening, but it’s drowning in minutiae. Or something is happening, but it’s not fully dramatized.
+
+Dramatization is the key. Drama is the stuff of storytelling—and it’s what separates the boring beginnings from the compelling beginnings. Dramatize your opening, and you will fulfill the promise of “Once upon a time.”
+
+This means writing in scenes.
+
+
+
+
+
+The Scene’s the Thing
+
+
+The most efficient and effective way to begin a story is with a scene. Scenes are the units of storytelling, the pieces of continuous action that you string together to form your narrative. Writing in scenes is the best way to ensure that something happens, which prevents you from boring your readers—and keeps them reading.
+
+Because if nothing’s happening, it’s not a scene.
+
+A well-written scene accommodates all of the elements we’ve talked about: genre, action, character, setting, voice, emotion, etc. What’s more, well-written scenes are the key to building and sustaining narrative thrust. Write a great opening scene, and you give your story the rocket boosters it needs to launch your beginning.
+
+“[The Rosie Project is] structured as a romantic comedy and reads as a series of scenes. And it moves along pretty quickly.”
+
+—Graeme Simsion
+
+
+
+
+
+Top Ten (Plus One!) Reasons Your Story Opening Doesn’t Work
+
+
+Not enough happens.
+
+The story’s genre is not clear.
+
+It’s not clear what the story is about.
+
+It’s not clear who the protagonist is.
+
+There’s nothing unique enough about the story to set it apart.
+
+The story is not grounded in setting.
+
+The protagonist is not likable or admirable and readers can’t relate to him/her.
+
+The story does not engage the reader’s emotions.
+
+It’s all showing and no telling.
+
+The story is not told in a strong voice.
+
+There’s no narrative thrust.
+
+
+
+
+
+Let’s take a look at some swell opening scenes. These are all stories in which the writer begins in medias res, that is, “into the middle of things.” As an agent, I find that the easiest stories to sell are the ones with strong opening scenes. Gone are the days of the nineteenth-century novel, which could begin with elaborate descriptions of the landscape, long backstories of every character, and expansive discourse on the nature of philosophy and the meaning of life. In the 140-character world in which we live and write, we don’t have much time to get our stories moving. That doesn’t mean every story has to start with car chases and explosions, but every story should start with compelling opening action. As we’ll see in the following examples—which run the gamut from memoir and women’s fiction to thriller and science fiction—action counts.
+
+When a high-powered rifle bullet hits living flesh it makes a distinctive—pow-WHOP—sound that is unmistakable even at tremendous distance. There is rarely an echo or fading reverberation or the tailing rumbling hum that is the sound of a miss. The guttural boom rolls over the terrain but stops sharply in a close-ended way, as if jerked back. A hit is blunt and solid like an airborne grunt. When the sound is heard and identified, it isn’t easily forgotten.
+
+When Wyoming Game Warden Joe Pickett heard the sound, he was building a seven-foot elk fence on the perimeter of a rancher’s haystack. He paused, his fencing pliers frozen in midtwirl. Then he stepped back, lowered his head, and listened. He slipped the pliers into the back pocket of his jeans and took off his straw cowboy hat to wipe his forehead with a bandanna. His red uniform shirt stuck to his chest, and he felt a single, warm trickle of sweat crawl down his spine into his Wranglers.
+
+—Open Season, by C.J. Box
+
+
+
+In this first of the popular Joe Pickett series, C.J. Box opens with a bang—or rather, a “pow-WHOP”—that grabs the reader by the throat and doesn’t let go. We meet our hero on his feet, working hard, and ready to follow that shot wherever it takes him—even if it makes him sweat. And we’re sweating for him.
+
+Well, I have broken the toilet. I flushed, the water rose, then rose higher, too much. I stared at it, told it, “No!” slammed the lid down, then raised it back up again. Water still rising. Water still rising. I put the lid down, turned out the light, tiptoed out of the bathroom, across the hall, and into my bedroom, where I slid under my bed.
+
+Now I hear the water hitting the bathroom floor. It goes on and on. Niagara Falls, where the honeymooners go and do what they do. There is the heavy tread of his footsteps coming rapidly up the stairs. I hear him turn on the bathroom light and swear softly to himself. “Katie!” he yells. He comes into my room. I stop breathing. “Katherine!” I am stone. I am off the planet, a star, lovely and unnamed. He goes into my sister’s room. “What the hell did you do to the toilet?”
+
+—Durable Goods, by Elizabeth Berg
+
+
+
+In Elizabeth Berg’s classic debut novel, we meet twelve-year-old Katie in full crisis mode. She clogs the toilet and then panics, sneaking out of the bathroom and into her bedroom. She’s so scared of the grown-up who’s heard the water overflowing and is coming up the stairs calling for her that she hides under the bed. And we’re scared for her.
+
+The trees were tall, but I was taller, standing above them on a steep mountain slope in northern California. Moments before, I’d removed my hiking boots and the left one had fallen into those trees, first catapulting into the air when my enormous backpack toppled onto it, then skittering across the gravelly trail and flying over the edge. It bounced off of a rocky outcropping several feet beneath me before disappearing into the forest canopy below, impossible to retrieve. I let out a stunned gasp, though I’d been in the wilderness thirty-eight days and by then I’d come to know that anything could happen and that everything would. But that doesn’t mean I wasn’t shocked when it did.
+
+My boot was gone. Actually gone.
+
+—Wild: From Lost to Found on the Pacific Crest Trail, by Cheryl Strayed
+
+
+
+Cheryl Strayed begins her best-selling account of her life-changing 1,100-mile trek along the Pacific Crest Trail thirty-eight days into the journey—in medias res—at the point where she loses a boot, the only thing between her and the rough ground she’s traversing, exposing the most vulnerable and critical body part, the part hikers must protect above all others: the foot. Cheryl is alarmed by this turn of events. And we’re alarmed, too, by her predicament and her unshod foot.
+
+Maggie and Ira Moran had to go to a funeral in Deer Lick, Pennsylvania. Maggie’s girlhood friend had lost her husband. Deer Lick lay on a narrow country road some ninety miles north of Baltimore, and the funeral was scheduled for ten-thirty Saturday morning; so Ira figured they should start around eight. This made him grumpy. (He was not an early-morning kind of man.) Also Saturday was his busiest day at work, and he had no one to cover for him. Also their car was in the body shop. It had needed extensive repairs and Saturday morning at opening time, eight o’clock exactly, was the soonest they could get it back. Ira said maybe they’d just better not go, but Maggie said they had to. She and Serena had been friends forever. Or nearly forever: forty-two years, beginning with Miss Kimmel’s first grade.
+
+They planned to wake up at seven, but Maggie must have set the alarm wrong and so they overslept. They had to dress in a hurry and rush through breakfast, making do with faucet coffee and cold cereal. Then Ira headed off for the store on foot to leave a note for his customers, and Maggie walked to the body shop. She was wearing her best dress—blue and white sprigged, with cape sleeves—and crisp black pumps, on account of the funeral.
+
+—Breathing Lessons, by Anne Tyler
+
+
+
+Anne Tyler’s Pulitzer Prize-winning novel opens with long-married couple Ira and Maggie Moran late to a funeral ninety miles away, a journey that begins with the usual marital complaints—bad coffee, cold cereal, and a car in the shop—and promises to proceed downhill from there. Ira’s worried about his customers. Maggie’s worried about her grieving friend. And we’re worried about their marriage.
+
+Ria’s mother had always been very fond of film stars. It was a matter of sadness to her that Clark Gable had died on the day Ria was born. Tyrone Power had died on the day Hilary had been born just two years earlier. But somehow that wasn’t as bad. Hilary hadn’t seen off the great king of cinema as Ria had. Ria could never see Gone With the Wind without feeling somehow guilty.
+
+She told this to Ken Murray, the first boy who kissed her. She told him in the cinema. Just as he was kissing her, in fact.
+
+“You’re very boring,” he said, trying to open her blouse.
+
+“I’m not boring,” Ria cried with some spirit. “Clark Gable is there on the screen and I’ve told you something interesting. A coincidence. It’s not boring.”
+
+—Tara Road, by Maeve Binchy
+
+
+
+In this opening scene, Maeve Binchy gives us Ria, a romantic teenage girl experiencing one of life’s great rites of passage: her first kiss. But Ria’s expectations are the stuff of cinema—and the boy’s expectations are the stuff of testosterone. Ria is completely misunderstood by her supposed admirer, not to mention disappointed and somewhat disillusioned. And we are disappointed for her as well—and worried that this misunderstanding/disappointment/disillusionment cycle might prove the first of many.
+
+“Marx has completely changed the way I view the world,” declared the Pallières boy this morning, although ordinarily he says nary a word to me.
+
+Antoine Pallières, prosperous heir to an old industrial dynasty, is the son of one of my eight employers. There he stood, the most recent eructation of the ruling corporate elite—a class that reproduces itself solely by means of virtuous and proper hiccups—beaming at his discovery, sharing it with me without thinking or ever dreaming for a moment that I might actually understand what he was referring to. How could the laboring classes understand Marx? Reading Marx is an arduous task, his style is lofty, the prose is subtle and the thesis complex.
+
+And that is when I very nearly—foolishly—gave myself away.
+
+“You ought to read The German Ideology,” I told him. Little cretin in his conifer green duffle coat.
+
+—The Elegance of the Hedgehog, by Muriel Barbery
+
+
+
+Muriel Barbery opens her international bestseller with this quietly subversive encounter between middle-aged Parisian concierge Renée and young Antoine, whose wealthy family lives in the building. Renée reveals that she is not what she seems to be, not what she actively pretends to be, and she is dismayed that she has come so close to blowing her cover. And we are dismayed as well, not just because she is so nearly found out but because she feels it necessary to hide who she really is and because we sense that there is more dissembling to come—and consequences to pay.
+
+“So, have you split up now?”
+
+“Are you being funny?”
+
+People quite often thought Marcus was being funny when he wasn’t. He couldn’t understand it. Asking his mum whether she’d split up with Roger was a perfectly sensible question, he thought: they’d had a big row, then they’d gone off into the kitchen to talk quietly, and after a little while they’d come out looking serious, and Roger had come over to him, shaken his hand and wished him luck at his new school, and then he’d gone.
+
+“Why would I want to be funny?”
+
+“Well, what does it look like to you?”
+
+“It looks to me like you’ve split up. But I just wanted to make sure.”
+
+“We’ve split up.”
+
+“So he’s gone?”
+
+“Yes, Marcus, he’s gone.”
+
+He didn’t think he’d ever get used to this business. He had quite liked Roger, and the three of them had been out a few times; now, apparently, he’d never see him again. He didn’t mind, but it was weird if you thought about it. He’d once shared a toilet with Roger, when they were both busting for a pee after a car journey. You’d think that if you’d peed with someone you ought to keep in touch with them somehow.
+
+—About a Boy, by Nick Hornby
+
+
+
+In this poignant beginning, we meet Marcus, a lonely boy baffled by the world of adult relationships. Marcus is questioning his mother, trying to understand what has happened between her and her latest boyfriend. Marcus is saddened and unnerved by Roger’s abrupt departure because inevitably, his mother’s loss is his loss as well. And we’re saddened and unnerved for Marcus, who must now face his new school without the buffer of Roger in his life.
+
+It was a pleasure to burn.
+
+It was a special pleasure to see things eaten, to see things blackened and changed. With the brass nozzle in his fists, with this great python spitting its venomous kerosene upon the world, the blood pounded in his head, and his hands were the hands of some amazing conductor playing all the symphonies of blazing and burning to bring down the tatters and charcoal ruins of history. With his symbolic helmet numbered 451 on his stolid head, and his eyes all orange flame with the thought of what came next, he flicked the igniter and the house jumped up in a gorging fire that burned the evening sky red and yellow and black. He strode in a swarm of fireflies. He wanted above all, like the old joke, to shove a marshmallow on a stick in the furnace, while the flapping pigeon-winged books died on the porch and lawn of the house. While the books went up in sparkling whirls and blew away on a wind turned dark with burning.
+
+Montag grinned the fierce grin of all men singed and driven back by flame.
+
+—Fahrenheit 451, by Ray Bradbury
+
+
+
+Ray Bradbury’s classic futuristic story opens with firefighter Montag burning down a house full of books with a pleasure that borders on madness. We are equally disgusted and intrigued by his behavior, and we read on to find out why he would do such a thing and who will stop him.
+
+1978
+
+“Wake up, genius.”
+
+Rothstein didn’t want to wake up. The dream was too good. It featured his first wife months before she became his first wife, seventeen and perfect from head to toe. Naked and shimmering. Both of them naked. He was nineteen, with grease under his fingernails, but she hadn’t minded that, at least not then, because his head was full of dreams and that was what she cared about. She believed in the dreams even more than he did, and she was right to believe. In this dream she was laughing and reaching for the part of him that was easiest to grab. He tried to go deeper, but then a hand began shaking his shoulder, and the dream popped like a soap bubble.
+
+He was no longer nineteen and living in a two-room New Jersey apartment, he was six months shy of his eightieth birthday and living on a farm in New Hampshire, where his will specified he should be buried. There were men in his bedroom. They were wearing ski masks, one red, one blue, and one canary-yellow. He saw this and tried to believe it was just another dream—the sweet one had slid into a nightmare, as they sometimes did—but then the hand let go of his arm, grabbed his shoulder, and tumbled him onto the floor. He struck his head and cried out.
+
+—Finders Keepers, by Stephen King
+
+
+
+Stephen King knows how to start a story—and this one is no exception. He gives us an old man dreaming of his youth and awakening to the nightmare of three masked men in his bedroom. He is sorry that his dream is over and scared of the men assaulting him. We are both sorry and scared for him.
+
+July
+
+When she saw the glint of the revolver barrel through the broken glass in the window, Hadley Knox thought, I’m going to die for sixteen bucks an hour. Sixteen bucks an hour, medical, and dental. She dove behind her squad car as the thing went off, a monstrous thunderclap that rolled on and on across green-gold fields of hay. The bullet smacked into the maple tree she had parked under with a meaty thud, showering her in wet, raw splinters.
+
+She could smell the stink of her own fear, a mixture of sweat trapped beneath her uniform and the bitter edge of cordite floating across the farmhouse yard.
+
+—I Shall Not Want, by Julia Spencer-Fleming
+
+
+
+This crime novel opens with yet another cop under fire—but this is a cop whose ironic self-awareness never fails her, even when the bullets are flying. She so badly wants to live, and we so badly want her to live, and we keep on reading in the hope that she does.
+
+In all of these examples—the longest of which is only 232 words—something happens. Sometimes it’s as subtle as an intellectual sleight of hand, as in the concierge’s conversation with the “little cretin” in The Elegance of the Hedgehog. Sometimes it’s as brash as a bullet, as in the gunshots plaguing the game warden in Open Season and the cop in I Shall Not Want. But regardless, something happens, and it happens to someone, someone we find endearing, like Marcus, the boy querying his mother in About a Boy, Katie, the girl hiding under the bed in Durable Goods, and Ria, the dreamy-eyed teenager longing for true romance in Tara Road. Perhaps it happens to someone we find amusing, vulnerable, and all too human, like middle-aged marrieds Ira and Maggie Moran in Breathing Lessons or old Rothstein dreaming of lost loves in Finders Keepers. It might even happen to someone we find compelling but abhorrent, like Montag the book burner in Fahrenheit 451.
+
+Something happens to someone, and that someone reacts. Then the reader reacts and keeps on reading. This is the engine of story. As the writer, it’s your job to build the scenes, the units of action, that fuel the engine of your story. You make something happen to your characters, your characters react, and the reader reacts … and turns the page. Repeat. Repeat. Repeat. All the way to “The End.”
+
+
+
+
+
+Jump-Start
+
+
+Take a look at the first 250 words of your story. Examine it in light of the engine of story:
+
+Something happens to someone. What happens in your story? To whom?
+
+That someone reacts. What does that someone do?
+
+The reader reacts. How does the reader react? Are you sure? Give the opening to a few readers, and then ask them how they feel about what they’ve read. Did they react the way you intended?
+
+
+
+Note: This is a good exercise for your writers’ group. Exchange openings, and discuss the engine of each story.
+
+
+
+
+
+The Structure of the Scene
+
+
+We’ve been examining the very first paragraphs of the opening scenes of great stories. But scenes are units of action, as we’ve observed. Just as your story has a beginning, middle, and end, each scene in your story should follow that same structure. Likewise, there’s an arc to each scene, just as there is an arc to your story. Crafting scenes with beginnings, middles, and ends is the way you build a story, beat by beat, scene by scene, and act by act.
+
+
+
+
+
+Beginnings, Middles, Ends
+
+
+“People have forgotten how to tell a story. Stories don’t have a middle or an end anymore. They usually have a beginning that never stops beginning.”
+
+—Steven Spielberg
+
+Director Steven Spielberg knows how to begin a story. A storyteller of the first order, he knows how to grab the audience and hold its attention. Let’s take a look at the opening scenes from three of his most successful films:
+
+
+
+
+
+Jaws: Scene One
+
+
+Beginning: A drunken teenage boy chases a girl named Chrissie along the beach. He’s trying to catch up with her as she strips and runs into the ocean.
+
+Middle: Chrissie swims out towards the buoy and is pulled down into the water. She’s screaming and thrashing and we can’t see what’s got her. Too drunk to stand, the boy falls down on the sand and passes out.
+
+End: Chrissie manages to make it to the buoy, but she’s pulled down again and this time, there’s no escape from whatever has taken her. The boy dozes on the beach.
+
+Watching this scene, we are pulled into the story kicking and screaming. We watch Chrissie disappear under the water, and we wonder who’ll be next. This iconic scene is so terrifying that many who saw the film for the first time in theaters gave up going into the ocean forever. I myself avoided seeing the film for years because I was afraid that if I saw it, I’d never swim in the sea again.
+
+
+
+
+
+Raiders of the Lost Ark: Scene One
+
+
+Beginning: Indiana Jones is trekking through the jungle with Satipo, hunting for a golden idol. He consults the map and finds the cave.
+
+Middle: Once inside, Indy foils the spiders and booby traps and discovers the idol. He swaps a bag of sand for the idol—but the theft triggers a new series of booby traps. Satipo betrays Indy, steals the idol, and leaves Indy for dead. Indy uses a fraying vine to escape and goes after Satipo, who has fallen victim to one of the booby traps. Indy grabs the idol. A huge stone ball threatens to steamroll him, and he races out of the cave.
+
+End: Upon exiting, Indy lands at the feet of rival archaeologist Belloq, who is backed by a large group of hostile natives. The Frenchman steals the idol, but Indy escapes the angry natives and makes it to his plane just in time.
+
+This scene is one of the most entertaining scenes ever filmed, and it sets the stage for the rest of the serial-style action to come. The opening of Raiders of the Lost Ark is one of the many reasons this movie remains a crowd-pleaser. I for one am compelled to watch it whenever it’s on—and it’s on a lot—whether I want to or not.
+
+
+
+
+
+E.T.: Scene One
+
+
+Beginning: E.T. opens with a small alien wandering away from the area where his fellow aliens are collecting horticultural specimens from Earth to take back to their home planet.
+
+Middle: When a group of scientists discover the spaceship, the aliens prepare to leave. One alien stands at the stairs leading into the craft, waiting for E.T. However, the scientists close in, and the aliens close up their ship and take off into space, leaving E.T behind.
+
+End: E.T. is left alone on Earth. He runs away from the scientists, toward the bright lights of suburbia.
+
+From the very beginning, we fall in love with E.T., a little extraterrestrial abandoned on an unfriendly planet, just as we would any lost child. We want him to find his way home safely somehow, and are compelled to see him through his journey back to his own kind, come what may.
+
+All of these beginnings have memorable opening scenes built on a strong structure. The beginnings, middles, and ends of each scene are clear and solid. We know what each story is about right from the very beginning: something deadly lurking just below the surface of the sea, an adventurer/archaeologist willing to risk everything for priceless treasure, an extraterrestrial lost on Earth. And we are hooked.
+
+
+
+
+
+Impromptu
+
+
+Think of the opening scene in your favorite movie. Watch it again. What is the beginning, middle, and end of that scene? Break it down. Write it out. Why does it work? What can you learn from its structure, and how might you apply that to your opening scene?
+
+Note: This is a good exercise to do with a writer friend or your writers’ group. Have each writer analyze the beginning of a different movie, and then open it up to discussion.
+
+
+
+
+
+Seducing the Reader with Structure
+
+
+Readers, like viewers, love structure; stories that are on solid ground allow readers to relax during the actual reading of the story. Structure gives your story, and every scene in it, ballast.
+
+
+
+
+
+The Brilliant Ballast of Eat, Pray, Love
+
+
+Perhaps the most beautifully structured story in recent memory is the blockbuster Eat, Pray, Love by Elizabeth Gilbert. In this memoir, a depressed American divorcée goes on a journey in search of the meaning of life—only to find herself. That’s what her story is about.
+
+The promise of the perfect scaffolding for this classic true tale of self-actualization is right there in the title: Eat, Pray, Love. The journey itself provides the storyline, divided into three acts:
+
+Beginning/Act One
+
+Elizabeth learns to feed her body by eating her way through Italy. She sublimates her desire for Italy’s handsome men and focuses on food. From the spaghetti alla carbonara and tiramisu in Rome to the margherita pizza with double mozzarella in Naples, she leaves no plate unclean. She comes to Italy, she says, “pinched and thin,” and she leaves four months later “noticeably bigger” in every way.
+
+Middle/Act Two
+
+Elizabeth learns to feed her soul by praying in India. She goes to an ashram, where she chants, meditates, and scrubs the temple floors, all in the quest for enlightenment. But what she finds there—after endless hours of chanting, meditating, and scrubbing—is that what she needs right now is not exactly enlightenment but the capacity to forgive herself and her ex-husband for their failed marriage. Her fellow seeker, an American named Richard, tells her to “find somebody new to love someday.”
+
+End/Act Three
+
+Elizabeth learns to feed her heart by falling in love in Bali. She meets a lovely Brazilian man named Felipe and abandons her vow to remain celibate during her journey. She falls in love and learns to trust, not just in Felipe, but in herself. As Elizabeth says, the new “happy and balanced me” sails off into the sunset with Felipe.
+
+Elizabeth Gilbert needs to learn to nurture herself, and she does it in three acts: Once upon a time there was a very unhappy woman who decided to eat, pray, and love herself back to life, and she lived happily ever after. (Well, at least until her next book.)
+
+
+
+
+
+Scene One Breakdown
+
+
+The opening scene of Eat, Pray, Love takes place in Italy, on the first lap of her journey.
+
+Beginning/Scene One
+
+I wish Giovanni would kiss me.
+
+Oh, but there are so many reasons why this would be a terrible idea. To begin with, Giovanni is ten years younger than I am, and—like most Italian guys in their twenties—he still lives with his mother. These facts alone make him an unlikely romantic partner for me, given that I am a professional American woman in my mid-thirties, who has just come through a failed marriage and a devastating, interminable divorce, followed immediately by a passionate love affair that ended in sickening heartbreak. … This is why I have been alone for many months now. This is why, in fact, I have decided to spend this entire year in celibacy.
+
+
+
+Elizabeth is in Italy—a place many people on this side of the pond associate with impetuous sexual alliances, rightly or wrongly—and while we know that she knows that she is a heartbreak waiting to happen, we are worried that she might succumb to Giovanni’s charms nonetheless.
+
+Middle/Scene One
+
+Now we are at my door. … He gives me a warm hug. … we’re pressed up against each other’s bodies beneath this moonlight … and of course it would be a terrible mistake ….
+
+
+
+The temptation is so great—the door, the hug, the moon. And we hope against hope that she will resist this terrible temptation because she insists that’s what she needs to do, and we agree with her, given her recent romantic history. But we also know that given the same scenario, we might just surrender our self-imposed virtue ourselves.
+
+End/Scene One
+
+I walk up the stairs to my fourth-floor apartment, all alone. … I shut the door behind me. … I am alone, I am all alone, I am completely alone….
+
+Grasping this reality, I let go of my bag, drop to my knees and press my forehead against the floor. There, I offer up to the universe a fervent prayer of thanks.
+
+
+
+Elizabeth has resisted the lure of the lovely Giovanni. She has kept her promise to herself. We are exhilarated and hopeful that she may actually succeed in her quest to abandon self-destructive behavior and become a healthier and happier person, but we also know that it is early in her journey and that she has a lot of miles—and men—ahead.
+
+The opening scene in Eat, Pray, Love is full of conflict that echoes the main story questions of the book: Will Elizabeth learn to make better choices? Will she learn to treat her body, soul, and heart with kindness and compassion? And if she succeeds, how will her life change as a result?
+
+Analyze the first scene in your story. Ask yourself the following questions:
+
+What is the conflict that drives the scene?
+
+How does that conflict echo the main story questions of the work?
+
+Can you break down the scene into beginning, middle, and end?
+
+How does each relate to the others?
+
+
+
+
+
+The Circle of Story
+
+
+If we look ahead to the end of the story, to the last scene in Eat, Pray, Love, we see Elizabeth in a very similar situation, on the cusp of another decision—another decision concerning a man. This time we know he’s the right man for her and that she’s earned the right to love again, but does she recognize the right man when she sees him? Does she have the courage to love again? Has her journey of self-actualization led her to a happier, healthier self?
+
+In the best stories, the ending always circles back to the beginning. This circle of story is what separates the great storytellers from everyone else. If you know the end of your story already, then you can make sure that your opening scene echoes that last scene. But if you don’t yet know where your story will end or if you are not sure how to close that circle of story, don’t worry. We’ll talk more about that in chapter seven.
+
+Just keep in mind that the answer lies in whatever your story is about. As Eat, Pray, Love is about a woman’s journey to love and wholeness, the beginning of the story is about her deciding to make that journey to love and wholeness in good faith, and the end of the story is about her deciding that she’s completed that journey. She learned what she needed to learn about love and wholeness on the way and can now choose a more fulfilling life with the right man. Whatever your story is about, you can make the same kinds of connections.
+
+“I write the last line, and then I write the line before that. I find myself writing backwards for a while, until I have a solid sense of how that ending sounds and feels. You have to know what your voice sounds like at the end of the story, because it tells you how to sound when you begin.”
+
+—John Irving
+
+
+
+
+
+Speaking of the End
+
+
+In the most beautifully crafted stories, the last lines echo the fierce words of the opening lines:
+
+Beach Music, by Pat Conroy
+
+First line(s):
+
+In 1980, a year after my wife leapt to her death from the Silas Pearlman Bridge in Charleston, South Carolina, I moved to Italy to begin life anew, taking our small daughter with me.
+
+Last line(s):
+
+Because she had promised it and because she had taught me to honor the eminence of magic in our frail human drama, I knew that Shyla was waiting for me, biding her time, looking forward to the dance that would last forever, in a house somewhere beneath the great bright sea.
+
+The Rosie Project, by Graeme Simsion
+
+First line(s):
+
+I may have found a solution to the Wife Problem. As with so many scientific breakthroughs, the answer was obvious in retrospect. But had it not been for a series of unscheduled events, it is unlikely I would have discovered it.
+
+Last line(s):
+
+Had it not been for this unscheduled series of events, her daughter and I would not have fallen in love. And I would still be eating lobster every Tuesday night.
+
+Incredible.
+
+The Invention of Wings, by Sue Monk Kidd
+
+First Line(s):
+
+There was a time in Africa the people could fly. Mauma told me this one night when I was ten years old. She said, “Handful, your granny-mauma saw it for herself. She say they flew over trees and clouds. She say they flew like blackbirds. When we came here, we left that magic behind.”
+
+Last line(s):
+
+When we left the mouth of the harbor, the wind swelled and the veils round us flapped, and I heard the blackbird wings. We rode onto the shining water, onto the far distance.
+
+Cape Cod, by William Martin
+
+First line(s):
+
+A.D. 1000
+
+Strandings
+
+Each year the whales went to the great bay. They followed the cold current south from seas where the ice never melted, south along coastlines of rock, past rivers and inlets, to the great bay that forever brimmed with life. Sometimes they stayed through a single tide, sometimes from one full moon to the next, and sometimes, for reasons that only the sea understood, the whales never left the great bay.
+
+Last line(s):
+
+And the whales swam north, past the point that might once have been called Kiarlness, the sandpit that sheltered the Mayflower for six miserable weeks, north from the bay that brimmed with life, north along coastlines of rock, past rivers and inlets, north to the seas where the ice never melted, to the place where the glaciers shimmered, the great white mountains of ice, the shaping hands of God.
+
+
+
+
+
+“I always rewrite the very beginning of a novel. I rewrite the beginning as I write the ending .... So the style of the novel has a consistency.”
+
+—Joyce Carol Oates
+
+
+
+
+
+The Good Enough Opening
+
+
+By now you’ve taken a hard look at your beginning. You’ve analyzed the beginning, middle, and end of your opening scene. You know what that scene is about and how it relates to what your story is about.
+
+The question is: Is that enough? Is the idea of your story strong enough to support a good opening scene, and even more important, is it strong enough to support an entire narrative? Can it succeed in today’s challenging marketplace?
+
+In truth, it doesn’t matter how good your opening scene is if the idea on which your story is based is flawed, either in storytelling terms or marketing terms. As an agent, I see writers pour their hearts and souls into stories whose basic premise is too slight or too trite or too old-fashioned to attract agents, editors, or publishers, much less readers.
+
+In chapter three, we’ll talk about how to make sure your idea is strong enough, how to tweak it if it isn’t, and how to ditch it altogether and come up with something new and improved. We’ll also talk about how to rethink your opening scene so that you get the biggest possible blastoff for your story.
+
+
+
+
+
+Chapter Three
+
+
+Once Upon a Time
+
+
+Your Best Idea
+
+
+“Imagination is the beginning of creation.
+
+You imagine what you desire,
+
+you will what you imagine, and
+
+at last you create what you will.”
+
+—George Bernard Shaw
+
+“Bring ideas in and entertain them royally, for one of them may be the king.”
+
+—Mark Van Doren
+
+In Hollywood, they say that you’re only as good as your last movie. Well, there’s a corollary in publishing: You’re only as good as your last idea.
+
+Ideas are the currency of publication. No matter what kind of writer you are or what kind of format you’re writing in—short form or long, print or digital, fiction or nonfiction—if you want to get published, you need good ideas to write. I have learned this the hard way with every step in my career in publishing. I started off as a reporter writing for newspapers and magazines. As a junior reporter, I learned very quickly that if I wanted to see my byline on any really cool stories, I’d have to come up with the story ideas myself. Otherwise I’d be stuck with the ideas assigned by the editor, who gave all the best ideas to the senior reporters. So I started pitching my own ideas for stories; I got so good at it that eventually I became an editor myself, responsible for conceiving and assigning story ideas for the whole editorial staff.
+
+Coming up with ideas for newspapers and magazines is fun and relatively easy for a number of reasons. In the case of newspapers, there’s always news happening, and news needs reporting—from local happenings to local angles on national events. Magazines are targeted to a particular audience, and stories must play to that audience, whether it’s a cooking magazine for foodies or a fashion magazine for teenagers; those parameters help generate ideas. Also, newspapers and magazines have shorter shelf lives and lots of stories in each issue, so the relative importance of individual story ideas is amortized over the course of the issue. The stories are short in comparison to books, and thus the supporting details for the main ideas don’t have to be as strong—the profitability of the enterprise rarely depends on a single story. It’s easier to keep the reader’s attention for five hundred or even five thousand words than for five hundred pages, which is what you have to do when you are generating ideas for book-length work.
+
+Story ideas for books are trickier. When I got my first job in book publishing, I was thrilled to think that they were going to pay me to sit around and make books all day. But at my first acquisitions meeting, I realized that the criteria for story ideas in this business were different—and complicated. Ideas for books have to be strong enough to:
+
+stand apart in a crowded marketplace
+
+sustain a book-length narrative
+
+keep the reader’s attention for hundreds of pages
+
+attract a large, definable audience
+
+justify a profitable price point
+
+compete successfully against best-selling competition
+
+appeal to reviewers, bloggers, and the like
+
+support a long shelf life
+
+lend themselves to follow-up titles
+
+help build the author’s brand
+
+
+
+An idea for a book has a lot more riding on it than an idea for a news story or a magazine article. The investment on the part of everyone involved in the making of a book—from the writer to the agent, editor, designer, publisher, publicist, and more—is considerable. Failure is not an option.
+
+And yet many books fail to find an audience. They fail to make a profit. They fail to build the reputation of the writer or the bottom line of the publisher.
+
+“Ideas are like pizza dough, made to be tossed around.”
+
+—Anna Quindlen
+
+That’s why ideas are so important—and that’s why everyone is always looking for “the next big idea.” When I was in acquisitions, I often worked for independent publishers without the resources to compete with the Big Five for authors and projects. We were not at the top of agents’ lists, so we often received their B-list authors and projects. If we wanted A-list books, we had to come up with A-list ideas ourselves and commission the writers to execute those ideas.
+
+I got pretty good at coming up with ideas—ideas that became best-selling titles and series, too. From the A Cup of Comfort series and the Everything series to WTF?, Train Your Brain, cookbooks, coloring books, crime fiction, romance, YA, SF/fantasy, video-game strategy guides, college handbooks, and business bestsellers, I spent my days brainstorming ideas and then shepherding those ideas into print. That was, in effect, my job: to come up with ideas for books and then make those ideas into books. In one year alone, I came up with a thousand ideas for books, and I helped my staff come up with ideas as well. Together we’d brainstorm thousands of ideas in the hope of coming up with a couple hundred ideas good enough to print each year.
+
+“The best way to have a good idea is to have a lot of ideas.”
+
+—Linus Pauling
+
+It took a lot of brainstorming to generate the ideas that met the aforementioned criteria. In today’s super-tough marketplace, those criteria are more important than ever. As an agent, I help my clients come up with ideas and tweak their own to meet those criteria. I also help them develop their ideas when they get stuck or when they struggle to best their idea from Book One upon sitting down to write Book Two … or Three … or Four.
+
+
+
+
+
+Top Ten Reasons Ideas Don’t Pass Pub Board
+
+
+Here are the top ten reasons a story idea does not pass muster:
+
+The idea is too derivative.
+
+It’s an article, not a book.
+
+It’s a short story, not a book.
+
+The idea is too niche to attract a large audience.
+
+There’s something too similar out there in the marketplace already.
+
+There’s something too similar on the publishing house’s list already.
+
+It’s not an idea that people will pay good money for.
+
+It’s not an idea that will be easy to market and/or promote.
+
+It’s not an idea that will appeal to reviewers, bloggers, etc.
+
+It’s not an idea whose time has come.
+
+
+
+
+
+Along the way I learned a lot of tips and tricks to help get the creative juices going. Let’s take a look at some of these tricks and techniques, some of which are based on science, some of which are based on art, and some of which I stole from other writers and editors.
+
+“If you can see a bandwagon, it’s too late to get on.”
+
+—Lee Child
+
+
+
+
+
+Brainstorming for Story Ideas
+
+
+As we’ve seen, the best beginnings are based on strong story ideas that immediately set the book apart from all others of its ilk. If, having read this far you’re getting a bad feeling that your story idea is not compelling or unique enough to hook agents or editors, much less readers, then this is the section I wrote just for you. Because all other things being equal, the lack of a strong story idea is the biggest problem I see in manuscripts by writers trying to break into the business—or break out of the midlist onto the best-seller list.
+
+Some of these tricks and techniques may seem a little offbeat to you, but give them a try anyway. Many are aimed at seducing your subconscious, a critical if obstinate ally in your quest to tell a good story. So give me the benefit of the doubt regarding these tried-and-true brainstorming and idea-capturing methods.
+
+
+
+
+
+Pay Attention
+
+
+“You get ideas from daydreaming. You get ideas from being bored. You get ideas all the time. The only difference between writers and other people is we notice when we’re doing it.”
+
+—Neil Gaiman
+
+Paying attention is perhaps the most obvious and difficult way to generate ideas. Ideas are everywhere if you know where to look and remember to look there. In a world where we are continually bombarded by sounds and images, overstimulated by everything from traffic to texts, and distracted from the minute we open our eyes in the morning to the last flicker of the screen before our weary eyes finally surrender to sleep, the gentle art of observation often goes unpracticed. Yet observation is one of the writer’s keenest tools—one that cannot be replicated by technology. It’s on you to observe the world around you—people, places, and things, from local flora and fauna to conversations overheard on the subway. The world is the writer’s oyster, so put that smartphone and those earbuds in your pocket; go out into the world, and take note(s).
+
+
+
+
+
+Jump-Start
+
+
+Go to your usual hangout—a coffee shop, diner, or bar. Spend the first ten minutes simply sitting and watching. Then spend the next ten minutes writing down everything you’ve observed as quickly as you can. Don’t stop to think. Read it back, and notice what you noticed.
+
+Note: This is a fun exercise to do with your writing group. Be sure to share your observations and compare notes.
+
+
+
+
+
+A Good Idea: Meditation
+
+
+Meditation boosts your creativity, not only by teaching you how to pay attention and focus your mind but also by facilitating brainstorming. According to a Leiden University study, meditating for a half an hour before beginning a creative endeavor is beneficial because doing so enhances your divergent thinking skills (idea generation) as well as your convergent thinking skills (problem solving). Idea generation and problem solving are invaluable weapons in the storyteller’s arsenal, as is the art of observation. Orna Ross and Alice Walker are among the many writers whose writing process incorporates meditation.
+
+
+
+“Whenever people ask where I get my sick and twisted ideas from, I reply, ‘Just open your eyes'.”
+
+—Mark Billingham
+
+
+
+
+
+Always Have a Notebook Nearby
+
+
+“Ideas are elusive, slippery things. Best to keep a pad of paper and a pencil at your bedside so you can stab them during the night before they get away.”
+
+—Earl Nightingale
+
+Ideas can strike at any time—when you’re in the shower, in line at the grocery store, drifting off for a nap. But like lightning, they come and go in a flash. So be ready to capture them. Keep a pen and a notebook in your pocket or purse, and failing that, you can always email yourself notes or use the voice recorder app on your phone. I have sticky notes and index cards all over the house. I even sneak a pencil and paper into yoga class because doing yoga, like meditating, often acts like an idea faucet. One downward dog and the faucet goes on—the ideas flow.
+
+“Ideas aren’t magical; the only tricky part is holding on to one long enough to get it written down.”
+
+—Lynn Abbey
+
+
+
+
+
+Take Stock of Your Writing Self
+
+
+“Until you know who you are you can’t write.”
+
+—Salman Rushdie
+
+Knowing who you are is critical to coming up with your own ideas. You are your own best source, and I’m not just talking about who you are as a person but who you are as a writer. It is your unique writer’s fingerprint that can unlock your best ideas.
+
+Here’s a brainstorming exercise to help you explore the various aspects of your true writer’s self. Using the following bubble chart, take a piece of paper and jot down entries for the lists. Do it off the top of your head; don’t think about it. When you’re finished, think about what comes up in this process. Which resonate with you? What stories do they suggest to you? How might you combine them to create something new and different?
+
+
+
+
+
+“There are no original ideas. There are only original people.”
+
+—Barbara Grizzuti Harrison
+
+
+
+
+
+Mix It Up
+
+
+“Creativity and insight almost always involve an experience of acute pattern recognition: the Eureka! moment in which we perceive the interconnection between disparate concepts or ideas to reveal something new.”
+
+—Jason Silva
+
+As we’ve seen, divergent thinking—defined as “developing in different directions”—helps us look at options that may never have occurred to us and thereby generates new ideas. Here’s how that can work in terms of generating ideas for your story. Take a look at the top-ten lists you made during the bubble-chart exercise. Pick three of the lists—say, “Top Ten People You’d Like to Meet,” “Top Ten Places You’d Like to Visit,” and “Top Ten Hobbies/Interests.” Write each item from each list on a separate slip of paper, and place them all in a hat. Pull several out at random, and use these elements to brainstorm as many story ideas as possible. Go wild; think outside the box, the genre, and the planet. This is divergent thinking in action.
+
+Do this over and over again with different lists from the bubble chart, and make up your own lists as well. You’ll be training yourself in the art of divergent thinking, and you’ll be rewarded with lots of new ideas.
+
+
+
+
+
+Jump-Start
+
+
+The next time you’re with a group of writers, try this fun game that we often play at the New England Crime Bake, an annual conference for crime writers. Start with a prompt, whether ready-made or made up on the spot, such as: Once upon a time there was a car salesman in Anchorage, Alaska, who found a dead body in a new Chevy. Then go around the room, and have each writer add to the story. Don’t stop until The End. You’ll be pleased not only with how much creative fun this game is for all concerned but by the number of ideas for your own stories you’ll generate in its wake.
+
+
+
+“Ideas, like large rivers, never have just one source.”
+
+—Willy Ley
+
+
+
+
+
+Play Around
+
+
+“For most people, creativity is a serious business. They forget the telling phrase ‘the play of ideas’ and think that they need to knuckle down and work more. Often, the reverse is true. They need to play.”
+
+—Julia Cameron
+
+It’s impossible to be creative when you’re miserable. So many of us are so busy and so stressed and so burdened with too much to do in too little time that we forget to play. We may not even value play much anymore. This is a kind of sabotage, a hindrance to our creativity, a betrayal of our writer’s self. And there’s only one cure: Play!
+
+I’m a big fan of Julia Cameron’s “Artist Dates.” In her classic bestseller The Artist’s Way, a must for every writer’s bookshelf, she encourages us to “play artfully." The next time you find yourself stuck or stymied or simply too exhausted to think, call a writer friend and make an Artist’s Date. An Artist’s Date is anything that amuses the artist in you: concerts, art exhibits, films, readings, literary events, and pilgrimages, whatever feeds your writer’s soul.
+
+Whenever I find myself so buried in work that I start complaining about it to anyone who’ll listen, from my colleagues to my cat, I call my writer friend Susan and we bail out of our respective offices to go do something fun. Sometimes it’s as highbrow as a visit to a new exhibit at the Museum of Fine Arts, and sometimes it’s as lowbrow as coffee and cinnamon rolls at a bakery. (But our coffee klatsch conversation is—I assure you—très distingué.) We take our notebooks with us because we know good things come to those who play.
+
+
+
+
+
+Jump-Start
+
+
+Go on an Artist’s Date with a writer friend. Repeat as needed, no less than once a month. Learn to play artfully.
+
+
+
+“The creation of something new is not accomplished by the intellect but by the play-instinct acting from inner necessity. The creative mind plays with the objects it loves.”
+
+—Carl Jung
+
+
+
+
+
+Get Silly
+
+
+“The best ideas come as jokes. Make your thinking as funny as possible.”
+
+—David Ogilvy
+
+Being funny is, by definition, a creative act. That’s because humor often stems from making unexpected connections. The best punchline is a surprise—and we laugh at the novelty of the connection. Putting together familiar things in an unfamiliar way—that’s idea generation.
+
+Whenever the ideas aren’t flowing, use humor to get your juices flowing again. If you’re stuck on your beginning, rewrite it as a funny scene. See the humor in something, and the whole world may open up around it. That’s where the space is, the room you need to root around for a new approach.
+
+
+
+
+
+Jump-Start
+
+
+Spend the day with little kids. (If you don’t have any kids or grandkids, borrow some.) Make them laugh. Blow bubbles, play Twister, or pretend to be princesses and superheroes. Get silly. Notice how children play as if it were the most important work in the world.
+
+Because it is.
+
+
+
+“Always write your ideas down, however silly or trivial they might seem. Keep a notebook with you at all times.”
+
+—Michael Morpurgo
+
+
+
+
+
+Keep an Idea Box
+
+
+“I have four or five ideas that just keep floating around, and I want to kind of just let one—like a beautiful butterfly, let it land somewhere.”
+
+—Gillian Flynn
+
+This may seem simplistic, but this practice really works. Every writer should have a physical place, be it a box under the bed, a file cabinet in the corner, or a bulletin board on the wall, to keep anything and everything that might prove useful for a story someday. Maps, postcards, souvenirs, slogans, affirmations, news clippings, photos, illustrations, magazine articles—collect it all. Think of it as your secret treasure, and whenever you find yourself at a loss for a good idea, rummage through it.
+
+I have an idea box, but I rarely go through it. Out of sight, out of mind—that’s truer for me than it should be. Recognizing this about myself, I’ve designed a better way to display images and ideas that resonate with me. Instead, I have covered the fronts of two cabinet doors with cork. Door #1 is my Plot Door, where I pin the index cards I use to plot my work in progress—a scene for each card. On Door #2, I tack reminders of elements I might use in a story someday: photos of interesting places, snippets of dialogue, pictures of people who’d make good characters, sticky notes (right now there’s one that says, “Read more John Cheever”), artwork that somehow evokes the themes that preoccupy me, etc. Every time I look at it, I can almost feel my little grey cells start firing.
+
+Granted, my approach is that of a Luddite. If you’re an early-adopter type, use technology to jump-start your creativity. Some writers swear by Scrivener; others use Pinterest. Find what works for you, and get your own synapses firing.
+
+
+
+
+
+Jump-Start
+
+
+If you don’t have an idea box, create one. If you have one, go through it and jot down ideas that come to you as you consider each item. Don’t stop until you have at least a dozen ideas.
+
+
+
+“Ideas are like rabbits. You get a couple and learn how to handle them, and pretty soon you have a dozen.”
+
+—John Steinbeck
+
+
+
+
+
+Research for Fun
+
+
+“It’s easy to come up with new ideas; the hard part is letting go of what worked for you two years ago but will soon be out-of-date.”
+
+—Roger von Oech
+
+When all else fails, research. Research, which is just a form of focused reading for fun and profit, is one of the best ways to generate ideas in a hurry. Pick an element of your story—a time period, a setting, your hero’s occupation, whatever—and research it. Go online, hit the library, or spend an afternoon in your favorite bookstore. Dive into the details, and come up with a slew of new ideas for your story.
+
+I am a sucker for research. It’s really one of my favorite parts of the writing process. For this book, for example, I spent an inordinate amount of time researching recent New York Times best-selling novels, the movies of Steven Spielberg, and the ways in which walking benefits the brain. I also devoted hours to finding just the right writers’ quotes to begin and end sections, and when the book designers complain that too many quotes complicate the book’s layout (as they inevitably do), I’ll fight for every last one because I know that we writers love to hear what other writers have to say about the process. Best of all, I read all kinds of stories to discover the ones that served as the best examples of good beginnings. In the process, ideas for this book filled my head and the page before me. What’s more, ideas for new books pop up as well—and I write them down, quick. Give yourself permission to research for fun, and see where it takes you.
+
+
+
+
+
+Jump-Start
+
+
+Do a deep dive on a subject that interests you, a subject unrelated to your story. Spend a couple of hours investigating every possible aspect of your chosen topic. Be alert for details that could inform your story. How can you marry the ideas you’ve run across in this research to your work in progress? Brainstorm as many possibilities as you can.
+
+
+
+“The imagination needs moodling—long, inefficient, happy idling, dawdling, and puttering.”
+
+—Brenda Ueland
+
+
+
+
+
+Hang Out with Other Creative People
+
+
+“As you navigate through the rest of your life, be open to collaboration. Other people and other people’s ideas are often better than your own. Find a group of people who challenge and inspire you; spend a lot of time with them, and it will change your life.”
+
+—Amy Poehler
+
+Writing is supposed to be a solitary profession, but the truth is that smart writers hang out with smarter writers. Hemingway did it; heck, he and all his famous cohorts hung out in Paris, and they had a good time, learned from each other, and got a lot of good writing done. Dorothy Parker, James Thurber, and company drank and joked at the Algonquin; Virginia Woolf had high tea with her Bloomsbury pals.
+
+Cross-pollination is good for your brain and your ideas. Find your tribe. If you don’t know any other writers, then join the local chapter of your genre association, take a writing class at your local college, or attend a book-club meeting at your local independent bookstore. I’ve done all of those things and more, and my writing life—and my writing—has been all the better for it.
+
+
+
+
+
+Jump-Start
+
+
+Comedians are famous for working together and fueling each other’s creative fires. (And they are writers, after all.) Form your own artist’s troupe, and get together on a regular basis. This is not a writers’ group per se; the aim is to talk shop, go out to dinner, watch movies, and hang out. Just make sure that you are in good company—that is, with people who are smarter, more prolific, and more widely published than you are.
+
+
+
+“A good writer possesses not only his own spirit but also the spirit of his friends.”
+
+—Friedrich Nietzsche
+
+
+
+
+
+Take a Walk
+
+
+“If you are seeking creative ideas, go out walking. Angels whisper to a man when he goes for a walk.”
+
+—Raymond Inmon
+
+Walking has long been touted as the writer’s best medicine. Visionaries from Henry David Thoreau to Steve Jobs attributed their creativity to their daily habit of long walks. Thoreau mostly walked alone, but Jobs was famous for his walking meetings (a practice that Mark Zuckerberg has apparently adopted as well). In fact, the list of writers who walk is too long to include here, but you can count Joyce Carol Oates, Julia Cameron, and Jean-Jacques Rousseau among their company.
+
+They’re on to something. Stanford researchers have found that creativity jumps 60 percent when you walk. That is, if you get up off your butt and take a walk, your creative output will increase by 60 percent. It doesn’t matter whether you’re strolling through the park or trudging along a treadmill, the mere act of walking stimulates idea generation.
+
+What’s more: Take a forty-minute walk three times a week, and your hippocampus—the region of the brain that forms, stores, and organizes memories—will actually grow, according to a recent University of Pittsburgh study.
+
+So take a walk already. If you don’t like walking, get over it or get a dog. Dogs love to walk, and their enthusiasm will make a believer out of you, as will all those ideas that flood your brain as you stride forward.
+
+
+
+
+
+Jump-Start
+
+
+Take a walk. End of story. Or a new beginning!
+
+
+
+“I only went out for a walk and finally concluded to stay out till sundown, for going out, I found, was really going in.”
+
+—John Muir
+
+
+
+
+
+Exercise Regularly
+
+
+“I get so many big ideas while I’m running and such clarity while I’m lifting weights. And staying fit keeps me happy and positive.”
+
+—Robin S. Sharma
+
+Walking is one thing; vigorous exercise is another. Yet both are good for your writer’s brain. As Susan Reynolds says in her fabulous book Fire Up Your Writing Brain, exercise has positive effects on our brainpower. Neuroscientists look for changes in the levels of oxygen in the blood when they study brain activity. Here’s what they’ve found: Jogging for even five minutes increases the blood flow to your brain. All that oxygen is good for your brain: The more active your brain is; the more oxygen you use, which floods your brain with oxygen. It’s a cycle that’s great for generating ideas.
+
+If you really want to boost your brainpower, keep up that jogging or any vigorous exercise for at least thirty minutes, and you’ll improve your brain’s very plasticity, according to a recent study by the University of Adelaide in Australia. And as you might imagine, a flexible brain is a writer’s best friend.
+
+“True enjoyment comes from activity of the mind and exercise of the body; the two are ever united.”
+
+—Wilhelm von Humboldt
+
+
+
+
+
+Jump-Start
+
+
+Regular exercise leads to thicker and denser white matter in the brain, according to a recent University of Illinois at Urbana-Champaign study. White matter is known as “the subway of the brain” for its ability to connect the various areas of grey matter in the cerebrum. This means a better memory, a longer attention span, and greater cognitive efficiency. So incorporate into your schedule thirty minutes of cardio, three times a week. Your brain and your writing will be better for it.
+
+
+
+
+
+Stand Up; Sit Down; Write, Write, Write!
+
+
+“Writing and travel broaden your ass, if not your mind, and I like to write standing up.”
+
+—Ernest Hemingway
+
+If you think that I’m writing this just so I can throw in that swell ass quote from Hemingway, well, you’re only half right. The truth is that sitting is the new smoking—bad for your body and your brain. Sitting disease, a term coined to describe our increasingly sedentary lifestyle, is associated with thirty-four chronic diseases and conditions, according to the Mayo Clinic. Spend more time on your feet and more time off your butt, and you can add at least two more years to your life and improve your brain’s functioning.
+
+Like most writers, I sit too much, but I’ve done two things that have cut my sitting time in half: (1) I have a standing desk, and I love it. I can stand, fidget, do yoga stretches, even dance when the right song comes along on my mp3 player. I do some of my writing at the desk, but mostly I use it when I’m doing research, talking on the phone, and video-chatting with clients. (2) I got an Apple Watch, which tells me when I’ve been sitting for an hour nonstop and prompts me to get up and move around. According to the National Health and Nutrition Examination Survey, we need to get up and walk around for at least two minutes every hour—and doing so may lower the risk of premature death by 33 percent (and of course, helps us brainstorm). So when my Apple Watch tells me to stand up, I stand up and walk around, but you don’t need an Apple Watch for this; there are Fitbits, timers, and more.
+
+Remember, even if you exercise regularly, it’s not enough to counteract the detrimental effects of sitting too much and/or too long. So stand up for your writing!
+
+“I am writing this at my standing desk; my standing desk is against the window, and the window offers a pleasant prospect over the lime trees and sun-bathed Saale hills.
+
+—Friedrich Nietzsche
+
+
+
+
+
+Relaxing Fuels Your Creativity
+
+
+“ … a writer of fiction … lives in a world of fear. Each new day demands new ideas, and he can never be sure whether he is going to come up with them or not.”
+
+—Roald Dahl
+
+When it comes to creativity, stress is the enemy. According to a recent study by Harvard, we’re far more creative when we’re in a positive frame of mind. Conversely, we’re far less likely to generate new ideas and solve problems in new ways when we’re feeling the negative emotions of stress, including anger, frustration, fear and/or sadness.
+
+This would come as no surprise to my father, the Colonel, a Norman Vincent Peale acolyte who’s been preaching to me the gospel of PMA—positive mental attitude—all my life. I’ve always teased him about it, but apparently in this, as with most things, he’s right.
+
+To come up with great ideas, you need to relax … right into positivity. The best part about this creativity/relaxation link is that when you’re too stressed to be creative, simply doing something creative can reduce your stress. This is one of those revitalizing cycles—as opposed to vicious cycles—that we can use to our advantage as storytellers.
+
+
+
+
+
+Jump-Start
+
+
+The next time you are feeling too stressed to think about your writing, do something creative to relax. It doesn’t have to be writing: Do woodworking, knit a scarf, play an instrument, color a mandala, sing a song, paint a picture, or dance around the house. Then get yourself to your desk, and write away!
+
+
+
+
+
+Do Something Else
+
+
+“Some of the best ideas I get seem to happen when I’m doing mindless manual labor or exercise. I’m not sure how that happens, but it leaves me free for remarkable ideas to occur.”
+
+—Chuck Palahniuk
+
+Agatha Christie, whose diabolically clever ideas for mysteries still engross audiences nearly a hundred years later, used to say that the best time to plot a novel was while washing the dishes. At more than two billion—yes, you read that right—copies sold, Christie is ranked by the Guinness Book of World Records as the best-selling novelist of all time. Which is enough to make me consider giving up my dishwasher permanently. Almost.
+
+The point is that sometimes the best thing to do when you think you’ll never have another good idea again is to abandon your desk and do something else entirely. Preferably something that occupies your conscious mind, letting your subconscious mind out to play. Chores are good—mopping the floor, folding the laundry, polishing the silver, chopping wood, weeding the garden, ironing shirts, raking leaves—and they offer the added benefit of providing a sense of accomplishment and an orderly environment in which the chaos of your own creativity can hold court. Just be prepared to stop mid-chore to run to your desk and capture all the great ideas prompted by that homely art of housekeeping.
+
+
+
+
+
+Jump-Start
+
+
+The next time you get stuck, wash the dishes, sweep the porch, or change the sheets. Do not listen to music, watch television, or distract yourself; just do the chore, and let yourself fall into that meditative state. You’ll be well rewarded—and not just by clean sheets.
+
+
+
+“Your best ideas, those eureka moments that turn the world upside-down, seldom come when you’re juggling emails, rushing to meet the 5 P.M. deadline, or straining to make your voice heard in a high-stress meeting. They come when you’re walking the dog, soaking in the bath, or swinging in a hammock.”
+
+—Carl Honoré
+
+
+
+
+
+Go to Sleep
+
+
+“Brainstorming, for me, takes place in my bed at night between the time I turn out my lights and I finally fall asleep. It is not a very violent storm, but what’s happening is I am just thinking about different ideas and maybe things I’ve seen that day that I think might make a good story.”
+
+—Chris Van Allsburg
+
+Okay, I admit it. This one may be my personal favorite. I think of sleeping as a delicious addiction, one that, as Fran Lebowitz says, is “both pleasant and safe to use.” Ever since college, where I dismayed my fellow co-eds by disdaining the practice of pulling all-nighters before exams and insisting on going to bed early instead, I’ve understood the value of a good night’s sleep. I knew I tested better when I was well-rested. In truth, I do everything better when I am well-rested. My inability to complete a sensible sentence in my addled, sleep-deprived head during my early child-rearing years as a new mom attests to this fact.
+
+The good news is that science agrees with me. According to a study by Harvard Medical School, imagining problems you want to solve before you go to sleep can help you dream novel solutions to those problems. This is putting your subconscious to work for you, and you don’t even have to be awake to do it. That is my kind of brainstorming.
+
+Here’s how it works: Dreams come from a more highly functioning part of the brain known as the anterior cingulate cortex (ACC). Research conducted by the University of Pittsburgh Medical Center revealed that the ACC grows very active during REM sleep. Because we’re in a different biochemical state when we’re dreaming, we can literally dream our way out of being stuck.
+
+Even a nap can help. In an experiment at the University of Lübeck in Germany, students were taught how to solve a complicated and time-consuming mathematics problem. When they came back some eight hours later to be retested, the students who slept during the break proved twice as likely to figure out a simpler way to solve the math problem than those who did not nap. So when in doubt, go to sleep. Works for me.
+
+
+
+
+
+Jump-Start
+
+
+Tonight, think about your story idea before you go to sleep. Ask your subconscious to come up with a way to improve on your story idea. See what happens, and keep a pen and notebook right by the bed so you can capture your thoughts immediately upon waking, before they slip away into that Neverland between sleep and wakefulness.
+
+
+
+“I’ve dreamt in my life dreams that have stayed with me ever after and changed my ideas: They’ve gone through and through me, like wine through water, and altered the color of my mind."
+
+—Emily Brontë
+
+
+
+
+
+Let the Sun Shine In
+
+
+“Live in the sunshine,/swim the sea,/drink the wild air’s salubrity. ... ”
+
+―Ralph Waldo Emerson
+
+No, I’m not completely crazy. I told you some of these ideas would be a little offbeat. But this one—get some sun!—has its roots in solid science. As reported in the Creative Research Journal, research conducted by Washington State University indicated that doing creative work in nature boosts creativity levels. The key is to work in areas high in direct sunlight and natural wood, as opposed to areas of drywall and plastic. I know this works because I wrote most of my first book on the beach in Monterey. When I was running Good Times, an alternative weekly newspaper in Santa Cruz, California, I’d organize our weekly editorial meetings. We discussed story ideas for the next issue at a little breakfast place in Capitola, right on the water. I did the same thing when I transitioned to the book business: When I was running acquisitions for a publishing house, I used to conduct brainstorming meetings in my own backyard, on a wide deck that fronts a lovely lake. Just getting out of the office and into the light did wonders for our idea list, and the editorial staff loved it. The next time you want to fire up your writing brain, go outside and get some Vitamin D. You know it’s good for you—and your ideas.
+
+
+
+
+
+Jump-Start
+
+
+When you need a new idea, go to the nearest park and write or host your next writers’ group meeting outside in your garden. Better yet, go on a writer’s retreat somewhere where the sun’s shining. As I write this, it’s late January and the lake is frozen under a grey sky, but I’m contemplating next month, when I’ll spend a week in St. Augustine at a writer’s retreat run by Michael Neff under the auspices of the Algonkian Writer Conferences. Heaven!
+
+
+
+“Some old-fashioned things like fresh air and sunshine are hard to beat. In our mad rush for progress and modern improvements, let’s be sure we take along with us all the old-fashioned things worthwhile.”
+
+―Laura Ingalls Wilder
+
+
+
+
+
+Be Happy
+
+
+“To be creative means to be in love with life. You can be creative only if you love life enough that you want to enhance its beauty; you want to bring a little more music to it, a little more poetry to it, a little more dance to it.”
+
+—Osho
+
+We’ve already talked about the power of PMA—uh, thanks, Dad—but being positive is only part of being happy. To be truly happy, you need to go deeper than a positive outlook. You need to believe that you are leading a meaningful life (or, failing that, a life at least worth living). Fortunately for writers, writing is a way of creating meaning out of what for many can feel like an existential void. That void is a source of sorrow, and sadness, like stress, is the enemy of creativity.
+
+Unhappiness impedes the creation of new ideas, according to researchers at Penn State University. People suffering from even a mild case of the blues tend to hold back, wary of making mistakes and cautious to the point of inhibiting creative work. Moreover, people in sunny moods outperform those in sad or neutral moods in all kinds of divergent thinking, from word association to story ideas. Seriously.
+
+Happiness is not just good for your personal life; it’s good for your professional life as well, not to mention your writer’s soul. So don’t worry; be happy, and keep writing.
+
+
+
+
+
+Jump-Start
+
+
+Get out a pen and paper, and set a timer for ten minutes. Spend that period of time writing down everything that makes you happy. Do this quickly and without thinking about it.
+
+The results may surprise you, and even if they don’t—because on some level we all know what makes us happy—then you may be surprised at how little of your life is devoted to those people, places, and things that make you happy. Vow to change that. Going forward, devote an hour a day to something that makes you happy. You and your writer’s soul will be glad you did.
+
+
+
+“A harmless hilarity and a buoyant cheerfulness are not infrequent concomitants of genius, and we are never more deceived than when we mistake gravity for greatness, solemnity for science, and pomposity for erudition.”
+
+—Charles Caleb Colton
+
+
+
+
+
+Finding Your Best Idea
+
+
+“Ideas can be life-changing. Sometimes all you need to open the door is just one more good idea.”
+
+—Jim Rohn
+
+Okay, now that you’re attentive, self-aware, eclectic, playful, active, fit, well-rested, sociable, relaxed, happy, and living in the light, it’s time to put on your thinking cap and come up with an idea that will propel you right onto the best-seller list. Or tweak the one you have to up the odds of publication.
+
+If you’re thinking that it’s about time, well, the reason we’ve spent so much time on the best ways to enhance your ability to come up with new ideas is because as an agent, I know how challenging—if not impossible—it can be to sell weak or derivative ideas. No matter how well-written the story, if the idea upon which the story is based is one we’ve all seen too many times before, it’s very tough to sell in today’s market. Frankly, I’ve given up trying.
+
+What I’m looking for is the next big idea, and I am not alone in that. Everyone involved in books is looking for that, from the agents, editors, and publishers to the readers themselves.
+
+It breaks my hard agent’s heart to meet so many writers who have spent years revising and polishing stories that have no chance of being sold, simply because they were ill-conceived from the get-go. I’d like to spare as many of you as possible from this indignity.
+
+As it says in Ecclesiastes 1:9, “There is nothing new under the sun.” But what can make nothing new into something new is what you, as the writer, bring to your story. How will you show us something old in a new way or something new in an old way? How will you play the old songs with new instruments or play new songs with the old instruments? How will you twist the old story conventions into new forms or twist new story conventions into the old forms?
+
+This is the creative leap beyond 1 + 1 = 2, to 1 + 1 = Infinity and beyond.
+
+These creative leaps are what bestsellers are all about:
+
+In Gone Girl, Gillian Flynn takes the disappearing-spouse trope to a new level in a story that could be described as “Harlan Coben meets The War of the Roses.”
+
+In Harry Potter and the Sorcerer’s Stone, J.K. Rowling reimagines the English public school as an educational institution for wizards.
+
+Andy Weir was not the first writer to show us Mars or even people on Mars, but in The Martian, he shows us the hard science behind what it would take for an astronaut stranded on Mars to survive.
+
+In Dorothy Must Die, Danielle Paige recasts the children’s classic The Wonderful Wizard of Oz as a dark and edgy young-adult novel with echoes of The Hunger Games, the Harry Potter series, and The Chronicles of Narnia.
+
+In A Thousand Acres, Jane Smiley sets Shakespeare’s King Lear on a farm in twentieth-century Iowa—with devastating results for the family who lives there.
+
+In the adventure novel Watership Down, Richard Adams tells a classic hero’s journey story as outlined by mythologist Joseph Campbell while borrowing from Homer’s The Odyssey and Virgil’s The Aeneid—with rabbits!
+
+In My Sister’s Keeper, Jodi Picoult refashions a story ripped from the headlines about a couple who has a baby in the hope that the baby’s bone marrow can save her dying sister’s life.
+
+In East of Eden, John Steinbeck rewrites the Bible story of Cain and Abel—a brutal retelling complete with a depraved version of Eve.
+
+In Middlesex, Jeffrey Eugenides tells a family saga of three generations of Greeks, centering on intersex protagonist Callie/Cal.
+
+In the satirical novel Catch-22, Joseph Heller takes his experiences as a bombardier during World War II and transforms them into a bitingly hilarious commentary on the bureaucracy of the military and the absurdity of war.
+
+
+
+In each of these examples, the writer takes an idea we’ve seen before and remakes it. Whether it’s a story based on the Bible or hermaphroditism or the Second World War, the author has made the story his own. You need to make your story your own, and you start by refining your story idea.
+
+
+
+
+
+Start with a Title
+
+
+“I don’t have goals when writing books, apart from getting to the end. I have rather vague ideas about how I want things to feel; I’m big on ambience. I have a title, a beginning, and a probable ending and go from there.”
+
+—Kate Atkinson
+
+When I was in the newspaper business, I learned to write headlines. There’s an art to coming up with a good headline, just as there’s an art to coming up with a good title. In fact, the process is much the same. Both require the quirky ability to (1) get to the essence of the story, (2) identify the aspect of the story that will most appeal to readers, and (3) communicate that essence in as few, direct, and judicious words as possible. At many newspapers, writing headlines is a job left to the editor, rather than the reporters writing the stories themselves, because the headlines are considered too important to leave to “mere” reporters.
+
+In learning to write headlines, I also learned that the best way to write a story was to come up with the headline first. By forcing myself to write the headline, I identified what the story was about, and then I could write the story fairly easily.
+
+The same holds true for book titles. As an acquisitions editor, I knew that the right title could sell a book on the spot. I worried over titles; with the right title, it was much easier to convince the publishing board to approve the project. As an agent, I won’t shop anything until it’s got a title I know will work.
+
+I know you’ve heard that titles don’t matter, that publishers change them anyway, but the reason they change them is because most titles suck. You should worry over your title, just as you worry about your story idea, and do it now, before you even start writing.
+
+
+
+
+
+What’s in a Title?
+
+
+The best titles are often those that sum up the big idea of the story:
+
+Moneyball, by Michael Lewis
+
+Eat, Pray, Love, by Elizabeth Gilbert
+
+East of Eden, by John Steinbeck
+
+Jurassic Park, by Michael Crichton
+
+Jaws, by Peter Benchley
+
+The Exorcist, by William Peter Blatty
+
+Sophie’s Choice, by William Styron
+
+How Stella Got Her Groove Back, by Terry McMillan
+
+The Five People You Meet in Heaven, by Mitch Albom
+
+The Help, by Kathryn Stockett
+
+The Devil Wears Prada, by Lauren Weisberger
+
+Pet Sematary, by Stephen King
+
+The Horse Whisperer, by Nicholas Evans
+
+And Then There Were None, by Agatha Christie
+
+The Godfather, by Mario Puzo
+
+Dork Diaries 1: Tales from a Not-So-Fabulous Life, by Rachel Rene Russell
+
+Orange Is the New Black, by Piper Kerman
+
+Room, by Emma Donoghue
+
+The Martian, by Andy Weir
+
+Middlesex, by Jeffrey Eugenides
+
+The Cold Dish, by Craig Johnson
+
+A Passage to India, by E.M. Forster
+
+Memoirs of a Geisha, by Arthur Golden
+
+Where the Wild Things Are, by Maurice Sendak
+
+
+
+You should try to sum up the big idea of your story. In chapter one, you pondered what your story was about. In chapter two, you identified how that story idea might relate to the opening scene of your story. Now try to pare that story idea down to just a few words. If you can’t or if those few words are boring, dated, derivative, or obscure, you still have work to do. You still need to work on differentiating your story from the competition.
+
+“It’s no secret that I like using phrases for my titles that might have a double or deeper meaning.”
+
+—Craig Johnson
+
+
+
+
+
+Your Best Differentiator
+
+
+Remember the Your True Writer’s Self bubble chart exercise you completed earlier? Get those top-ten lists out; they’ll be your guides as you figure out Your Best Idea.
+
+Note: If you haven’t done the bubble chart, then do it now. I know you don’t want to, but consider it insurance against writing ideas you can’t sell.
+
+These lists are your ticket to your best differentiator. If you have yet to identify what makes your story special, then take a look at these lists. Continue mixing and matching and mashing up the elements of your story with these lists, and see what you can come up with. You may find it helpful to take a look at how some best-selling writers came up with their story ideas.
+
+“It is a novel about being careful and about that not being enough.”
+
+—John Irving, on The World According to Garp
+
+
+
+In John Irving’s classic novel, terrible things happen to his characters, often at random. Irving says that becoming a family man when he married and had children truly scared him; he was always worried about what might happen to his kids. He played on those fears in The World According to Garp.
+
+“Some of the story is taken from my real life, but all of the story is taken from my real heart. I have experienced every emotion that I put onto these pages.”
+
+—Tayari Jones, on Silver Sparrow
+
+
+
+With Silver Sparrow, Tayari Jones was inspired by her personal obsession with the two half-sisters she knew little about as a child to write a novel about the effects of a bigamist’s lifestyle on his two families. Jones’ father was no bigamist, but her history gave the novel a poignant authenticity it would not have had otherwise. Your personal history may prove fertile ground as well.
+
+“I was living in Massachusetts, sitting at my desk one day writing a nonfiction snippet about how it felt to move so often, about what it was like being an army brat. That little section, which is in the novel, was so full of feeling for me [that] I knew there was a lot of material to be mined. So I began writing a novel.”
+
+—Elizabeth Berg, on Durable Goods
+
+
+
+In Durable Goods, Berg draws on her army-brat childhood to pen a story about an army brat less fortunate than she. As an army brat myself, I can tell you that she writes so insightfully about what it’s like for girls to grow up in the military life that this book remains one of my all-time-favorite novels. That said, Berg’s impulse to write the story came from a nonfiction piece she’d written about moving a lot when you’re a kid. If you’ve written nonfiction, look to that material as a rich source for your fiction and a possible differentiator.
+
+“I heard stories of cities on fire, teenagers who were whipped for giving starving Jewish people bread on their way to concentration camps, and people huddled in bomb shelters …. But I also had a story about a book thief set in my hometown of Sydney. I just brought the two ideas together …. ”
+
+—Markus Zusak, on The Book Thief
+
+
+
+Zusak married an unlikely pair of ideas—an Australian book thief and the Holocaust—to create one of the most haunting novels in recent memory. Take a look at those lists from the bubble chart, and try marrying unlikely pairs of your own.
+
+“About a decade ago, while visiting my in-laws in North Dakota, I came across a nonfiction book printed by the Fort Seward Historical Society called Century of Stories: Jamestown and Stutsman County, 1883–1983. In it was an article titled ‘They called it “Orphan Train”’—and it proved there was a home for many children on the prairie. My husband’s grandfather Frank Robertson and his siblings featured prominently in the story. This was news to me—I’d never heard of the orphan trains.”
+
+—Christina Baker Kline, on Orphan Train
+
+
+
+As Baker Kline points out, her blockbuster Orphan Train has its roots in a lucky accident, her finding a story about her husband’s family in a book she’d otherwise never have picked up. She seized on that mention of the orphan trains—and the rest is best-seller history. This goes to prove that ideas are everywhere—even at your in-laws’—if you are paying attention.
+
+“Quite simply, this story was inspired by the nightly news. As the war in Iraq went on, I watched the stories—night after night—[of] our troops lost or wounded in battle and the stories of their families left behind, waiting for them to return. … I began to wonder what it must be like to go off to war and leave your children behind. I can’t imagine anything that would be more terrifying and difficult. I realized that I had never read that story, and I wanted to. I wanted to explore the idea of a woman torn between love and honor. So I decided to write it.”
+
+—Kristin Hannah, on Home Front
+
+
+
+In Home Front, Hannah gives us the story she says that she wants to read, the story she’s not seen before: war, only written from the side of the deployed woman soldier forced to leave her children behind. The title, Home Front, plays on this reversal. This is an idea whose time had come, and she recognized it. The next time you watch the news, think about how you might turn the events of the day into story ideas—and which of those ideas might be ideas whose time has come.
+
+“While this is a work of fiction, it was initially inspired by a moment described in Jane Howard’s 1984 biography Margaret Mead: A Life and my subsequent reading of anything I could locate about anthropologists Margaret Mead, Reo Fortune, and Gregory Bateson and their few months together in 1933 on the Sepik River of what was then called the Territory of New Guinea. I have borrowed from the lives and experiences of these three people but have told a different story.”
+
+—Lily King, on Euphoria
+
+
+
+This fascinating novel dramatizes the lives and lusts of three gifted anthropologists whose passionate love triangle is as dramatic as anything they’re documenting in New Guinea. Like most writers, King is a voracious reader, and that reading led her to this story. Reading nonfiction can be particularly useful in this regard; be sure to include nonfiction in your own reading, and when you are struck by a fact or figure, follow it wherever it may lead, as King did.
+
+“From the moment I decided to write about Sarah Grimké, I felt compelled to also create the story of an enslaved character, giving her a life and a voice that could be entwined with Sarah’s. I felt I couldn’t write the novel otherwise, that both of their worlds would have to be represented here. Then I came upon a tantalizing detail. As a girl, Sarah was given a young slave named Hetty to be her waiting maid. According to Sarah, they became close. Defying the laws of South Carolina and her own jurist father who had helped to write those laws, Sarah taught Hetty to read, for which they were both severely punished. There, however, ends the short narrative of Hetty. … I would try to bring Hetty to life again.”
+
+—Sue Monk Kidd, on The Invention of Wings
+
+
+
+The Invention of Wings is told through two points of view—that of young Sarah and her slave maid, Hetty—and it’s that juxtaposition that makes this story so powerful. Research led Monk Kidd to Hetty, and she took it from there to the best-seller list. When you’re researching your story idea, be alert to the details that can make all the difference. Don’t be married to the facts if you’re writing fiction; let the facts be a springboard to your best story idea.
+
+“I was initially inspired by my first visit to Masada, a spiritual experience so intense and moving [that] I felt as though the lives that had been led there two thousand years earlier were utterly fresh and relevant. The tragic events of the past and the extraordinary sacrifices that were made in this fortress seemed to be present all around me. It was as if those who had lived there and died there had passed by only hours before.”
+
+—Alice Hoffman, on The Dovekeepers
+
+
+
+Travel can be a writer’s best friend. In this case, a trip to the ancient fort triggered a deep desire in Hoffman to tell the story of the voices that spoke to her when she visited that sacred place. Further research led her to the writings of the historian Josephus, who claimed that two women and five children had survived the siege by hiding in the water system. Hoffman decided to write their story, and the magnificent novel The Dovekeepers was the result. The next time you take a trip to a new place, pay attention to the voices you hear there, and imagine the stories you could write about them. Your best story idea may be waiting for you, right there on vacation.
+
+“This novel is for my grandparents Clarence and Ruth Huling, who would have been married for seventy years on June 19, 2013. This book was meant to be published in honor of their anniversary.”
+
+—Elin Hilderbrand, on Beautiful Day
+
+
+
+For Hilderbrand, a best-selling author of women’s fiction, her grandparents’ long and happy marriage proved the impetus for Beautiful Day, a moving novel about weddings, marriages, and families. She wanted to honor their long union, and she did. How might you honor the people and places in your life? What story ideas might help you do that?
+
+“As a Canadian, I was raised on lore of the famous Dionne quintuplets, born in Callander, Ontario, in 1934. They were a phenomenon and a sensation. Many of you might have recognized them in my Ouellet Quints, and the truth is, the fictional Ouellets were certainly inspired by the Dionne girls. But in researching How the Light Gets In, I was careful not to delve into the real lives of the Dionne quintuplets.… That freed me up to create whatever life I wanted and needed for my Quints.”
+
+—Louise Penny, on How the Light Gets In
+
+
+
+Louise Penny’s Inspector Gamache mystery novels are bestsellers—and How the Light Gets In is no exception. Much has been written about the famous Dionne quintuplets, but leave it to the ingenious Penny to write their doppelgangers into a crime novel. Who are the real people and what are the real events that might make their way, altered or not, into your story? What fascinations that haunt your dreams might haunt your story? Look to those top ten lists, and brainstorm. And remember: These connections to real people and events are often selling points for your story.
+
+“I try not to be timid about what ‘happens’ in a novel. One good thing about my journalism career was that I saw amazing, outrageous, unlikely things happen all the time.”
+
+—Jess Walter, on Beautiful Ruins
+
+
+
+In Walter’s novel, all kinds of amazing, outrageous, unlikely things happen—some of them involving Elizabeth Taylor and Richard Burton, no less. But he makes it work, and you can, too. The first novel I ever published was a commissioned young-adult novel for HarperCollins. To win the contract, I had to create an outline for the story, a story that I had yet to write. I’d never plotted a novel before, so it took me several tries to get that outline right. And each time the editor said to me, “Go bigger; go bigger!” So don’t be afraid to go big when it comes to story ideas: Go big, or big home.
+
+“I never think of an entire book at once. I always just start with a very small idea. In Holes, I just began with the setting, a juvenile correctional facility located in the Texas desert. Then I slowly make up the story and rewrite it several times, and each time I rewrite it, I get new ideas and change the old ideas around.”
+
+—Louis Sachar, on Holes
+
+
+
+Sachar says that his “juvenile correctional facility located in the Texas desert” is a small idea, but anyone who knows his work knows that Holes is one of the funniest and most original stories ever set in the Lone Star State. As we’ve seen, setting can inspire great story ideas, and the limitations of the landscape can play into the plot. They certainly play into Sachar’s plot in Holes. Play around with settings for your story idea, and brainstorm ways in which those settings could play into the plot to give your story a strong differentiator.
+
+These examples reveal the many differentiators that can set a story apart and how various elements, such as setting, point of view, historical events, real people and imagined characters, personal history, arcane facts, and obscure sources can be used and/or combined to create strong story ideas that will capture the reader’s imagination.
+
+
+
+
+
+Your Best Genre
+
+
+Sometimes writers have story ideas that could be strong if they would only factor in one of the most critical factors in publishing today: genre. We’ve discussed the importance of knowing what kind of story you’re telling and how to communicate that classification from word one. Now consider the genre that might best serve as the receptacle for your story idea.
+
+To give you an idea of how versatile a good story idea can be, let’s take a look at Jane Austen’s Pride and Prejudice. This classic was published in 1813, more than two hundred years ago, and remains as popular as ever. The appeal of this novel is so enduring that it has spawned a cottage industry of sequels, mash-ups, hybrids, imitators, and more. On Goodreads alone, there are 277 works (and counting) listed as “inspired by Pride and Prejudice.”
+
+Here’s a small sampling of the myriad ways in which the original story idea—the unlikely pairing of Elizabeth Bennet and Mr. Darcy—has been tweaked and stretched and twisted into many different forms:
+
+The Original: Pride and Prejudice, by Jane Austen
+
+“Sequel”: Mr. Darcy Takes a Wife, by Linda Berdoll
+
+Contemporary fiction: The Jane Austen Book Club, by Karen Joy Fowler
+
+Contemporary romance: Bridget Jones’s Diary, by Helen Fielding
+
+Paranormal Romance: Mr. Darcy, Vampyre, by Amanda Grange
+
+Western: Pemberley Ranch, by Jack Caldwell
+
+Adventure: Pirates and Prejudice, by Kara Louise
+
+Gothic romance: Pemberley Shades, by D.A. Bonavia-Hunt
+
+Spy novel: Spies and Prejudice, by Talia Vance
+
+Young-adult fiction: Prom and Prejudice, by Elizabeth Eulberg
+
+Mystery: Death Comes to Pemberley, by P.D. James
+
+Horror: Pride and Prejudice and Zombies, by Seth Grahame-Smith
+
+Time Travel Romance: Seducing Mr. Darcy, by Gwyn Cready
+
+Ghost Story: Haunting Mr. Darcy, by KaraLynne Mackrory
+
+Manga: Manga Classics: Pride and Prejudice, by Stacy King, PoTse, and Jane Austen
+
+Steampunk: Steampunk Darcy, by Monica Fairview
+
+Erotica: Pride and Prejudice: The Wild and Wanton Edition, by Jane Austen and Michelle M. Pillow
+
+
+
+As this list demonstrates, with a little imagination you can adapt any story idea to any genre, and in so doing, you may very well create a stronger, more compelling, more unique story idea. So, even if you are convinced it’s a total waste of time, play with your story idea and change it to fit at least half a dozen different genres. Especially if you think it’s a total waste of time. This is an exercise that may reap enormous benefits if you are flexible and open-minded enough to try it.
+
+
+
+
+
+Impromptu
+
+
+Take one of those story ideas that you’ve adapted for a different genre, and write an opening scene for that story. Take your time with it, and give it your best shot. Now compare it to the one you’ve written for your original story idea. Which is better? Why? What can you steal from one to improve the other? Which is more likely to grab the reader by the throat? Which would be more likely to attract an agent/interest an editor/find an audience? Why?
+
+Note: This is a good exercise for your writers’ group, too—and one guaranteed to provoke an interesting debate.
+
+
+
+“New ideas pass through three periods: 1) It can’t be done. 2) It probably can be done, but it’s not worth doing. 3) I knew it was a good idea all along!”
+
+—Arthur C. Clarke
+
+
+
+
+
+Your Best Opening
+
+
+As we said in the beginning of this section, in publishing parlance, you’re only as good as your last idea. But with the tools and techniques we’ve discussed here, you’ve got what you need to brainstorm good story ideas—and your next one should be a winner. What’s more, you’ve learned how to examine your story idea from all angles, all aspects, and even all genres.
+
+Now you’re ready to apply these principles to the story opening itself.
+
+Back to the beginning …
+
+“I think one of the keys to better writing is releasing all of your ideas and to not be afraid. Dream big. This could be the greatest novel in the world ….”
+
+—Adora Svitak
+
+
+
+
+
+Chapter Four
+
+
+The Edge of the Beginning
+
+
+Where to Begin
+
+
+“Sometimes when you think you are done,
+
+it is just the edge of beginning....
+
+It is beyond the point when you think you are done
+
+that often something strong comes out.”
+
+—Natalie Goldberg
+
+“Ideas excite me, and as soon as I get excited, the adrenaline gets going, and the next thing I know, I’m borrowing energy from the ideas themselves.”
+
+—Ray Bradbury
+
+Ray Bradbury is correct, as usual: You know that you’ve hit on the right story idea when that idea energizes you. That energy is your key to completing the marathon that is writing any full-length work. Use that energy well, and it will sustain you throughout the process. Squander it, and your story will falter and maybe stall out altogether, forever grounded.
+
+You start, as we all must, at the beginning. As we’ve seen, the best story openings are those that capitalize on the energy of the right story idea. Take a look at your current opening. Where’s the energy? Where’s the juice? Where’s the momentum?
+
+
+
+
+
+The Scene One Fail-Safe Starter-Kit
+
+
+There are a number of tricks to making sure that you get your story off to a hot, hotter, hottest start, no matter what your genre. I know, I know, all of you people out there who are writing literary fiction are thinking, “I don’t need a hot start to my story.” Well, think again. Even beginnings for literary stories must aim for, at minimum, a slow burn.
+
+I live in the Northeast, where winters can be brutal. (As I’m writing this, New York City is digging out of some two feet of snow.) When I moved here a dozen years ago after nearly twenty years in balmy California, I learned that the secret to staying warm as the thermometer plunges is to keep the fires burning on all fronts. I discovered the cozy beauty of cashmere sweaters, fingerless gloves, and glowing woodstoves. But I also learned that sometimes you have to break down and leave the house. Go begin a journey, even if it’s only to the grocery store—which means venturing out into sub-zero temperatures to a frigid vehicle that may or may not start. It was a cold prospect I dreaded, until I happened upon two spectacular tools: remote car starters and heated car seats.
+
+With a remote car starter, you can start your car from inside your warm house, wait until your automobile is revved up and ready to go, and then slip into a warm seat in a warm vehicle with a warm engine and hit the road. This is a beautiful thing.
+
+You want to do the same thing with your story. Every reader starts a story cold, and you want to warm the reader up to your story as quickly as possible. You want the reader to slip into a warm seat in a hot story with a blazing beginning and take off for parts known only to you, the writer.
+
+The good news: There are literary equivalents to remote car starters and heated car seats. Let’s take a look at these, one by one.
+
+“Ideas are easy. It’s the execution of ideas that really separates the sheep from the goats.”
+
+—Sue Grafton
+
+
+
+
+
+Start with the Scene that Introduces Your Story Idea
+
+
+As we’ve seen, this is the easiest and most efficient way to get your story off to its hottest start. So if it’s at all possible to begin this way, you should, just as Peter Benchley did in the first scene of his classic horror novel, Jaws.
+
+Yes, the terrifying film was based on the equally terrifying New York Times bestseller by Benchley. The details of the novel’s opening scene and the film’s opening scene differ—the couple in the book are a man and a woman sharing a beach house rather than a couple of teenagers at a beach party—but the action is the same: The woman goes for her last swim in the sea while her drunken companion passes out. And there we have it, the big story idea of Jaws: a monster great white shark terrorizes a seaside resort town.
+
+Growing up, Benchley spent his summers on the island of Nantucket and became fascinated with sharks at an early age. He attributes his idea for the novel to a newspaper article he read about a “fisherman who harpooned a 4,500-pound great white shark off Long Island” and two seminal works about department-store heir Peter Gimbel’s expedition to “find and film a great white shark,” the film Blue Water, White Death and Peter Matthiessen’s book Blue Meridian. The confluence of a childhood fascination with sharks, his continuing casual research into the subject, and three stories in three different mediums—newspaper, film, and book—all led Benchley to the big idea that became Jaws.
+
+“Actually ideas are everywhere. It’s the paperwork, that is, sitting down and thinking them into a coherent story, trying to find just the right words, that can and usually does get to be labor.”
+
+—Fred Saberhagen
+
+
+
+
+
+Start with the Scene that Foreshadows the Story Idea
+
+
+If you truly believe that it is not possible to start your story by introducing the story idea, then you can do the next best thing: Start with a scene that foreshadows the story idea. According to Merriam-Webster, a foreshadowing is “something believed to be a sign or warning of a future event.” For our purposes here, a foreshadowing is an opening scene that prefigures your story idea.
+
+The most famous example of this might be the opening of Shakespeare’s Macbeth, in which the three witches appear as a bad omen, especially for Macbeth.
+
+MACBETH: ACT I, SCENE I
+
+An open place. Thunder and lightning.
+
+Enter three Witches.
+
+First Witch: When shall we three meet again
+
+In thunder, lightning, or in rain?
+
+Second Witch: When the hurly-burly’s done,
+
+When the battle’s lost and won.
+
+Third Witch: That will be ere the set of sun.
+
+First Witch: Where the place?
+
+Second Witch: Upon the heath.
+
+Third Witch: There to meet with Macbeth.
+
+First Witch: I come, Graymalkin!
+
+All: Paddock calls—anon!
+
+Fair is foul, and foul is fair:
+
+Hover through the fog and filthy air.
+
+[Witches vanish.]
+
+
+
+Many fairy tales begin this way as well. In Charles Perrault’s Sleeping Beauty, a king and queen who’d waited years for a child celebrate their new baby princess’s christening with a celebration. They invite the seven fairies of the kingdom to the feast. But an eighth fairy shows up, one long thought dead, and she curses the baby.
+
+The old Fairy’s turn coming next, with a head shaking more with spite than age, she said, that the Princess should have her hand pierced with a spindle, and die of the wound. This terrible gift made the whole company tremble, and everybody fell a-crying.
+
+At this very instant the young Fairy came out from behind the hangings, and spake these words aloud:
+
+“Be reassured, O King and Queen; your daughter shall not die of this disaster: it is true, I have no power to undo entirely what my elder has done. The Princess shall indeed pierce her hand with a spindle; but instead of dying, she shall only fall into a profound sleep, which shall last a hundred years….”
+
+
+
+This is the scene that foreshadows the day when, fifteen years later, the princess does indeed prick her finger and fall into a long sleep … and, well, you know the rest.
+
+To use a more contemporary example, consider the tender and funny New York Times bestseller The Storied Life of A.J. Fikry. In the opening scene, thirty-one-year-old book saleswoman Amelia Loman is stepping off the ferry to Alice Island, on her way to her first meeting with A.J. Fikry, owner of Island Books. She takes a call from Boyd, her latest “online dating failure,” determined to let him down gently; only he’s insulting, apologetic, and finally, weepy. Finally, she tells him that it would never work out because he’s “not much of a reader.” She hangs up and remembers her mother’s warning that “novels have ruined Amelia for real men.” And as she nearly walks right past the purple Victorian cottage that is Island Books, Amelia worries that her mother might be right.
+
+In this scene, the foreshadowing is subtle but clear: Amelia needs a man who reads, and she’s about to meet one who may seem unsuitable in nearly every other way save that one … but still, the possibility for romance is there. Note: This moving novel is a book lover’s delight—if you haven’t read it, you should because it’s not only a great read but also a crash course in the business of book publishing. Not to mention that Fikry’s hilariously genuine rant on books he will and won’t sell in his independent bookshop is worth the price of the book alone.
+
+
+
+
+
+Start with the Scene that Sets Up the Story Idea
+
+
+We’ve seen this one a million times. Think of the opening scene of the original Star Wars, in which Princess Leia hides the plans for the Death Star in R2-D2, setting up the story idea, which is about how farm boy Luke Skywalker becomes a Jedi Knight, learns to trust the Force, and destroys the Death Star.
+
+In murder mysteries, the opening scene is often the murder itself, setting up the main action of the story, which is the sleuth’s search for the killer. For example: Tony Hillerman’s Hunting Badger opens with an armed robbery at the Ute Casino, in which the bad guys kill the casino’s security boss and wound a deputy sheriff moonlighting as a casino guard. The next scene opens with series hero Sergeant Jim Chee of the Navajo Tribal Police back from vacation and hoping the FBI are right when they say the fugitives are long gone—only to be dragged into the investigation when his fellow officer Bernie Manuelito asks him to help clear the wounded sheriff, who’s suspected of being the inside man on the heist. And the game is afoot.
+
+Other stories may begin this way as well. In Jeannette Walls’s shattering memoir The Glass Castle, she opens with a scene that begins with the unforgettable line, “I was sitting in a taxi, wondering if I had overdressed for the evening, when I looked out the window and saw Mom rooting through a Dumpster.” She goes on to describe this encounter with her mother, setting up the rest of the novel, which tells the unsettling story of her harrowing childhood, beginning at the age of three.
+
+“If you say in the first chapter that there is a rifle hanging on the wall, in the second or third chapter, it absolutely must go off. If it’s not going to be fired, it shouldn’t be hanging there.”
+
+—Anton Chekhov
+
+
+
+
+
+Too Much, Too Soon
+
+
+Even when you’ve got an opening scene that either sets up, foreshadows, or introduces your big story idea, that scene can still fail to capture the reader’s attention. One of the main reasons so many opening scenes fail is because the writer tries to tell too much about the story too soon.
+
+Tell is the critical word here. The writer is telling—rather than showing—us the story. Many scenes are overburdened with backstory, description, and the characters’ inner monologue, which leaves little room for the action that should be driving the story forward.
+
+Remember: What the readers need to know to read the story is not what you needed to know to write it. Because the beginning is usually the first part of the story that you commit to paper, you are just getting to know your characters, setting, plot, and themes. You’re exploring your characters’ voices and histories, your setting’s idiosyncrasies, your plot’s twists and turns and detours and dead ends, your themes’ nuances and expressions. You’re thinking on paper, stretching your way into your story, and that stretching is a critical part of the writing process, but just as stretching before you run is paramount, it’s not part of the run itself. It’s preparation.
+
+So you need to go through and trim the parts of your opening that are obscuring the action so you can get to your big story idea sooner. You need to prune back your writing so that the inherent drama of your story idea is highlighted.
+
+If you’re finding it difficult to edit your work, then try this trick. Print out your opening pages, and go through them, marking up the text in different colors to distinguish between backstory, description, and inner monologue. If you prefer to do this on the computer, you can use the “text highlight color” function in Microsoft Word to mark up your story.
+
+Backstory Backstory is wherever you talk about what happened in the past, before the present action of your opening scene began—childhood memories, past relationships, etc. Mark these lines/paragraphs/sections in blue.
+
+Description These are the lines/paragraphs/sections where you describe your setting, expound on theme, detail backstory, etc. Mark these lines in pink.
+
+Inner monologue These are the parts where you record your character’s thoughts and feelings. Mark them in yellow, and underline the sections in which your character is alone as well.
+
+
+
+I know that you’re tempted to skip this exercise. But don’t. Once you finish marking up your hard copy or highlighting your file, you only have to flip or scroll through it to know where you should edit your opening scene. This is one of the most useful exercises you’ll ever do and the one my students, clients, and writing friends always most applaud me for. Note: There are variations on this exercise that can prove equally useful; we’ll discuss those in chapter eight.
+
+
+
+
+
+Turn to Page Fifty
+
+
+For many writers, this warmup part of the writing process lasts about fifty pages (or around the 12,500- to 18,750-word mark). That’s why I say to writers whose openings are slow, boring, obtuse, or otherwise unengaging: What happens on page fifty of your story?
+
+Page fifty is where many stories truly begin. Turn to page fifty in your story, and see what’s happening there. What’s your protagonist up to? How does that relate to your story idea? Don’t be surprised if this is where your story really begins. And don’t be reluctant to toss out those first forty-nine pages of stretching if that’s what it takes to get your run off to a good start.
+
+
+
+“What lasts in the reader’s mind is not the phrase but the effect the phrase created: laughter, tears, pain, joy. If the phrase is not affecting the reader, what’s it doing there? Make it do its job, or cut it without mercy or remorse.”
+
+
+
+—Isaac Asimov
+
+
+
+
+
+Pacing/Emotion/Narrative Thrust
+
+
+As we’ve seen, to keep the reader reading, you need to engage that reader, and that requires using all of the tools and techniques at your command. That is, you must juggle all of the elements of fiction—action and dialogue, character and conflict, voice and point of view, setting and theme—while fueling your story with enough narrative thrust to keep up the pace. Most important, you need to make the reader care deeply enough about your hero and his predicament to want to find out what happens next.
+
+
+
+
+
+Beware the Chunk
+
+
+Many beginning writers are lousy jugglers. Indeed, a lot of beginning writers don’t even try to juggle the many elements of fiction all at once. They simply throw one ball at a time up in the air and catch it. They write a chunk of description, toss it, and catch it. Then they write another chunk that’s all backstory, toss that one up in the air, and catch that chunk. One by one, they toss up chunks of dialogue, inner monologue, description, and setting into the air.
+
+This is not juggling. This is playing catch with yourself—a relatively easy task that requires very little craft. Juggling, on the other hand, requires great craftsmanship. Keeping all those different balls in the air is a very tricky business, and the very best jugglers don’t just juggle balls; they juggle knives, plates, and even flaming torches.
+
+You need to be a master juggler, dazzling the reader with your ability to keep all those elements in the air in one continuous stream of story. New York Times best-selling thriller writer Harlan Coben is a master juggler. Let’s look at the opening line of his bestseller Promise Me and see how he keeps his knives, plates, and flaming torches in the air.
+
+The missing girl [character, description, backstory, suspense, the reader is worried already]—there had been unceasing news reports, always flashing to that achingly ordinary school portrait of the vanished teen, you know the one, with the rainbow-swirl background, the girl’s hair too straight, her smile too self-conscious, then a quick cut to the worried parents on the front lawn, microphones surrounding them, Mom silently tearful, Dad reading a statement with quivering lip [backstory, character, setting, description, inner monologue, suspense, conflict, the reader’s lip is quivering, too]—that girl, that missing girl, had just walked past Edna Skylar [action, character, conflict, suspense, the reader is relieved and intrigued at the same time].
+
+
+
+Now that’s juggling—and that’s just the first line of Coben’s story.
+
+
+
+
+
+Juggle This!
+
+
+Good storytelling is a juggling act that you must sustain line by line, scene by scene, and act by act. We’ve examined many story openings here thus far, but now, let’s take a close look at an entire opening scene. We’ll consider the process by which it was conceived and examine it line by line.
+
+
+
+
+
+A Case Study: Spare These Stones
+
+
+
+
+My first published novel, now long out of print, was a young-adult mystery novel called Emerald’s Desire, published by Harper in 1995. I’ve always wanted to write another mystery, but somehow I wrote nearly everything else. I suffered through a couple of false starts, but ultimately I never got around to finishing another crime story. In fact, I was busy plotting a women’s fiction story when a number of random things converged in the divergent thinking function of my brain, compelling me to write a mystery:
+
+At the New England Crime Bake, one of my favorite editors asked me why I didn’t write mysteries if I loved them so much.
+
+I volunteered at Leo Maloney’s fundraiser for the Mission K9 Rescue, a nonprofit organization devoted to rescuing, rehabilitating, and finding forever homes for retired military working dogs.
+
+I met a number of swell working dogs and their handlers from the military and law enforcement.
+
+I corresponded with the lovely, dedicated women who ran the nonprofit organization, one of whom had been a dog handler in the military.
+
+I became obsessed with military working dogs and read everything I could about them.
+
+I was reading up on Shakespeare and came across a line from his epitaph, "spares these stones," in reference to a grave and bones.
+
+I adopted another dog, an abandoned, adorable Newfie-retriever mix from Alabama named Bear.
+
+I went to Las Vegas and hiked up Mount Charleston with my family.
+
+I went to Vermont and trekked around the Lye Brook Wilderness.
+
+I ran across the story of a teenage boy out hunting with his grandfather, who found a newborn baby wrapped in a towel in the woods.
+
+
+
+All of a sudden I had a story idea, one I knew that could sustain a book-length narrative—and my own sputtering attention span—and I had to write it. Let’s take a look at the opening scene of my work-in-progress, Spare These Stones, and break it down into the elements (and reader’s reactions) that help make it work. Look for the comments in italics found in the brackets.
+
+Spare These Stones [title in keeping with the genre]
+
+By Paula Munier
+
+“Good friend for Jesus' sake forbeare
+
+To dig the dust enclosed here.
+
+Blessed be the man that spares these stones,
+
+And cursed be he that moves my bones."
+
+—William Shakespeare (epitaph) [builds on title and speaks to theme]
+
+The woods were blessedly cool, even in July [setting, character, reader wonders why “blessedly,” why does the narrator hate heat?]. The northern hardwoods of the Southern Green Mountains were in full summer leafing, towering birches and beeches and maples draping the forest in shade [time, place, setting]. After several years in the desolate white heat of the Afghanistan desert, Elvis and I loved the gelid greens and blues and silvers of the trees [character, backstory, the reader sympathizes with the characters and is intrigued by Elvis]. We welcomed the soft sweep of moss and lichens and pine needles beneath our feet, the warble of wrens and the skittering of squirrels, the crisp scent of mountain air breathed in and out, in and out, in and out [setting, character, description, the reader worries that this calm may be shattered].
+
+This was our happy place [setting, suspense, the reader is getting a terrible feeling it won’t be a happy place for long]. The place where we could leave the hot, whirling sands of war behind us [setting, character, backstory, suspense, conflict]. After that last deployment, the one where I got shot and Elvis got depressed, we’d both been sent home [backstory, character, conflict, the reader’s sympathy and anxiety grows]. It took me a year to track down the Belgian shepherd—think German shepherd, only sleeker and smarter—and another three months to talk the private contractor into letting me adopt him [character, backstory, inner monologue, add admiration to the reader’s feelings about the character]. But in the end, Elvis and I prevailed—and entered retirement together [character, backstory]. Two former military police—one thirty-three-year-old two-legged female Vermonter with an exit wound scar blighting her once perfect ass and one handsome six-year-old four-legged male Malinois with canine PTSD—reclaiming our minds and bodies and souls in the backwoods, one hike at a time [character, description, voice, setting, the reader is pulling for both of these wounded warriors now]. U.S. Army Sergeant Mercy Carr and Military Working Dog Elvis reporting for permanent R&R [character, backstory, suspense, now the reader is frightened for Mercy and Elvis because the reader knows that something is going to happen to ruin their R&R].
+
+Today was the Fourth of July [time, setting, irony the reader won’t miss]. The holiday I once loved most [character, backstory, inner monologue]. But now Elvis and I spent every Independence Day independent of the trappings of civilization

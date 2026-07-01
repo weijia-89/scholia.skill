@@ -1,0 +1,69 @@
+# R-02 practical cards — values-step (P-F)
+pillar_moniker: values-step
+pillar_ids: [P-F]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#values-step
+
+source_ingests:
+  - literature/ingests/kolakowski_2015_single_shy_love_ch06_chapter_ingest.md
+  - literature/ingests/mckay_2013_act_interpersonal_problems_ch03_chapter_ingest.md
+
+cards:
+  - exercise_name: Exploring Your Values
+    steps:
+      - List life domains — relationships, work, health, play — without anxiety-free as ultimate goal (Kolakowski Ch6).
+      - Identify imposed vs authentic values — flag family/cultural partner criteria that conflict with your own (Kolakowski Ch6).
+      - Name relationship values — connection, honesty, playfulness, respect (pillar P-F ELI15).
+      - Choose one small action serving a value even when anxiety is present today (Kolakowski Creating a Values Inventory).
+    cognitive_frame: Values clarification counters an avoidance-organized life — action can precede fear reduction (B02 Ch6 C-B02_CH06-001).
+    observables:
+      - Operator names value before choosing exposure step
+      - Action taken despite anxious cognitions
+      - Avoids black-white happy-vs-anxious framing
+    contraindications:
+      - values used to justify chase or persistence-after-no
+      - send-ready dating scripts labeled as values actions
+    source_anchor: C-B02_CH06-001 · kolakowski_2015_single_shy_love_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#values-step
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Valued Intentions Worksheet
+    steps:
+      - Complete Valued Intentions Worksheet from ACT-IP protocol — who and what matter in interpersonal life (B04 Ch3).
+      - Translate one intention into a weekly homework intention with time boundary (B04 group protocol sessions 4–5).
+      - When schema pain arises — note primary pain vs SCB urge (B04 creative hopelessness → willingness).
+      - Take committed action aligned with intention while carrying schema thought (monsters-on-the-bus link).
+    cognitive_frame: Valued intentions steer exposure — not elimination of anxiety or schema sentences.
+    observables:
+      - Written weekly intention with dated check-in
+      - Operator reports action taken with anxiety present
+    contraindications:
+      - skipping willingness step to force outcome
+      - using values language for impression management
+    source_anchor: C-B04_CH03-001 · mckay_2013_act_interpersonal_problems_ch03_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#values-step
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Creating Your Relationship Inventory
+    steps:
+      - List partner qualities that align with your values — trait match predicts stability over time (Kolakowski Ch6 research note).
+      - Separate anxiety-driven avoidance criteria from authentic preferences (Kolakowski Jonah vignette).
+      - Identify one values-aligned dating step for this week — approach, honesty, or playfulness (pillar practical).
+      - After setback — use worst-case plan tied to values for post-event recovery (B02 Ch7 wire C-B02_CH07-004).
+    cognitive_frame: Relationship inventory is compass for re-entry — not a checklist to optimize performance.
+    observables:
+      - Inventory references values not anxiety avoidance alone
+      - Recovery plan after rejection returns to values not rumination
+    contraindications:
+      - inventory as ranking partners for manipulation
+      - staying in bad match to avoid pool re-entry without values review
+    source_anchor: C-B02_CH06-002 · kolakowski_2015_single_shy_love_ch06_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#values-step
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full

@@ -1,0 +1,205 @@
+# Text slice — ddia_2e_2026_ch04_ingest.md
+# corpus: /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon
+# slug: ddia_2e_2026 · chapter: 04
+# hooks: 6 · route: fan-out
+# DO NOT monolith-read — subagent uses this slice + ingest only.
+
+# Chapter ingest — Designing Data-Intensive Applications 2e, Chapter 4
+
+| Field | Value |
+|-------|-------|
+| slug | ddia_2e_2026 |
+| source_type | textbook_chapter |
+| pdf_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/pdfs/ddia_2e_2026.pdf |
+| text_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/text/ddia_2e_2026.txt |
+| ingest_path | /Users/dubs/Projects/scholia.skill/literature/cs-ai-textbook-canon/ingests/ddia_2e_2026_ch04_ingest.md |
+
+## Bibliographic metadata
+
+| Field | Value |
+|-------|-------|
+| title | Designing Data-Intensive Applications |
+| authors | Martin Kleppmann, Chris Riccomini |
+| edition | 2nd Edition Early Release (2026) |
+| ISBN_print | 9781098119058 |
+| ISBN_electronic | 9781098119065 |
+| publisher | O'Reilly Media |
+| parent_book_title | Designing Data-Intensive Applications, 2nd Edition |
+| chapter_number | 4 |
+| chapter_title | Storage and Retrieval |
+| page_range | not embedded in text export [unverified] |
+
+## scope
+
+Chapter 4 explains **how databases store and retrieve data** (lines 5478–7528)—the storage-engine layer beneath Ch. 3 query models. Major arcs:
+
+1. **OLTP storage** — Bash key-value toy DB; hash indexes; log-structured storage (SSTables, compaction, LSM-trees); B-trees and update-in-place; write amplification; secondary indexes.
+
+2. **OLAP storage** — Column-oriented layouts; compression; sort order; vectorized execution; cloud warehouses (Snowflake, BigQuery, Redshift).
+
+3. **Advanced indexes** — Multidimensional (R-trees, geospatial); **full-text search** (inverted index, postings lists, Lucene/Elasticsearch); **vector embeddings** (semantic search, flat/IVF/HNSW indexes, Faiss/pgvector).
+
+Explicit OLTP vs OLAP split from Ch. 1. **Primary w1 RAG pairing chapter** with `hands_on_llms_2024` Ch. 8 and `ai_engineering_2025` Ch. 6. [verified, lines 5478–7528]
+
+## key_findings
+
+1. **Two DB jobs** — Persist writes; return on read; model (Ch. 3) vs engine (Ch. 4) separation. [verified, 5502–5520]
+
+2. **Workload-specific engines** — OLTP small fast reads/writes vs OLAP large scans. [verified, 5521–5533]
+
+3. **Append-only log KV** — `db_set`/`db_get` Bash example; O(n) get; motivates indexes. [verified, 5537–5557]
+
+4. **Hash indexes** — In-memory map; segment files; compaction; size limits. [verified, 5560+]
+
+5. **SSTables** — Sorted string tables; merge compaction; sparse in-memory index. [verified, 5650+]
+
+6. **LSM-trees** — Memtable + WAL; flush to SSTable; leveled vs tiered compaction; RocksDB/Cassandra/HBase lineage. [verified, 5780+]
+
+7. **B-trees** — Fixed-size pages; in-place update; WAL; better read latency vs LSM write throughput trade-off. [verified, 5924+]
+
+8. **Secondary indexes** — Duplicate keys; multi-column/concatenated indexes; covering indexes. [verified, 6100+ range]
+
+9. **Column-oriented OLAP** — Row vs column layout; compression (run-length, dictionary); vectorized processing. [verified, 6462+]
+
+10. **Cloud warehouses** — Separated storage/compute; managed scaling. [verified, 6391+]
+
+11. **Multidimensional indexes** — Concatenated vs true multi-column; R-trees/Bkd-trees for geo. [verified, 6827–6883]
+
+12. **Full-text inverted index** — Term → postings list; bitmap AND; Lucene SSTable-like segments; trigram indexes; Levenshtein automata for fuzzy match. [verified, 6884–6941]
+
+13. **Vector embeddings** — Semantic search beyond keywords; embedding models (Word2Vec, BERT, GPT, multimodal); cosine/Euclidean distance. [verified, 6942–6985]
+
+14. **Vector indexes** — Flat (exact, slow); IVF (partition probes accuracy/latency trade-off); HNSW (layered graph, approximate); Faiss/pgvector implementations. [verified, 7000–7045]
+
+15. **Terminology clash** — "Vector" in vectorized CPU execution vs embedding vectors flagged. [verified, 6960–6967]
+
+16. **OLTP summary trade-off** — Log-structured high write throughput; B-trees better reads. [verified, 7047–7086]
+
+## coverage_attestation
+
+| Section | Status | Text anchor |
+|---------|--------|-------------|
+| Opener | read | 5478–5534 |
+| Storage and Indexing for OLTP | read | 5535–6368 |
+| Log-Structured Storage | read | 5637–5923 |
+| B-Trees | read | 5924–6368 |
+| Data Storage for Analytics | read | 6369–6826 |
+| Column-Oriented Storage | read | 6462–6826 |
+| Multidimensional and Full-Text Indexes | read | 6827–6941 |
+| Vector Embeddings | read | 6942–7046 |
+| Summary + references | read | 7047–7528 |
+| Chapter 5 opener | **deferred** | 7529+ |
+| Chapters 8–13 | **unavailable** | early release |
+
+- **Lines read:** 5478–7528
+- **wrong_file_flag:** false
+
+## pedagogy
+
+### learning_objectives
+
+- Contrast LSM-tree vs B-tree trade-offs for OLTP workloads
+- Explain inverted indexes for keyword search
+- Describe vector embedding search pipeline and ANN index families
+- Relate column stores to analytics scan efficiency
+- Select index types for geo, text, and semantic queries
+
+### worked_examples_present
+
+**Y**
+
+| Example | Skill taught | Anchor |
+|---------|--------------|--------|
+| Bash `db_set`/`db_get` | Baseline KV without index | 5537–5557 |
+| Restaurant lat/long SQL | Multi-dimensional query need | 6847–6862 |
+| "red apples" bitmap AND | Inverted index intersection | 6901–6917 |
+| Agriculture vs star schema embeddings | Vector distance intuition | 6969–6974 |
+| Figure 4-11 HNSW layers | ANN search walkthrough | 7024–7039 |
+
+### exercise_hooks
+
+| ID | Prompt summary | Operator extension | Anchor |
+|----|----------------|-------------------|--------|
+| 4.STOR-1 | Bash KV → LSM sketch | Implement segment merge; measure get latency | 5537–5780 |
+| 4.FTS-1 | Mini inverted index | Build term→doc bitmap; AND two terms | 6884–6917 |
+| 4.VEC-1 | Flat vs HNSW recall@k | Same embeddings; sweep probes/layers | 7000–7045 |
+| 4.RAG-PAIR-1 | BM25 + vector stack | Pair with HOTL Ch.8: DDIA index theory + HOTL implementation | 6884–7045 |
+| 4.OLAP-1 | Column vs row scan | Compare bytes read on aggregate query | 6462+ |
+
+## Operator hooks
+
+### 1. Foundation layer (w2_systems_llm) — **RAG pair (w1)**
+
+Chapter 4 is the **storage/index canon for RAG retrieval**:
+
+- **Inverted index / BM25 lineage** — underlies sparse retrieval in AIE Ch. 6
+- **Vector embeddings + IVF/HNSW** — underlies dense retrieval; same ANN families as FAISS/Hnswlib in AIE
+- **OLTP vs OLAP** — separates transactional app DB from analytics/embedding batch jobs
+
+**Mandatory pair:** `hands_on_llms_2024_ch06_ingest` (prompting) + **`hands_on_llms_2024` Ch. 8 RAG** (implementation) + `ai_engineering_2025_ch06_ingest` (production architecture). DDIA Ch. 4 = **why indexes work**; HOTL/AIE = **how to wire them**.
+
+### 2. MDCalc alignment
+
+**[none]** — Pattern-portable: auditability of retrieval indexes; approximate ANN recall risk in clinical search would need validation.
+
+### 3. Redundancy
+
+| Overlap with | Relationship |
+|--------------|--------------|
+| `ai_engineering_2025` Ch. 6 | AIE: BM25, hybrid, HNSW, IVF, PQ at app layer; DDIA: storage-engine origins, Lucene internals |
+| `hands_on_llms_2024` Ch. 8 | HOTL: LangChain/FAISS code; DDIA: formal index structures |
+| `grokking_algorithms_2e_2024` | k-NN intuition; DDIA production ANN detail |
+| `understanding_distributed_systems_2022` | UDS light on storage; DDIA owns |
+
+**Dedup rule:** DDIA Ch. 4 for **index internals and OLTP/OLAP layout**; AIE for **RAG system design**; HOTL for **notebooks**.
+
+### 4. Scholia fit
+
+| Criterion | Assessment |
+|-----------|------------|
+| Worked examples | Strong — Bash KV through HNSW |
+| RAG relevance | **Flagship** for w2_systems_llm |
+| Child-skill potential | `scholia.inverted-index-basics`, `scholia.hnsw-vs-ivf-tradeoff` |
+
+## TEXTBOOK-Q1 quality gate
+
+| Criterion | Result |
+|-----------|--------|
+| Edition currency | **PASS** — 2e adds vector section (2e delta vs 1e) |
+| Author authority | **PASS** |
+| Citation density | **PASS** — LSM, B-tree, Lucene, Faiss, Word2Vec/BERT |
+| Contested claims | **PASS** — ANN approximate results noted |
+| Worked examples | **PASS** |
+
+### Contested claims
+
+| Claim | Flag |
+|-------|------|
+| B-tree vs LSM rule of thumb | Workload-dependent |
+| IVF/HNSW accuracy vs speed | Approximate; probe-dependent |
+
+**TEXTBOOK-Q1 verdict:** **PASS** — priority ingest for RAG stack.
+
+## Glossary (chapter-local)
+
+| Term | Definition per text |
+|------|---------------------|
+| SSTable | Sorted String Table; immutable sorted file |
+| LSM-tree | Log-structured merge tree; memtable + SSTables |
+| B-tree | Page-oriented update-in-place index |
+| Inverted index | Term → list of document IDs |
+| Postings list | Document IDs containing a term |
+| Vector embedding | Dense float vector representing semantics |
+| IVF | Inverted file index; cluster partitions |
+| HNSW | Hierarchical navigable small world graph index |
+
+## Reciprocal index pointers
+
+- Prerequisites: Ch. 1 OLTP/OLAP, Ch. 3 models
+- Forward: Ch. 5 encoding on wire (7529+), Ch. 7 sharding postings lists (11679+)
+- Pair: `literature/cs-ai-textbook-canon/ingests/hands_on_llms_2024_ch06_ingest.md` (prompting) + AIE ch06 (RAG architecture)
+- Ch. 8–13 **[unavailable]**
+
+
+[NOTE: full text slice unavailable — use ingest + coverage_attestation]
+

@@ -1,0 +1,1682 @@
+06_locker_2012_prof_writing_w231_ch03_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: locker_2012_prof_writing_w231
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/06_locker_2012_prof_writing_w231_ch03_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/06_locker_2012_prof_writing_w231_ch03.txt)
+NOTE: Chapter slice truncated to 119,000 chars (full chapter at source_exports/chapters/06_locker_2012_prof_writing_w231_ch03.txt).
+========================================================================
+
+CHAPTER
+
+
+
+
+Building Goodwill
+
+Gate oc) mOlenaliar=
+You-Attitude                                   Reducing Bias in Business Communication
+  ®    How to Create You-Attitude                ®   Making Language Nonsexist
+  B® You-Attitude beyond the Sentence Level      B   Making Language Nonracist and
+                                                     Nonageist
+Positive Emphasis                                ®   Talking about People with Disabilities
+  ®    How to Create Positive Emphasis               and Diseases
+  ® How to Check Positive Emphasis               ®   Choosing Bias-Free Photos and
+Tone, Power, and Politeness                          itustrations
+
+  ®    Use Courtesy Titles for People You      Summary of Key Points
+       Don’t Know Well
+   ™   Be Aware of the Power Implications of
+       the Words You Use
+                                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+NeEwsworTHY COMMUNICATION
+Restoring Goodwill at Delta
+                                                |
+
+
+            ta
+                                                ere t oy
+
+
+4 A Del                                                 2
+                                                +   .
+
+
+
+
+[=   ection  %
+
+
+
+
+         raveling by air can be a frustrating experi-                            experience. Agents may not be able to solve
+         ence.     High prices, extra fees, delays, and                          all customers’ complaints, but by acknowledg-
+        cancellations can leave a customer feeling                               ing frustration they show that they care and are
+frazzled and angry. After a year in which it had the                             attempting to help.
+highest number of customer complaints, Delta Air                                 = Don’t apologize for the rules. Baggage fees and other
+Lines is trying to change its image by sending all                               expenses have become part of the flying experience.
+11,000 flight agents back to training.                                           Agents should stick to the facts, rather than saying
+Tn      day-long        seminars,         agents            learn   how    to    they agree with angry customers. Michael Hazelton,
+respond to customer complaints and worries with                                  a facilitator for the training classes, said, “You may
+a positive attitude andafocus                                                                                    think you are bonding with the
+on improving the customer’s                                                                                      customer by agreeing the fees
+                              ‘Agents learn how to respond to
+experience.   The    seminars                                                                                    are horrible, but the customer
+                              customer complaints and worries
+include these key points:                                                                             thinks, ‘This person just threw
+                              with a positive attitude and a                                          his company under the bus.””
+= Be positive. The agents are
+                              focus on  improving
+                                          -
+                                                   the customers                                      uw Don't place blame. Cus-
+taught to smile and express         ;
+appreciation for the custom-  experience.                                                             tomers know when they’ve
+ers’ business, especially when                                                                        made poor decisions, such as
+the customers           are unhappy            or when              there are    arriving late or not allowing enough time to get
+problems.                                                                        through airport security. Agents should work to
+= Be honest. If a passenger is late and going to miss                            help the customers and solve problems as much as
+her flight, the agents learn to tell her immediately                              possible.
+and offer to help rebook, rather than encouraging                                     Of course,        better customer     service can’t solve
+her to rush through the airport.                                                  every problem with flying. But at Delta Air Lines,
+= Recognize the customer's feelings. Empathizing                                  they believe that an increased focus on the customer
+with a frustrated customer can make the dif-                                      will improve peoples’ impressions of the flying
+ference between a bad experience and a good                                       experience.
+                                                                               Street Journal, February 3, 2011, D3.
+Source: Scott McCartney, “Delta Sends Its 11,000 Agents to Charm School,” Wall
+PROFESSIONAL WRITING
+
+
+
+
+58                     Part1    The Building Blocks of Effective Messages
+
+
+                       Learning Objectives
+                       After studying this chapter, you will know how to
+
+                                     Create you-attitude.
+                                     Create positive emphasis.
+
+                                     Improve tone in business communications.
+
+                                     Reduce bias in business communications.
+
+
+
+
+                       Goodwill smooths the challenges of business and administration. Companies
+                       have long been aware that treating customers well pays off in more sales and
+                       higher profits.
+
+                         =     Amazon’s corporate mission says “We seek to be Earth’s most customer
+                               centric company for three primary customer sets: consumer customers,
+                               seller customers and developer customers.” Jeff Bezos, Amazon’s founder
+                               and CEO, has a video on YouTube entitled “Everything I Know.” It has
+                               three points: obsess over customers, invent on behalf of customers, and
+                               think long term, because doing so allows you to serve customers better.!
+                         =     Tony Hsieh built Zappos around customer service, including a service
+                               attitude for their vendors.
+                         =     Linda Thaler and Robin Koval built the Kaplan Thaler Group into an
+                               advertising agency with nearly $1 billion in billings using goodwill,
+                               you-attitude, and positive tone.”
+                         =     A study by Vanderbilt University found that a portfolio of companies
+                               whose ACSI (American Consumer Satisfaction Index) scores were
+                               above the national average far outperformed the market. Over a 10-year
+                               period, the portfolio gained 212%; the Standard & Poor 500-stock index
+                               rose 105% over the same period.
+
+                           Goodwill is important internally as well as externally. More and more orga-
+                        nizations are realizing that treating employees well is financially wise as well
+                        as ethically sound. Happy employees create less staff turnover, thus reducing
+                        hiring and training costs. A University of Pennsylvania study of 3,000 com-
+                        panies found that investing 10% of revenue on capital improvement boosted
+                        company productivity 3.9%, but spending the money on employees increased
+                        productivity 8.5%, or more than twice as much.*
+                           You-attitude, positive emphasis, and bias-free language are three ways to
+                        help build goodwill. Messages that show you-attitude use the audience’s point
+                        of view, not the writer’s or speaker’s. Positive emphasis means focusing on the
+                        positive rather than the negative aspects of a situation. Bias-free language does
+                        not discriminate against people on the basis of sex, physical condition, race,
+                        ethnicity, age, or any other category. All three help you achieve your purposes
+                        and make your messages friendlier, more persuasive, more professional, and
+                        more humane. They suggest that you care not just about money but also about
+                        the needs and interests of your customers, employees, and fellow citizens.
+
+
+                        YOU-ATTITUDE
+                        Putting what you want to say in you-attitude is a crucial step both in think-
+                        ing about your audience’s needs and in communicating your concern to your
+                        audience.
+                                                             Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                Chapter 3   Building Goodwill                                           59
+
+
+                                                                                                                Customer Service
+How to Create You-Attitude                                                                                      Becoming Popular
+You-attitude is a style of communication that looks at things from                                   =          with Businesses
+
+the audience’s point of view, emphasizing what the audience wants                                         Zz More companies are
+to know, respecting the audience’s intelligence, and protecting the audi-                            improving customer service to
+ence’s ego.                                                                                          increase both sales and market
+   To apply you-attitude on a sentence level, use the following techniques:                          share,
+                                                                                                       Walgreens is training pharma-
+                                                                                                     cists to work more closely with
+     Talk about the audience, not about yourself.                                                    patients with chronic illnesses
+     Refer to the customer’s request or order specifically.                                          such as diabetes. Pharmacists
+     Don’t talk about feelings, except to congratulate or offer sympathy.                            are replacing their normal 3- to
+                                                                                                     5-minute meetings with regular
+ ie
+ pes
+ EUS)In positive situations, use you more often than I. Use we when it                               20- to 45-minute patient meet-
+     includes the audience.                                                                          ings to help them manage their
+ 5. In negative situations, avoid the word you. Protect the audience's ego.                          disease.
+     Use passive verbs and impersonal expressions to avoid assigning                                    American Express is. training
+     blame.                                                                                          call-center agents to focus on
+                                                                                                      building customer loyalty rather
+                                                                                                     than processing the call quickly.
+   Revisions for you-attitude do not change the basic meaning of the sentence.                          Even Comcast, which has had
+However, revising for you-attitude often makes sentences longer because the                           well-publicized  problems with
+revision is more specific and has more information. Long sentences need not                           customer service, is giving its
+be wordy. Wordiness means having more words than the meaning requires.                                24,000 call-center agents addi-
+We can add information and still keep the writing concise.                                            tional training.
+
+                                                                                                     Adapted from Dana Mattioli, “Cus-
+
+4. Talk about the audience, not about yourself. Your audience wants
+                                                                                                     tomer Service as a Growth Engine,”
+                                                                                                     Wall Street Journal, June 7, 2010, B6.
+to know how they benefit or are affected. When you provide this information,
+you make your message more complete and more interesting.
+   Lacks you-attitude:    We have negotiated an agreement with Apex Rent-a-Car that gives
+                          you a discount on rental cars.
+
+   You-attitude:          As a Sunstrand employee, you can now get a 20% discount when
+                          you rent a car from Apex.
+
+
+2. Refer to the customer's request or order specifically. Refer to the
+customer’s request, order, or policy specifically, not as a generic your order or
+your policy. If your customer is an individual or a small business, it’s friendly to
+specify the content of the order. If you’re dealing with a company with which
+you do a great deal of business, give the invoice or purchase order number.
+   Lacks you-attitude:    Your order...
+   You-attitude
+   (to individual):       The desk chair you ordered . . .
+   You-attitude
+   (to a large store):    Your invoice #783329 .      .
+
+
+
+ 3. Don’t talk about feelings, except to congratulate or offer sympathy.                        In
+ most business situations, your feelings are irrelevant and should be omitted.
+    Lacks you-attitude:   We are happy to extend you a credit line of $10,000.
+   You-attitude:          You can now charge up to $10,000 on your American Express card.
+
+    It is appropriate to talk about your own emotions in a message of congratu-
+ lations or condolence.
+    You-attitude:         Congratulations on your promotion to district manager! | was really
+                          pleased to read about it.
+PROFESSIONAL WRITING
+
+
+
+
+                                      Part1      The Building Blocks of Effective Messages
+
+
+           Exercising Empathy            Don’t talk about your audience’s feelings, either. It’s distancing to have oth-
+           for Employees and          ers tell us how we feel—especially if they are wrong.
+           Customers
+                                         Lacks you-attitude:        You'll be happy to hear that Open Grip Walkway Channels meet
+            Although the concept                                    OSHA requirements.
+of happy employees leading to
+happy customers is not new, it           You-attitude:              Open Grip Walkway Channels meet OSHA requirements.
+is experiencing a resurgence in
+                                      Maybe the audience expects that anything you sell would meet government
+many different industries. For
+example, call centers are allow-
+                                      regulations (OSHA—the Occupational Safety and Health Administration—is
+ing seasoned employees to work        a federal agency). The audience may even be disappointed if they expected
+at home while a grocery chain is      higher standards. Simply explain the situation or describe a product's fea-
+giving employees a profit-sharing     tures; don’t predict the audience’s response.
+plan that rewards them for excel-        When you have good news, simply give the good news.
+lent customer service.
+                                         Lacks you-attitude:        You'll be happy to hear that your scholarship has been renewed.
+  Companies are finding creative
+ways to help employees iden-             You-attitude:              Congratulations! Your scholarship has been renewed.
+tify with customers. USAA, an
+insurance agency for the military,    4. In positive situations, use you more often than /. Use we when it
+provides new employees with
+                                      includes the audience. Talk about the audience, not you or your company.
+MREs (meals ready to eat) dur-
+ing orientation so they will bet-         Lacks you-attitude:       We provide health insurance to all employees.
+ter understand the lifestyle of the                                 You      receive   health   insurance   as a full-time   Procter   & Gamble
+                                         You-attitude:
+members they serve.
+                                                                    employee.
+  Cabela’s, an outdoor outfitter,
+encourages employees to use              Most readers are tolerant of the word I in e-mail messages, which seem
+products they sell by loaning         like conversation. But edit paper documents to use I rarely if at all. I sug-
+items free of charge in exchange
+                                      gests that you're concerned about personal issues, not about the organiza-
+for writing reviews on a company
+                                      tion’s problems, needs, and opportunities. We works well when it includes
+system. The loans are good perks
+for employees, and they help staff
+                                      the reader. Avoid we if it excludes the reader (as it would in a letter to a cus-
+understand the issues customers       tomer or supplier or as it might in a memo about what we in management
+may have with the products.           want you to do).
+  At    Four   Seasons      Hotels,
+employees receive free overnight      5. In negative situations, avoid the word you. Protect your audience's
+stays and meals at the hotel for      ego. Use passive verbs and impersonal expressions to avoid assigning
+themselves and a guest. They          blame. When you report bad news or limitations, use a noun for a group of
+gain a customer’s perspective on      which your audience is a part instead of you so people don’t feel that they're
+the hotel, but they also grade the
+                                      singled out for bad news.
+hotel on various services.
+  The     companies      exercising       Lacks you-attitude:           You must get approval from the director before you publish any arti-
+empathy for employees and cus-                                          cles or memoirs based on your work in the agency.
+tomers believe their customer
+                                          You-attitude:                 Agency personnel must get approval from the director to publish any
+service helps set them apart from
+                                                                        articles or memoirs based on their work at the agency.
+other organizations.
+
+Adapted from Jena McGregor, “Cus-
+                                          Use passive verbs and impersonal expressions to avoid blaming people.
+tomer Service Champs,” Business-       Passive verbs describe the action performed on something, without necessar-
+Week, March 5, 2007, 52.               ily saying who did it. (See Chapter 5 for a full discussion of passive verbs.) In
+                                       most cases, active verbs are better. But when your audience is at fault, passive
+                                       verbs may be useful to avoid assigning blame.
+                                          Impersonal expressions omit people and talk only about things. Normally,
+                                       communication is most lively when it’s about people—and most interesting
+                                       to audiences when it’s about them. When you have to report a mistake or
+                                       bad news, however, you can protect your audience’s ego by using an imper-
+                                       sonal expression, one in which things, not people, do the acting.
+                                              Lacks you-attitude:                      You made no allowance for inflation in your estimate.
+                                              You-attitude (passive):                  No allowance for inflation has been made in this estimate.
+                                              You-attitude (impersonal):               This estimate makes no allowance for inflation.
+                                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                                 Chapter3      Building Goodwill                                      61
+
+
+                                                                                                                                  You-Attitude with
+                                                                                                                                  International
+                                                                                                                                  Audiences
+
+                                                                                                                                 When you communi-
+                                                                                                                                 cate with international
+                                                                                                                    audiences, look at the world from
+                                                                                                                    their point of view.
+                                                                                                                      The United States is in the mid-
+                                                                                                                    dle of most of the maps sold in
+                                                                                                                    the United States. It isn’t in the
+                                                                                                                    middle of maps sold elsewhere in
+                                                                                                                    the world.
+                                                                                                                       The United States clings to a
+                                                                                                                     measurement system that has
+                                                                                                                     been abandoned by most of the
+                                                                                                                    world. When you write for inter-
+                                                                                                                     national audiences, use the met-
+                                                                                                                    ric system.
+                                                                                                                      Even pronouns and direction
+                                                                                                                    words need attention. We may
+                                                                                                                    not feel inclusive to readers with
+                                                                                                                    different assumptions and back-
+                                                                                                                    grounds. Here won’t mean the
+                                                                                                                    same thing to a reader in Bonn as
+                                                                                                                    it does to one in Boulder.
+
+
+
+
+Hallmark is producing a new line of cards for common situations such as depression or
+chemotherapy. For example, “Get Well Soon,” is not appropriate for someone who is bat-
+tling cancer. Hallmark has changed the tone of their Journey’s Collection to reflect the
+needs of their dual audiences—buyers and receivers of cards.
+                                                                                February 19, 2007, sec. Business.
+Source: David Twiddy, “Hallmark Tackles Real-Life Situations,” Chicago Tribune,
+
+
+
+
+   A purist might say that impersonal expressions are illogical: An estimate,
+for example, is inanimate and can’t “make” anything. In the pragmatic world
+of business writing, however, impersonal expressions help you convey criti-
+cism tactfully.
+
+
+You-Attitude beyond the Sentence Level
+Good messages apply you-attitude beyond the sentence level by using content
+and organization as well as style to build goodwill.
+  To create goodwill with content,
+
+  =    Be complete. When you have lots of information to give, consider put-
+       ting some details in an appendix, which may be read later.
+  =    Anticipate and answer questions your audience is likely to have.
+       Show why information your audience didn’t ask for is important.
+  =    Show your audience how the subject of your message affects them.
+PROFESSIONAL WRITING
+
+
+
+
+62                                   Part1       The Building Blocks of Effective Messages
+
+
+Figure 3.1             ALetter Lacking You-Attitude
+
+
+
+
+                                                                                   Ss 450 INDUSTRIAL PARK
+                       $S ] WA] LWA] oO IN|                                           CLEVELAND, OH 44120
+
+                       STRUCTURAL STEEL Fax: (216) 555-4672
+                       December 11, 2012
+
+                       Ms. Carol McFarland
+                       Rollins Equipment Corporation
+                       18438 East Night Hawk Way
+                       Phoenix, AZ 85043-7800                                 xc
+                                                                     o
+                                                                         \S
+
+                       Dear Ms. McFarland:                        \e
+         Not
+        you- <—We are now ready to issue acheck to Rollins Equipment in the amount of
+       attitude        $14 207.02. To receive sai:   ck, you will deliver to me a release of the
+                       mechanic's liens in the amount of $14,207.02. Sounds dictatorial
+                   5                                                                                            Lacks you-attitude
+                  se Before we c                 se the  check,      must be satisfied that the release is in the
+     Foc use?
+            ve                                       eae                            ;   ;              Paes
+      nega"            proper form.         ust insist that we be provided with a stamped original of the
+                       lien indicating the document number in the appropriate district court where it
+                       is filed. Also, either the release must be executed by an officer of Rollins                 Hard to
+                       Equipment, or(wemust be provided with a letter from an officer of Rollins |faad
+                       Equipment authorizing another individual to execute the release. _         remember
+
+                       Please contact the undersigned so that an appointment can be scheduled for
+                       this transaction.      Jargon
+
+                       Sincerely,
+
+                       Kelly. Pickett
+                       Kelly J. Pickett
+
+
+
+
+                                               To organize information to build goodwill,
+
+                                           =     Put information your audience is most interested in first.
+                                           =     Arrange information to meet your audience’s needs, not yours.
+                                           =     Use headings and lists so readers can find key points quickly.
+
+                                             Consider the letter in Figure 3.1. As the red marginal notes indicate, many
+                                          individual sentences in this letter lack you-attitude. Fixing individual sen-
+                                          tences could improve the letter. However, it really needs to be totally rewritten.
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                               Chapter3        Building Goodwill                             63
+
+
+   Figure 3.2 shows a possible revision of this letter. The revision is clearer,
+easier to read, and friendlier.
+
+
+POSITIVE EMPHASIS
+Some negatives are necessary. When you have bad news to give—
+announcements of layoffs, product defects and recalls, price increases—
+straightforward negatives build credibility. (See Chapter 10 on how to present
+bad news.) Sometimes negatives are needed to make people take a problem
+
+Figure 3.2        A Letter Revised to Improve You-Attitude
+
+
+
+
+                  SIMMONS                                                     223283
+                                                                              CLEVELAND, OH          44120
+
+                                        eic)ss:555-4672
+                                   Fax (216)
+                  STRUCTURAL STEEL FAX:
+                  December 11, 2012
+
+
+                  Ms. Carol McFarland
+                  Rollins Equipment Corporation
+                  18438 East Night Hawk Way
+                  Phoenix, AZ 85043-7800                                          ca @i?ow
+                                                                      yi     eC ar?
+                                                                   cite    ‘\iarare)
+                  Dear Ms. McFarland:                        CHO            ofS
+                                                                   ia oo"
+                                                                     {
+     coos it      Let's clear up the lien in the Allen contract.
+             wh
+       ial
+      a ai@       Rollins will receive a check for $14,207.02 when you give us a release for the
+              €   mechanic's lien of $14,207.02. To assure us that the release is in the proper form, .            es it
+                                                                                                                   a
+                                                                                                             List Moe that
+                                                                                                  asy 1°  to do
+                      1. Give us a stamped original of the lien indicating the document's district,
+                         court number, and                                                   Ss adet     andbs
+
+                      2. Either                                                                              the sone in
+                         a. Have an officer of Rollins Equipment sign the release                               ae way
+                                  or
+                          b. Give usa letter from a Rollins officer authorizing someone else to sign
+                             the release.
+                                                .      .                           m       pasizes
+                   Please call me to tell me which way is best for you. © i der's
+                                                                                           hoice
+                   Sincerely,                                                          g
+
+                   Kelly). Dichelt                     oe
+                                          ‘on numb
+                   Kelly J. Pickett Extensor ead! fo phone
+                   Extension 5318! easy for
+
+ e
+ Le gn ee’                                                                                                                   |
+PROFESSIONAL WRITING
+
+
+
+
+                                               Part1      The Building Blocks of Effective Messages
+
+
+                   Defining Allowable          seriously. In some messages, such as disciplinary notices and negative per-
+Pad                Negatives                   formance appraisals, one of your purposes is to make the problem clear. Even
+                   The Des Moines Regis-       here, avoid insults or attacks on your audience’s integrity or sanity.
+      =                               7
+                   ter issued the following       Sometimes negatives create a “reverse psychology” that makes people look
+ standards for contributors to its             favorably at your product. German power tool manufacturer Stihl advertises
+ electronic forum:                             that its chain saws and other tools are not sold by chains like Lowe’s or Home
+ “(The Des Moines Register’s] new              Depot. Instead, the company emphasizes that its products are sold through
+ updated standards make the distinc-
+                                               independent retailers. While the campaign risks offending potential custom-
+                                               ers by implying that shopping at big box stores means that they don’t appreci-
+ tion between offensive opinion and
+ offensive approach.
+   We will remove comments including           ate quality, Stihl insists that its high-end products are worth the prices that are
+ these types of specific information or        charged by specialty stores.”
+ language:                                        But in most situations, it’s better to be positive. Researchers have found
+ ®      Libel. In general terms, that          that businesspeople responded more positively to positive than to negative
+        means a comment that includes
+                                               language and were more likely to say they would act ona positively worded
+                                               request.° In ground-breaking research for Met Life, Martin Seligman found
+        a false statement of fact that
+        actually harms a person's reputa-
+        tion (as opposed to insulting or       that optimistic salespeople sold 37% more insurance than pessimistic col-
+        offending them).                       leagues. As a result, Met Life began hiring optimists even when they failed
+ =      Sexually explicit or crude sexual      to meet the company’s other criteria. These “unqualified” optimists outsold
+        comments about someone.                pessimists 21% in their first year and 57% in the next.’
+ ®@     Threatening statements or state-          Positive emphasis is a way of looking at things. Is the bottle half empty or
+        ments that suggest violent acts
+                                               half full? You can create positive emphasis with the words, information, orga-
+                                               nization, and layout you choose. “Part-time” may be a negative phrase for
+        against someone.
+ ™      Crude comments about a child.
+                                               someone seeking full-time employment, but it may also be a positive phrase
+                                               for college students seeking limited work hours while they pursue their edu-
+ =      Swearing or obscenity.
+
+                                               cation. It may become even more positive if connected with flexible hours.
+ m      Derogatory phrases to define a
+        group of people.
+ @      Nasty name-calling (language
+        such as “moron” and “white
+        trash”).                                How to Create Positive Emphasis
+    But we will allow opinions some will
+ find offensive.                               Create positive emphasis by using the following techniques:
+    We will allow conversation that is
+ simply strident in tone.
+    We will allow criticism of public                Avoid negative words and words with negative connotations.
+  Officials.                                         Beware of hidden negatives.
+       We will allow criticism of people who
+  are subjects of stories.                           Focus on what the audience can do rather than on limitations.
+    We will allow opinions that some             AOE Justify negative information by giving a reason or linking it to an audi-
+                                                 ge
+                                                 pe
+                                                 I)
+  may find offensive about tough                     ence benefit.
+  social issues around race and sexual
+     orientation,    as long as they don't       5. Put the negative information in the middle and present it compactly.
+     include the kind of specific language
+     | just described.”
+                                                Choose the technique that produces the clearest, most accurate communication.
+     Quoted from Carolyn Washburn, “Invit-
+     ing Robust Conversation, but Spelling
+     Out a Few Rules,” Des Moines Sunday        1. Avoid negative words and words with negative connotations.
+     Register, April 15, 2007.
+                                                Figure 3.3 lists some common negative words. If you find one of these words in
+                                                a draft, try to substitute a more positive word. When you must use a negative,
+                                                use the least negative term that will convey your meaning.
+                                                   The following examples show how to replace negative words with positive
+                                                words.
+                                                       Negative:       We have failed to finish taking inventory.
+                                                       Better:         We haven't finished taking inventory.
+                                                       Still better:   We will be finished taking inventory Friday.
+                                                       Negative:        If you can’t understand this explanation, feel free to call me.
+                                                       Better:          If you have further questions, just call me.
+                                                       Still better:   Omit the’sentence.
+                                                               Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                   Chapter 3   Building Goodwill                                      65
+
+
+                                                                                                               Truly Friendly Skies
+Figure 3.3          Negative Words to Avoid
+eS                                                                                                             United    pilot Denny
+afraid              impossible                 Some dis- words:             Many un- words:                    Flanagan goes out
+ anxious            lacking                    disapprove                   unclear                            of his way to create
+ avoid              loss                       dishonest                    unfair                 goodwill with his passengers and
+ bad                neglect                    dissatisfied                 unfortunate            customers. He takes pictures of
+ careless           never                                                   unfortunately          pets in cargo compartments and
+ damage             no                                                      unpleasant             shows their owners that the pets
+ delay              not                       ’ Many in- words:             unreasonable           are safely onboard. He phones
+ delinquent         objection                   inadequate                  unreliable             the parents of unaccompanied
+ deny               problem                     incomplete                  unsure                 minors to keep them up-to-date
+ difficulty         reject                      inconvenient                                       on delays. He hands out his busi-
+ eliminate          sorry                       insincere                                          ness cards to all passengers, and
+ error              terrible                   injury                                              the lucky ones with his signature
+ except             trivial                                                                        on the back get free books,
+ fail               trouble                                                                        wine, or discount          coupons.
+ fault              wait                       Some mis- words:                                    When his flights are delayed or
+ fear               weakness                   misfortune                                           diverted, he tries to find snacks
+ hesitate           worry                      missing                                              like McDonald’s hamburgers for
+ ignorant           wrong                      mistake                                             his passengers. Before some of
+ ignore                                                                                            his delayed flights he is in the
+                                 RRRRERRRnRN
+eeeee EE EEaEEIISnERRRREEEERREEE                                                                   passenger lounge using his cell-
+                                                                                                   phone to help passengers with
+   Omit double negatives.                                                                          their connections. . . .      3
+                                                                                                     Captain Flanagan says, “I just
+   Negative:        Never fail to back up your documents.                                          treat everyone like it’s the first
+   Better:          Always back up your documents.                                                 flight they've ever flown. . . . The
+                                                                                                   customer deserves a good travel
+   When you must use a negative term, use the least negative word that is                          experience.”
+accurate.                                                                                             One of those customers noted,
+   Negative:        Your balance of $835 is delinquent.                                            “lf other folks in the airline indus-
+                                                                                                   try had the same attitude, it
+   Better:          Your balance of $835 is past due.                                              would go a long way to mitigating
+   Getting rid of negatives has the added benefit of making what you write                         some of the negative stuff that
+
+easier to understand. Sentences with three or more negatives are very hard to
+                                                                                                    has come about in the last four
+                                                                                                    or five years.”
+understand.®
+2. Beware of hidden negatives.        Some words are not negative in                                Quoted from Scott McCartney, “To a
+                                                                                                    United Pilot, The Friendly Skies Are a
+themselves but become negative in context. But and however indicate a                               Point of Pride,” Wall Street Journal,
+shift, so, after a positive statement, they are negative. | hope and I trust                        August 28, 2007, A1, A11. Copyright
+
+that suggest that you aren’t sure. Patience may sound like a virtue, but it
+                                                                                                    © 2007 by Dow Jones & Company,
+                                                                                                    Inc. Reproduced with permission
+is a necessary virtue only when things are slow. Even positives about a                             of Dow Jones & Company, Inc. via
+service or product may backfire if they suggest that in the past the service                        Copyright Clearance Center.
+
+or product was bad.
+   Negative:        | hope this is the information you wanted. [Implication: I’m not sure. |
+   Better:          Enclosed is a brochure about road repairs scheduled for 2012.
+   Still better:    The brochure contains a list of all roads and bridges scheduled for repair
+                    during 2012, specific dates when work will start, and alternate routes.
+    Negative:       Please be patient as we switch to the automated system. (Implication: You
+                    can expect problems.]
+    Better:         If you have questions during our transition to the automated system, call
+                     Melissa Morgan.
+    Still better:    You'll be able to get information instantly about any house on the market
+                     when the automated system is in place. If you have questions during the
+                     transition, call Melissa Morgan.
+    Negative:        Now Crispy Crunch tastes better. [Implication: it used to taste terrible.]
+    Better:          Now Crispy Crunch tastes even better.
+PROFESSIONAL WRITING
+
+
+
+
+66                                         Part1      The Building Blocks of Effective Messages
+
+
+              Truth Can Be                    Removing negatives does not mean being arrogant or pushy.
+              Spoken in Different
+              Ways                            Negative:           | hope that you are satisfied enough to place future orders.
+
+             “One Iranian told a              Arrogant:           | look forward to receiving all of your future business.
+             fable of an ancient              Better:             Whenever you need computer chips, a call to Mercury is all it takes for fast
+king who had an ominous                                           service.
+dream. In the dream the king
+saw himself aged and afflicted,               When you eliminate negative words, be sure to maintain accuracy. Words
+with decaying and falling teeth.           that are exact opposites will usually not be accurate. Instead, use specifics to
+Calling together his court astrol-         be both positive and accurate.
+ogers for an interpretation, the
+shaken king heard the first say,
+                                              Negative:           The exercycle is not guaranteed for life.
+“Your Majesty, | regret to tell you           Not true:           The exercycle is guaranteed for life.
+that the interpretation must be
+                                              True:               The exercycle is guaranteed for 10 years.
+bad. The dream means that you
+will die within a year.” In a rage            Legal phrases also have negative connotations for most readers and should
+the king threw the brash astrolo-          be avoided whenever possible.
+ger out of his court and turned to
+the second man.
+                                           3. Focus on what the audience can do rather than on limitations.       When
+   The second astrologer said,
+“Your Majesty, it is good news,            there are limits, or some options are closed, focus on the alternatives that
+the very best. It means that all           remain.
+your programs and projects will
+                                               Negative:          We will not allow you to charge more than $5,000 on your VISA account.
+ live on after you, and all your
+sons and daughters will survive                Better:            You can charge $5,000 on your new VISA card.
+you.” The king, who was old and               or:                 Your new VISA card gives you $5,000 in credit that you can use at thou-
+ knew he might die soon, never-                                    sands of stores nationwide.
+ theless was pleased with this
+ interpretation and richly rewarded           As you focus on what will happen, check for you-attitude. In the last example,
+ the astrologer.”                          “We will allow you to charge $5,000” would be positive, but it lacks you-attitude.
+                                              When you have a benefit and a requirement the audience must meet to get
+ Quoted from John P. Fieg and John G.
+ Blair, There Is a Difference: 12 Inter-   the benefit, the sentence is usually more positive if you put the benefit first.
+ cultural Perspectives (Washington,
+ DC: Meridian House International,             Negative:           You will not qualify for the student membership rate of $55 a year unless
+ 1975), 83.                                                        you are a full-time student.
+                                               Better:             You get all the benefits of membership for only $55 a year if you're a full-
+                                                                   time student.
+
+
+                                           4. Justify negative information by giving a reason or linking it to an
+                                           audience benefit. Areasoncan help your audience see that the information
+                                           is necessary; a benefit can suggest that the negative aspect is outweighed by
+                                           positive factors. Be careful, however, to make the logic behind your reason
+                                           clear and to leave no loopholes.
+                                               Negative:           We cannot sell individual pastel sets.
+                                               Loophole:           To keep down packaging costs and to help you save on shipping and han-
+                                                                   dling costs, we sell pastel sets in packages of 12.
+
+                                              Suppose the customer says, “I'll pay the extra shipping and handling. Send
+                                            me six.” If you truly sell only in packages of 12, you need to say so:
+                                                   Better:   To keep down packaging costs and to help customers save on shipping and han-
+                                                             dling costs, we sell pastel sets only in packages of 12.
+
+                                                If you link the negative element to a benefit, be sure it is a benefit your
+                                            audience will acknowledge. Avoid telling people that you're doing things “for
+                                            their own good.” They may have a different notion of what their own good
+                                            is. You may think you're doing customers a favor by limiting their credit so
+                                            they don’t get in over their heads and go bankrupt. They may think they’d
+                                                         Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                            Chapter3   Building Goodwill                                        67
+
+
+                                                                                                        Four Ways to Say
+                                                                                                        “Yes” Instead of
+                                                                                                        “No”
+
+                                                                                                         “Yes, | want to help.’
+                                                                                            Even if you have to say no per-
+                                                                                            sonally, there is usually an alter-
+                                                                                            native yes. By helping to solve
+                                                                                            someone’s      problem—say,      by
+                                                                                            referring them to someone who
+                                                                                            might be able to help them—
+                                                                                            you keep the positive energy in
+                                                                                            motion.
+
+                                                                                            ‘Yes, you can do better.’
+                                                                                             Rather than say, “This is terrible,”
+                                                                                             it’s a lot more motivating to say,
+                                                                                             “You do such terrific work. I’m
+                                                                                             not sure this is up to your caliber.”
+
+                                                                                            ‘Yes, | see you.’
+                                                                                             It only takes a minute to send a
+                                                                                             thank-you note or respond to an
+                                                                                             unsolicited resumé.
+
+                                                                                            ‘Yes, your talents lie elsewhere.’
+                                                                                             Warren Buffet says that he’s
+                                                                                             never fired anyone. He has just
+                                                                                             helped them to find the right job.”
+
+                                                                                             Quoted from Linda Kaplan Thaler and
+                                                                                             Robin Koval, The Power of Nice: How
+Some stores might say, “Put books you don’t want here.” But bookseller Joseph-Beth in        to Conquer the Business World with
+Lexington, KY, uses positive emphasis.                                                       Kindness (New York: Currency, 2006),
+                                                                                             84-87.
+
+
+be better off with more credit so they could expand in hopes of making more
+sales and more profits.
+
+5. Put the negative information in the middle and present it
+compactly.      Put negatives at the beginning or end only if you want to
+emphasize    the  negative. To deemphasize a written negative, put it in the
+middle of a paragraph rather than in the first or last sentence and in the middle
+of the message rather than in the first or last paragraphs.
+    When a letter or memo runs several pages, remember that the bottom of the
+first page is also a position of emphasis, even if it is in the middle of a para-
+graph, because of the extra white space of the bottom margin. (The first page
+gets more attention because it is on top and the reader’s eye may catch lines
+of the message even when he or she isn’t consciously reading it; the tops and
+bottoms of subsequent pages don’t get this extra attention.) If possible, avoid
+placing negative information at the bottom of the first page.
+    Giving a topic lots of space emphasizes it. Therefore, you can de-empha-
+size negative information by giving it as little space as possible. Give negative
+information only once in your message. Don’t list negatives with bulleted or
+numbered lists. These lists take space and emphasize material.
+
+ How to Check Positive Emphasis
+All five of the strategies listed above help create positive emphasis. However,
+you should always check to see that the positive emphasis is appropriate, sin-
+cere, and realistic.
+PROFESSIONAL WRITING
+
+
+
+
+68                                         Part1   The Building Blocks of Effective Messages
+
+                                                                           CLOSETOHEMEOMAC CP
+            So’s Yer Old Man
+            It may not come       as a                                                ALL        OF OUR
+                                                                                COMPUTER         TECHNICIANS
+            surprise to you, but a                                          ARE CURRENTLY BUSY. WA/LE
+                                                                           YOU WAIT PLEASE Any    OUR
+            Harvard     professor's                                         EXCLUSIVE           PRESENTATION
+            computerized — study                                                   OF ‘WAR
+                                                                                        AND PEACE,
+ of congressional communica-
+                                                                                         AS READ BY
+ tions reveals that 27% of the time
+ members of Congress are taunt-
+ ing each other.
+   The three categories the study
+ expected to find were well-
+ known to political scientists:
+ claiming credit, taking a posi-
+ tion, and “advertising” someone
+ or something to get one’s name
+ out there. That members of
+ Congress also spend a quarter
+ of their time taunting each other
+ came as a surprise. Taunting was                                     CLOSE TO HOME © 2007 John McPherson. Reprinted
+ most common among members                                            with permission of UNIVERSAL UCLICK. All rights
+ with a relatively safe position.                                     reserved.
+
+ Adapted from David A. Fahrenthold,
+ “27% of Communication by Members
+ of Congress |s Taunting, Professor Con-
+ cludes,” Washington Post, April6, 2011,      As you read at the beginning of this section, positive emphasis is not always
+ http://www.washingtonpost.com/            appropriate. Some bad news is so serious that presenting it with positive tone
+ politics/27 percent-of-communication-
+                                           is insensitive, if not unethical. Layoffs, salary cuts, and product defects are all
+ by-members-of-congress-is-taunting-
+ professor-concludes/2011/04/06/           topics in this category.
+ AF1no2qC_story.html.                         Some positive emphasis is so overdone that it no longer seems sincere.
+                                           The used-car sales rep selling a rusting auto is one stereotype of insincerity. A
+                                           more common example for most business people is the employee who gushes
+                                           praise through gritted teeth over your promotion. Most of us have experienced
+                                           something similar, and we know how easy it is to see through the insincerity.
+                                              Positive emphasis can also be so overdone that it clouds the reality of the
+                                           situation. If your company has two finalists for a sales award, and only one
+                                           award, the loser does not have second place, which implies a second award.
+                                           On the other hand, if all sales reps win the same award, top performers will
+                                           feel unappreciated. Too much praise can also make mediocre employees think
+                                           they are doing great. Keep your communications realistic.
+                                              Restraint can help make positive emphasis more effective. Conductor Otto
+                                           Klemperer was known for not praising his orchestra. One day, pleased with
+                                           a particularly good rehearsal, he spoke a brusque “good.” His stunned musi-
+                                           cians broke into spontaneous applause. Klemperer rapped his baton on his
+                                           music stand to silence them and said, “Not that good.”
+
+                                            TONE, POWER, AND POLITENESS
+                                            Tone is the implied attitude of the communicator toward the audience. If
+                                            the words of a document seem condescending or rude, tone is a problem.
+                                            Norms for politeness are cultural and generational; they also vary from office
+                                            to office.
+                                               Tone is tricky because it interacts with context and power. Language that is
+                                            acceptable within one group may be unacceptable if used by someone outside
+                                            the group. Words that might seem friendly from a superior to a subordinate
+                                            may seem uppity if used by the subordinate to the superior. Similarly, words
+                                            that may be neutral among peers may be seen as negative if sent by a superior
+                                            to subordinate.
+                                                               Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                     Chapter3   Building Goodwill                                           69
+
+
+  Paul Goward, the former police chief of Winter Haven, Florida, discovered                                       Solving an Ethical
+this lesson about the connection between power and tone. Goward sent an                                           Dusmmasing
+e-mail to about 80 employees asking “Are You a Jelly Belly?” In the e-mail, he                                    cael
+provided 10 reasons why his employees should be in better shape; the reasons                                      Most      ethical    dilem-
+ranged from health risks to department image. The e-mail added, “If you are —M8 boil down to people, bal-
+unfit, do yourself and everyone else a favor. . . . See a professional about a ancing   the needs or desires of
+                                                                                 one constituency against those
+proper diet. . .. Stop making excuses. . . We didn’t hire you unfit and we don’t
+                                                                                 of another: Management ver-
+want you working unfit.” The e-mail so offended employees that Goward was        sus staff, stockholders versus
+forced- to resign.’                  :                                            Ls                 customers.
+   Using the proper tone with employees can have huge economic impact for                              “ro, maker of lawnmowers.
+a business. A Litigation Trends Survey, based on reports from 310 in-house                           faced such a dilemma. One of
+                                                                                                            very
+counsel, found employee lawsuits to be the top litigation concern of corpo- __ its popular riding mowers is
+rate lawyers. Disgruntled employees are suing more than ever before, and dis-                        hard to overturn, but when it
+putes over wages or hours frequently can be brought as class actions, making                         does, it can seriously injure the
+them even more expensive.”                                                                           driver. Toro decided to install roll
+
+   The desirable tone for business writing is businesslike but not stiff, friendly _a's behind the drivers seat on
+but not phony, confident but not arrogant, polite but not groveling. Several        ™™ machines Ou bor abe (ie
+guidelines will help you achieve the tone you want.                                                  Oe                     eas          ere
+                                                                                                     added for safety.
+                                                                 s                                     Then   an     even     harder    issue
+                         3
+Use Courtesy Titles for People You Don’t Know Well                                                   arose.    Shouldn't        the same
+                             f                                                          :            ethical treatment be offered on
+Most U.S. organizations use first names for everyone, whatever their age Or — jachines already owned? Those
+                Os  8
+
+rank. But many people don’t like being called by their first names by people — owners would be protected but
+they don’t know or by someone much younger. When you talk or write to                                the cost would adversely affect
+people outside your organization, use first names only if you’ve established                         shareholders.
+a personal relationship. If you don’t know someone well, use a courtesy title | What would you do? Toro
+(see pages 71-72 for more on courtesy titles):                                 installed the bars for all mowers,
+                                                                               new and used, a decision they
+
+   Dear Mr.  Reynolds:                                                         believed would best serve users
+                                                                                                     and shareholders           in the long
+   Dear Ms. Lee:
+                                                                                                     term.
+
+Be Aware of the Power Implications of the Words You Use                                              Adapted from Kevin Cashman, “What
+                                                                                                     Exactly Is Ethics?” Forbes, March 3,
+
+“Thank you for your cooperation” is generous coming from a superior to a                             2007, _http://www.forbes.com/2007/
+subordinate; , it’s not appropriate                         superior. Different ways
+                                    in a message 8 to ofyour P                     Ms
+                                                                                                     03/03/leadership-cashman-ethics-
+                                                                                                     leadership-citizen-cx_kc_0305ethics.
+                         Pprop
+of asking for action carry different levels of politeness.”                                           html.
+
+   Order: (lowest politeness)                     Turn in your time card by Monday.
+
+    Polite order: (midlevel politeness)           Please turn in your time card by Monday.
+
+    Indirect request: (higher politeness)         Time cards should be turned in by Monday.
+
+    Question: (highest politeness)                Would you be able to turn in your time card by
+                                                  Monday?
+
+    Higher levels of politeness may be unclear. In some cases, a question may
+ seem like a request for information to which it’s acceptable to answer, “No, I
+ can’t.” In other cases, it will be an order, simply phrased in polite terms.
+    You need more politeness if you’re asking for something that will inconve-
+ nience the audience and help you more than the person who does the action.
+ Generally, you need less politeness when you’te asking for something small,
+ routine, or to the audience’s benefit. Some discourse communities, however,
+ prefer that even small requests be made politely.
+    Lower politeness:             To start the scheduling process, please describe your availabil-
+                                  ity for meetings during the second week of the month.
+    Higher politeness:            Could you let me know what times you'd be free for a meeting
+                                  the second week of the month?
+PROFESSIONAL WRITING
+
+
+
+
+70                                       Part1     The Building Blocks of Effective Messages
+
+
+               Attempts To Create
+               a Unisex Pronoun          REDUCING BIAS IN BUSINESS COMMUNICATION
+            For more than 150            According to the U.S. Census Bureau, the United States now has more women
+           years, people have            than men, and more women than men are attending college and attaining
+            attempted   to coin          postsecondary degrees. The Hispanic population is the fastest growing in the
+ a unisex pronoun. None of the           country; it numbered 50.5 million in the 2010 census. Four states (California,
+ attempts has been successful.
+                                         Hawaii, New Mexico, and Texas) plus the District of Columbia have a
+                                         “majority-minority” population, where more than 50% are part of a minority
+         heor       hisor    himor       group. The number of people 65 and older is also growing; that population
+ Date    she        her      her
+                                         now numbers over 40 million, and 6.5 million of them are still in the work-
+ 1850    ne         nis      nim
+                                         force.'? These figures highlight the growing diversity of the workplace and the
+ 1884    le         lis      lim
+ 1938    se         sim      sis
+                                         need to communicate with appropriate language.
+ 1970    ve         vis      ver            Bias-free language is language that does not discriminate against people on
+ 1977    e          e’s      em          the basis of sex, physical condition, race, ethnicity, age, religion or any other
+ 1988    ala        alis     alum        category. It includes all audience members, helps to sustain goodwill, is fair
+                                         and friendly, and complies with the law.
+ Adapted from Dennis E. Baron, “The
+                                            Check to be sure that your language is bias-free. Doing so is ethical; it can
+ Epicene Pronoun: Word That Failed,”     also avoid major problems and lawsuits.
+ American Speech 56 (1981): 83-97;
+ and Ellen Graham, “Business Bul-        m       Josef Ackermann, chief executive of Deutsche Bank, was mocked                            in the
+ letin,” Wall Street Journal, December           international news when he said at a news conference that including
+ 29, 1988, A1.
+                                                 women on the bank’s all-male executive board would make it “more col-
+                                                 orful and prettier too.” The publicity added to mistrust of the bank at an
+                                                 awkward time when it was lobbying to dissuade German policy makers
+                                                 from imposing restrictions.'*
+                                         =       Conservative advice expert Dr. Laura Schlessinger resigned abruptly from
+                                                 her syndicated radio show after a controversy arising from her multiple
+                                                 use of a racial epithet while talking to an African American caller.
+                                         =       Famous radio personality Don Imus was fired by CBS after making racist
+                                                 comments about the Rutgers University women’s basketball team.
+
+                                          Making Language Nonsexist
+                                          Nonsexist language treats both sexes neutrally. Check to be sure that your
+                                          messages are free from sexism in four areas: job titles, courtesy titles and
+                                          names, pronouns, and other words and phrases.
+
+                                          Job titles Use neutral titles which do not imply that a job is held only by
+                                          men or only by women. Many job titles are already neutral: accountant, banker,
+                                          doctor, engineer, inspector, manager, nurse, pilot, secretary, technician, to name a
+                                          few. Other titles reflect gender stereotypes and need to be changed.
+
+                                             Instead of              Use
+
+                                             Businessman             A specific title: executive, accountant, department head, owner of a
+                                                                        small business, men and women in business, businessperson
+                                             Chairman                Chair, chairperson, moderator
+                                             Fireman                 Firefighter
+                                             Foreman                 Supervisor
+                                             Mailman                 Mail Carrier
+                                             Salesman                Salesperson, sales representative
+                                             Waitress                Server
+                                             Woman lawyer            Lawyer
+                                             Workman                 Worker, employee. Or use a specific title: crane operator, bricklayer, etc.
+                                             ee
+                                                            Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                   Chapter3   Building Goodwill                        71
+
+
+Courtesy titles and names         E-mails to people you know normally do not
+use courtesy titles. However, letters, memos, and e-mails to people with whom
+you have a more formal relationship require courtesy titles in the salutation
+unless you're on a first-name basis with your reader. (See Appendix A for
+examples of memo and letter formats.)
+   When you know your reader’s name and gender, use courtesy titles that do
+not indicate marital status: Mr. for men and Ms. for women. Ms. is particularly
+useful when you do not know what a woman’s marital status is. However,
+even when you happen to know that a woman is married or single, you still
+use Ms. unless you know that she prefers another title. There are, however,
+two exceptions:
+1. If the woman         has a professional title, use that title if you would use it
+    for a man.
+   Dr. Kristen Sorenson is our new company physician.
+   The Rev. Elizabeth Townsley gave the invocation.
+2. If the woman prefers to be addressed as Mrs. or Miss, use the title she pre-
+    fers rather than Ms. (You-attitude takes precedence over nonsexist lan-
+    guage: address the reader as she—or he—prefers to be addressed.) To find
+         out if a woman prefers a traditional title,
+
+
+
+ =        Check the signature block in previous correspondence. If a woman types
+          her name as (Miss) Elaine Anderson or (Mrs.) Kay Royster, use the title she
+          designates.
+ =        Notice the title a woman uses in introducing herself on the phone. If she
+          says, “This is Robin Stine,” use Ms. when you write to her. If she says,
+          “I’m Mrs. Stine,” use the title she specifies.
+ =        When you're writing job letters or crucial correspondence, call
+          the company and ask the receptionist which title your reader
+          prefers.
+
+
+In addition to using parallel courtesy titles, use parallel forms for names.
+
+
+     Not Parallel                               Parallel
+
+     Members of the committee will be           Members of the committee will be
+       Mr. Jones, Mr. Yacone, and Lisa.           Mr. Jones, Mr. Yacone, and
+                                                  Ms. Melton.
+                                                        or
+                                                Members of the committee will be Irving,
+                                                  Ted, and Lisa.
+ a
+
+ When you know your reader’s name but not the gender, either
+
+     =     Call the company and ask the receptionist, or
+     m     Use the reader’s full name in the salutation:
+           Dear Chris Crowell:
+           Dear J. C. Meath:
+PROFESSIONAL WRITING
+
+
+
+
+72                                         Part1     The Building Blocks of Effective Messages
+
+
+                 Booming Business          When you know neither the reader’s name nor gender, you have three options:
+              As the 78 million
+            , U.S. baby boomers             =      Omit the salutation and use a subject line in its place. (See Figure A.4,
+               age, more and more                  Simplified Format.)
+               companies are mak-                  SUBJECT: RECOMMENDATION FOR BEN WANDELL
+ ing products with adaptations for
+                                            =      Use the reader’s position or job title:
+ physical infirmities:
+ =     Appliance control panels with
+                                                   Dear Loan Officer:
+       adjustable typefaces and                    Dear Registrar:
+       color combinations.
+                                             =     Usea general group to which your reader belongs:
+ =     Ovens, dishwashers, and
+       washer/dryer sets mounted
+                                                   Dear Investor:
+       higher so people have to                    Dear Admissions Committee:
+       bend over less.
+ =     Sink fixtures with levers           Pronouns             When you refer to a specific person, use the appropriate gender
+       instead of knobs, for hands         pronouns:
+       with limited mobility.
+ =     Cellphones with large keys
+                                                 In his speech, John Jones said that. . .
+       and large numbers on the                  In her speech, Judy Jones said that.          . .
+       screen.
+   Nissan and Ford Motor Com-
+                                              When you are referring not to a specific person but to anyone who may be
+ panies fit their design engineers
+                                           in a given job or position, traditional gender pronouns are sexist.
+ with special body suits that                    Sexist:   a. Each supervisor must certify that the time sheet for his department is correct.
+ mimic aging bodies. The suits
+                                                 Sexist:   b. When the nurse fills out the accident report form, she should send one copy to
+ have an expanded waist, limited
+                                                                the Central Division Office.
+ mobility in key joints, and goggles
+ that mimic the effect of cataracts.
+                                              Business communication uses four ways to eliminate sexist generic pro-
+   Marketing these new features
+                                           nouns: use plurals, use second-person you, revise the sentence to omit the
+                                           pronoun, or use pronoun pairs. Whenever you have a choice of two or more
+ requires a delicate touch, because
+ no one likes to be reminded that
+ their body is failing.
+                                           ways to make a phrase or sentence nonsexist, choose the alternative that is the
+                                           smoothest and least conspicuous.
+     Reproduced with permission of Dow        The following examples use these methods to revise sentences 4 and b
+     Jones & Company, Inc. via Copyright
+     Clearance Center.
+                                           above.
+                                            1. Use plural nouns and pronouns.
+                                                   Nonsexist:     a. Supervisors must certify that the time sheets for their departments are
+                                                                    correct.
+
+                                                   Note: When you use plural nouns and pronouns, other words in the sen-
+                                                   tence may need to be made plural too. In the example above, plural super-
+                                                   visors have plural time sheets and departments.
+                                                        Avoid mixing singular nouns and plural pronouns.
+                                                   Nonsexist but lacks agreement:        b. When the nurse fills out the accident report, they
+                                                                                            should send one copy to the Central Division Office.
+
+                                                   Since nurse is singular, it is incorrect to use the plural they to refer to it. The
+                                                   resulting lack of agreement is acceptable orally but is not yet acceptable in
+                                                   writing. Instead, use one of the other ways to make the sentence nonsexist.
+                                            2. Use you.
+
+                                                   Nonsexist:     a. You must certify that the time sheet for your department is correct.
+                                                   Nonsexist:     b. When you fill out an accident report form, send one copy to the Central
+                                                                     Division Office.
+
+                                                   You is particularly good for instructions and statements of the responsibili-
+                                                   ties of someone in a given position.
+                                                                  Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                      Chapter3   Building Goodwill                                     73
+
+
+3. Substitute an article (a, an, or the) for the pronoun, or revise the sentence so
+   that the pronoun is unnecessary.
+   Nonsexist:    a. The supervisor must certify that the time sheet for the department is correct.
+   Nonsexist:    b. The nurse will
+                 1. Fill out the accident report form.
+                 2. Send one copy of the form to the Central Division Office.
+
+4. When you must focus on the action of an individual, use pronoun pairs.
+    Nonsexist:   a. The supervisor must certify that the time sheet for his or her department is
+                    correct.
+
+    Nonsexist:   b. When the nurse fills out the accident report form, he or she should send
+                    one copy to the Central Division Office.
+
+
+
+Other words and phrases                    If you find any terms similar to those in the first
+column in Figure 3.4 in your messages or your company’s documents, replace
+them with terms similar to those in the second column.
+  Not every word containing man is sexist. For example, manager is not sexist.
+The word comes from the Latin manus meaning hand; it has nothing to do with
+maleness.
+   Avoid terms that assume that everyone is married or is heterosexual.
+   Biased:   You and your husband or wife are cordially invited to the reception.
+   Better:   You and your guest are cordially invited to the reception.
+
+
+
+Making Language Nonracist and Nonageist
+Language is nonracist and nonageist when it treats all races and ages fairly,
+avoiding negative stereotypes of any group. Use the following guidelines to
+check for bias in documents you write or edit.
+   Give someone’s race or age only if it is relevant to your story. When you
+do mention these characteristics, give them for everyone in your story—not
+just the non-Caucasian, non-young-to-middle-aged adults you mention.
+
+
+ Figure 3.4           Getting Rid of Sexist Terms and Phrases
+  Instead of                         Use                                   Because
+
+  The girl at the front              The woman’s name                      Call female employees women just as you call male
+  desk                                 orjob title: “Ms. Browning,”           employees men. When you talk about a specific
+                                       “Rosa,” “the receptionist”             woman, use her name, just as you use a man’s
+                                                                              name to talk about a specific man.
+
+  The ladies on our staff            The women on our staff                Use parallel terms for males and females. Therefore,
+                                                                             use ladies only if you refer to the males on your staff
+                                                                             as gentlemen. Few businesses do, since social
+                                                                             distinctions are rarely at issue.
+
+  Manpower                           Personnel                             The power in business today comes from both women
+  Manhours                           Hours or worker hours                   and men.
+                                     Staffing                                                                ;
+  Manning
+
+  Managers and their                 Managers and their                    Managers may be female; not everyone is married.
+  wives                                guests
+ a                             a
+PROFESSIONAL WRITING
+
+
+
+
+74                                       Part1   The Building Blocks of Effective Messages
+
+
+              New Technology
+              Access for People
+              with Visual
+              and Hearing
+              Impairments
+
+ In October      2010,   President
+ Obama signed into law a Dill
+ aimed    at making       technolo-
+ gies that are staples of life more
+ accessible. The law mandates
+ =   Easier Internet connections
+     on smart phones.
+ =   Audible descriptions of action
+     on TV.
+ =   Captions for dialogue on TV.
+ =   TV remotes with buttons or
+     switches for easier access to
+     closed captioning.
+ =   Equipment compatible with
+     hearing aids for Internet
+     phone calls.
+                                         Organizations are making their business sites more accommodating to people with
+ Adapted from “Bill Will Improve Tech-   disabilities.
+ nology Access for Blind, Deaf,” Des
+ Moines Register, October 9, 2010, 3A.
+
+                                            Refer to a group by the term it prefers. As preferences change, change
+                                         your usage. Fifty years ago, Negro was preferred as a more dignified term than
+                                         colored for African Americans. As times changed, Black and African American
+                                         replaced it. Gallup polls show that the majority of black Americans (about
+                                         60%) have no preference between the two terms. However, among those who
+                                         do care, polls show a slight trend toward African American.
+                                            Oriental has now been replaced by Asian.
+                                            The term Latino is the most acceptable group term to refer to Mexican
+                                         Americans, Cuban Americans, Puerto Ricans, Dominicans, Brazilianos, and
+                                         other people with Central and Latin American backgrounds. (Latina is the
+                                         term for an individual woman.) Better still is to refer to the precise group. The
+                                         differences among various Latino groups are at least as great as the differences
+                                          among Italian Americans, Irish Americans, Armenian Americans, and others
+                                          descended from various European groups.
+                                             Baby boomers, older people, and mature customers are more generally accepted
+                                          terms than Senior Citizens or Golden Agers.
+                                             Avoid terms that suggest that competent people are unusual. The state-
+                                          ment “She is an intelligent purple woman” suggests that the writer expects
+                                          most purple women to be stupid. “He is an asset to his race” suggests that
+                                          excellence in the race is rare. “He is a spry 70-year-old” suggests that the
+                                          writer is amazed that anyone that old can still move.
+
+                                          Talking about People with Disabilities and Diseases
+                                          A disability is a physical, mental, sensory, or emotional impairment that inter-
+                                          feres with the major tasks of daily living. According to the U.S. Census Bureau,
+                                          19% of Americans currently have a disability; of those, about 48% who were
+                                          21-64 and had a “nonsevere disability” were employed full-time.'° The num-
+                                          ber of people with disabilities will rise as the population ages.
+                                             To keep trained workers, more and more companies are making accommo-
+                                          dations for disabilties. Companies such as Sylvania, American Express, and
+                                                              Business and Administrative Communication,
+                                                                                                      Tenth Edition
+
+
+
+
+                                                                  Chapter3    Building Goodwill                                        75
+
+
+
+General Motors are offering accommodations such as telecommuting, flexible                                    R-E-S-P-E-C-T
+hours, workshift changes, and assignment changes.’”                                                =          “Most    major     airlines
+   When talking about people with disabilities, use people-first language to                       wai i      and      hotel     chains
+focus on the person, not the condition. People-first language names the person                             provide             disability
+first, then adds the condition. Use it instead of the traditional noun phrases                     training to employees. .. . |
+that imply the condition defines the person. In 2010, President Obama signed                       recognize when someone has
+
+Rosa’s Law, which replaces “mentally retarded” with “an individual with an
+                                                                                                   been trained—to offer me a
+intellectual disability,” in most federal statutes.’®                                              Braille menu, use my name
+                                                                                                   when addressing me, or take a
+                                                                                                   moment to orient me to a new
+ Instead of                  Use                               Because                             environment. What | appreciate
+                                                               The condition does not              even more, though, is . . . simple,
+ The mentally retarded       People with an
+                               intellectual disability           define the person or his or       common courtesy.
+                                                                 her potential.                       “| don’t care how many pages
+                                                                                                    in an employee manual some-
+ Cancer patients             People being treated
+                                                                                                   where are devoted to. . . the
+                               for cancer
+                                                                                                    dos and don'ts of interacting with
+a                                                                                                   someone who is deaf, blind, or
+                                                                                                    mentally retarded. Among hun-
+   Avoid negative terms, unless the audience prefers them. You-attitude takes                       dreds of experiences in airports
+precedence over positive emphasis: use the term a group prefers. People who                         and hotels, the one distinction
+lost their hearing as infants, children, or young adults often prefer to be called                  that separates the (mostly) pleas-
+deaf, or Deaf in recognition of Deafness as a culture. But people who lose their                    ing from the (occasionally) painful
+hearing as older adults often prefer to be called hard of hearing, even when                        in my encounters has been the
+
+their hearing loss is just as great as that of someone who identifies him- or                       honest friendliness and respect
+                                                                                                    with which | have or have not
+herself as part of the Deaf culture.
+   Using the right term requires keeping up with changing preferences. If your
+                                                                                                     been treated.
+                                                                                                      “Ask me where |’d like to sit,
+target audience is smaller than the whole group, use the term preferred by that                     whether | need help getting there,
+audience, even if the group as a whole prefers another term.                                        and what other kinds of help |
+    Some negative terms, however, are never appropriate. Negative terms such                        need.
+as afflicted, suffering from, and struck down also suggest an outdated view of any                    “Please, assume that | know
+illness as a sign of divine punishment.                                                             more about my disability than
+                                                                                                    anyone else ever could.
+                                                                                                      “Respect me as you do any
+  Instead of                    Use                      Because
+                                                                                                    other customer who is paying for
+  Confined to a wheelchair      Uses a                   Wheelchairs enable people to               the same service, and have the
+            :                     wheelchair               escape confinement.                      grace to apologize if something
+                                Person with              Someone can have a disease                 does go wrong.
+  AIDS victim
+                                   AIDS                    without being victimized by it.            “Too many companies, it seems
+
+                                Atypical                 People with disabilities are atypical —    to me, are busy shaking in their
+  Abnormal
+                                                           but not necessarily abnormal.            boots over the imagined high
+                                                                                                    cost of accommodating people
+ Ee
+                                                                                                    with disabilities when, in many
+                                                                                                    instances, a good old-fashioned
+ Choosing Bias-Free Photos and Illustrations                                                        refresher course     in manners
+                                                                                                    would cover most bases.”
+ When you produce a document with photographs or illustrations, check the
+ visuals for possible bias. Do they show people of both sexes and all races? Is                     Quoted    from   Deborah    Kendrick,
+
+ there a sprinkling of various kinds of people (younger and older, people using
+                                                                                                    “Disabled Resent Being Patronized,”
+                                                                                                    Columbus Dispatch, July 21, 1996,
+ wheelchairs, etc.)? It’s OK to have individual pictures that have just one sex or                  3B. Reprinted with permission.
+ one race; the photos as a whole do not need to show exactly 50% men and 50%
+ women. But the general impression should suggest that diversity is welcome
+ and normal.
+    Check relationships and authority figures as well as numbers. If all the men
+ appear in business suits and the women in maids’ uniforms, the pictures are
+ sexist even if an equal number of men and women are pictured. If the only
+ nonwhites pictured are factory workers, the photos support racism even when
+ an equal number of people from each race are shown.
+PROFESSIONAL WRITING
+
+
+
+
+76                                  Part1        The Building Blocks of Effective Messages
+
+
+
+
+                                    =       You-attitude is a style of communication that looks at things from the
+                                            audience’s point of view, emphasizing what the audience wants to know,
+                                            respecting the audience’s intelligence, and protecting the audience’s ego.
+                                            1.    Talk about the audience, not about yourself.
+                                            2. Refer to the audience’s request or order specifically.
+                                            3. Don’t talk about feelings except to congratulate or offer sympathy.
+                                            +  In positive situations, use you more often than I. Use we when it includes
+                                               the audience.
+                                            5. In negative situations, avoid the word you. Protect the audience’s ego.
+                                               Use passive verbs and impersonal expressions to avoid assigning blame.
+                                    =       Apply you-attitude beyond the sentence level by using organization and
+                                            content as well as style to build goodwill.
+                                    =       Positive emphasis means focusing on the positive rather than the negative
+                                            aspects of a situation. To create positive emphasis
+                                            1. Avoid negative words and words with negative connotations.
+                                      2. Beware of hidden negatives.
+                                      3. Focus on what the audience can do rather than on limitations.
+                                      4 Justify negative information by giving a reason or linking it to an audi-
+                                          ence benefit.
+                                      5. Put the negative information in the middle and present it compactly.
+                                    = Check to see that your positive emphasis is appropriate, sincere, and clear.
+                                     =      The desirable tone for business communication is businesslike but not stiff,
+                                            friendly but not phony, confident but not arrogant, polite but not groveling.
+                                     =      Bias-free language is fair and friendly; it complies with the law. It includes
+                                            all members of your audience; it helps sustain goodwill.
+                                     =      Check to be sure that your language is nonsexist, nonracist, and nonageist.
+                                     =      Communication should be free from sexism in four areas: job titles, cour-
+                                            tesy titles and names, pronouns, and other words and phrases.
+                                        =   Ms. is the nonsexist courtesy title for women. Whether or not you know a
+                                            woman’s marital status, use Ms. unless the woman has a professional title
+                                            or unless you know that she prefers a traditional title.
+                                        =   Four ways to make pronouns nonsexist are to use plurals, to use you, to
+                                            revise the sentence to omit the pronoun, and to use pronoun pairs.
+                                        =   When you talk about people with disabilities or diseases, use the term they
+                                            prefer.
+                                        =   When you produce newsletters or other documents with photos and illus-
+                                            trations, picture a sampling of the whole population, not just part of it.
+
+                                                                                                           *Go to www.mhhe.com/locker10e for
+
+           CHAPTER         3            Exer cises              and      Problems                         additional Exercises and Problems.
+
+
+
+ 3.1           Reviewing the Chapter
+
+     1.   What are five ways to create you-attitude? (LO 3-1)                4.   What are different categories to keep in mind when
+     2.   What are five ways to create positive emphasis?                         you are trying to reduce bias in business messages?
+          (LO 3-2)                                                                (LO 3-4)
+     3.   How can you improve the tone of business                           5.   What techniques can you use when you are trying
+          messages? (LO 3-3)                                                      to reduce bias in business messages? (LO 3-4)
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                               Chapter3     Building Goodwill
+
+
+3.2        Evaluating the Ethics of Positive Emphasis
+
+The first term in each pair is negative; the second is a           nervousness                        adrenaline
+positive term that is sometimes substituted for it. Which          problem                            challenge
+of the positive terms seem ethical? Which seem unethi-             price increase                     price change
+cal? Briefly explain your choices.
+                                                                   for-profit hospital                tax-paying hospital
+   cost                             investment
+   second mortgage                  home equity loan               used car                           pre-owned car
+   tax                              user fee                       credit card fees                   usage charges
+
+
+
+3.3         Eliminating Negative Words and Words with Negative Connotations
+
+Revise each of the following sentences to replace nega-          3: When you write a report, do not make claims that
+tive words with positive ones. Be sure to keep the mean-            you cannot support with evidence.
+ing of the original sentence.                                    4. Don’t drop in without an appointment. Your coun-
+ 1. You will lose customer goodwill if you are slow in               selor or case worker may be unavailable.
+     handling returns and issuing refunds.                         . Tam anxious to discuss my qualifications in an
+ 2. Do not put any paper in this box that is not                       interview.
+     recyclable.
+
+
+
+3.4         Focusing on the Positive
+
+Revise each of the following sentences to focus on the             . Asa     first-year employee, you are not eligible for
+options that remain, not those that are closed off.                    dental insurance.
+
+ 1. Scholarship applications that arrive December 1 or             . I will be out of the country October 25 to November
+    later cannot be processed.                                       10 and will not be able to meet with you then.
+ 2. You cannot use flextime unless you have the consent            . You will not get your first magazine for at least four
+    of your supervisor.                                                weeks.
+
+
+
+
+ 3.5        Identifying Hidden Negatives
+
+ Identify the hidden negatives in the following sentences          .  [hope you find the information in this brochure
+ and revise to eliminate them. In some cases, you may                beneficial to you and a valuable reference as you
+ need to add information to revise the sentence effectively.         plan your move.
+  1. The seminar will help you become a better manager.            . In thinking about your role in our group, I
+                                                                     remember two occasions where you contributed
+  2. Thank you for the confidence you have shown in us               something.
+     by ordering one of our products. It will be shipped
+       to you soon.                                               6. [In job letter] This job in customer service is so good
+                                                                       for me; I am so ready to take on responsibility.
+  3. This publication is designed to explain how your
+     company can start a recycling program.
+
+
+
+ 3.6         Improving You-Attitude and Positive Emphasis
+
+ Revise these sentences to improve you-attitude and               2: Although I was only an intern and didn’t actually
+ positive emphasis. Eliminate any awkward phrasing. In                make presentations to major clients, |was required
+ some cases, you may need to add information to revise                to prepare PowerPoint slides for the meetings and
+ the sentence effectively.                                            to answer some of the clients’ questions.
+  1. You'll be happy to learn that the cost of tuition will         . At DiYanni Homes we have more than 30 plans that
+                                                                      we will personalize just for you.
+     not rise next year.
+PROFESSIONAL WRITING
+
+
+
+
+78                                 Part1   The Building Blocks of Effective Messages
+
+
+ 4. Please notify HR of your bank change as soon as                       buy items for resale. To prevent any abuse of the
+    possible to prevent a disruption of your direct                       discount privilege, you may be asked to justify your
+    deposit.                                                              purchase.
+                                                                        . Lapologize for my delay in answering your inquiry.
+ 5. I’m sorry you were worried. You did not miss the                      The problem was that I had to check with our sup-
+    deadline for signing up for a flexible medical
+                                                                          pliers to see whether we could provide the item in
+    spending account.                                                     the quantity you say you want. We can.
+ 6. We are in the process of upgrading our website.
+                                                                     10. If you mailed a check with your order, as you claim,
+    Please bear with us.
+                                                                          we failed to receive it.
+ 7. You will be happy to hear that our cellphone plan
+                                                                     11. This job sounds perfect for me.
+    does not charge you for incoming calls.
+ 8. The employee discount may only be used for pur-
+    chases for your own use or for gifts; you may not
+
+
+
+3.7          Eliminating Biased Language
+
+Explain the source of bias in each of the following, and                . Parenting 2012 shows you how to persuade your
+revise to remove the bias.                                                husband to do his share of child care chores.
+ 1. We recommend hiring Jim Ryan and Elizabeth                          . Mr. Paez, Mr. O’Connor, and Tonya will represent
+     Shuman. Both were very successful summer interns.                    our office at the convention.
+     Jim drafted the report on using rap music in ads,                  . Sue Corcoran celebrates her 50th birthday today.
+     and Elizabeth really improved the looks of the                       Stop by her cubicle at noon to get a piece of cake
+     office.                                                              and to help us sing “The Old Grey Mare Just Ain’t
+ 2. All sales associates and their wives are invited to the               What She Used to Be.”
+     picnic.
+                                                                      10. Because older customers tend to be really picky, we
+     3. Although he is blind, Mr. Morin is an excellent                   will need to give a lot of details in our ads.
+        group leader.
+     4. Unlike many blacks, Yvonne has extensive experi-
+        ence designing web pages.                                             wake up on the bright side”
+     5. Chris Renker
+        Pacific Perspectives
+        6300 West Corondad Blvd.
+        Los Angles, CA
+        Gentlemen:
+     6. Enrique Torres has very good people skills for a man.
+
+
+
+ 3.8          Analyzing You-Attitude
+ Your book gives some examples of occasions when you-
+ attitude is inappropriate. What are some other exam-
+ ples? Why are they inappropriate? How would you fix
+ them?
+
+
+
+ 3.9          Analyzing Positive Tone
+                                                                                  “WELL   .. . LOOKS   LIKE MY LAPTOPS   FRIED.   BUT WHAT A
+                                                                                 FANTASTIC OPPORTUNITY FOR A LITTLE VENTRILOQUISM.”
+ LaQuinta ran a series of ads using cartoons, like the one
+ on this page, featuring people making the best of disas-
+ ters. You can see the whole series at this website: http: //
+ www.lq.com/lq/brightside /index.jsp.                                          For reservations, visit LO.com
+     What do you think of these ads? Does the use of nega-                                                          tAQUINTA
+                                                                                                                         INNS     &@ SUITES
+ tives help or hinder them? What overall impression of
+ LaQuinta do the ads leave with you?                                          Reprinted with permission.
+                                                           Business and Administrative Communication, Tenth Edition
+
+
+
+
+                                                                   Chapter3    Building Goodwill
+
+
+3.10     Analyzing Goodwill
+A recent study by a law professor shows that credit                     In small groups, discuss whether you think this practice
+card companies make offers to people fresh out of bank-             is ethical. Why or why not? What reasons exist for not offer-
+ruptcy. In the study of 341 families, almost 100% received          ing new credit to people who have just gone through bank-
+credit card offers within a year after completing bank-             ruptcy? Why might such people need new credit cards?
+ruptcy proceedings, and 87% of those offers mentioned               Adapted from Marie Beaudette, “Study: Credit Card Offers
+the bankruptcy proceedings. In fact, 20% of the offers              Flood Once-Bankrupt Consumers,” Des Moines Register,
+came from companies the family had owed before the                  August 10, 2007, 6D.
+bankruptcy.
+
+
+3.11      Analyzing Ethics
+
+[Female lawyers and their female corporate clients recently            “Still, holding women-only networking events raises
+had a “shoe event” at a Manhattan boutique to network.]             some complicated issues. Are these single-sex events
+   “Such women-only networking events are proliferat-               just as exclusionary as the traditional spectator sports
+ing at law firms and an array of other companies, includ-           events and steak-and-cigar dinners have been for men?
+ing [accounting, investing, and industrial companies].              What about women who have male clients and vice
+There are spa retreats, conferences at resorts, evenings at         versa?”
+art galleries and cooking demonstrations, all organized                 How do you feel about women-only events? Are they
+by women who want to network and socialize with clic                ethical?
+ents in their own way—at least some of the time.
+                                                                    Quoted from Carol Hymowitz, “High Power and High Heels:
+    “The top brass at such companies support the events             Companies Move beyond Sports, Steak and Scotch to Cultivate
+for several reasons, most notably, they help to boost the           New Clients,” Wall Street Journal, March 26, 2007, B1.
+bottom line. .. .
+
+
+3.12.     Analyzing a Form Letter
+Analyze the following form letter.                                      Evaluate the use of positive tone.
+   Is it a goodwill message?                                            What is your overall impression of the letter?
+   Where does it show you-attitude? Where does it need
+   more you-attitude?
+
+                    Debbie Harrington
+                    1436 Gooden Road
+                    Lincoln, NE 54367
+
+                    THE FOLLOWING         INFORMATION         IS    TIME      SENSITIVE;    PLEASE     REVIEW
+                    CAREFULLY
+
+                                                                                             replen-
+                    James Honda of Lincoln has partnered with Automobile Resellers, Inc., to
+                    ish drastically reduced vehicle inventories. James Honda of Lincoln is in need of a
+                    number of high-demand pre-owned vehicles and records indicate that you may own
+                                                                                                     d
+                    one of these vehicles. Your 2007 Honda Civic has been classified as a high-deman
+                                             this letter is to request the opportunity to BUY BACK your
+                    vehicle. The purpose of
+                    vehicle for perhaps more than you thought possible.
+
+                                                                                                      rep-
+                    Bring this letter for admittance to this event. Simply present it to a dealership
+                                                     in this BUY  BACK  process. Also, you  may  have won
+                    resentative who will assist you
+                    up to $20,000. To see if your claim number is a guaranteed cash prize winner, simply
+                    visit James Honda of Lincoln on the event date and claim your prize.
+                                                                                                    y price
+                    During thisexciting event, James Honda of Lincoln has agreed to aggressivel
+                                                                                                       With
+                    its entire inventory of new and pre-ow

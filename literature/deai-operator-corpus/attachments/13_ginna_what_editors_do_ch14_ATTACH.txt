@@ -1,0 +1,112 @@
+13_ginna_what_editors_do_ch14_ATTACH.txt — ChatPRD upload (attach this file only)
+Generated: 2026-06-28
+Slug: ginna_what_editors_do
+Project: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus
+ChatPRD maximum: 8 uploaded files per window — this file is self-contained.
+Also paste: prompts/13_ginna_what_editors_do_ch14_ingest.md
+
+========================================================================
+STABLE-CONTEXT
+========================================================================
+
+PROJECT: deai-operator-corpus
+ROOT: /Users/dubs/Projects/scholia.skill/literature/deai-operator-corpus/
+PIRANESI SIBLING: /Users/dubs/Projects/piranesi.skill/research-projects/0630-deai-operator-corpus/
+OPERATOR: Wei Jia · L1 Chinese · ESL fairness mandatory · deai + tic consumer
+STAKES: L3 — craft-move bank for all future de-AI and voice passes
+PLATFORM: ChatPRD · Opus 4.6 (ingest + synthesis) · Cursor Composer 2.5 (implement from handoff only)
+
+CLOSED-CORPUS IRON LAW
+- Run on attached primary text only — no open-web research unless operator explicitly requests gap-fill on [unknown] load-bearing claims.
+- Gate A: every Q-001… quote must appear verbatim in attached text export.
+- Never invent page numbers; use section anchors from export.
+
+TWO-LANE MANDATE (tag every craft move)
+- Lane A deai_removal: remove RLHF residue without flattening voice
+- Lane B tic_enrichment: voice priming — structural borrow, not pastiche
+- Lane C both: shared craft theory
+- [esl_preserve]: keep L1-influenced syntax when not RLHF-corroborated; never "sound more native"
+
+PARENT CANON (inherit — do not re-litigate)
+- /Users/dubs/Projects/piranesi.skill/research-projects/0628-deai-signal-removal/deai-signal-removal_decision_canon.md
+- /Users/dubs/.cursor/skills/deai/research/deai-tic-voice-craft-canon/decision_canon/deai_tic_voice_craft_decision_canon_20260619.md
+- /Users/dubs/.cursor/skills/deai/craft-theory-reference.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-paper-ingest.md
+- /Users/dubs/Projects/scholia.skill/prompts/literature-chapter-ingest.md
+
+SCHEMA: scholia SF-12 ingest ≤4500 words · palamedes L3 tag grammar · P3 adversarial second-pass
+
+========================================================================
+PRIMARY-TEXT (source_exports/chapters/13_ginna_what_editors_do_ch14.txt)========================================================================
+
+LISTENING TO THE MUSIC
+
+
+EDITING LITERARY FICTION
+
+
+ERIKA GOLDMAN*
+
+“Beauty is truth, truth beauty,”—that is all
+
+Ye know on earth, and all ye need to know.
+
+—John Keats, “Ode on a Grecian Urn”
+
+
+
+
+
+Editing involves a mixture of taste, acuity, craft, passion, and persistence. It’s a subjective process that can feel intuitive but draws on an editor’s experience—both literary and lived. Being an editor is a lifelong apprenticeship: the books you read, the jobs you have, influence your approach to any given text. Yet in a sense I’m the same editor I was at the beginning of my career, an idealistic former literature student who took pleasure in books whose form and content I understood to be symbiotic, indivisible. What I mean by “literary” writing, both fiction and nonfiction, is writing as an art that uses language as sort of musical instrument to produce meaning through narrative.
+
+The publishing industry has evolved a great deal since I first got into it; it was already a different beast from that of my mentors’ early careers.1 Publishing in the twenty-first century, with the advent of the internet and its enormous impact on book distribution, is as volatile as it has ever been. No one can predict what it will look like ten years from now.
+
+My initiation into publishing, straight out of college, was as the editorial assistant to Richard Marek, who had just founded an eponymous imprint at St. Martin’s Press. Marek had left G. P. Putnam’s Sons following the loss of an author, Robert Ludlum, to Random House. He experienced Ludlum’s defection as a grave betrayal—he had, after all, transformed Ludlum from an unknown into a bestselling author, and they had been close friends for years. As painful as this chapter was for him, Dick made it known to me so that I would learn never to make the mistake of letting down my guard with an author to the extent that he had. I must never forget that this was a business.
+
+St. Martin’s was known at the time for publishing large numbers of inexpensively acquired British imports in relatively short runs—mostly mysteries and Regency romances. Among these imports were James Herriot’s bestselling books that had been adapted into a popular BBC-TV series called All Creatures Great and Small and had made St. Martin’s a fortune. SMP’s chairman, Thomas McCormack, was renowned for his frugality, but he fostered the careers of many people who have held prominent positions in the field. He gave Dick relative autonomy—the ability to decide on his own acquisitions up to a certain, significant dollar amount—which meant that we were excused from the sometimes-contentious St. Martin’s editorial meetings.
+
+Sometime during my first week working for Dick, he handed me two books, Robert Ludlum’s commercial mega-success The Bourne Identity and John Yount’s modestly selling literary gem Hardcastle, and asked that I take both home and read them. His point was that in order to have a thriving career as an editor, you had to publish popular books that would carry the literary love children on your list. I devoured Hardcastle, but the Ludlum seemed like a comic strip to me (Pow! Bam!) and I couldn’t get through it. I should have known then and there that I wasn’t cut out to be an editor of commercial fiction, but for as long as I worked for Dick, I studied his editorial techniques and acquisitions, and within the first two years I acquired a thriller of my own.
+
+Dick was tolerant of my English-major taste; he abetted it by introducing me to Richard Yates’s Revolutionary Road and assigning me a summer’s worth of research at the Mid-Manhattan Library, during which I pulled together the essays for James Baldwin’s collection The Price of the Ticket, work that “Jimmy” (as Dick called him) didn’t have the patience to do. This was the early 1980s, before computers and word processors. (I was a lousy typist and ashamed of the evidence of this left in the filed carbon copies of the editorial letters that had been dictated to me. I soon learned to slip off to xerox the corrected originals instead.)
+
+Additional hours at the Xerox machine were spent copying the manuscripts that Dick had edited; this was how I learned what line editing was—and where, why, and how much a good editor should intervene in an author’s text. Dick Marek may have had a paperback of a Henry James novel in his raincoat pocket for subway reading, but he knew how to edit for plot.
+
+When I left the job after three years, it was not because I was unhappy there but because I felt I’d been well launched. Besides, Dick had admonished me, for the sake of my own development, not to spend more than a few years at this first job. (There was relative stability in the business then; to hold onto a position at any level for that long today is a triumph!) After this auspicious beginning, during which I had been encouraged to cultivate my taste and hone my skills while absorbing the realities of the business world, I spent many frustrating, less-than-happy years trying to be a successful “professional” at jobs where my personal interests didn’t necessarily dovetail with those of the people who ran the institutions I depended on for my livelihood. In the years to come, I would alternately bless and curse Richard Marek for allowing me to believe that I could remain true to my values and myself and have a publishing career.
+
+It wasn’t always terrible—along the way I enjoyed the collegiality, intellectual stimulation, and friendship of a variety of dyed-in-the-wool “book people.” But the business was consolidating. Historic publishing houses were bought out and reduced to the status of imprints of large corporations that made enormous profits in trades that had nothing to do with books. Editors were rewarded for how much they spent to acquire “big books,” not the craft of editing. Often these books would not earn out their huge advances or sell anywhere near what the original profit-and-loss calculations, devised to justify the terms of their acquisition, had predicted they would. And the more literary or “midlist” acquisitions were now required to carry their own weight.
+
+I am resolutely, and unrepentantly, a midlist editor. To publishing professionals, midlist is code for books that may be substantive, artistic—prestigious, even—but of limited sales. We’re just about extinct in commercial publishing. This is not to say that there aren’t brilliant literary editors in the mainstream; of course there are. But you might as well pin a scarlet A onto your Oxford cloth shirt as describe yourself as a midlist editor. The culture and economics of contemporary corporate for-profit publishing won’t stand for it. This is why so many literary writers have found their way to independent small-press publishers.
+
+As publisher and cofounder, with Jerome Lowenstein, MD, of Bellevue Literary Press, I have had the privilege of managing a nonprofit press devoted to serious literary fiction and nonfiction “at the intersection of the arts and sciences,” as our mission statement puts it. I have the freedom to follow my editorial bliss as long as the books I choose fall within that mandate. My staff and I must devote a good deal of time to fundraising in order to have the means to run our small operation. This is because many of the worthy books we publish don’t sell in great enough quantities to offset the cost of their production, staff time, and marketing even though we may sell them in numbers that are comparable to, if not greater than, what larger houses will sell of analogous titles (yes, some still slip through). We focus appreciable marketing attention on each one of the few books we publish per season, and book publishing, in spite of all the technological innovations of our electronic age, remains a hugely labor-intensive and inefficient process.
+
+It isn’t easy to raise money for literary publishing. Along the way, you must make the case for the value of the book, since the long-form narrative is under siege from, among other things, the distractions of the internet and social media. As a result of the stock market crash of 2008 and the withdrawal of a major individual donor, we came perilously close to shutting down our operations, when in April 2010 a first novel that we had published, Tinkers by Paul Harding, won the Pulitzer Prize in Fiction. It has since, to date, sold well over half a million copies and kept us afloat.
+
+A Pulitzer Prize isn’t a business plan. It hasn’t assured our financial stability, nor is it a guarantee of future success. It has provided us with an extraordinary opportunity to bring Tinkers to the attention of readers and elevated it to the status of a contemporary classic. It has also put our small press on the cultural map.
+
+During the first flurry of post-prize publicity, I was asked by a well-known, long-standing editor of an august house how I knew what I had with Tinkers. After all, it had been passed over by top mainstream editors. One of them had even suggested to the author that it would never sell because it was too “slow.”
+
+How did I know? Perhaps I had misunderstood the question. I couldn’t have known that the book would win a Pulitzer Prize. Nor could I have predicted how it would sell. Before winning the Pulitzer it had sold ten thousand copies, which would have been a strong showing for a first novel even for a commercial publisher. What I did know was how I felt about it and, by extension, how other readers might. Of that there was no doubt: by the time I had made it through the first few paragraphs, the beauty of the prose had reduced me to tears.
+
+Manuscripts come to us in a number of ways: directly from the writer “over the transom” (though our electronic submission system or the mail), via literary agents, or with referrals from writers or other publishers. Tinkers had been passed on to me by a generous and thoughtful publisher named Jonathan Rabinowitz of Turtle Point Press, who, over dinner, had asked whether I’d be interested in taking a look at a novel that he’d received and greatly admired but felt wasn’t right for him. In our small literary-press world, if you’re not convinced that a book is right for you, there’s absolutely no point in taking it on, since it’s passion, not profit, that drives the acquisition process.
+
+An editor of a literary text must be its protector and advocate at every step along the way to publication. If your vision of a work is divergent from that of its author, this can sometimes, though not necessarily, put you at odds. Before embarking with a writer on the adventure of publishing her or his book, if possible, I contact the writer by phone. In the course of my call with Paul Harding, I described to him my response to his book and sought to confirm that I had read the book that he had intended to write. As I remember it, we had a long talk—it may even have gone on for an hour or two. While I don’t recall what I learned about Paul then versus what I came to know of him later, we initiated a relationship of mutual trust that has served us well ever since.
+
+For me, the first meeting with an author is as much about exchanging basic information about the press, our process, and the market as it is about discussing the author’s expectations and ascertaining that we are generally in alignment. This is very important, as the relationship of editor and author over a text is an intimate one that requires mutual sympathy to be effective. Ideally, if the phone meeting goes well, we celebrate our decision to work together over a meal. Even if the era of the three-martini lunch is gone forever, direct contact between author and editor in a convivial setting involving food can go a long way toward forging a strong and effective connection that will withstand the fraught experience of bringing a book from manuscript to market.
+
+By the time Tinkers came to me, its author had taken it through an extensive rewriting process and it required very little editorial intervention. To quote Paul, “plot is the precipitate of character.” I discovered characters that were richly alive, even in their death throes. My conceptual edits were light and consensual: the excision of a chapter and a shift in concrete detail on a plot point. While I don’t hesitate to line edit and have done extensive line work on many manuscripts over the years, when the author is stylistically sure-footed I refrain as much as possible from asserting my presence in a text. I’ve heard Paul say that he thinks of Tinkers as “unlineated poetry.” It needed no line editing; line by line, it is a multifaceted jewel.
+
+Any editorial critique, before being adopted by an author, should ring true to her or him. While an editor might gently nudge an author to make changes, this should always be in the spirit of bringing the book to its fullest realization in a way that is consistent with the author’s conception. This is the case for both fiction and nonfiction. While I will always express my opinions (with necessary care and diplomacy), I will never insist that an author follow my advice. In fact, if I feel that she or he is being too agreeable I become uncomfortable. Though this ought to go without saying, an editor should never forget that a book belongs to its author—at least until it has been released to its readership, after which an author no longer has control of how it will be received and understood.
+
+This means that I won’t sign up a book unless I feel that should an author reject my editorial suggestions (unless specified in advance by contract, which is rare) I will still be proud to publish it. The implication here, then, is that I’ve got a complete manuscript at the outset, so that I know what I’m dealing with.
+
+I don’t know how frequently editors go to contract on partial manuscripts of literary fiction; this is rarely the case for me, even when I know a writer’s work well. Commercial publishers that offer large advances are more likely to take this risk than I, if they are anxious to secure a book in a competitive situation. Another case where editors may sign up a work of literary fiction without having first read it in its entirety is if they acquire it from a language that they don’t read in order to publish it in translation, in which case, presumably, they’re relying on the recommendation of a third-party reader. Much as I love to publish literature in translation, I try to avoid this scenario, since it may lead to an unpleasant surprise. This limits me to works written originally in the languages that I read, English or French, unless a full translation has already been made into either of these languages.
+
+Editors of literary fiction—like all editors—are likely to be involved in the marketing and promotion of their books, and it is prudent to discuss marketing plans with an author early on. Believing as I do in the adage “Forewarned is forearmed,” I make clear the difficulty of getting attention for any book—let alone a literary one—and the frequent disparity between a book’s intrinsic quality and its sales. Paul Harding and I had this conversation, and many others, along the way. There’s only so much that a publisher can do to attract publicity for a book, and wherever possible the author should be a willing participant in the process. Paul had been a touring rock-and-roll drummer, so he understood publicity and marketing as performance and was well aware of the vagaries of the marketplace. He was game to do what was necessary to get attention for the book and recognized that opportunities were likely to be rare.
+
+We dedicate a lot of energy to launching each one of our books, but the results of our efforts can vary widely. The experience of editing Tinkers—if we understand “editing” to include engagement in the full process of bringing the book to readers, including book design, production, marketing, and publicity—turned out to be exceptional. The book came to us with the endorsements of three highly regarded literary writers: Marilynne Robinson, Barry Unsworth, and Elizabeth McCracken. We were lucky to have found a cover designer whose photograph represented our (and the author’s) vision of the emotional atmosphere of the book and to have chosen a format that was attractive to people. I’m convinced that the combination of blurbs and book design got people to pick up and open Tinkers, and when they started reading, many wanted to read further.
+
+I’d always heard of the importance of “word of mouth,” but this was the first time I’ve directly observed the phenomenon. Mostly we editors toil away in isolation and rarely have the opportunity to hear from readers of the books we love. For Tinkers there was an extraordinary outpouring, beginning with our first “outside” reader, the then co-editorial director of Publishers Weekly, Michael Coffey. Within a day or two of my handing the bound page proofs to him over lunch, as he read through the book, he wrote me a series of notes of praise for the writing, comparing Paul to other modern writers whom he admired. At sales conference, having read the bound proofs we provided before the meeting, our sales rep for the San Francisco area, Lise Solomon, declared that she was intent on making Tinkers a bestseller and she and her colleagues inspired two booksellers to commission special limited-edition versions for their subscription book clubs. Postpublication but pre-Pulitzer, the book received over twenty-five excellent reviews in major newspapers and other media, won the PEN / Robert W. Bingham Prize, and was nominated for other notable awards.
+
+A young bookstore events manager, Michele Filgate, broadcast her love for the book to readers early, often—and decisively when she signaled it to Rebecca Sinkler during New Hampshire Writers’ Day, without knowing that Sinkler was the chair of the fiction jury for the Pulitzer Prize that year. When Sinkler returned home that evening, she mentioned the book to her husband, who downloaded it to his Kindle, read it, and recommended that she take a look at it. It became her choice, and then that of the full committee, for the Pulitzer Prize.
+
+Any link of that chain might have broken and what New York Times critic Motoko Rich deemed “perhaps the most dramatic literary Cinderella story of recent memory”2 would never have been written. To once again quote Paul Harding: “Go, Art!”

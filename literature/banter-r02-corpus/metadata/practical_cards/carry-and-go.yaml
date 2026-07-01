@@ -1,0 +1,67 @@
+# R-02 practical cards — carry-and-go (P-G)
+pillar_moniker: carry-and-go
+pillar_ids: [P-G]
+lane: L1
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#carry-and-go
+
+source_ingests:
+  - literature/ingests/mckay_2013_act_interpersonal_problems_ch03_chapter_ingest.md
+  - literature/ingests/mckay_2013_interpersonal_problems_workbook_ch05_chapter_ingest.md
+
+cards:
+  - exercise_name: Monsters on the Bus
+    steps:
+      - Visualize schema thoughts and feelings as passengers on a bus — you are the driver (B04 Ch3 monsters-on-the-bus).
+      - Acknowledge passengers (shame, defectiveness, rejection predictions) without letting them steer (B04 creative hopelessness).
+      - State valued direction — where the bus goes when aligned with relationship values (B04 valued intentions).
+      - Drive — take action while passengers remain aboard (willingness = carry pain without SCB).
+    cognitive_frame: Primary schema pain is expected; SCBs add secondary suffering — willingness is feel the first without doing the second (C-B04_CH05-005).
+    observables:
+      - Operator names "primary pain" vs "cancel/avoid urge" in debrief
+      - Takes values step despite embarrassment thought remaining
+    contraindications:
+      - willingness framed as bulldozing partner boundary
+      - monsters metaphor used to suppress legitimate stop signals from partner
+    source_anchor: C-B04_CH05-005 · mckay_2013_act_interpersonal_problems_ch03_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#carry-and-go
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full
+
+  - exercise_name: Dropping the Rope
+    steps:
+      - Identify tug-of-war with a fused thought — pulling increases struggle (B04 ACT-IP defusion metaphors).
+      - Drop the rope — stop debating or suppressing the thought content (B04 Dropping the Rope hook).
+      - Reorient to valued action in the interpersonal domain (B04 protocol sessions 5–6 defusion).
+      - Record workability — did avoidance decrease when rope dropped? (four key questions link).
+    cognitive_frame: Struggling with thoughts maintains fusion — dropping rope frees hands for values action.
+    observables:
+      - Less verbal self-debate during interaction
+      - Returns to situation after setback rather than long avoidance
+    contraindications:
+      - dropping rope on partner safety concerns — explicit no still stops action
+    source_anchor: C-B04_CH03-002 · mckay_2013_act_interpersonal_problems_ch03_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#carry-and-go
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
+
+  - exercise_name: Exercise 12.1 Emotion Exposure
+    steps:
+      - Visualize dating trigger scene — body scan for sensations (B03 Ch5 structured script).
+      - Label thoughts and notice urges without acting on SCB (attack/cling/withdraw) (B03 Ch5).
+      - Stay until emotional wave shifts — no reassurance seeking or escape (B03 exposure rules).
+      - After wave — recall values intention and plan one values action (B03 Ch5 post-trigger sequence).
+    cognitive_frame: Carry schema pain while acting — exposure watches without avoidance, acting on emotion, or rumination.
+    observables:
+      - Operator completes visualization before in-vivo step
+      - Names urge to cancel date/message and chooses values action instead
+    contraindications:
+      - emotion exposure used to avoid real-world ask
+      - attack/cling/withdraw SCBs as dating tactics (σ−)
+    source_anchor: C-B03_CH05-001 · mckay_2013_interpersonal_problems_workbook_ch05_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#carry-and-go
+    operator_fit_tags: [dating-IRL]
+    quality_level: full

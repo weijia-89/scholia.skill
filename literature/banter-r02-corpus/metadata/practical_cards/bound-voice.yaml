@@ -1,0 +1,68 @@
+# R-02 practical cards — bound-voice (P-R/S)
+pillar_moniker: bound-voice
+pillar_ids: [P-R, P-S]
+lane: L4
+wire_status: wired
+generated: 2026-06-26
+extract_pass: practical_cards_v1
+consumer: aletheia.skill
+aletheia_wire: references/model/operator-self-module.md#bound-voice
+
+source_ingests:
+  - literature/ingests/braiker_2000_disease_to_please_ch19_chapter_ingest.md
+  - literature/ingests/hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+
+cards:
+  - exercise_name: Broken Record Technique
+    steps:
+      - Acknowledge what the other person wants — without agreeing (Braiker DAY 2 Broken Record).
+      - State your boundary message in clear, calm language (C-EXTB03_CH19-003).
+      - Repeat the same message when pressured — do not add new justifications each round (Braiker Ch19).
+      - Maintain firm pleasant tone — preserves relationship while holding limit (Braiker finding).
+    cognitive_frame: Broken Record skeleton — hear what they want; my answer stays the same (pillar P-R practical).
+    observables:
+      - Boundary repeated without escalation or apology spiral
+      - Operator exits warmly if pressure continues after clear no
+    contraindications:
+      - persistence-after-no from operator (σ−)
+      - Broken Record to wear down explicit refusal from partner
+    source_anchor: C-EXTB03_CH19-003 · braiker_2000_disease_to_please_ch19_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#bound-voice
+    operator_fit_tags: [dating-IRL, dating-online]
+    quality_level: full
+
+  - exercise_name: Doormat / Sword / Lantern Map
+    steps:
+      - Identify default stance under boundary pressure — Doormat, Sword, or Lantern (Hanks Ch7).
+      - Doormat — note people-pleasing and fear of rejection driving yes (Hanks Ch7).
+      - Sword — note sarcasm or protective aggression (Hanks Ch7).
+      - Practice Lantern — direct boundary plus openness to her perspective (Hanks Lantern Stance Scenarios).
+    cognitive_frame: Passive and aggressive styles rarely work — assertive is direct and clear, not sharp (Antony Ch10 wire in concept-and-tone).
+    observables:
+      - Operator names stance in debrief
+      - Rewrites toward Lantern after HUMOR-AGGRESSIVE or MANIP-BOUNDPUSH WARN
+    contraindications:
+      - Sword as dominance flirt
+      - Doormat yes followed by resentment leak
+    source_anchor: C-EXTB02_CH02-004 · hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#bound-voice
+    operator_fit_tags: [dating-IRL]
+    quality_level: full
+
+  - exercise_name: Boundary Porous vs Rigid Assessment
+    steps:
+      - Rate boundary style — porous (over-accommodate) vs rigid (block intimacy) (Hanks Ch8 Boundary assessment).
+      - Wait until emotions reach wise mind before assertive time request (Hanks Ch8).
+      - Practice saying no as fundamental act of differentiation (Hanks Ch8 finding).
+      - Use I-feel/I-think stems for non-blaming feedback when boundary crossed (Hanks Ch8).
+    cognitive_frame: Conflict exposure reduces conflict phobia — boundaries are skills reps not identity (Braiker ch15/35 pillar P-S).
+    observables:
+      - Operator declines unwanted request without over-apology
+      - Maintains connection tone while holding no
+    contraindications:
+      - rigid boundary as punishment silence
+      - porous boundary then ghosting instead of direct decline
+    source_anchor: C-EXTB02_CH08-002 · hanks_2016_assertiveness_women_ch02_chapter_ingest.md
+    aletheia_wire: references/model/operator-self-module.md#bound-voice
+    operator_fit_tags: [dating-online, dating-IRL]
+    quality_level: full
